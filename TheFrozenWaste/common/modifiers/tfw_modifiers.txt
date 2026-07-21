@@ -1,0 +1,9 @@
+﻿raf_at_peace = {
+	icon = county_modifier_development_positive
+	development_growth = 1
+}
+
+raf_at_war = {
+	icon = county_modifier_development_negative
+	development_decline = -0.5
+}

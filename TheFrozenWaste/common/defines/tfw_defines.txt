@@ -1,0 +1,10 @@
+﻿
+
+#LotR: edited waterlevel
+NJominiMap = {
+	WORLD_EXTENTS_X = 8191
+	WORLD_EXTENTS_Y = 51
+	WORLD_EXTENTS_Z = 6031
+	WATERLEVEL = 5.6
+}
+

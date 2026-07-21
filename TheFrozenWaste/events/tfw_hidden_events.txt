@@ -1,0 +1,38 @@
+﻿namespace = raf
+
+raf.1 = { # integrate the southern provinces
+	hidden = yes
+ 	scope = none
+	
+	
+	immediate = {
+		every_ruler = { 
+			limit = {
+				is_wastelands = no #Tom doesn't care much about you
+				is_in_valinor = no #Valinoreans don't, either
+			}
+			remove_character_modifier = raf_at_war
+			remove_character_modifier = raf_at_peace
+			if = {
+				limit = {
+					OR = {
+						is_at_war = yes
+						any_liege_or_above = {
+							is_at_war = yes
+						}
+					}	
+				}
+				add_character_modifier = raf_at_war
+			}
+			else = {
+				
+				add_character_modifier = raf_at_peace
+			}
+				
+			
+			
+		}
+		
+	}
+}
+
