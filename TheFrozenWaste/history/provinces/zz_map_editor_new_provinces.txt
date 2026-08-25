@@ -1,0 +1,2538 @@
+﻿# capital — b_evermist_15
+7983 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_evermist_10
+7984 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_narthalf_13
+7985 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_minheldolath_11
+7986 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+7987 = {
+	holding = none
+}
+# capital — b_evermist_4
+7988 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_minheldolath_77
+7989 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_minheldolath_79
+7990 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_helfalas_11
+7991 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_frost_isle_1
+7992 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_frost_isle_9
+7993 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_frost_isle_4
+7994 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_frost_isle_3
+7995 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_frost_isle_2
+7997 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_frost_isle_5
+7998 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_frost_isle_6
+7999 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_frost_isle_7
+8000 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_frost_isle_8_achrond
+8001 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_tol_feredir_4
+8002 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_tol_feredir_6
+8003 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8004 = {
+	holding = none
+}
+# capital — b_narthalf_14
+8005 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_minheldolath_8
+8006 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_gondolf_19
+8007 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_minheldolath_84
+8008 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_minheldolath_80
+8009 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_minheldolath_47
+8010 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_gondolf_2
+8011 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8012 = {
+	holding = none
+}
+# capital — b_narthalf_23
+8013 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_evermist_13
+8014 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_narthalf_6
+8015 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8016 = {
+	holding = none
+}
+# capital — b_minheldolath_41
+8017 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_minheldolath_54
+8018 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_minheldolath_25
+8019 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_helfalas_1
+8020 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8021 = {
+	holding = none
+}
+# capital — b_minheldolath_64
+8022 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_minheldolath_66
+8023 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_gondolf_5
+8024 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_minheldolath_32
+8025 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_minheldolath_57
+8026 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8027 = {
+	holding = none
+}
+8028 = {
+	holding = none
+}
+# capital — b_gondolf_9
+8029 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8030 = {
+	holding = none
+}
+# capital — b_province_13331
+8031 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8032 = {
+	holding = none
+}
+# capital — b_minheldolath_58
+8033 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8034 = {
+	holding = none
+}
+# capital — b_minheldolath_44
+8035 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8036 = {
+	holding = none
+}
+# capital — b_helfalas_21
+8037 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_iron_spine_pass_3
+8038 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_gondolf_1
+8039 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8040 = {
+	holding = none
+}
+# capital — b_helfalas_7
+8041 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_minheldolath_69
+8042 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8043 = {
+	holding = none
+}
+# capital — b_minheldolath_21
+8044 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8045 = {
+	holding = none
+}
+# capital — b_narthalf_1
+8046 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_minheldolath_1
+8047 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8048 = {
+	holding = none
+}
+8049 = {
+	holding = none
+}
+8050 = {
+	holding = none
+}
+8051 = {
+	holding = none
+}
+# capital — b_minheldolath_51
+8052 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8053 = {
+	holding = none
+}
+# capital — b_minheldolath_34
+8054 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_minheldolath_5
+8055 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_minheldolath_5
+8056 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_minheldolath_6
+8057 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8058 = {
+	holding = none
+}
+# capital — b_province_13378
+8059 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8060 = {
+	holding = none
+}
+# capital — b_province_13389
+8061 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8062 = {
+	holding = none
+}
+# capital — b_tol_feredir_1
+8070 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8071 = {
+	holding = none
+}
+8072 = {
+	holding = none
+}
+8073 = {
+	holding = none
+}
+8074 = {
+	holding = none
+}
+8075 = {
+	holding = none
+}
+# capital — b_morgoths_well_1
+8076 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_ruinfalas_33
+8084 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_rast_losnaeth_18
+8087 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_rast_losnaeth_14
+8088 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_ruinfalas_23
+8089 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_rast_losnaeth_11
+8090 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_ruinfalas_1
+8091 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_ruinfalas_16
+8092 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_rast_losnaeth_7
+8093 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_ruinfalas_28
+8094 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8095 = {
+	holding = none
+}
+8096 = {
+	holding = none
+}
+8097 = {
+	holding = none
+}
+# capital — b_ruinfalas_35
+8098 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8099 = {
+	holding = none
+}
+# capital — b_rast_losnaeth_3
+8100 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8101 = {
+	holding = none
+}
+# capital — b_ruinfalas_9
+8102 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8103 = {
+	holding = none
+}
+8104 = {
+	holding = none
+}
+# capital — b_province_13666
+8105 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_thangorodrim_3
+8106 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8107 = {
+	holding = none
+}
+8108 = {
+	holding = none
+}
+8109 = {
+	holding = none
+}
+# capital — b_iron_spine_5
+8126 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_iron_spine_4
+8127 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_north_iron_mountains_8
+8128 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_iron_spine_1
+8129 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_iron_spine_3
+8130 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_iron_spine_2
+8131 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_iron_spine_6
+8132 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_iron_spine_pass_1
+8133 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_iron_mountain_24
+8134 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_iron_mountain_33
+8135 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8136 = {
+	holding = none
+}
+# capital — b_iron_mountain_20
+8137 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8138 = {
+	holding = none
+}
+# capital — b_iron_spine_13
+8139 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8140 = {
+	holding = none
+}
+# capital — b_province_13870
+8141 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8142 = {
+	holding = none
+}
+8143 = {
+	holding = none
+}
+8144 = {
+	holding = none
+}
+# capital — b_north_iron_mountains_1
+8145 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_north_iron_mountains_3
+8146 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8147 = {
+	holding = none
+}
+8148 = {
+	holding = none
+}
+8149 = {
+	holding = none
+}
+# capital — b_north_iron_mountains_7
+8150 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8151 = {
+	holding = none
+}
+# capital — b_north_iron_mountains_11
+8152 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8153 = {
+	holding = none
+}
+# capital — b_north_iron_mountains_12
+8154 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8155 = {
+	holding = none
+}
+# capital — b_iron_spine_9
+8156 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_iron_spine_11
+8157 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8158 = {
+	holding = none
+}
+8159 = {
+	holding = none
+}
+8160 = {
+	holding = none
+}
+# capital — b_iron_mountain_1
+8161 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8162 = {
+	holding = none
+}
+8163 = {
+	holding = none
+}
+8164 = {
+	holding = none
+}
+# capital — b_iron_mountain_5
+8165 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8166 = {
+	holding = none
+}
+8167 = {
+	holding = none
+}
+8168 = {
+	holding = none
+}
+# capital — b_iron_mountain_10
+8169 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8170 = {
+	holding = none
+}
+8171 = {
+	holding = none
+}
+8172 = {
+	holding = none
+}
+8173 = {
+	holding = none
+}
+8174 = {
+	holding = none
+}
+8175 = {
+	holding = none
+}
+# capital — b_iron_mountain_13
+8176 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_iron_mountain_25
+8177 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8178 = {
+	holding = none
+}
+8179 = {
+	holding = none
+}
+8180 = {
+	holding = none
+}
+8181 = {
+	holding = none
+}
+8182 = {
+	holding = none
+}
+8183 = {
+	holding = none
+}
+8184 = {
+	holding = none
+}
+8185 = {
+	holding = none
+}
+8186 = {
+	holding = none
+}
+8187 = {
+	holding = none
+}
+8188 = {
+	holding = none
+}
+8189 = {
+	holding = none
+}
+8190 = {
+	holding = none
+}
+8191 = {
+	holding = none
+}
+8192 = {
+	holding = none
+}
+# capital — b_gondolf_12
+8193 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8194 = {
+	holding = none
+}
+8195 = {
+	holding = none
+}
+# capital — b_gondolf_17
+8196 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8197 = {
+	holding = none
+}
+8198 = {
+	holding = none
+}
+8199 = {
+	holding = none
+}
+8200 = {
+	holding = none
+}
+# capital — b_helfalas_4
+8201 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8202 = {
+	holding = none
+}
+8203 = {
+	holding = none
+}
+8204 = {
+	holding = none
+}
+8205 = {
+	holding = none
+}
+8206 = {
+	holding = none
+}
+8207 = {
+	holding = none
+}
+# capital — b_helfalas_16
+8208 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8209 = {
+	holding = none
+}
+8210 = {
+	holding = none
+}
+8211 = {
+	holding = none
+}
+8212 = {
+	holding = none
+}
+8213 = {
+	holding = none
+}
+8214 = {
+	holding = none
+}
+8215 = {
+	holding = none
+}
+8216 = {
+	holding = none
+}
+8217 = {
+	holding = none
+}
+# capital — b_narthalf_8
+8218 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8219 = {
+	holding = none
+}
+8220 = {
+	holding = none
+}
+8221 = {
+	holding = none
+}
+8222 = {
+	holding = none
+}
+8223 = {
+	holding = none
+}
+8224 = {
+	holding = none
+}
+# capital — b_narthalf_20
+8225 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_narthalf_22
+8226 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8227 = {
+	holding = none
+}
+# capital — b_narthalf_25
+8228 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_evermist_2
+8229 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8230 = {
+	holding = none
+}
+8231 = {
+	holding = none
+}
+8232 = {
+	holding = none
+}
+8233 = {
+	holding = none
+}
+8234 = {
+	holding = none
+}
+8235 = {
+	holding = none
+}
+8236 = {
+	holding = none
+}
+8237 = {
+	holding = none
+}
+8238 = {
+	holding = none
+}
+8239 = {
+	holding = none
+}
+8240 = {
+	holding = none
+}
+8241 = {
+	holding = none
+}
+8242 = {
+	holding = none
+}
+8243 = {
+	holding = none
+}
+8244 = {
+	holding = none
+}
+8245 = {
+	holding = none
+}
+8246 = {
+	holding = none
+}
+8247 = {
+	holding = none
+}
+# capital — b_minheldolath_14
+8248 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8249 = {
+	holding = none
+}
+8250 = {
+	holding = none
+}
+# capital — b_minheldolath_17
+8251 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8252 = {
+	holding = none
+}
+8253 = {
+	holding = none
+}
+8254 = {
+	holding = none
+}
+8255 = {
+	holding = none
+}
+8256 = {
+	holding = none
+}
+8257 = {
+	holding = none
+}
+# capital — b_minheldolath_27
+8258 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8259 = {
+	holding = none
+}
+8260 = {
+	holding = none
+}
+8261 = {
+	holding = none
+}
+8262 = {
+	holding = none
+}
+8263 = {
+	holding = none
+}
+8264 = {
+	holding = none
+}
+8265 = {
+	holding = none
+}
+8266 = {
+	holding = none
+}
+# capital — b_minheldolath_38
+8267 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8268 = {
+	holding = none
+}
+8269 = {
+	holding = none
+}
+8270 = {
+	holding = none
+}
+8271 = {
+	holding = none
+}
+8272 = {
+	holding = none
+}
+8273 = {
+	holding = none
+}
+8274 = {
+	holding = none
+}
+8275 = {
+	holding = none
+}
+8276 = {
+	holding = none
+}
+8277 = {
+	holding = none
+}
+8278 = {
+	holding = none
+}
+8279 = {
+	holding = none
+}
+# capital — b_minheldolath_62
+8280 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8281 = {
+	holding = none
+}
+8282 = {
+	holding = none
+}
+8283 = {
+	holding = none
+}
+8284 = {
+	holding = none
+}
+8285 = {
+	holding = none
+}
+8286 = {
+	holding = none
+}
+8287 = {
+	holding = none
+}
+8288 = {
+	holding = none
+}
+8289 = {
+	holding = none
+}
+8290 = {
+	holding = none
+}
+8291 = {
+	holding = none
+}
+8292 = {
+	holding = none
+}
+8293 = {
+	holding = none
+}
+8294 = {
+	holding = none
+}
+8295 = {
+	holding = none
+}
+8296 = {
+	holding = none
+}
+8297 = {
+	holding = none
+}
+8298 = {
+	holding = none
+}
+8299 = {
+	holding = none
+}
+8300 = {
+	holding = none
+}
+8301 = {
+	holding = none
+}
+8302 = {
+	holding = none
+}
+8303 = {
+	holding = none
+}
+8304 = {
+	holding = none
+}
+8305 = {
+	holding = none
+}
+# capital — b_ruinfalas_2
+8306 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_ruinfalas_3
+8307 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8308 = {
+	holding = none
+}
+8309 = {
+	holding = none
+}
+8310 = {
+	holding = none
+}
+8311 = {
+	holding = none
+}
+8312 = {
+	holding = none
+}
+8313 = {
+	holding = none
+}
+8314 = {
+	holding = none
+}
+8315 = {
+	holding = none
+}
+# capital — b_ruinfalas_13
+8316 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8317 = {
+	holding = none
+}
+8318 = {
+	holding = none
+}
+8319 = {
+	holding = none
+}
+8320 = {
+	holding = none
+}
+# capital — b_ruinfalas_20
+8321 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8322 = {
+	holding = none
+}
+8323 = {
+	holding = none
+}
+8324 = {
+	holding = none
+}
+8325 = {
+	holding = none
+}
+8326 = {
+	holding = none
+}
+8327 = {
+	holding = none
+}
+# capital — b_ruinfalas_30
+8328 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8329 = {
+	holding = none
+}
+8330 = {
+	holding = none
+}
+8331 = {
+	holding = none
+}
+8332 = {
+	holding = none
+}
+8333 = {
+	holding = none
+}
+8334 = {
+	holding = none
+}
+# capital — b_ruinfalas_39
+8335 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8336 = {
+	holding = none
+}
+# capital — b_morgoths_well_2
+8337 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_morgoths_well_3
+8338 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_morgoths_well_4
+8339 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_morgoths_well_5
+8340 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8341 = {
+	holding = none
+}
+# capital — b_muilfalas_2
+8342 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8343 = {
+	holding = none
+}
+# capital — b_muilfalas_4
+8344 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8345 = {
+	holding = none
+}
+8346 = {
+	holding = none
+}
+8347 = {
+	holding = none
+}
+# capital — b_muilfalas_8
+8348 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8349 = {
+	holding = none
+}
+8350 = {
+	holding = none
+}
+8351 = {
+	holding = none
+}
+# capital — b_muilfalas_12
+8352 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8353 = {
+	holding = none
+}
+8354 = {
+	holding = none
+}
+8355 = {
+	holding = none
+}
+# capital — b_muilfalas_16
+8356 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8357 = {
+	holding = none
+}
+8358 = {
+	holding = none
+}
+8359 = {
+	holding = none
+}
+# capital — b_ailindalf_3
+8360 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_ailindalf_4
+8361 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8362 = {
+	holding = none
+}
+8363 = {
+	holding = none
+}
+8364 = {
+	holding = none
+}
+8365 = {
+	holding = none
+}
+# capital — b_ailindalf_9
+8366 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8367 = {
+	holding = none
+}
+8368 = {
+	holding = none
+}
+8369 = {
+	holding = none
+}
+8370 = {
+	holding = none
+}
+# capital — b_ailindalf_14
+8371 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8372 = {
+	holding = none
+}
+8373 = {
+	holding = none
+}
+8374 = {
+	holding = none
+}
+8375 = {
+	holding = none
+}
+# capital — b_ailindalf_19
+8376 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8377 = {
+	holding = none
+}
+# capital — b_ailindalf_21
+8378 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8379 = {
+	holding = none
+}
+8380 = {
+	holding = none
+}
+# capital — b_ailindalf_24
+8381 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8382 = {
+	holding = none
+}
+# capital — b_ailindalf_26
+8383 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8384 = {
+	holding = none
+}
+8385 = {
+	holding = none
+}
+8386 = {
+	holding = none
+}
+# capital — b_ailindalf_30
+8387 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8388 = {
+	holding = none
+}
+8389 = {
+	holding = none
+}
+# capital — b_ailindalf_34
+8390 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8391 = {
+	holding = none
+}
+8392 = {
+	holding = none
+}
+8393 = {
+	holding = none
+}
+# capital — b_ailindalf_38
+8394 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_ailindalf_39
+8395 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8396 = {
+	holding = none
+}
+8397 = {
+	holding = none
+}
+# capital — b_ailindalf_42
+8398 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8399 = {
+	holding = none
+}
+8400 = {
+	holding = none
+}
+# capital — b_ailindalf_45
+8401 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8402 = {
+	holding = none
+}
+8403 = {
+	holding = none
+}
+8404 = {
+	holding = none
+}
+# capital — b_ailindalf_49
+8405 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8406 = {
+	holding = none
+}
+8407 = {
+	holding = none
+}
+8408 = {
+	holding = none
+}
+8409 = {
+	holding = none
+}
+8410 = {
+	holding = none
+}
+8411 = {
+	holding = none
+}
+# capital — b_lindalf_2
+8412 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8413 = {
+	holding = none
+}
+# capital — b_lindalf_4
+8414 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8415 = {
+	holding = none
+}
+8416 = {
+	holding = none
+}
+# capital — b_lindalf_7
+8417 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8418 = {
+	holding = none
+}
+8419 = {
+	holding = none
+}
+8420 = {
+	holding = none
+}
+8421 = {
+	holding = none
+}
+8422 = {
+	holding = none
+}
+# capital — b_lindalf_13
+8423 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8424 = {
+	holding = none
+}
+8425 = {
+	holding = none
+}
+# capital — b_lindalf_16
+8426 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_lindalf_17
+8427 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8428 = {
+	holding = none
+}
+# capital — b_lindalf_19
+8429 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8430 = {
+	holding = none
+}
+8431 = {
+	holding = none
+}
+8432 = {
+	holding = none
+}
+# capital — b_lindalf_23
+8433 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8434 = {
+	holding = none
+}
+8435 = {
+	holding = none
+}
+8436 = {
+	holding = none
+}
+# capital — b_lindalf_27
+8437 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8438 = {
+	holding = none
+}
+# capital — b_lindalf_29
+8439 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8440 = {
+	holding = none
+}
+8441 = {
+	holding = none
+}
+# capital — b_lindalf_32
+8442 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8443 = {
+	holding = none
+}
+# capital — b_lindalf_34
+8444 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_lindalf_35
+8445 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8446 = {
+	holding = none
+}
+# capital — b_lindalf_37
+8447 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8448 = {
+	holding = none
+}
+8449 = {
+	holding = none
+}
+8450 = {
+	holding = none
+}
+8451 = {
+	holding = none
+}
+8452 = {
+	holding = none
+}
+8453 = {
+	holding = none
+}
+8454 = {
+	holding = none
+}
+8455 = {
+	holding = none
+}
+8456 = {
+	holding = none
+}
+8457 = {
+	holding = none
+}
+8458 = {
+	holding = none
+}
+# capital — b_lindalf_49
+8459 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8460 = {
+	holding = none
+}
+8461 = {
+	holding = none
+}
+8462 = {
+	holding = none
+}
+8463 = {
+	holding = none
+}
+8464 = {
+	holding = none
+}
+8465 = {
+	holding = none
+}
+# capital — b_taurethon_2
+8466 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8467 = {
+	holding = none
+}
+# capital — b_taurethon_4
+8468 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8469 = {
+	holding = none
+}
+8470 = {
+	holding = none
+}
+8471 = {
+	holding = none
+}
+# capital — b_taurethon_8
+8472 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8473 = {
+	holding = none
+}
+8474 = {
+	holding = none
+}
+# capital — b_taurethon_11
+8475 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8476 = {
+	holding = none
+}
+8477 = {
+	holding = none
+}
+8478 = {
+	holding = none
+}
+# capital — b_taurethon_15
+8479 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8480 = {
+	holding = none
+}
+8481 = {
+	holding = none
+}
+8482 = {
+	holding = none
+}
+8483 = {
+	holding = none
+}
+# capital — b_taurethon_20
+8484 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_taurethon_21
+8485 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8486 = {
+	holding = none
+}
+8487 = {
+	holding = none
+}
+8488 = {
+	holding = none
+}
+8489 = {
+	holding = none
+}
+8490 = {
+	holding = none
+}
+8491 = {
+	holding = none
+}
+8492 = {
+	holding = none
+}
+# capital — b_calendalf_1
+8493 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8494 = {
+	holding = none
+}
+8495 = {
+	holding = none
+}
+8496 = {
+	holding = none
+}
+# capital — b_calendalf_5
+8497 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8498 = {
+	holding = none
+}
+# capital — b_calendalf_7
+8499 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8500 = {
+	holding = none
+}
+8501 = {
+	holding = none
+}
+8502 = {
+	holding = none
+}
+# capital — b_calendalf_11
+8503 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_calendalf_12
+8504 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8505 = {
+	holding = none
+}
+# capital — b_calendalf_14
+8506 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_calendalf_15
+8507 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8508 = {
+	holding = none
+}
+# capital — b_calendalf_17
+8509 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8510 = {
+	holding = none
+}
+# capital — b_calendalf_19
+8511 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8512 = {
+	holding = none
+}
+8513 = {
+	holding = none
+}
+8514 = {
+	holding = none
+}
+8515 = {
+	holding = none
+}
+8516 = {
+	holding = none
+}
+8517 = {
+	holding = none
+}
+8518 = {
+	holding = none
+}
+# capital — b_calendalf_27
+8519 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8520 = {
+	holding = none
+}
+8521 = {
+	holding = none
+}
+8522 = {
+	holding = none
+}
+8523 = {
+	holding = none
+}
+8524 = {
+	holding = none
+}
+8525 = {
+	holding = none
+}
+8526 = {
+	holding = none
+}
+8527 = {
+	holding = none
+}
+8528 = {
+	holding = none
+}
+# capital — b_calendalf_37
+8529 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8530 = {
+	holding = none
+}
+8531 = {
+	holding = none
+}
+8532 = {
+	holding = none
+}
+8533 = {
+	holding = none
+}
+8534 = {
+	holding = none
+}
+# capital — b_calendalf_43
+8535 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8536 = {
+	holding = none
+}
+8537 = {
+	holding = none
+}
+# capital — b_calendalf_46
+8538 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8539 = {
+	holding = none
+}
+8540 = {
+	holding = none
+}
+8541 = {
+	holding = none
+}
+8542 = {
+	holding = none
+}
+8543 = {
+	holding = none
+}
+8544 = {
+	holding = none
+}
+8545 = {
+	holding = none
+}
+8546 = {
+	holding = none
+}
+8547 = {
+	holding = none
+}
+# capital — b_everdalf_2
+8548 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8549 = {
+	holding = none
+}
+# capital — b_everdalf_4
+8550 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+# capital — b_everdalf_5
+8551 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8552 = {
+	holding = none
+}
+# capital — b_everdalf_7
+8553 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8554 = {
+	holding = none
+}
+8555 = {
+	holding = none
+}
+# capital — b_everdalf_10
+8556 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8557 = {
+	holding = none
+}
+8558 = {
+	holding = none
+}
+# capital — b_everdalf_13
+8559 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8560 = {
+	holding = none
+}
+# capital — b_everdalf_15
+8561 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8562 = {
+	holding = none
+}
+# capital — b_everdalf_17
+8563 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8564 = {
+	holding = none
+}
+8565 = {
+	holding = none
+}
+# capital — b_everdalf_20
+8566 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8567 = {
+	holding = none
+}
+8568 = {
+	holding = none
+}
+# capital — b_everdalf_23
+8569 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8570 = {
+	holding = none
+}
+8571 = {
+	holding = none
+}
+# capital — b_everdalf_26
+8572 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8573 = {
+	holding = none
+}
+# capital — b_everdalf_28
+8574 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8575 = {
+	holding = none
+}
+# capital — b_everdalf_30
+8576 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8577 = {
+	holding = none
+}
+# capital — b_everdalf_32
+8578 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8579 = {
+	holding = none
+}
+# capital — b_everdalf_34
+8580 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8581 = {
+	holding = none
+}
+# capital — b_everdalf_36
+8582 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8583 = {
+	holding = none
+}
+8584 = {
+	holding = none
+}
+# capital — b_everdalf_40
+8585 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8586 = {
+	holding = none
+}
+# capital — b_everdalf_42
+8587 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8588 = {
+	holding = none
+}
+8589 = {
+	holding = none
+}
+8590 = {
+	holding = none
+}
+8591 = {
+	holding = none
+}
+8592 = {
+	holding = none
+}
+# capital — b_everdalf_48
+8593 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8594 = {
+	holding = none
+}
+# capital — b_everdalf_50
+8595 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8596 = {
+	holding = none
+}
+8597 = {
+	holding = none
+}
+# capital — b_everdalf_53
+8598 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8599 = {
+	holding = none
+}
+# capital — b_everdalf_55
+8600 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8601 = {
+	holding = none
+}
+8602 = {
+	holding = none
+}
+8603 = {
+	holding = none
+}
+8604 = {
+	holding = none
+}
+8605 = {
+	holding = none
+}
+# capital — b_everdalf_61
+8606 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8607 = {
+	holding = none
+}
+8608 = {
+	holding = none
+}
+8609 = {
+	holding = none
+}
+8610 = {
+	holding = none
+}
+8611 = {
+	holding = none
+}
+8612 = {
+	holding = none
+}
+8613 = {
+	holding = none
+}
+8614 = {
+	holding = none
+}
+8615 = {
+	holding = none
+}
+8616 = {
+	holding = none
+}
+8617 = {
+	holding = none
+}
+# capital — b_everdalf_73
+8618 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8619 = {
+	holding = none
+}
+8620 = {
+	holding = none
+}
+# capital — b_everdalf_76
+8621 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8622 = {
+	holding = none
+}
+8623 = {
+	holding = none
+}
+8624 = {
+	holding = none
+}
+8625 = {
+	holding = none
+}
+8626 = {
+	holding = none
+}
+8627 = {
+	holding = none
+}
+8628 = {
+	holding = none
+}
+8629 = {
+	holding = none
+}
+8630 = {
+	holding = none
+}
+# capital — b_everdalf_86
+8631 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8632 = {
+	holding = none
+}
+8633 = {
+	holding = none
+}
+8634 = {
+	holding = none
+}
+8635 = {
+	holding = none
+}
+8636 = {
+	holding = none
+}
+8637 = {
+	holding = none
+}
+8638 = {
+	holding = none
+}
+# capital — b_everdalf_94
+8639 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8640 = {
+	holding = none
+}
+8641 = {
+	holding = none
+}
+8642 = {
+	holding = none
+}
+# capital — b_everdalf_98
+8643 = {
+	culture = gondorian
+	religion = faith_edain
+	holding = castle_holding
+}
+8644 = {
+	holding = none
+}
+8645 = {
+	holding = none
+}
+8646 = {
+	holding = none
+}
+8647 = {
+	holding = none
+}
+8648 = {
+	holding = none
+}
+8649 = {
+	holding = none
+}
+8650 = {
+	holding = none
+}
+8651 = {
+	holding = none
+}
+8652 = {
+	holding = none
+}
+8653 = {
+	holding = none
+}
+8654 = {
+	holding = none
+}
+8655 = {
+	holding = none
+}
+8656 = {
+	holding = none
+}

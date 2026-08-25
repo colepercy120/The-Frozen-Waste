@@ -1,0 +1,33 @@
+# Island regions - no land path from the continent
+# The AI needs these to optimize path finding
+#
+# NOTE: do not add any regions here that are NOT islands
+#
+# Island regions can be declared with one or more of the following fields:
+#	duchies = { }, takes county title names declared in landed_titles.txt
+#	counties = { }, takes county title names declared in landed_titles.txt
+#	provinces = { }, takes province id numbers declared in /history/provinces
+
+island_region_tolfalas = {
+	counties = { c_hartolfalas c_fortolfalas }
+}
+
+island_region_uialgaer = {
+	counties = { c_tol_uialgaer }
+}
+
+island_region_lonely_isles = {
+	counties = { c_lonely_isles }
+}
+
+island_region_pelican_isles = {
+	counties = { c_pelican_isles }
+}
+
+island_region_sunira = {
+	counties = { c_sunira }
+}
+
+island_region_andunaloni = {
+	counties = { c_himring c_aeluin c_anach c_ladros c_dorthonion }
+}

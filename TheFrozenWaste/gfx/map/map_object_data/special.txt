@@ -1,0 +1,700 @@
+﻿object={
+	name="ep2_building_special_canterbury_01_mesh"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="ep2_building_special_canterbury_01_mesh"
+	count=0
+}
+object={
+	name="ep2_building_special_canterbury_02_mesh"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="ep2_building_special_canterbury_02_mesh"
+	count=0
+}
+object={
+	name="ep2_building_special_canterbury_03_mesh"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="ep2_building_special_canterbury_03_mesh"
+	count=0
+}
+object={
+	name="ep3_athos_monasteries_01_a_mesh"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="ep3_athos_monasteries_01_a_mesh"
+	count=0
+}
+object={
+	name="ep3_athos_monasteries_01_b_mesh"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="ep3_athos_monasteries_01_b_mesh"
+	count=0
+}
+object={
+	name="ep3_basilica_sant_apollinare_nuovo_mesh"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="ep3_basilica_sant_apollinare_nuovo_mesh"
+	count=0
+}
+object={
+	name="ep3_cattolica_di_stilo_mesh"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="ep3_cattolica_di_stilo_mesh"
+	count=0
+}
+object={
+	name="ep3_church_saint_lazarus_mesh"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="ep3_church_saint_lazarus_mesh"
+	count=0
+}
+object={
+	name="ep3_church_saint_sophia_ohrid_01_a_mesh"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="ep3_church_saint_sophia_ohrid_01_a_mesh"
+	count=0
+}
+object={
+	name="ep3_cilician_gates_mesh"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="ep3_cilician_gates_mesh"
+	count=0
+}
+object={
+	name="ep3_constantinople_sprawl_mesh"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="ep3_constantinople_sprawl_mesh"
+	count=1
+	transform="3781.078369 0.000000 2210.798096 0.000000 0.844928 0.000000 -0.534880 0.906201 0.906201 0.906201
+"}
+object={
+	name="ep3_despots_palace_mesh"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="ep3_despots_palace_mesh"
+	count=0
+}
+object={
+	name="ep3_etchmiadzin_cathedral_01_a_mesh"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="ep3_etchmiadzin_cathedral_01_a_mesh"
+	count=0
+}
+object={
+	name="ep3_fairy_chimneys_01_a_mesh"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="ep3_fairy_chimneys_01_a_mesh"
+	count=0
+}
+object={
+	name="ep3_hagios_demetrios_01_a_mesh"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="ep3_hagios_demetrios_01_a_mesh"
+	count=0
+}
+object={
+	name="ep3_jvari_monastery_01_a_mesh"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="ep3_jvari_monastery_01_a_mesh"
+	count=0
+}
+object={
+	name="ep3_maidens_tower_01_a_mesh"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="ep3_maidens_tower_01_a_mesh"
+	count=0
+}
+object={
+	name="ep3_meteora_01_mesh"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="ep3_meteora_01_mesh"
+	count=0
+}
+object={
+	name="ep3_meteora_02_mesh"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="ep3_meteora_02_mesh"
+	count=0
+}
+object={
+	name="ep3_monument_parthenon_01_b_mesh"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="ep3_monument_parthenon_01_b_mesh"
+	count=0
+}
+object={
+	name="ep3_patras_castle_01_a_mesh"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="ep3_patras_castle_01_a_mesh"
+	count=1
+	transform="4330.102051 0.000000 3202.608643 0.000000 0.487227 0.000000 0.873276 1.000000 1.000000 1.000000
+"}
+object={
+	name="ep3_saint_catherine_monastery_mesh"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="ep3_saint_catherine_monastery_mesh"
+	count=0
+}
+object={
+	name="ep3_sumela_monastery_01_a_mesh"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="ep3_sumela_monastery_01_a_mesh"
+	count=0
+}
+object={
+	name="fp2_building_special_alcazar_de_segovia_01_a_mesh"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="fp2_building_special_alcazar_de_segovia_01_a_mesh"
+	count=0
+}
+object={
+	name="fp2_building_special_alhambra_01_mesh"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="fp2_building_special_alhambra_01_mesh"
+	count=0
+}
+object={
+	name="fp2_building_special_aljaferia_mesh"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="fp2_building_special_aljaferia_mesh"
+	count=1
+	transform="5070.408203 0.000000 3363.055908 0.000000 0.701344 0.000000 0.712822 0.849270 0.849270 0.849270
+"}
+object={
+	name="fp2_building_special_basilica_santiago_mesh"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="fp2_building_special_basilica_santiago_mesh"
+	count=0
+}
+object={
+	name="fp2_building_special_rock_of_gibraltar_01_a_mesh"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="fp2_building_special_rock_of_gibraltar_01_a_mesh"
+	count=0
+}
+object={
+	name="fp2_building_special_roman_wall_of_lugo_01_a_mesh"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="fp2_building_special_roman_wall_of_lugo_01_a_mesh"
+	count=0
+}
+object={
+	name="fp2_building_special_toledo_city_walls_01_a_mesh"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="fp2_building_special_toledo_city_walls_01_a_mesh"
+	count=1
+	transform="4983.792969 0.000000 4136.002441 0.000000 -0.349517 0.000000 0.936930 0.524219 0.524219 0.524219
+"}
+object={
+	name="fp2_building_special_tower_of_hercules_mesh"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="fp2_building_special_tower_of_hercules_mesh"
+	count=1
+	transform="3323.645264 0.000000 2606.195312 0.000000 0.999863 0.000000 -0.016575 1.000000 1.000000 1.000000
+"}
+object={
+	name="fp3_building_special_alamut_castle_01_a_mesh"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="fp3_building_special_alamut_castle_01_a_mesh"
+	count=0
+}
+object={
+	name="fp3_building_special_ark_of_bukhara_mesh"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="fp3_building_special_ark_of_bukhara_mesh"
+	count=0
+}
+object={
+	name="fp3_building_special_falak_ol_aflak_citadel_01_a_mesh"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="fp3_building_special_falak_ol_aflak_citadel_01_a_mesh"
+	count=0
+}
+object={
+	name="fp3_building_special_great_mosque_of_samarra_01_a_mesh"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="fp3_building_special_great_mosque_of_samarra_01_a_mesh"
+	count=0
+}
+object={
+	name="fp3_building_special_great_wall_of_gorgan_01_a_mesh"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="fp3_building_special_great_wall_of_gorgan_01_a_mesh"
+	count=0
+}
+object={
+	name="fp3_building_special_house_of_wisdom_01_a_mesh"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="fp3_building_special_house_of_wisdom_01_a_mesh"
+	count=0
+}
+object={
+	name="fp3_building_special_imam_reza_shrine_01_a_mesh"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="fp3_building_special_imam_reza_shrine_01_a_mesh"
+	count=0
+}
+object={
+	name="fp3_building_special_maharloo_lake_01_a_mesh"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="fp3_building_special_maharloo_lake_01_a_mesh"
+	count=0
+}
+object={
+	name="fp3_building_special_minaret_and_remains_of_jam_01_a_mesh"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="fp3_building_special_minaret_and_remains_of_jam_01_a_mesh"
+	count=0
+}
+object={
+	name="fp3_building_special_mount_damavand_01_a_mesh"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="fp3_building_special_mount_damavand_01_a_mesh"
+	count=0
+}
+object={
+	name="fp3_building_special_palace_of_ctesiphon_01_a_mesh"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="fp3_building_special_palace_of_ctesiphon_01_a_mesh"
+	count=0
+}
+object={
+	name="fp3_building_special_soltaniyeh_01_a_mesh"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="fp3_building_special_soltaniyeh_01_a_mesh"
+	count=0
+}
+object={
+	name="fp3_building_special_tomb_of_cyrus_01_a_mesh"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="fp3_building_special_tomb_of_cyrus_01_a_mesh"
+	count=0
+}
+object={
+	name="hadrians wall 01"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="hadrians_wall_01_a_mesh"
+	count=0
+}
+object={
+	name="hadrians wall 02"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="hadrians_wall_01_b_mesh"
+	count=0
+}
+object={
+	name="hadrians wall 03"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="hadrians_wall_01_c_mesh"
+	count=0
+}
+object={
+	name="hadrians wall 04"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="hadrians_wall_01_d_mesh"
+	count=4
+	transform="4114.327148 0.000000 3736.672363 0.000000 0.000000 0.000000 1.000000 1.000000 1.000000 1.000000
+4126.810059 0.000000 3744.356934 0.000000 0.682175 0.000000 0.731189 1.000000 1.000000 1.000000
+4122.466797 0.000000 3754.149658 0.000000 0.296733 0.000000 0.954961 1.000000 1.000000 1.000000
+4108.644531 0.000000 3737.064209 0.000000 0.890531 0.000000 0.454923 1.000000 1.000000 1.000000
+"}
+object={
+	name="mines"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="building_special_mines_mesh"
+	count=2
+	transform="5351.902344 0.000000 2365.115479 0.000000 0.578346 0.000000 0.815792 1.000000 1.000000 1.000000
+3666.899902 0.000000 2205.113770 0.000000 0.236478 0.000000 0.971637 1.000000 1.000000 1.000000
+"}
+object={
+	name="special_brihadeeswarar_temple"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="building_special_brihadeeswarar_temple_mesh"
+	count=1
+	transform="3907.891602 -1.800537 2590.282959 0.000000 0.329194 0.000000 0.944262 1.000000 1.000000 1.000000
+"}
+object={
+	name="special_building_petra"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="building_special_petra_mesh"
+	count=0
+}
+object={
+	name="special_cathedral_generic"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="building_special_cathedral_generic_mesh"
+	count=0
+}
+object={
+	name="special_cathedral_pagan"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="building_special_cathedral_pagan_mesh"
+	count=1
+	transform="3982.393799 0.000000 4611.874023 0.000000 0.765466 0.000000 0.643476 1.117090 1.117090 1.117090
+"}
+object={
+	name="special_cathedral_zoroastrian"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="building_special_cathedral_zoroastrian_01_a_mesh"
+	count=0
+}
+object={
+	name="special_colosseum"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="building_special_colosseum_mesh"
+	count=0
+}
+object={
+	name="special_great_mosque_of_cordoba_01"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="monument_mezquita_de_cordoba_mesh"
+	count=1
+	transform="4520.185059 0.000000 2615.569336 0.000000 -0.468677 0.000000 0.883369 0.869531 0.869531 0.869531
+"}
+object={
+	name="special_great_mosque_of_djenne"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="building_special_great_mosque_of_djenne_mesh"
+	count=0
+}
+object={
+	name="special_great_mosque_of_mecca"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="building_special_great_mosque_of_mecca_mesh"
+	count=0
+}
+object={
+	name="special_hagia_sophia_01"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="building_special_hagia_sophia_mesh"
+	count=0
+}
+object={
+	name="special_hagia_sophia_02"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="building_special_hagia_sophia_minarets_mesh"
+	count=0
+}
+object={
+	name="special_notre_dame"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="building_special_notre_dame_mesh"
+	count=0
+}
+object={
+	name="special_palace_of_aachen"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="building_special_palace_of_aachen_mesh"
+	count=1
+	transform="4788.758789 0.000000 4395.207031 0.000000 0.999103 0.000000 0.042341 1.000000 1.000000 1.000000
+"}
+object={
+	name="special_pyramids_giza"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="building_special_pyramids_giza_mesh"
+	count=1
+	transform="5351.447266 0.805176 2136.055420 0.000000 -0.699995 0.000000 0.714148 1.000000 1.000000 1.000000
+"}
+object={
+	name="special_stonehenge"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="building_special_stonehenge_mesh"
+	count=0
+}
+object={
+	name="special_tower_of_london"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="building_special_tower_of_london_mesh"
+	count=0
+}
+object={
+	name="tgp_building_special_angkorwat_mesh"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="tgp_building_special_angkorwat_mesh"
+	count=0
+}
+object={
+	name="tgp_building_special_borudur_mesh"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="tgp_building_special_borudur_mesh"
+	count=0
+}
+object={
+	name="tgp_building_special_changan_mesh"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="tgp_building_special_changan_mesh"
+	count=0
+}
+object={
+	name="tgp_building_special_heian_kyo_mesh"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="tgp_building_special_heian_kyo_mesh"
+	count=0
+}
+object={
+	name="tgp_building_special_hwangnyongsa_mesh"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="tgp_building_special_hwangnyongsa_mesh"
+	count=0
+}
+object={
+	name="tgp_building_special_itsukushima_mesh"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="tgp_building_special_itsukushima_mesh"
+	count=0
+}
+object={
+	name="tgp_building_special_leshan_buddha_mesh"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="tgp_building_special_leshan_buddha_mesh"
+	count=0
+}
+object={
+	name="tgp_building_special_po_klong_temple_mesh"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="tgp_building_special_po_klong_temple_mesh"
+	count=0
+}
+object={
+	name="tgp_building_special_thang_long_palace_mesh"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="tgp_building_special_thang_long_palace_mesh"
+	count=0
+}
+object={
+	name="tgp_building_special_wudang_mountains_mesh"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="tgp_building_special_wudang_mountains_mesh"
+	count=0
+}
+object={
+	name="tgp_kofun_decal_mesh"
+	render_pass=MapUnderWater
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="tgp_kofun_decal_mesh"
+	count=0
+}

@@ -1,0 +1,10 @@
+﻿object={
+	name="SKYX_skybox"
+	render_pass=Map
+	clamp_to_water_level=no
+	generated_content=no
+	layer="temp_layer"
+	pdxmesh="SKYX_skybox_mesh"
+	count=1
+	transform="4104.552734 1.743652 2812.745605 0.000000 0.000000 0.000000 1.000000 10000.000000 1000.000000 7000.000000
+"}

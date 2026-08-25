@@ -1,0 +1,40 @@
+﻿object={
+	name="gondor_tabletop"
+	render_pass=MapUnderTerrain
+	clamp_to_water_level=yes
+	generated_content=no
+	layer="map_table_layer_gondor"
+	entity="gondor_tabletop_entity"
+	count=1
+	transform="4005.462158 -1.000000 2776.970703 0.000000 0.000000 0.000000 0.000000 6.000000 6.000000 6.000000
+"}
+object={
+	name="gondor_tabletop_armour"
+	render_pass=MapUnderTerrain
+	clamp_to_water_level=yes
+	generated_content=no
+	layer="map_table_layer_gondor"
+	entity="ggondor_tabletop_armour_entity"
+	count=1
+	transform="4005.462158 -1.000000 2776.970703 0.000000 0.000000 0.000000 0.000000 6.000000 6.000000 6.000000
+"}
+object={
+	name="gondor_tabletop_food"
+	render_pass=MapUnderTerrain
+	clamp_to_water_level=yes
+	generated_content=no
+	layer="map_table_layer_gondor"
+	entity="gondor_tabletop_food_entity"
+	count=1
+	transform="4000.000000 -1.000000 2780.000000 0.000000 0.000000 0.000000 0.000000 6.000000 6.000000 6.000000
+"}
+object={
+	name="gondor_tabletop_props"
+	render_pass=MapUnderTerrain
+	clamp_to_water_level=yes
+	generated_content=no
+	layer="map_table_layer_gondor"
+	entity="gondor_tabletop_props_entity"
+	count=1
+	transform="4005.462158 -1.000000 2776.970703 0.000000 0.000000 0.000000 0.000000 6.000000 6.000000 6.000000
+"}

@@ -1,0 +1,4 @@
+# No named continents. This file exists so default.map does not
+# fall through to the base game's, which lists province ids this map
+# does not have. Add a continent block here if you want continent
+# based mechanics.

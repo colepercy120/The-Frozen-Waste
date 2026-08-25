@@ -1,0 +1,168 @@
+From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
+# ANDUIN
+101;190;river_large;4104;-1;-1;-1;-1;Anduin
+99;185;river_large;4105;-1;-1;-1;-1;Anduin
+98;181;river_large;4106;-1;-1;-1;-1;Anduin
+97;181;river_large;4106;-1;-1;-1;-1;Anduin
+3132;761;river_large;4108;-1;-1;-1;-1;Anduin
+769;773;river_large;4109;-1;-1;-1;-1;Anduin
+3149;3144;river_large;4111;-1;-1;-1;-1;Anduin
+3152;3154;river_large;4112;-1;-1;-1;-1;Anduin
+3160;4102;river_large;4113;-1;-1;-1;-1;Anduin
+3160;3158;river_large;4113;-1;-1;-1;-1;Anduin
+# CELDUIN
+3468;3552;river_large;1226;-1;-1;-1;-1;Celduin
+3483;3549;river_large;1227;-1;-1;-1;-1;Celduin
+3481;3542;river_large;1227;-1;-1;-1;-1;Celduin
+3539;3525;river_large;1229;-1;-1;-1;-1;Celduin
+# ROHAN
+9;58;river_large;6269;-1;-1;-1;-1;Entwash
+111;2835;river_large;6269;-1;-1;-1;-1;Entwash
+26;22;river_large;3188;-1;-1;-1;-1;Isen
+532;558;river_large;1199;-1;-1;-1;-1;Isen
+538;541;river_large;1201;-1;-1;-1;-1;Isen
+4342;4299;river_large;1256;-1;-1;-1;-1;Argonath
+# GONDOR
+209;208;river_large;1174;-1;-1;-1;-1;Cair_Andros
+231;208;river_large;1174;-1;-1;-1;-1;Cair_Andros
+202;203;river_large;1173;-1;-1;-1;-1;Osgiliath
+303;350;river_large;1186;-1;-1;-1;-1;Linhir
+380;387;river_large;1189;-1;-1;-1;-1;Morthond
+387;421;river_large;1188;-1;-1;-1;-1;Morthond
+441;491;river_large;1190;-1;-1;-1;-1;Lefnui
+2550;2558;sea;1167;-1;-1;-1;-1;Ethir_Anduin
+949;2558;sea;1167;-1;-1;-1;-1;Ethir_Anduin
+298;2558;sea;1167;-1;-1;-1;-1;Ethir_Anduin
+# HARAD
+899;940;river_large;1180;-1;-1;-1;-1;Harnen
+880;891;river_large;1185;-1;-1;-1;-1;Amrun
+880;920;river_large;1183;-1;-1;-1;-1;Amrun
+895;2947;river_large;1182;-1;-1;-1;-1;Harnen
+902;2889;river_large;1179;-1;-1;-1;-1;Harnen
+2254;2288;sea;2248;-1;-1;-1;-1;Uhtyara
+1978;1977;river_large;3097;-1;-1;-1;-1;Zaja
+1982;1977;river_large;3097;-1;-1;-1;-1;Zaja
+2621;2615;river_large;3098;-1;-1;-1;-1;Zaja
+2118;2094;river_large;1213;-1;-1;-1;-1;Riyesha
+2192;2196;river_large;1214;-1;-1;-1;-1;Riyesha
+1847;1863;river_large;1211;-1;-1;-1;-1;Felayia
+1859;1856;river_large;1212;-1;-1;-1;-1;Felayia
+1541;1492;sea;1131;-1;-1;-1;-1;Târik-Tamar
+# WHITE MOUNTAINS
+6245;5248;sea;6266;-1;-1;-1;-1;WhiteMountains
+6244;6246;sea;6263;-1;-1;-1;-1;WhiteMountains
+6250;6248;sea;6263;-1;-1;-1;-1;WhiteMountains
+6253;6256;sea;6264;-1;-1;-1;-1;WhiteMountains
+6256;6257;sea;6265;-1;-1;-1;-1;WhiteMountains
+6254;6255;sea;6265;-1;-1;-1;-1;WhiteMountains
+# BLUE MOUNTAINS
+4873;4877;sea;3188;-1;-1;-1;-1;BlueMountains
+4848;4849;sea;3188;-1;-1;-1;-1;BlueMountains
+4851;4852;sea;3188;-1;-1;-1;-1;BlueMountains
+4854;4855;sea;3188;-1;-1;-1;-1;BlueMountains
+4893;4905;sea;3188;-1;-1;-1;-1;BlueMountains
+4897;4901;sea;3188;-1;-1;-1;-1;BlueMountains
+# MISTY MOUNTAINS
+4937;4917;sea;4940;-1;-1;-1;-1;MistyMountains
+4912;4921;sea;4940;-1;-1;-1;-1;MistyMountains
+4925;4994;sea;4943;-1;-1;-1;-1;MistyMountains
+4993;4991;sea;3899;-1;-1;-1;-1;MistyMountains
+4936;4991;sea;4944;-1;-1;-1;-1;MistyMountains
+4992;4996;sea;4792;-1;-1;-1;-1;MistyMountains
+4999;4997;sea;4792;-1;-1;-1;-1;MistyMountains
+4998;5002;sea;4341;-1;-1;-1;-1;MistyMountains
+5001;5003;sea;5096;-1;-1;-1;-1;MistyMountains
+4528;5003;sea;5095;-1;-1;-1;-1;MistyMountains
+5000;5005;sea;5099;-1;-1;-1;-1;MistyMountains
+5004;5008;sea;5102;-1;-1;-1;-1;MistyMountains
+5009;5013;sea;3067;-1;-1;-1;-1;MistyMountains
+5299;4939;sea;5262;-1;-1;-1;-1;MistyMountains
+5027;5028;sea;5103;-1;-1;-1;-1;GreyMountains
+5027;5024;sea;5103;-1;-1;-1;-1;GreyMountains
+5024;5025;sea;5103;-1;-1;-1;-1;GreyMountains
+5025;5026;sea;5103;-1;-1;-1;-1;GreyMountains
+# Yellow Mountains
+5280;5281;sea;3188;-1;-1;-1;-1;YellowMountains
+5280;5295;sea;5302;-1;-1;-1;-1;YellowMountains
+6011;5285;sea;6018;-1;-1;-1;-1;YellowMountains
+5294;6010;sea;6018;-1;-1;-1;-1;YellowMountains
+5284;5285;sea;3188;-1;-1;-1;-1;YellowMountains
+5285;5292;sea;3188;-1;-1;-1;-1;YellowMountains
+5285;6012;sea;5305;-1;-1;-1;-1;YellowMountains
+5562;5566;sea;3188;-1;-1;-1;-1;YellowMountains
+5962;5972;sea;5637;-1;-1;-1;-1;YellowMountains
+5974;5977;sea;5991;-1;-1;-1;-1;YellowMountains
+5973;5968;sea;5992;-1;-1;-1;-1;YellowMountains
+5965;5969;sea;5993;-1;-1;-1;-1;YellowMountains
+5970;5986;sea;5994;-1;-1;-1;-1;YellowMountains
+5984;5982;sea;5995;-1;-1;-1;-1;YellowMountains
+5980;5988;sea;5996;-1;-1;-1;-1;YellowMountains
+6015;7927;sea;7936;-1;-1;-1;-1;YellowMountains
+7926;7899;sea;7936;-1;-1;-1;-1;YellowMountains
+7908;7910;sea;7932;-1;-1;-1;-1;YellowMountains
+7940;7948;sea;7956;-1;-1;-1;-1;YellowMountains
+7943;7946;sea;7956;-1;-1;-1;-1;YellowMountains
+7944;7951;sea;7956;-1;-1;-1;-1;YellowMountains
+7941;7948;sea;7956;-1;-1;-1;-1;YellowMountains
+# ANGMAR
+5132;5133;sea;5231;-1;-1;-1;-1;Angmar
+5133;5134;sea;5231;-1;-1;-1;-1;Angmar
+5134;5137;sea;5232;-1;-1;-1;-1;Angmar
+5137;5136;sea;5232;-1;-1;-1;-1;Angmar
+5135;5138;sea;5232;-1;-1;-1;-1;Angmar
+5140;5015;sea;5232;-1;-1;-1;-1;Angmar
+5016;5161;sea;5234;-1;-1;-1;-1;Angmar
+5159;5160;sea;5234;-1;-1;-1;-1;Angmar
+# ERIADOR
+4135;4134;sea;1246;-1;-1;-1;-1;Lindon
+# ADJACENCIES RENDERED AT 0 0 due to issues with line rendering
+5026;5022;sea;5103;0;0;0;0;GreyMountains
+5020;5035;sea;5104;0;0;0;0;GreyMountains
+5035;5034;sea;5107;0;0;0;0;GreyMountains
+5021;5033;sea;5106;0;0;0;0;GreyMountains
+5032;5029;sea;5106;0;0;0;0;GreyMountains
+5043;5045;sea;5108;0;0;0;0;IronHills
+5042;5059;sea;5108;0;0;0;0;IronHills
+# UTTER SOUTH
+5700;5672;river_large;5960;-1;-1;-1;-1;MagTumag
+6008;6016;sea;5943;-1;-1;-1;-1;SouthernIslands
+6009;6016;sea;5943;-1;-1;-1;-1;SouthernIslands
+7506;7528;sea;7305;-1;-1;-1;-1;SouthernIslands
+7527;7528;sea;7305;-1;-1;-1;-1;SouthernIslands
+7526;7528;sea;7305;-1;-1;-1;-1;SouthernIslands
+7526;7525;sea;7301;-1;-1;-1;-1;SouthernIslands
+7526;7523;sea;7301;-1;-1;-1;-1;SouthernIslands
+7524;7522;sea;7301;-1;-1;-1;-1;SouthernIslands
+7510;7514;sea;7304;-1;-1;-1;-1;SouthernIslands
+7513;7514;sea;7304;-1;-1;-1;-1;SouthernIslands
+7520;7521;sea;7303;-1;-1;-1;-1;SouthernIslands
+7518;7519;sea;5942;-1;-1;-1;-1;SouthernIslands
+7616;7615;sea;7306;-1;-1;-1;-1;KorosBayIslands
+7615;7614;sea;7306;-1;-1;-1;-1;KorosBayIslands
+7614;7613;sea;7306;-1;-1;-1;-1;KorosBayIslands
+7613;7611;sea;7306;-1;-1;-1;-1;KorosBayIslands
+7613;7564;sea;7306;-1;-1;-1;-1;KorosBayIslands
+7564;7563;sea;7306;-1;-1;-1;-1;KorosBayIslands
+7607;7609;sea;7305;-1;-1;-1;-1;KorosBayIslands
+7321;7327;river_large;1240;-1;-1;-1;-1;MumakanRiver
+7321;7330;river_large;1208;-1;-1;-1;-1;MumakanRiver
+7685;7696;river_large;7800;-1;-1;-1;-1;TuktanRiver
+7681;7695;river_large;7799;-1;-1;-1;-1;TuktanRiver
+7778;7779;sea;7276;-1;-1;-1;-1;GanIslands
+7835;7836;sea;7270;-1;-1;-1;-1;SengaMuta
+# KHY
+6461;6495;river_large;1205;-1;-1;-1;-1;Khy
+6307;6315;river_large;1205;-1;-1;-1;-1;Khy
+# SIRAYN
+6926;7027;river_large;1192;-1;-1;-1;-1;Sirayn
+6931;7017;river_large;1192;-1;-1;-1;-1;Sirayn
+6919;7013;river_large;1192;-1;-1;-1;-1;Sirayn
+6971;6978;river_large;1192;-1;-1;-1;-1;Sirayn
+# HARSHANDATT
+6728;6734;river_large;1193;-1;-1;-1;-1;Harshandatt
+6746;6761;river_large;1193;-1;-1;-1;-1;Harshandatt
+6722;6730;river_large;1193;-1;-1;-1;-1;Harshandatt
+6759;6744;river_large;1193;-1;-1;-1;-1;Harshandatt
+6769;6770;sea;7237;-1;-1;-1;-1;TwilightIsles
+# UNUSED
+-1;-1;;-1;-1;-1;-1;-1;
