@@ -2605,6 +2605,7 @@ e_tormequendi = {
 		}
 	}
 }
+
 e_tol_engrin = {
 	color={ 181 66 0 }
 	k_tol_faron = {
@@ -3565,6 +3566,520 @@ e_tol_engrin = {
 				b_helfalas_22 = {
 					province = 8036
 					color={ 203 115 26 }
+				}
+			}
+		}
+	}
+}
+
+e_ered_rhivamar = {
+	color={ 135 70 0 }
+	k_angband_reach = {
+		color={ 64 33 0 }
+		d_angband_reach_1 = {
+			color={ 64 33 0 }
+			c_angband_reach_1 = {
+				color={ 64 33 0 }
+				b_iron_spine_12 = {
+					province = 8139
+					color={ 178 144 88 }
+				}
+			}
+			c_angband_reach_2 = {
+				color={ 201 124 42 }
+				b_iron_spine_13 = {
+					province = 8138
+					color={ 167 193 54 }
+				}
+			}
+			c_angband_reach_3 = {
+				color={ 255 220 184 }
+				b_iron_spine_pass_1 = {
+					province = 8132
+					color={ 99 113 89 }
+				}
+				b_iron_spine_pass_2 = {
+					province = 8187
+					color={ 91 154 54 }
+				}
+			}
+		}
+		d_angband_reach_2 = {
+			color={ 184 67 0 }
+			c_angband_reach_4 = {
+				color={ 184 67 0 }
+				b_iron_spine_7 = {
+					province = 8158
+					color={ 207 153 63 }
+				}
+			}
+			c_angband_reach_5 = {
+				color={ 204 100 41 }
+				b_iron_spine_8 = {
+					province = 8159
+					color={ 64 179 73 }
+				}
+			}
+			c_angband_reach_9 = {
+				color={ 176 114 79 }
+				b_iron_spine_6 = {
+					province = 8131
+					color={ 149 172 72 }
+				}
+			}
+		}
+		d_angband_reach_3 = {
+			color={ 255 164 112 }
+			c_angband_reach_6 = {
+				color={ 255 164 112 }
+				b_iron_spine_10 = {
+					province = 8157
+					color={ 188 175 53 }
+				}
+			}
+			c_angband_reach_7 = {
+				color={ 255 94 3 }
+				b_iron_spine_11 = {
+					province = 8156
+					color={ 174 200 30 }
+				}
+			}
+			c_angband_reach_8 = {
+				color={ 138 50 0 }
+				b_iron_spine_9 = {
+					province = 8155
+					color={ 70 140 21 }
+				}
+			}
+		}
+		d_angband_reach_4 = {
+			color={ 245 214 59 }
+			c_angband_reach_10 = {
+				color={ 245 214 59 }
+				b_angband_reach_4 = {
+					province = 8140
+					color={ 104 97 72 }
+				}
+			}
+			c_angband_reach_11 = {
+				color={ 168 143 17 }
+				b_angband_reach_2 = {
+					province = 8141
+					color={ 182 146 107 }
+				}
+			}
+			c_angband_reach_12 = {
+				color={ 194 175 78 }
+				b_angband_reach_2 = {
+					province = 8142
+					color={ 80 115 43 }
+				}
+			}
+			c_angband_reach_13 = {
+				color={ 105 92 28 }
+				b_angband_reach_1 = {
+					province = 8143
+					color={ 99 154 111 }
+				}
+			}
+		}
+	}
+	k_ered_rhivamar = {
+		color={ 135 70 0 }
+		d_ered_rhivamar_1 = {
+			color={ 191 191 191 }
+			c_ered_rhivamar_1 = {
+				color={ 135 70 0 }
+				b_iron_mountain_1 = {
+					province = 8160
+					color={ 121 101 61 }
+				}
+			}
+			c_ered_rhivamar_2 = {
+				color={ 191 191 191}
+				b_iron_mountain_2 = {
+					province = 8161
+					color={ 116 172 91 }
+				}
+			}
+			c_ered_rhivamar_3 = {
+				color={ 112 101 101 }
+				b_iron_mountain_3 = {
+					province = 8162
+					color={ 153 112 65 }
+				}
+			}
+			c_ered_rhivamar_4 = {
+				color={ 94 72 72 }
+				b_iron_mountain_4 = {
+					province = 8163
+					color={ 73 160 63 }
+				}
+			}
+		}
+		d_ered_rhivamar_2 = {
+			color={ 219 44 44 }
+			c_ered_rhivamar_5 = {
+				color={ 219 44 44 }
+				b_iron_mountain_5 = {
+					province = 8164
+					color={ 78 108 82 }
+				}
+			}
+			c_ered_rhivamar_6 = {
+				color={ 150 51 51 }
+				b_iron_mountain_6 = {
+					province = 8165
+					color={ 130 133 20 }
+				}
+			}
+			c_ered_rhivamar_7 = {
+				color={ 77 0 0 }
+				b_iron_mountain_7 = {
+					province = 8167
+					color={ 112 120 36 }
+				}
+			}
+			c_ered_rhivamar_8 = {
+				color={ 163 163 163 }
+				b_iron_mountain_8 = {
+					province = 8166
+					color={ 92 92 79 }
+				}
+			}
+		}
+		d_ered_rhivamar_3 = {
+			color={ 209 125 0 }
+			c_ered_rhivamar_9 = {
+				color={ 209 125 0 }
+				b_iron_mountain_9 = {
+					province = 8169
+					color={ 119 107 46 }
+				}
+			}
+			c_ered_rhivamar_10 = {
+				color={ 176 107 4 }
+				b_iron_mountain_10 = {
+					province = 8168
+					color={ 133 144 34 }
+				}
+			}
+			c_ered_rhivamar_11 = {
+				color={ 186 169 143 }
+				b_iron_mountain_11 = {
+					province = 8170
+					color={ 71 92 82 }
+				}
+			}
+			c_ered_rhivamar_12 = {
+				color={ 184 146 88 }
+				b_iron_mountain_12 = {
+					province = 8174
+					color={ 74 124 55 }
+				}
+			}
+		}
+		d_ered_rhivamar_4 = {
+			color={ 251 255 0 }
+			c_ered_rhivamar_13 = {
+				color={ 251 255 0 }
+				b_iron_mountain_13 = {
+					province = 8175
+					color={ 197 182 96 }
+				}
+			}
+			c_ered_rhivamar_17 = {
+				color={ 171 173 0 }
+				b_iron_mountain_17 = {
+					province = 8178
+					color={ 94 172 49 }
+				}
+			}
+			c_ered_rhivamar_19 = {
+				color={ 200 201 109 }
+				b_iron_mountain_19 = {
+					province = 8179
+					color={ 68 199 84 }
+				}
+			}
+			c_ered_rhivamar_27 = {
+				color={ 91 92 0 }
+				b_iron_mountain_27 = {
+					province = 8181
+					color={ 63 121 62 }
+				}
+			}
+			c_ered_rhivamar_28 = {
+				color={ 131 163 0 }
+				b_iron_mountain_28 = {
+					province = 8182
+					color={ 211 119 84 }
+				}
+			}
+		}
+		d_ered_rhivamar_5 = {
+			color={ 131 163 0 }
+			
+			c_ered_rhivamar_30 = {
+				color={ 97 115 22 }
+				b_iron_mountain_30 = {
+					province = 8184
+					color={ 205 127 70 }
+				}
+			}
+			c_ered_rhivamar_31 = {
+				color={ 211 227 145 }
+				b_iron_mountain_31 = {
+					province = 8185
+					color={ 191 197 52 }
+				}
+			}
+			c_ered_rhivamar_32 = {
+				color={ 77 92 16 }
+				b_iron_mountain_32 = {
+					province = 8186
+					color={ 71 131 74 }
+				}
+			}
+			c_ered_rhivamar_33 = {
+				color={ 102 105 90 }
+				b_iron_mountain_33 = {
+					province = 8134
+					color={ 71 117 100 }
+				}
+			}
+		}
+		d_ered_rhivamar_6 = {
+			color={ 68 92 60 }
+			c_ered_rhivamar_29 = {
+				color={ 68 92 60 }
+				b_iron_mountain_29 = {
+					province = 8183
+					color={ 169 96 87 }
+				}
+			}
+			c_ered_rhivamar_16 = {
+				color={ 89 168 62 }
+				b_iron_mountain_16 = {
+					province = 8177
+					color={ 115 164 77 }
+				}
+			}
+			c_ered_rhivamar_25 = {
+				color={ 26 99 1 }
+				b_iron_mountain_25 = {
+					province = 8176
+					color={ 100 112 74 }
+				}
+			}
+			c_ered_rhivamar_26 = {
+				color={ 102 120 96 }
+				b_iron_mountain_26 = {
+					province = 8180
+					color={ 140 102 70 }
+				}
+			}
+		}
+		d_ered_rhivamar_7 = {
+			color={ 105 70 21 }
+			c_ered_rhivamar_15 = {
+				color={ 189 127 42 }
+				b_iron_mountain_15 = {
+					province = 8173
+					color={ 169 113 28 }
+				}
+			}
+			c_ered_rhivamar_14 = {
+				color={ 122 72 4 }
+				b_iron_mountain_14 = {
+					province = 8172
+					color={ 103 190 35 }
+				}
+			}
+			c_ered_rhivamar_20 = {
+				color={ 158 135 104 }
+				b_iron_mountain_20 = {
+					province = 8136
+					color={ 196 184 37 }
+				}
+			}
+			c_ered_rhivamar_21 = {
+				color={ 227 211 191 }
+				b_iron_mountain_21 = {
+					province = 8171
+					color={ 81 148 60 }
+				}
+			}
+		}
+		d_ered_rhivamar_8 = {
+			color={ 252 108 68 }
+			c_ered_rhivamar_22 = {
+				color={ 252 108 68 }
+				b_iron_mountain_22 = {
+					province = 8137
+					color={ 164 125 81 }
+				}
+			}
+			c_ered_rhivamar_23 = {
+				color={ 161 40 6 }
+				b_iron_mountain_23 = {
+					province = 8135
+					color={ 195 136 81 }
+				}
+			}
+			c_ered_rhivamar_24 = {
+				color={ 145 100 87 }
+				b_iron_mountain_24 = {
+					province = 8133
+					color={ 106 105 54 }
+				}
+			}
+		}
+	}
+	k_northern_iron_mountains = {
+		color={ 199 199 199 }
+		d_northern_iron_mountains_1 = {
+			color={ 199 199 199 }
+			c_northern_iron_mountains_1 = {
+				color={ 199 199 199 }
+				b_iron_spine_1 = {
+					province = 8128
+					color={ 79 178 53 }
+				}
+			}
+			c_northern_iron_mountains_2 = {
+				color={ 138 129 129 }
+				b_iron_spine_2 = {
+					province = 8130
+					color={ 88 92 114 }
+				}
+			}
+			c_northern_iron_mountains_3 = {
+				color={ 92 73 73 }
+				b_iron_spine_3 = {
+					province = 8129
+					color={ 85 92 83 }
+				}
+			}
+			c_northern_iron_mountains_4 = {
+				color={ 219 208 208 }
+				b_iron_spine_4 = {
+					province = 8126
+					color={ 153 91 22 }
+				}
+			}
+			c_northern_iron_mountains_5 = {
+				color={ 84 84 84 }
+				b_iron_spine_5 = {
+					province = 8125
+					color={ 166 122 84 }
+				}
+			}
+			c_northern_iron_mountains_6 = {
+				color={ 110 88 88 }
+				b_iron_spine_pass_3 = {
+					province = 8037
+					color={ 151 179 96 }
+				}
+			}
+		}
+		d_northern_iron_mountains_2 = {
+			color={ 125 83 0 }
+			c_northern_iron_mountains_7 = {
+				color={ 125 83 0 }
+				b_north_iron_mountains_1 = {
+					province = 8144
+					color={ 124 105 92 }
+				}
+			}
+			c_northern_iron_mountains_8 = {
+				color={ 74 53 12}
+				b_north_iron_mountains_3 = {
+					province = 8145
+					color={ 113 147 50 }
+				}
+			}
+			c_northern_iron_mountains_9 = {
+				color={ 138 116 73 }
+				b_north_iron_mountains_2 = {
+					province = 8146
+					color={ 131 168 27 }
+				}
+			}
+			c_northern_iron_mountains_10 = {
+				color={ 168 152 119 }
+				b_north_iron_mountains_4 = {
+					province = 8148
+					color={ 82 186 31 }
+				}
+			}
+			c_northern_iron_mountains_11 = {
+				color={ 227 211 179 }
+				b_north_iron_mountains_5 = {
+					province = 8147
+					color={ 88 119 41 }
+				}
+			}
+		}
+		d_northern_iron_mountains_3 = {
+			color={ 255 242 232 }
+			c_northern_iron_mountains_12 = {
+				color={ 255 242 232 }
+				b_north_iron_mountains_6 = {
+					province = 8150
+					color={ 157 198 52 }
+				}
+			}
+			c_northern_iron_mountains_13 = {
+				color={ 255 190 140 }
+				b_north_iron_mountains_7 = {
+					province = 8149
+					color={ 177 155 74 }
+				}
+			}
+			c_northern_iron_mountains_14 = {
+				color={ 255 135 43 }
+				b_north_iron_mountains_8 = {
+					province = 8127
+					color={ 124 142 68 }
+				}
+			}
+		}
+		d_northern_iron_mountains_4 = {
+			color={ 222 7 0 }
+			c_northern_iron_mountains_15 = {
+				color={ 222 7 0 }
+				b_north_iron_mountains_11 = {
+					province = 8151
+					color={ 147 101 22 }
+				}
+			}
+			c_northern_iron_mountains_16 = {
+				color={255 132 128 }
+				b_north_iron_mountains_9 = {
+					province = 8152
+					color={ 214 171 100 }
+				}
+			}
+			c_northern_iron_mountains_17 = {
+				color={ 99 21 19 }
+				b_north_iron_mountains_12 = {
+					province = 8153
+					color={ 106 178 43 }
+				}
+			}
+			c_northern_iron_mountains_18 = {
+				color={ 94 59 58 }
+				b_north_iron_mountains_13 = {
+					province = 8154
+					color={ 94 95 75 }
+				}
+			}
+			c_northern_iron_mountains_19 = {
+				color={ 82 10 8 }
+				b_north_iron_mountains_10 = {
+					province = 8655
+					color={ 69 193 57 }
 				}
 			}
 		}
