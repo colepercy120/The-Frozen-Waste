@@ -1,0 +1,261 @@
+#max_provinces = 1466
+definitions = "definition.csv"
+provinces = "provinces.png"
+#positions = "positions.txt"
+rivers = "rivers.png"
+#terrain_definition = "terrain.txt"
+topology = "heightmap.heightmap"
+#tree_definition = "trees.bmp"
+continent = "continent.txt"
+adjacencies = "adjacencies.csv"
+#climate = "climate.txt"
+island_region = "island_region.txt"
+seasons = "seasons.txt"
+
+#############
+# NUMENOR SUBMOD RESERVED PROVINCES
+#############
+
+impassable_seas = RANGE { 6025 6240 }
+
+#############
+# SEA ZONES
+#############
+
+# Western Seas
+sea_zones = RANGE { 1039 1051 }
+sea_zones = RANGE { 1054 1139 }
+sea_zones = RANGE { 1141 1150 }
+sea_zones = RANGE { 1152 1169 }
+sea_zones = RANGE { 3090 3096 }
+sea_zones = RANGE { 5592 5633 }
+sea_zones = RANGE { 5932 5958 }
+
+# Sea of Rhun
+sea_zones = RANGE { 1215 1219 }
+
+# Bay of Ormal 
+sea_zones = RANGE { 7218 7269 }
+
+# Southern Seas
+sea_zones = RANGE { 7270 7308 }
+sea_zones = LIST { 7797 } # Pel Dushera
+
+# Northern Seas
+sea_zones = RANGE { 8062 8068 }
+sea_zones = RANGE { 8076 8082 }
+sea_zones = RANGE { 8109 8124 }
+sea_zones = LIST { 7980 }
+sea_zones = LIST { 9249 }
+sea_zones = LIST { 7979 }
+sea_zones = LIST { 7982 }
+
+###############
+# MAJOR RIVERS
+###############
+
+# Western Seas Rivers
+river_provinces = RANGE { 1170 1192 }
+river_provinces = RANGE { 1194 1207 }
+river_provinces = RANGE { 1211 1214 }
+river_provinces = RANGE { 3097 3102 }
+
+
+# Sea of Rhun Rivers
+river_provinces = RANGE { 1226 1229 }
+
+# Upper Anduin
+river_provinces = RANGE { 4103 4114 }
+river_provinces = LIST { 1256 } # Nen Hithoel (Amon Hen)
+
+# Utter South
+river_provinces = LIST { 5634 5635 }
+river_provinces = RANGE { 5959 5961 }
+
+# Bay of Ormal 
+river_provinces = RANGE { 7213 7217 }
+river_provinces = LIST { 1209 }
+
+# Mumakan 
+river_provinces = RANGE { 7798 7800 }
+river_provinces = RANGE { 7958 7959 }
+# Mumakan Great Lakes 
+river_provinces = LIST { 7786 7791 7792 7795 7796 1208 1240 }
+
+
+########
+# LAKES
+########
+
+lakes = LIST { 1231 1233 1234 1235 1236 }
+lakes = RANGE { 1241 1242 }
+lakes = RANGE { 1245 1251 }
+lakes = RANGE { 1253 1255 }
+lakes = LIST { 1257 }
+lakes = RANGE { 1259 1262 }
+lakes = LIST { 2248 } # Uhtyara Lake of Abrakhan
+lakes = LIST { 4085 } # Lake Ata of Khand
+lakes = RANGE { 5572 5575 } # Thani Hazad Lakes
+lakes = RANGE { 5928 5931 } # Mag Tumag Lakes
+lakes = RANGE { 7787 7790 } # Shayn + Koronande
+lakes = LIST { 7793 7794 } # Mumakan proper 
+
+#####################
+# IMPASSABLE TERRAIN
+#####################
+# Can be colored by whoever owns the most of the province's neighbours.
+# Blocks unit movement.
+
+impassable_mountains = LIST { 3188 } # Rest of the Map
+
+#Mordor
+impassable_mountains = RANGE { 731 736 } # Gorgoroth Wastelands
+impassable_mountains = LIST { 737 738 739 740 742 1350 1980 2117 } # Ephel Dúath
+impassable_mountains = LIST { 1293 1294 1351 1449 1258 1252 } # Ephel Dúath
+impassable_mountains = LIST { 741 743 744 745 } # Ered Lithui
+impassable_mountains = LIST { 746 } # Eregwath
+impassable_mountains = LIST { 747 748 } # Ered Angûrath
+impassable_mountains = LIST { 1037 } # Nurn Desert
+
+#Gondor
+impassable_mountains = RANGE { 762 767 } # Ered Nimrais
+impassable_mountains = RANGE { 1021 1024 } # Ered Nimrais
+impassable_mountains = RANGE { 1344 1349 } # Ered Nimrais
+impassable_mountains = RANGE { 1352 1367 } # Ered Nimrais
+impassable_mountains = RANGE { 1368 1376 } # Belfalas
+impassable_mountains = LIST { 1292 } # Tolfalas
+impassable_mountains = LIST { 4116 } # Falls of Rauros
+impassable_mountains = RANGE { 6259 6267 } # White Mountains
+impassable_mountains = LIST { 6268 } # Isen River
+impassable_mountains = LIST { 6269 } # Entwash River
+
+#Eredwaith
+impassable_mountains = LIST { 1379 } # Hills of Dunland
+
+#Rohan and the Brown Lands
+impassable_mountains = LIST { 1380 } # Hills of the West Marches
+impassable_mountains = RANGE { 1381 1391 } # Wold Ranges
+impassable_mountains = RANGE { 1392 1394 } # Emyn Muil
+impassable_mountains = LIST { 1395 1396 } # Entwash
+impassable_mountains = LIST { 7978 } # Wold
+
+impassable_mountains = LIST { 4302 4295 } # Emyn Muil
+
+#Rhovanion
+impassable_mountains = RANGE { 3287 3294 } # Greenwood
+impassable_mountains = RANGE { 3377 3389 } # Greenwood
+impassable_mountains = LIST { 3462 3634 } # Dale
+impassable_mountains = LIST { 3300 } # Dale
+impassable_mountains = LIST { 4000 } # Rhovanion
+impassable_mountains = RANGE { 3892 3896 } # Rhovanion
+
+#Rhun
+impassable_mountains = LIST { 3075 5252 } # Rhun
+impassable_mountains = RANGE { 3735 3739 } # Rhun
+impassable_mountains = RANGE { 4004 4014 } # Nelornieth
+
+#Harad
+impassable_mountains = LIST { 1295 } # Pin Hingren
+impassable_mountains = LIST { 1317 } # Haruze Mountains
+impassable_mountains = LIST { 2244 2245 2246 2247 2305 2560 2563 } # Kanra Mountains of Abrakhan
+impassable_mountains = LIST { 1516 1531 } # Great Dune Sea
+impassable_mountains = RANGE { 3056 3066 } # Great Dune Sea
+impassable_mountains = LIST { 3068 } # Great Dune Sea
+impassable_mountains = LIST { 3070 3071 } # Great Dune Sea
+impassable_mountains = LIST { 2191 } # Eastern Harad
+impassable_mountains = RANGE { 3072 3088 } # Eastern Harad
+impassable_mountains = RANGE { 5302 5306 } # Yellow Mountains
+impassable_mountains = RANGE { 5311 5316 } # Yellow Mountains
+
+#Khand
+impassable_mountains = RANGE { 4086 4101 } # Khand
+
+#Umbar
+impassable_mountains = LIST { 1310 1311 1400 1402 } # Umbar Mountains
+impassable_mountains = LIST { 1401 1052 1053 1140 } # Umbar Plateaus
+impassable_mountains = RANGE { 3028 3032 } # Tedjin Mountains
+
+#Bellakar
+impassable_mountains = LIST { 1210 1230 1237 1624 1625 } # Mardruak Mountains
+impassable_mountains = RANGE { 1626 1640 } # Felaya Mountains
+impassable_mountains = RANGE { 3023 3027 } # Felaya Mountains
+impassable_mountains = RANGE { 1929 1941 } # Bellazen Mountains
+impassable_mountains = LIST { 1942 } # Ray Mountains
+impassable_mountains = RANGE { 1943 1958 } # Nilulonde Plateaus
+impassable_mountains = RANGE { 3016 3017 } # Aukar
+impassable_mountains = RANGE { 3033 3035 } # Aukar Mountains
+impassable_mountains = RANGE { 3018 3023 } # Qarsa
+
+#Ray
+impassable_mountains = RANGE { 2021 2033 } # Teeth of Tulwang
+impassable_mountains = RANGE { 2221 2223 } # Ray Mountains
+impassable_mountains = RANGE { 3054 3055 } # Ray Mountains
+impassable_mountains = RANGE { 3014 3015 } # Nafarati
+
+#Thani-Hazad
+impassable_mountains = RANGE { 3036 3053 } # An-Balkumagan
+impassable_mountains = RANGE { 5576 5591 } # Peninsula
+impassable_mountains = RANGE { 5636 5639 } # Peninsula
+
+#Twin Kingdoms and Usakan
+impassable_mountains = LIST { 5873 } # Mag
+impassable_mountains = RANGE { 5890 5916 } # Mag, Tumag, Usakan and Tanturak
+impassable_mountains = RANGE { 5917 5927 } # Yellow Mountains
+impassable_mountains = RANGE { 5990 5996 } # Yellow Mountains
+impassable_mountains = RANGE { 6017 6024 } # Yellow Mountains
+impassable_mountains = LIST { 1193 } # Northern usakan
+
+#Utter South
+impassable_mountains = LIST { 7485 7529 } # Mumakan
+impassable_mountains = RANGE { 7801 7814 } # Mumakan
+impassable_mountains = RANGE { 7878 7883 } # Mumakan
+impassable_mountains = RANGE { 7929 7937 } # Mumakan
+impassable_mountains = RANGE { 7953 7956 } # Mumakan
+impassable_mountains = RANGE { 7960 7974 } # Mumakan
+impassable_mountains = LISt { 7309 }
+
+#Misty Mountains # Angmar
+impassable_mountains = RANGE { 4940 4990 } # Misty Mountains
+impassable_mountains = LIST { 3899 4341 4792 2303 3067 3069 1243 } # Misty Mountains
+impassable_mountains = RANGE { 5091 5110 } # Misty Mountains
+impassable_mountains = RANGE { 5231 5235 } # Misty Mountains
+impassable_mountains = RANGE { 5253 5278 } # Misty Mountains
+impassable_mountains = RANGE { 5307 5310 } # Misty Mountains
+impassable_mountains = LIST { 1232 4642 4643 } #Old Forest
+
+# Blue Mountains
+impassable_mountains = RANGE { 5236 5238 } # Blue Mountains
+
+# Khy
+impassable_mountains = RANGE { 6671 6721 } # Khy
+impassable_mountains = LIST { 7212 } # Khy
+impassable_mountains = RANGE { 7118 7136 } # Harshandatt
+impassable_mountains = RANGE { 7138 7139 } # Harshandatt
+impassable_mountains = LIST { 7137 } # Western Harshandatt
+impassable_mountains = RANGE { 7140 7166 } # Sirayn
+
+# Forodwaith
+
+impassable_mountains = LIST { 7996 } # Iron Mountains
+impassable_mountains = LIST { 8890 } # Bleak Mountains
+impassable_mountains = LIST { 8085 } # Forodwaith Mountains
+impassable_mountains = LIST { 8717 } # Frostwood 1
+impassable_mountains = LIST { 8781 } # Frostwood 2
+
+############
+# WASTELAND
+############
+# These are actually supposed to be Wasteland:
+# Cannot be colored. Blocks unit movement, used for things like Sahara desert. 
+
+# impassable_mountains = 199
+# 199;0;0;0;empty_lands;x
+
+#Rohan and the Brown Lands
+impassable_mountains = LIST { 1397 } # Temporary Fangorn
+impassable_mountains = LIST { 1398 } # Temporary Lorien
+
+
+# IMPASSABLE SEA ZONES
+# These sea provinces cannot be crossed/sailed
+impassable_seas = LIST { 1263 }
