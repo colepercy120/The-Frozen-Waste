@@ -1158,6 +1158,8 @@
 					"locked":	false
 				}, {
 					"locked":	false
+				}, {
+					"locked":	false
 				}]
 		}, {
 			"object_ref":	{
@@ -2974,6 +2976,8 @@
 					"locked":	false
 				}, {
 					"locked":	false
+				}, {
+					"locked":	false
 				}]
 		}, {
 			"object_ref":	{
@@ -3002,7 +3006,13 @@
 					"key":	"Matterhorn"
 				}
 			},
-			"instances":	[]
+			"instances":	[{
+					"locked":	false
+				}, {
+					"locked":	false
+				}, {
+					"locked":	false
+				}]
 		}, {
 			"object_ref":	{
 				"type":	"mesh",
@@ -3282,6 +3292,10 @@
 					"locked":	false
 				}, {
 					"locked":	false
+				}, {
+					"locked":	false
+				}, {
+					"locked":	false
 				}]
 		}, {
 			"object_ref":	{
@@ -3335,6 +3349,8 @@
 					"locked":	false
 				}, {
 					"locked":	false
+				}, {
+					"locked":	false
 				}]
 		}, {
 			"object_ref":	{
@@ -3349,6 +3365,20 @@
 				}
 			},
 			"instances":	[{
+					"locked":	false
+				}, {
+					"locked":	false
+				}, {
+					"locked":	false
+				}, {
+					"locked":	false
+				}, {
+					"locked":	false
+				}, {
+					"locked":	false
+				}, {
+					"locked":	false
+				}, {
 					"locked":	false
 				}, {
 					"locked":	false
@@ -3429,6 +3459,8 @@
 					"locked":	false
 				}, {
 					"locked":	false
+				}, {
+					"locked":	false
 				}]
 		}, {
 			"object_ref":	{
@@ -3443,6 +3475,44 @@
 				}
 			},
 			"instances":	[{
+					"locked":	false
+				}, {
+					"locked":	false
+				}, {
+					"locked":	false
+				}, {
+					"locked":	false
+				}, {
+					"locked":	false
+				}, {
+					"locked":	false
+				}, {
+					"locked":	false
+				}, {
+					"locked":	false
+				}, {
+					"locked":	false
+				}, {
+					"locked":	false
+				}, {
+					"locked":	false
+				}, {
+					"locked":	false
+				}, {
+					"locked":	false
+				}, {
+					"locked":	false
+				}, {
+					"locked":	false
+				}, {
+					"locked":	false
+				}, {
+					"locked":	false
+				}, {
+					"locked":	false
+				}, {
+					"locked":	false
+				}, {
 					"locked":	false
 				}, {
 					"locked":	false
@@ -6307,7 +6377,13 @@
 					"key":	"volcanic mountain 01"
 				}
 			},
-			"instances":	[]
+			"instances":	[{
+					"locked":	false
+				}, {
+					"locked":	false
+				}, {
+					"locked":	false
+				}]
 		}, {
 			"object_ref":	{
 				"type":	"mesh",
@@ -6346,7 +6422,9 @@
 					"key":	"volcanic range 03"
 				}
 			},
-			"instances":	[]
+			"instances":	[{
+					"locked":	false
+				}]
 		}, {
 			"object_ref":	{
 				"type":	"mesh",
@@ -6359,7 +6437,11 @@
 					"key":	"volcano 02"
 				}
 			},
-			"instances":	[]
+			"instances":	[{
+					"locked":	false
+				}, {
+					"locked":	false
+				}]
 		}, {
 			"object_ref":	{
 				"type":	"mesh",
@@ -6372,7 +6454,11 @@
 					"key":	"volcano 03"
 				}
 			},
-			"instances":	[]
+			"instances":	[{
+					"locked":	false
+				}, {
+					"locked":	false
+				}]
 		}, {
 			"object_ref":	{
 				"type":	"mesh",
@@ -6385,7 +6471,9 @@
 					"key":	"volcano 04"
 				}
 			},
-			"instances":	[]
+			"instances":	[{
+					"locked":	false
+				}]
 		}, {
 			"object_ref":	{
 				"type":	"mesh",
@@ -8590,6 +8678,8 @@
 				}
 			},
 			"instances":	[{
+					"locked":	false
+				}, {
 					"locked":	false
 				}]
 		}, {

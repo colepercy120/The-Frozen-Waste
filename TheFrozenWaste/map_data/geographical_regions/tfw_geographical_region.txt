@@ -1,0 +1,500 @@
+﻿# Geographical regions
+# Regions can be declared with one or more of the following fields:
+	# duchies = { }, takes duchy title names declared in landed_titles.txt
+	# counties = { }, takes county title names declared in landed_titles.txt
+	# provinces = { }, takes province id numbers declared in /history/provinces
+	# regions = { }, a region can also include other regions, however the subregions needs to be declared before the parent region.
+		# E.g. If the region world_europe contains the region world_europe_west then world_europe_west needs to be declared as a region before (i.e. higher up in this file) world_europe.
+		# Juke note: this doesnt actually seem to be true?
+
+# Regions provide the following modifiers:
+# key + _development_growth
+# key + _development_growth_factor
+# This requires "generate_modifiers = yes" in the region
+
+#########################################################################
+# World Regions
+	# These groups are mutually exclusive on the same tier & should cover every part of the map
+#########################################################################
+
+
+# middleearth_valinor #Not part of middleearth region despite the name
+
+# middleearth_wastelands #Not part of middleearth region despite the name
+
+# middleearth
+
+# middleearth_west
+	# middleearth_west_enedhwaith
+	# middleearth_west_isengard
+	# middleearth_west_rohan
+	# middleearth_west_rhovanion
+		# middleearth_west_rhovanion_anduin
+		# middleearth_west_rhovanion_mirkwood
+		# middleearth_west_rhovanion_brownlands
+		# middleearth_west_rhovanion_dalelands
+		# middleearth_west_rhovanion_lothlorien
+		# middleearth_west_rhovanion_dorwinion
+	# middleearth_west_gondor
+		# middleearth_west_gondor_andrast
+		# middleearth_west_gondor_highlands
+		# middleearth_west_gondor_centralfiefdoms
+		# middleearth_west_gondor_easternfiefdoms
+		# middleearth_west_gondor_ithilien
+	# middleearth_west_arnor
+		# middleearth_west_arnor_arthedain
+		# middleearth_west_arnor_cardolan
+		# middleearth_west_arnor_rhudaur
+	# middleearth_west_eregion
+		# middleearth_west_eregion_imladris
+		# middleearth_west_eregion_south
+	# middleearth_west_beleriand
+		# middleearth_west_beleriand_forlindon
+		# middleearth_west_beleriand_harlindon
+		# middleearth_west_beleriand_mithlond
+
+# middleearth_harad
+	# middleearth_harad_near
+		# middleearth_harad_near_harondor
+		# middleearth_harad_near_umbar
+		# middleearth_harad_near_harnen
+	# middleearth_harad_far
+		# middleearth_harad_far_bellakar
+			# middleearth_harad_far_bellakar_bayoffelaya
+			# middleearth_harad_far_bellakar_central
+		# middleearth_harad_far_ray
+		# middleearth_harad_far_tulwang
+	# middleearth_harad_dunesea
+		# middleearth_harad_dunesea_mirroroffire
+		# middleearth_harad_dunesea_naraktedja
+		# middleearth_harad_dunesea_qarsaaukar
+		# middleearth_harad_dunesea_abrakhan
+		# middleearth_harad_dunesea_arysis
+	# middleearth_harad_bayoformal
+		# middleearth_harad_bayoformal_khy
+		# middleearth_harad_bayoformal_harshandatt
+		# middleearth_harad_bayoformal_sirayn
+
+# middleearth_uttersouth
+	# middleearth_uttersouth_thanihazad
+		# middleearth_uttersouth_thanihazad_upper
+		# middleearth_uttersouth_thanihazad_lower
+	# middleearth_uttersouth_twinkingdoms
+		# middleearth_uttersouth_twinkingdoms_mag
+		# middleearth_uttersouth_twinkingdoms_tumag
+	# middleearth_uttersouth_usakan
+		# middleearth_uttersouth_usakan_usakan
+		# middleearth_uttersouth_usakan_tandurakan
+	# middleearth_uttersouth_mumakan
+		# middleearth_uttersouth_mumakan_dushera
+		# middleearth_uttersouth_mumakan_mumakan
+		# middleearth_uttersouth_mumakan_tuktan
+		# middleearth_uttersouth_mumakan_koronande
+		# middleearth_uttersouth_mumakan_talilan
+		# middleearth_uttersouth_mumakan_hathor
+		# middleearth_uttersouth_mumakan_mulambur
+	# middleearth_uttersouth_shayn
+		# middleearth_uttersouth_shayn_lyneria
+		# middleearth_uttersouth_shayn_gan
+		# middleearth_uttersouth_shayn_senga_muta
+
+# middleearth_mordor
+	# middleearth_mordor_gorgoroth
+	# middleearth_mordor_nurn
+
+# middleearth_forodwaith
+	# middleearth_forodwaith_angmar
+	# middleearth_forodwaith_forochel
+	# middleearth_forodwaith_northernwastes
+	# middleearth_forodwaith_bayofhelkar
+
+# middleearth_rhun
+	# middleearth_rhun_seaofrhun
+	# middleearth_rhun_khand
+	# middleearth_rhun_nurunkizdin
+	# middleearth_rhun_greatsteppe
+	# middleearth_rhun_wildwood
+
+# middleearth_fareast
+	# middleearth_fareast_womawasdrus
+		# middleearth_fareast_womawasdrus_aegan
+		# middleearth_fareast_womawasdrus_khelkasael
+		# middleearth_fareast_womawasdrus_kuiwakwomaw
+		# middleearth_fareast_womawasdrus_northernmarches
+		# middleearth_fareast_womawasdrus_thuriakhkodia
+	# middleearth_fareast_lokhasdrus
+	# middleearth_fareast_shay
+
+
+# middleearth_mountains
+	# middleearth_mountains_blue
+		# middleearth_mountains_blue_buzra_dum
+		# middleearth_mountains_blue_nogrod
+		# middleearth_mountains_blue_belegost
+	# middleearth_mountains_misty
+		# middleearth_mountains_misty_khazad_dum
+		# middleearth_mountains_misty_high_pass
+		# middleearth_mountains_misty_gundabad
+	# middleearth_mountains_iron
+		# middleearth_mountains_iron_greymountains
+		# middleearth_mountains_iron_ironhills
+		# middleearth_mountains_iron_erebor
+	# middleearth_mountains_white
+	# middleearth_mountains_yellow
+		# middleearth_mountains_yellow_east
+			# middleearth_mountains_yellow_east_barazimabul
+		# middleearth_mountains_yellow_west
+			# middleearth_mountains_yellow_west_black_flame
+			# middleearth_mountains_yellow_west_shulkabbad
+			# middleearth_mountains_yellow_west_gunduzanda
+	# middleearth_mountains_red
+
+###########################################################################
+### BOTTOM LEVEL GEOGRAPHICAL REGIONS
+###########################################################################
+# Defined through duchies
+
+middleearth_valinor = {
+	duchies = {
+		d_valinor
+	}
+}
+
+middleearth_wastelands = {
+	duchies = {
+		d_wastelands
+	}
+}
+
+#################
+### West Misc ###
+#################
+
+
+
+##################
+### Forodwaith ###
+##################
+
+middleearth_forodwaith_forochel = {
+	duchies = {
+		d_kotiniemi d_jaranikko d_jokiranta d_korkein_ma
+	}
+}
+middleearth_forodwaith_angmar = {
+	duchies = {
+		d_kanelemas d_foryagsh d_nan_angmar d_haryagsh d_sweicelis
+	}
+}
+middleearth_forodwaith_northernwastes = {}
+middleearth_forodwaith_bayofhelkar = {}
+
+middleearth_forodwaith_tol_engrin = {
+	regions = {
+		middleearth_forodwaith_tol_engrin_minheldolath
+		middleearth_forodwaith_tol_engrin_evermist
+		middleearth_forodwaith_tol_engrin_gondalf
+		middleearth_forodwaith_tol_engrin_narthalf
+		middleearth_forodwaith_tol_engrin_helfalas
+		
+		middleearth_forodwaith_tol_faron
+		middleearth_forodwaith_frost_isles
+		middleearth_forodwaith_morgoths_well
+	}
+}
+middleearth_forodwaith_tol_engrin_minheldolath = {
+	duchies = {
+		d_minheldolath_1
+		d_minheldolath_2
+		d_minheldolath_3
+		d_minheldolath_4
+		d_minheldolath_5
+		d_minheldolath_6
+		d_minheldolath_7
+	}
+}
+
+middleearth_forodwaith_tol_engrin_evermist = {
+	duchies = {
+		d_evermist_1   
+	}
+}
+middleearth_forodwaith_tol_faron = {
+	duchies = {
+		d_tol_faron_1  
+	}
+}
+middleearth_forodwaith_tol_engrin_gondalf = {
+	duchies = {
+		d_gondalf_1  
+		d_gondalf_2  
+	}
+}
+middleearth_forodwaith_tol_engrin_narthalf = {
+	duchies = {
+		d_narthalf_1 
+		d_narthalf_2 
+	}
+}
+middleearth_forodwaith_tol_engrin_helfalas = {
+	duchies = {
+		d_helfalas_1 
+		d_helfalas_2 
+	}
+}
+middleearth_forodwaith_frost_isles = {
+	duchies = {
+		d_frost_isles_1 
+		d_frost_isles_2 
+	}
+}
+middleearth_forodwaith_morgoths_well = {
+	duchies = {
+		d_morgoths_well 
+	}
+}
+
+middleearth_forodwaith_angband = {
+	duchies = {
+		d_thangorodrim 
+	}
+}
+
+middleearth_forodwaith_annuvorodwaith = {
+	regions = {
+		middleearth_forodwaith_annuvorodwaith_everdalf
+		middleearth_forodwaith_annuvorodwaith_calendalf
+		middleearth_forodwaith_annuvorodwaith_lindalf
+		middleearth_forodwaith_annuvorodwaith_ailindalf
+		middleearth_forodwaith_annuvorodwaith_ruinfalas
+		middleearth_forodwaith_annuvorodwaith_taurethon
+	}
+}
+
+middleearth_forodwaith_annuvorodwaith_everdalf = {
+	duchies = {
+		d_everdalf_1
+		d_everdalf_2
+		d_everdalf_3
+		d_everdalf_4
+		d_everdalf_5
+		d_everdalf_6
+		d_everdalf_7
+		d_everdalf_8
+	}
+}
+middleearth_forodwaith_annuvorodwaith_calendalf = {
+	duchies = {
+		d_calendalf_1
+		d_calendalf_2
+		d_calendalf_3
+		d_calendalf_4
+		d_calendalf_5
+		d_calendalf_6
+	}
+}
+middleearth_forodwaith_annuvorodwaith_lindalf = {
+	duchies = {
+		d_lindalf_1
+		d_lindalf_2
+		d_lindalf_3
+		d_lindalf_4
+	}
+}
+middleearth_forodwaith_annuvorodwaith_ailindalf = {
+	duchies = {
+		d_ailindalf_1
+		d_ailindalf_2
+		d_ailindalf_3
+		d_ailindalf_4
+		d_rast_losnaeth_1
+		d_rast_losnaeth_2
+	}
+}
+
+middleearth_forodwaith_annuvorodwaith_ruinfalas = {
+	duchies = {
+		d_ruinfalas_1
+		d_ruinfalas_2
+		d_ruinfalas_3
+		d_muilfalas_1
+		d_muilfalas_2
+	}
+}
+
+middleearth_forodwaith_annuvorodwaith_taurethon = {
+	duchies = {
+		d_taurethon_1
+		d_taurethon_2
+	}
+}
+
+middleearth_forodwaith_aurora_isles = {
+	duchies = {
+		d_aurora_isles_1
+		d_aurora_isles_2
+	}
+}
+
+middleearth_forodwaith_enevorodwaith = {
+	regions = {
+		middleearth_forodwaith_enevorodwaith_mosha
+		middleearth_forodwaith_enevorodwaith_lhugdalf
+		middleearth_forodwaith_enevorodwaith_sula
+		middleearth_forodwaith_enevorodwaith_forovirian
+		middleearth_forodwaith_enevorodwaith_talath_uichel
+	}
+}
+
+middleearth_forodwaith_enevorodwaith_mosha = {
+	duchies = {
+		d_mosha_1
+		d_mosha_2
+		d_mosha_3
+		d_mosha_4
+		d_mosha_5
+		d_mosha_6
+		d_mosha_7
+	}
+}
+
+middleearth_forodwaith_enevorodwaith_lhugdalf = {
+	duchies = {
+		d_lhugdalf_1
+		d_lhugdalf_2
+		d_lhugdalf_3
+		d_lhugdalf_4
+		d_lhugdalf_5
+	}
+}
+middleearth_forodwaith_enevorodwaith_sula = {
+	duchies = {
+		d_sula_1
+		d_sula_2
+	}
+}
+
+middleearth_forodwaith_enevorodwaith_forovirian = {
+	duchies = {
+		d_forovirian_1
+		d_forovirian_2
+		d_forovirian_3
+		d_forovirian_4
+		d_forovirian_5
+	}
+}	
+
+middleearth_forodwaith_enevorodwaith_talath_uichel = {
+	duchies = {
+		d_talath_uichel_1
+		d_talath_uichel_2
+		d_talath_uichel_3
+		d_talath_uichel_4
+		d_talath_uichel_5
+	}
+}
+
+middleearth_forodwaith_rhuvorodwaith = {
+	regions = {
+		middleearth_forodwaith_rhuvorodwaith_komi
+		middleearth_forodwaith_rhuvorodwaith_frostwood
+		middleearth_forodwaith_rhuvorodwaith_grey_foothills
+	}
+}
+
+middleearth_forodwaith_rhuvorodwaith_komi = {
+	duchies = {
+		d_komi_1
+		d_komi_2
+		d_komi_3
+	}
+}
+middleearth_forodwaith_rhuvorodwaith_frostwood = {
+	duchies = {
+		d_west_frostwood_1
+		d_west_frostwood_2
+		d_west_frostwood_3
+		d_west_frostwood_4
+		d_east_frostwood_1
+		d_east_frostwood_2
+		d_east_frostwood_3
+	}
+}
+middleearth_forodwaith_rhuvorodwaith_grey_foothills = {
+	duchies = {
+		d_grey_foothills_1
+		d_grey_foothills_2
+		d_grey_foothills_3
+	}
+}
+
+###########################################################################
+### HIGHER LEVEL GEOGRAPHICAL REGIONS
+###########################################################################
+# Defined through subregions
+
+
+middleearth_mountains = {
+	#Juke Note: Does not include all mountains, as some are part of other dejure or other regions (see angmar and rhun mountains)
+	#Check for halls terrain instead
+	regions = {
+		middleearth_mountains_blue
+		middleearth_mountains_misty
+		middleearth_mountains_iron
+		middleearth_mountains_white
+		middleearth_mountains_yellow
+		middleearth_mountains_red
+	}
+}
+
+middleearth_forodwaith = {
+	regions = {
+		middleearth_forodwaith_forochel
+		middleearth_forodwaith_angmar
+		middleearth_forodwaith_northernwastes
+		middleearth_forodwaith_bayofhelkar
+		middleearth_forodwaith_tol_engrin
+		middleearth_forodwaith_angband
+		middleearth_forodwaith_annuvorodwaith
+		middleearth_forodwaith_aurora_isles
+		middleearth_forodwaith_enevorodwaith
+		middleearth_forodwaith_rhuvorodwaith
+	}
+}
+
+
+graphical_siberia = {
+	graphical = yes
+	color = { 0 255 155 }
+	regions = {
+		middleearth_forodwaith
+	}
+}
+
+
+
+
+
+middleearth_mountains_iron = {
+	regions = {
+		middleearth_mountains_iron_greymountains
+		middleearth_mountains_iron_ironhills
+		middleearth_mountains_iron_erebor
+	}
+}
+
+graphical_underground = {
+	# All underground regions.
+	graphical = yes
+	color = { 20 20 20 }
+	regions = {
+		middleearth_mountains_blue
+		middleearth_mountains_misty
+		middleearth_mountains_iron
+		middleearth_rhun_nurunkizdin
+		middleearth_west_isengard
+		middleearth_mountains_yellow
+		middleearth_mountains_white
+	}
+}
+

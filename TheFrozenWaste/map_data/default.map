@@ -99,6 +99,7 @@ lakes = RANGE { 5572 5575 } # Thani Hazad Lakes
 lakes = RANGE { 5928 5931 } # Mag Tumag Lakes
 lakes = RANGE { 7787 7790 } # Shayn + Koronande
 lakes = LIST { 7793 7794 } # Mumakan proper 
+lakes = LIST { 9250 } # Evermist
 
 #####################
 # IMPASSABLE TERRAIN
@@ -241,6 +242,7 @@ impassable_mountains = LIST { 8890 } # Bleak Mountains
 impassable_mountains = LIST { 8085 } # Forodwaith Mountains
 impassable_mountains = LIST { 8717 } # Frostwood 1
 impassable_mountains = LIST { 8781 } # Frostwood 2
+impassable_mountains = RANGE { 9252 9271 } # Extras
 
 ############
 # WASTELAND

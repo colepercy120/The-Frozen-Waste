@@ -4545,7 +4545,7 @@
 4544;128;112;41;b_ardor_i_tinereb;x
 4545;159;44;192;b_hithrenmoth;x
 4546;181;12;247;b_laldir;x
-4547;57;126;211;b_maerian ;x
+4547;57;126;211;b_maerian;x
 4548;17;26;222;b_carannasta;x
 4549;15;51;162;b_desscum;x
 4550;79;40;11;b_dolbarad;x
@@ -4706,7 +4706,7 @@
 4705;183;150;116;b_bindbole_wood;x
 4706;44;173;198;b_longcleeve;x
 4707;219;137;215;b_hardbottle;x
-4708;16;130;244;b_annuminas ;x
+4708;16;130;244;b_annuminas;x
 4709;59;27;231;b_archamdun;x
 4710;41;54;135;b_esgarnen;x
 4711;172;32;36;b_mar_tarmearon;x
@@ -7977,10 +7977,10 @@
 7976;220;175;104;b_thaakris;x
 7977;150;225;150;b_mumakris;x
 7978;26;42;10;wold_impassable;x
-7979;49;116;170;sea_13013;x
-7980;43;143;246;sea_13014;x
+7979;49;116;170;sea_helcear ;x
+7980;43;143;246;sea_helcear ;x
 7981;71;106;213;sea_13015;x
-7982;59;88;242;sea_13016;x
+7982;59;88;242;sea_helcear ;x
 7983;126;149;32;b_evermist_15;x
 7984;91;135;21;b_evermist_10;x
 7985;192;118;21;b_narthalf_13;x
@@ -7994,7 +7994,7 @@
 7993;79;145;38;b_frost_isle_9;x
 7994;187;99;85;b_frost_isle_4;x
 7995;150;118;84;b_frost_isle_3;x
-7996;93;92;48;b_iron_mountain_impassible;x
+7996;93;92;48;b_iron_mountain_impassible_1;x
 7997;61;170;79;b_frost_isle_2;x
 7998;115;110;117;b_frost_isle_6;x
 7999;102;105;87;b_frost_isle_7;x
@@ -8060,13 +8060,13 @@
 8059;86;144;22;b_gondolf_14;x
 8060;58;105;57;b_province_13389;x
 8061;168;191;107;b_minheldolath_20;x
-8062;4;71;189;sea_13000;x
-8063;78;158;218;sea_13001;x
-8064;14;120;170;sea_13003;x
-8065;20;135;189;sea_13004;x
-8066;2;81;173;sea_13007;x
-8067;81;103;203;sea_13008;x
-8068;45;144;173;sea_13009;x
+8062;4;71;189;sea_helcear ;x
+8063;78;158;218;sea_forochel;x
+8064;14;120;170;sea_helcear ;x
+8065;20;135;189;sea_helcear ;x
+8066;2;81;173;sea_forochel;x
+8067;81;103;203;sea_forochel;x
+8068;45;144;173;sea_helcear ;x
 8069;49;131;123;b_tol_feredir_1;x
 8070;71;135;128;b_tol_feredir_2;x
 8071;148;112;65;b_tol_feredir_8;x
@@ -8074,13 +8074,13 @@
 8073;150;156;89;b_tol_feredir_7;x
 8074;133;135;97;b_province_13008;x
 8075;219;109;32;b_morgoths_well_1;x
-8076;67;124;210;sea_13002;x
-8077;0;77;242;sea_13003;x
-8078;82;120;206;sea_13004;x
+8076;67;124;210;sea_forochel;x
+8077;0;77;242;sea_helcear ;x
+8078;82;120;206;sea_forochel;x
 8079;22;106;237;sea_13005;x
 8080;10;121;157;sea_13006;x
-8081;85;158;226;sea_13007;x
-8082;28;157;191;sea_13014;x
+8081;85;158;226;sea_forochel;x
+8082;28;157;191;sea_thorenaer;x
 8083;205;129;94;b_ruinfalas_33;x
 8084;99;153;48;b_bleak_mountains_1;x
 8085;184;100;95;b_forodwaith_mountains;x
@@ -8107,22 +8107,22 @@
 8106;62;92;20;b_thangorodrim_1;x
 8107;61;117;102;b_thangorodrim_2;x
 8108;48;108;75;b_thangorodrim_4;x
-8109;51;94;151;sea_13700;x
-8110;54;132;153;sea_13701;x
-8111;14;76;154;sea_13702;x
-8112;68;76;207;sea_13704;x
-8113;14;155;247;sea_13706;x
-8114;60;155;185;sea_13708;x
-8115;63;84;156;sea_13709;x
-8116;90;86;207;sea_13710;x
-8117;57;94;173;sea_13711;x
-8118;82;94;242;sea_13712;x
-8119;76;77;208;sea_13713;x
-8120;27;136;237;sea_13714;x
-8121;87;125;182;sea_13715;x
-8122;16;131;159;sea_13716;x
-8123;20;117;191;sea_13718;x
-8124;82;88;186;sea_13719;x
+8109;51;94;151;sea_helcear ;x
+8110;54;132;153;sea_helcear ;x
+8111;14;76;154;sea_helcear ;x
+8112;68;76;207;sea_helcear ;x
+8113;14;155;247;sea_helcear ;x
+8114;60;155;185;sea_helcear ;x
+8115;63;84;156;sea_helcear ;x
+8116;90;86;207;sea_thangorodrim;x
+8117;57;94;173;sea_thorenaer;x
+8118;82;94;242;sea_thorenaer;x
+8119;76;77;208;sea_thorenaer;x
+8120;27;136;237;sea_helcear ;x
+8121;87;125;182;sea_helcear ;x
+8122;16;131;159;sea_helcear ;x
+8123;20;117;191;sea_helcear ;x
+8124;82;88;186;sea_helcear ;x
 8125;166;122;84;b_iron_spine_5;x
 8126;153;91;22;b_iron_spine_4;x
 8127;124;142;68;b_north_iron_mountains_8;x
@@ -8888,7 +8888,7 @@
 8887;93;101;83;b_sula_3;x
 8888;162;160;59;b_sula_4;x
 8889;195;102;85;b_sula_5;x
-8890;86;94;88;b_bleak_mountains_impassible;x
+8890;86;94;88;b_bleak_mountains_impassible1;x
 8891;118;197;92;b_sula_6;x
 8892;66;144;61;b_sula_7;x
 8893;159;125;116;b_sula_8;x
@@ -9247,5 +9247,27 @@
 9246;200;134;80;b_thangorodrim_5;x
 9247;176;141;88;b_frost_isle_5;x
 9248;176;193;37;b_sula_2;x
-9249;46;127;164;sea_13010;x
+9249;46;127;164;sea_forochel;x
 9250;21;79;156;evermist_lake;x
+9251;204;187;24;b_eyrn_halcin_100;x
+9252;133;178;31;b_iron_mountain_impassible_2;x
+9253;164;167;101;b_iron_mountain_impassible3;x
+9254;207;132;102;b_iron_mountain_impassible4;x
+9255;107;154;70;b_iron_mountain_impassible5;x
+9256;106;118;54;b_iron_mountain_impassible6;x
+9257;153;144;119;b_iron_mountain_impassible7;x
+9258;83;135;110;b_iron_mountain_impassible8;x
+9259;183;140;100;b_iron_mountain_impassible9;x
+9260;143;133;70;b_iron_mountain_impassible10;x
+9261;145;129;80;b_iron_mountain_impassible11;x
+9262;139;179;21;b_iron_mountain_impassible12;x
+9263;171;147;91;b_iron_mountain_impassible13;x
+9264;188;99;95;b_iron_mountain_impassible14;x
+9265;156;90;38;b_iron_mountain_impassible15;x
+9266;146;143;82;b_iron_mountain_impassible16;x
+9267;127;153;32;b_bleak_mountains_impassible2;x
+9268;135;195;38;b_bleak_mountains_impassible3;x
+9269;167;199;73;b_bleak_mountains_impassible4;x
+9270;209;182;78;b_bleak_mountains_impassible5;x
+9271;76;173;75;b_bleak_mountains_impassible6;x
+9272;220;155;42;b_nidavellir_24;x

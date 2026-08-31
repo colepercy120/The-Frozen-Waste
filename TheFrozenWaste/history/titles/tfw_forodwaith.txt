@@ -1,0 +1,3255 @@
+﻿
+c_everdalf_18 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_everdalf_29 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_everdalf_28 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_everdalf_25 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_everdalf_23 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_everdalf_24 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_everdalf_10 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_everdalf_11 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_everdalf_21 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_everdalf_27 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_everdalf_26 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_everdalf_20 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_everdalf_1 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_everdalf_22 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_everdalf_2 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_everdalf_3 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_everdalf_19 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_everdalf_12 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_everdalf_9 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_everdalf_4 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_everdalf_8 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_everdalf_6 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_everdalf_7 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_everdalf_5 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_calendalf_15 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_everdalf_13 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_everdalf_14 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_everdalf_15 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_calendalf_11 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_calendalf_17 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_lindalf_1 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_calendalf_16 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_calendalf_13 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_calendalf_9 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_lindalf_4 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_calendalf_12 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_lindalf_14 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_calendalf_10 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_calendalf_5 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_calendalf_7 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_calendalf_8 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_calendalf_4 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_calendalf_6 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_taurethon_5 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_taurethon_4 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_taurethon_2 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_taurethon_1 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_taurethon_3 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_calendalf_18 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_calendalf_19 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_taurethon_6 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_calendalf_2 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_calendalf_1 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_lhugdalf_13 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_everdalf_16 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_everdalf_30 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_everdalf_31 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_everdalf_33 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_everdalf_17 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_talath_uichel_17 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_talath_uichel_18 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_talath_uichel_16 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_talath_uichel_15 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_talath_uichel_14 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_talath_uichel_13 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_talath_uichel_11 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_talath_uichel_12 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_talath_uichel_6 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_talath_uichel_19 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_everdalf_32 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_lhugdalf_15 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_talath_uichel_10 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_forovirian_21 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_grey_foothills_1 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_grey_foothills_2 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_grey_foothills_4 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_grey_foothills_6 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_grey_foothills_7 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_grey_foothills_10 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_grey_foothills_11 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_grey_foothills_13 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_grey_foothills_14 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_talath_uichel_5 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_talath_uichel_9 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_lhugdalf_17 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_grey_foothills_8 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_frostwood_20 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_grey_foothills_12 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_frostwood_32 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_frostwood_23 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_frostwood_24 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_frostwood_31 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_frostwood_30 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_frostwood_29 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_komi_8 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_komi_9 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_frostwood_28 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_frostwood_22 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_frostwood_26 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_frostwood_27 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_frostwood_21 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_frostwood_14 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_frostwood_25 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_frostwood_13 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_frostwood_11 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_frostwood_10 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_grey_foothills_9 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_frostwood_12 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_grey_foothills_5 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_frostwood_4 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_grey_foothills_3 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_frostwood_2 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_frostwood_1 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_forovirian_20 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_frostwood_5 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_frostwood_7 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_frostwood_19 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_talath_uichel_8 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_talath_uichel_7 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_talath_uichel_4 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_forovirian_17 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_frostwood_3 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_frostwood_6 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_frostwood_8 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_frostwood_18 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_frostwood_16 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_frostwood_17 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_frostwood_15 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_komi_7 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_komi_6 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_komi_5 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_komi_4 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_komi_1 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_frostwood_9 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_komi_2 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_komi_3 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_forovirian_19 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_forovirian_15 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_forovirian_18 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_talath_uichel_3 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_forovirian_16 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_talath_uichel_2 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_talath_uichel_1 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_forovirian_14 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_forovirian_13 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_lhugdalf_16 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_forovirian_8 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_forovirian_7 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_forovirian_6 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_forovirian_2 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_forovirian_1 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_forovirian_3 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_sula_6 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_sula_10 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_sula_7 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_sula_9 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_sula_3 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_sula_5 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_sula_8 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_sula_4 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_sula_2 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_lhugdalf_23 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_sula_1 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_forovirian_5 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_forovirian_4 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_forovirian_10 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_forovirian_9 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_forovirian_12 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_forovirian_11 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_lhugdalf_18 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_lhugdalf_12 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_lhugdalf_20 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_lhugdalf_19 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_calendalf_3 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_lhugdalf_14 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_lhugdalf_21 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_lhugdalf_22 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_lhugdalf_1 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_mosha_6 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_lhugdalf_5 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_lhugdalf_6 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_lhugdalf_11 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_lhugdalf_8 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_lhugdalf_10 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_lhugdalf_9 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_lhugdalf_4 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_lhugdalf_7 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_lhugdalf_3 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_lhugdalf_2 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_mosha_9 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_mosha_8 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_mosha_7 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_mosha_5 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_mosha_1 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_mosha_2 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_mosha_4 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_mosha_3 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_mosha_29 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_mosha_28 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_mosha_27 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_mosha_26 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_mosha_10 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_mosha_30 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_mosha_11 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_mosha_24 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_mosha_23 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_mosha_12 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_mosha_13 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_mosha_14 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_mosha_25 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_mosha_15 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_mosha_16 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_mosha_18 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_mosha_19 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_mosha_21 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_aurora_isles_2 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_aurora_isles_1 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_mosha_20 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_mosha_22 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_mosha_17 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_aurora_isles_3 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_aurora_isles_5 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_lindalf_13 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_lindalf_12 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_lindalf_11 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_lindalf_10 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_lindalf_9 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_lindalf_6 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_lindalf_15 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_lindalf_7 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_lindalf_5 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_lindalf_8 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_lindalf_2 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_lindalf_3 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_ailindalf_11 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_ailindalf_12 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_ailindalf_15 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_ailindalf_14 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_ailindalf_10 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_nidavellir_21 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_nidavellir_22 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_nidavellir_23 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_ailindalf_13 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_ailindalf_9 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_nidavellir_20 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_nidavellir_19 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_ailindalf_7 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_nidavellir_18 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_nidavellir_5 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_nidavellir_2 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_nidavellir_7 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_nidavellir_6 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_nidavellir_1 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_ailindalf_6 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_nidavellir_16 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_nidavellir_14 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_nidavellir_24 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_nidavellir_10 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_nidavellir_15 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_nidavellir_13 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_nidavellir_9 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_nidavellir_11 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_nidavellir_8 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_nidavellir_3 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_nidavellir_4 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_muilfalas_5 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_nidavellir_12 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_nidavellir_17 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_bleak_mountains_6 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_bleak_mountains_5 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_bleak_mountains_7 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_bleak_mountains_9 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_bleak_mountains_3 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_bleak_mountains_1 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_muilfalas_4 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_bleak_mountains_2 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_bleak_mountains_8 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_bleak_mountains_4 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_durnost_17 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_durnost_16 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_durnost_18 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_durnost_14 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_durnost_15 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_durnost_21 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_durnost_20 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_durnost_19 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_durnost_22 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_muilfalas_3 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_muilfalas_2 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_muilfalas_1 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_durnost_2 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_durnost_1 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_durnost_3 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_durnost_4 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_durnost_5 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_ruinfalas_10 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_durnost_8 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_durnost_7 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_durnost_9 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_durnost_6 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_ruinfalas_11 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_durnost_10 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_durnost_11 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_durnost_13 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_durnost_12 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_ruinfalas_9 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_bleak_mountains_10 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_bleak_mountains_12 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_bleak_mountains_13 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_ruinfalas_8 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_morgoths_well_1 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_ruinfalas_4 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_bleak_mountains_11 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_bleak_mountains_15 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_ailindalf_4 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_bleak_mountains_14 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_ailindalf_8 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_ailindalf_5 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_ailindalf_3 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_ailindalf_2 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_ailindalf_1 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_ruinfalas_1 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_rast_losnaeth_6 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_rast_losnaeth_5 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_ruinfalas_3 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_ruinfalas_2 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_ruinfalas_5 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_ruinfalas_6 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_ruinfalas_7 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_rast_losnaeth_1 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_rast_losnaeth_2 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_rast_losnaeth_3 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_rast_losnaeth_4 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_narthalf_7 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_narthalf_6 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_narthalf_5 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_narthalf_4 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_narthalf_3 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_narthalf_2 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_narthalf_1 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_northern_iron_mountains_18 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_northern_iron_mountains_17 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_northern_iron_mountains_15 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_northern_iron_mountains_19 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_northern_iron_mountains_16 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_northern_iron_mountains_14 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_northern_iron_mountains_12 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_northern_iron_mountains_13 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_northern_iron_mountains_11 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_northern_iron_mountains_10 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_northern_iron_mountains_9 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_northern_iron_mountains_8 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_northern_iron_mountains_7 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_northern_iron_mountains_5 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_northern_iron_mountains_6 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_northern_iron_mountains_4 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_northern_iron_mountains_3 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_northern_iron_mountains_2 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_northern_iron_mountains_1 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_helfalas_6 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_helfalas_5 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_helfalas_4 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_helfalas_3 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_helfalas_2 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_evermist_2 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_evermist_1 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_evermist_3 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_evermist_4 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_evermist_5 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_minheldolath_1 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_minheldolath_2 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_minheldolath_3 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_minheldolath_4 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_ered_rhivamar_24 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_ered_rhivamar_23 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_ered_rhivamar_22 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_ered_rhivamar_21 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_ered_rhivamar_14 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_ered_rhivamar_25 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_ered_rhivamar_15 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_ered_rhivamar_20 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_ered_rhivamar_12 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_ered_rhivamar_11 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_ered_rhivamar_16 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_ered_rhivamar_17 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_ered_rhivamar_26 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_ered_rhivamar_29 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_ered_rhivamar_30 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_ered_rhivamar_31 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_ered_rhivamar_33 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_ered_rhivamar_32 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_ered_rhivamar_28 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_ered_rhivamar_27 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_ered_rhivamar_13 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_ered_rhivamar_19 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_ered_rhivamar_9 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_ered_rhivamar_8 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_ered_rhivamar_7 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_ered_rhivamar_10 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_ered_rhivamar_6 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_ered_rhivamar_5 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_ered_rhivamar_4 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_ered_rhivamar_3 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_ered_rhivamar_2 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_ered_rhivamar_1 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_helfalas_1 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_gondalf_8 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_gondalf_7 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_gondalf_6 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_gondalf_5 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_gondalf_4 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_gondalf_3 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_gondalf_2 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_gondalf_1 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_angband_reach_2 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_angband_reach_1 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_angband_reach_3 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_angband_reach_7 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_angband_reach_6 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_angband_reach_8 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_angband_reach_4 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_angband_reach_5 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_angband_reach_9 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_minheldolath_23 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_minheldolath_22 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_minheldolath_21 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_angband_reach_11 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_angband_reach_13 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_angband_reach_12 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_angband_reach_10 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_minheldolath_13 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_minheldolath_14 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_minheldolath_8 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_minheldolath_7 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_minheldolath_6 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_minheldolath_5 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_minheldolath_9 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_minheldolath_10 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_minheldolath_11 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_minheldolath_12 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_minheldolath_15 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_minheldolath_16 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_minheldolath_20 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_minheldolath_18 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_minheldolath_17 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_minheldolath_19 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_minheldolath_24 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_minheldolath_25 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_minheldolath_26 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_frost_isles_7 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_frost_isles_5 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_frost_isles_4 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_frost_isles_3 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_frost_isles_2 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_frost_isles_1 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_frost_isles_8 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_tol_faron_2 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_frost_isles_9 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_frost_isles_6 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_tol_faron_1 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_tol_faron_3 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_thangorodrim_4 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_thangorodrim_1 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_thangorodrim_2 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}
+
+c_thangorodrim_3 = {
+	3912.1.1 = {
+		holder = k_wastelands_holder
+		
+	}
+}

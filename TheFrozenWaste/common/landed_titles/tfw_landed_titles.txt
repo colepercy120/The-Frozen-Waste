@@ -2301,6 +2301,13 @@ e_bleak_mountains = {
 					color={ 163 196 34 }
 				}
 			}
+			c_nidavellir_24 = {
+				color={ 255 213 77 }
+				b_nidavellir_24 = {
+					province = 9272
+					color={ 255 213 77 }
+				}
+			}
 		}
 	}
 }
@@ -5227,5 +5234,1582 @@ e_enevorodwaith = {
 			}
 		}
 	}
-	
+	k_forovirian = {
+		color={ 0 247 255 }
+		d_forovirian_1 = {
+			color={ 0 247 255 }
+			c_forovirian_1 = {
+				color={ 0 247 255 }
+				b_forovirian_13 = {
+					province = 8940
+					color={ 92 195 83 }
+				}
+				b_forovirian_14 = {
+					province = 8941
+					color={ 139 159 87 }
+				}
+				b_forovirian_15 = {
+					province = 8942
+					color={ 103 171 82 }
+				}
+				b_forovirian_16 = {
+					province = 8943
+					color={ 129 93 79 }
+				}
+			}
+			c_forovirian_2 = {
+				color={ 9 146 150 }
+				b_forovirian_12 = {
+					province = 8939
+					color={ 213 96 59 }
+				}
+				b_forovirian_21 = {
+					province = 8948
+					color={ 185 176 63 }
+				}
+				b_forovirian_22 = {
+					province = 8949
+					color={ 75 183 80 }
+				}
+				b_forovirian_23 = {
+					province = 8950
+					color={ 163 197 93 }
+				}
+			}
+			c_forovirian_3 = {
+				color={ 90 196 199 }
+				b_forovirian_17 = {
+					province = 8944
+					color={ 179 191 118 }
+				}
+				b_forovirian_11 = {
+					province = 8938
+					color={ 173 109 70 }
+				}
+				b_forovirian_10 = {
+					province = 8937
+					color={ 159 188 117 }
+				}
+			}
+			c_forovirian_4 = {
+				color={ 151 203 204 }
+				b_forovirian_18 = {
+					province = 8945
+					color={ 218 132 110 }
+				}
+				b_forovirian_19 = {
+					province = 8946
+					color={ 113 125 21 }
+				}
+				b_forovirian_7 = {
+					province = 8934
+					color={ 115 112 44 }
+				}
+			}
+			c_forovirian_5 = {
+				color={ 110 252 255 }
+				b_forovirian_8 = {
+					province = 8935
+					color={ 152 177 120 }
+				}
+				b_forovirian_9 = {
+					province = 8936
+					color={ 208 96 40 }
+				}
+			}
+		}
+		d_forovirian_2 = {
+			color={ 61 190 255 }
+			c_forovirian_6 = {
+				color={ 61 190 255 }
+				b_forovirian_27 = {
+					province = 8954
+					color={ 67 90 49 }
+				}
+				b_forovirian_28 = {
+					province = 8955
+					color={ 166 169 48 }
+				}
+			}
+			c_forovirian_7 = {
+				color={ 20 127 181 }
+				b_forovirian_32 = {
+					province = 8959
+					color={ 216 100 36 }
+				}
+				b_forovirian_33 = {
+					province = 8960
+					color={ 213 94 87 }
+				}
+				b_forovirian_34 = {
+					province = 8961
+					color={ 132 141 78 }
+				}
+			}
+			c_forovirian_8 = {
+				color={ 65 139 176 }
+				b_forovirian_36 = {
+					province = 8963
+					color={ 130 123 41 }
+				}
+				b_forovirian_37 = {
+					province = 8964
+					color={ 62 173 25 }
+				}
+				b_forovirian_38 = {
+					province = 8965
+					color={ 155 169 55 }
+				}
+				b_forovirian_45 = {
+					province = 8972
+					color={ 218 187 107 }
+				}
+			}
+			c_forovirian_9 = {
+				color={ 103 163 194 }
+				b_forovirian_29 = {
+					province = 8956
+					color={ 169 158 49 }
+				}
+				b_forovirian_30 = {
+					province = 8957
+					color={ 160 138 80 }
+				}
+				b_forovirian_35 = {
+					province = 8962
+					color={ 117 93 49 }
+				}
+			}
+		}
+		d_forovirian_3 = {
+			color={ 110 189 230 }
+			c_forovirian_10 = {
+				color={ 110 189 230 }
+				b_forovirian_20 = {
+					province = 8947
+					color={ 149 170 64 }
+				}
+				b_forovirian_24 = {
+					province = 8951
+					color={ 179 142 62 }
+				}
+				b_forovirian_25 = {
+					province = 8952
+					color={ 132 194 25 }
+				}
+			}
+			c_forovirian_11 = {
+				color={ 0 87 133 }
+				b_forovirian_26 = {
+					province = 8953
+					color={ 179 115 38 }
+				}
+				b_forovirian_5 = {
+					province = 8932
+					color={ 92 171 45 }
+				}
+				b_forovirian_6 = {
+					province = 8933
+					color={ 166 164 97 }
+				}
+			}
+			c_forovirian_12 = {
+				color={ 98 141 163 }
+				b_forovirian_3 = {
+					province = 8930
+					color={ 156 194 58 }
+				}
+				b_forovirian_4 = {
+					province = 8931
+					color={ 113 115 55 }
+				}
+				b_forovirian_31 = {
+					province = 8958
+					color={ 124 92 29 }
+				}
+			}
+		}
+		d_forovirian_4 = {
+			color={ 94 140 247 }
+			c_forovirian_13 = {
+				color={ 94 140 247 }
+				b_forovirian_1 = {
+					province = 8928
+					color={ 119 122 29 }
+				}
+				b_forovirian_2 = {
+					province = 8929
+					color={ 95 147 34 }
+				}
+				b_forovirian_41 = {
+					province = 8968
+					color={ 195 132 61 }
+				}
+			}
+			c_forovirian_14 = {
+				color={ 39 80 176 }
+				b_forovirian_42 = {
+					province = 8969
+					color={ 218 111 102 }
+				}
+				b_forovirian_43 = {
+					province = 8970
+					color={ 218 115 77 }
+				}
+			}
+			c_forovirian_15 = {
+				color={ 15 39 97 }
+				b_forovirian_52 = {
+					province = 8979
+					color={ 72 105 90 }
+				}
+				b_forovirian_53 = {
+					province = 8980
+					color={ 79 103 57 }
+				}
+				b_forovirian_54 = {
+					province = 8981
+					color={ 179 122 55 }
+				}
+				b_forovirian_55 = {
+					province = 8982
+					color={ 171 93 104 }
+				}
+			}
+			c_forovirian_16 = {
+				color={ 84 101 143 }
+				b_forovirian_39 = {
+					province = 8966
+					color={ 185 140 88 }
+				}
+				b_forovirian_40 = {
+					province = 8967
+					color={ 150 118 95 }
+				}
+				b_forovirian_44 = {
+					province = 8971
+					color={ 144 164 69 }
+				}
+			}
+		}
+		d_forovirian_5 = {
+			color={ 124 206 217 }
+			c_forovirian_17 = {
+				color={ 124 206 217 }
+				b_forovirian_47 = {
+					province = 8974
+					color={ 74 106 81 }
+				}
+				b_forovirian_48 = {
+					province = 8975
+					color={ 130 154 30 }
+				}
+				b_forovirian_49 = {
+					province = 8976
+					color={ 206 171 111 }
+				}
+				b_forovirian_50 = {
+					province = 8977
+					color={ 130 187 30 }
+				}
+				b_forovirian_57 = {
+					province = 8984
+					color={ 152 165 71 }
+				}
+			}
+			c_forovirian_18 = {
+				color={ 67 206 224 }
+				b_forovirian_46 = {
+					province = 8973
+					color={ 151 124 104 }
+				}
+				b_forovirian_51 = {
+					province = 8978
+					color={ 196 125 76 }
+				}
+				b_forovirian_56 = {
+					province = 8983
+					color={ 73 110 35 }
+				}
+			}
+			c_forovirian_19 = {
+				color={ 19 156 173 }
+				b_forovirian_63 = {
+					province = 8990
+					color={ 101 137 79 }
+				}
+				b_forovirian_64 = {
+					province = 8991
+					color={ 131 197 95 }
+				}
+				b_forovirian_65 = {
+					province = 8992
+					color={ 180 132 70 }
+				}
+				b_forovirian_66 = {
+					province = 8993
+					color={ 200 191 90 }
+				}
+			}
+			c_forovirian_20 = {
+				color={ 168 232 240 }
+				b_forovirian_58 = {
+					province = 8985
+					color={ 119 184 110 }
+				}
+				b_forovirian_59 = {
+					province = 8986
+					color={ 106 192 111 }
+				}
+				b_forovirian_61 = {
+					province = 8988
+					color={ 201 93 53 }
+				}
+				b_forovirian_62 = {
+					province = 8989
+					color={ 164 130 48 }
+				}
+			}
+			c_forovirian_21 = {
+				color={ 0 145 163 }
+				b_forovirian_67 = {
+					province = 8994
+					color={ 164 167 31 }
+				}
+				b_forovirian_68 = {
+					province = 8995
+					color={ 206 169 85 }
+				}
+				b_forovirian_69 = {
+					province = 8996
+					color={ 72 146 34 }
+				}
+			}
+		}
+	}
+	k_talath_uichel = {
+		color={ 232 252 255 }
+		d_talath_uichel_1 = {
+			color={ 232 252 255 }
+			c_talath_uichel_1 = {
+				color={ 232 252 255 }
+				b_talath_uichel_1 = {
+					province = 8656
+					color={ 90 126 34 }
+				}
+				b_talath_uichel_2 = {
+					province = 8657
+					color={ 94 187 57 }
+				}
+				b_talath_uichel_31 = {
+					province = 8686
+					color={ 101 132 100 }
+				}
+			}
+			c_talath_uichel_2 = {
+				color={ 155 238 250 }
+				b_talath_uichel_32 = {
+					province = 8687
+					color={ 194 154 30 }
+				}
+				b_talath_uichel_33 = {
+					province = 8688
+					color={ 195 138 75 }
+				}
+				b_talath_uichel_3 = {
+					province = 8658
+					color={ 92 150 82 }
+				}
+			}
+			c_talath_uichel_3 = {
+				color={ 83 207 224 }
+				b_talath_uichel_4 = {
+					province = 8659
+					color={ 190 93 116 }
+				}
+				b_talath_uichel_34 = {
+					province = 8689
+					color={ 178 102 64 }
+				}
+				b_talath_uichel_52 = {
+					province = 8707
+					color={ 110 116 34 }
+				}
+			}
+			
+		}
+		d_talath_uichel_2 = {
+			color={ 89 235 255 }
+			c_talath_uichel_4 = {
+				color={ 89 235 255 }
+				b_talath_uichel_51 = {
+					province = 8706
+					color={ 145 123 34 }
+				}
+				b_talath_uichel_58 = {
+					province = 8713
+					color={ 152 195 94 }
+				}
+				b_talath_uichel_59 = {
+					province = 8714
+					color={ 68 179 63 }
+				}
+				b_talath_uichel_60 = {
+					province = 8715
+					color={ 107 198 103 }
+				}
+			}
+			c_talath_uichel_5 = {
+				color={ 45 187 207 }
+				b_talath_uichel_54 = {
+					province = 8709
+					color={ 211 151 69 }
+				}
+				b_talath_uichel_55 = {
+					province = 8710
+					color={ 211 169 73 }
+				}
+			}
+			c_talath_uichel_6 = {
+				color={ 18 145 163 }
+				b_talath_uichel_56 = {
+					province = 8711
+					color={ 211 162 86 }
+				}
+				b_talath_uichel_57 = {
+					province = 8712
+					color={ 156 153 65 }
+				}
+				b_talath_uichel_50 = {
+					province = 8705
+					color={ 119 175 109 }
+				}
+			}			
+		}
+		d_talath_uichel_3 = {
+			color={ 200 224 227 }
+			c_talath_uichel_7 = {
+				color={ 200 224 227 }
+				b_talath_uichel_53 = {
+					province = 8708
+					color={ 127 113 55 }
+				}
+				b_talath_uichel_35 = {
+					province = 8690
+					color={ 136 172 95 }
+				}
+				b_talath_uichel_5 = {
+					province = 8660
+					color={ 95 173 114 }
+				}
+			}
+			c_talath_uichel_8 = {
+				color={ 191 237 242 }
+				b_talath_uichel_6 = {
+					province = 8661
+					color={ 207 121 74 }
+				}
+				b_talath_uichel_7 = {
+					province = 8662
+					color={ 83 146 120 }
+				}
+				b_talath_uichel_36 = {
+					province = 8691
+					color={ 129 169 78 }
+				}
+			}
+			c_talath_uichel_9 = {
+				color={ 148 205 212 }
+				b_talath_uichel_8 = {
+					province = 8663
+					color={ 217 165 88 }
+				}
+				b_talath_uichel_9 = {
+					province = 8664
+					color={ 82 150 85 }
+				}
+				b_talath_uichel_10 = {
+					province = 8665
+					color={ 175 103 120 }
+				}
+			}
+			c_talath_uichel_10 = {
+				color={ 188 205 207 }
+				b_talath_uichel_11 = {
+					province = 8666
+					color={ 64 197 35 }
+				}
+				b_talath_uichel_12 = {
+					province = 8667
+					color={ 85 200 104 }
+				}
+				b_talath_uichel_37 = {
+					province = 8692
+					color={ 126 143 83 }
+				}
+				b_talath_uichel_38 = {
+					province = 8693
+					color={ 113 187 42 }
+				}
+			}
+		}
+		d_talath_uichel_4 = {
+			color={ 126 148 150 }
+			c_talath_uichel_11 = {
+				color={ 126 148 150 }
+				b_talath_uichel_39 = {
+					province = 8694
+					color={ 170 173 97 }
+				}
+				b_talath_uichel_13 = {
+					province = 8668
+					color={ 64 194 47 }
+				}
+				b_talath_uichel_14 = {
+					province = 8669
+					color={ 156 159 86 }
+				}
+			}
+			c_talath_uichel_12 = {
+				color={ 148 160 161 }
+				b_talath_uichel_40 = {
+					province = 8695
+					color={ 209 141 22 }
+				}
+				b_talath_uichel_41 = {
+					province = 8696
+					color={ 71 191 92 }
+				}
+				b_talath_uichel_42 = {
+					province = 8697
+					color={ 76 157 49 }
+				}
+			}
+			c_talath_uichel_13 = {
+				color={ 167 194 196 }
+				b_talath_uichel_15 = {
+					province = 8670
+					color={ 112 151 74 }
+				}
+				b_talath_uichel_16 = {
+					province = 8671
+					color={ 161 120 58 }
+				}
+			}
+			c_talath_uichel_14 = {
+				color={ 169 218 222 }
+				b_talath_uichel_17 = {
+					province = 8672
+					color={ 69 169 60 }
+				}
+				b_talath_uichel_18 = {
+					province = 8673
+					color={ 63 170 24 }
+				}
+				b_talath_uichel_19 = {
+					province = 8674
+					color={ 74 140 43 }
+				}
+			}
+			c_talath_uichel_15 = {
+				color={ 204 251 255}
+				b_talath_uichel_20 = {
+					province = 8675
+					color={ 130 140 64 }
+				}
+				b_talath_uichel_43 = {
+					province = 8698
+					color={ 171 99 37 }
+				}
+				b_talath_uichel_44 = {
+					province = 8699
+					color={ 115 178 49 }
+				}
+			}
+		}
+		d_talath_uichel_5 = {
+			color={ 71 241 255 }
+			c_talath_uichel_16 = {
+				color={ 71 241 255 }
+				b_talath_uichel_21 = {
+					province = 8676
+					color={ 105 95 31 }
+				}
+				b_talath_uichel_45 = {
+					province = 8700
+					color={ 196 115 32 }
+				}
+				b_talath_uichel_48 = {
+					province = 8703
+					color={ 102 152 38 }
+				}
+			}
+			c_talath_uichel_17 = {
+				color={ 36 201 214 }
+				b_talath_uichel_46 = {
+					province = 8701
+					color={ 143 128 100 }
+				}
+				b_talath_uichel_22 = {
+					province = 8677
+					color={ 78 139 57 }
+				}
+				b_talath_uichel_23 = {
+					province = 8678
+					color={ 86 164 35 }
+				}
+				b_talath_uichel_24 = {
+					province = 8679
+					color={ 72 173 97 }
+				}
+			}
+			c_talath_uichel_18 = {
+				color={ 58 167 176 }
+				b_talath_uichel_25 = {
+					province = 8680
+					color={ 75 171 114 }
+				}
+				b_talath_uichel_26 = {
+					province = 8681
+					color={ 84 144 105 }
+				}
+				b_talath_uichel_27 = {
+					province = 8682
+					color={ 183 139 29 }
+				}
+				b_talath_uichel_47 = {
+					province = 8702
+					color={ 207 173 35 }
+				}
+			}
+			c_talath_uichel_19 = {
+				color={ 148 247 255 }
+				b_talath_uichel_49 = {
+					province = 8704
+					color={ 96 160 102 }
+				}
+				b_talath_uichel_28 = {
+					province = 8683
+					color={ 144 91 58 }
+				}
+				b_talath_uichel_29 = {
+					province = 8684
+					color={ 172 126 102 }
+				}
+				b_talath_uichel_30 = {
+					province = 8685
+					color={ 167 118 105 }
+				}
+			}
+		}
+	}
+}
+e_umli = {
+	color={ 0 2 102 }
+	k_komi = {
+		color={ 29 55 120 }
+		d_komi_1 = {
+			color={ 29 55 120 }
+			c_komi_1 = {
+				color={ 29 55 120 }
+				b_komi_1 = {
+					province = 8861
+					color={ 132 190 100 }
+				}
+				b_komi_2 = {
+					province = 8862
+					color={ 86 179 110 }
+				}
+			}
+			c_komi_2 = {
+				color={ 13 57 166 }
+				b_komi_3 = {
+					province = 8863
+					color={ 119 116 66 }
+				}
+				b_komi_4 = {
+					province = 8864
+					color={ 125 128 82 }
+				}
+			}
+			c_komi_3 = {
+				color={ 65 111 224 }
+				b_komi_5 = {
+					province = 8865
+					color={ 153 122 66 }
+				}
+				b_komi_6 = {
+					province = 8866
+					color={ 173 121 114 }
+				}
+				b_komi_7 = {
+					province = 8867
+					color={ 137 124 112 }
+				}
+			}
+		}
+		d_komi_2 = {
+			color={ 29 76 120 }
+			c_komi_4 = {
+				color={ 29 76 120 }
+				b_komi_8 = {
+					province = 8868
+					color={ 204 184 58 }
+				}
+				b_komi_14 = {
+					province = 8874
+					color={ 101 138 35 }
+				}
+			}
+			c_komi_5 = {
+				color={ 11 74 133 }
+				b_komi_13 = {
+					province = 8873
+					color={ 178 107 26 }
+				}
+				b_komi_9 = {
+					province = 8869
+					color={ 204 167 98 }
+				}
+				b_komi_10 = {
+					province = 8870
+					color={ 76 169 98 }
+				}
+			}
+			c_komi_6 = {
+				color={ 25 99 168 }
+				b_komi_11 = {
+					province = 8871
+					color={ 78 111 105 }
+				}
+				b_komi_12 = {
+					province = 8872
+					color={ 196 197 50 }
+				}
+				b_komi_19 = {
+					province = 8879
+					color={ 180 109 74 }
+				}
+			}
+			c_komi_7 = {
+				color={ 64 98 130 }
+				b_komi_15 = {
+					province = 8875
+					color={ 96 160 44 }
+				}
+				b_komi_16 = {
+					province = 8876
+					color={ 79 188 67 }
+				}
+				b_komi_17 = {
+					province = 8877
+					color={ 174 170 93 }
+				}
+				b_komi_18 = {
+					province = 8878
+					color={ 181 172 23 }
+				}
+			}
+		}
+		d_komi_3 = {
+			color={ 65 112 120 }
+			c_komi_8 = {
+				color={ 65 112 120 }
+				b_komi_20 = {
+					province = 8880
+					color={ 120 117 119 }
+				}
+				b_komi_21 = {
+					province = 8881
+					color={ 79 138 27 }
+				}
+				b_komi_22 = {
+					province = 8882
+					color={ 104 170 86 }
+				}
+			}
+			c_komi_9 = {
+				color={ 109 181 194 }
+				b_komi_23 = {
+					province = 8883
+					color={ 97 166 75 }
+				}
+				b_komi_24 = {
+					province = 8884
+					color={ 149 152 108 }
+				}
+				b_komi_25 = {
+					province = 8885
+					color={ 215 94 20 }
+				}
+			}
+		}
+	}
+}
+k_grey_foothills = {
+	color={ 92 105 107 }
+	d_grey_foothills_1 = {
+		color={ 92 105 107 }
+		c_grey_foothills_1 = {
+			color={ 92 105 107 }
+			b_grey_foothills_45 = {
+				province = 8987
+				color={ 171 98 63 }
+			}
+			b_grey_foothills_1 = {
+				province = 8817
+				color={ 174 167 118 }
+			}
+			b_grey_foothills_2 = {
+				province = 8818
+				color={ 68 177 36 }
+			}
+			b_grey_foothills_3 = {
+				province = 8819
+				color={ 89 91 33 }
+			}
+		}
+		c_grey_foothills_2 = {
+			color={ 64 84 87 }
+			b_grey_foothills_4 = {
+				province = 8820
+				color={ 149 92 81 }
+			}
+			b_grey_foothills_5 = {
+				province = 8821
+				color={ 137 95 100 }
+			}
+			b_grey_foothills_6 = {
+				province = 8822
+				color={ 91 169 103 }
+			}
+			b_grey_foothills_7 = {
+				province = 8823
+				color={ 157 137 72 }
+			}
+			b_grey_foothills_8 = {
+				province = 8824
+				color={ 162 187 101 }
+			}
+		}
+		c_grey_foothills_3 = {
+			color={ 138 155 158 }
+			b_grey_foothills_9 = {
+				province = 8825
+				color={ 147 100 91 }
+			}
+			b_grey_foothills_10 = {
+				province = 8826
+				color={ 178 190 98 }
+			}
+			b_grey_foothills_11 = {
+				province = 8827
+				color={ 153 177 49 }
+			}
+			b_eryn_halcin_90 = {
+				province = 8807
+				color={ 188 164 64 }
+			}
+		}
+		c_grey_foothills_4 = {
+			color={ 59 72 74 }
+			b_grey_foothills_12 = {
+				province = 8828
+				color={ 191 122 112 }
+			}
+			b_grey_foothills_13 = {
+				province = 8829
+				color={ 113 99 107 }
+			}
+		}
+	}
+	d_grey_foothills_2 = {
+		color={ 154 164 166 }
+		c_grey_foothills_5 = {
+			color={ 154 164 166 }
+			b_grey_foothills_14 = {
+				province = 8830
+				color={ 203 180 20 }
+			}
+			b_grey_foothills_15 = {
+				province = 8831
+				color={ 184 198 37 }
+			}
+			b_grey_foothills_16 = {
+				province = 8832
+				color={ 165 112 45 }
+			}
+		}
+		c_grey_foothills_6 = {
+			color={ 104 121 125 }
+			b_grey_foothills_17 = {
+				province = 8833
+				color={ 151 150 47 }
+			}
+			b_grey_foothills_18 = {
+				province = 8834
+				color={ 184 140 119 }
+			}
+		}
+		c_grey_foothills_7 = {
+			color={ 47 56 59 }
+			b_grey_foothills_19 = {
+				province = 8835
+				color={ 81 120 77 }
+			}
+			b_grey_foothills_20 = {
+				province = 8836
+				color={ 63 105 91 }
+			}
+			b_grey_foothills_21 = {
+				province = 8837
+				color={ 131 109 109 }
+			}
+		}
+		c_grey_foothills_8 = {
+			color={ 80 116 128 }
+			b_grey_foothills_22 = {
+				province = 8838
+				color={ 203 139 93 }
+			}
+			b_grey_foothills_23 = {
+				province = 8839
+				color={ 128 117 76 }
+			}
+			b_grey_foothills_24 = {
+				province = 8840
+				color={ 81 125 90 }
+			}
+			b_eryn_halcin_93 = {
+				province = 8810
+				color={ 98 135 32 }
+			}
+		}
+		c_grey_foothills_9 = {
+			color={ 25 66 79 }
+			b_eryn_halcin_92 = {
+				province = 8809
+				color={ 166 190 45 }
+			}
+			b_eryn_halcin_3 = {
+				province = 8719
+				color={ 213 158 114 }
+			}
+		}
+	}
+	d_grey_foothills_3 = {
+		color={ 78 89 89 }
+		c_grey_foothills_10 = {
+			color={ 78 89 89 }
+			b_grey_foothills_25 = {
+				province = 8841
+				color={ 123 142 39 }
+			}
+			b_grey_foothills_27 = {
+				province = 8843
+				color={ 61 102 80 }
+			}
+			b_grey_foothills_28 = {
+				province = 8844
+				color={ 95 116 88 }
+			}
+			b_grey_foothills_26 = {
+				province = 8842
+				color={ 107 134 106 }
+			}
+		}
+		c_grey_foothills_11 = {
+			color={ 121 148 148 }
+			b_grey_foothills_29 = {
+				province = 8845
+				color={ 107 100 27 }
+			}
+			b_grey_foothills_30 = {
+				province = 8846
+				color={ 131 96 46 }
+			}
+			b_grey_foothills_31 = {
+				province = 8847
+				color={ 181 116 51 }
+			}
+			b_grey_foothills_32 = {
+				province = 8848
+				color={ 123 112 102 }
+			}
+			b_grey_foothills_33 = {
+				province = 8849
+				color={ 74 112 96 }
+			}
+		}
+		c_grey_foothills_12 = {
+			color={ 72 135 135 }
+			b_grey_foothills_34 = {
+				province = 8850
+				color={ 201 197 66 }
+			}
+			b_grey_foothills_35 = {
+				province = 8851
+				color={ 74 183 46 }
+			}
+			b_grey_foothills_37 = {
+				province = 8853
+				color={ 190 182 62 }
+			}
+		}
+		c_grey_foothills_13 = {
+			color={ 145 186 186 }
+			b_grey_foothills_36 = {
+				province = 8852
+				color={ 158 150 111 }
+			}
+			b_grey_foothills_38 = {
+				province = 8854
+				color={ 181 195 94 }
+			}
+			b_grey_foothills_39 = {
+				province = 8855
+				color={ 177 98 100 }
+			}
+		}
+		c_grey_foothills_14 = {
+			color={ 74 79 79 }
+			b_grey_foothills_40 = {
+				province = 8856
+				color={ 158 105 117 }
+			}
+			b_grey_foothills_41 = {
+				province = 8857
+				color={ 92 190 112 }
+			}
+			b_grey_foothills_42 = {
+				province = 8858
+				color={ 187 98 100 }
+			}
+			b_grey_foothills_43 = {
+				province = 8859
+				color={ 97 195 35 }
+			}
+			b_grey_foothills_44 = {
+				province = 8860
+				color={ 167 108 95 }
+			}
+		
+		}
+		
+	}
+}
+e_frostwood = {
+	color={ 0 255 255 }
+	k_west_frostwood = {
+		
+		color={ 199 255 255 }
+		d_west_frostwood_1 = {
+			color={ 0 255 255 }
+			c_frostwood_1 = {
+				color={ 0 255 255 }
+				b_eryn_halcin_83 = {
+					province = 8800
+					color={ 189 195 55 }
+				}
+				b_eryn_halcin_84 = {
+					province = 8801
+					color={ 175 196 49 }
+				}
+				b_eryn_halcin_86 = {
+					province = 8803
+					color={ 70 175 50 }
+				}
+			}
+			c_frostwood_2 = {
+				color={ 2 217 217 }
+				b_eryn_halcin_85 = {
+					province = 8802
+					color={ 207 139 54 }
+				}
+				b_eryn_halcin_87 = {
+					province = 8804
+					color={ 205 194 99 }
+				}
+				b_eryn_halcin_88 = {
+					province = 8805
+					color={ 157 107 68 }
+				}
+				b_eryn_halcin_81 = {
+					province = 8798
+					color={ 145 94 91 }
+				}
+			}
+			c_frostwood_3 = {
+				color={ 50 240 240 }
+				b_eryn_halcin_82 = {
+					province = 8799
+					color={ 128 154 101 }
+				}
+				b_eryn_halcin_95 = {
+					province = 8812
+					color={ 79 163 74 }
+				}
+			}
+		}
+		d_west_frostwood_2 = {
+			color={ 138 255 255 }
+			c_frostwood_4 = {
+				color={ 138 255 255 }
+				b_eryn_halcin_91 = {
+					province = 8808
+					color={ 85 187 29 }
+				}
+				b_eryn_halcin_89 = {
+					province = 8806
+					color={ 174 160 93 }
+				}
+				b_eryn_halcin_1 = {
+					province = 8716
+					color={ 170 99 20 }
+				}
+			}
+			c_frostwood_5 = {
+				color={ 133 214 214 }
+				b_eryn_halcin_43 = {
+					province = 8759
+					color={ 200 135 119 }
+				}
+				b_eryn_halcin_44 = {
+					province = 8760
+					color={ 88 112 58 }
+				}
+				b_eryn_halcin_48 = {
+					province = 8764
+					color={ 219 145 86 }
+				}
+				b_eryn_halcin_49 = {
+					province = 8765
+					color={ 192 152 21 }
+				}
+			}
+			c_frostwood_6 = {
+				color={ 180 237 237 }
+				b_eryn_halcin_46 = {
+					province = 8762
+					color={ 198 154 58 }
+				}
+				b_eryn_halcin_42 = {
+					province = 8758
+					color={ 211 198 36 }
+				}
+				b_eryn_halcin_41 = {
+					province = 8757
+					color={ 83 99 37 }
+				}
+				b_eryn_halcin_40 = {
+					province = 8756
+					color={ 211 133 106 }
+				}
+			}
+			c_frostwood_7 = {
+				color={ 55 237 237 }
+				b_eryn_halcin_45 = {
+					province = 8761
+					color={ 157 144 39 }
+				}
+				b_eryn_halcin_47 = {
+					province = 8763
+					color={ 151 129 111 }
+				}
+				b_eryn_halcin_50 = {
+					province = 8766
+					color={ 144 155 58 }
+				}
+			}
+			c_frostwood_8 = {
+				color={ 34 171 171 }
+				b_eryn_halcin_37 = {
+					province = 8753
+					color={ 133 104 65 }
+				}
+				b_eryn_halcin_38 = {
+					province = 8754
+					color={ 166 162 106 }
+				}
+				b_eryn_halcin_39 = {
+					province = 8755
+					color={ 129 161 72 }
+				}
+				b_eryn_halcin_36 = {
+					province = 8752
+					color={ 96 171 42 }
+				}
+			}
+			c_frostwood_9 = {
+				color={ 4 201 201 }
+				b_eryn_halcin_96 = {
+					province = 8813
+					color={ 199 165 25 }
+				}
+				b_eryn_halcin_97 = {
+					province = 8814
+					color={ 138 152 36 }
+				}
+				b_eryn_halcin_98 = {
+					province = 8815
+					color={ 147 183 27 }
+				}
+			}
+		}
+		d_west_frostwood_3 = {
+			color={ 105 255 255 }
+			c_frostwood_10 = {
+				color={ 105 255 255 }
+				b_eryn_halcin_2 = {
+					province = 8718
+					color={ 90 190 31 }
+				}
+				b_eryn_halcin_100 = {
+					province = 9251
+					color={ 100 190 31 }
+				}
+		
+			}
+			c_frostwood_11 = {
+				color={ 41 217 217 }
+				b_eryn_halcin_4 = {
+					province = 8720
+					color={ 71 178 74 }
+				}
+				b_eryn_halcin_94 = {
+					province = 8811
+					color={ 207 192 38 }
+				}
+		
+			}
+			c_frostwood_12 = {
+				color={ 109 209 209 }
+				b_eryn_halcin_5 = {
+					province = 8721
+					color={ 85 165 101 }
+				}
+				b_eryn_halcin_6 = {
+					province = 8722
+					color={ 105 127 104 }
+				}
+				b_eryn_halcin_62 = {
+					province = 8778
+					color={ 145 193 55 }
+				}
+				b_eryn_halcin_63 = {
+					province = 8779
+					color={ 155 166 28 }
+				}
+			}
+			c_frostwood_13 = {
+				color={ 38 255 255 }
+				b_eryn_halcin_64 = {
+					province = 8780
+					color={ 111 179 48 }
+				}
+				b_eryn_halcin_7 = {
+					province = 8723
+					color={ 118 185 46 }
+				}
+				b_eryn_halcin_8 = {
+					province = 8724
+					color={ 207 103 73 }
+				}
+				b_eryn_halcin_51 = {
+					province = 8767
+					color={ 138 127 99 }
+				}
+			}
+		}
+		d_west_frostwood_4 = {
+			color={ 0 209 209 }
+			c_frostwood_14 = {
+				color={ 0 209 209 }
+				b_eryn_halcin_52 = {
+					province = 8768
+					color={ 181 175 95 }
+				}
+				b_eryn_halcin_53 = {
+					province = 8769
+					color={ 217 160 37 }
+				}
+				b_eryn_halcin_54 = {
+					province = 8770
+					color={ 133 173 51 }
+				}
+			}
+			c_frostwood_15 = {
+				color={ 39 230 230 }
+				b_eryn_halcin_56 = {
+					province = 8772
+					color={ 87 190 77 }
+				}
+				b_eryn_halcin_29 = {
+					province = 8745
+					color={ 85 121 21 }
+				}
+				b_eryn_halcin_30 = {
+					province = 8746
+					color={ 196 108 96 }
+				}
+			}
+			c_frostwood_16 = {
+				color={ 62 189 189 }
+				b_eryn_halcin_31 = {
+					province = 8747
+					color={ 145 118 106 }
+				}
+				b_eryn_halcin_32 = {
+					province = 8748
+					color={ 96 129 78 }
+				}
+				b_eryn_halcin_55 = {
+					province = 8771
+					color={ 192 116 40 }
+				}
+				b_eryn_halcin_57 = {
+					province = 8773
+					color={ 127 173 120 }
+				}
+			}
+			c_frostwood_17 = {
+				color={ 59 135 135 }
+				b_eryn_halcin_58 = {
+					province = 8774
+					color={ 179 140 31 }
+				}
+				b_eryn_halcin_33 = {
+					province = 8749
+					color={ 72 99 46 }
+				}
+			}
+			c_frostwood_18 = {
+				color={ 132 217 217 }
+				b_eryn_halcin_34 = {
+					province = 8750
+					color={ 154 119 109 }
+				}
+				b_eryn_halcin_35 = {
+					province = 8751
+					color={ 170 115 92 }
+				}
+				b_eryn_halcin_60 = {
+					province = 8776
+					color={ 196 91 61 }
+				}
+				b_eryn_halcin_99 = {
+					province = 8816
+					color={ 185 173 31 }
+				}
+			}
+			c_frostwood_19 = {
+				color={ 184 242 242 }
+				b_eryn_halcin_59 = {
+					province = 8775
+					color={ 88 149 90 }
+				}
+				b_eryn_halcin_61 = {
+					province = 8777
+					color={ 135 140 119 }
+				}
+			}
+			
+		}
+	}
+	k_east_frostwood = {
+		color={ 0 255 187 }
+		d_east_frostwood_1 = {
+			color={ 71 255 255 }
+			c_frostwood_20 = {
+				color={ 71 255 255 }
+				b_eryn_halcin_9 = {
+					province = 8725
+					color={ 196 130 60 }
+				}
+				b_eryn_halcin_10 = {
+					province = 8726
+					color={ 176 180 109 }
+				}
+				b_eryn_halcin_11 = {
+					province = 8727
+					color={ 68 169 101 }
+				}
+			}
+			c_frostwood_21 = {
+				color={ 59 255 219 }
+				b_eryn_halcin_65 = {
+					province = 8782
+					color={ 148 152 90 }
+				}
+				b_eryn_halcin_66 = {
+					province = 8783
+					color={ 63 96 119 }
+				}
+				b_eryn_halcin_76 = {
+					province = 8793
+					color={ 97 100 24 }
+				}
+				b_eryn_halcin_80 = {
+					province = 8797
+					color={ 126 191 33 }
+				}
+			}
+			c_frostwood_22 = {
+				color={ 81 232 204 }
+				b_eryn_halcin_77 = {
+					province = 8794
+					color={ 185 145 69 }
+				}
+				b_eryn_halcin_78 = {
+					province = 8795
+					color={ 138 166 20 }
+				}
+				b_eryn_halcin_79 = {
+					province = 8796
+					color={ 165 136 89 }
+				}
+			}
+			c_frostwood_23 = {
+				color={ 11 189 156 }
+				b_eryn_halcin_12 = {
+					province = 8728
+					color={ 163 160 30 }
+				}
+				b_eryn_halcin_13 = {
+					province = 8729
+					color={ 155 118 94 }
+				}
+			}
+			c_frostwood_24 = {
+				color={ 23 194 162 }
+				b_eryn_halcin_14 = {
+					province = 8730
+					color={ 167 188 47 }
+				}
+				b_eryn_halcin_73 = {
+					province = 8790
+					color={ 194 194 23 }
+				}
+				b_eryn_halcin_74 = {
+					province = 8791
+					color={ 121 187 101 }
+				}
+				b_eryn_halcin_75 = {
+					province = 8792
+					color={ 152 158 96 }
+				}
+			}
+		}
+		d_east_frostwood_2 = {
+			color={ 60 230 198 }
+			c_frostwood_25 = {
+				color={ 60 230 198 }
+				b_eryn_halcin_67 = {
+					province = 8784
+					color={ 162 157 78 }
+				}
+				b_eryn_halcin_68 = {
+					province = 8785
+					color={ 137 166 87 }
+				}
+			}
+			c_frostwood_26 = {
+				color={ 10 138 114 }
+				b_eryn_halcin_69 = {
+					province = 8786
+					color={ 188 123 79 }
+				}
+				b_eryn_halcin_28 = {
+					province = 8744
+					color={ 145 98 20 }
+				}
+			}
+			c_frostwood_27 = {
+				color={ 39 97 86 }
+				b_eryn_halcin_26 = {
+					province = 8742
+					color={ 204 122 57 }
+				}
+				b_eryn_halcin_27 = {
+					province = 8743
+					color={ 138 172 59 }
+				}
+		
+			}
+			c_frostwood_28 = {
+				color={ 109 214 194 }
+				b_eryn_halcin_70 = {
+					province = 8787
+					color={ 216 175 76 }
+				}
+				b_eryn_halcin_71 = {
+					province = 8788
+					color={ 118 146 39 }
+				}
+			}
+		}
+		d_east_frostwood_3 = {
+			color={ 0 255 179 }
+			c_frostwood_29 = {
+				color={ 0 255 179 }
+				b_eryn_halcin_23 = {
+					province = 8739
+					color={ 178 107 93 }
+				}
+				b_eryn_halcin_24 = {
+					province = 8740
+					color={ 136 144 87 }
+				}
+				b_eryn_halcin_25 = {
+					province = 8741
+					color={ 211 154 88 }
+				}
+			}
+			c_frostwood_30 = {
+				color={ 2 156 110 }
+				b_eryn_halcin_21 = {
+					province = 8737
+					color={ 163 111 109 }
+				}
+				b_eryn_halcin_22 = {
+					province = 8738
+					color={ 177 108 32 }
+				}
+				b_eryn_halcin_72 = {
+					province = 8789
+					color={ 75 99 20 }
+				}
+			}
+			c_frostwood_31 = {
+				color={ 50 173 137 }
+				b_eryn_halcin_15 = {
+					province = 8731
+					color={ 116 136 47 }
+				}
+				b_eryn_halcin_20 = {
+					province = 8736
+					color={ 61 162 86 }
+				}
+			}
+			c_frostwood_32 = {
+				color={ 107 209 179 }
+				b_eryn_halcin_16 = {
+					province = 8732
+					color={ 113 92 88 }
+				}
+				b_eryn_halcin_17 = {
+					province = 8733
+					color={ 208 121 101 }
+				}
+				b_eryn_halcin_18 = {
+					province = 8734
+					color={ 101 97 118 }
+				}
+				b_eryn_halcin_19 = {
+					province = 8735
+					color={ 102 159 26 }
+				}
+			}
+		}
+	}
 }
