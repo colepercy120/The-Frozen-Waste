@@ -1,38 +1,21 @@
-﻿namespace = raf
+﻿namespace = tfw
 
-raf.1 = { # integrate the southern provinces
+tfw.1 = { # integrate the southern provinces
 	hidden = yes
  	scope = none
 	
 	
 	immediate = {
-		every_ruler = { 
-			limit = {
-				is_wastelands = no #Tom doesn't care much about you
-				is_in_valinor = no #Valinoreans don't, either
-			}
-			remove_character_modifier = raf_at_war
-			remove_character_modifier = raf_at_peace
-			if = {
-				limit = {
-					OR = {
-						is_at_war = yes
-						any_liege_or_above = {
-							is_at_war = yes
-						}
-					}	
-				}
-				add_character_modifier = raf_at_war
-			}
-			else = {
-				
-				add_character_modifier = raf_at_peace
-			}
-				
-			
-			
-		}
 		
+		title:k_forochel = {
+			set_de_jure_liege_title = title:e_annuvorodwaith
+		}
+		title:k_grey_foothills = {
+			set_de_jure_liege_title = title:e_iron_mountains
+		}
+		title:k_angmar = {
+			set_de_jure_liege_title = title:e_arnor
+		}
 	}
 }
 

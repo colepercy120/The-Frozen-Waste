@@ -40,15 +40,7 @@
 		holding = wastelands_holding
 	}
 }
-7987 = {
-	
-	3912.1.1 = {
-		religion = faith_wastelands_pagan
-		culture = wastelands
-		buildings = { wolf_den }
-		holding = wastelands_holding
-	}
-}
+
 # capital -- b_evermist_4
 7988 = {
 	
@@ -278,15 +270,7 @@
 		culture = wastelands
 	}
 }
-8012 = {
-	
-	3912.1.1 = {
-		religion = faith_wastelands_pagan
-		culture = wastelands
-		buildings = { wolf_den }
-		holding = wastelands_holding
-	}
-}
+
 # capital -- b_narthalf_23
 8013 = {
 	
@@ -317,15 +301,7 @@
 		culture = wastelands
 	}
 }
-8016 = {
-	
-	3912.1.1 = {
-		religion = faith_wastelands_pagan
-		culture = wastelands
-		buildings = { wolf_den }
-		holding = wastelands_holding
-	}
-}
+
 # capital -- b_minheldolath_41
 8017 = {
 	
@@ -366,15 +342,7 @@
 		culture = wastelands
 	}
 }
-8021 = {
-	
-	3912.1.1 = {
-		religion = faith_wastelands_pagan
-		culture = wastelands
-		buildings = { wolf_den }
-		holding = wastelands_holding
-	}
-}
+
 # capital -- b_minheldolath_64
 8022 = {
 	
@@ -425,24 +393,7 @@
 		culture = wastelands
 	}
 }
-8027 = {
-	
-	3912.1.1 = {
-		buildings = { wolf_den }
-		holding = wastelands_holding
-		religion = faith_wastelands_pagan
-		culture = wastelands
-	}
-}
-8028 = {
-	
-	3912.1.1 = {
-		buildings = { wolf_den }
-		holding = wastelands_holding
-		religion = faith_wastelands_pagan
-		culture = wastelands
-	}
-}
+
 # capital -- b_gondolf_9
 8029 = {
 	
@@ -453,15 +404,7 @@
 		holding = wastelands_holding
 	}
 }
-8030 = {
-	
-	3912.1.1 = {
-		religion = faith_wastelands_pagan
-		culture = wastelands
-		buildings = { wolf_den }
-		holding = wastelands_holding
-	}
-}
+
 # capital -- b_province_13331
 8031 = {
 	
@@ -472,15 +415,7 @@
 		holding = wastelands_holding
 	}
 }
-8032 = {
-	
-	3912.1.1 = {
-		religion = faith_wastelands_pagan
-		culture = wastelands
-		buildings = { wolf_den }
-		holding = wastelands_holding
-	}
-}
+
 # capital -- b_minheldolath_58
 8033 = {
 	
@@ -491,15 +426,7 @@
 		culture = wastelands
 	}
 }
-8034 = {
-	
-	3912.1.1 = {
-		religion = faith_wastelands_pagan
-		culture = wastelands
-		buildings = { wolf_den }
-		holding = wastelands_holding
-	}
-}
+
 # capital -- b_minheldolath_44
 8035 = {
 	
@@ -510,15 +437,7 @@
 		culture = wastelands
 	}
 }
-8036 = {
-	
-	3912.1.1 = {
-		religion = faith_wastelands_pagan
-		culture = wastelands
-		buildings = { wolf_den }
-		holding = wastelands_holding
-	}
-}
+
 # capital -- b_helfalas_21
 8037 = {
 	
@@ -549,15 +468,7 @@
 		holding = wastelands_holding
 	}
 }
-8040 = {
-	
-	3912.1.1 = {
-		religion = faith_wastelands_pagan
-		culture = wastelands
-		buildings = { wolf_den }
-		holding = wastelands_holding
-	}
-}
+
 # capital -- b_helfalas_7
 8041 = {
 	
@@ -578,15 +489,7 @@
 		holding = wastelands_holding
 	}
 }
-8043 = {
-	
-	3912.1.1 = {
-		buildings = { wolf_den }
-		holding = wastelands_holding
-		religion = faith_wastelands_pagan
-		culture = wastelands
-	}
-}
+
 # capital -- b_minheldolath_21
 8044 = {
 	
@@ -597,15 +500,7 @@
 		holding = wastelands_holding
 	}
 }
-8045 = {
-	
-	3912.1.1 = {
-		buildings = { wolf_den }
-		holding = wastelands_holding
-		religion = faith_wastelands_pagan
-		culture = wastelands
-	}
-}
+
 # capital -- b_narthalf_1
 8046 = {
 	
@@ -626,42 +521,7 @@
 		holding = wastelands_holding
 	}
 }
-8048 = {
-	
-	3912.1.1 = {
-		religion = faith_wastelands_pagan
-		culture = wastelands
-		buildings = { wolf_den }
-		holding = wastelands_holding
-	}
-}
-8049 = {
-	
-	3912.1.1 = {
-		religion = faith_wastelands_pagan
-		culture = wastelands
-		buildings = { wolf_den }
-		holding = wastelands_holding
-	}
-}
-8050 = {
-	
-	3912.1.1 = {
-		religion = faith_wastelands_pagan
-		culture = wastelands
-		buildings = { wolf_den }
-		holding = wastelands_holding
-	}
-}
-8051 = {
-	
-	3912.1.1 = {
-		religion = faith_wastelands_pagan
-		culture = wastelands
-		buildings = { wolf_den }
-		holding = wastelands_holding
-	}
-}
+
 # capital -- b_minheldolath_51
 8052 = {
 	
@@ -672,15 +532,7 @@
 		holding = wastelands_holding
 	}
 }
-8053 = {
-	
-	3912.1.1 = {
-		religion = faith_wastelands_pagan
-		culture = wastelands
-		buildings = { wolf_den }
-		holding = wastelands_holding
-	}
-}
+
 # capital -- b_minheldolath_34
 8054 = {
 	
@@ -734,15 +586,7 @@
 		holding = wastelands_holding
 	}
 }
-8060 = {
-	
-	3912.1.1 = {
-		religion = faith_wastelands_pagan
-		culture = wastelands
-		buildings = { wolf_den }
-		holding = wastelands_holding
-	}
-}
+
 # capital -- b_province_13389
 8061 = {
 	
@@ -753,9 +597,7 @@
 		holding = wastelands_holding
 	}
 }
-8062 = {
-	
-}
+
 # capital -- b_tol_feredir_1
 8070 = {
 	
@@ -766,54 +608,15 @@
 		holding = wastelands_holding
 	}
 }
-8071 = {
-	
-	3912.1.1 = {
-		religion = faith_wastelands_pagan
-		culture = wastelands
-		buildings = { wolf_den }
-		holding = wastelands_holding
-	}
-}
-8072 = {
-	
-	3912.1.1 = {
-		religion = faith_wastelands_pagan
-		culture = wastelands
-		buildings = { wolf_den }
-		holding = wastelands_holding
-	}
-}
-8073 = {
-	
-	3912.1.1 = {
-		religion = faith_wastelands_pagan
-		culture = wastelands
-		buildings = { wolf_den }
-		holding = wastelands_holding
-	}
-}
-8074 = {
-	
-	3912.1.1 = {
-		buildings = { wolf_den }
-		holding = wastelands_holding
-		religion = faith_wastelands_pagan
-		culture = wastelands
-	}
-}
-8075 = {
-	
-	3912.1.1 = {
-		buildings = { wolf_den }
-		holding = wastelands_holding
-		religion = faith_wastelands_pagan
-		culture = wastelands
-	}
-}
+
 # capital -- b_morgoths_well_1
 8076 = {
-	
+	3912.1.1 = {
+		buildings = { wolf_den }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
 }
 # capital -- b_ruinfalas_33
 8084 = {
@@ -942,15 +745,7 @@
 		holding = wastelands_holding
 	}
 }
-8099 = {
-	
-	3912.1.1 = {
-		religion = faith_wastelands_pagan
-		culture = wastelands
-		buildings = { wolf_den }
-		holding = wastelands_holding
-	}
-}
+
 # capital -- b_rast_losnaeth_3
 8100 = {
 	
@@ -980,24 +775,7 @@
 		holding = wastelands_holding
 	}
 }
-8103 = {
-	
-	3912.1.1 = {
-		buildings = { wolf_den }
-		holding = wastelands_holding
-		religion = faith_wastelands_pagan
-		culture = wastelands
-	}
-}
-8104 = {
-	
-	3912.1.1 = {
-		religion = faith_wastelands_pagan
-		culture = wastelands
-		buildings = { wolf_den }
-		holding = wastelands_holding
-	}
-}
+
 # capital -- b_province_13666
 8105 = {
 	
@@ -1018,27 +796,7 @@
 		culture = wastelands
 	}
 }
-8107 = {
-	
-	3912.1.1 = {
-		buildings = { wolf_den }
-		holding = wastelands_holding
-		religion = faith_wastelands_pagan
-		culture = wastelands
-	}
-}
-8108 = {
-	
-	3912.1.1 = {
-		buildings = { wolf_den }
-		holding = wastelands_holding
-		religion = faith_wastelands_pagan
-		culture = wastelands
-	}
-}
-8109 = {
-	
-}
+
 # capital -- b_iron_spine_5
 8126 = {
 	
@@ -1139,15 +897,7 @@
 		culture = wastelands
 	}
 }
-8136 = {
-	
-	3912.1.1 = {
-		buildings = { wolf_den }
-		holding = wastelands_holding
-		religion = faith_wastelands_pagan
-		culture = wastelands
-	}
-}
+
 # capital -- b_iron_mountain_20
 8137 = {
 	

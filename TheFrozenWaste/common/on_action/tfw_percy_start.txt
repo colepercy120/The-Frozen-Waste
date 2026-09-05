@@ -1,0 +1,11 @@
+﻿
+
+percival_game_start = {
+	
+
+	events = {
+		tfw.1
+	}
+	
+	
+}

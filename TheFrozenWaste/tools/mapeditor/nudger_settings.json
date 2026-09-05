@@ -3010,8 +3010,6 @@
 					"locked":	false
 				}, {
 					"locked":	false
-				}, {
-					"locked":	false
 				}]
 		}, {
 			"object_ref":	{
@@ -3396,14 +3394,6 @@
 					"locked":	false
 				}, {
 					"locked":	false
-				}, {
-					"locked":	false
-				}, {
-					"locked":	false
-				}, {
-					"locked":	false
-				}, {
-					"locked":	false
 				}]
 		}, {
 			"object_ref":	{
@@ -3459,8 +3449,6 @@
 					"locked":	false
 				}, {
 					"locked":	false
-				}, {
-					"locked":	false
 				}]
 		}, {
 			"object_ref":	{
@@ -3475,34 +3463,6 @@
 				}
 			},
 			"instances":	[{
-					"locked":	false
-				}, {
-					"locked":	false
-				}, {
-					"locked":	false
-				}, {
-					"locked":	false
-				}, {
-					"locked":	false
-				}, {
-					"locked":	false
-				}, {
-					"locked":	false
-				}, {
-					"locked":	false
-				}, {
-					"locked":	false
-				}, {
-					"locked":	false
-				}, {
-					"locked":	false
-				}, {
-					"locked":	false
-				}, {
-					"locked":	false
-				}, {
-					"locked":	false
-				}, {
 					"locked":	false
 				}, {
 					"locked":	false
