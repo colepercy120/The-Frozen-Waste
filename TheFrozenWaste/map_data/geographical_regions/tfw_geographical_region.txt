@@ -498,3 +498,36 @@ graphical_underground = {
 	}
 }
 
+##### Custom
+
+custom_forochel_coast = {
+	duchies = {
+		d_rast_losnaeth_1
+		d_rast_losnaeth_2
+		d_ailindalf_4
+		d_everdalf_2
+	}
+	counties = {
+		c_ailindalf_1
+		c_ailindalf_2
+		c_ailindalf_3
+		c_ailindalf_5
+		c_ailindalf_8
+		c_ailindalf_9
+		c_ailindalf_10
+		c_lindalf_1
+		c_calendalf_17
+		c_calendalf_15
+		c_everdalf_8
+		c_everdalf_9
+		c_everdalf_1
+		
+		c_homela
+		c_salmi
+		c_ja_rannit
+		c_ita_man
+		c_lansi_ma
+		c_talvi_muri
+		c_rovala
+	}
+}

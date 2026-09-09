@@ -6813,3 +6813,11 @@ e_frostwood = {
 		}
 	}
 }
+
+k_emyn_nimbrith = {
+	color={ 28 24 59 }
+	d_emyn_nimbrith = {
+		color={ 28 24 59 }
+	
+	}
+}

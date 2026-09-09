@@ -1,0 +1,17 @@
+﻿#################
+##### MAIAR #####
+#################
+
+
+
+##############
+### Umaiar ###
+##############
+
+
+
+dynasty_nixni = {
+	name = "dynn_nixni"
+	culture = "maiar"
+	motto = dynn_nixni_motto
+}

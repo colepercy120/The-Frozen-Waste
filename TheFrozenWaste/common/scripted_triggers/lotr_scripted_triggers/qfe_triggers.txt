@@ -1,0 +1,99 @@
+﻿#Triggers for races of LOTR
+#these should work for character, culture and province scopes
+
+## GENERIC TRIGGERS ##
+
+lotr_canon_safe_from_harm_trigger = {
+	has_game_rule = default_ai_behavior
+	OR = {
+		this = character:lineisildur42 #Aragorn
+		this = character:linegilraen12 #Halbarad
+		this = character:linesteward38 #Denethor II
+		this = character:linesteward39 #Boromir
+		this = character:linesteward40 #Faramir
+		this = character:dolamroth27 #Imrahil
+		this = character:dolamroth31 #Lothiriel
+		has_character_flag = is_eldarion #Eldarion
+		has_character_flag = is_tindomerel #Tindómerel
+		has_character_flag = is_vanimelde #Vanimeldë
+		has_character_flag = is_altariel #Altáriel
+		this = character:linegilraen12 #Halbarad
+		this = character:linelamedon30 #Angbor
+		this = character:lossarnach28 #Forlong
+		this = character:linepinnathgelin43 #Hirluin
+		this = character:lineofeorl28 #Théoden
+		this = character:lineofeofor17 #Eomer
+		this = character:lineofeorl33 #Théodred
+		this = character:lineofeofor18 #Eowyn
+		this = character:linegrima6 #Grima
+		this = character:lineofbeorn2 # Grimbeorn
+		this = character:lineoftumakveh135 #Niluhin
+		this = character:lineofhuz189 #Huz-Margoz
+		this = character:lineblackqueen9 #Beruthiel
+		this = character:lineofcassimir23 #Cassimir
+		this = character:lineofcassimir24 #Burodapan
+		this = character:mouthofsauron #Mouth of Sauron
+		this = character:syarrhul1 #Black Vizier
+		this = character:lineofhador10 #Tuor
+		this = character:lineofbaggins12 #Bilbo
+		this = character:lineofbaggins29 #Frodo
+		this = character:lineofdurin90 #Dain
+		this = character:lineofdurin91 #Thorin Stonehelm
+		this = character:lineofdurin95 #Balin
+		this = character:lineofdurin98 #Oin
+		this = character:lineofdale35 #Girnir Lord of Dale
+		this = character:lineofdale36 #Girion
+		this = character:lineofdale36brother #Gismund
+		this = character:lineofdale36sister #Gunhild
+		this = character:lineofsnarkning17 #Asa
+		this = character:lineofdale35brother #Bodil
+		this = character:lineofdale35brother2 #Halvor
+		this = character:lineofdale35nephew #Adalvard
+		this = character:lineofdale36cousin #Brand
+		this = character:lineofdale36cousin1 #Lifstan
+		this = character:lineofdale36cousin2 #Brynjolf
+		this = character:lineofdale48 #Bain
+		this = character:lineofdale51 #Brand
+		this = character:lineofdale54 #Bard II
+		this = character:lineofkoldana98 #Hawin
+		has_trait = dwarf_father
+		this = character:lineoffinarfin5 #Galadriel
+		this = character:lineofelmo5 #Celeborn
+		this = character:lineofelrond1 #Elrond
+		this = character:lineofglorfindel #Glorfindel
+		this = character:lineofcirdan #Cirdan
+		this = character:lineoforopher3 #Thranduil
+		this = character:lineoflanthir1 #Lanthir
+		this = character:lineofmeglasul3 #Terilaen
+		this = character:lineofafalku11a # Hussumadin of Harwan
+		this = character:lineofazog1 # Azog
+		this = character:lineofdurin81 # Thrór
+		this = character:lineofdurin82 # Thráin
+		this = character:lineofdurin83 # Thorin
+		this = character:lineofnar1 # Nár
+		this = character:lineoffreca2 # Wulf
+		this = character:lineisildur37 # Arassuil
+		this = character:linecalinyar8 # Eradan
+		this = character:lineofandriel # Andriel
+		this = character:lineofnorin2 # Farin
+		this = character:lineoflavrajyatante21 # Radyani
+		this = character:lineofvasnan42 # Jahanabad
+		this = character:linelatantee25 # Kayna
+		has_character_flag = is_eradan_companion
+		this = character:serpentlord13 # Mardat
+		this = character:serpentlord14 # Mardat's brother
+		this = character:lineofpharala69 # Zantaka Husband
+		this = character:lineofpharala57 # Zantaka Husband Father
+		this = character:lineofelynda92 # Zantaka Story Rival
+		this = character:lineofzantaka2 # Zantaka adoptive daughter
+		
+		### Percival safe from harm
+		has_character_flag = percival_safe
+	}
+}
+
+is_wasteland = {
+	title_province = {
+		has_holding_type = wastelands_holding
+	}
+}

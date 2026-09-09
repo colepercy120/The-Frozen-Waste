@@ -2547,40 +2547,57 @@ c_helfalas_2 = {
 	}
 }
 
+d_evermist_1 = {
+	3912.1.1 = {
+		holder = tfw_lineoffeanor11
+		
+	}
+}
+k_evermist = {
+	3912.1.1 = {
+		holder = tfw_lineoffeanor11
+		
+	}
+}
+
 c_evermist_2 = {
 	3912.1.1 = {
-		holder = k_wastelands_holder
-		
+		holder = tfw_lineofnestador
+		liege = d_evermist_1
+		change_development_level = 8
 	}
 }
 
 c_evermist_1 = {
 	3912.1.1 = {
-		holder = k_wastelands_holder
-		
+		holder = tfw_lineoffeanor11
+		change_development_level = 12
 	}
 }
 
 c_evermist_3 = {
 	3912.1.1 = {
-		holder = k_wastelands_holder
-		
+		holder = tfw_lineoffeanor11
+		change_development_level = 8
 	}
 }
 
 c_evermist_4 = {
 	3912.1.1 = {
-		holder = k_wastelands_holder
-		
+		holder = tfw_lineoffeanor11_husband
+		liege = d_evermist_1
+		change_development_level = 4
 	}
 }
 
 c_evermist_5 = {
 	3912.1.1 = {
-		holder = k_wastelands_holder
-		
+		holder = tfw_lineoffeanor12
+		liege = d_evermist_1
+		change_development_level = 4
 	}
 }
+
 
 c_minheldolath_1 = {
 	3912.1.1 = {
