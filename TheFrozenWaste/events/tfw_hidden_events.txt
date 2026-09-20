@@ -92,9 +92,9 @@ tfw.1 = { # integrate the southern provinces
 			}
 		}
 		
-		### Lossoth set up
+		### Snow Orc set up
 		every_county_in_region = {
-			region = custom_forochel_coast
+			region = middleearth_mountains_bleak_durnost
 			limit = {
 				title_province = {
 					has_holding_type = wastelands_holding
@@ -104,10 +104,10 @@ tfw.1 = { # integrate the southern provinces
 			save_scope_as = titlegrab
 			create_character = {
 				location = scope:titlegrab.title_province
-				template = administrator_character
+				template = orc_champion_character
 				gender_female_chance = 30
-				faith = faith:faith_lossoth
-				culture = culture:lossoth
+				faith = faith:lidless_eye
+				culture = culture:snow_orcs
 				
 				save_scope_as = new_ruler
 			}
@@ -123,12 +123,33 @@ tfw.1 = { # integrate the southern provinces
 					change = scope:change
 				}
 				resolve_title_and_vassal_change = scope:change
-				change_government = tribal_government
+				change_government = orcish_government
 				add_gold = { 75 300 }
 			}
 			scope:titlegrab = {
 				change_development_level = { 5 9 }
 			}
+		}
+		
+		### Age Fixing
+		
+		character:rhiv_original_01 = {
+			set_immortal_age = 20
+		}
+		
+		### Buggy history fix
+		every_county_in_region = {
+			region = middleearth_mountains_rhivamar
+			set_county_culture = holder.culture
+			set_county_faith = holder.faith
+		}
+		every_county_in_region = {
+			region = middleearth_forodwaith_tol_engrin
+			limit = {
+				culture = culture:adlantrim
+			}
+			set_county_culture = holder.culture
+			set_county_faith = holder.faith
 		}
 	}
 }

@@ -1,0 +1,8148 @@
+﻿
+
+lineofnixni = {					
+	name = nixni_name
+	female = yes	
+
+	dynasty = dynasty_nixni
+	religion = faith_winter_queen				
+	culture = maiar_fallen
+	dna = mab_dna
+
+	sexuality = bisexual
+
+	
+	trait = callous
+	trait = eccentric
+	trait = deceitful
+	trait = diligent
+	
+
+	disallow_random_traits = yes
+	
+	give_nickname = nick_queen_air_dark
+
+	diplomacy = 12
+	martial = 6
+	stewardship = 10
+	intrigue = 10
+	learning = 12
+	prowess = 9
+
+	trait = education_learning_5
+	trait = maiar
+	trait = beauty_good_3
+	trait = intellect_good_3
+	
+	
+	trait = winter_soldier
+	trait = shrewd
+	
+	
+	
+	1.1.1 = { # Enters into Arda	
+		birth = yes	
+		effect = {			
+			add_character_flag = has_scripted_appearance
+			add_character_flag = ai_immune_to_mental_breaks
+			add_character_flag = immune_to_disease
+			
+            add_character_flag = no_auto_family
+		
+			
+			add_trait = lifestyle_mage
+			add_trait_xp = {
+				trait = lifestyle_mage
+				value = 100
+			}
+			add_trait_xp = {
+				trait = winter_soldier
+				value = 100
+			}
+		}
+	}
+
+	
+}
+
+#### Elves
+
+tfw_lineoffeanor11 = { # Daughter of Caranthir
+	name = Vorwen
+	female = yes
+
+	religion = faith_evermist
+	culture = noldor
+	dna = tfw_lineoffeanor11_dna
+	
+	father = lineoffeanor4
+	mother = lineoffeanor5
+
+	sexuality = heterosexual
+
+	trait = honest
+	trait = diligent
+	trait = stubborn
+
+	diplomacy = 2
+	martial = 8
+	stewardship = 11
+	intrigue = 2
+	learning = 10
+	prowess = 12
+
+	trait = education_stewardship_4
+	trait = intellect_good_2
+	trait = lifestyle_blademaster
+	trait = twotreeslight
+	trait = architect
+	trait = overseer
+	trait = herbalist
+	trait = irritable
+	trait = faith_warrior
+	
+	trait = winter_soldier
+	trait = holy_warrior
+	trait = forest_fighter
+	
+
+	2.1.1 = {	#-1423.1.1
+		birth = yes
+		learn_language = language_quenya # Accounting for Noldor culture using Sindarin as primary on account of the Noldor of Middle-earth
+		add_trait_xp = {
+			trait = lifestyle_blademaster
+			value = 100
+		}
+		add_trait_xp = {
+			trait = winter_soldier
+			value = 50
+		}
+	}
+
+	
+}
+
+tfw_lineoffeanor11_husband = { # Daughter of Caranthir husband
+	name = Calion
+	
+
+	religion = faith_eternal_vigil
+	culture = vanyar
+	dna = tfw_lineoffeanor11_husband_dna
+	
+	
+
+	sexuality = heterosexual
+
+	trait = brave
+	trait = gregarious
+	trait = content
+
+	diplomacy = 11
+	martial = 12
+	stewardship = 5
+	intrigue = 2
+	learning = 3
+	prowess = 12
+
+	trait = education_martial_4
+	trait = beauty_good_1
+	trait = lifestyle_blademaster
+	trait = twotreeslight
+	trait = architect
+	trait = strategist
+	trait = gallant
+	trait = loyal
+	trait = faith_warrior
+	
+	trait = winter_soldier
+	trait = holy_warrior
+	trait = organizer
+	
+
+	2.1.1 = {	#-1423.1.1
+		birth = yes
+		learn_language = language_quenya # Accounting for Noldor culture using Sindarin as primary on account of the Noldor of Middle-earth
+	}
+	2.2.2 = {
+		add_spouse = tfw_lineoffeanor11
+		if = {
+			limit = { character:tfw_lineoffeanor11 ?= { is_alive = yes } }
+			set_relation_soulmate = character:tfw_lineoffeanor11
+		}
+		add_trait_xp = {
+			trait = lifestyle_blademaster
+			value = 100
+		}
+		add_trait_xp = {
+			trait = winter_soldier
+			value = 50
+		}
+	}
+	
+}
+
+tfw_lineoffeanor12 = { # Daughter of Maglor
+	name = Ethiriel
+	female = yes
+
+	religion = faith_evermist
+	culture = noldor
+	dna = tfw_lineoffeanor12_dna
+	
+	father = lineoffeanor2
+	mother = lineofrumil3
+
+	sexuality = heterosexual
+
+	trait = honest
+	trait = diligent
+	trait = stubborn
+
+	diplomacy = 12
+	martial = 5
+	stewardship = 8
+	intrigue = 2
+	learning = 12
+	prowess = 6
+
+	trait = education_learning_3
+	trait = intellect_good_2
+	trait = lifestyle_blademaster
+	trait = twotreeslight
+	
+	
+	trait = lifestyle_gardener
+	trait = lifestyle_poet
+	trait = beauty_good_3
+	
+
+	2.1.1 = {	#-1423.1.1
+		birth = yes
+		learn_language = language_quenya # Accounting for Noldor culture using Sindarin as primary on account of the Noldor of Middle-earth
+		add_trait_xp = {
+			trait = lifestyle_poet
+			value = 100
+		}
+	}
+
+	
+}
+
+tfw_lineofnestador = { # Merp Wizard king of Evermist
+	name = Nestador
+	
+
+	religion = faith_evermist
+	culture = noldor
+	dna = tfw_lineofnestador_dna
+	
+	
+
+	sexuality = heterosexual
+
+	trait = eccentric
+	trait = calm
+	trait = generous
+
+	diplomacy = 8
+	martial = 2
+	stewardship = 8
+	intrigue = 8
+	learning = 13
+	prowess = 3
+
+	trait = education_learning_5
+	trait = intellect_good_1
+	trait = lifestyle_mystic
+	trait = twotreeslight
+	trait = scarred
+	trait = scholar
+	trait = theologian
+	trait = reclusive
+	trait = lifestyle_physician
+	trait = lifestyle_mage
+	
+	
+	
+	
+
+	2.1.1 = {	#-1423.1.1
+		birth = yes
+		learn_language = language_quenya # Accounting for Noldor culture using Sindarin as primary on account of the Noldor of Middle-earth
+		add_trait_xp = {
+			trait = lifestyle_mage
+			value = 100
+		}
+		add_trait_xp = {
+			trait = lifestyle_physician
+			value = 100
+		}
+		add_trait_xp = {
+			trait = lifestyle_mystic
+			value = 100
+		}
+		add_trait_xp = {
+			trait = scarred
+			value = 100
+		}
+	}
+	
+	
+}
+
+### Lossidil
+
+lineofcelethrim1 = { # Sindar refugee lord; father of the twin monarchs
+	name = Celethron
+
+	dynasty = dynasty_lossidil_celethrim
+	religion = faith_eldar
+	culture = sindar
+
+	sexuality = heterosexual
+
+	trait = brave
+	trait = just
+	trait = patient
+	trait = education_martial_4
+	trait = beauty_good_2
+	trait = lifestyle_blademaster
+
+	diplomacy = 8
+	martial = 10
+	stewardship = 7
+	intrigue = 6
+	learning = 10
+	prowess = 9
+
+	215.4.12 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	548.3.2 = {
+		add_spouse = lineofcelethrim2
+		set_relation_soulmate = character:lineofcelethrim2
+	}
+
+	4014.6.9 = { # Slain defending the northern settlements
+		death = { death_reason = death_battle }
+	}
+}
+
+lineofcelethrim2 = { # Sindar refugee lady; mother of the twin monarchs
+	name = Saerwen
+	female = yes
+
+	dynasty = dynasty_lossidil_celethrim
+	religion = faith_eldar
+	culture = sindar
+
+	sexuality = heterosexual
+
+	trait = compassionate
+	trait = diligent
+	trait = patient
+	trait = education_learning_4
+	trait = beauty_good_2
+	trait = intellect_good_1
+
+	diplomacy = 10
+	martial = 6
+	stewardship = 8
+	intrigue = 8
+	learning = 11
+	prowess = 5
+
+	238.9.5 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	4014.6.9 = {
+		trait = widowed
+	}
+
+	4098.10.3 = { # Fades after long grief and the loss of the founding generation
+		death = { death_reason = death_faded_grief }
+	}
+}
+
+lineofcelethrim3 = { # King of Taurethon; elder twin by minutes
+	name = Faerandir
+
+	dynasty = dynasty_lossidil_celethrim
+	religion = faith_helecthil
+	culture = lossidil
+	dna = lossildil_twin_male_dna
+
+	father = lineofcelethrim1
+	mother = lineofcelethrim2
+
+	sexuality = heterosexual
+
+	trait = brave
+	trait = patient
+	trait = diligent
+	trait = education_martial_4
+	trait = forest_fighter
+	trait = lifestyle_blademaster
+	trait = physique_good_2
+	trait = beauty_good_1
+	trait = twin
+
+	diplomacy = 9
+	martial = 11
+	stewardship = 9
+	intrigue = 7
+	learning = 9
+	prowess = 10
+
+	572.3.20 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	903.4.17 = {
+		add_spouse = lineofhimrath3
+		set_relation_soulmate = character:lineofhimrath3
+	}
+}
+
+lineofcelethrim4 = { # Queen of the Aurora Isles; younger twin by minutes
+	name = Aerlinn
+	female = yes
+
+	dynasty = dynasty_lossidil_celethrim
+	religion = faith_helecthil
+	culture = lossidil
+	dna = lossildil_twin_female_dna
+
+	father = lineofcelethrim1
+	mother = lineofcelethrim2
+
+	sexuality = heterosexual
+
+	trait = just
+	trait = calm
+	trait = ambitious
+	trait = education_diplomacy_4
+	trait = cautious_leader
+	trait = intellect_good_2
+	trait = beauty_good_2
+	trait = twin
+
+	diplomacy = 11
+	martial = 7
+	stewardship = 9
+	intrigue = 10
+	learning = 11
+	prowess = 7
+
+	572.3.20 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	980.8.6 = {
+		add_matrilineal_spouse = lineofnaereth3
+		set_relation_soulmate = character:lineofnaereth3
+	}
+}
+
+lineofcelethrim5 = { # Prince of Taurethon; married into House Vaelorn
+	name = Thalion
+
+	dynasty = dynasty_lossidil_celethrim
+	religion = faith_helecthil
+	culture = lossidil
+
+	father = lineofcelethrim3
+	mother = lineofhimrath3
+
+	sexuality = heterosexual
+
+	trait = honest
+	trait = brave
+	trait = temperate
+	trait = education_martial_3
+	trait = rough_terrain_expert
+	trait = physique_good_1
+
+	diplomacy = 7
+	martial = 9
+	stewardship = 7
+	intrigue = 5
+	learning = 7
+	prowess = 9
+
+	1135.1.8 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	2300.6.14 = {
+		add_spouse = lineofvaelorn3
+		set_relation_soulmate = character:lineofvaelorn3
+	}
+}
+
+lineofcelethrim6 = { # Princess of Taurethon; married into House Ithrinn
+	name = Gwilith
+	female = yes
+
+	dynasty = dynasty_lossidil_celethrim
+	religion = faith_helecthil
+	culture = lossidil
+
+	father = lineofcelethrim3
+	mother = lineofhimrath3
+
+	sexuality = heterosexual
+
+	trait = gregarious
+	trait = diligent
+	trait = forgiving
+	trait = education_diplomacy_3
+	trait = beauty_good_1
+	trait = intellect_good_1
+
+	diplomacy = 8
+	martial = 6
+	stewardship = 8
+	intrigue = 6
+	learning = 8
+	prowess = 5
+
+	1378.10.2 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	2500.4.3 = {
+		add_matrilineal_spouse = lineofithrinn3
+		set_relation_soulmate = character:lineofithrinn3
+	}
+}
+
+lineofcelethrim7 = { # Prince of Taurethon
+	name = Narthalion
+
+	dynasty = dynasty_lossidil_celethrim
+	religion = faith_helecthil
+	culture = lossidil
+
+	father = lineofcelethrim3
+	mother = lineofhimrath3
+
+	sexuality = heterosexual
+
+	trait = stubborn
+	trait = just
+	trait = calm
+	trait = education_stewardship_4
+	trait = forest_fighter
+
+	diplomacy = 5
+	martial = 7
+	stewardship = 9
+	intrigue = 5
+	learning = 6
+	prowess = 6
+
+	1812.5.19 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+lineofcelethrim8 = { # Princess of the Aurora Isles; wife of Dorlas of House Morlaith
+	name = Lindariel
+	female = yes
+
+	dynasty = dynasty_lossidil_celethrim
+	religion = faith_helecthil
+	culture = lossidil
+
+	father = lineofnaereth3
+	mother = lineofcelethrim4
+
+	sexuality = heterosexual
+
+	trait = patient
+	trait = compassionate
+	trait = ambitious
+	trait = education_stewardship_3
+	trait = beauty_good_2
+
+	diplomacy = 8
+	martial = 5
+	stewardship = 9
+	intrigue = 7
+	learning = 8
+	prowess = 5
+
+	1234.8.7 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+lineofcelethrim9 = { # Prince of the Aurora Isles; married into House Himrath
+	name = Celethion
+
+	dynasty = dynasty_lossidil_celethrim
+	religion = faith_helecthil
+	culture = lossidil
+
+	father = lineofnaereth3
+	mother = lineofcelethrim4
+
+	sexuality = heterosexual
+
+	trait = brave
+	trait = generous
+	trait = patient
+	trait = education_martial_3
+	trait = lifestyle_blademaster
+	trait = physique_good_1
+
+	diplomacy = 7
+	martial = 9
+	stewardship = 7
+	intrigue = 6
+	learning = 8
+	prowess = 8
+
+	1490.3.23 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	2700.7.18 = {
+		add_spouse = lineofhimrath5
+		set_relation_soulmate = character:lineofhimrath5
+	}
+}
+
+lineofcelethrim10 = { # Princess of the Aurora Isles
+	name = Aerwen
+	female = yes
+
+	dynasty = dynasty_lossidil_celethrim
+	religion = faith_helecthil
+	culture = lossidil
+
+	father = lineofnaereth3
+	mother = lineofcelethrim4
+
+	sexuality = heterosexual
+
+	trait = calm
+	trait = honest
+	trait = cynical
+	trait = education_learning_4
+	trait = intellect_good_2
+
+	diplomacy = 7
+	martial = 5
+	stewardship = 6
+	intrigue = 8
+	learning = 9
+	prowess = 4
+
+	1965.11.2 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+lineofhimrath1 = { # Vassal of Taurethon; d_taurethon_1; house of freed Noldorin craft-thrall ancestry
+	name = Galadhir
+
+	dynasty = dynasty_lossidil_himrath
+	religion = faith_helecthil
+	culture = lossidil
+
+	sexuality = heterosexual
+
+	trait = brave
+	trait = stubborn
+	trait = diligent
+	trait = education_martial_4
+	trait = forest_fighter
+	trait = lifestyle_blademaster
+	trait = physique_good_2
+
+	diplomacy = 7
+	martial = 11
+	stewardship = 9
+	intrigue = 6
+	learning = 7
+	prowess = 10
+
+	436.7.8 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	620.5.3 = {
+		add_spouse = lineofhimrath2
+		set_relation_soulmate = character:lineofhimrath2
+	}
+}
+
+lineofhimrath2 = { # Wife of Galadhir; Naereth kin linking Taurethon and Aurora
+	name = Aerloth
+	female = yes
+
+	dynasty = dynasty_lossidil_naereth
+	religion = faith_helecthil
+	culture = lossidil
+
+	sexuality = heterosexual
+
+	trait = compassionate
+	trait = honest
+	trait = temperate
+	trait = education_learning_3
+	trait = beauty_good_1
+
+	diplomacy = 7
+	martial = 5
+	stewardship = 6
+	intrigue = 7
+	learning = 7
+	prowess = 4
+
+	469.11.12 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+lineofhimrath3 = { # Daughter of Galadhir; wife of King Faerandir
+	name = Nimrien
+	female = yes
+
+	dynasty = dynasty_lossidil_himrath
+	religion = faith_helecthil
+	culture = lossidil
+
+	father = lineofhimrath1
+	mother = lineofhimrath2
+
+	sexuality = heterosexual
+
+	trait = patient
+	trait = diligent
+	trait = gregarious
+	trait = education_stewardship_4
+	trait = beauty_good_2
+
+	diplomacy = 8
+	martial = 6
+	stewardship = 9
+	intrigue = 7
+	learning = 8
+	prowess = 5
+
+	624.2.14 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+lineofhimrath4 = { # Heir of House Himrath
+	name = Harthor
+
+	dynasty = dynasty_lossidil_himrath
+	religion = faith_helecthil
+	culture = lossidil
+
+	father = lineofhimrath1
+	mother = lineofhimrath2
+
+	sexuality = heterosexual
+
+	trait = just
+	trait = calm
+	trait = stubborn
+	trait = education_stewardship_3
+	trait = forest_fighter
+
+	diplomacy = 6
+	martial = 8
+	stewardship = 8
+	intrigue = 5
+	learning = 6
+	prowess = 7
+
+	812.9.4 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+lineofhimrath5 = { # Daughter of Galadhir; wife of Prince Celethion
+	name = Rinnael
+	female = yes
+
+	dynasty = dynasty_lossidil_himrath
+	religion = faith_helecthil
+	culture = lossidil
+
+	father = lineofhimrath1
+	mother = lineofhimrath2
+
+	sexuality = heterosexual
+
+	trait = generous
+	trait = honest
+	trait = ambitious
+	trait = education_diplomacy_3
+	trait = beauty_good_1
+
+	diplomacy = 7
+	martial = 5
+	stewardship = 6
+	intrigue = 6
+	learning = 6
+	prowess = 4
+
+	1044.6.21 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+lineofvaelorn1 = { # Vassal of Taurethon; d_taurethon_2; Avarin-descended woodland house
+	name = Maegwen
+	female = yes
+
+	dynasty = dynasty_lossidil_vaelorn
+	religion = faith_helecthil
+	culture = lossidil
+
+	sexuality = heterosexual
+
+	trait = ambitious
+	trait = patient
+	trait = cynical
+	trait = education_stewardship_4
+	trait = flexible_leader
+	trait = intellect_good_1
+
+	diplomacy = 9
+	martial = 6
+	stewardship = 11
+	intrigue = 9
+	learning = 8
+	prowess = 6
+
+	515.1.17 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	700.9.8 = {
+		add_matrilineal_spouse = lineofvaelorn2
+		set_relation_soulmate = character:lineofvaelorn2
+	}
+}
+
+lineofvaelorn2 = { # Husband of Maegwen; Ithrinn kin
+	name = Orvegil
+
+	dynasty = dynasty_lossidil_ithrinn
+	religion = faith_helecthil
+	culture = lossidil
+
+	sexuality = heterosexual
+
+	trait = brave
+	trait = calm
+	trait = honest
+	trait = education_martial_3
+	trait = rough_terrain_expert
+
+	diplomacy = 6
+	martial = 7
+	stewardship = 6
+	intrigue = 4
+	learning = 7
+	prowess = 7
+
+	538.6.26 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+lineofvaelorn3 = { # Daughter of Maegwen; wife of Prince Thalion
+	name = Ivriniel
+	female = yes
+
+	dynasty = dynasty_lossidil_vaelorn
+	religion = faith_helecthil
+	culture = lossidil
+
+	father = lineofvaelorn2
+	mother = lineofvaelorn1
+
+	sexuality = heterosexual
+
+	trait = compassionate
+	trait = patient
+	trait = diligent
+	trait = education_learning_3
+	trait = beauty_good_2
+
+	diplomacy = 8
+	martial = 5
+	stewardship = 7
+	intrigue = 6
+	learning = 9
+	prowess = 4
+
+	769.4.9 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+lineofvaelorn4 = { # Heir of House Vaelorn
+	name = Calbor
+
+	dynasty = dynasty_lossidil_vaelorn
+	religion = faith_helecthil
+	culture = lossidil
+
+	father = lineofvaelorn2
+	mother = lineofvaelorn1
+
+	sexuality = heterosexual
+
+	trait = stubborn
+	trait = brave
+	trait = temperate
+	trait = education_martial_3
+	trait = forest_fighter
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 7
+	intrigue = 6
+	learning = 6
+	prowess = 8
+
+	1001.12.5 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+lineofvaelorn5 = { # Daughter of Maegwen
+	name = Neldis
+	female = yes
+
+	dynasty = dynasty_lossidil_vaelorn
+	religion = faith_helecthil
+	culture = lossidil
+
+	father = lineofvaelorn2
+	mother = lineofvaelorn1
+
+	sexuality = heterosexual
+
+	trait = shy
+	trait = honest
+	trait = patient
+	trait = education_learning_3
+	trait = intellect_good_1
+
+	diplomacy = 5
+	martial = 3
+	stewardship = 5
+	intrigue = 5
+	learning = 7
+	prowess = 3
+
+	1270.7.16 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+lineofmorlaith1 = { # Vassal count of Taurethon; c_taurethon_6; mixed Noldor-Avari frontier stock
+	name = Dorlas
+
+	dynasty = dynasty_lossidil_morlaith
+	religion = faith_helecthil
+	culture = lossidil
+
+	sexuality = heterosexual
+
+	trait = brave
+	trait = vengeful
+	trait = diligent
+	trait = education_martial_4
+	trait = lifestyle_blademaster
+	trait = rough_terrain_expert
+	trait = physique_good_2
+
+	diplomacy = 6
+	martial = 10
+	stewardship = 7
+	intrigue = 8
+	learning = 6
+	prowess = 11
+
+	1150.2.28 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	2600.9.12 = {
+		add_spouse = lineofcelethrim8
+		set_relation_soulmate = character:lineofcelethrim8
+	}
+}
+
+lineofmorlaith2 = { # Daughter of Dorlas and Princess Lindariel
+	name = Faelwen
+	female = yes
+
+	dynasty = dynasty_lossidil_morlaith
+	religion = faith_helecthil
+	culture = lossidil
+
+	father = lineofmorlaith1
+	mother = lineofcelethrim8
+
+	sexuality = heterosexual
+
+	trait = just
+	trait = calm
+	trait = generous
+	trait = education_diplomacy_3
+	trait = beauty_good_1
+
+	diplomacy = 7
+	martial = 4
+	stewardship = 6
+	intrigue = 5
+	learning = 6
+	prowess = 4
+
+	2805.5.20 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+lineofmorlaith3 = { # Son and heir of Dorlas
+	name = Mornil
+
+	dynasty = dynasty_lossidil_morlaith
+	religion = faith_helecthil
+	culture = lossidil
+
+	father = lineofmorlaith1
+	mother = lineofcelethrim8
+
+	sexuality = heterosexual
+
+	trait = diligent
+	trait = stubborn
+	trait = cynical
+	trait = education_stewardship_3
+	trait = forest_fighter
+
+	diplomacy = 5
+	martial = 6
+	stewardship = 8
+	intrigue = 6
+	learning = 6
+	prowess = 6
+
+	3120.10.11 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+lineofithrinn1 = { # Vassal of the Aurora Isles; d_aurora_isles_1; Sindar mariner and Avarin refugee ancestry
+	name = Maerion
+
+	dynasty = dynasty_lossidil_ithrinn
+	religion = faith_helecthil
+	culture = lossidil
+
+	sexuality = heterosexual
+
+	trait = just
+	trait = gregarious
+	trait = patient
+	trait = education_diplomacy_4
+	trait = cautious_leader
+	trait = beauty_good_1
+
+	diplomacy = 9
+	martial = 9
+	stewardship = 7
+	intrigue = 7
+	learning = 8
+	prowess = 8
+
+	462.3.13 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	688.4.2 = {
+		add_spouse = lineofithrinn2
+		set_relation_soulmate = character:lineofithrinn2
+	}
+}
+
+lineofithrinn2 = { # Wife of Maerion; Vaelorn kin
+	name = Silrien
+	female = yes
+
+	dynasty = dynasty_lossidil_vaelorn
+	religion = faith_helecthil
+	culture = lossidil
+
+	sexuality = heterosexual
+
+	trait = patient
+	trait = diligent
+	trait = honest
+	trait = education_stewardship_4
+	trait = intellect_good_1
+
+	diplomacy = 7
+	martial = 5
+	stewardship = 8
+	intrigue = 6
+	learning = 7
+	prowess = 4
+
+	504.8.22 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+lineofithrinn3 = { # Son of Maerion; husband of Princess Gwilith
+	name = Caladhir
+
+	dynasty = dynasty_lossidil_ithrinn
+	religion = faith_helecthil
+	culture = lossidil
+
+	father = lineofithrinn1
+	mother = lineofithrinn2
+
+	sexuality = heterosexual
+
+	trait = brave
+	trait = calm
+	trait = honest
+	trait = education_martial_3
+	trait = lifestyle_blademaster
+
+	diplomacy = 6
+	martial = 8
+	stewardship = 6
+	intrigue = 6
+	learning = 7
+	prowess = 8
+
+	840.6.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+lineofithrinn4 = { # Daughter of Maerion
+	name = Hirwen
+	female = yes
+
+	dynasty = dynasty_lossidil_ithrinn
+	religion = faith_helecthil
+	culture = lossidil
+
+	father = lineofithrinn1
+	mother = lineofithrinn2
+
+	sexuality = heterosexual
+
+	trait = compassionate
+	trait = shy
+	trait = patient
+	trait = education_learning_4
+	trait = beauty_good_1
+
+	diplomacy = 5
+	martial = 3
+	stewardship = 5
+	intrigue = 4
+	learning = 7
+	prowess = 3
+
+	1092.1.25 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+lineofnaereth1 = { # Vassal of the Aurora Isles; d_aurora_isles_2; Noldorin captive and Sindar healer ancestry
+	name = Faelien
+	female = yes
+
+	dynasty = dynasty_lossidil_naereth
+	religion = faith_helecthil
+	culture = lossidil
+
+	sexuality = heterosexual
+
+	trait = compassionate
+	trait = ambitious
+	trait = patient
+	trait = education_learning_4
+	trait = cautious_leader
+	trait = intellect_good_2
+
+	diplomacy = 10
+	martial = 6
+	stewardship = 8
+	intrigue = 8
+	learning = 11
+	prowess = 6
+
+	485.5.7 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	620.10.19 = {
+		add_matrilineal_spouse = lineofnaereth2
+		set_relation_soulmate = character:lineofnaereth2
+	}
+}
+
+lineofnaereth2 = { # Husband of Faelien; Himrath kin
+	name = Thoronir
+
+	dynasty = dynasty_lossidil_himrath
+	religion = faith_helecthil
+	culture = lossidil
+
+	sexuality = heterosexual
+
+	trait = brave
+	trait = temperate
+	trait = honest
+	trait = education_martial_3
+	trait = forest_fighter
+
+	diplomacy = 6
+	martial = 7
+	stewardship = 7
+	intrigue = 5
+	learning = 6
+	prowess = 7
+
+	492.12.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+lineofnaereth3 = { # Son of Faelien; matrilineal husband of Queen Aerlinn
+	name = Calenor
+
+	dynasty = dynasty_lossidil_naereth
+	religion = faith_helecthil
+	culture = lossidil
+
+	father = lineofnaereth2
+	mother = lineofnaereth1
+
+	sexuality = heterosexual
+
+	trait = just
+	trait = diligent
+	trait = calm
+	trait = education_learning_4
+	trait = lifestyle_blademaster
+	trait = intellect_good_1
+
+	diplomacy = 7
+	martial = 8
+	stewardship = 6
+	intrigue = 7
+	learning = 9
+	prowess = 7
+
+	675.7.30 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+lineofnaereth4 = { # Daughter of Faelien
+	name = Aereth
+	female = yes
+
+	dynasty = dynasty_lossidil_naereth
+	religion = faith_helecthil
+	culture = lossidil
+
+	father = lineofnaereth2
+	mother = lineofnaereth1
+
+	sexuality = heterosexual
+
+	trait = generous
+	trait = patient
+	trait = cynical
+	trait = education_diplomacy_3
+	trait = beauty_good_1
+
+	diplomacy = 7
+	martial = 4
+	stewardship = 5
+	intrigue = 7
+	learning = 6
+	prowess = 4
+
+	895.3.14 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+lineofnaereth5 = { # Son of Faelien and secondary heir of House Naereth
+	name = Lanthor
+
+	dynasty = dynasty_lossidil_naereth
+	religion = faith_helecthil
+	culture = lossidil
+
+	father = lineofnaereth2
+	mother = lineofnaereth1
+
+	sexuality = heterosexual
+
+	trait = stubborn
+	trait = brave
+	trait = just
+	trait = education_stewardship_3
+	trait = rough_terrain_expert
+
+	diplomacy = 5
+	martial = 6
+	stewardship = 8
+	intrigue = 5
+	learning = 6
+	prowess = 6
+
+	1108.9.27 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+############################################################
+# FROSTWOOD AVARI ELVES - ANCIENT REALMS, YEARS 1-7100
+# West Frostwood: Windan | East Frostwood: Hwenti
+# The founding monarchs and founding vassal rulers are represented
+# at the history floor (1.1.1) but are intended to predate it.
+# No founding ruler has a death entry; all remain alive in 7100.
+# Three generations are present for every landed house.
+############################################################
+
+frostwood_w_king_vaerandir = { # Founding King of West Frostwood; ancient Avari, true birth predates recorded history
+	name = frostwood_name_vaerandir
+
+	dynasty = dynasty_windan_sairavel
+	religion = faith_moriquendi
+	culture = windan
+
+	sexuality = heterosexual
+
+	trait = brave
+	trait = ambitious
+	trait = diligent
+	trait = education_martial_4
+	trait = strategist
+	trait = lifestyle_blademaster
+
+	diplomacy = 9
+	martial = 14
+	stewardship = 9
+	intrigue = 8
+	learning = 10
+	prowess = 13
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	612.5.18 = {
+		add_spouse = frostwood_e_queen_hweniel
+	}
+}
+
+frostwood_e_queen_hweniel = { # Founding Queen of East Frostwood; ancient Avari, true birth predates recorded history
+	name = frostwood_name_hweniel
+	female = yes
+
+	dynasty = dynasty_hwenti_hwerin
+	religion = faith_moriquendi
+	culture = hwenti
+
+	sexuality = heterosexual
+
+	trait = brave
+	trait = just
+	trait = patient
+	trait = education_martial_4
+	trait = strategist
+	trait = lifestyle_blademaster
+
+	diplomacy = 10
+	martial = 13
+	stewardship = 9
+	intrigue = 8
+	learning = 11
+	prowess = 12
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_royal_01 = { # Child of the two Frostwood monarchs
+	name = frostwood_name_aerlion
+
+	dynasty = dynasty_windan_sairavel
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_king_vaerandir
+	mother = frostwood_e_queen_hweniel
+
+	sexuality = heterosexual
+
+	trait = brave
+	trait = just
+	trait = diligent
+	trait = education_martial_3
+
+	diplomacy = 9
+	martial = 11
+	stewardship = 8
+	intrigue = 7
+	learning = 9
+	prowess = 10
+
+	1388.5.9 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	3314.7.9 = {
+		add_spouse = frostwood_royal_01_spouse
+	}
+}
+
+frostwood_royal_02 = { # Child of the two Frostwood monarchs
+	name = frostwood_name_hwelea
+	female = yes
+
+	dynasty = dynasty_hwenti_hwerin
+	religion = faith_moriquendi
+	culture = hwenti
+
+	father = frostwood_w_king_vaerandir
+	mother = frostwood_e_queen_hweniel
+
+	sexuality = heterosexual
+
+	trait = patient
+	trait = compassionate
+	trait = diligent
+	trait = education_diplomacy_3
+
+	diplomacy = 10
+	martial = 8
+	stewardship = 9
+	intrigue = 7
+	learning = 10
+	prowess = 7
+
+	2472.12.20 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	4628.9.17 = {
+		add_matrilineal_spouse = frostwood_royal_02_spouse
+	}
+}
+
+frostwood_royal_03 = { # Child of the two Frostwood monarchs
+	name = frostwood_name_lethwen
+	female = yes
+
+	dynasty = dynasty_windan_sairavel
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_king_vaerandir
+	mother = frostwood_e_queen_hweniel
+
+	sexuality = heterosexual
+
+	trait = calm
+	trait = honest
+	trait = generous
+	trait = education_learning_3
+
+	diplomacy = 8
+	martial = 7
+	stewardship = 8
+	intrigue = 7
+	learning = 11
+	prowess = 6
+
+	3561.7.3 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_royal_04 = { # Child of the two Frostwood monarchs
+	name = frostwood_name_kwinor
+
+	dynasty = dynasty_hwenti_hwerin
+	religion = faith_moriquendi
+	culture = hwenti
+
+	father = frostwood_w_king_vaerandir
+	mother = frostwood_e_queen_hweniel
+
+	sexuality = heterosexual
+
+	trait = brave
+	trait = temperate
+	trait = gregarious
+	trait = education_martial_3
+
+	diplomacy = 8
+	martial = 10
+	stewardship = 7
+	intrigue = 7
+	learning = 8
+	prowess = 10
+
+	4684.2.14 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_royal_05 = { # Child of the two Frostwood monarchs
+	name = frostwood_name_vaelor
+
+	dynasty = dynasty_windan_sairavel
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_king_vaerandir
+	mother = frostwood_e_queen_hweniel
+
+	sexuality = heterosexual
+
+	trait = diligent
+	trait = patient
+	trait = content
+	trait = education_stewardship_3
+
+	diplomacy = 7
+	martial = 8
+	stewardship = 10
+	intrigue = 6
+	learning = 8
+	prowess = 7
+
+	5793.9.25 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_royal_06 = { # Child of the two Frostwood monarchs
+	name = frostwood_name_nairi
+	female = yes
+
+	dynasty = dynasty_hwenti_hwerin
+	religion = faith_moriquendi
+	culture = hwenti
+
+	father = frostwood_w_king_vaerandir
+	mother = frostwood_e_queen_hweniel
+
+	sexuality = heterosexual
+
+	trait = compassionate
+	trait = calm
+	trait = content
+	trait = education_learning_2
+
+	diplomacy = 8
+	martial = 6
+	stewardship = 7
+	intrigue = 6
+	learning = 10
+	prowess = 5
+
+	6478.4.8 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_royal_01_spouse = { # Consort of the western heir
+	name = frostwood_name_royal_01_spouse
+	female = yes
+
+	religion = faith_moriquendi
+	culture = windan
+
+	sexuality = heterosexual
+
+	trait = humble
+	trait = stubborn
+	trait = content
+	trait = education_stewardship_2
+
+	diplomacy = 6
+	martial = 7
+	stewardship = 5
+	intrigue = 6
+	learning = 8
+	prowess = 5
+
+	2310.3.12 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_royal_02_spouse = { # Consort of the eastern heiress
+	name = frostwood_name_royal_02_spouse
+
+	religion = faith_moriquendi
+	culture = hwenti
+
+	sexuality = heterosexual
+
+	trait = content
+	trait = diligent
+	trait = brave
+	trait = education_learning_2
+
+	diplomacy = 6
+	martial = 5
+	stewardship = 7
+	intrigue = 6
+	learning = 5
+	prowess = 5
+
+	3106.10.4 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_royal_1_grandchild_1 = { # Third generation of the Frostwood royal family
+	name = frostwood_name_royal_1_grandchild_1
+
+	dynasty = dynasty_windan_sairavel
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_royal_01
+	mother = frostwood_royal_01_spouse
+
+	sexuality = heterosexual
+
+	trait = vengeful
+	trait = content
+	trait = patient
+	trait = education_intrigue_2
+
+	diplomacy = 10
+	martial = 6
+	stewardship = 8
+	intrigue = 6
+	learning = 6
+	prowess = 9
+
+	4277.2.2 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_royal_1_grandchild_2 = { # Third generation of the Frostwood royal family
+	name = frostwood_name_royal_1_grandchild_2
+	female = yes
+
+	dynasty = dynasty_windan_sairavel
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_royal_01
+	mother = frostwood_royal_01_spouse
+
+	sexuality = heterosexual
+
+	trait = vengeful
+	trait = calm
+	trait = patient
+	trait = education_martial_3
+
+	diplomacy = 7
+	martial = 9
+	stewardship = 7
+	intrigue = 6
+	learning = 8
+	prowess = 8
+
+	5412.9.13 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_royal_2_grandchild_1 = { # Third generation of the Frostwood royal family
+	name = frostwood_name_royal_2_grandchild_1
+	female = yes
+
+	dynasty = dynasty_hwenti_hwerin
+	religion = faith_moriquendi
+	culture = hwenti
+
+	father = frostwood_royal_02_spouse
+	mother = frostwood_royal_02
+
+	sexuality = heterosexual
+
+	trait = honest
+	trait = fickle
+	trait = humble
+	trait = education_learning_2
+
+	diplomacy = 10
+	martial = 8
+	stewardship = 7
+	intrigue = 9
+	learning = 9
+	prowess = 7
+
+	5671.12.28 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_royal_2_grandchild_2 = { # Third generation of the Frostwood royal family
+	name = frostwood_name_royal_2_grandchild_2
+
+	dynasty = dynasty_hwenti_hwerin
+	religion = faith_moriquendi
+	culture = hwenti
+
+	father = frostwood_royal_02_spouse
+	mother = frostwood_royal_02
+
+	sexuality = heterosexual
+
+	trait = temperate
+	trait = generous
+	trait = trusting
+	trait = education_diplomacy_2
+
+	diplomacy = 6
+	martial = 7
+	stewardship = 7
+	intrigue = 9
+	learning = 7
+	prowess = 8
+
+	6888.7.11 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_d1_aervon = { # Holder of c_frostwood_3 and d_west_frostwood_1; ancient Avari founder, true birth predates recorded history
+	name = frostwood_name_aervon
+
+	dynasty = dynasty_windan_aereth
+	religion = faith_moriquendi
+	culture = windan
+
+	sexuality = heterosexual
+
+	trait = just
+	trait = patient
+	trait = diligent
+	trait = education_stewardship_3
+
+	diplomacy = 8
+	martial = 7
+	stewardship = 9
+	intrigue = 6
+	learning = 8
+	prowess = 7
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	453.12.8 = {
+		add_spouse = frostwood_w_d1_aervon_spouse
+	}
+}
+
+frostwood_w_d1_aervon_spouse = { # Ancient Avari consort; true birth predates recorded history
+	name = frostwood_name_w_d1_aervon_spouse
+	female = yes
+
+	religion = faith_moriquendi
+	culture = windan
+
+	sexuality = heterosexual
+
+	trait = temperate
+	trait = ambitious
+	trait = fickle
+	trait = education_martial_3
+
+	diplomacy = 8
+	martial = 6
+	stewardship = 7
+	intrigue = 8
+	learning = 6
+	prowess = 8
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_d1_aervon_child_1 = { # Second generation heir of Aervon's house
+	name = frostwood_name_w_d1_aervon_child_1
+
+	dynasty = dynasty_windan_aereth
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_d1_aervon
+	mother = frostwood_w_d1_aervon_spouse
+
+	sexuality = heterosexual
+
+	trait = just
+	trait = stubborn
+	trait = cynical
+	trait = education_stewardship_2
+
+	diplomacy = 8
+	martial = 8
+	stewardship = 7
+	intrigue = 5
+	learning = 6
+	prowess = 8
+
+	1120.6.22 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	1822.8.20 = {
+		add_spouse = frostwood_w_d1_aervon_child_1_spouse
+	}
+}
+
+frostwood_w_d1_aervon_child_2 = { # Second generation of Aervon's house
+	name = frostwood_name_w_d1_aervon_child_2
+	female = yes
+
+	dynasty = dynasty_windan_aereth
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_d1_aervon
+	mother = frostwood_w_d1_aervon_spouse
+
+	sexuality = heterosexual
+
+	trait = just
+	trait = fickle
+	trait = trusting
+	trait = education_learning_2
+
+	diplomacy = 7
+	martial = 5
+	stewardship = 5
+	intrigue = 6
+	learning = 7
+	prowess = 7
+
+	1749.1.5 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_d1_aervon_child_1_spouse = { # Consort within the second generation
+	name = frostwood_name_w_d1_aervon_child_1_spouse
+	female = yes
+
+	religion = faith_moriquendi
+	culture = windan
+
+	sexuality = heterosexual
+
+	trait = trusting
+	trait = stubborn
+	trait = just
+	trait = education_stewardship_2
+
+	diplomacy = 5
+	martial = 7
+	stewardship = 7
+	intrigue = 8
+	learning = 8
+	prowess = 7
+
+	1259.12.28 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_d1_aervon_grandchild_1 = { # Third generation of Aervon's house
+	name = frostwood_name_w_d1_aervon_grandchild_1
+	female = yes
+
+	dynasty = dynasty_windan_aereth
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_d1_aervon_child_1
+	mother = frostwood_w_d1_aervon_child_1_spouse
+
+	sexuality = heterosexual
+
+	trait = stubborn
+	trait = just
+	trait = shy
+	trait = education_intrigue_2
+
+	diplomacy = 5
+	martial = 7
+	stewardship = 8
+	intrigue = 9
+	learning = 9
+	prowess = 10
+
+	2379.2.6 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_d1_aervon_grandchild_2 = { # Third generation of Aervon's house
+	name = frostwood_name_w_d1_aervon_grandchild_2
+
+	dynasty = dynasty_windan_aereth
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_d1_aervon_child_1
+	mother = frostwood_w_d1_aervon_child_1_spouse
+
+	sexuality = heterosexual
+
+	trait = vengeful
+	trait = stubborn
+	trait = generous
+	trait = education_martial_3
+
+	diplomacy = 7
+	martial = 9
+	stewardship = 8
+	intrigue = 9
+	learning = 9
+	prowess = 9
+
+	3002.9.17 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c1_neldor = { # Holder of c_frostwood_1; ancient Avari founder, true birth predates recorded history
+	name = frostwood_name_neldor
+
+	dynasty = dynasty_windan_neldarin
+	religion = faith_moriquendi
+	culture = windan
+
+	sexuality = heterosexual
+
+	trait = brave
+	trait = generous
+	trait = calm
+	trait = education_martial_3
+
+	diplomacy = 7
+	martial = 9
+	stewardship = 7
+	intrigue = 6
+	learning = 7
+	prowess = 9
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	686.7.19 = {
+		add_spouse = frostwood_w_c1_neldor_spouse
+	}
+}
+
+frostwood_w_c1_neldor_spouse = { # Ancient Avari consort; true birth predates recorded history
+	name = frostwood_name_w_c1_neldor_spouse
+	female = yes
+
+	religion = faith_moriquendi
+	culture = windan
+
+	sexuality = heterosexual
+
+	trait = temperate
+	trait = diligent
+	trait = vengeful
+	trait = education_martial_2
+
+	diplomacy = 5
+	martial = 7
+	stewardship = 6
+	intrigue = 7
+	learning = 7
+	prowess = 8
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c1_neldor_child_1 = { # Second generation heir of Neldor's house
+	name = frostwood_name_w_c1_neldor_child_1
+
+	dynasty = dynasty_windan_neldarin
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_c1_neldor
+	mother = frostwood_w_c1_neldor_spouse
+
+	sexuality = heterosexual
+
+	trait = calm
+	trait = ambitious
+	trait = humble
+	trait = education_martial_3
+
+	diplomacy = 6
+	martial = 7
+	stewardship = 7
+	intrigue = 6
+	learning = 8
+	prowess = 6
+
+	1670.4.20 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	2514.3.3 = {
+		add_spouse = frostwood_w_c1_neldor_child_1_spouse
+	}
+}
+
+frostwood_w_c1_neldor_child_2 = { # Second generation of Neldor's house
+	name = frostwood_name_w_c1_neldor_child_2
+	female = yes
+
+	dynasty = dynasty_windan_neldarin
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_c1_neldor
+	mother = frostwood_w_c1_neldor_spouse
+
+	sexuality = heterosexual
+
+	trait = zealous
+	trait = stubborn
+	trait = ambitious
+	trait = education_martial_2
+
+	diplomacy = 7
+	martial = 8
+	stewardship = 6
+	intrigue = 6
+	learning = 6
+	prowess = 5
+
+	2448.11.3 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c1_neldor_child_3 = { # Second generation of Neldor's house
+	name = frostwood_name_w_c1_neldor_child_3
+
+	dynasty = dynasty_windan_neldarin
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_c1_neldor
+	mother = frostwood_w_c1_neldor_spouse
+
+	sexuality = heterosexual
+
+	trait = cynical
+	trait = vengeful
+	trait = stubborn
+	trait = education_stewardship_2
+
+	diplomacy = 6
+	martial = 8
+	stewardship = 6
+	intrigue = 7
+	learning = 8
+	prowess = 7
+
+	3014.6.14 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c1_neldor_child_1_spouse = { # Consort within the second generation
+	name = frostwood_name_w_c1_neldor_child_1_spouse
+	female = yes
+
+	religion = faith_moriquendi
+	culture = windan
+
+	sexuality = heterosexual
+
+	trait = humble
+	trait = just
+	trait = stubborn
+	trait = education_learning_2
+
+	diplomacy = 8
+	martial = 8
+	stewardship = 8
+	intrigue = 6
+	learning = 5
+	prowess = 8
+
+	1868.7.11 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c1_neldor_grandchild_1 = { # Third generation of Neldor's house
+	name = frostwood_name_w_c1_neldor_grandchild_1
+
+	dynasty = dynasty_windan_neldarin
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_c1_neldor_child_1
+	mother = frostwood_w_c1_neldor_child_1_spouse
+
+	sexuality = heterosexual
+
+	trait = diligent
+	trait = trusting
+	trait = ambitious
+	trait = education_learning_2
+
+	diplomacy = 9
+	martial = 5
+	stewardship = 9
+	intrigue = 10
+	learning = 8
+	prowess = 7
+
+	3198.12.4 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c1_neldor_grandchild_2 = { # Third generation of Neldor's house
+	name = frostwood_name_w_c1_neldor_grandchild_2
+	female = yes
+
+	dynasty = dynasty_windan_neldarin
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_c1_neldor_child_1
+	mother = frostwood_w_c1_neldor_child_1_spouse
+
+	sexuality = heterosexual
+
+	trait = stubborn
+	trait = trusting
+	trait = shy
+	trait = education_diplomacy_2
+
+	diplomacy = 8
+	martial = 9
+	stewardship = 9
+	intrigue = 7
+	learning = 6
+	prowess = 9
+
+	4014.7.15 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c2_saelwen = { # Holder of c_frostwood_2; ancient Avari founder, true birth predates recorded history
+	name = frostwood_name_saelwen
+	female = yes
+
+	dynasty = dynasty_windan_saelith
+	religion = faith_moriquendi
+	culture = windan
+
+	sexuality = heterosexual
+
+	trait = compassionate
+	trait = honest
+	trait = patient
+	trait = education_diplomacy_3
+
+	diplomacy = 9
+	martial = 7
+	stewardship = 7
+	intrigue = 6
+	learning = 8
+	prowess = 7
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	919.2.2 = {
+		add_matrilineal_spouse = frostwood_w_c2_saelwen_spouse
+	}
+}
+
+frostwood_w_c2_saelwen_spouse = { # Ancient Avari consort; true birth predates recorded history
+	name = frostwood_name_w_c2_saelwen_spouse
+
+	religion = faith_moriquendi
+	culture = windan
+
+	sexuality = heterosexual
+
+	trait = trusting
+	trait = stubborn
+	trait = cynical
+	trait = education_stewardship_2
+
+	diplomacy = 8
+	martial = 5
+	stewardship = 7
+	intrigue = 7
+	learning = 7
+	prowess = 6
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c2_saelwen_child_1 = { # Second generation heir of Saelwen's house
+	name = frostwood_name_w_c2_saelwen_child_1
+	female = yes
+
+	dynasty = dynasty_windan_saelith
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_c2_saelwen_spouse
+	mother = frostwood_w_c2_saelwen
+
+	sexuality = heterosexual
+
+	trait = trusting
+	trait = zealous
+	trait = humble
+	trait = education_diplomacy_2
+
+	diplomacy = 7
+	martial = 5
+	stewardship = 8
+	intrigue = 8
+	learning = 6
+	prowess = 7
+
+	2220.2.18 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	3206.10.14 = {
+		add_matrilineal_spouse = frostwood_w_c2_saelwen_child_1_spouse
+	}
+}
+
+frostwood_w_c2_saelwen_child_2 = { # Second generation of Saelwen's house
+	name = frostwood_name_w_c2_saelwen_child_2
+
+	dynasty = dynasty_windan_saelith
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_c2_saelwen_spouse
+	mother = frostwood_w_c2_saelwen
+
+	sexuality = heterosexual
+
+	trait = zealous
+	trait = diligent
+	trait = just
+	trait = education_intrigue_2
+
+	diplomacy = 6
+	martial = 5
+	stewardship = 6
+	intrigue = 8
+	learning = 5
+	prowess = 8
+
+	3147.9.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c2_saelwen_child_1_spouse = { # Consort within the second generation
+	name = frostwood_name_w_c2_saelwen_child_1_spouse
+
+	religion = faith_moriquendi
+	culture = windan
+
+	sexuality = heterosexual
+
+	trait = vengeful
+	trait = calm
+	trait = ambitious
+	trait = education_diplomacy_2
+
+	diplomacy = 8
+	martial = 8
+	stewardship = 6
+	intrigue = 5
+	learning = 8
+	prowess = 6
+
+	2477.2.22 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c2_saelwen_grandchild_1 = { # Third generation of Saelwen's house
+	name = frostwood_name_w_c2_saelwen_grandchild_1
+	female = yes
+
+	dynasty = dynasty_windan_saelith
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_c2_saelwen_child_1_spouse
+	mother = frostwood_w_c2_saelwen_child_1
+
+	sexuality = heterosexual
+
+	trait = stubborn
+	trait = content
+	trait = cynical
+	trait = education_martial_2
+
+	diplomacy = 10
+	martial = 8
+	stewardship = 7
+	intrigue = 7
+	learning = 7
+	prowess = 5
+
+	4017.10.2 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c2_saelwen_grandchild_2 = { # Third generation of Saelwen's house
+	name = frostwood_name_w_c2_saelwen_grandchild_2
+
+	dynasty = dynasty_windan_saelith
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_c2_saelwen_child_1_spouse
+	mother = frostwood_w_c2_saelwen_child_1
+
+	sexuality = heterosexual
+
+	trait = honest
+	trait = content
+	trait = shy
+	trait = education_stewardship_2
+
+	diplomacy = 8
+	martial = 7
+	stewardship = 10
+	intrigue = 8
+	learning = 7
+	prowess = 8
+
+	5026.5.13 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c7_elur = { # Holder of c_frostwood_7; ancient Avari founder, true birth predates recorded history
+	name = frostwood_name_elur
+
+	dynasty = dynasty_windan_elvar
+	religion = faith_moriquendi
+	culture = windan
+
+	sexuality = heterosexual
+
+	trait = diligent
+	trait = temperate
+	trait = gregarious
+	trait = education_learning_3
+
+	diplomacy = 7
+	martial = 7
+	stewardship = 8
+	intrigue = 7
+	learning = 9
+	prowess = 6
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	1152.9.13 = {
+		add_spouse = frostwood_w_c7_elur_spouse
+	}
+}
+
+frostwood_w_c7_elur_spouse = { # Ancient Avari consort; true birth predates recorded history
+	name = frostwood_name_w_c7_elur_spouse
+	female = yes
+
+	religion = faith_moriquendi
+	culture = windan
+
+	sexuality = heterosexual
+
+	trait = humble
+	trait = just
+	trait = patient
+	trait = education_learning_2
+
+	diplomacy = 6
+	martial = 8
+	stewardship = 8
+	intrigue = 8
+	learning = 8
+	prowess = 6
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c7_elur_child_1 = { # Second generation heir of Elur's house
+	name = frostwood_name_w_c7_elur_child_1
+
+	dynasty = dynasty_windan_elvar
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_c7_elur
+	mother = frostwood_w_c7_elur_spouse
+
+	sexuality = heterosexual
+
+	trait = fickle
+	trait = stubborn
+	trait = gregarious
+	trait = education_stewardship_2
+
+	diplomacy = 6
+	martial = 6
+	stewardship = 7
+	intrigue = 5
+	learning = 8
+	prowess = 7
+
+	2770.12.16 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	3898.5.25 = {
+		add_spouse = frostwood_w_c7_elur_child_1_spouse
+	}
+}
+
+frostwood_w_c7_elur_child_2 = { # Second generation of Elur's house
+	name = frostwood_name_w_c7_elur_child_2
+	female = yes
+
+	dynasty = dynasty_windan_elvar
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_c7_elur
+	mother = frostwood_w_c7_elur_spouse
+
+	sexuality = heterosexual
+
+	trait = compassionate
+	trait = shy
+	trait = patient
+	trait = education_learning_2
+
+	diplomacy = 7
+	martial = 5
+	stewardship = 5
+	intrigue = 8
+	learning = 6
+	prowess = 7
+
+	3846.7.27 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c7_elur_child_3 = { # Second generation of Elur's house
+	name = frostwood_name_w_c7_elur_child_3
+
+	dynasty = dynasty_windan_elvar
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_c7_elur
+	mother = frostwood_w_c7_elur_spouse
+
+	sexuality = heterosexual
+
+	trait = vengeful
+	trait = temperate
+	trait = brave
+	trait = education_diplomacy_2
+
+	diplomacy = 6
+	martial = 8
+	stewardship = 5
+	intrigue = 8
+	learning = 6
+	prowess = 5
+
+	4558.2.10 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c7_elur_child_1_spouse = { # Consort within the second generation
+	name = frostwood_name_w_c7_elur_child_1_spouse
+	female = yes
+
+	religion = faith_moriquendi
+	culture = windan
+
+	sexuality = heterosexual
+
+	trait = brave
+	trait = humble
+	trait = cynical
+	trait = education_intrigue_2
+
+	diplomacy = 6
+	martial = 7
+	stewardship = 7
+	intrigue = 7
+	learning = 8
+	prowess = 8
+
+	3086.9.5 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c7_elur_grandchild_1 = { # Third generation of Elur's house
+	name = frostwood_name_w_c7_elur_grandchild_1
+
+	dynasty = dynasty_windan_elvar
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_c7_elur_child_1
+	mother = frostwood_w_c7_elur_child_1_spouse
+
+	sexuality = heterosexual
+
+	trait = generous
+	trait = zealous
+	trait = diligent
+	trait = education_intrigue_2
+
+	diplomacy = 8
+	martial = 5
+	stewardship = 10
+	intrigue = 7
+	learning = 8
+	prowess = 9
+
+	4836.8.28 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c7_elur_grandchild_2 = { # Third generation of Elur's house
+	name = frostwood_name_w_c7_elur_grandchild_2
+	female = yes
+
+	dynasty = dynasty_windan_elvar
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_c7_elur_child_1
+	mother = frostwood_w_c7_elur_child_1_spouse
+
+	sexuality = heterosexual
+
+	trait = calm
+	trait = stubborn
+	trait = patient
+	trait = education_martial_3
+
+	diplomacy = 5
+	martial = 7
+	stewardship = 9
+	intrigue = 8
+	learning = 9
+	prowess = 7
+
+	5418.3.11 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c8_maeriel = { # Holder of c_frostwood_8; ancient Avari founder, true birth predates recorded history
+	name = frostwood_name_maeriel
+	female = yes
+
+	dynasty = dynasty_windan_maerwen
+	religion = faith_moriquendi
+	culture = windan
+
+	sexuality = heterosexual
+
+	trait = stubborn
+	trait = brave
+	trait = just
+	trait = education_martial_2
+
+	diplomacy = 6
+	martial = 9
+	stewardship = 8
+	intrigue = 6
+	learning = 7
+	prowess = 8
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	1385.4.24 = {
+		add_matrilineal_spouse = frostwood_w_c8_maeriel_spouse
+	}
+}
+
+frostwood_w_c8_maeriel_spouse = { # Ancient Avari consort; true birth predates recorded history
+	name = frostwood_name_w_c8_maeriel_spouse
+
+	religion = faith_moriquendi
+	culture = windan
+
+	sexuality = heterosexual
+
+	trait = brave
+	trait = compassionate
+	trait = humble
+	trait = education_diplomacy_2
+
+	diplomacy = 6
+	martial = 8
+	stewardship = 5
+	intrigue = 7
+	learning = 5
+	prowess = 8
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c8_maeriel_child_1 = { # Second generation heir of Maeriel's house
+	name = frostwood_name_w_c8_maeriel_child_1
+	female = yes
+
+	dynasty = dynasty_windan_maerwen
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_c8_maeriel_spouse
+	mother = frostwood_w_c8_maeriel
+
+	sexuality = heterosexual
+
+	trait = zealous
+	trait = brave
+	trait = patient
+	trait = education_martial_3
+
+	diplomacy = 5
+	martial = 6
+	stewardship = 6
+	intrigue = 5
+	learning = 7
+	prowess = 5
+
+	3320.10.14 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	4350.12.8 = {
+		add_matrilineal_spouse = frostwood_w_c8_maeriel_child_1_spouse
+	}
+}
+
+frostwood_w_c8_maeriel_child_2 = { # Second generation of Maeriel's house
+	name = frostwood_name_w_c8_maeriel_child_2
+
+	dynasty = dynasty_windan_maerwen
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_c8_maeriel_spouse
+	mother = frostwood_w_c8_maeriel
+
+	sexuality = heterosexual
+
+	trait = just
+	trait = stubborn
+	trait = calm
+	trait = education_martial_2
+
+	diplomacy = 5
+	martial = 7
+	stewardship = 8
+	intrigue = 8
+	learning = 7
+	prowess = 7
+
+	4545.5.25 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c8_maeriel_child_1_spouse = { # Consort within the second generation
+	name = frostwood_name_w_c8_maeriel_child_1_spouse
+
+	religion = faith_moriquendi
+	culture = windan
+
+	sexuality = heterosexual
+
+	trait = diligent
+	trait = compassionate
+	trait = ambitious
+	trait = education_martial_3
+
+	diplomacy = 7
+	martial = 7
+	stewardship = 7
+	intrigue = 8
+	learning = 6
+	prowess = 6
+
+	3455.4.16 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c8_maeriel_grandchild_1 = { # Third generation of Maeriel's house
+	name = frostwood_name_w_c8_maeriel_grandchild_1
+	female = yes
+
+	dynasty = dynasty_windan_maerwen
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_c8_maeriel_child_1_spouse
+	mother = frostwood_w_c8_maeriel_child_1
+
+	sexuality = heterosexual
+
+	trait = brave
+	trait = temperate
+	trait = gregarious
+	trait = education_learning_2
+
+	diplomacy = 9
+	martial = 8
+	stewardship = 9
+	intrigue = 5
+	learning = 8
+	prowess = 7
+
+	5415.6.26 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c8_maeriel_grandchild_2 = { # Third generation of Maeriel's house
+	name = frostwood_name_w_c8_maeriel_grandchild_2
+
+	dynasty = dynasty_windan_maerwen
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_c8_maeriel_child_1_spouse
+	mother = frostwood_w_c8_maeriel_child_1
+
+	sexuality = heterosexual
+
+	trait = gregarious
+	trait = calm
+	trait = content
+	trait = education_diplomacy_2
+
+	diplomacy = 9
+	martial = 9
+	stewardship = 5
+	intrigue = 5
+	learning = 9
+	prowess = 9
+
+	6190.1.9 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c9_thalion = { # Holder of c_frostwood_9; ancient Avari founder, true birth predates recorded history
+	name = frostwood_name_thalion
+
+	dynasty = dynasty_windan_thalorn
+	religion = faith_moriquendi
+	culture = windan
+
+	sexuality = heterosexual
+
+	trait = calm
+	trait = content
+	trait = honest
+	trait = education_stewardship_3
+
+	diplomacy = 8
+	martial = 6
+	stewardship = 9
+	intrigue = 7
+	learning = 8
+	prowess = 6
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	238.11.7 = {
+		add_spouse = frostwood_w_c9_thalion_spouse
+	}
+}
+
+frostwood_w_c9_thalion_spouse = { # Ancient Avari consort; true birth predates recorded history
+	name = frostwood_name_w_c9_thalion_spouse
+	female = yes
+
+	religion = faith_moriquendi
+	culture = windan
+
+	sexuality = heterosexual
+
+	trait = cynical
+	trait = ambitious
+	trait = patient
+	trait = education_intrigue_2
+
+	diplomacy = 6
+	martial = 6
+	stewardship = 5
+	intrigue = 8
+	learning = 7
+	prowess = 5
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c9_thalion_child_1 = { # Second generation heir of Thalion's house
+	name = frostwood_name_w_c9_thalion_child_1
+
+	dynasty = dynasty_windan_thalorn
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_c9_thalion
+	mother = frostwood_w_c9_thalion_spouse
+
+	sexuality = heterosexual
+
+	trait = compassionate
+	trait = patient
+	trait = content
+	trait = education_diplomacy_2
+
+	diplomacy = 8
+	martial = 8
+	stewardship = 5
+	intrigue = 7
+	learning = 8
+	prowess = 6
+
+	840.8.12 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	2012.7.19 = {
+		add_spouse = frostwood_w_c9_thalion_child_1_spouse
+	}
+}
+
+frostwood_w_c9_thalion_child_2 = { # Second generation of Thalion's house
+	name = frostwood_name_w_c9_thalion_child_2
+	female = yes
+
+	dynasty = dynasty_windan_thalorn
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_c9_thalion
+	mother = frostwood_w_c9_thalion_spouse
+
+	sexuality = heterosexual
+
+	trait = gregarious
+	trait = patient
+	trait = fickle
+	trait = education_intrigue_2
+
+	diplomacy = 8
+	martial = 7
+	stewardship = 7
+	intrigue = 8
+	learning = 7
+	prowess = 8
+
+	2214.3.23 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c9_thalion_child_3 = { # Second generation of Thalion's house
+	name = frostwood_name_w_c9_thalion_child_3
+
+	dynasty = dynasty_windan_thalorn
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_c9_thalion
+	mother = frostwood_w_c9_thalion_spouse
+
+	sexuality = heterosexual
+
+	trait = generous
+	trait = honest
+	trait = just
+	trait = education_martial_3
+
+	diplomacy = 6
+	martial = 6
+	stewardship = 8
+	intrigue = 8
+	learning = 8
+	prowess = 5
+
+	3072.10.6 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c9_thalion_child_1_spouse = { # Consort within the second generation
+	name = frostwood_name_w_c9_thalion_child_1_spouse
+	female = yes
+
+	religion = faith_moriquendi
+	culture = windan
+
+	sexuality = heterosexual
+
+	trait = vengeful
+	trait = shy
+	trait = cynical
+	trait = education_martial_2
+
+	diplomacy = 6
+	martial = 5
+	stewardship = 8
+	intrigue = 8
+	learning = 7
+	prowess = 6
+
+	1034.11.27 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c9_thalion_grandchild_1 = { # Third generation of Thalion's house
+	name = frostwood_name_w_c9_thalion_grandchild_1
+
+	dynasty = dynasty_windan_thalorn
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_c9_thalion_child_1
+	mother = frostwood_w_c9_thalion_child_1_spouse
+
+	sexuality = heterosexual
+
+	trait = compassionate
+	trait = ambitious
+	trait = temperate
+	trait = education_martial_2
+
+	diplomacy = 8
+	martial = 8
+	stewardship = 7
+	intrigue = 8
+	learning = 9
+	prowess = 7
+
+	2444.4.24 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c9_thalion_grandchild_2 = { # Third generation of Thalion's house
+	name = frostwood_name_w_c9_thalion_grandchild_2
+	female = yes
+
+	dynasty = dynasty_windan_thalorn
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_c9_thalion_child_1
+	mother = frostwood_w_c9_thalion_child_1_spouse
+
+	sexuality = heterosexual
+
+	trait = humble
+	trait = shy
+	trait = diligent
+	trait = education_stewardship_2
+
+	diplomacy = 9
+	martial = 10
+	stewardship = 8
+	intrigue = 5
+	learning = 6
+	prowess = 8
+
+	3412.11.7 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_d3_calendir = { # Holder of c_frostwood_11 and d_west_frostwood_3; ancient Avari founder, true birth predates recorded history
+	name = frostwood_name_calendir
+
+	dynasty = dynasty_windan_calenth
+	religion = faith_moriquendi
+	culture = windan
+
+	sexuality = heterosexual
+
+	trait = ambitious
+	trait = diligent
+	trait = patient
+	trait = education_diplomacy_3
+
+	diplomacy = 9
+	martial = 7
+	stewardship = 8
+	intrigue = 7
+	learning = 7
+	prowess = 7
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	471.6.18 = {
+		add_spouse = frostwood_w_d3_calendir_spouse
+	}
+}
+
+frostwood_w_d3_calendir_spouse = { # Ancient Avari consort; true birth predates recorded history
+	name = frostwood_name_w_d3_calendir_spouse
+	female = yes
+
+	religion = faith_moriquendi
+	culture = windan
+
+	sexuality = heterosexual
+
+	trait = diligent
+	trait = ambitious
+	trait = patient
+	trait = education_martial_3
+
+	diplomacy = 7
+	martial = 6
+	stewardship = 5
+	intrigue = 7
+	learning = 7
+	prowess = 5
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_d3_calendir_child_1 = { # Second generation heir of Calendir's house
+	name = frostwood_name_w_d3_calendir_child_1
+
+	dynasty = dynasty_windan_calenth
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_d3_calendir
+	mother = frostwood_w_d3_calendir_spouse
+
+	sexuality = heterosexual
+
+	trait = temperate
+	trait = content
+	trait = shy
+	trait = education_stewardship_2
+
+	diplomacy = 6
+	martial = 6
+	stewardship = 7
+	intrigue = 5
+	learning = 6
+	prowess = 8
+
+	1390.6.10 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	2704.2.2 = {
+		add_spouse = frostwood_w_d3_calendir_child_1_spouse
+	}
+}
+
+frostwood_w_d3_calendir_child_2 = { # Second generation of Calendir's house
+	name = frostwood_name_w_d3_calendir_child_2
+	female = yes
+
+	dynasty = dynasty_windan_calenth
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_d3_calendir
+	mother = frostwood_w_d3_calendir_spouse
+
+	sexuality = heterosexual
+
+	trait = honest
+	trait = vengeful
+	trait = brave
+	trait = education_learning_2
+
+	diplomacy = 7
+	martial = 6
+	stewardship = 7
+	intrigue = 7
+	learning = 8
+	prowess = 5
+
+	2913.1.21 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_d3_calendir_child_1_spouse = { # Consort within the second generation
+	name = frostwood_name_w_d3_calendir_child_1_spouse
+	female = yes
+
+	religion = faith_moriquendi
+	culture = windan
+
+	sexuality = heterosexual
+
+	trait = content
+	trait = shy
+	trait = humble
+	trait = education_stewardship_2
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 8
+	intrigue = 8
+	learning = 6
+	prowess = 7
+
+	1643.6.10 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_d3_calendir_grandchild_1 = { # Third generation of Calendir's house
+	name = frostwood_name_w_d3_calendir_grandchild_1
+	female = yes
+
+	dynasty = dynasty_windan_calenth
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_d3_calendir_child_1
+	mother = frostwood_w_d3_calendir_child_1_spouse
+
+	sexuality = heterosexual
+
+	trait = generous
+	trait = compassionate
+	trait = just
+	trait = education_intrigue_2
+
+	diplomacy = 6
+	martial = 8
+	stewardship = 7
+	intrigue = 10
+	learning = 7
+	prowess = 7
+
+	3263.2.22 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_d3_calendir_grandchild_2 = { # Third generation of Calendir's house
+	name = frostwood_name_w_d3_calendir_grandchild_2
+
+	dynasty = dynasty_windan_calenth
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_d3_calendir_child_1
+	mother = frostwood_w_d3_calendir_child_1_spouse
+
+	sexuality = heterosexual
+
+	trait = gregarious
+	trait = trusting
+	trait = vengeful
+	trait = education_martial_3
+
+	diplomacy = 8
+	martial = 8
+	stewardship = 9
+	intrigue = 7
+	learning = 5
+	prowess = 8
+
+	3804.9.5 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c10_varon = { # Holder of c_frostwood_10; ancient Avari founder, true birth predates recorded history
+	name = frostwood_name_varon
+
+	dynasty = dynasty_windan_varath
+	religion = faith_moriquendi
+	culture = windan
+
+	sexuality = heterosexual
+
+	trait = temperate
+	trait = generous
+	trait = brave
+	trait = education_martial_3
+
+	diplomacy = 7
+	martial = 8
+	stewardship = 7
+	intrigue = 8
+	learning = 8
+	prowess = 7
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	704.1.1 = {
+		add_spouse = frostwood_w_c10_varon_spouse
+	}
+}
+
+frostwood_w_c10_varon_spouse = { # Ancient Avari consort; true birth predates recorded history
+	name = frostwood_name_w_c10_varon_spouse
+	female = yes
+
+	religion = faith_moriquendi
+	culture = windan
+
+	sexuality = heterosexual
+
+	trait = honest
+	trait = shy
+	trait = just
+	trait = education_martial_2
+
+	diplomacy = 8
+	martial = 6
+	stewardship = 7
+	intrigue = 8
+	learning = 5
+	prowess = 5
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c10_varon_child_1 = { # Second generation heir of Varon's house
+	name = frostwood_name_w_c10_varon_child_1
+
+	dynasty = dynasty_windan_varath
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_c10_varon
+	mother = frostwood_w_c10_varon_spouse
+
+	sexuality = heterosexual
+
+	trait = honest
+	trait = generous
+	trait = stubborn
+	trait = education_martial_3
+
+	diplomacy = 5
+	martial = 6
+	stewardship = 5
+	intrigue = 5
+	learning = 8
+	prowess = 5
+
+	1940.4.8 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	3396.9.13 = {
+		add_spouse = frostwood_w_c10_varon_child_1_spouse
+	}
+}
+
+frostwood_w_c10_varon_child_2 = { # Second generation of Varon's house
+	name = frostwood_name_w_c10_varon_child_2
+	female = yes
+
+	dynasty = dynasty_windan_varath
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_c10_varon
+	mother = frostwood_w_c10_varon_spouse
+
+	sexuality = heterosexual
+
+	trait = calm
+	trait = diligent
+	trait = gregarious
+	trait = education_martial_2
+
+	diplomacy = 8
+	martial = 7
+	stewardship = 7
+	intrigue = 8
+	learning = 8
+	prowess = 6
+
+	2562.11.19 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c10_varon_child_3 = { # Second generation of Varon's house
+	name = frostwood_name_w_c10_varon_child_3
+
+	dynasty = dynasty_windan_varath
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_c10_varon
+	mother = frostwood_w_c10_varon_spouse
+
+	sexuality = heterosexual
+
+	trait = patient
+	trait = brave
+	trait = trusting
+	trait = education_stewardship_2
+
+	diplomacy = 7
+	martial = 8
+	stewardship = 8
+	intrigue = 7
+	learning = 7
+	prowess = 5
+
+	3566.6.2 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c10_varon_child_1_spouse = { # Consort within the second generation
+	name = frostwood_name_w_c10_varon_child_1_spouse
+	female = yes
+
+	religion = faith_moriquendi
+	culture = windan
+
+	sexuality = heterosexual
+
+	trait = generous
+	trait = temperate
+	trait = shy
+	trait = education_learning_2
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 8
+	intrigue = 7
+	learning = 5
+	prowess = 7
+
+	2252.1.21 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c10_varon_grandchild_1 = { # Third generation of Varon's house
+	name = frostwood_name_w_c10_varon_grandchild_1
+
+	dynasty = dynasty_windan_varath
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_c10_varon_child_1
+	mother = frostwood_w_c10_varon_child_1_spouse
+
+	sexuality = heterosexual
+
+	trait = compassionate
+	trait = cynical
+	trait = just
+	trait = education_learning_2
+
+	diplomacy = 7
+	martial = 7
+	stewardship = 8
+	intrigue = 8
+	learning = 8
+	prowess = 6
+
+	4082.12.20 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c10_varon_grandchild_2 = { # Third generation of Varon's house
+	name = frostwood_name_w_c10_varon_grandchild_2
+	female = yes
+
+	dynasty = dynasty_windan_varath
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_c10_varon_child_1
+	mother = frostwood_w_c10_varon_child_1_spouse
+
+	sexuality = heterosexual
+
+	trait = stubborn
+	trait = content
+	trait = zealous
+	trait = education_diplomacy_2
+
+	diplomacy = 7
+	martial = 8
+	stewardship = 10
+	intrigue = 5
+	learning = 8
+	prowess = 6
+
+	4816.7.3 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c12_rindel = { # Holder of c_frostwood_12; ancient Avari founder, true birth predates recorded history
+	name = frostwood_name_rindel
+
+	dynasty = dynasty_windan_rindor
+	religion = faith_moriquendi
+	culture = windan
+
+	sexuality = heterosexual
+
+	trait = just
+	trait = patient
+	trait = diligent
+	trait = education_stewardship_3
+
+	diplomacy = 8
+	martial = 7
+	stewardship = 9
+	intrigue = 6
+	learning = 8
+	prowess = 7
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	937.8.12 = {
+		add_spouse = frostwood_w_c12_rindel_spouse
+	}
+}
+
+frostwood_w_c12_rindel_spouse = { # Ancient Avari consort; true birth predates recorded history
+	name = frostwood_name_w_c12_rindel_spouse
+	female = yes
+
+	religion = faith_moriquendi
+	culture = windan
+
+	sexuality = heterosexual
+
+	trait = trusting
+	trait = compassionate
+	trait = stubborn
+	trait = education_stewardship_2
+
+	diplomacy = 7
+	martial = 8
+	stewardship = 8
+	intrigue = 6
+	learning = 8
+	prowess = 7
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c12_rindel_child_1 = { # Second generation heir of Rindel's house
+	name = frostwood_name_w_c12_rindel_child_1
+
+	dynasty = dynasty_windan_rindor
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_c12_rindel
+	mother = frostwood_w_c12_rindel_spouse
+
+	sexuality = heterosexual
+
+	trait = zealous
+	trait = trusting
+	trait = diligent
+	trait = education_diplomacy_2
+
+	diplomacy = 8
+	martial = 7
+	stewardship = 7
+	intrigue = 6
+	learning = 8
+	prowess = 8
+
+	2490.2.6 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	3168.4.24 = {
+		add_spouse = frostwood_w_c12_rindel_child_1_spouse
+	}
+}
+
+frostwood_w_c12_rindel_child_2 = { # Second generation of Rindel's house
+	name = frostwood_name_w_c12_rindel_child_2
+	female = yes
+
+	dynasty = dynasty_windan_rindor
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_c12_rindel
+	mother = frostwood_w_c12_rindel_spouse
+
+	sexuality = heterosexual
+
+	trait = ambitious
+	trait = shy
+	trait = diligent
+	trait = education_intrigue_2
+
+	diplomacy = 6
+	martial = 8
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	prowess = 8
+
+	3261.9.17 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c12_rindel_child_1_spouse = { # Consort within the second generation
+	name = frostwood_name_w_c12_rindel_child_1_spouse
+	female = yes
+
+	religion = faith_moriquendi
+	culture = windan
+
+	sexuality = heterosexual
+
+	trait = ambitious
+	trait = honest
+	trait = compassionate
+	trait = education_diplomacy_2
+
+	diplomacy = 6
+	martial = 5
+	stewardship = 6
+	intrigue = 5
+	learning = 7
+	prowess = 6
+
+	2621.8.4 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c12_rindel_grandchild_1 = { # Third generation of Rindel's house
+	name = frostwood_name_w_c12_rindel_grandchild_1
+	female = yes
+
+	dynasty = dynasty_windan_rindor
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_c12_rindel_child_1
+	mother = frostwood_w_c12_rindel_child_1_spouse
+
+	sexuality = heterosexual
+
+	trait = temperate
+	trait = zealous
+	trait = vengeful
+	trait = education_martial_2
+
+	diplomacy = 10
+	martial = 8
+	stewardship = 9
+	intrigue = 8
+	learning = 10
+	prowess = 6
+
+	3981.10.18 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c12_rindel_grandchild_2 = { # Third generation of Rindel's house
+	name = frostwood_name_w_c12_rindel_grandchild_2
+
+	dynasty = dynasty_windan_rindor
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_c12_rindel_child_1
+	mother = frostwood_w_c12_rindel_child_1_spouse
+
+	sexuality = heterosexual
+
+	trait = cynical
+	trait = trusting
+	trait = temperate
+	trait = education_stewardship_2
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 7
+	intrigue = 8
+	learning = 8
+	prowess = 8
+
+	4908.5.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c13_aelwen = { # Holder of c_frostwood_13; ancient Avari founder, true birth predates recorded history
+	name = frostwood_name_aelwen
+	female = yes
+
+	dynasty = dynasty_windan_aelvar
+	religion = faith_moriquendi
+	culture = windan
+
+	sexuality = heterosexual
+
+	trait = brave
+	trait = generous
+	trait = calm
+	trait = education_martial_3
+
+	diplomacy = 7
+	martial = 9
+	stewardship = 7
+	intrigue = 6
+	learning = 7
+	prowess = 9
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	1170.3.23 = {
+		add_matrilineal_spouse = frostwood_w_c13_aelwen_spouse
+	}
+}
+
+frostwood_w_c13_aelwen_spouse = { # Ancient Avari consort; true birth predates recorded history
+	name = frostwood_name_w_c13_aelwen_spouse
+
+	religion = faith_moriquendi
+	culture = windan
+
+	sexuality = heterosexual
+
+	trait = stubborn
+	trait = gregarious
+	trait = compassionate
+	trait = education_learning_2
+
+	diplomacy = 6
+	martial = 6
+	stewardship = 8
+	intrigue = 5
+	learning = 8
+	prowess = 5
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c13_aelwen_child_1 = { # Second generation heir of Aelwen's house
+	name = frostwood_name_w_c13_aelwen_child_1
+	female = yes
+
+	dynasty = dynasty_windan_aelvar
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_c13_aelwen_spouse
+	mother = frostwood_w_c13_aelwen
+
+	sexuality = heterosexual
+
+	trait = ambitious
+	trait = stubborn
+	trait = patient
+	trait = education_stewardship_2
+
+	diplomacy = 6
+	martial = 6
+	stewardship = 8
+	intrigue = 5
+	learning = 8
+	prowess = 6
+
+	3040.12.4 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	3860.11.7 = {
+		add_matrilineal_spouse = frostwood_w_c13_aelwen_child_1_spouse
+	}
+}
+
+frostwood_w_c13_aelwen_child_2 = { # Second generation of Aelwen's house
+	name = frostwood_name_w_c13_aelwen_child_2
+
+	dynasty = dynasty_windan_aelvar
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_c13_aelwen_spouse
+	mother = frostwood_w_c13_aelwen
+
+	sexuality = heterosexual
+
+	trait = stubborn
+	trait = content
+	trait = vengeful
+	trait = education_learning_2
+
+	diplomacy = 6
+	martial = 7
+	stewardship = 6
+	intrigue = 8
+	learning = 8
+	prowess = 8
+
+	3960.7.15 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c13_aelwen_child_3 = { # Second generation of Aelwen's house
+	name = frostwood_name_w_c13_aelwen_child_3
+	female = yes
+
+	dynasty = dynasty_windan_aelvar
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_c13_aelwen_spouse
+	mother = frostwood_w_c13_aelwen
+
+	sexuality = heterosexual
+
+	trait = temperate
+	trait = just
+	trait = humble
+	trait = education_diplomacy_2
+
+	diplomacy = 7
+	martial = 6
+	stewardship = 7
+	intrigue = 6
+	learning = 5
+	prowess = 6
+
+	5110.2.26 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c13_aelwen_child_1_spouse = { # Consort within the second generation
+	name = frostwood_name_w_c13_aelwen_child_1_spouse
+
+	religion = faith_moriquendi
+	culture = windan
+
+	sexuality = heterosexual
+
+	trait = just
+	trait = trusting
+	trait = diligent
+	trait = education_intrigue_2
+
+	diplomacy = 8
+	martial = 8
+	stewardship = 7
+	intrigue = 7
+	learning = 6
+	prowess = 6
+
+	3230.3.15 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c13_aelwen_grandchild_1 = { # Third generation of Aelwen's house
+	name = frostwood_name_w_c13_aelwen_grandchild_1
+
+	dynasty = dynasty_windan_aelvar
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_c13_aelwen_child_1_spouse
+	mother = frostwood_w_c13_aelwen_child_1
+
+	sexuality = heterosexual
+
+	trait = content
+	trait = humble
+	trait = brave
+	trait = education_intrigue_2
+
+	diplomacy = 8
+	martial = 5
+	stewardship = 7
+	intrigue = 7
+	learning = 9
+	prowess = 7
+
+	4800.8.16 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c13_aelwen_grandchild_2 = { # Third generation of Aelwen's house
+	name = frostwood_name_w_c13_aelwen_grandchild_2
+	female = yes
+
+	dynasty = dynasty_windan_aelvar
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_c13_aelwen_child_1_spouse
+	mother = frostwood_w_c13_aelwen_child_1
+
+	sexuality = heterosexual
+
+	trait = shy
+	trait = trusting
+	trait = zealous
+	trait = education_martial_3
+
+	diplomacy = 10
+	martial = 9
+	stewardship = 6
+	intrigue = 9
+	learning = 7
+	prowess = 6
+
+	5300.3.27 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_d4_suldor = { # Holder of c_frostwood_18 and d_west_frostwood_4; ancient Avari founder, true birth predates recorded history
+	name = frostwood_name_suldor
+
+	dynasty = dynasty_windan_sulvar
+	religion = faith_moriquendi
+	culture = windan
+
+	sexuality = heterosexual
+
+	trait = compassionate
+	trait = honest
+	trait = patient
+	trait = education_diplomacy_3
+
+	diplomacy = 9
+	martial = 7
+	stewardship = 7
+	intrigue = 6
+	learning = 8
+	prowess = 7
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	1403.10.6 = {
+		add_spouse = frostwood_w_d4_suldor_spouse
+	}
+}
+
+frostwood_w_d4_suldor_spouse = { # Ancient Avari consort; true birth predates recorded history
+	name = frostwood_name_w_d4_suldor_spouse
+	female = yes
+
+	religion = faith_moriquendi
+	culture = windan
+
+	sexuality = heterosexual
+
+	trait = gregarious
+	trait = fickle
+	trait = temperate
+	trait = education_diplomacy_2
+
+	diplomacy = 7
+	martial = 7
+	stewardship = 8
+	intrigue = 6
+	learning = 7
+	prowess = 7
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_d4_suldor_child_1 = { # Second generation heir of Suldor's house
+	name = frostwood_name_w_d4_suldor_child_1
+
+	dynasty = dynasty_windan_sulvar
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_d4_suldor
+	mother = frostwood_w_d4_suldor_spouse
+
+	sexuality = heterosexual
+
+	trait = diligent
+	trait = patient
+	trait = zealous
+	trait = education_martial_3
+
+	diplomacy = 6
+	martial = 7
+	stewardship = 8
+	intrigue = 6
+	learning = 8
+	prowess = 7
+
+	1940.10.2 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	2902.6.18 = {
+		add_spouse = frostwood_w_d4_suldor_child_1_spouse
+	}
+}
+
+frostwood_w_d4_suldor_child_2 = { # Second generation of Suldor's house
+	name = frostwood_name_w_d4_suldor_child_2
+	female = yes
+
+	dynasty = dynasty_windan_sulvar
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_d4_suldor
+	mother = frostwood_w_d4_suldor_spouse
+
+	sexuality = heterosexual
+
+	trait = shy
+	trait = vengeful
+	trait = fickle
+	trait = education_martial_2
+
+	diplomacy = 7
+	martial = 5
+	stewardship = 8
+	intrigue = 5
+	learning = 8
+	prowess = 7
+
+	3009.5.13 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_d4_suldor_child_1_spouse = { # Consort within the second generation
+	name = frostwood_name_w_d4_suldor_child_1_spouse
+	female = yes
+
+	religion = faith_moriquendi
+	culture = windan
+
+	sexuality = heterosexual
+
+	trait = just
+	trait = zealous
+	trait = humble
+	trait = education_martial_3
+
+	diplomacy = 6
+	martial = 7
+	stewardship = 8
+	intrigue = 5
+	learning = 8
+	prowess = 6
+
+	2189.10.26 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_d4_suldor_grandchild_1 = { # Third generation of Suldor's house
+	name = frostwood_name_w_d4_suldor_grandchild_1
+	female = yes
+
+	dynasty = dynasty_windan_sulvar
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_d4_suldor_child_1
+	mother = frostwood_w_d4_suldor_child_1_spouse
+
+	sexuality = heterosexual
+
+	trait = shy
+	trait = patient
+	trait = vengeful
+	trait = education_learning_2
+
+	diplomacy = 8
+	martial = 9
+	stewardship = 8
+	intrigue = 5
+	learning = 5
+	prowess = 7
+
+	3969.6.14 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_d4_suldor_grandchild_2 = { # Third generation of Suldor's house
+	name = frostwood_name_w_d4_suldor_grandchild_2
+
+	dynasty = dynasty_windan_sulvar
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_d4_suldor_child_1
+	mother = frostwood_w_d4_suldor_child_1_spouse
+
+	sexuality = heterosexual
+
+	trait = shy
+	trait = temperate
+	trait = trusting
+	trait = education_diplomacy_2
+
+	diplomacy = 8
+	martial = 7
+	stewardship = 8
+	intrigue = 8
+	learning = 8
+	prowess = 7
+
+	4662.1.25 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c14_mirion = { # Holder of c_frostwood_14; ancient Avari founder, true birth predates recorded history
+	name = frostwood_name_mirion
+
+	dynasty = dynasty_windan_mirath
+	religion = faith_moriquendi
+	culture = windan
+
+	sexuality = heterosexual
+
+	trait = diligent
+	trait = temperate
+	trait = gregarious
+	trait = education_learning_3
+
+	diplomacy = 7
+	martial = 7
+	stewardship = 8
+	intrigue = 7
+	learning = 9
+	prowess = 6
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	256.5.17 = {
+		add_spouse = frostwood_w_c14_mirion_spouse
+	}
+}
+
+frostwood_w_c14_mirion_spouse = { # Ancient Avari consort; true birth predates recorded history
+	name = frostwood_name_w_c14_mirion_spouse
+	female = yes
+
+	religion = faith_moriquendi
+	culture = windan
+
+	sexuality = heterosexual
+
+	trait = just
+	trait = compassionate
+	trait = humble
+	trait = education_intrigue_2
+
+	diplomacy = 8
+	martial = 6
+	stewardship = 8
+	intrigue = 5
+	learning = 7
+	prowess = 5
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c14_mirion_child_1 = { # Second generation heir of Mirion's house
+	name = frostwood_name_w_c14_mirion_child_1
+
+	dynasty = dynasty_windan_mirath
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_c14_mirion
+	mother = frostwood_w_c14_mirion_spouse
+
+	sexuality = heterosexual
+
+	trait = shy
+	trait = cynical
+	trait = honest
+	trait = education_diplomacy_2
+
+	diplomacy = 6
+	martial = 6
+	stewardship = 8
+	intrigue = 7
+	learning = 7
+	prowess = 6
+
+	1110.8.28 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	2214.1.1 = {
+		add_spouse = frostwood_w_c14_mirion_child_1_spouse
+	}
+}
+
+frostwood_w_c14_mirion_child_2 = { # Second generation of Mirion's house
+	name = frostwood_name_w_c14_mirion_child_2
+	female = yes
+
+	dynasty = dynasty_windan_mirath
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_c14_mirion
+	mother = frostwood_w_c14_mirion_spouse
+
+	sexuality = heterosexual
+
+	trait = ambitious
+	trait = just
+	trait = patient
+	trait = education_intrigue_2
+
+	diplomacy = 7
+	martial = 6
+	stewardship = 8
+	intrigue = 6
+	learning = 8
+	prowess = 8
+
+	2328.3.11 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c14_mirion_child_3 = { # Second generation of Mirion's house
+	name = frostwood_name_w_c14_mirion_child_3
+
+	dynasty = dynasty_windan_mirath
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_c14_mirion
+	mother = frostwood_w_c14_mirion_spouse
+
+	sexuality = heterosexual
+
+	trait = stubborn
+	trait = cynical
+	trait = temperate
+	trait = education_martial_3
+
+	diplomacy = 8
+	martial = 6
+	stewardship = 6
+	intrigue = 6
+	learning = 7
+	prowess = 5
+
+	2774.10.22 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c14_mirion_child_1_spouse = { # Consort within the second generation
+	name = frostwood_name_w_c14_mirion_child_1_spouse
+	female = yes
+
+	religion = faith_moriquendi
+	culture = windan
+
+	sexuality = heterosexual
+
+	trait = diligent
+	trait = cynical
+	trait = generous
+	trait = education_martial_2
+
+	diplomacy = 5
+	martial = 6
+	stewardship = 5
+	intrigue = 5
+	learning = 7
+	prowess = 5
+
+	1418.5.9 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c14_mirion_grandchild_1 = { # Third generation of Mirion's house
+	name = frostwood_name_w_c14_mirion_grandchild_1
+
+	dynasty = dynasty_windan_mirath
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_c14_mirion_child_1
+	mother = frostwood_w_c14_mirion_child_1_spouse
+
+	sexuality = heterosexual
+
+	trait = temperate
+	trait = zealous
+	trait = vengeful
+	trait = education_martial_2
+
+	diplomacy = 6
+	martial = 7
+	stewardship = 7
+	intrigue = 10
+	learning = 5
+	prowess = 7
+
+	2648.4.12 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c14_mirion_grandchild_2 = { # Third generation of Mirion's house
+	name = frostwood_name_w_c14_mirion_grandchild_2
+	female = yes
+
+	dynasty = dynasty_windan_mirath
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_c14_mirion_child_1
+	mother = frostwood_w_c14_mirion_child_1_spouse
+
+	sexuality = heterosexual
+
+	trait = zealous
+	trait = temperate
+	trait = shy
+	trait = education_stewardship_2
+
+	diplomacy = 10
+	martial = 5
+	stewardship = 5
+	intrigue = 7
+	learning = 7
+	prowess = 9
+
+	3534.11.23 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c15_faelith = { # Holder of c_frostwood_15; ancient Avari founder, true birth predates recorded history
+	name = frostwood_name_faelith
+	female = yes
+
+	dynasty = dynasty_windan_faelor
+	religion = faith_moriquendi
+	culture = windan
+
+	sexuality = heterosexual
+
+	trait = stubborn
+	trait = brave
+	trait = just
+	trait = education_martial_2
+
+	diplomacy = 6
+	martial = 9
+	stewardship = 8
+	intrigue = 6
+	learning = 7
+	prowess = 8
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	489.12.28 = {
+		add_matrilineal_spouse = frostwood_w_c15_faelith_spouse
+	}
+}
+
+frostwood_w_c15_faelith_spouse = { # Ancient Avari consort; true birth predates recorded history
+	name = frostwood_name_w_c15_faelith_spouse
+
+	religion = faith_moriquendi
+	culture = windan
+
+	sexuality = heterosexual
+
+	trait = brave
+	trait = calm
+	trait = gregarious
+	trait = education_martial_3
+
+	diplomacy = 7
+	martial = 5
+	stewardship = 8
+	intrigue = 7
+	learning = 6
+	prowess = 5
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c15_faelith_child_1 = { # Second generation heir of Faelith's house
+	name = frostwood_name_w_c15_faelith_child_1
+	female = yes
+
+	dynasty = dynasty_windan_faelor
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_c15_faelith_spouse
+	mother = frostwood_w_c15_faelith
+
+	sexuality = heterosexual
+
+	trait = zealous
+	trait = vengeful
+	trait = stubborn
+	trait = education_stewardship_2
+
+	diplomacy = 6
+	martial = 5
+	stewardship = 5
+	intrigue = 7
+	learning = 7
+	prowess = 8
+
+	1660.6.26 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	2666.8.12 = {
+		add_matrilineal_spouse = frostwood_w_c15_faelith_child_1_spouse
+	}
+}
+
+frostwood_w_c15_faelith_child_2 = { # Second generation of Faelith's house
+	name = frostwood_name_w_c15_faelith_child_2
+
+	dynasty = dynasty_windan_faelor
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_c15_faelith_spouse
+	mother = frostwood_w_c15_faelith
+
+	sexuality = heterosexual
+
+	trait = calm
+	trait = trusting
+	trait = generous
+	trait = education_learning_2
+
+	diplomacy = 7
+	martial = 8
+	stewardship = 8
+	intrigue = 6
+	learning = 8
+	prowess = 6
+
+	3027.1.9 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c15_faelith_child_1_spouse = { # Consort within the second generation
+	name = frostwood_name_w_c15_faelith_child_1_spouse
+
+	religion = faith_moriquendi
+	culture = windan
+
+	sexuality = heterosexual
+
+	trait = patient
+	trait = compassionate
+	trait = trusting
+	trait = education_stewardship_2
+
+	diplomacy = 7
+	martial = 6
+	stewardship = 5
+	intrigue = 8
+	learning = 8
+	prowess = 7
+
+	1787.12.20 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c15_faelith_grandchild_1 = { # Third generation of Faelith's house
+	name = frostwood_name_w_c15_faelith_grandchild_1
+	female = yes
+
+	dynasty = dynasty_windan_faelor
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_c15_faelith_child_1_spouse
+	mother = frostwood_w_c15_faelith_child_1
+
+	sexuality = heterosexual
+
+	trait = vengeful
+	trait = calm
+	trait = content
+	trait = education_intrigue_2
+
+	diplomacy = 6
+	martial = 8
+	stewardship = 5
+	intrigue = 9
+	learning = 8
+	prowess = 6
+
+	3227.2.10 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c15_faelith_grandchild_2 = { # Third generation of Faelith's house
+	name = frostwood_name_w_c15_faelith_grandchild_2
+
+	dynasty = dynasty_windan_faelor
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_c15_faelith_child_1_spouse
+	mother = frostwood_w_c15_faelith_child_1
+
+	sexuality = heterosexual
+
+	trait = stubborn
+	trait = shy
+	trait = diligent
+	trait = education_martial_3
+
+	diplomacy = 7
+	martial = 5
+	stewardship = 10
+	intrigue = 9
+	learning = 8
+	prowess = 7
+
+	3686.9.21 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c16_orwen = { # Holder of c_frostwood_16; ancient Avari founder, true birth predates recorded history
+	name = frostwood_name_orwen
+	female = yes
+
+	dynasty = dynasty_windan_ornaeth
+	religion = faith_moriquendi
+	culture = windan
+
+	sexuality = heterosexual
+
+	trait = calm
+	trait = content
+	trait = honest
+	trait = education_stewardship_3
+
+	diplomacy = 8
+	martial = 6
+	stewardship = 9
+	intrigue = 7
+	learning = 8
+	prowess = 6
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	722.7.11 = {
+		add_matrilineal_spouse = frostwood_w_c16_orwen_spouse
+	}
+}
+
+frostwood_w_c16_orwen_spouse = { # Ancient Avari consort; true birth predates recorded history
+	name = frostwood_name_w_c16_orwen_spouse
+
+	religion = faith_moriquendi
+	culture = windan
+
+	sexuality = heterosexual
+
+	trait = vengeful
+	trait = humble
+	trait = cynical
+	trait = education_martial_2
+
+	diplomacy = 5
+	martial = 6
+	stewardship = 8
+	intrigue = 7
+	learning = 6
+	prowess = 5
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c16_orwen_child_1 = { # Second generation heir of Orwen's house
+	name = frostwood_name_w_c16_orwen_child_1
+	female = yes
+
+	dynasty = dynasty_windan_ornaeth
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_c16_orwen_spouse
+	mother = frostwood_w_c16_orwen
+
+	sexuality = heterosexual
+
+	trait = cynical
+	trait = temperate
+	trait = just
+	trait = education_martial_3
+
+	diplomacy = 7
+	martial = 7
+	stewardship = 8
+	intrigue = 8
+	learning = 5
+	prowess = 8
+
+	2210.4.24 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	3358.3.23 = {
+		add_matrilineal_spouse = frostwood_w_c16_orwen_child_1_spouse
+	}
+}
+
+frostwood_w_c16_orwen_child_2 = { # Second generation of Orwen's house
+	name = frostwood_name_w_c16_orwen_child_2
+
+	dynasty = dynasty_windan_ornaeth
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_c16_orwen_spouse
+	mother = frostwood_w_c16_orwen
+
+	sexuality = heterosexual
+
+	trait = compassionate
+	trait = temperate
+	trait = vengeful
+	trait = education_martial_2
+
+	diplomacy = 8
+	martial = 7
+	stewardship = 8
+	intrigue = 6
+	learning = 5
+	prowess = 6
+
+	3726.11.7 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c16_orwen_child_3 = { # Second generation of Orwen's house
+	name = frostwood_name_w_c16_orwen_child_3
+	female = yes
+
+	dynasty = dynasty_windan_ornaeth
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_c16_orwen_spouse
+	mother = frostwood_w_c16_orwen
+
+	sexuality = heterosexual
+
+	trait = patient
+	trait = temperate
+	trait = gregarious
+	trait = education_stewardship_2
+
+	diplomacy = 6
+	martial = 6
+	stewardship = 8
+	intrigue = 5
+	learning = 8
+	prowess = 8
+
+	4318.6.18 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c16_orwen_child_1_spouse = { # Consort within the second generation
+	name = frostwood_name_w_c16_orwen_child_1_spouse
+
+	religion = faith_moriquendi
+	culture = windan
+
+	sexuality = heterosexual
+
+	trait = gregarious
+	trait = diligent
+	trait = honest
+	trait = education_learning_2
+
+	diplomacy = 7
+	martial = 8
+	stewardship = 6
+	intrigue = 8
+	learning = 7
+	prowess = 5
+
+	2396.7.3 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c16_orwen_grandchild_1 = { # Third generation of Orwen's house
+	name = frostwood_name_w_c16_orwen_grandchild_1
+
+	dynasty = dynasty_windan_ornaeth
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_c16_orwen_child_1_spouse
+	mother = frostwood_w_c16_orwen_child_1
+
+	sexuality = heterosexual
+
+	trait = generous
+	trait = honest
+	trait = zealous
+	trait = education_learning_2
+
+	diplomacy = 10
+	martial = 5
+	stewardship = 7
+	intrigue = 8
+	learning = 5
+	prowess = 8
+
+	4046.12.8 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c16_orwen_grandchild_2 = { # Third generation of Orwen's house
+	name = frostwood_name_w_c16_orwen_grandchild_2
+	female = yes
+
+	dynasty = dynasty_windan_ornaeth
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_c16_orwen_child_1_spouse
+	mother = frostwood_w_c16_orwen_child_1
+
+	sexuality = heterosexual
+
+	trait = generous
+	trait = diligent
+	trait = vengeful
+	trait = education_diplomacy_2
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 6
+	intrigue = 7
+	learning = 7
+	prowess = 5
+
+	4698.7.19 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c17_galenor = { # Holder of c_frostwood_17; ancient Avari founder, true birth predates recorded history
+	name = frostwood_name_galenor
+
+	dynasty = dynasty_windan_galath
+	religion = faith_moriquendi
+	culture = windan
+
+	sexuality = heterosexual
+
+	trait = ambitious
+	trait = diligent
+	trait = patient
+	trait = education_diplomacy_3
+
+	diplomacy = 9
+	martial = 7
+	stewardship = 8
+	intrigue = 7
+	learning = 7
+	prowess = 7
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	955.2.22 = {
+		add_spouse = frostwood_w_c17_galenor_spouse
+	}
+}
+
+frostwood_w_c17_galenor_spouse = { # Ancient Avari consort; true birth predates recorded history
+	name = frostwood_name_w_c17_galenor_spouse
+	female = yes
+
+	religion = faith_moriquendi
+	culture = windan
+
+	sexuality = heterosexual
+
+	trait = humble
+	trait = patient
+	trait = calm
+	trait = education_stewardship_2
+
+	diplomacy = 6
+	martial = 6
+	stewardship = 6
+	intrigue = 8
+	learning = 6
+	prowess = 5
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c17_galenor_child_1 = { # Second generation heir of Galenor's house
+	name = frostwood_name_w_c17_galenor_child_1
+
+	dynasty = dynasty_windan_galath
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_c17_galenor
+	mother = frostwood_w_c17_galenor_spouse
+
+	sexuality = heterosexual
+
+	trait = generous
+	trait = content
+	trait = compassionate
+	trait = education_diplomacy_2
+
+	diplomacy = 6
+	martial = 5
+	stewardship = 6
+	intrigue = 8
+	learning = 8
+	prowess = 7
+
+	2760.2.22 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	4050.10.6 = {
+		add_spouse = frostwood_w_c17_galenor_child_1_spouse
+	}
+}
+
+frostwood_w_c17_galenor_child_2 = { # Second generation of Galenor's house
+	name = frostwood_name_w_c17_galenor_child_2
+	female = yes
+
+	dynasty = dynasty_windan_galath
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_c17_galenor
+	mother = frostwood_w_c17_galenor_spouse
+
+	sexuality = heterosexual
+
+	trait = just
+	trait = cynical
+	trait = calm
+	trait = education_intrigue_2
+
+	diplomacy = 6
+	martial = 8
+	stewardship = 6
+	intrigue = 8
+	learning = 7
+	prowess = 5
+
+	3375.9.5 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c17_galenor_child_1_spouse = { # Consort within the second generation
+	name = frostwood_name_w_c17_galenor_child_1_spouse
+	female = yes
+
+	religion = faith_moriquendi
+	culture = windan
+
+	sexuality = heterosexual
+
+	trait = temperate
+	trait = just
+	trait = vengeful
+	trait = education_diplomacy_2
+
+	diplomacy = 8
+	martial = 7
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	prowess = 5
+
+	3005.2.14 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c17_galenor_grandchild_1 = { # Third generation of Galenor's house
+	name = frostwood_name_w_c17_galenor_grandchild_1
+	female = yes
+
+	dynasty = dynasty_windan_galath
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_c17_galenor_child_1
+	mother = frostwood_w_c17_galenor_child_1_spouse
+
+	sexuality = heterosexual
+
+	trait = trusting
+	trait = content
+	trait = compassionate
+	trait = education_martial_2
+
+	diplomacy = 7
+	martial = 9
+	stewardship = 8
+	intrigue = 6
+	learning = 8
+	prowess = 9
+
+	4865.10.6 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c17_galenor_grandchild_2 = { # Third generation of Galenor's house
+	name = frostwood_name_w_c17_galenor_grandchild_2
+
+	dynasty = dynasty_windan_galath
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_c17_galenor_child_1
+	mother = frostwood_w_c17_galenor_child_1_spouse
+
+	sexuality = heterosexual
+
+	trait = compassionate
+	trait = shy
+	trait = calm
+	trait = education_stewardship_2
+
+	diplomacy = 8
+	martial = 7
+	stewardship = 7
+	intrigue = 7
+	learning = 7
+	prowess = 8
+
+	5710.5.17 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c19_nethiel = { # Holder of c_frostwood_19; ancient Avari founder, true birth predates recorded history
+	name = frostwood_name_nethiel
+	female = yes
+
+	dynasty = dynasty_windan_nethrin
+	religion = faith_moriquendi
+	culture = windan
+
+	sexuality = heterosexual
+
+	trait = temperate
+	trait = generous
+	trait = brave
+	trait = education_martial_3
+
+	diplomacy = 7
+	martial = 8
+	stewardship = 7
+	intrigue = 8
+	learning = 8
+	prowess = 7
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	1188.9.5 = {
+		add_matrilineal_spouse = frostwood_w_c19_nethiel_spouse
+	}
+}
+
+frostwood_w_c19_nethiel_spouse = { # Ancient Avari consort; true birth predates recorded history
+	name = frostwood_name_w_c19_nethiel_spouse
+
+	religion = faith_moriquendi
+	culture = windan
+
+	sexuality = heterosexual
+
+	trait = zealous
+	trait = ambitious
+	trait = just
+	trait = education_learning_2
+
+	diplomacy = 5
+	martial = 6
+	stewardship = 6
+	intrigue = 8
+	learning = 5
+	prowess = 6
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c19_nethiel_child_1 = { # Second generation heir of Nethiel's house
+	name = frostwood_name_w_c19_nethiel_child_1
+	female = yes
+
+	dynasty = dynasty_windan_nethrin
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_c19_nethiel_spouse
+	mother = frostwood_w_c19_nethiel
+
+	sexuality = heterosexual
+
+	trait = content
+	trait = humble
+	trait = patient
+	trait = education_stewardship_2
+
+	diplomacy = 8
+	martial = 5
+	stewardship = 8
+	intrigue = 7
+	learning = 6
+	prowess = 6
+
+	1660.12.20 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	3092.5.17 = {
+		add_matrilineal_spouse = frostwood_w_c19_nethiel_child_1_spouse
+	}
+}
+
+frostwood_w_c19_nethiel_child_2 = { # Second generation of Nethiel's house
+	name = frostwood_name_w_c19_nethiel_child_2
+
+	dynasty = dynasty_windan_nethrin
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_c19_nethiel_spouse
+	mother = frostwood_w_c19_nethiel
+
+	sexuality = heterosexual
+
+	trait = calm
+	trait = honest
+	trait = generous
+	trait = education_learning_2
+
+	diplomacy = 5
+	martial = 6
+	stewardship = 5
+	intrigue = 5
+	learning = 8
+	prowess = 6
+
+	2424.7.3 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c19_nethiel_child_3 = { # Second generation of Nethiel's house
+	name = frostwood_name_w_c19_nethiel_child_3
+	female = yes
+
+	dynasty = dynasty_windan_nethrin
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_c19_nethiel_spouse
+	mother = frostwood_w_c19_nethiel
+
+	sexuality = heterosexual
+
+	trait = gregarious
+	trait = compassionate
+	trait = trusting
+	trait = education_diplomacy_2
+
+	diplomacy = 7
+	martial = 7
+	stewardship = 5
+	intrigue = 6
+	learning = 5
+	prowess = 7
+
+	3162.2.14 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c19_nethiel_child_1_spouse = { # Consort within the second generation
+	name = frostwood_name_w_c19_nethiel_child_1_spouse
+
+	religion = faith_moriquendi
+	culture = windan
+
+	sexuality = heterosexual
+
+	trait = zealous
+	trait = temperate
+	trait = diligent
+	trait = education_intrigue_2
+
+	diplomacy = 5
+	martial = 6
+	stewardship = 7
+	intrigue = 6
+	learning = 8
+	prowess = 8
+
+	1964.9.25 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c19_nethiel_grandchild_1 = { # Third generation of Nethiel's house
+	name = frostwood_name_w_c19_nethiel_grandchild_1
+
+	dynasty = dynasty_windan_nethrin
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_c19_nethiel_child_1_spouse
+	mother = frostwood_w_c19_nethiel_child_1
+
+	sexuality = heterosexual
+
+	trait = fickle
+	trait = stubborn
+	trait = vengeful
+	trait = education_intrigue_2
+
+	diplomacy = 8
+	martial = 9
+	stewardship = 8
+	intrigue = 8
+	learning = 6
+	prowess = 6
+
+	4034.8.4 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_w_c19_nethiel_grandchild_2 = { # Third generation of Nethiel's house
+	name = frostwood_name_w_c19_nethiel_grandchild_2
+	female = yes
+
+	dynasty = dynasty_windan_nethrin
+	religion = faith_moriquendi
+	culture = windan
+
+	father = frostwood_w_c19_nethiel_child_1_spouse
+	mother = frostwood_w_c19_nethiel_child_1
+
+	sexuality = heterosexual
+
+	trait = humble
+	trait = zealous
+	trait = cynical
+	trait = education_martial_3
+
+	diplomacy = 6
+	martial = 8
+	stewardship = 6
+	intrigue = 7
+	learning = 8
+	prowess = 6
+
+	5072.3.15 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_e_c23_hwana = { # Holder of c_frostwood_23; ancient Avari founder, true birth predates recorded history
+	name = frostwood_name_hwana
+	female = yes
+
+	dynasty = dynasty_hwenti_hwanaar
+	religion = faith_moriquendi
+	culture = hwenti
+
+	sexuality = heterosexual
+
+	trait = just
+	trait = patient
+	trait = diligent
+	trait = education_stewardship_3
+
+	diplomacy = 8
+	martial = 7
+	stewardship = 9
+	intrigue = 6
+	learning = 8
+	prowess = 7
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	1421.4.16 = {
+		add_matrilineal_spouse = frostwood_e_c23_hwana_spouse
+	}
+}
+
+frostwood_e_c23_hwana_spouse = { # Ancient Avari consort; true birth predates recorded history
+	name = frostwood_name_e_c23_hwana_spouse
+
+	religion = faith_moriquendi
+	culture = hwenti
+
+	sexuality = heterosexual
+
+	trait = cynical
+	trait = shy
+	trait = calm
+	trait = education_diplomacy_2
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 7
+	intrigue = 8
+	learning = 7
+	prowess = 6
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_e_c23_hwana_child_1 = { # Second generation heir of Hwana's house
+	name = frostwood_name_e_c23_hwana_child_1
+	female = yes
+
+	dynasty = dynasty_hwenti_hwanaar
+	religion = faith_moriquendi
+	culture = hwenti
+
+	father = frostwood_e_c23_hwana_spouse
+	mother = frostwood_e_c23_hwana
+
+	sexuality = heterosexual
+
+	trait = ambitious
+	trait = patient
+	trait = shy
+	trait = education_martial_3
+
+	diplomacy = 8
+	martial = 5
+	stewardship = 7
+	intrigue = 5
+	learning = 6
+	prowess = 5
+
+	2210.10.18 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	2864.12.28 = {
+		add_matrilineal_spouse = frostwood_e_c23_hwana_child_1_spouse
+	}
+}
+
+frostwood_e_c23_hwana_child_2 = { # Second generation of Hwana's house
+	name = frostwood_name_e_c23_hwana_child_2
+
+	dynasty = dynasty_hwenti_hwanaar
+	religion = faith_moriquendi
+	culture = hwenti
+
+	father = frostwood_e_c23_hwana_spouse
+	mother = frostwood_e_c23_hwana
+
+	sexuality = heterosexual
+
+	trait = content
+	trait = humble
+	trait = temperate
+	trait = education_martial_2
+
+	diplomacy = 8
+	martial = 6
+	stewardship = 7
+	intrigue = 6
+	learning = 8
+	prowess = 6
+
+	3123.5.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_e_c23_hwana_child_1_spouse = { # Consort within the second generation
+	name = frostwood_name_e_c23_hwana_child_1_spouse
+
+	religion = faith_moriquendi
+	culture = hwenti
+
+	sexuality = heterosexual
+
+	trait = stubborn
+	trait = honest
+	trait = humble
+	trait = education_martial_3
+
+	diplomacy = 8
+	martial = 6
+	stewardship = 6
+	intrigue = 8
+	learning = 5
+	prowess = 8
+
+	2333.4.8 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_e_c23_hwana_grandchild_1 = { # Third generation of Hwana's house
+	name = frostwood_name_e_c23_hwana_grandchild_1
+	female = yes
+
+	dynasty = dynasty_hwenti_hwanaar
+	religion = faith_moriquendi
+	culture = hwenti
+
+	father = frostwood_e_c23_hwana_child_1_spouse
+	mother = frostwood_e_c23_hwana_child_1
+
+	sexuality = heterosexual
+
+	trait = stubborn
+	trait = compassionate
+	trait = content
+	trait = education_learning_2
+
+	diplomacy = 5
+	martial = 7
+	stewardship = 6
+	intrigue = 10
+	learning = 6
+	prowess = 5
+
+	3933.6.2 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_e_c23_hwana_grandchild_2 = { # Third generation of Hwana's house
+	name = frostwood_name_e_c23_hwana_grandchild_2
+
+	dynasty = dynasty_hwenti_hwanaar
+	religion = faith_moriquendi
+	culture = hwenti
+
+	father = frostwood_e_c23_hwana_child_1_spouse
+	mother = frostwood_e_c23_hwana_child_1
+
+	sexuality = heterosexual
+
+	trait = humble
+	trait = just
+	trait = zealous
+	trait = education_diplomacy_2
+
+	diplomacy = 8
+	martial = 7
+	stewardship = 8
+	intrigue = 8
+	learning = 10
+	prowess = 9
+
+	4544.1.13 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_e_c24_kuiron = { # Holder of c_frostwood_24; ancient Avari founder, true birth predates recorded history
+	name = frostwood_name_kuiron
+
+	dynasty = dynasty_hwenti_kuiren
+	religion = faith_moriquendi
+	culture = hwenti
+
+	sexuality = heterosexual
+
+	trait = brave
+	trait = generous
+	trait = calm
+	trait = education_martial_3
+
+	diplomacy = 7
+	martial = 9
+	stewardship = 7
+	intrigue = 6
+	learning = 7
+	prowess = 9
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	274.11.27 = {
+		add_spouse = frostwood_e_c24_kuiron_spouse
+	}
+}
+
+frostwood_e_c24_kuiron_spouse = { # Ancient Avari consort; true birth predates recorded history
+	name = frostwood_name_e_c24_kuiron_spouse
+	female = yes
+
+	religion = faith_moriquendi
+	culture = hwenti
+
+	sexuality = heterosexual
+
+	trait = honest
+	trait = zealous
+	trait = shy
+	trait = education_intrigue_2
+
+	diplomacy = 6
+	martial = 7
+	stewardship = 7
+	intrigue = 5
+	learning = 5
+	prowess = 7
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_e_c24_kuiron_child_1 = { # Second generation heir of Kuiron's house
+	name = frostwood_name_e_c24_kuiron_child_1
+
+	dynasty = dynasty_hwenti_kuiren
+	religion = faith_moriquendi
+	culture = hwenti
+
+	father = frostwood_e_c24_kuiron
+	mother = frostwood_e_c24_kuiron_spouse
+
+	sexuality = heterosexual
+
+	trait = zealous
+	trait = compassionate
+	trait = ambitious
+	trait = education_diplomacy_2
+
+	diplomacy = 5
+	martial = 7
+	stewardship = 7
+	intrigue = 8
+	learning = 5
+	prowess = 6
+
+	1380.8.16 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	2176.7.11 = {
+		add_spouse = frostwood_e_c24_kuiron_child_1_spouse
+	}
+}
+
+frostwood_e_c24_kuiron_child_2 = { # Second generation of Kuiron's house
+	name = frostwood_name_e_c24_kuiron_child_2
+	female = yes
+
+	dynasty = dynasty_hwenti_kuiren
+	religion = faith_moriquendi
+	culture = hwenti
+
+	father = frostwood_e_c24_kuiron
+	mother = frostwood_e_c24_kuiron_spouse
+
+	sexuality = heterosexual
+
+	trait = ambitious
+	trait = generous
+	trait = patient
+	trait = education_intrigue_2
+
+	diplomacy = 8
+	martial = 6
+	stewardship = 8
+	intrigue = 8
+	learning = 7
+	prowess = 8
+
+	2442.3.27 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_e_c24_kuiron_child_3 = { # Second generation of Kuiron's house
+	name = frostwood_name_e_c24_kuiron_child_3
+
+	dynasty = dynasty_hwenti_kuiren
+	religion = faith_moriquendi
+	culture = hwenti
+
+	father = frostwood_e_c24_kuiron
+	mother = frostwood_e_c24_kuiron_spouse
+
+	sexuality = heterosexual
+
+	trait = content
+	trait = just
+	trait = zealous
+	trait = education_martial_3
+
+	diplomacy = 7
+	martial = 5
+	stewardship = 5
+	intrigue = 6
+	learning = 8
+	prowess = 8
+
+	3326.10.10 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_e_c24_kuiron_child_1_spouse = { # Consort within the second generation
+	name = frostwood_name_e_c24_kuiron_child_1_spouse
+	female = yes
+
+	religion = faith_moriquendi
+	culture = hwenti
+
+	sexuality = heterosexual
+
+	trait = compassionate
+	trait = just
+	trait = trusting
+	trait = education_martial_2
+
+	diplomacy = 6
+	martial = 7
+	stewardship = 6
+	intrigue = 5
+	learning = 6
+	prowess = 7
+
+	1562.11.19 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_e_c24_kuiron_grandchild_1 = { # Third generation of Kuiron's house
+	name = frostwood_name_e_c24_kuiron_grandchild_1
+
+	dynasty = dynasty_hwenti_kuiren
+	religion = faith_moriquendi
+	culture = hwenti
+
+	father = frostwood_e_c24_kuiron_child_1
+	mother = frostwood_e_c24_kuiron_child_1_spouse
+
+	sexuality = heterosexual
+
+	trait = just
+	trait = temperate
+	trait = trusting
+	trait = education_martial_2
+
+	diplomacy = 9
+	martial = 9
+	stewardship = 8
+	intrigue = 7
+	learning = 8
+	prowess = 8
+
+	2612.4.28 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_e_c24_kuiron_grandchild_2 = { # Third generation of Kuiron's house
+	name = frostwood_name_e_c24_kuiron_grandchild_2
+	female = yes
+
+	dynasty = dynasty_hwenti_kuiren
+	religion = faith_moriquendi
+	culture = hwenti
+
+	father = frostwood_e_c24_kuiron_child_1
+	mother = frostwood_e_c24_kuiron_child_1_spouse
+
+	sexuality = heterosexual
+
+	trait = cynical
+	trait = calm
+	trait = ambitious
+	trait = education_stewardship_2
+
+	diplomacy = 8
+	martial = 7
+	stewardship = 6
+	intrigue = 8
+	learning = 6
+	prowess = 6
+
+	3416.11.11 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_e_d2_velethi = { # Holder of c_frostwood_25 and d_east_frostwood_2; ancient Avari founder, true birth predates recorded history
+	name = frostwood_name_velethi
+	female = yes
+
+	dynasty = dynasty_hwenti_velenwi
+	religion = faith_moriquendi
+	culture = hwenti
+
+	sexuality = heterosexual
+
+	trait = compassionate
+	trait = honest
+	trait = patient
+	trait = education_diplomacy_3
+
+	diplomacy = 9
+	martial = 7
+	stewardship = 7
+	intrigue = 6
+	learning = 8
+	prowess = 7
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	507.6.10 = {
+		add_matrilineal_spouse = frostwood_e_d2_velethi_spouse
+	}
+}
+
+frostwood_e_d2_velethi_spouse = { # Ancient Avari consort; true birth predates recorded history
+	name = frostwood_name_e_d2_velethi_spouse
+
+	religion = faith_moriquendi
+	culture = hwenti
+
+	sexuality = heterosexual
+
+	trait = calm
+	trait = shy
+	trait = brave
+	trait = education_martial_3
+
+	diplomacy = 6
+	martial = 8
+	stewardship = 5
+	intrigue = 8
+	learning = 7
+	prowess = 6
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_e_d2_velethi_child_1 = { # Second generation heir of Velethi's house
+	name = frostwood_name_e_d2_velethi_child_1
+	female = yes
+
+	dynasty = dynasty_hwenti_velenwi
+	religion = faith_moriquendi
+	culture = hwenti
+
+	father = frostwood_e_d2_velethi_spouse
+	mother = frostwood_e_d2_velethi
+
+	sexuality = heterosexual
+
+	trait = diligent
+	trait = vengeful
+	trait = temperate
+	trait = education_stewardship_2
+
+	diplomacy = 8
+	martial = 8
+	stewardship = 7
+	intrigue = 5
+	learning = 7
+	prowess = 7
+
+	1930.6.14 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	2868.2.22 = {
+		add_matrilineal_spouse = frostwood_e_d2_velethi_child_1_spouse
+	}
+}
+
+frostwood_e_d2_velethi_child_2 = { # Second generation of Velethi's house
+	name = frostwood_name_e_d2_velethi_child_2
+
+	dynasty = dynasty_hwenti_velenwi
+	religion = faith_moriquendi
+	culture = hwenti
+
+	father = frostwood_e_d2_velethi_spouse
+	mother = frostwood_e_d2_velethi
+
+	sexuality = heterosexual
+
+	trait = humble
+	trait = cynical
+	trait = content
+	trait = education_learning_2
+
+	diplomacy = 6
+	martial = 7
+	stewardship = 7
+	intrigue = 5
+	learning = 7
+	prowess = 5
+
+	3141.1.25 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_e_d2_velethi_child_1_spouse = { # Consort within the second generation
+	name = frostwood_name_e_d2_velethi_child_1_spouse
+
+	religion = faith_moriquendi
+	culture = hwenti
+
+	sexuality = heterosexual
+
+	trait = calm
+	trait = gregarious
+	trait = just
+	trait = education_stewardship_2
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 5
+	intrigue = 6
+	learning = 6
+	prowess = 8
+
+	2171.6.2 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_e_d2_velethi_grandchild_1 = { # Third generation of Velethi's house
+	name = frostwood_name_e_d2_velethi_grandchild_1
+	female = yes
+
+	dynasty = dynasty_hwenti_velenwi
+	religion = faith_moriquendi
+	culture = hwenti
+
+	father = frostwood_e_d2_velethi_child_1_spouse
+	mother = frostwood_e_d2_velethi_child_1
+
+	sexuality = heterosexual
+
+	trait = brave
+	trait = fickle
+	trait = diligent
+	trait = education_intrigue_2
+
+	diplomacy = 7
+	martial = 5
+	stewardship = 9
+	intrigue = 8
+	learning = 8
+	prowess = 6
+
+	3431.2.26 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_e_d2_velethi_grandchild_2 = { # Third generation of Velethi's house
+	name = frostwood_name_e_d2_velethi_grandchild_2
+
+	dynasty = dynasty_hwenti_velenwi
+	religion = faith_moriquendi
+	culture = hwenti
+
+	father = frostwood_e_d2_velethi_child_1_spouse
+	mother = frostwood_e_d2_velethi_child_1
+
+	sexuality = heterosexual
+
+	trait = just
+	trait = compassionate
+	trait = ambitious
+	trait = education_martial_3
+
+	diplomacy = 6
+	martial = 7
+	stewardship = 7
+	intrigue = 8
+	learning = 10
+	prowess = 9
+
+	4428.9.9 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_e_c26_nauri = { # Holder of c_frostwood_26; ancient Avari founder, true birth predates recorded history
+	name = frostwood_name_nauri
+	female = yes
+
+	dynasty = dynasty_hwenti_nauriva
+	religion = faith_moriquendi
+	culture = hwenti
+
+	sexuality = heterosexual
+
+	trait = diligent
+	trait = temperate
+	trait = gregarious
+	trait = education_learning_3
+
+	diplomacy = 7
+	martial = 7
+	stewardship = 8
+	intrigue = 7
+	learning = 9
+	prowess = 6
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	740.1.21 = {
+		add_matrilineal_spouse = frostwood_e_c26_nauri_spouse
+	}
+}
+
+frostwood_e_c26_nauri_spouse = { # Ancient Avari consort; true birth predates recorded history
+	name = frostwood_name_e_c26_nauri_spouse
+
+	religion = faith_moriquendi
+	culture = hwenti
+
+	sexuality = heterosexual
+
+	trait = fickle
+	trait = content
+	trait = cynical
+	trait = education_martial_2
+
+	diplomacy = 6
+	martial = 7
+	stewardship = 8
+	intrigue = 5
+	learning = 8
+	prowess = 7
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_e_c26_nauri_child_1 = { # Second generation heir of Nauri's house
+	name = frostwood_name_e_c26_nauri_child_1
+	female = yes
+
+	dynasty = dynasty_hwenti_nauriva
+	religion = faith_moriquendi
+	culture = hwenti
+
+	father = frostwood_e_c26_nauri_spouse
+	mother = frostwood_e_c26_nauri
+
+	sexuality = heterosexual
+
+	trait = cynical
+	trait = calm
+	trait = generous
+	trait = education_martial_3
+
+	diplomacy = 8
+	martial = 7
+	stewardship = 5
+	intrigue = 6
+	learning = 8
+	prowess = 6
+
+	2480.4.12 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	3560.9.5 = {
+		add_matrilineal_spouse = frostwood_e_c26_nauri_child_1_spouse
+	}
+}
+
+frostwood_e_c26_nauri_child_2 = { # Second generation of Nauri's house
+	name = frostwood_name_e_c26_nauri_child_2
+
+	dynasty = dynasty_hwenti_nauriva
+	religion = faith_moriquendi
+	culture = hwenti
+
+	father = frostwood_e_c26_nauri_spouse
+	mother = frostwood_e_c26_nauri
+
+	sexuality = heterosexual
+
+	trait = fickle
+	trait = brave
+	trait = vengeful
+	trait = education_martial_2
+
+	diplomacy = 8
+	martial = 6
+	stewardship = 7
+	intrigue = 8
+	learning = 5
+	prowess = 7
+
+	3840.11.23 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_e_c26_nauri_child_3 = { # Second generation of Nauri's house
+	name = frostwood_name_e_c26_nauri_child_3
+	female = yes
+
+	dynasty = dynasty_hwenti_nauriva
+	religion = faith_moriquendi
+	culture = hwenti
+
+	father = frostwood_e_c26_nauri_spouse
+	mother = frostwood_e_c26_nauri
+
+	sexuality = heterosexual
+
+	trait = patient
+	trait = cynical
+	trait = diligent
+	trait = education_stewardship_2
+
+	diplomacy = 8
+	martial = 7
+	stewardship = 6
+	intrigue = 5
+	learning = 5
+	prowess = 6
+
+	4870.6.6 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_e_c26_nauri_child_1_spouse = { # Consort within the second generation
+	name = frostwood_name_e_c26_nauri_child_1_spouse
+
+	religion = faith_moriquendi
+	culture = hwenti
+
+	sexuality = heterosexual
+
+	trait = compassionate
+	trait = honest
+	trait = content
+	trait = education_learning_2
+
+	diplomacy = 8
+	martial = 7
+	stewardship = 6
+	intrigue = 6
+	learning = 7
+	prowess = 8
+
+	2780.1.13 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_e_c26_nauri_grandchild_1 = { # Third generation of Nauri's house
+	name = frostwood_name_e_c26_nauri_grandchild_1
+
+	dynasty = dynasty_hwenti_nauriva
+	religion = faith_moriquendi
+	culture = hwenti
+
+	father = frostwood_e_c26_nauri_child_1_spouse
+	mother = frostwood_e_c26_nauri_child_1
+
+	sexuality = heterosexual
+
+	trait = vengeful
+	trait = content
+	trait = patient
+	trait = education_learning_2
+
+	diplomacy = 9
+	martial = 6
+	stewardship = 8
+	intrigue = 7
+	learning = 5
+	prowess = 8
+
+	4250.12.24 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_e_c26_nauri_grandchild_2 = { # Third generation of Nauri's house
+	name = frostwood_name_e_c26_nauri_grandchild_2
+	female = yes
+
+	dynasty = dynasty_hwenti_nauriva
+	religion = faith_moriquendi
+	culture = hwenti
+
+	father = frostwood_e_c26_nauri_child_1_spouse
+	mother = frostwood_e_c26_nauri_child_1
+
+	sexuality = heterosexual
+
+	trait = brave
+	trait = calm
+	trait = stubborn
+	trait = education_diplomacy_2
+
+	diplomacy = 7
+	martial = 7
+	stewardship = 7
+	intrigue = 8
+	learning = 6
+	prowess = 8
+
+	4820.7.7 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_e_c27_hweni = { # Holder of c_frostwood_27; ancient Avari founder, true birth predates recorded history
+	name = frostwood_name_hweni
+	female = yes
+
+	dynasty = dynasty_hwenti_hweneth
+	religion = faith_moriquendi
+	culture = hwenti
+
+	sexuality = heterosexual
+
+	trait = stubborn
+	trait = brave
+	trait = just
+	trait = education_martial_2
+
+	diplomacy = 6
+	martial = 9
+	stewardship = 8
+	intrigue = 6
+	learning = 7
+	prowess = 8
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	973.8.4 = {
+		add_matrilineal_spouse = frostwood_e_c27_hweni_spouse
+	}
+}
+
+frostwood_e_c27_hweni_spouse = { # Ancient Avari consort; true birth predates recorded history
+	name = frostwood_name_e_c27_hweni_spouse
+
+	religion = faith_moriquendi
+	culture = hwenti
+
+	sexuality = heterosexual
+
+	trait = fickle
+	trait = zealous
+	trait = honest
+	trait = education_stewardship_2
+
+	diplomacy = 7
+	martial = 8
+	stewardship = 7
+	intrigue = 7
+	learning = 8
+	prowess = 7
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_e_c27_hweni_child_1 = { # Second generation heir of Hweni's house
+	name = frostwood_name_e_c27_hweni_child_1
+	female = yes
+
+	dynasty = dynasty_hwenti_hweneth
+	religion = faith_moriquendi
+	culture = hwenti
+
+	father = frostwood_e_c27_hweni_spouse
+	mother = frostwood_e_c27_hweni
+
+	sexuality = heterosexual
+
+	trait = content
+	trait = brave
+	trait = cynical
+	trait = education_diplomacy_2
+
+	diplomacy = 8
+	martial = 7
+	stewardship = 7
+	intrigue = 8
+	learning = 6
+	prowess = 8
+
+	1380.2.10 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	2362.4.16 = {
+		add_matrilineal_spouse = frostwood_e_c27_hweni_child_1_spouse
+	}
+}
+
+frostwood_e_c27_hweni_child_2 = { # Second generation of Hweni's house
+	name = frostwood_name_e_c27_hweni_child_2
+
+	dynasty = dynasty_hwenti_hweneth
+	religion = faith_moriquendi
+	culture = hwenti
+
+	father = frostwood_e_c27_hweni_spouse
+	mother = frostwood_e_c27_hweni
+
+	sexuality = heterosexual
+
+	trait = stubborn
+	trait = brave
+	trait = just
+	trait = education_intrigue_2
+
+	diplomacy = 6
+	martial = 5
+	stewardship = 6
+	intrigue = 7
+	learning = 5
+	prowess = 5
+
+	2889.9.21 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_e_c27_hweni_child_1_spouse = { # Consort within the second generation
+	name = frostwood_name_e_c27_hweni_child_1_spouse
+
+	religion = faith_moriquendi
+	culture = hwenti
+
+	sexuality = heterosexual
+
+	trait = generous
+	trait = humble
+	trait = brave
+	trait = education_diplomacy_2
+
+	diplomacy = 5
+	martial = 6
+	stewardship = 5
+	intrigue = 8
+	learning = 8
+	prowess = 6
+
+	1499.8.24 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_e_c27_hweni_grandchild_1 = { # Third generation of Hweni's house
+	name = frostwood_name_e_c27_hweni_grandchild_1
+	female = yes
+
+	dynasty = dynasty_hwenti_hweneth
+	religion = faith_moriquendi
+	culture = hwenti
+
+	father = frostwood_e_c27_hweni_child_1_spouse
+	mother = frostwood_e_c27_hweni_child_1
+
+	sexuality = heterosexual
+
+	trait = temperate
+	trait = vengeful
+	trait = brave
+	trait = education_martial_2
+
+	diplomacy = 9
+	martial = 10
+	stewardship = 7
+	intrigue = 7
+	learning = 8
+	prowess = 5
+
+	3179.10.22 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_e_c27_hweni_grandchild_2 = { # Third generation of Hweni's house
+	name = frostwood_name_e_c27_hweni_grandchild_2
+
+	dynasty = dynasty_hwenti_hweneth
+	religion = faith_moriquendi
+	culture = hwenti
+
+	father = frostwood_e_c27_hweni_child_1_spouse
+	mother = frostwood_e_c27_hweni_child_1
+
+	sexuality = heterosexual
+
+	trait = calm
+	trait = zealous
+	trait = just
+	trait = education_stewardship_2
+
+	diplomacy = 10
+	martial = 10
+	stewardship = 7
+	intrigue = 8
+	learning = 7
+	prowess = 8
+
+	3942.5.5 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_e_c28_orel = { # Holder of c_frostwood_28; ancient Avari founder, true birth predates recorded history
+	name = frostwood_name_orel
+
+	dynasty = dynasty_hwenti_orelwi
+	religion = faith_moriquendi
+	culture = hwenti
+
+	sexuality = heterosexual
+
+	trait = calm
+	trait = content
+	trait = honest
+	trait = education_stewardship_3
+
+	diplomacy = 8
+	martial = 6
+	stewardship = 9
+	intrigue = 7
+	learning = 8
+	prowess = 6
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	1206.3.15 = {
+		add_spouse = frostwood_e_c28_orel_spouse
+	}
+}
+
+frostwood_e_c28_orel_spouse = { # Ancient Avari consort; true birth predates recorded history
+	name = frostwood_name_e_c28_orel_spouse
+	female = yes
+
+	religion = faith_moriquendi
+	culture = hwenti
+
+	sexuality = heterosexual
+
+	trait = cynical
+	trait = calm
+	trait = humble
+	trait = education_learning_2
+
+	diplomacy = 5
+	martial = 7
+	stewardship = 7
+	intrigue = 6
+	learning = 5
+	prowess = 6
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_e_c28_orel_child_1 = { # Second generation heir of Orel's house
+	name = frostwood_name_e_c28_orel_child_1
+
+	dynasty = dynasty_hwenti_orelwi
+	religion = faith_moriquendi
+	culture = hwenti
+
+	father = frostwood_e_c28_orel
+	mother = frostwood_e_c28_orel_spouse
+
+	sexuality = heterosexual
+
+	trait = calm
+	trait = shy
+	trait = generous
+	trait = education_stewardship_2
+
+	diplomacy = 7
+	martial = 5
+	stewardship = 5
+	intrigue = 7
+	learning = 6
+	prowess = 5
+
+	1930.12.8 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	3054.11.27 = {
+		add_spouse = frostwood_e_c28_orel_child_1_spouse
+	}
+}
+
+frostwood_e_c28_orel_child_2 = { # Second generation of Orel's house
+	name = frostwood_name_e_c28_orel_child_2
+	female = yes
+
+	dynasty = dynasty_hwenti_orelwi
+	religion = faith_moriquendi
+	culture = hwenti
+
+	father = frostwood_e_c28_orel
+	mother = frostwood_e_c28_orel_spouse
+
+	sexuality = heterosexual
+
+	trait = gregarious
+	trait = stubborn
+	trait = cynical
+	trait = education_learning_2
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 5
+	intrigue = 6
+	learning = 8
+	prowess = 5
+
+	2538.7.19 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_e_c28_orel_child_3 = { # Second generation of Orel's house
+	name = frostwood_name_e_c28_orel_child_3
+
+	dynasty = dynasty_hwenti_orelwi
+	religion = faith_moriquendi
+	culture = hwenti
+
+	father = frostwood_e_c28_orel
+	mother = frostwood_e_c28_orel_spouse
+
+	sexuality = heterosexual
+
+	trait = cynical
+	trait = stubborn
+	trait = calm
+	trait = education_diplomacy_2
+
+	diplomacy = 7
+	martial = 7
+	stewardship = 7
+	intrigue = 5
+	learning = 6
+	prowess = 5
+
+	3714.2.2 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_e_c28_orel_child_1_spouse = { # Consort within the second generation
+	name = frostwood_name_e_c28_orel_child_1_spouse
+	female = yes
+
+	religion = faith_moriquendi
+	culture = hwenti
+
+	sexuality = heterosexual
+
+	trait = cynical
+	trait = fickle
+	trait = temperate
+	trait = education_intrigue_2
+
+	diplomacy = 7
+	martial = 8
+	stewardship = 8
+	intrigue = 5
+	learning = 6
+	prowess = 7
+
+	2108.3.7 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_e_c28_orel_grandchild_1 = { # Third generation of Orel's house
+	name = frostwood_name_e_c28_orel_grandchild_1
+
+	dynasty = dynasty_hwenti_orelwi
+	religion = faith_moriquendi
+	culture = hwenti
+
+	father = frostwood_e_c28_orel_child_1
+	mother = frostwood_e_c28_orel_child_1_spouse
+
+	sexuality = heterosexual
+
+	trait = fickle
+	trait = brave
+	trait = cynical
+	trait = education_intrigue_2
+
+	diplomacy = 8
+	martial = 5
+	stewardship = 10
+	intrigue = 8
+	learning = 8
+	prowess = 5
+
+	3998.8.20 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_e_c28_orel_grandchild_2 = { # Third generation of Orel's house
+	name = frostwood_name_e_c28_orel_grandchild_2
+	female = yes
+
+	dynasty = dynasty_hwenti_orelwi
+	religion = faith_moriquendi
+	culture = hwenti
+
+	father = frostwood_e_c28_orel_child_1
+	mother = frostwood_e_c28_orel_child_1_spouse
+
+	sexuality = heterosexual
+
+	trait = calm
+	trait = compassionate
+	trait = fickle
+	trait = education_martial_3
+
+	diplomacy = 9
+	martial = 8
+	stewardship = 6
+	intrigue = 8
+	learning = 8
+	prowess = 6
+
+	4954.3.3 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_e_d3_kwendir = { # Holder of c_frostwood_31 and d_east_frostwood_3; ancient Avari founder, true birth predates recorded history
+	name = frostwood_name_kwendir
+
+	dynasty = dynasty_hwenti_kwendir
+	religion = faith_moriquendi
+	culture = hwenti
+
+	sexuality = heterosexual
+
+	trait = ambitious
+	trait = diligent
+	trait = patient
+	trait = education_diplomacy_3
+
+	diplomacy = 9
+	martial = 7
+	stewardship = 8
+	intrigue = 7
+	learning = 7
+	prowess = 7
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	1439.10.26 = {
+		add_spouse = frostwood_e_d3_kwendir_spouse
+	}
+}
+
+frostwood_e_d3_kwendir_spouse = { # Ancient Avari consort; true birth predates recorded history
+	name = frostwood_name_e_d3_kwendir_spouse
+	female = yes
+
+	religion = faith_moriquendi
+	culture = hwenti
+
+	sexuality = heterosexual
+
+	trait = humble
+	trait = just
+	trait = shy
+	trait = education_diplomacy_2
+
+	diplomacy = 6
+	martial = 8
+	stewardship = 6
+	intrigue = 8
+	learning = 8
+	prowess = 7
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_e_d3_kwendir_child_1 = { # Second generation heir of Kwendir's house
+	name = frostwood_name_e_d3_kwendir_child_1
+
+	dynasty = dynasty_hwenti_kwendir
+	religion = faith_moriquendi
+	culture = hwenti
+
+	father = frostwood_e_d3_kwendir
+	mother = frostwood_e_d3_kwendir_spouse
+
+	sexuality = heterosexual
+
+	trait = vengeful
+	trait = generous
+	trait = patient
+	trait = education_martial_3
+
+	diplomacy = 7
+	martial = 6
+	stewardship = 5
+	intrigue = 6
+	learning = 8
+	prowess = 6
+
+	2480.10.6 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	3746.6.10 = {
+		add_spouse = frostwood_e_d3_kwendir_child_1_spouse
+	}
+}
+
+frostwood_e_d3_kwendir_child_2 = { # Second generation of Kwendir's house
+	name = frostwood_name_e_d3_kwendir_child_2
+	female = yes
+
+	dynasty = dynasty_hwenti_kwendir
+	religion = faith_moriquendi
+	culture = hwenti
+
+	father = frostwood_e_d3_kwendir
+	mother = frostwood_e_d3_kwendir_spouse
+
+	sexuality = heterosexual
+
+	trait = stubborn
+	trait = compassionate
+	trait = just
+	trait = education_martial_2
+
+	diplomacy = 7
+	martial = 5
+	stewardship = 6
+	intrigue = 8
+	learning = 8
+	prowess = 7
+
+	3237.5.17 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_e_d3_kwendir_child_1_spouse = { # Consort within the second generation
+	name = frostwood_name_e_d3_kwendir_child_1_spouse
+	female = yes
+
+	religion = faith_moriquendi
+	culture = hwenti
+
+	sexuality = heterosexual
+
+	trait = diligent
+	trait = trusting
+	trait = calm
+	trait = education_martial_3
+
+	diplomacy = 7
+	martial = 7
+	stewardship = 7
+	intrigue = 8
+	learning = 7
+	prowess = 6
+
+	2717.10.18 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_e_d3_kwendir_grandchild_1 = { # Third generation of Kwendir's house
+	name = frostwood_name_e_d3_kwendir_grandchild_1
+	female = yes
+
+	dynasty = dynasty_hwenti_kwendir
+	religion = faith_moriquendi
+	culture = hwenti
+
+	father = frostwood_e_d3_kwendir_child_1
+	mother = frostwood_e_d3_kwendir_child_1_spouse
+
+	sexuality = heterosexual
+
+	trait = stubborn
+	trait = brave
+	trait = generous
+	trait = education_learning_2
+
+	diplomacy = 9
+	martial = 9
+	stewardship = 7
+	intrigue = 8
+	learning = 8
+	prowess = 9
+
+	4817.6.18 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_e_d3_kwendir_grandchild_2 = { # Third generation of Kwendir's house
+	name = frostwood_name_e_d3_kwendir_grandchild_2
+
+	dynasty = dynasty_hwenti_kwendir
+	religion = faith_moriquendi
+	culture = hwenti
+
+	father = frostwood_e_d3_kwendir_child_1
+	mother = frostwood_e_d3_kwendir_child_1_spouse
+
+	sexuality = heterosexual
+
+	trait = patient
+	trait = calm
+	trait = shy
+	trait = education_diplomacy_2
+
+	diplomacy = 5
+	martial = 9
+	stewardship = 8
+	intrigue = 6
+	learning = 8
+	prowess = 7
+
+	5346.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_e_c29_saila = { # Holder of c_frostwood_29; ancient Avari founder, true birth predates recorded history
+	name = frostwood_name_saila
+	female = yes
+
+	dynasty = dynasty_hwenti_sailen
+	religion = faith_moriquendi
+	culture = hwenti
+
+	sexuality = heterosexual
+
+	trait = temperate
+	trait = generous
+	trait = brave
+	trait = education_martial_3
+
+	diplomacy = 7
+	martial = 8
+	stewardship = 7
+	intrigue = 8
+	learning = 8
+	prowess = 7
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	292.5.9 = {
+		add_matrilineal_spouse = frostwood_e_c29_saila_spouse
+	}
+}
+
+frostwood_e_c29_saila_spouse = { # Ancient Avari consort; true birth predates recorded history
+	name = frostwood_name_e_c29_saila_spouse
+
+	religion = faith_moriquendi
+	culture = hwenti
+
+	sexuality = heterosexual
+
+	trait = calm
+	trait = temperate
+	trait = vengeful
+	trait = education_intrigue_2
+
+	diplomacy = 6
+	martial = 6
+	stewardship = 5
+	intrigue = 5
+	learning = 6
+	prowess = 6
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_e_c29_saila_child_1 = { # Second generation heir of Saila's house
+	name = frostwood_name_e_c29_saila_child_1
+	female = yes
+
+	dynasty = dynasty_hwenti_sailen
+	religion = faith_moriquendi
+	culture = hwenti
+
+	father = frostwood_e_c29_saila_spouse
+	mother = frostwood_e_c29_saila
+
+	sexuality = heterosexual
+
+	trait = zealous
+	trait = humble
+	trait = cynical
+	trait = education_diplomacy_2
+
+	diplomacy = 8
+	martial = 6
+	stewardship = 5
+	intrigue = 8
+	learning = 6
+	prowess = 7
+
+	1650.8.4 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	3058.1.21 = {
+		add_matrilineal_spouse = frostwood_e_c29_saila_child_1_spouse
+	}
+}
+
+frostwood_e_c29_saila_child_2 = { # Second generation of Saila's house
+	name = frostwood_name_e_c29_saila_child_2
+
+	dynasty = dynasty_hwenti_sailen
+	religion = faith_moriquendi
+	culture = hwenti
+
+	father = frostwood_e_c29_saila_spouse
+	mother = frostwood_e_c29_saila
+
+	sexuality = heterosexual
+
+	trait = brave
+	trait = vengeful
+	trait = just
+	trait = education_intrigue_2
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 6
+	intrigue = 8
+	learning = 7
+	prowess = 6
+
+	2556.3.15 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_e_c29_saila_child_3 = { # Second generation of Saila's house
+	name = frostwood_name_e_c29_saila_child_3
+	female = yes
+
+	dynasty = dynasty_hwenti_sailen
+	religion = faith_moriquendi
+	culture = hwenti
+
+	father = frostwood_e_c29_saila_spouse
+	mother = frostwood_e_c29_saila
+
+	sexuality = heterosexual
+
+	trait = honest
+	trait = brave
+	trait = diligent
+	trait = education_martial_3
+
+	diplomacy = 8
+	martial = 7
+	stewardship = 6
+	intrigue = 5
+	learning = 6
+	prowess = 8
+
+	3028.10.26 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_e_c29_saila_child_1_spouse = { # Consort within the second generation
+	name = frostwood_name_e_c29_saila_child_1_spouse
+
+	religion = faith_moriquendi
+	culture = hwenti
+
+	sexuality = heterosexual
+
+	trait = honest
+	trait = brave
+	trait = stubborn
+	trait = education_martial_2
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 6
+	intrigue = 7
+	learning = 8
+	prowess = 5
+
+	1946.5.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_e_c29_saila_grandchild_1 = { # Third generation of Saila's house
+	name = frostwood_name_e_c29_saila_grandchild_1
+
+	dynasty = dynasty_hwenti_sailen
+	religion = faith_moriquendi
+	culture = hwenti
+
+	father = frostwood_e_c29_saila_child_1_spouse
+	mother = frostwood_e_c29_saila_child_1
+
+	sexuality = heterosexual
+
+	trait = stubborn
+	trait = humble
+	trait = calm
+	trait = education_martial_2
+
+	diplomacy = 6
+	martial = 5
+	stewardship = 9
+	intrigue = 6
+	learning = 9
+	prowess = 7
+
+	3496.4.16 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_e_c29_saila_grandchild_2 = { # Third generation of Saila's house
+	name = frostwood_name_e_c29_saila_grandchild_2
+	female = yes
+
+	dynasty = dynasty_hwenti_sailen
+	religion = faith_moriquendi
+	culture = hwenti
+
+	father = frostwood_e_c29_saila_child_1_spouse
+	mother = frostwood_e_c29_saila_child_1
+
+	sexuality = heterosexual
+
+	trait = just
+	trait = brave
+	trait = ambitious
+	trait = education_stewardship_2
+
+	diplomacy = 7
+	martial = 7
+	stewardship = 7
+	intrigue = 7
+	learning = 7
+	prowess = 8
+
+	4218.11.27 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_e_c30_vairu = { # Holder of c_frostwood_30; ancient Avari founder, true birth predates recorded history
+	name = frostwood_name_vairu
+
+	dynasty = dynasty_hwenti_vairanta
+	religion = faith_moriquendi
+	culture = hwenti
+
+	sexuality = heterosexual
+
+	trait = just
+	trait = patient
+	trait = diligent
+	trait = education_stewardship_3
+
+	diplomacy = 8
+	martial = 7
+	stewardship = 9
+	intrigue = 6
+	learning = 8
+	prowess = 7
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	525.12.20 = {
+		add_spouse = frostwood_e_c30_vairu_spouse
+	}
+}
+
+frostwood_e_c30_vairu_spouse = { # Ancient Avari consort; true birth predates recorded history
+	name = frostwood_name_e_c30_vairu_spouse
+	female = yes
+
+	religion = faith_moriquendi
+	culture = hwenti
+
+	sexuality = heterosexual
+
+	trait = diligent
+	trait = temperate
+	trait = stubborn
+	trait = education_martial_3
+
+	diplomacy = 8
+	martial = 6
+	stewardship = 5
+	intrigue = 7
+	learning = 5
+	prowess = 5
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_e_c30_vairu_child_1 = { # Second generation heir of Vairu's house
+	name = frostwood_name_e_c30_vairu_child_1
+
+	dynasty = dynasty_hwenti_vairanta
+	religion = faith_moriquendi
+	culture = hwenti
+
+	father = frostwood_e_c30_vairu
+	mother = frostwood_e_c30_vairu_spouse
+
+	sexuality = heterosexual
+
+	trait = temperate
+	trait = patient
+	trait = honest
+	trait = education_stewardship_2
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 6
+	intrigue = 7
+	learning = 5
+	prowess = 6
+
+	2200.6.2 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	2830.8.4 = {
+		add_spouse = frostwood_e_c30_vairu_child_1_spouse
+	}
+}
+
+frostwood_e_c30_vairu_child_2 = { # Second generation of Vairu's house
+	name = frostwood_name_e_c30_vairu_child_2
+	female = yes
+
+	dynasty = dynasty_hwenti_vairanta
+	religion = faith_moriquendi
+	culture = hwenti
+
+	father = frostwood_e_c30_vairu
+	mother = frostwood_e_c30_vairu_spouse
+
+	sexuality = heterosexual
+
+	trait = humble
+	trait = content
+	trait = generous
+	trait = education_learning_2
+
+	diplomacy = 7
+	martial = 8
+	stewardship = 6
+	intrigue = 8
+	learning = 5
+	prowess = 6
+
+	3255.1.13 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_e_c30_vairu_child_1_spouse = { # Consort within the second generation
+	name = frostwood_name_e_c30_vairu_child_1_spouse
+	female = yes
+
+	religion = faith_moriquendi
+	culture = hwenti
+
+	sexuality = heterosexual
+
+	trait = patient
+	trait = humble
+	trait = shy
+	trait = education_stewardship_2
+
+	diplomacy = 7
+	martial = 6
+	stewardship = 5
+	intrigue = 6
+	learning = 5
+	prowess = 8
+
+	2315.12.12 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_e_c30_vairu_grandchild_1 = { # Third generation of Vairu's house
+	name = frostwood_name_e_c30_vairu_grandchild_1
+	female = yes
+
+	dynasty = dynasty_hwenti_vairanta
+	religion = faith_moriquendi
+	culture = hwenti
+
+	father = frostwood_e_c30_vairu_child_1
+	mother = frostwood_e_c30_vairu_child_1_spouse
+
+	sexuality = heterosexual
+
+	trait = diligent
+	trait = stubborn
+	trait = temperate
+	trait = education_intrigue_2
+
+	diplomacy = 7
+	martial = 6
+	stewardship = 5
+	intrigue = 8
+	learning = 8
+	prowess = 8
+
+	3395.2.14 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_e_c30_vairu_grandchild_2 = { # Third generation of Vairu's house
+	name = frostwood_name_e_c30_vairu_grandchild_2
+
+	dynasty = dynasty_hwenti_vairanta
+	religion = faith_moriquendi
+	culture = hwenti
+
+	father = frostwood_e_c30_vairu_child_1
+	mother = frostwood_e_c30_vairu_child_1_spouse
+
+	sexuality = heterosexual
+
+	trait = temperate
+	trait = fickle
+	trait = vengeful
+	trait = education_martial_3
+
+	diplomacy = 6
+	martial = 8
+	stewardship = 7
+	intrigue = 10
+	learning = 10
+	prowess = 9
+
+	4310.9.25 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_e_c32_lethwi = { # Holder of c_frostwood_32; ancient Avari founder, true birth predates recorded history
+	name = frostwood_name_lethwi
+	female = yes
+
+	dynasty = dynasty_hwenti_lethwin
+	religion = faith_moriquendi
+	culture = hwenti
+
+	sexuality = heterosexual
+
+	trait = brave
+	trait = generous
+	trait = calm
+	trait = education_martial_3
+
+	diplomacy = 7
+	martial = 9
+	stewardship = 7
+	intrigue = 6
+	learning = 7
+	prowess = 9
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	758.7.3 = {
+		add_matrilineal_spouse = frostwood_e_c32_lethwi_spouse
+	}
+}
+
+frostwood_e_c32_lethwi_spouse = { # Ancient Avari consort; true birth predates recorded history
+	name = frostwood_name_e_c32_lethwi_spouse
+
+	religion = faith_moriquendi
+	culture = hwenti
+
+	sexuality = heterosexual
+
+	trait = humble
+	trait = compassionate
+	trait = honest
+	trait = education_martial_2
+
+	diplomacy = 5
+	martial = 7
+	stewardship = 5
+	intrigue = 6
+	learning = 5
+	prowess = 8
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_e_c32_lethwi_child_1 = { # Second generation heir of Lethwi's house
+	name = frostwood_name_e_c32_lethwi_child_1
+	female = yes
+
+	dynasty = dynasty_hwenti_lethwin
+	religion = faith_moriquendi
+	culture = hwenti
+
+	father = frostwood_e_c32_lethwi_spouse
+	mother = frostwood_e_c32_lethwi
+
+	sexuality = heterosexual
+
+	trait = calm
+	trait = fickle
+	trait = just
+	trait = education_martial_3
+
+	diplomacy = 5
+	martial = 7
+	stewardship = 6
+	intrigue = 6
+	learning = 7
+	prowess = 7
+
+	2750.4.28 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	3522.3.15 = {
+		add_matrilineal_spouse = frostwood_e_c32_lethwi_child_1_spouse
+	}
+}
+
+frostwood_e_c32_lethwi_child_2 = { # Second generation of Lethwi's house
+	name = frostwood_name_e_c32_lethwi_child_2
+
+	dynasty = dynasty_hwenti_lethwin
+	religion = faith_moriquendi
+	culture = hwenti
+
+	father = frostwood_e_c32_lethwi_spouse
+	mother = frostwood_e_c32_lethwi
+
+	sexuality = heterosexual
+
+	trait = humble
+	trait = content
+	trait = gregarious
+	trait = education_martial_2
+
+	diplomacy = 5
+	martial = 7
+	stewardship = 6
+	intrigue = 7
+	learning = 6
+	prowess = 8
+
+	3954.11.11 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_e_c32_lethwi_child_3 = { # Second generation of Lethwi's house
+	name = frostwood_name_e_c32_lethwi_child_3
+	female = yes
+
+	dynasty = dynasty_hwenti_lethwin
+	religion = faith_moriquendi
+	culture = hwenti
+
+	father = frostwood_e_c32_lethwi_spouse
+	mother = frostwood_e_c32_lethwi
+
+	sexuality = heterosexual
+
+	trait = temperate
+	trait = generous
+	trait = zealous
+	trait = education_stewardship_2
+
+	diplomacy = 6
+	martial = 6
+	stewardship = 7
+	intrigue = 7
+	learning = 8
+	prowess = 8
+
+	4572.6.22 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_e_c32_lethwi_child_1_spouse = { # Consort within the second generation
+	name = frostwood_name_e_c32_lethwi_child_1_spouse
+
+	religion = faith_moriquendi
+	culture = hwenti
+
+	sexuality = heterosexual
+
+	trait = patient
+	trait = generous
+	trait = diligent
+	trait = education_learning_2
+
+	diplomacy = 6
+	martial = 5
+	stewardship = 6
+	intrigue = 7
+	learning = 8
+	prowess = 6
+
+	2924.7.23 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_e_c32_lethwi_grandchild_1 = { # Third generation of Lethwi's house
+	name = frostwood_name_e_c32_lethwi_grandchild_1
+
+	dynasty = dynasty_hwenti_lethwin
+	religion = faith_moriquendi
+	culture = hwenti
+
+	father = frostwood_e_c32_lethwi_child_1_spouse
+	mother = frostwood_e_c32_lethwi_child_1
+
+	sexuality = heterosexual
+
+	trait = calm
+	trait = generous
+	trait = patient
+	trait = education_learning_2
+
+	diplomacy = 8
+	martial = 6
+	stewardship = 5
+	intrigue = 7
+	learning = 9
+	prowess = 9
+
+	4214.12.12 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}
+
+frostwood_e_c32_lethwi_grandchild_2 = { # Third generation of Lethwi's house
+	name = frostwood_name_e_c32_lethwi_grandchild_2
+	female = yes
+
+	dynasty = dynasty_hwenti_lethwin
+	religion = faith_moriquendi
+	culture = hwenti
+
+	father = frostwood_e_c32_lethwi_child_1_spouse
+	mother = frostwood_e_c32_lethwi_child_1
+
+	sexuality = heterosexual
+
+	trait = generous
+	trait = content
+	trait = patient
+	trait = education_diplomacy_2
+
+	diplomacy = 8
+	martial = 8
+	stewardship = 9
+	intrigue = 10
+	learning = 8
+	prowess = 5
+
+	4702.7.23 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+}

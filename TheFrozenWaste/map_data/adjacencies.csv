@@ -164,5 +164,33 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 6722;6730;river_large;1193;-1;-1;-1;-1;Harshandatt
 6759;6744;river_large;1193;-1;-1;-1;-1;Harshandatt
 6769;6770;sea;7237;-1;-1;-1;-1;TwilightIsles
+### TFW ###
+# Ered Rhivimar
+8139;8132;sea;9262;-1;-1;-1;-1;EredRhivimar
+8132;8156;sea;9261;-1;-1;-1;-1;EredRhivimar
+8155;8142;sea;9261;-1;-1;-1;-1;EredRhivimar
+8158;8131;sea;9261;-1;-1;-1;-1;EredRhivimar
+8131;8160;sea;7996;-1;-1;-1;-1;EredRhivimar
+8176;8128;sea;9263;-1;-1;-1;-1;EredRhivimar
+8128;8130;sea;9263;-1;-1;-1;-1;EredRhivimar
+8130;8129;sea;9263;-1;-1;-1;-1;EredRhivimar
+8129;8126;sea;9263;-1;-1;-1;-1;EredRhivimar
+8126;8037;sea;9263;-1;-1;-1;-1;EredRhivimar
+8037;8125;sea;9263;-1;-1;-1;-1;EredRhivimar
+8125;8144;sea;9263;-1;-1;-1;-1;EredRhivimar
+8150;8127;sea;9266;-1;-1;-1;-1;EredRhivimar
+8152;8127;sea;9266;-1;-1;-1;-1;EredRhivimar
+8151;8153;sea;9266;-1;-1;-1;-1;EredRhivimar
+# Bleak Mountains
+9197;9231;sea;9269;-1;-1;-1;-1;BleakMountains
+9233;9231;sea;9269;-1;-1;-1;-1;BleakMountains
+9234;9235;sea;9269;-1;-1;-1;-1;BleakMountains
+9232;9239;sea;9269;-1;-1;-1;-1;BleakMountains
+9237;9238;sea;9269;-1;-1;-1;-1;BleakMountains
+9238;9240;sea;9269;-1;-1;-1;-1;BleakMountains
+9242;9245;sea;9267;-1;-1;-1;-1;BleakMountains
+9244;9245;sea;9267;-1;-1;-1;-1;BleakMountains
+# Forodwaith
+8508;8561;river_large;1203;-1;-1;-1;-1;Forodwaith
 # UNUSED
 -1;-1;;-1;-1;-1;-1;-1;

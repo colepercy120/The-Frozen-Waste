@@ -1,0 +1,9943 @@
+############################################################
+# Generated Lossoth rulers for custom_forochel_coast, 6700-7100
+# Existing southern Lossoth histories are intentionally not duplicated.
+# Dynasty ids used here are new and are mapped in the companion dynasty map.
+############################################################
+
+### c_rast_losnaeth_1 - ruler 1 (Kuusivaara)
+fc_rast_losnaeth_1_1 = {
+	name = Suvi
+	dynasty = dynasty_fc_kuusivaara
+	religion = faith_lossoth
+	culture = lossoth
+
+	trait = forgiving
+	trait = brave
+	trait = stubborn
+	trait = education_martial_3
+	trait = lifestyle_hunter
+
+	6663.5.27 = {
+		birth = yes
+	}
+	6683.4.22 = {
+		add_spouse = fc_rast_losnaeth_1_1_spouse
+	}
+
+	6748.10.1 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_rast_losnaeth_1_1_spouse = {
+	name = Suvi
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6660.3.8 = {
+		birth = yes
+	}
+	trait = content
+	trait = zealous
+	trait = education_stewardship_2
+
+	6745.10.21 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_rast_losnaeth_1 - ruler 2 (Kuusivaara)
+fc_rast_losnaeth_1_2 = {
+	name = Arijoutsi
+	dynasty = dynasty_fc_kuusivaara
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_rast_losnaeth_1_1
+	mother = fc_rast_losnaeth_1_1_spouse
+
+	trait = honest
+	trait = humble
+	trait = content
+	trait = education_intrigue_2
+	trait = lifestyle_hunter
+
+	6694.2.12 = {
+		birth = yes
+	}
+	6714.1.12 = {
+		add_spouse = fc_rast_losnaeth_1_2_spouse
+	}
+
+	6783.4.16 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_rast_losnaeth_1_2_spouse = {
+	name = Ilta
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6696.10.11 = {
+		birth = yes
+	}
+	trait = honest
+	trait = patient
+	trait = education_stewardship_2
+
+	6791.5.27 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_rast_losnaeth_1 - ruler 3 (Kuusivaara)
+fc_rast_losnaeth_1_3 = {
+	name = Vihavaino
+	dynasty = dynasty_fc_kuusivaara
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_rast_losnaeth_1_2
+	mother = fc_rast_losnaeth_1_2_spouse
+
+	trait = stubborn
+	trait = content
+	trait = calm
+	trait = education_intrigue_2
+	trait = lifestyle_mariner
+
+	6720.1.21 = {
+		birth = yes
+	}
+	6739.4.24 = {
+		add_spouse = fc_rast_losnaeth_1_3_spouse
+	}
+
+	6824.4.2 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_rast_losnaeth_1_3_spouse = {
+	name = Suoma
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6717.8.3 = {
+		birth = yes
+	}
+	trait = zealous
+	trait = forgiving
+	trait = education_intrigue_2
+
+	6819.1.18 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_rast_losnaeth_1 - ruler 4 (Huurrela)
+fc_rast_losnaeth_1_4 = {
+	name = Mesi
+	female = yes
+	dynasty = dynasty_fc_huurrela
+	religion = faith_lossoth
+	culture = lossoth
+
+	trait = patient
+	trait = diligent
+	trait = impatient
+	trait = education_martial_2
+	trait = lifestyle_hunter
+
+	6787.10.18 = {
+		birth = yes
+	}
+	6808.1.25 = {
+		add_spouse = fc_rast_losnaeth_1_4_spouse
+	}
+
+	6865.10.4 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_rast_losnaeth_1_4_spouse = {
+	name = Satatieto
+	religion = faith_lossoth
+	culture = lossoth
+
+	6787.11.26 = {
+		birth = yes
+	}
+	trait = calm
+	trait = diligent
+	trait = education_intrigue_2
+
+	6860.5.27 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_rast_losnaeth_1 - ruler 5 (Huurrela)
+fc_rast_losnaeth_1_5 = {
+	name = Alli
+	female = yes
+	dynasty = dynasty_fc_huurrela
+	religion = faith_lossoth
+	culture = lossoth
+
+	mother = fc_rast_losnaeth_1_4
+	father = fc_rast_losnaeth_1_4_spouse
+
+	trait = content
+	trait = vengeful
+	trait = temperate
+	trait = education_martial_2
+	trait = lifestyle_hunter
+
+	6816.1.11 = {
+		birth = yes
+	}
+	6835.1.13 = {
+		add_spouse = fc_rast_losnaeth_1_5_spouse
+	}
+
+	6904.10.22 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_rast_losnaeth_1_5_spouse = {
+	name = Venemies
+	religion = faith_lossoth
+	culture = lossoth
+
+	6815.11.27 = {
+		birth = yes
+	}
+	trait = impatient
+	trait = humble
+	trait = education_stewardship_3
+
+	6904.4.19 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_rast_losnaeth_1 - ruler 6 (Huurrela)
+fc_rast_losnaeth_1_6 = {
+	name = Leinikka
+	female = yes
+	dynasty = dynasty_fc_huurrela
+	religion = faith_lossoth
+	culture = lossoth
+
+	mother = fc_rast_losnaeth_1_5
+	father = fc_rast_losnaeth_1_5_spouse
+
+	trait = brave
+	trait = humble
+	trait = honest
+	trait = education_diplomacy_2
+	trait = lifestyle_mariner
+
+	6846.12.9 = {
+		birth = yes
+	}
+	6867.2.26 = {
+		add_spouse = fc_rast_losnaeth_1_6_spouse
+	}
+
+	6938.3.18 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_rast_losnaeth_1_6_spouse = {
+	name = Arvo
+	religion = faith_lossoth
+	culture = lossoth
+
+	6845.2.11 = {
+		birth = yes
+	}
+	trait = stubborn
+	trait = diligent
+	trait = education_diplomacy_2
+
+	6948.7.17 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_rast_losnaeth_1 - ruler 7 (Huurrela)
+fc_rast_losnaeth_1_7 = {
+	name = Tuovi
+	female = yes
+	dynasty = dynasty_fc_huurrela
+	religion = faith_lossoth
+	culture = lossoth
+
+	mother = fc_rast_losnaeth_1_6
+	father = fc_rast_losnaeth_1_6_spouse
+
+	trait = temperate
+	trait = gregarious
+	trait = zealous
+	trait = education_martial_2
+	trait = lifestyle_hunter
+
+	6869.1.5 = {
+		birth = yes
+	}
+	6887.10.7 = {
+		add_spouse = fc_rast_losnaeth_1_7_spouse
+	}
+
+	7103.3.15 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_rast_losnaeth_1_7_spouse = {
+	name = Arvo
+	religion = faith_lossoth
+	culture = lossoth
+
+	6866.1.9 = {
+		birth = yes
+	}
+	trait = zealous
+	trait = vengeful
+	trait = education_stewardship_2
+
+	7102.8.17 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_rast_losnaeth_2 - ruler 1 (Jaaniemi)
+fc_rast_losnaeth_2_1 = {
+	name = Arvo
+	dynasty = dynasty_fc_jaaniemi
+	religion = faith_lossoth
+	culture = lossoth
+
+	trait = zealous
+	trait = ambitious
+	trait = trusting
+	trait = education_stewardship_2
+	trait = lifestyle_hunter
+
+	6674.4.19 = {
+		birth = yes
+	}
+	6695.1.10 = {
+		add_spouse = fc_rast_losnaeth_2_1_spouse
+	}
+
+	6751.10.14 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_rast_losnaeth_2_1_spouse = {
+	name = Suvi
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6678.1.21 = {
+		birth = yes
+	}
+	trait = forgiving
+	trait = impatient
+	trait = education_martial_3
+
+	6745.5.23 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_rast_losnaeth_2 - ruler 2 (Jaaniemi)
+fc_rast_losnaeth_2_2 = {
+	name = Lempo
+	dynasty = dynasty_fc_jaaniemi
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_rast_losnaeth_2_1
+	mother = fc_rast_losnaeth_2_1_spouse
+
+	trait = vengeful
+	trait = calm
+	trait = trusting
+	trait = education_martial_3
+	trait = lifestyle_mariner
+
+	6703.5.8 = {
+		birth = yes
+	}
+	6722.8.16 = {
+		add_spouse = fc_rast_losnaeth_2_2_spouse
+	}
+
+	6794.10.13 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_rast_losnaeth_2_2_spouse = {
+	name = Vilja
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6702.4.19 = {
+		birth = yes
+	}
+	trait = calm
+	trait = honest
+	trait = education_stewardship_2
+
+	6799.4.8 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_rast_losnaeth_2 - ruler 3 (Jaaniemi)
+fc_rast_losnaeth_2_3 = {
+	name = Miela
+	female = yes
+	dynasty = dynasty_fc_jaaniemi
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_rast_losnaeth_2_2
+	mother = fc_rast_losnaeth_2_2_spouse
+
+	trait = temperate
+	trait = brave
+	trait = humble
+	trait = education_learning_2
+	trait = lifestyle_mariner
+
+	6730.8.25 = {
+		birth = yes
+	}
+	6748.9.28 = {
+		add_spouse = fc_rast_losnaeth_2_3_spouse
+	}
+
+	6830.5.8 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_rast_losnaeth_2_3_spouse = {
+	name = Aikamieli
+	religion = faith_lossoth
+	culture = lossoth
+
+	6731.1.7 = {
+		birth = yes
+	}
+	trait = honest
+	trait = calm
+	trait = education_stewardship_2
+
+	6834.6.3 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_rast_losnaeth_2 - ruler 4 (Jaaniemi)
+fc_rast_losnaeth_2_4 = {
+	name = Kalpa
+	dynasty = dynasty_fc_jaaniemi
+	religion = faith_lossoth
+	culture = lossoth
+
+	mother = fc_rast_losnaeth_2_3
+	father = fc_rast_losnaeth_2_3_spouse
+
+	trait = impatient
+	trait = diligent
+	trait = calm
+	trait = education_stewardship_3
+	trait = lifestyle_hunter
+
+	6761.1.17 = {
+		birth = yes
+	}
+	6780.5.16 = {
+		add_spouse = fc_rast_losnaeth_2_4_spouse
+	}
+
+	6871.2.5 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_rast_losnaeth_2_4_spouse = {
+	name = Tuovi
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6763.12.12 = {
+		birth = yes
+	}
+	trait = honest
+	trait = stubborn
+	trait = education_intrigue_2
+
+	6880.12.3 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_rast_losnaeth_2 - ruler 5 (Sumikka)
+fc_rast_losnaeth_2_5 = {
+	name = Arijoutsi
+	dynasty = dynasty_fc_sumikka
+	religion = faith_lossoth
+	culture = lossoth
+
+	trait = calm
+	trait = humble
+	trait = forgiving
+	trait = education_diplomacy_2
+	trait = lifestyle_hunter
+
+	6844.4.16 = {
+		birth = yes
+	}
+	6865.9.26 = {
+		add_spouse = fc_rast_losnaeth_2_5_spouse
+	}
+
+	6918.5.18 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_rast_losnaeth_2_5_spouse = {
+	name = Mahla
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6840.1.20 = {
+		birth = yes
+	}
+	trait = honest
+	trait = brave
+	trait = education_martial_3
+
+	6923.5.5 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_rast_losnaeth_2 - ruler 6 (Sumikka)
+fc_rast_losnaeth_2_6 = {
+	name = Satatieto
+	dynasty = dynasty_fc_sumikka
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_rast_losnaeth_2_5
+	mother = fc_rast_losnaeth_2_5_spouse
+
+	trait = humble
+	trait = calm
+	trait = zealous
+	trait = education_stewardship_3
+	trait = lifestyle_mariner
+
+	6866.6.22 = {
+		birth = yes
+	}
+	6884.10.28 = {
+		add_spouse = fc_rast_losnaeth_2_6_spouse
+	}
+
+	6955.12.7 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_rast_losnaeth_2_6_spouse = {
+	name = Mielikki
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6867.6.19 = {
+		birth = yes
+	}
+	trait = stubborn
+	trait = gregarious
+	trait = education_stewardship_2
+
+	6952.11.28 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_rast_losnaeth_2 - ruler 7 (Sumikka)
+fc_rast_losnaeth_2_7 = {
+	name = Suoma
+	female = yes
+	dynasty = dynasty_fc_sumikka
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_rast_losnaeth_2_6
+	mother = fc_rast_losnaeth_2_6_spouse
+
+	trait = calm
+	trait = ambitious
+	trait = forgiving
+	trait = education_martial_2
+	trait = lifestyle_mariner
+
+	6893.12.13 = {
+		birth = yes
+	}
+	6911.2.18 = {
+		add_spouse = fc_rast_losnaeth_2_7_spouse
+	}
+
+	7006.8.7 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_rast_losnaeth_2_7_spouse = {
+	name = Leino
+	religion = faith_lossoth
+	culture = lossoth
+
+	6895.10.5 = {
+		birth = yes
+	}
+	trait = calm
+	trait = gregarious
+	trait = education_intrigue_2
+
+	7013.2.23 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_rast_losnaeth_2 - ruler 8 (Sumikka)
+fc_rast_losnaeth_2_8 = {
+	name = Onni
+	dynasty = dynasty_fc_sumikka
+	religion = faith_lossoth
+	culture = lossoth
+
+	mother = fc_rast_losnaeth_2_7
+	father = fc_rast_losnaeth_2_7_spouse
+
+	trait = patient
+	trait = diligent
+	trait = trusting
+	trait = education_stewardship_3
+	trait = lifestyle_hunter
+
+	6923.6.28 = {
+		birth = yes
+	}
+	6944.9.22 = {
+		add_spouse = fc_rast_losnaeth_2_8_spouse
+	}
+
+	7103.9.3 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_rast_losnaeth_2_8_spouse = {
+	name = Maija
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6920.1.22 = {
+		birth = yes
+	}
+	trait = patient
+	trait = humble
+	trait = education_stewardship_2
+
+	7101.12.1 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_rast_losnaeth_3 - ruler 1 (Riekkola)
+fc_rast_losnaeth_3_1 = {
+	name = Leinikka
+	female = yes
+	dynasty = dynasty_fc_riekkola
+	religion = faith_lossoth
+	culture = lossoth
+
+	trait = ambitious
+	trait = honest
+	trait = forgiving
+	trait = education_martial_3
+	trait = lifestyle_hunter
+
+	6684.7.2 = {
+		birth = yes
+	}
+	6703.2.5 = {
+		add_spouse = fc_rast_losnaeth_3_1_spouse
+	}
+
+	6770.7.4 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_rast_losnaeth_3_1_spouse = {
+	name = Sampo
+	religion = faith_lossoth
+	culture = lossoth
+
+	6680.8.24 = {
+		birth = yes
+	}
+	trait = calm
+	trait = brave
+	trait = education_martial_3
+
+	6766.8.18 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_rast_losnaeth_3 - ruler 2 (Riekkola)
+fc_rast_losnaeth_3_2 = {
+	name = Aamu
+	female = yes
+	dynasty = dynasty_fc_riekkola
+	religion = faith_lossoth
+	culture = lossoth
+
+	mother = fc_rast_losnaeth_3_1
+	father = fc_rast_losnaeth_3_1_spouse
+
+	trait = gregarious
+	trait = trusting
+	trait = humble
+	trait = education_martial_2
+	trait = lifestyle_hunter
+
+	6709.12.21 = {
+		birth = yes
+	}
+	6728.4.15 = {
+		add_spouse = fc_rast_losnaeth_3_2_spouse
+	}
+
+	6812.6.14 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_rast_losnaeth_3_2_spouse = {
+	name = Tervahartia
+	religion = faith_lossoth
+	culture = lossoth
+
+	6713.10.4 = {
+		birth = yes
+	}
+	trait = content
+	trait = brave
+	trait = education_intrigue_2
+
+	6819.12.9 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_rast_losnaeth_3 - ruler 3 (Riekkola)
+fc_rast_losnaeth_3_3 = {
+	name = Osma
+	dynasty = dynasty_fc_riekkola
+	religion = faith_lossoth
+	culture = lossoth
+
+	mother = fc_rast_losnaeth_3_2
+	father = fc_rast_losnaeth_3_2_spouse
+
+	trait = temperate
+	trait = diligent
+	trait = impatient
+	trait = education_stewardship_2
+	trait = lifestyle_mariner
+
+	6734.5.23 = {
+		birth = yes
+	}
+	6752.8.22 = {
+		add_spouse = fc_rast_losnaeth_3_3_spouse
+	}
+
+	6855.5.7 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_rast_losnaeth_3_3_spouse = {
+	name = Suvi
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6737.6.26 = {
+		birth = yes
+	}
+	trait = calm
+	trait = brave
+	trait = education_learning_2
+
+	6855.2.20 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_rast_losnaeth_3 - ruler 4 (Vaskela)
+fc_rast_losnaeth_3_4 = {
+	name = Lempivaino
+	dynasty = dynasty_fc_vaskela
+	religion = faith_lossoth
+	culture = lossoth
+
+	trait = content
+	trait = vengeful
+	trait = impatient
+	trait = education_martial_2
+	trait = lifestyle_hunter
+
+	6827.3.3 = {
+		birth = yes
+	}
+	6848.11.12 = {
+		add_spouse = fc_rast_losnaeth_3_4_spouse
+	}
+
+	6891.6.23 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_rast_losnaeth_3_4_spouse = {
+	name = Tyyni
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6828.5.13 = {
+		birth = yes
+	}
+	trait = patient
+	trait = honest
+	trait = education_stewardship_3
+
+	6889.3.21 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_rast_losnaeth_3 - ruler 5 (Vaskela)
+fc_rast_losnaeth_3_5 = {
+	name = Rautio
+	dynasty = dynasty_fc_vaskela
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_rast_losnaeth_3_4
+	mother = fc_rast_losnaeth_3_4_spouse
+
+	trait = zealous
+	trait = patient
+	trait = humble
+	trait = education_learning_2
+	trait = lifestyle_mariner
+
+	6855.4.3 = {
+		birth = yes
+	}
+	6875.10.17 = {
+		add_spouse = fc_rast_losnaeth_3_5_spouse
+	}
+
+	6944.11.1 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_rast_losnaeth_3_5_spouse = {
+	name = Miela
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6859.6.19 = {
+		birth = yes
+	}
+	trait = brave
+	trait = vengeful
+	trait = education_intrigue_2
+
+	6952.6.4 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_rast_losnaeth_3 - ruler 6 (Vaskela)
+fc_rast_losnaeth_3_6 = {
+	name = Miela
+	dynasty = dynasty_fc_vaskela
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_rast_losnaeth_3_5
+	mother = fc_rast_losnaeth_3_5_spouse
+
+	trait = honest
+	trait = gregarious
+	trait = humble
+	trait = education_martial_3
+	trait = lifestyle_mariner
+
+	6879.3.22 = {
+		birth = yes
+	}
+	6897.9.19 = {
+		add_spouse = fc_rast_losnaeth_3_6_spouse
+	}
+
+	6990.11.7 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_rast_losnaeth_3_6_spouse = {
+	name = Lempi
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6880.5.28 = {
+		birth = yes
+	}
+	trait = brave
+	trait = patient
+	trait = education_diplomacy_2
+
+	7001.1.22 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_rast_losnaeth_3 - ruler 7 (Vaskela)
+fc_rast_losnaeth_3_7 = {
+	name = Kalevi
+	dynasty = dynasty_fc_vaskela
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_rast_losnaeth_3_6
+	mother = fc_rast_losnaeth_3_6_spouse
+
+	trait = honest
+	trait = zealous
+	trait = content
+	trait = education_learning_2
+	trait = lifestyle_mariner
+
+	6906.5.17 = {
+		birth = yes
+	}
+	6925.4.3 = {
+		add_spouse = fc_rast_losnaeth_3_7_spouse
+	}
+
+	7103.3.26 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_rast_losnaeth_3_7_spouse = {
+	name = Mielikki
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6905.4.15 = {
+		birth = yes
+	}
+	trait = temperate
+	trait = stubborn
+	trait = education_learning_2
+
+	7102.4.27 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_rast_losnaeth_4 - ruler 1 (Kivela)
+fc_rast_losnaeth_4_1 = {
+	name = Valto
+	dynasty = dynasty_fc_kivela
+	religion = faith_lossoth
+	culture = lossoth
+
+	trait = humble
+	trait = gregarious
+	trait = diligent
+	trait = education_stewardship_2
+	trait = lifestyle_mariner
+
+	6694.1.22 = {
+		birth = yes
+	}
+	6712.5.7 = {
+		add_spouse = fc_rast_losnaeth_4_1_spouse
+	}
+
+	6773.8.23 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_rast_losnaeth_4_1_spouse = {
+	name = Tuulikki
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6694.5.3 = {
+		birth = yes
+	}
+	trait = patient
+	trait = content
+	trait = education_intrigue_2
+
+	6776.8.14 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_rast_losnaeth_4 - ruler 2 (Kivela)
+fc_rast_losnaeth_4_2 = {
+	name = Suvituuli
+	female = yes
+	dynasty = dynasty_fc_kivela
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_rast_losnaeth_4_1
+	mother = fc_rast_losnaeth_4_1_spouse
+
+	trait = forgiving
+	trait = content
+	trait = trusting
+	trait = education_diplomacy_2
+	trait = lifestyle_mariner
+
+	6719.11.23 = {
+		birth = yes
+	}
+	6739.10.1 = {
+		add_spouse = fc_rast_losnaeth_4_2_spouse
+	}
+
+	6824.5.7 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_rast_losnaeth_4_2_spouse = {
+	name = Yrjana
+	religion = faith_lossoth
+	culture = lossoth
+
+	6717.7.18 = {
+		birth = yes
+	}
+	trait = content
+	trait = zealous
+	trait = education_martial_2
+
+	6831.11.7 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_rast_losnaeth_4 - ruler 3 (Kivela)
+fc_rast_losnaeth_4_3 = {
+	name = Terhi
+	female = yes
+	dynasty = dynasty_fc_kivela
+	religion = faith_lossoth
+	culture = lossoth
+
+	mother = fc_rast_losnaeth_4_2
+	father = fc_rast_losnaeth_4_2_spouse
+
+	trait = ambitious
+	trait = vengeful
+	trait = forgiving
+	trait = education_learning_2
+	trait = lifestyle_hunter
+
+	6748.10.14 = {
+		birth = yes
+	}
+	6766.2.12 = {
+		add_spouse = fc_rast_losnaeth_4_3_spouse
+	}
+
+	6869.9.26 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_rast_losnaeth_4_3_spouse = {
+	name = Lauri
+	religion = faith_lossoth
+	culture = lossoth
+
+	6747.5.3 = {
+		birth = yes
+	}
+	trait = vengeful
+	trait = zealous
+	trait = education_intrigue_2
+
+	6877.8.17 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_rast_losnaeth_4 - ruler 4 (Kivela)
+fc_rast_losnaeth_4_4 = {
+	name = Venemies
+	dynasty = dynasty_fc_kivela
+	religion = faith_lossoth
+	culture = lossoth
+
+	mother = fc_rast_losnaeth_4_3
+	father = fc_rast_losnaeth_4_3_spouse
+
+	trait = vengeful
+	trait = gregarious
+	trait = zealous
+	trait = education_martial_3
+	trait = lifestyle_mariner
+
+	6779.6.13 = {
+		birth = yes
+	}
+	6799.10.28 = {
+		add_spouse = fc_rast_losnaeth_4_4_spouse
+	}
+
+	6919.9.5 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_rast_losnaeth_4_4_spouse = {
+	name = Terhi
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6775.9.28 = {
+		birth = yes
+	}
+	trait = content
+	trait = humble
+	trait = education_stewardship_2
+
+	6926.11.28 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_rast_losnaeth_4 - ruler 5 (Tuiskula)
+fc_rast_losnaeth_4_5 = {
+	name = Kaukovalta
+	dynasty = dynasty_fc_tuiskula
+	religion = faith_lossoth
+	culture = lossoth
+
+	trait = brave
+	trait = trusting
+	trait = zealous
+	trait = education_intrigue_2
+	trait = lifestyle_mariner
+
+	6879.8.16 = {
+		birth = yes
+	}
+	6899.2.15 = {
+		add_spouse = fc_rast_losnaeth_4_5_spouse
+	}
+
+	6962.6.28 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_rast_losnaeth_4_5_spouse = {
+	name = Toivikki
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6879.3.2 = {
+		birth = yes
+	}
+	trait = forgiving
+	trait = vengeful
+	trait = education_intrigue_2
+
+	6955.11.5 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_rast_losnaeth_4 - ruler 6 (Tuiskula)
+fc_rast_losnaeth_4_6 = {
+	name = Tyyni
+	dynasty = dynasty_fc_tuiskula
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_rast_losnaeth_4_5
+	mother = fc_rast_losnaeth_4_5_spouse
+
+	trait = calm
+	trait = humble
+	trait = zealous
+	trait = education_intrigue_2
+	trait = lifestyle_mariner
+
+	6901.6.6 = {
+		birth = yes
+	}
+	6922.12.15 = {
+		add_spouse = fc_rast_losnaeth_4_6_spouse
+	}
+
+	6999.12.28 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_rast_losnaeth_4_6_spouse = {
+	name = Pihla
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6904.7.24 = {
+		birth = yes
+	}
+	trait = vengeful
+	trait = stubborn
+	trait = education_learning_2
+
+	7006.2.6 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_rast_losnaeth_4 - ruler 7 (Tuiskula)
+fc_rast_losnaeth_4_7 = {
+	name = Satatieto
+	dynasty = dynasty_fc_tuiskula
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_rast_losnaeth_4_6
+	mother = fc_rast_losnaeth_4_6_spouse
+
+	trait = zealous
+	trait = stubborn
+	trait = humble
+	trait = education_martial_3
+	trait = lifestyle_hunter
+
+	6929.1.15 = {
+		birth = yes
+	}
+	6947.3.5 = {
+		add_spouse = fc_rast_losnaeth_4_7_spouse
+	}
+
+	7050.7.10 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_rast_losnaeth_4_7_spouse = {
+	name = Miela
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6931.10.27 = {
+		birth = yes
+	}
+	trait = patient
+	trait = vengeful
+	trait = education_learning_2
+
+	7058.12.13 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_rast_losnaeth_4 - ruler 8 (Tuiskula)
+fc_rast_losnaeth_4_8 = {
+	name = Yrjana
+	dynasty = dynasty_fc_tuiskula
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_rast_losnaeth_4_7
+	mother = fc_rast_losnaeth_4_7_spouse
+
+	trait = vengeful
+	trait = patient
+	trait = forgiving
+	trait = education_learning_2
+	trait = lifestyle_mariner
+
+	6957.6.16 = {
+		birth = yes
+	}
+	6977.7.12 = {
+		add_spouse = fc_rast_losnaeth_4_8_spouse
+	}
+
+	7103.9.8 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_rast_losnaeth_4_8_spouse = {
+	name = Lauha
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6958.2.28 = {
+		birth = yes
+	}
+	trait = diligent
+	trait = calm
+	trait = education_stewardship_2
+
+	7111.11.23 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_rast_losnaeth_5 - ruler 1 (Hallava)
+fc_rast_losnaeth_5_1 = {
+	name = Ahti
+	dynasty = dynasty_fc_hallava
+	religion = faith_lossoth
+	culture = lossoth
+
+	trait = diligent
+	trait = ambitious
+	trait = temperate
+	trait = education_stewardship_2
+	trait = lifestyle_mariner
+
+	6673.8.15 = {
+		birth = yes
+	}
+	6692.1.8 = {
+		add_spouse = fc_rast_losnaeth_5_1_spouse
+	}
+
+	6747.12.10 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_rast_losnaeth_5_1_spouse = {
+	name = Pilvi
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6672.4.6 = {
+		birth = yes
+	}
+	trait = calm
+	trait = humble
+	trait = education_learning_2
+
+	6746.12.3 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_rast_losnaeth_5 - ruler 2 (Hallava)
+fc_rast_losnaeth_5_2 = {
+	name = Leinikka
+	female = yes
+	dynasty = dynasty_fc_hallava
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_rast_losnaeth_5_1
+	mother = fc_rast_losnaeth_5_1_spouse
+
+	trait = honest
+	trait = calm
+	trait = patient
+	trait = education_stewardship_2
+	trait = lifestyle_hunter
+
+	6704.12.4 = {
+		birth = yes
+	}
+	6725.5.22 = {
+		add_spouse = fc_rast_losnaeth_5_2_spouse
+	}
+
+	6783.6.8 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_rast_losnaeth_5_2_spouse = {
+	name = Ilmalempi
+	religion = faith_lossoth
+	culture = lossoth
+
+	6706.11.28 = {
+		birth = yes
+	}
+	trait = calm
+	trait = diligent
+	trait = education_intrigue_2
+
+	6794.3.12 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_rast_losnaeth_5 - ruler 3 (Hallava)
+fc_rast_losnaeth_5_3 = {
+	name = Kalervo
+	dynasty = dynasty_fc_hallava
+	religion = faith_lossoth
+	culture = lossoth
+
+	mother = fc_rast_losnaeth_5_2
+	father = fc_rast_losnaeth_5_2_spouse
+
+	trait = trusting
+	trait = brave
+	trait = patient
+	trait = education_martial_2
+	trait = lifestyle_mariner
+
+	6732.3.22 = {
+		birth = yes
+	}
+	6752.5.8 = {
+		add_spouse = fc_rast_losnaeth_5_3_spouse
+	}
+
+	6835.5.23 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_rast_losnaeth_5_3_spouse = {
+	name = Lemmikki
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6734.9.22 = {
+		birth = yes
+	}
+	trait = brave
+	trait = zealous
+	trait = education_diplomacy_2
+
+	6847.4.5 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_rast_losnaeth_5 - ruler 4 (Merituuli)
+fc_rast_losnaeth_5_4 = {
+	name = Ilmalempi
+	dynasty = dynasty_fc_merituuli
+	religion = faith_lossoth
+	culture = lossoth
+
+	trait = patient
+	trait = forgiving
+	trait = honest
+	trait = education_stewardship_3
+	trait = lifestyle_hunter
+
+	6798.2.16 = {
+		birth = yes
+	}
+	6819.5.9 = {
+		add_spouse = fc_rast_losnaeth_5_4_spouse
+	}
+
+	6882.2.14 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_rast_losnaeth_5_4_spouse = {
+	name = Terhi
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6795.5.14 = {
+		birth = yes
+	}
+	trait = impatient
+	trait = vengeful
+	trait = education_martial_3
+
+	6889.3.1 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_rast_losnaeth_5 - ruler 5 (Merituuli)
+fc_rast_losnaeth_5_5 = {
+	name = Aimo
+	dynasty = dynasty_fc_merituuli
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_rast_losnaeth_5_4
+	mother = fc_rast_losnaeth_5_4_spouse
+
+	trait = patient
+	trait = diligent
+	trait = calm
+	trait = education_intrigue_2
+	trait = lifestyle_hunter
+
+	6822.11.16 = {
+		birth = yes
+	}
+	6842.3.23 = {
+		add_spouse = fc_rast_losnaeth_5_5_spouse
+	}
+
+	6932.1.21 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_rast_losnaeth_5_5_spouse = {
+	name = Taimi
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6824.4.20 = {
+		birth = yes
+	}
+	trait = vengeful
+	trait = humble
+	trait = education_intrigue_2
+
+	6925.4.4 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_rast_losnaeth_5 - ruler 6 (Merituuli)
+fc_rast_losnaeth_5_6 = {
+	name = Aili
+	female = yes
+	dynasty = dynasty_fc_merituuli
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_rast_losnaeth_5_5
+	mother = fc_rast_losnaeth_5_5_spouse
+
+	trait = diligent
+	trait = gregarious
+	trait = content
+	trait = education_stewardship_2
+	trait = lifestyle_mariner
+
+	6853.2.16 = {
+		birth = yes
+	}
+	6872.6.23 = {
+		add_spouse = fc_rast_losnaeth_5_6_spouse
+	}
+
+	6980.11.20 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_rast_losnaeth_5_6_spouse = {
+	name = Arvo
+	religion = faith_lossoth
+	culture = lossoth
+
+	6850.3.5 = {
+		birth = yes
+	}
+	trait = calm
+	trait = brave
+	trait = education_intrigue_2
+
+	6973.6.1 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_rast_losnaeth_5 - ruler 7 (Merituuli)
+fc_rast_losnaeth_5_7 = {
+	name = Venemies
+	dynasty = dynasty_fc_merituuli
+	religion = faith_lossoth
+	culture = lossoth
+
+	mother = fc_rast_losnaeth_5_6
+	father = fc_rast_losnaeth_5_6_spouse
+
+	trait = brave
+	trait = temperate
+	trait = stubborn
+	trait = education_martial_2
+	trait = lifestyle_mariner
+
+	6878.3.13 = {
+		birth = yes
+	}
+	6897.12.23 = {
+		add_spouse = fc_rast_losnaeth_5_7_spouse
+	}
+
+	7103.3.9 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_rast_losnaeth_5_7_spouse = {
+	name = Pilvi
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6880.4.17 = {
+		birth = yes
+	}
+	trait = gregarious
+	trait = patient
+	trait = education_diplomacy_2
+
+	7112.4.13 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_rast_losnaeth_6 - ruler 1 (Routala)
+fc_rast_losnaeth_6_1 = {
+	name = Lempivaino
+	dynasty = dynasty_fc_routala
+	religion = faith_lossoth
+	culture = lossoth
+
+	trait = content
+	trait = humble
+	trait = diligent
+	trait = education_diplomacy_2
+	trait = lifestyle_hunter
+
+	6697.9.25 = {
+		birth = yes
+	}
+	6716.5.17 = {
+		add_spouse = fc_rast_losnaeth_6_1_spouse
+	}
+
+	6784.1.24 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_rast_losnaeth_6_1_spouse = {
+	name = Terhi
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6694.3.12 = {
+		birth = yes
+	}
+	trait = gregarious
+	trait = calm
+	trait = education_diplomacy_2
+
+	6789.1.22 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_rast_losnaeth_6 - ruler 2 (Routala)
+fc_rast_losnaeth_6_2 = {
+	name = Aikamieli
+	dynasty = dynasty_fc_routala
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_rast_losnaeth_6_1
+	mother = fc_rast_losnaeth_6_1_spouse
+
+	trait = forgiving
+	trait = humble
+	trait = honest
+	trait = education_diplomacy_2
+	trait = lifestyle_hunter
+
+	6723.3.21 = {
+		birth = yes
+	}
+	6743.5.9 = {
+		add_spouse = fc_rast_losnaeth_6_2_spouse
+	}
+
+	6837.12.22 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_rast_losnaeth_6_2_spouse = {
+	name = Suvi
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6724.10.28 = {
+		birth = yes
+	}
+	trait = ambitious
+	trait = temperate
+	trait = education_stewardship_3
+
+	6848.4.22 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_rast_losnaeth_6 - ruler 3 (Routala)
+fc_rast_losnaeth_6_3 = {
+	name = Miela
+	female = yes
+	dynasty = dynasty_fc_routala
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_rast_losnaeth_6_2
+	mother = fc_rast_losnaeth_6_2_spouse
+
+	trait = content
+	trait = trusting
+	trait = ambitious
+	trait = education_martial_2
+	trait = lifestyle_mariner
+
+	6754.10.28 = {
+		birth = yes
+	}
+	6772.8.5 = {
+		add_spouse = fc_rast_losnaeth_6_3_spouse
+	}
+
+	6871.3.19 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_rast_losnaeth_6_3_spouse = {
+	name = Rautio
+	religion = faith_lossoth
+	culture = lossoth
+
+	6752.12.23 = {
+		birth = yes
+	}
+	trait = patient
+	trait = temperate
+	trait = education_diplomacy_2
+
+	6878.10.8 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_rast_losnaeth_6 - ruler 4 (Routala)
+fc_rast_losnaeth_6_4 = {
+	name = Kaukolempi
+	dynasty = dynasty_fc_routala
+	religion = faith_lossoth
+	culture = lossoth
+
+	mother = fc_rast_losnaeth_6_3
+	father = fc_rast_losnaeth_6_3_spouse
+
+	trait = honest
+	trait = vengeful
+	trait = diligent
+	trait = education_diplomacy_2
+	trait = lifestyle_hunter
+
+	6782.3.4 = {
+		birth = yes
+	}
+	6800.8.24 = {
+		add_spouse = fc_rast_losnaeth_6_4_spouse
+	}
+
+	6914.11.25 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_rast_losnaeth_6_4_spouse = {
+	name = Aamu
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6785.2.21 = {
+		birth = yes
+	}
+	trait = gregarious
+	trait = brave
+	trait = education_martial_3
+
+	6919.10.2 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_rast_losnaeth_6 - ruler 5 (Saarikko)
+fc_rast_losnaeth_6_5 = {
+	name = Sisko
+	female = yes
+	dynasty = dynasty_fc_saarikko
+	religion = faith_lossoth
+	culture = lossoth
+
+	trait = gregarious
+	trait = zealous
+	trait = patient
+	trait = education_martial_2
+	trait = lifestyle_mariner
+
+	6884.12.17 = {
+		birth = yes
+	}
+	6903.8.4 = {
+		add_spouse = fc_rast_losnaeth_6_5_spouse
+	}
+
+	6962.11.20 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_rast_losnaeth_6_5_spouse = {
+	name = Lempo
+	religion = faith_lossoth
+	culture = lossoth
+
+	6888.8.17 = {
+		birth = yes
+	}
+	trait = ambitious
+	trait = honest
+	trait = education_intrigue_2
+
+	6969.8.1 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_rast_losnaeth_6 - ruler 6 (Saarikko)
+fc_rast_losnaeth_6_6 = {
+	name = Aimo
+	dynasty = dynasty_fc_saarikko
+	religion = faith_lossoth
+	culture = lossoth
+
+	mother = fc_rast_losnaeth_6_5
+	father = fc_rast_losnaeth_6_5_spouse
+
+	trait = calm
+	trait = brave
+	trait = honest
+	trait = education_learning_2
+	trait = lifestyle_mariner
+
+	6906.4.18 = {
+		birth = yes
+	}
+	6925.4.23 = {
+		add_spouse = fc_rast_losnaeth_6_6_spouse
+	}
+
+	7002.7.5 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_rast_losnaeth_6_6_spouse = {
+	name = Ilta
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6908.12.4 = {
+		birth = yes
+	}
+	trait = brave
+	trait = gregarious
+	trait = education_martial_3
+
+	7001.12.1 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_rast_losnaeth_6 - ruler 7 (Saarikko)
+fc_rast_losnaeth_6_7 = {
+	name = Vanamo
+	female = yes
+	dynasty = dynasty_fc_saarikko
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_rast_losnaeth_6_6
+	mother = fc_rast_losnaeth_6_6_spouse
+
+	trait = diligent
+	trait = content
+	trait = honest
+	trait = education_martial_2
+	trait = lifestyle_hunter
+
+	6931.12.17 = {
+		birth = yes
+	}
+	6951.6.16 = {
+		add_spouse = fc_rast_losnaeth_6_7_spouse
+	}
+
+	7058.10.3 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_rast_losnaeth_6_7_spouse = {
+	name = Ilmalempi
+	religion = faith_lossoth
+	culture = lossoth
+
+	6928.8.7 = {
+		birth = yes
+	}
+	trait = patient
+	trait = content
+	trait = education_martial_2
+
+	7070.8.5 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_rast_losnaeth_6 - ruler 8 (Saarikko)
+fc_rast_losnaeth_6_8 = {
+	name = Tapio
+	dynasty = dynasty_fc_saarikko
+	religion = faith_lossoth
+	culture = lossoth
+
+	mother = fc_rast_losnaeth_6_7
+	father = fc_rast_losnaeth_6_7_spouse
+
+	trait = temperate
+	trait = vengeful
+	trait = trusting
+	trait = education_stewardship_3
+	trait = lifestyle_mariner
+
+	6955.2.6 = {
+		birth = yes
+	}
+	6973.2.14 = {
+		add_spouse = fc_rast_losnaeth_6_8_spouse
+	}
+
+	7103.6.7 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_rast_losnaeth_6_8_spouse = {
+	name = Lyylikki
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6951.12.13 = {
+		birth = yes
+	}
+	trait = impatient
+	trait = gregarious
+	trait = education_stewardship_3
+
+	7106.3.25 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_12 - ruler 1 (Lumivaara)
+fc_ailindalf_12_1 = {
+	name = Osma
+	dynasty = dynasty_fc_lumivaara
+	religion = faith_lossoth
+	culture = lossoth
+
+	trait = brave
+	trait = gregarious
+	trait = humble
+	trait = education_diplomacy_2
+	trait = lifestyle_hunter
+
+	6684.8.28 = {
+		birth = yes
+	}
+	6702.10.16 = {
+		add_spouse = fc_ailindalf_12_1_spouse
+	}
+
+	6748.5.24 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_12_1_spouse = {
+	name = Mesi
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6684.6.17 = {
+		birth = yes
+	}
+	trait = forgiving
+	trait = impatient
+	trait = education_intrigue_2
+
+	6749.12.7 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_12 - ruler 2 (Lumivaara)
+fc_ailindalf_12_2 = {
+	name = Ilmalempi
+	dynasty = dynasty_fc_lumivaara
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_ailindalf_12_1
+	mother = fc_ailindalf_12_1_spouse
+
+	trait = calm
+	trait = content
+	trait = ambitious
+	trait = education_diplomacy_2
+	trait = lifestyle_mariner
+
+	6713.12.15 = {
+		birth = yes
+	}
+	6734.11.28 = {
+		add_spouse = fc_ailindalf_12_2_spouse
+	}
+
+	6784.5.17 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_12_2_spouse = {
+	name = Rauha
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6716.4.16 = {
+		birth = yes
+	}
+	trait = diligent
+	trait = temperate
+	trait = education_martial_3
+
+	6777.6.7 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_12 - ruler 3 (Lumivaara)
+fc_ailindalf_12_3 = {
+	name = Kalervo
+	dynasty = dynasty_fc_lumivaara
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_ailindalf_12_2
+	mother = fc_ailindalf_12_2_spouse
+
+	trait = vengeful
+	trait = temperate
+	trait = forgiving
+	trait = education_martial_2
+	trait = lifestyle_hunter
+
+	6742.1.28 = {
+		birth = yes
+	}
+	6762.11.3 = {
+		add_spouse = fc_ailindalf_12_3_spouse
+	}
+
+	6823.2.23 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_12_3_spouse = {
+	name = Hopea
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6746.5.4 = {
+		birth = yes
+	}
+	trait = temperate
+	trait = stubborn
+	trait = education_martial_3
+
+	6828.3.21 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_12 - ruler 4 (Pakkala)
+fc_ailindalf_12_4 = {
+	name = Suvi
+	dynasty = dynasty_fc_pakkala
+	religion = faith_lossoth
+	culture = lossoth
+
+	trait = brave
+	trait = impatient
+	trait = temperate
+	trait = education_intrigue_2
+	trait = lifestyle_mariner
+
+	6794.12.6 = {
+		birth = yes
+	}
+	6814.7.11 = {
+		add_spouse = fc_ailindalf_12_4_spouse
+	}
+
+	6863.6.5 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_12_4_spouse = {
+	name = Suoma
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6796.11.28 = {
+		birth = yes
+	}
+	trait = zealous
+	trait = content
+	trait = education_martial_3
+
+	6862.11.16 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_12 - ruler 5 (Pakkala)
+fc_ailindalf_12_5 = {
+	name = Sampo
+	dynasty = dynasty_fc_pakkala
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_ailindalf_12_4
+	mother = fc_ailindalf_12_4_spouse
+
+	trait = ambitious
+	trait = gregarious
+	trait = calm
+	trait = education_stewardship_3
+	trait = lifestyle_mariner
+
+	6816.7.5 = {
+		birth = yes
+	}
+	6835.1.27 = {
+		add_spouse = fc_ailindalf_12_5_spouse
+	}
+
+	6897.12.27 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_12_5_spouse = {
+	name = Tyyni
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6812.8.23 = {
+		birth = yes
+	}
+	trait = ambitious
+	trait = trusting
+	trait = education_martial_3
+
+	6902.3.25 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_12 - ruler 6 (Pakkala)
+fc_ailindalf_12_6 = {
+	name = Pilvi
+	female = yes
+	dynasty = dynasty_fc_pakkala
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_ailindalf_12_5
+	mother = fc_ailindalf_12_5_spouse
+
+	trait = honest
+	trait = trusting
+	trait = stubborn
+	trait = education_diplomacy_2
+	trait = lifestyle_hunter
+
+	6839.12.23 = {
+		birth = yes
+	}
+	6860.7.27 = {
+		add_spouse = fc_ailindalf_12_6_spouse
+	}
+
+	6949.8.11 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_12_6_spouse = {
+	name = Osma
+	religion = faith_lossoth
+	culture = lossoth
+
+	6839.9.7 = {
+		birth = yes
+	}
+	trait = gregarious
+	trait = forgiving
+	trait = education_stewardship_2
+
+	6959.6.8 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_12 - ruler 7 (Pakkala)
+fc_ailindalf_12_7 = {
+	name = Osma
+	dynasty = dynasty_fc_pakkala
+	religion = faith_lossoth
+	culture = lossoth
+
+	mother = fc_ailindalf_12_6
+	father = fc_ailindalf_12_6_spouse
+
+	trait = zealous
+	trait = ambitious
+	trait = honest
+	trait = education_diplomacy_2
+	trait = lifestyle_hunter
+
+	6863.2.21 = {
+		birth = yes
+	}
+	6881.8.24 = {
+		add_spouse = fc_ailindalf_12_7_spouse
+	}
+
+	7103.6.3 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_12_7_spouse = {
+	name = Suoma
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6867.2.20 = {
+		birth = yes
+	}
+	trait = ambitious
+	trait = trusting
+	trait = education_learning_2
+
+	7105.10.25 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_13 - ruler 1 (Jokela)
+fc_ailindalf_13_1 = {
+	name = Leino
+	dynasty = dynasty_fc_jokela
+	religion = faith_lossoth
+	culture = lossoth
+
+	trait = trusting
+	trait = humble
+	trait = content
+	trait = education_learning_2
+	trait = lifestyle_mariner
+
+	6678.12.1 = {
+		birth = yes
+	}
+	6699.4.17 = {
+		add_spouse = fc_ailindalf_13_1_spouse
+	}
+
+	6747.8.8 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_13_1_spouse = {
+	name = Lyylikki
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6674.4.3 = {
+		birth = yes
+	}
+	trait = stubborn
+	trait = patient
+	trait = education_martial_3
+
+	6757.11.27 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_13 - ruler 2 (Jokela)
+fc_ailindalf_13_2 = {
+	name = Venemies
+	dynasty = dynasty_fc_jokela
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_ailindalf_13_1
+	mother = fc_ailindalf_13_1_spouse
+
+	trait = honest
+	trait = humble
+	trait = forgiving
+	trait = education_martial_3
+	trait = lifestyle_mariner
+
+	6709.4.15 = {
+		birth = yes
+	}
+	6730.1.7 = {
+		add_spouse = fc_ailindalf_13_2_spouse
+	}
+
+	6792.4.15 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_13_2_spouse = {
+	name = Pilvi
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6713.2.22 = {
+		birth = yes
+	}
+	trait = content
+	trait = forgiving
+	trait = education_martial_3
+
+	6803.3.19 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_13 - ruler 3 (Jokela)
+fc_ailindalf_13_3 = {
+	name = Tyyni
+	dynasty = dynasty_fc_jokela
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_ailindalf_13_2
+	mother = fc_ailindalf_13_2_spouse
+
+	trait = gregarious
+	trait = calm
+	trait = forgiving
+	trait = education_stewardship_3
+	trait = lifestyle_mariner
+
+	6734.10.27 = {
+		birth = yes
+	}
+	6754.6.23 = {
+		add_spouse = fc_ailindalf_13_3_spouse
+	}
+
+	6827.4.4 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_13_3_spouse = {
+	name = Taimi
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6733.11.23 = {
+		birth = yes
+	}
+	trait = impatient
+	trait = diligent
+	trait = education_stewardship_3
+
+	6836.5.20 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_13 - ruler 4 (Jokela)
+fc_ailindalf_13_4 = {
+	name = Suvi
+	dynasty = dynasty_fc_jokela
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_ailindalf_13_3
+	mother = fc_ailindalf_13_3_spouse
+
+	trait = humble
+	trait = temperate
+	trait = content
+	trait = education_stewardship_3
+	trait = lifestyle_hunter
+
+	6763.8.23 = {
+		birth = yes
+	}
+	6781.12.12 = {
+		add_spouse = fc_ailindalf_13_4_spouse
+	}
+
+	6872.9.26 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_13_4_spouse = {
+	name = Airikka
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6767.2.7 = {
+		birth = yes
+	}
+	trait = content
+	trait = forgiving
+	trait = education_stewardship_2
+
+	6880.8.23 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_13 - ruler 5 (Naskali)
+fc_ailindalf_13_5 = {
+	name = Lemmikki
+	female = yes
+	dynasty = dynasty_fc_naskali
+	religion = faith_lossoth
+	culture = lossoth
+
+	trait = content
+	trait = ambitious
+	trait = brave
+	trait = education_learning_2
+	trait = lifestyle_hunter
+
+	6845.8.18 = {
+		birth = yes
+	}
+	6865.12.13 = {
+		add_spouse = fc_ailindalf_13_5_spouse
+	}
+
+	6918.1.5 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_13_5_spouse = {
+	name = Kaukolempi
+	religion = faith_lossoth
+	culture = lossoth
+
+	6845.9.27 = {
+		birth = yes
+	}
+	trait = calm
+	trait = honest
+	trait = education_learning_2
+
+	6915.11.16 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_13 - ruler 6 (Naskali)
+fc_ailindalf_13_6 = {
+	name = Tuulikki
+	female = yes
+	dynasty = dynasty_fc_naskali
+	religion = faith_lossoth
+	culture = lossoth
+
+	mother = fc_ailindalf_13_5
+	father = fc_ailindalf_13_5_spouse
+
+	trait = zealous
+	trait = content
+	trait = impatient
+	trait = education_martial_3
+	trait = lifestyle_hunter
+
+	6876.5.19 = {
+		birth = yes
+	}
+	6895.3.23 = {
+		add_spouse = fc_ailindalf_13_6_spouse
+	}
+
+	6969.5.12 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_13_6_spouse = {
+	name = Mielitoivo
+	religion = faith_lossoth
+	culture = lossoth
+
+	6879.4.17 = {
+		birth = yes
+	}
+	trait = content
+	trait = trusting
+	trait = education_intrigue_2
+
+	6963.5.6 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_13 - ruler 7 (Naskali)
+fc_ailindalf_13_7 = {
+	name = Tyyne
+	female = yes
+	dynasty = dynasty_fc_naskali
+	religion = faith_lossoth
+	culture = lossoth
+
+	mother = fc_ailindalf_13_6
+	father = fc_ailindalf_13_6_spouse
+
+	trait = honest
+	trait = brave
+	trait = vengeful
+	trait = education_learning_2
+	trait = lifestyle_hunter
+
+	6906.8.19 = {
+		birth = yes
+	}
+	6927.12.14 = {
+		add_spouse = fc_ailindalf_13_7_spouse
+	}
+
+	7005.5.4 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_13_7_spouse = {
+	name = Kultavaino
+	religion = faith_lossoth
+	culture = lossoth
+
+	6908.2.22 = {
+		birth = yes
+	}
+	trait = ambitious
+	trait = diligent
+	trait = education_diplomacy_2
+
+	7003.2.24 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_13 - ruler 8 (Naskali)
+fc_ailindalf_13_8 = {
+	name = Vanamo
+	dynasty = dynasty_fc_naskali
+	religion = faith_lossoth
+	culture = lossoth
+
+	mother = fc_ailindalf_13_7
+	father = fc_ailindalf_13_7_spouse
+
+	trait = trusting
+	trait = content
+	trait = ambitious
+	trait = education_stewardship_2
+	trait = lifestyle_mariner
+
+	6937.6.22 = {
+		birth = yes
+	}
+	6956.11.6 = {
+		add_spouse = fc_ailindalf_13_8_spouse
+	}
+
+	7103.9.17 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_13_8_spouse = {
+	name = Lempi
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6941.12.11 = {
+		birth = yes
+	}
+	trait = brave
+	trait = calm
+	trait = education_learning_2
+
+	7108.11.6 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_14 - ruler 1 (Ketola)
+fc_ailindalf_14_1 = {
+	name = Vanamo
+	dynasty = dynasty_fc_ketola
+	religion = faith_lossoth
+	culture = lossoth
+
+	trait = impatient
+	trait = ambitious
+	trait = trusting
+	trait = education_stewardship_3
+	trait = lifestyle_hunter
+
+	6679.10.10 = {
+		birth = yes
+	}
+	6698.12.4 = {
+		add_spouse = fc_ailindalf_14_1_spouse
+	}
+
+	6766.2.15 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_14_1_spouse = {
+	name = Aamu
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6677.2.25 = {
+		birth = yes
+	}
+	trait = zealous
+	trait = brave
+	trait = education_martial_3
+
+	6761.5.6 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_14 - ruler 2 (Ketola)
+fc_ailindalf_14_2 = {
+	name = Aino
+	female = yes
+	dynasty = dynasty_fc_ketola
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_ailindalf_14_1
+	mother = fc_ailindalf_14_1_spouse
+
+	trait = honest
+	trait = impatient
+	trait = content
+	trait = education_martial_2
+	trait = lifestyle_hunter
+
+	6707.6.19 = {
+		birth = yes
+	}
+	6726.9.7 = {
+		add_spouse = fc_ailindalf_14_2_spouse
+	}
+
+	6809.3.4 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_14_2_spouse = {
+	name = Mielitoivo
+	religion = faith_lossoth
+	culture = lossoth
+
+	6709.9.4 = {
+		birth = yes
+	}
+	trait = humble
+	trait = vengeful
+	trait = education_martial_2
+
+	6805.11.5 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_14 - ruler 3 (Ketola)
+fc_ailindalf_14_3 = {
+	name = Vilja
+	female = yes
+	dynasty = dynasty_fc_ketola
+	religion = faith_lossoth
+	culture = lossoth
+
+	mother = fc_ailindalf_14_2
+	father = fc_ailindalf_14_2_spouse
+
+	trait = impatient
+	trait = content
+	trait = diligent
+	trait = education_martial_3
+	trait = lifestyle_mariner
+
+	6735.6.9 = {
+		birth = yes
+	}
+	6755.7.16 = {
+		add_spouse = fc_ailindalf_14_3_spouse
+	}
+
+	6864.1.25 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_14_3_spouse = {
+	name = Rautio
+	religion = faith_lossoth
+	culture = lossoth
+
+	6731.2.6 = {
+		birth = yes
+	}
+	trait = ambitious
+	trait = trusting
+	trait = education_learning_2
+
+	6862.3.4 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_14 - ruler 4 (Talas)
+fc_ailindalf_14_4 = {
+	name = Tyyni
+	dynasty = dynasty_fc_talas
+	religion = faith_lossoth
+	culture = lossoth
+
+	trait = trusting
+	trait = calm
+	trait = honest
+	trait = education_learning_2
+	trait = lifestyle_hunter
+
+	6837.3.17 = {
+		birth = yes
+	}
+	6855.4.24 = {
+		add_spouse = fc_ailindalf_14_4_spouse
+	}
+
+	6912.8.18 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_14_4_spouse = {
+	name = Kivutar
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6835.11.16 = {
+		birth = yes
+	}
+	trait = humble
+	trait = impatient
+	trait = education_stewardship_2
+
+	6912.8.12 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_14 - ruler 5 (Talas)
+fc_ailindalf_14_5 = {
+	name = Vihavaino
+	dynasty = dynasty_fc_talas
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_ailindalf_14_4
+	mother = fc_ailindalf_14_4_spouse
+
+	trait = diligent
+	trait = brave
+	trait = stubborn
+	trait = education_martial_3
+	trait = lifestyle_mariner
+
+	6864.11.15 = {
+		birth = yes
+	}
+	6883.1.5 = {
+		add_spouse = fc_ailindalf_14_5_spouse
+	}
+
+	6962.5.15 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_14_5_spouse = {
+	name = Kanerva
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6864.5.4 = {
+		birth = yes
+	}
+	trait = zealous
+	trait = diligent
+	trait = education_martial_2
+
+	6955.3.9 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_14 - ruler 6 (Talas)
+fc_ailindalf_14_6 = {
+	name = Suvi
+	dynasty = dynasty_fc_talas
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_ailindalf_14_5
+	mother = fc_ailindalf_14_5_spouse
+
+	trait = ambitious
+	trait = vengeful
+	trait = temperate
+	trait = education_intrigue_2
+	trait = lifestyle_mariner
+
+	6894.3.8 = {
+		birth = yes
+	}
+	6913.10.21 = {
+		add_spouse = fc_ailindalf_14_6_spouse
+	}
+
+	7016.10.24 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_14_6_spouse = {
+	name = Alli
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6891.12.26 = {
+		birth = yes
+	}
+	trait = diligent
+	trait = patient
+	trait = education_martial_3
+
+	7020.7.18 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_14 - ruler 7 (Talas)
+fc_ailindalf_14_7 = {
+	name = Utujoutsi
+	dynasty = dynasty_fc_talas
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_ailindalf_14_6
+	mother = fc_ailindalf_14_6_spouse
+
+	trait = content
+	trait = diligent
+	trait = impatient
+	trait = education_learning_2
+	trait = lifestyle_hunter
+
+	6921.6.5 = {
+		birth = yes
+	}
+	6941.6.17 = {
+		add_spouse = fc_ailindalf_14_7_spouse
+	}
+
+	7103.6.21 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_14_7_spouse = {
+	name = Airikka
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6923.7.1 = {
+		birth = yes
+	}
+	trait = humble
+	trait = gregarious
+	trait = education_intrigue_2
+
+	7098.9.18 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_15 - ruler 1 (Aarnio)
+fc_ailindalf_15_1 = {
+	name = Tyyni
+	dynasty = dynasty_fc_aarnio
+	religion = faith_lossoth
+	culture = lossoth
+
+	trait = vengeful
+	trait = gregarious
+	trait = diligent
+	trait = education_martial_3
+	trait = lifestyle_hunter
+
+	6681.12.16 = {
+		birth = yes
+	}
+	6702.7.11 = {
+		add_spouse = fc_ailindalf_15_1_spouse
+	}
+
+	6769.9.10 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_15_1_spouse = {
+	name = Toivikki
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6682.2.28 = {
+		birth = yes
+	}
+	trait = diligent
+	trait = vengeful
+	trait = education_diplomacy_2
+
+	6776.10.12 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_15 - ruler 2 (Aarnio)
+fc_ailindalf_15_2 = {
+	name = Osma
+	dynasty = dynasty_fc_aarnio
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_ailindalf_15_1
+	mother = fc_ailindalf_15_1_spouse
+
+	trait = diligent
+	trait = zealous
+	trait = impatient
+	trait = education_learning_2
+	trait = lifestyle_hunter
+
+	6711.11.14 = {
+		birth = yes
+	}
+	6732.8.19 = {
+		add_spouse = fc_ailindalf_15_2_spouse
+	}
+
+	6803.3.10 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_15_2_spouse = {
+	name = Mielikki
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6709.2.6 = {
+		birth = yes
+	}
+	trait = content
+	trait = zealous
+	trait = education_intrigue_2
+
+	6806.3.8 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_15 - ruler 3 (Aarnio)
+fc_ailindalf_15_3 = {
+	name = Osma
+	dynasty = dynasty_fc_aarnio
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_ailindalf_15_2
+	mother = fc_ailindalf_15_2_spouse
+
+	trait = ambitious
+	trait = humble
+	trait = content
+	trait = education_stewardship_3
+	trait = lifestyle_hunter
+
+	6742.1.25 = {
+		birth = yes
+	}
+	6761.10.12 = {
+		add_spouse = fc_ailindalf_15_3_spouse
+	}
+
+	6857.7.7 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_15_3_spouse = {
+	name = Suoma
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6743.1.23 = {
+		birth = yes
+	}
+	trait = patient
+	trait = humble
+	trait = education_martial_3
+
+	6861.12.3 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_15 - ruler 4 (Aarnio)
+fc_ailindalf_15_4 = {
+	name = Sampo
+	dynasty = dynasty_fc_aarnio
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_ailindalf_15_3
+	mother = fc_ailindalf_15_3_spouse
+
+	trait = forgiving
+	trait = brave
+	trait = impatient
+	trait = education_martial_3
+	trait = lifestyle_mariner
+
+	6768.6.28 = {
+		birth = yes
+	}
+	6789.10.3 = {
+		add_spouse = fc_ailindalf_15_4_spouse
+	}
+
+	6907.3.26 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_15_4_spouse = {
+	name = Ilta
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6771.9.2 = {
+		birth = yes
+	}
+	trait = forgiving
+	trait = ambitious
+	trait = education_intrigue_2
+
+	6919.7.26 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_15 - ruler 5 (Kuurala)
+fc_ailindalf_15_5 = {
+	name = Ilmalempi
+	dynasty = dynasty_fc_kuurala
+	religion = faith_lossoth
+	culture = lossoth
+
+	trait = vengeful
+	trait = forgiving
+	trait = trusting
+	trait = education_martial_3
+	trait = lifestyle_hunter
+
+	6880.7.14 = {
+		birth = yes
+	}
+	6900.7.27 = {
+		add_spouse = fc_ailindalf_15_5_spouse
+	}
+
+	6949.1.27 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_15_5_spouse = {
+	name = Alli
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6882.7.24 = {
+		birth = yes
+	}
+	trait = honest
+	trait = diligent
+	trait = education_intrigue_2
+
+	6959.11.11 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_15 - ruler 6 (Kuurala)
+fc_ailindalf_15_6 = {
+	name = Osmo
+	dynasty = dynasty_fc_kuurala
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_ailindalf_15_5
+	mother = fc_ailindalf_15_5_spouse
+
+	trait = trusting
+	trait = humble
+	trait = calm
+	trait = education_stewardship_3
+	trait = lifestyle_hunter
+
+	6907.12.26 = {
+		birth = yes
+	}
+	6926.5.12 = {
+		add_spouse = fc_ailindalf_15_6_spouse
+	}
+
+	6996.12.2 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_15_6_spouse = {
+	name = Aino
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6907.10.16 = {
+		birth = yes
+	}
+	trait = calm
+	trait = zealous
+	trait = education_martial_3
+
+	7007.8.11 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_15 - ruler 7 (Kuurala)
+fc_ailindalf_15_7 = {
+	name = Kaukolempi
+	dynasty = dynasty_fc_kuurala
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_ailindalf_15_6
+	mother = fc_ailindalf_15_6_spouse
+
+	trait = temperate
+	trait = calm
+	trait = trusting
+	trait = education_diplomacy_2
+	trait = lifestyle_mariner
+
+	6936.4.15 = {
+		birth = yes
+	}
+	6954.10.11 = {
+		add_spouse = fc_ailindalf_15_7_spouse
+	}
+
+	7043.4.28 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_15_7_spouse = {
+	name = Lauha
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6939.2.19 = {
+		birth = yes
+	}
+	trait = diligent
+	trait = vengeful
+	trait = education_martial_2
+
+	7046.2.26 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_15 - ruler 8 (Kuurala)
+fc_ailindalf_15_8 = {
+	name = Tyyni
+	dynasty = dynasty_fc_kuurala
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_ailindalf_15_7
+	mother = fc_ailindalf_15_7_spouse
+
+	trait = vengeful
+	trait = diligent
+	trait = zealous
+	trait = education_martial_2
+	trait = lifestyle_mariner
+
+	6967.2.24 = {
+		birth = yes
+	}
+	6987.3.21 = {
+		add_spouse = fc_ailindalf_15_8_spouse
+	}
+
+	7103.6.18 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_15_8_spouse = {
+	name = Airikka
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6969.3.26 = {
+		birth = yes
+	}
+	trait = humble
+	trait = vengeful
+	trait = education_stewardship_3
+
+	7111.12.8 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_everdalf_4 - ruler 1 (Kaarnio)
+fc_everdalf_4_1 = {
+	name = Vilja
+	female = yes
+	dynasty = dynasty_fc_kaarnio
+	religion = faith_lossoth
+	culture = lossoth
+
+	trait = patient
+	trait = trusting
+	trait = impatient
+	trait = education_diplomacy_2
+	trait = lifestyle_mariner
+
+	6688.1.14 = {
+		birth = yes
+	}
+	6709.4.15 = {
+		add_spouse = fc_everdalf_4_1_spouse
+	}
+
+	6762.7.20 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_everdalf_4_1_spouse = {
+	name = Tyyni
+	religion = faith_lossoth
+	culture = lossoth
+
+	6684.5.16 = {
+		birth = yes
+	}
+	trait = ambitious
+	trait = trusting
+	trait = education_diplomacy_2
+
+	6767.6.18 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_everdalf_4 - ruler 2 (Kaarnio)
+fc_everdalf_4_2 = {
+	name = Yrjana
+	dynasty = dynasty_fc_kaarnio
+	religion = faith_lossoth
+	culture = lossoth
+
+	mother = fc_everdalf_4_1
+	father = fc_everdalf_4_1_spouse
+
+	trait = calm
+	trait = patient
+	trait = zealous
+	trait = education_intrigue_2
+	trait = lifestyle_mariner
+
+	6716.2.20 = {
+		birth = yes
+	}
+	6735.5.1 = {
+		add_spouse = fc_everdalf_4_2_spouse
+	}
+
+	6813.9.7 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_everdalf_4_2_spouse = {
+	name = Hopea
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6716.6.22 = {
+		birth = yes
+	}
+	trait = impatient
+	trait = gregarious
+	trait = education_martial_2
+
+	6819.11.26 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_everdalf_4 - ruler 3 (Kaarnio)
+fc_everdalf_4_3 = {
+	name = Kaukolempi
+	dynasty = dynasty_fc_kaarnio
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_everdalf_4_2
+	mother = fc_everdalf_4_2_spouse
+
+	trait = diligent
+	trait = trusting
+	trait = patient
+	trait = education_martial_2
+	trait = lifestyle_mariner
+
+	6746.2.28 = {
+		birth = yes
+	}
+	6767.9.6 = {
+		add_spouse = fc_everdalf_4_3_spouse
+	}
+
+	6856.12.22 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_everdalf_4_3_spouse = {
+	name = Salme
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6744.3.12 = {
+		birth = yes
+	}
+	trait = patient
+	trait = forgiving
+	trait = education_diplomacy_2
+
+	6863.3.7 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_everdalf_4 - ruler 4 (Siniharju)
+fc_everdalf_4_4 = {
+	name = Arvo
+	dynasty = dynasty_fc_siniharju
+	religion = faith_lossoth
+	culture = lossoth
+
+	trait = stubborn
+	trait = brave
+	trait = forgiving
+	trait = education_martial_3
+	trait = lifestyle_mariner
+
+	6830.11.3 = {
+		birth = yes
+	}
+	6849.3.3 = {
+		add_spouse = fc_everdalf_4_4_spouse
+	}
+
+	6898.3.9 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_everdalf_4_4_spouse = {
+	name = Mesi
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6831.5.7 = {
+		birth = yes
+	}
+	trait = gregarious
+	trait = impatient
+	trait = education_stewardship_3
+
+	6892.8.2 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_everdalf_4 - ruler 5 (Siniharju)
+fc_everdalf_4_5 = {
+	name = Aikamieli
+	dynasty = dynasty_fc_siniharju
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_everdalf_4_4
+	mother = fc_everdalf_4_4_spouse
+
+	trait = ambitious
+	trait = vengeful
+	trait = gregarious
+	trait = education_stewardship_3
+	trait = lifestyle_mariner
+
+	6861.6.5 = {
+		birth = yes
+	}
+	6882.9.16 = {
+		add_spouse = fc_everdalf_4_5_spouse
+	}
+
+	6943.3.26 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_everdalf_4_5_spouse = {
+	name = Mesi
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6862.1.1 = {
+		birth = yes
+	}
+	trait = vengeful
+	trait = zealous
+	trait = education_stewardship_3
+
+	6950.6.13 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_everdalf_4 - ruler 6 (Siniharju)
+fc_everdalf_4_6 = {
+	name = Venemies
+	dynasty = dynasty_fc_siniharju
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_everdalf_4_5
+	mother = fc_everdalf_4_5_spouse
+
+	trait = patient
+	trait = forgiving
+	trait = vengeful
+	trait = education_diplomacy_2
+	trait = lifestyle_mariner
+
+	6892.3.18 = {
+		birth = yes
+	}
+	6910.12.27 = {
+		add_spouse = fc_everdalf_4_6_spouse
+	}
+
+	6978.1.25 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_everdalf_4_6_spouse = {
+	name = Kivutar
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6890.2.2 = {
+		birth = yes
+	}
+	trait = forgiving
+	trait = content
+	trait = education_intrigue_2
+
+	6982.12.8 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_everdalf_4 - ruler 7 (Siniharju)
+fc_everdalf_4_7 = {
+	name = Havu
+	dynasty = dynasty_fc_siniharju
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_everdalf_4_6
+	mother = fc_everdalf_4_6_spouse
+
+	trait = patient
+	trait = ambitious
+	trait = impatient
+	trait = education_stewardship_2
+	trait = lifestyle_hunter
+
+	6916.11.5 = {
+		birth = yes
+	}
+	6936.7.4 = {
+		add_spouse = fc_everdalf_4_7_spouse
+	}
+
+	7103.7.2 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_everdalf_4_7_spouse = {
+	name = Suvituuli
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6913.5.24 = {
+		birth = yes
+	}
+	trait = content
+	trait = calm
+	trait = education_diplomacy_2
+
+	7105.3.14 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_everdalf_5 - ruler 1 (Otava)
+fc_everdalf_5_1 = {
+	name = Satatieto
+	dynasty = dynasty_fc_otava
+	religion = faith_lossoth
+	culture = lossoth
+
+	trait = calm
+	trait = humble
+	trait = impatient
+	trait = education_diplomacy_2
+	trait = lifestyle_hunter
+
+	6707.5.3 = {
+		birth = yes
+	}
+	6726.1.12 = {
+		add_spouse = fc_everdalf_5_1_spouse
+	}
+
+	6769.4.24 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_everdalf_5_1_spouse = {
+	name = Mielikki
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6704.9.4 = {
+		birth = yes
+	}
+	trait = ambitious
+	trait = honest
+	trait = education_intrigue_2
+
+	6775.3.10 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_everdalf_5 - ruler 2 (Otava)
+fc_everdalf_5_2 = {
+	name = Kalpa
+	dynasty = dynasty_fc_otava
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_everdalf_5_1
+	mother = fc_everdalf_5_1_spouse
+
+	trait = trusting
+	trait = diligent
+	trait = brave
+	trait = education_stewardship_3
+	trait = lifestyle_mariner
+
+	6738.9.27 = {
+		birth = yes
+	}
+	6756.10.28 = {
+		add_spouse = fc_everdalf_5_2_spouse
+	}
+
+	6804.11.7 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_everdalf_5_2_spouse = {
+	name = Maija
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6735.1.25 = {
+		birth = yes
+	}
+	trait = humble
+	trait = impatient
+	trait = education_learning_2
+
+	6814.12.4 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_everdalf_5 - ruler 3 (Otava)
+fc_everdalf_5_3 = {
+	name = Venemies
+	dynasty = dynasty_fc_otava
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_everdalf_5_2
+	mother = fc_everdalf_5_2_spouse
+
+	trait = zealous
+	trait = diligent
+	trait = impatient
+	trait = education_martial_3
+	trait = lifestyle_hunter
+
+	6769.7.3 = {
+		birth = yes
+	}
+	6789.9.15 = {
+		add_spouse = fc_everdalf_5_3_spouse
+	}
+
+	6859.10.14 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_everdalf_5_3_spouse = {
+	name = Vanamo
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6767.10.17 = {
+		birth = yes
+	}
+	trait = humble
+	trait = diligent
+	trait = education_stewardship_3
+
+	6859.9.21 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_everdalf_5 - ruler 4 (Otava)
+fc_everdalf_5_4 = {
+	name = Lempivalta
+	dynasty = dynasty_fc_otava
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_everdalf_5_3
+	mother = fc_everdalf_5_3_spouse
+
+	trait = zealous
+	trait = patient
+	trait = calm
+	trait = education_learning_2
+	trait = lifestyle_hunter
+
+	6798.2.24 = {
+		birth = yes
+	}
+	6816.12.17 = {
+		add_spouse = fc_everdalf_5_4_spouse
+	}
+
+	6894.6.18 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_everdalf_5_4_spouse = {
+	name = Hopea
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6799.12.12 = {
+		birth = yes
+	}
+	trait = forgiving
+	trait = stubborn
+	trait = education_diplomacy_2
+
+	6906.7.7 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_everdalf_5 - ruler 5 (Vainio)
+fc_everdalf_5_5 = {
+	name = Pihla
+	female = yes
+	dynasty = dynasty_fc_vainio
+	religion = faith_lossoth
+	culture = lossoth
+
+	trait = brave
+	trait = ambitious
+	trait = gregarious
+	trait = education_intrigue_2
+	trait = lifestyle_mariner
+
+	6855.8.10 = {
+		birth = yes
+	}
+	6876.7.10 = {
+		add_spouse = fc_everdalf_5_5_spouse
+	}
+
+	6948.6.19 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_everdalf_5_5_spouse = {
+	name = Valto
+	religion = faith_lossoth
+	culture = lossoth
+
+	6851.1.1 = {
+		birth = yes
+	}
+	trait = zealous
+	trait = diligent
+	trait = education_diplomacy_2
+
+	6954.2.2 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_everdalf_5 - ruler 6 (Vainio)
+fc_everdalf_5_6 = {
+	name = Tyyni
+	dynasty = dynasty_fc_vainio
+	religion = faith_lossoth
+	culture = lossoth
+
+	mother = fc_everdalf_5_5
+	father = fc_everdalf_5_5_spouse
+
+	trait = ambitious
+	trait = honest
+	trait = zealous
+	trait = education_intrigue_2
+	trait = lifestyle_hunter
+
+	6886.10.14 = {
+		birth = yes
+	}
+	6907.12.19 = {
+		add_spouse = fc_everdalf_5_6_spouse
+	}
+
+	7001.8.8 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_everdalf_5_6_spouse = {
+	name = Lempi
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6889.12.6 = {
+		birth = yes
+	}
+	trait = calm
+	trait = zealous
+	trait = education_diplomacy_2
+
+	7013.3.6 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_everdalf_5 - ruler 7 (Vainio)
+fc_everdalf_5_7 = {
+	name = Kaukolempi
+	dynasty = dynasty_fc_vainio
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_everdalf_5_6
+	mother = fc_everdalf_5_6_spouse
+
+	trait = ambitious
+	trait = humble
+	trait = brave
+	trait = education_diplomacy_2
+	trait = lifestyle_hunter
+
+	6915.8.6 = {
+		birth = yes
+	}
+	6934.6.27 = {
+		add_spouse = fc_everdalf_5_7_spouse
+	}
+
+	7054.1.1 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_everdalf_5_7_spouse = {
+	name = Suoma
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6917.11.25 = {
+		birth = yes
+	}
+	trait = honest
+	trait = impatient
+	trait = education_martial_3
+
+	7054.3.13 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_everdalf_5 - ruler 8 (Vainio)
+fc_everdalf_5_8 = {
+	name = Kalervo
+	dynasty = dynasty_fc_vainio
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_everdalf_5_7
+	mother = fc_everdalf_5_7_spouse
+
+	trait = brave
+	trait = content
+	trait = gregarious
+	trait = education_learning_2
+	trait = lifestyle_hunter
+
+	6943.2.15 = {
+		birth = yes
+	}
+	6964.9.16 = {
+		add_spouse = fc_everdalf_5_8_spouse
+	}
+
+	7103.2.11 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_everdalf_5_8_spouse = {
+	name = Mielikki
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6944.11.10 = {
+		birth = yes
+	}
+	trait = humble
+	trait = brave
+	trait = education_martial_3
+
+	7111.12.4 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_everdalf_6 - ruler 1 (Nivala)
+fc_everdalf_6_1 = {
+	name = Tyyne
+	female = yes
+	dynasty = dynasty_fc_nivala
+	religion = faith_lossoth
+	culture = lossoth
+
+	trait = impatient
+	trait = patient
+	trait = brave
+	trait = education_learning_2
+	trait = lifestyle_hunter
+
+	6707.6.9 = {
+		birth = yes
+	}
+	6726.4.25 = {
+		add_spouse = fc_everdalf_6_1_spouse
+	}
+
+	6785.2.23 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_everdalf_6_1_spouse = {
+	name = Kalpa
+	religion = faith_lossoth
+	culture = lossoth
+
+	6705.2.23 = {
+		birth = yes
+	}
+	trait = vengeful
+	trait = forgiving
+	trait = education_martial_2
+
+	6788.9.28 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_everdalf_6 - ruler 2 (Nivala)
+fc_everdalf_6_2 = {
+	name = Kukka
+	female = yes
+	dynasty = dynasty_fc_nivala
+	religion = faith_lossoth
+	culture = lossoth
+
+	mother = fc_everdalf_6_1
+	father = fc_everdalf_6_1_spouse
+
+	trait = zealous
+	trait = gregarious
+	trait = trusting
+	trait = education_martial_2
+	trait = lifestyle_hunter
+
+	6736.2.9 = {
+		birth = yes
+	}
+	6754.5.14 = {
+		add_spouse = fc_everdalf_6_2_spouse
+	}
+
+	6825.6.21 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_everdalf_6_2_spouse = {
+	name = Valto
+	religion = faith_lossoth
+	culture = lossoth
+
+	6739.4.18 = {
+		birth = yes
+	}
+	trait = gregarious
+	trait = temperate
+	trait = education_intrigue_2
+
+	6832.7.10 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_everdalf_6 - ruler 3 (Nivala)
+fc_everdalf_6_3 = {
+	name = Sotijalo
+	dynasty = dynasty_fc_nivala
+	religion = faith_lossoth
+	culture = lossoth
+
+	mother = fc_everdalf_6_2
+	father = fc_everdalf_6_2_spouse
+
+	trait = trusting
+	trait = content
+	trait = brave
+	trait = education_martial_2
+	trait = lifestyle_hunter
+
+	6767.7.15 = {
+		birth = yes
+	}
+	6786.10.23 = {
+		add_spouse = fc_everdalf_6_3_spouse
+	}
+
+	6881.8.18 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_everdalf_6_3_spouse = {
+	name = Maija
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6767.5.12 = {
+		birth = yes
+	}
+	trait = forgiving
+	trait = patient
+	trait = education_stewardship_3
+
+	6889.8.12 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_everdalf_6 - ruler 4 (Sampola)
+fc_everdalf_6_4 = {
+	name = Lempi
+	female = yes
+	dynasty = dynasty_fc_sampola
+	religion = faith_lossoth
+	culture = lossoth
+
+	trait = brave
+	trait = stubborn
+	trait = diligent
+	trait = education_martial_2
+	trait = lifestyle_mariner
+
+	6842.10.9 = {
+		birth = yes
+	}
+	6860.1.11 = {
+		add_spouse = fc_everdalf_6_4_spouse
+	}
+
+	6930.9.2 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_everdalf_6_4_spouse = {
+	name = Arvo
+	religion = faith_lossoth
+	culture = lossoth
+
+	6844.6.3 = {
+		birth = yes
+	}
+	trait = impatient
+	trait = brave
+	trait = education_stewardship_3
+
+	6926.12.17 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_everdalf_6 - ruler 5 (Sampola)
+fc_everdalf_6_5 = {
+	name = Satatieto
+	dynasty = dynasty_fc_sampola
+	religion = faith_lossoth
+	culture = lossoth
+
+	mother = fc_everdalf_6_4
+	father = fc_everdalf_6_4_spouse
+
+	trait = impatient
+	trait = calm
+	trait = vengeful
+	trait = education_martial_3
+	trait = lifestyle_hunter
+
+	6864.9.7 = {
+		birth = yes
+	}
+	6884.7.18 = {
+		add_spouse = fc_everdalf_6_5_spouse
+	}
+
+	6977.7.10 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_everdalf_6_5_spouse = {
+	name = Aino
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6864.1.8 = {
+		birth = yes
+	}
+	trait = ambitious
+	trait = patient
+	trait = education_stewardship_2
+
+	6981.9.11 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_everdalf_6 - ruler 6 (Sampola)
+fc_everdalf_6_6 = {
+	name = Kalervo
+	dynasty = dynasty_fc_sampola
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_everdalf_6_5
+	mother = fc_everdalf_6_5_spouse
+
+	trait = calm
+	trait = brave
+	trait = impatient
+	trait = education_stewardship_3
+	trait = lifestyle_mariner
+
+	6895.12.1 = {
+		birth = yes
+	}
+	6916.12.11 = {
+		add_spouse = fc_everdalf_6_6_spouse
+	}
+
+	7028.11.10 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_everdalf_6_6_spouse = {
+	name = Leinikka
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6891.2.11 = {
+		birth = yes
+	}
+	trait = gregarious
+	trait = vengeful
+	trait = education_martial_3
+
+	7032.2.17 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_everdalf_6 - ruler 7 (Sampola)
+fc_everdalf_6_7 = {
+	name = Aimo
+	dynasty = dynasty_fc_sampola
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_everdalf_6_6
+	mother = fc_everdalf_6_6_spouse
+
+	trait = impatient
+	trait = forgiving
+	trait = vengeful
+	trait = education_stewardship_2
+	trait = lifestyle_hunter
+
+	6923.4.7 = {
+		birth = yes
+	}
+	6944.10.7 = {
+		add_spouse = fc_everdalf_6_7_spouse
+	}
+
+	7103.7.18 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_everdalf_6_7_spouse = {
+	name = Talvikki
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6927.1.6 = {
+		birth = yes
+	}
+	trait = patient
+	trait = temperate
+	trait = education_learning_2
+
+	7105.10.15 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_everdalf_7 - ruler 1 (Kairala)
+fc_everdalf_7_1 = {
+	name = Kaukovalta
+	dynasty = dynasty_fc_kairala
+	religion = faith_lossoth
+	culture = lossoth
+
+	trait = brave
+	trait = gregarious
+	trait = forgiving
+	trait = education_stewardship_3
+	trait = lifestyle_mariner
+
+	6671.9.27 = {
+		birth = yes
+	}
+	6692.6.3 = {
+		add_spouse = fc_everdalf_7_1_spouse
+	}
+
+	6742.11.20 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_everdalf_7_1_spouse = {
+	name = Ilta
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6674.7.25 = {
+		birth = yes
+	}
+	trait = forgiving
+	trait = gregarious
+	trait = education_learning_2
+
+	6749.6.11 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_everdalf_7 - ruler 2 (Kairala)
+fc_everdalf_7_2 = {
+	name = Yrjana
+	dynasty = dynasty_fc_kairala
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_everdalf_7_1
+	mother = fc_everdalf_7_1_spouse
+
+	trait = zealous
+	trait = impatient
+	trait = brave
+	trait = education_stewardship_2
+	trait = lifestyle_mariner
+
+	6701.9.20 = {
+		birth = yes
+	}
+	6721.12.15 = {
+		add_spouse = fc_everdalf_7_2_spouse
+	}
+
+	6786.5.19 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_everdalf_7_2_spouse = {
+	name = Tyyni
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6703.7.17 = {
+		birth = yes
+	}
+	trait = forgiving
+	trait = stubborn
+	trait = education_stewardship_3
+
+	6795.4.2 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_everdalf_7 - ruler 3 (Kairala)
+fc_everdalf_7_3 = {
+	name = Suvi
+	dynasty = dynasty_fc_kairala
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_everdalf_7_2
+	mother = fc_everdalf_7_2_spouse
+
+	trait = humble
+	trait = patient
+	trait = ambitious
+	trait = education_diplomacy_2
+	trait = lifestyle_hunter
+
+	6727.4.22 = {
+		birth = yes
+	}
+	6745.12.28 = {
+		add_spouse = fc_everdalf_7_3_spouse
+	}
+
+	6828.12.12 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_everdalf_7_3_spouse = {
+	name = Kivutar
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6731.10.27 = {
+		birth = yes
+	}
+	trait = stubborn
+	trait = honest
+	trait = education_learning_2
+
+	6840.8.18 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_everdalf_7 - ruler 4 (Kairala)
+fc_everdalf_7_4 = {
+	name = Sisko
+	female = yes
+	dynasty = dynasty_fc_kairala
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_everdalf_7_3
+	mother = fc_everdalf_7_3_spouse
+
+	trait = trusting
+	trait = stubborn
+	trait = diligent
+	trait = education_learning_2
+	trait = lifestyle_mariner
+
+	6752.7.1 = {
+		birth = yes
+	}
+	6772.12.20 = {
+		add_spouse = fc_everdalf_7_4_spouse
+	}
+
+	6883.5.6 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_everdalf_7_4_spouse = {
+	name = Tyyni
+	religion = faith_lossoth
+	culture = lossoth
+
+	6751.7.7 = {
+		birth = yes
+	}
+	trait = diligent
+	trait = patient
+	trait = education_diplomacy_2
+
+	6886.6.2 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_everdalf_7 - ruler 5 (Niemela)
+fc_everdalf_7_5 = {
+	name = Kivutar
+	female = yes
+	dynasty = dynasty_fc_niemela
+	religion = faith_lossoth
+	culture = lossoth
+
+	trait = calm
+	trait = vengeful
+	trait = ambitious
+	trait = education_martial_2
+	trait = lifestyle_mariner
+
+	6845.2.27 = {
+		birth = yes
+	}
+	6865.5.9 = {
+		add_spouse = fc_everdalf_7_5_spouse
+	}
+
+	6922.1.28 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_everdalf_7_5_spouse = {
+	name = Aikamieli
+	religion = faith_lossoth
+	culture = lossoth
+
+	6846.11.22 = {
+		birth = yes
+	}
+	trait = stubborn
+	trait = gregarious
+	trait = education_martial_2
+
+	6924.4.4 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_everdalf_7 - ruler 6 (Niemela)
+fc_everdalf_7_6 = {
+	name = Ihamieli
+	dynasty = dynasty_fc_niemela
+	religion = faith_lossoth
+	culture = lossoth
+
+	mother = fc_everdalf_7_5
+	father = fc_everdalf_7_5_spouse
+
+	trait = forgiving
+	trait = vengeful
+	trait = diligent
+	trait = education_learning_2
+	trait = lifestyle_mariner
+
+	6872.8.9 = {
+		birth = yes
+	}
+	6893.7.21 = {
+		add_spouse = fc_everdalf_7_6_spouse
+	}
+
+	6963.7.27 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_everdalf_7_6_spouse = {
+	name = Suvi
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6872.9.23 = {
+		birth = yes
+	}
+	trait = humble
+	trait = honest
+	trait = education_martial_3
+
+	6974.12.26 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_everdalf_7 - ruler 7 (Niemela)
+fc_everdalf_7_7 = {
+	name = Lemmikki
+	female = yes
+	dynasty = dynasty_fc_niemela
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_everdalf_7_6
+	mother = fc_everdalf_7_6_spouse
+
+	trait = impatient
+	trait = vengeful
+	trait = patient
+	trait = education_martial_3
+	trait = lifestyle_hunter
+
+	6894.7.19 = {
+		birth = yes
+	}
+	6915.5.26 = {
+		add_spouse = fc_everdalf_7_7_spouse
+	}
+
+	7002.4.19 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_everdalf_7_7_spouse = {
+	name = Lempivaino
+	religion = faith_lossoth
+	culture = lossoth
+
+	6895.6.18 = {
+		birth = yes
+	}
+	trait = gregarious
+	trait = zealous
+	trait = education_stewardship_3
+
+	6997.12.14 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_everdalf_7 - ruler 8 (Niemela)
+fc_everdalf_7_8 = {
+	name = Kaukovalta
+	dynasty = dynasty_fc_niemela
+	religion = faith_lossoth
+	culture = lossoth
+
+	mother = fc_everdalf_7_7
+	father = fc_everdalf_7_7_spouse
+
+	trait = trusting
+	trait = honest
+	trait = brave
+	trait = education_diplomacy_2
+	trait = lifestyle_mariner
+
+	6921.6.12 = {
+		birth = yes
+	}
+	6942.6.1 = {
+		add_spouse = fc_everdalf_7_8_spouse
+	}
+
+	7103.9.10 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_everdalf_7_8_spouse = {
+	name = Kukka
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6920.4.1 = {
+		birth = yes
+	}
+	trait = impatient
+	trait = brave
+	trait = education_martial_2
+
+	7108.5.15 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_1 - ruler 1 (Pohjola)
+fc_ailindalf_1_1 = {
+	name = Yrjana
+	dynasty = dynasty_fc_pohjola
+	religion = faith_lossoth
+	culture = lossoth
+
+	trait = vengeful
+	trait = zealous
+	trait = patient
+	trait = education_stewardship_3
+	trait = lifestyle_hunter
+
+	6682.12.28 = {
+		birth = yes
+	}
+	6701.6.5 = {
+		add_spouse = fc_ailindalf_1_1_spouse
+	}
+
+	6753.10.1 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_1_1_spouse = {
+	name = Aili
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6682.8.2 = {
+		birth = yes
+	}
+	trait = gregarious
+	trait = temperate
+	trait = education_stewardship_2
+
+	6755.4.27 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_1 - ruler 2 (Pohjola)
+fc_ailindalf_1_2 = {
+	name = Lauha
+	female = yes
+	dynasty = dynasty_fc_pohjola
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_ailindalf_1_1
+	mother = fc_ailindalf_1_1_spouse
+
+	trait = diligent
+	trait = impatient
+	trait = humble
+	trait = education_martial_3
+	trait = lifestyle_mariner
+
+	6708.11.4 = {
+		birth = yes
+	}
+	6726.10.15 = {
+		add_spouse = fc_ailindalf_1_2_spouse
+	}
+
+	6790.2.26 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_1_2_spouse = {
+	name = Tervahartia
+	religion = faith_lossoth
+	culture = lossoth
+
+	6706.10.7 = {
+		birth = yes
+	}
+	trait = honest
+	trait = patient
+	trait = education_learning_2
+
+	6798.10.18 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_1 - ruler 3 (Pohjola)
+fc_ailindalf_1_3 = {
+	name = Arijoutsi
+	dynasty = dynasty_fc_pohjola
+	religion = faith_lossoth
+	culture = lossoth
+
+	mother = fc_ailindalf_1_2
+	father = fc_ailindalf_1_2_spouse
+
+	trait = impatient
+	trait = calm
+	trait = ambitious
+	trait = education_intrigue_2
+	trait = lifestyle_hunter
+
+	6731.12.13 = {
+		birth = yes
+	}
+	6749.9.18 = {
+		add_spouse = fc_ailindalf_1_3_spouse
+	}
+
+	6834.7.3 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_1_3_spouse = {
+	name = Pilvi
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6730.9.1 = {
+		birth = yes
+	}
+	trait = gregarious
+	trait = content
+	trait = education_stewardship_3
+
+	6833.11.20 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_1 - ruler 4 (Honkala)
+fc_ailindalf_1_4 = {
+	name = Aikamieli
+	dynasty = dynasty_fc_honkala
+	religion = faith_lossoth
+	culture = lossoth
+
+	trait = impatient
+	trait = honest
+	trait = content
+	trait = education_stewardship_3
+	trait = lifestyle_hunter
+
+	6794.8.14 = {
+		birth = yes
+	}
+	6814.5.18 = {
+		add_spouse = fc_ailindalf_1_4_spouse
+	}
+
+	6889.11.18 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_1_4_spouse = {
+	name = Mahla
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6795.2.1 = {
+		birth = yes
+	}
+	trait = temperate
+	trait = vengeful
+	trait = education_martial_2
+
+	6883.1.1 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_1 - ruler 5 (Honkala)
+fc_ailindalf_1_5 = {
+	name = Havu
+	dynasty = dynasty_fc_honkala
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_ailindalf_1_4
+	mother = fc_ailindalf_1_4_spouse
+
+	trait = ambitious
+	trait = trusting
+	trait = stubborn
+	trait = education_stewardship_2
+	trait = lifestyle_mariner
+
+	6824.9.18 = {
+		birth = yes
+	}
+	6843.11.4 = {
+		add_spouse = fc_ailindalf_1_5_spouse
+	}
+
+	6934.3.7 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_1_5_spouse = {
+	name = Suvi
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6825.6.14 = {
+		birth = yes
+	}
+	trait = humble
+	trait = ambitious
+	trait = education_martial_2
+
+	6930.12.27 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_1 - ruler 6 (Honkala)
+fc_ailindalf_1_6 = {
+	name = Aikio
+	dynasty = dynasty_fc_honkala
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_ailindalf_1_5
+	mother = fc_ailindalf_1_5_spouse
+
+	trait = forgiving
+	trait = trusting
+	trait = diligent
+	trait = education_intrigue_2
+	trait = lifestyle_mariner
+
+	6847.9.18 = {
+		birth = yes
+	}
+	6868.6.16 = {
+		add_spouse = fc_ailindalf_1_6_spouse
+	}
+
+	6971.5.22 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_1_6_spouse = {
+	name = Airikka
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6849.10.17 = {
+		birth = yes
+	}
+	trait = trusting
+	trait = content
+	trait = education_martial_3
+
+	6982.1.22 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_1 - ruler 7 (Honkala)
+fc_ailindalf_1_7 = {
+	name = Vihavaino
+	dynasty = dynasty_fc_honkala
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_ailindalf_1_6
+	mother = fc_ailindalf_1_6_spouse
+
+	trait = calm
+	trait = patient
+	trait = ambitious
+	trait = education_stewardship_2
+	trait = lifestyle_hunter
+
+	6869.7.27 = {
+		birth = yes
+	}
+	6890.5.15 = {
+		add_spouse = fc_ailindalf_1_7_spouse
+	}
+
+	7103.2.27 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_1_7_spouse = {
+	name = Taimi
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6869.11.21 = {
+		birth = yes
+	}
+	trait = honest
+	trait = diligent
+	trait = education_stewardship_2
+
+	7107.8.21 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_2 - ruler 1 (Korvela)
+fc_ailindalf_2_1 = {
+	name = Lempo
+	dynasty = dynasty_fc_korvela
+	religion = faith_lossoth
+	culture = lossoth
+
+	trait = forgiving
+	trait = impatient
+	trait = zealous
+	trait = education_learning_2
+	trait = lifestyle_mariner
+
+	6689.9.21 = {
+		birth = yes
+	}
+	6707.12.12 = {
+		add_spouse = fc_ailindalf_2_1_spouse
+	}
+
+	6773.12.3 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_2_1_spouse = {
+	name = Tuovi
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6688.6.24 = {
+		birth = yes
+	}
+	trait = ambitious
+	trait = stubborn
+	trait = education_martial_3
+
+	6769.4.11 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_2 - ruler 2 (Korvela)
+fc_ailindalf_2_2 = {
+	name = Lauha
+	female = yes
+	dynasty = dynasty_fc_korvela
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_ailindalf_2_1
+	mother = fc_ailindalf_2_1_spouse
+
+	trait = ambitious
+	trait = humble
+	trait = impatient
+	trait = education_martial_2
+	trait = lifestyle_hunter
+
+	6720.12.11 = {
+		birth = yes
+	}
+	6740.11.19 = {
+		add_spouse = fc_ailindalf_2_2_spouse
+	}
+
+	6813.10.3 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_2_2_spouse = {
+	name = Leino
+	religion = faith_lossoth
+	culture = lossoth
+
+	6721.6.20 = {
+		birth = yes
+	}
+	trait = gregarious
+	trait = patient
+	trait = education_learning_2
+
+	6817.5.9 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_2 - ruler 3 (Korvela)
+fc_ailindalf_2_3 = {
+	name = Oiva
+	dynasty = dynasty_fc_korvela
+	religion = faith_lossoth
+	culture = lossoth
+
+	mother = fc_ailindalf_2_2
+	father = fc_ailindalf_2_2_spouse
+
+	trait = diligent
+	trait = trusting
+	trait = patient
+	trait = education_learning_2
+	trait = lifestyle_hunter
+
+	6744.1.21 = {
+		birth = yes
+	}
+	6763.6.16 = {
+		add_spouse = fc_ailindalf_2_3_spouse
+	}
+
+	6851.2.2 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_2_3_spouse = {
+	name = Toivikki
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6740.12.6 = {
+		birth = yes
+	}
+	trait = honest
+	trait = temperate
+	trait = education_learning_2
+
+	6845.12.7 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_2 - ruler 4 (Korvela)
+fc_ailindalf_2_4 = {
+	name = Aili
+	female = yes
+	dynasty = dynasty_fc_korvela
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_ailindalf_2_3
+	mother = fc_ailindalf_2_3_spouse
+
+	trait = impatient
+	trait = trusting
+	trait = ambitious
+	trait = education_diplomacy_2
+	trait = lifestyle_mariner
+
+	6769.11.7 = {
+		birth = yes
+	}
+	6789.6.12 = {
+		add_spouse = fc_ailindalf_2_4_spouse
+	}
+
+	6893.11.12 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_2_4_spouse = {
+	name = Sotijalo
+	religion = faith_lossoth
+	culture = lossoth
+
+	6770.10.5 = {
+		birth = yes
+	}
+	trait = trusting
+	trait = patient
+	trait = education_learning_2
+
+	6891.10.21 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_2 - ruler 5 (Joutsi)
+fc_ailindalf_2_5 = {
+	name = Untamo
+	dynasty = dynasty_fc_joutsi
+	religion = faith_lossoth
+	culture = lossoth
+
+	trait = stubborn
+	trait = zealous
+	trait = calm
+	trait = education_diplomacy_2
+	trait = lifestyle_hunter
+
+	6861.2.5 = {
+		birth = yes
+	}
+	6879.4.11 = {
+		add_spouse = fc_ailindalf_2_5_spouse
+	}
+
+	6930.1.7 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_2_5_spouse = {
+	name = Aino
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6863.7.27 = {
+		birth = yes
+	}
+	trait = ambitious
+	trait = humble
+	trait = education_martial_3
+
+	6926.6.4 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_2 - ruler 6 (Joutsi)
+fc_ailindalf_2_6 = {
+	name = Ilta
+	female = yes
+	dynasty = dynasty_fc_joutsi
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_ailindalf_2_5
+	mother = fc_ailindalf_2_5_spouse
+
+	trait = honest
+	trait = stubborn
+	trait = humble
+	trait = education_intrigue_2
+	trait = lifestyle_hunter
+
+	6890.8.25 = {
+		birth = yes
+	}
+	6910.2.9 = {
+		add_spouse = fc_ailindalf_2_6_spouse
+	}
+
+	6982.12.25 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_2_6_spouse = {
+	name = Satatieto
+	religion = faith_lossoth
+	culture = lossoth
+
+	6889.10.7 = {
+		birth = yes
+	}
+	trait = stubborn
+	trait = impatient
+	trait = education_martial_3
+
+	6975.5.4 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_2 - ruler 7 (Joutsi)
+fc_ailindalf_2_7 = {
+	name = Sotijalo
+	dynasty = dynasty_fc_joutsi
+	religion = faith_lossoth
+	culture = lossoth
+
+	mother = fc_ailindalf_2_6
+	father = fc_ailindalf_2_6_spouse
+
+	trait = humble
+	trait = patient
+	trait = zealous
+	trait = education_stewardship_3
+	trait = lifestyle_mariner
+
+	6913.11.6 = {
+		birth = yes
+	}
+	6931.5.9 = {
+		add_spouse = fc_ailindalf_2_7_spouse
+	}
+
+	7026.1.2 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_2_7_spouse = {
+	name = Hopea
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6911.7.9 = {
+		birth = yes
+	}
+	trait = forgiving
+	trait = gregarious
+	trait = education_diplomacy_2
+
+	7027.1.16 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_2 - ruler 8 (Joutsi)
+fc_ailindalf_2_8 = {
+	name = Aikamieli
+	dynasty = dynasty_fc_joutsi
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_ailindalf_2_7
+	mother = fc_ailindalf_2_7_spouse
+
+	trait = vengeful
+	trait = zealous
+	trait = temperate
+	trait = education_intrigue_2
+	trait = lifestyle_hunter
+
+	6942.4.25 = {
+		birth = yes
+	}
+	6962.9.25 = {
+		add_spouse = fc_ailindalf_2_8_spouse
+	}
+
+	7103.7.17 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_2_8_spouse = {
+	name = Miela
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6946.5.17 = {
+		birth = yes
+	}
+	trait = impatient
+	trait = patient
+	trait = education_intrigue_2
+
+	7111.5.2 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_3 - ruler 1 (Varpula)
+fc_ailindalf_3_1 = {
+	name = Kultavaino
+	dynasty = dynasty_fc_varpula
+	religion = faith_lossoth
+	culture = lossoth
+
+	trait = calm
+	trait = diligent
+	trait = vengeful
+	trait = education_diplomacy_2
+	trait = lifestyle_hunter
+
+	6694.2.27 = {
+		birth = yes
+	}
+	6714.3.3 = {
+		add_spouse = fc_ailindalf_3_1_spouse
+	}
+
+	6767.4.16 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_3_1_spouse = {
+	name = Kivutar
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6696.5.20 = {
+		birth = yes
+	}
+	trait = temperate
+	trait = brave
+	trait = education_diplomacy_2
+
+	6765.8.10 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_3 - ruler 2 (Varpula)
+fc_ailindalf_3_2 = {
+	name = Utujoutsi
+	dynasty = dynasty_fc_varpula
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_ailindalf_3_1
+	mother = fc_ailindalf_3_1_spouse
+
+	trait = temperate
+	trait = zealous
+	trait = trusting
+	trait = education_stewardship_3
+	trait = lifestyle_mariner
+
+	6721.10.4 = {
+		birth = yes
+	}
+	6742.11.24 = {
+		add_spouse = fc_ailindalf_3_2_spouse
+	}
+
+	6803.5.19 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_3_2_spouse = {
+	name = Kukka
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6725.6.3 = {
+		birth = yes
+	}
+	trait = zealous
+	trait = ambitious
+	trait = education_martial_2
+
+	6807.1.9 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_3 - ruler 3 (Varpula)
+fc_ailindalf_3_3 = {
+	name = Tapio
+	dynasty = dynasty_fc_varpula
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_ailindalf_3_2
+	mother = fc_ailindalf_3_2_spouse
+
+	trait = gregarious
+	trait = diligent
+	trait = calm
+	trait = education_stewardship_3
+	trait = lifestyle_mariner
+
+	6748.4.9 = {
+		birth = yes
+	}
+	6768.11.18 = {
+		add_spouse = fc_ailindalf_3_3_spouse
+	}
+
+	6852.11.22 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_3_3_spouse = {
+	name = Aamu
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6746.6.8 = {
+		birth = yes
+	}
+	trait = content
+	trait = humble
+	trait = education_intrigue_2
+
+	6849.6.7 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_3 - ruler 4 (Suvanto)
+fc_ailindalf_3_4 = {
+	name = Vihavaino
+	dynasty = dynasty_fc_suvanto
+	religion = faith_lossoth
+	culture = lossoth
+
+	trait = humble
+	trait = forgiving
+	trait = vengeful
+	trait = education_martial_2
+	trait = lifestyle_hunter
+
+	6812.6.5 = {
+		birth = yes
+	}
+	6831.2.27 = {
+		add_spouse = fc_ailindalf_3_4_spouse
+	}
+
+	6908.7.7 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_3_4_spouse = {
+	name = Pihla
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6808.2.23 = {
+		birth = yes
+	}
+	trait = temperate
+	trait = zealous
+	trait = education_martial_3
+
+	6920.9.11 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_3 - ruler 5 (Suvanto)
+fc_ailindalf_3_5 = {
+	name = Kotarikko
+	dynasty = dynasty_fc_suvanto
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_ailindalf_3_4
+	mother = fc_ailindalf_3_4_spouse
+
+	trait = trusting
+	trait = temperate
+	trait = content
+	trait = education_diplomacy_2
+	trait = lifestyle_mariner
+
+	6837.1.24 = {
+		birth = yes
+	}
+	6856.8.25 = {
+		add_spouse = fc_ailindalf_3_5_spouse
+	}
+
+	6947.12.15 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_3_5_spouse = {
+	name = Lemmikki
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6836.6.24 = {
+		birth = yes
+	}
+	trait = ambitious
+	trait = diligent
+	trait = education_intrigue_2
+
+	6952.8.2 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_3 - ruler 6 (Suvanto)
+fc_ailindalf_3_6 = {
+	name = Toivo
+	dynasty = dynasty_fc_suvanto
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_ailindalf_3_5
+	mother = fc_ailindalf_3_5_spouse
+
+	trait = impatient
+	trait = patient
+	trait = temperate
+	trait = education_learning_2
+	trait = lifestyle_mariner
+
+	6868.11.6 = {
+		birth = yes
+	}
+	6887.2.14 = {
+		add_spouse = fc_ailindalf_3_6_spouse
+	}
+
+	7001.3.16 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_3_6_spouse = {
+	name = Toivikki
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6866.10.13 = {
+		birth = yes
+	}
+	trait = content
+	trait = vengeful
+	trait = education_intrigue_2
+
+	6996.7.23 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_3 - ruler 7 (Suvanto)
+fc_ailindalf_3_7 = {
+	name = Tervahartia
+	dynasty = dynasty_fc_suvanto
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_ailindalf_3_6
+	mother = fc_ailindalf_3_6_spouse
+
+	trait = honest
+	trait = trusting
+	trait = calm
+	trait = education_martial_2
+	trait = lifestyle_mariner
+
+	6898.2.17 = {
+		birth = yes
+	}
+	6917.10.20 = {
+		add_spouse = fc_ailindalf_3_7_spouse
+	}
+
+	7103.2.1 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_3_7_spouse = {
+	name = Suvituuli
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6900.7.25 = {
+		birth = yes
+	}
+	trait = calm
+	trait = diligent
+	trait = education_stewardship_3
+
+	7114.9.27 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_5 - ruler 1 (Hankala)
+fc_ailindalf_5_1 = {
+	name = Pihla
+	female = yes
+	dynasty = dynasty_fc_hankala
+	religion = faith_lossoth
+	culture = lossoth
+
+	trait = diligent
+	trait = temperate
+	trait = zealous
+	trait = education_diplomacy_2
+	trait = lifestyle_hunter
+
+	6706.10.1 = {
+		birth = yes
+	}
+	6724.5.12 = {
+		add_spouse = fc_ailindalf_5_1_spouse
+	}
+
+	6786.12.14 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_5_1_spouse = {
+	name = Lempivaino
+	religion = faith_lossoth
+	culture = lossoth
+
+	6710.12.1 = {
+		birth = yes
+	}
+	trait = impatient
+	trait = trusting
+	trait = education_diplomacy_2
+
+	6794.4.8 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_5 - ruler 2 (Hankala)
+fc_ailindalf_5_2 = {
+	name = Utujoutsi
+	dynasty = dynasty_fc_hankala
+	religion = faith_lossoth
+	culture = lossoth
+
+	mother = fc_ailindalf_5_1
+	father = fc_ailindalf_5_1_spouse
+
+	trait = ambitious
+	trait = vengeful
+	trait = patient
+	trait = education_diplomacy_2
+	trait = lifestyle_mariner
+
+	6737.9.15 = {
+		birth = yes
+	}
+	6758.6.20 = {
+		add_spouse = fc_ailindalf_5_2_spouse
+	}
+
+	6837.10.20 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_5_2_spouse = {
+	name = Tuulikki
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6736.9.10 = {
+		birth = yes
+	}
+	trait = vengeful
+	trait = trusting
+	trait = education_intrigue_2
+
+	6833.9.3 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_5 - ruler 3 (Hankala)
+fc_ailindalf_5_3 = {
+	name = Oiva
+	dynasty = dynasty_fc_hankala
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_ailindalf_5_2
+	mother = fc_ailindalf_5_2_spouse
+
+	trait = vengeful
+	trait = trusting
+	trait = patient
+	trait = education_diplomacy_2
+	trait = lifestyle_hunter
+
+	6765.10.21 = {
+		birth = yes
+	}
+	6784.12.20 = {
+		add_spouse = fc_ailindalf_5_3_spouse
+	}
+
+	6886.11.13 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_5_3_spouse = {
+	name = Maija
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6765.1.15 = {
+		birth = yes
+	}
+	trait = stubborn
+	trait = temperate
+	trait = education_intrigue_2
+
+	6883.5.14 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_5 - ruler 4 (Hankala)
+fc_ailindalf_5_4 = {
+	name = Kalevi
+	dynasty = dynasty_fc_hankala
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_ailindalf_5_3
+	mother = fc_ailindalf_5_3_spouse
+
+	trait = humble
+	trait = brave
+	trait = content
+	trait = education_learning_2
+	trait = lifestyle_hunter
+
+	6793.11.13 = {
+		birth = yes
+	}
+	6811.9.26 = {
+		add_spouse = fc_ailindalf_5_4_spouse
+	}
+
+	6923.10.23 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_5_4_spouse = {
+	name = Suoma
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6791.5.9 = {
+		birth = yes
+	}
+	trait = stubborn
+	trait = brave
+	trait = education_stewardship_2
+
+	6924.6.1 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_5 - ruler 5 (Jarvi)
+fc_ailindalf_5_5 = {
+	name = Osma
+	dynasty = dynasty_fc_jarvi
+	religion = faith_lossoth
+	culture = lossoth
+
+	trait = stubborn
+	trait = zealous
+	trait = temperate
+	trait = education_learning_2
+	trait = lifestyle_mariner
+
+	6883.9.3 = {
+		birth = yes
+	}
+	6904.2.10 = {
+		add_spouse = fc_ailindalf_5_5_spouse
+	}
+
+	6967.3.20 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_5_5_spouse = {
+	name = Terhi
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6880.3.13 = {
+		birth = yes
+	}
+	trait = brave
+	trait = diligent
+	trait = education_stewardship_2
+
+	6972.8.17 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_5 - ruler 6 (Jarvi)
+fc_ailindalf_5_6 = {
+	name = Kivutar
+	female = yes
+	dynasty = dynasty_fc_jarvi
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_ailindalf_5_5
+	mother = fc_ailindalf_5_5_spouse
+
+	trait = forgiving
+	trait = impatient
+	trait = brave
+	trait = education_learning_2
+	trait = lifestyle_hunter
+
+	6913.10.21 = {
+		birth = yes
+	}
+	6934.4.12 = {
+		add_spouse = fc_ailindalf_5_6_spouse
+	}
+
+	7012.7.20 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_5_6_spouse = {
+	name = Mielitoivo
+	religion = faith_lossoth
+	culture = lossoth
+
+	6917.12.18 = {
+		birth = yes
+	}
+	trait = calm
+	trait = patient
+	trait = education_stewardship_2
+
+	7015.12.7 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_5 - ruler 7 (Jarvi)
+fc_ailindalf_5_7 = {
+	name = Lempivaino
+	dynasty = dynasty_fc_jarvi
+	religion = faith_lossoth
+	culture = lossoth
+
+	mother = fc_ailindalf_5_6
+	father = fc_ailindalf_5_6_spouse
+
+	trait = diligent
+	trait = zealous
+	trait = content
+	trait = education_intrigue_2
+	trait = lifestyle_mariner
+
+	6940.3.1 = {
+		birth = yes
+	}
+	6959.1.28 = {
+		add_spouse = fc_ailindalf_5_7_spouse
+	}
+
+	7062.10.13 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_5_7_spouse = {
+	name = Tuulikki
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6939.8.12 = {
+		birth = yes
+	}
+	trait = brave
+	trait = zealous
+	trait = education_intrigue_2
+
+	7070.5.6 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_5 - ruler 8 (Jarvi)
+fc_ailindalf_5_8 = {
+	name = Arvo
+	dynasty = dynasty_fc_jarvi
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_ailindalf_5_7
+	mother = fc_ailindalf_5_7_spouse
+
+	trait = calm
+	trait = honest
+	trait = temperate
+	trait = education_stewardship_2
+	trait = lifestyle_mariner
+
+	6970.10.18 = {
+		birth = yes
+	}
+	6991.7.3 = {
+		add_spouse = fc_ailindalf_5_8_spouse
+	}
+
+	7103.3.9 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_5_8_spouse = {
+	name = Miela
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6970.1.22 = {
+		birth = yes
+	}
+	trait = stubborn
+	trait = patient
+	trait = education_intrigue_2
+
+	7105.5.19 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_8 - ruler 1 (Laakso)
+fc_ailindalf_8_1 = {
+	name = Jalo
+	dynasty = dynasty_fc_laakso
+	religion = faith_lossoth
+	culture = lossoth
+
+	trait = temperate
+	trait = gregarious
+	trait = ambitious
+	trait = education_martial_2
+	trait = lifestyle_hunter
+
+	6707.4.14 = {
+		birth = yes
+	}
+	6728.11.7 = {
+		add_spouse = fc_ailindalf_8_1_spouse
+	}
+
+	6794.2.2 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_8_1_spouse = {
+	name = Leinikka
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6706.1.16 = {
+		birth = yes
+	}
+	trait = forgiving
+	trait = content
+	trait = education_intrigue_2
+
+	6788.1.2 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_8 - ruler 2 (Laakso)
+fc_ailindalf_8_2 = {
+	name = Sampo
+	dynasty = dynasty_fc_laakso
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_ailindalf_8_1
+	mother = fc_ailindalf_8_1_spouse
+
+	trait = vengeful
+	trait = stubborn
+	trait = trusting
+	trait = education_intrigue_2
+	trait = lifestyle_mariner
+
+	6737.6.26 = {
+		birth = yes
+	}
+	6758.8.14 = {
+		add_spouse = fc_ailindalf_8_2_spouse
+	}
+
+	6830.5.17 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_8_2_spouse = {
+	name = Airikka
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6738.5.8 = {
+		birth = yes
+	}
+	trait = trusting
+	trait = brave
+	trait = education_stewardship_3
+
+	6838.8.28 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_8 - ruler 3 (Laakso)
+fc_ailindalf_8_3 = {
+	name = Yrjana
+	dynasty = dynasty_fc_laakso
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_ailindalf_8_2
+	mother = fc_ailindalf_8_2_spouse
+
+	trait = ambitious
+	trait = vengeful
+	trait = calm
+	trait = education_diplomacy_2
+	trait = lifestyle_hunter
+
+	6768.9.4 = {
+		birth = yes
+	}
+	6786.11.19 = {
+		add_spouse = fc_ailindalf_8_3_spouse
+	}
+
+	6875.3.20 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_8_3_spouse = {
+	name = Hopea
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6766.11.19 = {
+		birth = yes
+	}
+	trait = stubborn
+	trait = ambitious
+	trait = education_intrigue_2
+
+	6871.3.11 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_8 - ruler 4 (Korpela)
+fc_ailindalf_8_4 = {
+	name = Suvi
+	dynasty = dynasty_fc_korpela
+	religion = faith_lossoth
+	culture = lossoth
+
+	trait = forgiving
+	trait = impatient
+	trait = temperate
+	trait = education_martial_2
+	trait = lifestyle_hunter
+
+	6850.2.3 = {
+		birth = yes
+	}
+	6871.4.7 = {
+		add_spouse = fc_ailindalf_8_4_spouse
+	}
+
+	6919.4.18 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_8_4_spouse = {
+	name = Sisko
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6849.8.26 = {
+		birth = yes
+	}
+	trait = honest
+	trait = diligent
+	trait = education_stewardship_3
+
+	6930.1.25 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_8 - ruler 5 (Korpela)
+fc_ailindalf_8_5 = {
+	name = Mielitoivo
+	dynasty = dynasty_fc_korpela
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_ailindalf_8_4
+	mother = fc_ailindalf_8_4_spouse
+
+	trait = diligent
+	trait = honest
+	trait = vengeful
+	trait = education_stewardship_3
+	trait = lifestyle_hunter
+
+	6872.6.15 = {
+		birth = yes
+	}
+	6890.2.6 = {
+		add_spouse = fc_ailindalf_8_5_spouse
+	}
+
+	6953.9.5 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_8_5_spouse = {
+	name = Ilta
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6872.7.23 = {
+		birth = yes
+	}
+	trait = impatient
+	trait = gregarious
+	trait = education_stewardship_3
+
+	6959.2.4 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_8 - ruler 6 (Korpela)
+fc_ailindalf_8_6 = {
+	name = Untamo
+	dynasty = dynasty_fc_korpela
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_ailindalf_8_5
+	mother = fc_ailindalf_8_5_spouse
+
+	trait = humble
+	trait = stubborn
+	trait = impatient
+	trait = education_martial_3
+	trait = lifestyle_mariner
+
+	6899.11.28 = {
+		birth = yes
+	}
+	6920.3.19 = {
+		add_spouse = fc_ailindalf_8_6_spouse
+	}
+
+	6994.7.18 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_8_6_spouse = {
+	name = Aili
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6895.4.16 = {
+		birth = yes
+	}
+	trait = humble
+	trait = patient
+	trait = education_martial_2
+
+	6991.10.26 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_8 - ruler 7 (Korpela)
+fc_ailindalf_8_7 = {
+	name = Kultavaino
+	dynasty = dynasty_fc_korpela
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_ailindalf_8_6
+	mother = fc_ailindalf_8_6_spouse
+
+	trait = brave
+	trait = forgiving
+	trait = calm
+	trait = education_intrigue_2
+	trait = lifestyle_mariner
+
+	6921.2.16 = {
+		birth = yes
+	}
+	6940.4.7 = {
+		add_spouse = fc_ailindalf_8_7_spouse
+	}
+
+	7103.10.16 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_8_7_spouse = {
+	name = Suvi
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6923.2.15 = {
+		birth = yes
+	}
+	trait = humble
+	trait = zealous
+	trait = education_martial_2
+
+	7100.11.10 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_9 - ruler 1 (Revontuli)
+fc_ailindalf_9_1 = {
+	name = Mielitoivo
+	dynasty = dynasty_fc_revontuli
+	religion = faith_lossoth
+	culture = lossoth
+
+	trait = zealous
+	trait = honest
+	trait = ambitious
+	trait = education_intrigue_2
+	trait = lifestyle_hunter
+
+	6674.11.2 = {
+		birth = yes
+	}
+	6693.10.21 = {
+		add_spouse = fc_ailindalf_9_1_spouse
+	}
+
+	6741.10.15 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_9_1_spouse = {
+	name = Sisko
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6673.2.20 = {
+		birth = yes
+	}
+	trait = vengeful
+	trait = content
+	trait = education_stewardship_2
+
+	6742.7.11 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_9 - ruler 2 (Revontuli)
+fc_ailindalf_9_2 = {
+	name = Miela
+	dynasty = dynasty_fc_revontuli
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_ailindalf_9_1
+	mother = fc_ailindalf_9_1_spouse
+
+	trait = ambitious
+	trait = humble
+	trait = brave
+	trait = education_stewardship_3
+	trait = lifestyle_hunter
+
+	6705.2.8 = {
+		birth = yes
+	}
+	6725.9.28 = {
+		add_spouse = fc_ailindalf_9_2_spouse
+	}
+
+	6796.10.21 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_9_2_spouse = {
+	name = Tuovi
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6708.1.19 = {
+		birth = yes
+	}
+	trait = impatient
+	trait = trusting
+	trait = education_learning_2
+
+	6806.1.28 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_9 - ruler 3 (Revontuli)
+fc_ailindalf_9_3 = {
+	name = Onni
+	dynasty = dynasty_fc_revontuli
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_ailindalf_9_2
+	mother = fc_ailindalf_9_2_spouse
+
+	trait = trusting
+	trait = content
+	trait = impatient
+	trait = education_martial_2
+	trait = lifestyle_mariner
+
+	6732.7.10 = {
+		birth = yes
+	}
+	6752.2.4 = {
+		add_spouse = fc_ailindalf_9_3_spouse
+	}
+
+	6836.8.28 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_9_3_spouse = {
+	name = Vanamo
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6732.4.1 = {
+		birth = yes
+	}
+	trait = humble
+	trait = gregarious
+	trait = education_diplomacy_2
+
+	6830.5.25 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_9 - ruler 4 (Revontuli)
+fc_ailindalf_9_4 = {
+	name = Toivo
+	dynasty = dynasty_fc_revontuli
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_ailindalf_9_3
+	mother = fc_ailindalf_9_3_spouse
+
+	trait = zealous
+	trait = patient
+	trait = temperate
+	trait = education_learning_2
+	trait = lifestyle_hunter
+
+	6755.12.13 = {
+		birth = yes
+	}
+	6776.7.20 = {
+		add_spouse = fc_ailindalf_9_4_spouse
+	}
+
+	6877.11.14 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_9_4_spouse = {
+	name = Mielikki
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6751.12.7 = {
+		birth = yes
+	}
+	trait = impatient
+	trait = diligent
+	trait = education_learning_2
+
+	6883.5.3 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_9 - ruler 5 (Sarkela)
+fc_ailindalf_9_5 = {
+	name = Lempo
+	dynasty = dynasty_fc_sarkela
+	religion = faith_lossoth
+	culture = lossoth
+
+	trait = humble
+	trait = patient
+	trait = forgiving
+	trait = education_martial_2
+	trait = lifestyle_mariner
+
+	6853.6.14 = {
+		birth = yes
+	}
+	6872.3.23 = {
+		add_spouse = fc_ailindalf_9_5_spouse
+	}
+
+	6922.12.15 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_9_5_spouse = {
+	name = Lempi
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6857.4.27 = {
+		birth = yes
+	}
+	trait = content
+	trait = patient
+	trait = education_intrigue_2
+
+	6917.5.10 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_9 - ruler 6 (Sarkela)
+fc_ailindalf_9_6 = {
+	name = Lyylikki
+	female = yes
+	dynasty = dynasty_fc_sarkela
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_ailindalf_9_5
+	mother = fc_ailindalf_9_5_spouse
+
+	trait = content
+	trait = impatient
+	trait = forgiving
+	trait = education_martial_2
+	trait = lifestyle_hunter
+
+	6878.1.17 = {
+		birth = yes
+	}
+	6899.12.21 = {
+		add_spouse = fc_ailindalf_9_6_spouse
+	}
+
+	6965.9.3 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_9_6_spouse = {
+	name = Osmo
+	religion = faith_lossoth
+	culture = lossoth
+
+	6878.3.14 = {
+		birth = yes
+	}
+	trait = forgiving
+	trait = vengeful
+	trait = education_martial_2
+
+	6977.1.10 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_9 - ruler 7 (Sarkela)
+fc_ailindalf_9_7 = {
+	name = Leino
+	dynasty = dynasty_fc_sarkela
+	religion = faith_lossoth
+	culture = lossoth
+
+	mother = fc_ailindalf_9_6
+	father = fc_ailindalf_9_6_spouse
+
+	trait = content
+	trait = zealous
+	trait = calm
+	trait = education_intrigue_2
+	trait = lifestyle_mariner
+
+	6906.6.9 = {
+		birth = yes
+	}
+	6925.4.17 = {
+		add_spouse = fc_ailindalf_9_7_spouse
+	}
+
+	7002.5.20 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_9_7_spouse = {
+	name = Vanamo
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6910.2.28 = {
+		birth = yes
+	}
+	trait = forgiving
+	trait = calm
+	trait = education_learning_2
+
+	7007.6.22 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_9 - ruler 8 (Sarkela)
+fc_ailindalf_9_8 = {
+	name = Mielitoivo
+	dynasty = dynasty_fc_sarkela
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_ailindalf_9_7
+	mother = fc_ailindalf_9_7_spouse
+
+	trait = temperate
+	trait = patient
+	trait = diligent
+	trait = education_learning_2
+	trait = lifestyle_hunter
+
+	6933.11.23 = {
+		birth = yes
+	}
+	6953.3.14 = {
+		add_spouse = fc_ailindalf_9_8_spouse
+	}
+
+	7103.6.1 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_9_8_spouse = {
+	name = Aamu
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6936.9.27 = {
+		birth = yes
+	}
+	trait = ambitious
+	trait = impatient
+	trait = education_martial_2
+
+	7111.3.18 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_10 - ruler 1 (Tunturila)
+fc_ailindalf_10_1 = {
+	name = Sotijalo
+	dynasty = dynasty_fc_tunturila
+	religion = faith_lossoth
+	culture = lossoth
+
+	trait = diligent
+	trait = calm
+	trait = content
+	trait = education_martial_2
+	trait = lifestyle_mariner
+
+	6686.7.24 = {
+		birth = yes
+	}
+	6706.8.5 = {
+		add_spouse = fc_ailindalf_10_1_spouse
+	}
+
+	6748.4.7 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_10_1_spouse = {
+	name = Ilta
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6689.1.7 = {
+		birth = yes
+	}
+	trait = brave
+	trait = ambitious
+	trait = education_martial_3
+
+	6744.3.1 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_10 - ruler 2 (Tunturila)
+fc_ailindalf_10_2 = {
+	name = Arijoutsi
+	dynasty = dynasty_fc_tunturila
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_ailindalf_10_1
+	mother = fc_ailindalf_10_1_spouse
+
+	trait = gregarious
+	trait = diligent
+	trait = vengeful
+	trait = education_diplomacy_2
+	trait = lifestyle_mariner
+
+	6717.10.4 = {
+		birth = yes
+	}
+	6736.11.26 = {
+		add_spouse = fc_ailindalf_10_2_spouse
+	}
+
+	6796.2.12 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_10_2_spouse = {
+	name = Kanerva
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6720.4.19 = {
+		birth = yes
+	}
+	trait = brave
+	trait = zealous
+	trait = education_learning_2
+
+	6795.5.20 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_10 - ruler 3 (Tunturila)
+fc_ailindalf_10_3 = {
+	name = Lempo
+	dynasty = dynasty_fc_tunturila
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_ailindalf_10_2
+	mother = fc_ailindalf_10_2_spouse
+
+	trait = forgiving
+	trait = gregarious
+	trait = content
+	trait = education_diplomacy_2
+	trait = lifestyle_hunter
+
+	6740.1.8 = {
+		birth = yes
+	}
+	6761.6.1 = {
+		add_spouse = fc_ailindalf_10_3_spouse
+	}
+
+	6840.3.18 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_10_3_spouse = {
+	name = Pihla
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6737.9.18 = {
+		birth = yes
+	}
+	trait = humble
+	trait = brave
+	trait = education_learning_2
+
+	6852.7.18 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_10 - ruler 4 (Ulvila)
+fc_ailindalf_10_4 = {
+	name = Alli
+	female = yes
+	dynasty = dynasty_fc_ulvila
+	religion = faith_lossoth
+	culture = lossoth
+
+	trait = stubborn
+	trait = ambitious
+	trait = honest
+	trait = education_intrigue_2
+	trait = lifestyle_mariner
+
+	6803.12.24 = {
+		birth = yes
+	}
+	6821.11.2 = {
+		add_spouse = fc_ailindalf_10_4_spouse
+	}
+
+	6876.4.16 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_10_4_spouse = {
+	name = Tyyni
+	religion = faith_lossoth
+	culture = lossoth
+
+	6800.1.25 = {
+		birth = yes
+	}
+	trait = impatient
+	trait = stubborn
+	trait = education_learning_2
+
+	6883.12.13 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_10 - ruler 5 (Ulvila)
+fc_ailindalf_10_5 = {
+	name = Arijoutsi
+	dynasty = dynasty_fc_ulvila
+	religion = faith_lossoth
+	culture = lossoth
+
+	mother = fc_ailindalf_10_4
+	father = fc_ailindalf_10_4_spouse
+
+	trait = diligent
+	trait = patient
+	trait = gregarious
+	trait = education_stewardship_2
+	trait = lifestyle_hunter
+
+	6826.6.15 = {
+		birth = yes
+	}
+	6845.6.27 = {
+		add_spouse = fc_ailindalf_10_5_spouse
+	}
+
+	6922.8.3 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_10_5_spouse = {
+	name = Mahla
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6826.8.1 = {
+		birth = yes
+	}
+	trait = forgiving
+	trait = brave
+	trait = education_diplomacy_2
+
+	6920.2.2 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_10 - ruler 6 (Ulvila)
+fc_ailindalf_10_6 = {
+	name = Aamu
+	female = yes
+	dynasty = dynasty_fc_ulvila
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_ailindalf_10_5
+	mother = fc_ailindalf_10_5_spouse
+
+	trait = ambitious
+	trait = zealous
+	trait = honest
+	trait = education_stewardship_3
+	trait = lifestyle_hunter
+
+	6848.8.19 = {
+		birth = yes
+	}
+	6867.3.2 = {
+		add_spouse = fc_ailindalf_10_6_spouse
+	}
+
+	6967.4.2 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_10_6_spouse = {
+	name = Osmo
+	religion = faith_lossoth
+	culture = lossoth
+
+	6852.2.5 = {
+		birth = yes
+	}
+	trait = calm
+	trait = zealous
+	trait = education_martial_2
+
+	6975.12.13 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_ailindalf_10 - ruler 7 (Ulvila)
+fc_ailindalf_10_7 = {
+	name = Tapio
+	dynasty = dynasty_fc_ulvila
+	religion = faith_lossoth
+	culture = lossoth
+
+	mother = fc_ailindalf_10_6
+	father = fc_ailindalf_10_6_spouse
+
+	trait = calm
+	trait = forgiving
+	trait = diligent
+	trait = education_diplomacy_2
+	trait = lifestyle_hunter
+
+	6871.8.17 = {
+		birth = yes
+	}
+	6891.8.7 = {
+		add_spouse = fc_ailindalf_10_7_spouse
+	}
+
+	7103.8.2 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_ailindalf_10_7_spouse = {
+	name = Aino
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6867.5.9 = {
+		birth = yes
+	}
+	trait = zealous
+	trait = content
+	trait = education_diplomacy_2
+
+	7108.9.20 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_lindalf_1 - ruler 1 (Vesala)
+fc_lindalf_1_1 = {
+	name = Satatieto
+	dynasty = dynasty_fc_vesala
+	religion = faith_lossoth
+	culture = lossoth
+
+	trait = diligent
+	trait = temperate
+	trait = forgiving
+	trait = education_martial_3
+	trait = lifestyle_hunter
+
+	6686.1.17 = {
+		birth = yes
+	}
+	6704.10.5 = {
+		add_spouse = fc_lindalf_1_1_spouse
+	}
+
+	6757.12.27 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_lindalf_1_1_spouse = {
+	name = Rauha
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6690.10.11 = {
+		birth = yes
+	}
+	trait = impatient
+	trait = temperate
+	trait = education_martial_3
+
+	6758.9.14 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_lindalf_1 - ruler 2 (Vesala)
+fc_lindalf_1_2 = {
+	name = Aimo
+	dynasty = dynasty_fc_vesala
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_lindalf_1_1
+	mother = fc_lindalf_1_1_spouse
+
+	trait = vengeful
+	trait = gregarious
+	trait = ambitious
+	trait = education_learning_2
+	trait = lifestyle_hunter
+
+	6708.6.28 = {
+		birth = yes
+	}
+	6727.6.7 = {
+		add_spouse = fc_lindalf_1_2_spouse
+	}
+
+	6803.2.28 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_lindalf_1_2_spouse = {
+	name = Suvituuli
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6706.9.15 = {
+		birth = yes
+	}
+	trait = vengeful
+	trait = diligent
+	trait = education_learning_2
+
+	6797.7.15 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_lindalf_1 - ruler 3 (Vesala)
+fc_lindalf_1_3 = {
+	name = Sotijalo
+	dynasty = dynasty_fc_vesala
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_lindalf_1_2
+	mother = fc_lindalf_1_2_spouse
+
+	trait = forgiving
+	trait = calm
+	trait = diligent
+	trait = education_intrigue_2
+	trait = lifestyle_mariner
+
+	6731.2.17 = {
+		birth = yes
+	}
+	6752.6.26 = {
+		add_spouse = fc_lindalf_1_3_spouse
+	}
+
+	6844.9.20 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_lindalf_1_3_spouse = {
+	name = Kukka
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6729.2.15 = {
+		birth = yes
+	}
+	trait = honest
+	trait = content
+	trait = education_martial_3
+
+	6840.6.8 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_lindalf_1 - ruler 4 (Vesala)
+fc_lindalf_1_4 = {
+	name = Osmo
+	dynasty = dynasty_fc_vesala
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_lindalf_1_3
+	mother = fc_lindalf_1_3_spouse
+
+	trait = impatient
+	trait = diligent
+	trait = calm
+	trait = education_learning_2
+	trait = lifestyle_hunter
+
+	6757.6.11 = {
+		birth = yes
+	}
+	6778.8.5 = {
+		add_spouse = fc_lindalf_1_4_spouse
+	}
+
+	6884.5.4 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_lindalf_1_4_spouse = {
+	name = Rauha
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6759.11.20 = {
+		birth = yes
+	}
+	trait = diligent
+	trait = impatient
+	trait = education_intrigue_2
+
+	6886.6.25 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_lindalf_1 - ruler 5 (Ahmala)
+fc_lindalf_1_5 = {
+	name = Osmo
+	dynasty = dynasty_fc_ahmala
+	religion = faith_lossoth
+	culture = lossoth
+
+	trait = content
+	trait = zealous
+	trait = brave
+	trait = education_stewardship_3
+	trait = lifestyle_hunter
+
+	6849.1.14 = {
+		birth = yes
+	}
+	6867.11.16 = {
+		add_spouse = fc_lindalf_1_5_spouse
+	}
+
+	6932.8.6 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_lindalf_1_5_spouse = {
+	name = Ilta
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6845.12.23 = {
+		birth = yes
+	}
+	trait = content
+	trait = impatient
+	trait = education_intrigue_2
+
+	6928.3.19 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_lindalf_1 - ruler 6 (Ahmala)
+fc_lindalf_1_6 = {
+	name = Ahti
+	dynasty = dynasty_fc_ahmala
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_lindalf_1_5
+	mother = fc_lindalf_1_5_spouse
+
+	trait = gregarious
+	trait = honest
+	trait = calm
+	trait = education_stewardship_2
+	trait = lifestyle_hunter
+
+	6874.4.12 = {
+		birth = yes
+	}
+	6892.1.5 = {
+		add_spouse = fc_lindalf_1_6_spouse
+	}
+
+	6976.3.23 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_lindalf_1_6_spouse = {
+	name = Ilta
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6875.3.8 = {
+		birth = yes
+	}
+	trait = diligent
+	trait = vengeful
+	trait = education_martial_2
+
+	6988.10.9 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_lindalf_1 - ruler 7 (Ahmala)
+fc_lindalf_1_7 = {
+	name = Arijoutsi
+	dynasty = dynasty_fc_ahmala
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_lindalf_1_6
+	mother = fc_lindalf_1_6_spouse
+
+	trait = ambitious
+	trait = forgiving
+	trait = patient
+	trait = education_martial_2
+	trait = lifestyle_mariner
+
+	6898.4.27 = {
+		birth = yes
+	}
+	6916.7.15 = {
+		add_spouse = fc_lindalf_1_7_spouse
+	}
+
+	7026.4.28 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_lindalf_1_7_spouse = {
+	name = Sisko
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6902.10.6 = {
+		birth = yes
+	}
+	trait = honest
+	trait = ambitious
+	trait = education_learning_2
+
+	7031.6.24 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_lindalf_1 - ruler 8 (Ahmala)
+fc_lindalf_1_8 = {
+	name = Kaukovalta
+	dynasty = dynasty_fc_ahmala
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_lindalf_1_7
+	mother = fc_lindalf_1_7_spouse
+
+	trait = ambitious
+	trait = patient
+	trait = humble
+	trait = education_intrigue_2
+	trait = lifestyle_hunter
+
+	6923.5.23 = {
+		birth = yes
+	}
+	6942.2.25 = {
+		add_spouse = fc_lindalf_1_8_spouse
+	}
+
+	7103.1.1 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_lindalf_1_8_spouse = {
+	name = Kukka
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6919.9.10 = {
+		birth = yes
+	}
+	trait = calm
+	trait = vengeful
+	trait = education_diplomacy_2
+
+	7101.3.15 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_calendalf_17 - ruler 1 (Peurala)
+fc_calendalf_17_1 = {
+	name = Utujoutsi
+	dynasty = dynasty_fc_peurala
+	religion = faith_lossoth
+	culture = lossoth
+
+	trait = patient
+	trait = trusting
+	trait = zealous
+	trait = education_diplomacy_2
+	trait = lifestyle_mariner
+
+	6695.4.8 = {
+		birth = yes
+	}
+	6713.2.8 = {
+		add_spouse = fc_calendalf_17_1_spouse
+	}
+
+	6761.4.21 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_calendalf_17_1_spouse = {
+	name = Alli
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6699.4.19 = {
+		birth = yes
+	}
+	trait = ambitious
+	trait = gregarious
+	trait = education_stewardship_3
+
+	6772.2.4 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_calendalf_17 - ruler 2 (Peurala)
+fc_calendalf_17_2 = {
+	name = Tyyni
+	dynasty = dynasty_fc_peurala
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_calendalf_17_1
+	mother = fc_calendalf_17_1_spouse
+
+	trait = gregarious
+	trait = content
+	trait = ambitious
+	trait = education_stewardship_2
+	trait = lifestyle_mariner
+
+	6718.8.3 = {
+		birth = yes
+	}
+	6737.6.23 = {
+		add_spouse = fc_calendalf_17_2_spouse
+	}
+
+	6807.4.4 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_calendalf_17_2_spouse = {
+	name = Aino
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6718.8.13 = {
+		birth = yes
+	}
+	trait = stubborn
+	trait = brave
+	trait = education_martial_3
+
+	6805.11.18 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_calendalf_17 - ruler 3 (Peurala)
+fc_calendalf_17_3 = {
+	name = Otso
+	dynasty = dynasty_fc_peurala
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_calendalf_17_2
+	mother = fc_calendalf_17_2_spouse
+
+	trait = honest
+	trait = impatient
+	trait = content
+	trait = education_stewardship_2
+	trait = lifestyle_hunter
+
+	6745.11.21 = {
+		birth = yes
+	}
+	6764.10.14 = {
+		add_spouse = fc_calendalf_17_3_spouse
+	}
+
+	6854.5.7 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_calendalf_17_3_spouse = {
+	name = Hopea
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6742.10.7 = {
+		birth = yes
+	}
+	trait = honest
+	trait = patient
+	trait = education_diplomacy_2
+
+	6862.3.12 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_calendalf_17 - ruler 4 (Karpalo)
+fc_calendalf_17_4 = {
+	name = Tyyni
+	dynasty = dynasty_fc_karpalo
+	religion = faith_lossoth
+	culture = lossoth
+
+	trait = humble
+	trait = stubborn
+	trait = zealous
+	trait = education_intrigue_2
+	trait = lifestyle_mariner
+
+	6820.6.8 = {
+		birth = yes
+	}
+	6838.11.20 = {
+		add_spouse = fc_calendalf_17_4_spouse
+	}
+
+	6907.2.22 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_calendalf_17_4_spouse = {
+	name = Ilta
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6817.9.12 = {
+		birth = yes
+	}
+	trait = content
+	trait = brave
+	trait = education_stewardship_3
+
+	6904.3.13 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_calendalf_17 - ruler 5 (Karpalo)
+fc_calendalf_17_5 = {
+	name = Havu
+	dynasty = dynasty_fc_karpalo
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_calendalf_17_4
+	mother = fc_calendalf_17_4_spouse
+
+	trait = content
+	trait = ambitious
+	trait = temperate
+	trait = education_diplomacy_2
+	trait = lifestyle_hunter
+
+	6848.2.21 = {
+		birth = yes
+	}
+	6869.11.7 = {
+		add_spouse = fc_calendalf_17_5_spouse
+	}
+
+	6946.2.3 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_calendalf_17_5_spouse = {
+	name = Mesi
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6845.8.10 = {
+		birth = yes
+	}
+	trait = patient
+	trait = vengeful
+	trait = education_stewardship_2
+
+	6955.10.7 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_calendalf_17 - ruler 6 (Karpalo)
+fc_calendalf_17_6 = {
+	name = Mielikki
+	female = yes
+	dynasty = dynasty_fc_karpalo
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_calendalf_17_5
+	mother = fc_calendalf_17_5_spouse
+
+	trait = impatient
+	trait = gregarious
+	trait = trusting
+	trait = education_diplomacy_2
+	trait = lifestyle_mariner
+
+	6877.8.20 = {
+		birth = yes
+	}
+	6897.1.25 = {
+		add_spouse = fc_calendalf_17_6_spouse
+	}
+
+	6983.12.8 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_calendalf_17_6_spouse = {
+	name = Vanamo
+	religion = faith_lossoth
+	culture = lossoth
+
+	6878.2.20 = {
+		birth = yes
+	}
+	trait = ambitious
+	trait = calm
+	trait = education_intrigue_2
+
+	6977.4.14 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_calendalf_17 - ruler 7 (Karpalo)
+fc_calendalf_17_7 = {
+	name = Ilmalempi
+	dynasty = dynasty_fc_karpalo
+	religion = faith_lossoth
+	culture = lossoth
+
+	mother = fc_calendalf_17_6
+	father = fc_calendalf_17_6_spouse
+
+	trait = calm
+	trait = trusting
+	trait = diligent
+	trait = education_martial_2
+	trait = lifestyle_mariner
+
+	6903.7.26 = {
+		birth = yes
+	}
+	6921.11.1 = {
+		add_spouse = fc_calendalf_17_7_spouse
+	}
+
+	7103.6.11 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_calendalf_17_7_spouse = {
+	name = Tuovi
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6899.12.4 = {
+		birth = yes
+	}
+	trait = diligent
+	trait = zealous
+	trait = education_learning_2
+
+	7107.12.4 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_calendalf_15 - ruler 1 (Naavala)
+fc_calendalf_15_1 = {
+	name = Toivo
+	dynasty = dynasty_fc_naavala
+	religion = faith_lossoth
+	culture = lossoth
+
+	trait = content
+	trait = calm
+	trait = temperate
+	trait = education_learning_2
+	trait = lifestyle_hunter
+
+	6708.10.6 = {
+		birth = yes
+	}
+	6726.2.4 = {
+		add_spouse = fc_calendalf_15_1_spouse
+	}
+
+	6768.9.2 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_calendalf_15_1_spouse = {
+	name = Mielikki
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6705.10.14 = {
+		birth = yes
+	}
+	trait = zealous
+	trait = ambitious
+	trait = education_stewardship_2
+
+	6777.10.19 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_calendalf_15 - ruler 2 (Naavala)
+fc_calendalf_15_2 = {
+	name = Jalo
+	dynasty = dynasty_fc_naavala
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_calendalf_15_1
+	mother = fc_calendalf_15_1_spouse
+
+	trait = vengeful
+	trait = diligent
+	trait = brave
+	trait = education_martial_3
+	trait = lifestyle_hunter
+
+	6731.5.17 = {
+		birth = yes
+	}
+	6751.12.24 = {
+		add_spouse = fc_calendalf_15_2_spouse
+	}
+
+	6819.7.16 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_calendalf_15_2_spouse = {
+	name = Lyylikki
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6733.12.15 = {
+		birth = yes
+	}
+	trait = honest
+	trait = patient
+	trait = education_martial_3
+
+	6827.9.14 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_calendalf_15 - ruler 3 (Naavala)
+fc_calendalf_15_3 = {
+	name = Miela
+	female = yes
+	dynasty = dynasty_fc_naavala
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_calendalf_15_2
+	mother = fc_calendalf_15_2_spouse
+
+	trait = patient
+	trait = stubborn
+	trait = diligent
+	trait = education_stewardship_3
+	trait = lifestyle_mariner
+
+	6761.6.17 = {
+		birth = yes
+	}
+	6779.5.9 = {
+		add_spouse = fc_calendalf_15_3_spouse
+	}
+
+	6869.12.25 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_calendalf_15_3_spouse = {
+	name = Aikamieli
+	religion = faith_lossoth
+	culture = lossoth
+
+	6757.1.10 = {
+		birth = yes
+	}
+	trait = vengeful
+	trait = stubborn
+	trait = education_stewardship_2
+
+	6869.8.28 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_calendalf_15 - ruler 4 (Naavala)
+fc_calendalf_15_4 = {
+	name = Kivutar
+	female = yes
+	dynasty = dynasty_fc_naavala
+	religion = faith_lossoth
+	culture = lossoth
+
+	mother = fc_calendalf_15_3
+	father = fc_calendalf_15_3_spouse
+
+	trait = trusting
+	trait = diligent
+	trait = calm
+	trait = education_intrigue_2
+	trait = lifestyle_mariner
+
+	6786.3.3 = {
+		birth = yes
+	}
+	6804.2.20 = {
+		add_spouse = fc_calendalf_15_4_spouse
+	}
+
+	6917.1.12 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_calendalf_15_4_spouse = {
+	name = Jalo
+	religion = faith_lossoth
+	culture = lossoth
+
+	6789.9.20 = {
+		birth = yes
+	}
+	trait = humble
+	trait = patient
+	trait = education_stewardship_2
+
+	6911.6.14 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_calendalf_15 - ruler 5 (Rannikko)
+fc_calendalf_15_5 = {
+	name = Tyyni
+	female = yes
+	dynasty = dynasty_fc_rannikko
+	religion = faith_lossoth
+	culture = lossoth
+
+	trait = patient
+	trait = diligent
+	trait = vengeful
+	trait = education_diplomacy_2
+	trait = lifestyle_mariner
+
+	6883.1.27 = {
+		birth = yes
+	}
+	6903.9.10 = {
+		add_spouse = fc_calendalf_15_5_spouse
+	}
+
+	6965.9.6 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_calendalf_15_5_spouse = {
+	name = Tervahartia
+	religion = faith_lossoth
+	culture = lossoth
+
+	6881.11.8 = {
+		birth = yes
+	}
+	trait = temperate
+	trait = humble
+	trait = education_martial_2
+
+	6967.7.22 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_calendalf_15 - ruler 6 (Rannikko)
+fc_calendalf_15_6 = {
+	name = Kultavaino
+	dynasty = dynasty_fc_rannikko
+	religion = faith_lossoth
+	culture = lossoth
+
+	mother = fc_calendalf_15_5
+	father = fc_calendalf_15_5_spouse
+
+	trait = humble
+	trait = zealous
+	trait = forgiving
+	trait = education_martial_2
+	trait = lifestyle_hunter
+
+	6908.6.16 = {
+		birth = yes
+	}
+	6927.7.18 = {
+		add_spouse = fc_calendalf_15_6_spouse
+	}
+
+	7009.4.11 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_calendalf_15_6_spouse = {
+	name = Pihla
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6909.9.15 = {
+		birth = yes
+	}
+	trait = diligent
+	trait = vengeful
+	trait = education_learning_2
+
+	7011.10.25 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_calendalf_15 - ruler 7 (Rannikko)
+fc_calendalf_15_7 = {
+	name = Mesi
+	female = yes
+	dynasty = dynasty_fc_rannikko
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_calendalf_15_6
+	mother = fc_calendalf_15_6_spouse
+
+	trait = content
+	trait = temperate
+	trait = honest
+	trait = education_martial_3
+	trait = lifestyle_mariner
+
+	6936.8.23 = {
+		birth = yes
+	}
+	6956.3.20 = {
+		add_spouse = fc_calendalf_15_7_spouse
+	}
+
+	7059.5.20 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_calendalf_15_7_spouse = {
+	name = Osma
+	religion = faith_lossoth
+	culture = lossoth
+
+	6938.9.7 = {
+		birth = yes
+	}
+	trait = trusting
+	trait = stubborn
+	trait = education_stewardship_3
+
+	7058.5.13 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_calendalf_15 - ruler 8 (Rannikko)
+fc_calendalf_15_8 = {
+	name = Lauri
+	dynasty = dynasty_fc_rannikko
+	religion = faith_lossoth
+	culture = lossoth
+
+	mother = fc_calendalf_15_7
+	father = fc_calendalf_15_7_spouse
+
+	trait = gregarious
+	trait = diligent
+	trait = humble
+	trait = education_intrigue_2
+	trait = lifestyle_hunter
+
+	6965.7.23 = {
+		birth = yes
+	}
+	6986.8.3 = {
+		add_spouse = fc_calendalf_15_8_spouse
+	}
+
+	7103.12.4 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_calendalf_15_8_spouse = {
+	name = Lauha
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6966.8.1 = {
+		birth = yes
+	}
+	trait = temperate
+	trait = diligent
+	trait = education_learning_2
+
+	7113.9.10 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_everdalf_8 - ruler 1 (Kallio)
+fc_everdalf_8_1 = {
+	name = Aimo
+	dynasty = dynasty_fc_kallio
+	religion = faith_lossoth
+	culture = lossoth
+
+	trait = honest
+	trait = vengeful
+	trait = zealous
+	trait = education_stewardship_2
+	trait = lifestyle_hunter
+
+	6707.12.14 = {
+		birth = yes
+	}
+	6725.5.17 = {
+		add_spouse = fc_everdalf_8_1_spouse
+	}
+
+	6780.6.12 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_everdalf_8_1_spouse = {
+	name = Pihla
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6703.3.17 = {
+		birth = yes
+	}
+	trait = impatient
+	trait = honest
+	trait = education_intrigue_2
+
+	6787.4.19 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_everdalf_8 - ruler 2 (Kallio)
+fc_everdalf_8_2 = {
+	name = Kanerva
+	female = yes
+	dynasty = dynasty_fc_kallio
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_everdalf_8_1
+	mother = fc_everdalf_8_1_spouse
+
+	trait = patient
+	trait = stubborn
+	trait = diligent
+	trait = education_martial_3
+	trait = lifestyle_hunter
+
+	6737.6.21 = {
+		birth = yes
+	}
+	6755.6.24 = {
+		add_spouse = fc_everdalf_8_2_spouse
+	}
+
+	6828.7.22 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_everdalf_8_2_spouse = {
+	name = Otso
+	religion = faith_lossoth
+	culture = lossoth
+
+	6741.10.23 = {
+		birth = yes
+	}
+	trait = content
+	trait = ambitious
+	trait = education_intrigue_2
+
+	6830.2.22 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_everdalf_8 - ruler 3 (Kallio)
+fc_everdalf_8_3 = {
+	name = Havu
+	dynasty = dynasty_fc_kallio
+	religion = faith_lossoth
+	culture = lossoth
+
+	mother = fc_everdalf_8_2
+	father = fc_everdalf_8_2_spouse
+
+	trait = humble
+	trait = impatient
+	trait = patient
+	trait = education_martial_3
+	trait = lifestyle_hunter
+
+	6759.1.21 = {
+		birth = yes
+	}
+	6780.6.2 = {
+		add_spouse = fc_everdalf_8_3_spouse
+	}
+
+	6878.12.15 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_everdalf_8_3_spouse = {
+	name = Aamu
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6757.7.19 = {
+		birth = yes
+	}
+	trait = calm
+	trait = patient
+	trait = education_diplomacy_2
+
+	6874.6.21 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_everdalf_8 - ruler 4 (Myrskyla)
+fc_everdalf_8_4 = {
+	name = Lempi
+	female = yes
+	dynasty = dynasty_fc_myrskyla
+	religion = faith_lossoth
+	culture = lossoth
+
+	trait = calm
+	trait = trusting
+	trait = brave
+	trait = education_diplomacy_2
+	trait = lifestyle_hunter
+
+	6850.10.9 = {
+		birth = yes
+	}
+	6869.10.6 = {
+		add_spouse = fc_everdalf_8_4_spouse
+	}
+
+	6933.2.2 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_everdalf_8_4_spouse = {
+	name = Miela
+	religion = faith_lossoth
+	culture = lossoth
+
+	6846.3.16 = {
+		birth = yes
+	}
+	trait = impatient
+	trait = humble
+	trait = education_martial_3
+
+	6929.4.2 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_everdalf_8 - ruler 5 (Myrskyla)
+fc_everdalf_8_5 = {
+	name = Miela
+	dynasty = dynasty_fc_myrskyla
+	religion = faith_lossoth
+	culture = lossoth
+
+	mother = fc_everdalf_8_4
+	father = fc_everdalf_8_4_spouse
+
+	trait = vengeful
+	trait = temperate
+	trait = trusting
+	trait = education_stewardship_3
+	trait = lifestyle_hunter
+
+	6880.9.17 = {
+		birth = yes
+	}
+	6900.2.13 = {
+		add_spouse = fc_everdalf_8_5_spouse
+	}
+
+	6989.1.17 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_everdalf_8_5_spouse = {
+	name = Tuovi
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6881.5.17 = {
+		birth = yes
+	}
+	trait = patient
+	trait = brave
+	trait = education_martial_3
+
+	6987.12.7 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_everdalf_8 - ruler 6 (Myrskyla)
+fc_everdalf_8_6 = {
+	name = Taimi
+	female = yes
+	dynasty = dynasty_fc_myrskyla
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_everdalf_8_5
+	mother = fc_everdalf_8_5_spouse
+
+	trait = content
+	trait = brave
+	trait = impatient
+	trait = education_stewardship_2
+	trait = lifestyle_mariner
+
+	6910.4.16 = {
+		birth = yes
+	}
+	6931.4.26 = {
+		add_spouse = fc_everdalf_8_6_spouse
+	}
+
+	7027.12.28 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_everdalf_8_6_spouse = {
+	name = Venemies
+	religion = faith_lossoth
+	culture = lossoth
+
+	6910.5.8 = {
+		birth = yes
+	}
+	trait = patient
+	trait = impatient
+	trait = education_intrigue_2
+
+	7024.6.23 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_everdalf_8 - ruler 7 (Myrskyla)
+fc_everdalf_8_7 = {
+	name = Sotijalo
+	dynasty = dynasty_fc_myrskyla
+	religion = faith_lossoth
+	culture = lossoth
+
+	mother = fc_everdalf_8_6
+	father = fc_everdalf_8_6_spouse
+
+	trait = vengeful
+	trait = honest
+	trait = forgiving
+	trait = education_stewardship_2
+	trait = lifestyle_hunter
+
+	6939.9.8 = {
+		birth = yes
+	}
+	6958.9.8 = {
+		add_spouse = fc_everdalf_8_7_spouse
+	}
+
+	7103.10.17 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_everdalf_8_7_spouse = {
+	name = Talvikki
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6939.10.26 = {
+		birth = yes
+	}
+	trait = vengeful
+	trait = patient
+	trait = education_stewardship_3
+
+	7098.5.12 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_everdalf_9 - ruler 1 (Aallokko)
+fc_everdalf_9_1 = {
+	name = Ihamieli
+	dynasty = dynasty_fc_aallokko
+	religion = faith_lossoth
+	culture = lossoth
+
+	trait = humble
+	trait = patient
+	trait = temperate
+	trait = education_learning_2
+	trait = lifestyle_hunter
+
+	6677.6.5 = {
+		birth = yes
+	}
+	6698.10.16 = {
+		add_spouse = fc_everdalf_9_1_spouse
+	}
+
+	6760.4.5 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_everdalf_9_1_spouse = {
+	name = Kukka
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6681.10.1 = {
+		birth = yes
+	}
+	trait = temperate
+	trait = gregarious
+	trait = education_learning_2
+
+	6767.3.26 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_everdalf_9 - ruler 2 (Aallokko)
+fc_everdalf_9_2 = {
+	name = Lempivalta
+	dynasty = dynasty_fc_aallokko
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_everdalf_9_1
+	mother = fc_everdalf_9_1_spouse
+
+	trait = calm
+	trait = trusting
+	trait = honest
+	trait = education_stewardship_2
+	trait = lifestyle_mariner
+
+	6700.1.13 = {
+		birth = yes
+	}
+	6719.9.12 = {
+		add_spouse = fc_everdalf_9_2_spouse
+	}
+
+	6799.12.28 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_everdalf_9_2_spouse = {
+	name = Airikka
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6704.8.2 = {
+		birth = yes
+	}
+	trait = trusting
+	trait = brave
+	trait = education_stewardship_3
+
+	6810.4.28 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_everdalf_9 - ruler 3 (Aallokko)
+fc_everdalf_9_3 = {
+	name = Kalpa
+	dynasty = dynasty_fc_aallokko
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_everdalf_9_2
+	mother = fc_everdalf_9_2_spouse
+
+	trait = honest
+	trait = forgiving
+	trait = stubborn
+	trait = education_stewardship_2
+	trait = lifestyle_mariner
+
+	6723.11.4 = {
+		birth = yes
+	}
+	6742.4.23 = {
+		add_spouse = fc_everdalf_9_3_spouse
+	}
+
+	6836.8.22 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_everdalf_9_3_spouse = {
+	name = Suoma
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6724.10.6 = {
+		birth = yes
+	}
+	trait = calm
+	trait = brave
+	trait = education_stewardship_3
+
+	6841.5.26 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_everdalf_9 - ruler 4 (Aallokko)
+fc_everdalf_9_4 = {
+	name = Otso
+	dynasty = dynasty_fc_aallokko
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_everdalf_9_3
+	mother = fc_everdalf_9_3_spouse
+
+	trait = gregarious
+	trait = impatient
+	trait = calm
+	trait = education_diplomacy_2
+	trait = lifestyle_mariner
+
+	6752.5.12 = {
+		birth = yes
+	}
+	6770.10.9 = {
+		add_spouse = fc_everdalf_9_4_spouse
+	}
+
+	6871.9.27 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_everdalf_9_4_spouse = {
+	name = Taimi
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6753.2.20 = {
+		birth = yes
+	}
+	trait = content
+	trait = stubborn
+	trait = education_intrigue_2
+
+	6867.1.12 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_everdalf_9 - ruler 5 (Pihlaja)
+fc_everdalf_9_5 = {
+	name = Arijoutsi
+	dynasty = dynasty_fc_pihlaja
+	religion = faith_lossoth
+	culture = lossoth
+
+	trait = zealous
+	trait = stubborn
+	trait = honest
+	trait = education_intrigue_2
+	trait = lifestyle_mariner
+
+	6840.6.5 = {
+		birth = yes
+	}
+	6859.9.5 = {
+		add_spouse = fc_everdalf_9_5_spouse
+	}
+
+	6922.8.13 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_everdalf_9_5_spouse = {
+	name = Alli
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6840.6.23 = {
+		birth = yes
+	}
+	trait = impatient
+	trait = temperate
+	trait = education_diplomacy_2
+
+	6922.5.26 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_everdalf_9 - ruler 6 (Pihlaja)
+fc_everdalf_9_6 = {
+	name = Suoma
+	female = yes
+	dynasty = dynasty_fc_pihlaja
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_everdalf_9_5
+	mother = fc_everdalf_9_5_spouse
+
+	trait = forgiving
+	trait = honest
+	trait = zealous
+	trait = education_martial_3
+	trait = lifestyle_mariner
+
+	6865.2.22 = {
+		birth = yes
+	}
+	6886.1.9 = {
+		add_spouse = fc_everdalf_9_6_spouse
+	}
+
+	6961.3.4 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_everdalf_9_6_spouse = {
+	name = Tapio
+	religion = faith_lossoth
+	culture = lossoth
+
+	6862.12.26 = {
+		birth = yes
+	}
+	trait = impatient
+	trait = diligent
+	trait = education_learning_2
+
+	6966.6.3 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_everdalf_9 - ruler 7 (Pihlaja)
+fc_everdalf_9_7 = {
+	name = Tyyni
+	dynasty = dynasty_fc_pihlaja
+	religion = faith_lossoth
+	culture = lossoth
+
+	mother = fc_everdalf_9_6
+	father = fc_everdalf_9_6_spouse
+
+	trait = zealous
+	trait = temperate
+	trait = ambitious
+	trait = education_martial_3
+	trait = lifestyle_hunter
+
+	6896.11.20 = {
+		birth = yes
+	}
+	6916.8.19 = {
+		add_spouse = fc_everdalf_9_7_spouse
+	}
+
+	6995.12.6 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_everdalf_9_7_spouse = {
+	name = Pihla
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6895.2.10 = {
+		birth = yes
+	}
+	trait = gregarious
+	trait = diligent
+	trait = education_stewardship_2
+
+	6994.8.7 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_everdalf_9 - ruler 8 (Pihlaja)
+fc_everdalf_9_8 = {
+	name = Kalevi
+	dynasty = dynasty_fc_pihlaja
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_everdalf_9_7
+	mother = fc_everdalf_9_7_spouse
+
+	trait = temperate
+	trait = content
+	trait = stubborn
+	trait = education_diplomacy_2
+	trait = lifestyle_mariner
+
+	6918.7.4 = {
+		birth = yes
+	}
+	6937.1.10 = {
+		add_spouse = fc_everdalf_9_8_spouse
+	}
+
+	7103.9.15 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_everdalf_9_8_spouse = {
+	name = Talvikki
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6914.12.21 = {
+		birth = yes
+	}
+	trait = brave
+	trait = humble
+	trait = education_learning_2
+
+	7099.2.5 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_everdalf_1 - ruler 1 (Routio)
+fc_everdalf_1_1 = {
+	name = Lauha
+	female = yes
+	dynasty = dynasty_fc_routio
+	religion = faith_lossoth
+	culture = lossoth
+
+	trait = content
+	trait = trusting
+	trait = impatient
+	trait = education_stewardship_2
+	trait = lifestyle_hunter
+
+	6679.7.7 = {
+		birth = yes
+	}
+	6699.6.2 = {
+		add_spouse = fc_everdalf_1_1_spouse
+	}
+
+	6746.1.2 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_everdalf_1_1_spouse = {
+	name = Rautio
+	religion = faith_lossoth
+	culture = lossoth
+
+	6678.8.19 = {
+		birth = yes
+	}
+	trait = gregarious
+	trait = ambitious
+	trait = education_diplomacy_2
+
+	6756.8.21 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_everdalf_1 - ruler 2 (Routio)
+fc_everdalf_1_2 = {
+	name = Vihavaino
+	dynasty = dynasty_fc_routio
+	religion = faith_lossoth
+	culture = lossoth
+
+	mother = fc_everdalf_1_1
+	father = fc_everdalf_1_1_spouse
+
+	trait = brave
+	trait = calm
+	trait = forgiving
+	trait = education_stewardship_2
+	trait = lifestyle_hunter
+
+	6702.6.5 = {
+		birth = yes
+	}
+	6721.12.24 = {
+		add_spouse = fc_everdalf_1_2_spouse
+	}
+
+	6787.9.13 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_everdalf_1_2_spouse = {
+	name = Kivutar
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6705.1.17 = {
+		birth = yes
+	}
+	trait = stubborn
+	trait = content
+	trait = education_stewardship_2
+
+	6782.7.12 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_everdalf_1 - ruler 3 (Routio)
+fc_everdalf_1_3 = {
+	name = Lempivalta
+	dynasty = dynasty_fc_routio
+	religion = faith_lossoth
+	culture = lossoth
+
+	father = fc_everdalf_1_2
+	mother = fc_everdalf_1_2_spouse
+
+	trait = diligent
+	trait = impatient
+	trait = content
+	trait = education_learning_2
+	trait = lifestyle_hunter
+
+	6729.2.8 = {
+		birth = yes
+	}
+	6749.3.2 = {
+		add_spouse = fc_everdalf_1_3_spouse
+	}
+
+	6821.7.25 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_everdalf_1_3_spouse = {
+	name = Lempi
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6731.9.21 = {
+		birth = yes
+	}
+	trait = brave
+	trait = vengeful
+	trait = education_intrigue_2
+
+	6819.1.6 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_everdalf_1 - ruler 4 (Kuurto)
+fc_everdalf_1_4 = {
+	name = Aamu
+	female = yes
+	dynasty = dynasty_fc_kuurto
+	religion = faith_lossoth
+	culture = lossoth
+
+	trait = calm
+	trait = patient
+	trait = content
+	trait = education_stewardship_2
+	trait = lifestyle_mariner
+
+	6781.3.20 = {
+		birth = yes
+	}
+	6800.8.8 = {
+		add_spouse = fc_everdalf_1_4_spouse
+	}
+
+	6862.11.1 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_everdalf_1_4_spouse = {
+	name = Ilmalempi
+	religion = faith_lossoth
+	culture = lossoth
+
+	6785.6.20 = {
+		birth = yes
+	}
+	trait = patient
+	trait = content
+	trait = education_diplomacy_2
+
+	6872.11.8 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_everdalf_1 - ruler 5 (Kuurto)
+fc_everdalf_1_5 = {
+	name = Mielikki
+	female = yes
+	dynasty = dynasty_fc_kuurto
+	religion = faith_lossoth
+	culture = lossoth
+
+	mother = fc_everdalf_1_4
+	father = fc_everdalf_1_4_spouse
+
+	trait = humble
+	trait = gregarious
+	trait = calm
+	trait = education_diplomacy_2
+	trait = lifestyle_mariner
+
+	6807.6.19 = {
+		birth = yes
+	}
+	6825.10.5 = {
+		add_spouse = fc_everdalf_1_5_spouse
+	}
+
+	6916.10.5 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_everdalf_1_5_spouse = {
+	name = Jalo
+	religion = faith_lossoth
+	culture = lossoth
+
+	6809.2.21 = {
+		birth = yes
+	}
+	trait = trusting
+	trait = forgiving
+	trait = education_intrigue_2
+
+	6909.6.7 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_everdalf_1 - ruler 6 (Kuurto)
+fc_everdalf_1_6 = {
+	name = Kivutar
+	female = yes
+	dynasty = dynasty_fc_kuurto
+	religion = faith_lossoth
+	culture = lossoth
+
+	mother = fc_everdalf_1_5
+	father = fc_everdalf_1_5_spouse
+
+	trait = temperate
+	trait = vengeful
+	trait = brave
+	trait = education_martial_2
+	trait = lifestyle_mariner
+
+	6834.10.4 = {
+		birth = yes
+	}
+	6855.10.3 = {
+		add_spouse = fc_everdalf_1_6_spouse
+	}
+
+	6966.8.12 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_everdalf_1_6_spouse = {
+	name = Lempo
+	religion = faith_lossoth
+	culture = lossoth
+
+	6837.1.16 = {
+		birth = yes
+	}
+	trait = diligent
+	trait = temperate
+	trait = education_martial_3
+
+	6968.1.11 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+### c_everdalf_1 - ruler 7 (Kuurto)
+fc_everdalf_1_7 = {
+	name = Kotarikko
+	dynasty = dynasty_fc_kuurto
+	religion = faith_lossoth
+	culture = lossoth
+
+	mother = fc_everdalf_1_6
+	father = fc_everdalf_1_6_spouse
+
+	trait = calm
+	trait = content
+	trait = zealous
+	trait = education_diplomacy_2
+	trait = lifestyle_hunter
+
+	6865.7.17 = {
+		birth = yes
+	}
+	6886.5.10 = {
+		add_spouse = fc_everdalf_1_7_spouse
+	}
+
+	7103.2.19 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}
+
+fc_everdalf_1_7_spouse = {
+	name = Kukka
+	female = yes
+	religion = faith_lossoth
+	culture = lossoth
+
+	6866.2.11 = {
+		birth = yes
+	}
+	trait = stubborn
+	trait = ambitious
+	trait = education_stewardship_2
+
+	7114.11.12 = {
+		death = {
+			death_reason = death_natural_causes
+		}
+	}
+}

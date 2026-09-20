@@ -1,0 +1,6019 @@
+﻿# c_everdalf_1
+8546 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6711.9.27 = {
+		holding = tribal_holding
+		religion = faith_lossoth
+		culture = lossoth
+	}
+}
+
+# c_everdalf_2
+8589 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_everdalf_3
+8592 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_everdalf_4
+8549 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6720.5.9 = {
+		holding = tribal_holding
+		religion = faith_lossoth
+		culture = lossoth
+	}
+}
+
+# c_everdalf_5
+8550 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6735.6.22 = {
+		holding = tribal_holding
+		religion = faith_lossoth
+		culture = lossoth
+	}
+}
+
+# c_everdalf_6
+8553 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6742.9.26 = {
+		holding = tribal_holding
+		religion = faith_lossoth
+		culture = lossoth
+	}
+}
+
+# c_everdalf_7
+8556 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6706.3.10 = {
+		holding = tribal_holding
+		religion = faith_lossoth
+		culture = lossoth
+	}
+}
+
+# c_everdalf_8
+8557 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6740.8.4 = {
+		holding = tribal_holding
+		religion = faith_lossoth
+		culture = lossoth
+	}
+}
+
+# c_everdalf_9
+8559 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6704.12.13 = {
+		holding = tribal_holding
+		religion = faith_lossoth
+		culture = lossoth
+	}
+}
+
+# c_everdalf_10
+8642 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_everdalf_11
+8645 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_everdalf_12
+8648 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_everdalf_13
+8561 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_everdalf_14
+8562 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_everdalf_23
+8650 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_everdalf_24
+8601 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_everdalf_15
+8565 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_everdalf_16
+8620 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_everdalf_17
+8627 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_everdalf_18
+8651 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_everdalf_29
+8577 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_everdalf_19
+8588 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_everdalf_20
+8586 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_everdalf_21
+8595 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_everdalf_22
+8603 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_everdalf_25
+8597 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_everdalf_26
+8584 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_everdalf_27
+8581 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_everdalf_28
+8579 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_everdalf_30
+8568 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_everdalf_31
+8571 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_everdalf_32
+8573 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_everdalf_33
+8576 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_calendalf_1
+8492 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_calendalf_2
+8495 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_calendalf_3
+8501 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_calendalf_4
+8503 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_calendalf_5
+8505 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_calendalf_6
+8538 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_calendalf_7
+8528 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_calendalf_8
+8544 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_calendalf_9
+8533 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_calendalf_10
+8529 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_calendalf_11
+8507 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_calendalf_12
+8524 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_calendalf_13
+8523 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_calendalf_15
+8509 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6733.10.5 = {
+		holding = tribal_holding
+		religion = faith_lossoth
+		culture = lossoth
+	}
+}
+
+# c_calendalf_16
+8516 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_calendalf_17
+8511 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6726.8.6 = {
+		holding = tribal_holding
+		religion = faith_lossoth
+		culture = lossoth
+	}
+}
+
+# c_calendalf_18
+8485 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_calendalf_19
+8476 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_lindalf_1
+8410 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6719.12.17 = {
+		holding = tribal_holding
+		religion = faith_lossoth
+		culture = lossoth
+	}
+}
+
+# c_lindalf_2
+8414 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_lindalf_4
+8447 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_lindalf_3
+8417 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_lindalf_5
+8454 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_lindalf_6
+8422 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_lindalf_7
+8427 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_lindalf_8
+8430 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_lindalf_9
+8433 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_lindalf_10
+8451 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_lindalf_11
+8437 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_lindalf_12
+8441 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_lindalf_13
+8443 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_lindalf_14
+8455 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_lindalf_15
+8458 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_ailindalf_1
+8357 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6713.6.26 = {
+		holding = tribal_holding
+		religion = faith_lossoth
+		culture = lossoth
+	}
+}
+
+# c_ailindalf_2
+8359 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6720.1.2 = {
+		holding = tribal_holding
+		religion = faith_lossoth
+		culture = lossoth
+	}
+}
+
+# c_ailindalf_3
+8363 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6727.10.7 = {
+		holding = tribal_holding
+		religion = faith_lossoth
+		culture = lossoth
+	}
+}
+
+# c_ailindalf_4
+8366 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_ailindalf_5
+8372 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6734.10.6 = {
+		holding = tribal_holding
+		religion = faith_lossoth
+		culture = lossoth
+	}
+}
+
+# c_ailindalf_6
+8375 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_ailindalf_7
+8378 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_ailindalf_8
+8381 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6741.11.23 = {
+		holding = tribal_holding
+		religion = faith_lossoth
+		culture = lossoth
+	}
+}
+
+# c_ailindalf_9
+8384 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6705.4.9 = {
+		holding = tribal_holding
+		religion = faith_lossoth
+		culture = lossoth
+	}
+}
+
+# c_ailindalf_10
+8387 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6712.3.26 = {
+		holding = tribal_holding
+		religion = faith_lossoth
+		culture = lossoth
+	}
+}
+
+# c_ailindalf_11
+8389 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_ailindalf_12
+8393 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6714.9.25 = {
+		holding = tribal_holding
+		religion = faith_lossoth
+		culture = lossoth
+	}
+}
+
+# c_ailindalf_13
+8397 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6707.12.11 = {
+		holding = tribal_holding
+		religion = faith_lossoth
+		culture = lossoth
+	}
+}
+
+# c_ailindalf_14
+8400 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6714.12.26 = {
+		holding = tribal_holding
+		religion = faith_lossoth
+		culture = lossoth
+	}
+}
+
+# c_ailindalf_15
+8404 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6721.5.23 = {
+		holding = tribal_holding
+		religion = faith_lossoth
+		culture = lossoth
+	}
+}
+
+# c_rast_losnaeth_1
+8103 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6702.3.14 = {
+		holding = tribal_holding
+		religion = faith_lossoth
+		culture = lossoth
+	}
+}
+
+# c_rast_losnaeth_2
+8096 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6708.5.15 = {
+		holding = tribal_holding
+		religion = faith_lossoth
+		culture = lossoth
+	}
+}
+
+# c_rast_losnaeth_3
+8297 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6715.3.10 = {
+		holding = tribal_holding
+		religion = faith_lossoth
+		culture = lossoth
+	}
+}
+
+# c_rast_losnaeth_4
+8299 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6722.12.20 = {
+		holding = tribal_holding
+		religion = faith_lossoth
+		culture = lossoth
+	}
+}
+
+# c_rast_losnaeth_5
+8087 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6708.4.12 = {
+		holding = tribal_holding
+		religion = faith_lossoth
+		culture = lossoth
+	}
+}
+
+# c_rast_losnaeth_6
+8086 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6736.6.2 = {
+		holding = tribal_holding
+		religion = faith_lossoth
+		culture = lossoth
+	}
+}
+
+# c_ruinfalas_1
+8088 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_ruinfalas_2
+8315 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_ruinfalas_3
+8318 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_ruinfalas_4
+8324 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_ruinfalas_5
+8307 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_ruinfalas_6
+8090 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_ruinfalas_7
+8306 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_ruinfalas_8
+8327 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+# c_ruinfalas_9
+8330 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+# c_ruinfalas_10
+8332 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+# c_ruinfalas_11
+8100 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+# c_muilfalas_1
+8340 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+# c_muilfalas_2
+8343 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+# c_muilfalas_3
+8346 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+# c_muilfalas_4
+8350 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+# c_muilfalas_5
+8353 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+# c_durnost_1
+8084 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+# c_durnost_2
+9187 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+# c_durnost_3
+9188 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+# c_durnost_4
+9189 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+# c_durnost_5
+9190 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+# c_durnost_6
+9191 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+# c_durnost_7
+9192 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+# c_durnost_8
+9193 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+# c_durnost_9
+9194 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+# c_durnost_10
+9195 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+# c_durnost_11
+9196 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+# c_durnost_12
+9197 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+# c_durnost_13
+9198 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+# c_durnost_14
+9202 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+# c_durnost_15
+9203 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+# c_durnost_16
+9204 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+# c_durnost_17
+9205 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+# c_durnost_18
+9206 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+# c_durnost_19
+9199 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+# c_durnost_20
+9200 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+# c_durnost_21
+9201 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+# c_durnost_22
+9207 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+# c_bleak_mountains_1
+9231 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+# c_bleak_mountains_2
+9232 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+# c_bleak_mountains_3
+9233 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+# c_bleak_mountains_4
+9234 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+# c_bleak_mountains_5
+9235 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+# c_bleak_mountains_6
+9236 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+# c_bleak_mountains_7
+9237 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+# c_bleak_mountains_8
+9239 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+# c_bleak_mountains_9
+9238 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+# c_bleak_mountains_10
+9240 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+# c_bleak_mountains_11
+9241 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+# c_bleak_mountains_12
+9242 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+# c_bleak_mountains_13
+9243 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+# c_bleak_mountains_14
+9244 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+# c_bleak_mountains_15
+9245 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+# c_nidavellir_1
+9208 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+
+	6786.4.12 = {
+		holding = dwarven_holding
+		religion = faith_ironfists
+		culture = ironfists
+	}
+}
+
+# c_nidavellir_2
+9209 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+
+	6801.8.3 = {
+		holding = dwarven_holding
+		religion = faith_ironfists
+		culture = ironfists
+	}
+}
+
+# c_nidavellir_3
+9210 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+
+	6817.5.19 = {
+		holding = dwarven_holding
+		religion = faith_ironfists
+		culture = ironfists
+	}
+}
+
+# c_nidavellir_4
+9212 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+
+	6786.4.12 = {
+		holding = dwarven_holding
+		religion = faith_ironfists
+		culture = ironfists
+	}
+}
+
+# c_nidavellir_5
+9213 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+
+	6832.10.7 = {
+		holding = dwarven_holding
+		religion = faith_ironfists
+		culture = ironfists
+	}
+}
+
+# c_nidavellir_6
+9214 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+
+	6849.3.26 = {
+		holding = dwarven_holding
+		religion = faith_ironfists
+		culture = ironfists
+	}
+}
+
+# c_nidavellir_7
+9217 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+
+	6864.9.14 = {
+		holding = dwarven_holding
+		religion = faith_ironfists
+		culture = ironfists
+	}
+}
+
+# c_nidavellir_8
+9218 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+
+	6880.6.2 = {
+		holding = dwarven_holding
+		religion = faith_ironfists
+		culture = ironfists
+	}
+}
+
+# c_nidavellir_9
+9211 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+
+	6895.11.21 = {
+		holding = dwarven_holding
+		religion = faith_ironfists
+		culture = ironfists
+	}
+}
+
+# c_nidavellir_10
+9215 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+
+	6910.4.8 = {
+		holding = dwarven_holding
+		religion = faith_ironfists
+		culture = ironfists
+	}
+}
+
+# c_nidavellir_11
+9216 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+
+	6928.8.16 = {
+		holding = dwarven_holding
+		religion = faith_ironfists
+		culture = ironfists
+	}
+}
+
+# c_nidavellir_12
+9225 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+
+	6943.2.5 = {
+		holding = dwarven_holding
+		religion = faith_ironfists
+		culture = ironfists
+	}
+}
+
+# c_nidavellir_13
+9226 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+
+	6958.10.27 = {
+		holding = dwarven_holding
+		religion = faith_ironfists
+		culture = ironfists
+	}
+}
+
+# c_nidavellir_14
+9227 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+
+	6974.6.11 = {
+		holding = dwarven_holding
+		religion = faith_ironfists
+		culture = ironfists
+	}
+}
+
+# c_nidavellir_15
+9228 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+
+	6989.12.19 = {
+		holding = dwarven_holding
+		religion = faith_ironfists
+		culture = ironfists
+	}
+}
+
+# c_nidavellir_16
+9229 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+
+	7004.7.3 = {
+		holding = dwarven_holding
+		religion = faith_ironfists
+		culture = ironfists
+	}
+}
+
+# c_nidavellir_17
+9230 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+
+	7019.3.25 = {
+		holding = dwarven_holding
+		religion = faith_ironfists
+		culture = ironfists
+	}
+}
+
+# c_nidavellir_18
+9219 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+
+	7032.9.12 = {
+		holding = dwarven_holding
+		religion = faith_ironfists
+		culture = ironfists
+	}
+}
+
+# c_nidavellir_19
+9220 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+
+	7043.5.29 = {
+		holding = dwarven_holding
+		religion = faith_ironfists
+		culture = ironfists
+	}
+}
+
+# c_nidavellir_20
+9221 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+
+	7053.11.6 = {
+		holding = dwarven_holding
+		religion = faith_ironfists
+		culture = ironfists
+	}
+}
+
+# c_nidavellir_21
+9222 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+
+	7062.8.18 = {
+		holding = dwarven_holding
+		religion = faith_ironfists
+		culture = ironfists
+	}
+}
+
+# c_nidavellir_22
+9223 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+
+	7071.2.24 = {
+		holding = dwarven_holding
+		religion = faith_ironfists
+		culture = ironfists
+	}
+}
+
+# c_nidavellir_23
+9224 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+
+	7079.10.9 = {
+		holding = dwarven_holding
+		religion = faith_ironfists
+		culture = ironfists
+	}
+}
+
+# c_nidavellir_24
+9272 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+
+	7086.6.17 = {
+		holding = dwarven_holding
+		religion = faith_ironfists
+		culture = ironfists
+	}
+}
+
+# c_thangorodrim_1
+8106 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = castle_holding
+		religion = faith_winter_queen
+		culture = angband_orcs
+	}
+}
+
+# c_thangorodrim_2
+8107 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_winter_queen
+		culture = angband_orcs
+	}
+}
+
+# c_thangorodrim_3
+8105 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_winter_queen
+		culture = angband_orcs
+	}
+}
+
+# c_thangorodrim_4
+8108 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_winter_queen
+		culture = angband_orcs
+	}
+}
+
+# c_aurora_isles_1
+9179 = {
+	3912.1.1 = {
+		buildings = {  }
+		religion = faith_helecthil
+		holding = elven_holding
+		culture = lossidil
+	}
+}
+
+# c_aurora_isles_2
+9180 = {
+	3912.1.1 = {
+		buildings = {  }
+		religion = faith_helecthil
+		holding = elven_holding
+		culture = lossidil
+	}
+}
+
+# c_aurora_isles_3
+9182 = {
+	3912.1.1 = {
+		buildings = {  }
+		religion = faith_helecthil
+		holding = elven_holding
+		culture = lossidil
+	}
+}
+
+# c_aurora_isles_5
+9184 = {
+	3912.1.1 = {
+		buildings = {  }
+		religion = faith_helecthil
+		holding = elven_holding
+		culture = lossidil
+	}
+}
+
+# c_taurethon_1
+8474 = {
+	3912.1.1 = {
+		buildings = {  }
+		religion = faith_helecthil
+		holding = elven_holding
+		culture = lossidil
+	}
+}
+
+# c_taurethon_2
+8473 = {
+	3912.1.1 = {
+		buildings = {  }
+		religion = faith_helecthil
+		holding = elven_holding
+		culture = lossidil
+	}
+}
+
+# c_taurethon_3
+8479 = {
+	3912.1.1 = {
+		buildings = {  }
+		religion = faith_helecthil
+		holding = elven_holding
+		culture = lossidil
+	}
+}
+
+# c_taurethon_4
+8489 = {
+	3912.1.1 = {
+		buildings = {  }
+		religion = faith_helecthil
+		holding = elven_holding
+		culture = lossidil
+	}
+}
+
+# c_taurethon_5
+8469 = {
+	3912.1.1 = {
+		buildings = {  }
+		religion = faith_helecthil
+		holding = elven_holding
+		culture = lossidil
+	}
+}
+
+# c_taurethon_6
+8464 = {
+	3912.1.1 = {
+		buildings = {  }
+		religion = faith_helecthil
+		holding = elven_holding
+		culture = lossidil
+	}
+}
+
+# c_evermist_1
+8026 = {
+	3912.1.1 = {
+		buildings = {  }
+		religion = faith_evermist
+		holding = elven_holding
+		culture = noldor
+	}
+}
+
+# c_evermist_2
+8229 = {
+	3912.1.1 = {
+		buildings = {  }
+		religion = faith_evermist
+		holding = elven_holding
+		culture = noldor
+	}
+}
+
+# c_evermist_3
+8233 = {
+	3912.1.1 = {
+		buildings = {  }
+		religion = faith_evermist
+		holding = elven_holding
+		culture = noldor
+	}
+}
+
+# c_evermist_4
+8236 = {
+	3912.1.1 = {
+		buildings = {  }
+		religion = faith_evermist
+		holding = elven_holding
+		culture = noldor
+	}
+}
+
+# c_evermist_5
+7983 = {
+	3912.1.1 = {
+		buildings = {  }
+		religion = faith_evermist
+		holding = elven_holding
+		culture = noldor
+	}
+}
+
+# c_tol_faron_1
+8069 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6787.3.14= {
+		buildings = {  }
+		holding = castle_holding
+		religion = faith_forodain
+		culture = forodain
+	}
+}
+
+# c_tol_faron_2
+8001 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6787.3.14= {
+		buildings = {  }
+		holding = castle_holding
+		religion = faith_forodain
+		culture = forodain
+	}
+}
+
+# c_tol_faron_3
+8074 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+	6787.3.14= {
+		buildings = {  }
+		holding = castle_holding
+		religion = faith_forodain
+		culture = forodain
+	}
+}
+
+# c_frost_isles_1
+7992 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = castle_holding
+		religion = faith_forodain
+		culture = forodain
+	}
+}
+
+# c_frost_isles_2
+7997 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = castle_holding
+		religion = faith_forodain
+		culture = forodain
+	}
+}
+
+# c_frost_isles_3
+7995 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = castle_holding
+		religion = faith_forodain
+		culture = forodain
+	}
+}
+
+# c_frost_isles_4
+7994 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = castle_holding
+		religion = faith_forodain
+		culture = forodain
+	}
+}
+
+# c_frost_isles_5
+9247 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = castle_holding
+		religion = faith_forodain
+		culture = forodain
+	}
+}
+
+# c_frost_isles_6
+7998 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = castle_holding
+		religion = faith_forodain
+		culture = forodain
+	}
+}
+
+# c_frost_isles_7
+7999 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = castle_holding
+		religion = faith_forodain
+		culture = forodain
+	}
+}
+
+# c_frost_isles_8
+8000 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = castle_holding
+		religion = faith_forodain
+		culture = forodain
+	}
+}
+
+# c_frost_isles_9
+7993 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = castle_holding
+		religion = faith_forodain
+		culture = forodain
+	}
+}
+
+# c_gondalf_1
+8038 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = castle_holding
+		religion = faith_forodain
+		culture = forodain
+	}
+}
+
+# c_gondalf_2
+8010 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = castle_holding
+		religion = faith_forodain
+		culture = forodain
+	}
+}
+
+# c_gondalf_3
+8023 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = castle_holding
+		religion = faith_forodain
+		culture = forodain
+	}
+}
+
+# c_gondalf_4
+8028 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_gondalf_5
+8192 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_gondalf_6
+8194 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_gondalf_7
+8195 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_gondalf_8
+8197 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_minheldolath_1
+8046 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_minheldolath_2
+8242 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_minheldolath_3
+8243 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_minheldolath_4
+8244 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_minheldolath_5
+8246 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_minheldolath_6
+8249 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_minheldolath_7
+8251 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_minheldolath_8
+8043 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_minheldolath_9
+8255 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_minheldolath_10
+8258 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_minheldolath_11
+8261 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_minheldolath_12
+8262 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_minheldolath_13
+8263 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_minheldolath_14
+8266 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_minheldolath_15
+8033 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_minheldolath_16
+8011 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_minheldolath_17
+8272 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_minheldolath_18
+8035 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_minheldolath_19
+8017 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_minheldolath_20
+8279 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_minheldolath_21
+8278 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_minheldolath_22
+8041 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_minheldolath_23
+8285 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = castle_holding
+		religion = faith_forodain
+		culture = forodain
+	}
+}
+
+# c_minheldolath_24
+7990 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = castle_holding
+		religion = faith_forodain
+		culture = forodain
+	}
+}
+
+# c_minheldolath_25
+8287 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = castle_holding
+		religion = faith_forodain
+		culture = forodain
+	}
+}
+
+# c_minheldolath_26
+8015 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = castle_holding
+		religion = faith_forodain
+		culture = forodain
+	}
+}
+
+# c_narthalf_1
+8045 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_narthalf_2
+8214 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_narthalf_3
+8216 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_narthalf_4
+8218 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_narthalf_5
+8004 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_narthalf_6
+8020 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_narthalf_7
+8223 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_morgoths_well_1
+8075 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_helfalas_1
+8019 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_helfalas_2
+8201 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_helfalas_3
+8203 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_helfalas_4
+8027 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_helfalas_5
+8207 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_helfalas_6
+8210 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_ered_rhivamar_1
+8160 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_ered_rhivamar_2
+8161 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_ered_rhivamar_3
+8162 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_ered_rhivamar_4
+8163 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_ered_rhivamar_5
+8164 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_ered_rhivamar_6
+8165 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_ered_rhivamar_7
+8167 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_ered_rhivamar_8
+8166 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_ered_rhivamar_9
+8169 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_ered_rhivamar_10
+8168 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_ered_rhivamar_11
+8170 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_ered_rhivamar_12
+8174 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_ered_rhivamar_13
+8175 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_ered_rhivamar_17
+8178 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_ered_rhivamar_19
+8179 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_ered_rhivamar_27
+8181 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_ered_rhivamar_28
+8182 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_ered_rhivamar_30
+8184 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_ered_rhivamar_31
+8185 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_ered_rhivamar_32
+8186 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_ered_rhivamar_33
+8134 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_ered_rhivamar_29
+8183 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_ered_rhivamar_16
+8177 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_ered_rhivamar_25
+8176 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_ered_rhivamar_26
+8180 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_ered_rhivamar_15
+8173 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_ered_rhivamar_14
+8172 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_ered_rhivamar_20
+8136 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_ered_rhivamar_21
+8171 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_ered_rhivamar_22
+8137 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_ered_rhivamar_23
+8135 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_ered_rhivamar_24
+8133 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_northern_iron_mountains_1
+8128 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_northern_iron_mountains_2
+8130 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_northern_iron_mountains_3
+8129 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_northern_iron_mountains_4
+8126 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_northern_iron_mountains_5
+8125 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_northern_iron_mountains_6
+8037 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_northern_iron_mountains_7
+8144 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_northern_iron_mountains_8
+8145 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_northern_iron_mountains_9
+8146 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_northern_iron_mountains_10
+8148 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_northern_iron_mountains_11
+8147 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_northern_iron_mountains_12
+8150 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_northern_iron_mountains_13
+8149 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_northern_iron_mountains_14
+8127 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_northern_iron_mountains_15
+8151 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_northern_iron_mountains_16
+8152 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_northern_iron_mountains_17
+8153 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_northern_iron_mountains_18
+8154 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_northern_iron_mountains_19
+8655 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_angband_reach_1
+8139 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_angband_reach_2
+8138 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_angband_reach_3
+8132 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+
+# b_iron_spine_pass_2 (secondary barony in c_angband_reach_3)
+8187 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+# c_angband_reach_4
+8158 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_angband_reach_5
+8159 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_angband_reach_9
+8131 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_angband_reach_6
+8157 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_angband_reach_7
+8156 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_angband_reach_8
+8155 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_angband_reach_10
+8140 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_angband_reach_11
+8141 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_angband_reach_12
+8142 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_angband_reach_13
+8143 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = dwarven_holding
+		religion = faith_unbowed
+		culture = adlantrim
+	}
+}
+
+# c_mosha_1
+9085 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+
+	6700.1.1 = {
+		holding = castle_holding
+		religion = faith_khazad
+		culture = umli
+	}
+}
+
+# c_mosha_2
+9134 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_mosha_3
+9089 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_mosha_4
+9136 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_mosha_5
+9165 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_mosha_6
+9129 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+
+	6700.1.1 = {
+		holding = castle_holding
+		religion = faith_khazad
+		culture = umli
+	}
+}
+
+# c_mosha_7
+9161 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_mosha_8
+9159 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_mosha_9
+9158 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_mosha_10
+9138 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_mosha_11
+9094 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_mosha_12
+9142 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_mosha_13
+9098 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_mosha_14
+9100 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_mosha_15
+9103 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_mosha_16
+9104 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_mosha_17
+9146 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_mosha_18
+9107 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_mosha_19
+9110 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_mosha_20
+9114 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_mosha_21
+9116 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_mosha_22
+9151 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_mosha_23
+9152 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_mosha_24
+9120 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_mosha_25
+9176 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_mosha_26
+9172 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_mosha_27
+9123 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_mosha_28
+9124 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+
+	6700.1.1 = {
+		holding = castle_holding
+		religion = faith_khazad
+		culture = umli
+	}
+}
+
+# c_mosha_29
+9160 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_mosha_30
+9169 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_lhugdalf_1
+9079 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_lhugdalf_2
+9077 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_lhugdalf_3
+9049 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_lhugdalf_4
+9082 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_lhugdalf_5
+9072 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+
+	6700.1.1 = {
+		holding = castle_holding
+		religion = faith_khazad
+		culture = umli
+	}
+}
+
+# c_lhugdalf_6
+9003 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_lhugdalf_7
+9074 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_lhugdalf_8
+9070 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_lhugdalf_9
+9052 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_lhugdalf_10
+9063 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_lhugdalf_11
+9061 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_lhugdalf_23
+9058 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_lhugdalf_12
+9055 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_lhugdalf_13
+9029 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_lhugdalf_14
+9041 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_lhugdalf_15
+9032 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_lhugdalf_16
+9037 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_lhugdalf_17
+9034 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_lhugdalf_18
+9009 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_lhugdalf_19
+9014 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_lhugdalf_20
+9020 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_lhugdalf_21
+9018 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_lhugdalf_22
+9015 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_sula_1
+8904 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_sula_2
+8907 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_sula_3
+8920 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_sula_4
+8900 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_sula_5
+8898 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_sula_6
+8886 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_sula_7
+8908 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_sula_8
+8917 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_sula_9
+8889 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_sula_10
+8888 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_forovirian_1
+8940 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = faith_werewolves
+		culture = gauredain
+	}
+}
+
+# c_forovirian_2
+8939 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_forovirian_3
+8944 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_forovirian_4
+8945 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_forovirian_5
+8935 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_forovirian_6
+8954 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_forovirian_7
+8959 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_forovirian_8
+8963 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_forovirian_9
+8956 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_forovirian_10
+8947 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_forovirian_11
+8953 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_forovirian_12
+8930 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_forovirian_13
+8928 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_forovirian_14
+8969 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_forovirian_15
+8979 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_forovirian_16
+8966 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_forovirian_17
+8974 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_forovirian_18
+8973 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_forovirian_19
+8990 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_forovirian_20
+8985 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_forovirian_21
+8994 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_talath_uichel_1
+8656 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_talath_uichel_2
+8687 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_talath_uichel_3
+8659 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_talath_uichel_4
+8706 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_talath_uichel_5
+8709 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_talath_uichel_6
+8711 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_talath_uichel_7
+8708 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_talath_uichel_8
+8661 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_talath_uichel_9
+8663 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_talath_uichel_10
+8666 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_talath_uichel_11
+8694 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_talath_uichel_12
+8695 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_talath_uichel_13
+8670 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_talath_uichel_14
+8672 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_talath_uichel_15
+8675 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = tribal_holding
+		religion = faith_angmar_evil
+		culture = angmarrim
+	}
+}
+
+# c_talath_uichel_16
+8676 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = tribal_holding
+		religion = faith_angmar_evil
+		culture = angmarrim
+	}
+}
+
+# c_talath_uichel_17
+8701 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = tribal_holding
+		religion = faith_angmar_evil
+		culture = angmarrim
+	}
+}
+
+# c_talath_uichel_18
+8680 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_talath_uichel_19
+8704 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_komi_1
+8861 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+
+	6700.1.1 = {
+		holding = castle_holding
+		religion = faith_khazad
+		culture = umli
+	}
+}
+
+# c_komi_2
+8863 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+
+	6700.1.1 = {
+		holding = castle_holding
+		religion = faith_khazad
+		culture = umli
+	}
+}
+
+# c_komi_3
+8865 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+
+	6700.1.1 = {
+		holding = castle_holding
+		religion = faith_khazad
+		culture = umli
+	}
+}
+
+# c_komi_4
+8868 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+
+	6700.1.1 = {
+		holding = castle_holding
+		religion = faith_khazad
+		culture = umli
+	}
+}
+
+# c_komi_5
+8873 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+
+	6700.1.1 = {
+		holding = castle_holding
+		religion = faith_khazad
+		culture = umli
+	}
+}
+
+# c_komi_6
+8871 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+
+	6700.1.1 = {
+		holding = castle_holding
+		religion = faith_khazad
+		culture = umli
+	}
+}
+
+# c_komi_7
+8875 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+
+	6700.1.1 = {
+		holding = castle_holding
+		religion = faith_khazad
+		culture = umli
+	}
+}
+
+# c_komi_8
+8880 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+
+	6700.1.1 = {
+		holding = castle_holding
+		religion = faith_khazad
+		culture = umli
+	}
+}
+
+# c_komi_9
+8883 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+
+	6700.1.1 = {
+		holding = castle_holding
+		religion = faith_khazad
+		culture = umli
+	}
+}
+
+# c_grey_foothills_1
+8987 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_grey_foothills_2
+8820 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_grey_foothills_3
+8825 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_grey_foothills_4
+8828 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_grey_foothills_5
+8830 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_grey_foothills_6
+8833 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_grey_foothills_7
+8835 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_grey_foothills_8
+8838 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_grey_foothills_9
+8809 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_grey_foothills_10
+8841 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_grey_foothills_11
+8845 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_grey_foothills_12
+8850 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_grey_foothills_13
+8852 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_grey_foothills_14
+8856 = {
+	3912.1.1 = {
+		buildings = {  }
+		holding = wastelands_holding
+		religion = faith_wastelands_pagan
+		culture = wastelands
+	}
+}
+
+# c_frostwood_1
+8800 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = windan
+	}
+}
+
+# c_frostwood_2
+8802 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = windan
+	}
+}
+
+# c_frostwood_3
+8799 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = windan
+	}
+}
+
+# c_frostwood_4
+8808 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = windan
+	}
+}
+
+# c_frostwood_5
+8759 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = windan
+	}
+}
+
+# c_frostwood_6
+8762 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = windan
+	}
+}
+
+# c_frostwood_7
+8761 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = windan
+	}
+}
+
+# c_frostwood_8
+8753 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = windan
+	}
+}
+
+# c_frostwood_9
+8813 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = windan
+	}
+}
+
+# c_frostwood_10
+8718 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = windan
+	}
+}
+
+# c_frostwood_11
+8720 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = windan
+	}
+}
+
+# c_frostwood_12
+8721 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = windan
+	}
+}
+
+# c_frostwood_13
+8780 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = windan
+	}
+}
+
+# c_frostwood_14
+8768 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = windan
+	}
+}
+
+# c_frostwood_15
+8772 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = windan
+	}
+}
+
+# c_frostwood_16
+8747 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = windan
+	}
+}
+
+# c_frostwood_17
+8774 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = windan
+	}
+}
+
+# c_frostwood_18
+8750 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = windan
+	}
+}
+
+# c_frostwood_19
+8775 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = windan
+	}
+}
+
+# c_frostwood_20
+8725 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = hwenti
+	}
+}
+
+# c_frostwood_21
+8782 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = hwenti
+	}
+}
+
+# c_frostwood_22
+8794 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = hwenti
+	}
+}
+
+# c_frostwood_23
+8728 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = hwenti
+	}
+}
+
+# c_frostwood_24
+8730 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = hwenti
+	}
+}
+
+# c_frostwood_25
+8784 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = hwenti
+	}
+}
+
+# c_frostwood_26
+8786 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = hwenti
+	}
+}
+
+# c_frostwood_27
+8742 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = hwenti
+	}
+}
+
+# c_frostwood_28
+8787 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = hwenti
+	}
+}
+
+# c_frostwood_29
+8739 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = hwenti
+	}
+}
+
+# c_frostwood_30
+8737 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = hwenti
+	}
+}
+
+# c_frostwood_31
+8731 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = hwenti
+	}
+}
+
+# c_frostwood_32
+8732 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = hwenti
+	}
+}
+
+8716 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = windan
+	}
+}
+
+8722 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = windan
+	}
+}
+
+8723 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = windan
+	}
+}
+
+8724 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = windan
+	}
+}
+
+8726 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = hwenti
+	}
+}
+
+8727 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = hwenti
+	}
+}
+
+8729 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = hwenti
+	}
+}
+
+8733 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = hwenti
+	}
+}
+
+8734 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = hwenti
+	}
+}
+
+8735 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = hwenti
+	}
+}
+
+8736 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = hwenti
+	}
+}
+
+8738 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = hwenti
+	}
+}
+
+8740 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = hwenti
+	}
+}
+
+8741 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = hwenti
+	}
+}
+
+8743 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = hwenti
+	}
+}
+
+8744 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = hwenti
+	}
+}
+
+8745 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = windan
+	}
+}
+
+8746 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = windan
+	}
+}
+
+8748 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = windan
+	}
+}
+
+8749 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = windan
+	}
+}
+
+8751 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = windan
+	}
+}
+
+8752 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = windan
+	}
+}
+
+8754 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = windan
+	}
+}
+
+8755 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = windan
+	}
+}
+
+8756 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = windan
+	}
+}
+
+8757 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = windan
+	}
+}
+
+8758 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = windan
+	}
+}
+
+8760 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = windan
+	}
+}
+
+8763 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = windan
+	}
+}
+
+8764 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = windan
+	}
+}
+
+8765 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = windan
+	}
+}
+
+8766 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = windan
+	}
+}
+
+8767 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = windan
+	}
+}
+
+8769 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = windan
+	}
+}
+
+8770 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = windan
+	}
+}
+
+8771 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = windan
+	}
+}
+
+8773 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = windan
+	}
+}
+
+8776 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = windan
+	}
+}
+
+8777 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = windan
+	}
+}
+
+8778 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = windan
+	}
+}
+
+8779 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = windan
+	}
+}
+
+8783 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = hwenti
+	}
+}
+
+8785 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = hwenti
+	}
+}
+
+8788 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = hwenti
+	}
+}
+
+8789 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = hwenti
+	}
+}
+
+8790 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = hwenti
+	}
+}
+
+8791 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = hwenti
+	}
+}
+
+8792 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = hwenti
+	}
+}
+
+8793 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = hwenti
+	}
+}
+
+8795 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = hwenti
+	}
+}
+
+8796 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = hwenti
+	}
+}
+
+8797 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = hwenti
+	}
+}
+
+8798 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = windan
+	}
+}
+
+8801 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = windan
+	}
+}
+
+8803 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = windan
+	}
+}
+
+8804 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = windan
+	}
+}
+
+8805 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = windan
+	}
+}
+
+8806 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = windan
+	}
+}
+
+8811 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = windan
+	}
+}
+
+8812 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = windan
+	}
+}
+
+8814 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = windan
+	}
+}
+
+8815 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = windan
+	}
+}
+
+8816 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = windan
+	}
+}
+
+9251 = {
+	1.1.1 = {
+		buildings = {  }
+		holding = elven_holding
+		religion = faith_moriquendi
+		culture = windan
+	}
+}
+
+# ================================================================
+# Snow-orc province entries absent from original history file
+# ================================================================
+
+8083 = {
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+8097 = {
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+8326 = {
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+8328 = {
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+8329 = {
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+8331 = {
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+8333 = {
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+8334 = {
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+8335 = {
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+8341 = {
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+8342 = {
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+8344 = {
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+8345 = {
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+8347 = {
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+8348 = {
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+8349 = {
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+8351 = {
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+8352 = {
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+8354 = {
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+8355 = {
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+
+8356 = {
+	6700.1.1 = {
+		holding = tribal_holding
+		religion = dragon_cults
+		culture = snow_orc
+	}
+}
+

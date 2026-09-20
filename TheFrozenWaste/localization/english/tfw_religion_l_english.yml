@@ -1,0 +1,223 @@
+﻿ ### LotR: This file needs to be kept in sync with the release version.
+ 
+ ### Edited the dates
+ 
+ ### Edited the loading screen text
+ 
+l_english:
+
+  ### Northern Elven Religion ###
+  northern_elven_religion: "Northern Elven"
+  northern_elven_religion_desc: "The Faith of the Northern [elves|e]"
+  northern_elven_religion_adj: "Northern Elven"
+  northern_elven_religion_adherent: "Elf"
+  northern_elven_religion_adherent_plural: "Elves"
+
+  ### Northern Elven Faiths ###
+
+  # Evermist
+  faith_evermist: "Envinyatarim"
+  faith_evermist_adj: "Envinyatar"
+  faith_evermist_adherent: "Envinyatar"
+  faith_evermist_adherent_plural: "Envinyatarim"
+  faith_evermist_desc: "The faith of the [noldor_elves|e] of [evermist|E], They believe the ruin of the world is atleast partially the fault of the Eldar and understand they have a responsiblity to heal what was once broken"
+
+  # Helecthil
+  faith_helecthil: "Light of Helecthil"
+  faith_helecthil_adj: "Helecthil"
+  faith_helecthil_adherent: "Helecthili"
+  faith_helecthil_adherent_plural: "Helecthilrim"
+  faith_helecthil_desc: "After the [downfallofnumenor|e] the Utter north of the world was ruined and cast into shadow, far beyond the light of either the sun or moon for much of the year. [ulmocharacter|e] wishing to provide a new hope to those who remained raised a shard of the ancient Lamps to serve as a beacon in the darkness. this shard the Helecthil, has been a source of Reverence for the Eldar ever since."
+
+  # Eternal Vigil
+  faith_eternal_vigil: "Tirítli"
+  faith_eternal_vigil_adj: "Tiríte"
+  faith_eternal_vigil_adherent: "Tirítmo"
+  faith_eternal_vigil_adherent_plural: "Tirítli"
+  faith_eternal_vigil_desc: "The [elves|e] of the Vigil, the Tiritli remain ever watchful against the darkness returning to the world, seeking to destory the shadow whereever it arises. they are most often survivors of the wars of the [elderdays|e] and spend much of their time near the ruins of [angband|e]"
+
+  # Santa / Giftlord Faith
+  faith_santa: "Anwantar"
+  faith_santa_adj: "Anwantar"
+  faith_santa_adherent: "Anwantarli"
+  faith_santa_adherent_plural: "Anwantarim"
+  faith_santa_desc: "A Strange sect following a mysterious [maia|e] said to live at the north pole. the Anwantar travel the world offering gifts to all those in need, they value generosity above all else and seek to spread joy across middleearth"
+
+  ### Northern Elven Tenets ###
+
+  # Elven Preservation
+  tenet_elven_preservation_name: "Elven Renewal"
+  tenet_elven_preservation_desc: "The seasons change and the world grows old, but that doesn't deminish the value of biulding anew. Nothing, not even the [eldar|e] truely last forever, and this faith holds special revrence for the act of creation and esspecially reconstruction"
+
+  # Giftlord
+  tenet_giftlord_name: "Reverence for the Giftlord"
+  tenet_giftlord_desc: "this faith holds special attention for the Gift Bringer, a mysterious [maia|e] at the top of the world, they celebrate midwinter with gifts and offer much of their wealth to charitible causes."
+
+  # World Shapers
+  tenet_world_shapers_name: "Primacy of the World Shapers"
+  tenet_world_shapers_desc: "This Faith holds the [vala|e] [aluecharacter|e] and [yavannahcharacter|e] in special regard, seeing them as the literal shapers of the world and the architechs of [arda|e]"
+  
+  tenet_helecthil_name: "Glory of Helecthil"
+  tenet_helecthil_desc: "This Faith holds [ulmocharacter|e], the Helecthil, and the Aurora in high regard, finding hope and peace in the everchanging northern lights"
+
+  ### Northern Elven Holy Sites ###
+
+  holy_site_evermist_name: "Tol Eyl"
+  holy_site_gondolin_name: "Gondolin"
+  holy_site_helecthil_name: "Helecthil"
+
+  ### Optional Tenet Parameter Localization ###
+  # Uncomment only if these parameters are not already localized elsewhere.
+  # doctrine_parameter_development_gain_on_building_complete: ""
+  # doctrine_parameter_piety_from_gifts_active: ""
+
+  ### Optional Holy Site Effect Text ###
+  # Uncomment if you want custom descriptive text for these holy sites.
+  # holy_site_evermist_effect_name: ""
+  # holy_site_gondolin_effect_name: ""
+  # holy_site_helecthil_effect_name: ""
+  
+   ### Winter Queen Faith ###
+  faith_winter_queen: "Cult of the Winter Queen"
+  faith_winter_queen_adj: "Winter Queen"
+  faith_winter_queen_adherent: "Winter Courtier"
+  faith_winter_queen_adherent_plural: "Winter Courtiers"
+  faith_winter_queen_desc: "In the frozen reaches of the North, the faithful give their devotion to Nixni, the Winter Queen. To them, winter is not merely a season to be endured, but a proving ground that strips away weakness and reveals strength, discipline, and resolve. Cold, snow, and deprivation are sacred trials, and those who master them are held in the highest esteem.\n\nThe faithful seek the Winter Queen's favor through endurance, ambition, and mastery of the frozen lands. Her chosen warriors are expected to move through snow and ice where others falter, turning the bitter climate itself into a weapon against their foes."
+
+  ### Winter Queen Deity ###
+  nixni_god: "Nixni"
+  nixni_god_possessive: "Nixni's"
+
+  ### Winter Queen Tenet ###
+  tenet_winter_queen_name: "Favor of the Winter Queen"
+  tenet_winter_queen_desc: "The Winter Queen favors those who thrive where others merely survive. Bitter cold, deep snow, and the long darkness of the North are not curses, but sacred trials through which the faithful prove their worth. Warriors trained in these lands learn to turn winter itself against their enemies, enduring privation and striking with deadly advantage in the frozen wastes."
+
+  ### Winter Queen Tenet Parameters ###
+  doctrine_parameter_winter_soldier_trait_more_common: "The [GetTrait('winter_soldier').GetName( GetNullCharacter )] [trait|E] is more common among adherents"
+  doctrine_parameter_winter_trait_bonuses: "Winter-related [traits|E] provide additional bonuses"
+  doctrine_parameter_can_recruit_winter_specialist: "Can recruit specialized warriors trained for warfare in severe winter conditions"
+  doctrine_parameter_resistant_to_winter_privation: "Adherents are more resistant to the hardships and privation of winter"
+
+  ### Winter Queen Holy Orders ###
+
+  holy_order_knights_of_winter: "Knights of Winter"
+  holy_order_daughters_of_the_white_crown: "Daughters of the White Crown"
+  holy_order_spears_of_the_long_night: "Spears of the Long Night"
+  holy_order_the_frostbound: "The Frostbound"
+  holy_order_guardians_of_the_pale_throne: "Guardians of the Pale Throne"
+  holy_order_blades_of_nixni: "Blades of Nixni"
+  holy_order_the_white_host: "The White Host"
+  holy_order_wardens_of_the_endless_winter: "Wardens of the Endless Winter"
+  holy_order_the_frozen_court: "The Frozen Court"
+  holy_order_talons_of_the_winter_queen: "Talons of the Winter Queen"
+  holy_order_the_rimeguard: "The Rimeguard"
+  holy_order_sisters_of_the_silent_snow: "Sisters of the Silent Snow"
+  holy_order_the_icebound_oath: "The Icebound Oath"
+  holy_order_servants_of_the_white_throne: "Servants of the White Throne"
+  holy_order_the_cold_watch: "The Cold Watch"
+  holy_order_harbingers_of_winter: "Harbingers of Winter"
+  
+  ### Forodain Faith ###
+  faith_forodain: "Lore of the North"
+  faith_forodain_adj: "Forodain"
+  faith_forodain_adherent: "Forodain"
+  faith_forodain_adherent_plural: "Forodain"
+  faith_forodain_desc: "The Forodain preserve a stern faith shaped by the long winters of the North and the memory of the Elder Days. They hold courage, endurance, loyalty, and the keeping of oaths among the highest virtues, remembering the ancient struggles of Elves and Men against the Shadow as examples for every generation that follows.\n\nTo the Forodain, the deeds of their forebears are not distant stories. They are lessons, warnings, and obligations carried forward through song, genealogy, and sacred tradition. A worthy life is one that leaves behind a name fit to be remembered."
+
+  ### Silmarillion Tenet ###
+  tenet_silmirillion_name: "The Silmarillion"
+  tenet_silmirillion_desc: "The ancient histories of the Elder Days are more than chronicles of a vanished age. They preserve the story of the creation of the world, the deeds of the Powers, the awakening of the Children of Ilúvatar, the making and loss of the Silmarils, and the long wars against the first Dark Lord.\n\nThe faithful treat these tales as sacred history and moral instruction. The triumphs, failures, oaths, sacrifices, and tragedies of the great figures of old are studied so that the living might recognize the same choices when they arise again."
+
+  ### Forodain Holy Orders ###
+  holy_order_wardens_of_the_north: "Wardens of the North"
+  holy_order_oathsworn_of_forodain: "Oathsworn of Forodain"
+  holy_order_spears_of_the_elder_days: "Spears of the Elder Days"
+  holy_order_guardians_of_the_old_tales: "Guardians of the Old Tales"
+  holy_order_the_northern_watch: "The Northern Watch"
+  holy_order_shields_of_the_first_age: "Shields of the First Age"
+  holy_order_the_white_star_host: "The Host of the White Star"
+  holy_order_keepers_of_the_long_memory: "Keepers of the Long Memory"
+  holy_order_sons_of_the_cold_wind: "Sons of the Cold Wind"
+  holy_order_the_oathbound_company: "The Oathbound Company"
+  holy_order_sentinels_of_the_high_north: "Sentinels of the High North"
+  holy_order_blades_of_remembrance: "Blades of Remembrance"
+  holy_order_the_last_watchfires: "The Last Watchfires"
+  holy_order_companions_of_the_elder_lore: "Companions of the Elder Lore"
+  holy_order_the_northern_shieldwall: "The Northern Shieldwall"
+  
+  faith_unbowed: "Úrácina"
+  faith_unbowed_adj: "Úrácina"
+  faith_unbowed_adherent: "Úrácina"
+  faith_unbowed_adherent_plural: "Úrácinar"
+  faith_unbowed_desc: "The Úrácinar are [orcs|E] who refuse the claim that darkness owns them. They remember that their people were not always creatures of chains and cruelty, and that before the first Dark Lord broke their ancestors there was something older beneath the scars. They do not expect that inheritance to return easily. What was ruined over ages must be restored through patience, discipline, and work.\n\nAmong the Úrácinar, diligence is treated almost as a sacred virtue. A damaged wall is rebuilt stone by stone. A neglected field is cleared and planted again. A broken tool is repaired rather than discarded. Old songs are reconstructed from fragments, genealogies are carefully preserved, children are taught what their ancestors were denied, and every generation is expected to leave its people stronger, wiser, and freer than it found them. Idleness in the face of suffering is regarded with contempt, for there is always something that can be mended, learned, strengthened, or restored.\n\nThey oppose [morgothcharacter|E] and every would-be [darklord|E] absolutely. No master, however ancient or powerful, has a rightful claim upon them. Their freedom is maintained not only with weapons, but through the patient work of rebuilding a people that was deliberately shattered. They look toward the elder traditions of the [elves|E] and the echoes of the [ainurgods|E] not because they believe they can simply become what their ancestors once were, but because memory gives them a foundation upon which something new can be built."
+
+  tenet_unbroken_name: "The Unbroken"
+  tenet_unbroken_desc: "Nothing broken is beyond healing if enough effort is given to its restoration. A shattered blade can be reforged, a ruined hall rebuilt, a wounded body tended, and a damaged people made whole again. Some wounds require years, generations, or even ages of patient work, but difficulty does not make restoration impossible.\n\nThe faithful believe that perseverance is itself an act of defiance against despair. What has been damaged must be tended, what has been lost must be sought, and what has been weakened must be strengthened. They do not expect healing to be quick or easy, only that with sufficient patience, diligence, and effort, even the deepest wounds can mend.\n\n #BOL Nothing that is lost cannot be found, nothing that is broken can't be repaired, No Wound can't be healed and No Stain Can't be cleaned.#!"
+  
+  ### Úrácina Holy Orders ###
+  holy_order_keep_of_the_unbroken_oath: "Keepers of the Unbroken Oath"
+  holy_order_the_chainbreakers: "The Chainbreakers"
+  holy_order_guardians_of_the_reforged: "Guardians of the Reforged"
+  holy_order_the_patient_hammer: "The Patient Hammer"
+  holy_order_wardens_of_the_free_flame: "Wardens of the Free Flame"
+  holy_order_the_menders_watch: "The Menders' Watch"
+  holy_order_shields_against_the_shadow: "Shields Against the Shadow"
+  holy_order_the_unbowed_host: "The Unbowed Host"
+  holy_order_keepers_of_the_old_memory: "Keepers of the Old Memory"
+  holy_order_the_iron_vigil: "The Iron Vigil"
+  holy_order_hands_of_restoration: "Hands of Restoration"
+  holy_order_the_last_chain_broken: "The Last Chain Broken"
+  
+  ### Werewolf Faith ###
+  faith_werewolves: "Wolfsworn"
+  faith_werewolves_adj: "Wolfsworn"
+  faith_werewolves_adherent: "Wolfsworn"
+  faith_werewolves_adherent_plural: "Wolfsworn"
+  faith_werewolves_desc: "The Wolfsworn descend from the [eriadorrim|E] who once dwelt in the lands of Angmar before they were driven north by the Angmarrim. Hunted from their homes and forced into the frozen expanses of [forodwaith|E], they survived where few others could, carrying with them only fragments of their old customs, their hatred of those who dispossessed them, and the memory of the lands they had lost.\n\nTheir survival changed when [radagastcharacter|E] took pity upon them. Through his gift, certain among their people learned to take the shape of great wolves, gaining the strength, endurance, keen senses, and thick hides needed to survive the northern wastes. What began as a means of survival became a sacred inheritance, passed down and guarded with great care.\n\nThe Wolfsworn do not see the wolf-shape as a curse or loss of humanity. To them it is a covenant: a gift granted so that their people would endure when exile, cold, and hunger should have destroyed them. They revere Radagast as their protector and teacher, and regard the wild places of the North as both refuge and proving ground."
+
+  ### Werewolf Tenet ###
+  tenet_werewolves_name: "Gift of the Wolf"
+  tenet_werewolves_desc: "When our people were driven from their homes and cast into the frozen North, we were not left to die. Radagast gave us the means to endure, teaching some among us to take the shape of the wolf and survive where ordinary flesh would fail.\n\nThis gift is sacred. The wolf-shape grants strength against the cold, speed across the snow, and senses sharp enough to live from the harsh land itself. To take that form is not to become a beast, but to accept the means by which our people were preserved. So long as the gift remains among us, exile will not break us, winter will not claim us, and no enemy will easily drive us from our refuge again."
+ 
+  ### Wolfsworn Holy Orders ###
+  holy_order_the_grey_pack: "The Grey Pack"
+  holy_order_fangs_of_the_north: "Fangs of the North"
+  holy_order_radagasts_hounds: "Radagast's Hounds"
+  holy_order_the_winter_pack: "The Winter Pack"
+  holy_order_claws_of_exile: "Claws of Exile"
+  holy_order_the_frostfangs: "The Frostfangs"
+  holy_order_wardens_of_the_wild: "Wardens of the Wild"
+  holy_order_the_long_howl: "The Long Howl"
+  holy_order_guardians_of_the_old_road: "Guardians of the Old Road"
+  holy_order_the_snowbound_pack: "The Snowbound Pack"
+  holy_order_hunters_of_the_cold_wastes: "Hunters of the Cold Wastes"
+  holy_order_the_last_wolves_of_angmar: "The Last Wolves of Angmar"
+  holy_order_the_brown_wizards_chosen: "The Brown Wizard's Chosen"
+  holy_order_watchers_beneath_the_aurora: "Watchers Beneath the Aurora"
+  holy_order_the_iceclaw_company: "The Iceclaw Company"
+  
+  ### Elven Holy Sites ###
+  holy_site_evermist_name: "Evermist"
+  holy_site_gondolin_name: "Gondolin"
+  holy_site_helecthil_name: "Helecthil"
+  holy_site_carasthon_name: "Carasthon"
+  holy_site_celebrim_name: "Celebrim"
+  holy_site_hitheth_name: "Hitheth"
+
+  ### Forodain Holy Sites ###
+  holy_site_achrond_name: "Achrond"
+  holy_site_whitehaven_name: "Whitehaven"
+  holy_site_angband_good_name: "Angband Reclaimed"
+  holy_site_morgoths_well_name: "Morgoth's Well"
+
+  ### Lossoth Holy Sites ###
+  holy_site_boiling_river_name: "Boiling River"
+  holy_site_kiehuva_jarvi_name: "Kiehuva Järvi"
+
+  ### Orcish Holy Sites ###
+  holy_site_angband_bad_name: "Pits of Angband"
+  holy_site_drakkeep_name: "Drakkeep"
+  holy_site_durnost_name: "Durnost"
+
+  ### Werewolf Holy Sites ###
+  holy_site_forovirian_name: "Forovirian"

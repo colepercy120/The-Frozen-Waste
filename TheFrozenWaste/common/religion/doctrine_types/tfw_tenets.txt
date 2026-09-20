@@ -1,0 +1,296 @@
+﻿
+tenet_elven_preservation = {
+	icon = tenet_elven_renewal_icon
+	name = tenet_elven_preservation_name
+	
+	piety_cost = {
+		if = {
+			limit = { has_doctrine = tenet_sanctity_of_nature }
+			value = faith_tenet_cost_massive
+		}
+		else = {
+			value = faith_tenet_cost_high
+		}
+
+		# Multiplier for keeping same tenet
+		if = {
+			limit = { has_doctrine = tenet_preservation }
+			multiply = faith_unchanged_doctrine_cost_mult
+		}
+	}
+
+	is_shown = {
+		religion = { is_in_family = rf_eruhini }
+	}
+
+	can_pick = {
+		custom_description = {
+			text = incompatible_tenet_tenet_sacred_destruction_trigger
+			NOT = { doctrine:tenet_sacred_destruction = { is_in_list = selected_doctrines } }
+		}
+	}
+
+	character_modifier = {
+		holding_build_gold_cost = -0.15
+		holding_build_speed = -0.15
+		build_gold_cost = -0.15
+		build_speed = -0.15
+	}
+	
+	parameters = {
+		development_gain_on_building_complete = yes
+	}
+	
+	traits = {
+		virtues = { architect }
+	}
+}
+
+tenet_giftlord = {
+	icon = tenet_yuletide
+	name = tenet_giftlord_name
+	is_shown = {
+		religion = { is_in_family = rf_eruhini }
+	}
+	
+	piety_cost = {
+		if = {
+			limit = {
+				OR = {
+					#religion_tag = hinduism_religion
+					#religion_tag = zoroastrianism_religion
+					#rhas_doctrine = pagan_hostility_doctrine
+				}
+			}
+			value = faith_tenet_cost_low
+		}
+		else = {
+			value = faith_tenet_cost_mid
+		}
+
+		# Multiplier for keeping same tenet
+		if = {
+			limit = { has_doctrine = tenet_ritual_celebrations }
+			multiply = faith_unchanged_doctrine_cost_mult
+		}
+	}
+
+	parameters = {
+		piety_from_feasts_active = yes
+		piety_from_festivals_active = yes
+		lotr_unlock_yuletide_activity = yes
+		piety_from_gifts_active = yes
+		
+	}
+
+	character_modifier = {
+		vassal_opinion = 10
+		courtier_opinion = 10
+	}
+	
+	traits = {
+		virtues = { generous gregarious }
+		sins = { greedy }
+	}
+}
+
+tenet_world_shapers = {
+	icon = tenet_worldshapers_icon
+	name = tenet_world_shapers_name
+	is_shown = {
+		religion = { is_in_family = rf_eruhini }
+	}
+
+	can_pick = {
+		always = yes
+	}
+
+	piety_cost = {
+		value = faith_tenet_cost_low
+		if = {
+			limit = { has_doctrine = tenet_primacy_of_yavanna }
+			multiply = faith_unchanged_doctrine_cost_mult
+		}
+	}
+
+	parameters = {
+	}
+
+	character_modifier = {
+		stewardship = 3
+		learning = 2
+	}
+
+	traits = {
+		virtues = { temperate lifestyle_gardener diligent lifestyle_miner lifestyle_artifact_crafting  }
+		sins = { gluttonous lazy }
+	}
+}
+
+tenet_helecthil = {
+	icon = tenet_light_of_helecthil_icon
+	is_shown = {
+		religion = { is_in_family = rf_eruhini }
+	}
+
+	can_pick = {
+		always = yes
+	}
+
+	piety_cost = {
+		value = faith_tenet_cost_low
+		if = {
+			limit = { has_doctrine = tenet_primacy_of_ulmo }
+			multiply = faith_unchanged_doctrine_cost_mult
+		}
+	}
+
+	parameters = {
+		
+	}
+
+	character_modifier = {
+		
+		learning = 3
+		stress_gain_mult = -0.1
+		stress_loss_mult = 0.1
+	}
+
+	traits = {
+		virtues = { calm  }
+	}
+}
+
+tenet_winter_queen = {
+	icon = tenet_winter_queen
+	is_shown = {
+		religion = { NOT = { is_in_family = rf_eruhini } }
+	}
+
+	can_pick = {
+		always = yes
+	}
+
+	piety_cost = {
+		value = faith_tenet_cost_high
+		
+	}
+
+	parameters = {
+		winter_soldier_trait_more_common = yes
+		winter_trait_bonuses = yes
+		can_recruit_winter_specialist = yes
+		resistant_to_winter_privation = yes
+	}
+
+	character_modifier = {
+		arctic_advantage = 5
+		arctic_development_growth_factor = 0.25
+		arctic_attrition_mult = -1
+		arctic_supply_limit_mult = 1
+		
+	}
+
+	traits = {
+		virtues = { calm ambitious }
+	}
+}
+
+tenet_silmirillion = {
+	icon = silmirllion_icon
+	is_shown = {
+		religion = { is_in_family = rf_eruhini }
+	}
+
+	can_pick = {
+		always = yes
+	}
+
+	piety_cost = {
+		value = faith_tenet_cost_low
+		if = {
+			limit = { has_doctrine = tenet_primacy_of_ulmo }
+			multiply = faith_unchanged_doctrine_cost_mult
+		}
+	}
+
+	parameters = {
+		tenet_esotericism_mystic_education = yes
+	}
+
+	character_modifier = {
+		
+		learning = 1
+		martial = 1
+	}
+
+	traits = {
+		virtues = { diligent humble lifestyle_mystic = { weight = 1 } } 
+		sins = { arrogant }
+	}
+}
+
+tenet_unbroken = {
+	icon = unbroken_icon
+	is_shown = {
+		religion = { is_in_family = rf_forcesofevil }
+	}
+
+	can_pick = {
+		always = yes
+		faith_is_good = yes
+	}
+
+	piety_cost = {
+		value = faith_tenet_cost_low
+		
+	}
+
+	parameters = {
+		
+	}
+
+	character_modifier = {
+		prowess = 1
+		martial = 2
+		
+	}
+
+	traits = {
+		virtues = { brave just compassionate diligent }
+		sins = { craven deceitful wrathful lazy }
+	}
+}
+
+tenet_werewolves = {
+	icon = tenet_werewolves_icon
+	is_shown = {
+		religion = { is_in_family = rf_eruhini }
+	}
+
+	can_pick = {
+		
+		faith_is_good = yes
+		
+	}
+
+	piety_cost = {
+		value = faith_tenet_cost_low
+		
+	}
+
+	parameters = {
+		
+	}
+
+	character_modifier = {
+		prowess = 3
+		martial = 1
+		
+	}
+
+	traits = {
+		virtues = { skinchanger brave hunter  }
+		sins = { craven }
+	}
+}

@@ -1,0 +1,11482 @@
+############################################################
+##### UMLI CHARACTER LINES - 6700 TO 7200 ###################
+############################################################
+# Culture: umli
+# Faith: faith_khazad
+# Base-stat total (diplomacy + martial + stewardship +
+# intrigue + learning + prowess): 20-30 for every character.
+# Umli are short humans, NOT Dwarves:
+# - most characters use trait = dwarf for stature
+# - lifespans are generated on ordinary human scales
+# - no long-lived/dwarven lifespan treatment is used
+#
+# Five principal dynastic lines:
+# 1. House Motsognir   - ROYAL LINE
+# 2. House Dvalin
+# 3. House Brokkr
+# 4. House Andvari
+# 5. House Nori
+#
+# Main-line couples have 2-4 children.
+# Most spouses are lowborn Umli; a small number of marriages
+# intentionally intermingle the five houses.
+############################################################
+
+
+############################################################
+##### HOUSE MOTSOGNIR - ROYAL LINE #####
+############################################################
+
+umli_motsognir_001 = { # Founder; ROYAL LINE
+	name = Sindri
+
+	dynasty = dynasty_umli_motsognir
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = compassionate
+	trait = cynical
+	trait = content
+
+	trait = education_martial_1
+
+	diplomacy = 3
+	martial = 9
+	stewardship = 5
+	intrigue = 3
+	learning = 5
+	prowess = 5
+
+	6673.7.28 = {
+		birth = yes
+	}
+
+	6699.2.16 = {
+		add_spouse = umli_lowborn_001
+	}
+
+	6739.4.8 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_lowborn_001 = { # Lowborn spouse of Sindri
+	name = Ragnhild
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = zealous
+	trait = calm
+	trait = callous
+
+	trait = education_learning_2
+
+	diplomacy = 3
+	martial = 4
+	stewardship = 3
+	intrigue = 5
+	learning = 9
+	prowess = 4
+
+	6675.6.2 = {
+		birth = yes
+	}
+
+	6756.9.2 = {
+		death = { death_reason = death_ill }
+	}
+}
+
+
+### Generation 1 ###
+
+umli_motsognir_002 = { # Generation 1 continuation
+	name = Regin
+
+	dynasty = dynasty_umli_motsognir
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_motsognir_001
+	mother = umli_lowborn_001
+
+	trait = dwarf
+	trait = brave
+	trait = deceitful
+	trait = diligent
+
+	trait = education_martial_2
+
+	diplomacy = 4
+	martial = 6
+	stewardship = 3
+	intrigue = 4
+	learning = 3
+	prowess = 4
+
+	6700.3.26 = {
+		birth = yes
+	}
+
+	6730.11.5 = {
+		add_spouse = umli_lowborn_006
+	}
+
+	6775.2.5 = {
+		death = { death_reason = death_ill }
+	}
+}
+
+umli_lowborn_006 = { # Lowborn spouse into House Motsognir (generation 1)
+	name = Skadi
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = paranoid
+	trait = humble
+	trait = stubborn
+
+	trait = education_intrigue_1
+
+	diplomacy = 2
+	martial = 4
+	stewardship = 5
+	intrigue = 7
+	learning = 6
+	prowess = 3
+
+	6698.1.15 = {
+		birth = yes
+	}
+
+	6763.6.4 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_motsognir_003 = { # Generation 1 sibling
+	name = Dvalin
+
+	dynasty = dynasty_umli_motsognir
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_motsognir_001
+	mother = umli_lowborn_001
+
+	trait = dwarf
+	trait = diligent
+	trait = forgiving
+	trait = honest
+
+	trait = education_learning_2
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 4
+	intrigue = 3
+	learning = 8
+	prowess = 5
+
+	6703.10.25 = {
+		birth = yes
+	}
+
+	6787.12.4 = {
+		death = { death_reason = death_accident }
+	}
+}
+
+umli_motsognir_004 = { # Generation 1 sibling
+	name = Embla
+	female = yes
+
+	dynasty = dynasty_umli_motsognir
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_motsognir_001
+	mother = umli_lowborn_001
+
+	trait = dwarf
+	trait = calm
+	trait = greedy
+	trait = content
+
+	trait = education_martial_1
+
+	diplomacy = 5
+	martial = 3
+	stewardship = 4
+	intrigue = 3
+	learning = 3
+	prowess = 9
+
+	6704.9.1 = {
+		birth = yes
+	}
+
+	6775.10.18 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+
+### Generation 2 ###
+
+umli_motsognir_005 = { # Generation 2 continuation
+	name = Skirvir
+
+	dynasty = dynasty_umli_motsognir
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_motsognir_002
+	mother = umli_lowborn_006
+
+	trait = dwarf
+	trait = brave
+	trait = zealous
+	trait = generous
+
+	trait = education_intrigue_2
+
+	diplomacy = 4
+	martial = 4
+	stewardship = 3
+	intrigue = 3
+	learning = 6
+	prowess = 2
+
+	6733.3.16 = {
+		birth = yes
+	}
+
+	6762.8.3 = {
+		add_spouse = umli_lowborn_011
+	}
+
+	6808.12.14 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_lowborn_011 = { # Lowborn spouse into House Motsognir (generation 2)
+	name = Liv
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = generous
+	trait = brave
+	trait = zealous
+
+	trait = education_diplomacy_3
+
+	diplomacy = 6
+	martial = 5
+	stewardship = 2
+	intrigue = 4
+	learning = 3
+	prowess = 4
+
+	6730.7.13 = {
+		birth = yes
+	}
+
+	6806.8.16 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_motsognir_006 = { # Generation 2 sibling
+	name = Nali
+
+	dynasty = dynasty_umli_motsognir
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_motsognir_002
+	mother = umli_lowborn_006
+
+	trait = dwarf
+	trait = impatient
+	trait = forgiving
+	trait = arrogant
+
+	trait = education_learning_3
+
+	diplomacy = 3
+	martial = 3
+	stewardship = 3
+	intrigue = 5
+	learning = 4
+	prowess = 2
+
+	6735.8.28 = {
+		birth = yes
+	}
+
+	6806.11.12 = {
+		death = { death_reason = death_accident }
+	}
+}
+
+umli_motsognir_007 = { # Generation 2 sibling
+	name = Hilda
+	female = yes
+
+	dynasty = dynasty_umli_motsognir
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_motsognir_002
+	mother = umli_lowborn_006
+
+	trait = dwarf
+	trait = paranoid
+	trait = impatient
+	trait = honest
+
+	trait = education_intrigue_2
+
+	diplomacy = 2
+	martial = 4
+	stewardship = 3
+	intrigue = 6
+	learning = 6
+	prowess = 3
+
+	6737.10.15 = {
+		birth = yes
+	}
+
+	6808.11.17 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+
+### Generation 3 ###
+
+umli_motsognir_008 = { # Generation 3 continuation
+	name = Bifur
+
+	dynasty = dynasty_umli_motsognir
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_motsognir_005
+	mother = umli_lowborn_011
+
+	trait = dwarf
+	trait = arrogant
+	trait = deceitful
+	trait = temperate
+
+	trait = education_stewardship_3
+
+	diplomacy = 6
+	martial = 3
+	stewardship = 6
+	intrigue = 4
+	learning = 3
+	prowess = 8
+
+	6764.7.3 = {
+		birth = yes
+	}
+
+	6790.11.27 = {
+		add_spouse = umli_lowborn_016
+	}
+
+	6833.7.9 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_lowborn_016 = { # Lowborn spouse into House Motsognir (generation 3)
+	name = Ingrid
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = honest
+	trait = craven
+	trait = cynical
+
+	trait = education_intrigue_2
+
+	diplomacy = 2
+	martial = 3
+	stewardship = 5
+	intrigue = 7
+	learning = 4
+	prowess = 3
+
+	6767.2.12 = {
+		birth = yes
+	}
+
+	6832.9.23 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_motsognir_009 = { # Generation 3 sibling
+	name = Una
+	female = yes
+
+	dynasty = dynasty_umli_motsognir
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_motsognir_005
+	mother = umli_lowborn_011
+
+	trait = dwarf
+	trait = stubborn
+	trait = forgiving
+	trait = arrogant
+
+	trait = education_martial_2
+
+	diplomacy = 3
+	martial = 9
+	stewardship = 2
+	intrigue = 4
+	learning = 5
+	prowess = 5
+
+	6765.11.23 = {
+		birth = yes
+	}
+
+	6851.8.26 = {
+		death = { death_reason = death_ill }
+	}
+}
+
+umli_motsognir_010 = { # Generation 3 sibling
+	name = Fundin
+
+	dynasty = dynasty_umli_motsognir
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_motsognir_005
+	mother = umli_lowborn_011
+
+	trait = dwarf
+	trait = paranoid
+	trait = shy
+	trait = patient
+
+	trait = education_learning_2
+
+	diplomacy = 4
+	martial = 3
+	stewardship = 3
+	intrigue = 3
+	learning = 5
+	prowess = 5
+
+	6768.1.4 = {
+		birth = yes
+	}
+
+	6849.9.10 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_motsognir_011 = { # Generation 3 sibling
+	name = Bombur
+
+	dynasty = dynasty_umli_motsognir
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_motsognir_005
+	mother = umli_lowborn_011
+
+	trait = dwarf
+	trait = wrathful
+	trait = diligent
+	trait = impatient
+
+	trait = education_diplomacy_2
+
+	diplomacy = 5
+	martial = 2
+	stewardship = 5
+	intrigue = 2
+	learning = 2
+	prowess = 4
+
+	6769.2.6 = {
+		birth = yes
+	}
+
+	6844.1.12 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+
+### Generation 4 ###
+
+umli_motsognir_012 = { # Generation 4 continuation
+	name = Grer
+
+	dynasty = dynasty_umli_motsognir
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_motsognir_008
+	mother = umli_lowborn_016
+
+	trait = dwarf
+	trait = patient
+	trait = deceitful
+	trait = cynical
+
+	trait = education_martial_2
+
+	diplomacy = 4
+	martial = 6
+	stewardship = 3
+	intrigue = 2
+	learning = 5
+	prowess = 4
+
+	6793.10.10 = {
+		birth = yes
+	}
+
+	6821.5.17 = {
+		add_spouse = umli_dvalin_010
+	}
+
+	6851.2.4 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_motsognir_013 = { # Generation 4 sibling
+	name = Rind
+	female = yes
+
+	dynasty = dynasty_umli_motsognir
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_motsognir_008
+	mother = umli_lowborn_016
+
+	trait = just
+	trait = greedy
+	trait = paranoid
+
+	trait = education_diplomacy_2
+
+	diplomacy = 4
+	martial = 6
+	stewardship = 4
+	intrigue = 4
+	learning = 2
+	prowess = 3
+
+	6795.7.16 = {
+		birth = yes
+	}
+
+	6856.1.3 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+
+### Generation 5 ###
+
+umli_motsognir_014 = { # Generation 5 continuation
+	name = Alfhild
+	female = yes
+
+	dynasty = dynasty_umli_motsognir
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_motsognir_012
+	mother = umli_dvalin_010
+
+	trait = dwarf
+	trait = greedy
+	trait = stubborn
+	trait = shy
+
+	trait = education_martial_2
+
+	diplomacy = 2
+	martial = 8
+	stewardship = 2
+	intrigue = 3
+	learning = 5
+	prowess = 4
+
+	6824.8.5 = {
+		birth = yes
+	}
+
+	6853.8.8 = {
+		add_spouse = umli_lowborn_025
+	}
+
+	6903.12.20 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_lowborn_025 = { # Lowborn spouse into House Motsognir (generation 5)
+	name = Nidi
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = shy
+	trait = paranoid
+	trait = stubborn
+
+	trait = education_martial_2
+
+	diplomacy = 4
+	martial = 6
+	stewardship = 3
+	intrigue = 4
+	learning = 3
+	prowess = 7
+
+	6824.10.18 = {
+		birth = yes
+	}
+
+	6908.1.14 = {
+		death = { death_reason = death_ill }
+	}
+}
+
+umli_motsognir_015 = { # Generation 5 sibling
+	name = Hanar
+
+	dynasty = dynasty_umli_motsognir
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_motsognir_012
+	mother = umli_dvalin_010
+
+	trait = dwarf
+	trait = callous
+	trait = ambitious
+	trait = gregarious
+
+	trait = education_martial_1
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 3
+	intrigue = 3
+	learning = 2
+	prowess = 3
+
+	6825.6.4 = {
+		birth = yes
+	}
+
+	6907.9.19 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_motsognir_016 = { # Generation 5 sibling
+	name = Runa
+	female = yes
+
+	dynasty = dynasty_umli_motsognir
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_motsognir_012
+	mother = umli_dvalin_010
+
+	trait = dwarf
+	trait = humble
+	trait = deceitful
+	trait = impatient
+
+	trait = education_intrigue_2
+
+	diplomacy = 5
+	martial = 3
+	stewardship = 4
+	intrigue = 7
+	learning = 4
+	prowess = 7
+
+	6827.6.8 = {
+		birth = yes
+	}
+
+	6907.5.2 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_motsognir_017 = { # Generation 5 sibling
+	name = Sigrid
+	female = yes
+
+	dynasty = dynasty_umli_motsognir
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_motsognir_012
+	mother = umli_dvalin_010
+
+	trait = dwarf
+	trait = temperate
+	trait = calm
+	trait = paranoid
+
+	trait = education_learning_3
+
+	diplomacy = 3
+	martial = 4
+	stewardship = 4
+	intrigue = 3
+	learning = 9
+	prowess = 4
+
+	6829.7.27 = {
+		birth = yes
+	}
+
+	6909.5.26 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+
+### Generation 6 ###
+
+umli_motsognir_018 = { # Generation 6 continuation
+	name = Sif
+	female = yes
+
+	dynasty = dynasty_umli_motsognir
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_lowborn_025
+	mother = umli_motsognir_014
+
+	trait = dwarf
+	trait = brave
+	trait = just
+	trait = greedy
+
+	trait = education_stewardship_3
+
+	diplomacy = 4
+	martial = 3
+	stewardship = 8
+	intrigue = 6
+	learning = 3
+	prowess = 3
+
+	6854.11.12 = {
+		birth = yes
+	}
+
+	6882.8.17 = {
+		add_spouse = umli_lowborn_029
+	}
+
+	6916.8.16 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_lowborn_029 = { # Lowborn spouse into House Motsognir (generation 6)
+	name = Rathsvith
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = shy
+	trait = forgiving
+	trait = greedy
+
+	trait = education_stewardship_3
+
+	diplomacy = 5
+	martial = 4
+	stewardship = 6
+	intrigue = 4
+	learning = 3
+	prowess = 3
+
+	6855.1.7 = {
+		birth = yes
+	}
+
+	6920.11.14 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_motsognir_019 = { # Generation 6 sibling
+	name = Frar
+
+	dynasty = dynasty_umli_motsognir
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_lowborn_025
+	mother = umli_motsognir_014
+
+	trait = dwarf
+	trait = just
+	trait = patient
+	trait = stubborn
+
+	trait = education_intrigue_2
+
+	diplomacy = 4
+	martial = 5
+	stewardship = 3
+	intrigue = 7
+	learning = 2
+	prowess = 3
+
+	6856.5.8 = {
+		birth = yes
+	}
+
+	6933.8.28 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+
+### Generation 7 ###
+
+umli_motsognir_020 = { # Generation 7 continuation
+	name = Durin
+
+	dynasty = dynasty_umli_motsognir
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_lowborn_029
+	mother = umli_motsognir_018
+
+	trait = dwarf
+	trait = greedy
+	trait = deceitful
+	trait = stubborn
+
+	trait = education_martial_1
+
+	diplomacy = 3
+	martial = 3
+	stewardship = 5
+	intrigue = 4
+	learning = 2
+	prowess = 6
+
+	6884.12.26 = {
+		birth = yes
+	}
+
+	6912.5.2 = {
+		add_spouse = umli_lowborn_034
+	}
+
+	6953.8.10 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_lowborn_034 = { # Lowborn spouse into House Motsognir (generation 7)
+	name = Eir
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = forgiving
+	trait = gregarious
+	trait = humble
+
+	trait = education_stewardship_2
+
+	diplomacy = 4
+	martial = 5
+	stewardship = 6
+	intrigue = 3
+	learning = 3
+	prowess = 4
+
+	6883.2.5 = {
+		birth = yes
+	}
+
+	6940.3.10 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_motsognir_021 = { # Generation 7 sibling
+	name = Niping
+
+	dynasty = dynasty_umli_motsognir
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_lowborn_029
+	mother = umli_motsognir_018
+
+	trait = dwarf
+	trait = temperate
+	trait = just
+	trait = zealous
+
+	trait = education_diplomacy_2
+
+	diplomacy = 5
+	martial = 4
+	stewardship = 8
+	intrigue = 5
+	learning = 3
+	prowess = 4
+
+	6886.4.23 = {
+		birth = yes
+	}
+
+	6968.3.21 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_motsognir_022 = { # Generation 7 sibling
+	name = Gerda
+	female = yes
+
+	dynasty = dynasty_umli_motsognir
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_lowborn_029
+	mother = umli_motsognir_018
+
+	trait = dwarf
+	trait = content
+	trait = patient
+	trait = callous
+
+	trait = education_intrigue_2
+
+	diplomacy = 3
+	martial = 3
+	stewardship = 3
+	intrigue = 4
+	learning = 4
+	prowess = 3
+
+	6888.9.7 = {
+		birth = yes
+	}
+
+	6954.9.21 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_motsognir_023 = { # Generation 7 sibling
+	name = Hildr
+	female = yes
+
+	dynasty = dynasty_umli_motsognir
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_lowborn_029
+	mother = umli_motsognir_018
+
+	trait = dwarf
+	trait = humble
+	trait = wrathful
+	trait = craven
+
+	trait = education_stewardship_1
+
+	diplomacy = 4
+	martial = 4
+	stewardship = 6
+	intrigue = 3
+	learning = 2
+	prowess = 3
+
+	6890.5.28 = {
+		birth = yes
+	}
+
+	6968.6.25 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+
+### Generation 8 ###
+
+umli_motsognir_024 = { # Generation 8 continuation
+	name = Gandalf
+
+	dynasty = dynasty_umli_motsognir
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_motsognir_020
+	mother = umli_lowborn_034
+
+	trait = dwarf
+	trait = greedy
+	trait = lustful
+	trait = brave
+
+	trait = education_martial_2
+
+	diplomacy = 3
+	martial = 9
+	stewardship = 3
+	intrigue = 3
+	learning = 7
+	prowess = 4
+
+	6914.9.21 = {
+		birth = yes
+	}
+
+	6944.2.18 = {
+		add_spouse = umli_lowborn_039
+	}
+
+	6992.8.3 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_lowborn_039 = { # Lowborn spouse into House Motsognir (generation 8)
+	name = Aud
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = temperate
+	trait = callous
+	trait = impatient
+
+	trait = education_martial_3
+
+	diplomacy = 4
+	martial = 7
+	stewardship = 3
+	intrigue = 4
+	learning = 3
+	prowess = 4
+
+	6916.6.13 = {
+		birth = yes
+	}
+
+	6991.10.6 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_motsognir_025 = { # Generation 8 sibling; spouse into House Nori
+	name = Eydis
+	female = yes
+
+	dynasty = dynasty_umli_motsognir
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_motsognir_020
+	mother = umli_lowborn_034
+
+	trait = dwarf
+	trait = forgiving
+	trait = wrathful
+	trait = honest
+
+	trait = education_stewardship_2
+
+	diplomacy = 7
+	martial = 4
+	stewardship = 5
+	intrigue = 4
+	learning = 4
+	prowess = 2
+
+	6917.2.20 = {
+		birth = yes
+	}
+
+	6976.9.11 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+
+### Generation 9 ###
+
+umli_motsognir_026 = { # Generation 9 continuation
+	name = Fjalar
+
+	dynasty = dynasty_umli_motsognir
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_motsognir_024
+	mother = umli_lowborn_039
+
+	trait = dwarf
+	trait = generous
+	trait = paranoid
+	trait = honest
+
+	trait = education_martial_2
+
+	diplomacy = 3
+	martial = 5
+	stewardship = 4
+	intrigue = 4
+	learning = 2
+	prowess = 4
+
+	6945.6.24 = {
+		birth = yes
+	}
+
+	6972.8.24 = {
+		add_spouse = umli_lowborn_043
+	}
+
+	7024.11.3 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_lowborn_043 = { # Lowborn spouse into House Motsognir (generation 9)
+	name = Ingrid
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = craven
+	trait = honest
+	trait = zealous
+
+	trait = education_intrigue_2
+
+	diplomacy = 2
+	martial = 2
+	stewardship = 6
+	intrigue = 4
+	learning = 4
+	prowess = 2
+
+	6943.1.14 = {
+		birth = yes
+	}
+
+	7017.2.5 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_motsognir_027 = { # Generation 9 sibling
+	name = Dagny
+	female = yes
+
+	dynasty = dynasty_umli_motsognir
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_motsognir_024
+	mother = umli_lowborn_039
+
+	trait = dwarf
+	trait = paranoid
+	trait = brave
+	trait = generous
+
+	trait = education_intrigue_3
+
+	diplomacy = 6
+	martial = 3
+	stewardship = 4
+	intrigue = 9
+	learning = 2
+	prowess = 3
+
+	6947.11.24 = {
+		birth = yes
+	}
+
+	7006.10.25 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_motsognir_028 = { # Generation 9 sibling
+	name = Gloin
+
+	dynasty = dynasty_umli_motsognir
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_motsognir_024
+	mother = umli_lowborn_039
+
+	trait = dwarf
+	trait = humble
+	trait = forgiving
+	trait = wrathful
+
+	trait = education_intrigue_2
+
+	diplomacy = 2
+	martial = 2
+	stewardship = 5
+	intrigue = 6
+	learning = 3
+	prowess = 6
+
+	6949.1.8 = {
+		birth = yes
+	}
+
+	7028.6.24 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+
+### Generation 10 ###
+
+umli_motsognir_029 = { # Generation 10 continuation
+	name = Ori
+
+	dynasty = dynasty_umli_motsognir
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_motsognir_026
+	mother = umli_lowborn_043
+
+	trait = dwarf
+	trait = stubborn
+	trait = greedy
+	trait = compassionate
+
+	trait = education_stewardship_2
+
+	diplomacy = 2
+	martial = 3
+	stewardship = 5
+	intrigue = 7
+	learning = 6
+	prowess = 6
+
+	6976.11.25 = {
+		birth = yes
+	}
+
+	7005.11.22 = {
+		add_spouse = umli_lowborn_048
+	}
+
+	7040.7.2 = {
+		death = { death_reason = death_ill }
+	}
+}
+
+umli_lowborn_048 = { # Lowborn spouse into House Motsognir (generation 10)
+	name = Runa
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = greedy
+	trait = patient
+	trait = zealous
+
+	trait = education_learning_2
+
+	diplomacy = 4
+	martial = 6
+	stewardship = 5
+	intrigue = 5
+	learning = 3
+	prowess = 6
+
+	6980.8.19 = {
+		birth = yes
+	}
+
+	7042.7.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_motsognir_030 = { # Generation 10 sibling
+	name = Lit
+
+	dynasty = dynasty_umli_motsognir
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_motsognir_026
+	mother = umli_lowborn_043
+
+	trait = dwarf
+	trait = callous
+	trait = cynical
+	trait = wrathful
+
+	trait = education_intrigue_2
+
+	diplomacy = 5
+	martial = 2
+	stewardship = 2
+	intrigue = 6
+	learning = 2
+	prowess = 3
+
+	6977.6.11 = {
+		birth = yes
+	}
+
+	7051.8.22 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_motsognir_031 = { # Generation 10 sibling
+	name = Fundin
+
+	dynasty = dynasty_umli_motsognir
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_motsognir_026
+	mother = umli_lowborn_043
+
+	trait = dwarf
+	trait = diligent
+	trait = honest
+	trait = forgiving
+
+	trait = education_stewardship_2
+
+	diplomacy = 5
+	martial = 2
+	stewardship = 5
+	intrigue = 4
+	learning = 3
+	prowess = 4
+
+	6980.3.9 = {
+		birth = yes
+	}
+
+	7049.4.22 = {
+		death = { death_reason = death_accident }
+	}
+}
+
+
+
+### Generation 11 ###
+
+umli_motsognir_032 = { # Generation 11 continuation
+	name = Niping
+
+	dynasty = dynasty_umli_motsognir
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_motsognir_029
+	mother = umli_lowborn_048
+
+	trait = dwarf
+	trait = diligent
+	trait = honest
+	trait = arrogant
+
+	trait = education_martial_2
+
+	diplomacy = 6
+	martial = 6
+	stewardship = 5
+	intrigue = 3
+	learning = 3
+	prowess = 5
+
+	7007.10.20 = {
+		birth = yes
+	}
+
+	7035.2.7 = {
+		add_spouse = umli_lowborn_052
+	}
+
+	7088.6.25 = {
+		death = { death_reason = death_ill }
+	}
+}
+
+umli_lowborn_052 = { # Lowborn spouse into House Motsognir (generation 11)
+	name = Ragnhild
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = forgiving
+	trait = generous
+	trait = trusting
+
+	trait = education_learning_2
+
+	diplomacy = 4
+	martial = 6
+	stewardship = 3
+	intrigue = 5
+	learning = 9
+	prowess = 3
+
+	7006.2.23 = {
+		birth = yes
+	}
+
+	7091.11.17 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_motsognir_033 = { # Generation 11 sibling
+	name = Finn
+
+	dynasty = dynasty_umli_motsognir
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_motsognir_029
+	mother = umli_lowborn_048
+
+	trait = dwarf
+	trait = compassionate
+	trait = shy
+	trait = wrathful
+
+	trait = education_diplomacy_2
+
+	diplomacy = 3
+	martial = 4
+	stewardship = 4
+	intrigue = 2
+	learning = 8
+	prowess = 4
+
+	7009.11.21 = {
+		birth = yes
+	}
+
+	7068.7.6 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_motsognir_034 = { # Generation 11 sibling
+	name = Aud
+	female = yes
+
+	dynasty = dynasty_umli_motsognir
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_motsognir_029
+	mother = umli_lowborn_048
+
+	trait = dwarf
+	trait = gregarious
+	trait = patient
+	trait = content
+
+	trait = education_learning_2
+
+	diplomacy = 5
+	martial = 3
+	stewardship = 4
+	intrigue = 5
+	learning = 6
+	prowess = 4
+
+	7011.6.2 = {
+		birth = yes
+	}
+
+	7091.4.8 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+
+### Generation 12 ###
+
+umli_motsognir_035 = { # Generation 12 continuation
+	name = Nordri
+
+	dynasty = dynasty_umli_motsognir
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_motsognir_032
+	mother = umli_lowborn_052
+
+	trait = dwarf
+	trait = impatient
+	trait = honest
+	trait = callous
+
+	trait = education_martial_1
+
+	diplomacy = 3
+	martial = 6
+	stewardship = 4
+	intrigue = 2
+	learning = 2
+	prowess = 4
+
+	7037.3.9 = {
+		birth = yes
+	}
+
+	7064.9.24 = {
+		add_spouse = umli_lowborn_057
+	}
+
+	7098.12.13 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_lowborn_057 = { # Lowborn spouse into House Motsognir (generation 12)
+	name = Gerda
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = calm
+	trait = brave
+	trait = temperate
+
+	trait = education_martial_2
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 2
+	intrigue = 4
+	learning = 5
+	prowess = 4
+
+	7039.10.26 = {
+		birth = yes
+	}
+
+	7124.6.19 = {
+		death = { death_reason = death_ill }
+	}
+}
+
+umli_motsognir_036 = { # Generation 12 sibling
+	name = Hepti
+
+	dynasty = dynasty_umli_motsognir
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_motsognir_032
+	mother = umli_lowborn_052
+
+	trait = brave
+	trait = temperate
+	trait = deceitful
+
+	trait = education_intrigue_2
+
+	diplomacy = 4
+	martial = 5
+	stewardship = 2
+	intrigue = 5
+	learning = 4
+	prowess = 5
+
+	7039.7.24 = {
+		birth = yes
+	}
+
+	7101.9.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_motsognir_037 = { # Generation 12 sibling
+	name = Kili
+
+	dynasty = dynasty_umli_motsognir
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_motsognir_032
+	mother = umli_lowborn_052
+
+	trait = dwarf
+	trait = calm
+	trait = compassionate
+	trait = just
+
+	trait = education_diplomacy_2
+
+	diplomacy = 5
+	martial = 4
+	stewardship = 5
+	intrigue = 7
+	learning = 4
+	prowess = 5
+
+	7041.12.4 = {
+		birth = yes
+	}
+
+	7116.2.17 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+
+### Generation 13 ###
+
+umli_motsognir_038 = { # Generation 13 continuation
+	name = Nyi
+
+	dynasty = dynasty_umli_motsognir
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_motsognir_035
+	mother = umli_lowborn_057
+
+	trait = dwarf
+	trait = deceitful
+	trait = compassionate
+	trait = brave
+
+	trait = education_stewardship_2
+
+	diplomacy = 3
+	martial = 4
+	stewardship = 6
+	intrigue = 2
+	learning = 3
+	prowess = 5
+
+	7067.4.6 = {
+		birth = yes
+	}
+
+	7095.12.15 = {
+		add_spouse = umli_lowborn_061
+	}
+
+	7134.6.12 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_lowborn_061 = { # Lowborn spouse into House Motsognir (generation 13)
+	name = Gudrun
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = forgiving
+	trait = zealous
+	trait = paranoid
+
+	trait = education_learning_2
+
+	diplomacy = 5
+	martial = 6
+	stewardship = 4
+	intrigue = 3
+	learning = 2
+	prowess = 5
+
+	7067.12.1 = {
+		birth = yes
+	}
+
+	7143.8.18 = {
+		death = { death_reason = death_ill }
+	}
+}
+
+umli_motsognir_039 = { # Generation 13 sibling
+	name = Ragnhild
+	female = yes
+
+	dynasty = dynasty_umli_motsognir
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_motsognir_035
+	mother = umli_lowborn_057
+
+	trait = gregarious
+	trait = honest
+	trait = compassionate
+
+	trait = education_intrigue_2
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 2
+	intrigue = 9
+	learning = 4
+	prowess = 5
+
+	7068.3.21 = {
+		birth = yes
+	}
+
+	7136.11.21 = {
+		death = { death_reason = death_ill }
+	}
+}
+
+umli_motsognir_040 = { # Generation 13 sibling
+	name = Durin
+
+	dynasty = dynasty_umli_motsognir
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_motsognir_035
+	mother = umli_lowborn_057
+
+	trait = dwarf
+	trait = impatient
+	trait = compassionate
+	trait = stubborn
+
+	trait = education_stewardship_2
+
+	diplomacy = 5
+	martial = 3
+	stewardship = 3
+	intrigue = 4
+	learning = 3
+	prowess = 3
+
+	7071.4.14 = {
+		birth = yes
+	}
+
+	7129.12.14 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_motsognir_041 = { # Generation 13 sibling
+	name = Oin
+
+	dynasty = dynasty_umli_motsognir
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_motsognir_035
+	mother = umli_lowborn_057
+
+	trait = dwarf
+	trait = callous
+	trait = trusting
+	trait = forgiving
+
+	trait = education_intrigue_1
+
+	diplomacy = 5
+	martial = 4
+	stewardship = 6
+	intrigue = 5
+	learning = 5
+	prowess = 4
+
+	7072.11.8 = {
+		birth = yes
+	}
+
+	7135.8.15 = {
+		death = { death_reason = death_accident }
+	}
+}
+
+
+
+### Generation 14 ###
+
+umli_motsognir_042 = { # Generation 14 continuation
+	name = Sudri
+
+	dynasty = dynasty_umli_motsognir
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_motsognir_038
+	mother = umli_lowborn_061
+
+	trait = dwarf
+	trait = patient
+	trait = stubborn
+	trait = arrogant
+
+	trait = education_martial_2
+
+	diplomacy = 6
+	martial = 2
+	stewardship = 4
+	intrigue = 5
+	learning = 4
+	prowess = 5
+
+	7096.6.2 = {
+		birth = yes
+	}
+
+	7122.3.20 = {
+		add_spouse = umli_brokkr_042
+	}
+
+	7182.10.10 = {
+		death = { death_reason = death_accident }
+	}
+}
+
+umli_motsognir_043 = { # Generation 14 sibling
+	name = Sudri
+
+	dynasty = dynasty_umli_motsognir
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_motsognir_038
+	mother = umli_lowborn_061
+
+	trait = dwarf
+	trait = arrogant
+	trait = ambitious
+	trait = trusting
+
+	trait = education_martial_2
+
+	diplomacy = 3
+	martial = 4
+	stewardship = 4
+	intrigue = 2
+	learning = 4
+	prowess = 4
+
+	7098.8.5 = {
+		birth = yes
+	}
+
+	7170.8.16 = {
+		death = { death_reason = death_accident }
+	}
+}
+
+
+
+### Generation 15 ###
+
+umli_motsognir_044 = { # Generation 15 continuation
+	name = Austri
+
+	dynasty = dynasty_umli_motsognir
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_motsognir_042
+	mother = umli_brokkr_042
+
+	trait = dwarf
+	trait = arrogant
+	trait = impatient
+	trait = deceitful
+
+	trait = education_martial_2
+
+	diplomacy = 4
+	martial = 6
+	stewardship = 3
+	intrigue = 3
+	learning = 4
+	prowess = 5
+
+	7126.1.27 = {
+		birth = yes
+	}
+
+	7153.6.11 = {
+		add_spouse = umli_lowborn_070
+	}
+
+	7197.10.12 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_lowborn_070 = { # Lowborn spouse into House Motsognir (generation 15)
+	name = Hervor
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = cynical
+	trait = greedy
+	trait = craven
+
+	trait = education_intrigue_2
+
+	diplomacy = 3
+	martial = 5
+	stewardship = 4
+	intrigue = 8
+	learning = 6
+	prowess = 3
+
+	7126.3.3 = {
+		birth = yes
+	}
+}
+
+umli_motsognir_045 = { # Generation 15 sibling
+	name = Idunn
+	female = yes
+
+	dynasty = dynasty_umli_motsognir
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_motsognir_042
+	mother = umli_brokkr_042
+
+	trait = dwarf
+	trait = stubborn
+	trait = compassionate
+	trait = zealous
+
+	trait = education_martial_2
+
+	diplomacy = 4
+	martial = 5
+	stewardship = 3
+	intrigue = 5
+	learning = 8
+	prowess = 5
+
+	7127.2.1 = {
+		birth = yes
+	}
+}
+
+
+
+### Generation 16 ###
+
+umli_motsognir_046 = { # Generation 16 continuation
+	name = Thekk
+
+	dynasty = dynasty_umli_motsognir
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_motsognir_044
+	mother = umli_lowborn_070
+
+	trait = dwarf
+	trait = impatient
+	trait = shy
+	trait = stubborn
+
+	trait = education_diplomacy_2
+
+	diplomacy = 3
+	martial = 4
+	stewardship = 8
+	intrigue = 4
+	learning = 5
+	prowess = 2
+
+	7156.4.4 = {
+		birth = yes
+	}
+
+	7185.11.16 = {
+		add_spouse = umli_lowborn_075
+	}
+}
+
+umli_lowborn_075 = { # Lowborn spouse into House Motsognir (generation 16)
+	name = Yrsa
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = stubborn
+	trait = compassionate
+	trait = zealous
+
+	trait = education_learning_2
+
+	diplomacy = 6
+	martial = 7
+	stewardship = 3
+	intrigue = 7
+	learning = 3
+	prowess = 2
+
+	7160.2.13 = {
+		birth = yes
+	}
+}
+
+umli_motsognir_047 = { # Generation 16 sibling
+	name = Geira
+	female = yes
+
+	dynasty = dynasty_umli_motsognir
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_motsognir_044
+	mother = umli_lowborn_070
+
+	trait = dwarf
+	trait = humble
+	trait = cynical
+	trait = compassionate
+
+	trait = education_diplomacy_2
+
+	diplomacy = 5
+	martial = 4
+	stewardship = 3
+	intrigue = 3
+	learning = 3
+	prowess = 4
+
+	7158.1.7 = {
+		birth = yes
+	}
+}
+
+umli_motsognir_048 = { # Generation 16 sibling
+	name = Ingrid
+	female = yes
+
+	dynasty = dynasty_umli_motsognir
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_motsognir_044
+	mother = umli_lowborn_070
+
+	trait = dwarf
+	trait = deceitful
+	trait = compassionate
+	trait = content
+
+	trait = education_diplomacy_3
+
+	diplomacy = 5
+	martial = 7
+	stewardship = 3
+	intrigue = 6
+	learning = 2
+	prowess = 2
+
+	7161.7.4 = {
+		birth = yes
+	}
+}
+
+
+
+### Generation 17 ###
+
+umli_motsognir_049 = { # Generation 17 continuation
+	name = Fundin
+
+	dynasty = dynasty_umli_motsognir
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_motsognir_046
+	mother = umli_lowborn_075
+
+	trait = dwarf
+	trait = wrathful
+	trait = patient
+	trait = callous
+
+	trait = education_intrigue_2
+
+	diplomacy = 4
+	martial = 3
+	stewardship = 4
+	intrigue = 4
+	learning = 3
+	prowess = 2
+
+	7189.9.23 = {
+		birth = yes
+	}
+}
+
+umli_motsognir_050 = { # Generation 17 sibling
+	name = Helga
+	female = yes
+
+	dynasty = dynasty_umli_motsognir
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_motsognir_046
+	mother = umli_lowborn_075
+
+	trait = dwarf
+	trait = callous
+	trait = temperate
+	trait = paranoid
+
+	trait = education_intrigue_2
+
+	diplomacy = 3
+	martial = 4
+	stewardship = 2
+	intrigue = 4
+	learning = 4
+	prowess = 3
+
+	7190.6.10 = {
+		birth = yes
+	}
+}
+
+umli_motsognir_051 = { # Generation 17 sibling
+	name = Motsognir
+
+	dynasty = dynasty_umli_motsognir
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_motsognir_046
+	mother = umli_lowborn_075
+
+	trait = dwarf
+	trait = wrathful
+	trait = stubborn
+	trait = temperate
+
+	trait = education_stewardship_3
+
+	diplomacy = 5
+	martial = 3
+	stewardship = 5
+	intrigue = 3
+	learning = 2
+	prowess = 2
+
+	7193.3.12 = {
+		birth = yes
+	}
+}
+
+umli_motsognir_052 = { # Generation 17 sibling
+	name = Fundin
+
+	dynasty = dynasty_umli_motsognir
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_motsognir_046
+	mother = umli_lowborn_075
+
+	trait = dwarf
+	trait = forgiving
+	trait = stubborn
+	trait = just
+
+	trait = education_martial_2
+
+	diplomacy = 3
+	martial = 6
+	stewardship = 2
+	intrigue = 5
+	learning = 2
+	prowess = 2
+
+	7195.10.8 = {
+		birth = yes
+	}
+}
+
+
+############################################################
+##### HOUSE DVALIN #####
+############################################################
+
+umli_dvalin_001 = { # Founder
+	name = Dvalin
+
+	dynasty = dynasty_umli_dvalin
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = cynical
+	trait = compassionate
+	trait = stubborn
+
+	trait = education_intrigue_2
+
+	diplomacy = 3
+	martial = 4
+	stewardship = 2
+	intrigue = 6
+	learning = 2
+	prowess = 4
+
+	6676.7.25 = {
+		birth = yes
+	}
+
+	6698.9.17 = {
+		add_spouse = umli_lowborn_002
+	}
+
+	6762.11.2 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_lowborn_002 = { # Lowborn spouse of Dvalin
+	name = Eir
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = honest
+	trait = content
+	trait = trusting
+
+	trait = education_intrigue_2
+
+	diplomacy = 2
+	martial = 5
+	stewardship = 2
+	intrigue = 6
+	learning = 3
+	prowess = 2
+
+	6678.7.24 = {
+		birth = yes
+	}
+
+	6757.6.7 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+### Generation 1 ###
+
+umli_dvalin_002 = { # Generation 1 continuation
+	name = Hanar
+
+	dynasty = dynasty_umli_dvalin
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_dvalin_001
+	mother = umli_lowborn_002
+
+	trait = dwarf
+	trait = ambitious
+	trait = callous
+	trait = gregarious
+
+	trait = education_learning_1
+
+	diplomacy = 4
+	martial = 4
+	stewardship = 3
+	intrigue = 5
+	learning = 9
+	prowess = 2
+
+	6700.11.8 = {
+		birth = yes
+	}
+
+	6730.1.27 = {
+		add_spouse = umli_lowborn_007
+	}
+
+	6760.1.15 = {
+		death = { death_reason = death_ill }
+	}
+}
+
+umli_lowborn_007 = { # Lowborn spouse into House Dvalin (generation 1)
+	name = Alfhild
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = wrathful
+	trait = brave
+	trait = compassionate
+
+	trait = education_stewardship_2
+
+	diplomacy = 3
+	martial = 2
+	stewardship = 5
+	intrigue = 8
+	learning = 3
+	prowess = 3
+
+	6696.1.11 = {
+		birth = yes
+	}
+
+	6781.9.20 = {
+		death = { death_reason = death_accident }
+	}
+}
+
+umli_dvalin_003 = { # Generation 1 sibling
+	name = Fundin
+
+	dynasty = dynasty_umli_dvalin
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_dvalin_001
+	mother = umli_lowborn_002
+
+	trait = dwarf
+	trait = patient
+	trait = content
+	trait = temperate
+
+	trait = education_intrigue_2
+
+	diplomacy = 6
+	martial = 2
+	stewardship = 4
+	intrigue = 3
+	learning = 2
+	prowess = 3
+
+	6702.7.10 = {
+		birth = yes
+	}
+
+	6781.9.24 = {
+		death = { death_reason = death_ill }
+	}
+}
+
+
+
+### Generation 2 ###
+
+umli_dvalin_004 = { # Generation 2 continuation
+	name = Sudri
+
+	dynasty = dynasty_umli_dvalin
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_dvalin_002
+	mother = umli_lowborn_007
+
+	trait = dwarf
+	trait = craven
+	trait = patient
+	trait = honest
+
+	trait = education_stewardship_2
+
+	diplomacy = 4
+	martial = 4
+	stewardship = 5
+	intrigue = 3
+	learning = 5
+	prowess = 6
+
+	6733.6.21 = {
+		birth = yes
+	}
+
+	6761.9.7 = {
+		add_spouse = umli_lowborn_012
+	}
+
+	6801.9.15 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_lowborn_012 = { # Lowborn spouse into House Dvalin (generation 2)
+	name = Eir
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = content
+	trait = diligent
+	trait = impatient
+
+	trait = education_diplomacy_2
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 4
+	intrigue = 3
+	learning = 4
+	prowess = 4
+
+	6734.7.3 = {
+		birth = yes
+	}
+
+	6810.4.7 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_dvalin_005 = { # Generation 2 sibling
+	name = Runa
+	female = yes
+
+	dynasty = dynasty_umli_dvalin
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_dvalin_002
+	mother = umli_lowborn_007
+
+	trait = dwarf
+	trait = ambitious
+	trait = calm
+	trait = stubborn
+
+	trait = education_diplomacy_2
+
+	diplomacy = 4
+	martial = 3
+	stewardship = 2
+	intrigue = 3
+	learning = 4
+	prowess = 4
+
+	6735.6.9 = {
+		birth = yes
+	}
+
+	6794.6.24 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+
+### Generation 3 ###
+
+umli_dvalin_006 = { # Generation 3 continuation
+	name = Brokkr
+
+	dynasty = dynasty_umli_dvalin
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_dvalin_004
+	mother = umli_lowborn_012
+
+	trait = dwarf
+	trait = impatient
+	trait = cynical
+	trait = generous
+
+	trait = education_martial_1
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 3
+	intrigue = 2
+	learning = 3
+	prowess = 2
+
+	6763.2.14 = {
+		birth = yes
+	}
+
+	6790.7.18 = {
+		add_spouse = umli_lowborn_017
+	}
+
+	6820.12.2 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_lowborn_017 = { # Lowborn spouse into House Dvalin (generation 3)
+	name = Gudrun
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = stubborn
+	trait = cynical
+	trait = wrathful
+
+	trait = education_stewardship_3
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 7
+	intrigue = 3
+	learning = 3
+	prowess = 4
+
+	6760.5.5 = {
+		birth = yes
+	}
+
+	6827.10.13 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_dvalin_007 = { # Generation 3 sibling
+	name = Gloin
+
+	dynasty = dynasty_umli_dvalin
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_dvalin_004
+	mother = umli_lowborn_012
+
+	trait = dwarf
+	trait = calm
+	trait = arrogant
+	trait = diligent
+
+	trait = education_intrigue_2
+
+	diplomacy = 4
+	martial = 6
+	stewardship = 4
+	intrigue = 3
+	learning = 4
+	prowess = 3
+
+	6765.4.8 = {
+		birth = yes
+	}
+
+	6848.11.21 = {
+		death = { death_reason = death_accident }
+	}
+}
+
+umli_dvalin_008 = { # Generation 3 sibling
+	name = Viggr
+
+	dynasty = dynasty_umli_dvalin
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_dvalin_004
+	mother = umli_lowborn_012
+
+	trait = dwarf
+	trait = stubborn
+	trait = cynical
+	trait = craven
+
+	trait = education_diplomacy_2
+
+	diplomacy = 9
+	martial = 5
+	stewardship = 2
+	intrigue = 4
+	learning = 4
+	prowess = 4
+
+	6768.10.14 = {
+		birth = yes
+	}
+
+	6825.8.8 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+
+### Generation 4 ###
+
+umli_dvalin_009 = { # Generation 4 continuation
+	name = Eydis
+	female = yes
+
+	dynasty = dynasty_umli_dvalin
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_dvalin_006
+	mother = umli_lowborn_017
+
+	trait = dwarf
+	trait = ambitious
+	trait = honest
+	trait = just
+
+	trait = education_martial_2
+
+	diplomacy = 3
+	martial = 7
+	stewardship = 5
+	intrigue = 3
+	learning = 3
+	prowess = 7
+
+	6793.9.5 = {
+		birth = yes
+	}
+
+	6821.12.15 = {
+		add_spouse = umli_lowborn_021
+	}
+
+	6866.8.15 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_lowborn_021 = { # Lowborn spouse into House Dvalin (generation 4)
+	name = Dain
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = temperate
+	trait = humble
+	trait = wrathful
+
+	trait = education_martial_2
+
+	diplomacy = 4
+	martial = 5
+	stewardship = 4
+	intrigue = 3
+	learning = 2
+	prowess = 2
+
+	6792.11.19 = {
+		birth = yes
+	}
+
+	6861.3.15 = {
+		death = { death_reason = death_accident }
+	}
+}
+
+umli_dvalin_010 = { # Generation 4 sibling; spouse into House Motsognir
+	name = Sif
+	female = yes
+
+	dynasty = dynasty_umli_dvalin
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_dvalin_006
+	mother = umli_lowborn_017
+
+	trait = dwarf
+	trait = gregarious
+	trait = paranoid
+	trait = impatient
+
+	trait = education_learning_3
+
+	diplomacy = 4
+	martial = 2
+	stewardship = 6
+	intrigue = 3
+	learning = 7
+	prowess = 4
+
+	6794.4.19 = {
+		birth = yes
+	}
+
+	6862.7.26 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+
+### Generation 5 ###
+
+umli_dvalin_011 = { # Generation 5 continuation
+	name = Nidi
+
+	dynasty = dynasty_umli_dvalin
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_lowborn_021
+	mother = umli_dvalin_009
+
+	trait = dwarf
+	trait = impatient
+	trait = forgiving
+	trait = brave
+
+	trait = education_intrigue_2
+
+	diplomacy = 4
+	martial = 7
+	stewardship = 3
+	intrigue = 8
+	learning = 2
+	prowess = 2
+
+	6823.6.8 = {
+		birth = yes
+	}
+
+	6852.2.25 = {
+		add_spouse = umli_lowborn_026
+	}
+
+	6903.8.13 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_lowborn_026 = { # Lowborn spouse into House Dvalin (generation 5)
+	name = Solveig
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = deceitful
+	trait = temperate
+	trait = ambitious
+
+	trait = education_diplomacy_2
+
+	diplomacy = 6
+	martial = 2
+	stewardship = 3
+	intrigue = 4
+	learning = 3
+	prowess = 2
+
+	6820.11.3 = {
+		birth = yes
+	}
+
+	6904.5.6 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_dvalin_012 = { # Generation 5 sibling
+	name = Sviar
+
+	dynasty = dynasty_umli_dvalin
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_lowborn_021
+	mother = umli_dvalin_009
+
+	trait = dwarf
+	trait = cynical
+	trait = arrogant
+	trait = gregarious
+
+	trait = education_learning_2
+
+	diplomacy = 3
+	martial = 4
+	stewardship = 4
+	intrigue = 4
+	learning = 5
+	prowess = 5
+
+	6826.9.4 = {
+		birth = yes
+	}
+
+	6907.3.28 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_dvalin_013 = { # Generation 5 sibling
+	name = Lofar
+
+	dynasty = dynasty_umli_dvalin
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_lowborn_021
+	mother = umli_dvalin_009
+
+	trait = dwarf
+	trait = temperate
+	trait = shy
+	trait = impatient
+
+	trait = education_stewardship_2
+
+	diplomacy = 4
+	martial = 2
+	stewardship = 5
+	intrigue = 4
+	learning = 3
+	prowess = 5
+
+	6827.8.8 = {
+		birth = yes
+	}
+
+	6913.10.26 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_dvalin_014 = { # Generation 5 sibling
+	name = Bofur
+
+	dynasty = dynasty_umli_dvalin
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_lowborn_021
+	mother = umli_dvalin_009
+
+	trait = dwarf
+	trait = ambitious
+	trait = shy
+	trait = lustful
+
+	trait = education_learning_2
+
+	diplomacy = 2
+	martial = 3
+	stewardship = 6
+	intrigue = 4
+	learning = 6
+	prowess = 6
+
+	6830.4.21 = {
+		birth = yes
+	}
+
+	6898.2.26 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+
+### Generation 6 ###
+
+umli_dvalin_015 = { # Generation 6 continuation
+	name = Hornbori
+
+	dynasty = dynasty_umli_dvalin
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_dvalin_011
+	mother = umli_lowborn_026
+
+	trait = dwarf
+	trait = forgiving
+	trait = shy
+	trait = deceitful
+
+	trait = education_diplomacy_2
+
+	diplomacy = 6
+	martial = 3
+	stewardship = 4
+	intrigue = 5
+	learning = 6
+	prowess = 3
+
+	6854.5.18 = {
+		birth = yes
+	}
+
+	6883.3.18 = {
+		add_spouse = umli_lowborn_030
+	}
+
+	6911.9.20 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_lowborn_030 = { # Lowborn spouse into House Dvalin (generation 6)
+	name = Ragnhild
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = honest
+	trait = shy
+	trait = lustful
+
+	trait = education_martial_1
+
+	diplomacy = 2
+	martial = 4
+	stewardship = 7
+	intrigue = 4
+	learning = 4
+	prowess = 2
+
+	6857.10.18 = {
+		birth = yes
+	}
+
+	6937.10.4 = {
+		death = { death_reason = death_ill }
+	}
+}
+
+umli_dvalin_016 = { # Generation 6 sibling
+	name = Fjalar
+
+	dynasty = dynasty_umli_dvalin
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_dvalin_011
+	mother = umli_lowborn_026
+
+	trait = dwarf
+	trait = patient
+	trait = honest
+	trait = just
+
+	trait = education_diplomacy_1
+
+	diplomacy = 7
+	martial = 6
+	stewardship = 4
+	intrigue = 3
+	learning = 6
+	prowess = 2
+
+	6856.1.19 = {
+		birth = yes
+	}
+
+	6942.4.4 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_dvalin_017 = { # Generation 6 sibling
+	name = Liv
+	female = yes
+
+	dynasty = dynasty_umli_dvalin
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_dvalin_011
+	mother = umli_lowborn_026
+
+	trait = dwarf
+	trait = paranoid
+	trait = patient
+	trait = calm
+
+	trait = education_diplomacy_1
+
+	diplomacy = 6
+	martial = 4
+	stewardship = 3
+	intrigue = 3
+	learning = 5
+	prowess = 3
+
+	6858.2.23 = {
+		birth = yes
+	}
+
+	6938.3.23 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+
+### Generation 7 ###
+
+umli_dvalin_018 = { # Generation 7 continuation
+	name = Loni
+
+	dynasty = dynasty_umli_dvalin
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_dvalin_015
+	mother = umli_lowborn_030
+
+	trait = dwarf
+	trait = forgiving
+	trait = cynical
+	trait = paranoid
+
+	trait = education_intrigue_1
+
+	diplomacy = 4
+	martial = 6
+	stewardship = 3
+	intrigue = 5
+	learning = 5
+	prowess = 7
+
+	6885.8.14 = {
+		birth = yes
+	}
+
+	6911.7.28 = {
+		add_spouse = umli_lowborn_035
+	}
+
+	6969.2.1 = {
+		death = { death_reason = death_ill }
+	}
+}
+
+umli_lowborn_035 = { # Lowborn spouse into House Dvalin (generation 7)
+	name = Svanhild
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = just
+	trait = wrathful
+	trait = generous
+
+	trait = education_intrigue_2
+
+	diplomacy = 4
+	martial = 3
+	stewardship = 3
+	intrigue = 7
+	learning = 5
+	prowess = 3
+
+	6889.7.11 = {
+		birth = yes
+	}
+
+	6946.7.22 = {
+		death = { death_reason = death_ill }
+	}
+}
+
+umli_dvalin_019 = { # Generation 7 sibling
+	name = Nanna
+	female = yes
+
+	dynasty = dynasty_umli_dvalin
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_dvalin_015
+	mother = umli_lowborn_030
+
+	trait = dwarf
+	trait = temperate
+	trait = greedy
+	trait = impatient
+
+	trait = education_learning_2
+
+	diplomacy = 2
+	martial = 4
+	stewardship = 2
+	intrigue = 6
+	learning = 4
+	prowess = 3
+
+	6886.3.21 = {
+		birth = yes
+	}
+
+	6966.12.24 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_dvalin_020 = { # Generation 7 sibling
+	name = Bofur
+
+	dynasty = dynasty_umli_dvalin
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_dvalin_015
+	mother = umli_lowborn_030
+
+	trait = dwarf
+	trait = brave
+	trait = ambitious
+	trait = wrathful
+
+	trait = education_stewardship_1
+
+	diplomacy = 3
+	martial = 3
+	stewardship = 7
+	intrigue = 8
+	learning = 3
+	prowess = 4
+
+	6889.3.2 = {
+		birth = yes
+	}
+
+	6970.11.28 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_dvalin_021 = { # Generation 7 sibling
+	name = Hervor
+	female = yes
+
+	dynasty = dynasty_umli_dvalin
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_dvalin_015
+	mother = umli_lowborn_030
+
+	trait = dwarf
+	trait = patient
+	trait = callous
+	trait = wrathful
+
+	trait = education_stewardship_2
+
+	diplomacy = 5
+	martial = 3
+	stewardship = 6
+	intrigue = 3
+	learning = 4
+	prowess = 3
+
+	6890.6.5 = {
+		birth = yes
+	}
+
+	6947.10.8 = {
+		death = { death_reason = death_ill }
+	}
+}
+
+
+
+### Generation 8 ###
+
+umli_dvalin_022 = { # Generation 8 continuation
+	name = Eitri
+
+	dynasty = dynasty_umli_dvalin
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_dvalin_018
+	mother = umli_lowborn_035
+
+	trait = dwarf
+	trait = content
+	trait = deceitful
+	trait = trusting
+
+	trait = education_diplomacy_2
+
+	diplomacy = 8
+	martial = 4
+	stewardship = 4
+	intrigue = 4
+	learning = 3
+	prowess = 3
+
+	6915.8.11 = {
+		birth = yes
+	}
+
+	6942.2.16 = {
+		add_spouse = umli_lowborn_040
+	}
+
+	6999.5.9 = {
+		death = { death_reason = death_ill }
+	}
+}
+
+umli_lowborn_040 = { # Lowborn spouse into House Dvalin (generation 8)
+	name = Tove
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = forgiving
+	trait = humble
+	trait = zealous
+
+	trait = education_diplomacy_2
+
+	diplomacy = 3
+	martial = 5
+	stewardship = 3
+	intrigue = 5
+	learning = 2
+	prowess = 2
+
+	6916.12.6 = {
+		birth = yes
+	}
+
+	6976.6.11 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_dvalin_023 = { # Generation 8 sibling
+	name = Sindri
+
+	dynasty = dynasty_umli_dvalin
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_dvalin_018
+	mother = umli_lowborn_035
+
+	trait = dwarf
+	trait = diligent
+	trait = honest
+	trait = calm
+
+	trait = education_intrigue_2
+
+	diplomacy = 2
+	martial = 2
+	stewardship = 3
+	intrigue = 7
+	learning = 2
+	prowess = 5
+
+	6916.11.12 = {
+		birth = yes
+	}
+
+	6996.12.17 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_dvalin_024 = { # Generation 8 sibling
+	name = Nidi
+
+	dynasty = dynasty_umli_dvalin
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_dvalin_018
+	mother = umli_lowborn_035
+
+	trait = dwarf
+	trait = compassionate
+	trait = just
+	trait = forgiving
+
+	trait = education_stewardship_2
+
+	diplomacy = 4
+	martial = 5
+	stewardship = 6
+	intrigue = 4
+	learning = 3
+	prowess = 5
+
+	6918.5.5 = {
+		birth = yes
+	}
+
+	6985.6.5 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+
+### Generation 9 ###
+
+umli_dvalin_025 = { # Generation 9 continuation
+	name = Dvalin
+
+	dynasty = dynasty_umli_dvalin
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_dvalin_022
+	mother = umli_lowborn_040
+
+	trait = dwarf
+	trait = content
+	trait = trusting
+	trait = arrogant
+
+	trait = education_intrigue_1
+
+	diplomacy = 4
+	martial = 4
+	stewardship = 3
+	intrigue = 8
+	learning = 4
+	prowess = 4
+
+	6945.8.28 = {
+		birth = yes
+	}
+
+	6973.5.21 = {
+		add_spouse = umli_lowborn_044
+	}
+
+	7025.8.12 = {
+		death = { death_reason = death_ill }
+	}
+}
+
+umli_lowborn_044 = { # Lowborn spouse into House Dvalin (generation 9)
+	name = Thora
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = trusting
+	trait = lustful
+	trait = honest
+
+	trait = education_intrigue_3
+
+	diplomacy = 3
+	martial = 4
+	stewardship = 3
+	intrigue = 8
+	learning = 5
+	prowess = 4
+
+	6942.11.20 = {
+		birth = yes
+	}
+
+	7018.10.10 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_dvalin_026 = { # Generation 9 sibling
+	name = Nyi
+
+	dynasty = dynasty_umli_dvalin
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_dvalin_022
+	mother = umli_lowborn_040
+
+	trait = dwarf
+	trait = forgiving
+	trait = calm
+	trait = honest
+
+	trait = education_diplomacy_3
+
+	diplomacy = 9
+	martial = 3
+	stewardship = 3
+	intrigue = 6
+	learning = 5
+	prowess = 3
+
+	6948.2.15 = {
+		birth = yes
+	}
+
+	7019.8.15 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_dvalin_027 = { # Generation 9 sibling
+	name = Kara
+	female = yes
+
+	dynasty = dynasty_umli_dvalin
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_dvalin_022
+	mother = umli_lowborn_040
+
+	trait = dwarf
+	trait = callous
+	trait = just
+	trait = ambitious
+
+	trait = education_martial_2
+
+	diplomacy = 4
+	martial = 6
+	stewardship = 3
+	intrigue = 4
+	learning = 3
+	prowess = 4
+
+	6949.6.14 = {
+		birth = yes
+	}
+
+	7009.5.7 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+
+### Generation 10 ###
+
+umli_dvalin_028 = { # Generation 10 continuation
+	name = Dori
+
+	dynasty = dynasty_umli_dvalin
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_dvalin_025
+	mother = umli_lowborn_044
+
+	trait = dwarf
+	trait = temperate
+	trait = lustful
+	trait = trusting
+
+	trait = education_intrigue_1
+
+	diplomacy = 3
+	martial = 3
+	stewardship = 4
+	intrigue = 3
+	learning = 3
+	prowess = 4
+
+	6976.12.21 = {
+		birth = yes
+	}
+
+	7004.2.26 = {
+		add_spouse = umli_brokkr_031
+	}
+
+	7050.8.15 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_dvalin_029 = { # Generation 10 sibling
+	name = Virfir
+
+	dynasty = dynasty_umli_dvalin
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_dvalin_025
+	mother = umli_lowborn_044
+
+	trait = dwarf
+	trait = temperate
+	trait = craven
+	trait = diligent
+
+	trait = education_martial_2
+
+	diplomacy = 2
+	martial = 6
+	stewardship = 5
+	intrigue = 3
+	learning = 4
+	prowess = 3
+
+	6977.4.18 = {
+		birth = yes
+	}
+
+	7060.8.12 = {
+		death = { death_reason = death_accident }
+	}
+}
+
+
+
+### Generation 11 ###
+
+umli_dvalin_030 = { # Generation 11 continuation
+	name = Signe
+	female = yes
+
+	dynasty = dynasty_umli_dvalin
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_dvalin_028
+	mother = umli_brokkr_031
+
+	trait = dwarf
+	trait = gregarious
+	trait = greedy
+	trait = wrathful
+
+	trait = education_diplomacy_1
+
+	diplomacy = 5
+	martial = 6
+	stewardship = 2
+	intrigue = 4
+	learning = 2
+	prowess = 5
+
+	7007.11.28 = {
+		birth = yes
+	}
+
+	7036.9.19 = {
+		add_spouse = umli_lowborn_053
+	}
+
+	7079.11.14 = {
+		death = { death_reason = death_accident }
+	}
+}
+
+umli_lowborn_053 = { # Lowborn spouse into House Dvalin (generation 11)
+	name = Fjalar
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = stubborn
+	trait = diligent
+	trait = gregarious
+
+	trait = education_martial_2
+
+	diplomacy = 2
+	martial = 8
+	stewardship = 4
+	intrigue = 3
+	learning = 3
+	prowess = 4
+
+	7004.6.24 = {
+		birth = yes
+	}
+
+	7087.12.27 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_dvalin_031 = { # Generation 11 sibling
+	name = Sindri
+
+	dynasty = dynasty_umli_dvalin
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_dvalin_028
+	mother = umli_brokkr_031
+
+	trait = dwarf
+	trait = content
+	trait = arrogant
+	trait = trusting
+
+	trait = education_intrigue_2
+
+	diplomacy = 4
+	martial = 5
+	stewardship = 7
+	intrigue = 5
+	learning = 4
+	prowess = 3
+
+	7009.2.14 = {
+		birth = yes
+	}
+
+	7067.5.4 = {
+		death = { death_reason = death_ill }
+	}
+}
+
+umli_dvalin_032 = { # Generation 11 sibling
+	name = Vili
+
+	dynasty = dynasty_umli_dvalin
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_dvalin_028
+	mother = umli_brokkr_031
+
+	trait = dwarf
+	trait = cynical
+	trait = wrathful
+	trait = just
+
+	trait = education_intrigue_2
+
+	diplomacy = 2
+	martial = 4
+	stewardship = 4
+	intrigue = 4
+	learning = 2
+	prowess = 4
+
+	7012.7.25 = {
+		birth = yes
+	}
+
+	7086.9.23 = {
+		death = { death_reason = death_ill }
+	}
+}
+
+
+
+### Generation 12 ###
+
+umli_dvalin_033 = { # Generation 12 continuation
+	name = Hornbori
+
+	dynasty = dynasty_umli_dvalin
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_lowborn_053
+	mother = umli_dvalin_030
+
+	trait = dwarf
+	trait = calm
+	trait = content
+	trait = just
+
+	trait = education_stewardship_3
+
+	diplomacy = 8
+	martial = 5
+	stewardship = 7
+	intrigue = 2
+	learning = 4
+	prowess = 2
+
+	7037.12.7 = {
+		birth = yes
+	}
+
+	7064.6.28 = {
+		add_spouse = umli_lowborn_058
+	}
+
+	7114.4.7 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_lowborn_058 = { # Lowborn spouse into House Dvalin (generation 12)
+	name = Skadi
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = content
+	trait = deceitful
+	trait = patient
+
+	trait = education_intrigue_2
+
+	diplomacy = 4
+	martial = 4
+	stewardship = 3
+	intrigue = 3
+	learning = 4
+	prowess = 3
+
+	7039.4.24 = {
+		birth = yes
+	}
+
+	7110.8.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_dvalin_034 = { # Generation 12 sibling
+	name = Solveig
+	female = yes
+
+	dynasty = dynasty_umli_dvalin
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_lowborn_053
+	mother = umli_dvalin_030
+
+	trait = dwarf
+	trait = diligent
+	trait = temperate
+	trait = craven
+
+	trait = education_learning_3
+
+	diplomacy = 4
+	martial = 3
+	stewardship = 5
+	intrigue = 2
+	learning = 9
+	prowess = 4
+
+	7040.1.25 = {
+		birth = yes
+	}
+
+	7106.8.7 = {
+		death = { death_reason = death_ill }
+	}
+}
+
+umli_dvalin_035 = { # Generation 12 sibling
+	name = Gudrun
+	female = yes
+
+	dynasty = dynasty_umli_dvalin
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_lowborn_053
+	mother = umli_dvalin_030
+
+	trait = dwarf
+	trait = temperate
+	trait = gregarious
+	trait = diligent
+
+	trait = education_martial_2
+
+	diplomacy = 2
+	martial = 6
+	stewardship = 4
+	intrigue = 6
+	learning = 2
+	prowess = 4
+
+	7042.6.15 = {
+		birth = yes
+	}
+
+	7103.10.16 = {
+		death = { death_reason = death_accident }
+	}
+}
+
+
+
+### Generation 13 ###
+
+umli_dvalin_036 = { # Generation 13 continuation
+	name = Vili
+
+	dynasty = dynasty_umli_dvalin
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_dvalin_033
+	mother = umli_lowborn_058
+
+	trait = dwarf
+	trait = honest
+	trait = trusting
+	trait = lustful
+
+	trait = education_intrigue_1
+
+	diplomacy = 4
+	martial = 3
+	stewardship = 5
+	intrigue = 7
+	learning = 3
+	prowess = 4
+
+	7066.5.12 = {
+		birth = yes
+	}
+
+	7094.7.16 = {
+		add_spouse = umli_lowborn_062
+	}
+
+	7150.2.26 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_lowborn_062 = { # Lowborn spouse into House Dvalin (generation 13)
+	name = Skadi
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = honest
+	trait = humble
+	trait = shy
+
+	trait = education_martial_1
+
+	diplomacy = 5
+	martial = 7
+	stewardship = 3
+	intrigue = 4
+	learning = 2
+	prowess = 4
+
+	7069.1.23 = {
+		birth = yes
+	}
+
+	7152.9.22 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_dvalin_037 = { # Generation 13 sibling
+	name = Fundin
+
+	dynasty = dynasty_umli_dvalin
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_dvalin_033
+	mother = umli_lowborn_058
+
+	trait = dwarf
+	trait = calm
+	trait = generous
+	trait = compassionate
+
+	trait = education_learning_2
+
+	diplomacy = 4
+	martial = 4
+	stewardship = 3
+	intrigue = 3
+	learning = 4
+	prowess = 2
+
+	7068.3.20 = {
+		birth = yes
+	}
+
+	7145.7.9 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_dvalin_038 = { # Generation 13 sibling
+	name = Lit
+
+	dynasty = dynasty_umli_dvalin
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_dvalin_033
+	mother = umli_lowborn_058
+
+	trait = dwarf
+	trait = content
+	trait = humble
+	trait = gregarious
+
+	trait = education_martial_1
+
+	diplomacy = 7
+	martial = 6
+	stewardship = 3
+	intrigue = 3
+	learning = 3
+	prowess = 6
+
+	7070.1.17 = {
+		birth = yes
+	}
+
+	7140.8.23 = {
+		death = { death_reason = death_ill }
+	}
+}
+
+
+
+### Generation 14 ###
+
+umli_dvalin_039 = { # Generation 14 continuation
+	name = Gloin
+
+	dynasty = dynasty_umli_dvalin
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_dvalin_036
+	mother = umli_lowborn_062
+
+	trait = dwarf
+	trait = arrogant
+	trait = brave
+	trait = lustful
+
+	trait = education_diplomacy_3
+
+	diplomacy = 7
+	martial = 3
+	stewardship = 5
+	intrigue = 3
+	learning = 3
+	prowess = 4
+
+	7096.11.25 = {
+		birth = yes
+	}
+
+	7124.1.24 = {
+		add_spouse = umli_lowborn_066
+	}
+
+	7165.4.24 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_lowborn_066 = { # Lowborn spouse into House Dvalin (generation 14)
+	name = Alfhild
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = patient
+	trait = zealous
+	trait = lustful
+
+	trait = education_stewardship_2
+
+	diplomacy = 5
+	martial = 4
+	stewardship = 6
+	intrigue = 3
+	learning = 5
+	prowess = 3
+
+	7093.1.7 = {
+		birth = yes
+	}
+
+	7165.2.18 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_dvalin_040 = { # Generation 14 sibling
+	name = Niping
+
+	dynasty = dynasty_umli_dvalin
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_dvalin_036
+	mother = umli_lowborn_062
+
+	trait = honest
+	trait = craven
+	trait = diligent
+
+	trait = education_learning_2
+
+	diplomacy = 3
+	martial = 3
+	stewardship = 2
+	intrigue = 3
+	learning = 5
+	prowess = 4
+
+	7099.12.2 = {
+		birth = yes
+	}
+
+	7172.3.16 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_dvalin_041 = { # Generation 14 sibling
+	name = Helga
+	female = yes
+
+	dynasty = dynasty_umli_dvalin
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_dvalin_036
+	mother = umli_lowborn_062
+
+	trait = dwarf
+	trait = patient
+	trait = zealous
+	trait = just
+
+	trait = education_martial_2
+
+	diplomacy = 4
+	martial = 5
+	stewardship = 4
+	intrigue = 4
+	learning = 2
+	prowess = 5
+
+	7100.6.20 = {
+		birth = yes
+	}
+
+	7162.1.4 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+
+### Generation 15 ###
+
+umli_dvalin_042 = { # Generation 15 continuation
+	name = Hanar
+
+	dynasty = dynasty_umli_dvalin
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_dvalin_039
+	mother = umli_lowborn_066
+
+	trait = dwarf
+	trait = shy
+	trait = diligent
+	trait = honest
+
+	trait = education_diplomacy_2
+
+	diplomacy = 9
+	martial = 4
+	stewardship = 3
+	intrigue = 4
+	learning = 2
+	prowess = 2
+
+	7125.3.28 = {
+		birth = yes
+	}
+
+	7155.10.23 = {
+		add_spouse = umli_lowborn_071
+	}
+}
+
+umli_lowborn_071 = { # Lowborn spouse into House Dvalin (generation 15)
+	name = Yrsa
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = paranoid
+	trait = calm
+	trait = lustful
+
+	trait = education_diplomacy_2
+
+	diplomacy = 9
+	martial = 4
+	stewardship = 2
+	intrigue = 4
+	learning = 5
+	prowess = 6
+
+	7121.2.13 = {
+		birth = yes
+	}
+}
+
+umli_dvalin_043 = { # Generation 15 sibling
+	name = Sif
+	female = yes
+
+	dynasty = dynasty_umli_dvalin
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_dvalin_039
+	mother = umli_lowborn_066
+
+	trait = dwarf
+	trait = callous
+	trait = trusting
+	trait = wrathful
+
+	trait = education_intrigue_1
+
+	diplomacy = 3
+	martial = 2
+	stewardship = 4
+	intrigue = 5
+	learning = 2
+	prowess = 5
+
+	7128.5.14 = {
+		birth = yes
+	}
+
+	7188.2.1 = {
+		death = { death_reason = death_ill }
+	}
+}
+
+
+
+### Generation 16 ###
+
+umli_dvalin_044 = { # Generation 16 continuation
+	name = Dvalin
+
+	dynasty = dynasty_umli_dvalin
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_dvalin_042
+	mother = umli_lowborn_071
+
+	trait = dwarf
+	trait = diligent
+	trait = humble
+	trait = calm
+
+	trait = education_intrigue_2
+
+	diplomacy = 5
+	martial = 4
+	stewardship = 3
+	intrigue = 4
+	learning = 2
+	prowess = 3
+
+	7157.7.1 = {
+		birth = yes
+	}
+
+	7186.9.19 = {
+		add_spouse = umli_lowborn_076
+	}
+}
+
+umli_lowborn_076 = { # Lowborn spouse into House Dvalin (generation 16)
+	name = Una
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = shy
+	trait = paranoid
+	trait = callous
+
+	trait = education_martial_2
+
+	diplomacy = 4
+	martial = 5
+	stewardship = 2
+	intrigue = 4
+	learning = 2
+	prowess = 5
+
+	7155.9.10 = {
+		birth = yes
+	}
+}
+
+umli_dvalin_045 = { # Generation 16 sibling
+	name = Frar
+
+	dynasty = dynasty_umli_dvalin
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_dvalin_042
+	mother = umli_lowborn_071
+
+	trait = dwarf
+	trait = diligent
+	trait = callous
+	trait = honest
+
+	trait = education_diplomacy_3
+
+	diplomacy = 4
+	martial = 2
+	stewardship = 6
+	intrigue = 6
+	learning = 4
+	prowess = 4
+
+	7159.2.22 = {
+		birth = yes
+	}
+}
+
+umli_dvalin_046 = { # Generation 16 sibling
+	name = Dvalin
+
+	dynasty = dynasty_umli_dvalin
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_dvalin_042
+	mother = umli_lowborn_071
+
+	trait = dwarf
+	trait = zealous
+	trait = generous
+	trait = humble
+
+	trait = education_stewardship_3
+
+	diplomacy = 3
+	martial = 5
+	stewardship = 9
+	intrigue = 4
+	learning = 2
+	prowess = 6
+
+	7160.5.9 = {
+		birth = yes
+	}
+}
+
+
+
+### Generation 17 ###
+
+umli_dvalin_047 = { # Generation 17 continuation
+	name = Gudrun
+	female = yes
+
+	dynasty = dynasty_umli_dvalin
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_dvalin_044
+	mother = umli_lowborn_076
+
+	trait = craven
+	trait = callous
+	trait = paranoid
+
+	trait = education_diplomacy_3
+
+	diplomacy = 7
+	martial = 4
+	stewardship = 5
+	intrigue = 4
+	learning = 4
+	prowess = 3
+
+	7189.4.23 = {
+		birth = yes
+	}
+}
+
+umli_dvalin_048 = { # Generation 17 sibling
+	name = Eir
+	female = yes
+
+	dynasty = dynasty_umli_dvalin
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_dvalin_044
+	mother = umli_lowborn_076
+
+	trait = dwarf
+	trait = craven
+	trait = content
+	trait = cynical
+
+	trait = education_learning_2
+
+	diplomacy = 7
+	martial = 2
+	stewardship = 3
+	intrigue = 3
+	learning = 7
+	prowess = 4
+
+	7190.6.28 = {
+		birth = yes
+	}
+}
+
+umli_dvalin_049 = { # Generation 17 sibling
+	name = Nidi
+
+	dynasty = dynasty_umli_dvalin
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_dvalin_044
+	mother = umli_lowborn_076
+
+	trait = dwarf
+	trait = diligent
+	trait = honest
+	trait = cynical
+
+	trait = education_stewardship_3
+
+	diplomacy = 6
+	martial = 3
+	stewardship = 6
+	intrigue = 4
+	learning = 5
+	prowess = 3
+
+	7193.9.19 = {
+		birth = yes
+	}
+}
+
+umli_dvalin_050 = { # Generation 17 sibling
+	name = Ori
+
+	dynasty = dynasty_umli_dvalin
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_dvalin_044
+	mother = umli_lowborn_076
+
+	trait = dwarf
+	trait = greedy
+	trait = diligent
+	trait = brave
+
+	trait = education_martial_2
+
+	diplomacy = 4
+	martial = 5
+	stewardship = 3
+	intrigue = 3
+	learning = 4
+	prowess = 4
+
+	7194.2.8 = {
+		birth = yes
+	}
+}
+
+
+############################################################
+##### HOUSE BROKKR #####
+############################################################
+
+umli_brokkr_001 = { # Founder
+	name = Brokkr
+
+	dynasty = dynasty_umli_brokkr
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = patient
+	trait = calm
+	trait = deceitful
+
+	trait = education_intrigue_2
+
+	diplomacy = 3
+	martial = 5
+	stewardship = 3
+	intrigue = 7
+	learning = 3
+	prowess = 3
+
+	6679.9.21 = {
+		birth = yes
+	}
+
+	6698.5.23 = {
+		add_spouse = umli_lowborn_003
+	}
+
+	6753.7.14 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_lowborn_003 = { # Lowborn spouse of Brokkr
+	name = Gudrun
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = generous
+	trait = trusting
+	trait = impatient
+
+	trait = education_martial_2
+
+	diplomacy = 4
+	martial = 4
+	stewardship = 3
+	intrigue = 5
+	learning = 2
+	prowess = 4
+
+	6680.6.18 = {
+		birth = yes
+	}
+
+	6766.3.18 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+### Generation 1 ###
+
+umli_brokkr_002 = { # Generation 1 continuation
+	name = Regin
+
+	dynasty = dynasty_umli_brokkr
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_brokkr_001
+	mother = umli_lowborn_003
+
+	trait = dwarf
+	trait = deceitful
+	trait = patient
+	trait = temperate
+
+	trait = education_learning_2
+
+	diplomacy = 5
+	martial = 2
+	stewardship = 4
+	intrigue = 3
+	learning = 3
+	prowess = 3
+
+	6700.5.28 = {
+		birth = yes
+	}
+
+	6730.8.18 = {
+		add_spouse = umli_lowborn_008
+	}
+
+	6760.6.3 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_lowborn_008 = { # Lowborn spouse into House Brokkr (generation 1)
+	name = Nanna
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = stubborn
+	trait = just
+	trait = compassionate
+
+	trait = education_martial_1
+
+	diplomacy = 2
+	martial = 7
+	stewardship = 3
+	intrigue = 5
+	learning = 4
+	prowess = 2
+
+	6696.6.20 = {
+		birth = yes
+	}
+
+	6765.9.6 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_brokkr_003 = { # Generation 1 sibling
+	name = Frosti
+
+	dynasty = dynasty_umli_brokkr
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_brokkr_001
+	mother = umli_lowborn_003
+
+	trait = brave
+	trait = deceitful
+	trait = wrathful
+
+	trait = education_learning_1
+
+	diplomacy = 2
+	martial = 7
+	stewardship = 2
+	intrigue = 3
+	learning = 7
+	prowess = 4
+
+	6702.11.27 = {
+		birth = yes
+	}
+
+	6780.5.10 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_brokkr_004 = { # Generation 1 sibling
+	name = Virfir
+
+	dynasty = dynasty_umli_brokkr
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_brokkr_001
+	mother = umli_lowborn_003
+
+	trait = dwarf
+	trait = impatient
+	trait = wrathful
+	trait = arrogant
+
+	trait = education_stewardship_2
+
+	diplomacy = 3
+	martial = 3
+	stewardship = 7
+	intrigue = 4
+	learning = 3
+	prowess = 5
+
+	6705.9.13 = {
+		birth = yes
+	}
+
+	6784.8.17 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+
+### Generation 2 ###
+
+umli_brokkr_005 = { # Generation 2 continuation
+	name = Motsognir
+
+	dynasty = dynasty_umli_brokkr
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_brokkr_002
+	mother = umli_lowborn_008
+
+	trait = dwarf
+	trait = callous
+	trait = humble
+	trait = generous
+
+	trait = education_diplomacy_2
+
+	diplomacy = 8
+	martial = 2
+	stewardship = 3
+	intrigue = 5
+	learning = 5
+	prowess = 3
+
+	6732.7.17 = {
+		birth = yes
+	}
+
+	6761.8.23 = {
+		add_spouse = umli_lowborn_013
+	}
+
+	6792.1.18 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_lowborn_013 = { # Lowborn spouse into House Brokkr (generation 2)
+	name = Gudrun
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = forgiving
+	trait = callous
+	trait = generous
+
+	trait = education_learning_3
+
+	diplomacy = 5
+	martial = 4
+	stewardship = 4
+	intrigue = 4
+	learning = 8
+	prowess = 4
+
+	6728.8.2 = {
+		birth = yes
+	}
+
+	6794.12.4 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_brokkr_006 = { # Generation 2 sibling
+	name = Hervor
+	female = yes
+
+	dynasty = dynasty_umli_brokkr
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_brokkr_002
+	mother = umli_lowborn_008
+
+	trait = dwarf
+	trait = deceitful
+	trait = patient
+	trait = generous
+
+	trait = education_stewardship_3
+
+	diplomacy = 3
+	martial = 5
+	stewardship = 7
+	intrigue = 4
+	learning = 4
+	prowess = 4
+
+	6734.11.15 = {
+		birth = yes
+	}
+
+	6820.4.9 = {
+		death = { death_reason = death_ill }
+	}
+}
+
+umli_brokkr_007 = { # Generation 2 sibling
+	name = Hepti
+
+	dynasty = dynasty_umli_brokkr
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_brokkr_002
+	mother = umli_lowborn_008
+
+	trait = greedy
+	trait = just
+	trait = cynical
+
+	trait = education_diplomacy_2
+
+	diplomacy = 5
+	martial = 6
+	stewardship = 4
+	intrigue = 3
+	learning = 2
+	prowess = 3
+
+	6737.11.16 = {
+		birth = yes
+	}
+
+	6817.12.25 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+
+### Generation 3 ###
+
+umli_brokkr_008 = { # Generation 3 continuation
+	name = Yrsa
+	female = yes
+
+	dynasty = dynasty_umli_brokkr
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_brokkr_005
+	mother = umli_lowborn_013
+
+	trait = dwarf
+	trait = greedy
+	trait = shy
+	trait = ambitious
+
+	trait = education_martial_2
+
+	diplomacy = 5
+	martial = 9
+	stewardship = 3
+	intrigue = 2
+	learning = 3
+	prowess = 3
+
+	6763.3.2 = {
+		birth = yes
+	}
+
+	6790.1.22 = {
+		add_spouse = umli_lowborn_018
+	}
+
+	6835.6.1 = {
+		death = { death_reason = death_ill }
+	}
+}
+
+umli_lowborn_018 = { # Lowborn spouse into House Brokkr (generation 3)
+	name = Dain
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = generous
+	trait = ambitious
+	trait = impatient
+
+	trait = education_stewardship_2
+
+	diplomacy = 5
+	martial = 3
+	stewardship = 5
+	intrigue = 3
+	learning = 3
+	prowess = 3
+
+	6765.8.18 = {
+		birth = yes
+	}
+
+	6836.12.18 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_brokkr_009 = { # Generation 3 sibling
+	name = Tove
+	female = yes
+
+	dynasty = dynasty_umli_brokkr
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_brokkr_005
+	mother = umli_lowborn_013
+
+	trait = dwarf
+	trait = shy
+	trait = greedy
+	trait = craven
+
+	trait = education_stewardship_1
+
+	diplomacy = 7
+	martial = 3
+	stewardship = 6
+	intrigue = 3
+	learning = 4
+	prowess = 3
+
+	6765.6.7 = {
+		birth = yes
+	}
+
+	6830.7.4 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_brokkr_010 = { # Generation 3 sibling
+	name = Ragnhild
+	female = yes
+
+	dynasty = dynasty_umli_brokkr
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_brokkr_005
+	mother = umli_lowborn_013
+
+	trait = dwarf
+	trait = content
+	trait = humble
+	trait = cynical
+
+	trait = education_intrigue_2
+
+	diplomacy = 4
+	martial = 2
+	stewardship = 6
+	intrigue = 7
+	learning = 4
+	prowess = 4
+
+	6767.11.26 = {
+		birth = yes
+	}
+
+	6852.3.8 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+
+### Generation 4 ###
+
+umli_brokkr_011 = { # Generation 4 continuation
+	name = Rind
+	female = yes
+
+	dynasty = dynasty_umli_brokkr
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_lowborn_018
+	mother = umli_brokkr_008
+
+	trait = dwarf
+	trait = temperate
+	trait = content
+	trait = generous
+
+	trait = education_diplomacy_2
+
+	diplomacy = 5
+	martial = 3
+	stewardship = 3
+	intrigue = 3
+	learning = 3
+	prowess = 4
+
+	6792.7.13 = {
+		birth = yes
+	}
+
+	6822.12.28 = {
+		add_spouse = umli_lowborn_022
+	}
+
+	6872.12.23 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_lowborn_022 = { # Lowborn spouse into House Brokkr (generation 4)
+	name = Gandalf
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = gregarious
+	trait = generous
+	trait = ambitious
+
+	trait = education_stewardship_1
+
+	diplomacy = 8
+	martial = 2
+	stewardship = 5
+	intrigue = 3
+	learning = 5
+	prowess = 3
+
+	6794.7.6 = {
+		birth = yes
+	}
+
+	6852.12.25 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_brokkr_012 = { # Generation 4 sibling
+	name = Signy
+	female = yes
+
+	dynasty = dynasty_umli_brokkr
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_lowborn_018
+	mother = umli_brokkr_008
+
+	trait = dwarf
+	trait = compassionate
+	trait = cynical
+	trait = craven
+
+	trait = education_diplomacy_2
+
+	diplomacy = 5
+	martial = 3
+	stewardship = 2
+	intrigue = 4
+	learning = 6
+	prowess = 3
+
+	6794.2.20 = {
+		birth = yes
+	}
+
+	6854.8.7 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_brokkr_013 = { # Generation 4 sibling
+	name = Finn
+
+	dynasty = dynasty_umli_brokkr
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_lowborn_018
+	mother = umli_brokkr_008
+
+	trait = dwarf
+	trait = stubborn
+	trait = greedy
+	trait = gregarious
+
+	trait = education_diplomacy_3
+
+	diplomacy = 7
+	martial = 2
+	stewardship = 3
+	intrigue = 3
+	learning = 3
+	prowess = 3
+
+	6797.9.12 = {
+		birth = yes
+	}
+
+	6875.10.6 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+
+### Generation 5 ###
+
+umli_brokkr_014 = { # Generation 5 continuation
+	name = Vili
+
+	dynasty = dynasty_umli_brokkr
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_lowborn_022
+	mother = umli_brokkr_011
+
+	trait = dwarf
+	trait = just
+	trait = generous
+	trait = arrogant
+
+	trait = education_intrigue_2
+
+	diplomacy = 4
+	martial = 5
+	stewardship = 4
+	intrigue = 3
+	learning = 3
+	prowess = 2
+
+	6823.5.9 = {
+		birth = yes
+	}
+
+	6852.12.28 = {
+		add_spouse = umli_andvari_016
+	}
+
+	6893.7.21 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_brokkr_015 = { # Generation 5 sibling
+	name = Svanhild
+	female = yes
+
+	dynasty = dynasty_umli_brokkr
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_lowborn_022
+	mother = umli_brokkr_011
+
+	trait = dwarf
+	trait = impatient
+	trait = ambitious
+	trait = honest
+
+	trait = education_intrigue_2
+
+	diplomacy = 3
+	martial = 3
+	stewardship = 4
+	intrigue = 4
+	learning = 3
+	prowess = 4
+
+	6826.4.4 = {
+		birth = yes
+	}
+
+	6903.6.21 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_brokkr_016 = { # Generation 5 sibling
+	name = Signy
+	female = yes
+
+	dynasty = dynasty_umli_brokkr
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_lowborn_022
+	mother = umli_brokkr_011
+
+	trait = dwarf
+	trait = gregarious
+	trait = zealous
+	trait = arrogant
+
+	trait = education_diplomacy_2
+
+	diplomacy = 6
+	martial = 2
+	stewardship = 4
+	intrigue = 5
+	learning = 5
+	prowess = 2
+
+	6827.9.13 = {
+		birth = yes
+	}
+
+	6889.8.28 = {
+		death = { death_reason = death_ill }
+	}
+}
+
+umli_brokkr_017 = { # Generation 5 sibling
+	name = Astrid
+	female = yes
+
+	dynasty = dynasty_umli_brokkr
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_lowborn_022
+	mother = umli_brokkr_011
+
+	trait = dwarf
+	trait = wrathful
+	trait = just
+	trait = trusting
+
+	trait = education_learning_3
+
+	diplomacy = 4
+	martial = 4
+	stewardship = 3
+	intrigue = 5
+	learning = 5
+	prowess = 6
+
+	6829.3.24 = {
+		birth = yes
+	}
+
+	6888.6.13 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+
+### Generation 6 ###
+
+umli_brokkr_018 = { # Generation 6 continuation
+	name = Fjalar
+
+	dynasty = dynasty_umli_brokkr
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_brokkr_014
+	mother = umli_andvari_016
+
+	trait = dwarf
+	trait = impatient
+	trait = callous
+	trait = shy
+
+	trait = education_martial_2
+
+	diplomacy = 2
+	martial = 7
+	stewardship = 3
+	intrigue = 3
+	learning = 4
+	prowess = 5
+
+	6854.7.24 = {
+		birth = yes
+	}
+
+	6882.12.6 = {
+		add_spouse = umli_lowborn_031
+	}
+
+	6922.8.16 = {
+		death = { death_reason = death_ill }
+	}
+}
+
+umli_lowborn_031 = { # Lowborn spouse into House Brokkr (generation 6)
+	name = Alfhild
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = diligent
+	trait = impatient
+	trait = calm
+
+	trait = education_intrigue_3
+
+	diplomacy = 3
+	martial = 6
+	stewardship = 5
+	intrigue = 6
+	learning = 5
+	prowess = 5
+
+	6853.9.27 = {
+		birth = yes
+	}
+
+	6927.2.11 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_brokkr_019 = { # Generation 6 sibling
+	name = Helga
+	female = yes
+
+	dynasty = dynasty_umli_brokkr
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_brokkr_014
+	mother = umli_andvari_016
+
+	trait = dwarf
+	trait = shy
+	trait = craven
+	trait = stubborn
+
+	trait = education_diplomacy_3
+
+	diplomacy = 4
+	martial = 3
+	stewardship = 4
+	intrigue = 4
+	learning = 5
+	prowess = 6
+
+	6857.8.16 = {
+		birth = yes
+	}
+
+	6914.6.17 = {
+		death = { death_reason = death_ill }
+	}
+}
+
+umli_brokkr_020 = { # Generation 6 sibling
+	name = Embla
+	female = yes
+
+	dynasty = dynasty_umli_brokkr
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_brokkr_014
+	mother = umli_andvari_016
+
+	trait = humble
+	trait = stubborn
+	trait = shy
+
+	trait = education_martial_1
+
+	diplomacy = 4
+	martial = 8
+	stewardship = 3
+	intrigue = 5
+	learning = 3
+	prowess = 4
+
+	6859.4.6 = {
+		birth = yes
+	}
+
+	6935.8.4 = {
+		death = { death_reason = death_accident }
+	}
+}
+
+umli_brokkr_021 = { # Generation 6 sibling
+	name = Rathsvith
+
+	dynasty = dynasty_umli_brokkr
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_brokkr_014
+	mother = umli_andvari_016
+
+	trait = dwarf
+	trait = forgiving
+	trait = craven
+	trait = content
+
+	trait = education_martial_2
+
+	diplomacy = 4
+	martial = 9
+	stewardship = 3
+	intrigue = 2
+	learning = 3
+	prowess = 7
+
+	6861.9.13 = {
+		birth = yes
+	}
+
+	6928.3.17 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+
+### Generation 7 ###
+
+umli_brokkr_022 = { # Generation 7 continuation
+	name = Nordri
+
+	dynasty = dynasty_umli_brokkr
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_brokkr_018
+	mother = umli_lowborn_031
+
+	trait = dwarf
+	trait = compassionate
+	trait = lustful
+	trait = diligent
+
+	trait = education_diplomacy_2
+
+	diplomacy = 9
+	martial = 3
+	stewardship = 5
+	intrigue = 4
+	learning = 2
+	prowess = 4
+
+	6884.12.2 = {
+		birth = yes
+	}
+
+	6912.10.7 = {
+		add_spouse = umli_lowborn_036
+	}
+
+	6964.12.21 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_lowborn_036 = { # Lowborn spouse into House Brokkr (generation 7)
+	name = Freydis
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = calm
+	trait = ambitious
+	trait = honest
+
+	trait = education_diplomacy_2
+
+	diplomacy = 7
+	martial = 3
+	stewardship = 3
+	intrigue = 5
+	learning = 4
+	prowess = 5
+
+	6888.7.8 = {
+		birth = yes
+	}
+
+	6970.12.21 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_brokkr_023 = { # Generation 7 sibling
+	name = Lit
+
+	dynasty = dynasty_umli_brokkr
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_brokkr_018
+	mother = umli_lowborn_031
+
+	trait = dwarf
+	trait = content
+	trait = wrathful
+	trait = craven
+
+	trait = education_diplomacy_1
+
+	diplomacy = 9
+	martial = 3
+	stewardship = 4
+	intrigue = 4
+	learning = 4
+	prowess = 4
+
+	6886.9.20 = {
+		birth = yes
+	}
+
+	6969.1.23 = {
+		death = { death_reason = death_accident }
+	}
+}
+
+umli_brokkr_024 = { # Generation 7 sibling
+	name = Lofar
+
+	dynasty = dynasty_umli_brokkr
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_brokkr_018
+	mother = umli_lowborn_031
+
+	trait = dwarf
+	trait = honest
+	trait = humble
+	trait = lustful
+
+	trait = education_stewardship_1
+
+	diplomacy = 3
+	martial = 2
+	stewardship = 7
+	intrigue = 3
+	learning = 4
+	prowess = 4
+
+	6889.4.7 = {
+		birth = yes
+	}
+
+	6974.6.14 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+
+### Generation 8 ###
+
+umli_brokkr_025 = { # Generation 8 continuation
+	name = Gloin
+
+	dynasty = dynasty_umli_brokkr
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_brokkr_022
+	mother = umli_lowborn_036
+
+	trait = dwarf
+	trait = calm
+	trait = just
+	trait = lustful
+
+	trait = education_stewardship_1
+
+	diplomacy = 5
+	martial = 4
+	stewardship = 8
+	intrigue = 5
+	learning = 2
+	prowess = 4
+
+	6914.11.11 = {
+		birth = yes
+	}
+
+	6943.3.8 = {
+		add_spouse = umli_lowborn_041
+	}
+
+	6991.10.26 = {
+		death = { death_reason = death_accident }
+	}
+}
+
+umli_lowborn_041 = { # Lowborn spouse into House Brokkr (generation 8)
+	name = Aud
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = generous
+	trait = diligent
+	trait = shy
+
+	trait = education_martial_2
+
+	diplomacy = 4
+	martial = 4
+	stewardship = 2
+	intrigue = 3
+	learning = 2
+	prowess = 6
+
+	6910.11.13 = {
+		birth = yes
+	}
+
+	6996.6.21 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_brokkr_026 = { # Generation 8 sibling
+	name = Sindri
+
+	dynasty = dynasty_umli_brokkr
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_brokkr_022
+	mother = umli_lowborn_036
+
+	trait = dwarf
+	trait = generous
+	trait = shy
+	trait = impatient
+
+	trait = education_martial_2
+
+	diplomacy = 3
+	martial = 4
+	stewardship = 4
+	intrigue = 2
+	learning = 4
+	prowess = 4
+
+	6916.8.7 = {
+		birth = yes
+	}
+
+	6979.10.14 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+
+### Generation 9 ###
+
+umli_brokkr_027 = { # Generation 9 continuation
+	name = Vigdis
+	female = yes
+
+	dynasty = dynasty_umli_brokkr
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_brokkr_025
+	mother = umli_lowborn_041
+
+	trait = dwarf
+	trait = shy
+	trait = just
+	trait = callous
+
+	trait = education_stewardship_3
+
+	diplomacy = 3
+	martial = 3
+	stewardship = 9
+	intrigue = 2
+	learning = 3
+	prowess = 3
+
+	6945.8.6 = {
+		birth = yes
+	}
+
+	6974.4.20 = {
+		add_spouse = umli_lowborn_045
+	}
+
+	7015.12.5 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_lowborn_045 = { # Lowborn spouse into House Brokkr (generation 9)
+	name = Eitri
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = greedy
+	trait = temperate
+	trait = zealous
+
+	trait = education_learning_3
+
+	diplomacy = 3
+	martial = 5
+	stewardship = 3
+	intrigue = 5
+	learning = 2
+	prowess = 3
+
+	6942.12.12 = {
+		birth = yes
+	}
+
+	7023.2.20 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_brokkr_028 = { # Generation 9 sibling
+	name = Fjalar
+
+	dynasty = dynasty_umli_brokkr
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_brokkr_025
+	mother = umli_lowborn_041
+
+	trait = dwarf
+	trait = temperate
+	trait = gregarious
+	trait = lustful
+
+	trait = education_learning_2
+
+	diplomacy = 5
+	martial = 4
+	stewardship = 3
+	intrigue = 5
+	learning = 7
+	prowess = 4
+
+	6947.2.8 = {
+		birth = yes
+	}
+
+	7011.8.11 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_brokkr_029 = { # Generation 9 sibling
+	name = Una
+	female = yes
+
+	dynasty = dynasty_umli_brokkr
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_brokkr_025
+	mother = umli_lowborn_041
+
+	trait = dwarf
+	trait = content
+	trait = patient
+	trait = greedy
+
+	trait = education_stewardship_2
+
+	diplomacy = 5
+	martial = 3
+	stewardship = 4
+	intrigue = 3
+	learning = 2
+	prowess = 4
+
+	6949.6.8 = {
+		birth = yes
+	}
+
+	7018.5.24 = {
+		death = { death_reason = death_accident }
+	}
+}
+
+
+
+### Generation 10 ###
+
+umli_brokkr_030 = { # Generation 10 continuation
+	name = Sindri
+
+	dynasty = dynasty_umli_brokkr
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_lowborn_045
+	mother = umli_brokkr_027
+
+	trait = dwarf
+	trait = lustful
+	trait = honest
+	trait = greedy
+
+	trait = education_martial_1
+
+	diplomacy = 4
+	martial = 8
+	stewardship = 2
+	intrigue = 8
+	learning = 4
+	prowess = 3
+
+	6975.6.12 = {
+		birth = yes
+	}
+
+	7005.7.3 = {
+		add_spouse = umli_lowborn_049
+	}
+
+	7056.9.20 = {
+		death = { death_reason = death_ill }
+	}
+}
+
+umli_lowborn_049 = { # Lowborn spouse into House Brokkr (generation 10)
+	name = Torhild
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = paranoid
+	trait = patient
+	trait = humble
+
+	trait = education_intrigue_1
+
+	diplomacy = 5
+	martial = 3
+	stewardship = 4
+	intrigue = 4
+	learning = 5
+	prowess = 7
+
+	6972.12.24 = {
+		birth = yes
+	}
+
+	7051.8.6 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_brokkr_031 = { # Generation 10 sibling; spouse into House Dvalin
+	name = Torhild
+	female = yes
+
+	dynasty = dynasty_umli_brokkr
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_lowborn_045
+	mother = umli_brokkr_027
+
+	trait = dwarf
+	trait = generous
+	trait = craven
+	trait = callous
+
+	trait = education_diplomacy_2
+
+	diplomacy = 8
+	martial = 5
+	stewardship = 3
+	intrigue = 5
+	learning = 4
+	prowess = 3
+
+	6977.11.16 = {
+		birth = yes
+	}
+
+	7034.2.25 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_brokkr_032 = { # Generation 10 sibling
+	name = Dvalin
+
+	dynasty = dynasty_umli_brokkr
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_lowborn_045
+	mother = umli_brokkr_027
+
+	trait = dwarf
+	trait = humble
+	trait = cynical
+	trait = ambitious
+
+	trait = education_learning_2
+
+	diplomacy = 3
+	martial = 3
+	stewardship = 3
+	intrigue = 4
+	learning = 4
+	prowess = 5
+
+	6979.10.16 = {
+		birth = yes
+	}
+
+	7045.2.19 = {
+		death = { death_reason = death_ill }
+	}
+}
+
+
+
+### Generation 11 ###
+
+umli_brokkr_033 = { # Generation 11 continuation
+	name = Dain
+
+	dynasty = dynasty_umli_brokkr
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_brokkr_030
+	mother = umli_lowborn_049
+
+	trait = dwarf
+	trait = craven
+	trait = greedy
+	trait = deceitful
+
+	trait = education_stewardship_2
+
+	diplomacy = 4
+	martial = 5
+	stewardship = 6
+	intrigue = 3
+	learning = 4
+	prowess = 2
+
+	7008.9.5 = {
+		birth = yes
+	}
+
+	7035.5.28 = {
+		add_spouse = umli_lowborn_054
+	}
+
+	7091.5.28 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_lowborn_054 = { # Lowborn spouse into House Brokkr (generation 11)
+	name = Brynhild
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = diligent
+	trait = honest
+	trait = trusting
+
+	trait = education_learning_2
+
+	diplomacy = 7
+	martial = 5
+	stewardship = 3
+	intrigue = 4
+	learning = 5
+	prowess = 3
+
+	7006.3.27 = {
+		birth = yes
+	}
+
+	7076.5.6 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_brokkr_034 = { # Generation 11 sibling
+	name = Yngvi
+
+	dynasty = dynasty_umli_brokkr
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_brokkr_030
+	mother = umli_lowborn_049
+
+	trait = dwarf
+	trait = calm
+	trait = diligent
+	trait = temperate
+
+	trait = education_stewardship_2
+
+	diplomacy = 6
+	martial = 2
+	stewardship = 7
+	intrigue = 5
+	learning = 5
+	prowess = 3
+
+	7010.4.25 = {
+		birth = yes
+	}
+
+	7067.7.24 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+
+### Generation 12 ###
+
+umli_brokkr_035 = { # Generation 12 continuation
+	name = Frerin
+
+	dynasty = dynasty_umli_brokkr
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_brokkr_033
+	mother = umli_lowborn_054
+
+	trait = dwarf
+	trait = temperate
+	trait = callous
+	trait = honest
+
+	trait = education_intrigue_2
+
+	diplomacy = 3
+	martial = 5
+	stewardship = 4
+	intrigue = 4
+	learning = 2
+	prowess = 3
+
+	7037.10.19 = {
+		birth = yes
+	}
+
+	7064.8.5 = {
+		add_spouse = umli_lowborn_059
+	}
+
+	7099.11.27 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_lowborn_059 = { # Lowborn spouse into House Brokkr (generation 12)
+	name = Una
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = diligent
+	trait = honest
+	trait = trusting
+
+	trait = education_learning_2
+
+	diplomacy = 3
+	martial = 3
+	stewardship = 6
+	intrigue = 5
+	learning = 8
+	prowess = 5
+
+	7036.4.19 = {
+		birth = yes
+	}
+
+	7101.9.15 = {
+		death = { death_reason = death_ill }
+	}
+}
+
+umli_brokkr_036 = { # Generation 12 sibling
+	name = Helga
+	female = yes
+
+	dynasty = dynasty_umli_brokkr
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_brokkr_033
+	mother = umli_lowborn_054
+
+	trait = dwarf
+	trait = stubborn
+	trait = gregarious
+	trait = temperate
+
+	trait = education_diplomacy_1
+
+	diplomacy = 8
+	martial = 3
+	stewardship = 3
+	intrigue = 2
+	learning = 3
+	prowess = 3
+
+	7039.11.10 = {
+		birth = yes
+	}
+
+	7119.3.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+
+### Generation 13 ###
+
+umli_brokkr_037 = { # Generation 13 continuation
+	name = Frosti
+
+	dynasty = dynasty_umli_brokkr
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_brokkr_035
+	mother = umli_lowborn_059
+
+	trait = cynical
+	trait = stubborn
+	trait = humble
+
+	trait = education_learning_2
+
+	diplomacy = 3
+	martial = 5
+	stewardship = 3
+	intrigue = 5
+	learning = 5
+	prowess = 2
+
+	7067.9.13 = {
+		birth = yes
+	}
+
+	7094.12.3 = {
+		add_spouse = umli_lowborn_063
+	}
+
+	7131.1.27 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_lowborn_063 = { # Lowborn spouse into House Brokkr (generation 13)
+	name = Idunn
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = forgiving
+	trait = impatient
+	trait = wrathful
+
+	trait = education_learning_2
+
+	diplomacy = 2
+	martial = 6
+	stewardship = 2
+	intrigue = 2
+	learning = 5
+	prowess = 3
+
+	7065.9.22 = {
+		birth = yes
+	}
+
+	7145.11.20 = {
+		death = { death_reason = death_ill }
+	}
+}
+
+umli_brokkr_038 = { # Generation 13 sibling
+	name = Sigrid
+	female = yes
+
+	dynasty = dynasty_umli_brokkr
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_brokkr_035
+	mother = umli_lowborn_059
+
+	trait = dwarf
+	trait = honest
+	trait = forgiving
+	trait = humble
+
+	trait = education_learning_3
+
+	diplomacy = 2
+	martial = 5
+	stewardship = 3
+	intrigue = 7
+	learning = 7
+	prowess = 4
+
+	7068.9.21 = {
+		birth = yes
+	}
+
+	7141.9.3 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_brokkr_039 = { # Generation 13 sibling
+	name = Thror
+
+	dynasty = dynasty_umli_brokkr
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_brokkr_035
+	mother = umli_lowborn_059
+
+	trait = dwarf
+	trait = callous
+	trait = lustful
+	trait = shy
+
+	trait = education_diplomacy_1
+
+	diplomacy = 5
+	martial = 3
+	stewardship = 3
+	intrigue = 3
+	learning = 5
+	prowess = 3
+
+	7070.3.4 = {
+		birth = yes
+	}
+
+	7143.2.16 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_brokkr_040 = { # Generation 13 sibling
+	name = Sif
+	female = yes
+
+	dynasty = dynasty_umli_brokkr
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_brokkr_035
+	mother = umli_lowborn_059
+
+	trait = dwarf
+	trait = trusting
+	trait = lustful
+	trait = shy
+
+	trait = education_stewardship_2
+
+	diplomacy = 3
+	martial = 3
+	stewardship = 8
+	intrigue = 7
+	learning = 4
+	prowess = 5
+
+	7073.2.18 = {
+		birth = yes
+	}
+
+	7148.11.25 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+
+### Generation 14 ###
+
+umli_brokkr_041 = { # Generation 14 continuation
+	name = Niping
+
+	dynasty = dynasty_umli_brokkr
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_brokkr_037
+	mother = umli_lowborn_063
+
+	trait = dwarf
+	trait = forgiving
+	trait = calm
+	trait = brave
+
+	trait = education_martial_2
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 4
+	intrigue = 3
+	learning = 5
+	prowess = 5
+
+	7096.6.3 = {
+		birth = yes
+	}
+
+	7122.12.15 = {
+		add_spouse = umli_lowborn_067
+	}
+
+	7154.6.1 = {
+		death = { death_reason = death_ill }
+	}
+}
+
+umli_lowborn_067 = { # Lowborn spouse into House Brokkr (generation 14)
+	name = Gerda
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = gregarious
+	trait = content
+	trait = cynical
+
+	trait = education_diplomacy_2
+
+	diplomacy = 4
+	martial = 2
+	stewardship = 3
+	intrigue = 3
+	learning = 4
+	prowess = 4
+
+	7094.6.5 = {
+		birth = yes
+	}
+
+	7173.1.6 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_brokkr_042 = { # Generation 14 sibling; spouse into House Motsognir
+	name = Hlin
+	female = yes
+
+	dynasty = dynasty_umli_brokkr
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_brokkr_037
+	mother = umli_lowborn_063
+
+	trait = dwarf
+	trait = honest
+	trait = zealous
+	trait = calm
+
+	trait = education_stewardship_2
+
+	diplomacy = 3
+	martial = 4
+	stewardship = 6
+	intrigue = 6
+	learning = 3
+	prowess = 5
+
+	7098.1.13 = {
+		birth = yes
+	}
+
+	7167.11.3 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_brokkr_043 = { # Generation 14 sibling
+	name = Runa
+	female = yes
+
+	dynasty = dynasty_umli_brokkr
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_brokkr_037
+	mother = umli_lowborn_063
+
+	trait = dwarf
+	trait = zealous
+	trait = forgiving
+	trait = compassionate
+
+	trait = education_intrigue_2
+
+	diplomacy = 8
+	martial = 4
+	stewardship = 5
+	intrigue = 4
+	learning = 4
+	prowess = 2
+
+	7100.2.9 = {
+		birth = yes
+	}
+
+	7179.11.19 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+
+### Generation 15 ###
+
+umli_brokkr_044 = { # Generation 15 continuation
+	name = Virfir
+
+	dynasty = dynasty_umli_brokkr
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_brokkr_041
+	mother = umli_lowborn_067
+
+	trait = dwarf
+	trait = arrogant
+	trait = calm
+	trait = stubborn
+
+	trait = education_martial_1
+
+	diplomacy = 2
+	martial = 7
+	stewardship = 6
+	intrigue = 4
+	learning = 7
+	prowess = 3
+
+	7125.5.27 = {
+		birth = yes
+	}
+
+	7155.5.21 = {
+		add_spouse = umli_lowborn_072
+	}
+
+	7182.4.6 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_lowborn_072 = { # Lowborn spouse into House Brokkr (generation 15)
+	name = Ragnhild
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = callous
+	trait = gregarious
+	trait = cynical
+
+	trait = education_learning_2
+
+	diplomacy = 3
+	martial = 5
+	stewardship = 4
+	intrigue = 2
+	learning = 5
+	prowess = 2
+
+	7122.2.1 = {
+		birth = yes
+	}
+
+	7196.6.26 = {
+		death = { death_reason = death_ill }
+	}
+}
+
+umli_brokkr_045 = { # Generation 15 sibling
+	name = Bombur
+
+	dynasty = dynasty_umli_brokkr
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_brokkr_041
+	mother = umli_lowborn_067
+
+	trait = dwarf
+	trait = lustful
+	trait = diligent
+	trait = content
+
+	trait = education_diplomacy_2
+
+	diplomacy = 8
+	martial = 4
+	stewardship = 3
+	intrigue = 5
+	learning = 2
+	prowess = 4
+
+	7127.11.24 = {
+		birth = yes
+	}
+
+	7196.12.18 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_brokkr_046 = { # Generation 15 sibling
+	name = Svanhild
+	female = yes
+
+	dynasty = dynasty_umli_brokkr
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_brokkr_041
+	mother = umli_lowborn_067
+
+	trait = dwarf
+	trait = patient
+	trait = zealous
+	trait = forgiving
+
+	trait = education_learning_1
+
+	diplomacy = 3
+	martial = 3
+	stewardship = 5
+	intrigue = 3
+	learning = 4
+	prowess = 5
+
+	7130.2.10 = {
+		birth = yes
+	}
+}
+
+
+
+### Generation 16 ###
+
+umli_brokkr_047 = { # Generation 16 continuation
+	name = Vili
+
+	dynasty = dynasty_umli_brokkr
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_brokkr_044
+	mother = umli_lowborn_072
+
+	trait = dwarf
+	trait = generous
+	trait = arrogant
+	trait = stubborn
+
+	trait = education_diplomacy_2
+
+	diplomacy = 8
+	martial = 4
+	stewardship = 5
+	intrigue = 3
+	learning = 2
+	prowess = 4
+
+	7156.8.15 = {
+		birth = yes
+	}
+
+	7187.11.8 = {
+		add_spouse = umli_lowborn_077
+	}
+}
+
+umli_lowborn_077 = { # Lowborn spouse into House Brokkr (generation 16)
+	name = Dagny
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = gregarious
+	trait = cynical
+	trait = craven
+
+	trait = education_learning_2
+
+	diplomacy = 7
+	martial = 3
+	stewardship = 4
+	intrigue = 3
+	learning = 8
+	prowess = 3
+
+	7159.9.7 = {
+		birth = yes
+	}
+}
+
+umli_brokkr_048 = { # Generation 16 sibling
+	name = Helga
+	female = yes
+
+	dynasty = dynasty_umli_brokkr
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_brokkr_044
+	mother = umli_lowborn_072
+
+	trait = dwarf
+	trait = compassionate
+	trait = stubborn
+	trait = zealous
+
+	trait = education_intrigue_2
+
+	diplomacy = 3
+	martial = 3
+	stewardship = 2
+	intrigue = 7
+	learning = 5
+	prowess = 4
+
+	7159.6.24 = {
+		birth = yes
+	}
+}
+
+umli_brokkr_049 = { # Generation 16 sibling
+	name = Nar
+
+	dynasty = dynasty_umli_brokkr
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_brokkr_044
+	mother = umli_lowborn_072
+
+	trait = dwarf
+	trait = trusting
+	trait = calm
+	trait = shy
+
+	trait = education_diplomacy_2
+
+	diplomacy = 6
+	martial = 2
+	stewardship = 4
+	intrigue = 2
+	learning = 3
+	prowess = 3
+
+	7161.3.24 = {
+		birth = yes
+	}
+}
+
+
+
+### Generation 17 ###
+
+umli_brokkr_050 = { # Generation 17 continuation
+	name = Nori
+
+	dynasty = dynasty_umli_brokkr
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_brokkr_047
+	mother = umli_lowborn_077
+
+	trait = dwarf
+	trait = generous
+	trait = lustful
+	trait = patient
+
+	trait = education_diplomacy_2
+
+	diplomacy = 3
+	martial = 4
+	stewardship = 5
+	intrigue = 4
+	learning = 3
+	prowess = 3
+
+	7188.1.11 = {
+		birth = yes
+	}
+}
+
+umli_brokkr_051 = { # Generation 17 sibling
+	name = Eydis
+	female = yes
+
+	dynasty = dynasty_umli_brokkr
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_brokkr_047
+	mother = umli_lowborn_077
+
+	trait = dwarf
+	trait = arrogant
+	trait = compassionate
+	trait = forgiving
+
+	trait = education_martial_2
+
+	diplomacy = 3
+	martial = 6
+	stewardship = 3
+	intrigue = 4
+	learning = 3
+	prowess = 2
+
+	7190.3.22 = {
+		birth = yes
+	}
+}
+
+umli_brokkr_052 = { # Generation 17 sibling
+	name = Mist
+	female = yes
+
+	dynasty = dynasty_umli_brokkr
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_brokkr_047
+	mother = umli_lowborn_077
+
+	trait = humble
+	trait = shy
+	trait = stubborn
+
+	trait = education_stewardship_2
+
+	diplomacy = 6
+	martial = 3
+	stewardship = 6
+	intrigue = 3
+	learning = 5
+	prowess = 2
+
+	7193.4.12 = {
+		birth = yes
+	}
+}
+
+
+############################################################
+##### HOUSE ANDVARI #####
+############################################################
+
+umli_andvari_001 = { # Founder
+	name = Andvari
+
+	dynasty = dynasty_umli_andvari
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = forgiving
+	trait = shy
+	trait = generous
+
+	trait = education_stewardship_3
+
+	diplomacy = 2
+	martial = 5
+	stewardship = 6
+	intrigue = 2
+	learning = 4
+	prowess = 4
+
+	6675.4.12 = {
+		birth = yes
+	}
+
+	6697.11.11 = {
+		add_spouse = umli_lowborn_004
+	}
+
+	6740.3.18 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_lowborn_004 = { # Lowborn spouse of Andvari
+	name = Sigrid
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = humble
+	trait = ambitious
+	trait = compassionate
+
+	trait = education_diplomacy_2
+
+	diplomacy = 5
+	martial = 3
+	stewardship = 6
+	intrigue = 4
+	learning = 3
+	prowess = 2
+
+	6673.3.25 = {
+		birth = yes
+	}
+
+	6741.6.6 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+### Generation 1 ###
+
+umli_andvari_002 = { # Generation 1 continuation
+	name = Vili
+
+	dynasty = dynasty_umli_andvari
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_andvari_001
+	mother = umli_lowborn_004
+
+	trait = dwarf
+	trait = impatient
+	trait = callous
+	trait = gregarious
+
+	trait = education_diplomacy_3
+
+	diplomacy = 9
+	martial = 3
+	stewardship = 4
+	intrigue = 4
+	learning = 3
+	prowess = 3
+
+	6701.1.20 = {
+		birth = yes
+	}
+
+	6730.11.5 = {
+		add_spouse = umli_lowborn_009
+	}
+
+	6782.8.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_lowborn_009 = { # Lowborn spouse into House Andvari (generation 1)
+	name = Tove
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = callous
+	trait = trusting
+	trait = shy
+
+	trait = education_intrigue_2
+
+	diplomacy = 2
+	martial = 3
+	stewardship = 5
+	intrigue = 4
+	learning = 5
+	prowess = 5
+
+	6701.9.16 = {
+		birth = yes
+	}
+
+	6787.5.19 = {
+		death = { death_reason = death_ill }
+	}
+}
+
+umli_andvari_003 = { # Generation 1 sibling
+	name = Bofur
+
+	dynasty = dynasty_umli_andvari
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_andvari_001
+	mother = umli_lowborn_004
+
+	trait = dwarf
+	trait = cynical
+	trait = honest
+	trait = temperate
+
+	trait = education_intrigue_1
+
+	diplomacy = 4
+	martial = 6
+	stewardship = 6
+	intrigue = 7
+	learning = 2
+	prowess = 5
+
+	6702.5.27 = {
+		birth = yes
+	}
+
+	6780.8.12 = {
+		death = { death_reason = death_ill }
+	}
+}
+
+umli_andvari_004 = { # Generation 1 sibling
+	name = Sigrid
+	female = yes
+
+	dynasty = dynasty_umli_andvari
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_andvari_001
+	mother = umli_lowborn_004
+
+	trait = dwarf
+	trait = paranoid
+	trait = honest
+	trait = zealous
+
+	trait = education_martial_2
+
+	diplomacy = 3
+	martial = 6
+	stewardship = 3
+	intrigue = 2
+	learning = 2
+	prowess = 5
+
+	6704.2.16 = {
+		birth = yes
+	}
+
+	6766.2.15 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+
+### Generation 2 ###
+
+umli_andvari_005 = { # Generation 2 continuation
+	name = Saga
+	female = yes
+
+	dynasty = dynasty_umli_andvari
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_andvari_002
+	mother = umli_lowborn_009
+
+	trait = dwarf
+	trait = impatient
+	trait = arrogant
+	trait = greedy
+
+	trait = education_learning_1
+
+	diplomacy = 5
+	martial = 2
+	stewardship = 4
+	intrigue = 4
+	learning = 9
+	prowess = 5
+
+	6733.4.5 = {
+		birth = yes
+	}
+
+	6762.10.6 = {
+		add_spouse = umli_lowborn_014
+	}
+
+	6796.2.18 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_lowborn_014 = { # Lowborn spouse into House Andvari (generation 2)
+	name = Nori
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = patient
+	trait = gregarious
+	trait = forgiving
+
+	trait = education_intrigue_2
+
+	diplomacy = 7
+	martial = 4
+	stewardship = 2
+	intrigue = 8
+	learning = 4
+	prowess = 4
+
+	6731.11.10 = {
+		birth = yes
+	}
+
+	6810.11.19 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_andvari_006 = { # Generation 2 sibling
+	name = Rathsvith
+
+	dynasty = dynasty_umli_andvari
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_andvari_002
+	mother = umli_lowborn_009
+
+	trait = brave
+	trait = trusting
+	trait = stubborn
+
+	trait = education_stewardship_2
+
+	diplomacy = 3
+	martial = 2
+	stewardship = 8
+	intrigue = 4
+	learning = 2
+	prowess = 4
+
+	6735.6.6 = {
+		birth = yes
+	}
+
+	6816.12.14 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_andvari_007 = { # Generation 2 sibling
+	name = Freydis
+	female = yes
+
+	dynasty = dynasty_umli_andvari
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_andvari_002
+	mother = umli_lowborn_009
+
+	trait = dwarf
+	trait = impatient
+	trait = gregarious
+	trait = just
+
+	trait = education_diplomacy_1
+
+	diplomacy = 4
+	martial = 6
+	stewardship = 3
+	intrigue = 2
+	learning = 6
+	prowess = 3
+
+	6736.4.13 = {
+		birth = yes
+	}
+
+	6810.9.2 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+
+### Generation 3 ###
+
+umli_andvari_008 = { # Generation 3 continuation
+	name = Thekk
+
+	dynasty = dynasty_umli_andvari
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_lowborn_014
+	mother = umli_andvari_005
+
+	trait = dwarf
+	trait = patient
+	trait = temperate
+	trait = calm
+
+	trait = education_diplomacy_2
+
+	diplomacy = 4
+	martial = 2
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	prowess = 3
+
+	6763.5.11 = {
+		birth = yes
+	}
+
+	6790.4.11 = {
+		add_spouse = umli_lowborn_019
+	}
+
+	6830.3.11 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_lowborn_019 = { # Lowborn spouse into House Andvari (generation 3)
+	name = Gunnhild
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = calm
+	trait = content
+	trait = temperate
+
+	trait = education_diplomacy_2
+
+	diplomacy = 4
+	martial = 3
+	stewardship = 5
+	intrigue = 4
+	learning = 2
+	prowess = 4
+
+	6767.3.1 = {
+		birth = yes
+	}
+
+	6830.4.4 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_andvari_009 = { # Generation 3 sibling
+	name = Skirvir
+
+	dynasty = dynasty_umli_andvari
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_lowborn_014
+	mother = umli_andvari_005
+
+	trait = dwarf
+	trait = craven
+	trait = deceitful
+	trait = wrathful
+
+	trait = education_diplomacy_3
+
+	diplomacy = 6
+	martial = 6
+	stewardship = 3
+	intrigue = 5
+	learning = 2
+	prowess = 2
+
+	6766.8.16 = {
+		birth = yes
+	}
+
+	6850.1.11 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_andvari_010 = { # Generation 3 sibling
+	name = Ori
+
+	dynasty = dynasty_umli_andvari
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_lowborn_014
+	mother = umli_andvari_005
+
+	trait = dwarf
+	trait = humble
+	trait = gregarious
+	trait = brave
+
+	trait = education_intrigue_1
+
+	diplomacy = 5
+	martial = 2
+	stewardship = 3
+	intrigue = 4
+	learning = 2
+	prowess = 4
+
+	6767.4.24 = {
+		birth = yes
+	}
+
+	6837.7.23 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+
+### Generation 4 ###
+
+umli_andvari_011 = { # Generation 4 continuation
+	name = Galar
+
+	dynasty = dynasty_umli_andvari
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_andvari_008
+	mother = umli_lowborn_019
+
+	trait = dwarf
+	trait = deceitful
+	trait = ambitious
+	trait = craven
+
+	trait = education_stewardship_2
+
+	diplomacy = 2
+	martial = 2
+	stewardship = 6
+	intrigue = 4
+	learning = 3
+	prowess = 4
+
+	6792.12.4 = {
+		birth = yes
+	}
+
+	6822.5.19 = {
+		add_spouse = umli_lowborn_023
+	}
+
+	6878.10.2 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_lowborn_023 = { # Lowborn spouse into House Andvari (generation 4)
+	name = Torhild
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = calm
+	trait = trusting
+	trait = lustful
+
+	trait = education_diplomacy_2
+
+	diplomacy = 4
+	martial = 4
+	stewardship = 2
+	intrigue = 5
+	learning = 3
+	prowess = 4
+
+	6795.7.11 = {
+		birth = yes
+	}
+
+	6866.11.26 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_andvari_012 = { # Generation 4 sibling
+	name = Una
+	female = yes
+
+	dynasty = dynasty_umli_andvari
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_andvari_008
+	mother = umli_lowborn_019
+
+	trait = dwarf
+	trait = callous
+	trait = brave
+	trait = lustful
+
+	trait = education_stewardship_3
+
+	diplomacy = 2
+	martial = 5
+	stewardship = 9
+	intrigue = 3
+	learning = 2
+	prowess = 8
+
+	6795.3.24 = {
+		birth = yes
+	}
+
+	6872.2.8 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_andvari_013 = { # Generation 4 sibling
+	name = Dori
+
+	dynasty = dynasty_umli_andvari
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_andvari_008
+	mother = umli_lowborn_019
+
+	trait = dwarf
+	trait = just
+	trait = callous
+	trait = honest
+
+	trait = education_learning_2
+
+	diplomacy = 3
+	martial = 4
+	stewardship = 2
+	intrigue = 3
+	learning = 4
+	prowess = 4
+
+	6796.11.17 = {
+		birth = yes
+	}
+
+	6871.11.20 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_andvari_014 = { # Generation 4 sibling
+	name = Gerda
+	female = yes
+
+	dynasty = dynasty_umli_andvari
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_andvari_008
+	mother = umli_lowborn_019
+
+	trait = dwarf
+	trait = honest
+	trait = zealous
+	trait = brave
+
+	trait = education_stewardship_2
+
+	diplomacy = 3
+	martial = 2
+	stewardship = 9
+	intrigue = 3
+	learning = 3
+	prowess = 2
+
+	6798.4.22 = {
+		birth = yes
+	}
+
+	6862.3.21 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+
+### Generation 5 ###
+
+umli_andvari_015 = { # Generation 5 continuation
+	name = Hanar
+
+	dynasty = dynasty_umli_andvari
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_andvari_011
+	mother = umli_lowborn_023
+
+	trait = dwarf
+	trait = deceitful
+	trait = forgiving
+	trait = compassionate
+
+	trait = education_stewardship_1
+
+	diplomacy = 5
+	martial = 4
+	stewardship = 5
+	intrigue = 7
+	learning = 3
+	prowess = 3
+
+	6824.6.5 = {
+		birth = yes
+	}
+
+	6852.9.7 = {
+		add_spouse = umli_lowborn_027
+	}
+
+	6888.12.2 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_lowborn_027 = { # Lowborn spouse into House Andvari (generation 5)
+	name = Hildr
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = greedy
+	trait = diligent
+	trait = patient
+
+	trait = education_intrigue_3
+
+	diplomacy = 2
+	martial = 4
+	stewardship = 5
+	intrigue = 9
+	learning = 5
+	prowess = 4
+
+	6825.6.22 = {
+		birth = yes
+	}
+
+	6890.2.8 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_andvari_016 = { # Generation 5 sibling; spouse into House Brokkr
+	name = Kara
+	female = yes
+
+	dynasty = dynasty_umli_andvari
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_andvari_011
+	mother = umli_lowborn_023
+
+	trait = dwarf
+	trait = deceitful
+	trait = lustful
+	trait = impatient
+
+	trait = education_martial_2
+
+	diplomacy = 2
+	martial = 4
+	stewardship = 5
+	intrigue = 4
+	learning = 7
+	prowess = 3
+
+	6825.7.21 = {
+		birth = yes
+	}
+
+	6885.10.24 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_andvari_017 = { # Generation 5 sibling
+	name = Yrsa
+	female = yes
+
+	dynasty = dynasty_umli_andvari
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_andvari_011
+	mother = umli_lowborn_023
+
+	trait = dwarf
+	trait = brave
+	trait = generous
+	trait = trusting
+
+	trait = education_intrigue_3
+
+	diplomacy = 5
+	martial = 3
+	stewardship = 3
+	intrigue = 7
+	learning = 3
+	prowess = 4
+
+	6828.1.27 = {
+		birth = yes
+	}
+
+	6913.9.3 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+
+### Generation 6 ###
+
+umli_andvari_018 = { # Generation 6 continuation
+	name = Eitri
+
+	dynasty = dynasty_umli_andvari
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_andvari_015
+	mother = umli_lowborn_027
+
+	trait = dwarf
+	trait = honest
+	trait = patient
+	trait = temperate
+
+	trait = education_diplomacy_3
+
+	diplomacy = 5
+	martial = 3
+	stewardship = 4
+	intrigue = 5
+	learning = 4
+	prowess = 3
+
+	6854.8.14 = {
+		birth = yes
+	}
+
+	6881.12.26 = {
+		add_spouse = umli_lowborn_032
+	}
+
+	6920.12.13 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_lowborn_032 = { # Lowborn spouse into House Andvari (generation 6)
+	name = Signy
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = trusting
+	trait = callous
+	trait = ambitious
+
+	trait = education_intrigue_1
+
+	diplomacy = 5
+	martial = 4
+	stewardship = 6
+	intrigue = 6
+	learning = 2
+	prowess = 3
+
+	6856.5.2 = {
+		birth = yes
+	}
+
+	6930.9.15 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_andvari_019 = { # Generation 6 sibling
+	name = Oin
+
+	dynasty = dynasty_umli_andvari
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_andvari_015
+	mother = umli_lowborn_027
+
+	trait = dwarf
+	trait = wrathful
+	trait = cynical
+	trait = ambitious
+
+	trait = education_intrigue_3
+
+	diplomacy = 3
+	martial = 5
+	stewardship = 4
+	intrigue = 5
+	learning = 6
+	prowess = 4
+
+	6856.9.13 = {
+		birth = yes
+	}
+
+	6914.11.22 = {
+		death = { death_reason = death_ill }
+	}
+}
+
+umli_andvari_020 = { # Generation 6 sibling
+	name = Brynhild
+	female = yes
+
+	dynasty = dynasty_umli_andvari
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_andvari_015
+	mother = umli_lowborn_027
+
+	trait = dwarf
+	trait = temperate
+	trait = generous
+	trait = wrathful
+
+	trait = education_learning_2
+
+	diplomacy = 6
+	martial = 4
+	stewardship = 4
+	intrigue = 3
+	learning = 7
+	prowess = 4
+
+	6859.4.26 = {
+		birth = yes
+	}
+
+	6927.7.6 = {
+		death = { death_reason = death_ill }
+	}
+}
+
+
+
+### Generation 7 ###
+
+umli_andvari_021 = { # Generation 7 continuation
+	name = Fundin
+
+	dynasty = dynasty_umli_andvari
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_andvari_018
+	mother = umli_lowborn_032
+
+	trait = dwarf
+	trait = zealous
+	trait = arrogant
+	trait = callous
+
+	trait = education_diplomacy_2
+
+	diplomacy = 6
+	martial = 3
+	stewardship = 4
+	intrigue = 3
+	learning = 2
+	prowess = 4
+
+	6884.10.13 = {
+		birth = yes
+	}
+
+	6912.8.8 = {
+		add_spouse = umli_lowborn_037
+	}
+
+	6965.4.9 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_lowborn_037 = { # Lowborn spouse into House Andvari (generation 7)
+	name = Skadi
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = temperate
+	trait = callous
+	trait = impatient
+
+	trait = education_learning_2
+
+	diplomacy = 2
+	martial = 3
+	stewardship = 5
+	intrigue = 3
+	learning = 3
+	prowess = 5
+
+	6881.11.27 = {
+		birth = yes
+	}
+
+	6938.7.10 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_andvari_022 = { # Generation 7 sibling
+	name = Idunn
+	female = yes
+
+	dynasty = dynasty_umli_andvari
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_andvari_018
+	mother = umli_lowborn_032
+
+	trait = dwarf
+	trait = wrathful
+	trait = compassionate
+	trait = brave
+
+	trait = education_diplomacy_2
+
+	diplomacy = 8
+	martial = 5
+	stewardship = 4
+	intrigue = 4
+	learning = 4
+	prowess = 4
+
+	6886.4.13 = {
+		birth = yes
+	}
+
+	6964.11.17 = {
+		death = { death_reason = death_accident }
+	}
+}
+
+
+
+### Generation 8 ###
+
+umli_andvari_023 = { # Generation 8 continuation
+	name = Nordri
+
+	dynasty = dynasty_umli_andvari
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_andvari_021
+	mother = umli_lowborn_037
+
+	trait = dwarf
+	trait = diligent
+	trait = patient
+	trait = brave
+
+	trait = education_martial_2
+
+	diplomacy = 4
+	martial = 8
+	stewardship = 4
+	intrigue = 2
+	learning = 2
+	prowess = 3
+
+	6914.3.7 = {
+		birth = yes
+	}
+
+	6943.3.16 = {
+		add_spouse = umli_lowborn_042
+	}
+
+	6974.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_lowborn_042 = { # Lowborn spouse into House Andvari (generation 8)
+	name = Thora
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = callous
+	trait = gregarious
+	trait = wrathful
+
+	trait = education_learning_2
+
+	diplomacy = 4
+	martial = 5
+	stewardship = 2
+	intrigue = 5
+	learning = 9
+	prowess = 4
+
+	6911.4.7 = {
+		birth = yes
+	}
+
+	6978.6.17 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_andvari_024 = { # Generation 8 sibling
+	name = Fundin
+
+	dynasty = dynasty_umli_andvari
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_andvari_021
+	mother = umli_lowborn_037
+
+	trait = dwarf
+	trait = deceitful
+	trait = temperate
+	trait = lustful
+
+	trait = education_diplomacy_2
+
+	diplomacy = 6
+	martial = 4
+	stewardship = 3
+	intrigue = 2
+	learning = 5
+	prowess = 6
+
+	6916.4.22 = {
+		birth = yes
+	}
+
+	7002.5.8 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_andvari_025 = { # Generation 8 sibling
+	name = Tove
+	female = yes
+
+	dynasty = dynasty_umli_andvari
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_andvari_021
+	mother = umli_lowborn_037
+
+	trait = dwarf
+	trait = craven
+	trait = humble
+	trait = greedy
+
+	trait = education_stewardship_2
+
+	diplomacy = 4
+	martial = 4
+	stewardship = 3
+	intrigue = 2
+	learning = 4
+	prowess = 5
+
+	6919.1.18 = {
+		birth = yes
+	}
+
+	7004.5.4 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+
+### Generation 9 ###
+
+umli_andvari_026 = { # Generation 9 continuation
+	name = Thrain
+
+	dynasty = dynasty_umli_andvari
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_andvari_023
+	mother = umli_lowborn_042
+
+	trait = dwarf
+	trait = brave
+	trait = patient
+	trait = trusting
+
+	trait = education_intrigue_3
+
+	diplomacy = 3
+	martial = 5
+	stewardship = 6
+	intrigue = 7
+	learning = 4
+	prowess = 4
+
+	6945.5.26 = {
+		birth = yes
+	}
+
+	6974.11.6 = {
+		add_spouse = umli_lowborn_046
+	}
+
+	7006.12.12 = {
+		death = { death_reason = death_accident }
+	}
+}
+
+umli_lowborn_046 = { # Lowborn spouse into House Andvari (generation 9)
+	name = Helga
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = content
+	trait = paranoid
+	trait = callous
+
+	trait = education_stewardship_2
+
+	diplomacy = 6
+	martial = 4
+	stewardship = 6
+	intrigue = 5
+	learning = 2
+	prowess = 7
+
+	6944.3.3 = {
+		birth = yes
+	}
+
+	7004.11.13 = {
+		death = { death_reason = death_ill }
+	}
+}
+
+umli_andvari_027 = { # Generation 9 sibling
+	name = Nar
+
+	dynasty = dynasty_umli_andvari
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_andvari_023
+	mother = umli_lowborn_042
+
+	trait = dwarf
+	trait = cynical
+	trait = forgiving
+	trait = patient
+
+	trait = education_intrigue_1
+
+	diplomacy = 5
+	martial = 3
+	stewardship = 3
+	intrigue = 8
+	learning = 6
+	prowess = 3
+
+	6947.11.1 = {
+		birth = yes
+	}
+
+	7033.12.14 = {
+		death = { death_reason = death_ill }
+	}
+}
+
+umli_andvari_028 = { # Generation 9 sibling
+	name = Finn
+
+	dynasty = dynasty_umli_andvari
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_andvari_023
+	mother = umli_lowborn_042
+
+	trait = stubborn
+	trait = callous
+	trait = deceitful
+
+	trait = education_stewardship_3
+
+	diplomacy = 3
+	martial = 3
+	stewardship = 6
+	intrigue = 3
+	learning = 3
+	prowess = 3
+
+	6950.7.16 = {
+		birth = yes
+	}
+
+	7016.8.28 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+
+### Generation 10 ###
+
+umli_andvari_029 = { # Generation 10 continuation
+	name = Loni
+
+	dynasty = dynasty_umli_andvari
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_andvari_026
+	mother = umli_lowborn_046
+
+	trait = dwarf
+	trait = cynical
+	trait = honest
+	trait = content
+
+	trait = education_stewardship_2
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 8
+	intrigue = 4
+	learning = 4
+	prowess = 4
+
+	6975.9.19 = {
+		birth = yes
+	}
+
+	7005.12.25 = {
+		add_spouse = umli_lowborn_050
+	}
+
+	7056.8.10 = {
+		death = { death_reason = death_accident }
+	}
+}
+
+umli_lowborn_050 = { # Lowborn spouse into House Andvari (generation 10)
+	name = Kara
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = impatient
+	trait = calm
+	trait = honest
+
+	trait = education_stewardship_3
+
+	diplomacy = 7
+	martial = 4
+	stewardship = 5
+	intrigue = 6
+	learning = 3
+	prowess = 3
+
+	6977.11.1 = {
+		birth = yes
+	}
+
+	7058.12.7 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_andvari_030 = { # Generation 10 sibling
+	name = Fili
+
+	dynasty = dynasty_umli_andvari
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_andvari_026
+	mother = umli_lowborn_046
+
+	trait = dwarf
+	trait = trusting
+	trait = ambitious
+	trait = just
+
+	trait = education_intrigue_1
+
+	diplomacy = 7
+	martial = 2
+	stewardship = 4
+	intrigue = 9
+	learning = 4
+	prowess = 4
+
+	6977.1.19 = {
+		birth = yes
+	}
+
+	7056.10.6 = {
+		death = { death_reason = death_ill }
+	}
+}
+
+umli_andvari_031 = { # Generation 10 sibling
+	name = Torhild
+	female = yes
+
+	dynasty = dynasty_umli_andvari
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_andvari_026
+	mother = umli_lowborn_046
+
+	trait = dwarf
+	trait = shy
+	trait = deceitful
+	trait = generous
+
+	trait = education_stewardship_2
+
+	diplomacy = 3
+	martial = 3
+	stewardship = 3
+	intrigue = 3
+	learning = 6
+	prowess = 2
+
+	6980.4.27 = {
+		birth = yes
+	}
+
+	7061.3.17 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_andvari_032 = { # Generation 10 sibling
+	name = Sigrid
+	female = yes
+
+	dynasty = dynasty_umli_andvari
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_andvari_026
+	mother = umli_lowborn_046
+
+	trait = dwarf
+	trait = cynical
+	trait = patient
+	trait = forgiving
+
+	trait = education_learning_2
+
+	diplomacy = 4
+	martial = 4
+	stewardship = 3
+	intrigue = 8
+	learning = 6
+	prowess = 3
+
+	6981.11.20 = {
+		birth = yes
+	}
+
+	7042.8.4 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+
+### Generation 11 ###
+
+umli_andvari_033 = { # Generation 11 continuation
+	name = Regin
+
+	dynasty = dynasty_umli_andvari
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_andvari_029
+	mother = umli_lowborn_050
+
+	trait = dwarf
+	trait = paranoid
+	trait = content
+	trait = lustful
+
+	trait = education_stewardship_2
+
+	diplomacy = 3
+	martial = 3
+	stewardship = 9
+	intrigue = 5
+	learning = 5
+	prowess = 5
+
+	7008.1.22 = {
+		birth = yes
+	}
+
+	7036.1.18 = {
+		add_spouse = umli_lowborn_055
+	}
+
+	7067.5.3 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_lowborn_055 = { # Lowborn spouse into House Andvari (generation 11)
+	name = Ragnhild
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = compassionate
+	trait = content
+	trait = forgiving
+
+	trait = education_learning_3
+
+	diplomacy = 4
+	martial = 3
+	stewardship = 4
+	intrigue = 4
+	learning = 9
+	prowess = 6
+
+	7012.1.16 = {
+		birth = yes
+	}
+
+	7069.9.23 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_andvari_034 = { # Generation 11 sibling
+	name = Frar
+
+	dynasty = dynasty_umli_andvari
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_andvari_029
+	mother = umli_lowborn_050
+
+	trait = dwarf
+	trait = diligent
+	trait = patient
+	trait = paranoid
+
+	trait = education_intrigue_2
+
+	diplomacy = 4
+	martial = 4
+	stewardship = 3
+	intrigue = 5
+	learning = 4
+	prowess = 6
+
+	7010.4.14 = {
+		birth = yes
+	}
+
+	7093.4.8 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_andvari_035 = { # Generation 11 sibling
+	name = Skadi
+	female = yes
+
+	dynasty = dynasty_umli_andvari
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_andvari_029
+	mother = umli_lowborn_050
+
+	trait = dwarf
+	trait = content
+	trait = patient
+	trait = compassionate
+
+	trait = education_intrigue_1
+
+	diplomacy = 4
+	martial = 4
+	stewardship = 3
+	intrigue = 3
+	learning = 7
+	prowess = 2
+
+	7011.4.1 = {
+		birth = yes
+	}
+
+	7086.11.9 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+
+### Generation 12 ###
+
+umli_andvari_036 = { # Generation 12 continuation
+	name = Gloin
+
+	dynasty = dynasty_umli_andvari
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_andvari_033
+	mother = umli_lowborn_055
+
+	trait = just
+	trait = generous
+	trait = paranoid
+
+	trait = education_martial_3
+
+	diplomacy = 3
+	martial = 2
+	stewardship = 3
+	intrigue = 5
+	learning = 5
+	prowess = 6
+
+	7037.6.10 = {
+		birth = yes
+	}
+
+	7064.6.12 = {
+		add_spouse = umli_nori_034
+	}
+
+	7121.5.23 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_andvari_037 = { # Generation 12 sibling
+	name = Niping
+
+	dynasty = dynasty_umli_andvari
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_andvari_033
+	mother = umli_lowborn_055
+
+	trait = dwarf
+	trait = patient
+	trait = paranoid
+	trait = zealous
+
+	trait = education_intrigue_2
+
+	diplomacy = 4
+	martial = 4
+	stewardship = 5
+	intrigue = 2
+	learning = 3
+	prowess = 2
+
+	7039.6.15 = {
+		birth = yes
+	}
+
+	7122.9.8 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+
+### Generation 13 ###
+
+umli_andvari_038 = { # Generation 13 continuation
+	name = Fundin
+
+	dynasty = dynasty_umli_andvari
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_andvari_036
+	mother = umli_nori_034
+
+	trait = dwarf
+	trait = craven
+	trait = compassionate
+	trait = greedy
+
+	trait = education_stewardship_2
+
+	diplomacy = 3
+	martial = 3
+	stewardship = 6
+	intrigue = 3
+	learning = 3
+	prowess = 3
+
+	7066.1.28 = {
+		birth = yes
+	}
+
+	7093.4.13 = {
+		add_spouse = umli_lowborn_064
+	}
+
+	7129.11.7 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_lowborn_064 = { # Lowborn spouse into House Andvari (generation 13)
+	name = Solveig
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = gregarious
+	trait = zealous
+	trait = trusting
+
+	trait = education_stewardship_2
+
+	diplomacy = 3
+	martial = 4
+	stewardship = 8
+	intrigue = 5
+	learning = 3
+	prowess = 5
+
+	7066.6.5 = {
+		birth = yes
+	}
+
+	7123.4.10 = {
+		death = { death_reason = death_ill }
+	}
+}
+
+umli_andvari_039 = { # Generation 13 sibling
+	name = Mist
+	female = yes
+
+	dynasty = dynasty_umli_andvari
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_andvari_036
+	mother = umli_nori_034
+
+	trait = dwarf
+	trait = forgiving
+	trait = compassionate
+	trait = lustful
+
+	trait = education_learning_1
+
+	diplomacy = 3
+	martial = 3
+	stewardship = 4
+	intrigue = 5
+	learning = 7
+	prowess = 2
+
+	7068.11.27 = {
+		birth = yes
+	}
+
+	7146.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_andvari_040 = { # Generation 13 sibling
+	name = Hanar
+
+	dynasty = dynasty_umli_andvari
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_andvari_036
+	mother = umli_nori_034
+
+	trait = dwarf
+	trait = zealous
+	trait = ambitious
+	trait = temperate
+
+	trait = education_martial_2
+
+	diplomacy = 2
+	martial = 9
+	stewardship = 4
+	intrigue = 3
+	learning = 3
+	prowess = 6
+
+	7070.6.5 = {
+		birth = yes
+	}
+
+	7133.6.12 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+
+### Generation 14 ###
+
+umli_andvari_041 = { # Generation 14 continuation
+	name = Hervor
+	female = yes
+
+	dynasty = dynasty_umli_andvari
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_andvari_038
+	mother = umli_lowborn_064
+
+	trait = dwarf
+	trait = compassionate
+	trait = shy
+	trait = paranoid
+
+	trait = education_learning_2
+
+	diplomacy = 4
+	martial = 3
+	stewardship = 2
+	intrigue = 3
+	learning = 7
+	prowess = 3
+
+	7096.10.14 = {
+		birth = yes
+	}
+
+	7124.8.26 = {
+		add_spouse = umli_lowborn_068
+	}
+
+	7160.11.26 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_lowborn_068 = { # Lowborn spouse into House Andvari (generation 14)
+	name = Sviar
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = greedy
+	trait = gregarious
+	trait = cynical
+
+	trait = education_diplomacy_1
+
+	diplomacy = 6
+	martial = 5
+	stewardship = 7
+	intrigue = 2
+	learning = 3
+	prowess = 6
+
+	7098.1.24 = {
+		birth = yes
+	}
+
+	7159.2.26 = {
+		death = { death_reason = death_ill }
+	}
+}
+
+umli_andvari_042 = { # Generation 14 sibling
+	name = Hepti
+
+	dynasty = dynasty_umli_andvari
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_andvari_038
+	mother = umli_lowborn_064
+
+	trait = dwarf
+	trait = stubborn
+	trait = greedy
+	trait = patient
+
+	trait = education_martial_2
+
+	diplomacy = 3
+	martial = 8
+	stewardship = 4
+	intrigue = 3
+	learning = 3
+	prowess = 2
+
+	7098.6.3 = {
+		birth = yes
+	}
+
+	7167.12.14 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_andvari_043 = { # Generation 14 sibling
+	name = Bombur
+
+	dynasty = dynasty_umli_andvari
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_andvari_038
+	mother = umli_lowborn_064
+
+	trait = dwarf
+	trait = generous
+	trait = humble
+	trait = shy
+
+	trait = education_learning_2
+
+	diplomacy = 5
+	martial = 3
+	stewardship = 3
+	intrigue = 4
+	learning = 5
+	prowess = 4
+
+	7100.1.11 = {
+		birth = yes
+	}
+
+	7164.3.7 = {
+		death = { death_reason = death_ill }
+	}
+}
+
+
+
+### Generation 15 ###
+
+umli_andvari_044 = { # Generation 15 continuation
+	name = Finn
+
+	dynasty = dynasty_umli_andvari
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_lowborn_068
+	mother = umli_andvari_041
+
+	trait = dwarf
+	trait = stubborn
+	trait = trusting
+	trait = compassionate
+
+	trait = education_intrigue_2
+
+	diplomacy = 2
+	martial = 3
+	stewardship = 6
+	intrigue = 4
+	learning = 5
+	prowess = 5
+
+	7126.7.10 = {
+		birth = yes
+	}
+
+	7154.5.16 = {
+		add_spouse = umli_lowborn_073
+	}
+
+	7198.8.6 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_lowborn_073 = { # Lowborn spouse into House Andvari (generation 15)
+	name = Helga
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = patient
+	trait = shy
+	trait = callous
+
+	trait = education_stewardship_3
+
+	diplomacy = 3
+	martial = 3
+	stewardship = 6
+	intrigue = 3
+	learning = 3
+	prowess = 3
+
+	7127.7.5 = {
+		birth = yes
+	}
+
+	7191.5.12 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_andvari_045 = { # Generation 15 sibling
+	name = Hlin
+	female = yes
+
+	dynasty = dynasty_umli_andvari
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_lowborn_068
+	mother = umli_andvari_041
+
+	trait = dwarf
+	trait = honest
+	trait = arrogant
+	trait = craven
+
+	trait = education_intrigue_2
+
+	diplomacy = 4
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 3
+	prowess = 3
+
+	7127.4.14 = {
+		birth = yes
+	}
+
+	7187.12.6 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_andvari_046 = { # Generation 15 sibling
+	name = Ingrid
+	female = yes
+
+	dynasty = dynasty_umli_andvari
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_lowborn_068
+	mother = umli_andvari_041
+
+	trait = dwarf
+	trait = compassionate
+	trait = brave
+	trait = humble
+
+	trait = education_learning_2
+
+	diplomacy = 4
+	martial = 4
+	stewardship = 5
+	intrigue = 3
+	learning = 6
+	prowess = 3
+
+	7130.12.11 = {
+		birth = yes
+	}
+}
+
+
+
+### Generation 16 ###
+
+umli_andvari_047 = { # Generation 16 continuation
+	name = Ingrid
+	female = yes
+
+	dynasty = dynasty_umli_andvari
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_andvari_044
+	mother = umli_lowborn_073
+
+	trait = dwarf
+	trait = diligent
+	trait = paranoid
+	trait = calm
+
+	trait = education_intrigue_1
+
+	diplomacy = 6
+	martial = 5
+	stewardship = 6
+	intrigue = 4
+	learning = 4
+	prowess = 3
+
+	7156.9.15 = {
+		birth = yes
+	}
+
+	7186.11.23 = {
+		add_spouse = umli_lowborn_078
+	}
+}
+
+umli_lowborn_078 = { # Lowborn spouse into House Andvari (generation 16)
+	name = Thror
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = cynical
+	trait = ambitious
+	trait = compassionate
+
+	trait = education_martial_2
+
+	diplomacy = 3
+	martial = 5
+	stewardship = 3
+	intrigue = 6
+	learning = 4
+	prowess = 3
+
+	7155.9.23 = {
+		birth = yes
+	}
+}
+
+umli_andvari_048 = { # Generation 16 sibling
+	name = Thror
+
+	dynasty = dynasty_umli_andvari
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_andvari_044
+	mother = umli_lowborn_073
+
+	trait = dwarf
+	trait = honest
+	trait = ambitious
+	trait = trusting
+
+	trait = education_stewardship_3
+
+	diplomacy = 4
+	martial = 4
+	stewardship = 7
+	intrigue = 3
+	learning = 5
+	prowess = 5
+
+	7158.10.20 = {
+		birth = yes
+	}
+}
+
+umli_andvari_049 = { # Generation 16 sibling
+	name = Dain
+
+	dynasty = dynasty_umli_andvari
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_andvari_044
+	mother = umli_lowborn_073
+
+	trait = dwarf
+	trait = lustful
+	trait = greedy
+	trait = just
+
+	trait = education_learning_2
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 3
+	intrigue = 3
+	learning = 6
+	prowess = 4
+
+	7160.12.6 = {
+		birth = yes
+	}
+}
+
+
+
+### Generation 17 ###
+
+umli_andvari_050 = { # Generation 17 continuation
+	name = Eydis
+	female = yes
+
+	dynasty = dynasty_umli_andvari
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_lowborn_078
+	mother = umli_andvari_047
+
+	trait = dwarf
+	trait = deceitful
+	trait = gregarious
+	trait = paranoid
+
+	trait = education_intrigue_3
+
+	diplomacy = 2
+	martial = 4
+	stewardship = 3
+	intrigue = 4
+	learning = 4
+	prowess = 5
+
+	7188.5.22 = {
+		birth = yes
+	}
+}
+
+umli_andvari_051 = { # Generation 17 sibling
+	name = Fundin
+
+	dynasty = dynasty_umli_andvari
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_lowborn_078
+	mother = umli_andvari_047
+
+	trait = dwarf
+	trait = patient
+	trait = trusting
+	trait = ambitious
+
+	trait = education_intrigue_2
+
+	diplomacy = 6
+	martial = 2
+	stewardship = 3
+	intrigue = 5
+	learning = 3
+	prowess = 5
+
+	7191.6.21 = {
+		birth = yes
+	}
+}
+
+umli_andvari_052 = { # Generation 17 sibling
+	name = Nar
+
+	dynasty = dynasty_umli_andvari
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_lowborn_078
+	mother = umli_andvari_047
+
+	trait = dwarf
+	trait = diligent
+	trait = wrathful
+	trait = arrogant
+
+	trait = education_martial_2
+
+	diplomacy = 2
+	martial = 4
+	stewardship = 4
+	intrigue = 4
+	learning = 4
+	prowess = 5
+
+	7192.9.6 = {
+		birth = yes
+	}
+}
+
+umli_andvari_053 = { # Generation 17 sibling
+	name = Ingrid
+	female = yes
+
+	dynasty = dynasty_umli_andvari
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_lowborn_078
+	mother = umli_andvari_047
+
+	trait = dwarf
+	trait = paranoid
+	trait = shy
+	trait = brave
+
+	trait = education_intrigue_1
+
+	diplomacy = 7
+	martial = 3
+	stewardship = 3
+	intrigue = 8
+	learning = 4
+	prowess = 4
+
+	7194.7.6 = {
+		birth = yes
+	}
+}
+
+
+############################################################
+##### HOUSE NORI #####
+############################################################
+
+umli_nori_001 = { # Founder
+	name = Nori
+
+	dynasty = dynasty_umli_nori
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = greedy
+	trait = just
+	trait = humble
+
+	trait = education_diplomacy_2
+
+	diplomacy = 6
+	martial = 5
+	stewardship = 4
+	intrigue = 3
+	learning = 3
+	prowess = 4
+
+	6681.1.18 = {
+		birth = yes
+	}
+
+	6697.3.9 = {
+		add_spouse = umli_lowborn_005
+	}
+
+	6748.1.3 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_lowborn_005 = { # Lowborn spouse of Nori
+	name = Hlin
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = cynical
+	trait = brave
+	trait = generous
+
+	trait = education_learning_1
+
+	diplomacy = 4
+	martial = 3
+	stewardship = 4
+	intrigue = 4
+	learning = 5
+	prowess = 4
+
+	6680.1.7 = {
+		birth = yes
+	}
+
+	6766.2.7 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+### Generation 1 ###
+
+umli_nori_002 = { # Generation 1 continuation
+	name = Yngvild
+	female = yes
+
+	dynasty = dynasty_umli_nori
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_nori_001
+	mother = umli_lowborn_005
+
+	trait = dwarf
+	trait = stubborn
+	trait = impatient
+	trait = just
+
+	trait = education_diplomacy_2
+
+	diplomacy = 7
+	martial = 3
+	stewardship = 3
+	intrigue = 4
+	learning = 6
+	prowess = 3
+
+	6701.5.2 = {
+		birth = yes
+	}
+
+	6730.7.10 = {
+		add_spouse = umli_lowborn_010
+	}
+
+	6765.2.8 = {
+		death = { death_reason = death_ill }
+	}
+}
+
+umli_lowborn_010 = { # Lowborn spouse into House Nori (generation 1)
+	name = Sviar
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = content
+	trait = wrathful
+	trait = lustful
+
+	trait = education_martial_2
+
+	diplomacy = 2
+	martial = 9
+	stewardship = 6
+	intrigue = 2
+	learning = 4
+	prowess = 4
+
+	6699.1.17 = {
+		birth = yes
+	}
+
+	6785.1.6 = {
+		death = { death_reason = death_accident }
+	}
+}
+
+umli_nori_003 = { # Generation 1 sibling
+	name = Astrid
+	female = yes
+
+	dynasty = dynasty_umli_nori
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_nori_001
+	mother = umli_lowborn_005
+
+	trait = dwarf
+	trait = generous
+	trait = cynical
+	trait = temperate
+
+	trait = education_martial_1
+
+	diplomacy = 6
+	martial = 9
+	stewardship = 3
+	intrigue = 2
+	learning = 3
+	prowess = 6
+
+	6702.12.6 = {
+		birth = yes
+	}
+
+	6759.3.2 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_nori_004 = { # Generation 1 sibling
+	name = Liv
+	female = yes
+
+	dynasty = dynasty_umli_nori
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_nori_001
+	mother = umli_lowborn_005
+
+	trait = dwarf
+	trait = content
+	trait = callous
+	trait = greedy
+
+	trait = education_martial_1
+
+	diplomacy = 4
+	martial = 6
+	stewardship = 3
+	intrigue = 5
+	learning = 4
+	prowess = 4
+
+	6704.10.9 = {
+		birth = yes
+	}
+
+	6761.7.11 = {
+		death = { death_reason = death_accident }
+	}
+}
+
+umli_nori_005 = { # Generation 1 sibling
+	name = Thrain
+
+	dynasty = dynasty_umli_nori
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_nori_001
+	mother = umli_lowborn_005
+
+	trait = stubborn
+	trait = craven
+	trait = callous
+
+	trait = education_learning_1
+
+	diplomacy = 2
+	martial = 4
+	stewardship = 4
+	intrigue = 2
+	learning = 5
+	prowess = 3
+
+	6706.8.18 = {
+		birth = yes
+	}
+
+	6780.4.25 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+
+### Generation 2 ###
+
+umli_nori_006 = { # Generation 2 continuation
+	name = Brokkr
+
+	dynasty = dynasty_umli_nori
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_lowborn_010
+	mother = umli_nori_002
+
+	trait = dwarf
+	trait = callous
+	trait = honest
+	trait = cynical
+
+	trait = education_stewardship_2
+
+	diplomacy = 2
+	martial = 6
+	stewardship = 9
+	intrigue = 2
+	learning = 5
+	prowess = 5
+
+	6732.7.21 = {
+		birth = yes
+	}
+
+	6762.7.3 = {
+		add_spouse = umli_lowborn_015
+	}
+
+	6813.6.15 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_lowborn_015 = { # Lowborn spouse into House Nori (generation 2)
+	name = Thora
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = craven
+	trait = generous
+	trait = wrathful
+
+	trait = education_diplomacy_3
+
+	diplomacy = 8
+	martial = 5
+	stewardship = 6
+	intrigue = 4
+	learning = 3
+	prowess = 2
+
+	6731.12.15 = {
+		birth = yes
+	}
+
+	6789.8.5 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_nori_007 = { # Generation 2 sibling
+	name = Mist
+	female = yes
+
+	dynasty = dynasty_umli_nori
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_lowborn_010
+	mother = umli_nori_002
+
+	trait = dwarf
+	trait = just
+	trait = diligent
+	trait = shy
+
+	trait = education_intrigue_1
+
+	diplomacy = 3
+	martial = 3
+	stewardship = 2
+	intrigue = 6
+	learning = 4
+	prowess = 3
+
+	6734.7.21 = {
+		birth = yes
+	}
+
+	6804.6.8 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_nori_008 = { # Generation 2 sibling
+	name = Yngvild
+	female = yes
+
+	dynasty = dynasty_umli_nori
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_lowborn_010
+	mother = umli_nori_002
+
+	trait = dwarf
+	trait = calm
+	trait = just
+	trait = forgiving
+
+	trait = education_stewardship_1
+
+	diplomacy = 4
+	martial = 2
+	stewardship = 4
+	intrigue = 3
+	learning = 4
+	prowess = 3
+
+	6737.9.11 = {
+		birth = yes
+	}
+
+	6822.1.17 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_nori_009 = { # Generation 2 sibling
+	name = Lit
+
+	dynasty = dynasty_umli_nori
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_lowborn_010
+	mother = umli_nori_002
+
+	trait = dwarf
+	trait = trusting
+	trait = brave
+	trait = lustful
+
+	trait = education_intrigue_3
+
+	diplomacy = 8
+	martial = 3
+	stewardship = 2
+	intrigue = 4
+	learning = 6
+	prowess = 2
+
+	6738.4.5 = {
+		birth = yes
+	}
+
+	6814.9.8 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+
+### Generation 3 ###
+
+umli_nori_010 = { # Generation 3 continuation
+	name = Lofar
+
+	dynasty = dynasty_umli_nori
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_nori_006
+	mother = umli_lowborn_015
+
+	trait = dwarf
+	trait = content
+	trait = temperate
+	trait = honest
+
+	trait = education_stewardship_2
+
+	diplomacy = 4
+	martial = 3
+	stewardship = 8
+	intrigue = 5
+	learning = 6
+	prowess = 3
+
+	6764.10.25 = {
+		birth = yes
+	}
+
+	6791.9.18 = {
+		add_spouse = umli_lowborn_020
+	}
+
+	6847.12.22 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_lowborn_020 = { # Lowborn spouse into House Nori (generation 3)
+	name = Rind
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = calm
+	trait = just
+	trait = humble
+
+	trait = education_stewardship_2
+
+	diplomacy = 4
+	martial = 3
+	stewardship = 6
+	intrigue = 2
+	learning = 4
+	prowess = 3
+
+	6760.9.26 = {
+		birth = yes
+	}
+
+	6846.4.22 = {
+		death = { death_reason = death_accident }
+	}
+}
+
+umli_nori_011 = { # Generation 3 sibling
+	name = Freydis
+	female = yes
+
+	dynasty = dynasty_umli_nori
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_nori_006
+	mother = umli_lowborn_015
+
+	trait = dwarf
+	trait = craven
+	trait = stubborn
+	trait = ambitious
+
+	trait = education_learning_1
+
+	diplomacy = 3
+	martial = 4
+	stewardship = 5
+	intrigue = 2
+	learning = 8
+	prowess = 5
+
+	6766.2.14 = {
+		birth = yes
+	}
+
+	6834.11.24 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_nori_012 = { # Generation 3 sibling
+	name = Alvis
+
+	dynasty = dynasty_umli_nori
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_nori_006
+	mother = umli_lowborn_015
+
+	trait = dwarf
+	trait = humble
+	trait = stubborn
+	trait = compassionate
+
+	trait = education_diplomacy_2
+
+	diplomacy = 4
+	martial = 4
+	stewardship = 4
+	intrigue = 5
+	learning = 2
+	prowess = 5
+
+	6768.6.3 = {
+		birth = yes
+	}
+
+	6849.12.11 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+
+### Generation 4 ###
+
+umli_nori_013 = { # Generation 4 continuation
+	name = Dvalin
+
+	dynasty = dynasty_umli_nori
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_nori_010
+	mother = umli_lowborn_020
+
+	trait = dwarf
+	trait = content
+	trait = deceitful
+	trait = patient
+
+	trait = education_intrigue_1
+
+	diplomacy = 2
+	martial = 4
+	stewardship = 3
+	intrigue = 9
+	learning = 5
+	prowess = 4
+
+	6792.3.12 = {
+		birth = yes
+	}
+
+	6820.9.7 = {
+		add_spouse = umli_lowborn_024
+	}
+
+	6869.6.22 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_lowborn_024 = { # Lowborn spouse into House Nori (generation 4)
+	name = Gunnhild
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = temperate
+	trait = generous
+	trait = callous
+
+	trait = education_martial_2
+
+	diplomacy = 4
+	martial = 5
+	stewardship = 6
+	intrigue = 2
+	learning = 2
+	prowess = 5
+
+	6793.1.24 = {
+		birth = yes
+	}
+
+	6878.6.20 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_nori_014 = { # Generation 4 sibling
+	name = Durin
+
+	dynasty = dynasty_umli_nori
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_nori_010
+	mother = umli_lowborn_020
+
+	trait = dwarf
+	trait = just
+	trait = zealous
+	trait = paranoid
+
+	trait = education_intrigue_2
+
+	diplomacy = 5
+	martial = 6
+	stewardship = 6
+	intrigue = 5
+	learning = 2
+	prowess = 4
+
+	6794.9.23 = {
+		birth = yes
+	}
+
+	6856.1.10 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_nori_015 = { # Generation 4 sibling
+	name = Frar
+
+	dynasty = dynasty_umli_nori
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_nori_010
+	mother = umli_lowborn_020
+
+	trait = dwarf
+	trait = honest
+	trait = stubborn
+	trait = cynical
+
+	trait = education_martial_1
+
+	diplomacy = 3
+	martial = 8
+	stewardship = 3
+	intrigue = 5
+	learning = 4
+	prowess = 5
+
+	6796.2.13 = {
+		birth = yes
+	}
+
+	6855.11.7 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+
+### Generation 5 ###
+
+umli_nori_016 = { # Generation 5 continuation
+	name = Gandalf
+
+	dynasty = dynasty_umli_nori
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_nori_013
+	mother = umli_lowborn_024
+
+	trait = dwarf
+	trait = shy
+	trait = trusting
+	trait = honest
+
+	trait = education_intrigue_2
+
+	diplomacy = 4
+	martial = 3
+	stewardship = 4
+	intrigue = 6
+	learning = 6
+	prowess = 2
+
+	6823.4.26 = {
+		birth = yes
+	}
+
+	6853.5.16 = {
+		add_spouse = umli_lowborn_028
+	}
+
+	6886.2.24 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_lowborn_028 = { # Lowborn spouse into House Nori (generation 5)
+	name = Saga
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = impatient
+	trait = trusting
+	trait = just
+
+	trait = education_intrigue_2
+
+	diplomacy = 3
+	martial = 5
+	stewardship = 2
+	intrigue = 9
+	learning = 4
+	prowess = 3
+
+	6823.4.13 = {
+		birth = yes
+	}
+
+	6892.7.19 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_nori_017 = { # Generation 5 sibling
+	name = Nori
+
+	dynasty = dynasty_umli_nori
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_nori_013
+	mother = umli_lowborn_024
+
+	trait = dwarf
+	trait = greedy
+	trait = trusting
+	trait = temperate
+
+	trait = education_stewardship_2
+
+	diplomacy = 4
+	martial = 3
+	stewardship = 4
+	intrigue = 3
+	learning = 3
+	prowess = 3
+
+	6825.4.16 = {
+		birth = yes
+	}
+
+	6888.8.9 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+
+### Generation 6 ###
+
+umli_nori_018 = { # Generation 6 continuation
+	name = Geira
+	female = yes
+
+	dynasty = dynasty_umli_nori
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_nori_016
+	mother = umli_lowborn_028
+
+	trait = dwarf
+	trait = deceitful
+	trait = greedy
+	trait = cynical
+
+	trait = education_stewardship_3
+
+	diplomacy = 2
+	martial = 6
+	stewardship = 5
+	intrigue = 4
+	learning = 3
+	prowess = 5
+
+	6854.3.11 = {
+		birth = yes
+	}
+
+	6881.1.16 = {
+		add_spouse = umli_lowborn_033
+	}
+
+	6928.11.6 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_lowborn_033 = { # Lowborn spouse into House Nori (generation 6)
+	name = Gandalf
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = shy
+	trait = trusting
+	trait = callous
+
+	trait = education_stewardship_2
+
+	diplomacy = 3
+	martial = 4
+	stewardship = 6
+	intrigue = 3
+	learning = 5
+	prowess = 3
+
+	6851.11.11 = {
+		birth = yes
+	}
+
+	6917.4.4 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_nori_019 = { # Generation 6 sibling
+	name = Fili
+
+	dynasty = dynasty_umli_nori
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_nori_016
+	mother = umli_lowborn_028
+
+	trait = dwarf
+	trait = ambitious
+	trait = patient
+	trait = shy
+
+	trait = education_intrigue_2
+
+	diplomacy = 4
+	martial = 5
+	stewardship = 5
+	intrigue = 4
+	learning = 4
+	prowess = 2
+
+	6856.3.12 = {
+		birth = yes
+	}
+
+	6928.12.3 = {
+		death = { death_reason = death_accident }
+	}
+}
+
+umli_nori_020 = { # Generation 6 sibling
+	name = Vili
+
+	dynasty = dynasty_umli_nori
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_nori_016
+	mother = umli_lowborn_028
+
+	trait = dwarf
+	trait = trusting
+	trait = ambitious
+	trait = craven
+
+	trait = education_diplomacy_3
+
+	diplomacy = 6
+	martial = 5
+	stewardship = 5
+	intrigue = 4
+	learning = 4
+	prowess = 4
+
+	6858.11.22 = {
+		birth = yes
+	}
+
+	6944.5.17 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+
+### Generation 7 ###
+
+umli_nori_021 = { # Generation 7 continuation
+	name = Hilda
+	female = yes
+
+	dynasty = dynasty_umli_nori
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_lowborn_033
+	mother = umli_nori_018
+
+	trait = dwarf
+	trait = humble
+	trait = zealous
+	trait = craven
+
+	trait = education_learning_2
+
+	diplomacy = 3
+	martial = 4
+	stewardship = 6
+	intrigue = 5
+	learning = 5
+	prowess = 2
+
+	6884.8.15 = {
+		birth = yes
+	}
+
+	6913.2.7 = {
+		add_spouse = umli_lowborn_038
+	}
+
+	6944.1.8 = {
+		death = { death_reason = death_ill }
+	}
+}
+
+umli_lowborn_038 = { # Lowborn spouse into House Nori (generation 7)
+	name = Lit
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = cynical
+	trait = arrogant
+	trait = wrathful
+
+	trait = education_martial_3
+
+	diplomacy = 4
+	martial = 5
+	stewardship = 3
+	intrigue = 3
+	learning = 3
+	prowess = 3
+
+	6887.12.9 = {
+		birth = yes
+	}
+
+	6966.8.6 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_nori_022 = { # Generation 7 sibling
+	name = Dori
+
+	dynasty = dynasty_umli_nori
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_lowborn_033
+	mother = umli_nori_018
+
+	trait = dwarf
+	trait = diligent
+	trait = patient
+	trait = arrogant
+
+	trait = education_learning_1
+
+	diplomacy = 2
+	martial = 2
+	stewardship = 7
+	intrigue = 3
+	learning = 8
+	prowess = 4
+
+	6887.5.28 = {
+		birth = yes
+	}
+
+	6953.2.7 = {
+		death = { death_reason = death_ill }
+	}
+}
+
+
+
+### Generation 8 ###
+
+umli_nori_023 = { # Generation 8 continuation
+	name = Regin
+
+	dynasty = dynasty_umli_nori
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_lowborn_038
+	mother = umli_nori_021
+
+	trait = dwarf
+	trait = forgiving
+	trait = callous
+	trait = generous
+
+	trait = education_stewardship_2
+
+	diplomacy = 5
+	martial = 4
+	stewardship = 5
+	intrigue = 3
+	learning = 4
+	prowess = 3
+
+	6915.10.22 = {
+		birth = yes
+	}
+
+	6943.6.5 = {
+		add_spouse = umli_motsognir_025
+	}
+
+	6981.8.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_nori_024 = { # Generation 8 sibling
+	name = Dagny
+	female = yes
+
+	dynasty = dynasty_umli_nori
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_lowborn_038
+	mother = umli_nori_021
+
+	trait = dwarf
+	trait = arrogant
+	trait = trusting
+	trait = content
+
+	trait = education_diplomacy_2
+
+	diplomacy = 5
+	martial = 3
+	stewardship = 4
+	intrigue = 4
+	learning = 3
+	prowess = 5
+
+	6916.10.19 = {
+		birth = yes
+	}
+
+	6983.10.28 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+
+### Generation 9 ###
+
+umli_nori_025 = { # Generation 9 continuation
+	name = Bofur
+
+	dynasty = dynasty_umli_nori
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_nori_023
+	mother = umli_motsognir_025
+
+	trait = dwarf
+	trait = paranoid
+	trait = calm
+	trait = greedy
+
+	trait = education_diplomacy_3
+
+	diplomacy = 8
+	martial = 3
+	stewardship = 7
+	intrigue = 3
+	learning = 4
+	prowess = 4
+
+	6945.3.17 = {
+		birth = yes
+	}
+
+	6972.4.2 = {
+		add_spouse = umli_lowborn_047
+	}
+
+	7005.1.15 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_lowborn_047 = { # Lowborn spouse into House Nori (generation 9)
+	name = Mist
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = trusting
+	trait = forgiving
+	trait = ambitious
+
+	trait = education_learning_2
+
+	diplomacy = 4
+	martial = 2
+	stewardship = 3
+	intrigue = 2
+	learning = 6
+	prowess = 5
+
+	6944.4.17 = {
+		birth = yes
+	}
+
+	7011.6.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_nori_026 = { # Generation 9 sibling
+	name = Thora
+	female = yes
+
+	dynasty = dynasty_umli_nori
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_nori_023
+	mother = umli_motsognir_025
+
+	trait = dwarf
+	trait = diligent
+	trait = craven
+	trait = cynical
+
+	trait = education_diplomacy_3
+
+	diplomacy = 4
+	martial = 4
+	stewardship = 3
+	intrigue = 3
+	learning = 4
+	prowess = 3
+
+	6948.8.11 = {
+		birth = yes
+	}
+
+	7022.5.22 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_nori_027 = { # Generation 9 sibling
+	name = Thorin
+
+	dynasty = dynasty_umli_nori
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_nori_023
+	mother = umli_motsognir_025
+
+	trait = dwarf
+	trait = callous
+	trait = patient
+	trait = humble
+
+	trait = education_intrigue_2
+
+	diplomacy = 3
+	martial = 4
+	stewardship = 3
+	intrigue = 5
+	learning = 4
+	prowess = 4
+
+	6949.10.1 = {
+		birth = yes
+	}
+
+	7026.7.18 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+
+### Generation 10 ###
+
+umli_nori_028 = { # Generation 10 continuation
+	name = Vigdis
+	female = yes
+
+	dynasty = dynasty_umli_nori
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_nori_025
+	mother = umli_lowborn_047
+
+	trait = dwarf
+	trait = impatient
+	trait = deceitful
+	trait = zealous
+
+	trait = education_learning_2
+
+	diplomacy = 6
+	martial = 3
+	stewardship = 5
+	intrigue = 4
+	learning = 5
+	prowess = 2
+
+	6975.8.23 = {
+		birth = yes
+	}
+
+	7005.5.28 = {
+		add_spouse = umli_lowborn_051
+	}
+
+	7041.10.8 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_lowborn_051 = { # Lowborn spouse into House Nori (generation 10)
+	name = Thorin
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = ambitious
+	trait = shy
+	trait = greedy
+
+	trait = education_stewardship_3
+
+	diplomacy = 2
+	martial = 5
+	stewardship = 7
+	intrigue = 4
+	learning = 3
+	prowess = 4
+
+	6974.3.12 = {
+		birth = yes
+	}
+
+	7060.9.9 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_nori_029 = { # Generation 10 sibling
+	name = Thorin
+
+	dynasty = dynasty_umli_nori
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_nori_025
+	mother = umli_lowborn_047
+
+	trait = dwarf
+	trait = ambitious
+	trait = temperate
+	trait = craven
+
+	trait = education_martial_1
+
+	diplomacy = 3
+	martial = 5
+	stewardship = 2
+	intrigue = 3
+	learning = 3
+	prowess = 4
+
+	6977.4.22 = {
+		birth = yes
+	}
+
+	7058.7.15 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_nori_030 = { # Generation 10 sibling
+	name = Loni
+
+	dynasty = dynasty_umli_nori
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_nori_025
+	mother = umli_lowborn_047
+
+	trait = dwarf
+	trait = content
+	trait = gregarious
+	trait = zealous
+
+	trait = education_intrigue_3
+
+	diplomacy = 4
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 4
+	prowess = 5
+
+	6980.8.21 = {
+		birth = yes
+	}
+
+	7063.6.18 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+
+### Generation 11 ###
+
+umli_nori_031 = { # Generation 11 continuation
+	name = Motsognir
+
+	dynasty = dynasty_umli_nori
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_lowborn_051
+	mother = umli_nori_028
+
+	trait = dwarf
+	trait = impatient
+	trait = shy
+	trait = wrathful
+
+	trait = education_stewardship_2
+
+	diplomacy = 2
+	martial = 4
+	stewardship = 9
+	intrigue = 5
+	learning = 2
+	prowess = 4
+
+	7008.9.2 = {
+		birth = yes
+	}
+
+	7035.8.11 = {
+		add_spouse = umli_lowborn_056
+	}
+
+	7083.9.7 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_lowborn_056 = { # Lowborn spouse into House Nori (generation 11)
+	name = Alfhild
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = compassionate
+	trait = stubborn
+	trait = forgiving
+
+	trait = education_stewardship_2
+
+	diplomacy = 3
+	martial = 4
+	stewardship = 9
+	intrigue = 3
+	learning = 4
+	prowess = 5
+
+	7007.6.12 = {
+		birth = yes
+	}
+
+	7085.11.16 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_nori_032 = { # Generation 11 sibling
+	name = Regin
+
+	dynasty = dynasty_umli_nori
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_lowborn_051
+	mother = umli_nori_028
+
+	trait = dwarf
+	trait = honest
+	trait = ambitious
+	trait = temperate
+
+	trait = education_learning_1
+
+	diplomacy = 4
+	martial = 3
+	stewardship = 3
+	intrigue = 4
+	learning = 5
+	prowess = 5
+
+	7009.7.6 = {
+		birth = yes
+	}
+
+	7078.12.26 = {
+		death = { death_reason = death_ill }
+	}
+}
+
+
+
+### Generation 12 ###
+
+umli_nori_033 = { # Generation 12 continuation
+	name = Hilda
+	female = yes
+
+	dynasty = dynasty_umli_nori
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_nori_031
+	mother = umli_lowborn_056
+
+	trait = compassionate
+	trait = humble
+	trait = just
+
+	trait = education_learning_2
+
+	diplomacy = 3
+	martial = 3
+	stewardship = 3
+	intrigue = 5
+	learning = 4
+	prowess = 4
+
+	7037.2.13 = {
+		birth = yes
+	}
+
+	7064.4.16 = {
+		add_spouse = umli_lowborn_060
+	}
+
+	7116.10.9 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_lowborn_060 = { # Lowborn spouse into House Nori (generation 12)
+	name = Thekk
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = arrogant
+	trait = lustful
+	trait = compassionate
+
+	trait = education_stewardship_1
+
+	diplomacy = 5
+	martial = 4
+	stewardship = 5
+	intrigue = 4
+	learning = 4
+	prowess = 4
+
+	7038.7.19 = {
+		birth = yes
+	}
+
+	7118.8.25 = {
+		death = { death_reason = death_ill }
+	}
+}
+
+umli_nori_034 = { # Generation 12 sibling; spouse into House Andvari
+	name = Frida
+	female = yes
+
+	dynasty = dynasty_umli_nori
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_nori_031
+	mother = umli_lowborn_056
+
+	trait = dwarf
+	trait = diligent
+	trait = lustful
+	trait = greedy
+
+	trait = education_intrigue_2
+
+	diplomacy = 6
+	martial = 2
+	stewardship = 5
+	intrigue = 6
+	learning = 3
+	prowess = 3
+
+	7039.8.19 = {
+		birth = yes
+	}
+
+	7101.12.28 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_nori_035 = { # Generation 12 sibling
+	name = Thora
+	female = yes
+
+	dynasty = dynasty_umli_nori
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_nori_031
+	mother = umli_lowborn_056
+
+	trait = dwarf
+	trait = forgiving
+	trait = gregarious
+	trait = calm
+
+	trait = education_stewardship_3
+
+	diplomacy = 6
+	martial = 2
+	stewardship = 6
+	intrigue = 5
+	learning = 4
+	prowess = 7
+
+	7042.7.26 = {
+		birth = yes
+	}
+
+	7115.7.19 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+
+### Generation 13 ###
+
+umli_nori_036 = { # Generation 13 continuation
+	name = Freydis
+	female = yes
+
+	dynasty = dynasty_umli_nori
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_lowborn_060
+	mother = umli_nori_033
+
+	trait = dwarf
+	trait = craven
+	trait = stubborn
+	trait = impatient
+
+	trait = education_learning_2
+
+	diplomacy = 3
+	martial = 5
+	stewardship = 3
+	intrigue = 5
+	learning = 6
+	prowess = 8
+
+	7066.1.8 = {
+		birth = yes
+	}
+
+	7094.6.23 = {
+		add_spouse = umli_lowborn_065
+	}
+
+	7148.12.7 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_lowborn_065 = { # Lowborn spouse into House Nori (generation 13)
+	name = Frar
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = craven
+	trait = wrathful
+	trait = arrogant
+
+	trait = education_learning_3
+
+	diplomacy = 5
+	martial = 2
+	stewardship = 2
+	intrigue = 6
+	learning = 8
+	prowess = 7
+
+	7065.4.24 = {
+		birth = yes
+	}
+
+	7126.10.16 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_nori_037 = { # Generation 13 sibling
+	name = Skadi
+	female = yes
+
+	dynasty = dynasty_umli_nori
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_lowborn_060
+	mother = umli_nori_033
+
+	trait = dwarf
+	trait = cynical
+	trait = shy
+	trait = diligent
+
+	trait = education_learning_2
+
+	diplomacy = 4
+	martial = 6
+	stewardship = 3
+	intrigue = 3
+	learning = 3
+	prowess = 6
+
+	7068.12.22 = {
+		birth = yes
+	}
+
+	7130.2.4 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_nori_038 = { # Generation 13 sibling
+	name = Finn
+
+	dynasty = dynasty_umli_nori
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_lowborn_060
+	mother = umli_nori_033
+
+	trait = dwarf
+	trait = arrogant
+	trait = callous
+	trait = deceitful
+
+	trait = education_diplomacy_2
+
+	diplomacy = 6
+	martial = 5
+	stewardship = 5
+	intrigue = 4
+	learning = 6
+	prowess = 3
+
+	7071.9.23 = {
+		birth = yes
+	}
+
+	7131.11.26 = {
+		death = { death_reason = death_ill }
+	}
+}
+
+
+
+### Generation 14 ###
+
+umli_nori_039 = { # Generation 14 continuation
+	name = Nyi
+
+	dynasty = dynasty_umli_nori
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_lowborn_065
+	mother = umli_nori_036
+
+	trait = dwarf
+	trait = honest
+	trait = forgiving
+	trait = ambitious
+
+	trait = education_stewardship_2
+
+	diplomacy = 4
+	martial = 3
+	stewardship = 9
+	intrigue = 2
+	learning = 2
+	prowess = 5
+
+	7096.9.1 = {
+		birth = yes
+	}
+
+	7124.9.26 = {
+		add_spouse = umli_lowborn_069
+	}
+
+	7175.9.18 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_lowborn_069 = { # Lowborn spouse into House Nori (generation 14)
+	name = Gerda
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = diligent
+	trait = arrogant
+	trait = shy
+
+	trait = education_learning_2
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 4
+	intrigue = 3
+	learning = 3
+	prowess = 6
+
+	7099.1.9 = {
+		birth = yes
+	}
+
+	7159.6.7 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_nori_040 = { # Generation 14 sibling
+	name = Oin
+
+	dynasty = dynasty_umli_nori
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_lowborn_065
+	mother = umli_nori_036
+
+	trait = dwarf
+	trait = brave
+	trait = paranoid
+	trait = just
+
+	trait = education_learning_2
+
+	diplomacy = 2
+	martial = 4
+	stewardship = 2
+	intrigue = 3
+	learning = 6
+	prowess = 3
+
+	7099.5.18 = {
+		birth = yes
+	}
+
+	7179.12.22 = {
+		death = { death_reason = death_ill }
+	}
+}
+
+umli_nori_041 = { # Generation 14 sibling
+	name = Nyi
+
+	dynasty = dynasty_umli_nori
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_lowborn_065
+	mother = umli_nori_036
+
+	trait = dwarf
+	trait = just
+	trait = gregarious
+	trait = greedy
+
+	trait = education_intrigue_3
+
+	diplomacy = 5
+	martial = 4
+	stewardship = 5
+	intrigue = 9
+	learning = 2
+	prowess = 5
+
+	7101.10.18 = {
+		birth = yes
+	}
+
+	7180.8.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+
+### Generation 15 ###
+
+umli_nori_042 = { # Generation 15 continuation
+	name = Oin
+
+	dynasty = dynasty_umli_nori
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_nori_039
+	mother = umli_lowborn_069
+
+	trait = dwarf
+	trait = deceitful
+	trait = ambitious
+	trait = humble
+
+	trait = education_stewardship_2
+
+	diplomacy = 4
+	martial = 2
+	stewardship = 3
+	intrigue = 2
+	learning = 7
+	prowess = 3
+
+	7125.10.9 = {
+		birth = yes
+	}
+
+	7154.9.23 = {
+		add_spouse = umli_lowborn_074
+	}
+}
+
+umli_lowborn_074 = { # Lowborn spouse into House Nori (generation 15)
+	name = Vigdis
+	female = yes
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = craven
+	trait = impatient
+	trait = zealous
+
+	trait = education_stewardship_2
+
+	diplomacy = 5
+	martial = 2
+	stewardship = 6
+	intrigue = 2
+	learning = 3
+	prowess = 5
+
+	7126.9.5 = {
+		birth = yes
+	}
+}
+
+umli_nori_043 = { # Generation 15 sibling
+	name = Vili
+
+	dynasty = dynasty_umli_nori
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_nori_039
+	mother = umli_lowborn_069
+
+	trait = dwarf
+	trait = diligent
+	trait = just
+	trait = brave
+
+	trait = education_learning_1
+
+	diplomacy = 2
+	martial = 5
+	stewardship = 2
+	intrigue = 4
+	learning = 9
+	prowess = 5
+
+	7128.4.18 = {
+		birth = yes
+	}
+}
+
+umli_nori_044 = { # Generation 15 sibling
+	name = Ingrid
+	female = yes
+
+	dynasty = dynasty_umli_nori
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_nori_039
+	mother = umli_lowborn_069
+
+	trait = dwarf
+	trait = compassionate
+	trait = humble
+	trait = generous
+
+	trait = education_learning_2
+
+	diplomacy = 4
+	martial = 5
+	stewardship = 3
+	intrigue = 3
+	learning = 7
+	prowess = 2
+
+	7130.1.14 = {
+		birth = yes
+	}
+
+	7190.5.15 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+umli_nori_045 = { # Generation 15 sibling
+	name = Signe
+	female = yes
+
+	dynasty = dynasty_umli_nori
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_nori_039
+	mother = umli_lowborn_069
+
+	trait = dwarf
+	trait = impatient
+	trait = shy
+	trait = calm
+
+	trait = education_intrigue_3
+
+	diplomacy = 5
+	martial = 3
+	stewardship = 3
+	intrigue = 8
+	learning = 4
+	prowess = 2
+
+	7132.5.12 = {
+		birth = yes
+	}
+
+	7198.8.26 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+
+### Generation 16 ###
+
+umli_nori_046 = { # Generation 16 continuation
+	name = Hlin
+	female = yes
+
+	dynasty = dynasty_umli_nori
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_nori_042
+	mother = umli_lowborn_074
+
+	trait = dwarf
+	trait = arrogant
+	trait = honest
+	trait = forgiving
+
+	trait = education_diplomacy_2
+
+	diplomacy = 8
+	martial = 4
+	stewardship = 3
+	intrigue = 4
+	learning = 3
+	prowess = 2
+
+	7156.7.12 = {
+		birth = yes
+	}
+
+	7186.10.19 = {
+		add_spouse = umli_lowborn_079
+	}
+}
+
+umli_lowborn_079 = { # Lowborn spouse into House Nori (generation 16)
+	name = Virfir
+
+	religion = faith_khazad
+	culture = umli
+
+	trait = dwarf
+	trait = content
+	trait = humble
+	trait = callous
+
+	trait = education_diplomacy_2
+
+	diplomacy = 9
+	martial = 4
+	stewardship = 5
+	intrigue = 6
+	learning = 2
+	prowess = 3
+
+	7156.5.19 = {
+		birth = yes
+	}
+}
+
+umli_nori_047 = { # Generation 16 sibling
+	name = Bifur
+
+	dynasty = dynasty_umli_nori
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_nori_042
+	mother = umli_lowborn_074
+
+	trait = dwarf
+	trait = stubborn
+	trait = gregarious
+	trait = wrathful
+
+	trait = education_diplomacy_3
+
+	diplomacy = 7
+	martial = 4
+	stewardship = 6
+	intrigue = 3
+	learning = 4
+	prowess = 5
+
+	7158.8.8 = {
+		birth = yes
+	}
+}
+
+umli_nori_048 = { # Generation 16 sibling
+	name = Skadi
+	female = yes
+
+	dynasty = dynasty_umli_nori
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_nori_042
+	mother = umli_lowborn_074
+
+	trait = dwarf
+	trait = patient
+	trait = shy
+	trait = temperate
+
+	trait = education_learning_2
+
+	diplomacy = 2
+	martial = 3
+	stewardship = 4
+	intrigue = 3
+	learning = 5
+	prowess = 3
+
+	7161.7.12 = {
+		birth = yes
+	}
+}
+
+
+
+### Generation 17 ###
+
+umli_nori_049 = { # Generation 17 continuation
+	name = Gloin
+
+	dynasty = dynasty_umli_nori
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_lowborn_079
+	mother = umli_nori_046
+
+	trait = dwarf
+	trait = just
+	trait = callous
+	trait = impatient
+
+	trait = education_stewardship_3
+
+	diplomacy = 6
+	martial = 4
+	stewardship = 5
+	intrigue = 3
+	learning = 4
+	prowess = 4
+
+	7188.1.15 = {
+		birth = yes
+	}
+}
+
+umli_nori_050 = { # Generation 17 sibling
+	name = Bofur
+
+	dynasty = dynasty_umli_nori
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_lowborn_079
+	mother = umli_nori_046
+
+	trait = dwarf
+	trait = greedy
+	trait = deceitful
+	trait = impatient
+
+	trait = education_learning_2
+
+	diplomacy = 3
+	martial = 3
+	stewardship = 4
+	intrigue = 3
+	learning = 5
+	prowess = 4
+
+	7191.2.17 = {
+		birth = yes
+	}
+}
+
+umli_nori_051 = { # Generation 17 sibling
+	name = Hepti
+
+	dynasty = dynasty_umli_nori
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_lowborn_079
+	mother = umli_nori_046
+
+	trait = dwarf
+	trait = trusting
+	trait = temperate
+	trait = generous
+
+	trait = education_martial_1
+
+	diplomacy = 4
+	martial = 4
+	stewardship = 2
+	intrigue = 4
+	learning = 5
+	prowess = 6
+
+	7193.7.8 = {
+		birth = yes
+	}
+}
+
+umli_nori_052 = { # Generation 17 sibling
+	name = Durin
+
+	dynasty = dynasty_umli_nori
+	religion = faith_khazad
+	culture = umli
+
+	father = umli_lowborn_079
+	mother = umli_nori_046
+
+	trait = trusting
+	trait = gregarious
+	trait = arrogant
+
+	trait = education_diplomacy_2
+
+	diplomacy = 5
+	martial = 2
+	stewardship = 3
+	intrigue = 4
+	learning = 3
+	prowess = 5
+
+	7194.10.8 = {
+		birth = yes
+	}
+}

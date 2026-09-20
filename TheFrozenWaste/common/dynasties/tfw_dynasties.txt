@@ -15,3 +15,1099 @@ dynasty_nixni = {
 	culture = "maiar"
 	motto = dynn_nixni_motto
 }
+
+##################
+##### LOSSOTH #####
+##################
+
+######################
+### Forochel Coast ###
+######################
+
+dynasty_fc_kuusivaara = {
+	name = "dynn_fc_kuusivaara"
+	culture = "lossoth"
+	motto = dynn_fc_kuusivaara_motto
+}
+
+dynasty_fc_huurrela = {
+	name = "dynn_fc_huurrela"
+	culture = "lossoth"
+	motto = dynn_fc_huurrela_motto
+}
+
+dynasty_fc_jaaniemi = {
+	name = "dynn_fc_jaaniemi"
+	culture = "lossoth"
+	motto = dynn_fc_jaaniemi_motto
+}
+
+dynasty_fc_sumikka = {
+	name = "dynn_fc_sumikka"
+	culture = "lossoth"
+	motto = dynn_fc_sumikka_motto
+}
+
+dynasty_fc_riekkola = {
+	name = "dynn_fc_riekkola"
+	culture = "lossoth"
+	motto = dynn_fc_riekkola_motto
+}
+
+dynasty_fc_vaskela = {
+	name = "dynn_fc_vaskela"
+	culture = "lossoth"
+	motto = dynn_fc_vaskela_motto
+}
+
+dynasty_fc_kivela = {
+	name = "dynn_fc_kivela"
+	culture = "lossoth"
+	motto = dynn_fc_kivela_motto
+}
+
+dynasty_fc_tuiskula = {
+	name = "dynn_fc_tuiskula"
+	culture = "lossoth"
+	motto = dynn_fc_tuiskula_motto
+}
+
+dynasty_fc_hallava = {
+	name = "dynn_fc_hallava"
+	culture = "lossoth"
+	motto = dynn_fc_hallava_motto
+}
+
+dynasty_fc_merituuli = {
+	name = "dynn_fc_merituuli"
+	culture = "lossoth"
+	motto = dynn_fc_merituuli_motto
+}
+
+dynasty_fc_routala = {
+	name = "dynn_fc_routala"
+	culture = "lossoth"
+	motto = dynn_fc_routala_motto
+}
+
+dynasty_fc_saarikko = {
+	name = "dynn_fc_saarikko"
+	culture = "lossoth"
+	motto = dynn_fc_saarikko_motto
+}
+
+dynasty_fc_lumivaara = {
+	name = "dynn_fc_lumivaara"
+	culture = "lossoth"
+	motto = dynn_fc_lumivaara_motto
+}
+
+dynasty_fc_pakkala = {
+	name = "dynn_fc_pakkala"
+	culture = "lossoth"
+	motto = dynn_fc_pakkala_motto
+}
+
+dynasty_fc_jokela = {
+	name = "dynn_fc_jokela"
+	culture = "lossoth"
+	motto = dynn_fc_jokela_motto
+}
+
+dynasty_fc_naskali = {
+	name = "dynn_fc_naskali"
+	culture = "lossoth"
+	motto = dynn_fc_naskali_motto
+}
+
+dynasty_fc_ketola = {
+	name = "dynn_fc_ketola"
+	culture = "lossoth"
+	motto = dynn_fc_ketola_motto
+}
+
+dynasty_fc_talas = {
+	name = "dynn_fc_talas"
+	culture = "lossoth"
+	motto = dynn_fc_talas_motto
+}
+
+dynasty_fc_aarnio = {
+	name = "dynn_fc_aarnio"
+	culture = "lossoth"
+	motto = dynn_fc_aarnio_motto
+}
+
+dynasty_fc_kuurala = {
+	name = "dynn_fc_kuurala"
+	culture = "lossoth"
+	motto = dynn_fc_kuurala_motto
+}
+
+dynasty_fc_kaarnio = {
+	name = "dynn_fc_kaarnio"
+	culture = "lossoth"
+	motto = dynn_fc_kaarnio_motto
+}
+
+dynasty_fc_siniharju = {
+	name = "dynn_fc_siniharju"
+	culture = "lossoth"
+	motto = dynn_fc_siniharju_motto
+}
+
+dynasty_fc_otava = {
+	name = "dynn_fc_otava"
+	culture = "lossoth"
+	motto = dynn_fc_otava_motto
+}
+
+dynasty_fc_vainio = {
+	name = "dynn_fc_vainio"
+	culture = "lossoth"
+	motto = dynn_fc_vainio_motto
+}
+
+dynasty_fc_nivala = {
+	name = "dynn_fc_nivala"
+	culture = "lossoth"
+	motto = dynn_fc_nivala_motto
+}
+
+dynasty_fc_sampola = {
+	name = "dynn_fc_sampola"
+	culture = "lossoth"
+	motto = dynn_fc_sampola_motto
+}
+
+dynasty_fc_kairala = {
+	name = "dynn_fc_kairala"
+	culture = "lossoth"
+	motto = dynn_fc_kairala_motto
+}
+
+dynasty_fc_niemela = {
+	name = "dynn_fc_niemela"
+	culture = "lossoth"
+	motto = dynn_fc_niemela_motto
+}
+
+dynasty_fc_pohjola = {
+	name = "dynn_fc_pohjola"
+	culture = "lossoth"
+	motto = dynn_fc_pohjola_motto
+}
+
+dynasty_fc_honkala = {
+	name = "dynn_fc_honkala"
+	culture = "lossoth"
+	motto = dynn_fc_honkala_motto
+}
+
+dynasty_fc_korvela = {
+	name = "dynn_fc_korvela"
+	culture = "lossoth"
+	motto = dynn_fc_korvela_motto
+}
+
+dynasty_fc_joutsi = {
+	name = "dynn_fc_joutsi"
+	culture = "lossoth"
+	motto = dynn_fc_joutsi_motto
+}
+
+dynasty_fc_varpula = {
+	name = "dynn_fc_varpula"
+	culture = "lossoth"
+	motto = dynn_fc_varpula_motto
+}
+
+dynasty_fc_suvanto = {
+	name = "dynn_fc_suvanto"
+	culture = "lossoth"
+	motto = dynn_fc_suvanto_motto
+}
+
+dynasty_fc_hankala = {
+	name = "dynn_fc_hankala"
+	culture = "lossoth"
+	motto = dynn_fc_hankala_motto
+}
+
+dynasty_fc_jarvi = {
+	name = "dynn_fc_jarvi"
+	culture = "lossoth"
+	motto = dynn_fc_jarvi_motto
+}
+
+dynasty_fc_laakso = {
+	name = "dynn_fc_laakso"
+	culture = "lossoth"
+	motto = dynn_fc_laakso_motto
+}
+
+dynasty_fc_korpela = {
+	name = "dynn_fc_korpela"
+	culture = "lossoth"
+	motto = dynn_fc_korpela_motto
+}
+
+dynasty_fc_revontuli = {
+	name = "dynn_fc_revontuli"
+	culture = "lossoth"
+	motto = dynn_fc_revontuli_motto
+}
+
+dynasty_fc_sarkela = {
+	name = "dynn_fc_sarkela"
+	culture = "lossoth"
+	motto = dynn_fc_sarkela_motto
+}
+
+dynasty_fc_tunturila = {
+	name = "dynn_fc_tunturila"
+	culture = "lossoth"
+	motto = dynn_fc_tunturila_motto
+}
+
+dynasty_fc_ulvila = {
+	name = "dynn_fc_ulvila"
+	culture = "lossoth"
+	motto = dynn_fc_ulvila_motto
+}
+
+dynasty_fc_vesala = {
+	name = "dynn_fc_vesala"
+	culture = "lossoth"
+	motto = dynn_fc_vesala_motto
+}
+
+dynasty_fc_ahmala = {
+	name = "dynn_fc_ahmala"
+	culture = "lossoth"
+	motto = dynn_fc_ahmala_motto
+}
+
+dynasty_fc_peurala = {
+	name = "dynn_fc_peurala"
+	culture = "lossoth"
+	motto = dynn_fc_peurala_motto
+}
+
+dynasty_fc_karpalo = {
+	name = "dynn_fc_karpalo"
+	culture = "lossoth"
+	motto = dynn_fc_karpalo_motto
+}
+
+dynasty_fc_naavala = {
+	name = "dynn_fc_naavala"
+	culture = "lossoth"
+	motto = dynn_fc_naavala_motto
+}
+
+dynasty_fc_rannikko = {
+	name = "dynn_fc_rannikko"
+	culture = "lossoth"
+	motto = dynn_fc_rannikko_motto
+}
+
+dynasty_fc_kallio = {
+	name = "dynn_fc_kallio"
+	culture = "lossoth"
+	motto = dynn_fc_kallio_motto
+}
+
+dynasty_fc_myrskyla = {
+	name = "dynn_fc_myrskyla"
+	culture = "lossoth"
+	motto = dynn_fc_myrskyla_motto
+}
+
+dynasty_fc_aallokko = {
+	name = "dynn_fc_aallokko"
+	culture = "lossoth"
+	motto = dynn_fc_aallokko_motto
+}
+
+dynasty_fc_pihlaja = {
+	name = "dynn_fc_pihlaja"
+	culture = "lossoth"
+	motto = dynn_fc_pihlaja_motto
+}
+
+dynasty_fc_routio = {
+	name = "dynn_fc_routio"
+	culture = "lossoth"
+	motto = dynn_fc_routio_motto
+}
+
+dynasty_fc_kuurto = {
+	name = "dynn_fc_kuurto"
+	culture = "lossoth"
+	motto = dynn_fc_kuurto_motto
+}
+
+##################
+##### FORODAIN ####
+##################
+
+
+dynasty_naethor = {
+	name = "dynn_naethor"
+	culture = "forodain"
+	motto = dynn_naethor_motto
+}
+
+dynasty_vaelthor = {
+	name = "dynn_vaelthor"
+	culture = "forodain"
+	motto = dynn_vaelthor_motto
+}
+
+dynasty_corphen = {
+	name = "dynn_corphen"
+	culture = "forodain"
+	motto = dynn_corphen_motto
+}
+
+dynasty_raudhave = {
+	name = "dynn_raudhave"
+	culture = "forodain"
+	motto = dynn_raudhave_motto
+}
+
+dynasty_galenmir = {
+	name = "dynn_galenmir"
+	culture = "forodain"
+	motto = dynn_galenmir_motto
+}
+
+dynasty_thalioneth = {
+	name = "dynn_thalioneth"
+	culture = "forodain"
+	motto = dynn_thalioneth_motto
+}
+
+dynasty_berethril = {
+	name = "dynn_berethril"
+	culture = "forodain"
+	motto = dynn_berethril_motto
+}
+
+dynasty_orvath = {
+	name = "dynn_orvath"
+	culture = "forodain"
+	motto = dynn_orvath_motto
+}
+
+dynasty_maelvaren = {
+	name = "dynn_maelvaren"
+	culture = "forodain"
+	motto = dynn_maelvaren_motto
+}
+
+dynasty_ardanoril = {
+	name = "dynn_ardanoril"
+	culture = "forodain"
+	motto = dynn_ardanoril_motto
+}
+
+dynasty_heorwulf = {
+	name = "dynn_heorwulf"
+	culture = "forodain"
+	motto = dynn_heorwulf_motto
+}
+
+########################################
+### NIDAVELLIR IRONFIST VASSAL HOUSES ###
+########################################
+# Royal characters continue to use dynasty_sindri.
+
+dynasty_nidavellir_kharum = {
+	name = "dynn_nidavellir_kharum"
+	culture = "ironfists"
+	motto = dynn_nidavellir_kharum_motto
+}
+
+dynasty_nidavellir_zharakh = {
+	name = "dynn_nidavellir_zharakh"
+	culture = "ironfists"
+	motto = dynn_nidavellir_zharakh_motto
+}
+
+dynasty_nidavellir_tharim = {
+	name = "dynn_nidavellir_tharim"
+	culture = "ironfists"
+	motto = dynn_nidavellir_tharim_motto
+}
+
+dynasty_nidavellir_gabilan = {
+	name = "dynn_nidavellir_gabilan"
+	culture = "ironfists"
+	motto = dynn_nidavellir_gabilan_motto
+}
+
+dynasty_nidavellir_kheledan = {
+	name = "dynn_nidavellir_kheledan"
+	culture = "ironfists"
+	motto = dynn_nidavellir_kheledan_motto
+}
+
+dynasty_nidavellir_barukhan = {
+	name = "dynn_nidavellir_barukhan"
+	culture = "ironfists"
+	motto = dynn_nidavellir_barukhan_motto
+}
+
+
+############################################################
+# LOSSIDIL TWIN KINGDOMS - NEW DYNASTIES
+############################################################
+
+dynasty_lossidil_celethrim = {
+	name = "dynn_lossidil_celethrim"
+	culture = "lossidil"
+	motto = dynn_lossidil_celethrim_motto
+}
+
+dynasty_lossidil_himrath = {
+	name = "dynn_lossidil_himrath"
+	culture = "lossidil"
+	motto = dynn_lossidil_himrath_motto
+}
+
+dynasty_lossidil_vaelorn = {
+	name = "dynn_lossidil_vaelorn"
+	culture = "lossidil"
+	motto = dynn_lossidil_vaelorn_motto
+}
+
+dynasty_lossidil_morlaith = {
+	name = "dynn_lossidil_morlaith"
+	culture = "lossidil"
+	motto = dynn_lossidil_morlaith_motto
+}
+
+dynasty_lossidil_ithrinn = {
+	name = "dynn_lossidil_ithrinn"
+	culture = "lossidil"
+	motto = dynn_lossidil_ithrinn_motto
+}
+
+dynasty_lossidil_naereth = {
+	name = "dynn_lossidil_naereth"
+	culture = "lossidil"
+	motto = dynn_lossidil_naereth_motto
+}
+
+############################################################
+# ERYD RHIVAMAR - ADLANTRIM DYNASTIES
+############################################################
+
+dynasty_adlantrim_mornaer = {
+	name = "dynn_adlantrim_mornaer"
+	culture = "sindar"
+	motto = dynn_adlantrim_mornaer_motto
+}
+
+dynasty_adlantrim_aerendil = {
+	name = "dynn_adlantrim_aerendil"
+	culture = "sindar"
+	motto = dynn_adlantrim_aerendil_motto
+}
+
+dynasty_adlantrim_calenvar = {
+	name = "dynn_adlantrim_calenvar"
+	culture = "sindar"
+	motto = dynn_adlantrim_calenvar_motto
+}
+
+dynasty_adlantrim_dorvael = {
+	name = "dynn_adlantrim_dorvael"
+	culture = "sindar"
+	motto = dynn_adlantrim_dorvael_motto
+}
+
+dynasty_adlantrim_elenrath = {
+	name = "dynn_adlantrim_elenrath"
+	culture = "sindar"
+	motto = dynn_adlantrim_elenrath_motto
+}
+
+dynasty_adlantrim_faelorin = {
+	name = "dynn_adlantrim_faelorin"
+	culture = "sindar"
+	motto = dynn_adlantrim_faelorin_motto
+}
+
+dynasty_adlantrim_galadhor = {
+	name = "dynn_adlantrim_galadhor"
+	culture = "sindar"
+	motto = dynn_adlantrim_galadhor_motto
+}
+
+dynasty_adlantrim_hithrandir = {
+	name = "dynn_adlantrim_hithrandir"
+	culture = "sindar"
+	motto = dynn_adlantrim_hithrandir_motto
+}
+
+dynasty_adlantrim_ithilorn = {
+	name = "dynn_adlantrim_ithilorn"
+	culture = "sindar"
+	motto = dynn_adlantrim_ithilorn_motto
+}
+
+dynasty_adlantrim_lothvael = {
+	name = "dynn_adlantrim_lothvael"
+	culture = "sindar"
+	motto = dynn_adlantrim_lothvael_motto
+}
+
+dynasty_adlantrim_maerandir = {
+	name = "dynn_adlantrim_maerandir"
+	culture = "sindar"
+	motto = dynn_adlantrim_maerandir_motto
+}
+
+dynasty_adlantrim_naurond = {
+	name = "dynn_adlantrim_naurond"
+	culture = "sindar"
+	motto = dynn_adlantrim_naurond_motto
+}
+
+dynasty_adlantrim_orodhael = {
+	name = "dynn_adlantrim_orodhael"
+	culture = "sindar"
+	motto = dynn_adlantrim_orodhael_motto
+}
+
+dynasty_adlantrim_saelrond = {
+	name = "dynn_adlantrim_saelrond"
+	culture = "sindar"
+	motto = dynn_adlantrim_saelrond_motto
+}
+
+dynasty_adlantrim_thaliondor = {
+	name = "dynn_adlantrim_thaliondor"
+	culture = "sindar"
+	motto = dynn_adlantrim_thaliondor_motto
+}
+
+dynasty_adlantrim_vaelith = {
+	name = "dynn_adlantrim_vaelith"
+	culture = "sindar"
+	motto = dynn_adlantrim_vaelith_motto
+}
+
+dynasty_adlantrim_eryndor = {
+	name = "dynn_adlantrim_eryndor"
+	culture = "sindar"
+	motto = dynn_adlantrim_eryndor_motto
+}
+
+dynasty_adlantrim_haldorim = {
+	name = "dynn_adlantrim_haldorim"
+	culture = "sindar"
+	motto = dynn_adlantrim_haldorim_motto
+}
+
+dynasty_adlantrim_amonvael = {
+	name = "dynn_adlantrim_amonvael"
+	culture = "sindar"
+	motto = dynn_adlantrim_amonvael_motto
+}
+
+dynasty_adlantrim_kulurath = {
+	name = "dynn_adlantrim_kulurath"
+	culture = "sindar"
+	motto = dynn_adlantrim_kulurath_motto
+}
+
+dynasty_adlantrim_araneth = {
+	name = "dynn_adlantrim_araneth"
+	culture = "sindar"
+	motto = dynn_adlantrim_araneth_motto
+}
+
+dynasty_adlantrim_indorion = {
+	name = "dynn_adlantrim_indorion"
+	culture = "sindar"
+	motto = dynn_adlantrim_indorion_motto
+}
+
+dynasty_adlantrim_yaviren = {
+	name = "dynn_adlantrim_yaviren"
+	culture = "sindar"
+	motto = dynn_adlantrim_yaviren_motto
+}
+
+dynasty_adlantrim_aramath = {
+	name = "dynn_adlantrim_aramath"
+	culture = "sindar"
+	motto = dynn_adlantrim_aramath_motto
+}
+
+dynasty_adlantrim_artanvar = {
+	name = "dynn_adlantrim_artanvar"
+	culture = "sindar"
+	motto = dynn_adlantrim_artanvar_motto
+}
+
+dynasty_adlantrim_dailrond = {
+	name = "dynn_adlantrim_dailrond"
+	culture = "sindar"
+	motto = dynn_adlantrim_dailrond_motto
+}
+
+dynasty_adlantrim_slusith = {
+	name = "dynn_adlantrim_slusith"
+	culture = "sindar"
+	motto = dynn_adlantrim_slusith_motto
+}
+
+dynasty_adlantrim_pujorel = {
+	name = "dynn_adlantrim_pujorel"
+	culture = "sindar"
+	motto = dynn_adlantrim_pujorel_motto
+}
+
+dynasty_adlantrim_drogvael = {
+	name = "dynn_adlantrim_drogvael"
+	culture = "sindar"
+	motto = dynn_adlantrim_drogvael_motto
+}
+
+dynasty_adlantrim_edhelrath = {
+	name = "dynn_adlantrim_edhelrath"
+	culture = "sindar"
+	motto = dynn_adlantrim_edhelrath_motto
+}
+
+dynasty_adlantrim_denethril = {
+	name = "dynn_adlantrim_denethril"
+	culture = "sindar"
+	motto = dynn_adlantrim_denethril_motto
+}
+
+dynasty_adlantrim_erienor = {
+	name = "dynn_adlantrim_erienor"
+	culture = "sindar"
+	motto = dynn_adlantrim_erienor_motto
+}
+
+dynasty_adlantrim_laurendor = {
+	name = "dynn_adlantrim_laurendor"
+	culture = "sindar"
+	motto = dynn_adlantrim_laurendor_motto
+}
+
+dynasty_adlantrim_belenthar = {
+	name = "dynn_adlantrim_belenthar"
+	culture = "sindar"
+	motto = dynn_adlantrim_belenthar_motto
+}
+
+dynasty_adlantrim_alatinnor = {
+	name = "dynn_adlantrim_alatinnor"
+	culture = "sindar"
+	motto = dynn_adlantrim_alatinnor_motto
+}
+
+dynasty_adlantrim_arwenor = {
+	name = "dynn_adlantrim_arwenor"
+	culture = "sindar"
+	motto = dynn_adlantrim_arwenor_motto
+}
+
+dynasty_adlantrim_malvar = {
+	name = "dynn_adlantrim_malvar"
+	culture = "sindar"
+	motto = dynn_adlantrim_malvar_motto
+}
+
+dynasty_adlantrim_peenor = {
+	name = "dynn_adlantrim_peenor"
+	culture = "sindar"
+	motto = dynn_adlantrim_peenor_motto
+}
+
+dynasty_adlantrim_shelevor = {
+	name = "dynn_adlantrim_shelevor"
+	culture = "sindar"
+	motto = dynn_adlantrim_shelevor_motto
+}
+
+dynasty_adlantrim_elroth = {
+	name = "dynn_adlantrim_elroth"
+	culture = "sindar"
+	motto = dynn_adlantrim_elroth_motto
+}
+
+dynasty_adlantrim_mornovar = {
+	name = "dynn_adlantrim_mornovar"
+	culture = "sindar"
+	motto = dynn_adlantrim_mornovar_motto
+}
+
+dynasty_adlantrim_lenweth = {
+	name = "dynn_adlantrim_lenweth"
+	culture = "sindar"
+	motto = dynn_adlantrim_lenweth_motto
+}
+
+dynasty_adlantrim_elenvar = {
+	name = "dynn_adlantrim_elenvar"
+	culture = "sindar"
+	motto = dynn_adlantrim_elenvar_motto
+}
+
+dynasty_adlantrim_camrath = {
+	name = "dynn_adlantrim_camrath"
+	culture = "sindar"
+	motto = dynn_adlantrim_camrath_motto
+}
+
+dynasty_adlantrim_almaren = {
+	name = "dynn_adlantrim_almaren"
+	culture = "sindar"
+	motto = dynn_adlantrim_almaren_motto
+}
+
+dynasty_adlantrim_saerath = {
+	name = "dynn_adlantrim_saerath"
+	culture = "sindar"
+	motto = dynn_adlantrim_saerath_motto
+}
+
+dynasty_adlantrim_liannar = {
+	name = "dynn_adlantrim_liannar"
+	culture = "sindar"
+	motto = dynn_adlantrim_liannar_motto
+}
+
+dynasty_adlantrim_artanor = {
+	name = "dynn_adlantrim_artanor"
+	culture = "sindar"
+	motto = dynn_adlantrim_artanor_motto
+}
+
+dynasty_adlantrim_macaglor = {
+	name = "dynn_adlantrim_macaglor"
+	culture = "sindar"
+	motto = dynn_adlantrim_macaglor_motto
+}
+
+dynasty_adlantrim_caledorn = {
+	name = "dynn_adlantrim_caledorn"
+	culture = "sindar"
+	motto = dynn_adlantrim_caledorn_motto
+}
+
+dynasty_adlantrim_findorath = {
+	name = "dynn_adlantrim_findorath"
+	culture = "sindar"
+	motto = dynn_adlantrim_findorath_motto
+}
+
+dynasty_adlantrim_delyanor = {
+	name = "dynn_adlantrim_delyanor"
+	culture = "sindar"
+	motto = dynn_adlantrim_delyanor_motto
+}
+
+dynasty_adlantrim_emelvar = {
+	name = "dynn_adlantrim_emelvar"
+	culture = "sindar"
+	motto = dynn_adlantrim_emelvar_motto
+}
+
+############################################################
+# ANGMARRIM - NEW INTERWOVEN HOUSES
+############################################################
+
+dynasty_veikko = {
+	name = "dynn_veikko"
+	culture = "angmarrim"
+	motto = dynn_veikko_motto
+}
+
+dynasty_kaarlo = {
+	name = "dynn_kaarlo"
+	culture = "angmarrim"
+	motto = dynn_kaarlo_motto
+}
+
+dynasty_erkki = {
+	name = "dynn_erkki"
+	culture = "angmarrim"
+	motto = dynn_erkki_motto
+}
+
+############################################################
+# FROSTWOOD DYNASTIES
+############################################################
+
+dynasty_windan_sairavel = {
+	name = "dynn_windan_sairavel"
+	culture = "windan"
+	motto = dynn_windan_sairavel_motto
+}
+
+dynasty_hwenti_hwerin = {
+	name = "dynn_hwenti_hwerin"
+	culture = "hwenti"
+	motto = dynn_hwenti_hwerin_motto
+}
+
+dynasty_windan_aereth = {
+	name = "dynn_windan_aereth"
+	culture = "windan"
+	motto = dynn_windan_aereth_motto
+}
+
+dynasty_windan_neldarin = {
+	name = "dynn_windan_neldarin"
+	culture = "windan"
+	motto = dynn_windan_neldarin_motto
+}
+
+dynasty_windan_saelith = {
+	name = "dynn_windan_saelith"
+	culture = "windan"
+	motto = dynn_windan_saelith_motto
+}
+
+dynasty_windan_elvar = {
+	name = "dynn_windan_elvar"
+	culture = "windan"
+	motto = dynn_windan_elvar_motto
+}
+
+dynasty_windan_maerwen = {
+	name = "dynn_windan_maerwen"
+	culture = "windan"
+	motto = dynn_windan_maerwen_motto
+}
+
+dynasty_windan_thalorn = {
+	name = "dynn_windan_thalorn"
+	culture = "windan"
+	motto = dynn_windan_thalorn_motto
+}
+
+dynasty_windan_calenth = {
+	name = "dynn_windan_calenth"
+	culture = "windan"
+	motto = dynn_windan_calenth_motto
+}
+
+dynasty_windan_varath = {
+	name = "dynn_windan_varath"
+	culture = "windan"
+	motto = dynn_windan_varath_motto
+}
+
+dynasty_windan_rindor = {
+	name = "dynn_windan_rindor"
+	culture = "windan"
+	motto = dynn_windan_rindor_motto
+}
+
+dynasty_windan_aelvar = {
+	name = "dynn_windan_aelvar"
+	culture = "windan"
+	motto = dynn_windan_aelvar_motto
+}
+
+dynasty_windan_sulvar = {
+	name = "dynn_windan_sulvar"
+	culture = "windan"
+	motto = dynn_windan_sulvar_motto
+}
+
+dynasty_windan_mirath = {
+	name = "dynn_windan_mirath"
+	culture = "windan"
+	motto = dynn_windan_mirath_motto
+}
+
+dynasty_windan_faelor = {
+	name = "dynn_windan_faelor"
+	culture = "windan"
+	motto = dynn_windan_faelor_motto
+}
+
+dynasty_windan_ornaeth = {
+	name = "dynn_windan_ornaeth"
+	culture = "windan"
+	motto = dynn_windan_ornaeth_motto
+}
+
+dynasty_windan_galath = {
+	name = "dynn_windan_galath"
+	culture = "windan"
+	motto = dynn_windan_galath_motto
+}
+
+dynasty_windan_nethrin = {
+	name = "dynn_windan_nethrin"
+	culture = "windan"
+	motto = dynn_windan_nethrin_motto
+}
+
+dynasty_hwenti_hwanaar = {
+	name = "dynn_hwenti_hwanaar"
+	culture = "hwenti"
+	motto = dynn_hwenti_hwanaar_motto
+}
+
+dynasty_hwenti_kuiren = {
+	name = "dynn_hwenti_kuiren"
+	culture = "hwenti"
+	motto = dynn_hwenti_kuiren_motto
+}
+
+dynasty_hwenti_velenwi = {
+	name = "dynn_hwenti_velenwi"
+	culture = "hwenti"
+	motto = dynn_hwenti_velenwi_motto
+}
+
+dynasty_hwenti_nauriva = {
+	name = "dynn_hwenti_nauriva"
+	culture = "hwenti"
+	motto = dynn_hwenti_nauriva_motto
+}
+
+dynasty_hwenti_hweneth = {
+	name = "dynn_hwenti_hweneth"
+	culture = "hwenti"
+	motto = dynn_hwenti_hweneth_motto
+}
+
+dynasty_hwenti_orelwi = {
+	name = "dynn_hwenti_orelwi"
+	culture = "hwenti"
+	motto = dynn_hwenti_orelwi_motto
+}
+
+dynasty_hwenti_kwendir = {
+	name = "dynn_hwenti_kwendir"
+	culture = "hwenti"
+	motto = dynn_hwenti_kwendir_motto
+}
+
+dynasty_hwenti_sailen = {
+	name = "dynn_hwenti_sailen"
+	culture = "hwenti"
+	motto = dynn_hwenti_sailen_motto
+}
+
+dynasty_hwenti_vairanta = {
+	name = "dynn_hwenti_vairanta"
+	culture = "hwenti"
+	motto = dynn_hwenti_vairanta_motto
+}
+
+dynasty_hwenti_lethwin = {
+	name = "dynn_hwenti_lethwin"
+	culture = "hwenti"
+	motto = dynn_hwenti_lethwin_motto
+}
+
+############################################################
+##### UMLI DYNASTIES ########################################
+############################################################
+# House Motsognir is the selected royal line.
+############################################################
+
+dynasty_umli_motsognir = {
+	name = "dynn_umli_motsognir"
+	culture = "umli"
+	motto = dynn_umli_motsognir_motto
+}
+
+dynasty_umli_dvalin = {
+	name = "dynn_umli_dvalin"
+	culture = "umli"
+	motto = dynn_umli_dvalin_motto
+}
+
+dynasty_umli_brokkr = {
+	name = "dynn_umli_brokkr"
+	culture = "umli"
+	motto = dynn_umli_brokkr_motto
+}
+
+dynasty_umli_andvari = {
+	name = "dynn_umli_andvari"
+	culture = "umli"
+	motto = dynn_umli_andvari_motto
+}
+
+dynasty_umli_nori = {
+	name = "dynn_umli_nori"
+	culture = "umli"
+	motto = dynn_umli_nori_motto
+}
+
+############################################################
+# GAUREDAIN - HOUSE WAITHOR
+############################################################
+
+dynasty_gauredain_waithor = {
+	name = "dynn_gauredain_waithor"
+	culture = "gauredain"
+	motto = dynn_gauredain_waithor_motto
+}
+
+
+snoworc_ash_tusk = {
+	name = dynn_snoworc_ash_tusk
+	culture = snow_orc
+	motto = dynn_snoworc_ash_tusk_motto
+}
+
+snoworc_red_maw = {
+	name = dynn_snoworc_red_maw
+	culture = snow_orc
+	motto = dynn_snoworc_red_maw_motto
+}
+
+snoworc_black_fang = {
+	name = dynn_snoworc_black_fang
+	culture = snow_orc
+	motto = dynn_snoworc_black_fang_motto
+}
+
+snoworc_frostclaw = {
+	name = dynn_snoworc_frostclaw
+	culture = snow_orc
+	motto = dynn_snoworc_frostclaw_motto
+}
+
+snoworc_bone_crown = {
+	name = dynn_snoworc_bone_crown
+	culture = snow_orc
+	motto = dynn_snoworc_bone_crown_motto
+}
+
+snoworc_dragonblood = {
+	name = dynn_snoworc_dragonblood
+	culture = snow_orc
+	motto = dynn_snoworc_dragonblood_motto
+}
+
+snoworc_ironhide = {
+	name = dynn_snoworc_ironhide
+	culture = snow_orc
+	motto = dynn_snoworc_ironhide_motto
+}
+
+snoworc_bloodscale = {
+	name = dynn_snoworc_bloodscale
+	culture = snow_orc
+	motto = dynn_snoworc_bloodscale_motto
+}

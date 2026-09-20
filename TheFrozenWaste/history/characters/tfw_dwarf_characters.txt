@@ -1,0 +1,3096 @@
+###############################
+### IRONFISTS OF NIDAVELLIR ###
+###############################
+# Separate history file.
+# Royal line: dynasty_sindri.
+# Every non-royal landed line uses a new Nidavellir-specific dynasty.
+# Families include parents/siblings, spouses, collateral children, and heir children.
+
+
+################################
+### Royal branch: Line of Sindri
+################################
+
+
+
+lineofsindri90sister = { # younger sister of Eitri
+	name = Thri_i_s
+	female = yes
+
+	dynasty = dynasty_sindri
+	religion = faith_ironfists
+	culture = ironfists
+
+	father = lineofsindriVI
+	mother = nidavellir_royal_mother
+
+	sexuality = heterosexual
+
+	trait = ambitious
+	trait = gregarious
+	trait = fickle
+
+	diplomacy = 8
+	martial = 4
+	stewardship = 6
+	intrigue = 7
+	learning = 5
+	prowess = 3
+
+	trait = education_diplomacy_3
+
+	6718.11.17 = {
+		birth = yes
+	}
+
+	6977.6.5 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofsindri90 = { # founder of Nidavellir; base stats total 55
+	name = Eitri
+
+	dynasty = dynasty_sindri
+	religion = faith_ironfists
+	culture = ironfists
+
+	father = lineofsindriVI
+	mother = nidavellir_royal_mother
+
+	sexuality = heterosexual
+
+	trait = ambitious
+	trait = diligent
+	trait = brave
+
+	diplomacy = 8
+	martial = 11
+	stewardship = 12
+	intrigue = 6
+	learning = 8
+	prowess = 10
+
+	trait = education_stewardship_4
+	trait = architect
+	trait = artificer
+
+	6704.2.11 = {
+		birth = yes
+	}
+
+	6760.8.20 = {
+		add_spouse = lineofsindri90wife
+	}
+
+	6931.4.7 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofsindri90wife = {
+	name = Dholga
+	female = yes
+
+	dynasty = dynasty_nidavellir_zharakh
+	religion = faith_ironfists
+	culture = ironfists
+
+	sexuality = heterosexual
+
+	trait = shy
+	trait = just
+	trait = stubborn
+
+	diplomacy = 6
+	martial = 5
+	stewardship = 7
+	intrigue = 5
+	learning = 6
+	prowess = 4
+
+	trait = education_stewardship_3
+
+	6709.6.23 = {
+		birth = yes
+	}
+
+	6964.2.12 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofsindri90a = { # son and heir of Eitri; replaces Sindri VII; base stats total 55
+	name = Brokkr
+
+	dynasty = dynasty_sindri
+	religion = faith_ironfists
+	culture = ironfists
+
+	father = lineofsindri90
+	mother = lineofsindri90wife
+
+	sexuality = heterosexual
+
+	trait = stubborn
+	trait = diligent
+	trait = greedy
+
+	diplomacy = 7
+	martial = 11
+	stewardship = 11
+	intrigue = 6
+	learning = 9
+	prowess = 11
+
+	trait = education_stewardship_4
+	trait = artificer
+	trait = lifestyle_artifact_crafting
+
+	6772.7.18 = {
+		birth = yes
+	}
+
+	6868.4.15 = {
+		add_spouse = lineofsindri90awife
+	}
+
+	7047.9.3 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofsindri90child2 = { # daughter of Eitri; sister of Brokkr
+	name = Khemi_i_r
+	female = yes
+
+	dynasty = dynasty_sindri
+	religion = faith_ironfists
+	culture = ironfists
+
+	father = lineofsindri90
+	mother = lineofsindri90wife
+
+	sexuality = heterosexual
+
+	trait = compassionate
+	trait = patient
+	trait = content
+
+	diplomacy = 7
+	martial = 5
+	stewardship = 8
+	intrigue = 4
+	learning = 8
+	prowess = 5
+
+	trait = education_learning_3
+
+	6780.10.6 = {
+		birth = yes
+	}
+
+	6877.7.12 = {
+		add_spouse = lineofsindri90child2wife
+	}
+
+	7038.3.21 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofsindri90child2wife = {
+	name = Gharin
+
+	dynasty = dynasty_nidavellir_barukhan
+	religion = faith_ironfists
+	culture = ironfists
+
+	sexuality = heterosexual
+
+	trait = arrogant
+	trait = brave
+	trait = forgiving
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 5
+	intrigue = 4
+	learning = 5
+	prowess = 8
+
+	trait = education_martial_3
+
+	6777.4.19 = {
+		birth = yes
+	}
+
+	7041.8.10 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofsindri90child3 = { # younger son of Eitri; brother of Brokkr
+	name = Varkh
+
+	dynasty = dynasty_sindri
+	religion = faith_ironfists
+	culture = ironfists
+
+	father = lineofsindri90
+	mother = lineofsindri90wife
+
+	sexuality = heterosexual
+
+	trait = cynical
+	trait = calm
+	trait = honest
+
+	diplomacy = 6
+	martial = 7
+	stewardship = 7
+	intrigue = 6
+	learning = 7
+	prowess = 6
+
+	trait = education_stewardship_3
+
+	6789.1.27 = {
+		birth = yes
+	}
+
+	7055.11.9 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofsindri90awife = {
+	name = U_U_rla
+	female = yes
+
+	dynasty = dynasty_nidavellir_tharim
+	religion = faith_ironfists
+	culture = ironfists
+
+	sexuality = heterosexual
+
+	trait = gregarious
+	trait = ambitious
+	trait = temperate
+
+	diplomacy = 8
+	martial = 5
+	stewardship = 7
+	intrigue = 6
+	learning = 6
+	prowess = 4
+
+	trait = education_diplomacy_4
+
+	6777.12.3 = {
+		birth = yes
+	}
+
+	7059.5.22 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofsindri90b = { # grandson of Eitri; base stats total 55
+	name = Shakhal
+
+	dynasty = dynasty_sindri
+	religion = faith_ironfists
+	culture = ironfists
+
+	father = lineofsindri90a
+	mother = lineofsindri90awife
+
+	sexuality = heterosexual
+
+	trait = just
+	trait = gregarious
+	trait = brave
+
+	diplomacy = 8
+	martial = 12
+	stewardship = 9
+	intrigue = 7
+	learning = 8
+	prowess = 11
+
+	trait = education_martial_4
+	trait = dwarf_father
+
+	6891.12.4 = {
+		birth = yes
+	}
+
+	6989.9.16 = {
+		add_spouse = lineofsindri90bwife
+	}
+
+	7141.7.22 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofsindri90a_child2 = { # older sibling of Shakhal
+	name = Narvi
+
+	dynasty = dynasty_sindri
+	religion = faith_ironfists
+	culture = ironfists
+
+	father = lineofsindri90a
+	mother = lineofsindri90awife
+
+	sexuality = heterosexual
+
+	trait = paranoid
+	trait = diligent
+	trait = humble
+
+	diplomacy = 5
+	martial = 7
+	stewardship = 8
+	intrigue = 7
+	learning = 9
+	prowess = 5
+
+	trait = education_learning_4
+
+	6881.3.13 = {
+		birth = yes
+	}
+
+	6976.6.12 = {
+		add_spouse = lineofsindri90a_child2wife
+	}
+
+	7132.9.5 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofsindri90a_child2wife = {
+	name = Mhega
+	female = yes
+
+	dynasty = dynasty_nidavellir_kheledan
+	religion = faith_ironfists
+	culture = ironfists
+
+	sexuality = heterosexual
+
+	trait = generous
+	trait = wrathful
+	trait = honest
+
+	diplomacy = 6
+	martial = 6
+	stewardship = 6
+	intrigue = 5
+	learning = 7
+	prowess = 5
+
+	trait = education_learning_3
+
+	6884.8.11 = {
+		birth = yes
+	}
+
+	7140.2.4 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofsindri90a_child3 = { # younger sibling of Shakhal
+	name = Thrami
+	female = yes
+
+	dynasty = dynasty_sindri
+	religion = faith_ironfists
+	culture = ironfists
+
+	father = lineofsindri90a
+	mother = lineofsindri90awife
+
+	sexuality = heterosexual
+
+	trait = fickle
+	trait = zealous
+	trait = compassionate
+
+	diplomacy = 7
+	martial = 6
+	stewardship = 5
+	intrigue = 6
+	learning = 8
+	prowess = 4
+
+	trait = education_diplomacy_3
+
+	6904.5.21 = {
+		birth = yes
+	}
+
+	7167.10.8 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofsindri90bwife = {
+	name = Zhulda
+	female = yes
+
+	dynasty = dynasty_nidavellir_kheledan
+	religion = faith_ironfists
+	culture = ironfists
+
+	sexuality = heterosexual
+
+	trait = patient
+	trait = cynical
+	trait = diligent
+
+	diplomacy = 7
+	martial = 5
+	stewardship = 8
+	intrigue = 6
+	learning = 7
+	prowess = 4
+
+	trait = education_stewardship_4
+
+	6895.7.2 = {
+		birth = yes
+	}
+
+	7162.4.19 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofsindri90b_child1 = { # child of Shakhal
+	name = Bori
+
+	dynasty = dynasty_sindri
+	religion = faith_ironfists
+	culture = ironfists
+
+	father = lineofsindri90b
+	mother = lineofsindri90bwife
+
+	sexuality = heterosexual
+
+	trait = ambitious
+	trait = stubborn
+	trait = calm
+
+	diplomacy = 7
+	martial = 9
+	stewardship = 8
+	intrigue = 5
+	learning = 6
+	prowess = 8
+
+	trait = education_martial_3
+
+	7002.8.13 = {
+		birth = yes
+	}
+
+	7247.8.13 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofsindri90b_child2 = { # child of Shakhal
+	name = Dhemi_i_s
+	female = yes
+
+	dynasty = dynasty_sindri
+	religion = faith_ironfists
+	culture = ironfists
+
+	father = lineofsindri90b
+	mother = lineofsindri90bwife
+
+	sexuality = heterosexual
+
+	trait = honest
+	trait = gregarious
+	trait = forgiving
+
+	diplomacy = 8
+	martial = 4
+	stewardship = 7
+	intrigue = 6
+	learning = 7
+	prowess = 4
+
+	trait = education_diplomacy_3
+
+	7015.2.25 = {
+		birth = yes
+	}
+
+	7260.2.25 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineofsindri90b_child3 = { # child of Shakhal
+	name = Khurin
+
+	dynasty = dynasty_sindri
+	religion = faith_ironfists
+	culture = ironfists
+
+	father = lineofsindri90b
+	mother = lineofsindri90bwife
+
+	sexuality = heterosexual
+
+	trait = wrathful
+	trait = brave
+	trait = arbitrary
+
+	diplomacy = 4
+	martial = 10
+	stewardship = 6
+	intrigue = 7
+	learning = 5
+	prowess = 9
+
+	trait = education_martial_4
+
+	7027.10.7 = {
+		birth = yes
+	}
+
+	7272.10.7 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_a1_father = { # parent generation of the western marches house
+	name = Khuldin
+
+	dynasty = dynasty_nidavellir_kharum
+	religion = faith_ironfists
+	culture = ironfists
+
+	sexuality = heterosexual
+
+	trait = vengeful
+	trait = gregarious
+	trait = stubborn
+
+	diplomacy = 5
+	martial = 7
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	prowess = 7
+
+	trait = education_martial_3
+
+	6629.8.9 = {
+		birth = yes
+	}
+
+	6706.8.9 = {
+		add_spouse = nidavellir_a1_mother
+	}
+
+	6884.8.9 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+################################
+### Western marches: Kharum
+################################
+
+nidavellir_a1_mother = {
+	name = Rhela
+	female = yes
+
+	dynasty = dynasty_nidavellir_barukhan
+	religion = faith_ironfists
+	culture = ironfists
+
+	sexuality = heterosexual
+
+	trait = calm
+	trait = greedy
+	trait = just
+
+	diplomacy = 7
+	martial = 4
+	stewardship = 7
+	intrigue = 5
+	learning = 6
+	prowess = 4
+
+	trait = education_stewardship_3
+
+	6635.8.9 = {
+		birth = yes
+	}
+
+	6883.8.9 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_a1 = { # landed ruler of the western marches
+	name = Buldin
+
+	dynasty = dynasty_nidavellir_kharum
+	religion = faith_ironfists
+	culture = ironfists
+
+	father = nidavellir_a1_father
+	mother = nidavellir_a1_mother
+
+	sexuality = heterosexual
+
+	trait = stubborn
+	trait = generous
+	trait = cynical
+
+	diplomacy = 6
+	martial = 8
+	stewardship = 8
+	intrigue = 5
+	learning = 6
+	prowess = 9
+
+	trait = education_martial_3
+	trait = dwarf_father
+
+	6751.8.9 = {
+		birth = yes
+	}
+
+	6835.8.9 = {
+		add_spouse = nidavellir_a1_spouse
+	}
+
+	6998.12.8 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_a1_sibling = { # sibling of Buldin
+	name = Druhar
+
+	dynasty = dynasty_nidavellir_kharum
+	religion = faith_ironfists
+	culture = ironfists
+
+	father = nidavellir_a1_father
+	mother = nidavellir_a1_mother
+
+	sexuality = heterosexual
+
+	trait = arbitrary
+	trait = brave
+	trait = temperate
+
+	diplomacy = 4
+	martial = 8
+	stewardship = 6
+	intrigue = 5
+	learning = 5
+	prowess = 8
+
+	trait = education_diplomacy_3
+
+	6765.8.9 = {
+		birth = yes
+	}
+
+	7009.8.9 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_a1_spouse = {
+	name = Vargaezha
+	female = yes
+
+	dynasty = dynasty_nidavellir_barukhan
+	religion = faith_ironfists
+	culture = ironfists
+
+	sexuality = heterosexual
+
+	trait = shy
+	trait = diligent
+	trait = cynical
+
+	diplomacy = 6
+	martial = 6
+	stewardship = 5
+	intrigue = 7
+	learning = 6
+	prowess = 5
+
+	trait = education_intrigue_3
+
+	6756.8.9 = {
+		birth = yes
+	}
+
+	7006.8.9 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_a2 = { # successor in the western marches
+	name = Khurubra
+
+	dynasty = dynasty_nidavellir_kharum
+	religion = faith_ironfists
+	culture = ironfists
+
+	father = nidavellir_a1
+	mother = nidavellir_a1_spouse
+
+	sexuality = heterosexual
+
+	trait = calm
+	trait = ambitious
+	trait = honest
+
+	diplomacy = 8
+	martial = 7
+	stewardship = 9
+	intrigue = 5
+	learning = 7
+	prowess = 7
+
+	trait = education_stewardship_4
+	trait = dwarf_father
+
+	6876.3.14 = {
+		birth = yes
+	}
+
+	6967.3.14 = {
+		add_spouse = nidavellir_a2_spouse
+	}
+
+	7153.6.21 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_a_child2 = { # sibling of Khurubra
+	name = Thromel
+
+	dynasty = dynasty_nidavellir_kharum
+	religion = faith_ironfists
+	culture = ironfists
+
+	father = nidavellir_a1
+	mother = nidavellir_a1_spouse
+
+	sexuality = heterosexual
+
+	trait = forgiving
+	trait = ambitious
+	trait = content
+
+	diplomacy = 7
+	martial = 5
+	stewardship = 7
+	intrigue = 4
+	learning = 5
+	prowess = 6
+
+	trait = education_stewardship_2
+
+	6860.3.14 = {
+		birth = yes
+	}
+
+	7106.3.14 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_a_child3 = { # sibling of Khurubra
+	name = Khalril
+	female = yes
+
+	dynasty = dynasty_nidavellir_kharum
+	religion = faith_ironfists
+	culture = ironfists
+
+	father = nidavellir_a1
+	mother = nidavellir_a1_spouse
+
+	sexuality = heterosexual
+
+	trait = patient
+	trait = honest
+	trait = compassionate
+
+	diplomacy = 6
+	martial = 5
+	stewardship = 6
+	intrigue = 4
+	learning = 7
+	prowess = 4
+
+	trait = education_learning_3
+
+	6895.3.14 = {
+		birth = yes
+	}
+
+	7141.3.14 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_a2_spouse = {
+	name = Mhilare_e_
+	female = yes
+
+	dynasty = dynasty_nidavellir_tharim
+	religion = faith_ironfists
+	culture = ironfists
+
+	sexuality = heterosexual
+
+	trait = vengeful
+	trait = gregarious
+	trait = stubborn
+
+	diplomacy = 7
+	martial = 4
+	stewardship = 7
+	intrigue = 5
+	learning = 6
+	prowess = 4
+
+	trait = education_martial_3
+
+	6880.3.14 = {
+		birth = yes
+	}
+
+	7131.3.14 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_a2_child1 = { # child of Khurubra
+	name = Gour
+
+	dynasty = dynasty_nidavellir_kharum
+	religion = faith_ironfists
+	culture = ironfists
+
+	father = nidavellir_a2
+	mother = nidavellir_a2_spouse
+
+	sexuality = heterosexual
+
+	trait = calm
+	trait = greedy
+	trait = just
+
+	diplomacy = 4
+	martial = 8
+	stewardship = 6
+	intrigue = 5
+	learning = 5
+	prowess = 8
+
+	trait = education_stewardship_3
+
+	6987.3.14 = {
+		birth = yes
+	}
+
+	7232.3.14 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_a2_child2 = { # child of Khurubra
+	name = Uvaril
+	female = yes
+
+	dynasty = dynasty_nidavellir_kharum
+	religion = faith_ironfists
+	culture = ironfists
+
+	father = nidavellir_a2
+	mother = nidavellir_a2_spouse
+
+	sexuality = heterosexual
+
+	trait = arbitrary
+	trait = brave
+	trait = temperate
+
+	diplomacy = 6
+	martial = 6
+	stewardship = 5
+	intrigue = 7
+	learning = 6
+	prowess = 5
+
+	trait = education_diplomacy_3
+
+	7000.3.14 = {
+		birth = yes
+	}
+
+	7245.3.14 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_a2_child3 = { # child of Khurubra
+	name = Takho_o_
+
+	dynasty = dynasty_nidavellir_kharum
+	religion = faith_ironfists
+	culture = ironfists
+
+	father = nidavellir_a2
+	mother = nidavellir_a2_spouse
+
+	sexuality = heterosexual
+
+	trait = shy
+	trait = diligent
+	trait = cynical
+
+	diplomacy = 7
+	martial = 5
+	stewardship = 7
+	intrigue = 4
+	learning = 5
+	prowess = 6
+
+	trait = education_intrigue_3
+
+	7013.3.14 = {
+		birth = yes
+	}
+
+	7258.3.14 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_b1_father = { # parent generation of the second hall house
+	name = Zharun
+
+	dynasty = dynasty_nidavellir_zharakh
+	religion = faith_ironfists
+	culture = ironfists
+
+	sexuality = heterosexual
+
+	trait = calm
+	trait = greedy
+	trait = just
+
+	diplomacy = 7
+	martial = 4
+	stewardship = 7
+	intrigue = 5
+	learning = 6
+	prowess = 4
+
+	trait = education_stewardship_3
+
+	6658.5.2 = {
+		birth = yes
+	}
+
+	6735.5.2 = {
+		add_spouse = nidavellir_b1_mother
+	}
+
+	6913.5.2 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+################################
+### Second Hall: Zharakh
+################################
+
+nidavellir_b1_mother = {
+	name = Khomi_i_s
+	female = yes
+
+	dynasty = dynasty_nidavellir_kharum
+	religion = faith_ironfists
+	culture = ironfists
+
+	sexuality = heterosexual
+
+	trait = arbitrary
+	trait = brave
+	trait = temperate
+
+	diplomacy = 4
+	martial = 8
+	stewardship = 6
+	intrigue = 5
+	learning = 5
+	prowess = 8
+
+	trait = education_diplomacy_3
+
+	6664.5.2 = {
+		birth = yes
+	}
+
+	6912.5.2 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_b1 = { # landed ruler of the second hall
+	name = Mazu_u_n
+
+	dynasty = dynasty_nidavellir_zharakh
+	religion = faith_ironfists
+	culture = ironfists
+
+	father = nidavellir_b1_father
+	mother = nidavellir_b1_mother
+
+	sexuality = heterosexual
+
+	trait = greedy
+	trait = gregarious
+	trait = brave
+
+	diplomacy = 7
+	martial = 9
+	stewardship = 8
+	intrigue = 4
+	learning = 5
+	prowess = 9
+
+	trait = education_martial_4
+	trait = dwarf_father
+
+	6780.5.2 = {
+		birth = yes
+	}
+
+	6864.5.2 = {
+		add_spouse = nidavellir_b1_spouse
+	}
+
+	7030.5.14 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_b1_sibling = { # sibling of Mazu_u_n
+	name = Raghal
+
+	dynasty = dynasty_nidavellir_zharakh
+	religion = faith_ironfists
+	culture = ironfists
+
+	father = nidavellir_b1_father
+	mother = nidavellir_b1_mother
+
+	sexuality = heterosexual
+
+	trait = shy
+	trait = diligent
+	trait = cynical
+
+	diplomacy = 6
+	martial = 6
+	stewardship = 5
+	intrigue = 7
+	learning = 6
+	prowess = 5
+
+	trait = education_intrigue_3
+
+	6794.5.2 = {
+		birth = yes
+	}
+
+	7038.5.2 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_b1_spouse = {
+	name = Dagna
+	female = yes
+
+	dynasty = dynasty_nidavellir_kharum
+	religion = faith_ironfists
+	culture = ironfists
+
+	sexuality = heterosexual
+
+	trait = forgiving
+	trait = ambitious
+	trait = content
+
+	diplomacy = 7
+	martial = 5
+	stewardship = 7
+	intrigue = 4
+	learning = 5
+	prowess = 6
+
+	trait = education_stewardship_2
+
+	6785.5.2 = {
+		birth = yes
+	}
+
+	7035.5.2 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_b2 = { # successor in the second hall
+	name = Yarl
+
+	dynasty = dynasty_nidavellir_zharakh
+	religion = faith_ironfists
+	culture = ironfists
+
+	father = nidavellir_b1
+	mother = nidavellir_b1_spouse
+
+	sexuality = heterosexual
+
+	trait = patient
+	trait = zealous
+	trait = arbitrary
+
+	diplomacy = 6
+	martial = 8
+	stewardship = 10
+	intrigue = 5
+	learning = 7
+	prowess = 7
+
+	trait = education_stewardship_4
+	trait = dwarf_father
+
+	6901.9.20 = {
+		birth = yes
+	}
+
+	6992.9.20 = {
+		add_spouse = nidavellir_b2_spouse
+	}
+
+	7182.4.8 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_b_child2 = { # sibling of Yarl
+	name = Khryakta_a_r
+
+	dynasty = dynasty_nidavellir_zharakh
+	religion = faith_ironfists
+	culture = ironfists
+
+	father = nidavellir_b1
+	mother = nidavellir_b1_spouse
+
+	sexuality = heterosexual
+
+	trait = patient
+	trait = honest
+	trait = compassionate
+
+	diplomacy = 6
+	martial = 5
+	stewardship = 6
+	intrigue = 4
+	learning = 7
+	prowess = 4
+
+	trait = education_learning_3
+
+	6885.9.20 = {
+		birth = yes
+	}
+
+	7131.9.20 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_b_child3 = { # sibling of Yarl
+	name = Bulga
+	female = yes
+
+	dynasty = dynasty_nidavellir_zharakh
+	religion = faith_ironfists
+	culture = ironfists
+
+	father = nidavellir_b1
+	mother = nidavellir_b1_spouse
+
+	sexuality = heterosexual
+
+	trait = vengeful
+	trait = gregarious
+	trait = stubborn
+
+	diplomacy = 5
+	martial = 7
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	prowess = 7
+
+	trait = education_martial_3
+
+	6920.9.20 = {
+		birth = yes
+	}
+
+	7166.9.20 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_b2_spouse = {
+	name = O_O_vatha
+	female = yes
+
+	dynasty = dynasty_nidavellir_gabilan
+	religion = faith_ironfists
+	culture = ironfists
+
+	sexuality = heterosexual
+
+	trait = calm
+	trait = greedy
+	trait = just
+
+	diplomacy = 4
+	martial = 8
+	stewardship = 6
+	intrigue = 5
+	learning = 5
+	prowess = 8
+
+	trait = education_stewardship_3
+
+	6905.9.20 = {
+		birth = yes
+	}
+
+	7156.9.20 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_b2_child1 = { # child of Yarl
+	name = Nari
+
+	dynasty = dynasty_nidavellir_zharakh
+	religion = faith_ironfists
+	culture = ironfists
+
+	father = nidavellir_b2
+	mother = nidavellir_b2_spouse
+
+	sexuality = heterosexual
+
+	trait = arbitrary
+	trait = brave
+	trait = temperate
+
+	diplomacy = 6
+	martial = 6
+	stewardship = 5
+	intrigue = 7
+	learning = 6
+	prowess = 5
+
+	trait = education_diplomacy_3
+
+	7012.9.20 = {
+		birth = yes
+	}
+
+	7257.9.20 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_b2_child2 = { # child of Yarl
+	name = Khlea_a_
+	female = yes
+
+	dynasty = dynasty_nidavellir_zharakh
+	religion = faith_ironfists
+	culture = ironfists
+
+	father = nidavellir_b2
+	mother = nidavellir_b2_spouse
+
+	sexuality = heterosexual
+
+	trait = shy
+	trait = diligent
+	trait = cynical
+
+	diplomacy = 7
+	martial = 5
+	stewardship = 7
+	intrigue = 4
+	learning = 5
+	prowess = 6
+
+	trait = education_intrigue_3
+
+	7025.9.20 = {
+		birth = yes
+	}
+
+	7270.9.20 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_b2_child3 = { # child of Yarl
+	name = Retvir
+
+	dynasty = dynasty_nidavellir_zharakh
+	religion = faith_ironfists
+	culture = ironfists
+
+	father = nidavellir_b2
+	mother = nidavellir_b2_spouse
+
+	sexuality = heterosexual
+
+	trait = forgiving
+	trait = ambitious
+	trait = content
+
+	diplomacy = 6
+	martial = 5
+	stewardship = 6
+	intrigue = 4
+	learning = 7
+	prowess = 4
+
+	trait = education_stewardship_2
+
+	7038.9.20 = {
+		birth = yes
+	}
+
+	7283.9.20 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_c1_father = { # parent generation of the deep-road wardens house
+	name = Tharakh
+
+	dynasty = dynasty_nidavellir_tharim
+	religion = faith_ironfists
+	culture = ironfists
+
+	sexuality = heterosexual
+
+	trait = arbitrary
+	trait = brave
+	trait = temperate
+
+	diplomacy = 4
+	martial = 8
+	stewardship = 6
+	intrigue = 5
+	learning = 5
+	prowess = 8
+
+	trait = education_diplomacy_3
+
+	6703.1.17 = {
+		birth = yes
+	}
+
+	6780.1.17 = {
+		add_spouse = nidavellir_c1_mother
+	}
+
+	6958.1.17 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+################################
+### Deep-road wardens: Tharim
+################################
+
+nidavellir_c1_mother = {
+	name = Emulha_a_
+	female = yes
+
+	dynasty = dynasty_nidavellir_zharakh
+	religion = faith_ironfists
+	culture = ironfists
+
+	sexuality = heterosexual
+
+	trait = shy
+	trait = diligent
+	trait = cynical
+
+	diplomacy = 6
+	martial = 6
+	stewardship = 5
+	intrigue = 7
+	learning = 6
+	prowess = 5
+
+	trait = education_intrigue_3
+
+	6709.1.17 = {
+		birth = yes
+	}
+
+	6957.1.17 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_c1 = { # landed ruler of the deep-road wardens
+	name = U_U_vatha
+
+	dynasty = dynasty_nidavellir_tharim
+	religion = faith_ironfists
+	culture = ironfists
+
+	father = nidavellir_c1_father
+	mother = nidavellir_c1_mother
+
+	sexuality = heterosexual
+
+	trait = shy
+	trait = diligent
+	trait = forgiving
+
+	diplomacy = 6
+	martial = 8
+	stewardship = 9
+	intrigue = 5
+	learning = 8
+	prowess = 7
+
+	trait = education_stewardship_3
+	trait = dwarf_father
+
+	6825.1.17 = {
+		birth = yes
+	}
+
+	6909.1.17 = {
+		add_spouse = nidavellir_c1_spouse
+	}
+
+	7070.9.9 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_c1_sibling = { # sibling of U_U_vatha
+	name = Ghash
+
+	dynasty = dynasty_nidavellir_tharim
+	religion = faith_ironfists
+	culture = ironfists
+
+	father = nidavellir_c1_father
+	mother = nidavellir_c1_mother
+
+	sexuality = heterosexual
+
+	trait = forgiving
+	trait = ambitious
+	trait = content
+
+	diplomacy = 7
+	martial = 5
+	stewardship = 7
+	intrigue = 4
+	learning = 5
+	prowess = 6
+
+	trait = education_stewardship_2
+
+	6839.1.17 = {
+		birth = yes
+	}
+
+	7083.1.17 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_c1_spouse = {
+	name = Songhli_i_s
+	female = yes
+
+	dynasty = dynasty_nidavellir_zharakh
+	religion = faith_ironfists
+	culture = ironfists
+
+	sexuality = heterosexual
+
+	trait = patient
+	trait = honest
+	trait = compassionate
+
+	diplomacy = 6
+	martial = 5
+	stewardship = 6
+	intrigue = 4
+	learning = 7
+	prowess = 4
+
+	trait = education_learning_3
+
+	6830.1.17 = {
+		birth = yes
+	}
+
+	7080.1.17 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_c2 = { # successor in the deep-road wardens
+	name = Taro_o_k
+
+	dynasty = dynasty_nidavellir_tharim
+	religion = faith_ironfists
+	culture = ironfists
+
+	father = nidavellir_c1
+	mother = nidavellir_c1_spouse
+
+	sexuality = heterosexual
+
+	trait = wrathful
+	trait = just
+	trait = temperate
+
+	diplomacy = 7
+	martial = 8
+	stewardship = 8
+	intrigue = 6
+	learning = 7
+	prowess = 8
+
+	trait = education_martial_3
+	trait = dwarf_father
+
+	6952.11.6 = {
+		birth = yes
+	}
+
+	7043.11.6 = {
+		add_spouse = nidavellir_c2_spouse
+	}
+
+	7211.2.18 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_c_child2 = { # sibling of Taro_o_k
+	name = Shakal
+
+	dynasty = dynasty_nidavellir_tharim
+	religion = faith_ironfists
+	culture = ironfists
+
+	father = nidavellir_c1
+	mother = nidavellir_c1_spouse
+
+	sexuality = heterosexual
+
+	trait = vengeful
+	trait = gregarious
+	trait = stubborn
+
+	diplomacy = 5
+	martial = 7
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	prowess = 7
+
+	trait = education_martial_3
+
+	6936.11.6 = {
+		birth = yes
+	}
+
+	7182.11.6 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_c_child3 = { # sibling of Taro_o_k
+	name = Dagharga
+	female = yes
+
+	dynasty = dynasty_nidavellir_tharim
+	religion = faith_ironfists
+	culture = ironfists
+
+	father = nidavellir_c1
+	mother = nidavellir_c1_spouse
+
+	sexuality = heterosexual
+
+	trait = calm
+	trait = greedy
+	trait = just
+
+	diplomacy = 7
+	martial = 4
+	stewardship = 7
+	intrigue = 5
+	learning = 6
+	prowess = 4
+
+	trait = education_stewardship_3
+
+	6971.11.6 = {
+		birth = yes
+	}
+
+	7217.11.6 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_c2_spouse = {
+	name = Yarlik
+	female = yes
+
+	dynasty = dynasty_nidavellir_kheledan
+	religion = faith_ironfists
+	culture = ironfists
+
+	sexuality = heterosexual
+
+	trait = arbitrary
+	trait = brave
+	trait = temperate
+
+	diplomacy = 6
+	martial = 6
+	stewardship = 5
+	intrigue = 7
+	learning = 6
+	prowess = 5
+
+	trait = education_diplomacy_3
+
+	6956.11.6 = {
+		birth = yes
+	}
+
+	7207.11.6 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_c2_child1 = { # child of Taro_o_k
+	name = Khurubra
+
+	dynasty = dynasty_nidavellir_tharim
+	religion = faith_ironfists
+	culture = ironfists
+
+	father = nidavellir_c2
+	mother = nidavellir_c2_spouse
+
+	sexuality = heterosexual
+
+	trait = shy
+	trait = diligent
+	trait = cynical
+
+	diplomacy = 7
+	martial = 5
+	stewardship = 7
+	intrigue = 4
+	learning = 5
+	prowess = 6
+
+	trait = education_intrigue_3
+
+	7063.11.6 = {
+		birth = yes
+	}
+
+	7308.11.6 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_c2_child2 = { # child of Taro_o_k
+	name = D_ama
+	female = yes
+
+	dynasty = dynasty_nidavellir_tharim
+	religion = faith_ironfists
+	culture = ironfists
+
+	father = nidavellir_c2
+	mother = nidavellir_c2_spouse
+
+	sexuality = heterosexual
+
+	trait = forgiving
+	trait = ambitious
+	trait = content
+
+	diplomacy = 6
+	martial = 5
+	stewardship = 6
+	intrigue = 4
+	learning = 7
+	prowess = 4
+
+	trait = education_stewardship_2
+
+	7076.11.6 = {
+		birth = yes
+	}
+
+	7321.11.6 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_c2_child3 = { # child of Taro_o_k
+	name = Aili_i_kh
+
+	dynasty = dynasty_nidavellir_tharim
+	religion = faith_ironfists
+	culture = ironfists
+
+	father = nidavellir_c2
+	mother = nidavellir_c2_spouse
+
+	sexuality = heterosexual
+
+	trait = patient
+	trait = honest
+	trait = compassionate
+
+	diplomacy = 5
+	martial = 7
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	prowess = 7
+
+	trait = education_learning_3
+
+	7089.11.6 = {
+		birth = yes
+	}
+
+	7334.11.6 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_d1_father = { # parent generation of the eastern gate house
+	name = Gabil
+
+	dynasty = dynasty_nidavellir_gabilan
+	religion = faith_ironfists
+	culture = ironfists
+
+	sexuality = heterosexual
+
+	trait = shy
+	trait = diligent
+	trait = cynical
+
+	diplomacy = 6
+	martial = 6
+	stewardship = 5
+	intrigue = 7
+	learning = 6
+	prowess = 5
+
+	trait = education_intrigue_3
+
+	6749.6.12 = {
+		birth = yes
+	}
+
+	6826.6.12 = {
+		add_spouse = nidavellir_d1_mother
+	}
+
+	7004.6.12 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+################################
+### Eastern gate: Gabilan
+################################
+
+nidavellir_d1_mother = {
+	name = Nomi
+	female = yes
+
+	dynasty = dynasty_nidavellir_tharim
+	religion = faith_ironfists
+	culture = ironfists
+
+	sexuality = heterosexual
+
+	trait = forgiving
+	trait = ambitious
+	trait = content
+
+	diplomacy = 7
+	martial = 5
+	stewardship = 7
+	intrigue = 4
+	learning = 5
+	prowess = 6
+
+	trait = education_stewardship_2
+
+	6755.6.12 = {
+		birth = yes
+	}
+
+	7003.6.12 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_d1 = { # landed ruler of the eastern gate
+	name = Dhri_i_m
+
+	dynasty = dynasty_nidavellir_gabilan
+	religion = faith_ironfists
+	culture = ironfists
+
+	father = nidavellir_d1_father
+	mother = nidavellir_d1_mother
+
+	sexuality = heterosexual
+
+	trait = callous
+	trait = brave
+	trait = ambitious
+
+	diplomacy = 5
+	martial = 10
+	stewardship = 7
+	intrigue = 6
+	learning = 6
+	prowess = 10
+
+	trait = education_martial_4
+	trait = dwarf_father
+
+	6871.6.12 = {
+		birth = yes
+	}
+
+	6955.6.12 = {
+		add_spouse = nidavellir_d1_spouse
+	}
+
+	7120.3.4 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_d1_sibling = { # sibling of Dhri_i_m
+	name = Molluk
+
+	dynasty = dynasty_nidavellir_gabilan
+	religion = faith_ironfists
+	culture = ironfists
+
+	father = nidavellir_d1_father
+	mother = nidavellir_d1_mother
+
+	sexuality = heterosexual
+
+	trait = patient
+	trait = honest
+	trait = compassionate
+
+	diplomacy = 6
+	martial = 5
+	stewardship = 6
+	intrigue = 4
+	learning = 7
+	prowess = 4
+
+	trait = education_learning_3
+
+	6885.6.12 = {
+		birth = yes
+	}
+
+	7129.6.12 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_d1_spouse = {
+	name = Khonenith
+	female = yes
+
+	dynasty = dynasty_nidavellir_tharim
+	religion = faith_ironfists
+	culture = ironfists
+
+	sexuality = heterosexual
+
+	trait = vengeful
+	trait = gregarious
+	trait = stubborn
+
+	diplomacy = 5
+	martial = 7
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	prowess = 7
+
+	trait = education_martial_3
+
+	6876.6.12 = {
+		birth = yes
+	}
+
+	7126.6.12 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_d2 = { # successor in the eastern gate
+	name = Lakhi_i_r
+
+	dynasty = dynasty_nidavellir_gabilan
+	religion = faith_ironfists
+	culture = ironfists
+
+	father = nidavellir_d1
+	mother = nidavellir_d1_spouse
+
+	sexuality = heterosexual
+
+	trait = content
+	trait = trusting
+	trait = stubborn
+
+	diplomacy = 7
+	martial = 7
+	stewardship = 8
+	intrigue = 5
+	learning = 8
+	prowess = 7
+
+	trait = education_learning_3
+	trait = dwarf_father
+
+	6992.2.23 = {
+		birth = yes
+	}
+
+	7083.2.23 = {
+		add_spouse = nidavellir_d2_spouse
+	}
+
+	7244.8.11 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_d_child2 = { # sibling of Lakhi_i_r
+	name = Whi_i_m
+
+	dynasty = dynasty_nidavellir_gabilan
+	religion = faith_ironfists
+	culture = ironfists
+
+	father = nidavellir_d1
+	mother = nidavellir_d1_spouse
+
+	sexuality = heterosexual
+
+	trait = calm
+	trait = greedy
+	trait = just
+
+	diplomacy = 7
+	martial = 4
+	stewardship = 7
+	intrigue = 5
+	learning = 6
+	prowess = 4
+
+	trait = education_stewardship_3
+
+	6976.2.23 = {
+		birth = yes
+	}
+
+	7222.2.23 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_d_child3 = { # sibling of Lakhi_i_r
+	name = Bhuri_i_n
+	female = yes
+
+	dynasty = dynasty_nidavellir_gabilan
+	religion = faith_ironfists
+	culture = ironfists
+
+	father = nidavellir_d1
+	mother = nidavellir_d1_spouse
+
+	sexuality = heterosexual
+
+	trait = arbitrary
+	trait = brave
+	trait = temperate
+
+	diplomacy = 4
+	martial = 8
+	stewardship = 6
+	intrigue = 5
+	learning = 5
+	prowess = 8
+
+	trait = education_diplomacy_3
+
+	7011.2.23 = {
+		birth = yes
+	}
+
+	7257.2.23 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_d2_spouse = {
+	name = U_U_lruth
+	female = yes
+
+	dynasty = dynasty_nidavellir_barukhan
+	religion = faith_ironfists
+	culture = ironfists
+
+	sexuality = heterosexual
+
+	trait = shy
+	trait = diligent
+	trait = cynical
+
+	diplomacy = 7
+	martial = 5
+	stewardship = 7
+	intrigue = 4
+	learning = 5
+	prowess = 6
+
+	trait = education_intrigue_3
+
+	6996.2.23 = {
+		birth = yes
+	}
+
+	7247.2.23 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_d2_child1 = { # child of Lakhi_i_r
+	name = Threvo_o_r
+
+	dynasty = dynasty_nidavellir_gabilan
+	religion = faith_ironfists
+	culture = ironfists
+
+	father = nidavellir_d2
+	mother = nidavellir_d2_spouse
+
+	sexuality = heterosexual
+
+	trait = forgiving
+	trait = ambitious
+	trait = content
+
+	diplomacy = 6
+	martial = 5
+	stewardship = 6
+	intrigue = 4
+	learning = 7
+	prowess = 4
+
+	trait = education_stewardship_2
+
+	7103.2.23 = {
+		birth = yes
+	}
+
+	7348.2.23 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_d2_child2 = { # child of Lakhi_i_r
+	name = Kholan
+	female = yes
+
+	dynasty = dynasty_nidavellir_gabilan
+	religion = faith_ironfists
+	culture = ironfists
+
+	father = nidavellir_d2
+	mother = nidavellir_d2_spouse
+
+	sexuality = heterosexual
+
+	trait = patient
+	trait = honest
+	trait = compassionate
+
+	diplomacy = 5
+	martial = 7
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	prowess = 7
+
+	trait = education_learning_3
+
+	7116.2.23 = {
+		birth = yes
+	}
+
+	7361.2.23 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_d2_child3 = { # child of Lakhi_i_r
+	name = Mazu_u_n
+
+	dynasty = dynasty_nidavellir_gabilan
+	religion = faith_ironfists
+	culture = ironfists
+
+	father = nidavellir_d2
+	mother = nidavellir_d2_spouse
+
+	sexuality = heterosexual
+
+	trait = vengeful
+	trait = gregarious
+	trait = stubborn
+
+	diplomacy = 7
+	martial = 4
+	stewardship = 7
+	intrigue = 5
+	learning = 6
+	prowess = 4
+
+	trait = education_martial_3
+
+	7129.2.23 = {
+		birth = yes
+	}
+
+	7374.2.23 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_e1_father = { # parent generation of the third hall house
+	name = Kheled
+
+	dynasty = dynasty_nidavellir_kheledan
+	religion = faith_ironfists
+	culture = ironfists
+
+	sexuality = heterosexual
+
+	trait = forgiving
+	trait = ambitious
+	trait = content
+
+	diplomacy = 7
+	martial = 5
+	stewardship = 7
+	intrigue = 4
+	learning = 5
+	prowess = 6
+
+	trait = education_stewardship_2
+
+	6768.10.3 = {
+		birth = yes
+	}
+
+	6845.10.3 = {
+		add_spouse = nidavellir_e1_mother
+	}
+
+	7023.10.3 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+################################
+### Third Hall: Kheledan
+################################
+
+nidavellir_e1_mother = {
+	name = Varga
+	female = yes
+
+	dynasty = dynasty_nidavellir_gabilan
+	religion = faith_ironfists
+	culture = ironfists
+
+	sexuality = heterosexual
+
+	trait = patient
+	trait = honest
+	trait = compassionate
+
+	diplomacy = 6
+	martial = 5
+	stewardship = 6
+	intrigue = 4
+	learning = 7
+	prowess = 4
+
+	trait = education_learning_3
+
+	6774.10.3 = {
+		birth = yes
+	}
+
+	7022.10.3 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_e1 = { # landed ruler of the third hall
+	name = Whomu_u_l
+
+	dynasty = dynasty_nidavellir_kheledan
+	religion = faith_ironfists
+	culture = ironfists
+
+	father = nidavellir_e1_father
+	mother = nidavellir_e1_mother
+
+	sexuality = heterosexual
+
+	trait = arrogant
+	trait = diligent
+	trait = compassionate
+
+	diplomacy = 7
+	martial = 8
+	stewardship = 10
+	intrigue = 5
+	learning = 7
+	prowess = 8
+
+	trait = education_stewardship_4
+	trait = dwarf_father
+
+	6890.10.3 = {
+		birth = yes
+	}
+
+	6974.10.3 = {
+		add_spouse = nidavellir_e1_spouse
+	}
+
+	7140.8.17 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_e1_sibling = { # sibling of Whomu_u_l
+	name = Bountig
+
+	dynasty = dynasty_nidavellir_kheledan
+	religion = faith_ironfists
+	culture = ironfists
+
+	father = nidavellir_e1_father
+	mother = nidavellir_e1_mother
+
+	sexuality = heterosexual
+
+	trait = vengeful
+	trait = gregarious
+	trait = stubborn
+
+	diplomacy = 5
+	martial = 7
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	prowess = 7
+
+	trait = education_martial_3
+
+	6904.10.3 = {
+		birth = yes
+	}
+
+	7148.10.3 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_e1_spouse = {
+	name = Uli_i_s
+	female = yes
+
+	dynasty = dynasty_nidavellir_gabilan
+	religion = faith_ironfists
+	culture = ironfists
+
+	sexuality = heterosexual
+
+	trait = calm
+	trait = greedy
+	trait = just
+
+	diplomacy = 7
+	martial = 4
+	stewardship = 7
+	intrigue = 5
+	learning = 6
+	prowess = 4
+
+	trait = education_stewardship_3
+
+	6895.10.3 = {
+		birth = yes
+	}
+
+	7145.10.3 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_e2 = { # successor in the third hall
+	name = O_O_erli_i_s
+
+	dynasty = dynasty_nidavellir_kheledan
+	religion = faith_ironfists
+	culture = ironfists
+
+	father = nidavellir_e1
+	mother = nidavellir_e1_spouse
+
+	sexuality = heterosexual
+
+	trait = cynical
+	trait = gregarious
+	trait = patient
+
+	diplomacy = 8
+	martial = 9
+	stewardship = 8
+	intrigue = 5
+	learning = 7
+	prowess = 8
+
+	trait = education_martial_3
+	trait = dwarf_father
+
+	7012.5.29 = {
+		birth = yes
+	}
+
+	7103.5.29 = {
+		add_spouse = nidavellir_e2_spouse
+	}
+
+	7260.9.2 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_e_child2 = { # sibling of O_O_erli_i_s
+	name = Dhru_u_s
+
+	dynasty = dynasty_nidavellir_kheledan
+	religion = faith_ironfists
+	culture = ironfists
+
+	father = nidavellir_e1
+	mother = nidavellir_e1_spouse
+
+	sexuality = heterosexual
+
+	trait = arbitrary
+	trait = brave
+	trait = temperate
+
+	diplomacy = 4
+	martial = 8
+	stewardship = 6
+	intrigue = 5
+	learning = 5
+	prowess = 8
+
+	trait = education_diplomacy_3
+
+	6996.5.29 = {
+		birth = yes
+	}
+
+	7242.5.29 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_e_child3 = { # sibling of O_O_erli_i_s
+	name = Mardral
+	female = yes
+
+	dynasty = dynasty_nidavellir_kheledan
+	religion = faith_ironfists
+	culture = ironfists
+
+	father = nidavellir_e1
+	mother = nidavellir_e1_spouse
+
+	sexuality = heterosexual
+
+	trait = shy
+	trait = diligent
+	trait = cynical
+
+	diplomacy = 6
+	martial = 6
+	stewardship = 5
+	intrigue = 7
+	learning = 6
+	prowess = 5
+
+	trait = education_intrigue_3
+
+	7031.5.29 = {
+		birth = yes
+	}
+
+	7277.5.29 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_e2_spouse = {
+	name = Krathven
+	female = yes
+
+	dynasty = dynasty_nidavellir_kharum
+	religion = faith_ironfists
+	culture = ironfists
+
+	sexuality = heterosexual
+
+	trait = forgiving
+	trait = ambitious
+	trait = content
+
+	diplomacy = 6
+	martial = 5
+	stewardship = 6
+	intrigue = 4
+	learning = 7
+	prowess = 4
+
+	trait = education_stewardship_2
+
+	7016.5.29 = {
+		birth = yes
+	}
+
+	7267.5.29 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_e2_child1 = { # child of O_O_erli_i_s
+	name = Turga
+
+	dynasty = dynasty_nidavellir_kheledan
+	religion = faith_ironfists
+	culture = ironfists
+
+	father = nidavellir_e2
+	mother = nidavellir_e2_spouse
+
+	sexuality = heterosexual
+
+	trait = patient
+	trait = honest
+	trait = compassionate
+
+	diplomacy = 5
+	martial = 7
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	prowess = 7
+
+	trait = education_learning_3
+
+	7123.5.29 = {
+		birth = yes
+	}
+
+	7368.5.29 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_e2_child2 = { # child of O_O_erli_i_s
+	name = Surakhla
+	female = yes
+
+	dynasty = dynasty_nidavellir_kheledan
+	religion = faith_ironfists
+	culture = ironfists
+
+	father = nidavellir_e2
+	mother = nidavellir_e2_spouse
+
+	sexuality = heterosexual
+
+	trait = vengeful
+	trait = gregarious
+	trait = stubborn
+
+	diplomacy = 7
+	martial = 4
+	stewardship = 7
+	intrigue = 5
+	learning = 6
+	prowess = 4
+
+	trait = education_martial_3
+
+	7136.5.29 = {
+		birth = yes
+	}
+
+	7381.5.29 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_e2_child3 = { # child of O_O_erli_i_s
+	name = Shakal
+
+	dynasty = dynasty_nidavellir_kheledan
+	religion = faith_ironfists
+	culture = ironfists
+
+	father = nidavellir_e2
+	mother = nidavellir_e2_spouse
+
+	sexuality = heterosexual
+
+	trait = calm
+	trait = greedy
+	trait = just
+
+	diplomacy = 4
+	martial = 8
+	stewardship = 6
+	intrigue = 5
+	learning = 5
+	prowess = 8
+
+	trait = education_stewardship_3
+
+	7149.5.29 = {
+		birth = yes
+	}
+
+	7394.5.29 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_f1_father = { # parent generation of the far eastern delvers house
+	name = Barukh
+
+	dynasty = dynasty_nidavellir_barukhan
+	religion = faith_ironfists
+	culture = ironfists
+
+	sexuality = heterosexual
+
+	trait = patient
+	trait = honest
+	trait = compassionate
+
+	diplomacy = 6
+	martial = 5
+	stewardship = 6
+	intrigue = 4
+	learning = 7
+	prowess = 4
+
+	trait = education_learning_3
+
+	6816.4.15 = {
+		birth = yes
+	}
+
+	6893.4.15 = {
+		add_spouse = nidavellir_f1_mother
+	}
+
+	7071.4.15 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+
+################################
+### Far eastern delvers: Barukhan
+################################
+
+nidavellir_f1_mother = {
+	name = Dhemi_i_s
+	female = yes
+
+	dynasty = dynasty_nidavellir_kheledan
+	religion = faith_ironfists
+	culture = ironfists
+
+	sexuality = heterosexual
+
+	trait = vengeful
+	trait = gregarious
+	trait = stubborn
+
+	diplomacy = 5
+	martial = 7
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	prowess = 7
+
+	trait = education_martial_3
+
+	6822.4.15 = {
+		birth = yes
+	}
+
+	7070.4.15 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_f1 = { # landed ruler of the far eastern delvers
+	name = Retvir
+
+	dynasty = dynasty_nidavellir_barukhan
+	religion = faith_ironfists
+	culture = ironfists
+
+	father = nidavellir_f1_father
+	mother = nidavellir_f1_mother
+
+	sexuality = heterosexual
+
+	trait = humble
+	trait = vengeful
+	trait = honest
+
+	diplomacy = 6
+	martial = 9
+	stewardship = 8
+	intrigue = 4
+	learning = 7
+	prowess = 9
+
+	trait = education_martial_3
+	trait = dwarf_father
+
+	6938.4.15 = {
+		birth = yes
+	}
+
+	7022.4.15 = {
+		add_spouse = nidavellir_f1_spouse
+	}
+
+	7180.1.12 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_f1_sibling = { # sibling of Retvir
+	name = Vharta_a_n
+
+	dynasty = dynasty_nidavellir_barukhan
+	religion = faith_ironfists
+	culture = ironfists
+
+	father = nidavellir_f1_father
+	mother = nidavellir_f1_mother
+
+	sexuality = heterosexual
+
+	trait = calm
+	trait = greedy
+	trait = just
+
+	diplomacy = 7
+	martial = 4
+	stewardship = 7
+	intrigue = 5
+	learning = 6
+	prowess = 4
+
+	trait = education_stewardship_3
+
+	6952.4.15 = {
+		birth = yes
+	}
+
+	7196.4.15 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_f1_spouse = {
+	name = Khalril
+	female = yes
+
+	dynasty = dynasty_nidavellir_kheledan
+	religion = faith_ironfists
+	culture = ironfists
+
+	sexuality = heterosexual
+
+	trait = arbitrary
+	trait = brave
+	trait = temperate
+
+	diplomacy = 4
+	martial = 8
+	stewardship = 6
+	intrigue = 5
+	learning = 5
+	prowess = 8
+
+	trait = education_diplomacy_3
+
+	6943.4.15 = {
+		birth = yes
+	}
+
+	7193.4.15 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_f2 = { # successor in the far eastern delvers
+	name = Azernakh
+
+	dynasty = dynasty_nidavellir_barukhan
+	religion = faith_ironfists
+	culture = ironfists
+
+	father = nidavellir_f1
+	mother = nidavellir_f1_spouse
+
+	sexuality = heterosexual
+
+	trait = fickle
+	trait = brave
+	trait = generous
+
+	diplomacy = 7
+	martial = 8
+	stewardship = 9
+	intrigue = 6
+	learning = 6
+	prowess = 8
+
+	trait = education_stewardship_3
+	trait = dwarf_father
+
+	7061.7.8 = {
+		birth = yes
+	}
+
+	7152.7.8 = {
+		add_spouse = nidavellir_f2_spouse
+	}
+
+	7308.3.19 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_f_child2 = { # sibling of Azernakh
+	name = Khurubra
+
+	dynasty = dynasty_nidavellir_barukhan
+	religion = faith_ironfists
+	culture = ironfists
+
+	father = nidavellir_f1
+	mother = nidavellir_f1_spouse
+
+	sexuality = heterosexual
+
+	trait = shy
+	trait = diligent
+	trait = cynical
+
+	diplomacy = 6
+	martial = 6
+	stewardship = 5
+	intrigue = 7
+	learning = 6
+	prowess = 5
+
+	trait = education_intrigue_3
+
+	7045.7.8 = {
+		birth = yes
+	}
+
+	7291.7.8 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_f_child3 = { # sibling of Azernakh
+	name = Begulazha
+	female = yes
+
+	dynasty = dynasty_nidavellir_barukhan
+	religion = faith_ironfists
+	culture = ironfists
+
+	father = nidavellir_f1
+	mother = nidavellir_f1_spouse
+
+	sexuality = heterosexual
+
+	trait = forgiving
+	trait = ambitious
+	trait = content
+
+	diplomacy = 7
+	martial = 5
+	stewardship = 7
+	intrigue = 4
+	learning = 5
+	prowess = 6
+
+	trait = education_stewardship_2
+
+	7080.7.8 = {
+		birth = yes
+	}
+
+	7326.7.8 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_f2_spouse = {
+	name = Dagharga
+	female = yes
+
+	dynasty = dynasty_nidavellir_zharakh
+	religion = faith_ironfists
+	culture = ironfists
+
+	sexuality = heterosexual
+
+	trait = patient
+	trait = honest
+	trait = compassionate
+
+	diplomacy = 5
+	martial = 7
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	prowess = 7
+
+	trait = education_learning_3
+
+	7065.7.8 = {
+		birth = yes
+	}
+
+	7316.7.8 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_f2_child1 = { # child of Azernakh
+	name = Thromel
+
+	dynasty = dynasty_nidavellir_barukhan
+	religion = faith_ironfists
+	culture = ironfists
+
+	father = nidavellir_f2
+	mother = nidavellir_f2_spouse
+
+	sexuality = heterosexual
+
+	trait = vengeful
+	trait = gregarious
+	trait = stubborn
+
+	diplomacy = 7
+	martial = 4
+	stewardship = 7
+	intrigue = 5
+	learning = 6
+	prowess = 4
+
+	trait = education_martial_3
+
+	7172.7.8 = {
+		birth = yes
+	}
+
+	7417.7.8 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_f2_child2 = { # child of Azernakh
+	name = Uvaril
+	female = yes
+
+	dynasty = dynasty_nidavellir_barukhan
+	religion = faith_ironfists
+	culture = ironfists
+
+	father = nidavellir_f2
+	mother = nidavellir_f2_spouse
+
+	sexuality = heterosexual
+
+	trait = calm
+	trait = greedy
+	trait = just
+
+	diplomacy = 4
+	martial = 8
+	stewardship = 6
+	intrigue = 5
+	learning = 5
+	prowess = 8
+
+	trait = education_stewardship_3
+
+	7185.7.8 = {
+		birth = yes
+	}
+
+	7430.7.8 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+nidavellir_f2_child3 = { # child of Azernakh
+	name = Gour
+
+	dynasty = dynasty_nidavellir_barukhan
+	religion = faith_ironfists
+	culture = ironfists
+
+	father = nidavellir_f2
+	mother = nidavellir_f2_spouse
+
+	sexuality = heterosexual
+
+	trait = arbitrary
+	trait = brave
+	trait = temperate
+
+	diplomacy = 6
+	martial = 6
+	stewardship = 5
+	intrigue = 7
+	learning = 6
+	prowess = 5
+
+	trait = education_diplomacy_3
+
+	7198.7.8 = {
+		birth = yes
+	}
+
+	7443.7.8 = {
+		death = { death_reason = death_natural_causes }
+	}
+}

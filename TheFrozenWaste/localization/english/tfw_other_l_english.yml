@@ -29,26 +29,16 @@ l_english:
  ### Nicknames
  
  
- nick_queen_air_dark: "Queen of Air and Darkness"
- nick_queen_air_dark_desc: "Nixní, the Queen of Air and Darkness was one of [melkorcharacter|e]s cheif luitentents during the [elderdays|e], while not a match for [sauroncharacter|e] or even [fankil|e], she was known to be cold, callus, and incapable of telling a direct lie. \n\nKnown for her Bargins, she only served the shadow due to a deal she made with [melkorcharacter|e]. in later days [sauroncharacter|e] would turn to her to beckon in the Long Winter and later Fell Winter"
+ nick_queen_air_dark: "The Winter Queen"
+ nick_queen_air_dark_desc: "Nixní, the Lady of Cold, known as Yâdânaisëny, The Winter Queen, to the Lossoth, was one of [melkorcharacter|e]s cheif luitentents during the [elderdays|e], while not a match for [sauroncharacter|e] she was known to be cold, callus, and incapable of telling a direct lie. \n\nKnown for her Bargins, it was rumored she only served the shadow due to a deal she made with [melkorcharacter|e]. in later days she would be one of the last rivals to [sauroncharacter|e] standing and haunted the icy waters of Forochel"
  
  
  ### Characters
  
- durins_bane_name: "Udûnor"
+ 
  nixni_name: "Nixní"
- fankil_name: "Fankil"
- tevildo_name: "Tevildo"
- ardana_name: "Ardana"
- ardana2_name: "Morelene"
- ardana3_name: "Morrana"
- 
- ### Dynastys
  
  
- 
- dynn_nixni: "Niquëtári"
- dynn_nixni_motto: "The stars will rain from the sky before Nixní fulfills not her word."
  
  
  
@@ -58,7 +48,48 @@ l_english:
  
  ### Culture
  
+ angband_orcs: "Angband Orcs"
+ angband_orcs_prefix: "Angband"
+ angband_orcs_collective_noun: "Orcs"
+ angband_orcs_history_loc: "Orcs native to the dread realm of [angband|e]"
+ angband_orcs_desc: "Temp"
  
+ snow_orcs: "Hîsha"
+ snow_orcs_prefix: "Hîsha"
+ snow_orcs_collective_noun: "Hîsha"
+ snow_orcs_history_loc: "Orcs adapted to the icy cold of [forodwaith|e]"
+ snow_orcs_desc: "Temp"
+ 
+ forodain: "Forodain"
+ forodain_prefix: "Forodain"
+ forodain_collective_noun: "Forodain"
+ forodain_history_loc: "The descendents of [numenorean|e] whalers who mixed with [edain|e] \nwho remained in [forodwaith|e] with heavy influence from the [dunedain|e] of [arnor|e]"
+ forodain_desc: "Temp"
+ 
+ lossidil: "Lossidil"
+ lossidil_prefix: "Lossidil"
+ lossidil_collective_noun: "Lossidil"
+ lossidil_history_loc: "[nandor_elves|E] who traveled into the far north and mixed with [sindar_elves|e] fleeing the [warofwrath|e]"
+ lossidil_desc: "Temp"
+ 
+ adlantrim: "Adlantrim"
+ adlantrim_prefix: "Adlantrim"
+ adlantrim_collective_noun: "Adlantrim"
+ adlantrim_history_loc: "[orcs|e] who cling to the ancient ways of their [elven|e] forefathers"
+ adlantrim_desc: "Temp"
+ 
+ umli: "Umli"
+ umli_prefix: "Umli"
+ umli_collective_noun: "Umli"
+ umli_history_loc: "Northerns thought to be descendents of an ancient union of [men|e] and [dwarves|e]"
+ umli_desc: "Temp"
+ heritage_umli_name: "Umli"
+ 
+ gauredain: "Gauredain"
+ gauredain_prefix: "Gauredain"
+ gauredain_collective_noun: "Gauredain"
+ gauredain_history_loc: "the origional inhabitants of [angmar|e], driven into the wastes by the [witchking|e]"
+ gauredain_desc: "Temp"
  
  ### Faiths
  

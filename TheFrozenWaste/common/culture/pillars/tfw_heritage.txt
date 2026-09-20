@@ -1,0 +1,18 @@
+﻿# Talathrim Heritages 
+heritage_umli = {
+	type = heritage
+	parameters = {
+		
+		heritage_family_easterling = yes
+		is_human_heritage = yes
+	}
+	character_modifier  = {
+		halls_advantage = 5
+	}
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_umli
+		}
+	}
+	audio_parameter = mena
+}

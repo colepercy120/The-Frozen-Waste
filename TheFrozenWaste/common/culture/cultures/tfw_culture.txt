@@ -1,1 +1,256 @@
 ﻿
+angband_orcs = { ### The Northerners or Free Tribes of the North ###
+	color = { 0 13 18 }
+	created = 592.1.1
+	parents = { utumno_orcs }
+
+	# history overrriden by lotr_set_culture_form_dates in lotr_culture_effect
+	
+	history_loc_override = angband_orcs_history_loc
+	
+	ethos = ethos_bellicose
+	heritage = heritage_orc
+	language = language_black_speech
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_winter_warriors
+		tradition_orcish_society
+		tradition_mountain_homes
+		tradition_hard_working
+		tradition_eye_for_an_eye
+	}
+	
+	name_list = name_list_orc
+	
+	coa_gfx = { orc_coa_gfx }
+	building_gfx = { orc_building_gfx western_building_gfx }
+	clothing_gfx = { mountain_orc_clothing_gfx }
+	unit_gfx = { acg_worauthai_madur_unit_gfx orc_unit_gfx }
+	house_coa_frame = house_frame_16
+	dynasty_coa_frame = house_frame_16
+	
+	ethnicities = {
+		1 = utumno_orc_ethnicity
+	}
+}
+
+snow_orcs = { ### The Northerners or Free Tribes of the North ###
+	color = { 43 34 38 }
+	created = 3451.1.1
+	parents = { angband_orcs }
+
+	# history overrriden by lotr_set_culture_form_dates in lotr_culture_effect
+	
+	
+	ethos = ethos_bellicose
+	heritage = heritage_orc
+	language = language_black_speech
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_thralls_of_angmar
+		tradition_orcish_society
+		tradition_mountain_homes
+		tradition_roving_bands
+		tradition_eye_for_an_eye
+	}
+	
+	name_list = name_list_orc
+	
+	coa_gfx = { orc_coa_gfx }
+	building_gfx = { orc_building_gfx western_building_gfx }
+	clothing_gfx = { mountain_orc_clothing_gfx }
+	unit_gfx = { acg_worauthai_madur_unit_gfx orc_unit_gfx }
+	house_coa_frame = house_frame_16
+	dynasty_coa_frame = house_frame_16
+	
+	ethnicities = {
+		1 = utumno_orc_ethnicity
+	}
+}
+
+forodain = {
+	color = { 140 240 255 }
+	created = 4035.1.1
+	parents = { numenorean dunedain }
+
+	history_loc_override = forodain_history_loc
+
+	ethos = ethos_stoic
+	heritage = heritage_dunedain
+	language = language_westron
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_winter_warriors
+		tradition_seafaring
+		tradition_fishermen
+		tradition_poetry
+		tradition_mende_anduya
+	}
+
+	
+
+	name_list = name_list_edain
+
+	coa_gfx = { numenorean_coa_gfx dunedain_group_coa_gfx norse_coa_gfx }
+	building_gfx = { norse_building_gfx numenorean_building_gfx }
+	clothing_gfx = { dunedain_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { norse_unit_gfx }
+	house_coa_frame = house_frame_04
+	dynasty_coa_frame = house_frame_04
+
+	ethnicities = {
+		85 = numenorean_ethnicity
+		50 = dunedain_ethnicity
+		50 = eriadorim_ethnicity
+	
+	}
+}
+
+lossidil = {
+	color = { 0 112 90 }
+	created = 2.9.2
+	parents = { sindar }
+
+	history_loc_override = lossidil_history_loc
+	
+	ethos = ethos_courtly
+	heritage = heritage_lomiquendi
+	language = language_sindarin
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_winter_warriors
+		tradition_fishermen
+		tradition_forest_folk
+		tradition_charitable
+		#tradition_sindar_maa
+	}
+	dlc_tradition = {
+		trait = tradition_music_theory
+		requires_dlc_flag = royal_court
+		fallback = tradition_poetry
+	}
+	
+	name_list = name_list_sindarin
+	
+	coa_gfx = { elven_group_coa_gfx }
+	building_gfx = { noldor_building_gfx elven_building_gfx western_building_gfx }
+	clothing_gfx = { sindar_clothing_gfx }
+	unit_gfx = { acg_sindar_unit_gfx noldor_unit_gfx }
+	house_coa_frame = house_frame_04
+	dynasty_coa_frame = house_frame_04
+	
+	ethnicities = {
+		1 = sindar_ethnicity
+	}
+}
+
+adlantrim = { ### Orcs that remember they were elves ###
+	color = { 161 161 161 }
+	created = 2.8.2
+	parents = { utumno_orcs avari  }
+
+	# history overrriden by lotr_set_culture_form_dates in lotr_culture_effect
+	
+	history_loc_override = adlantrim_history_loc
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_orc
+	language = language_sindarin
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_winter_warriors
+		tradition_hard_working
+		tradition_mountain_homes
+		tradition_isolationist
+		
+	}
+	
+	name_list = name_list_nandorin
+	
+	coa_gfx = { elven_group_coa_gfx }
+	building_gfx = { orc_building_gfx western_building_gfx }
+	clothing_gfx = { elven_clothing_gfx }
+	unit_gfx = { acg_worauthai_madur_unit_gfx orc_unit_gfx }
+	house_coa_frame = house_frame_04
+	dynasty_coa_frame = house_frame_04
+	
+	ethnicities = {
+		1 = adlantrim_ethnicity
+	}
+}
+
+umli = {
+	color = { 0 32 84 }
+	created = 4035.1.1
+	
+
+	history_loc_override = umli_history_loc
+
+	ethos = ethos_stoic
+	heritage = heritage_umli
+	language = language_khuzdul
+	martial_custom = martial_custom_male_only
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_winter_warriors
+		tradition_hill_dwellers
+		tradition_fishermen
+		tradition_metal_craftsmanship
+		tradition_frugal_armorsmiths
+	}
+
+	
+
+	name_list = name_list_longbeards
+
+	coa_gfx = { dwarven_group_coa_gfx }
+	building_gfx = { dwarven_building_gfx western_building_gfx }
+	clothing_gfx = { dwarf_clothing_gfx }
+	unit_gfx = { acg_iron_hills_unit_gfx dwarf_unit_gfx }
+	house_coa_frame = house_frame_16
+	dynasty_coa_frame = house_frame_16
+
+	ethnicities = {
+		85 = talathrim_ethnicity
+		15 = dwarven_ethnicity
+	}
+}
+
+gauredain = { # Hadorrim that remained in Eriador and came to live mostly in the Misty Mountains
+	color ={ 26 99 127 }
+	created = 442.4.4 # Late First Age
+	parents = { hadorim }
+
+	history_loc_override = gauredain_history_loc
+	
+	ethos = ethos_bellicose
+	heritage = heritage_eriadorim
+	language = language_westron
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_wanderers_of_the_wild
+		tradition_warrior_culture
+		tradition_winter_warriors
+		tradition_equitable
+		tradition_brewery
+	}
+	
+	name_list = name_list_northron
+	
+	coa_gfx = { numenorean_coa_gfx dunedain_group_coa_gfx }
+	building_gfx = { daen_building_gfx western_building_gfx }
+	clothing_gfx = { vale_woodmen_clothing_gfx }
+	unit_gfx = { acg_hithaeglirim_unit_gfx western_unit_gfx }
+	house_coa_frame = house_frame_02
+	dynasty_coa_frame = house_frame_02
+	
+	ethnicities = {
+		1 = hithaeglirim_ethnicity
+	}
+}

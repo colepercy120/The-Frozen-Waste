@@ -1,0 +1,133 @@
+﻿
+
+### ELVES ###
+# evermist
+evermist = { # evermist
+	county = c_evermist_1
+	character_modifier = {
+		build_speed = -0.1
+		build_gold_cost = -0.1
+	}
+}
+
+gondolin = { # gondolin
+	county = c_anach
+	character_modifier = {
+		monthly_piety_gain_mult = 0.1
+		dynasty_opinion = 20
+	}
+}
+
+helecthil = { # helecthil
+	county = c_aurora_isles_2
+	character_modifier = {
+		monthly_piety = 0.5
+		stress_gain_mult = -0.1
+	}
+}
+
+carasthon = {
+	county = c_taurethon_2
+	character_modifier = {
+		stewardship_per_piety_level = 1
+	}
+}
+
+celebrim = {
+	county = c_frostwood_21
+	character_modifier = {
+		learning_per_piety_level = 1
+	}
+}
+
+hitheth = {
+	county = c_frostwood_6
+	character_modifier = {
+		martial_per_piety_level = 1
+	}
+} 
+
+### Forodain
+
+achrond = {
+	county = c_frost_isles_8
+	character_modifier = {
+		character_travel_speed = 0.1
+		naval_movement_speed_mult = 0.1
+		winter_movement_speed = 0.1
+	} 
+}
+
+whitehaven = {
+	county = c_gondalf_2
+	character_modifier = {
+		stewardship_per_piety_level = 1
+	}
+}
+
+angband_good = {
+	county = c_thangorodrim_1
+	character_modifier = {
+		prowess_per_piety_level = 2
+	}
+}
+
+morgoths_well = {
+	county = c_morgoths_well_1
+	character_modifier = {
+		learning_per_piety_level = 1
+	}
+}
+
+### Lossoth
+
+boiling_river = {
+	county = c_ailindalf_9
+	character_modifier = {
+		winter_movement_speed = 0.25
+		tax_mult = 0.1
+	}
+}
+
+kiehuva_jarvi = {
+	county = c_calendalf_7
+	character_modifier = {
+		diplomacy_per_piety_level = 1
+	}
+}
+
+### Orcs 
+
+angband_bad = {
+	county = c_thangorodrim_3
+	character_modifier = {
+		prowess_per_piety_level = 2
+		martial_per_piety_level = 1
+	}
+}
+
+drakkeep = {
+	county = c_ered_rhivamar_4
+	character_modifier = {
+		stewardship_per_piety_level = 1
+		learning_per_piety_level = 1
+	}
+}
+
+durnost = {
+	county = c_durnost_6
+	character_modifier = {
+		build_speed = -0.1
+		build_gold_cost = -0.1
+	}
+}
+
+### Werewolves
+
+forovirian = {
+	county = c_forovirian_1
+	character_modifier = {
+		winter_movement_speed = 1
+		arctic_attrition_mult = -0.25
+	}
+}

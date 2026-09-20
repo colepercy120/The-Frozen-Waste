@@ -1,0 +1,8408 @@
+############################################################
+# 10 NEW FORODAIN DYNASTIC CHARACTER LINES
+# Date window: 6700-7100
+# Culture: forodain
+# Blood of Numenor: maximum 2; decline rate varies by dynasty and never increases after a decline
+# Each reproductive generation has 1-4 children.
+# Generation 3 of each line marries a daughter from the next new dynasty,
+# while the other spouses are intentionally non-dynastic/commoner spouses.
+# All dynasty IDs below were checked against the supplied source file and do not occur there.
+############################################################
+
+
+##############################
+# LINE 1: House of Naethor
+# dynasty_naethor
+##############################
+
+linenaethor1 = {
+	name = Tervain
+
+	dynasty = dynasty_naethor
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_intrigue_2
+	trait = ambitious
+	trait = calm
+	trait = stubborn
+
+	diplomacy = 5
+	martial = 10
+	stewardship = 4
+	intrigue = 5
+	learning = 2
+	prowess = 8
+
+	trait = blood_of_numenor_2
+	6707.1.1 = {
+		birth = yes
+	}
+
+	6738.6.1 = {
+		add_spouse = wife_naethor1
+	}
+
+	6817.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+wife_naethor1 = {
+	name = Orvaeth
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_stewardship_2
+	trait = honest
+	trait = trusting
+	trait = arbitrary
+
+	diplomacy = 7
+	martial = 6
+	stewardship = 3
+	intrigue = 2
+	learning = 2
+	prowess = 10
+
+	trait = blood_of_numenor_2
+	6707.1.1 = {
+		birth = yes
+	}
+
+	6789.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linenaethor2side1 = {
+	name = Arweniel
+
+	female = yes
+	dynasty = dynasty_naethor
+	religion = faith_forodain
+	culture = forodain
+
+	father = linenaethor1
+	mother = wife_naethor1
+
+	trait = education_diplomacy_2
+	trait = patient
+	trait = trusting
+	trait = arbitrary
+
+	diplomacy = 2
+	martial = 5
+	stewardship = 8
+	intrigue = 7
+	learning = 9
+	prowess = 10
+
+	trait = blood_of_numenor_2
+	6760.1.1 = {
+		birth = yes
+	}
+
+	6859.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linenaethor2 = {
+	name = Saelgon
+
+	dynasty = dynasty_naethor
+	religion = faith_forodain
+	culture = forodain
+
+	father = linenaethor1
+	mother = wife_naethor1
+
+	trait = education_stewardship_2
+	trait = content
+	trait = compassionate
+	trait = ambitious
+
+	diplomacy = 8
+	martial = 8
+	stewardship = 8
+	intrigue = 5
+	learning = 2
+	prowess = 2
+
+	trait = blood_of_numenor_2
+	6754.1.1 = {
+		birth = yes
+	}
+
+	6784.6.1 = {
+		add_spouse = wife_naethor2
+	}
+
+	6857.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+wife_naethor2 = {
+	name = Tindiel
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_martial_2
+	trait = callous
+	trait = generous
+	trait = patient
+
+	diplomacy = 5
+	martial = 7
+	stewardship = 7
+	intrigue = 6
+	learning = 5
+	prowess = 9
+
+	trait = blood_of_numenor_2
+	6758.1.1 = {
+		birth = yes
+	}
+
+	6845.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linenaethor3bridge = {
+	name = Silmeth
+
+	female = yes
+	dynasty = dynasty_naethor
+	religion = faith_forodain
+	culture = forodain
+
+	father = linenaethor2
+	mother = wife_naethor2
+
+	trait = education_intrigue_2
+	trait = diligent
+	trait = stubborn
+	trait = trusting
+
+	diplomacy = 10
+	martial = 7
+	stewardship = 7
+	intrigue = 2
+	learning = 4
+	prowess = 8
+
+	trait = blood_of_numenor_2
+	6812.1.1 = {
+		birth = yes
+	}
+
+	6907.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linenaethor3side1 = {
+	name = Aeladan
+
+	female = yes
+	dynasty = dynasty_naethor
+	religion = faith_forodain
+	culture = forodain
+
+	father = linenaethor2
+	mother = wife_naethor2
+
+	trait = education_learning_3
+	trait = diligent
+	trait = wrathful
+	trait = gregarious
+
+	diplomacy = 4
+	martial = 2
+	stewardship = 10
+	intrigue = 3
+	learning = 10
+	prowess = 8
+
+	trait = blood_of_numenor_2
+	6816.1.1 = {
+		birth = yes
+	}
+
+	6914.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linenaethor3 = {
+	name = Norvegil
+
+	dynasty = dynasty_naethor
+	religion = faith_forodain
+	culture = forodain
+
+	father = linenaethor2
+	mother = wife_naethor2
+
+	trait = education_martial_3
+	trait = brave
+	trait = wrathful
+	trait = temperate
+
+	diplomacy = 4
+	martial = 4
+	stewardship = 8
+	intrigue = 3
+	learning = 4
+	prowess = 10
+
+	trait = blood_of_numenor_2
+	6810.1.1 = {
+		birth = yes
+	}
+
+	6841.6.1 = {
+		add_spouse = linevaelthor3bridge
+	}
+
+	6909.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linenaethor4 = {
+	name = Dagnir
+
+	dynasty = dynasty_naethor
+	religion = faith_forodain
+	culture = forodain
+
+	father = linenaethor3
+	mother = linevaelthor3bridge
+
+	trait = education_diplomacy_2
+	trait = arbitrary
+	trait = ambitious
+	trait = content
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 2
+	intrigue = 2
+	learning = 9
+	prowess = 9
+
+	trait = blood_of_numenor_1
+	6858.1.1 = {
+		birth = yes
+	}
+
+	6880.6.1 = {
+		add_spouse = wife_naethor4
+	}
+
+	6953.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+wife_naethor4 = {
+	name = Hiriel
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_learning_2
+	trait = content
+	trait = fickle
+	trait = generous
+
+	diplomacy = 6
+	martial = 4
+	stewardship = 9
+	intrigue = 6
+	learning = 2
+	prowess = 2
+
+	trait = blood_of_numenor_1
+	6855.1.1 = {
+		birth = yes
+	}
+
+	6948.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linenaethor5side1 = {
+	name = Ragnor
+
+	dynasty = dynasty_naethor
+	religion = faith_forodain
+	culture = forodain
+
+	father = linenaethor4
+	mother = wife_naethor4
+
+	trait = education_martial_2
+	trait = arbitrary
+	trait = impatient
+	trait = honest
+
+	diplomacy = 3
+	martial = 7
+	stewardship = 6
+	intrigue = 3
+	learning = 8
+	prowess = 2
+
+	6901.1.1 = {
+		birth = yes
+	}
+
+	7008.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linenaethor5side2 = {
+	name = Aeladir
+
+	female = yes
+	dynasty = dynasty_naethor
+	religion = faith_forodain
+	culture = forodain
+
+	father = linenaethor4
+	mother = wife_naethor4
+
+	trait = education_stewardship_3
+	trait = humble
+	trait = stubborn
+	trait = ambitious
+
+	diplomacy = 3
+	martial = 3
+	stewardship = 9
+	intrigue = 7
+	learning = 3
+	prowess = 6
+	trait = blood_of_numenor_1
+
+	6901.1.1 = {
+		birth = yes
+	}
+
+	6993.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linenaethor5side3 = {
+	name = Orchald
+
+	dynasty = dynasty_naethor
+	religion = faith_forodain
+	culture = forodain
+
+	father = linenaethor4
+	mother = wife_naethor4
+
+	trait = education_diplomacy_2
+	trait = calm
+	trait = just
+	trait = content
+
+	diplomacy = 6
+	martial = 3
+	stewardship = 9
+	intrigue = 9
+	learning = 3
+	prowess = 4
+	trait = blood_of_numenor_1
+
+	6908.1.1 = {
+		birth = yes
+	}
+
+	6993.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linenaethor5 = {
+	name = Merenor
+
+	dynasty = dynasty_naethor
+	religion = faith_forodain
+	culture = forodain
+
+	father = linenaethor4
+	mother = wife_naethor4
+
+	trait = education_martial_3
+	trait = shy
+	trait = honest
+	trait = fickle
+
+	diplomacy = 2
+	martial = 7
+	stewardship = 9
+	intrigue = 8
+	learning = 3
+	prowess = 10
+	trait = blood_of_numenor_1
+
+	6906.1.1 = {
+		birth = yes
+	}
+
+	6935.6.1 = {
+		add_spouse = wife_naethor5
+	}
+
+	7010.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+wife_naethor5 = {
+	name = Eiravel
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_martial_2
+	trait = arbitrary
+	trait = calm
+	trait = callous
+
+	diplomacy = 6
+	martial = 9
+	stewardship = 10
+	intrigue = 8
+	learning = 7
+	prowess = 3
+	trait = blood_of_numenor_1
+
+	6909.1.1 = {
+		birth = yes
+	}
+
+	7007.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linenaethor6side1 = {
+	name = Danel
+
+	female = yes
+	dynasty = dynasty_naethor
+	religion = faith_forodain
+	culture = forodain
+
+	father = linenaethor5
+	mother = wife_naethor5
+
+	trait = education_diplomacy_3
+	trait = vengeful
+	trait = gregarious
+	trait = fickle
+
+	diplomacy = 4
+	martial = 4
+	stewardship = 4
+	intrigue = 10
+	learning = 9
+	prowess = 10
+	trait = blood_of_numenor_1
+
+	6961.1.1 = {
+		birth = yes
+	}
+
+	7061.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linenaethor6 = {
+	name = Galdoron
+
+	dynasty = dynasty_naethor
+	religion = faith_forodain
+	culture = forodain
+
+	father = linenaethor5
+	mother = wife_naethor5
+
+	trait = education_stewardship_3
+	trait = calm
+	trait = stubborn
+	trait = trusting
+
+	diplomacy = 4
+	martial = 7
+	stewardship = 5
+	intrigue = 4
+	learning = 7
+	prowess = 6
+	trait = blood_of_numenor_1
+
+	6962.1.1 = {
+		birth = yes
+	}
+
+	6994.6.1 = {
+		add_spouse = wife_naethor6
+	}
+
+	7062.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+wife_naethor6 = {
+	name = Nellavir
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_martial_3
+	trait = wrathful
+	trait = temperate
+	trait = stubborn
+
+	diplomacy = 7
+	martial = 4
+	stewardship = 3
+	intrigue = 10
+	learning = 5
+	prowess = 2
+	trait = blood_of_numenor_1
+
+	6966.1.1 = {
+		birth = yes
+	}
+
+	7062.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linenaethor7side1 = {
+	name = Vorond
+
+	dynasty = dynasty_naethor
+	religion = faith_forodain
+	culture = forodain
+
+	father = linenaethor6
+	mother = wife_naethor6
+
+	trait = education_martial_2
+	trait = impatient
+	trait = brave
+	trait = calm
+
+	diplomacy = 7
+	martial = 3
+	stewardship = 7
+	intrigue = 7
+	learning = 2
+	prowess = 2
+
+	7015.1.1 = {
+		birth = yes
+	}
+}
+
+linenaethor7side2 = {
+	name = Aelael
+
+	female = yes
+	dynasty = dynasty_naethor
+	religion = faith_forodain
+	culture = forodain
+
+	father = linenaethor6
+	mother = wife_naethor6
+
+	trait = education_martial_2
+	trait = trusting
+	trait = paranoid
+	trait = just
+
+	diplomacy = 10
+	martial = 7
+	stewardship = 2
+	intrigue = 2
+	learning = 9
+	prowess = 4
+
+	7015.1.1 = {
+		birth = yes
+	}
+}
+
+linenaethor7 = {
+	name = Vardamirn
+
+	dynasty = dynasty_naethor
+	religion = faith_forodain
+	culture = forodain
+
+	father = linenaethor6
+	mother = wife_naethor6
+
+	trait = education_diplomacy_2
+	trait = paranoid
+	trait = callous
+	trait = diligent
+
+	diplomacy = 3
+	martial = 6
+	stewardship = 9
+	intrigue = 3
+	learning = 6
+	prowess = 9
+
+	7011.1.1 = {
+		birth = yes
+	}
+
+	7046.6.1 = {
+		add_spouse = wife_naethor7
+	}
+}
+
+wife_naethor7 = {
+	name = Harethiel
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_learning_2
+	trait = compassionate
+	trait = shy
+	trait = generous
+
+	diplomacy = 9
+	martial = 8
+	stewardship = 10
+	intrigue = 3
+	learning = 5
+	prowess = 9
+
+	7015.1.1 = {
+		birth = yes
+	}
+}
+
+linenaethor8 = {
+	name = Aelandir
+
+	dynasty = dynasty_naethor
+	religion = faith_forodain
+	culture = forodain
+
+	father = linenaethor7
+	mother = wife_naethor7
+
+	trait = education_learning_2
+	trait = trusting
+	trait = ambitious
+	trait = arbitrary
+
+	diplomacy = 7
+	martial = 10
+	stewardship = 6
+	intrigue = 7
+	learning = 4
+	prowess = 9
+
+	7055.1.1 = {
+		birth = yes
+	}
+}
+
+##############################
+# LINE 2: House of Vaelthor
+# dynasty_vaelthor
+##############################
+
+linevaelthor1 = {
+	name = Aelanor
+
+	dynasty = dynasty_vaelthor
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_martial_2
+	trait = impatient
+	trait = just
+	trait = wrathful
+
+	diplomacy = 10
+	martial = 10
+	stewardship = 10
+	intrigue = 4
+	learning = 8
+	prowess = 8
+
+	trait = blood_of_numenor_2
+	6706.1.1 = {
+		birth = yes
+	}
+
+	6737.6.1 = {
+		add_spouse = wife_vaelthor1
+	}
+
+	6820.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+wife_vaelthor1 = {
+	name = Rhovwen
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_stewardship_3
+	trait = ambitious
+	trait = fickle
+	trait = arbitrary
+
+	diplomacy = 9
+	martial = 7
+	stewardship = 5
+	intrigue = 6
+	learning = 9
+	prowess = 4
+
+	trait = blood_of_numenor_2
+	6706.1.1 = {
+		birth = yes
+	}
+
+	6796.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linevaelthor2side1 = {
+	name = Amdirion
+
+	dynasty = dynasty_vaelthor
+	religion = faith_forodain
+	culture = forodain
+
+	father = linevaelthor1
+	mother = wife_vaelthor1
+
+	trait = education_learning_3
+	trait = impatient
+	trait = honest
+	trait = stubborn
+
+	diplomacy = 2
+	martial = 3
+	stewardship = 6
+	intrigue = 10
+	learning = 8
+	prowess = 5
+
+	trait = blood_of_numenor_2
+	6757.1.1 = {
+		birth = yes
+	}
+
+	6850.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linevaelthor2side2 = {
+	name = Aelarin
+
+	female = yes
+	dynasty = dynasty_vaelthor
+	religion = faith_forodain
+	culture = forodain
+
+	father = linevaelthor1
+	mother = wife_vaelthor1
+
+	trait = education_learning_2
+	trait = brave
+	trait = patient
+	trait = honest
+
+	diplomacy = 3
+	martial = 9
+	stewardship = 4
+	intrigue = 2
+	learning = 4
+	prowess = 4
+
+	trait = blood_of_numenor_1
+	6762.1.1 = {
+		birth = yes
+	}
+
+	6843.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linevaelthor2 = {
+	name = Calendir
+
+	dynasty = dynasty_vaelthor
+	religion = faith_forodain
+	culture = forodain
+
+	father = linevaelthor1
+	mother = wife_vaelthor1
+
+	trait = education_diplomacy_2
+	trait = shy
+	trait = paranoid
+	trait = trusting
+
+	diplomacy = 8
+	martial = 8
+	stewardship = 7
+	intrigue = 4
+	learning = 7
+	prowess = 4
+
+	trait = blood_of_numenor_2
+	6758.1.1 = {
+		birth = yes
+	}
+
+	6783.6.1 = {
+		add_spouse = wife_vaelthor2
+	}
+
+	6869.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+wife_vaelthor2 = {
+	name = Eleneth
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_learning_2
+	trait = arbitrary
+	trait = temperate
+	trait = honest
+
+	diplomacy = 7
+	martial = 2
+	stewardship = 9
+	intrigue = 10
+	learning = 6
+	prowess = 6
+
+	trait = blood_of_numenor_2
+	6755.1.1 = {
+		birth = yes
+	}
+
+	6842.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linevaelthor3bridge = {
+	name = Aelavor
+
+	female = yes
+	dynasty = dynasty_vaelthor
+	religion = faith_forodain
+	culture = forodain
+
+	father = linevaelthor2
+	mother = wife_vaelthor2
+
+	trait = education_intrigue_2
+	trait = wrathful
+	trait = content
+	trait = arbitrary
+
+	diplomacy = 8
+	martial = 3
+	stewardship = 2
+	intrigue = 5
+	learning = 8
+	prowess = 5
+
+	trait = blood_of_numenor_1
+	6808.1.1 = {
+		birth = yes
+	}
+
+	6912.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linevaelthor3side1 = {
+	name = Sarnor
+
+	dynasty = dynasty_vaelthor
+	religion = faith_forodain
+	culture = forodain
+
+	father = linevaelthor2
+	mother = wife_vaelthor2
+
+	trait = education_learning_3
+	trait = generous
+	trait = compassionate
+	trait = stubborn
+
+	diplomacy = 2
+	martial = 5
+	stewardship = 4
+	intrigue = 2
+	learning = 6
+	prowess = 9
+	trait = blood_of_numenor_1
+
+	6804.1.1 = {
+		birth = yes
+	}
+
+	6905.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linevaelthor3 = {
+	name = Aelendir
+
+	dynasty = dynasty_vaelthor
+	religion = faith_forodain
+	culture = forodain
+
+	father = linevaelthor2
+	mother = wife_vaelthor2
+
+	trait = education_intrigue_2
+	trait = content
+	trait = patient
+	trait = temperate
+
+	diplomacy = 3
+	martial = 8
+	stewardship = 2
+	intrigue = 4
+	learning = 6
+	prowess = 7
+
+	trait = blood_of_numenor_1
+	6805.1.1 = {
+		birth = yes
+	}
+
+	6832.6.1 = {
+		add_spouse = linecorphen3bridge
+	}
+
+	6899.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linevaelthor4side1 = {
+	name = Aelethor
+
+	dynasty = dynasty_vaelthor
+	religion = faith_forodain
+	culture = forodain
+
+	father = linevaelthor3
+	mother = linecorphen3bridge
+
+	trait = education_diplomacy_3
+	trait = fickle
+	trait = vengeful
+	trait = ambitious
+
+	diplomacy = 10
+	martial = 4
+	stewardship = 7
+	intrigue = 7
+	learning = 2
+	prowess = 8
+	trait = blood_of_numenor_1
+
+	6849.1.1 = {
+		birth = yes
+	}
+
+	6947.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linevaelthor4 = {
+	name = Braegor
+
+	dynasty = dynasty_vaelthor
+	religion = faith_forodain
+	culture = forodain
+
+	father = linevaelthor3
+	mother = linecorphen3bridge
+
+	trait = education_diplomacy_3
+	trait = callous
+	trait = arbitrary
+	trait = vengeful
+
+	diplomacy = 6
+	martial = 8
+	stewardship = 3
+	intrigue = 6
+	learning = 10
+	prowess = 6
+
+	trait = blood_of_numenor_1
+	6854.1.1 = {
+		birth = yes
+	}
+
+	6876.6.1 = {
+		add_spouse = wife_vaelthor4
+	}
+
+	6952.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+wife_vaelthor4 = {
+	name = Faelwen
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_learning_2
+	trait = gregarious
+	trait = calm
+	trait = vengeful
+
+	diplomacy = 7
+	martial = 3
+	stewardship = 5
+	intrigue = 2
+	learning = 10
+	prowess = 3
+	trait = blood_of_numenor_1
+
+	6851.1.1 = {
+		birth = yes
+	}
+
+	6932.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linevaelthor5 = {
+	name = Elrohirn
+
+	dynasty = dynasty_vaelthor
+	religion = faith_forodain
+	culture = forodain
+
+	father = linevaelthor4
+	mother = wife_vaelthor4
+
+	trait = education_diplomacy_3
+	trait = just
+	trait = diligent
+	trait = honest
+
+	diplomacy = 8
+	martial = 3
+	stewardship = 6
+	intrigue = 9
+	learning = 7
+	prowess = 5
+	trait = blood_of_numenor_1
+
+	6908.1.1 = {
+		birth = yes
+	}
+
+	6933.6.1 = {
+		add_spouse = wife_vaelthor5
+	}
+
+	7016.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+wife_vaelthor5 = {
+	name = Aelwen
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_learning_3
+	trait = vengeful
+	trait = ambitious
+	trait = honest
+
+	diplomacy = 4
+	martial = 4
+	stewardship = 8
+	intrigue = 3
+	learning = 7
+	prowess = 8
+	trait = blood_of_numenor_1
+
+	6912.1.1 = {
+		birth = yes
+	}
+
+	7008.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linevaelthor6side1 = {
+	name = Beledhir
+
+	dynasty = dynasty_vaelthor
+	religion = faith_forodain
+	culture = forodain
+
+	father = linevaelthor5
+	mother = wife_vaelthor5
+
+	trait = education_stewardship_2
+	trait = impatient
+	trait = patient
+	trait = brave
+
+	diplomacy = 8
+	martial = 4
+	stewardship = 10
+	intrigue = 6
+	learning = 7
+	prowess = 3
+
+	6958.1.1 = {
+		birth = yes
+	}
+
+	7039.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linevaelthor6side2 = {
+	name = Aelion
+
+	female = yes
+	dynasty = dynasty_vaelthor
+	religion = faith_forodain
+	culture = forodain
+
+	father = linevaelthor5
+	mother = wife_vaelthor5
+
+	trait = education_martial_2
+	trait = diligent
+	trait = compassionate
+	trait = wrathful
+
+	diplomacy = 2
+	martial = 2
+	stewardship = 4
+	intrigue = 9
+	learning = 5
+	prowess = 5
+
+	6956.1.1 = {
+		birth = yes
+	}
+
+	7033.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linevaelthor6side3 = {
+	name = Gwaelorn
+
+	dynasty = dynasty_vaelthor
+	religion = faith_forodain
+	culture = forodain
+
+	father = linevaelthor5
+	mother = wife_vaelthor5
+
+	trait = education_diplomacy_2
+	trait = humble
+	trait = honest
+	trait = impatient
+
+	diplomacy = 3
+	martial = 2
+	stewardship = 6
+	intrigue = 7
+	learning = 8
+	prowess = 7
+
+	6953.1.1 = {
+		birth = yes
+	}
+
+	7045.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linevaelthor6 = {
+	name = Aelmir
+
+	dynasty = dynasty_vaelthor
+	religion = faith_forodain
+	culture = forodain
+
+	father = linevaelthor5
+	mother = wife_vaelthor5
+
+	trait = education_martial_3
+	trait = paranoid
+	trait = arbitrary
+	trait = generous
+
+	diplomacy = 4
+	martial = 5
+	stewardship = 3
+	intrigue = 8
+	learning = 7
+	prowess = 5
+
+	6954.1.1 = {
+		birth = yes
+	}
+
+	6980.6.1 = {
+		add_spouse = wife_vaelthor6
+	}
+
+	7054.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+wife_vaelthor6 = {
+	name = Saelwen
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_intrigue_2
+	trait = humble
+	trait = generous
+	trait = vengeful
+
+	diplomacy = 2
+	martial = 4
+	stewardship = 5
+	intrigue = 4
+	learning = 10
+	prowess = 2
+
+	6959.1.1 = {
+		birth = yes
+	}
+
+	7062.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linevaelthor7side1 = {
+	name = Mireth
+
+	female = yes
+	dynasty = dynasty_vaelthor
+	religion = faith_forodain
+	culture = forodain
+
+	father = linevaelthor6
+	mother = wife_vaelthor6
+
+	trait = education_diplomacy_3
+	trait = just
+	trait = fickle
+	trait = compassionate
+
+	diplomacy = 5
+	martial = 10
+	stewardship = 6
+	intrigue = 7
+	learning = 3
+	prowess = 9
+
+	7014.1.1 = {
+		birth = yes
+	}
+}
+
+linevaelthor7 = {
+	name = Lathron
+
+	dynasty = dynasty_vaelthor
+	religion = faith_forodain
+	culture = forodain
+
+	father = linevaelthor6
+	mother = wife_vaelthor6
+
+	trait = education_intrigue_2
+	trait = trusting
+	trait = humble
+	trait = stubborn
+
+	diplomacy = 6
+	martial = 9
+	stewardship = 2
+	intrigue = 6
+	learning = 5
+	prowess = 7
+
+	7006.1.1 = {
+		birth = yes
+	}
+
+	7033.6.1 = {
+		add_spouse = wife_vaelthor7
+	}
+}
+
+wife_vaelthor7 = {
+	name = Duilwen
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_diplomacy_3
+	trait = brave
+	trait = shy
+	trait = calm
+
+	diplomacy = 2
+	martial = 10
+	stewardship = 2
+	intrigue = 10
+	learning = 2
+	prowess = 9
+
+	7006.1.1 = {
+		birth = yes
+	}
+}
+
+linevaelthor8side1 = {
+	name = Aelnor
+
+	dynasty = dynasty_vaelthor
+	religion = faith_forodain
+	culture = forodain
+
+	father = linevaelthor7
+	mother = wife_vaelthor7
+
+	trait = education_diplomacy_2
+	trait = ambitious
+	trait = brave
+	trait = generous
+
+	diplomacy = 4
+	martial = 9
+	stewardship = 10
+	intrigue = 2
+	learning = 4
+	prowess = 5
+
+	7050.1.1 = {
+		birth = yes
+	}
+}
+
+linevaelthor8side2 = {
+	name = Iorethil
+
+	female = yes
+	dynasty = dynasty_vaelthor
+	religion = faith_forodain
+	culture = forodain
+
+	father = linevaelthor7
+	mother = wife_vaelthor7
+
+	trait = education_diplomacy_3
+	trait = impatient
+	trait = wrathful
+	trait = calm
+
+	diplomacy = 6
+	martial = 5
+	stewardship = 6
+	intrigue = 8
+	learning = 9
+	prowess = 9
+
+	7054.1.1 = {
+		birth = yes
+	}
+}
+
+linevaelthor8 = {
+	name = Aelor
+
+	dynasty = dynasty_vaelthor
+	religion = faith_forodain
+	culture = forodain
+
+	father = linevaelthor7
+	mother = wife_vaelthor7
+
+	trait = education_diplomacy_2
+	trait = arbitrary
+	trait = impatient
+	trait = diligent
+
+	diplomacy = 3
+	martial = 4
+	stewardship = 3
+	intrigue = 7
+	learning = 7
+	prowess = 3
+
+	7055.1.1 = {
+		birth = yes
+	}
+}
+
+##############################
+# LINE 3: House of Corphen
+# dynasty_corphen
+##############################
+
+linecorphen1 = {
+	name = Taldir
+
+	dynasty = dynasty_corphen
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_diplomacy_2
+	trait = humble
+	trait = shy
+	trait = temperate
+
+	diplomacy = 3
+	martial = 5
+	stewardship = 2
+	intrigue = 4
+	learning = 9
+	prowess = 10
+
+	trait = blood_of_numenor_2
+	6701.1.1 = {
+		birth = yes
+	}
+
+	6728.6.1 = {
+		add_spouse = wife_corphen1
+	}
+
+	6801.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+wife_corphen1 = {
+	name = Gilvaen
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_stewardship_2
+	trait = honest
+	trait = trusting
+	trait = vengeful
+
+	diplomacy = 3
+	martial = 2
+	stewardship = 3
+	intrigue = 4
+	learning = 3
+	prowess = 10
+
+	trait = blood_of_numenor_2
+	6705.1.1 = {
+		birth = yes
+	}
+
+	6792.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linecorphen2 = {
+	name = Aervor
+
+	dynasty = dynasty_corphen
+	religion = faith_forodain
+	culture = forodain
+
+	father = linecorphen1
+	mother = wife_corphen1
+
+	trait = education_diplomacy_2
+	trait = humble
+	trait = fickle
+	trait = trusting
+
+	diplomacy = 6
+	martial = 7
+	stewardship = 10
+	intrigue = 9
+	learning = 8
+	prowess = 8
+
+	trait = blood_of_numenor_2
+	6749.1.1 = {
+		birth = yes
+	}
+
+	6771.6.1 = {
+		add_spouse = wife_corphen2
+	}
+
+	6855.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+wife_corphen2 = {
+	name = Vanimel
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_diplomacy_3
+	trait = humble
+	trait = temperate
+	trait = impatient
+
+	diplomacy = 6
+	martial = 9
+	stewardship = 2
+	intrigue = 3
+	learning = 5
+	prowess = 8
+
+	trait = blood_of_numenor_2
+	6746.1.1 = {
+		birth = yes
+	}
+
+	6831.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linecorphen3bridge = {
+	name = Beravel
+
+	female = yes
+	dynasty = dynasty_corphen
+	religion = faith_forodain
+	culture = forodain
+
+	father = linecorphen2
+	mother = wife_corphen2
+
+	trait = education_stewardship_3
+	trait = shy
+	trait = impatient
+	trait = content
+
+	diplomacy = 7
+	martial = 7
+	stewardship = 6
+	intrigue = 7
+	learning = 8
+	prowess = 4
+
+	trait = blood_of_numenor_2
+	6801.1.1 = {
+		birth = yes
+	}
+
+	6879.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linecorphen3side1 = {
+	name = Aelrad
+
+	female = yes
+	dynasty = dynasty_corphen
+	religion = faith_forodain
+	culture = forodain
+
+	father = linecorphen2
+	mother = wife_corphen2
+
+	trait = education_diplomacy_2
+	trait = fickle
+	trait = humble
+	trait = calm
+
+	diplomacy = 4
+	martial = 9
+	stewardship = 8
+	intrigue = 7
+	learning = 2
+	prowess = 8
+
+	trait = blood_of_numenor_1
+	6795.1.1 = {
+		birth = yes
+	}
+
+	6886.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linecorphen3 = {
+	name = Aelron
+
+	dynasty = dynasty_corphen
+	religion = faith_forodain
+	culture = forodain
+
+	father = linecorphen2
+	mother = wife_corphen2
+
+	trait = education_stewardship_2
+	trait = just
+	trait = wrathful
+	trait = content
+
+	diplomacy = 10
+	martial = 10
+	stewardship = 8
+	intrigue = 8
+	learning = 2
+	prowess = 2
+
+	trait = blood_of_numenor_2
+	6800.1.1 = {
+		birth = yes
+	}
+
+	6837.6.1 = {
+		add_spouse = lineraudhave3bridge
+	}
+
+	6898.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linecorphen4side1 = {
+	name = Lothriel
+
+	female = yes
+	dynasty = dynasty_corphen
+	religion = faith_forodain
+	culture = forodain
+
+	father = linecorphen3
+	mother = lineraudhave3bridge
+
+	trait = education_learning_3
+	trait = brave
+	trait = content
+	trait = callous
+
+	diplomacy = 6
+	martial = 7
+	stewardship = 6
+	intrigue = 6
+	learning = 7
+	prowess = 4
+	trait = blood_of_numenor_1
+
+	6859.1.1 = {
+		birth = yes
+	}
+
+	6966.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linecorphen4side2 = {
+	name = Aelthor
+
+	dynasty = dynasty_corphen
+	religion = faith_forodain
+	culture = forodain
+
+	father = linecorphen3
+	mother = lineraudhave3bridge
+
+	trait = education_intrigue_2
+	trait = temperate
+	trait = humble
+	trait = diligent
+
+	diplomacy = 3
+	martial = 3
+	stewardship = 7
+	intrigue = 4
+	learning = 2
+	prowess = 7
+
+	trait = blood_of_numenor_1
+	6859.1.1 = {
+		birth = yes
+	}
+
+	6935.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linecorphen4side3 = {
+	name = Aelvar
+
+	female = yes
+	dynasty = dynasty_corphen
+	religion = faith_forodain
+	culture = forodain
+
+	father = linecorphen3
+	mother = lineraudhave3bridge
+
+	trait = education_stewardship_3
+	trait = trusting
+	trait = paranoid
+	trait = impatient
+
+	diplomacy = 10
+	martial = 3
+	stewardship = 4
+	intrigue = 10
+	learning = 6
+	prowess = 7
+
+	trait = blood_of_numenor_2
+	6859.1.1 = {
+		birth = yes
+	}
+
+	6947.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linecorphen4 = {
+	name = Malthor
+
+	dynasty = dynasty_corphen
+	religion = faith_forodain
+	culture = forodain
+
+	father = linecorphen3
+	mother = lineraudhave3bridge
+
+	trait = education_stewardship_2
+	trait = compassionate
+	trait = fickle
+	trait = vengeful
+
+	diplomacy = 10
+	martial = 9
+	stewardship = 3
+	intrigue = 2
+	learning = 4
+	prowess = 10
+
+	trait = blood_of_numenor_2
+	6851.1.1 = {
+		birth = yes
+	}
+
+	6878.6.1 = {
+		add_spouse = wife_corphen4
+	}
+
+	6953.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+wife_corphen4 = {
+	name = Gwaelwen
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_learning_2
+	trait = generous
+	trait = content
+	trait = impatient
+
+	diplomacy = 7
+	martial = 6
+	stewardship = 6
+	intrigue = 2
+	learning = 9
+	prowess = 5
+
+	trait = blood_of_numenor_2
+	6855.1.1 = {
+		birth = yes
+	}
+
+	6935.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linecorphen5side1 = {
+	name = Haldamir
+
+	dynasty = dynasty_corphen
+	religion = faith_forodain
+	culture = forodain
+
+	father = linecorphen4
+	mother = wife_corphen4
+
+	trait = education_martial_2
+	trait = patient
+	trait = content
+	trait = humble
+
+	diplomacy = 4
+	martial = 9
+	stewardship = 9
+	intrigue = 3
+	learning = 10
+	prowess = 10
+	trait = blood_of_numenor_1
+
+	6904.1.1 = {
+		birth = yes
+	}
+
+	6997.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linecorphen5 = {
+	name = Lendor
+
+	dynasty = dynasty_corphen
+	religion = faith_forodain
+	culture = forodain
+
+	father = linecorphen4
+	mother = wife_corphen4
+
+	trait = education_intrigue_2
+	trait = impatient
+	trait = just
+	trait = ambitious
+
+	diplomacy = 9
+	martial = 2
+	stewardship = 10
+	intrigue = 2
+	learning = 7
+	prowess = 10
+	trait = blood_of_numenor_1
+
+	6905.1.1 = {
+		birth = yes
+	}
+
+	6931.6.1 = {
+		add_spouse = wife_corphen5
+	}
+
+	6998.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+wife_corphen5 = {
+	name = Aelvir
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_martial_2
+	trait = stubborn
+	trait = generous
+	trait = compassionate
+
+	diplomacy = 2
+	martial = 4
+	stewardship = 6
+	intrigue = 6
+	learning = 4
+	prowess = 5
+	trait = blood_of_numenor_1
+
+	6909.1.1 = {
+		birth = yes
+	}
+
+	7008.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linecorphen6side1 = {
+	name = Ceredis
+
+	female = yes
+	dynasty = dynasty_corphen
+	religion = faith_forodain
+	culture = forodain
+
+	father = linecorphen5
+	mother = wife_corphen5
+
+	trait = education_stewardship_3
+	trait = patient
+	trait = trusting
+	trait = vengeful
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 5
+	intrigue = 5
+	learning = 4
+	prowess = 3
+	trait = blood_of_numenor_1
+
+	6955.1.1 = {
+		birth = yes
+	}
+
+	7045.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linecorphen6side2 = {
+	name = Forlongir
+
+	dynasty = dynasty_corphen
+	religion = faith_forodain
+	culture = forodain
+
+	father = linecorphen5
+	mother = wife_corphen5
+
+	trait = education_intrigue_2
+	trait = stubborn
+	trait = humble
+	trait = trusting
+
+	diplomacy = 7
+	martial = 10
+	stewardship = 9
+	intrigue = 7
+	learning = 6
+	prowess = 10
+	trait = blood_of_numenor_1
+
+	6946.1.1 = {
+		birth = yes
+	}
+
+	7053.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linecorphen6 = {
+	name = Aela
+
+	dynasty = dynasty_corphen
+	religion = faith_forodain
+	culture = forodain
+
+	father = linecorphen5
+	mother = wife_corphen5
+
+	trait = education_learning_2
+	trait = just
+	trait = humble
+	trait = arbitrary
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 10
+	intrigue = 10
+	learning = 2
+	prowess = 7
+	trait = blood_of_numenor_1
+
+	6951.1.1 = {
+		birth = yes
+	}
+
+	6987.6.1 = {
+		add_spouse = wife_corphen6
+	}
+
+	7054.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+wife_corphen6 = {
+	name = Aeleth
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_diplomacy_2
+	trait = ambitious
+	trait = humble
+	trait = gregarious
+
+	diplomacy = 4
+	martial = 2
+	stewardship = 2
+	intrigue = 4
+	learning = 4
+	prowess = 7
+	trait = blood_of_numenor_1
+
+	6956.1.1 = {
+		birth = yes
+	}
+
+	7055.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linecorphen7 = {
+	name = Aeliel
+
+	dynasty = dynasty_corphen
+	religion = faith_forodain
+	culture = forodain
+
+	father = linecorphen6
+	mother = wife_corphen6
+
+	trait = education_learning_3
+	trait = impatient
+	trait = trusting
+	trait = humble
+
+	diplomacy = 3
+	martial = 9
+	stewardship = 4
+	intrigue = 8
+	learning = 2
+	prowess = 8
+
+	7007.1.1 = {
+		birth = yes
+	}
+
+	7039.6.1 = {
+		add_spouse = wife_corphen7
+	}
+}
+
+wife_corphen7 = {
+	name = Brithiel
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_stewardship_3
+	trait = wrathful
+	trait = honest
+	trait = stubborn
+
+	diplomacy = 5
+	martial = 2
+	stewardship = 9
+	intrigue = 5
+	learning = 4
+	prowess = 3
+
+	7010.1.1 = {
+		birth = yes
+	}
+}
+
+linecorphen8side1 = {
+	name = Aelien
+
+	female = yes
+	dynasty = dynasty_corphen
+	religion = faith_forodain
+	culture = forodain
+
+	father = linecorphen7
+	mother = wife_corphen7
+
+	trait = education_martial_2
+	trait = stubborn
+	trait = trusting
+	trait = fickle
+
+	diplomacy = 3
+	martial = 10
+	stewardship = 6
+	intrigue = 4
+	learning = 10
+	prowess = 7
+
+	7063.1.1 = {
+		birth = yes
+	}
+}
+
+linecorphen8 = {
+	name = Aelith
+
+	dynasty = dynasty_corphen
+	religion = faith_forodain
+	culture = forodain
+
+	father = linecorphen7
+	mother = wife_corphen7
+
+	trait = education_intrigue_2
+	trait = paranoid
+	trait = compassionate
+	trait = humble
+
+	diplomacy = 4
+	martial = 10
+	stewardship = 3
+	intrigue = 8
+	learning = 8
+	prowess = 7
+
+	7055.1.1 = {
+		birth = yes
+	}
+}
+
+##############################
+# LINE 4: House of Raudhave
+# dynasty_raudhave
+##############################
+
+lineraudhave1 = {
+	name = Iorven
+
+	dynasty = dynasty_raudhave
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_learning_2
+	trait = generous
+	trait = wrathful
+	trait = honest
+
+	diplomacy = 3
+	martial = 3
+	stewardship = 7
+	intrigue = 2
+	learning = 3
+	prowess = 3
+
+	trait = blood_of_numenor_2
+	6707.1.1 = {
+		birth = yes
+	}
+
+	6738.6.1 = {
+		add_spouse = wife_raudhave1
+	}
+
+	6802.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+wife_raudhave1 = {
+	name = Aellin
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_stewardship_3
+	trait = calm
+	trait = compassionate
+	trait = humble
+
+	diplomacy = 8
+	martial = 7
+	stewardship = 4
+	intrigue = 10
+	learning = 10
+	prowess = 2
+
+	trait = blood_of_numenor_2
+	6712.1.1 = {
+		birth = yes
+	}
+
+	6811.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineraudhave2side1 = {
+	name = Dervanor
+
+	dynasty = dynasty_raudhave
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineraudhave1
+	mother = wife_raudhave1
+
+	trait = education_martial_2
+	trait = humble
+	trait = generous
+	trait = stubborn
+
+	diplomacy = 8
+	martial = 6
+	stewardship = 9
+	intrigue = 2
+	learning = 5
+	prowess = 10
+
+	trait = blood_of_numenor_1
+	6748.1.1 = {
+		birth = yes
+	}
+
+	6826.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineraudhave2side2 = {
+	name = Aelriel
+
+	female = yes
+	dynasty = dynasty_raudhave
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineraudhave1
+	mother = wife_raudhave1
+
+	trait = education_learning_2
+	trait = honest
+	trait = temperate
+	trait = compassionate
+
+	diplomacy = 6
+	martial = 6
+	stewardship = 6
+	intrigue = 5
+	learning = 4
+	prowess = 8
+
+	trait = blood_of_numenor_1
+	6750.1.1 = {
+		birth = yes
+	}
+
+	6839.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineraudhave2side3 = {
+	name = Aelwyn
+
+	dynasty = dynasty_raudhave
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineraudhave1
+	mother = wife_raudhave1
+
+	trait = education_stewardship_3
+	trait = fickle
+	trait = diligent
+	trait = shy
+
+	diplomacy = 2
+	martial = 3
+	stewardship = 3
+	intrigue = 5
+	learning = 5
+	prowess = 2
+
+	trait = blood_of_numenor_1
+	6752.1.1 = {
+		birth = yes
+	}
+
+	6829.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineraudhave2 = {
+	name = Aldadan
+
+	dynasty = dynasty_raudhave
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineraudhave1
+	mother = wife_raudhave1
+
+	trait = education_diplomacy_2
+	trait = diligent
+	trait = vengeful
+	trait = gregarious
+
+	diplomacy = 7
+	martial = 3
+	stewardship = 3
+	intrigue = 7
+	learning = 10
+	prowess = 6
+
+	trait = blood_of_numenor_1
+	6753.1.1 = {
+		birth = yes
+	}
+
+	6784.6.1 = {
+		add_spouse = wife_raudhave2
+	}
+
+	6851.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+wife_raudhave2 = {
+	name = Aldadir
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_stewardship_2
+	trait = vengeful
+	trait = gregarious
+	trait = shy
+
+	diplomacy = 8
+	martial = 3
+	stewardship = 6
+	intrigue = 2
+	learning = 10
+	prowess = 4
+
+	trait = blood_of_numenor_1
+	6751.1.1 = {
+		birth = yes
+	}
+
+	6855.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineraudhave3bridge = {
+	name = Aldael
+
+	female = yes
+	dynasty = dynasty_raudhave
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineraudhave2
+	mother = wife_raudhave2
+
+	trait = education_diplomacy_3
+	trait = generous
+	trait = wrathful
+	trait = just
+
+	diplomacy = 8
+	martial = 6
+	stewardship = 4
+	intrigue = 10
+	learning = 9
+	prowess = 10
+
+	6809.1.1 = {
+		birth = yes
+	}
+
+	6886.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineraudhave3side1 = {
+	name = Aldandir
+
+	dynasty = dynasty_raudhave
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineraudhave2
+	mother = wife_raudhave2
+
+	trait = education_intrigue_2
+	trait = arbitrary
+	trait = trusting
+	trait = fickle
+
+	diplomacy = 7
+	martial = 4
+	stewardship = 9
+	intrigue = 6
+	learning = 7
+	prowess = 6
+	trait = blood_of_numenor_1
+
+	6811.1.1 = {
+		birth = yes
+	}
+
+	6903.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineraudhave3 = {
+	name = Aldanor
+
+	dynasty = dynasty_raudhave
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineraudhave2
+	mother = wife_raudhave2
+
+	trait = education_stewardship_3
+	trait = patient
+	trait = honest
+	trait = calm
+
+	diplomacy = 3
+	martial = 7
+	stewardship = 6
+	intrigue = 4
+	learning = 3
+	prowess = 7
+
+	trait = blood_of_numenor_1
+	6805.1.1 = {
+		birth = yes
+	}
+
+	6832.6.1 = {
+		add_spouse = linegalenmir3bridge
+	}
+
+	6918.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineraudhave4side1 = {
+	name = Aldarin
+
+	dynasty = dynasty_raudhave
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineraudhave3
+	mother = linegalenmir3bridge
+
+	trait = education_learning_2
+	trait = content
+	trait = callous
+	trait = arbitrary
+
+	diplomacy = 3
+	martial = 6
+	stewardship = 3
+	intrigue = 2
+	learning = 7
+	prowess = 2
+
+	trait = blood_of_numenor_1
+	6845.1.1 = {
+		birth = yes
+	}
+
+	6937.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineraudhave4 = {
+	name = Aldavor
+
+	dynasty = dynasty_raudhave
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineraudhave3
+	mother = linegalenmir3bridge
+
+	trait = education_diplomacy_3
+	trait = content
+	trait = arbitrary
+	trait = shy
+
+	diplomacy = 8
+	martial = 9
+	stewardship = 6
+	intrigue = 10
+	learning = 3
+	prowess = 9
+
+	trait = blood_of_numenor_1
+	6850.1.1 = {
+		birth = yes
+	}
+
+	6873.6.1 = {
+		add_spouse = wife_raudhave4
+	}
+
+	6952.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+wife_raudhave4 = {
+	name = Aldendir
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_martial_2
+	trait = fickle
+	trait = content
+	trait = paranoid
+
+	diplomacy = 9
+	martial = 2
+	stewardship = 3
+	intrigue = 8
+	learning = 6
+	prowess = 2
+	trait = blood_of_numenor_1
+
+	6852.1.1 = {
+		birth = yes
+	}
+
+	6932.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineraudhave5side1 = {
+	name = Aldethor
+
+	female = yes
+	dynasty = dynasty_raudhave
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineraudhave4
+	mother = wife_raudhave4
+
+	trait = education_stewardship_2
+	trait = stubborn
+	trait = content
+	trait = gregarious
+
+	diplomacy = 4
+	martial = 2
+	stewardship = 10
+	intrigue = 4
+	learning = 8
+	prowess = 4
+	trait = blood_of_numenor_1
+
+	6911.1.1 = {
+		birth = yes
+	}
+
+	7008.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineraudhave5side2 = {
+	name = Hirvegil
+
+	dynasty = dynasty_raudhave
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineraudhave4
+	mother = wife_raudhave4
+
+	trait = education_stewardship_3
+	trait = content
+	trait = ambitious
+	trait = brave
+
+	diplomacy = 8
+	martial = 4
+	stewardship = 5
+	intrigue = 4
+	learning = 7
+	prowess = 2
+	trait = blood_of_numenor_1
+
+	6898.1.1 = {
+		birth = yes
+	}
+
+	6977.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineraudhave5 = {
+	name = Aldion
+
+	dynasty = dynasty_raudhave
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineraudhave4
+	mother = wife_raudhave4
+
+	trait = education_martial_3
+	trait = paranoid
+	trait = calm
+	trait = vengeful
+
+	diplomacy = 7
+	martial = 4
+	stewardship = 9
+	intrigue = 6
+	learning = 8
+	prowess = 9
+	trait = blood_of_numenor_1
+
+	6903.1.1 = {
+		birth = yes
+	}
+
+	6928.6.1 = {
+		add_spouse = wife_raudhave5
+	}
+
+	6994.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+wife_raudhave5 = {
+	name = Celebwen
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_diplomacy_3
+	trait = shy
+	trait = just
+	trait = gregarious
+
+	diplomacy = 2
+	martial = 10
+	stewardship = 5
+	intrigue = 4
+	learning = 10
+	prowess = 3
+	trait = blood_of_numenor_1
+
+	6898.1.1 = {
+		birth = yes
+	}
+
+	6990.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineraudhave6 = {
+	name = Aldmir
+
+	dynasty = dynasty_raudhave
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineraudhave5
+	mother = wife_raudhave5
+
+	trait = education_diplomacy_2
+	trait = vengeful
+	trait = fickle
+	trait = arbitrary
+
+	diplomacy = 6
+	martial = 6
+	stewardship = 2
+	intrigue = 10
+	learning = 2
+	prowess = 7
+
+	6957.1.1 = {
+		birth = yes
+	}
+
+	6981.6.1 = {
+		add_spouse = wife_raudhave6
+	}
+
+	7066.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+wife_raudhave6 = {
+	name = Nimriel
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_martial_2
+	trait = compassionate
+	trait = vengeful
+	trait = diligent
+
+	diplomacy = 6
+	martial = 9
+	stewardship = 8
+	intrigue = 6
+	learning = 9
+	prowess = 8
+
+	6952.1.1 = {
+		birth = yes
+	}
+
+	7057.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineraudhave7side1 = {
+	name = Aldnor
+
+	female = yes
+	dynasty = dynasty_raudhave
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineraudhave6
+	mother = wife_raudhave6
+
+	trait = education_learning_2
+	trait = trusting
+	trait = callous
+	trait = arbitrary
+
+	diplomacy = 10
+	martial = 3
+	stewardship = 2
+	intrigue = 10
+	learning = 6
+	prowess = 7
+
+	6999.1.1 = {
+		birth = yes
+	}
+}
+
+lineraudhave7side2 = {
+	name = Aldrad
+
+	dynasty = dynasty_raudhave
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineraudhave6
+	mother = wife_raudhave6
+
+	trait = education_diplomacy_3
+	trait = impatient
+	trait = honest
+	trait = stubborn
+
+	diplomacy = 2
+	martial = 6
+	stewardship = 6
+	intrigue = 5
+	learning = 2
+	prowess = 6
+
+	7006.1.1 = {
+		birth = yes
+	}
+}
+
+lineraudhave7side3 = {
+	name = Aldron
+
+	female = yes
+	dynasty = dynasty_raudhave
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineraudhave6
+	mother = wife_raudhave6
+
+	trait = education_diplomacy_2
+	trait = calm
+	trait = temperate
+	trait = honest
+
+	diplomacy = 4
+	martial = 9
+	stewardship = 9
+	intrigue = 9
+	learning = 2
+	prowess = 5
+
+	6999.1.1 = {
+		birth = yes
+	}
+}
+
+lineraudhave7 = {
+	name = Aldthor
+
+	dynasty = dynasty_raudhave
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineraudhave6
+	mother = wife_raudhave6
+
+	trait = education_martial_2
+	trait = honest
+	trait = stubborn
+	trait = calm
+
+	diplomacy = 10
+	martial = 8
+	stewardship = 7
+	intrigue = 9
+	learning = 6
+	prowess = 5
+
+	7004.1.1 = {
+		birth = yes
+	}
+
+	7030.6.1 = {
+		add_spouse = wife_raudhave7
+	}
+}
+
+wife_raudhave7 = {
+	name = Aldvar
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_intrigue_2
+	trait = temperate
+	trait = honest
+	trait = brave
+
+	diplomacy = 6
+	martial = 5
+	stewardship = 5
+	intrigue = 6
+	learning = 4
+	prowess = 5
+
+	6999.1.1 = {
+		birth = yes
+	}
+}
+
+lineraudhave8side1 = {
+	name = Rhovandir
+
+	dynasty = dynasty_raudhave
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineraudhave7
+	mother = wife_raudhave7
+
+	trait = education_martial_3
+	trait = gregarious
+	trait = calm
+	trait = content
+
+	diplomacy = 9
+	martial = 3
+	stewardship = 7
+	intrigue = 2
+	learning = 10
+	prowess = 7
+
+	7055.1.1 = {
+		birth = yes
+	}
+}
+
+lineraudhave8 = {
+	name = Aldvir
+
+	dynasty = dynasty_raudhave
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineraudhave7
+	mother = wife_raudhave7
+
+	trait = education_stewardship_2
+	trait = diligent
+	trait = ambitious
+	trait = impatient
+
+	diplomacy = 10
+	martial = 9
+	stewardship = 4
+	intrigue = 4
+	learning = 9
+	prowess = 6
+
+	7051.1.1 = {
+		birth = yes
+	}
+}
+
+##############################
+# LINE 5: House of Galenmir
+# dynasty_galenmir
+##############################
+
+linegalenmir1 = {
+	name = Alda
+
+	dynasty = dynasty_galenmir
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_martial_3
+	trait = humble
+	trait = trusting
+	trait = paranoid
+
+	diplomacy = 10
+	martial = 5
+	stewardship = 6
+	intrigue = 2
+	learning = 7
+	prowess = 6
+
+	trait = blood_of_numenor_2
+	6703.1.1 = {
+		birth = yes
+	}
+
+	6732.6.1 = {
+		add_spouse = wife_galenmir1
+	}
+
+	6808.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+wife_galenmir1 = {
+	name = Lindis
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_learning_2
+	trait = brave
+	trait = fickle
+	trait = just
+
+	diplomacy = 7
+	martial = 5
+	stewardship = 5
+	intrigue = 4
+	learning = 10
+	prowess = 2
+
+	trait = blood_of_numenor_2
+	6707.1.1 = {
+		birth = yes
+	}
+
+	6788.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linegalenmir2side1 = {
+	name = Aldeth
+
+	female = yes
+	dynasty = dynasty_galenmir
+	religion = faith_forodain
+	culture = forodain
+
+	father = linegalenmir1
+	mother = wife_galenmir1
+
+	trait = education_diplomacy_2
+	trait = humble
+	trait = arbitrary
+	trait = calm
+
+	diplomacy = 7
+	martial = 4
+	stewardship = 9
+	intrigue = 10
+	learning = 10
+	prowess = 7
+
+	trait = blood_of_numenor_1
+	6754.1.1 = {
+		birth = yes
+	}
+
+	6853.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linegalenmir2 = {
+	name = Aldiel
+
+	dynasty = dynasty_galenmir
+	religion = faith_forodain
+	culture = forodain
+
+	father = linegalenmir1
+	mother = wife_galenmir1
+
+	trait = education_learning_3
+	trait = humble
+	trait = vengeful
+	trait = shy
+
+	diplomacy = 3
+	martial = 4
+	stewardship = 4
+	intrigue = 3
+	learning = 5
+	prowess = 5
+
+	trait = blood_of_numenor_2
+	6752.1.1 = {
+		birth = yes
+	}
+
+	6781.6.1 = {
+		add_spouse = wife_galenmir2
+	}
+
+	6859.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+wife_galenmir2 = {
+	name = Aldien
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_learning_2
+	trait = patient
+	trait = callous
+	trait = shy
+
+	diplomacy = 10
+	martial = 9
+	stewardship = 4
+	intrigue = 7
+	learning = 6
+	prowess = 8
+
+	trait = blood_of_numenor_2
+	6757.1.1 = {
+		birth = yes
+	}
+
+	6849.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linegalenmir3bridge = {
+	name = Aldith
+
+	female = yes
+	dynasty = dynasty_galenmir
+	religion = faith_forodain
+	culture = forodain
+
+	father = linegalenmir2
+	mother = wife_galenmir2
+
+	trait = education_learning_2
+	trait = stubborn
+	trait = fickle
+	trait = arbitrary
+
+	diplomacy = 6
+	martial = 4
+	stewardship = 3
+	intrigue = 5
+	learning = 2
+	prowess = 8
+
+	trait = blood_of_numenor_2
+	6807.1.1 = {
+		birth = yes
+	}
+
+	6889.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linegalenmir3side1 = {
+	name = Aldlin
+
+	female = yes
+	dynasty = dynasty_galenmir
+	religion = faith_forodain
+	culture = forodain
+
+	father = linegalenmir2
+	mother = wife_galenmir2
+
+	trait = education_learning_2
+	trait = honest
+	trait = just
+	trait = humble
+
+	diplomacy = 6
+	martial = 8
+	stewardship = 7
+	intrigue = 10
+	learning = 10
+	prowess = 9
+	trait = blood_of_numenor_2
+
+	6802.1.1 = {
+		birth = yes
+	}
+
+	6881.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linegalenmir3 = {
+	name = Pelendir
+
+	dynasty = dynasty_galenmir
+	religion = faith_forodain
+	culture = forodain
+
+	father = linegalenmir2
+	mother = wife_galenmir2
+
+	trait = education_learning_3
+	trait = diligent
+	trait = gregarious
+	trait = temperate
+
+	diplomacy = 8
+	martial = 9
+	stewardship = 9
+	intrigue = 4
+	learning = 9
+	prowess = 8
+
+	trait = blood_of_numenor_2
+	6807.1.1 = {
+		birth = yes
+	}
+
+	6833.6.1 = {
+		add_spouse = linethalioneth3bridge
+	}
+
+	6898.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linegalenmir4side1 = {
+	name = Aldriel
+
+	female = yes
+	dynasty = dynasty_galenmir
+	religion = faith_forodain
+	culture = forodain
+
+	father = linegalenmir3
+	mother = linethalioneth3bridge
+
+	trait = education_stewardship_3
+	trait = paranoid
+	trait = vengeful
+	trait = honest
+
+	diplomacy = 10
+	martial = 7
+	stewardship = 5
+	intrigue = 4
+	learning = 2
+	prowess = 7
+
+	trait = blood_of_numenor_1
+	6852.1.1 = {
+		birth = yes
+	}
+
+	6940.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linegalenmir4side2 = {
+	name = Aldwen
+
+	dynasty = dynasty_galenmir
+	religion = faith_forodain
+	culture = forodain
+
+	father = linegalenmir3
+	mother = linethalioneth3bridge
+
+	trait = education_diplomacy_2
+	trait = fickle
+	trait = impatient
+	trait = trusting
+
+	diplomacy = 10
+	martial = 6
+	stewardship = 2
+	intrigue = 5
+	learning = 6
+	prowess = 7
+
+	trait = blood_of_numenor_1
+	6865.1.1 = {
+		birth = yes
+	}
+
+	6946.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linegalenmir4 = {
+	name = Aldwyn
+
+	dynasty = dynasty_galenmir
+	religion = faith_forodain
+	culture = forodain
+
+	father = linegalenmir3
+	mother = linethalioneth3bridge
+
+	trait = education_intrigue_2
+	trait = temperate
+	trait = calm
+	trait = brave
+
+	diplomacy = 5
+	martial = 3
+	stewardship = 4
+	intrigue = 6
+	learning = 3
+	prowess = 9
+
+	trait = blood_of_numenor_1
+	6857.1.1 = {
+		birth = yes
+	}
+
+	6885.6.1 = {
+		add_spouse = wife_galenmir4
+	}
+
+	6949.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+wife_galenmir4 = {
+	name = Moraeth
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_diplomacy_2
+	trait = fickle
+	trait = diligent
+	trait = temperate
+
+	diplomacy = 9
+	martial = 5
+	stewardship = 9
+	intrigue = 3
+	learning = 2
+	prowess = 9
+	trait = blood_of_numenor_1
+
+	6853.1.1 = {
+		birth = yes
+	}
+
+	6958.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linegalenmir5 = {
+	name = Arvadan
+
+	dynasty = dynasty_galenmir
+	religion = faith_forodain
+	culture = forodain
+
+	father = linegalenmir4
+	mother = wife_galenmir4
+
+	trait = education_intrigue_2
+	trait = wrathful
+	trait = shy
+	trait = paranoid
+
+	diplomacy = 3
+	martial = 10
+	stewardship = 10
+	intrigue = 3
+	learning = 2
+	prowess = 10
+	trait = blood_of_numenor_1
+
+	6910.1.1 = {
+		birth = yes
+	}
+
+	6940.6.1 = {
+		add_spouse = wife_galenmir5
+	}
+
+	7004.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+wife_galenmir5 = {
+	name = Arvadir
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_intrigue_2
+	trait = humble
+	trait = shy
+	trait = honest
+
+	diplomacy = 10
+	martial = 6
+	stewardship = 9
+	intrigue = 5
+	learning = 6
+	prowess = 2
+	trait = blood_of_numenor_1
+
+	6906.1.1 = {
+		birth = yes
+	}
+
+	6987.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linegalenmir6side1 = {
+	name = Arvael
+
+	female = yes
+	dynasty = dynasty_galenmir
+	religion = faith_forodain
+	culture = forodain
+
+	father = linegalenmir5
+	mother = wife_galenmir5
+
+	trait = education_stewardship_2
+	trait = temperate
+	trait = humble
+	trait = fickle
+
+	diplomacy = 5
+	martial = 6
+	stewardship = 7
+	intrigue = 8
+	learning = 10
+	prowess = 7
+
+	6967.1.1 = {
+		birth = yes
+	}
+
+	7058.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linegalenmir6 = {
+	name = Arvandir
+
+	dynasty = dynasty_galenmir
+	religion = faith_forodain
+	culture = forodain
+
+	father = linegalenmir5
+	mother = wife_galenmir5
+
+	trait = education_learning_3
+	trait = humble
+	trait = arbitrary
+	trait = calm
+
+	diplomacy = 10
+	martial = 3
+	stewardship = 2
+	intrigue = 3
+	learning = 7
+	prowess = 7
+
+	6959.1.1 = {
+		birth = yes
+	}
+
+	6984.6.1 = {
+		add_spouse = wife_galenmir6
+	}
+
+	7052.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+wife_galenmir6 = {
+	name = Arvanor
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_stewardship_2
+	trait = wrathful
+	trait = callous
+	trait = gregarious
+
+	diplomacy = 10
+	martial = 9
+	stewardship = 5
+	intrigue = 5
+	learning = 4
+	prowess = 9
+
+	6959.1.1 = {
+		birth = yes
+	}
+
+	7041.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linegalenmir7side1 = {
+	name = Arvarin
+
+	dynasty = dynasty_galenmir
+	religion = faith_forodain
+	culture = forodain
+
+	father = linegalenmir6
+	mother = wife_galenmir6
+
+	trait = education_martial_2
+	trait = shy
+	trait = trusting
+	trait = temperate
+
+	diplomacy = 4
+	martial = 3
+	stewardship = 2
+	intrigue = 4
+	learning = 10
+	prowess = 4
+
+	7000.1.1 = {
+		birth = yes
+	}
+}
+
+linegalenmir7side2 = {
+	name = Arvavor
+
+	female = yes
+	dynasty = dynasty_galenmir
+	religion = faith_forodain
+	culture = forodain
+
+	father = linegalenmir6
+	mother = wife_galenmir6
+
+	trait = education_intrigue_2
+	trait = honest
+	trait = temperate
+	trait = fickle
+
+	diplomacy = 2
+	martial = 8
+	stewardship = 3
+	intrigue = 9
+	learning = 3
+	prowess = 9
+
+	7013.1.1 = {
+		birth = yes
+	}
+}
+
+linegalenmir7side3 = {
+	name = Arvendir
+
+	dynasty = dynasty_galenmir
+	religion = faith_forodain
+	culture = forodain
+
+	father = linegalenmir6
+	mother = wife_galenmir6
+
+	trait = education_intrigue_2
+	trait = patient
+	trait = fickle
+	trait = stubborn
+
+	diplomacy = 3
+	martial = 8
+	stewardship = 2
+	intrigue = 2
+	learning = 8
+	prowess = 6
+
+	7007.1.1 = {
+		birth = yes
+	}
+}
+
+linegalenmir7 = {
+	name = Arvethor
+
+	dynasty = dynasty_galenmir
+	religion = faith_forodain
+	culture = forodain
+
+	father = linegalenmir6
+	mother = wife_galenmir6
+
+	trait = education_martial_3
+	trait = stubborn
+	trait = paranoid
+	trait = humble
+
+	diplomacy = 8
+	martial = 4
+	stewardship = 8
+	intrigue = 6
+	learning = 6
+	prowess = 7
+
+	7005.1.1 = {
+		birth = yes
+	}
+
+	7036.6.1 = {
+		add_spouse = wife_galenmir7
+	}
+}
+
+wife_galenmir7 = {
+	name = Arvion
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_martial_2
+	trait = just
+	trait = humble
+	trait = gregarious
+
+	diplomacy = 2
+	martial = 9
+	stewardship = 8
+	intrigue = 3
+	learning = 9
+	prowess = 10
+
+	7001.1.1 = {
+		birth = yes
+	}
+}
+
+linegalenmir8 = {
+	name = Arvmir
+
+	dynasty = dynasty_galenmir
+	religion = faith_forodain
+	culture = forodain
+
+	father = linegalenmir7
+	mother = wife_galenmir7
+
+	trait = education_learning_3
+	trait = impatient
+	trait = diligent
+	trait = patient
+
+	diplomacy = 10
+	martial = 5
+	stewardship = 7
+	intrigue = 6
+	learning = 3
+	prowess = 9
+
+	7060.1.1 = {
+		birth = yes
+	}
+}
+
+##############################
+# LINE 6: House of Thalioneth
+# dynasty_thalioneth
+##############################
+
+linethalioneth1 = {
+	name = Arvnor
+
+	dynasty = dynasty_thalioneth
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_learning_3
+	trait = patient
+	trait = content
+	trait = shy
+
+	diplomacy = 9
+	martial = 2
+	stewardship = 7
+	intrigue = 8
+	learning = 8
+	prowess = 4
+
+	trait = blood_of_numenor_2
+	6701.1.1 = {
+		birth = yes
+	}
+
+	6728.6.1 = {
+		add_spouse = wife_thalioneth1
+	}
+
+	6815.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+wife_thalioneth1 = {
+	name = Arvor
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_intrigue_2
+	trait = ambitious
+	trait = stubborn
+	trait = gregarious
+
+	diplomacy = 4
+	martial = 8
+	stewardship = 3
+	intrigue = 7
+	learning = 6
+	prowess = 8
+
+	trait = blood_of_numenor_2
+	6700.1.1 = {
+		birth = yes
+	}
+
+	6790.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linethalioneth2side1 = {
+	name = Arvrad
+
+	dynasty = dynasty_thalioneth
+	religion = faith_forodain
+	culture = forodain
+
+	father = linethalioneth1
+	mother = wife_thalioneth1
+
+	trait = education_learning_2
+	trait = humble
+	trait = trusting
+	trait = stubborn
+
+	diplomacy = 6
+	martial = 6
+	stewardship = 9
+	intrigue = 10
+	learning = 5
+	prowess = 6
+
+	trait = blood_of_numenor_2
+	6744.1.1 = {
+		birth = yes
+	}
+
+	6834.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linethalioneth2side2 = {
+	name = Arvron
+
+	female = yes
+	dynasty = dynasty_thalioneth
+	religion = faith_forodain
+	culture = forodain
+
+	father = linethalioneth1
+	mother = wife_thalioneth1
+
+	trait = education_martial_2
+	trait = impatient
+	trait = shy
+	trait = calm
+
+	diplomacy = 5
+	martial = 2
+	stewardship = 8
+	intrigue = 8
+	learning = 6
+	prowess = 2
+
+	trait = blood_of_numenor_2
+	6749.1.1 = {
+		birth = yes
+	}
+
+	6839.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linethalioneth2 = {
+	name = Arvthor
+
+	dynasty = dynasty_thalioneth
+	religion = faith_forodain
+	culture = forodain
+
+	father = linethalioneth1
+	mother = wife_thalioneth1
+
+	trait = education_stewardship_2
+	trait = gregarious
+	trait = callous
+	trait = stubborn
+
+	diplomacy = 6
+	martial = 7
+	stewardship = 4
+	intrigue = 4
+	learning = 8
+	prowess = 10
+
+	trait = blood_of_numenor_2
+	6745.1.1 = {
+		birth = yes
+	}
+
+	6776.6.1 = {
+		add_spouse = wife_thalioneth2
+	}
+
+	6842.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+wife_thalioneth2 = {
+	name = Arvvar
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_diplomacy_2
+	trait = gregarious
+	trait = wrathful
+	trait = trusting
+
+	diplomacy = 2
+	martial = 4
+	stewardship = 2
+	intrigue = 9
+	learning = 8
+	prowess = 4
+
+	trait = blood_of_numenor_2
+	6749.1.1 = {
+		birth = yes
+	}
+
+	6852.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linethalioneth3bridge = {
+	name = Arvvir
+
+	female = yes
+	dynasty = dynasty_thalioneth
+	religion = faith_forodain
+	culture = forodain
+
+	father = linethalioneth2
+	mother = wife_thalioneth2
+
+	trait = education_diplomacy_3
+	trait = gregarious
+	trait = humble
+	trait = callous
+
+	diplomacy = 3
+	martial = 8
+	stewardship = 2
+	intrigue = 7
+	learning = 6
+	prowess = 3
+	6790.1.1 = {
+		birth = yes
+	}
+
+	6896.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linethalioneth3side1 = {
+	name = Arva
+
+	dynasty = dynasty_thalioneth
+	religion = faith_forodain
+	culture = forodain
+
+	father = linethalioneth2
+	mother = wife_thalioneth2
+
+	trait = education_martial_2
+	trait = brave
+	trait = impatient
+	trait = ambitious
+
+	diplomacy = 4
+	martial = 10
+	stewardship = 2
+	intrigue = 4
+	learning = 3
+	prowess = 2
+
+	trait = blood_of_numenor_1
+	6798.1.1 = {
+		birth = yes
+	}
+
+	6903.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linethalioneth3 = {
+	name = Arveth
+
+	dynasty = dynasty_thalioneth
+	religion = faith_forodain
+	culture = forodain
+
+	father = linethalioneth2
+	mother = wife_thalioneth2
+
+	trait = education_stewardship_3
+	trait = calm
+	trait = arbitrary
+	trait = patient
+
+	diplomacy = 5
+	martial = 4
+	stewardship = 6
+	intrigue = 4
+	learning = 9
+	prowess = 5
+
+	trait = blood_of_numenor_1
+	6790.1.1 = {
+		birth = yes
+	}
+
+	6830.6.1 = {
+		add_spouse = lineberethril3bridge
+	}
+
+	6884.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linethalioneth4 = {
+	name = Arviel
+
+	dynasty = dynasty_thalioneth
+	religion = faith_forodain
+	culture = forodain
+
+	father = linethalioneth3
+	mother = lineberethril3bridge
+
+	trait = education_stewardship_2
+	trait = ambitious
+	trait = paranoid
+	trait = shy
+
+	diplomacy = 7
+	martial = 7
+	stewardship = 10
+	intrigue = 4
+	learning = 9
+	prowess = 3
+
+	trait = blood_of_numenor_1
+	6840.1.1 = {
+		birth = yes
+	}
+
+	6871.6.1 = {
+		add_spouse = wife_thalioneth4
+	}
+
+	6951.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+wife_thalioneth4 = {
+	name = Arvien
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_stewardship_3
+	trait = impatient
+	trait = vengeful
+	trait = trusting
+
+	diplomacy = 9
+	martial = 8
+	stewardship = 2
+	intrigue = 3
+	learning = 10
+	prowess = 6
+
+	trait = blood_of_numenor_1
+	6845.1.1 = {
+		birth = yes
+	}
+
+	6937.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linethalioneth5side1 = {
+	name = Arvith
+
+	female = yes
+	dynasty = dynasty_thalioneth
+	religion = faith_forodain
+	culture = forodain
+
+	father = linethalioneth4
+	mother = wife_thalioneth4
+
+	trait = education_martial_2
+	trait = vengeful
+	trait = ambitious
+	trait = stubborn
+
+	diplomacy = 8
+	martial = 6
+	stewardship = 2
+	intrigue = 8
+	learning = 7
+	prowess = 7
+
+	6892.1.1 = {
+		birth = yes
+	}
+
+	6974.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linethalioneth5 = {
+	name = Arvlin
+
+	dynasty = dynasty_thalioneth
+	religion = faith_forodain
+	culture = forodain
+
+	father = linethalioneth4
+	mother = wife_thalioneth4
+
+	trait = education_stewardship_2
+	trait = fickle
+	trait = calm
+	trait = trusting
+
+	diplomacy = 4
+	martial = 7
+	stewardship = 7
+	intrigue = 2
+	learning = 5
+	prowess = 4
+
+	6886.1.1 = {
+		birth = yes
+	}
+
+	6916.6.1 = {
+		add_spouse = wife_thalioneth5
+	}
+
+	6999.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+wife_thalioneth5 = {
+	name = Taurieln
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_stewardship_3
+	trait = impatient
+	trait = vengeful
+	trait = trusting
+
+	diplomacy = 8
+	martial = 5
+	stewardship = 4
+	intrigue = 3
+	learning = 2
+	prowess = 4
+
+	6889.1.1 = {
+		birth = yes
+	}
+
+	6987.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linethalioneth6side1 = {
+	name = Arvriel
+
+	dynasty = dynasty_thalioneth
+	religion = faith_forodain
+	culture = forodain
+
+	father = linethalioneth5
+	mother = wife_thalioneth5
+
+	trait = education_diplomacy_3
+	trait = brave
+	trait = arbitrary
+	trait = honest
+
+	diplomacy = 9
+	martial = 6
+	stewardship = 10
+	intrigue = 2
+	learning = 2
+	prowess = 10
+
+	6934.1.1 = {
+		birth = yes
+	}
+
+	7026.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linethalioneth6side2 = {
+	name = Arvwen
+
+	female = yes
+	dynasty = dynasty_thalioneth
+	religion = faith_forodain
+	culture = forodain
+
+	father = linethalioneth5
+	mother = wife_thalioneth5
+
+	trait = education_stewardship_2
+	trait = content
+	trait = calm
+	trait = temperate
+
+	diplomacy = 5
+	martial = 10
+	stewardship = 4
+	intrigue = 9
+	learning = 8
+	prowess = 4
+
+	6934.1.1 = {
+		birth = yes
+	}
+
+	7024.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linethalioneth6side3 = {
+	name = Arvwyn
+
+	dynasty = dynasty_thalioneth
+	religion = faith_forodain
+	culture = forodain
+
+	father = linethalioneth5
+	mother = wife_thalioneth5
+
+	trait = education_martial_3
+	trait = shy
+	trait = arbitrary
+	trait = impatient
+
+	diplomacy = 8
+	martial = 3
+	stewardship = 10
+	intrigue = 5
+	learning = 3
+	prowess = 6
+
+	6927.1.1 = {
+		birth = yes
+	}
+
+	7009.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linethalioneth6 = {
+	name = Bairadan
+
+	dynasty = dynasty_thalioneth
+	religion = faith_forodain
+	culture = forodain
+
+	father = linethalioneth5
+	mother = wife_thalioneth5
+
+	trait = education_stewardship_3
+	trait = generous
+	trait = gregarious
+	trait = humble
+
+	diplomacy = 3
+	martial = 8
+	stewardship = 7
+	intrigue = 2
+	learning = 10
+	prowess = 7
+
+	6930.1.1 = {
+		birth = yes
+	}
+
+	6955.6.1 = {
+		add_spouse = wife_thalioneth6
+	}
+
+	7037.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+wife_thalioneth6 = {
+	name = Bairadir
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_martial_3
+	trait = temperate
+	trait = diligent
+	trait = ambitious
+
+	diplomacy = 4
+	martial = 4
+	stewardship = 8
+	intrigue = 10
+	learning = 8
+	prowess = 10
+
+	6929.1.1 = {
+		birth = yes
+	}
+
+	7025.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linethalioneth7side1 = {
+	name = Bairael
+
+	female = yes
+	dynasty = dynasty_thalioneth
+	religion = faith_forodain
+	culture = forodain
+
+	father = linethalioneth6
+	mother = wife_thalioneth6
+
+	trait = education_diplomacy_3
+	trait = gregarious
+	trait = honest
+	trait = ambitious
+
+	diplomacy = 8
+	martial = 4
+	stewardship = 3
+	intrigue = 8
+	learning = 2
+	prowess = 3
+
+	6975.1.1 = {
+		birth = yes
+	}
+
+	7053.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linethalioneth7side2 = {
+	name = Bairandir
+
+	dynasty = dynasty_thalioneth
+	religion = faith_forodain
+	culture = forodain
+
+	father = linethalioneth6
+	mother = wife_thalioneth6
+
+	trait = education_diplomacy_2
+	trait = patient
+	trait = content
+	trait = gregarious
+
+	diplomacy = 2
+	martial = 5
+	stewardship = 4
+	intrigue = 2
+	learning = 5
+	prowess = 8
+
+	6986.1.1 = {
+		birth = yes
+	}
+}
+
+linethalioneth7 = {
+	name = Bairanor
+
+	dynasty = dynasty_thalioneth
+	religion = faith_forodain
+	culture = forodain
+
+	father = linethalioneth6
+	mother = wife_thalioneth6
+
+	trait = education_intrigue_2
+	trait = brave
+	trait = calm
+	trait = generous
+
+	diplomacy = 6
+	martial = 7
+	stewardship = 5
+	intrigue = 7
+	learning = 2
+	prowess = 4
+
+	6978.1.1 = {
+		birth = yes
+	}
+
+	7006.6.1 = {
+		add_spouse = wife_thalioneth7
+	}
+}
+
+wife_thalioneth7 = {
+	name = Bairarin
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_intrigue_2
+	trait = callous
+	trait = impatient
+	trait = wrathful
+
+	diplomacy = 7
+	martial = 7
+	stewardship = 9
+	intrigue = 9
+	learning = 7
+	prowess = 2
+
+	6982.1.1 = {
+		birth = yes
+	}
+}
+
+linethalioneth8side1 = {
+	name = Eglahir
+
+	dynasty = dynasty_thalioneth
+	religion = faith_forodain
+	culture = forodain
+
+	father = linethalioneth7
+	mother = wife_thalioneth7
+
+	trait = education_learning_3
+	trait = calm
+	trait = ambitious
+	trait = callous
+
+	diplomacy = 9
+	martial = 3
+	stewardship = 2
+	intrigue = 4
+	learning = 4
+	prowess = 5
+
+	7026.1.1 = {
+		birth = yes
+	}
+}
+
+linethalioneth8 = {
+	name = Bairavor
+
+	dynasty = dynasty_thalioneth
+	religion = faith_forodain
+	culture = forodain
+
+	father = linethalioneth7
+	mother = wife_thalioneth7
+
+	trait = education_diplomacy_3
+	trait = content
+	trait = just
+	trait = diligent
+
+	diplomacy = 4
+	martial = 6
+	stewardship = 9
+	intrigue = 6
+	learning = 3
+	prowess = 6
+
+	7024.1.1 = {
+		birth = yes
+	}
+}
+
+##############################
+# LINE 7: House of Berethril
+# dynasty_berethril
+##############################
+
+lineberethril1 = {
+	name = Bairendir
+
+	dynasty = dynasty_berethril
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_learning_2
+	trait = humble
+	trait = vengeful
+	trait = shy
+
+	diplomacy = 3
+	martial = 6
+	stewardship = 10
+	intrigue = 6
+	learning = 8
+	prowess = 3
+
+	trait = blood_of_numenor_2
+	6706.1.1 = {
+		birth = yes
+	}
+
+	6733.6.1 = {
+		add_spouse = wife_berethril1
+	}
+
+	6805.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+wife_berethril1 = {
+	name = Vardis
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_learning_3
+	trait = content
+	trait = brave
+	trait = diligent
+
+	diplomacy = 4
+	martial = 7
+	stewardship = 3
+	intrigue = 10
+	learning = 7
+	prowess = 3
+
+	trait = blood_of_numenor_2
+	6707.1.1 = {
+		birth = yes
+	}
+
+	6788.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineberethril2side1 = {
+	name = Bairethor
+
+	female = yes
+	dynasty = dynasty_berethril
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineberethril1
+	mother = wife_berethril1
+
+	trait = education_learning_3
+	trait = compassionate
+	trait = vengeful
+	trait = callous
+
+	diplomacy = 6
+	martial = 9
+	stewardship = 2
+	intrigue = 2
+	learning = 8
+	prowess = 9
+
+	trait = blood_of_numenor_2
+	6757.1.1 = {
+		birth = yes
+	}
+
+	6853.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineberethril2 = {
+	name = Bairion
+
+	dynasty = dynasty_berethril
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineberethril1
+	mother = wife_berethril1
+
+	trait = education_martial_2
+	trait = vengeful
+	trait = callous
+	trait = content
+
+	diplomacy = 6
+	martial = 5
+	stewardship = 10
+	intrigue = 2
+	learning = 9
+	prowess = 6
+
+	trait = blood_of_numenor_2
+	6755.1.1 = {
+		birth = yes
+	}
+
+	6780.6.1 = {
+		add_spouse = wife_berethril2
+	}
+
+	6856.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+wife_berethril2 = {
+	name = Pelien
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_diplomacy_2
+	trait = impatient
+	trait = brave
+	trait = patient
+
+	diplomacy = 9
+	martial = 3
+	stewardship = 4
+	intrigue = 8
+	learning = 4
+	prowess = 2
+
+	trait = blood_of_numenor_2
+	6756.1.1 = {
+		birth = yes
+	}
+
+	6837.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineberethril3bridge = {
+	name = Bairmir
+
+	female = yes
+	dynasty = dynasty_berethril
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineberethril2
+	mother = wife_berethril2
+
+	trait = education_stewardship_2
+	trait = fickle
+	trait = wrathful
+	trait = brave
+
+	diplomacy = 7
+	martial = 2
+	stewardship = 8
+	intrigue = 5
+	learning = 5
+	prowess = 2
+
+	trait = blood_of_numenor_2
+	6806.1.1 = {
+		birth = yes
+	}
+
+	6904.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineberethril3side1 = {
+	name = Bairnor
+
+	female = yes
+	dynasty = dynasty_berethril
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineberethril2
+	mother = wife_berethril2
+
+	trait = education_stewardship_2
+	trait = wrathful
+	trait = paranoid
+	trait = calm
+
+	diplomacy = 9
+	martial = 7
+	stewardship = 4
+	intrigue = 10
+	learning = 8
+	prowess = 7
+	trait = blood_of_numenor_2
+
+	6813.1.1 = {
+		birth = yes
+	}
+
+	6899.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineberethril3 = {
+	name = Bairor
+
+	dynasty = dynasty_berethril
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineberethril2
+	mother = wife_berethril2
+
+	trait = education_diplomacy_3
+	trait = just
+	trait = arbitrary
+	trait = diligent
+
+	diplomacy = 8
+	martial = 9
+	stewardship = 10
+	intrigue = 8
+	learning = 9
+	prowess = 3
+
+	trait = blood_of_numenor_2
+	6805.1.1 = {
+		birth = yes
+	}
+
+	6837.6.1 = {
+		add_spouse = lineorvath3bridge
+	}
+
+	6900.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineberethril4side1 = {
+	name = Bairrad
+
+	female = yes
+	dynasty = dynasty_berethril
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineberethril3
+	mother = lineorvath3bridge
+
+	trait = education_learning_2
+	trait = diligent
+	trait = patient
+	trait = paranoid
+
+	diplomacy = 3
+	martial = 4
+	stewardship = 10
+	intrigue = 4
+	learning = 5
+	prowess = 8
+
+	trait = blood_of_numenor_1
+	6859.1.1 = {
+		birth = yes
+	}
+
+	6961.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineberethril4side2 = {
+	name = Bairron
+
+	dynasty = dynasty_berethril
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineberethril3
+	mother = lineorvath3bridge
+
+	trait = education_stewardship_2
+	trait = wrathful
+	trait = honest
+	trait = callous
+
+	diplomacy = 7
+	martial = 10
+	stewardship = 8
+	intrigue = 6
+	learning = 2
+	prowess = 6
+
+	trait = blood_of_numenor_1
+	6848.1.1 = {
+		birth = yes
+	}
+
+	6929.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineberethril4side3 = {
+	name = Bairthor
+
+	female = yes
+	dynasty = dynasty_berethril
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineberethril3
+	mother = lineorvath3bridge
+
+	trait = education_intrigue_2
+	trait = callous
+	trait = vengeful
+	trait = fickle
+
+	diplomacy = 4
+	martial = 3
+	stewardship = 5
+	intrigue = 10
+	learning = 2
+	prowess = 3
+
+	trait = blood_of_numenor_1
+	6859.1.1 = {
+		birth = yes
+	}
+
+	6965.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineberethril4 = {
+	name = Ithron
+
+	dynasty = dynasty_berethril
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineberethril3
+	mother = lineorvath3bridge
+
+	trait = education_stewardship_2
+	trait = shy
+	trait = diligent
+	trait = paranoid
+
+	diplomacy = 7
+	martial = 10
+	stewardship = 6
+	intrigue = 7
+	learning = 9
+	prowess = 2
+
+	trait = blood_of_numenor_1
+	6851.1.1 = {
+		birth = yes
+	}
+
+	6879.6.1 = {
+		add_spouse = wife_berethril4
+	}
+
+	6965.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+wife_berethril4 = {
+	name = Bairvar
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_martial_2
+	trait = wrathful
+	trait = vengeful
+	trait = brave
+
+	diplomacy = 10
+	martial = 4
+	stewardship = 8
+	intrigue = 4
+	learning = 4
+	prowess = 7
+	trait = blood_of_numenor_1
+
+	6846.1.1 = {
+		birth = yes
+	}
+
+	6949.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineberethril5side1 = {
+	name = Bairvir
+
+	dynasty = dynasty_berethril
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineberethril4
+	mother = wife_berethril4
+
+	trait = education_martial_3
+	trait = arbitrary
+	trait = impatient
+	trait = vengeful
+
+	diplomacy = 8
+	martial = 2
+	stewardship = 2
+	intrigue = 9
+	learning = 4
+	prowess = 5
+	trait = blood_of_numenor_1
+
+	6912.1.1 = {
+		birth = yes
+	}
+
+	7007.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineberethril5side2 = {
+	name = Rianeth
+
+	female = yes
+	dynasty = dynasty_berethril
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineberethril4
+	mother = wife_berethril4
+
+	trait = education_martial_3
+	trait = impatient
+	trait = callous
+	trait = trusting
+
+	diplomacy = 9
+	martial = 8
+	stewardship = 2
+	intrigue = 5
+	learning = 9
+	prowess = 5
+
+	6910.1.1 = {
+		birth = yes
+	}
+
+	7018.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineberethril5 = {
+	name = Baira
+
+	dynasty = dynasty_berethril
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineberethril4
+	mother = wife_berethril4
+
+	trait = education_diplomacy_2
+	trait = diligent
+	trait = wrathful
+	trait = trusting
+
+	diplomacy = 9
+	martial = 2
+	stewardship = 9
+	intrigue = 4
+	learning = 10
+	prowess = 8
+	trait = blood_of_numenor_1
+
+	6904.1.1 = {
+		birth = yes
+	}
+
+	6925.6.1 = {
+		add_spouse = wife_berethril5
+	}
+
+	7006.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+wife_berethril5 = {
+	name = Baireth
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_martial_3
+	trait = impatient
+	trait = shy
+	trait = just
+
+	diplomacy = 9
+	martial = 2
+	stewardship = 5
+	intrigue = 7
+	learning = 7
+	prowess = 7
+	trait = blood_of_numenor_1
+
+	6900.1.1 = {
+		birth = yes
+	}
+
+	6993.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineberethril6side1 = {
+	name = Bairiel
+
+	female = yes
+	dynasty = dynasty_berethril
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineberethril5
+	mother = wife_berethril5
+
+	trait = education_stewardship_3
+	trait = content
+	trait = diligent
+	trait = stubborn
+
+	diplomacy = 9
+	martial = 10
+	stewardship = 6
+	intrigue = 4
+	learning = 7
+	prowess = 4
+	trait = blood_of_numenor_1
+
+	6965.1.1 = {
+		birth = yes
+	}
+
+	7048.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineberethril6 = {
+	name = Bairien
+
+	dynasty = dynasty_berethril
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineberethril5
+	mother = wife_berethril5
+
+	trait = education_martial_2
+	trait = just
+	trait = content
+	trait = shy
+
+	diplomacy = 2
+	martial = 8
+	stewardship = 9
+	intrigue = 2
+	learning = 2
+	prowess = 3
+	trait = blood_of_numenor_1
+
+	6959.1.1 = {
+		birth = yes
+	}
+
+	6980.6.1 = {
+		add_spouse = wife_berethril6
+	}
+
+	7072.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+wife_berethril6 = {
+	name = Bairith
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_stewardship_2
+	trait = callous
+	trait = temperate
+	trait = stubborn
+
+	diplomacy = 3
+	martial = 8
+	stewardship = 4
+	intrigue = 8
+	learning = 7
+	prowess = 8
+	trait = blood_of_numenor_1
+
+	6958.1.1 = {
+		birth = yes
+	}
+
+	7044.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineberethril7 = {
+	name = Bairlin
+
+	dynasty = dynasty_berethril
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineberethril6
+	mother = wife_berethril6
+
+	trait = education_stewardship_2
+	trait = content
+	trait = generous
+	trait = honest
+
+	diplomacy = 10
+	martial = 5
+	stewardship = 5
+	intrigue = 5
+	learning = 5
+	prowess = 7
+	trait = blood_of_numenor_1
+
+	7007.1.1 = {
+		birth = yes
+	}
+
+	7032.6.1 = {
+		add_spouse = wife_berethril7
+	}
+}
+
+wife_berethril7 = {
+	name = Bairriel
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_martial_2
+	trait = patient
+	trait = fickle
+	trait = gregarious
+
+	diplomacy = 4
+	martial = 3
+	stewardship = 4
+	intrigue = 4
+	learning = 5
+	prowess = 4
+	trait = blood_of_numenor_1
+
+	7006.1.1 = {
+		birth = yes
+	}
+}
+
+lineberethril8side1 = {
+	name = Bairwen
+
+	female = yes
+	dynasty = dynasty_berethril
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineberethril7
+	mother = wife_berethril7
+
+	trait = education_stewardship_3
+	trait = arbitrary
+	trait = callous
+	trait = temperate
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 4
+	intrigue = 5
+	learning = 5
+	prowess = 10
+
+	7055.1.1 = {
+		birth = yes
+	}
+}
+
+lineberethril8side2 = {
+	name = Bairwyn
+
+	dynasty = dynasty_berethril
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineberethril7
+	mother = wife_berethril7
+
+	trait = education_learning_2
+	trait = arbitrary
+	trait = diligent
+	trait = paranoid
+
+	diplomacy = 8
+	martial = 7
+	stewardship = 8
+	intrigue = 6
+	learning = 8
+	prowess = 5
+
+	7059.1.1 = {
+		birth = yes
+	}
+}
+
+lineberethril8side3 = {
+	name = Beladan
+
+	female = yes
+	dynasty = dynasty_berethril
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineberethril7
+	mother = wife_berethril7
+
+	trait = education_diplomacy_3
+	trait = generous
+	trait = ambitious
+	trait = paranoid
+
+	diplomacy = 9
+	martial = 3
+	stewardship = 5
+	intrigue = 9
+	learning = 7
+	prowess = 5
+
+	7059.1.1 = {
+		birth = yes
+	}
+}
+
+lineberethril8 = {
+	name = Beladir
+
+	dynasty = dynasty_berethril
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineberethril7
+	mother = wife_berethril7
+
+	trait = education_martial_2
+	trait = diligent
+	trait = generous
+	trait = callous
+
+	diplomacy = 8
+	martial = 5
+	stewardship = 6
+	intrigue = 7
+	learning = 4
+	prowess = 7
+
+	7060.1.1 = {
+		birth = yes
+	}
+}
+
+##############################
+# LINE 8: House of Orvath
+# dynasty_orvath
+##############################
+
+lineorvath1 = {
+	name = Belael
+
+	dynasty = dynasty_orvath
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_learning_2
+	trait = gregarious
+	trait = vengeful
+	trait = humble
+
+	diplomacy = 4
+	martial = 3
+	stewardship = 3
+	intrigue = 9
+	learning = 3
+	prowess = 8
+
+	trait = blood_of_numenor_2
+	6705.1.1 = {
+		birth = yes
+	}
+
+	6732.6.1 = {
+		add_spouse = wife_orvath1
+	}
+
+	6809.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+wife_orvath1 = {
+	name = Belandir
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_stewardship_2
+	trait = shy
+	trait = fickle
+	trait = paranoid
+
+	diplomacy = 3
+	martial = 3
+	stewardship = 5
+	intrigue = 10
+	learning = 10
+	prowess = 7
+
+	trait = blood_of_numenor_2
+	6703.1.1 = {
+		birth = yes
+	}
+
+	6781.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineorvath2 = {
+	name = Belanor
+
+	dynasty = dynasty_orvath
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineorvath1
+	mother = wife_orvath1
+
+	trait = education_stewardship_3
+	trait = honest
+	trait = shy
+	trait = stubborn
+
+	diplomacy = 3
+	martial = 5
+	stewardship = 5
+	intrigue = 3
+	learning = 10
+	prowess = 9
+
+	trait = blood_of_numenor_1
+	6758.1.1 = {
+		birth = yes
+	}
+
+	6787.6.1 = {
+		add_spouse = wife_orvath2
+	}
+
+	6854.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+wife_orvath2 = {
+	name = Belarin
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_martial_3
+	trait = wrathful
+	trait = honest
+	trait = paranoid
+
+	diplomacy = 4
+	martial = 5
+	stewardship = 9
+	intrigue = 9
+	learning = 9
+	prowess = 7
+
+	trait = blood_of_numenor_1
+	6753.1.1 = {
+		birth = yes
+	}
+
+	6853.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineorvath3bridge = {
+	name = Belavor
+
+	female = yes
+	dynasty = dynasty_orvath
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineorvath2
+	mother = wife_orvath2
+
+	trait = education_intrigue_2
+	trait = impatient
+	trait = shy
+	trait = humble
+
+	diplomacy = 3
+	martial = 2
+	stewardship = 3
+	intrigue = 10
+	learning = 4
+	prowess = 2
+	6814.1.1 = {
+		birth = yes
+	}
+
+	6918.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineorvath3side1 = {
+	name = Belendir
+
+	dynasty = dynasty_orvath
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineorvath2
+	mother = wife_orvath2
+
+	trait = education_martial_2
+	trait = content
+	trait = impatient
+	trait = trusting
+
+	diplomacy = 9
+	martial = 4
+	stewardship = 10
+	intrigue = 10
+	learning = 5
+	prowess = 7
+
+	trait = blood_of_numenor_1
+	6817.1.1 = {
+		birth = yes
+	}
+
+	6902.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineorvath3 = {
+	name = Belethor
+
+	dynasty = dynasty_orvath
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineorvath2
+	mother = wife_orvath2
+
+	trait = education_diplomacy_3
+	trait = fickle
+	trait = humble
+	trait = shy
+
+	diplomacy = 9
+	martial = 3
+	stewardship = 8
+	intrigue = 6
+	learning = 4
+	prowess = 2
+
+	trait = blood_of_numenor_1
+	6813.1.1 = {
+		birth = yes
+	}
+
+	6836.6.1 = {
+		add_spouse = linemaelvaren3bridge
+	}
+
+	6907.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineorvath4side1 = {
+	name = Belmir
+
+	dynasty = dynasty_orvath
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineorvath3
+	mother = linemaelvaren3bridge
+
+	trait = education_martial_2
+	trait = arbitrary
+	trait = temperate
+	trait = vengeful
+
+	diplomacy = 4
+	martial = 9
+	stewardship = 4
+	intrigue = 8
+	learning = 9
+	prowess = 4
+
+	trait = blood_of_numenor_1
+	6859.1.1 = {
+		birth = yes
+	}
+
+	6944.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineorvath4 = {
+	name = Ohtaril
+
+	dynasty = dynasty_orvath
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineorvath3
+	mother = linemaelvaren3bridge
+
+	trait = education_intrigue_2
+	trait = patient
+	trait = vengeful
+	trait = trusting
+
+	diplomacy = 9
+	martial = 8
+	stewardship = 5
+	intrigue = 4
+	learning = 6
+	prowess = 6
+
+	trait = blood_of_numenor_1
+	6862.1.1 = {
+		birth = yes
+	}
+
+	6894.6.1 = {
+		add_spouse = wife_orvath4
+	}
+
+	6965.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+wife_orvath4 = {
+	name = Belnor
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_martial_2
+	trait = paranoid
+	trait = impatient
+	trait = diligent
+
+	diplomacy = 6
+	martial = 6
+	stewardship = 6
+	intrigue = 9
+	learning = 2
+	prowess = 7
+	trait = blood_of_numenor_1
+
+	6867.1.1 = {
+		birth = yes
+	}
+
+	6951.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineorvath5side1 = {
+	name = Belor
+
+	female = yes
+	dynasty = dynasty_orvath
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineorvath4
+	mother = wife_orvath4
+
+	trait = education_stewardship_3
+	trait = diligent
+	trait = patient
+	trait = just
+
+	diplomacy = 9
+	martial = 6
+	stewardship = 9
+	intrigue = 4
+	learning = 4
+	prowess = 4
+
+	6910.1.1 = {
+		birth = yes
+	}
+
+	7008.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineorvath5side2 = {
+	name = Belrad
+
+	dynasty = dynasty_orvath
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineorvath4
+	mother = wife_orvath4
+
+	trait = education_stewardship_2
+	trait = paranoid
+	trait = content
+	trait = callous
+
+	diplomacy = 7
+	martial = 6
+	stewardship = 8
+	intrigue = 6
+	learning = 2
+	prowess = 2
+
+	6901.1.1 = {
+		birth = yes
+	}
+
+	6983.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineorvath5side3 = {
+	name = Belron
+
+	female = yes
+	dynasty = dynasty_orvath
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineorvath4
+	mother = wife_orvath4
+
+	trait = education_learning_2
+	trait = ambitious
+	trait = brave
+	trait = paranoid
+
+	diplomacy = 2
+	martial = 7
+	stewardship = 4
+	intrigue = 4
+	learning = 4
+	prowess = 8
+
+	6901.1.1 = {
+		birth = yes
+	}
+
+	6992.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineorvath5 = {
+	name = Belthor
+
+	dynasty = dynasty_orvath
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineorvath4
+	mother = wife_orvath4
+
+	trait = education_diplomacy_3
+	trait = stubborn
+	trait = paranoid
+	trait = arbitrary
+
+	diplomacy = 7
+	martial = 3
+	stewardship = 6
+	intrigue = 5
+	learning = 2
+	prowess = 8
+
+	6906.1.1 = {
+		birth = yes
+	}
+
+	6936.6.1 = {
+		add_spouse = wife_orvath5
+	}
+
+	7018.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+wife_orvath5 = {
+	name = Belvar
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_learning_2
+	trait = ambitious
+	trait = trusting
+	trait = callous
+
+	diplomacy = 7
+	martial = 2
+	stewardship = 4
+	intrigue = 6
+	learning = 4
+	prowess = 5
+
+	6904.1.1 = {
+		birth = yes
+	}
+
+	6996.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineorvath6side1 = {
+	name = Belvir
+
+	dynasty = dynasty_orvath
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineorvath5
+	mother = wife_orvath5
+
+	trait = education_diplomacy_2
+	trait = honest
+	trait = just
+	trait = trusting
+
+	diplomacy = 8
+	martial = 6
+	stewardship = 4
+	intrigue = 10
+	learning = 6
+	prowess = 9
+
+	6968.1.1 = {
+		birth = yes
+	}
+
+	7064.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineorvath6side2 = {
+	name = Bela
+
+	female = yes
+	dynasty = dynasty_orvath
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineorvath5
+	mother = wife_orvath5
+
+	trait = education_learning_2
+	trait = ambitious
+	trait = trusting
+	trait = honest
+
+	diplomacy = 9
+	martial = 5
+	stewardship = 3
+	intrigue = 9
+	learning = 9
+	prowess = 9
+
+	6957.1.1 = {
+		birth = yes
+	}
+
+	7039.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineorvath6 = {
+	name = Beliel
+
+	dynasty = dynasty_orvath
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineorvath5
+	mother = wife_orvath5
+
+	trait = education_stewardship_3
+	trait = calm
+	trait = ambitious
+	trait = temperate
+
+	diplomacy = 10
+	martial = 2
+	stewardship = 8
+	intrigue = 8
+	learning = 9
+	prowess = 3
+
+	6962.1.1 = {
+		birth = yes
+	}
+
+	6991.6.1 = {
+		add_spouse = wife_orvath6
+	}
+
+	7073.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+wife_orvath6 = {
+	name = Belien
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_intrigue_2
+	trait = generous
+	trait = brave
+	trait = content
+
+	diplomacy = 2
+	martial = 7
+	stewardship = 8
+	intrigue = 4
+	learning = 6
+	prowess = 5
+
+	6963.1.1 = {
+		birth = yes
+	}
+
+	7062.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineorvath7side1 = {
+	name = Belith
+
+	female = yes
+	dynasty = dynasty_orvath
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineorvath6
+	mother = wife_orvath6
+
+	trait = education_learning_3
+	trait = brave
+	trait = just
+	trait = stubborn
+
+	diplomacy = 9
+	martial = 4
+	stewardship = 5
+	intrigue = 5
+	learning = 3
+	prowess = 6
+
+	7015.1.1 = {
+		birth = yes
+	}
+}
+
+lineorvath7 = {
+	name = Bellin
+
+	dynasty = dynasty_orvath
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineorvath6
+	mother = wife_orvath6
+
+	trait = education_stewardship_2
+	trait = impatient
+	trait = honest
+	trait = content
+
+	diplomacy = 6
+	martial = 7
+	stewardship = 10
+	intrigue = 7
+	learning = 2
+	prowess = 9
+
+	7011.1.1 = {
+		birth = yes
+	}
+
+	7041.6.1 = {
+		add_spouse = wife_orvath7
+	}
+}
+
+wife_orvath7 = {
+	name = Belriel
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_diplomacy_3
+	trait = gregarious
+	trait = stubborn
+	trait = generous
+
+	diplomacy = 7
+	martial = 6
+	stewardship = 8
+	intrigue = 2
+	learning = 9
+	prowess = 5
+
+	7011.1.1 = {
+		birth = yes
+	}
+}
+
+lineorvath8 = {
+	name = Belwyn
+
+	dynasty = dynasty_orvath
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineorvath7
+	mother = wife_orvath7
+
+	trait = education_stewardship_3
+	trait = ambitious
+	trait = temperate
+	trait = wrathful
+
+	diplomacy = 3
+	martial = 5
+	stewardship = 8
+	intrigue = 9
+	learning = 2
+	prowess = 6
+
+	7055.1.1 = {
+		birth = yes
+	}
+}
+
+##############################
+# LINE 9: House of Maelvaren
+# dynasty_maelvaren
+##############################
+
+linemaelvaren1 = {
+	name = Brenadan
+
+	dynasty = dynasty_maelvaren
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_stewardship_2
+	trait = callous
+	trait = ambitious
+	trait = content
+
+	diplomacy = 7
+	martial = 10
+	stewardship = 8
+	intrigue = 2
+	learning = 4
+	prowess = 8
+
+	trait = blood_of_numenor_2
+	6710.1.1 = {
+		birth = yes
+	}
+
+	6738.6.1 = {
+		add_spouse = wife_maelvaren1
+	}
+
+	6816.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+wife_maelvaren1 = {
+	name = Brenadir
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_diplomacy_3
+	trait = arbitrary
+	trait = wrathful
+	trait = vengeful
+
+	diplomacy = 8
+	martial = 9
+	stewardship = 5
+	intrigue = 2
+	learning = 9
+	prowess = 2
+
+	trait = blood_of_numenor_2
+	6710.1.1 = {
+		birth = yes
+	}
+
+	6794.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linemaelvaren2side1 = {
+	name = Brenael
+
+	female = yes
+	dynasty = dynasty_maelvaren
+	religion = faith_forodain
+	culture = forodain
+
+	father = linemaelvaren1
+	mother = wife_maelvaren1
+
+	trait = education_stewardship_3
+	trait = patient
+	trait = wrathful
+	trait = diligent
+
+	diplomacy = 4
+	martial = 2
+	stewardship = 7
+	intrigue = 8
+	learning = 8
+	prowess = 10
+
+	trait = blood_of_numenor_1
+	6767.1.1 = {
+		birth = yes
+	}
+
+	6854.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linemaelvaren2side2 = {
+	name = Brenandir
+
+	dynasty = dynasty_maelvaren
+	religion = faith_forodain
+	culture = forodain
+
+	father = linemaelvaren1
+	mother = wife_maelvaren1
+
+	trait = education_learning_2
+	trait = vengeful
+	trait = honest
+	trait = generous
+
+	diplomacy = 6
+	martial = 7
+	stewardship = 9
+	intrigue = 6
+	learning = 5
+	prowess = 2
+
+	trait = blood_of_numenor_2
+	6760.1.1 = {
+		birth = yes
+	}
+
+	6852.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linemaelvaren2side3 = {
+	name = Brenanor
+
+	female = yes
+	dynasty = dynasty_maelvaren
+	religion = faith_forodain
+	culture = forodain
+
+	father = linemaelvaren1
+	mother = wife_maelvaren1
+
+	trait = education_intrigue_2
+	trait = temperate
+	trait = generous
+	trait = wrathful
+
+	diplomacy = 3
+	martial = 4
+	stewardship = 9
+	intrigue = 10
+	learning = 10
+	prowess = 6
+
+	trait = blood_of_numenor_1
+	6756.1.1 = {
+		birth = yes
+	}
+
+	6838.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linemaelvaren2 = {
+	name = Brenarin
+
+	dynasty = dynasty_maelvaren
+	religion = faith_forodain
+	culture = forodain
+
+	father = linemaelvaren1
+	mother = wife_maelvaren1
+
+	trait = education_learning_2
+	trait = just
+	trait = fickle
+	trait = diligent
+
+	diplomacy = 9
+	martial = 7
+	stewardship = 6
+	intrigue = 2
+	learning = 3
+	prowess = 2
+
+	trait = blood_of_numenor_2
+	6761.1.1 = {
+		birth = yes
+	}
+
+	6786.6.1 = {
+		add_spouse = wife_maelvaren2
+	}
+
+	6855.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+wife_maelvaren2 = {
+	name = Brenavor
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_stewardship_3
+	trait = arbitrary
+	trait = impatient
+	trait = trusting
+
+	diplomacy = 5
+	martial = 3
+	stewardship = 8
+	intrigue = 2
+	learning = 6
+	prowess = 4
+
+	trait = blood_of_numenor_2
+	6760.1.1 = {
+		birth = yes
+	}
+
+	6859.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linemaelvaren3bridge = {
+	name = Brenendir
+
+	female = yes
+	dynasty = dynasty_maelvaren
+	religion = faith_forodain
+	culture = forodain
+
+	father = linemaelvaren2
+	mother = wife_maelvaren2
+
+	trait = education_intrigue_2
+	trait = content
+	trait = impatient
+	trait = brave
+
+	diplomacy = 2
+	martial = 3
+	stewardship = 2
+	intrigue = 7
+	learning = 4
+	prowess = 8
+
+	trait = blood_of_numenor_2
+	6808.1.1 = {
+		birth = yes
+	}
+
+	6886.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linemaelvaren3side1 = {
+	name = Brenethor
+
+	female = yes
+	dynasty = dynasty_maelvaren
+	religion = faith_forodain
+	culture = forodain
+
+	father = linemaelvaren2
+	mother = wife_maelvaren2
+
+	trait = education_martial_2
+	trait = just
+	trait = arbitrary
+	trait = temperate
+
+	diplomacy = 3
+	martial = 5
+	stewardship = 3
+	intrigue = 5
+	learning = 6
+	prowess = 2
+
+	trait = blood_of_numenor_2
+	6800.1.1 = {
+		birth = yes
+	}
+
+	6886.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linemaelvaren3 = {
+	name = Brenion
+
+	dynasty = dynasty_maelvaren
+	religion = faith_forodain
+	culture = forodain
+
+	father = linemaelvaren2
+	mother = wife_maelvaren2
+
+	trait = education_stewardship_2
+	trait = ambitious
+	trait = just
+	trait = content
+
+	diplomacy = 3
+	martial = 9
+	stewardship = 5
+	intrigue = 9
+	learning = 7
+	prowess = 2
+
+	trait = blood_of_numenor_2
+	6805.1.1 = {
+		birth = yes
+	}
+
+	6848.6.1 = {
+		add_spouse = lineardanoril3bridge
+	}
+
+	6903.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linemaelvaren4side1 = {
+	name = Brenmir
+
+	female = yes
+	dynasty = dynasty_maelvaren
+	religion = faith_forodain
+	culture = forodain
+
+	father = linemaelvaren3
+	mother = lineardanoril3bridge
+
+	trait = education_intrigue_2
+	trait = shy
+	trait = humble
+	trait = ambitious
+
+	diplomacy = 8
+	martial = 7
+	stewardship = 8
+	intrigue = 8
+	learning = 9
+	prowess = 6
+	trait = blood_of_numenor_2
+
+	6853.1.1 = {
+		birth = yes
+	}
+
+	6930.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linemaelvaren4side2 = {
+	name = Brennor
+
+	dynasty = dynasty_maelvaren
+	religion = faith_forodain
+	culture = forodain
+
+	father = linemaelvaren3
+	mother = lineardanoril3bridge
+
+	trait = education_learning_3
+	trait = stubborn
+	trait = vengeful
+	trait = arbitrary
+
+	diplomacy = 3
+	martial = 4
+	stewardship = 5
+	intrigue = 4
+	learning = 10
+	prowess = 4
+
+	trait = blood_of_numenor_1
+	6848.1.1 = {
+		birth = yes
+	}
+
+	6947.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linemaelvaren4 = {
+	name = Brenor
+
+	dynasty = dynasty_maelvaren
+	religion = faith_forodain
+	culture = forodain
+
+	father = linemaelvaren3
+	mother = lineardanoril3bridge
+
+	trait = education_learning_3
+	trait = honest
+	trait = humble
+	trait = temperate
+
+	diplomacy = 3
+	martial = 7
+	stewardship = 8
+	intrigue = 7
+	learning = 5
+	prowess = 6
+
+	trait = blood_of_numenor_2
+	6849.1.1 = {
+		birth = yes
+	}
+
+	6877.6.1 = {
+		add_spouse = wife_maelvaren4
+	}
+
+	6960.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+wife_maelvaren4 = {
+	name = Ivravel
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_stewardship_3
+	trait = paranoid
+	trait = temperate
+	trait = callous
+
+	diplomacy = 5
+	martial = 4
+	stewardship = 2
+	intrigue = 9
+	learning = 7
+	prowess = 5
+
+	trait = blood_of_numenor_2
+	6854.1.1 = {
+		birth = yes
+	}
+
+	6944.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linemaelvaren5side1 = {
+	name = Brenrad
+
+	dynasty = dynasty_maelvaren
+	religion = faith_forodain
+	culture = forodain
+
+	father = linemaelvaren4
+	mother = wife_maelvaren4
+
+	trait = education_martial_2
+	trait = wrathful
+	trait = just
+	trait = humble
+
+	diplomacy = 7
+	martial = 10
+	stewardship = 2
+	intrigue = 4
+	learning = 7
+	prowess = 10
+	trait = blood_of_numenor_1
+
+	6903.1.1 = {
+		birth = yes
+	}
+
+	6986.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linemaelvaren5 = {
+	name = Brenron
+
+	dynasty = dynasty_maelvaren
+	religion = faith_forodain
+	culture = forodain
+
+	father = linemaelvaren4
+	mother = wife_maelvaren4
+
+	trait = education_diplomacy_2
+	trait = generous
+	trait = wrathful
+	trait = callous
+
+	diplomacy = 8
+	martial = 8
+	stewardship = 10
+	intrigue = 5
+	learning = 10
+	prowess = 5
+	trait = blood_of_numenor_1
+
+	6904.1.1 = {
+		birth = yes
+	}
+
+	6926.6.1 = {
+		add_spouse = wife_maelvaren5
+	}
+
+	7012.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+wife_maelvaren5 = {
+	name = Brenthor
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_diplomacy_2
+	trait = fickle
+	trait = just
+	trait = vengeful
+
+	diplomacy = 5
+	martial = 10
+	stewardship = 7
+	intrigue = 8
+	learning = 9
+	prowess = 2
+	trait = blood_of_numenor_1
+
+	6900.1.1 = {
+		birth = yes
+	}
+
+	6981.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linemaelvaren6 = {
+	name = Brenvar
+
+	dynasty = dynasty_maelvaren
+	religion = faith_forodain
+	culture = forodain
+
+	father = linemaelvaren5
+	mother = wife_maelvaren5
+
+	trait = education_learning_3
+	trait = generous
+	trait = fickle
+	trait = gregarious
+
+	diplomacy = 6
+	martial = 5
+	stewardship = 3
+	intrigue = 10
+	learning = 6
+	prowess = 9
+	trait = blood_of_numenor_1
+
+	6952.1.1 = {
+		birth = yes
+	}
+
+	6982.6.1 = {
+		add_spouse = wife_maelvaren6
+	}
+
+	7057.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+wife_maelvaren6 = {
+	name = Brenvir
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_martial_2
+	trait = stubborn
+	trait = shy
+	trait = ambitious
+
+	diplomacy = 10
+	martial = 5
+	stewardship = 5
+	intrigue = 9
+	learning = 8
+	prowess = 7
+	trait = blood_of_numenor_1
+
+	6955.1.1 = {
+		birth = yes
+	}
+
+	7037.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+linemaelvaren7side1 = {
+	name = Brena
+
+	dynasty = dynasty_maelvaren
+	religion = faith_forodain
+	culture = forodain
+
+	father = linemaelvaren6
+	mother = wife_maelvaren6
+
+	trait = education_diplomacy_3
+	trait = vengeful
+	trait = stubborn
+	trait = impatient
+
+	diplomacy = 6
+	martial = 8
+	stewardship = 6
+	intrigue = 8
+	learning = 6
+	prowess = 7
+	trait = blood_of_numenor_1
+
+	7008.1.1 = {
+		birth = yes
+	}
+}
+
+linemaelvaren7side2 = {
+	name = Breneth
+
+	female = yes
+	dynasty = dynasty_maelvaren
+	religion = faith_forodain
+	culture = forodain
+
+	father = linemaelvaren6
+	mother = wife_maelvaren6
+
+	trait = education_diplomacy_3
+	trait = generous
+	trait = paranoid
+	trait = shy
+
+	diplomacy = 9
+	martial = 7
+	stewardship = 7
+	intrigue = 3
+	learning = 4
+	prowess = 9
+	trait = blood_of_numenor_1
+
+	7004.1.1 = {
+		birth = yes
+	}
+}
+
+linemaelvaren7 = {
+	name = Breniel
+
+	dynasty = dynasty_maelvaren
+	religion = faith_forodain
+	culture = forodain
+
+	father = linemaelvaren6
+	mother = wife_maelvaren6
+
+	trait = education_martial_3
+	trait = arbitrary
+	trait = fickle
+	trait = calm
+
+	diplomacy = 3
+	martial = 5
+	stewardship = 4
+	intrigue = 2
+	learning = 4
+	prowess = 9
+	trait = blood_of_numenor_1
+
+	7002.1.1 = {
+		birth = yes
+	}
+
+	7024.6.1 = {
+		add_spouse = wife_maelvaren7
+	}
+}
+
+wife_maelvaren7 = {
+	name = Brenien
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_intrigue_2
+	trait = ambitious
+	trait = trusting
+	trait = patient
+
+	diplomacy = 8
+	martial = 6
+	stewardship = 2
+	intrigue = 3
+	learning = 4
+	prowess = 2
+	trait = blood_of_numenor_1
+
+	7001.1.1 = {
+		birth = yes
+	}
+}
+
+linemaelvaren8side1 = {
+	name = Brenith
+
+	female = yes
+	dynasty = dynasty_maelvaren
+	religion = faith_forodain
+	culture = forodain
+
+	father = linemaelvaren7
+	mother = wife_maelvaren7
+
+	trait = education_stewardship_3
+	trait = impatient
+	trait = vengeful
+	trait = compassionate
+
+	diplomacy = 8
+	martial = 4
+	stewardship = 7
+	intrigue = 7
+	learning = 8
+	prowess = 6
+
+	7050.1.1 = {
+		birth = yes
+	}
+}
+
+linemaelvaren8 = {
+	name = Brenlin
+
+	dynasty = dynasty_maelvaren
+	religion = faith_forodain
+	culture = forodain
+
+	father = linemaelvaren7
+	mother = wife_maelvaren7
+
+	trait = education_learning_3
+	trait = shy
+	trait = just
+	trait = brave
+
+	diplomacy = 3
+	martial = 4
+	stewardship = 7
+	intrigue = 10
+	learning = 8
+	prowess = 3
+
+	7051.1.1 = {
+		birth = yes
+	}
+}
+
+##############################
+# LINE 10: House of Ardanoril
+# dynasty_ardanoril
+##############################
+
+lineardanoril1 = {
+	name = Brenriel
+
+	dynasty = dynasty_ardanoril
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_intrigue_2
+	trait = humble
+	trait = trusting
+	trait = honest
+
+	diplomacy = 6
+	martial = 7
+	stewardship = 3
+	intrigue = 4
+	learning = 9
+	prowess = 5
+
+	trait = blood_of_numenor_2
+	6707.1.1 = {
+		birth = yes
+	}
+
+	6734.6.1 = {
+		add_spouse = wife_ardanoril1
+	}
+
+	6801.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+wife_ardanoril1 = {
+	name = Brenwen
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_intrigue_2
+	trait = fickle
+	trait = calm
+	trait = honest
+
+	diplomacy = 10
+	martial = 6
+	stewardship = 4
+	intrigue = 6
+	learning = 10
+	prowess = 2
+
+	trait = blood_of_numenor_2
+	6710.1.1 = {
+		birth = yes
+	}
+
+	6788.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineardanoril2side1 = {
+	name = Brenwyn
+
+	dynasty = dynasty_ardanoril
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineardanoril1
+	mother = wife_ardanoril1
+
+	trait = education_learning_2
+	trait = callous
+	trait = temperate
+	trait = fickle
+
+	diplomacy = 8
+	martial = 8
+	stewardship = 4
+	intrigue = 10
+	learning = 4
+	prowess = 9
+
+	trait = blood_of_numenor_2
+	6760.1.1 = {
+		birth = yes
+	}
+
+	6860.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineardanoril2side2 = {
+	name = Caeladan
+
+	female = yes
+	dynasty = dynasty_ardanoril
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineardanoril1
+	mother = wife_ardanoril1
+
+	trait = education_stewardship_3
+	trait = brave
+	trait = compassionate
+	trait = wrathful
+
+	diplomacy = 5
+	martial = 10
+	stewardship = 2
+	intrigue = 5
+	learning = 5
+	prowess = 8
+
+	trait = blood_of_numenor_2
+	6769.1.1 = {
+		birth = yes
+	}
+
+	6859.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineardanoril2 = {
+	name = Caeladir
+
+	dynasty = dynasty_ardanoril
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineardanoril1
+	mother = wife_ardanoril1
+
+	trait = education_stewardship_2
+	trait = diligent
+	trait = trusting
+	trait = fickle
+
+	diplomacy = 6
+	martial = 5
+	stewardship = 10
+	intrigue = 10
+	learning = 8
+	prowess = 3
+
+	trait = blood_of_numenor_2
+	6763.1.1 = {
+		birth = yes
+	}
+
+	6794.6.1 = {
+		add_spouse = wife_ardanoril2
+	}
+
+	6863.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+wife_ardanoril2 = {
+	name = Caelael
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_learning_2
+	trait = stubborn
+	trait = ambitious
+	trait = arbitrary
+
+	diplomacy = 3
+	martial = 2
+	stewardship = 7
+	intrigue = 7
+	learning = 6
+	prowess = 6
+
+	trait = blood_of_numenor_2
+	6768.1.1 = {
+		birth = yes
+	}
+
+	6866.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineardanoril3bridge = {
+	name = Caelandir
+
+	female = yes
+	dynasty = dynasty_ardanoril
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineardanoril2
+	mother = wife_ardanoril2
+
+	trait = education_diplomacy_2
+	trait = callous
+	trait = arbitrary
+	trait = trusting
+
+	diplomacy = 10
+	martial = 3
+	stewardship = 3
+	intrigue = 4
+	learning = 4
+	prowess = 8
+
+	trait = blood_of_numenor_1
+	6817.1.1 = {
+		birth = yes
+	}
+
+	6907.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineardanoril3side1 = {
+	name = Caelanor
+
+	dynasty = dynasty_ardanoril
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineardanoril2
+	mother = wife_ardanoril2
+
+	trait = education_martial_3
+	trait = vengeful
+	trait = paranoid
+	trait = compassionate
+
+	diplomacy = 10
+	martial = 5
+	stewardship = 8
+	intrigue = 7
+	learning = 7
+	prowess = 10
+	trait = blood_of_numenor_1
+
+	6821.1.1 = {
+		birth = yes
+	}
+
+	6920.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineardanoril3 = {
+	name = Caelarin
+
+	dynasty = dynasty_ardanoril
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineardanoril2
+	mother = wife_ardanoril2
+
+	trait = education_intrigue_2
+	trait = shy
+	trait = temperate
+	trait = content
+
+	diplomacy = 6
+	martial = 6
+	stewardship = 4
+	intrigue = 8
+	learning = 9
+	prowess = 7
+
+	trait = blood_of_numenor_1
+	6813.1.1 = {
+		birth = yes
+	}
+
+	6838.6.1 = {
+		add_spouse = linenaethor3bridge
+	}
+
+	6926.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineardanoril4side1 = {
+	name = Caelavor
+
+	dynasty = dynasty_ardanoril
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineardanoril3
+	mother = linenaethor3bridge
+
+	trait = education_diplomacy_3
+	trait = patient
+	trait = compassionate
+	trait = stubborn
+
+	diplomacy = 6
+	martial = 8
+	stewardship = 2
+	intrigue = 5
+	learning = 2
+	prowess = 8
+
+	trait = blood_of_numenor_1
+	6875.1.1 = {
+		birth = yes
+	}
+
+	6953.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineardanoril4 = {
+	name = Caelendir
+
+	dynasty = dynasty_ardanoril
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineardanoril3
+	mother = linenaethor3bridge
+
+	trait = education_stewardship_3
+	trait = fickle
+	trait = patient
+	trait = generous
+
+	diplomacy = 5
+	martial = 5
+	stewardship = 9
+	intrigue = 2
+	learning = 2
+	prowess = 4
+
+	trait = blood_of_numenor_1
+	6869.1.1 = {
+		birth = yes
+	}
+
+	6900.6.1 = {
+		add_spouse = wife_ardanoril4
+	}
+
+	6980.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+wife_ardanoril4 = {
+	name = Finduilen
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_diplomacy_2
+	trait = impatient
+	trait = brave
+	trait = vengeful
+
+	diplomacy = 2
+	martial = 6
+	stewardship = 10
+	intrigue = 2
+	learning = 10
+	prowess = 6
+
+	trait = blood_of_numenor_1
+	6872.1.1 = {
+		birth = yes
+	}
+
+	6967.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineardanoril5side1 = {
+	name = Caelethor
+
+	female = yes
+	dynasty = dynasty_ardanoril
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineardanoril4
+	mother = wife_ardanoril4
+
+	trait = education_diplomacy_2
+	trait = ambitious
+	trait = humble
+	trait = compassionate
+
+	diplomacy = 2
+	martial = 10
+	stewardship = 6
+	intrigue = 5
+	learning = 10
+	prowess = 3
+
+	6928.1.1 = {
+		birth = yes
+	}
+
+	7025.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineardanoril5side2 = {
+	name = Caelion
+
+	dynasty = dynasty_ardanoril
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineardanoril4
+	mother = wife_ardanoril4
+
+	trait = education_intrigue_2
+	trait = temperate
+	trait = fickle
+	trait = wrathful
+
+	diplomacy = 6
+	martial = 6
+	stewardship = 5
+	intrigue = 2
+	learning = 6
+	prowess = 3
+	trait = blood_of_numenor_1
+
+	6928.1.1 = {
+		birth = yes
+	}
+
+	7011.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineardanoril5side3 = {
+	name = Caelmir
+
+	female = yes
+	dynasty = dynasty_ardanoril
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineardanoril4
+	mother = wife_ardanoril4
+
+	trait = education_martial_3
+	trait = compassionate
+	trait = brave
+	trait = generous
+
+	diplomacy = 8
+	martial = 2
+	stewardship = 5
+	intrigue = 2
+	learning = 10
+	prowess = 5
+	trait = blood_of_numenor_1
+
+	6928.1.1 = {
+		birth = yes
+	}
+
+	7014.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineardanoril5 = {
+	name = Caelnor
+
+	dynasty = dynasty_ardanoril
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineardanoril4
+	mother = wife_ardanoril4
+
+	trait = education_stewardship_3
+	trait = impatient
+	trait = trusting
+	trait = content
+
+	diplomacy = 3
+	martial = 10
+	stewardship = 9
+	intrigue = 7
+	learning = 8
+	prowess = 4
+	trait = blood_of_numenor_1
+
+	6922.1.1 = {
+		birth = yes
+	}
+
+	6947.6.1 = {
+		add_spouse = wife_ardanoril5
+	}
+
+	7021.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+wife_ardanoril5 = {
+	name = Caelor
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_martial_3
+	trait = gregarious
+	trait = calm
+	trait = just
+
+	diplomacy = 3
+	martial = 4
+	stewardship = 10
+	intrigue = 7
+	learning = 10
+	prowess = 8
+	trait = blood_of_numenor_1
+
+	6926.1.1 = {
+		birth = yes
+	}
+
+	7018.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineardanoril6side1 = {
+	name = Caelrad
+
+	dynasty = dynasty_ardanoril
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineardanoril5
+	mother = wife_ardanoril5
+
+	trait = education_martial_3
+	trait = content
+	trait = wrathful
+	trait = just
+
+	diplomacy = 10
+	martial = 4
+	stewardship = 2
+	intrigue = 6
+	learning = 6
+	prowess = 9
+	trait = blood_of_numenor_1
+
+	6974.1.1 = {
+		birth = yes
+	}
+
+	7059.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineardanoril6 = {
+	name = Caelron
+
+	dynasty = dynasty_ardanoril
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineardanoril5
+	mother = wife_ardanoril5
+
+	trait = education_stewardship_2
+	trait = ambitious
+	trait = arbitrary
+	trait = trusting
+
+	diplomacy = 7
+	martial = 4
+	stewardship = 2
+	intrigue = 9
+	learning = 9
+	prowess = 8
+	trait = blood_of_numenor_1
+
+	6975.1.1 = {
+		birth = yes
+	}
+
+	7003.6.1 = {
+		add_spouse = wife_ardanoril6
+	}
+
+	7075.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+wife_ardanoril6 = {
+	name = Caelthor
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_martial_2
+	trait = arbitrary
+	trait = wrathful
+	trait = impatient
+
+	diplomacy = 9
+	martial = 9
+	stewardship = 6
+	intrigue = 9
+	learning = 9
+	prowess = 3
+	trait = blood_of_numenor_1
+
+	6975.1.1 = {
+		birth = yes
+	}
+
+	7054.1.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineardanoril7 = {
+	name = Caelvar
+
+	dynasty = dynasty_ardanoril
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineardanoril6
+	mother = wife_ardanoril6
+
+	trait = education_diplomacy_2
+	trait = paranoid
+	trait = honest
+	trait = stubborn
+
+	diplomacy = 10
+	martial = 7
+	stewardship = 8
+	intrigue = 2
+	learning = 10
+	prowess = 7
+
+	7024.1.1 = {
+		birth = yes
+	}
+
+	7048.6.1 = {
+		add_spouse = wife_ardanoril7
+	}
+}
+
+wife_ardanoril7 = {
+	name = Caelvir
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_martial_3
+	trait = just
+	trait = impatient
+	trait = content
+
+	diplomacy = 8
+	martial = 8
+	stewardship = 10
+	intrigue = 6
+	learning = 5
+	prowess = 4
+
+	7023.1.1 = {
+		birth = yes
+	}
+}
+
+lineardanoril8side1 = {
+	name = Caela
+
+	dynasty = dynasty_ardanoril
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineardanoril7
+	mother = wife_ardanoril7
+
+	trait = education_learning_3
+	trait = content
+	trait = patient
+	trait = paranoid
+
+	diplomacy = 7
+	martial = 3
+	stewardship = 7
+	intrigue = 10
+	learning = 8
+	prowess = 2
+
+	7064.1.1 = {
+		birth = yes
+	}
+}
+
+lineardanoril8side2 = {
+	name = Caeleth
+
+	female = yes
+	dynasty = dynasty_ardanoril
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineardanoril7
+	mother = wife_ardanoril7
+
+	trait = education_diplomacy_3
+	trait = calm
+	trait = gregarious
+	trait = fickle
+
+	diplomacy = 2
+	martial = 3
+	stewardship = 7
+	intrigue = 4
+	learning = 3
+	prowess = 5
+
+	7068.1.1 = {
+		birth = yes
+	}
+}
+
+lineardanoril8 = {
+	name = Caeliel
+
+	dynasty = dynasty_ardanoril
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineardanoril7
+	mother = wife_ardanoril7
+
+	trait = education_diplomacy_2
+	trait = diligent
+	trait = patient
+	trait = content
+
+	diplomacy = 4
+	martial = 3
+	stewardship = 5
+	intrigue = 8
+	learning = 5
+	prowess = 3
+
+	7069.1.1 = {
+		birth = yes
+	}
+}
+
+##############################
+# LINE 11: House of Heorwulf
+# dynasty_heorwulf
+##############################
+
+lineheorwulf1 = {
+	name = Beorwulf
+
+	dynasty = dynasty_heorwulf
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_martial_4
+	trait = lifestyle_blademaster
+	trait = brave
+	trait = diligent
+	trait = strong
+	trait = physique_good_2
+
+	diplomacy = 5
+	martial = 11
+	stewardship = 9
+	intrigue = 3
+	learning = 6
+	prowess = 16
+
+	trait = blood_of_numenor_2
+	6767.3.14 = {
+		birth = yes
+	}
+
+	6788.6.3 = {
+		add_spouse = wife_heorwulf1
+	}
+
+	6851.10.17 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+wife_heorwulf1 = {
+	name = Saelwyn
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_stewardship_3
+	trait = patient
+	trait = brave
+	trait = temperate
+
+	diplomacy = 5
+	martial = 6
+	stewardship = 9
+	intrigue = 4
+	learning = 5
+	prowess = 5
+
+	trait = blood_of_numenor_1
+	6769.8.2 = {
+		birth = yes
+	}
+
+	6844.4.9 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineheorwulf2 = {
+	name = Heorgrim
+
+	dynasty = dynasty_heorwulf
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineheorwulf1
+	mother = wife_heorwulf1
+
+	trait = education_martial_3
+	trait = brave
+	trait = diligent
+	trait = patient
+
+	diplomacy = 4
+	martial = 10
+	stewardship = 9
+	intrigue = 4
+	learning = 5
+	prowess = 13
+
+	trait = blood_of_numenor_2
+	6795.1.19 = {
+		birth = yes
+	}
+
+	6817.7.12 = {
+		add_spouse = wife_heorwulf2
+	}
+
+	6880.11.5 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineheorwulf2side1 = {
+	name = Wulfhild
+
+	female = yes
+	dynasty = dynasty_heorwulf
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineheorwulf1
+	mother = wife_heorwulf1
+
+	trait = education_stewardship_3
+	trait = brave
+	trait = just
+	trait = stubborn
+
+	diplomacy = 5
+	martial = 7
+	stewardship = 9
+	intrigue = 4
+	learning = 5
+	prowess = 7
+
+	trait = blood_of_numenor_1
+	6799.9.6 = {
+		birth = yes
+	}
+
+	6875.2.20 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+wife_heorwulf2 = {
+	name = Eadwyn
+
+	female = yes
+	religion = faith_forodain
+	culture = forodain
+
+	trait = education_stewardship_3
+	trait = diligent
+	trait = generous
+	trait = calm
+
+	diplomacy = 6
+	martial = 6
+	stewardship = 10
+	intrigue = 4
+	learning = 5
+	prowess = 5
+
+	trait = blood_of_numenor_1
+	6797.4.23 = {
+		birth = yes
+	}
+
+	6870.8.14 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+# Generation 3 begins direct intermarriage with the other new Forodain dynasties.
+# Spouse: Caelanor of dynasty_ardanoril (lineardanoril3side1).
+lineheorwulf3 = {
+	name = Hildraen
+
+	female = yes
+	dynasty = dynasty_heorwulf
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineheorwulf2
+	mother = wife_heorwulf2
+
+	trait = education_stewardship_4
+	trait = brave
+	trait = diligent
+	trait = just
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 11
+	intrigue = 4
+	learning = 6
+	prowess = 9
+
+	trait = blood_of_numenor_2
+	6826.5.8 = {
+		birth = yes
+	}
+
+	6848.9.21 = {
+		add_spouse = lineardanoril3side1
+	}
+
+	6913.1.27 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineheorwulf3side1 = {
+	name = Garwulf
+
+	dynasty = dynasty_heorwulf
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineheorwulf2
+	mother = wife_heorwulf2
+
+	trait = education_martial_3
+	trait = brave
+	trait = wrathful
+	trait = honest
+
+	diplomacy = 4
+	martial = 10
+	stewardship = 7
+	intrigue = 4
+	learning = 4
+	prowess = 12
+
+	trait = blood_of_numenor_1
+	6829.2.16 = {
+		birth = yes
+	}
+
+	6902.6.4 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineheorwulf3side2 = {
+	name = Wynhild
+
+	female = yes
+	dynasty = dynasty_heorwulf
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineheorwulf2
+	mother = wife_heorwulf2
+
+	trait = education_stewardship_3
+	trait = diligent
+	trait = patient
+	trait = gregarious
+
+	diplomacy = 6
+	martial = 6
+	stewardship = 10
+	intrigue = 4
+	learning = 5
+	prowess = 6
+
+	trait = blood_of_numenor_1
+	6833.10.11 = {
+		birth = yes
+	}
+
+	6918.3.9 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+# Generation 4 spouse: Aldriel of dynasty_galenmir (linegalenmir4side1).
+lineheorwulf4 = {
+	name = Brandwulf
+
+	dynasty = dynasty_heorwulf
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineardanoril3side1
+	mother = lineheorwulf3
+
+	trait = education_martial_4
+	trait = brave
+	trait = diligent
+	trait = temperate
+
+	diplomacy = 5
+	martial = 11
+	stewardship = 9
+	intrigue = 3
+	learning = 5
+	prowess = 14
+
+	trait = blood_of_numenor_1
+	6856.7.4 = {
+		birth = yes
+	}
+
+	6878.5.18 = {
+		add_spouse = linegalenmir4side1
+	}
+
+	6940.12.2 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineheorwulf4side1 = {
+	name = Eadric
+
+	dynasty = dynasty_heorwulf
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineardanoril3side1
+	mother = lineheorwulf3
+
+	trait = education_stewardship_3
+	trait = patient
+	trait = diligent
+	trait = honest
+
+	diplomacy = 5
+	martial = 7
+	stewardship = 10
+	intrigue = 4
+	learning = 5
+	prowess = 8
+
+	trait = blood_of_numenor_1
+	6860.11.29 = {
+		birth = yes
+	}
+
+	6944.9.1 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+# Generation 5 spouse: Hirvegil of dynasty_raudhave (lineraudhave5side2).
+lineheorwulf5 = {
+	name = Maerhild
+
+	female = yes
+	dynasty = dynasty_heorwulf
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineheorwulf4
+	mother = linegalenmir4side1
+
+	trait = education_stewardship_4
+	trait = diligent
+	trait = brave
+	trait = patient
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 11
+	intrigue = 4
+	learning = 6
+	prowess = 9
+
+	trait = blood_of_numenor_1
+	6890.3.12 = {
+		birth = yes
+	}
+
+	6920.8.6 = {
+		add_spouse = lineraudhave5side2
+	}
+
+	6977.5.19 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineheorwulf5side1 = {
+	name = Hrothgar
+
+	dynasty = dynasty_heorwulf
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineheorwulf4
+	mother = linegalenmir4side1
+
+	trait = education_martial_3
+	trait = brave
+	trait = stubborn
+	trait = just
+
+	diplomacy = 4
+	martial = 10
+	stewardship = 8
+	intrigue = 4
+	learning = 4
+	prowess = 12
+
+	trait = blood_of_numenor_1
+	6894.12.20 = {
+		birth = yes
+	}
+
+	6965.7.7 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineheorwulf5side2 = {
+	name = Beorneth
+
+	female = yes
+	dynasty = dynasty_heorwulf
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineheorwulf4
+	mother = linegalenmir4side1
+
+	trait = education_diplomacy_3
+	trait = brave
+	trait = generous
+	trait = diligent
+
+	diplomacy = 7
+	martial = 7
+	stewardship = 9
+	intrigue = 4
+	learning = 5
+	prowess = 7
+
+	trait = blood_of_numenor_1
+	6898.6.9 = {
+		birth = yes
+	}
+
+	6980.10.28 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+# Generation 6 spouse: Arvwen of dynasty_thalioneth (linethalioneth6side2).
+lineheorwulf6 = {
+	name = Wulfram
+
+	dynasty = dynasty_heorwulf
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineraudhave5side2
+	mother = lineheorwulf5
+
+	trait = education_martial_4
+	trait = brave
+	trait = diligent
+	trait = ambitious
+
+	diplomacy = 4
+	martial = 11
+	stewardship = 10
+	intrigue = 4
+	learning = 5
+	prowess = 13
+
+	trait = blood_of_numenor_1
+	6926.1.25 = {
+		birth = yes
+	}
+
+	6955.4.14 = {
+		add_spouse = linethalioneth6side2
+	}
+
+	7011.6.30 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineheorwulf6side1 = {
+	name = Eorling
+
+	dynasty = dynasty_heorwulf
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineraudhave5side2
+	mother = lineheorwulf5
+
+	trait = education_martial_3
+	trait = brave
+	trait = content
+	trait = diligent
+
+	diplomacy = 4
+	martial = 9
+	stewardship = 8
+	intrigue = 3
+	learning = 5
+	prowess = 11
+
+	trait = blood_of_numenor_1
+	6930.8.17 = {
+		birth = yes
+	}
+
+	7007.11.12 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+# Generation 7 spouse: Caelrad of dynasty_ardanoril (lineardanoril6side1).
+lineheorwulf7 = {
+	name = Freawyn
+
+	female = yes
+	dynasty = dynasty_heorwulf
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineheorwulf6
+	mother = linethalioneth6side2
+
+	trait = education_stewardship_4
+	trait = brave
+	trait = just
+	trait = diligent
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 11
+	intrigue = 4
+	learning = 6
+	prowess = 9
+
+	6959.9.3 = {
+		birth = yes
+	}
+
+	6996.5.2 = {
+		add_spouse = lineardanoril6side1
+	}
+
+	7045.2.18 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineheorwulf7side1 = {
+	name = Wulfred
+
+	dynasty = dynasty_heorwulf
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineheorwulf6
+	mother = linethalioneth6side2
+
+	trait = education_martial_3
+	trait = brave
+	trait = patient
+	trait = stubborn
+
+	diplomacy = 4
+	martial = 10
+	stewardship = 8
+	intrigue = 3
+	learning = 4
+	prowess = 12
+
+	6964.5.16 = {
+		birth = yes
+	}
+
+	7040.9.21 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineheorwulf7side2 = {
+	name = Aelwynn
+
+	female = yes
+	dynasty = dynasty_heorwulf
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineheorwulf6
+	mother = linethalioneth6side2
+
+	trait = education_stewardship_3
+	trait = diligent
+	trait = temperate
+	trait = honest
+
+	diplomacy = 6
+	martial = 7
+	stewardship = 10
+	intrigue = 4
+	learning = 5
+	prowess = 6
+
+	6967.12.7 = {
+		birth = yes
+	}
+
+	7051.3.29 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineheorwulf7side3 = {
+	name = Herebrand
+
+	dynasty = dynasty_heorwulf
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineheorwulf6
+	mother = linethalioneth6side2
+
+	trait = education_martial_3
+	trait = brave
+	trait = wrathful
+	trait = diligent
+
+	diplomacy = 4
+	martial = 10
+	stewardship = 7
+	intrigue = 4
+	learning = 4
+	prowess = 12
+
+	6971.4.24 = {
+		birth = yes
+	}
+
+	7048.8.8 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+# Generation 8 spouse: Mireth of dynasty_vaelthor (linevaelthor7side1).
+lineheorwulf8 = {
+	name = Beorric
+
+	dynasty = dynasty_heorwulf
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineardanoril6side1
+	mother = lineheorwulf7
+
+	trait = education_martial_4
+	trait = brave
+	trait = diligent
+	trait = patient
+
+	diplomacy = 5
+	martial = 10
+	stewardship = 10
+	intrigue = 4
+	learning = 5
+	prowess = 12
+
+	6999.7.14 = {
+		birth = yes
+	}
+
+	7036.6.10 = {
+		add_spouse = linevaelthor7side1
+	}
+
+	7084.11.22 = {
+		death = { death_reason = death_natural_causes }
+	}
+}
+
+lineheorwulf8side1 = {
+	name = Hildric
+
+	dynasty = dynasty_heorwulf
+	religion = faith_forodain
+	culture = forodain
+
+	father = lineardanoril6side1
+	mother = lineheorwulf7
+
+	trait = education_stewardship_3
+	trait = brave
+	trait = diligent
+	trait = just
+
+	diplomacy = 5
+	martial = 8
+	stewardship = 10
+	intrigue = 4
+	learning = 5
+	prowess = 8
+
+	7003.2.28 = {
+		birth = yes
+	}
+
+	7088.1.4 = {
+		death = { death_reason = death_natural_causes }
+	}
+}

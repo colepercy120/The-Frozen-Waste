@@ -1,8 +1,11 @@
 ﻿e_annuvorodwaith = {
+	capital = c_rast_losnaeth_5
 	color = { 206 242 242 }
 	k_everdalf = {
+		capital = c_everdalf_20
 		color = { 3 252 173 }
 		d_everdalf_1 = {
+			capital = c_everdalf_2
 			color = { 19 186 133 }
 			c_everdalf_1 = {
 				b_everdalf_1 = {
@@ -54,6 +57,7 @@
 			}
 		}
 		d_everdalf_2 = {
+			capital = c_everdalf_7
 			color = { 64 161 156 }
 			c_everdalf_4 = {
 				color = { 51 128 124 }
@@ -121,6 +125,7 @@
 			}
 		}
 		d_everdalf_3 = {
+			capital = c_everdalf_8
 			color={ 48 109 133 }
 			c_everdalf_8 = {
 				color={ 149 208 232 }
@@ -173,6 +178,7 @@
 			}
 		}
 		d_everdalf_4 = {
+			capital = c_everdalf_12
 			color={ 181 215 230 }
 			c_everdalf_11 = {
 				color={ 164 215 237 }
@@ -267,6 +273,7 @@
 			}
 		}
 		d_everdalf_5 = {
+			capital = c_everdalf_15
 			color={ 20 67 87 }
 			c_everdalf_15 = {
 				color={ 8 54 74 }
@@ -349,6 +356,7 @@
 			}
 		}
 		d_everdalf_6 = {
+			capital = c_everdalf_20
 			color={ 43 109 189 }
 			c_everdalf_19 = {
 				color={ 69 83 99 }
@@ -413,6 +421,7 @@
 			}
 		}
 		d_everdalf_7 = {
+			capital = c_everdalf_27
 			color={ 181 241 255 }
 			c_everdalf_25 = {
 				color={ 38 159 240 }
@@ -488,6 +497,7 @@
 			}
 		}
 		d_everdalf_8 = {
+			capital = c_everdalf_32
 			color={ 218 247 247 }
 			c_everdalf_30 = {
 				color={ 170 189 189 }
@@ -564,8 +574,10 @@
 		}
 	}
 	k_calendalf = {
+		capital = c_calendalf_9
 		color={ 38 10 252 }
 		d_calendalf_1 = {
+			capital = c_calendalf_3
 			color={ 31 12 173 }
 			c_calendalf_1 = {
 				color={ 20 5 133 }
@@ -627,6 +639,7 @@
 			}
 		}
 		d_calendalf_2 = {
+			capital = c_calendalf_5
 			color={ 86 75 163 }
 			c_calendalf_4 = {
 				color={ 22 4 145 }
@@ -675,6 +688,7 @@
 			}
 		}
 		d_calendalf_3 = {
+			capital = c_calendalf_7
 			color={ 122 112 186 }
 			c_calendalf_7 = {
 				color={ 122 112 186 }
@@ -742,6 +756,7 @@
 			}
 		}
 		d_calendalf_4 = {
+			capital = c_calendalf_11
 			color={ 128 82 242 }
 			c_calendalf_11 = {
 				color={ 73 2 247 }
@@ -796,6 +811,7 @@
 			}
 		}
 		d_calendalf_5 = {
+			capital = c_calendalf_15
 			color={ 17 0 255 }
 			c_calendalf_15 = {
 				color={ 17 0 255 }
@@ -848,6 +864,7 @@
 			}
 		}
 		d_calendalf_6 = {
+			capital = c_calendalf_19
 			color={ 23 36 87 }
 			c_calendalf_18 = {
 				color={ 23 36 87 }
@@ -890,8 +907,10 @@
 		}
 	}
 	k_lindalf = {
+		capital = c_lindalf_5
 		color={ 138 235 178 }
 		d_lindalf_1 = {
+			capital = c_lindalf_2
 			color={ 138 235 178 }
 			c_lindalf_1 = {
 				color={ 138 235 178 }
@@ -949,6 +968,7 @@
 			
 		}
 		d_lindalf_2 = {
+			capital = c_lindalf_5
 			color={ 114 212 154 }
 			c_lindalf_3 = {
 				color={ 191 245 213 }
@@ -1009,6 +1029,7 @@
 			}
 		}
 		d_lindalf_3 = {
+			capital = c_lindalf_7
 			color={ 73 156 130 }
 			c_lindalf_7 = {
 				color={ 73 156 130 }
@@ -1072,6 +1093,7 @@
 			}
 		}
 		d_lindalf_4 = {
+			capital = c_lindalf_11
 			color={ 73 245 191 }
 			c_lindalf_11 = {
 				color={ 73 245 191 }
@@ -1163,8 +1185,10 @@
 		}
 	}
 	k_ailindalf = {
+		capital = c_rast_losnaeth_6
 		color={ 255 33 129}
 		d_ailindalf_1 = {
+			capital = c_ailindalf_4
 			color={ 245 198 233 }
 			c_ailindalf_1 = {
 				color={ 245 198 233 }
@@ -1241,6 +1265,7 @@
 			}
 		}
 		d_ailindalf_2 = {
+			capital = c_ailindalf_8
 			color={ 171 128 157 }
 			c_ailindalf_5 = {
 				color={ 171 128 157 }
@@ -1304,6 +1329,7 @@
 			}
 		}
 		d_ailindalf_3 = {
+			capital = c_ailindalf_10
 			color={ 237 130 180 }
 			c_ailindalf_9 = {
 				color={ 237 130 180 }
@@ -1360,6 +1386,7 @@
 			}
 		}
 		d_ailindalf_4 = {
+			capital = c_ailindalf_15
 			color={ 237 185 209 }
 			c_ailindalf_12 = {
 				color={ 237 185 209 }
@@ -1435,6 +1462,7 @@
 			}
 		}
 		d_rast_losnaeth_1 = {
+			capital = c_rast_losnaeth_3
 			color={ 252 40 58 }
 			c_rast_losnaeth_1 = {
 				color={ 255 232 241 }
@@ -1506,6 +1534,7 @@
 			}
 		}
 		d_rast_losnaeth_2 = {
+			capital = c_rast_losnaeth_5
 			color={ 128 18 27 }
 			c_rast_losnaeth_5 = {
 				color={ 128 18 27 }
@@ -1544,8 +1573,10 @@
 		}
 	}
 	k_ruinfalas = {
+		capital = c_ruinfalas_11
 		color={ 252 3 3 }
 		d_ruinfalas_1 = {
+			capital = c_ruinfalas_4
 			color={ 252 3 3 }
 			c_ruinfalas_1 = {
 				b_ruinfalas_23 = {
@@ -1625,6 +1656,7 @@
 			}
 		}
 		d_ruinfalas_2 = {
+			capital = c_ruinfalas_5
 			color={ 161 124 124 }
 			c_ruinfalas_5 = {
 				color={ 161 124 124 }
@@ -1685,6 +1717,7 @@
 			}
 		}
 		d_ruinfalas_3 = {
+			capital = c_ruinfalas_9
 			color={ 255 77 0 }
 			c_ruinfalas_8 = {
 				color={ 255 77 0 }
@@ -1752,6 +1785,7 @@
 			}
 		}
 		d_muilfalas_1 = {
+			capital = c_muilfalas_3
 			color={ 145 128 121 }
 			c_muilfalas_1 = {
 				color={ 145 128 121 }
@@ -1804,6 +1838,7 @@
 			}
 		}
 		d_muilfalas_2 = {
+			capital = c_muilfalas_5
 			color={ 115 101 101 }
 			c_muilfalas_4 = {
 				color={ 115 101 101 }
@@ -1843,10 +1878,13 @@
 	}
 }
 e_bleak_mountains = {
+	capital = c_nidavellir_22
 	color={ 204 204 204 }
 	k_durnost = {
+		capital = c_durnost_14
 		color={ 60 64 66 }
 		d_durnost_1 = {
+			capital = c_durnost_3
 			color={ 60 64 66 }
 			c_durnost_1 = {
 				color={ 60 64 66 }
@@ -1878,6 +1916,7 @@ e_bleak_mountains = {
 			}
 		}
 		d_durnost_2 = {
+			capital = c_durnost_5
 			color={ 58 57 64 }
 			c_durnost_5 = {
 				color={ 58 57 64 }
@@ -1916,6 +1955,7 @@ e_bleak_mountains = {
 			}
 		}
 		d_durnost_3 = {
+			capital = c_durnost_12
 			color={ 115 108 107 }
 			c_durnost_10 = {
 				color={ 115 108 107 }
@@ -1947,6 +1987,7 @@ e_bleak_mountains = {
 			}
 		}
 		d_durnost_4 = {
+			capital = c_durnost_15
 			color={ 61 59 53 }
 			c_durnost_14 = {
 				color={ 61 59 53 }
@@ -1985,6 +2026,7 @@ e_bleak_mountains = {
 			}
 		}
 		d_durnost_5 = {
+			capital = c_durnost_22
 			color={ 38 33 19 }
 			c_durnost_19 = {
 				color={ 38 33 19 }
@@ -2017,8 +2059,10 @@ e_bleak_mountains = {
 		}
 	}
 	k_bleak_mountains = {
+		capital = c_bleak_mountains_5
 		color={ 204 204 204 }
 		d_bleak_mountains_1 = {
+			capital = c_bleak_mountains_3
 			color={ 204 204 204 }
 			c_bleak_mountains_1 = {
 				color={ 204 204 204 }
@@ -2078,6 +2122,7 @@ e_bleak_mountains = {
 			}
 		}
 		d_bleak_mountains_2 = {
+			capital = c_bleak_mountains_14
 			color={ 172 183 191 }
 			c_bleak_mountains_9 = {
 				color={ 172 183 191 }
@@ -2131,8 +2176,10 @@ e_bleak_mountains = {
 		}
 	}
 	k_nidavellir = {
+		capital = c_nidavellir_1
 		color={ 198 247 247 }
 		d_nidavellir_1 = {
+			capital = c_nidavellir_5
 			color={ 198 247 247 }
 			c_nidavellir_1 = {
 				color={ 198 247 247 }
@@ -2192,6 +2239,7 @@ e_bleak_mountains = {
 			}
 		}
 		d_nidavellir_2 = {
+			capital = c_nidavellir_11
 			color={ 234 237 183 }
 			c_nidavellir_9 = {
 				color={ 234 237 183 }
@@ -2258,6 +2306,7 @@ e_bleak_mountains = {
 			}
 		}
 		d_nidavellir_3 = {
+			capital = c_nidavellir_19
 			color={ 99 133 107 }
 			c_nidavellir_18 = {
 				color={ 99 133 107 }
@@ -2312,10 +2361,13 @@ e_bleak_mountains = {
 	}
 }
 e_angband = {
+	capital = c_thangorodrim_3
 	color={ 0 19 48 }
 	k_angband = {
+		capital = c_thangorodrim_3
 		color={ 0 19 48 }
 		d_thangorodrim = {
+			capital = c_thangorodrim_3
 			color={ 0 19 48 }
 			c_thangorodrim_1 = {
 				color={ 0 19 48 }
@@ -2354,10 +2406,13 @@ e_angband = {
 }
 
 e_tormequendi = {
+	capital = c_taurethon_4
 	color={ 80 69 245 }
 	k_aurora_isles = {
+		capital = c_aurora_isles_2
 		color={ 255 97 213 }
 		d_aurora_isles_1 = {
+			capital = c_aurora_isles_2
 			color={ 255 97 213 }
 			c_aurora_isles_1 = {
 				color={ 255 97 213 }
@@ -2375,6 +2430,7 @@ e_tormequendi = {
 			}
 		}
 		d_aurora_isles_2 = {
+			capital = c_aurora_isles_5
 			color={ 143 255 223 }
 			c_aurora_isles_3 = {
 				color={ 143 255 223 }
@@ -2409,8 +2465,10 @@ e_tormequendi = {
 		}
 	}
 	k_taurethon = {
+		capital = c_taurethon_2
 		color={ 0 138 37 }
 		d_taurethon_1 = {
+			capital = c_taurethon_3
 			color={ 0 138 37 }
 			c_taurethon_1 = {
 				color={ 0 138 37 }
@@ -2464,6 +2522,7 @@ e_tormequendi = {
 			}
 		}
 		d_taurethon_2 = {
+			capital = c_taurethon_5
 			color={ 86 214 191 }
 			c_taurethon_4 = {
 				color={ 86 214 191 }
@@ -2521,8 +2580,10 @@ e_tormequendi = {
 		}
 	}
 	k_evermist = {
-		color={ 184 251 255 }
+		color={ 176 0 70 }
+		capital = c_evermist_1
 		d_evermist_1 = {
+			capital = c_evermist_1
 			color={ 184 251 255 }
 			c_evermist_1 = {
 				color={ 184 251 255 }
@@ -2614,11 +2675,14 @@ e_tormequendi = {
 }
 
 e_tol_engrin = {
+	capital = c_gondalf_4
 	color={ 181 66 0 }
 	k_tol_faron = {
 		color={ 0 4 89 }
+		capital = c_tol_faron_2
 		d_tol_faron_1 = {
 			color={ 0 4 89 }
+			capital = c_tol_faron_2
 			c_tol_faron_1 = {
 				color={ 0 4 89 }
 				b_tol_feredir_1 = {
@@ -2668,7 +2732,9 @@ e_tol_engrin = {
 	}
 	k_frost_isles = {
 		color={ 138 253 255 }
+		capital = c_frost_isles_8
 		d_frost_isles_1 = {
+			capital = c_frost_isles_4
 			color={ 138 253 255 }
 			c_frost_isles_1 = {
 				color={ 138 253 255 }
@@ -2700,6 +2766,7 @@ e_tol_engrin = {
 			}
 		}
 		d_frost_isles_2 = {
+			capital = c_frost_isles_6
 			color={ 176 235 255 }
 			c_frost_isles_5 = {
 				color={ 176 235 255 }
@@ -2740,8 +2807,10 @@ e_tol_engrin = {
 	}
 	k_gondalf = {
 		color={ 103 135 145 }
+		capital = c_gondalf_2
 		d_gondalf_1 = {
 			color={ 103 135 145 }
+			capital = c_gondalf_2
 			c_gondalf_1 = {
 				color={ 103 135 145 }
 				b_gondolf_1 = {
@@ -2793,6 +2862,7 @@ e_tol_engrin = {
 			}
 		}
 		d_gondalf_2 = {
+			capital = c_gondalf_8
 			color={ 68 82 99 }
 			c_gondalf_4 = {
 				color={ 68 82 99 }
@@ -2869,8 +2939,10 @@ e_tol_engrin = {
 		
 	}
 	k_minheldolath = {
+		capital = c_minheldolath_3
 		color={ 59 203 255 }
 		d_minheldolath_1 = {
+			capital = c_minheldolath_4
 			color={ 59 203 255 }
 			c_minheldolath_1 = {
 				color={ 59 203 255 }
@@ -2940,6 +3012,7 @@ e_tol_engrin = {
 			}
 		}
 		d_minheldolath_2 = {
+			capital = c_minheldolath_7
 			color={ 0 99 135 }
 			c_minheldolath_5 = {
 				color={ 0 99 135 }
@@ -2999,6 +3072,7 @@ e_tol_engrin = {
 			}
 		}
 		d_minheldolath_3 = {
+			capital = c_minheldolath_9
 			color={ 141 196 217 }
 			c_minheldolath_9 = {
 				color={ 141 196 217 }
@@ -3048,6 +3122,7 @@ e_tol_engrin = {
 			
 		}
 		d_minheldolath_4 = {
+			capital = c_minheldolath_12
 			color={ 1 106 145 }
 			c_minheldolath_12 = {
 				color={ 1 106 145 }
@@ -3130,6 +3205,7 @@ e_tol_engrin = {
 			}
 		}
 		d_minheldolath_5 = {
+			capital = c_minheldolath_17
 			color={ 84 118 133 }
 			c_minheldolath_17 = {
 				color={ 84 118 133 }
@@ -3205,6 +3281,7 @@ e_tol_engrin = {
 			}
 		}
 		d_minheldolath_6 = {
+			capital = c_minheldolath_21
 			color={ 9 76 105 }
 			c_minheldolath_21 = {
 				color={ 9 76 105 }
@@ -3276,6 +3353,7 @@ e_tol_engrin = {
 			}
 		}
 		d_minheldolath_7 = {
+			capital = c_minheldolath_25
 			color={ 242 251 255 }
 			c_minheldolath_25 = {
 				color={ 242 251 255 }
@@ -3314,8 +3392,10 @@ e_tol_engrin = {
 		}
 	}
 	k_narthalf = {
+		capital = c_narthalf_5
 		color={ 255 171 172}
 		d_narthalf_1 = {
+			capital = c_narthalf_2
 			color={ 255 171 172 }
 			c_narthalf_1 = {
 				color={ 255 171 172}
@@ -3364,6 +3444,7 @@ e_tol_engrin = {
 			}
 		}
 		d_narthalf_2 = {
+			capital = c_narthalf_7
 			color={ 173 55 57 }
 			c_narthalf_4 = {
 				color={ 173 55 57 }
@@ -3436,6 +3517,7 @@ e_tol_engrin = {
 			}
 		}
 		d_morgoths_well = {
+			capital = c_morgoths_well_1
 			color={ 79 0 1 }
 			c_morgoths_well_1 = {
 				color={ 79 0 1 }
@@ -3463,8 +3545,10 @@ e_tol_engrin = {
 		}
 	}
 	k_helfalas = {
+		capital = c_helfalas_6
 		color={ 0 255 251 }
 		d_helfalas_1 = {
+			capital = c_helfalas_2
 			color={ 0 255 251 }
 			c_helfalas_1 = {
 				color={ 0 255 251 }
@@ -3525,6 +3609,7 @@ e_tol_engrin = {
 			}
 		}
 		d_helfalas_2 = {
+			capital = c_helfalas_4
 			color={ 99 247 245 }
 			c_helfalas_4 = {
 				color={ 99 247 245 }
@@ -3580,10 +3665,13 @@ e_tol_engrin = {
 }
 
 e_ered_rhivamar = {
+	capital = c_ered_rhivamar_27
 	color={ 80 70 92 }
 	k_ered_rhivamar = {
+		capital = c_ered_rhivamar_27
 		color={ 135 70 0 }
 		d_ered_rhivamar_1 = {
+			capital = c_ered_rhivamar_2
 			color={ 191 191 191 }
 			c_ered_rhivamar_1 = {
 				color={ 135 70 0 }
@@ -3615,6 +3703,7 @@ e_ered_rhivamar = {
 			}
 		}
 		d_ered_rhivamar_2 = {
+			capital = c_ered_rhivamar_8
 			color={ 219 44 44 }
 			c_ered_rhivamar_5 = {
 				color={ 219 44 44 }
@@ -3646,6 +3735,7 @@ e_ered_rhivamar = {
 			}
 		}
 		d_ered_rhivamar_3 = {
+			capital = c_ered_rhivamar_10
 			color={ 209 125 0 }
 			c_ered_rhivamar_9 = {
 				color={ 209 125 0 }
@@ -3677,6 +3767,7 @@ e_ered_rhivamar = {
 			}
 		}
 		d_ered_rhivamar_4 = {
+			capital = c_ered_rhivamar_17
 			color={ 251 255 0 }
 			c_ered_rhivamar_13 = {
 				color={ 251 255 0 }
@@ -3715,6 +3806,7 @@ e_ered_rhivamar = {
 			}
 		}
 		d_ered_rhivamar_5 = {
+			capital = c_ered_rhivamar_32
 			color={ 131 163 0 }
 			
 			c_ered_rhivamar_30 = {
@@ -3747,6 +3839,7 @@ e_ered_rhivamar = {
 			}
 		}
 		d_ered_rhivamar_6 = {
+			capital = c_ered_rhivamar_25
 			color={ 68 92 60 }
 			c_ered_rhivamar_29 = {
 				color={ 68 92 60 }
@@ -3778,6 +3871,7 @@ e_ered_rhivamar = {
 			}
 		}
 		d_ered_rhivamar_7 = {
+			capital = c_ered_rhivamar_20
 			color={ 105 70 21 }
 			c_ered_rhivamar_15 = {
 				color={ 189 127 42 }
@@ -3809,6 +3903,7 @@ e_ered_rhivamar = {
 			}
 		}
 		d_ered_rhivamar_8 = {
+			capital = c_ered_rhivamar_24
 			color={ 252 108 68 }
 			c_ered_rhivamar_22 = {
 				color={ 252 108 68 }
@@ -3834,8 +3929,10 @@ e_ered_rhivamar = {
 		}
 	}
 	k_northern_iron_mountains = {
+		capital = c_northern_iron_mountains_2
 		color={ 199 199 199 }
 		d_northern_iron_mountains_1 = {
+			capital = c_northern_iron_mountains_2
 			color={ 199 199 199 }
 			c_northern_iron_mountains_1 = {
 				color={ 199 199 199 }
@@ -3881,6 +3978,7 @@ e_ered_rhivamar = {
 			}
 		}
 		d_northern_iron_mountains_2 = {
+			capital = c_northern_iron_mountains_10
 			color={ 125 83 0 }
 			c_northern_iron_mountains_7 = {
 				color={ 125 83 0 }
@@ -3919,6 +4017,7 @@ e_ered_rhivamar = {
 			}
 		}
 		d_northern_iron_mountains_3 = {
+			capital = c_northern_iron_mountains_14
 			color={ 255 242 232 }
 			c_northern_iron_mountains_12 = {
 				color={ 255 242 232 }
@@ -3943,6 +4042,7 @@ e_ered_rhivamar = {
 			}
 		}
 		d_northern_iron_mountains_4 = {
+			capital = c_northern_iron_mountains_17
 			color={ 222 7 0 }
 			c_northern_iron_mountains_15 = {
 				color={ 222 7 0 }
@@ -3982,8 +4082,10 @@ e_ered_rhivamar = {
 		}
 	}
 	k_angband_reach = {
+		capital = c_angband_reach_2
 		color={ 64 33 0 }
 		d_angband_reach_1 = {
+			capital = c_angband_reach_2
 			color={ 64 33 0 }
 			c_angband_reach_1 = {
 				color={ 64 33 0 }
@@ -4012,6 +4114,7 @@ e_ered_rhivamar = {
 			}
 		}
 		d_angband_reach_2 = {
+			capital = c_angband_reach_5
 			color={ 184 67 0 }
 			c_angband_reach_4 = {
 				color={ 184 67 0 }
@@ -4036,6 +4139,7 @@ e_ered_rhivamar = {
 			}
 		}
 		d_angband_reach_3 = {
+			capital = c_angband_reach_7
 			color={ 255 164 112 }
 			c_angband_reach_6 = {
 				color={ 255 164 112 }
@@ -4060,6 +4164,7 @@ e_ered_rhivamar = {
 			}
 		}
 		d_angband_reach_4 = {
+			capital = c_angband_reach_12
 			color={ 245 214 59 }
 			c_angband_reach_10 = {
 				color={ 245 214 59 }
@@ -4096,10 +4201,13 @@ e_ered_rhivamar = {
 }
 
 e_enevorodwaith = {
+	capital = c_lhugdalf_5
 	color={ 238 224 255 }
 	k_mosha = {
+		capital = c_mosha_23
 		color={ 238 224 255 }
 		d_mosha_1 = {
+			capital = c_mosha_3
 			color={ 238 224 255 }
 			c_mosha_1 = {
 				color={ 238 224 255 }
@@ -4190,6 +4298,7 @@ e_enevorodwaith = {
 			}
 		}
 		d_mosha_2 = {
+			capital = c_mosha_8
 			color={ 127 31 255 }
 			c_mosha_6 = {
 				color={ 127 31 255 }
@@ -4241,6 +4350,7 @@ e_enevorodwaith = {
 			}
 		}
 		d_mosha_3 = {
+			capital = c_mosha_13
 			color={ 167 43 255 }
 			c_mosha_10 = {
 				color={ 167 43 255 }
@@ -4316,6 +4426,7 @@ e_enevorodwaith = {
 			}
 		}
 		d_mosha_4 = {
+			capital = c_mosha_16
 			color={ 83 68 94 }
 			c_mosha_14 = {
 				color={ 83 68 94 }
@@ -4375,6 +4486,7 @@ e_enevorodwaith = {
 			}
 		}
 		d_mosha_5 = {
+			capital = c_mosha_22
 			color={ 183 165 196 }
 			c_mosha_18 = {
 				color={ 183 165 196 }
@@ -4461,6 +4573,7 @@ e_enevorodwaith = {
 			}
 		}
 		d_mosha_6 = {
+			capital = c_mosha_23
 			color={ 225 0 255 }
 			c_mosha_23 = {
 				color={ 225 0 255 }
@@ -4528,6 +4641,7 @@ e_enevorodwaith = {
 			}
 		}
 		d_mosha_7 = {
+			capital = c_mosha_29
 			color={ 181 72 139 }
 			c_mosha_27 = {
 				color={ 181 72 139 }
@@ -4588,8 +4702,10 @@ e_enevorodwaith = {
 		}
 	}
 	k_lhugdalf = {
+		capital = c_lhugdalf_20
 		color={ 235 0 117 }
 		d_lhugdalf_1 = {
+			capital = c_lhugdalf_2
 			color={ 235 0 117 }
 			c_lhugdalf_1 = {
 				color={ 235 0 117 }
@@ -4669,6 +4785,7 @@ e_enevorodwaith = {
 			}
 		}
 		d_lhugdalf_2 = {
+			capital = c_lhugdalf_6
 			color={ 168 116 142 }
 			c_lhugdalf_5 = { 
 				color={ 168 116 142 }
@@ -4744,6 +4861,7 @@ e_enevorodwaith = {
 			}
 		}
 		d_lhugdalf_3 = {
+			capital = c_lhugdalf_10
 			color={ 168 5 67 }
 			c_lhugdalf_9 = {
 				color={ 168 5 67 }
@@ -4839,6 +4957,7 @@ e_enevorodwaith = {
 			}
 		}
 		d_lhugdalf_4 = {
+			capital = c_lhugdalf_14
 			color={ 105 25 56 }
 			c_lhugdalf_13 = {
 				color={ 105 25 56 }
@@ -4933,6 +5052,7 @@ e_enevorodwaith = {
 			}
 		}
 		d_lhugdalf_5 = {
+			capital = c_lhugdalf_19
 			color={ 237 36 103 }
 			c_lhugdalf_18 = {
 				color={ 237 36 103 }
@@ -5028,8 +5148,10 @@ e_enevorodwaith = {
 		}
 	}
 	k_sula = {
+		capital = c_sula_5
 		color={ 19 70 237 }
 		d_sula_1 = {
+			capital = c_sula_5
 			color={ 49 18 227 }
 			c_sula_1 = {
 				color={ 49 18 227 }
@@ -5128,6 +5250,7 @@ e_enevorodwaith = {
 			}
 		}
 		d_sula_2 = {
+			capital = c_sula_6
 			color={ 19 70 237 }
 			c_sula_6 = {
 				color={ 19 70 237 }
@@ -5235,8 +5358,10 @@ e_enevorodwaith = {
 		}
 	}
 	k_forovirian = {
+		capital = c_forovirian_16
 		color={ 0 247 255 }
 		d_forovirian_1 = {
+			capital = c_forovirian_2
 			color={ 0 247 255 }
 			c_forovirian_1 = {
 				color={ 0 247 255 }
@@ -5319,6 +5444,7 @@ e_enevorodwaith = {
 			}
 		}
 		d_forovirian_2 = {
+			capital = c_forovirian_6
 			color={ 61 190 255 }
 			c_forovirian_6 = {
 				color={ 61 190 255 }
@@ -5382,6 +5508,7 @@ e_enevorodwaith = {
 			}
 		}
 		d_forovirian_3 = {
+			capital = c_forovirian_10
 			color={ 110 189 230 }
 			c_forovirian_10 = {
 				color={ 110 189 230 }
@@ -5430,6 +5557,7 @@ e_enevorodwaith = {
 			}
 		}
 		d_forovirian_4 = {
+			capital = c_forovirian_14
 			color={ 94 140 247 }
 			c_forovirian_13 = {
 				color={ 94 140 247 }
@@ -5493,6 +5621,7 @@ e_enevorodwaith = {
 			}
 		}
 		d_forovirian_5 = {
+			capital = c_forovirian_18
 			color={ 124 206 217 }
 			c_forovirian_17 = {
 				color={ 124 206 217 }
@@ -5588,8 +5717,10 @@ e_enevorodwaith = {
 		}
 	}
 	k_talath_uichel = {
+		capital = c_talath_uichel_6
 		color={ 232 252 255 }
 		d_talath_uichel_1 = {
+			capital = c_talath_uichel_3
 			color={ 232 252 255 }
 			c_talath_uichel_1 = {
 				color={ 232 252 255 }
@@ -5639,6 +5770,7 @@ e_enevorodwaith = {
 			
 		}
 		d_talath_uichel_2 = {
+			capital = c_talath_uichel_6
 			color={ 89 235 255 }
 			c_talath_uichel_4 = {
 				color={ 89 235 255 }
@@ -5687,6 +5819,7 @@ e_enevorodwaith = {
 			}			
 		}
 		d_talath_uichel_3 = {
+			capital = c_talath_uichel_10
 			color={ 200 224 227 }
 			c_talath_uichel_7 = {
 				color={ 200 224 227 }
@@ -5754,6 +5887,7 @@ e_enevorodwaith = {
 			}
 		}
 		d_talath_uichel_4 = {
+			capital = c_talath_uichel_13
 			color={ 126 148 150 }
 			c_talath_uichel_11 = {
 				color={ 126 148 150 }
@@ -5828,6 +5962,7 @@ e_enevorodwaith = {
 			}
 		}
 		d_talath_uichel_5 = {
+			capital = c_talath_uichel_19
 			color={ 71 241 255 }
 			c_talath_uichel_16 = {
 				color={ 71 241 255 }
@@ -5905,10 +6040,13 @@ e_enevorodwaith = {
 	}
 }
 e_umli = {
+	capital = c_komi_3
 	color={ 0 2 102 }
 	k_komi = {
+		capital = c_komi_7
 		color={ 29 55 120 }
 		d_komi_1 = {
+			capital = c_komi_3
 			color={ 29 55 120 }
 			c_komi_1 = {
 				color={ 29 55 120 }
@@ -5949,6 +6087,7 @@ e_umli = {
 			}
 		}
 		d_komi_2 = {
+			capital = c_komi_4
 			color={ 29 76 120 }
 			c_komi_4 = {
 				color={ 29 76 120 }
@@ -6012,6 +6151,7 @@ e_umli = {
 			}
 		}
 		d_komi_3 = {
+			capital = c_komi_9
 			color={ 65 112 120 }
 			c_komi_8 = {
 				color={ 65 112 120 }
@@ -6047,8 +6187,10 @@ e_umli = {
 	}
 }
 k_grey_foothills = {
+	capital = c_grey_foothills_2
 	color={ 92 105 107 }
 	d_grey_foothills_1 = {
+		capital = c_grey_foothills_2
 		color={ 92 105 107 }
 		c_grey_foothills_1 = {
 			color={ 92 105 107 }
@@ -6124,6 +6266,7 @@ k_grey_foothills = {
 		}
 	}
 	d_grey_foothills_2 = {
+		capital = c_grey_foothills_5
 		color={ 154 164 166 }
 		c_grey_foothills_5 = {
 			color={ 154 164 166 }
@@ -6198,6 +6341,7 @@ k_grey_foothills = {
 		}
 	}
 	d_grey_foothills_3 = {
+		capital = c_grey_foothills_10
 		color={ 78 89 89 }
 		c_grey_foothills_10 = {
 			color={ 78 89 89 }
@@ -6299,11 +6443,14 @@ k_grey_foothills = {
 	}
 }
 e_frostwood = {
+	capital = c_frostwood_27
 	color={ 0 255 255 }
 	k_west_frostwood = {
+		capital = c_frostwood_6
 		
 		color={ 199 255 255 }
 		d_west_frostwood_1 = {
+			capital = c_frostwood_3
 			color={ 0 255 255 }
 			c_frostwood_1 = {
 				color={ 0 255 255 }
@@ -6352,6 +6499,7 @@ e_frostwood = {
 			}
 		}
 		d_west_frostwood_2 = {
+			capital = c_frostwood_9
 			color={ 138 255 255 }
 			c_frostwood_4 = {
 				color={ 138 255 255 }
@@ -6457,6 +6605,7 @@ e_frostwood = {
 			}
 		}
 		d_west_frostwood_3 = {
+			capital = c_frostwood_11
 			color={ 105 255 255 }
 			c_frostwood_10 = {
 				color={ 105 255 255 }
@@ -6522,6 +6671,7 @@ e_frostwood = {
 			}
 		}
 		d_west_frostwood_4 = {
+			capital = c_frostwood_18
 			color={ 0 209 209 }
 			c_frostwood_14 = {
 				color={ 0 209 209 }
@@ -6617,8 +6767,10 @@ e_frostwood = {
 		}
 	}
 	k_east_frostwood = {
+		capital = c_frostwood_20
 		color={ 0 255 187 }
 		d_east_frostwood_1 = {
+			capital = c_frostwood_21
 			color={ 71 255 255 }
 			c_frostwood_20 = {
 				color={ 71 255 255 }
@@ -6701,6 +6853,7 @@ e_frostwood = {
 			}
 		}
 		d_east_frostwood_2 = {
+			capital = c_frostwood_25
 			color={ 60 230 198 }
 			c_frostwood_25 = {
 				color={ 60 230 198 }
@@ -6749,6 +6902,7 @@ e_frostwood = {
 			}
 		}
 		d_east_frostwood_3 = {
+			capital = c_frostwood_31
 			color={ 0 255 179 }
 			c_frostwood_29 = {
 				color={ 0 255 179 }
@@ -6820,4 +6974,12 @@ k_emyn_nimbrith = {
 		color={ 28 24 59 }
 	
 	}
+}
+e_winter_court = {
+	color={ 169 193 192}
+	destroy_on_succession = yes
+	destroy_if_invalid_heir = yes
+	always_follows_primary_heir = yes
+	ruler_uses_title_name = no
+	capital = c_thangorodrim_3
 }

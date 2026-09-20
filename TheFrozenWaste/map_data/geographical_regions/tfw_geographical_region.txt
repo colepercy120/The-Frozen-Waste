@@ -107,6 +107,14 @@
 	# middleearth_forodwaith_forochel
 	# middleearth_forodwaith_northernwastes
 	# middleearth_forodwaith_bayofhelkar
+	# middleearth_mountains_bleak
+		# middleearth_mountains_bleak_durnost
+		# middleearth_mountains_bleak_bleak_mountains
+		# middleearth_mountains_bleak_nidavellir
+	# middleearth_mountains_rhivamar
+		# middleearth_mountains_rhivamar_ered_rhivamar
+		# middleearth_mountains_rhivamar_northern_iron_mountains
+		# middleearth_mountains_rhivamar_angband_reach
 
 # middleearth_rhun
 	# middleearth_rhun_seaofrhun
@@ -428,6 +436,78 @@ middleearth_forodwaith_rhuvorodwaith_grey_foothills = {
 	}
 }
 
+middleearth_mountains_bleak = {
+	regions = {
+		middleearth_mountains_bleak_durnost
+		middleearth_mountains_bleak_bleak_mountains
+		middleearth_mountains_bleak_nidavellir
+	}
+}
+
+middleearth_mountains_bleak_durnost = {
+	duchies = {
+		d_durnost_1
+		d_durnost_2
+		d_durnost_3
+		d_durnost_4
+		d_durnost_5
+	}
+}
+
+middleearth_mountains_bleak_bleak_mountains = {
+	duchies = {
+		d_bleak_mountains_1
+		d_bleak_mountains_2
+	}
+}
+
+middleearth_mountains_bleak_nidavellir = {
+	duchies = {
+		d_nidavellir_1
+		d_nidavellir_2
+		d_nidavellir_3
+	}
+}
+
+middleearth_mountains_rhivamar = {
+	regions = {
+		middleearth_mountains_rhivamar_ered_rhivamar
+		middleearth_mountains_rhivamar_northern_iron_mountains
+		middleearth_mountains_rhivamar_angband_reach
+	}
+}
+
+middleearth_mountains_rhivamar_ered_rhivamar = {
+	duchies = {
+		d_ered_rhivamar_1
+		d_ered_rhivamar_2
+		d_ered_rhivamar_3
+		d_ered_rhivamar_4
+		d_ered_rhivamar_5
+		d_ered_rhivamar_6
+		d_ered_rhivamar_7
+		d_ered_rhivamar_8
+	}
+}
+
+middleearth_mountains_rhivamar_northern_iron_mountains = {
+	duchies = {
+		d_northern_iron_mountains_1
+		d_northern_iron_mountains_2
+		d_northern_iron_mountains_3
+		d_northern_iron_mountains_4
+	}
+}
+
+middleearth_mountains_rhivamar_angband_reach = {
+	duchies = {
+		d_angband_reach_1
+		d_angband_reach_2
+		d_angband_reach_3
+		d_angband_reach_4
+	}
+}
+
 ###########################################################################
 ### HIGHER LEVEL GEOGRAPHICAL REGIONS
 ###########################################################################
@@ -444,6 +524,8 @@ middleearth_mountains = {
 		middleearth_mountains_white
 		middleearth_mountains_yellow
 		middleearth_mountains_red
+		middleearth_mountains_bleak
+		middleearth_mountains_rhivamar
 	}
 }
 
@@ -495,6 +577,8 @@ graphical_underground = {
 		middleearth_west_isengard
 		middleearth_mountains_yellow
 		middleearth_mountains_white
+		middleearth_mountains_bleak
+		middleearth_mountains_rhivamar
 	}
 }
 
