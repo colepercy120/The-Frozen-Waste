@@ -13,8 +13,8 @@
 
 
 
-lineofsindri90sister = { # younger sister of Eitri
-	name = Thri_i_s
+tfw_lineofsindri_001 = { # younger sister of Eitri
+	name = tfw_lineofsindri_001_name
 	female = yes
 
 	dynasty = dynasty_sindri
@@ -48,8 +48,8 @@ lineofsindri90sister = { # younger sister of Eitri
 	}
 }
 
-lineofsindri90 = { # founder of Nidavellir; base stats total 55
-	name = Eitri
+tfw_lineofsindri_002 = { # founder of Nidavellir; base stats total 55
+	name = tfw_lineofsindri_002_name
 
 	dynasty = dynasty_sindri
 	religion = faith_ironfists
@@ -80,7 +80,7 @@ lineofsindri90 = { # founder of Nidavellir; base stats total 55
 	}
 
 	6760.8.20 = {
-		add_spouse = lineofsindri90wife
+		add_spouse = tfw_lineofnidavellir_zharakh_001
 	}
 
 	6931.4.7 = {
@@ -88,8 +88,8 @@ lineofsindri90 = { # founder of Nidavellir; base stats total 55
 	}
 }
 
-lineofsindri90wife = {
-	name = Dholga
+tfw_lineofnidavellir_zharakh_001 = {
+	name = tfw_lineofnidavellir_zharakh_001_name
 	female = yes
 
 	dynasty = dynasty_nidavellir_zharakh
@@ -120,15 +120,15 @@ lineofsindri90wife = {
 	}
 }
 
-lineofsindri90a = { # son and heir of Eitri; replaces Sindri VII; base stats total 55
-	name = Brokkr
+tfw_lineofsindri_003 = { # son and heir of Eitri; replaces Sindri VII; base stats total 55
+	name = tfw_lineofsindri_003_name
 
 	dynasty = dynasty_sindri
 	religion = faith_ironfists
 	culture = ironfists
 
-	father = lineofsindri90
-	mother = lineofsindri90wife
+	father = tfw_lineofsindri_002
+	mother = tfw_lineofnidavellir_zharakh_001
 
 	sexuality = heterosexual
 
@@ -152,7 +152,7 @@ lineofsindri90a = { # son and heir of Eitri; replaces Sindri VII; base stats tot
 	}
 
 	6868.4.15 = {
-		add_spouse = lineofsindri90awife
+		add_spouse = tfw_lineofnidavellir_tharim_001
 	}
 
 	7047.9.3 = {
@@ -160,16 +160,16 @@ lineofsindri90a = { # son and heir of Eitri; replaces Sindri VII; base stats tot
 	}
 }
 
-lineofsindri90child2 = { # daughter of Eitri; sister of Brokkr
-	name = Khemi_i_r
+tfw_lineofsindri_004 = { # daughter of Eitri; sister of Brokkr
+	name = tfw_lineofsindri_004_name
 	female = yes
 
 	dynasty = dynasty_sindri
 	religion = faith_ironfists
 	culture = ironfists
 
-	father = lineofsindri90
-	mother = lineofsindri90wife
+	father = tfw_lineofsindri_002
+	mother = tfw_lineofnidavellir_zharakh_001
 
 	sexuality = heterosexual
 
@@ -191,7 +191,7 @@ lineofsindri90child2 = { # daughter of Eitri; sister of Brokkr
 	}
 
 	6877.7.12 = {
-		add_spouse = lineofsindri90child2wife
+		add_spouse = tfw_lineofnidavellir_barukhan_001
 	}
 
 	7038.3.21 = {
@@ -199,8 +199,8 @@ lineofsindri90child2 = { # daughter of Eitri; sister of Brokkr
 	}
 }
 
-lineofsindri90child2wife = {
-	name = Gharin
+tfw_lineofnidavellir_barukhan_001 = {
+	name = tfw_lineofnidavellir_barukhan_001_name
 
 	dynasty = dynasty_nidavellir_barukhan
 	religion = faith_ironfists
@@ -230,15 +230,15 @@ lineofsindri90child2wife = {
 	}
 }
 
-lineofsindri90child3 = { # younger son of Eitri; brother of Brokkr
-	name = Varkh
+tfw_lineofsindri_005 = { # younger son of Eitri; brother of Brokkr
+	name = tfw_lineofsindri_005_name
 
 	dynasty = dynasty_sindri
 	religion = faith_ironfists
 	culture = ironfists
 
-	father = lineofsindri90
-	mother = lineofsindri90wife
+	father = tfw_lineofsindri_002
+	mother = tfw_lineofnidavellir_zharakh_001
 
 	sexuality = heterosexual
 
@@ -264,8 +264,8 @@ lineofsindri90child3 = { # younger son of Eitri; brother of Brokkr
 	}
 }
 
-lineofsindri90awife = {
-	name = U_U_rla
+tfw_lineofnidavellir_tharim_001 = {
+	name = tfw_lineofnidavellir_tharim_001_name
 	female = yes
 
 	dynasty = dynasty_nidavellir_tharim
@@ -296,15 +296,15 @@ lineofsindri90awife = {
 	}
 }
 
-lineofsindri90b = { # grandson of Eitri; base stats total 55
-	name = Shakhal
+tfw_lineofsindri_006 = { # grandson of Eitri; base stats total 55
+	name = tfw_lineofsindri_006_name
 
 	dynasty = dynasty_sindri
 	religion = faith_ironfists
 	culture = ironfists
 
-	father = lineofsindri90a
-	mother = lineofsindri90awife
+	father = tfw_lineofsindri_003
+	mother = tfw_lineofnidavellir_tharim_001
 
 	sexuality = heterosexual
 
@@ -327,7 +327,7 @@ lineofsindri90b = { # grandson of Eitri; base stats total 55
 	}
 
 	6989.9.16 = {
-		add_spouse = lineofsindri90bwife
+		add_spouse = tfw_lineofnidavellir_kheledan_002
 	}
 
 	7141.7.22 = {
@@ -335,15 +335,15 @@ lineofsindri90b = { # grandson of Eitri; base stats total 55
 	}
 }
 
-lineofsindri90a_child2 = { # older sibling of Shakhal
-	name = Narvi
+tfw_lineofsindri_007 = { # older sibling of Shakhal
+	name = tfw_lineofsindri_007_name
 
 	dynasty = dynasty_sindri
 	religion = faith_ironfists
 	culture = ironfists
 
-	father = lineofsindri90a
-	mother = lineofsindri90awife
+	father = tfw_lineofsindri_003
+	mother = tfw_lineofnidavellir_tharim_001
 
 	sexuality = heterosexual
 
@@ -365,7 +365,7 @@ lineofsindri90a_child2 = { # older sibling of Shakhal
 	}
 
 	6976.6.12 = {
-		add_spouse = lineofsindri90a_child2wife
+		add_spouse = tfw_lineofnidavellir_kheledan_001
 	}
 
 	7132.9.5 = {
@@ -373,8 +373,8 @@ lineofsindri90a_child2 = { # older sibling of Shakhal
 	}
 }
 
-lineofsindri90a_child2wife = {
-	name = Mhega
+tfw_lineofnidavellir_kheledan_001 = {
+	name = tfw_lineofnidavellir_kheledan_001_name
 	female = yes
 
 	dynasty = dynasty_nidavellir_kheledan
@@ -405,16 +405,16 @@ lineofsindri90a_child2wife = {
 	}
 }
 
-lineofsindri90a_child3 = { # younger sibling of Shakhal
-	name = Thrami
+tfw_lineofsindri_008 = { # younger sibling of Shakhal
+	name = tfw_lineofsindri_008_name
 	female = yes
 
 	dynasty = dynasty_sindri
 	religion = faith_ironfists
 	culture = ironfists
 
-	father = lineofsindri90a
-	mother = lineofsindri90awife
+	father = tfw_lineofsindri_003
+	mother = tfw_lineofnidavellir_tharim_001
 
 	sexuality = heterosexual
 
@@ -440,8 +440,8 @@ lineofsindri90a_child3 = { # younger sibling of Shakhal
 	}
 }
 
-lineofsindri90bwife = {
-	name = Zhulda
+tfw_lineofnidavellir_kheledan_002 = {
+	name = tfw_lineofnidavellir_kheledan_002_name
 	female = yes
 
 	dynasty = dynasty_nidavellir_kheledan
@@ -472,15 +472,15 @@ lineofsindri90bwife = {
 	}
 }
 
-lineofsindri90b_child1 = { # child of Shakhal
-	name = Bori
+tfw_lineofsindri_009 = { # child of Shakhal
+	name = tfw_lineofsindri_009_name
 
 	dynasty = dynasty_sindri
 	religion = faith_ironfists
 	culture = ironfists
 
-	father = lineofsindri90b
-	mother = lineofsindri90bwife
+	father = tfw_lineofsindri_006
+	mother = tfw_lineofnidavellir_kheledan_002
 
 	sexuality = heterosexual
 
@@ -506,16 +506,16 @@ lineofsindri90b_child1 = { # child of Shakhal
 	}
 }
 
-lineofsindri90b_child2 = { # child of Shakhal
-	name = Dhemi_i_s
+tfw_lineofsindri_010 = { # child of Shakhal
+	name = tfw_lineofsindri_010_name
 	female = yes
 
 	dynasty = dynasty_sindri
 	religion = faith_ironfists
 	culture = ironfists
 
-	father = lineofsindri90b
-	mother = lineofsindri90bwife
+	father = tfw_lineofsindri_006
+	mother = tfw_lineofnidavellir_kheledan_002
 
 	sexuality = heterosexual
 
@@ -541,15 +541,15 @@ lineofsindri90b_child2 = { # child of Shakhal
 	}
 }
 
-lineofsindri90b_child3 = { # child of Shakhal
-	name = Khurin
+tfw_lineofsindri_011 = { # child of Shakhal
+	name = tfw_lineofsindri_011_name
 
 	dynasty = dynasty_sindri
 	religion = faith_ironfists
 	culture = ironfists
 
-	father = lineofsindri90b
-	mother = lineofsindri90bwife
+	father = tfw_lineofsindri_006
+	mother = tfw_lineofnidavellir_kheledan_002
 
 	sexuality = heterosexual
 
@@ -575,8 +575,8 @@ lineofsindri90b_child3 = { # child of Shakhal
 	}
 }
 
-nidavellir_a1_father = { # parent generation of the western marches house
-	name = Khuldin
+tfw_lineofnidavellir_kharum_001 = { # parent generation of the western marches house
+	name = tfw_lineofnidavellir_kharum_001_name
 
 	dynasty = dynasty_nidavellir_kharum
 	religion = faith_ironfists
@@ -602,7 +602,7 @@ nidavellir_a1_father = { # parent generation of the western marches house
 	}
 
 	6706.8.9 = {
-		add_spouse = nidavellir_a1_mother
+		add_spouse = tfw_lineofnidavellir_barukhan_002
 	}
 
 	6884.8.9 = {
@@ -615,8 +615,8 @@ nidavellir_a1_father = { # parent generation of the western marches house
 ### Western marches: Kharum
 ################################
 
-nidavellir_a1_mother = {
-	name = Rhela
+tfw_lineofnidavellir_barukhan_002 = {
+	name = tfw_lineofnidavellir_barukhan_002_name
 	female = yes
 
 	dynasty = dynasty_nidavellir_barukhan
@@ -647,15 +647,15 @@ nidavellir_a1_mother = {
 	}
 }
 
-nidavellir_a1 = { # landed ruler of the western marches
-	name = Buldin
+tfw_lineofnidavellir_kharum_002 = { # landed ruler of the western marches
+	name = tfw_lineofnidavellir_kharum_002_name
 
 	dynasty = dynasty_nidavellir_kharum
 	religion = faith_ironfists
 	culture = ironfists
 
-	father = nidavellir_a1_father
-	mother = nidavellir_a1_mother
+	father = tfw_lineofnidavellir_kharum_001
+	mother = tfw_lineofnidavellir_barukhan_002
 
 	sexuality = heterosexual
 
@@ -678,7 +678,7 @@ nidavellir_a1 = { # landed ruler of the western marches
 	}
 
 	6835.8.9 = {
-		add_spouse = nidavellir_a1_spouse
+		add_spouse = tfw_lineofnidavellir_barukhan_003
 	}
 
 	6998.12.8 = {
@@ -686,15 +686,15 @@ nidavellir_a1 = { # landed ruler of the western marches
 	}
 }
 
-nidavellir_a1_sibling = { # sibling of Buldin
-	name = Druhar
+tfw_lineofnidavellir_kharum_003 = { # sibling of Buldin
+	name = tfw_lineofnidavellir_kharum_003_name
 
 	dynasty = dynasty_nidavellir_kharum
 	religion = faith_ironfists
 	culture = ironfists
 
-	father = nidavellir_a1_father
-	mother = nidavellir_a1_mother
+	father = tfw_lineofnidavellir_kharum_001
+	mother = tfw_lineofnidavellir_barukhan_002
 
 	sexuality = heterosexual
 
@@ -720,8 +720,8 @@ nidavellir_a1_sibling = { # sibling of Buldin
 	}
 }
 
-nidavellir_a1_spouse = {
-	name = Vargaezha
+tfw_lineofnidavellir_barukhan_003 = {
+	name = tfw_lineofnidavellir_barukhan_003_name
 	female = yes
 
 	dynasty = dynasty_nidavellir_barukhan
@@ -752,15 +752,15 @@ nidavellir_a1_spouse = {
 	}
 }
 
-nidavellir_a2 = { # successor in the western marches
-	name = Khurubra
+tfw_lineofnidavellir_kharum_004 = { # successor in the western marches
+	name = tfw_lineofnidavellir_kharum_004_name
 
 	dynasty = dynasty_nidavellir_kharum
 	religion = faith_ironfists
 	culture = ironfists
 
-	father = nidavellir_a1
-	mother = nidavellir_a1_spouse
+	father = tfw_lineofnidavellir_kharum_002
+	mother = tfw_lineofnidavellir_barukhan_003
 
 	sexuality = heterosexual
 
@@ -783,7 +783,7 @@ nidavellir_a2 = { # successor in the western marches
 	}
 
 	6967.3.14 = {
-		add_spouse = nidavellir_a2_spouse
+		add_spouse = tfw_lineofnidavellir_tharim_002
 	}
 
 	7153.6.21 = {
@@ -791,15 +791,15 @@ nidavellir_a2 = { # successor in the western marches
 	}
 }
 
-nidavellir_a_child2 = { # sibling of Khurubra
-	name = Thromel
+tfw_lineofnidavellir_kharum_005 = { # sibling of Khurubra
+	name = tfw_lineofnidavellir_kharum_005_name
 
 	dynasty = dynasty_nidavellir_kharum
 	religion = faith_ironfists
 	culture = ironfists
 
-	father = nidavellir_a1
-	mother = nidavellir_a1_spouse
+	father = tfw_lineofnidavellir_kharum_002
+	mother = tfw_lineofnidavellir_barukhan_003
 
 	sexuality = heterosexual
 
@@ -825,16 +825,16 @@ nidavellir_a_child2 = { # sibling of Khurubra
 	}
 }
 
-nidavellir_a_child3 = { # sibling of Khurubra
-	name = Khalril
+tfw_lineofnidavellir_kharum_006 = { # sibling of Khurubra
+	name = tfw_lineofnidavellir_kharum_006_name
 	female = yes
 
 	dynasty = dynasty_nidavellir_kharum
 	religion = faith_ironfists
 	culture = ironfists
 
-	father = nidavellir_a1
-	mother = nidavellir_a1_spouse
+	father = tfw_lineofnidavellir_kharum_002
+	mother = tfw_lineofnidavellir_barukhan_003
 
 	sexuality = heterosexual
 
@@ -860,8 +860,8 @@ nidavellir_a_child3 = { # sibling of Khurubra
 	}
 }
 
-nidavellir_a2_spouse = {
-	name = Mhilare_e_
+tfw_lineofnidavellir_tharim_002 = {
+	name = tfw_lineofnidavellir_tharim_002_name
 	female = yes
 
 	dynasty = dynasty_nidavellir_tharim
@@ -892,15 +892,15 @@ nidavellir_a2_spouse = {
 	}
 }
 
-nidavellir_a2_child1 = { # child of Khurubra
-	name = Gour
+tfw_lineofnidavellir_kharum_007 = { # child of Khurubra
+	name = tfw_lineofnidavellir_kharum_007_name
 
 	dynasty = dynasty_nidavellir_kharum
 	religion = faith_ironfists
 	culture = ironfists
 
-	father = nidavellir_a2
-	mother = nidavellir_a2_spouse
+	father = tfw_lineofnidavellir_kharum_004
+	mother = tfw_lineofnidavellir_tharim_002
 
 	sexuality = heterosexual
 
@@ -926,16 +926,16 @@ nidavellir_a2_child1 = { # child of Khurubra
 	}
 }
 
-nidavellir_a2_child2 = { # child of Khurubra
-	name = Uvaril
+tfw_lineofnidavellir_kharum_008 = { # child of Khurubra
+	name = tfw_lineofnidavellir_kharum_008_name
 	female = yes
 
 	dynasty = dynasty_nidavellir_kharum
 	religion = faith_ironfists
 	culture = ironfists
 
-	father = nidavellir_a2
-	mother = nidavellir_a2_spouse
+	father = tfw_lineofnidavellir_kharum_004
+	mother = tfw_lineofnidavellir_tharim_002
 
 	sexuality = heterosexual
 
@@ -961,15 +961,15 @@ nidavellir_a2_child2 = { # child of Khurubra
 	}
 }
 
-nidavellir_a2_child3 = { # child of Khurubra
-	name = Takho_o_
+tfw_lineofnidavellir_kharum_009 = { # child of Khurubra
+	name = tfw_lineofnidavellir_kharum_009_name
 
 	dynasty = dynasty_nidavellir_kharum
 	religion = faith_ironfists
 	culture = ironfists
 
-	father = nidavellir_a2
-	mother = nidavellir_a2_spouse
+	father = tfw_lineofnidavellir_kharum_004
+	mother = tfw_lineofnidavellir_tharim_002
 
 	sexuality = heterosexual
 
@@ -995,8 +995,8 @@ nidavellir_a2_child3 = { # child of Khurubra
 	}
 }
 
-nidavellir_b1_father = { # parent generation of the second hall house
-	name = Zharun
+tfw_lineofnidavellir_zharakh_002 = { # parent generation of the second hall house
+	name = tfw_lineofnidavellir_zharakh_002_name
 
 	dynasty = dynasty_nidavellir_zharakh
 	religion = faith_ironfists
@@ -1022,7 +1022,7 @@ nidavellir_b1_father = { # parent generation of the second hall house
 	}
 
 	6735.5.2 = {
-		add_spouse = nidavellir_b1_mother
+		add_spouse = tfw_lineofnidavellir_kharum_010
 	}
 
 	6913.5.2 = {
@@ -1035,8 +1035,8 @@ nidavellir_b1_father = { # parent generation of the second hall house
 ### Second Hall: Zharakh
 ################################
 
-nidavellir_b1_mother = {
-	name = Khomi_i_s
+tfw_lineofnidavellir_kharum_010 = {
+	name = tfw_lineofnidavellir_kharum_010_name
 	female = yes
 
 	dynasty = dynasty_nidavellir_kharum
@@ -1067,15 +1067,15 @@ nidavellir_b1_mother = {
 	}
 }
 
-nidavellir_b1 = { # landed ruler of the second hall
-	name = Mazu_u_n
+tfw_lineofnidavellir_zharakh_003 = { # landed ruler of the second hall
+	name = tfw_lineofnidavellir_zharakh_003_name
 
 	dynasty = dynasty_nidavellir_zharakh
 	religion = faith_ironfists
 	culture = ironfists
 
-	father = nidavellir_b1_father
-	mother = nidavellir_b1_mother
+	father = tfw_lineofnidavellir_zharakh_002
+	mother = tfw_lineofnidavellir_kharum_010
 
 	sexuality = heterosexual
 
@@ -1098,7 +1098,7 @@ nidavellir_b1 = { # landed ruler of the second hall
 	}
 
 	6864.5.2 = {
-		add_spouse = nidavellir_b1_spouse
+		add_spouse = tfw_lineofnidavellir_kharum_011
 	}
 
 	7030.5.14 = {
@@ -1106,15 +1106,15 @@ nidavellir_b1 = { # landed ruler of the second hall
 	}
 }
 
-nidavellir_b1_sibling = { # sibling of Mazu_u_n
-	name = Raghal
+tfw_lineofnidavellir_zharakh_004 = { # sibling of Mazu_u_n
+	name = tfw_lineofnidavellir_zharakh_004_name
 
 	dynasty = dynasty_nidavellir_zharakh
 	religion = faith_ironfists
 	culture = ironfists
 
-	father = nidavellir_b1_father
-	mother = nidavellir_b1_mother
+	father = tfw_lineofnidavellir_zharakh_002
+	mother = tfw_lineofnidavellir_kharum_010
 
 	sexuality = heterosexual
 
@@ -1140,8 +1140,8 @@ nidavellir_b1_sibling = { # sibling of Mazu_u_n
 	}
 }
 
-nidavellir_b1_spouse = {
-	name = Dagna
+tfw_lineofnidavellir_kharum_011 = {
+	name = tfw_lineofnidavellir_kharum_011_name
 	female = yes
 
 	dynasty = dynasty_nidavellir_kharum
@@ -1172,15 +1172,15 @@ nidavellir_b1_spouse = {
 	}
 }
 
-nidavellir_b2 = { # successor in the second hall
-	name = Yarl
+tfw_lineofnidavellir_zharakh_005 = { # successor in the second hall
+	name = tfw_lineofnidavellir_zharakh_005_name
 
 	dynasty = dynasty_nidavellir_zharakh
 	religion = faith_ironfists
 	culture = ironfists
 
-	father = nidavellir_b1
-	mother = nidavellir_b1_spouse
+	father = tfw_lineofnidavellir_zharakh_003
+	mother = tfw_lineofnidavellir_kharum_011
 
 	sexuality = heterosexual
 
@@ -1203,7 +1203,7 @@ nidavellir_b2 = { # successor in the second hall
 	}
 
 	6992.9.20 = {
-		add_spouse = nidavellir_b2_spouse
+		add_spouse = tfw_lineofnidavellir_gabilan_001
 	}
 
 	7182.4.8 = {
@@ -1211,15 +1211,15 @@ nidavellir_b2 = { # successor in the second hall
 	}
 }
 
-nidavellir_b_child2 = { # sibling of Yarl
-	name = Khryakta_a_r
+tfw_lineofnidavellir_zharakh_006 = { # sibling of Yarl
+	name = tfw_lineofnidavellir_zharakh_006_name
 
 	dynasty = dynasty_nidavellir_zharakh
 	religion = faith_ironfists
 	culture = ironfists
 
-	father = nidavellir_b1
-	mother = nidavellir_b1_spouse
+	father = tfw_lineofnidavellir_zharakh_003
+	mother = tfw_lineofnidavellir_kharum_011
 
 	sexuality = heterosexual
 
@@ -1245,16 +1245,16 @@ nidavellir_b_child2 = { # sibling of Yarl
 	}
 }
 
-nidavellir_b_child3 = { # sibling of Yarl
-	name = Bulga
+tfw_lineofnidavellir_zharakh_007 = { # sibling of Yarl
+	name = tfw_lineofnidavellir_zharakh_007_name
 	female = yes
 
 	dynasty = dynasty_nidavellir_zharakh
 	religion = faith_ironfists
 	culture = ironfists
 
-	father = nidavellir_b1
-	mother = nidavellir_b1_spouse
+	father = tfw_lineofnidavellir_zharakh_003
+	mother = tfw_lineofnidavellir_kharum_011
 
 	sexuality = heterosexual
 
@@ -1280,8 +1280,8 @@ nidavellir_b_child3 = { # sibling of Yarl
 	}
 }
 
-nidavellir_b2_spouse = {
-	name = O_O_vatha
+tfw_lineofnidavellir_gabilan_001 = {
+	name = tfw_lineofnidavellir_gabilan_001_name
 	female = yes
 
 	dynasty = dynasty_nidavellir_gabilan
@@ -1312,15 +1312,15 @@ nidavellir_b2_spouse = {
 	}
 }
 
-nidavellir_b2_child1 = { # child of Yarl
-	name = Nari
+tfw_lineofnidavellir_zharakh_008 = { # child of Yarl
+	name = tfw_lineofnidavellir_zharakh_008_name
 
 	dynasty = dynasty_nidavellir_zharakh
 	religion = faith_ironfists
 	culture = ironfists
 
-	father = nidavellir_b2
-	mother = nidavellir_b2_spouse
+	father = tfw_lineofnidavellir_zharakh_005
+	mother = tfw_lineofnidavellir_gabilan_001
 
 	sexuality = heterosexual
 
@@ -1346,16 +1346,16 @@ nidavellir_b2_child1 = { # child of Yarl
 	}
 }
 
-nidavellir_b2_child2 = { # child of Yarl
-	name = Khlea_a_
+tfw_lineofnidavellir_zharakh_009 = { # child of Yarl
+	name = tfw_lineofnidavellir_zharakh_009_name
 	female = yes
 
 	dynasty = dynasty_nidavellir_zharakh
 	religion = faith_ironfists
 	culture = ironfists
 
-	father = nidavellir_b2
-	mother = nidavellir_b2_spouse
+	father = tfw_lineofnidavellir_zharakh_005
+	mother = tfw_lineofnidavellir_gabilan_001
 
 	sexuality = heterosexual
 
@@ -1381,15 +1381,15 @@ nidavellir_b2_child2 = { # child of Yarl
 	}
 }
 
-nidavellir_b2_child3 = { # child of Yarl
-	name = Retvir
+tfw_lineofnidavellir_zharakh_010 = { # child of Yarl
+	name = tfw_lineofnidavellir_zharakh_010_name
 
 	dynasty = dynasty_nidavellir_zharakh
 	religion = faith_ironfists
 	culture = ironfists
 
-	father = nidavellir_b2
-	mother = nidavellir_b2_spouse
+	father = tfw_lineofnidavellir_zharakh_005
+	mother = tfw_lineofnidavellir_gabilan_001
 
 	sexuality = heterosexual
 
@@ -1415,8 +1415,8 @@ nidavellir_b2_child3 = { # child of Yarl
 	}
 }
 
-nidavellir_c1_father = { # parent generation of the deep-road wardens house
-	name = Tharakh
+tfw_lineofnidavellir_tharim_003 = { # parent generation of the deep-road wardens house
+	name = tfw_lineofnidavellir_tharim_003_name
 
 	dynasty = dynasty_nidavellir_tharim
 	religion = faith_ironfists
@@ -1442,7 +1442,7 @@ nidavellir_c1_father = { # parent generation of the deep-road wardens house
 	}
 
 	6780.1.17 = {
-		add_spouse = nidavellir_c1_mother
+		add_spouse = tfw_lineofnidavellir_zharakh_011
 	}
 
 	6958.1.17 = {
@@ -1455,8 +1455,8 @@ nidavellir_c1_father = { # parent generation of the deep-road wardens house
 ### Deep-road wardens: Tharim
 ################################
 
-nidavellir_c1_mother = {
-	name = Emulha_a_
+tfw_lineofnidavellir_zharakh_011 = {
+	name = tfw_lineofnidavellir_zharakh_011_name
 	female = yes
 
 	dynasty = dynasty_nidavellir_zharakh
@@ -1487,15 +1487,15 @@ nidavellir_c1_mother = {
 	}
 }
 
-nidavellir_c1 = { # landed ruler of the deep-road wardens
-	name = U_U_vatha
+tfw_lineofnidavellir_tharim_004 = { # landed ruler of the deep-road wardens
+	name = tfw_lineofnidavellir_tharim_004_name
 
 	dynasty = dynasty_nidavellir_tharim
 	religion = faith_ironfists
 	culture = ironfists
 
-	father = nidavellir_c1_father
-	mother = nidavellir_c1_mother
+	father = tfw_lineofnidavellir_tharim_003
+	mother = tfw_lineofnidavellir_zharakh_011
 
 	sexuality = heterosexual
 
@@ -1518,7 +1518,7 @@ nidavellir_c1 = { # landed ruler of the deep-road wardens
 	}
 
 	6909.1.17 = {
-		add_spouse = nidavellir_c1_spouse
+		add_spouse = tfw_lineofnidavellir_zharakh_012
 	}
 
 	7070.9.9 = {
@@ -1526,15 +1526,15 @@ nidavellir_c1 = { # landed ruler of the deep-road wardens
 	}
 }
 
-nidavellir_c1_sibling = { # sibling of U_U_vatha
-	name = Ghash
+tfw_lineofnidavellir_tharim_005 = { # sibling of U_U_vatha
+	name = tfw_lineofnidavellir_tharim_005_name
 
 	dynasty = dynasty_nidavellir_tharim
 	religion = faith_ironfists
 	culture = ironfists
 
-	father = nidavellir_c1_father
-	mother = nidavellir_c1_mother
+	father = tfw_lineofnidavellir_tharim_003
+	mother = tfw_lineofnidavellir_zharakh_011
 
 	sexuality = heterosexual
 
@@ -1560,8 +1560,8 @@ nidavellir_c1_sibling = { # sibling of U_U_vatha
 	}
 }
 
-nidavellir_c1_spouse = {
-	name = Songhli_i_s
+tfw_lineofnidavellir_zharakh_012 = {
+	name = tfw_lineofnidavellir_zharakh_012_name
 	female = yes
 
 	dynasty = dynasty_nidavellir_zharakh
@@ -1592,15 +1592,15 @@ nidavellir_c1_spouse = {
 	}
 }
 
-nidavellir_c2 = { # successor in the deep-road wardens
-	name = Taro_o_k
+tfw_lineofnidavellir_tharim_006 = { # successor in the deep-road wardens
+	name = tfw_lineofnidavellir_tharim_006_name
 
 	dynasty = dynasty_nidavellir_tharim
 	religion = faith_ironfists
 	culture = ironfists
 
-	father = nidavellir_c1
-	mother = nidavellir_c1_spouse
+	father = tfw_lineofnidavellir_tharim_004
+	mother = tfw_lineofnidavellir_zharakh_012
 
 	sexuality = heterosexual
 
@@ -1623,7 +1623,7 @@ nidavellir_c2 = { # successor in the deep-road wardens
 	}
 
 	7043.11.6 = {
-		add_spouse = nidavellir_c2_spouse
+		add_spouse = tfw_lineofnidavellir_kheledan_003
 	}
 
 	7211.2.18 = {
@@ -1631,15 +1631,15 @@ nidavellir_c2 = { # successor in the deep-road wardens
 	}
 }
 
-nidavellir_c_child2 = { # sibling of Taro_o_k
-	name = Shakal
+tfw_lineofnidavellir_tharim_007 = { # sibling of Taro_o_k
+	name = tfw_lineofnidavellir_tharim_007_name
 
 	dynasty = dynasty_nidavellir_tharim
 	religion = faith_ironfists
 	culture = ironfists
 
-	father = nidavellir_c1
-	mother = nidavellir_c1_spouse
+	father = tfw_lineofnidavellir_tharim_004
+	mother = tfw_lineofnidavellir_zharakh_012
 
 	sexuality = heterosexual
 
@@ -1665,16 +1665,16 @@ nidavellir_c_child2 = { # sibling of Taro_o_k
 	}
 }
 
-nidavellir_c_child3 = { # sibling of Taro_o_k
-	name = Dagharga
+tfw_lineofnidavellir_tharim_008 = { # sibling of Taro_o_k
+	name = tfw_lineofnidavellir_tharim_008_name
 	female = yes
 
 	dynasty = dynasty_nidavellir_tharim
 	religion = faith_ironfists
 	culture = ironfists
 
-	father = nidavellir_c1
-	mother = nidavellir_c1_spouse
+	father = tfw_lineofnidavellir_tharim_004
+	mother = tfw_lineofnidavellir_zharakh_012
 
 	sexuality = heterosexual
 
@@ -1700,8 +1700,8 @@ nidavellir_c_child3 = { # sibling of Taro_o_k
 	}
 }
 
-nidavellir_c2_spouse = {
-	name = Yarlik
+tfw_lineofnidavellir_kheledan_003 = {
+	name = tfw_lineofnidavellir_kheledan_003_name
 	female = yes
 
 	dynasty = dynasty_nidavellir_kheledan
@@ -1732,15 +1732,15 @@ nidavellir_c2_spouse = {
 	}
 }
 
-nidavellir_c2_child1 = { # child of Taro_o_k
-	name = Khurubra
+tfw_lineofnidavellir_tharim_009 = { # child of Taro_o_k
+	name = tfw_lineofnidavellir_tharim_009_name
 
 	dynasty = dynasty_nidavellir_tharim
 	religion = faith_ironfists
 	culture = ironfists
 
-	father = nidavellir_c2
-	mother = nidavellir_c2_spouse
+	father = tfw_lineofnidavellir_tharim_006
+	mother = tfw_lineofnidavellir_kheledan_003
 
 	sexuality = heterosexual
 
@@ -1766,16 +1766,16 @@ nidavellir_c2_child1 = { # child of Taro_o_k
 	}
 }
 
-nidavellir_c2_child2 = { # child of Taro_o_k
-	name = D_ama
+tfw_lineofnidavellir_tharim_010 = { # child of Taro_o_k
+	name = tfw_lineofnidavellir_tharim_010_name
 	female = yes
 
 	dynasty = dynasty_nidavellir_tharim
 	religion = faith_ironfists
 	culture = ironfists
 
-	father = nidavellir_c2
-	mother = nidavellir_c2_spouse
+	father = tfw_lineofnidavellir_tharim_006
+	mother = tfw_lineofnidavellir_kheledan_003
 
 	sexuality = heterosexual
 
@@ -1801,15 +1801,15 @@ nidavellir_c2_child2 = { # child of Taro_o_k
 	}
 }
 
-nidavellir_c2_child3 = { # child of Taro_o_k
-	name = Aili_i_kh
+tfw_lineofnidavellir_tharim_011 = { # child of Taro_o_k
+	name = tfw_lineofnidavellir_tharim_011_name
 
 	dynasty = dynasty_nidavellir_tharim
 	religion = faith_ironfists
 	culture = ironfists
 
-	father = nidavellir_c2
-	mother = nidavellir_c2_spouse
+	father = tfw_lineofnidavellir_tharim_006
+	mother = tfw_lineofnidavellir_kheledan_003
 
 	sexuality = heterosexual
 
@@ -1835,8 +1835,8 @@ nidavellir_c2_child3 = { # child of Taro_o_k
 	}
 }
 
-nidavellir_d1_father = { # parent generation of the eastern gate house
-	name = Gabil
+tfw_lineofnidavellir_gabilan_002 = { # parent generation of the eastern gate house
+	name = tfw_lineofnidavellir_gabilan_002_name
 
 	dynasty = dynasty_nidavellir_gabilan
 	religion = faith_ironfists
@@ -1862,7 +1862,7 @@ nidavellir_d1_father = { # parent generation of the eastern gate house
 	}
 
 	6826.6.12 = {
-		add_spouse = nidavellir_d1_mother
+		add_spouse = tfw_lineofnidavellir_tharim_012
 	}
 
 	7004.6.12 = {
@@ -1875,8 +1875,8 @@ nidavellir_d1_father = { # parent generation of the eastern gate house
 ### Eastern gate: Gabilan
 ################################
 
-nidavellir_d1_mother = {
-	name = Nomi
+tfw_lineofnidavellir_tharim_012 = {
+	name = tfw_lineofnidavellir_tharim_012_name
 	female = yes
 
 	dynasty = dynasty_nidavellir_tharim
@@ -1907,15 +1907,15 @@ nidavellir_d1_mother = {
 	}
 }
 
-nidavellir_d1 = { # landed ruler of the eastern gate
-	name = Dhri_i_m
+tfw_lineofnidavellir_gabilan_003 = { # landed ruler of the eastern gate
+	name = tfw_lineofnidavellir_gabilan_003_name
 
 	dynasty = dynasty_nidavellir_gabilan
 	religion = faith_ironfists
 	culture = ironfists
 
-	father = nidavellir_d1_father
-	mother = nidavellir_d1_mother
+	father = tfw_lineofnidavellir_gabilan_002
+	mother = tfw_lineofnidavellir_tharim_012
 
 	sexuality = heterosexual
 
@@ -1938,7 +1938,7 @@ nidavellir_d1 = { # landed ruler of the eastern gate
 	}
 
 	6955.6.12 = {
-		add_spouse = nidavellir_d1_spouse
+		add_spouse = tfw_lineofnidavellir_tharim_013
 	}
 
 	7120.3.4 = {
@@ -1946,15 +1946,15 @@ nidavellir_d1 = { # landed ruler of the eastern gate
 	}
 }
 
-nidavellir_d1_sibling = { # sibling of Dhri_i_m
-	name = Molluk
+tfw_lineofnidavellir_gabilan_004 = { # sibling of Dhri_i_m
+	name = tfw_lineofnidavellir_gabilan_004_name
 
 	dynasty = dynasty_nidavellir_gabilan
 	religion = faith_ironfists
 	culture = ironfists
 
-	father = nidavellir_d1_father
-	mother = nidavellir_d1_mother
+	father = tfw_lineofnidavellir_gabilan_002
+	mother = tfw_lineofnidavellir_tharim_012
 
 	sexuality = heterosexual
 
@@ -1980,8 +1980,8 @@ nidavellir_d1_sibling = { # sibling of Dhri_i_m
 	}
 }
 
-nidavellir_d1_spouse = {
-	name = Khonenith
+tfw_lineofnidavellir_tharim_013 = {
+	name = tfw_lineofnidavellir_tharim_013_name
 	female = yes
 
 	dynasty = dynasty_nidavellir_tharim
@@ -2012,15 +2012,15 @@ nidavellir_d1_spouse = {
 	}
 }
 
-nidavellir_d2 = { # successor in the eastern gate
-	name = Lakhi_i_r
+tfw_lineofnidavellir_gabilan_005 = { # successor in the eastern gate
+	name = tfw_lineofnidavellir_gabilan_005_name
 
 	dynasty = dynasty_nidavellir_gabilan
 	religion = faith_ironfists
 	culture = ironfists
 
-	father = nidavellir_d1
-	mother = nidavellir_d1_spouse
+	father = tfw_lineofnidavellir_gabilan_003
+	mother = tfw_lineofnidavellir_tharim_013
 
 	sexuality = heterosexual
 
@@ -2043,7 +2043,7 @@ nidavellir_d2 = { # successor in the eastern gate
 	}
 
 	7083.2.23 = {
-		add_spouse = nidavellir_d2_spouse
+		add_spouse = tfw_lineofnidavellir_barukhan_004
 	}
 
 	7244.8.11 = {
@@ -2051,15 +2051,15 @@ nidavellir_d2 = { # successor in the eastern gate
 	}
 }
 
-nidavellir_d_child2 = { # sibling of Lakhi_i_r
-	name = Whi_i_m
+tfw_lineofnidavellir_gabilan_006 = { # sibling of Lakhi_i_r
+	name = tfw_lineofnidavellir_gabilan_006_name
 
 	dynasty = dynasty_nidavellir_gabilan
 	religion = faith_ironfists
 	culture = ironfists
 
-	father = nidavellir_d1
-	mother = nidavellir_d1_spouse
+	father = tfw_lineofnidavellir_gabilan_003
+	mother = tfw_lineofnidavellir_tharim_013
 
 	sexuality = heterosexual
 
@@ -2085,16 +2085,16 @@ nidavellir_d_child2 = { # sibling of Lakhi_i_r
 	}
 }
 
-nidavellir_d_child3 = { # sibling of Lakhi_i_r
-	name = Bhuri_i_n
+tfw_lineofnidavellir_gabilan_007 = { # sibling of Lakhi_i_r
+	name = tfw_lineofnidavellir_gabilan_007_name
 	female = yes
 
 	dynasty = dynasty_nidavellir_gabilan
 	religion = faith_ironfists
 	culture = ironfists
 
-	father = nidavellir_d1
-	mother = nidavellir_d1_spouse
+	father = tfw_lineofnidavellir_gabilan_003
+	mother = tfw_lineofnidavellir_tharim_013
 
 	sexuality = heterosexual
 
@@ -2120,8 +2120,8 @@ nidavellir_d_child3 = { # sibling of Lakhi_i_r
 	}
 }
 
-nidavellir_d2_spouse = {
-	name = U_U_lruth
+tfw_lineofnidavellir_barukhan_004 = {
+	name = tfw_lineofnidavellir_barukhan_004_name
 	female = yes
 
 	dynasty = dynasty_nidavellir_barukhan
@@ -2152,15 +2152,15 @@ nidavellir_d2_spouse = {
 	}
 }
 
-nidavellir_d2_child1 = { # child of Lakhi_i_r
-	name = Threvo_o_r
+tfw_lineofnidavellir_gabilan_008 = { # child of Lakhi_i_r
+	name = tfw_lineofnidavellir_gabilan_008_name
 
 	dynasty = dynasty_nidavellir_gabilan
 	religion = faith_ironfists
 	culture = ironfists
 
-	father = nidavellir_d2
-	mother = nidavellir_d2_spouse
+	father = tfw_lineofnidavellir_gabilan_005
+	mother = tfw_lineofnidavellir_barukhan_004
 
 	sexuality = heterosexual
 
@@ -2186,16 +2186,16 @@ nidavellir_d2_child1 = { # child of Lakhi_i_r
 	}
 }
 
-nidavellir_d2_child2 = { # child of Lakhi_i_r
-	name = Kholan
+tfw_lineofnidavellir_gabilan_009 = { # child of Lakhi_i_r
+	name = tfw_lineofnidavellir_gabilan_009_name
 	female = yes
 
 	dynasty = dynasty_nidavellir_gabilan
 	religion = faith_ironfists
 	culture = ironfists
 
-	father = nidavellir_d2
-	mother = nidavellir_d2_spouse
+	father = tfw_lineofnidavellir_gabilan_005
+	mother = tfw_lineofnidavellir_barukhan_004
 
 	sexuality = heterosexual
 
@@ -2221,15 +2221,15 @@ nidavellir_d2_child2 = { # child of Lakhi_i_r
 	}
 }
 
-nidavellir_d2_child3 = { # child of Lakhi_i_r
-	name = Mazu_u_n
+tfw_lineofnidavellir_gabilan_010 = { # child of Lakhi_i_r
+	name = tfw_lineofnidavellir_gabilan_010_name
 
 	dynasty = dynasty_nidavellir_gabilan
 	religion = faith_ironfists
 	culture = ironfists
 
-	father = nidavellir_d2
-	mother = nidavellir_d2_spouse
+	father = tfw_lineofnidavellir_gabilan_005
+	mother = tfw_lineofnidavellir_barukhan_004
 
 	sexuality = heterosexual
 
@@ -2255,8 +2255,8 @@ nidavellir_d2_child3 = { # child of Lakhi_i_r
 	}
 }
 
-nidavellir_e1_father = { # parent generation of the third hall house
-	name = Kheled
+tfw_lineofnidavellir_kheledan_004 = { # parent generation of the third hall house
+	name = tfw_lineofnidavellir_kheledan_004_name
 
 	dynasty = dynasty_nidavellir_kheledan
 	religion = faith_ironfists
@@ -2282,7 +2282,7 @@ nidavellir_e1_father = { # parent generation of the third hall house
 	}
 
 	6845.10.3 = {
-		add_spouse = nidavellir_e1_mother
+		add_spouse = tfw_lineofnidavellir_gabilan_011
 	}
 
 	7023.10.3 = {
@@ -2295,8 +2295,8 @@ nidavellir_e1_father = { # parent generation of the third hall house
 ### Third Hall: Kheledan
 ################################
 
-nidavellir_e1_mother = {
-	name = Varga
+tfw_lineofnidavellir_gabilan_011 = {
+	name = tfw_lineofnidavellir_gabilan_011_name
 	female = yes
 
 	dynasty = dynasty_nidavellir_gabilan
@@ -2327,15 +2327,15 @@ nidavellir_e1_mother = {
 	}
 }
 
-nidavellir_e1 = { # landed ruler of the third hall
-	name = Whomu_u_l
+tfw_lineofnidavellir_kheledan_005 = { # landed ruler of the third hall
+	name = tfw_lineofnidavellir_kheledan_005_name
 
 	dynasty = dynasty_nidavellir_kheledan
 	religion = faith_ironfists
 	culture = ironfists
 
-	father = nidavellir_e1_father
-	mother = nidavellir_e1_mother
+	father = tfw_lineofnidavellir_kheledan_004
+	mother = tfw_lineofnidavellir_gabilan_011
 
 	sexuality = heterosexual
 
@@ -2358,7 +2358,7 @@ nidavellir_e1 = { # landed ruler of the third hall
 	}
 
 	6974.10.3 = {
-		add_spouse = nidavellir_e1_spouse
+		add_spouse = tfw_lineofnidavellir_gabilan_012
 	}
 
 	7140.8.17 = {
@@ -2366,15 +2366,15 @@ nidavellir_e1 = { # landed ruler of the third hall
 	}
 }
 
-nidavellir_e1_sibling = { # sibling of Whomu_u_l
-	name = Bountig
+tfw_lineofnidavellir_kheledan_006 = { # sibling of Whomu_u_l
+	name = tfw_lineofnidavellir_kheledan_006_name
 
 	dynasty = dynasty_nidavellir_kheledan
 	religion = faith_ironfists
 	culture = ironfists
 
-	father = nidavellir_e1_father
-	mother = nidavellir_e1_mother
+	father = tfw_lineofnidavellir_kheledan_004
+	mother = tfw_lineofnidavellir_gabilan_011
 
 	sexuality = heterosexual
 
@@ -2400,8 +2400,8 @@ nidavellir_e1_sibling = { # sibling of Whomu_u_l
 	}
 }
 
-nidavellir_e1_spouse = {
-	name = Uli_i_s
+tfw_lineofnidavellir_gabilan_012 = {
+	name = tfw_lineofnidavellir_gabilan_012_name
 	female = yes
 
 	dynasty = dynasty_nidavellir_gabilan
@@ -2432,15 +2432,15 @@ nidavellir_e1_spouse = {
 	}
 }
 
-nidavellir_e2 = { # successor in the third hall
-	name = O_O_erli_i_s
+tfw_lineofnidavellir_kheledan_007 = { # successor in the third hall
+	name = tfw_lineofnidavellir_kheledan_007_name
 
 	dynasty = dynasty_nidavellir_kheledan
 	religion = faith_ironfists
 	culture = ironfists
 
-	father = nidavellir_e1
-	mother = nidavellir_e1_spouse
+	father = tfw_lineofnidavellir_kheledan_005
+	mother = tfw_lineofnidavellir_gabilan_012
 
 	sexuality = heterosexual
 
@@ -2463,7 +2463,7 @@ nidavellir_e2 = { # successor in the third hall
 	}
 
 	7103.5.29 = {
-		add_spouse = nidavellir_e2_spouse
+		add_spouse = tfw_lineofnidavellir_kharum_012
 	}
 
 	7260.9.2 = {
@@ -2471,15 +2471,15 @@ nidavellir_e2 = { # successor in the third hall
 	}
 }
 
-nidavellir_e_child2 = { # sibling of O_O_erli_i_s
-	name = Dhru_u_s
+tfw_lineofnidavellir_kheledan_008 = { # sibling of O_O_erli_i_s
+	name = tfw_lineofnidavellir_kheledan_008_name
 
 	dynasty = dynasty_nidavellir_kheledan
 	religion = faith_ironfists
 	culture = ironfists
 
-	father = nidavellir_e1
-	mother = nidavellir_e1_spouse
+	father = tfw_lineofnidavellir_kheledan_005
+	mother = tfw_lineofnidavellir_gabilan_012
 
 	sexuality = heterosexual
 
@@ -2505,16 +2505,16 @@ nidavellir_e_child2 = { # sibling of O_O_erli_i_s
 	}
 }
 
-nidavellir_e_child3 = { # sibling of O_O_erli_i_s
-	name = Mardral
+tfw_lineofnidavellir_kheledan_009 = { # sibling of O_O_erli_i_s
+	name = tfw_lineofnidavellir_kheledan_009_name
 	female = yes
 
 	dynasty = dynasty_nidavellir_kheledan
 	religion = faith_ironfists
 	culture = ironfists
 
-	father = nidavellir_e1
-	mother = nidavellir_e1_spouse
+	father = tfw_lineofnidavellir_kheledan_005
+	mother = tfw_lineofnidavellir_gabilan_012
 
 	sexuality = heterosexual
 
@@ -2540,8 +2540,8 @@ nidavellir_e_child3 = { # sibling of O_O_erli_i_s
 	}
 }
 
-nidavellir_e2_spouse = {
-	name = Krathven
+tfw_lineofnidavellir_kharum_012 = {
+	name = tfw_lineofnidavellir_kharum_012_name
 	female = yes
 
 	dynasty = dynasty_nidavellir_kharum
@@ -2572,15 +2572,15 @@ nidavellir_e2_spouse = {
 	}
 }
 
-nidavellir_e2_child1 = { # child of O_O_erli_i_s
-	name = Turga
+tfw_lineofnidavellir_kheledan_010 = { # child of O_O_erli_i_s
+	name = tfw_lineofnidavellir_kheledan_010_name
 
 	dynasty = dynasty_nidavellir_kheledan
 	religion = faith_ironfists
 	culture = ironfists
 
-	father = nidavellir_e2
-	mother = nidavellir_e2_spouse
+	father = tfw_lineofnidavellir_kheledan_007
+	mother = tfw_lineofnidavellir_kharum_012
 
 	sexuality = heterosexual
 
@@ -2606,16 +2606,16 @@ nidavellir_e2_child1 = { # child of O_O_erli_i_s
 	}
 }
 
-nidavellir_e2_child2 = { # child of O_O_erli_i_s
-	name = Surakhla
+tfw_lineofnidavellir_kheledan_011 = { # child of O_O_erli_i_s
+	name = tfw_lineofnidavellir_kheledan_011_name
 	female = yes
 
 	dynasty = dynasty_nidavellir_kheledan
 	religion = faith_ironfists
 	culture = ironfists
 
-	father = nidavellir_e2
-	mother = nidavellir_e2_spouse
+	father = tfw_lineofnidavellir_kheledan_007
+	mother = tfw_lineofnidavellir_kharum_012
 
 	sexuality = heterosexual
 
@@ -2641,15 +2641,15 @@ nidavellir_e2_child2 = { # child of O_O_erli_i_s
 	}
 }
 
-nidavellir_e2_child3 = { # child of O_O_erli_i_s
-	name = Shakal
+tfw_lineofnidavellir_kheledan_012 = { # child of O_O_erli_i_s
+	name = tfw_lineofnidavellir_kheledan_012_name
 
 	dynasty = dynasty_nidavellir_kheledan
 	religion = faith_ironfists
 	culture = ironfists
 
-	father = nidavellir_e2
-	mother = nidavellir_e2_spouse
+	father = tfw_lineofnidavellir_kheledan_007
+	mother = tfw_lineofnidavellir_kharum_012
 
 	sexuality = heterosexual
 
@@ -2675,8 +2675,8 @@ nidavellir_e2_child3 = { # child of O_O_erli_i_s
 	}
 }
 
-nidavellir_f1_father = { # parent generation of the far eastern delvers house
-	name = Barukh
+tfw_lineofnidavellir_barukhan_005 = { # parent generation of the far eastern delvers house
+	name = tfw_lineofnidavellir_barukhan_005_name
 
 	dynasty = dynasty_nidavellir_barukhan
 	religion = faith_ironfists
@@ -2702,7 +2702,7 @@ nidavellir_f1_father = { # parent generation of the far eastern delvers house
 	}
 
 	6893.4.15 = {
-		add_spouse = nidavellir_f1_mother
+		add_spouse = tfw_lineofnidavellir_kheledan_013
 	}
 
 	7071.4.15 = {
@@ -2715,8 +2715,8 @@ nidavellir_f1_father = { # parent generation of the far eastern delvers house
 ### Far eastern delvers: Barukhan
 ################################
 
-nidavellir_f1_mother = {
-	name = Dhemi_i_s
+tfw_lineofnidavellir_kheledan_013 = {
+	name = tfw_lineofnidavellir_kheledan_013_name
 	female = yes
 
 	dynasty = dynasty_nidavellir_kheledan
@@ -2747,15 +2747,15 @@ nidavellir_f1_mother = {
 	}
 }
 
-nidavellir_f1 = { # landed ruler of the far eastern delvers
-	name = Retvir
+tfw_lineofnidavellir_barukhan_006 = { # landed ruler of the far eastern delvers
+	name = tfw_lineofnidavellir_barukhan_006_name
 
 	dynasty = dynasty_nidavellir_barukhan
 	religion = faith_ironfists
 	culture = ironfists
 
-	father = nidavellir_f1_father
-	mother = nidavellir_f1_mother
+	father = tfw_lineofnidavellir_barukhan_005
+	mother = tfw_lineofnidavellir_kheledan_013
 
 	sexuality = heterosexual
 
@@ -2778,7 +2778,7 @@ nidavellir_f1 = { # landed ruler of the far eastern delvers
 	}
 
 	7022.4.15 = {
-		add_spouse = nidavellir_f1_spouse
+		add_spouse = tfw_lineofnidavellir_kheledan_014
 	}
 
 	7180.1.12 = {
@@ -2786,15 +2786,15 @@ nidavellir_f1 = { # landed ruler of the far eastern delvers
 	}
 }
 
-nidavellir_f1_sibling = { # sibling of Retvir
-	name = Vharta_a_n
+tfw_lineofnidavellir_barukhan_007 = { # sibling of Retvir
+	name = tfw_lineofnidavellir_barukhan_007_name
 
 	dynasty = dynasty_nidavellir_barukhan
 	religion = faith_ironfists
 	culture = ironfists
 
-	father = nidavellir_f1_father
-	mother = nidavellir_f1_mother
+	father = tfw_lineofnidavellir_barukhan_005
+	mother = tfw_lineofnidavellir_kheledan_013
 
 	sexuality = heterosexual
 
@@ -2820,8 +2820,8 @@ nidavellir_f1_sibling = { # sibling of Retvir
 	}
 }
 
-nidavellir_f1_spouse = {
-	name = Khalril
+tfw_lineofnidavellir_kheledan_014 = {
+	name = tfw_lineofnidavellir_kheledan_014_name
 	female = yes
 
 	dynasty = dynasty_nidavellir_kheledan
@@ -2852,15 +2852,15 @@ nidavellir_f1_spouse = {
 	}
 }
 
-nidavellir_f2 = { # successor in the far eastern delvers
-	name = Azernakh
+tfw_lineofnidavellir_barukhan_008 = { # successor in the far eastern delvers
+	name = tfw_lineofnidavellir_barukhan_008_name
 
 	dynasty = dynasty_nidavellir_barukhan
 	religion = faith_ironfists
 	culture = ironfists
 
-	father = nidavellir_f1
-	mother = nidavellir_f1_spouse
+	father = tfw_lineofnidavellir_barukhan_006
+	mother = tfw_lineofnidavellir_kheledan_014
 
 	sexuality = heterosexual
 
@@ -2883,7 +2883,7 @@ nidavellir_f2 = { # successor in the far eastern delvers
 	}
 
 	7152.7.8 = {
-		add_spouse = nidavellir_f2_spouse
+		add_spouse = tfw_lineofnidavellir_zharakh_013
 	}
 
 	7308.3.19 = {
@@ -2891,15 +2891,15 @@ nidavellir_f2 = { # successor in the far eastern delvers
 	}
 }
 
-nidavellir_f_child2 = { # sibling of Azernakh
-	name = Khurubra
+tfw_lineofnidavellir_barukhan_009 = { # sibling of Azernakh
+	name = tfw_lineofnidavellir_barukhan_009_name
 
 	dynasty = dynasty_nidavellir_barukhan
 	religion = faith_ironfists
 	culture = ironfists
 
-	father = nidavellir_f1
-	mother = nidavellir_f1_spouse
+	father = tfw_lineofnidavellir_barukhan_006
+	mother = tfw_lineofnidavellir_kheledan_014
 
 	sexuality = heterosexual
 
@@ -2925,16 +2925,16 @@ nidavellir_f_child2 = { # sibling of Azernakh
 	}
 }
 
-nidavellir_f_child3 = { # sibling of Azernakh
-	name = Begulazha
+tfw_lineofnidavellir_barukhan_010 = { # sibling of Azernakh
+	name = tfw_lineofnidavellir_barukhan_010_name
 	female = yes
 
 	dynasty = dynasty_nidavellir_barukhan
 	religion = faith_ironfists
 	culture = ironfists
 
-	father = nidavellir_f1
-	mother = nidavellir_f1_spouse
+	father = tfw_lineofnidavellir_barukhan_006
+	mother = tfw_lineofnidavellir_kheledan_014
 
 	sexuality = heterosexual
 
@@ -2960,8 +2960,8 @@ nidavellir_f_child3 = { # sibling of Azernakh
 	}
 }
 
-nidavellir_f2_spouse = {
-	name = Dagharga
+tfw_lineofnidavellir_zharakh_013 = {
+	name = tfw_lineofnidavellir_zharakh_013_name
 	female = yes
 
 	dynasty = dynasty_nidavellir_zharakh
@@ -2992,15 +2992,15 @@ nidavellir_f2_spouse = {
 	}
 }
 
-nidavellir_f2_child1 = { # child of Azernakh
-	name = Thromel
+tfw_lineofnidavellir_barukhan_011 = { # child of Azernakh
+	name = tfw_lineofnidavellir_barukhan_011_name
 
 	dynasty = dynasty_nidavellir_barukhan
 	religion = faith_ironfists
 	culture = ironfists
 
-	father = nidavellir_f2
-	mother = nidavellir_f2_spouse
+	father = tfw_lineofnidavellir_barukhan_008
+	mother = tfw_lineofnidavellir_zharakh_013
 
 	sexuality = heterosexual
 
@@ -3026,16 +3026,16 @@ nidavellir_f2_child1 = { # child of Azernakh
 	}
 }
 
-nidavellir_f2_child2 = { # child of Azernakh
-	name = Uvaril
+tfw_lineofnidavellir_barukhan_012 = { # child of Azernakh
+	name = tfw_lineofnidavellir_barukhan_012_name
 	female = yes
 
 	dynasty = dynasty_nidavellir_barukhan
 	religion = faith_ironfists
 	culture = ironfists
 
-	father = nidavellir_f2
-	mother = nidavellir_f2_spouse
+	father = tfw_lineofnidavellir_barukhan_008
+	mother = tfw_lineofnidavellir_zharakh_013
 
 	sexuality = heterosexual
 
@@ -3061,15 +3061,15 @@ nidavellir_f2_child2 = { # child of Azernakh
 	}
 }
 
-nidavellir_f2_child3 = { # child of Azernakh
-	name = Gour
+tfw_lineofnidavellir_barukhan_013 = { # child of Azernakh
+	name = tfw_lineofnidavellir_barukhan_013_name
 
 	dynasty = dynasty_nidavellir_barukhan
 	religion = faith_ironfists
 	culture = ironfists
 
-	father = nidavellir_f2
-	mother = nidavellir_f2_spouse
+	father = tfw_lineofnidavellir_barukhan_008
+	mother = tfw_lineofnidavellir_zharakh_013
 
 	sexuality = heterosexual
 

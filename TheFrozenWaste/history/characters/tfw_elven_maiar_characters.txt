@@ -1,7 +1,7 @@
-﻿
 
-lineofnixni = {					
-	name = nixni_name
+
+tfw_lineofnixni_001 = {					
+	name = tfw_lineofnixni_001_name
 	female = yes	
 
 	dynasty = dynasty_nixni
@@ -67,8 +67,8 @@ lineofnixni = {
 
 #### Elves
 
-tfw_lineoffeanor11 = { # Daughter of Caranthir
-	name = Vorwen
+tfw_lineoffeanor_001 = { # Daughter of Caranthir
+	name = tfw_lineoffeanor_001_name
 	female = yes
 
 	religion = faith_evermist
@@ -122,8 +122,8 @@ tfw_lineoffeanor11 = { # Daughter of Caranthir
 	
 }
 
-tfw_lineoffeanor11_husband = { # Daughter of Caranthir husband
-	name = Calion
+tfw_lineoffeanor_002 = { # Daughter of Caranthir husband
+	name = tfw_lineoffeanor_002_name
 	
 
 	religion = faith_eternal_vigil
@@ -165,10 +165,10 @@ tfw_lineoffeanor11_husband = { # Daughter of Caranthir husband
 		learn_language = language_quenya # Accounting for Noldor culture using Sindarin as primary on account of the Noldor of Middle-earth
 	}
 	2.2.2 = {
-		add_spouse = tfw_lineoffeanor11
+		add_spouse = tfw_lineoffeanor_001
 		if = {
-			limit = { character:tfw_lineoffeanor11 ?= { is_alive = yes } }
-			set_relation_soulmate = character:tfw_lineoffeanor11
+			limit = { character:tfw_lineoffeanor_001 ?= { is_alive = yes } }
+			set_relation_soulmate = character:tfw_lineoffeanor_001
 		}
 		add_trait_xp = {
 			trait = lifestyle_blademaster
@@ -182,8 +182,8 @@ tfw_lineoffeanor11_husband = { # Daughter of Caranthir husband
 	
 }
 
-tfw_lineoffeanor12 = { # Daughter of Maglor
-	name = Ethiriel
+tfw_lineoffeanor_003 = { # Daughter of Maglor
+	name = tfw_lineoffeanor_003_name
 	female = yes
 
 	religion = faith_evermist
@@ -229,8 +229,8 @@ tfw_lineoffeanor12 = { # Daughter of Maglor
 	
 }
 
-tfw_lineofnestador = { # Merp Wizard king of Evermist
-	name = Nestador
+tfw_lineofnestador_001 = { # Merp Wizard king of Evermist
+	name = tfw_lineofnestador_001_name
 	
 
 	religion = faith_evermist
@@ -293,8 +293,8 @@ tfw_lineofnestador = { # Merp Wizard king of Evermist
 
 ### Lossidil
 
-lineofcelethrim1 = { # Sindar refugee lord; father of the twin monarchs
-	name = Celethron
+tfw_lineoflossidil_celethrim_001 = { # Sindar refugee lord; father of the twin monarchs
+	name = tfw_lineoflossidil_celethrim_001_name
 
 	dynasty = dynasty_lossidil_celethrim
 	religion = faith_eldar
@@ -324,8 +324,8 @@ lineofcelethrim1 = { # Sindar refugee lord; father of the twin monarchs
 	}
 
 	548.3.2 = {
-		add_spouse = lineofcelethrim2
-		set_relation_soulmate = character:lineofcelethrim2
+		add_spouse = tfw_lineoflossidil_celethrim_002
+		set_relation_soulmate = character:tfw_lineoflossidil_celethrim_002
 	}
 
 	4014.6.9 = { # Slain defending the northern settlements
@@ -333,8 +333,8 @@ lineofcelethrim1 = { # Sindar refugee lord; father of the twin monarchs
 	}
 }
 
-lineofcelethrim2 = { # Sindar refugee lady; mother of the twin monarchs
-	name = Saerwen
+tfw_lineoflossidil_celethrim_002 = { # Sindar refugee lady; mother of the twin monarchs
+	name = tfw_lineoflossidil_celethrim_002_name
 	female = yes
 
 	dynasty = dynasty_lossidil_celethrim
@@ -373,16 +373,16 @@ lineofcelethrim2 = { # Sindar refugee lady; mother of the twin monarchs
 	}
 }
 
-lineofcelethrim3 = { # King of Taurethon; elder twin by minutes
-	name = Faerandir
+tfw_lineoflossidil_celethrim_003 = { # King of Taurethon; elder twin by minutes
+	name = tfw_lineoflossidil_celethrim_003_name
 
 	dynasty = dynasty_lossidil_celethrim
 	religion = faith_helecthil
 	culture = lossidil
 	dna = lossildil_twin_male_dna
 
-	father = lineofcelethrim1
-	mother = lineofcelethrim2
+	father = tfw_lineoflossidil_celethrim_001
+	mother = tfw_lineoflossidil_celethrim_002
 
 	sexuality = heterosexual
 
@@ -411,13 +411,13 @@ lineofcelethrim3 = { # King of Taurethon; elder twin by minutes
 	}
 
 	903.4.17 = {
-		add_spouse = lineofhimrath3
-		set_relation_soulmate = character:lineofhimrath3
+		add_spouse = tfw_lineoflossidil_himrath_002
+		set_relation_soulmate = character:tfw_lineoflossidil_himrath_002
 	}
 }
 
-lineofcelethrim4 = { # Queen of the Aurora Isles; younger twin by minutes
-	name = Aerlinn
+tfw_lineoflossidil_celethrim_004 = { # Queen of the Aurora Isles; younger twin by minutes
+	name = tfw_lineoflossidil_celethrim_004_name
 	female = yes
 
 	dynasty = dynasty_lossidil_celethrim
@@ -425,8 +425,8 @@ lineofcelethrim4 = { # Queen of the Aurora Isles; younger twin by minutes
 	culture = lossidil
 	dna = lossildil_twin_female_dna
 
-	father = lineofcelethrim1
-	mother = lineofcelethrim2
+	father = tfw_lineoflossidil_celethrim_001
+	mother = tfw_lineoflossidil_celethrim_002
 
 	sexuality = heterosexual
 
@@ -454,20 +454,20 @@ lineofcelethrim4 = { # Queen of the Aurora Isles; younger twin by minutes
 	}
 
 	980.8.6 = {
-		add_matrilineal_spouse = lineofnaereth3
-		set_relation_soulmate = character:lineofnaereth3
+		add_matrilineal_spouse = tfw_lineoflossidil_naereth_003
+		set_relation_soulmate = character:tfw_lineoflossidil_naereth_003
 	}
 }
 
-lineofcelethrim5 = { # Prince of Taurethon; married into House Vaelorn
-	name = Thalion
+tfw_lineoflossidil_celethrim_005 = { # Prince of Taurethon; married into House Vaelorn
+	name = tfw_lineoflossidil_celethrim_005_name
 
 	dynasty = dynasty_lossidil_celethrim
 	religion = faith_helecthil
 	culture = lossidil
 
-	father = lineofcelethrim3
-	mother = lineofhimrath3
+	father = tfw_lineoflossidil_celethrim_003
+	mother = tfw_lineoflossidil_himrath_002
 
 	sexuality = heterosexual
 
@@ -493,21 +493,21 @@ lineofcelethrim5 = { # Prince of Taurethon; married into House Vaelorn
 	}
 
 	2300.6.14 = {
-		add_spouse = lineofvaelorn3
-		set_relation_soulmate = character:lineofvaelorn3
+		add_spouse = tfw_lineoflossidil_vaelorn_002
+		set_relation_soulmate = character:tfw_lineoflossidil_vaelorn_002
 	}
 }
 
-lineofcelethrim6 = { # Princess of Taurethon; married into House Ithrinn
-	name = Gwilith
+tfw_lineoflossidil_celethrim_006 = { # Princess of Taurethon; married into House Ithrinn
+	name = tfw_lineoflossidil_celethrim_006_name
 	female = yes
 
 	dynasty = dynasty_lossidil_celethrim
 	religion = faith_helecthil
 	culture = lossidil
 
-	father = lineofcelethrim3
-	mother = lineofhimrath3
+	father = tfw_lineoflossidil_celethrim_003
+	mother = tfw_lineoflossidil_himrath_002
 
 	sexuality = heterosexual
 
@@ -533,20 +533,20 @@ lineofcelethrim6 = { # Princess of Taurethon; married into House Ithrinn
 	}
 
 	2500.4.3 = {
-		add_matrilineal_spouse = lineofithrinn3
-		set_relation_soulmate = character:lineofithrinn3
+		add_matrilineal_spouse = tfw_lineoflossidil_ithrinn_003
+		set_relation_soulmate = character:tfw_lineoflossidil_ithrinn_003
 	}
 }
 
-lineofcelethrim7 = { # Prince of Taurethon
-	name = Narthalion
+tfw_lineoflossidil_celethrim_007 = { # Prince of Taurethon
+	name = tfw_lineoflossidil_celethrim_007_name
 
 	dynasty = dynasty_lossidil_celethrim
 	religion = faith_helecthil
 	culture = lossidil
 
-	father = lineofcelethrim3
-	mother = lineofhimrath3
+	father = tfw_lineoflossidil_celethrim_003
+	mother = tfw_lineoflossidil_himrath_002
 
 	sexuality = heterosexual
 
@@ -571,16 +571,16 @@ lineofcelethrim7 = { # Prince of Taurethon
 	}
 }
 
-lineofcelethrim8 = { # Princess of the Aurora Isles; wife of Dorlas of House Morlaith
-	name = Lindariel
+tfw_lineoflossidil_celethrim_008 = { # Princess of the Aurora Isles; wife of Dorlas of House Morlaith
+	name = tfw_lineoflossidil_celethrim_008_name
 	female = yes
 
 	dynasty = dynasty_lossidil_celethrim
 	religion = faith_helecthil
 	culture = lossidil
 
-	father = lineofnaereth3
-	mother = lineofcelethrim4
+	father = tfw_lineoflossidil_naereth_003
+	mother = tfw_lineoflossidil_celethrim_004
 
 	sexuality = heterosexual
 
@@ -605,15 +605,15 @@ lineofcelethrim8 = { # Princess of the Aurora Isles; wife of Dorlas of House Mor
 	}
 }
 
-lineofcelethrim9 = { # Prince of the Aurora Isles; married into House Himrath
-	name = Celethion
+tfw_lineoflossidil_celethrim_009 = { # Prince of the Aurora Isles; married into House Himrath
+	name = tfw_lineoflossidil_celethrim_009_name
 
 	dynasty = dynasty_lossidil_celethrim
 	religion = faith_helecthil
 	culture = lossidil
 
-	father = lineofnaereth3
-	mother = lineofcelethrim4
+	father = tfw_lineoflossidil_naereth_003
+	mother = tfw_lineoflossidil_celethrim_004
 
 	sexuality = heterosexual
 
@@ -639,21 +639,21 @@ lineofcelethrim9 = { # Prince of the Aurora Isles; married into House Himrath
 	}
 
 	2700.7.18 = {
-		add_spouse = lineofhimrath5
-		set_relation_soulmate = character:lineofhimrath5
+		add_spouse = tfw_lineoflossidil_himrath_004
+		set_relation_soulmate = character:tfw_lineoflossidil_himrath_004
 	}
 }
 
-lineofcelethrim10 = { # Princess of the Aurora Isles
-	name = Aerwen
+tfw_lineoflossidil_celethrim_010 = { # Princess of the Aurora Isles
+	name = tfw_lineoflossidil_celethrim_010_name
 	female = yes
 
 	dynasty = dynasty_lossidil_celethrim
 	religion = faith_helecthil
 	culture = lossidil
 
-	father = lineofnaereth3
-	mother = lineofcelethrim4
+	father = tfw_lineoflossidil_naereth_003
+	mother = tfw_lineoflossidil_celethrim_004
 
 	sexuality = heterosexual
 
@@ -678,8 +678,8 @@ lineofcelethrim10 = { # Princess of the Aurora Isles
 	}
 }
 
-lineofhimrath1 = { # Vassal of Taurethon; d_taurethon_1; house of freed Noldorin craft-thrall ancestry
-	name = Galadhir
+tfw_lineoflossidil_himrath_001 = { # Vassal of Taurethon; d_taurethon_1; house of freed Noldorin craft-thrall ancestry
+	name = tfw_lineoflossidil_himrath_001_name
 
 	dynasty = dynasty_lossidil_himrath
 	religion = faith_helecthil
@@ -710,13 +710,13 @@ lineofhimrath1 = { # Vassal of Taurethon; d_taurethon_1; house of freed Noldorin
 	}
 
 	620.5.3 = {
-		add_spouse = lineofhimrath2
-		set_relation_soulmate = character:lineofhimrath2
+		add_spouse = tfw_lineoflossidil_naereth_001
+		set_relation_soulmate = character:tfw_lineoflossidil_naereth_001
 	}
 }
 
-lineofhimrath2 = { # Wife of Galadhir; Naereth kin linking Taurethon and Aurora
-	name = Aerloth
+tfw_lineoflossidil_naereth_001 = { # Wife of Galadhir; Naereth kin linking Taurethon and Aurora
+	name = tfw_lineoflossidil_naereth_001_name
 	female = yes
 
 	dynasty = dynasty_lossidil_naereth
@@ -746,16 +746,16 @@ lineofhimrath2 = { # Wife of Galadhir; Naereth kin linking Taurethon and Aurora
 	}
 }
 
-lineofhimrath3 = { # Daughter of Galadhir; wife of King Faerandir
-	name = Nimrien
+tfw_lineoflossidil_himrath_002 = { # Daughter of Galadhir; wife of King Faerandir
+	name = tfw_lineoflossidil_himrath_002_name
 	female = yes
 
 	dynasty = dynasty_lossidil_himrath
 	religion = faith_helecthil
 	culture = lossidil
 
-	father = lineofhimrath1
-	mother = lineofhimrath2
+	father = tfw_lineoflossidil_himrath_001
+	mother = tfw_lineoflossidil_naereth_001
 
 	sexuality = heterosexual
 
@@ -780,15 +780,15 @@ lineofhimrath3 = { # Daughter of Galadhir; wife of King Faerandir
 	}
 }
 
-lineofhimrath4 = { # Heir of House Himrath
-	name = Harthor
+tfw_lineoflossidil_himrath_003 = { # Heir of House Himrath
+	name = tfw_lineoflossidil_himrath_003_name
 
 	dynasty = dynasty_lossidil_himrath
 	religion = faith_helecthil
 	culture = lossidil
 
-	father = lineofhimrath1
-	mother = lineofhimrath2
+	father = tfw_lineoflossidil_himrath_001
+	mother = tfw_lineoflossidil_naereth_001
 
 	sexuality = heterosexual
 
@@ -813,16 +813,16 @@ lineofhimrath4 = { # Heir of House Himrath
 	}
 }
 
-lineofhimrath5 = { # Daughter of Galadhir; wife of Prince Celethion
-	name = Rinnael
+tfw_lineoflossidil_himrath_004 = { # Daughter of Galadhir; wife of Prince Celethion
+	name = tfw_lineoflossidil_himrath_004_name
 	female = yes
 
 	dynasty = dynasty_lossidil_himrath
 	religion = faith_helecthil
 	culture = lossidil
 
-	father = lineofhimrath1
-	mother = lineofhimrath2
+	father = tfw_lineoflossidil_himrath_001
+	mother = tfw_lineoflossidil_naereth_001
 
 	sexuality = heterosexual
 
@@ -847,8 +847,8 @@ lineofhimrath5 = { # Daughter of Galadhir; wife of Prince Celethion
 	}
 }
 
-lineofvaelorn1 = { # Vassal of Taurethon; d_taurethon_2; Avarin-descended woodland house
-	name = Maegwen
+tfw_lineoflossidil_vaelorn_001 = { # Vassal of Taurethon; d_taurethon_2; Avarin-descended woodland house
+	name = tfw_lineoflossidil_vaelorn_001_name
 	female = yes
 
 	dynasty = dynasty_lossidil_vaelorn
@@ -879,13 +879,13 @@ lineofvaelorn1 = { # Vassal of Taurethon; d_taurethon_2; Avarin-descended woodla
 	}
 
 	700.9.8 = {
-		add_matrilineal_spouse = lineofvaelorn2
-		set_relation_soulmate = character:lineofvaelorn2
+		add_matrilineal_spouse = tfw_lineoflossidil_ithrinn_001
+		set_relation_soulmate = character:tfw_lineoflossidil_ithrinn_001
 	}
 }
 
-lineofvaelorn2 = { # Husband of Maegwen; Ithrinn kin
-	name = Orvegil
+tfw_lineoflossidil_ithrinn_001 = { # Husband of Maegwen; Ithrinn kin
+	name = tfw_lineoflossidil_ithrinn_001_name
 
 	dynasty = dynasty_lossidil_ithrinn
 	religion = faith_helecthil
@@ -914,16 +914,16 @@ lineofvaelorn2 = { # Husband of Maegwen; Ithrinn kin
 	}
 }
 
-lineofvaelorn3 = { # Daughter of Maegwen; wife of Prince Thalion
-	name = Ivriniel
+tfw_lineoflossidil_vaelorn_002 = { # Daughter of Maegwen; wife of Prince Thalion
+	name = tfw_lineoflossidil_vaelorn_002_name
 	female = yes
 
 	dynasty = dynasty_lossidil_vaelorn
 	religion = faith_helecthil
 	culture = lossidil
 
-	father = lineofvaelorn2
-	mother = lineofvaelorn1
+	father = tfw_lineoflossidil_ithrinn_001
+	mother = tfw_lineoflossidil_vaelorn_001
 
 	sexuality = heterosexual
 
@@ -948,15 +948,15 @@ lineofvaelorn3 = { # Daughter of Maegwen; wife of Prince Thalion
 	}
 }
 
-lineofvaelorn4 = { # Heir of House Vaelorn
-	name = Calbor
+tfw_lineoflossidil_vaelorn_003 = { # Heir of House Vaelorn
+	name = tfw_lineoflossidil_vaelorn_003_name
 
 	dynasty = dynasty_lossidil_vaelorn
 	religion = faith_helecthil
 	culture = lossidil
 
-	father = lineofvaelorn2
-	mother = lineofvaelorn1
+	father = tfw_lineoflossidil_ithrinn_001
+	mother = tfw_lineoflossidil_vaelorn_001
 
 	sexuality = heterosexual
 
@@ -981,16 +981,16 @@ lineofvaelorn4 = { # Heir of House Vaelorn
 	}
 }
 
-lineofvaelorn5 = { # Daughter of Maegwen
-	name = Neldis
+tfw_lineoflossidil_vaelorn_004 = { # Daughter of Maegwen
+	name = tfw_lineoflossidil_vaelorn_004_name
 	female = yes
 
 	dynasty = dynasty_lossidil_vaelorn
 	religion = faith_helecthil
 	culture = lossidil
 
-	father = lineofvaelorn2
-	mother = lineofvaelorn1
+	father = tfw_lineoflossidil_ithrinn_001
+	mother = tfw_lineoflossidil_vaelorn_001
 
 	sexuality = heterosexual
 
@@ -1015,8 +1015,8 @@ lineofvaelorn5 = { # Daughter of Maegwen
 	}
 }
 
-lineofmorlaith1 = { # Vassal count of Taurethon; c_taurethon_6; mixed Noldor-Avari frontier stock
-	name = Dorlas
+tfw_lineoflossidil_morlaith_001 = { # Vassal count of Taurethon; c_taurethon_6; mixed Noldor-Avari frontier stock
+	name = tfw_lineoflossidil_morlaith_001_name
 
 	dynasty = dynasty_lossidil_morlaith
 	religion = faith_helecthil
@@ -1047,21 +1047,21 @@ lineofmorlaith1 = { # Vassal count of Taurethon; c_taurethon_6; mixed Noldor-Ava
 	}
 
 	2600.9.12 = {
-		add_spouse = lineofcelethrim8
-		set_relation_soulmate = character:lineofcelethrim8
+		add_spouse = tfw_lineoflossidil_celethrim_008
+		set_relation_soulmate = character:tfw_lineoflossidil_celethrim_008
 	}
 }
 
-lineofmorlaith2 = { # Daughter of Dorlas and Princess Lindariel
-	name = Faelwen
+tfw_lineoflossidil_morlaith_002 = { # Daughter of Dorlas and Princess Lindariel
+	name = tfw_lineoflossidil_morlaith_002_name
 	female = yes
 
 	dynasty = dynasty_lossidil_morlaith
 	religion = faith_helecthil
 	culture = lossidil
 
-	father = lineofmorlaith1
-	mother = lineofcelethrim8
+	father = tfw_lineoflossidil_morlaith_001
+	mother = tfw_lineoflossidil_celethrim_008
 
 	sexuality = heterosexual
 
@@ -1086,15 +1086,15 @@ lineofmorlaith2 = { # Daughter of Dorlas and Princess Lindariel
 	}
 }
 
-lineofmorlaith3 = { # Son and heir of Dorlas
-	name = Mornil
+tfw_lineoflossidil_morlaith_003 = { # Son and heir of Dorlas
+	name = tfw_lineoflossidil_morlaith_003_name
 
 	dynasty = dynasty_lossidil_morlaith
 	religion = faith_helecthil
 	culture = lossidil
 
-	father = lineofmorlaith1
-	mother = lineofcelethrim8
+	father = tfw_lineoflossidil_morlaith_001
+	mother = tfw_lineoflossidil_celethrim_008
 
 	sexuality = heterosexual
 
@@ -1119,8 +1119,8 @@ lineofmorlaith3 = { # Son and heir of Dorlas
 	}
 }
 
-lineofithrinn1 = { # Vassal of the Aurora Isles; d_aurora_isles_1; Sindar mariner and Avarin refugee ancestry
-	name = Maerion
+tfw_lineoflossidil_ithrinn_002 = { # Vassal of the Aurora Isles; d_aurora_isles_1; Sindar mariner and Avarin refugee ancestry
+	name = tfw_lineoflossidil_ithrinn_002_name
 
 	dynasty = dynasty_lossidil_ithrinn
 	religion = faith_helecthil
@@ -1150,13 +1150,13 @@ lineofithrinn1 = { # Vassal of the Aurora Isles; d_aurora_isles_1; Sindar marine
 	}
 
 	688.4.2 = {
-		add_spouse = lineofithrinn2
-		set_relation_soulmate = character:lineofithrinn2
+		add_spouse = tfw_lineoflossidil_vaelorn_005
+		set_relation_soulmate = character:tfw_lineoflossidil_vaelorn_005
 	}
 }
 
-lineofithrinn2 = { # Wife of Maerion; Vaelorn kin
-	name = Silrien
+tfw_lineoflossidil_vaelorn_005 = { # Wife of Maerion; Vaelorn kin
+	name = tfw_lineoflossidil_vaelorn_005_name
 	female = yes
 
 	dynasty = dynasty_lossidil_vaelorn
@@ -1186,15 +1186,15 @@ lineofithrinn2 = { # Wife of Maerion; Vaelorn kin
 	}
 }
 
-lineofithrinn3 = { # Son of Maerion; husband of Princess Gwilith
-	name = Caladhir
+tfw_lineoflossidil_ithrinn_003 = { # Son of Maerion; husband of Princess Gwilith
+	name = tfw_lineoflossidil_ithrinn_003_name
 
 	dynasty = dynasty_lossidil_ithrinn
 	religion = faith_helecthil
 	culture = lossidil
 
-	father = lineofithrinn1
-	mother = lineofithrinn2
+	father = tfw_lineoflossidil_ithrinn_002
+	mother = tfw_lineoflossidil_vaelorn_005
 
 	sexuality = heterosexual
 
@@ -1219,16 +1219,16 @@ lineofithrinn3 = { # Son of Maerion; husband of Princess Gwilith
 	}
 }
 
-lineofithrinn4 = { # Daughter of Maerion
-	name = Hirwen
+tfw_lineoflossidil_ithrinn_004 = { # Daughter of Maerion
+	name = tfw_lineoflossidil_ithrinn_004_name
 	female = yes
 
 	dynasty = dynasty_lossidil_ithrinn
 	religion = faith_helecthil
 	culture = lossidil
 
-	father = lineofithrinn1
-	mother = lineofithrinn2
+	father = tfw_lineoflossidil_ithrinn_002
+	mother = tfw_lineoflossidil_vaelorn_005
 
 	sexuality = heterosexual
 
@@ -1253,8 +1253,8 @@ lineofithrinn4 = { # Daughter of Maerion
 	}
 }
 
-lineofnaereth1 = { # Vassal of the Aurora Isles; d_aurora_isles_2; Noldorin captive and Sindar healer ancestry
-	name = Faelien
+tfw_lineoflossidil_naereth_002 = { # Vassal of the Aurora Isles; d_aurora_isles_2; Noldorin captive and Sindar healer ancestry
+	name = tfw_lineoflossidil_naereth_002_name
 	female = yes
 
 	dynasty = dynasty_lossidil_naereth
@@ -1285,13 +1285,13 @@ lineofnaereth1 = { # Vassal of the Aurora Isles; d_aurora_isles_2; Noldorin capt
 	}
 
 	620.10.19 = {
-		add_matrilineal_spouse = lineofnaereth2
-		set_relation_soulmate = character:lineofnaereth2
+		add_matrilineal_spouse = tfw_lineoflossidil_himrath_005
+		set_relation_soulmate = character:tfw_lineoflossidil_himrath_005
 	}
 }
 
-lineofnaereth2 = { # Husband of Faelien; Himrath kin
-	name = Thoronir
+tfw_lineoflossidil_himrath_005 = { # Husband of Faelien; Himrath kin
+	name = tfw_lineoflossidil_himrath_005_name
 
 	dynasty = dynasty_lossidil_himrath
 	religion = faith_helecthil
@@ -1320,15 +1320,15 @@ lineofnaereth2 = { # Husband of Faelien; Himrath kin
 	}
 }
 
-lineofnaereth3 = { # Son of Faelien; matrilineal husband of Queen Aerlinn
-	name = Calenor
+tfw_lineoflossidil_naereth_003 = { # Son of Faelien; matrilineal husband of Queen Aerlinn
+	name = tfw_lineoflossidil_naereth_003_name
 
 	dynasty = dynasty_lossidil_naereth
 	religion = faith_helecthil
 	culture = lossidil
 
-	father = lineofnaereth2
-	mother = lineofnaereth1
+	father = tfw_lineoflossidil_himrath_005
+	mother = tfw_lineoflossidil_naereth_002
 
 	sexuality = heterosexual
 
@@ -1354,16 +1354,16 @@ lineofnaereth3 = { # Son of Faelien; matrilineal husband of Queen Aerlinn
 	}
 }
 
-lineofnaereth4 = { # Daughter of Faelien
-	name = Aereth
+tfw_lineoflossidil_naereth_004 = { # Daughter of Faelien
+	name = tfw_lineoflossidil_naereth_004_name
 	female = yes
 
 	dynasty = dynasty_lossidil_naereth
 	religion = faith_helecthil
 	culture = lossidil
 
-	father = lineofnaereth2
-	mother = lineofnaereth1
+	father = tfw_lineoflossidil_himrath_005
+	mother = tfw_lineoflossidil_naereth_002
 
 	sexuality = heterosexual
 
@@ -1388,15 +1388,15 @@ lineofnaereth4 = { # Daughter of Faelien
 	}
 }
 
-lineofnaereth5 = { # Son of Faelien and secondary heir of House Naereth
-	name = Lanthor
+tfw_lineoflossidil_naereth_005 = { # Son of Faelien and secondary heir of House Naereth
+	name = tfw_lineoflossidil_naereth_005_name
 
 	dynasty = dynasty_lossidil_naereth
 	religion = faith_helecthil
 	culture = lossidil
 
-	father = lineofnaereth2
-	mother = lineofnaereth1
+	father = tfw_lineoflossidil_himrath_005
+	mother = tfw_lineoflossidil_naereth_002
 
 	sexuality = heterosexual
 
@@ -1430,8 +1430,8 @@ lineofnaereth5 = { # Son of Faelien and secondary heir of House Naereth
 # Three generations are present for every landed house.
 ############################################################
 
-frostwood_w_king_vaerandir = { # Founding King of West Frostwood; ancient Avari, true birth predates recorded history
-	name = frostwood_name_vaerandir
+tfw_lineofwindan_sairavel_001 = { # Founding King of West Frostwood; ancient Avari, true birth predates recorded history
+	name = tfw_lineofwindan_sairavel_001_name
 
 	dynasty = dynasty_windan_sairavel
 	religion = faith_moriquendi
@@ -1461,12 +1461,12 @@ frostwood_w_king_vaerandir = { # Founding King of West Frostwood; ancient Avari,
 	}
 
 	612.5.18 = {
-		add_spouse = frostwood_e_queen_hweniel
+		add_spouse = tfw_lineofhwenti_hwerin_001
 	}
 }
 
-frostwood_e_queen_hweniel = { # Founding Queen of East Frostwood; ancient Avari, true birth predates recorded history
-	name = frostwood_name_hweniel
+tfw_lineofhwenti_hwerin_001 = { # Founding Queen of East Frostwood; ancient Avari, true birth predates recorded history
+	name = tfw_lineofhwenti_hwerin_001_name
 	female = yes
 
 	dynasty = dynasty_hwenti_hwerin
@@ -1497,15 +1497,15 @@ frostwood_e_queen_hweniel = { # Founding Queen of East Frostwood; ancient Avari,
 	}
 }
 
-frostwood_royal_01 = { # Child of the two Frostwood monarchs
-	name = frostwood_name_aerlion
+tfw_lineofwindan_sairavel_002 = { # Child of the two Frostwood monarchs
+	name = tfw_lineofwindan_sairavel_002_name
 
 	dynasty = dynasty_windan_sairavel
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_king_vaerandir
-	mother = frostwood_e_queen_hweniel
+	father = tfw_lineofwindan_sairavel_001
+	mother = tfw_lineofhwenti_hwerin_001
 
 	sexuality = heterosexual
 
@@ -1529,20 +1529,20 @@ frostwood_royal_01 = { # Child of the two Frostwood monarchs
 	}
 
 	3314.7.9 = {
-		add_spouse = frostwood_royal_01_spouse
+		add_spouse = tfw_lineoflowborn_windan_001
 	}
 }
 
-frostwood_royal_02 = { # Child of the two Frostwood monarchs
-	name = frostwood_name_hwelea
+tfw_lineofhwenti_hwerin_002 = { # Child of the two Frostwood monarchs
+	name = tfw_lineofhwenti_hwerin_002_name
 	female = yes
 
 	dynasty = dynasty_hwenti_hwerin
 	religion = faith_moriquendi
 	culture = hwenti
 
-	father = frostwood_w_king_vaerandir
-	mother = frostwood_e_queen_hweniel
+	father = tfw_lineofwindan_sairavel_001
+	mother = tfw_lineofhwenti_hwerin_001
 
 	sexuality = heterosexual
 
@@ -1566,20 +1566,20 @@ frostwood_royal_02 = { # Child of the two Frostwood monarchs
 	}
 
 	4628.9.17 = {
-		add_matrilineal_spouse = frostwood_royal_02_spouse
+		add_matrilineal_spouse = tfw_lineoflowborn_hwenti_001
 	}
 }
 
-frostwood_royal_03 = { # Child of the two Frostwood monarchs
-	name = frostwood_name_lethwen
+tfw_lineofwindan_sairavel_003 = { # Child of the two Frostwood monarchs
+	name = tfw_lineofwindan_sairavel_003_name
 	female = yes
 
 	dynasty = dynasty_windan_sairavel
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_king_vaerandir
-	mother = frostwood_e_queen_hweniel
+	father = tfw_lineofwindan_sairavel_001
+	mother = tfw_lineofhwenti_hwerin_001
 
 	sexuality = heterosexual
 
@@ -1603,15 +1603,15 @@ frostwood_royal_03 = { # Child of the two Frostwood monarchs
 	}
 }
 
-frostwood_royal_04 = { # Child of the two Frostwood monarchs
-	name = frostwood_name_kwinor
+tfw_lineofhwenti_hwerin_003 = { # Child of the two Frostwood monarchs
+	name = tfw_lineofhwenti_hwerin_003_name
 
 	dynasty = dynasty_hwenti_hwerin
 	religion = faith_moriquendi
 	culture = hwenti
 
-	father = frostwood_w_king_vaerandir
-	mother = frostwood_e_queen_hweniel
+	father = tfw_lineofwindan_sairavel_001
+	mother = tfw_lineofhwenti_hwerin_001
 
 	sexuality = heterosexual
 
@@ -1635,15 +1635,15 @@ frostwood_royal_04 = { # Child of the two Frostwood monarchs
 	}
 }
 
-frostwood_royal_05 = { # Child of the two Frostwood monarchs
-	name = frostwood_name_vaelor
+tfw_lineofwindan_sairavel_004 = { # Child of the two Frostwood monarchs
+	name = tfw_lineofwindan_sairavel_004_name
 
 	dynasty = dynasty_windan_sairavel
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_king_vaerandir
-	mother = frostwood_e_queen_hweniel
+	father = tfw_lineofwindan_sairavel_001
+	mother = tfw_lineofhwenti_hwerin_001
 
 	sexuality = heterosexual
 
@@ -1667,16 +1667,16 @@ frostwood_royal_05 = { # Child of the two Frostwood monarchs
 	}
 }
 
-frostwood_royal_06 = { # Child of the two Frostwood monarchs
-	name = frostwood_name_nairi
+tfw_lineofhwenti_hwerin_004 = { # Child of the two Frostwood monarchs
+	name = tfw_lineofhwenti_hwerin_004_name
 	female = yes
 
 	dynasty = dynasty_hwenti_hwerin
 	religion = faith_moriquendi
 	culture = hwenti
 
-	father = frostwood_w_king_vaerandir
-	mother = frostwood_e_queen_hweniel
+	father = tfw_lineofwindan_sairavel_001
+	mother = tfw_lineofhwenti_hwerin_001
 
 	sexuality = heterosexual
 
@@ -1700,8 +1700,8 @@ frostwood_royal_06 = { # Child of the two Frostwood monarchs
 	}
 }
 
-frostwood_royal_01_spouse = { # Consort of the western heir
-	name = frostwood_name_royal_01_spouse
+tfw_lineoflowborn_windan_001 = { # Consort of the western heir
+	name = tfw_lineoflowborn_windan_001_name
 	female = yes
 
 	religion = faith_moriquendi
@@ -1729,8 +1729,8 @@ frostwood_royal_01_spouse = { # Consort of the western heir
 	}
 }
 
-frostwood_royal_02_spouse = { # Consort of the eastern heiress
-	name = frostwood_name_royal_02_spouse
+tfw_lineoflowborn_hwenti_001 = { # Consort of the eastern heiress
+	name = tfw_lineoflowborn_hwenti_001_name
 
 	religion = faith_moriquendi
 	culture = hwenti
@@ -1757,15 +1757,15 @@ frostwood_royal_02_spouse = { # Consort of the eastern heiress
 	}
 }
 
-frostwood_royal_1_grandchild_1 = { # Third generation of the Frostwood royal family
-	name = frostwood_name_royal_1_grandchild_1
+tfw_lineofwindan_sairavel_005 = { # Third generation of the Frostwood royal family
+	name = tfw_lineofwindan_sairavel_005_name
 
 	dynasty = dynasty_windan_sairavel
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_royal_01
-	mother = frostwood_royal_01_spouse
+	father = tfw_lineofwindan_sairavel_002
+	mother = tfw_lineoflowborn_windan_001
 
 	sexuality = heterosexual
 
@@ -1789,16 +1789,16 @@ frostwood_royal_1_grandchild_1 = { # Third generation of the Frostwood royal fam
 	}
 }
 
-frostwood_royal_1_grandchild_2 = { # Third generation of the Frostwood royal family
-	name = frostwood_name_royal_1_grandchild_2
+tfw_lineofwindan_sairavel_006 = { # Third generation of the Frostwood royal family
+	name = tfw_lineofwindan_sairavel_006_name
 	female = yes
 
 	dynasty = dynasty_windan_sairavel
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_royal_01
-	mother = frostwood_royal_01_spouse
+	father = tfw_lineofwindan_sairavel_002
+	mother = tfw_lineoflowborn_windan_001
 
 	sexuality = heterosexual
 
@@ -1822,16 +1822,16 @@ frostwood_royal_1_grandchild_2 = { # Third generation of the Frostwood royal fam
 	}
 }
 
-frostwood_royal_2_grandchild_1 = { # Third generation of the Frostwood royal family
-	name = frostwood_name_royal_2_grandchild_1
+tfw_lineofhwenti_hwerin_005 = { # Third generation of the Frostwood royal family
+	name = tfw_lineofhwenti_hwerin_005_name
 	female = yes
 
 	dynasty = dynasty_hwenti_hwerin
 	religion = faith_moriquendi
 	culture = hwenti
 
-	father = frostwood_royal_02_spouse
-	mother = frostwood_royal_02
+	father = tfw_lineoflowborn_hwenti_001
+	mother = tfw_lineofhwenti_hwerin_002
 
 	sexuality = heterosexual
 
@@ -1855,15 +1855,15 @@ frostwood_royal_2_grandchild_1 = { # Third generation of the Frostwood royal fam
 	}
 }
 
-frostwood_royal_2_grandchild_2 = { # Third generation of the Frostwood royal family
-	name = frostwood_name_royal_2_grandchild_2
+tfw_lineofhwenti_hwerin_006 = { # Third generation of the Frostwood royal family
+	name = tfw_lineofhwenti_hwerin_006_name
 
 	dynasty = dynasty_hwenti_hwerin
 	religion = faith_moriquendi
 	culture = hwenti
 
-	father = frostwood_royal_02_spouse
-	mother = frostwood_royal_02
+	father = tfw_lineoflowborn_hwenti_001
+	mother = tfw_lineofhwenti_hwerin_002
 
 	sexuality = heterosexual
 
@@ -1887,8 +1887,8 @@ frostwood_royal_2_grandchild_2 = { # Third generation of the Frostwood royal fam
 	}
 }
 
-frostwood_w_d1_aervon = { # Holder of c_frostwood_3 and d_west_frostwood_1; ancient Avari founder, true birth predates recorded history
-	name = frostwood_name_aervon
+tfw_lineofwindan_aereth_001 = { # Holder of c_frostwood_3 and d_west_frostwood_1; ancient Avari founder, true birth predates recorded history
+	name = tfw_lineofwindan_aereth_001_name
 
 	dynasty = dynasty_windan_aereth
 	religion = faith_moriquendi
@@ -1916,12 +1916,12 @@ frostwood_w_d1_aervon = { # Holder of c_frostwood_3 and d_west_frostwood_1; anci
 	}
 
 	453.12.8 = {
-		add_spouse = frostwood_w_d1_aervon_spouse
+		add_spouse = tfw_lineofwindan_aereth_002
 	}
 }
 
-frostwood_w_d1_aervon_spouse = { # Ancient Avari consort; true birth predates recorded history
-	name = frostwood_name_w_d1_aervon_spouse
+tfw_lineofwindan_aereth_002 = { # Ancient Avari consort; true birth predates recorded history
+	name = tfw_lineofwindan_aereth_002_name
 	female = yes
 
 	religion = faith_moriquendi
@@ -1949,15 +1949,15 @@ frostwood_w_d1_aervon_spouse = { # Ancient Avari consort; true birth predates re
 	}
 }
 
-frostwood_w_d1_aervon_child_1 = { # Second generation heir of Aervon's house
-	name = frostwood_name_w_d1_aervon_child_1
+tfw_lineofwindan_aereth_003 = { # Second generation heir of Aervon's house
+	name = tfw_lineofwindan_aereth_003_name
 
 	dynasty = dynasty_windan_aereth
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_d1_aervon
-	mother = frostwood_w_d1_aervon_spouse
+	father = tfw_lineofwindan_aereth_001
+	mother = tfw_lineofwindan_aereth_002
 
 	sexuality = heterosexual
 
@@ -1981,20 +1981,20 @@ frostwood_w_d1_aervon_child_1 = { # Second generation heir of Aervon's house
 	}
 
 	1822.8.20 = {
-		add_spouse = frostwood_w_d1_aervon_child_1_spouse
+		add_spouse = tfw_lineofwindan_aereth_005
 	}
 }
 
-frostwood_w_d1_aervon_child_2 = { # Second generation of Aervon's house
-	name = frostwood_name_w_d1_aervon_child_2
+tfw_lineofwindan_aereth_004 = { # Second generation of Aervon's house
+	name = tfw_lineofwindan_aereth_004_name
 	female = yes
 
 	dynasty = dynasty_windan_aereth
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_d1_aervon
-	mother = frostwood_w_d1_aervon_spouse
+	father = tfw_lineofwindan_aereth_001
+	mother = tfw_lineofwindan_aereth_002
 
 	sexuality = heterosexual
 
@@ -2018,8 +2018,8 @@ frostwood_w_d1_aervon_child_2 = { # Second generation of Aervon's house
 	}
 }
 
-frostwood_w_d1_aervon_child_1_spouse = { # Consort within the second generation
-	name = frostwood_name_w_d1_aervon_child_1_spouse
+tfw_lineofwindan_aereth_005 = { # Consort within the second generation
+	name = tfw_lineofwindan_aereth_005_name
 	female = yes
 
 	religion = faith_moriquendi
@@ -2047,16 +2047,16 @@ frostwood_w_d1_aervon_child_1_spouse = { # Consort within the second generation
 	}
 }
 
-frostwood_w_d1_aervon_grandchild_1 = { # Third generation of Aervon's house
-	name = frostwood_name_w_d1_aervon_grandchild_1
+tfw_lineofwindan_aereth_006 = { # Third generation of Aervon's house
+	name = tfw_lineofwindan_aereth_006_name
 	female = yes
 
 	dynasty = dynasty_windan_aereth
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_d1_aervon_child_1
-	mother = frostwood_w_d1_aervon_child_1_spouse
+	father = tfw_lineofwindan_aereth_003
+	mother = tfw_lineofwindan_aereth_005
 
 	sexuality = heterosexual
 
@@ -2080,15 +2080,15 @@ frostwood_w_d1_aervon_grandchild_1 = { # Third generation of Aervon's house
 	}
 }
 
-frostwood_w_d1_aervon_grandchild_2 = { # Third generation of Aervon's house
-	name = frostwood_name_w_d1_aervon_grandchild_2
+tfw_lineofwindan_aereth_007 = { # Third generation of Aervon's house
+	name = tfw_lineofwindan_aereth_007_name
 
 	dynasty = dynasty_windan_aereth
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_d1_aervon_child_1
-	mother = frostwood_w_d1_aervon_child_1_spouse
+	father = tfw_lineofwindan_aereth_003
+	mother = tfw_lineofwindan_aereth_005
 
 	sexuality = heterosexual
 
@@ -2112,8 +2112,8 @@ frostwood_w_d1_aervon_grandchild_2 = { # Third generation of Aervon's house
 	}
 }
 
-frostwood_w_c1_neldor = { # Holder of c_frostwood_1; ancient Avari founder, true birth predates recorded history
-	name = frostwood_name_neldor
+tfw_lineofwindan_neldarin_001 = { # Holder of c_frostwood_1; ancient Avari founder, true birth predates recorded history
+	name = tfw_lineofwindan_neldarin_001_name
 
 	dynasty = dynasty_windan_neldarin
 	religion = faith_moriquendi
@@ -2141,12 +2141,12 @@ frostwood_w_c1_neldor = { # Holder of c_frostwood_1; ancient Avari founder, true
 	}
 
 	686.7.19 = {
-		add_spouse = frostwood_w_c1_neldor_spouse
+		add_spouse = tfw_lineofwindan_neldarin_002
 	}
 }
 
-frostwood_w_c1_neldor_spouse = { # Ancient Avari consort; true birth predates recorded history
-	name = frostwood_name_w_c1_neldor_spouse
+tfw_lineofwindan_neldarin_002 = { # Ancient Avari consort; true birth predates recorded history
+	name = tfw_lineofwindan_neldarin_002_name
 	female = yes
 
 	religion = faith_moriquendi
@@ -2174,15 +2174,15 @@ frostwood_w_c1_neldor_spouse = { # Ancient Avari consort; true birth predates re
 	}
 }
 
-frostwood_w_c1_neldor_child_1 = { # Second generation heir of Neldor's house
-	name = frostwood_name_w_c1_neldor_child_1
+tfw_lineofwindan_neldarin_003 = { # Second generation heir of Neldor's house
+	name = tfw_lineofwindan_neldarin_003_name
 
 	dynasty = dynasty_windan_neldarin
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_c1_neldor
-	mother = frostwood_w_c1_neldor_spouse
+	father = tfw_lineofwindan_neldarin_001
+	mother = tfw_lineofwindan_neldarin_002
 
 	sexuality = heterosexual
 
@@ -2206,20 +2206,20 @@ frostwood_w_c1_neldor_child_1 = { # Second generation heir of Neldor's house
 	}
 
 	2514.3.3 = {
-		add_spouse = frostwood_w_c1_neldor_child_1_spouse
+		add_spouse = tfw_lineofwindan_neldarin_006
 	}
 }
 
-frostwood_w_c1_neldor_child_2 = { # Second generation of Neldor's house
-	name = frostwood_name_w_c1_neldor_child_2
+tfw_lineofwindan_neldarin_004 = { # Second generation of Neldor's house
+	name = tfw_lineofwindan_neldarin_004_name
 	female = yes
 
 	dynasty = dynasty_windan_neldarin
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_c1_neldor
-	mother = frostwood_w_c1_neldor_spouse
+	father = tfw_lineofwindan_neldarin_001
+	mother = tfw_lineofwindan_neldarin_002
 
 	sexuality = heterosexual
 
@@ -2243,15 +2243,15 @@ frostwood_w_c1_neldor_child_2 = { # Second generation of Neldor's house
 	}
 }
 
-frostwood_w_c1_neldor_child_3 = { # Second generation of Neldor's house
-	name = frostwood_name_w_c1_neldor_child_3
+tfw_lineofwindan_neldarin_005 = { # Second generation of Neldor's house
+	name = tfw_lineofwindan_neldarin_005_name
 
 	dynasty = dynasty_windan_neldarin
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_c1_neldor
-	mother = frostwood_w_c1_neldor_spouse
+	father = tfw_lineofwindan_neldarin_001
+	mother = tfw_lineofwindan_neldarin_002
 
 	sexuality = heterosexual
 
@@ -2275,8 +2275,8 @@ frostwood_w_c1_neldor_child_3 = { # Second generation of Neldor's house
 	}
 }
 
-frostwood_w_c1_neldor_child_1_spouse = { # Consort within the second generation
-	name = frostwood_name_w_c1_neldor_child_1_spouse
+tfw_lineofwindan_neldarin_006 = { # Consort within the second generation
+	name = tfw_lineofwindan_neldarin_006_name
 	female = yes
 
 	religion = faith_moriquendi
@@ -2304,15 +2304,15 @@ frostwood_w_c1_neldor_child_1_spouse = { # Consort within the second generation
 	}
 }
 
-frostwood_w_c1_neldor_grandchild_1 = { # Third generation of Neldor's house
-	name = frostwood_name_w_c1_neldor_grandchild_1
+tfw_lineofwindan_neldarin_007 = { # Third generation of Neldor's house
+	name = tfw_lineofwindan_neldarin_007_name
 
 	dynasty = dynasty_windan_neldarin
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_c1_neldor_child_1
-	mother = frostwood_w_c1_neldor_child_1_spouse
+	father = tfw_lineofwindan_neldarin_003
+	mother = tfw_lineofwindan_neldarin_006
 
 	sexuality = heterosexual
 
@@ -2336,16 +2336,16 @@ frostwood_w_c1_neldor_grandchild_1 = { # Third generation of Neldor's house
 	}
 }
 
-frostwood_w_c1_neldor_grandchild_2 = { # Third generation of Neldor's house
-	name = frostwood_name_w_c1_neldor_grandchild_2
+tfw_lineofwindan_neldarin_008 = { # Third generation of Neldor's house
+	name = tfw_lineofwindan_neldarin_008_name
 	female = yes
 
 	dynasty = dynasty_windan_neldarin
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_c1_neldor_child_1
-	mother = frostwood_w_c1_neldor_child_1_spouse
+	father = tfw_lineofwindan_neldarin_003
+	mother = tfw_lineofwindan_neldarin_006
 
 	sexuality = heterosexual
 
@@ -2369,8 +2369,8 @@ frostwood_w_c1_neldor_grandchild_2 = { # Third generation of Neldor's house
 	}
 }
 
-frostwood_w_c2_saelwen = { # Holder of c_frostwood_2; ancient Avari founder, true birth predates recorded history
-	name = frostwood_name_saelwen
+tfw_lineofwindan_saelith_001 = { # Holder of c_frostwood_2; ancient Avari founder, true birth predates recorded history
+	name = tfw_lineofwindan_saelith_001_name
 	female = yes
 
 	dynasty = dynasty_windan_saelith
@@ -2399,12 +2399,12 @@ frostwood_w_c2_saelwen = { # Holder of c_frostwood_2; ancient Avari founder, tru
 	}
 
 	919.2.2 = {
-		add_matrilineal_spouse = frostwood_w_c2_saelwen_spouse
+		add_matrilineal_spouse = tfw_lineofwindan_saelith_002
 	}
 }
 
-frostwood_w_c2_saelwen_spouse = { # Ancient Avari consort; true birth predates recorded history
-	name = frostwood_name_w_c2_saelwen_spouse
+tfw_lineofwindan_saelith_002 = { # Ancient Avari consort; true birth predates recorded history
+	name = tfw_lineofwindan_saelith_002_name
 
 	religion = faith_moriquendi
 	culture = windan
@@ -2431,16 +2431,16 @@ frostwood_w_c2_saelwen_spouse = { # Ancient Avari consort; true birth predates r
 	}
 }
 
-frostwood_w_c2_saelwen_child_1 = { # Second generation heir of Saelwen's house
-	name = frostwood_name_w_c2_saelwen_child_1
+tfw_lineofwindan_saelith_003 = { # Second generation heir of Saelwen's house
+	name = tfw_lineofwindan_saelith_003_name
 	female = yes
 
 	dynasty = dynasty_windan_saelith
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_c2_saelwen_spouse
-	mother = frostwood_w_c2_saelwen
+	father = tfw_lineofwindan_saelith_002
+	mother = tfw_lineofwindan_saelith_001
 
 	sexuality = heterosexual
 
@@ -2464,19 +2464,19 @@ frostwood_w_c2_saelwen_child_1 = { # Second generation heir of Saelwen's house
 	}
 
 	3206.10.14 = {
-		add_matrilineal_spouse = frostwood_w_c2_saelwen_child_1_spouse
+		add_matrilineal_spouse = tfw_lineofwindan_saelith_005
 	}
 }
 
-frostwood_w_c2_saelwen_child_2 = { # Second generation of Saelwen's house
-	name = frostwood_name_w_c2_saelwen_child_2
+tfw_lineofwindan_saelith_004 = { # Second generation of Saelwen's house
+	name = tfw_lineofwindan_saelith_004_name
 
 	dynasty = dynasty_windan_saelith
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_c2_saelwen_spouse
-	mother = frostwood_w_c2_saelwen
+	father = tfw_lineofwindan_saelith_002
+	mother = tfw_lineofwindan_saelith_001
 
 	sexuality = heterosexual
 
@@ -2500,8 +2500,8 @@ frostwood_w_c2_saelwen_child_2 = { # Second generation of Saelwen's house
 	}
 }
 
-frostwood_w_c2_saelwen_child_1_spouse = { # Consort within the second generation
-	name = frostwood_name_w_c2_saelwen_child_1_spouse
+tfw_lineofwindan_saelith_005 = { # Consort within the second generation
+	name = tfw_lineofwindan_saelith_005_name
 
 	religion = faith_moriquendi
 	culture = windan
@@ -2528,16 +2528,16 @@ frostwood_w_c2_saelwen_child_1_spouse = { # Consort within the second generation
 	}
 }
 
-frostwood_w_c2_saelwen_grandchild_1 = { # Third generation of Saelwen's house
-	name = frostwood_name_w_c2_saelwen_grandchild_1
+tfw_lineofwindan_saelith_006 = { # Third generation of Saelwen's house
+	name = tfw_lineofwindan_saelith_006_name
 	female = yes
 
 	dynasty = dynasty_windan_saelith
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_c2_saelwen_child_1_spouse
-	mother = frostwood_w_c2_saelwen_child_1
+	father = tfw_lineofwindan_saelith_005
+	mother = tfw_lineofwindan_saelith_003
 
 	sexuality = heterosexual
 
@@ -2561,15 +2561,15 @@ frostwood_w_c2_saelwen_grandchild_1 = { # Third generation of Saelwen's house
 	}
 }
 
-frostwood_w_c2_saelwen_grandchild_2 = { # Third generation of Saelwen's house
-	name = frostwood_name_w_c2_saelwen_grandchild_2
+tfw_lineofwindan_saelith_007 = { # Third generation of Saelwen's house
+	name = tfw_lineofwindan_saelith_007_name
 
 	dynasty = dynasty_windan_saelith
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_c2_saelwen_child_1_spouse
-	mother = frostwood_w_c2_saelwen_child_1
+	father = tfw_lineofwindan_saelith_005
+	mother = tfw_lineofwindan_saelith_003
 
 	sexuality = heterosexual
 
@@ -2593,8 +2593,8 @@ frostwood_w_c2_saelwen_grandchild_2 = { # Third generation of Saelwen's house
 	}
 }
 
-frostwood_w_c7_elur = { # Holder of c_frostwood_7; ancient Avari founder, true birth predates recorded history
-	name = frostwood_name_elur
+tfw_lineofwindan_elvar_001 = { # Holder of c_frostwood_7; ancient Avari founder, true birth predates recorded history
+	name = tfw_lineofwindan_elvar_001_name
 
 	dynasty = dynasty_windan_elvar
 	religion = faith_moriquendi
@@ -2622,12 +2622,12 @@ frostwood_w_c7_elur = { # Holder of c_frostwood_7; ancient Avari founder, true b
 	}
 
 	1152.9.13 = {
-		add_spouse = frostwood_w_c7_elur_spouse
+		add_spouse = tfw_lineofwindan_elvar_002
 	}
 }
 
-frostwood_w_c7_elur_spouse = { # Ancient Avari consort; true birth predates recorded history
-	name = frostwood_name_w_c7_elur_spouse
+tfw_lineofwindan_elvar_002 = { # Ancient Avari consort; true birth predates recorded history
+	name = tfw_lineofwindan_elvar_002_name
 	female = yes
 
 	religion = faith_moriquendi
@@ -2655,15 +2655,15 @@ frostwood_w_c7_elur_spouse = { # Ancient Avari consort; true birth predates reco
 	}
 }
 
-frostwood_w_c7_elur_child_1 = { # Second generation heir of Elur's house
-	name = frostwood_name_w_c7_elur_child_1
+tfw_lineofwindan_elvar_003 = { # Second generation heir of Elur's house
+	name = tfw_lineofwindan_elvar_003_name
 
 	dynasty = dynasty_windan_elvar
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_c7_elur
-	mother = frostwood_w_c7_elur_spouse
+	father = tfw_lineofwindan_elvar_001
+	mother = tfw_lineofwindan_elvar_002
 
 	sexuality = heterosexual
 
@@ -2687,20 +2687,20 @@ frostwood_w_c7_elur_child_1 = { # Second generation heir of Elur's house
 	}
 
 	3898.5.25 = {
-		add_spouse = frostwood_w_c7_elur_child_1_spouse
+		add_spouse = tfw_lineofwindan_elvar_006
 	}
 }
 
-frostwood_w_c7_elur_child_2 = { # Second generation of Elur's house
-	name = frostwood_name_w_c7_elur_child_2
+tfw_lineofwindan_elvar_004 = { # Second generation of Elur's house
+	name = tfw_lineofwindan_elvar_004_name
 	female = yes
 
 	dynasty = dynasty_windan_elvar
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_c7_elur
-	mother = frostwood_w_c7_elur_spouse
+	father = tfw_lineofwindan_elvar_001
+	mother = tfw_lineofwindan_elvar_002
 
 	sexuality = heterosexual
 
@@ -2724,15 +2724,15 @@ frostwood_w_c7_elur_child_2 = { # Second generation of Elur's house
 	}
 }
 
-frostwood_w_c7_elur_child_3 = { # Second generation of Elur's house
-	name = frostwood_name_w_c7_elur_child_3
+tfw_lineofwindan_elvar_005 = { # Second generation of Elur's house
+	name = tfw_lineofwindan_elvar_005_name
 
 	dynasty = dynasty_windan_elvar
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_c7_elur
-	mother = frostwood_w_c7_elur_spouse
+	father = tfw_lineofwindan_elvar_001
+	mother = tfw_lineofwindan_elvar_002
 
 	sexuality = heterosexual
 
@@ -2756,8 +2756,8 @@ frostwood_w_c7_elur_child_3 = { # Second generation of Elur's house
 	}
 }
 
-frostwood_w_c7_elur_child_1_spouse = { # Consort within the second generation
-	name = frostwood_name_w_c7_elur_child_1_spouse
+tfw_lineofwindan_elvar_006 = { # Consort within the second generation
+	name = tfw_lineofwindan_elvar_006_name
 	female = yes
 
 	religion = faith_moriquendi
@@ -2785,15 +2785,15 @@ frostwood_w_c7_elur_child_1_spouse = { # Consort within the second generation
 	}
 }
 
-frostwood_w_c7_elur_grandchild_1 = { # Third generation of Elur's house
-	name = frostwood_name_w_c7_elur_grandchild_1
+tfw_lineofwindan_elvar_007 = { # Third generation of Elur's house
+	name = tfw_lineofwindan_elvar_007_name
 
 	dynasty = dynasty_windan_elvar
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_c7_elur_child_1
-	mother = frostwood_w_c7_elur_child_1_spouse
+	father = tfw_lineofwindan_elvar_003
+	mother = tfw_lineofwindan_elvar_006
 
 	sexuality = heterosexual
 
@@ -2817,16 +2817,16 @@ frostwood_w_c7_elur_grandchild_1 = { # Third generation of Elur's house
 	}
 }
 
-frostwood_w_c7_elur_grandchild_2 = { # Third generation of Elur's house
-	name = frostwood_name_w_c7_elur_grandchild_2
+tfw_lineofwindan_elvar_008 = { # Third generation of Elur's house
+	name = tfw_lineofwindan_elvar_008_name
 	female = yes
 
 	dynasty = dynasty_windan_elvar
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_c7_elur_child_1
-	mother = frostwood_w_c7_elur_child_1_spouse
+	father = tfw_lineofwindan_elvar_003
+	mother = tfw_lineofwindan_elvar_006
 
 	sexuality = heterosexual
 
@@ -2850,8 +2850,8 @@ frostwood_w_c7_elur_grandchild_2 = { # Third generation of Elur's house
 	}
 }
 
-frostwood_w_c8_maeriel = { # Holder of c_frostwood_8; ancient Avari founder, true birth predates recorded history
-	name = frostwood_name_maeriel
+tfw_lineofwindan_maerwen_001 = { # Holder of c_frostwood_8; ancient Avari founder, true birth predates recorded history
+	name = tfw_lineofwindan_maerwen_001_name
 	female = yes
 
 	dynasty = dynasty_windan_maerwen
@@ -2880,12 +2880,12 @@ frostwood_w_c8_maeriel = { # Holder of c_frostwood_8; ancient Avari founder, tru
 	}
 
 	1385.4.24 = {
-		add_matrilineal_spouse = frostwood_w_c8_maeriel_spouse
+		add_matrilineal_spouse = tfw_lineofwindan_maerwen_002
 	}
 }
 
-frostwood_w_c8_maeriel_spouse = { # Ancient Avari consort; true birth predates recorded history
-	name = frostwood_name_w_c8_maeriel_spouse
+tfw_lineofwindan_maerwen_002 = { # Ancient Avari consort; true birth predates recorded history
+	name = tfw_lineofwindan_maerwen_002_name
 
 	religion = faith_moriquendi
 	culture = windan
@@ -2912,16 +2912,16 @@ frostwood_w_c8_maeriel_spouse = { # Ancient Avari consort; true birth predates r
 	}
 }
 
-frostwood_w_c8_maeriel_child_1 = { # Second generation heir of Maeriel's house
-	name = frostwood_name_w_c8_maeriel_child_1
+tfw_lineofwindan_maerwen_003 = { # Second generation heir of Maeriel's house
+	name = tfw_lineofwindan_maerwen_003_name
 	female = yes
 
 	dynasty = dynasty_windan_maerwen
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_c8_maeriel_spouse
-	mother = frostwood_w_c8_maeriel
+	father = tfw_lineofwindan_maerwen_002
+	mother = tfw_lineofwindan_maerwen_001
 
 	sexuality = heterosexual
 
@@ -2945,19 +2945,19 @@ frostwood_w_c8_maeriel_child_1 = { # Second generation heir of Maeriel's house
 	}
 
 	4350.12.8 = {
-		add_matrilineal_spouse = frostwood_w_c8_maeriel_child_1_spouse
+		add_matrilineal_spouse = tfw_lineofwindan_maerwen_005
 	}
 }
 
-frostwood_w_c8_maeriel_child_2 = { # Second generation of Maeriel's house
-	name = frostwood_name_w_c8_maeriel_child_2
+tfw_lineofwindan_maerwen_004 = { # Second generation of Maeriel's house
+	name = tfw_lineofwindan_maerwen_004_name
 
 	dynasty = dynasty_windan_maerwen
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_c8_maeriel_spouse
-	mother = frostwood_w_c8_maeriel
+	father = tfw_lineofwindan_maerwen_002
+	mother = tfw_lineofwindan_maerwen_001
 
 	sexuality = heterosexual
 
@@ -2981,8 +2981,8 @@ frostwood_w_c8_maeriel_child_2 = { # Second generation of Maeriel's house
 	}
 }
 
-frostwood_w_c8_maeriel_child_1_spouse = { # Consort within the second generation
-	name = frostwood_name_w_c8_maeriel_child_1_spouse
+tfw_lineofwindan_maerwen_005 = { # Consort within the second generation
+	name = tfw_lineofwindan_maerwen_005_name
 
 	religion = faith_moriquendi
 	culture = windan
@@ -3009,16 +3009,16 @@ frostwood_w_c8_maeriel_child_1_spouse = { # Consort within the second generation
 	}
 }
 
-frostwood_w_c8_maeriel_grandchild_1 = { # Third generation of Maeriel's house
-	name = frostwood_name_w_c8_maeriel_grandchild_1
+tfw_lineofwindan_maerwen_006 = { # Third generation of Maeriel's house
+	name = tfw_lineofwindan_maerwen_006_name
 	female = yes
 
 	dynasty = dynasty_windan_maerwen
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_c8_maeriel_child_1_spouse
-	mother = frostwood_w_c8_maeriel_child_1
+	father = tfw_lineofwindan_maerwen_005
+	mother = tfw_lineofwindan_maerwen_003
 
 	sexuality = heterosexual
 
@@ -3042,15 +3042,15 @@ frostwood_w_c8_maeriel_grandchild_1 = { # Third generation of Maeriel's house
 	}
 }
 
-frostwood_w_c8_maeriel_grandchild_2 = { # Third generation of Maeriel's house
-	name = frostwood_name_w_c8_maeriel_grandchild_2
+tfw_lineofwindan_maerwen_007 = { # Third generation of Maeriel's house
+	name = tfw_lineofwindan_maerwen_007_name
 
 	dynasty = dynasty_windan_maerwen
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_c8_maeriel_child_1_spouse
-	mother = frostwood_w_c8_maeriel_child_1
+	father = tfw_lineofwindan_maerwen_005
+	mother = tfw_lineofwindan_maerwen_003
 
 	sexuality = heterosexual
 
@@ -3074,8 +3074,8 @@ frostwood_w_c8_maeriel_grandchild_2 = { # Third generation of Maeriel's house
 	}
 }
 
-frostwood_w_c9_thalion = { # Holder of c_frostwood_9; ancient Avari founder, true birth predates recorded history
-	name = frostwood_name_thalion
+tfw_lineofwindan_thalorn_001 = { # Holder of c_frostwood_9; ancient Avari founder, true birth predates recorded history
+	name = tfw_lineofwindan_thalorn_001_name
 
 	dynasty = dynasty_windan_thalorn
 	religion = faith_moriquendi
@@ -3103,12 +3103,12 @@ frostwood_w_c9_thalion = { # Holder of c_frostwood_9; ancient Avari founder, tru
 	}
 
 	238.11.7 = {
-		add_spouse = frostwood_w_c9_thalion_spouse
+		add_spouse = tfw_lineofwindan_thalorn_002
 	}
 }
 
-frostwood_w_c9_thalion_spouse = { # Ancient Avari consort; true birth predates recorded history
-	name = frostwood_name_w_c9_thalion_spouse
+tfw_lineofwindan_thalorn_002 = { # Ancient Avari consort; true birth predates recorded history
+	name = tfw_lineofwindan_thalorn_002_name
 	female = yes
 
 	religion = faith_moriquendi
@@ -3136,15 +3136,15 @@ frostwood_w_c9_thalion_spouse = { # Ancient Avari consort; true birth predates r
 	}
 }
 
-frostwood_w_c9_thalion_child_1 = { # Second generation heir of Thalion's house
-	name = frostwood_name_w_c9_thalion_child_1
+tfw_lineofwindan_thalorn_003 = { # Second generation heir of Thalion's house
+	name = tfw_lineofwindan_thalorn_003_name
 
 	dynasty = dynasty_windan_thalorn
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_c9_thalion
-	mother = frostwood_w_c9_thalion_spouse
+	father = tfw_lineofwindan_thalorn_001
+	mother = tfw_lineofwindan_thalorn_002
 
 	sexuality = heterosexual
 
@@ -3168,20 +3168,20 @@ frostwood_w_c9_thalion_child_1 = { # Second generation heir of Thalion's house
 	}
 
 	2012.7.19 = {
-		add_spouse = frostwood_w_c9_thalion_child_1_spouse
+		add_spouse = tfw_lineofwindan_thalorn_006
 	}
 }
 
-frostwood_w_c9_thalion_child_2 = { # Second generation of Thalion's house
-	name = frostwood_name_w_c9_thalion_child_2
+tfw_lineofwindan_thalorn_004 = { # Second generation of Thalion's house
+	name = tfw_lineofwindan_thalorn_004_name
 	female = yes
 
 	dynasty = dynasty_windan_thalorn
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_c9_thalion
-	mother = frostwood_w_c9_thalion_spouse
+	father = tfw_lineofwindan_thalorn_001
+	mother = tfw_lineofwindan_thalorn_002
 
 	sexuality = heterosexual
 
@@ -3205,15 +3205,15 @@ frostwood_w_c9_thalion_child_2 = { # Second generation of Thalion's house
 	}
 }
 
-frostwood_w_c9_thalion_child_3 = { # Second generation of Thalion's house
-	name = frostwood_name_w_c9_thalion_child_3
+tfw_lineofwindan_thalorn_005 = { # Second generation of Thalion's house
+	name = tfw_lineofwindan_thalorn_005_name
 
 	dynasty = dynasty_windan_thalorn
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_c9_thalion
-	mother = frostwood_w_c9_thalion_spouse
+	father = tfw_lineofwindan_thalorn_001
+	mother = tfw_lineofwindan_thalorn_002
 
 	sexuality = heterosexual
 
@@ -3237,8 +3237,8 @@ frostwood_w_c9_thalion_child_3 = { # Second generation of Thalion's house
 	}
 }
 
-frostwood_w_c9_thalion_child_1_spouse = { # Consort within the second generation
-	name = frostwood_name_w_c9_thalion_child_1_spouse
+tfw_lineofwindan_thalorn_006 = { # Consort within the second generation
+	name = tfw_lineofwindan_thalorn_006_name
 	female = yes
 
 	religion = faith_moriquendi
@@ -3266,15 +3266,15 @@ frostwood_w_c9_thalion_child_1_spouse = { # Consort within the second generation
 	}
 }
 
-frostwood_w_c9_thalion_grandchild_1 = { # Third generation of Thalion's house
-	name = frostwood_name_w_c9_thalion_grandchild_1
+tfw_lineofwindan_thalorn_007 = { # Third generation of Thalion's house
+	name = tfw_lineofwindan_thalorn_007_name
 
 	dynasty = dynasty_windan_thalorn
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_c9_thalion_child_1
-	mother = frostwood_w_c9_thalion_child_1_spouse
+	father = tfw_lineofwindan_thalorn_003
+	mother = tfw_lineofwindan_thalorn_006
 
 	sexuality = heterosexual
 
@@ -3298,16 +3298,16 @@ frostwood_w_c9_thalion_grandchild_1 = { # Third generation of Thalion's house
 	}
 }
 
-frostwood_w_c9_thalion_grandchild_2 = { # Third generation of Thalion's house
-	name = frostwood_name_w_c9_thalion_grandchild_2
+tfw_lineofwindan_thalorn_008 = { # Third generation of Thalion's house
+	name = tfw_lineofwindan_thalorn_008_name
 	female = yes
 
 	dynasty = dynasty_windan_thalorn
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_c9_thalion_child_1
-	mother = frostwood_w_c9_thalion_child_1_spouse
+	father = tfw_lineofwindan_thalorn_003
+	mother = tfw_lineofwindan_thalorn_006
 
 	sexuality = heterosexual
 
@@ -3331,8 +3331,8 @@ frostwood_w_c9_thalion_grandchild_2 = { # Third generation of Thalion's house
 	}
 }
 
-frostwood_w_d3_calendir = { # Holder of c_frostwood_11 and d_west_frostwood_3; ancient Avari founder, true birth predates recorded history
-	name = frostwood_name_calendir
+tfw_lineofwindan_calenth_001 = { # Holder of c_frostwood_11 and d_west_frostwood_3; ancient Avari founder, true birth predates recorded history
+	name = tfw_lineofwindan_calenth_001_name
 
 	dynasty = dynasty_windan_calenth
 	religion = faith_moriquendi
@@ -3360,12 +3360,12 @@ frostwood_w_d3_calendir = { # Holder of c_frostwood_11 and d_west_frostwood_3; a
 	}
 
 	471.6.18 = {
-		add_spouse = frostwood_w_d3_calendir_spouse
+		add_spouse = tfw_lineofwindan_calenth_002
 	}
 }
 
-frostwood_w_d3_calendir_spouse = { # Ancient Avari consort; true birth predates recorded history
-	name = frostwood_name_w_d3_calendir_spouse
+tfw_lineofwindan_calenth_002 = { # Ancient Avari consort; true birth predates recorded history
+	name = tfw_lineofwindan_calenth_002_name
 	female = yes
 
 	religion = faith_moriquendi
@@ -3393,15 +3393,15 @@ frostwood_w_d3_calendir_spouse = { # Ancient Avari consort; true birth predates 
 	}
 }
 
-frostwood_w_d3_calendir_child_1 = { # Second generation heir of Calendir's house
-	name = frostwood_name_w_d3_calendir_child_1
+tfw_lineofwindan_calenth_003 = { # Second generation heir of Calendir's house
+	name = tfw_lineofwindan_calenth_003_name
 
 	dynasty = dynasty_windan_calenth
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_d3_calendir
-	mother = frostwood_w_d3_calendir_spouse
+	father = tfw_lineofwindan_calenth_001
+	mother = tfw_lineofwindan_calenth_002
 
 	sexuality = heterosexual
 
@@ -3425,20 +3425,20 @@ frostwood_w_d3_calendir_child_1 = { # Second generation heir of Calendir's house
 	}
 
 	2704.2.2 = {
-		add_spouse = frostwood_w_d3_calendir_child_1_spouse
+		add_spouse = tfw_lineofwindan_calenth_005
 	}
 }
 
-frostwood_w_d3_calendir_child_2 = { # Second generation of Calendir's house
-	name = frostwood_name_w_d3_calendir_child_2
+tfw_lineofwindan_calenth_004 = { # Second generation of Calendir's house
+	name = tfw_lineofwindan_calenth_004_name
 	female = yes
 
 	dynasty = dynasty_windan_calenth
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_d3_calendir
-	mother = frostwood_w_d3_calendir_spouse
+	father = tfw_lineofwindan_calenth_001
+	mother = tfw_lineofwindan_calenth_002
 
 	sexuality = heterosexual
 
@@ -3462,8 +3462,8 @@ frostwood_w_d3_calendir_child_2 = { # Second generation of Calendir's house
 	}
 }
 
-frostwood_w_d3_calendir_child_1_spouse = { # Consort within the second generation
-	name = frostwood_name_w_d3_calendir_child_1_spouse
+tfw_lineofwindan_calenth_005 = { # Consort within the second generation
+	name = tfw_lineofwindan_calenth_005_name
 	female = yes
 
 	religion = faith_moriquendi
@@ -3491,16 +3491,16 @@ frostwood_w_d3_calendir_child_1_spouse = { # Consort within the second generatio
 	}
 }
 
-frostwood_w_d3_calendir_grandchild_1 = { # Third generation of Calendir's house
-	name = frostwood_name_w_d3_calendir_grandchild_1
+tfw_lineofwindan_calenth_006 = { # Third generation of Calendir's house
+	name = tfw_lineofwindan_calenth_006_name
 	female = yes
 
 	dynasty = dynasty_windan_calenth
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_d3_calendir_child_1
-	mother = frostwood_w_d3_calendir_child_1_spouse
+	father = tfw_lineofwindan_calenth_003
+	mother = tfw_lineofwindan_calenth_005
 
 	sexuality = heterosexual
 
@@ -3524,15 +3524,15 @@ frostwood_w_d3_calendir_grandchild_1 = { # Third generation of Calendir's house
 	}
 }
 
-frostwood_w_d3_calendir_grandchild_2 = { # Third generation of Calendir's house
-	name = frostwood_name_w_d3_calendir_grandchild_2
+tfw_lineofwindan_calenth_007 = { # Third generation of Calendir's house
+	name = tfw_lineofwindan_calenth_007_name
 
 	dynasty = dynasty_windan_calenth
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_d3_calendir_child_1
-	mother = frostwood_w_d3_calendir_child_1_spouse
+	father = tfw_lineofwindan_calenth_003
+	mother = tfw_lineofwindan_calenth_005
 
 	sexuality = heterosexual
 
@@ -3556,8 +3556,8 @@ frostwood_w_d3_calendir_grandchild_2 = { # Third generation of Calendir's house
 	}
 }
 
-frostwood_w_c10_varon = { # Holder of c_frostwood_10; ancient Avari founder, true birth predates recorded history
-	name = frostwood_name_varon
+tfw_lineofwindan_varath_001 = { # Holder of c_frostwood_10; ancient Avari founder, true birth predates recorded history
+	name = tfw_lineofwindan_varath_001_name
 
 	dynasty = dynasty_windan_varath
 	religion = faith_moriquendi
@@ -3585,12 +3585,12 @@ frostwood_w_c10_varon = { # Holder of c_frostwood_10; ancient Avari founder, tru
 	}
 
 	704.1.1 = {
-		add_spouse = frostwood_w_c10_varon_spouse
+		add_spouse = tfw_lineofwindan_varath_002
 	}
 }
 
-frostwood_w_c10_varon_spouse = { # Ancient Avari consort; true birth predates recorded history
-	name = frostwood_name_w_c10_varon_spouse
+tfw_lineofwindan_varath_002 = { # Ancient Avari consort; true birth predates recorded history
+	name = tfw_lineofwindan_varath_002_name
 	female = yes
 
 	religion = faith_moriquendi
@@ -3618,15 +3618,15 @@ frostwood_w_c10_varon_spouse = { # Ancient Avari consort; true birth predates re
 	}
 }
 
-frostwood_w_c10_varon_child_1 = { # Second generation heir of Varon's house
-	name = frostwood_name_w_c10_varon_child_1
+tfw_lineofwindan_varath_003 = { # Second generation heir of Varon's house
+	name = tfw_lineofwindan_varath_003_name
 
 	dynasty = dynasty_windan_varath
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_c10_varon
-	mother = frostwood_w_c10_varon_spouse
+	father = tfw_lineofwindan_varath_001
+	mother = tfw_lineofwindan_varath_002
 
 	sexuality = heterosexual
 
@@ -3650,20 +3650,20 @@ frostwood_w_c10_varon_child_1 = { # Second generation heir of Varon's house
 	}
 
 	3396.9.13 = {
-		add_spouse = frostwood_w_c10_varon_child_1_spouse
+		add_spouse = tfw_lineofwindan_varath_006
 	}
 }
 
-frostwood_w_c10_varon_child_2 = { # Second generation of Varon's house
-	name = frostwood_name_w_c10_varon_child_2
+tfw_lineofwindan_varath_004 = { # Second generation of Varon's house
+	name = tfw_lineofwindan_varath_004_name
 	female = yes
 
 	dynasty = dynasty_windan_varath
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_c10_varon
-	mother = frostwood_w_c10_varon_spouse
+	father = tfw_lineofwindan_varath_001
+	mother = tfw_lineofwindan_varath_002
 
 	sexuality = heterosexual
 
@@ -3687,15 +3687,15 @@ frostwood_w_c10_varon_child_2 = { # Second generation of Varon's house
 	}
 }
 
-frostwood_w_c10_varon_child_3 = { # Second generation of Varon's house
-	name = frostwood_name_w_c10_varon_child_3
+tfw_lineofwindan_varath_005 = { # Second generation of Varon's house
+	name = tfw_lineofwindan_varath_005_name
 
 	dynasty = dynasty_windan_varath
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_c10_varon
-	mother = frostwood_w_c10_varon_spouse
+	father = tfw_lineofwindan_varath_001
+	mother = tfw_lineofwindan_varath_002
 
 	sexuality = heterosexual
 
@@ -3719,8 +3719,8 @@ frostwood_w_c10_varon_child_3 = { # Second generation of Varon's house
 	}
 }
 
-frostwood_w_c10_varon_child_1_spouse = { # Consort within the second generation
-	name = frostwood_name_w_c10_varon_child_1_spouse
+tfw_lineofwindan_varath_006 = { # Consort within the second generation
+	name = tfw_lineofwindan_varath_006_name
 	female = yes
 
 	religion = faith_moriquendi
@@ -3748,15 +3748,15 @@ frostwood_w_c10_varon_child_1_spouse = { # Consort within the second generation
 	}
 }
 
-frostwood_w_c10_varon_grandchild_1 = { # Third generation of Varon's house
-	name = frostwood_name_w_c10_varon_grandchild_1
+tfw_lineofwindan_varath_007 = { # Third generation of Varon's house
+	name = tfw_lineofwindan_varath_007_name
 
 	dynasty = dynasty_windan_varath
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_c10_varon_child_1
-	mother = frostwood_w_c10_varon_child_1_spouse
+	father = tfw_lineofwindan_varath_003
+	mother = tfw_lineofwindan_varath_006
 
 	sexuality = heterosexual
 
@@ -3780,16 +3780,16 @@ frostwood_w_c10_varon_grandchild_1 = { # Third generation of Varon's house
 	}
 }
 
-frostwood_w_c10_varon_grandchild_2 = { # Third generation of Varon's house
-	name = frostwood_name_w_c10_varon_grandchild_2
+tfw_lineofwindan_varath_008 = { # Third generation of Varon's house
+	name = tfw_lineofwindan_varath_008_name
 	female = yes
 
 	dynasty = dynasty_windan_varath
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_c10_varon_child_1
-	mother = frostwood_w_c10_varon_child_1_spouse
+	father = tfw_lineofwindan_varath_003
+	mother = tfw_lineofwindan_varath_006
 
 	sexuality = heterosexual
 
@@ -3813,8 +3813,8 @@ frostwood_w_c10_varon_grandchild_2 = { # Third generation of Varon's house
 	}
 }
 
-frostwood_w_c12_rindel = { # Holder of c_frostwood_12; ancient Avari founder, true birth predates recorded history
-	name = frostwood_name_rindel
+tfw_lineofwindan_rindor_001 = { # Holder of c_frostwood_12; ancient Avari founder, true birth predates recorded history
+	name = tfw_lineofwindan_rindor_001_name
 
 	dynasty = dynasty_windan_rindor
 	religion = faith_moriquendi
@@ -3842,12 +3842,12 @@ frostwood_w_c12_rindel = { # Holder of c_frostwood_12; ancient Avari founder, tr
 	}
 
 	937.8.12 = {
-		add_spouse = frostwood_w_c12_rindel_spouse
+		add_spouse = tfw_lineofwindan_rindor_002
 	}
 }
 
-frostwood_w_c12_rindel_spouse = { # Ancient Avari consort; true birth predates recorded history
-	name = frostwood_name_w_c12_rindel_spouse
+tfw_lineofwindan_rindor_002 = { # Ancient Avari consort; true birth predates recorded history
+	name = tfw_lineofwindan_rindor_002_name
 	female = yes
 
 	religion = faith_moriquendi
@@ -3875,15 +3875,15 @@ frostwood_w_c12_rindel_spouse = { # Ancient Avari consort; true birth predates r
 	}
 }
 
-frostwood_w_c12_rindel_child_1 = { # Second generation heir of Rindel's house
-	name = frostwood_name_w_c12_rindel_child_1
+tfw_lineofwindan_rindor_003 = { # Second generation heir of Rindel's house
+	name = tfw_lineofwindan_rindor_003_name
 
 	dynasty = dynasty_windan_rindor
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_c12_rindel
-	mother = frostwood_w_c12_rindel_spouse
+	father = tfw_lineofwindan_rindor_001
+	mother = tfw_lineofwindan_rindor_002
 
 	sexuality = heterosexual
 
@@ -3907,20 +3907,20 @@ frostwood_w_c12_rindel_child_1 = { # Second generation heir of Rindel's house
 	}
 
 	3168.4.24 = {
-		add_spouse = frostwood_w_c12_rindel_child_1_spouse
+		add_spouse = tfw_lineofwindan_rindor_005
 	}
 }
 
-frostwood_w_c12_rindel_child_2 = { # Second generation of Rindel's house
-	name = frostwood_name_w_c12_rindel_child_2
+tfw_lineofwindan_rindor_004 = { # Second generation of Rindel's house
+	name = tfw_lineofwindan_rindor_004_name
 	female = yes
 
 	dynasty = dynasty_windan_rindor
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_c12_rindel
-	mother = frostwood_w_c12_rindel_spouse
+	father = tfw_lineofwindan_rindor_001
+	mother = tfw_lineofwindan_rindor_002
 
 	sexuality = heterosexual
 
@@ -3944,8 +3944,8 @@ frostwood_w_c12_rindel_child_2 = { # Second generation of Rindel's house
 	}
 }
 
-frostwood_w_c12_rindel_child_1_spouse = { # Consort within the second generation
-	name = frostwood_name_w_c12_rindel_child_1_spouse
+tfw_lineofwindan_rindor_005 = { # Consort within the second generation
+	name = tfw_lineofwindan_rindor_005_name
 	female = yes
 
 	religion = faith_moriquendi
@@ -3973,16 +3973,16 @@ frostwood_w_c12_rindel_child_1_spouse = { # Consort within the second generation
 	}
 }
 
-frostwood_w_c12_rindel_grandchild_1 = { # Third generation of Rindel's house
-	name = frostwood_name_w_c12_rindel_grandchild_1
+tfw_lineofwindan_rindor_006 = { # Third generation of Rindel's house
+	name = tfw_lineofwindan_rindor_006_name
 	female = yes
 
 	dynasty = dynasty_windan_rindor
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_c12_rindel_child_1
-	mother = frostwood_w_c12_rindel_child_1_spouse
+	father = tfw_lineofwindan_rindor_003
+	mother = tfw_lineofwindan_rindor_005
 
 	sexuality = heterosexual
 
@@ -4006,15 +4006,15 @@ frostwood_w_c12_rindel_grandchild_1 = { # Third generation of Rindel's house
 	}
 }
 
-frostwood_w_c12_rindel_grandchild_2 = { # Third generation of Rindel's house
-	name = frostwood_name_w_c12_rindel_grandchild_2
+tfw_lineofwindan_rindor_007 = { # Third generation of Rindel's house
+	name = tfw_lineofwindan_rindor_007_name
 
 	dynasty = dynasty_windan_rindor
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_c12_rindel_child_1
-	mother = frostwood_w_c12_rindel_child_1_spouse
+	father = tfw_lineofwindan_rindor_003
+	mother = tfw_lineofwindan_rindor_005
 
 	sexuality = heterosexual
 
@@ -4038,8 +4038,8 @@ frostwood_w_c12_rindel_grandchild_2 = { # Third generation of Rindel's house
 	}
 }
 
-frostwood_w_c13_aelwen = { # Holder of c_frostwood_13; ancient Avari founder, true birth predates recorded history
-	name = frostwood_name_aelwen
+tfw_lineofwindan_aelvar_001 = { # Holder of c_frostwood_13; ancient Avari founder, true birth predates recorded history
+	name = tfw_lineofwindan_aelvar_001_name
 	female = yes
 
 	dynasty = dynasty_windan_aelvar
@@ -4068,12 +4068,12 @@ frostwood_w_c13_aelwen = { # Holder of c_frostwood_13; ancient Avari founder, tr
 	}
 
 	1170.3.23 = {
-		add_matrilineal_spouse = frostwood_w_c13_aelwen_spouse
+		add_matrilineal_spouse = tfw_lineofwindan_aelvar_002
 	}
 }
 
-frostwood_w_c13_aelwen_spouse = { # Ancient Avari consort; true birth predates recorded history
-	name = frostwood_name_w_c13_aelwen_spouse
+tfw_lineofwindan_aelvar_002 = { # Ancient Avari consort; true birth predates recorded history
+	name = tfw_lineofwindan_aelvar_002_name
 
 	religion = faith_moriquendi
 	culture = windan
@@ -4100,16 +4100,16 @@ frostwood_w_c13_aelwen_spouse = { # Ancient Avari consort; true birth predates r
 	}
 }
 
-frostwood_w_c13_aelwen_child_1 = { # Second generation heir of Aelwen's house
-	name = frostwood_name_w_c13_aelwen_child_1
+tfw_lineofwindan_aelvar_003 = { # Second generation heir of Aelwen's house
+	name = tfw_lineofwindan_aelvar_003_name
 	female = yes
 
 	dynasty = dynasty_windan_aelvar
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_c13_aelwen_spouse
-	mother = frostwood_w_c13_aelwen
+	father = tfw_lineofwindan_aelvar_002
+	mother = tfw_lineofwindan_aelvar_001
 
 	sexuality = heterosexual
 
@@ -4133,19 +4133,19 @@ frostwood_w_c13_aelwen_child_1 = { # Second generation heir of Aelwen's house
 	}
 
 	3860.11.7 = {
-		add_matrilineal_spouse = frostwood_w_c13_aelwen_child_1_spouse
+		add_matrilineal_spouse = tfw_lineofwindan_aelvar_006
 	}
 }
 
-frostwood_w_c13_aelwen_child_2 = { # Second generation of Aelwen's house
-	name = frostwood_name_w_c13_aelwen_child_2
+tfw_lineofwindan_aelvar_004 = { # Second generation of Aelwen's house
+	name = tfw_lineofwindan_aelvar_004_name
 
 	dynasty = dynasty_windan_aelvar
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_c13_aelwen_spouse
-	mother = frostwood_w_c13_aelwen
+	father = tfw_lineofwindan_aelvar_002
+	mother = tfw_lineofwindan_aelvar_001
 
 	sexuality = heterosexual
 
@@ -4169,16 +4169,16 @@ frostwood_w_c13_aelwen_child_2 = { # Second generation of Aelwen's house
 	}
 }
 
-frostwood_w_c13_aelwen_child_3 = { # Second generation of Aelwen's house
-	name = frostwood_name_w_c13_aelwen_child_3
+tfw_lineofwindan_aelvar_005 = { # Second generation of Aelwen's house
+	name = tfw_lineofwindan_aelvar_005_name
 	female = yes
 
 	dynasty = dynasty_windan_aelvar
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_c13_aelwen_spouse
-	mother = frostwood_w_c13_aelwen
+	father = tfw_lineofwindan_aelvar_002
+	mother = tfw_lineofwindan_aelvar_001
 
 	sexuality = heterosexual
 
@@ -4202,8 +4202,8 @@ frostwood_w_c13_aelwen_child_3 = { # Second generation of Aelwen's house
 	}
 }
 
-frostwood_w_c13_aelwen_child_1_spouse = { # Consort within the second generation
-	name = frostwood_name_w_c13_aelwen_child_1_spouse
+tfw_lineofwindan_aelvar_006 = { # Consort within the second generation
+	name = tfw_lineofwindan_aelvar_006_name
 
 	religion = faith_moriquendi
 	culture = windan
@@ -4230,15 +4230,15 @@ frostwood_w_c13_aelwen_child_1_spouse = { # Consort within the second generation
 	}
 }
 
-frostwood_w_c13_aelwen_grandchild_1 = { # Third generation of Aelwen's house
-	name = frostwood_name_w_c13_aelwen_grandchild_1
+tfw_lineofwindan_aelvar_007 = { # Third generation of Aelwen's house
+	name = tfw_lineofwindan_aelvar_007_name
 
 	dynasty = dynasty_windan_aelvar
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_c13_aelwen_child_1_spouse
-	mother = frostwood_w_c13_aelwen_child_1
+	father = tfw_lineofwindan_aelvar_006
+	mother = tfw_lineofwindan_aelvar_003
 
 	sexuality = heterosexual
 
@@ -4262,16 +4262,16 @@ frostwood_w_c13_aelwen_grandchild_1 = { # Third generation of Aelwen's house
 	}
 }
 
-frostwood_w_c13_aelwen_grandchild_2 = { # Third generation of Aelwen's house
-	name = frostwood_name_w_c13_aelwen_grandchild_2
+tfw_lineofwindan_aelvar_008 = { # Third generation of Aelwen's house
+	name = tfw_lineofwindan_aelvar_008_name
 	female = yes
 
 	dynasty = dynasty_windan_aelvar
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_c13_aelwen_child_1_spouse
-	mother = frostwood_w_c13_aelwen_child_1
+	father = tfw_lineofwindan_aelvar_006
+	mother = tfw_lineofwindan_aelvar_003
 
 	sexuality = heterosexual
 
@@ -4295,8 +4295,8 @@ frostwood_w_c13_aelwen_grandchild_2 = { # Third generation of Aelwen's house
 	}
 }
 
-frostwood_w_d4_suldor = { # Holder of c_frostwood_18 and d_west_frostwood_4; ancient Avari founder, true birth predates recorded history
-	name = frostwood_name_suldor
+tfw_lineofwindan_sulvar_001 = { # Holder of c_frostwood_18 and d_west_frostwood_4; ancient Avari founder, true birth predates recorded history
+	name = tfw_lineofwindan_sulvar_001_name
 
 	dynasty = dynasty_windan_sulvar
 	religion = faith_moriquendi
@@ -4324,12 +4324,12 @@ frostwood_w_d4_suldor = { # Holder of c_frostwood_18 and d_west_frostwood_4; anc
 	}
 
 	1403.10.6 = {
-		add_spouse = frostwood_w_d4_suldor_spouse
+		add_spouse = tfw_lineofwindan_sulvar_002
 	}
 }
 
-frostwood_w_d4_suldor_spouse = { # Ancient Avari consort; true birth predates recorded history
-	name = frostwood_name_w_d4_suldor_spouse
+tfw_lineofwindan_sulvar_002 = { # Ancient Avari consort; true birth predates recorded history
+	name = tfw_lineofwindan_sulvar_002_name
 	female = yes
 
 	religion = faith_moriquendi
@@ -4357,15 +4357,15 @@ frostwood_w_d4_suldor_spouse = { # Ancient Avari consort; true birth predates re
 	}
 }
 
-frostwood_w_d4_suldor_child_1 = { # Second generation heir of Suldor's house
-	name = frostwood_name_w_d4_suldor_child_1
+tfw_lineofwindan_sulvar_003 = { # Second generation heir of Suldor's house
+	name = tfw_lineofwindan_sulvar_003_name
 
 	dynasty = dynasty_windan_sulvar
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_d4_suldor
-	mother = frostwood_w_d4_suldor_spouse
+	father = tfw_lineofwindan_sulvar_001
+	mother = tfw_lineofwindan_sulvar_002
 
 	sexuality = heterosexual
 
@@ -4389,20 +4389,20 @@ frostwood_w_d4_suldor_child_1 = { # Second generation heir of Suldor's house
 	}
 
 	2902.6.18 = {
-		add_spouse = frostwood_w_d4_suldor_child_1_spouse
+		add_spouse = tfw_lineofwindan_sulvar_005
 	}
 }
 
-frostwood_w_d4_suldor_child_2 = { # Second generation of Suldor's house
-	name = frostwood_name_w_d4_suldor_child_2
+tfw_lineofwindan_sulvar_004 = { # Second generation of Suldor's house
+	name = tfw_lineofwindan_sulvar_004_name
 	female = yes
 
 	dynasty = dynasty_windan_sulvar
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_d4_suldor
-	mother = frostwood_w_d4_suldor_spouse
+	father = tfw_lineofwindan_sulvar_001
+	mother = tfw_lineofwindan_sulvar_002
 
 	sexuality = heterosexual
 
@@ -4426,8 +4426,8 @@ frostwood_w_d4_suldor_child_2 = { # Second generation of Suldor's house
 	}
 }
 
-frostwood_w_d4_suldor_child_1_spouse = { # Consort within the second generation
-	name = frostwood_name_w_d4_suldor_child_1_spouse
+tfw_lineofwindan_sulvar_005 = { # Consort within the second generation
+	name = tfw_lineofwindan_sulvar_005_name
 	female = yes
 
 	religion = faith_moriquendi
@@ -4455,16 +4455,16 @@ frostwood_w_d4_suldor_child_1_spouse = { # Consort within the second generation
 	}
 }
 
-frostwood_w_d4_suldor_grandchild_1 = { # Third generation of Suldor's house
-	name = frostwood_name_w_d4_suldor_grandchild_1
+tfw_lineofwindan_sulvar_006 = { # Third generation of Suldor's house
+	name = tfw_lineofwindan_sulvar_006_name
 	female = yes
 
 	dynasty = dynasty_windan_sulvar
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_d4_suldor_child_1
-	mother = frostwood_w_d4_suldor_child_1_spouse
+	father = tfw_lineofwindan_sulvar_003
+	mother = tfw_lineofwindan_sulvar_005
 
 	sexuality = heterosexual
 
@@ -4488,15 +4488,15 @@ frostwood_w_d4_suldor_grandchild_1 = { # Third generation of Suldor's house
 	}
 }
 
-frostwood_w_d4_suldor_grandchild_2 = { # Third generation of Suldor's house
-	name = frostwood_name_w_d4_suldor_grandchild_2
+tfw_lineofwindan_sulvar_007 = { # Third generation of Suldor's house
+	name = tfw_lineofwindan_sulvar_007_name
 
 	dynasty = dynasty_windan_sulvar
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_d4_suldor_child_1
-	mother = frostwood_w_d4_suldor_child_1_spouse
+	father = tfw_lineofwindan_sulvar_003
+	mother = tfw_lineofwindan_sulvar_005
 
 	sexuality = heterosexual
 
@@ -4520,8 +4520,8 @@ frostwood_w_d4_suldor_grandchild_2 = { # Third generation of Suldor's house
 	}
 }
 
-frostwood_w_c14_mirion = { # Holder of c_frostwood_14; ancient Avari founder, true birth predates recorded history
-	name = frostwood_name_mirion
+tfw_lineofwindan_mirath_001 = { # Holder of c_frostwood_14; ancient Avari founder, true birth predates recorded history
+	name = tfw_lineofwindan_mirath_001_name
 
 	dynasty = dynasty_windan_mirath
 	religion = faith_moriquendi
@@ -4549,12 +4549,12 @@ frostwood_w_c14_mirion = { # Holder of c_frostwood_14; ancient Avari founder, tr
 	}
 
 	256.5.17 = {
-		add_spouse = frostwood_w_c14_mirion_spouse
+		add_spouse = tfw_lineofwindan_mirath_002
 	}
 }
 
-frostwood_w_c14_mirion_spouse = { # Ancient Avari consort; true birth predates recorded history
-	name = frostwood_name_w_c14_mirion_spouse
+tfw_lineofwindan_mirath_002 = { # Ancient Avari consort; true birth predates recorded history
+	name = tfw_lineofwindan_mirath_002_name
 	female = yes
 
 	religion = faith_moriquendi
@@ -4582,15 +4582,15 @@ frostwood_w_c14_mirion_spouse = { # Ancient Avari consort; true birth predates r
 	}
 }
 
-frostwood_w_c14_mirion_child_1 = { # Second generation heir of Mirion's house
-	name = frostwood_name_w_c14_mirion_child_1
+tfw_lineofwindan_mirath_003 = { # Second generation heir of Mirion's house
+	name = tfw_lineofwindan_mirath_003_name
 
 	dynasty = dynasty_windan_mirath
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_c14_mirion
-	mother = frostwood_w_c14_mirion_spouse
+	father = tfw_lineofwindan_mirath_001
+	mother = tfw_lineofwindan_mirath_002
 
 	sexuality = heterosexual
 
@@ -4614,20 +4614,20 @@ frostwood_w_c14_mirion_child_1 = { # Second generation heir of Mirion's house
 	}
 
 	2214.1.1 = {
-		add_spouse = frostwood_w_c14_mirion_child_1_spouse
+		add_spouse = tfw_lineofwindan_mirath_006
 	}
 }
 
-frostwood_w_c14_mirion_child_2 = { # Second generation of Mirion's house
-	name = frostwood_name_w_c14_mirion_child_2
+tfw_lineofwindan_mirath_004 = { # Second generation of Mirion's house
+	name = tfw_lineofwindan_mirath_004_name
 	female = yes
 
 	dynasty = dynasty_windan_mirath
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_c14_mirion
-	mother = frostwood_w_c14_mirion_spouse
+	father = tfw_lineofwindan_mirath_001
+	mother = tfw_lineofwindan_mirath_002
 
 	sexuality = heterosexual
 
@@ -4651,15 +4651,15 @@ frostwood_w_c14_mirion_child_2 = { # Second generation of Mirion's house
 	}
 }
 
-frostwood_w_c14_mirion_child_3 = { # Second generation of Mirion's house
-	name = frostwood_name_w_c14_mirion_child_3
+tfw_lineofwindan_mirath_005 = { # Second generation of Mirion's house
+	name = tfw_lineofwindan_mirath_005_name
 
 	dynasty = dynasty_windan_mirath
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_c14_mirion
-	mother = frostwood_w_c14_mirion_spouse
+	father = tfw_lineofwindan_mirath_001
+	mother = tfw_lineofwindan_mirath_002
 
 	sexuality = heterosexual
 
@@ -4683,8 +4683,8 @@ frostwood_w_c14_mirion_child_3 = { # Second generation of Mirion's house
 	}
 }
 
-frostwood_w_c14_mirion_child_1_spouse = { # Consort within the second generation
-	name = frostwood_name_w_c14_mirion_child_1_spouse
+tfw_lineofwindan_mirath_006 = { # Consort within the second generation
+	name = tfw_lineofwindan_mirath_006_name
 	female = yes
 
 	religion = faith_moriquendi
@@ -4712,15 +4712,15 @@ frostwood_w_c14_mirion_child_1_spouse = { # Consort within the second generation
 	}
 }
 
-frostwood_w_c14_mirion_grandchild_1 = { # Third generation of Mirion's house
-	name = frostwood_name_w_c14_mirion_grandchild_1
+tfw_lineofwindan_mirath_007 = { # Third generation of Mirion's house
+	name = tfw_lineofwindan_mirath_007_name
 
 	dynasty = dynasty_windan_mirath
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_c14_mirion_child_1
-	mother = frostwood_w_c14_mirion_child_1_spouse
+	father = tfw_lineofwindan_mirath_003
+	mother = tfw_lineofwindan_mirath_006
 
 	sexuality = heterosexual
 
@@ -4744,16 +4744,16 @@ frostwood_w_c14_mirion_grandchild_1 = { # Third generation of Mirion's house
 	}
 }
 
-frostwood_w_c14_mirion_grandchild_2 = { # Third generation of Mirion's house
-	name = frostwood_name_w_c14_mirion_grandchild_2
+tfw_lineofwindan_mirath_008 = { # Third generation of Mirion's house
+	name = tfw_lineofwindan_mirath_008_name
 	female = yes
 
 	dynasty = dynasty_windan_mirath
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_c14_mirion_child_1
-	mother = frostwood_w_c14_mirion_child_1_spouse
+	father = tfw_lineofwindan_mirath_003
+	mother = tfw_lineofwindan_mirath_006
 
 	sexuality = heterosexual
 
@@ -4777,8 +4777,8 @@ frostwood_w_c14_mirion_grandchild_2 = { # Third generation of Mirion's house
 	}
 }
 
-frostwood_w_c15_faelith = { # Holder of c_frostwood_15; ancient Avari founder, true birth predates recorded history
-	name = frostwood_name_faelith
+tfw_lineofwindan_faelor_001 = { # Holder of c_frostwood_15; ancient Avari founder, true birth predates recorded history
+	name = tfw_lineofwindan_faelor_001_name
 	female = yes
 
 	dynasty = dynasty_windan_faelor
@@ -4807,12 +4807,12 @@ frostwood_w_c15_faelith = { # Holder of c_frostwood_15; ancient Avari founder, t
 	}
 
 	489.12.28 = {
-		add_matrilineal_spouse = frostwood_w_c15_faelith_spouse
+		add_matrilineal_spouse = tfw_lineofwindan_faelor_002
 	}
 }
 
-frostwood_w_c15_faelith_spouse = { # Ancient Avari consort; true birth predates recorded history
-	name = frostwood_name_w_c15_faelith_spouse
+tfw_lineofwindan_faelor_002 = { # Ancient Avari consort; true birth predates recorded history
+	name = tfw_lineofwindan_faelor_002_name
 
 	religion = faith_moriquendi
 	culture = windan
@@ -4839,16 +4839,16 @@ frostwood_w_c15_faelith_spouse = { # Ancient Avari consort; true birth predates 
 	}
 }
 
-frostwood_w_c15_faelith_child_1 = { # Second generation heir of Faelith's house
-	name = frostwood_name_w_c15_faelith_child_1
+tfw_lineofwindan_faelor_003 = { # Second generation heir of Faelith's house
+	name = tfw_lineofwindan_faelor_003_name
 	female = yes
 
 	dynasty = dynasty_windan_faelor
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_c15_faelith_spouse
-	mother = frostwood_w_c15_faelith
+	father = tfw_lineofwindan_faelor_002
+	mother = tfw_lineofwindan_faelor_001
 
 	sexuality = heterosexual
 
@@ -4872,19 +4872,19 @@ frostwood_w_c15_faelith_child_1 = { # Second generation heir of Faelith's house
 	}
 
 	2666.8.12 = {
-		add_matrilineal_spouse = frostwood_w_c15_faelith_child_1_spouse
+		add_matrilineal_spouse = tfw_lineofwindan_faelor_005
 	}
 }
 
-frostwood_w_c15_faelith_child_2 = { # Second generation of Faelith's house
-	name = frostwood_name_w_c15_faelith_child_2
+tfw_lineofwindan_faelor_004 = { # Second generation of Faelith's house
+	name = tfw_lineofwindan_faelor_004_name
 
 	dynasty = dynasty_windan_faelor
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_c15_faelith_spouse
-	mother = frostwood_w_c15_faelith
+	father = tfw_lineofwindan_faelor_002
+	mother = tfw_lineofwindan_faelor_001
 
 	sexuality = heterosexual
 
@@ -4908,8 +4908,8 @@ frostwood_w_c15_faelith_child_2 = { # Second generation of Faelith's house
 	}
 }
 
-frostwood_w_c15_faelith_child_1_spouse = { # Consort within the second generation
-	name = frostwood_name_w_c15_faelith_child_1_spouse
+tfw_lineofwindan_faelor_005 = { # Consort within the second generation
+	name = tfw_lineofwindan_faelor_005_name
 
 	religion = faith_moriquendi
 	culture = windan
@@ -4936,16 +4936,16 @@ frostwood_w_c15_faelith_child_1_spouse = { # Consort within the second generatio
 	}
 }
 
-frostwood_w_c15_faelith_grandchild_1 = { # Third generation of Faelith's house
-	name = frostwood_name_w_c15_faelith_grandchild_1
+tfw_lineofwindan_faelor_006 = { # Third generation of Faelith's house
+	name = tfw_lineofwindan_faelor_006_name
 	female = yes
 
 	dynasty = dynasty_windan_faelor
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_c15_faelith_child_1_spouse
-	mother = frostwood_w_c15_faelith_child_1
+	father = tfw_lineofwindan_faelor_005
+	mother = tfw_lineofwindan_faelor_003
 
 	sexuality = heterosexual
 
@@ -4969,15 +4969,15 @@ frostwood_w_c15_faelith_grandchild_1 = { # Third generation of Faelith's house
 	}
 }
 
-frostwood_w_c15_faelith_grandchild_2 = { # Third generation of Faelith's house
-	name = frostwood_name_w_c15_faelith_grandchild_2
+tfw_lineofwindan_faelor_007 = { # Third generation of Faelith's house
+	name = tfw_lineofwindan_faelor_007_name
 
 	dynasty = dynasty_windan_faelor
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_c15_faelith_child_1_spouse
-	mother = frostwood_w_c15_faelith_child_1
+	father = tfw_lineofwindan_faelor_005
+	mother = tfw_lineofwindan_faelor_003
 
 	sexuality = heterosexual
 
@@ -5001,8 +5001,8 @@ frostwood_w_c15_faelith_grandchild_2 = { # Third generation of Faelith's house
 	}
 }
 
-frostwood_w_c16_orwen = { # Holder of c_frostwood_16; ancient Avari founder, true birth predates recorded history
-	name = frostwood_name_orwen
+tfw_lineofwindan_ornaeth_001 = { # Holder of c_frostwood_16; ancient Avari founder, true birth predates recorded history
+	name = tfw_lineofwindan_ornaeth_001_name
 	female = yes
 
 	dynasty = dynasty_windan_ornaeth
@@ -5031,12 +5031,12 @@ frostwood_w_c16_orwen = { # Holder of c_frostwood_16; ancient Avari founder, tru
 	}
 
 	722.7.11 = {
-		add_matrilineal_spouse = frostwood_w_c16_orwen_spouse
+		add_matrilineal_spouse = tfw_lineofwindan_ornaeth_002
 	}
 }
 
-frostwood_w_c16_orwen_spouse = { # Ancient Avari consort; true birth predates recorded history
-	name = frostwood_name_w_c16_orwen_spouse
+tfw_lineofwindan_ornaeth_002 = { # Ancient Avari consort; true birth predates recorded history
+	name = tfw_lineofwindan_ornaeth_002_name
 
 	religion = faith_moriquendi
 	culture = windan
@@ -5063,16 +5063,16 @@ frostwood_w_c16_orwen_spouse = { # Ancient Avari consort; true birth predates re
 	}
 }
 
-frostwood_w_c16_orwen_child_1 = { # Second generation heir of Orwen's house
-	name = frostwood_name_w_c16_orwen_child_1
+tfw_lineofwindan_ornaeth_003 = { # Second generation heir of Orwen's house
+	name = tfw_lineofwindan_ornaeth_003_name
 	female = yes
 
 	dynasty = dynasty_windan_ornaeth
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_c16_orwen_spouse
-	mother = frostwood_w_c16_orwen
+	father = tfw_lineofwindan_ornaeth_002
+	mother = tfw_lineofwindan_ornaeth_001
 
 	sexuality = heterosexual
 
@@ -5096,19 +5096,19 @@ frostwood_w_c16_orwen_child_1 = { # Second generation heir of Orwen's house
 	}
 
 	3358.3.23 = {
-		add_matrilineal_spouse = frostwood_w_c16_orwen_child_1_spouse
+		add_matrilineal_spouse = tfw_lineofwindan_ornaeth_006
 	}
 }
 
-frostwood_w_c16_orwen_child_2 = { # Second generation of Orwen's house
-	name = frostwood_name_w_c16_orwen_child_2
+tfw_lineofwindan_ornaeth_004 = { # Second generation of Orwen's house
+	name = tfw_lineofwindan_ornaeth_004_name
 
 	dynasty = dynasty_windan_ornaeth
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_c16_orwen_spouse
-	mother = frostwood_w_c16_orwen
+	father = tfw_lineofwindan_ornaeth_002
+	mother = tfw_lineofwindan_ornaeth_001
 
 	sexuality = heterosexual
 
@@ -5132,16 +5132,16 @@ frostwood_w_c16_orwen_child_2 = { # Second generation of Orwen's house
 	}
 }
 
-frostwood_w_c16_orwen_child_3 = { # Second generation of Orwen's house
-	name = frostwood_name_w_c16_orwen_child_3
+tfw_lineofwindan_ornaeth_005 = { # Second generation of Orwen's house
+	name = tfw_lineofwindan_ornaeth_005_name
 	female = yes
 
 	dynasty = dynasty_windan_ornaeth
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_c16_orwen_spouse
-	mother = frostwood_w_c16_orwen
+	father = tfw_lineofwindan_ornaeth_002
+	mother = tfw_lineofwindan_ornaeth_001
 
 	sexuality = heterosexual
 
@@ -5165,8 +5165,8 @@ frostwood_w_c16_orwen_child_3 = { # Second generation of Orwen's house
 	}
 }
 
-frostwood_w_c16_orwen_child_1_spouse = { # Consort within the second generation
-	name = frostwood_name_w_c16_orwen_child_1_spouse
+tfw_lineofwindan_ornaeth_006 = { # Consort within the second generation
+	name = tfw_lineofwindan_ornaeth_006_name
 
 	religion = faith_moriquendi
 	culture = windan
@@ -5193,15 +5193,15 @@ frostwood_w_c16_orwen_child_1_spouse = { # Consort within the second generation
 	}
 }
 
-frostwood_w_c16_orwen_grandchild_1 = { # Third generation of Orwen's house
-	name = frostwood_name_w_c16_orwen_grandchild_1
+tfw_lineofwindan_ornaeth_007 = { # Third generation of Orwen's house
+	name = tfw_lineofwindan_ornaeth_007_name
 
 	dynasty = dynasty_windan_ornaeth
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_c16_orwen_child_1_spouse
-	mother = frostwood_w_c16_orwen_child_1
+	father = tfw_lineofwindan_ornaeth_006
+	mother = tfw_lineofwindan_ornaeth_003
 
 	sexuality = heterosexual
 
@@ -5225,16 +5225,16 @@ frostwood_w_c16_orwen_grandchild_1 = { # Third generation of Orwen's house
 	}
 }
 
-frostwood_w_c16_orwen_grandchild_2 = { # Third generation of Orwen's house
-	name = frostwood_name_w_c16_orwen_grandchild_2
+tfw_lineofwindan_ornaeth_008 = { # Third generation of Orwen's house
+	name = tfw_lineofwindan_ornaeth_008_name
 	female = yes
 
 	dynasty = dynasty_windan_ornaeth
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_c16_orwen_child_1_spouse
-	mother = frostwood_w_c16_orwen_child_1
+	father = tfw_lineofwindan_ornaeth_006
+	mother = tfw_lineofwindan_ornaeth_003
 
 	sexuality = heterosexual
 
@@ -5258,8 +5258,8 @@ frostwood_w_c16_orwen_grandchild_2 = { # Third generation of Orwen's house
 	}
 }
 
-frostwood_w_c17_galenor = { # Holder of c_frostwood_17; ancient Avari founder, true birth predates recorded history
-	name = frostwood_name_galenor
+tfw_lineofwindan_galath_001 = { # Holder of c_frostwood_17; ancient Avari founder, true birth predates recorded history
+	name = tfw_lineofwindan_galath_001_name
 
 	dynasty = dynasty_windan_galath
 	religion = faith_moriquendi
@@ -5287,12 +5287,12 @@ frostwood_w_c17_galenor = { # Holder of c_frostwood_17; ancient Avari founder, t
 	}
 
 	955.2.22 = {
-		add_spouse = frostwood_w_c17_galenor_spouse
+		add_spouse = tfw_lineofwindan_galath_002
 	}
 }
 
-frostwood_w_c17_galenor_spouse = { # Ancient Avari consort; true birth predates recorded history
-	name = frostwood_name_w_c17_galenor_spouse
+tfw_lineofwindan_galath_002 = { # Ancient Avari consort; true birth predates recorded history
+	name = tfw_lineofwindan_galath_002_name
 	female = yes
 
 	religion = faith_moriquendi
@@ -5320,15 +5320,15 @@ frostwood_w_c17_galenor_spouse = { # Ancient Avari consort; true birth predates 
 	}
 }
 
-frostwood_w_c17_galenor_child_1 = { # Second generation heir of Galenor's house
-	name = frostwood_name_w_c17_galenor_child_1
+tfw_lineofwindan_galath_003 = { # Second generation heir of Galenor's house
+	name = tfw_lineofwindan_galath_003_name
 
 	dynasty = dynasty_windan_galath
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_c17_galenor
-	mother = frostwood_w_c17_galenor_spouse
+	father = tfw_lineofwindan_galath_001
+	mother = tfw_lineofwindan_galath_002
 
 	sexuality = heterosexual
 
@@ -5352,20 +5352,20 @@ frostwood_w_c17_galenor_child_1 = { # Second generation heir of Galenor's house
 	}
 
 	4050.10.6 = {
-		add_spouse = frostwood_w_c17_galenor_child_1_spouse
+		add_spouse = tfw_lineofwindan_galath_005
 	}
 }
 
-frostwood_w_c17_galenor_child_2 = { # Second generation of Galenor's house
-	name = frostwood_name_w_c17_galenor_child_2
+tfw_lineofwindan_galath_004 = { # Second generation of Galenor's house
+	name = tfw_lineofwindan_galath_004_name
 	female = yes
 
 	dynasty = dynasty_windan_galath
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_c17_galenor
-	mother = frostwood_w_c17_galenor_spouse
+	father = tfw_lineofwindan_galath_001
+	mother = tfw_lineofwindan_galath_002
 
 	sexuality = heterosexual
 
@@ -5389,8 +5389,8 @@ frostwood_w_c17_galenor_child_2 = { # Second generation of Galenor's house
 	}
 }
 
-frostwood_w_c17_galenor_child_1_spouse = { # Consort within the second generation
-	name = frostwood_name_w_c17_galenor_child_1_spouse
+tfw_lineofwindan_galath_005 = { # Consort within the second generation
+	name = tfw_lineofwindan_galath_005_name
 	female = yes
 
 	religion = faith_moriquendi
@@ -5418,16 +5418,16 @@ frostwood_w_c17_galenor_child_1_spouse = { # Consort within the second generatio
 	}
 }
 
-frostwood_w_c17_galenor_grandchild_1 = { # Third generation of Galenor's house
-	name = frostwood_name_w_c17_galenor_grandchild_1
+tfw_lineofwindan_galath_006 = { # Third generation of Galenor's house
+	name = tfw_lineofwindan_galath_006_name
 	female = yes
 
 	dynasty = dynasty_windan_galath
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_c17_galenor_child_1
-	mother = frostwood_w_c17_galenor_child_1_spouse
+	father = tfw_lineofwindan_galath_003
+	mother = tfw_lineofwindan_galath_005
 
 	sexuality = heterosexual
 
@@ -5451,15 +5451,15 @@ frostwood_w_c17_galenor_grandchild_1 = { # Third generation of Galenor's house
 	}
 }
 
-frostwood_w_c17_galenor_grandchild_2 = { # Third generation of Galenor's house
-	name = frostwood_name_w_c17_galenor_grandchild_2
+tfw_lineofwindan_galath_007 = { # Third generation of Galenor's house
+	name = tfw_lineofwindan_galath_007_name
 
 	dynasty = dynasty_windan_galath
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_c17_galenor_child_1
-	mother = frostwood_w_c17_galenor_child_1_spouse
+	father = tfw_lineofwindan_galath_003
+	mother = tfw_lineofwindan_galath_005
 
 	sexuality = heterosexual
 
@@ -5483,8 +5483,8 @@ frostwood_w_c17_galenor_grandchild_2 = { # Third generation of Galenor's house
 	}
 }
 
-frostwood_w_c19_nethiel = { # Holder of c_frostwood_19; ancient Avari founder, true birth predates recorded history
-	name = frostwood_name_nethiel
+tfw_lineofwindan_nethrin_001 = { # Holder of c_frostwood_19; ancient Avari founder, true birth predates recorded history
+	name = tfw_lineofwindan_nethrin_001_name
 	female = yes
 
 	dynasty = dynasty_windan_nethrin
@@ -5513,12 +5513,12 @@ frostwood_w_c19_nethiel = { # Holder of c_frostwood_19; ancient Avari founder, t
 	}
 
 	1188.9.5 = {
-		add_matrilineal_spouse = frostwood_w_c19_nethiel_spouse
+		add_matrilineal_spouse = tfw_lineofwindan_nethrin_002
 	}
 }
 
-frostwood_w_c19_nethiel_spouse = { # Ancient Avari consort; true birth predates recorded history
-	name = frostwood_name_w_c19_nethiel_spouse
+tfw_lineofwindan_nethrin_002 = { # Ancient Avari consort; true birth predates recorded history
+	name = tfw_lineofwindan_nethrin_002_name
 
 	religion = faith_moriquendi
 	culture = windan
@@ -5545,16 +5545,16 @@ frostwood_w_c19_nethiel_spouse = { # Ancient Avari consort; true birth predates 
 	}
 }
 
-frostwood_w_c19_nethiel_child_1 = { # Second generation heir of Nethiel's house
-	name = frostwood_name_w_c19_nethiel_child_1
+tfw_lineofwindan_nethrin_003 = { # Second generation heir of Nethiel's house
+	name = tfw_lineofwindan_nethrin_003_name
 	female = yes
 
 	dynasty = dynasty_windan_nethrin
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_c19_nethiel_spouse
-	mother = frostwood_w_c19_nethiel
+	father = tfw_lineofwindan_nethrin_002
+	mother = tfw_lineofwindan_nethrin_001
 
 	sexuality = heterosexual
 
@@ -5578,19 +5578,19 @@ frostwood_w_c19_nethiel_child_1 = { # Second generation heir of Nethiel's house
 	}
 
 	3092.5.17 = {
-		add_matrilineal_spouse = frostwood_w_c19_nethiel_child_1_spouse
+		add_matrilineal_spouse = tfw_lineofwindan_nethrin_006
 	}
 }
 
-frostwood_w_c19_nethiel_child_2 = { # Second generation of Nethiel's house
-	name = frostwood_name_w_c19_nethiel_child_2
+tfw_lineofwindan_nethrin_004 = { # Second generation of Nethiel's house
+	name = tfw_lineofwindan_nethrin_004_name
 
 	dynasty = dynasty_windan_nethrin
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_c19_nethiel_spouse
-	mother = frostwood_w_c19_nethiel
+	father = tfw_lineofwindan_nethrin_002
+	mother = tfw_lineofwindan_nethrin_001
 
 	sexuality = heterosexual
 
@@ -5614,16 +5614,16 @@ frostwood_w_c19_nethiel_child_2 = { # Second generation of Nethiel's house
 	}
 }
 
-frostwood_w_c19_nethiel_child_3 = { # Second generation of Nethiel's house
-	name = frostwood_name_w_c19_nethiel_child_3
+tfw_lineofwindan_nethrin_005 = { # Second generation of Nethiel's house
+	name = tfw_lineofwindan_nethrin_005_name
 	female = yes
 
 	dynasty = dynasty_windan_nethrin
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_c19_nethiel_spouse
-	mother = frostwood_w_c19_nethiel
+	father = tfw_lineofwindan_nethrin_002
+	mother = tfw_lineofwindan_nethrin_001
 
 	sexuality = heterosexual
 
@@ -5647,8 +5647,8 @@ frostwood_w_c19_nethiel_child_3 = { # Second generation of Nethiel's house
 	}
 }
 
-frostwood_w_c19_nethiel_child_1_spouse = { # Consort within the second generation
-	name = frostwood_name_w_c19_nethiel_child_1_spouse
+tfw_lineofwindan_nethrin_006 = { # Consort within the second generation
+	name = tfw_lineofwindan_nethrin_006_name
 
 	religion = faith_moriquendi
 	culture = windan
@@ -5675,15 +5675,15 @@ frostwood_w_c19_nethiel_child_1_spouse = { # Consort within the second generatio
 	}
 }
 
-frostwood_w_c19_nethiel_grandchild_1 = { # Third generation of Nethiel's house
-	name = frostwood_name_w_c19_nethiel_grandchild_1
+tfw_lineofwindan_nethrin_007 = { # Third generation of Nethiel's house
+	name = tfw_lineofwindan_nethrin_007_name
 
 	dynasty = dynasty_windan_nethrin
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_c19_nethiel_child_1_spouse
-	mother = frostwood_w_c19_nethiel_child_1
+	father = tfw_lineofwindan_nethrin_006
+	mother = tfw_lineofwindan_nethrin_003
 
 	sexuality = heterosexual
 
@@ -5707,16 +5707,16 @@ frostwood_w_c19_nethiel_grandchild_1 = { # Third generation of Nethiel's house
 	}
 }
 
-frostwood_w_c19_nethiel_grandchild_2 = { # Third generation of Nethiel's house
-	name = frostwood_name_w_c19_nethiel_grandchild_2
+tfw_lineofwindan_nethrin_008 = { # Third generation of Nethiel's house
+	name = tfw_lineofwindan_nethrin_008_name
 	female = yes
 
 	dynasty = dynasty_windan_nethrin
 	religion = faith_moriquendi
 	culture = windan
 
-	father = frostwood_w_c19_nethiel_child_1_spouse
-	mother = frostwood_w_c19_nethiel_child_1
+	father = tfw_lineofwindan_nethrin_006
+	mother = tfw_lineofwindan_nethrin_003
 
 	sexuality = heterosexual
 
@@ -5740,8 +5740,8 @@ frostwood_w_c19_nethiel_grandchild_2 = { # Third generation of Nethiel's house
 	}
 }
 
-frostwood_e_c23_hwana = { # Holder of c_frostwood_23; ancient Avari founder, true birth predates recorded history
-	name = frostwood_name_hwana
+tfw_lineofhwenti_hwanaar_001 = { # Holder of c_frostwood_23; ancient Avari founder, true birth predates recorded history
+	name = tfw_lineofhwenti_hwanaar_001_name
 	female = yes
 
 	dynasty = dynasty_hwenti_hwanaar
@@ -5770,12 +5770,12 @@ frostwood_e_c23_hwana = { # Holder of c_frostwood_23; ancient Avari founder, tru
 	}
 
 	1421.4.16 = {
-		add_matrilineal_spouse = frostwood_e_c23_hwana_spouse
+		add_matrilineal_spouse = tfw_lineofhwenti_hwanaar_002
 	}
 }
 
-frostwood_e_c23_hwana_spouse = { # Ancient Avari consort; true birth predates recorded history
-	name = frostwood_name_e_c23_hwana_spouse
+tfw_lineofhwenti_hwanaar_002 = { # Ancient Avari consort; true birth predates recorded history
+	name = tfw_lineofhwenti_hwanaar_002_name
 
 	religion = faith_moriquendi
 	culture = hwenti
@@ -5802,16 +5802,16 @@ frostwood_e_c23_hwana_spouse = { # Ancient Avari consort; true birth predates re
 	}
 }
 
-frostwood_e_c23_hwana_child_1 = { # Second generation heir of Hwana's house
-	name = frostwood_name_e_c23_hwana_child_1
+tfw_lineofhwenti_hwanaar_003 = { # Second generation heir of Hwana's house
+	name = tfw_lineofhwenti_hwanaar_003_name
 	female = yes
 
 	dynasty = dynasty_hwenti_hwanaar
 	religion = faith_moriquendi
 	culture = hwenti
 
-	father = frostwood_e_c23_hwana_spouse
-	mother = frostwood_e_c23_hwana
+	father = tfw_lineofhwenti_hwanaar_002
+	mother = tfw_lineofhwenti_hwanaar_001
 
 	sexuality = heterosexual
 
@@ -5835,19 +5835,19 @@ frostwood_e_c23_hwana_child_1 = { # Second generation heir of Hwana's house
 	}
 
 	2864.12.28 = {
-		add_matrilineal_spouse = frostwood_e_c23_hwana_child_1_spouse
+		add_matrilineal_spouse = tfw_lineofhwenti_hwanaar_005
 	}
 }
 
-frostwood_e_c23_hwana_child_2 = { # Second generation of Hwana's house
-	name = frostwood_name_e_c23_hwana_child_2
+tfw_lineofhwenti_hwanaar_004 = { # Second generation of Hwana's house
+	name = tfw_lineofhwenti_hwanaar_004_name
 
 	dynasty = dynasty_hwenti_hwanaar
 	religion = faith_moriquendi
 	culture = hwenti
 
-	father = frostwood_e_c23_hwana_spouse
-	mother = frostwood_e_c23_hwana
+	father = tfw_lineofhwenti_hwanaar_002
+	mother = tfw_lineofhwenti_hwanaar_001
 
 	sexuality = heterosexual
 
@@ -5871,8 +5871,8 @@ frostwood_e_c23_hwana_child_2 = { # Second generation of Hwana's house
 	}
 }
 
-frostwood_e_c23_hwana_child_1_spouse = { # Consort within the second generation
-	name = frostwood_name_e_c23_hwana_child_1_spouse
+tfw_lineofhwenti_hwanaar_005 = { # Consort within the second generation
+	name = tfw_lineofhwenti_hwanaar_005_name
 
 	religion = faith_moriquendi
 	culture = hwenti
@@ -5899,16 +5899,16 @@ frostwood_e_c23_hwana_child_1_spouse = { # Consort within the second generation
 	}
 }
 
-frostwood_e_c23_hwana_grandchild_1 = { # Third generation of Hwana's house
-	name = frostwood_name_e_c23_hwana_grandchild_1
+tfw_lineofhwenti_hwanaar_006 = { # Third generation of Hwana's house
+	name = tfw_lineofhwenti_hwanaar_006_name
 	female = yes
 
 	dynasty = dynasty_hwenti_hwanaar
 	religion = faith_moriquendi
 	culture = hwenti
 
-	father = frostwood_e_c23_hwana_child_1_spouse
-	mother = frostwood_e_c23_hwana_child_1
+	father = tfw_lineofhwenti_hwanaar_005
+	mother = tfw_lineofhwenti_hwanaar_003
 
 	sexuality = heterosexual
 
@@ -5932,15 +5932,15 @@ frostwood_e_c23_hwana_grandchild_1 = { # Third generation of Hwana's house
 	}
 }
 
-frostwood_e_c23_hwana_grandchild_2 = { # Third generation of Hwana's house
-	name = frostwood_name_e_c23_hwana_grandchild_2
+tfw_lineofhwenti_hwanaar_007 = { # Third generation of Hwana's house
+	name = tfw_lineofhwenti_hwanaar_007_name
 
 	dynasty = dynasty_hwenti_hwanaar
 	religion = faith_moriquendi
 	culture = hwenti
 
-	father = frostwood_e_c23_hwana_child_1_spouse
-	mother = frostwood_e_c23_hwana_child_1
+	father = tfw_lineofhwenti_hwanaar_005
+	mother = tfw_lineofhwenti_hwanaar_003
 
 	sexuality = heterosexual
 
@@ -5964,8 +5964,8 @@ frostwood_e_c23_hwana_grandchild_2 = { # Third generation of Hwana's house
 	}
 }
 
-frostwood_e_c24_kuiron = { # Holder of c_frostwood_24; ancient Avari founder, true birth predates recorded history
-	name = frostwood_name_kuiron
+tfw_lineofhwenti_kuiren_001 = { # Holder of c_frostwood_24; ancient Avari founder, true birth predates recorded history
+	name = tfw_lineofhwenti_kuiren_001_name
 
 	dynasty = dynasty_hwenti_kuiren
 	religion = faith_moriquendi
@@ -5993,12 +5993,12 @@ frostwood_e_c24_kuiron = { # Holder of c_frostwood_24; ancient Avari founder, tr
 	}
 
 	274.11.27 = {
-		add_spouse = frostwood_e_c24_kuiron_spouse
+		add_spouse = tfw_lineofhwenti_kuiren_002
 	}
 }
 
-frostwood_e_c24_kuiron_spouse = { # Ancient Avari consort; true birth predates recorded history
-	name = frostwood_name_e_c24_kuiron_spouse
+tfw_lineofhwenti_kuiren_002 = { # Ancient Avari consort; true birth predates recorded history
+	name = tfw_lineofhwenti_kuiren_002_name
 	female = yes
 
 	religion = faith_moriquendi
@@ -6026,15 +6026,15 @@ frostwood_e_c24_kuiron_spouse = { # Ancient Avari consort; true birth predates r
 	}
 }
 
-frostwood_e_c24_kuiron_child_1 = { # Second generation heir of Kuiron's house
-	name = frostwood_name_e_c24_kuiron_child_1
+tfw_lineofhwenti_kuiren_003 = { # Second generation heir of Kuiron's house
+	name = tfw_lineofhwenti_kuiren_003_name
 
 	dynasty = dynasty_hwenti_kuiren
 	religion = faith_moriquendi
 	culture = hwenti
 
-	father = frostwood_e_c24_kuiron
-	mother = frostwood_e_c24_kuiron_spouse
+	father = tfw_lineofhwenti_kuiren_001
+	mother = tfw_lineofhwenti_kuiren_002
 
 	sexuality = heterosexual
 
@@ -6058,20 +6058,20 @@ frostwood_e_c24_kuiron_child_1 = { # Second generation heir of Kuiron's house
 	}
 
 	2176.7.11 = {
-		add_spouse = frostwood_e_c24_kuiron_child_1_spouse
+		add_spouse = tfw_lineofhwenti_kuiren_006
 	}
 }
 
-frostwood_e_c24_kuiron_child_2 = { # Second generation of Kuiron's house
-	name = frostwood_name_e_c24_kuiron_child_2
+tfw_lineofhwenti_kuiren_004 = { # Second generation of Kuiron's house
+	name = tfw_lineofhwenti_kuiren_004_name
 	female = yes
 
 	dynasty = dynasty_hwenti_kuiren
 	religion = faith_moriquendi
 	culture = hwenti
 
-	father = frostwood_e_c24_kuiron
-	mother = frostwood_e_c24_kuiron_spouse
+	father = tfw_lineofhwenti_kuiren_001
+	mother = tfw_lineofhwenti_kuiren_002
 
 	sexuality = heterosexual
 
@@ -6095,15 +6095,15 @@ frostwood_e_c24_kuiron_child_2 = { # Second generation of Kuiron's house
 	}
 }
 
-frostwood_e_c24_kuiron_child_3 = { # Second generation of Kuiron's house
-	name = frostwood_name_e_c24_kuiron_child_3
+tfw_lineofhwenti_kuiren_005 = { # Second generation of Kuiron's house
+	name = tfw_lineofhwenti_kuiren_005_name
 
 	dynasty = dynasty_hwenti_kuiren
 	religion = faith_moriquendi
 	culture = hwenti
 
-	father = frostwood_e_c24_kuiron
-	mother = frostwood_e_c24_kuiron_spouse
+	father = tfw_lineofhwenti_kuiren_001
+	mother = tfw_lineofhwenti_kuiren_002
 
 	sexuality = heterosexual
 
@@ -6127,8 +6127,8 @@ frostwood_e_c24_kuiron_child_3 = { # Second generation of Kuiron's house
 	}
 }
 
-frostwood_e_c24_kuiron_child_1_spouse = { # Consort within the second generation
-	name = frostwood_name_e_c24_kuiron_child_1_spouse
+tfw_lineofhwenti_kuiren_006 = { # Consort within the second generation
+	name = tfw_lineofhwenti_kuiren_006_name
 	female = yes
 
 	religion = faith_moriquendi
@@ -6156,15 +6156,15 @@ frostwood_e_c24_kuiron_child_1_spouse = { # Consort within the second generation
 	}
 }
 
-frostwood_e_c24_kuiron_grandchild_1 = { # Third generation of Kuiron's house
-	name = frostwood_name_e_c24_kuiron_grandchild_1
+tfw_lineofhwenti_kuiren_007 = { # Third generation of Kuiron's house
+	name = tfw_lineofhwenti_kuiren_007_name
 
 	dynasty = dynasty_hwenti_kuiren
 	religion = faith_moriquendi
 	culture = hwenti
 
-	father = frostwood_e_c24_kuiron_child_1
-	mother = frostwood_e_c24_kuiron_child_1_spouse
+	father = tfw_lineofhwenti_kuiren_003
+	mother = tfw_lineofhwenti_kuiren_006
 
 	sexuality = heterosexual
 
@@ -6188,16 +6188,16 @@ frostwood_e_c24_kuiron_grandchild_1 = { # Third generation of Kuiron's house
 	}
 }
 
-frostwood_e_c24_kuiron_grandchild_2 = { # Third generation of Kuiron's house
-	name = frostwood_name_e_c24_kuiron_grandchild_2
+tfw_lineofhwenti_kuiren_008 = { # Third generation of Kuiron's house
+	name = tfw_lineofhwenti_kuiren_008_name
 	female = yes
 
 	dynasty = dynasty_hwenti_kuiren
 	religion = faith_moriquendi
 	culture = hwenti
 
-	father = frostwood_e_c24_kuiron_child_1
-	mother = frostwood_e_c24_kuiron_child_1_spouse
+	father = tfw_lineofhwenti_kuiren_003
+	mother = tfw_lineofhwenti_kuiren_006
 
 	sexuality = heterosexual
 
@@ -6221,8 +6221,8 @@ frostwood_e_c24_kuiron_grandchild_2 = { # Third generation of Kuiron's house
 	}
 }
 
-frostwood_e_d2_velethi = { # Holder of c_frostwood_25 and d_east_frostwood_2; ancient Avari founder, true birth predates recorded history
-	name = frostwood_name_velethi
+tfw_lineofhwenti_velenwi_001 = { # Holder of c_frostwood_25 and d_east_frostwood_2; ancient Avari founder, true birth predates recorded history
+	name = tfw_lineofhwenti_velenwi_001_name
 	female = yes
 
 	dynasty = dynasty_hwenti_velenwi
@@ -6251,12 +6251,12 @@ frostwood_e_d2_velethi = { # Holder of c_frostwood_25 and d_east_frostwood_2; an
 	}
 
 	507.6.10 = {
-		add_matrilineal_spouse = frostwood_e_d2_velethi_spouse
+		add_matrilineal_spouse = tfw_lineofhwenti_velenwi_002
 	}
 }
 
-frostwood_e_d2_velethi_spouse = { # Ancient Avari consort; true birth predates recorded history
-	name = frostwood_name_e_d2_velethi_spouse
+tfw_lineofhwenti_velenwi_002 = { # Ancient Avari consort; true birth predates recorded history
+	name = tfw_lineofhwenti_velenwi_002_name
 
 	religion = faith_moriquendi
 	culture = hwenti
@@ -6283,16 +6283,16 @@ frostwood_e_d2_velethi_spouse = { # Ancient Avari consort; true birth predates r
 	}
 }
 
-frostwood_e_d2_velethi_child_1 = { # Second generation heir of Velethi's house
-	name = frostwood_name_e_d2_velethi_child_1
+tfw_lineofhwenti_velenwi_003 = { # Second generation heir of Velethi's house
+	name = tfw_lineofhwenti_velenwi_003_name
 	female = yes
 
 	dynasty = dynasty_hwenti_velenwi
 	religion = faith_moriquendi
 	culture = hwenti
 
-	father = frostwood_e_d2_velethi_spouse
-	mother = frostwood_e_d2_velethi
+	father = tfw_lineofhwenti_velenwi_002
+	mother = tfw_lineofhwenti_velenwi_001
 
 	sexuality = heterosexual
 
@@ -6316,19 +6316,19 @@ frostwood_e_d2_velethi_child_1 = { # Second generation heir of Velethi's house
 	}
 
 	2868.2.22 = {
-		add_matrilineal_spouse = frostwood_e_d2_velethi_child_1_spouse
+		add_matrilineal_spouse = tfw_lineofhwenti_velenwi_005
 	}
 }
 
-frostwood_e_d2_velethi_child_2 = { # Second generation of Velethi's house
-	name = frostwood_name_e_d2_velethi_child_2
+tfw_lineofhwenti_velenwi_004 = { # Second generation of Velethi's house
+	name = tfw_lineofhwenti_velenwi_004_name
 
 	dynasty = dynasty_hwenti_velenwi
 	religion = faith_moriquendi
 	culture = hwenti
 
-	father = frostwood_e_d2_velethi_spouse
-	mother = frostwood_e_d2_velethi
+	father = tfw_lineofhwenti_velenwi_002
+	mother = tfw_lineofhwenti_velenwi_001
 
 	sexuality = heterosexual
 
@@ -6352,8 +6352,8 @@ frostwood_e_d2_velethi_child_2 = { # Second generation of Velethi's house
 	}
 }
 
-frostwood_e_d2_velethi_child_1_spouse = { # Consort within the second generation
-	name = frostwood_name_e_d2_velethi_child_1_spouse
+tfw_lineofhwenti_velenwi_005 = { # Consort within the second generation
+	name = tfw_lineofhwenti_velenwi_005_name
 
 	religion = faith_moriquendi
 	culture = hwenti
@@ -6380,16 +6380,16 @@ frostwood_e_d2_velethi_child_1_spouse = { # Consort within the second generation
 	}
 }
 
-frostwood_e_d2_velethi_grandchild_1 = { # Third generation of Velethi's house
-	name = frostwood_name_e_d2_velethi_grandchild_1
+tfw_lineofhwenti_velenwi_006 = { # Third generation of Velethi's house
+	name = tfw_lineofhwenti_velenwi_006_name
 	female = yes
 
 	dynasty = dynasty_hwenti_velenwi
 	religion = faith_moriquendi
 	culture = hwenti
 
-	father = frostwood_e_d2_velethi_child_1_spouse
-	mother = frostwood_e_d2_velethi_child_1
+	father = tfw_lineofhwenti_velenwi_005
+	mother = tfw_lineofhwenti_velenwi_003
 
 	sexuality = heterosexual
 
@@ -6413,15 +6413,15 @@ frostwood_e_d2_velethi_grandchild_1 = { # Third generation of Velethi's house
 	}
 }
 
-frostwood_e_d2_velethi_grandchild_2 = { # Third generation of Velethi's house
-	name = frostwood_name_e_d2_velethi_grandchild_2
+tfw_lineofhwenti_velenwi_007 = { # Third generation of Velethi's house
+	name = tfw_lineofhwenti_velenwi_007_name
 
 	dynasty = dynasty_hwenti_velenwi
 	religion = faith_moriquendi
 	culture = hwenti
 
-	father = frostwood_e_d2_velethi_child_1_spouse
-	mother = frostwood_e_d2_velethi_child_1
+	father = tfw_lineofhwenti_velenwi_005
+	mother = tfw_lineofhwenti_velenwi_003
 
 	sexuality = heterosexual
 
@@ -6445,8 +6445,8 @@ frostwood_e_d2_velethi_grandchild_2 = { # Third generation of Velethi's house
 	}
 }
 
-frostwood_e_c26_nauri = { # Holder of c_frostwood_26; ancient Avari founder, true birth predates recorded history
-	name = frostwood_name_nauri
+tfw_lineofhwenti_nauriva_001 = { # Holder of c_frostwood_26; ancient Avari founder, true birth predates recorded history
+	name = tfw_lineofhwenti_nauriva_001_name
 	female = yes
 
 	dynasty = dynasty_hwenti_nauriva
@@ -6475,12 +6475,12 @@ frostwood_e_c26_nauri = { # Holder of c_frostwood_26; ancient Avari founder, tru
 	}
 
 	740.1.21 = {
-		add_matrilineal_spouse = frostwood_e_c26_nauri_spouse
+		add_matrilineal_spouse = tfw_lineofhwenti_nauriva_002
 	}
 }
 
-frostwood_e_c26_nauri_spouse = { # Ancient Avari consort; true birth predates recorded history
-	name = frostwood_name_e_c26_nauri_spouse
+tfw_lineofhwenti_nauriva_002 = { # Ancient Avari consort; true birth predates recorded history
+	name = tfw_lineofhwenti_nauriva_002_name
 
 	religion = faith_moriquendi
 	culture = hwenti
@@ -6507,16 +6507,16 @@ frostwood_e_c26_nauri_spouse = { # Ancient Avari consort; true birth predates re
 	}
 }
 
-frostwood_e_c26_nauri_child_1 = { # Second generation heir of Nauri's house
-	name = frostwood_name_e_c26_nauri_child_1
+tfw_lineofhwenti_nauriva_003 = { # Second generation heir of Nauri's house
+	name = tfw_lineofhwenti_nauriva_003_name
 	female = yes
 
 	dynasty = dynasty_hwenti_nauriva
 	religion = faith_moriquendi
 	culture = hwenti
 
-	father = frostwood_e_c26_nauri_spouse
-	mother = frostwood_e_c26_nauri
+	father = tfw_lineofhwenti_nauriva_002
+	mother = tfw_lineofhwenti_nauriva_001
 
 	sexuality = heterosexual
 
@@ -6540,19 +6540,19 @@ frostwood_e_c26_nauri_child_1 = { # Second generation heir of Nauri's house
 	}
 
 	3560.9.5 = {
-		add_matrilineal_spouse = frostwood_e_c26_nauri_child_1_spouse
+		add_matrilineal_spouse = tfw_lineofhwenti_nauriva_006
 	}
 }
 
-frostwood_e_c26_nauri_child_2 = { # Second generation of Nauri's house
-	name = frostwood_name_e_c26_nauri_child_2
+tfw_lineofhwenti_nauriva_004 = { # Second generation of Nauri's house
+	name = tfw_lineofhwenti_nauriva_004_name
 
 	dynasty = dynasty_hwenti_nauriva
 	religion = faith_moriquendi
 	culture = hwenti
 
-	father = frostwood_e_c26_nauri_spouse
-	mother = frostwood_e_c26_nauri
+	father = tfw_lineofhwenti_nauriva_002
+	mother = tfw_lineofhwenti_nauriva_001
 
 	sexuality = heterosexual
 
@@ -6576,16 +6576,16 @@ frostwood_e_c26_nauri_child_2 = { # Second generation of Nauri's house
 	}
 }
 
-frostwood_e_c26_nauri_child_3 = { # Second generation of Nauri's house
-	name = frostwood_name_e_c26_nauri_child_3
+tfw_lineofhwenti_nauriva_005 = { # Second generation of Nauri's house
+	name = tfw_lineofhwenti_nauriva_005_name
 	female = yes
 
 	dynasty = dynasty_hwenti_nauriva
 	religion = faith_moriquendi
 	culture = hwenti
 
-	father = frostwood_e_c26_nauri_spouse
-	mother = frostwood_e_c26_nauri
+	father = tfw_lineofhwenti_nauriva_002
+	mother = tfw_lineofhwenti_nauriva_001
 
 	sexuality = heterosexual
 
@@ -6609,8 +6609,8 @@ frostwood_e_c26_nauri_child_3 = { # Second generation of Nauri's house
 	}
 }
 
-frostwood_e_c26_nauri_child_1_spouse = { # Consort within the second generation
-	name = frostwood_name_e_c26_nauri_child_1_spouse
+tfw_lineofhwenti_nauriva_006 = { # Consort within the second generation
+	name = tfw_lineofhwenti_nauriva_006_name
 
 	religion = faith_moriquendi
 	culture = hwenti
@@ -6637,15 +6637,15 @@ frostwood_e_c26_nauri_child_1_spouse = { # Consort within the second generation
 	}
 }
 
-frostwood_e_c26_nauri_grandchild_1 = { # Third generation of Nauri's house
-	name = frostwood_name_e_c26_nauri_grandchild_1
+tfw_lineofhwenti_nauriva_007 = { # Third generation of Nauri's house
+	name = tfw_lineofhwenti_nauriva_007_name
 
 	dynasty = dynasty_hwenti_nauriva
 	religion = faith_moriquendi
 	culture = hwenti
 
-	father = frostwood_e_c26_nauri_child_1_spouse
-	mother = frostwood_e_c26_nauri_child_1
+	father = tfw_lineofhwenti_nauriva_006
+	mother = tfw_lineofhwenti_nauriva_003
 
 	sexuality = heterosexual
 
@@ -6669,16 +6669,16 @@ frostwood_e_c26_nauri_grandchild_1 = { # Third generation of Nauri's house
 	}
 }
 
-frostwood_e_c26_nauri_grandchild_2 = { # Third generation of Nauri's house
-	name = frostwood_name_e_c26_nauri_grandchild_2
+tfw_lineofhwenti_nauriva_008 = { # Third generation of Nauri's house
+	name = tfw_lineofhwenti_nauriva_008_name
 	female = yes
 
 	dynasty = dynasty_hwenti_nauriva
 	religion = faith_moriquendi
 	culture = hwenti
 
-	father = frostwood_e_c26_nauri_child_1_spouse
-	mother = frostwood_e_c26_nauri_child_1
+	father = tfw_lineofhwenti_nauriva_006
+	mother = tfw_lineofhwenti_nauriva_003
 
 	sexuality = heterosexual
 
@@ -6702,8 +6702,8 @@ frostwood_e_c26_nauri_grandchild_2 = { # Third generation of Nauri's house
 	}
 }
 
-frostwood_e_c27_hweni = { # Holder of c_frostwood_27; ancient Avari founder, true birth predates recorded history
-	name = frostwood_name_hweni
+tfw_lineofhwenti_hweneth_001 = { # Holder of c_frostwood_27; ancient Avari founder, true birth predates recorded history
+	name = tfw_lineofhwenti_hweneth_001_name
 	female = yes
 
 	dynasty = dynasty_hwenti_hweneth
@@ -6732,12 +6732,12 @@ frostwood_e_c27_hweni = { # Holder of c_frostwood_27; ancient Avari founder, tru
 	}
 
 	973.8.4 = {
-		add_matrilineal_spouse = frostwood_e_c27_hweni_spouse
+		add_matrilineal_spouse = tfw_lineofhwenti_hweneth_002
 	}
 }
 
-frostwood_e_c27_hweni_spouse = { # Ancient Avari consort; true birth predates recorded history
-	name = frostwood_name_e_c27_hweni_spouse
+tfw_lineofhwenti_hweneth_002 = { # Ancient Avari consort; true birth predates recorded history
+	name = tfw_lineofhwenti_hweneth_002_name
 
 	religion = faith_moriquendi
 	culture = hwenti
@@ -6764,16 +6764,16 @@ frostwood_e_c27_hweni_spouse = { # Ancient Avari consort; true birth predates re
 	}
 }
 
-frostwood_e_c27_hweni_child_1 = { # Second generation heir of Hweni's house
-	name = frostwood_name_e_c27_hweni_child_1
+tfw_lineofhwenti_hweneth_003 = { # Second generation heir of Hweni's house
+	name = tfw_lineofhwenti_hweneth_003_name
 	female = yes
 
 	dynasty = dynasty_hwenti_hweneth
 	religion = faith_moriquendi
 	culture = hwenti
 
-	father = frostwood_e_c27_hweni_spouse
-	mother = frostwood_e_c27_hweni
+	father = tfw_lineofhwenti_hweneth_002
+	mother = tfw_lineofhwenti_hweneth_001
 
 	sexuality = heterosexual
 
@@ -6797,19 +6797,19 @@ frostwood_e_c27_hweni_child_1 = { # Second generation heir of Hweni's house
 	}
 
 	2362.4.16 = {
-		add_matrilineal_spouse = frostwood_e_c27_hweni_child_1_spouse
+		add_matrilineal_spouse = tfw_lineofhwenti_hweneth_005
 	}
 }
 
-frostwood_e_c27_hweni_child_2 = { # Second generation of Hweni's house
-	name = frostwood_name_e_c27_hweni_child_2
+tfw_lineofhwenti_hweneth_004 = { # Second generation of Hweni's house
+	name = tfw_lineofhwenti_hweneth_004_name
 
 	dynasty = dynasty_hwenti_hweneth
 	religion = faith_moriquendi
 	culture = hwenti
 
-	father = frostwood_e_c27_hweni_spouse
-	mother = frostwood_e_c27_hweni
+	father = tfw_lineofhwenti_hweneth_002
+	mother = tfw_lineofhwenti_hweneth_001
 
 	sexuality = heterosexual
 
@@ -6833,8 +6833,8 @@ frostwood_e_c27_hweni_child_2 = { # Second generation of Hweni's house
 	}
 }
 
-frostwood_e_c27_hweni_child_1_spouse = { # Consort within the second generation
-	name = frostwood_name_e_c27_hweni_child_1_spouse
+tfw_lineofhwenti_hweneth_005 = { # Consort within the second generation
+	name = tfw_lineofhwenti_hweneth_005_name
 
 	religion = faith_moriquendi
 	culture = hwenti
@@ -6861,16 +6861,16 @@ frostwood_e_c27_hweni_child_1_spouse = { # Consort within the second generation
 	}
 }
 
-frostwood_e_c27_hweni_grandchild_1 = { # Third generation of Hweni's house
-	name = frostwood_name_e_c27_hweni_grandchild_1
+tfw_lineofhwenti_hweneth_006 = { # Third generation of Hweni's house
+	name = tfw_lineofhwenti_hweneth_006_name
 	female = yes
 
 	dynasty = dynasty_hwenti_hweneth
 	religion = faith_moriquendi
 	culture = hwenti
 
-	father = frostwood_e_c27_hweni_child_1_spouse
-	mother = frostwood_e_c27_hweni_child_1
+	father = tfw_lineofhwenti_hweneth_005
+	mother = tfw_lineofhwenti_hweneth_003
 
 	sexuality = heterosexual
 
@@ -6894,15 +6894,15 @@ frostwood_e_c27_hweni_grandchild_1 = { # Third generation of Hweni's house
 	}
 }
 
-frostwood_e_c27_hweni_grandchild_2 = { # Third generation of Hweni's house
-	name = frostwood_name_e_c27_hweni_grandchild_2
+tfw_lineofhwenti_hweneth_007 = { # Third generation of Hweni's house
+	name = tfw_lineofhwenti_hweneth_007_name
 
 	dynasty = dynasty_hwenti_hweneth
 	religion = faith_moriquendi
 	culture = hwenti
 
-	father = frostwood_e_c27_hweni_child_1_spouse
-	mother = frostwood_e_c27_hweni_child_1
+	father = tfw_lineofhwenti_hweneth_005
+	mother = tfw_lineofhwenti_hweneth_003
 
 	sexuality = heterosexual
 
@@ -6926,8 +6926,8 @@ frostwood_e_c27_hweni_grandchild_2 = { # Third generation of Hweni's house
 	}
 }
 
-frostwood_e_c28_orel = { # Holder of c_frostwood_28; ancient Avari founder, true birth predates recorded history
-	name = frostwood_name_orel
+tfw_lineofhwenti_orelwi_001 = { # Holder of c_frostwood_28; ancient Avari founder, true birth predates recorded history
+	name = tfw_lineofhwenti_orelwi_001_name
 
 	dynasty = dynasty_hwenti_orelwi
 	religion = faith_moriquendi
@@ -6955,12 +6955,12 @@ frostwood_e_c28_orel = { # Holder of c_frostwood_28; ancient Avari founder, true
 	}
 
 	1206.3.15 = {
-		add_spouse = frostwood_e_c28_orel_spouse
+		add_spouse = tfw_lineofhwenti_orelwi_002
 	}
 }
 
-frostwood_e_c28_orel_spouse = { # Ancient Avari consort; true birth predates recorded history
-	name = frostwood_name_e_c28_orel_spouse
+tfw_lineofhwenti_orelwi_002 = { # Ancient Avari consort; true birth predates recorded history
+	name = tfw_lineofhwenti_orelwi_002_name
 	female = yes
 
 	religion = faith_moriquendi
@@ -6988,15 +6988,15 @@ frostwood_e_c28_orel_spouse = { # Ancient Avari consort; true birth predates rec
 	}
 }
 
-frostwood_e_c28_orel_child_1 = { # Second generation heir of Orel's house
-	name = frostwood_name_e_c28_orel_child_1
+tfw_lineofhwenti_orelwi_003 = { # Second generation heir of Orel's house
+	name = tfw_lineofhwenti_orelwi_003_name
 
 	dynasty = dynasty_hwenti_orelwi
 	religion = faith_moriquendi
 	culture = hwenti
 
-	father = frostwood_e_c28_orel
-	mother = frostwood_e_c28_orel_spouse
+	father = tfw_lineofhwenti_orelwi_001
+	mother = tfw_lineofhwenti_orelwi_002
 
 	sexuality = heterosexual
 
@@ -7020,20 +7020,20 @@ frostwood_e_c28_orel_child_1 = { # Second generation heir of Orel's house
 	}
 
 	3054.11.27 = {
-		add_spouse = frostwood_e_c28_orel_child_1_spouse
+		add_spouse = tfw_lineofhwenti_orelwi_006
 	}
 }
 
-frostwood_e_c28_orel_child_2 = { # Second generation of Orel's house
-	name = frostwood_name_e_c28_orel_child_2
+tfw_lineofhwenti_orelwi_004 = { # Second generation of Orel's house
+	name = tfw_lineofhwenti_orelwi_004_name
 	female = yes
 
 	dynasty = dynasty_hwenti_orelwi
 	religion = faith_moriquendi
 	culture = hwenti
 
-	father = frostwood_e_c28_orel
-	mother = frostwood_e_c28_orel_spouse
+	father = tfw_lineofhwenti_orelwi_001
+	mother = tfw_lineofhwenti_orelwi_002
 
 	sexuality = heterosexual
 
@@ -7057,15 +7057,15 @@ frostwood_e_c28_orel_child_2 = { # Second generation of Orel's house
 	}
 }
 
-frostwood_e_c28_orel_child_3 = { # Second generation of Orel's house
-	name = frostwood_name_e_c28_orel_child_3
+tfw_lineofhwenti_orelwi_005 = { # Second generation of Orel's house
+	name = tfw_lineofhwenti_orelwi_005_name
 
 	dynasty = dynasty_hwenti_orelwi
 	religion = faith_moriquendi
 	culture = hwenti
 
-	father = frostwood_e_c28_orel
-	mother = frostwood_e_c28_orel_spouse
+	father = tfw_lineofhwenti_orelwi_001
+	mother = tfw_lineofhwenti_orelwi_002
 
 	sexuality = heterosexual
 
@@ -7089,8 +7089,8 @@ frostwood_e_c28_orel_child_3 = { # Second generation of Orel's house
 	}
 }
 
-frostwood_e_c28_orel_child_1_spouse = { # Consort within the second generation
-	name = frostwood_name_e_c28_orel_child_1_spouse
+tfw_lineofhwenti_orelwi_006 = { # Consort within the second generation
+	name = tfw_lineofhwenti_orelwi_006_name
 	female = yes
 
 	religion = faith_moriquendi
@@ -7118,15 +7118,15 @@ frostwood_e_c28_orel_child_1_spouse = { # Consort within the second generation
 	}
 }
 
-frostwood_e_c28_orel_grandchild_1 = { # Third generation of Orel's house
-	name = frostwood_name_e_c28_orel_grandchild_1
+tfw_lineofhwenti_orelwi_007 = { # Third generation of Orel's house
+	name = tfw_lineofhwenti_orelwi_007_name
 
 	dynasty = dynasty_hwenti_orelwi
 	religion = faith_moriquendi
 	culture = hwenti
 
-	father = frostwood_e_c28_orel_child_1
-	mother = frostwood_e_c28_orel_child_1_spouse
+	father = tfw_lineofhwenti_orelwi_003
+	mother = tfw_lineofhwenti_orelwi_006
 
 	sexuality = heterosexual
 
@@ -7150,16 +7150,16 @@ frostwood_e_c28_orel_grandchild_1 = { # Third generation of Orel's house
 	}
 }
 
-frostwood_e_c28_orel_grandchild_2 = { # Third generation of Orel's house
-	name = frostwood_name_e_c28_orel_grandchild_2
+tfw_lineofhwenti_orelwi_008 = { # Third generation of Orel's house
+	name = tfw_lineofhwenti_orelwi_008_name
 	female = yes
 
 	dynasty = dynasty_hwenti_orelwi
 	religion = faith_moriquendi
 	culture = hwenti
 
-	father = frostwood_e_c28_orel_child_1
-	mother = frostwood_e_c28_orel_child_1_spouse
+	father = tfw_lineofhwenti_orelwi_003
+	mother = tfw_lineofhwenti_orelwi_006
 
 	sexuality = heterosexual
 
@@ -7183,8 +7183,8 @@ frostwood_e_c28_orel_grandchild_2 = { # Third generation of Orel's house
 	}
 }
 
-frostwood_e_d3_kwendir = { # Holder of c_frostwood_31 and d_east_frostwood_3; ancient Avari founder, true birth predates recorded history
-	name = frostwood_name_kwendir
+tfw_lineofhwenti_kwendir_001 = { # Holder of c_frostwood_31 and d_east_frostwood_3; ancient Avari founder, true birth predates recorded history
+	name = tfw_lineofhwenti_kwendir_001_name
 
 	dynasty = dynasty_hwenti_kwendir
 	religion = faith_moriquendi
@@ -7212,12 +7212,12 @@ frostwood_e_d3_kwendir = { # Holder of c_frostwood_31 and d_east_frostwood_3; an
 	}
 
 	1439.10.26 = {
-		add_spouse = frostwood_e_d3_kwendir_spouse
+		add_spouse = tfw_lineofhwenti_kwendir_002
 	}
 }
 
-frostwood_e_d3_kwendir_spouse = { # Ancient Avari consort; true birth predates recorded history
-	name = frostwood_name_e_d3_kwendir_spouse
+tfw_lineofhwenti_kwendir_002 = { # Ancient Avari consort; true birth predates recorded history
+	name = tfw_lineofhwenti_kwendir_002_name
 	female = yes
 
 	religion = faith_moriquendi
@@ -7245,15 +7245,15 @@ frostwood_e_d3_kwendir_spouse = { # Ancient Avari consort; true birth predates r
 	}
 }
 
-frostwood_e_d3_kwendir_child_1 = { # Second generation heir of Kwendir's house
-	name = frostwood_name_e_d3_kwendir_child_1
+tfw_lineofhwenti_kwendir_003 = { # Second generation heir of Kwendir's house
+	name = tfw_lineofhwenti_kwendir_003_name
 
 	dynasty = dynasty_hwenti_kwendir
 	religion = faith_moriquendi
 	culture = hwenti
 
-	father = frostwood_e_d3_kwendir
-	mother = frostwood_e_d3_kwendir_spouse
+	father = tfw_lineofhwenti_kwendir_001
+	mother = tfw_lineofhwenti_kwendir_002
 
 	sexuality = heterosexual
 
@@ -7277,20 +7277,20 @@ frostwood_e_d3_kwendir_child_1 = { # Second generation heir of Kwendir's house
 	}
 
 	3746.6.10 = {
-		add_spouse = frostwood_e_d3_kwendir_child_1_spouse
+		add_spouse = tfw_lineofhwenti_kwendir_005
 	}
 }
 
-frostwood_e_d3_kwendir_child_2 = { # Second generation of Kwendir's house
-	name = frostwood_name_e_d3_kwendir_child_2
+tfw_lineofhwenti_kwendir_004 = { # Second generation of Kwendir's house
+	name = tfw_lineofhwenti_kwendir_004_name
 	female = yes
 
 	dynasty = dynasty_hwenti_kwendir
 	religion = faith_moriquendi
 	culture = hwenti
 
-	father = frostwood_e_d3_kwendir
-	mother = frostwood_e_d3_kwendir_spouse
+	father = tfw_lineofhwenti_kwendir_001
+	mother = tfw_lineofhwenti_kwendir_002
 
 	sexuality = heterosexual
 
@@ -7314,8 +7314,8 @@ frostwood_e_d3_kwendir_child_2 = { # Second generation of Kwendir's house
 	}
 }
 
-frostwood_e_d3_kwendir_child_1_spouse = { # Consort within the second generation
-	name = frostwood_name_e_d3_kwendir_child_1_spouse
+tfw_lineofhwenti_kwendir_005 = { # Consort within the second generation
+	name = tfw_lineofhwenti_kwendir_005_name
 	female = yes
 
 	religion = faith_moriquendi
@@ -7343,16 +7343,16 @@ frostwood_e_d3_kwendir_child_1_spouse = { # Consort within the second generation
 	}
 }
 
-frostwood_e_d3_kwendir_grandchild_1 = { # Third generation of Kwendir's house
-	name = frostwood_name_e_d3_kwendir_grandchild_1
+tfw_lineofhwenti_kwendir_006 = { # Third generation of Kwendir's house
+	name = tfw_lineofhwenti_kwendir_006_name
 	female = yes
 
 	dynasty = dynasty_hwenti_kwendir
 	religion = faith_moriquendi
 	culture = hwenti
 
-	father = frostwood_e_d3_kwendir_child_1
-	mother = frostwood_e_d3_kwendir_child_1_spouse
+	father = tfw_lineofhwenti_kwendir_003
+	mother = tfw_lineofhwenti_kwendir_005
 
 	sexuality = heterosexual
 
@@ -7376,15 +7376,15 @@ frostwood_e_d3_kwendir_grandchild_1 = { # Third generation of Kwendir's house
 	}
 }
 
-frostwood_e_d3_kwendir_grandchild_2 = { # Third generation of Kwendir's house
-	name = frostwood_name_e_d3_kwendir_grandchild_2
+tfw_lineofhwenti_kwendir_007 = { # Third generation of Kwendir's house
+	name = tfw_lineofhwenti_kwendir_007_name
 
 	dynasty = dynasty_hwenti_kwendir
 	religion = faith_moriquendi
 	culture = hwenti
 
-	father = frostwood_e_d3_kwendir_child_1
-	mother = frostwood_e_d3_kwendir_child_1_spouse
+	father = tfw_lineofhwenti_kwendir_003
+	mother = tfw_lineofhwenti_kwendir_005
 
 	sexuality = heterosexual
 
@@ -7408,8 +7408,8 @@ frostwood_e_d3_kwendir_grandchild_2 = { # Third generation of Kwendir's house
 	}
 }
 
-frostwood_e_c29_saila = { # Holder of c_frostwood_29; ancient Avari founder, true birth predates recorded history
-	name = frostwood_name_saila
+tfw_lineofhwenti_sailen_001 = { # Holder of c_frostwood_29; ancient Avari founder, true birth predates recorded history
+	name = tfw_lineofhwenti_sailen_001_name
 	female = yes
 
 	dynasty = dynasty_hwenti_sailen
@@ -7438,12 +7438,12 @@ frostwood_e_c29_saila = { # Holder of c_frostwood_29; ancient Avari founder, tru
 	}
 
 	292.5.9 = {
-		add_matrilineal_spouse = frostwood_e_c29_saila_spouse
+		add_matrilineal_spouse = tfw_lineofhwenti_sailen_002
 	}
 }
 
-frostwood_e_c29_saila_spouse = { # Ancient Avari consort; true birth predates recorded history
-	name = frostwood_name_e_c29_saila_spouse
+tfw_lineofhwenti_sailen_002 = { # Ancient Avari consort; true birth predates recorded history
+	name = tfw_lineofhwenti_sailen_002_name
 
 	religion = faith_moriquendi
 	culture = hwenti
@@ -7470,16 +7470,16 @@ frostwood_e_c29_saila_spouse = { # Ancient Avari consort; true birth predates re
 	}
 }
 
-frostwood_e_c29_saila_child_1 = { # Second generation heir of Saila's house
-	name = frostwood_name_e_c29_saila_child_1
+tfw_lineofhwenti_sailen_003 = { # Second generation heir of Saila's house
+	name = tfw_lineofhwenti_sailen_003_name
 	female = yes
 
 	dynasty = dynasty_hwenti_sailen
 	religion = faith_moriquendi
 	culture = hwenti
 
-	father = frostwood_e_c29_saila_spouse
-	mother = frostwood_e_c29_saila
+	father = tfw_lineofhwenti_sailen_002
+	mother = tfw_lineofhwenti_sailen_001
 
 	sexuality = heterosexual
 
@@ -7503,19 +7503,19 @@ frostwood_e_c29_saila_child_1 = { # Second generation heir of Saila's house
 	}
 
 	3058.1.21 = {
-		add_matrilineal_spouse = frostwood_e_c29_saila_child_1_spouse
+		add_matrilineal_spouse = tfw_lineofhwenti_sailen_006
 	}
 }
 
-frostwood_e_c29_saila_child_2 = { # Second generation of Saila's house
-	name = frostwood_name_e_c29_saila_child_2
+tfw_lineofhwenti_sailen_004 = { # Second generation of Saila's house
+	name = tfw_lineofhwenti_sailen_004_name
 
 	dynasty = dynasty_hwenti_sailen
 	religion = faith_moriquendi
 	culture = hwenti
 
-	father = frostwood_e_c29_saila_spouse
-	mother = frostwood_e_c29_saila
+	father = tfw_lineofhwenti_sailen_002
+	mother = tfw_lineofhwenti_sailen_001
 
 	sexuality = heterosexual
 
@@ -7539,16 +7539,16 @@ frostwood_e_c29_saila_child_2 = { # Second generation of Saila's house
 	}
 }
 
-frostwood_e_c29_saila_child_3 = { # Second generation of Saila's house
-	name = frostwood_name_e_c29_saila_child_3
+tfw_lineofhwenti_sailen_005 = { # Second generation of Saila's house
+	name = tfw_lineofhwenti_sailen_005_name
 	female = yes
 
 	dynasty = dynasty_hwenti_sailen
 	religion = faith_moriquendi
 	culture = hwenti
 
-	father = frostwood_e_c29_saila_spouse
-	mother = frostwood_e_c29_saila
+	father = tfw_lineofhwenti_sailen_002
+	mother = tfw_lineofhwenti_sailen_001
 
 	sexuality = heterosexual
 
@@ -7572,8 +7572,8 @@ frostwood_e_c29_saila_child_3 = { # Second generation of Saila's house
 	}
 }
 
-frostwood_e_c29_saila_child_1_spouse = { # Consort within the second generation
-	name = frostwood_name_e_c29_saila_child_1_spouse
+tfw_lineofhwenti_sailen_006 = { # Consort within the second generation
+	name = tfw_lineofhwenti_sailen_006_name
 
 	religion = faith_moriquendi
 	culture = hwenti
@@ -7600,15 +7600,15 @@ frostwood_e_c29_saila_child_1_spouse = { # Consort within the second generation
 	}
 }
 
-frostwood_e_c29_saila_grandchild_1 = { # Third generation of Saila's house
-	name = frostwood_name_e_c29_saila_grandchild_1
+tfw_lineofhwenti_sailen_007 = { # Third generation of Saila's house
+	name = tfw_lineofhwenti_sailen_007_name
 
 	dynasty = dynasty_hwenti_sailen
 	religion = faith_moriquendi
 	culture = hwenti
 
-	father = frostwood_e_c29_saila_child_1_spouse
-	mother = frostwood_e_c29_saila_child_1
+	father = tfw_lineofhwenti_sailen_006
+	mother = tfw_lineofhwenti_sailen_003
 
 	sexuality = heterosexual
 
@@ -7632,16 +7632,16 @@ frostwood_e_c29_saila_grandchild_1 = { # Third generation of Saila's house
 	}
 }
 
-frostwood_e_c29_saila_grandchild_2 = { # Third generation of Saila's house
-	name = frostwood_name_e_c29_saila_grandchild_2
+tfw_lineofhwenti_sailen_008 = { # Third generation of Saila's house
+	name = tfw_lineofhwenti_sailen_008_name
 	female = yes
 
 	dynasty = dynasty_hwenti_sailen
 	religion = faith_moriquendi
 	culture = hwenti
 
-	father = frostwood_e_c29_saila_child_1_spouse
-	mother = frostwood_e_c29_saila_child_1
+	father = tfw_lineofhwenti_sailen_006
+	mother = tfw_lineofhwenti_sailen_003
 
 	sexuality = heterosexual
 
@@ -7665,8 +7665,8 @@ frostwood_e_c29_saila_grandchild_2 = { # Third generation of Saila's house
 	}
 }
 
-frostwood_e_c30_vairu = { # Holder of c_frostwood_30; ancient Avari founder, true birth predates recorded history
-	name = frostwood_name_vairu
+tfw_lineofhwenti_vairanta_001 = { # Holder of c_frostwood_30; ancient Avari founder, true birth predates recorded history
+	name = tfw_lineofhwenti_vairanta_001_name
 
 	dynasty = dynasty_hwenti_vairanta
 	religion = faith_moriquendi
@@ -7694,12 +7694,12 @@ frostwood_e_c30_vairu = { # Holder of c_frostwood_30; ancient Avari founder, tru
 	}
 
 	525.12.20 = {
-		add_spouse = frostwood_e_c30_vairu_spouse
+		add_spouse = tfw_lineofhwenti_vairanta_002
 	}
 }
 
-frostwood_e_c30_vairu_spouse = { # Ancient Avari consort; true birth predates recorded history
-	name = frostwood_name_e_c30_vairu_spouse
+tfw_lineofhwenti_vairanta_002 = { # Ancient Avari consort; true birth predates recorded history
+	name = tfw_lineofhwenti_vairanta_002_name
 	female = yes
 
 	religion = faith_moriquendi
@@ -7727,15 +7727,15 @@ frostwood_e_c30_vairu_spouse = { # Ancient Avari consort; true birth predates re
 	}
 }
 
-frostwood_e_c30_vairu_child_1 = { # Second generation heir of Vairu's house
-	name = frostwood_name_e_c30_vairu_child_1
+tfw_lineofhwenti_vairanta_003 = { # Second generation heir of Vairu's house
+	name = tfw_lineofhwenti_vairanta_003_name
 
 	dynasty = dynasty_hwenti_vairanta
 	religion = faith_moriquendi
 	culture = hwenti
 
-	father = frostwood_e_c30_vairu
-	mother = frostwood_e_c30_vairu_spouse
+	father = tfw_lineofhwenti_vairanta_001
+	mother = tfw_lineofhwenti_vairanta_002
 
 	sexuality = heterosexual
 
@@ -7759,20 +7759,20 @@ frostwood_e_c30_vairu_child_1 = { # Second generation heir of Vairu's house
 	}
 
 	2830.8.4 = {
-		add_spouse = frostwood_e_c30_vairu_child_1_spouse
+		add_spouse = tfw_lineofhwenti_vairanta_005
 	}
 }
 
-frostwood_e_c30_vairu_child_2 = { # Second generation of Vairu's house
-	name = frostwood_name_e_c30_vairu_child_2
+tfw_lineofhwenti_vairanta_004 = { # Second generation of Vairu's house
+	name = tfw_lineofhwenti_vairanta_004_name
 	female = yes
 
 	dynasty = dynasty_hwenti_vairanta
 	religion = faith_moriquendi
 	culture = hwenti
 
-	father = frostwood_e_c30_vairu
-	mother = frostwood_e_c30_vairu_spouse
+	father = tfw_lineofhwenti_vairanta_001
+	mother = tfw_lineofhwenti_vairanta_002
 
 	sexuality = heterosexual
 
@@ -7796,8 +7796,8 @@ frostwood_e_c30_vairu_child_2 = { # Second generation of Vairu's house
 	}
 }
 
-frostwood_e_c30_vairu_child_1_spouse = { # Consort within the second generation
-	name = frostwood_name_e_c30_vairu_child_1_spouse
+tfw_lineofhwenti_vairanta_005 = { # Consort within the second generation
+	name = tfw_lineofhwenti_vairanta_005_name
 	female = yes
 
 	religion = faith_moriquendi
@@ -7825,16 +7825,16 @@ frostwood_e_c30_vairu_child_1_spouse = { # Consort within the second generation
 	}
 }
 
-frostwood_e_c30_vairu_grandchild_1 = { # Third generation of Vairu's house
-	name = frostwood_name_e_c30_vairu_grandchild_1
+tfw_lineofhwenti_vairanta_006 = { # Third generation of Vairu's house
+	name = tfw_lineofhwenti_vairanta_006_name
 	female = yes
 
 	dynasty = dynasty_hwenti_vairanta
 	religion = faith_moriquendi
 	culture = hwenti
 
-	father = frostwood_e_c30_vairu_child_1
-	mother = frostwood_e_c30_vairu_child_1_spouse
+	father = tfw_lineofhwenti_vairanta_003
+	mother = tfw_lineofhwenti_vairanta_005
 
 	sexuality = heterosexual
 
@@ -7858,15 +7858,15 @@ frostwood_e_c30_vairu_grandchild_1 = { # Third generation of Vairu's house
 	}
 }
 
-frostwood_e_c30_vairu_grandchild_2 = { # Third generation of Vairu's house
-	name = frostwood_name_e_c30_vairu_grandchild_2
+tfw_lineofhwenti_vairanta_007 = { # Third generation of Vairu's house
+	name = tfw_lineofhwenti_vairanta_007_name
 
 	dynasty = dynasty_hwenti_vairanta
 	religion = faith_moriquendi
 	culture = hwenti
 
-	father = frostwood_e_c30_vairu_child_1
-	mother = frostwood_e_c30_vairu_child_1_spouse
+	father = tfw_lineofhwenti_vairanta_003
+	mother = tfw_lineofhwenti_vairanta_005
 
 	sexuality = heterosexual
 
@@ -7890,8 +7890,8 @@ frostwood_e_c30_vairu_grandchild_2 = { # Third generation of Vairu's house
 	}
 }
 
-frostwood_e_c32_lethwi = { # Holder of c_frostwood_32; ancient Avari founder, true birth predates recorded history
-	name = frostwood_name_lethwi
+tfw_lineofhwenti_lethwin_001 = { # Holder of c_frostwood_32; ancient Avari founder, true birth predates recorded history
+	name = tfw_lineofhwenti_lethwin_001_name
 	female = yes
 
 	dynasty = dynasty_hwenti_lethwin
@@ -7920,12 +7920,12 @@ frostwood_e_c32_lethwi = { # Holder of c_frostwood_32; ancient Avari founder, tr
 	}
 
 	758.7.3 = {
-		add_matrilineal_spouse = frostwood_e_c32_lethwi_spouse
+		add_matrilineal_spouse = tfw_lineofhwenti_lethwin_002
 	}
 }
 
-frostwood_e_c32_lethwi_spouse = { # Ancient Avari consort; true birth predates recorded history
-	name = frostwood_name_e_c32_lethwi_spouse
+tfw_lineofhwenti_lethwin_002 = { # Ancient Avari consort; true birth predates recorded history
+	name = tfw_lineofhwenti_lethwin_002_name
 
 	religion = faith_moriquendi
 	culture = hwenti
@@ -7952,16 +7952,16 @@ frostwood_e_c32_lethwi_spouse = { # Ancient Avari consort; true birth predates r
 	}
 }
 
-frostwood_e_c32_lethwi_child_1 = { # Second generation heir of Lethwi's house
-	name = frostwood_name_e_c32_lethwi_child_1
+tfw_lineofhwenti_lethwin_003 = { # Second generation heir of Lethwi's house
+	name = tfw_lineofhwenti_lethwin_003_name
 	female = yes
 
 	dynasty = dynasty_hwenti_lethwin
 	religion = faith_moriquendi
 	culture = hwenti
 
-	father = frostwood_e_c32_lethwi_spouse
-	mother = frostwood_e_c32_lethwi
+	father = tfw_lineofhwenti_lethwin_002
+	mother = tfw_lineofhwenti_lethwin_001
 
 	sexuality = heterosexual
 
@@ -7985,19 +7985,19 @@ frostwood_e_c32_lethwi_child_1 = { # Second generation heir of Lethwi's house
 	}
 
 	3522.3.15 = {
-		add_matrilineal_spouse = frostwood_e_c32_lethwi_child_1_spouse
+		add_matrilineal_spouse = tfw_lineofhwenti_lethwin_006
 	}
 }
 
-frostwood_e_c32_lethwi_child_2 = { # Second generation of Lethwi's house
-	name = frostwood_name_e_c32_lethwi_child_2
+tfw_lineofhwenti_lethwin_004 = { # Second generation of Lethwi's house
+	name = tfw_lineofhwenti_lethwin_004_name
 
 	dynasty = dynasty_hwenti_lethwin
 	religion = faith_moriquendi
 	culture = hwenti
 
-	father = frostwood_e_c32_lethwi_spouse
-	mother = frostwood_e_c32_lethwi
+	father = tfw_lineofhwenti_lethwin_002
+	mother = tfw_lineofhwenti_lethwin_001
 
 	sexuality = heterosexual
 
@@ -8021,16 +8021,16 @@ frostwood_e_c32_lethwi_child_2 = { # Second generation of Lethwi's house
 	}
 }
 
-frostwood_e_c32_lethwi_child_3 = { # Second generation of Lethwi's house
-	name = frostwood_name_e_c32_lethwi_child_3
+tfw_lineofhwenti_lethwin_005 = { # Second generation of Lethwi's house
+	name = tfw_lineofhwenti_lethwin_005_name
 	female = yes
 
 	dynasty = dynasty_hwenti_lethwin
 	religion = faith_moriquendi
 	culture = hwenti
 
-	father = frostwood_e_c32_lethwi_spouse
-	mother = frostwood_e_c32_lethwi
+	father = tfw_lineofhwenti_lethwin_002
+	mother = tfw_lineofhwenti_lethwin_001
 
 	sexuality = heterosexual
 
@@ -8054,8 +8054,8 @@ frostwood_e_c32_lethwi_child_3 = { # Second generation of Lethwi's house
 	}
 }
 
-frostwood_e_c32_lethwi_child_1_spouse = { # Consort within the second generation
-	name = frostwood_name_e_c32_lethwi_child_1_spouse
+tfw_lineofhwenti_lethwin_006 = { # Consort within the second generation
+	name = tfw_lineofhwenti_lethwin_006_name
 
 	religion = faith_moriquendi
 	culture = hwenti
@@ -8082,15 +8082,15 @@ frostwood_e_c32_lethwi_child_1_spouse = { # Consort within the second generation
 	}
 }
 
-frostwood_e_c32_lethwi_grandchild_1 = { # Third generation of Lethwi's house
-	name = frostwood_name_e_c32_lethwi_grandchild_1
+tfw_lineofhwenti_lethwin_007 = { # Third generation of Lethwi's house
+	name = tfw_lineofhwenti_lethwin_007_name
 
 	dynasty = dynasty_hwenti_lethwin
 	religion = faith_moriquendi
 	culture = hwenti
 
-	father = frostwood_e_c32_lethwi_child_1_spouse
-	mother = frostwood_e_c32_lethwi_child_1
+	father = tfw_lineofhwenti_lethwin_006
+	mother = tfw_lineofhwenti_lethwin_003
 
 	sexuality = heterosexual
 
@@ -8114,16 +8114,16 @@ frostwood_e_c32_lethwi_grandchild_1 = { # Third generation of Lethwi's house
 	}
 }
 
-frostwood_e_c32_lethwi_grandchild_2 = { # Third generation of Lethwi's house
-	name = frostwood_name_e_c32_lethwi_grandchild_2
+tfw_lineofhwenti_lethwin_008 = { # Third generation of Lethwi's house
+	name = tfw_lineofhwenti_lethwin_008_name
 	female = yes
 
 	dynasty = dynasty_hwenti_lethwin
 	religion = faith_moriquendi
 	culture = hwenti
 
-	father = frostwood_e_c32_lethwi_child_1_spouse
-	mother = frostwood_e_c32_lethwi_child_1
+	father = tfw_lineofhwenti_lethwin_006
+	mother = tfw_lineofhwenti_lethwin_003
 
 	sexuality = heterosexual
 

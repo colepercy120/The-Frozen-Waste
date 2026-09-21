@@ -14,8 +14,8 @@
 ##### GENERATION 1 #####
 ############################################
 
-gauredain_waithor_g1 = { # Generation 1 continuation
-	name = Dawor
+tfw_lineofgauredain_waithor_001 = { # Generation 1 continuation
+	name = tfw_lineofgauredain_waithor_001_name
 
 	dynasty = dynasty_gauredain_waithor
 	religion = faith_werewolves
@@ -39,7 +39,7 @@ gauredain_waithor_g1 = { # Generation 1 continuation
 	}
 
 	6722.3.28 = {
-		add_spouse = gauredain_waithor_g1_spouse
+		add_spouse = tfw_lineofgauredain_waithor_002
 	}
 
 	6768.1.15 = {
@@ -47,8 +47,8 @@ gauredain_waithor_g1 = { # Generation 1 continuation
 	}
 }
 
-gauredain_waithor_g1_spouse = { # Lowborn spouse
-	name = Innis
+tfw_lineofgauredain_waithor_002 = { # Lowborn spouse
+	name = tfw_lineofgauredain_waithor_002_name
 	female = yes
 
 	religion = faith_werewolves
@@ -75,15 +75,15 @@ gauredain_waithor_g1_spouse = { # Lowborn spouse
 	}
 }
 
-gauredain_waithor_g1_child1 = { # Sibling of generation 2 continuation
-	name = Menthor
+tfw_lineofgauredain_waithor_003 = { # Sibling of generation 2 continuation
+	name = tfw_lineofgauredain_waithor_003_name
 
 	dynasty = dynasty_gauredain_waithor
 	religion = faith_werewolves
 	culture = gauredain
 
-	father = gauredain_waithor_g1
-	mother = gauredain_waithor_g1_spouse
+	father = tfw_lineofgauredain_waithor_001
+	mother = tfw_lineofgauredain_waithor_002
 
 	trait = generous
 	trait = fickle
@@ -106,8 +106,8 @@ gauredain_waithor_g1_child1 = { # Sibling of generation 2 continuation
 	}
 }
 
-gauredain_waithor_g1_child2 = { # Sibling of generation 2 continuation
-	name = Belis
+tfw_lineofgauredain_waithor_004 = { # Sibling of generation 2 continuation
+	name = tfw_lineofgauredain_waithor_004_name
 	female = yes
 
 	dynasty = dynasty_gauredain_waithor
@@ -115,8 +115,8 @@ gauredain_waithor_g1_child2 = { # Sibling of generation 2 continuation
 	culture = gauredain
 	trait = skinchanger
 
-	father = gauredain_waithor_g1
-	mother = gauredain_waithor_g1_spouse
+	father = tfw_lineofgauredain_waithor_001
+	mother = tfw_lineofgauredain_waithor_002
 
 	trait = compassionate
 	trait = honest
@@ -143,16 +143,16 @@ gauredain_waithor_g1_child2 = { # Sibling of generation 2 continuation
 ##### GENERATION 2 #####
 ############################################
 
-gauredain_waithor_g2 = { # Generation 2 continuation
-	name = Loman
+tfw_lineofgauredain_waithor_005 = { # Generation 2 continuation
+	name = tfw_lineofgauredain_waithor_005_name
 
 	dynasty = dynasty_gauredain_waithor
 	religion = faith_werewolves
 	culture = gauredain
 	trait = skinchanger
 
-	father = gauredain_waithor_g1
-	mother = gauredain_waithor_g1_spouse
+	father = tfw_lineofgauredain_waithor_001
+	mother = tfw_lineofgauredain_waithor_002
 
 	trait = patient
 	trait = humble
@@ -171,7 +171,7 @@ gauredain_waithor_g2 = { # Generation 2 continuation
 	}
 
 	6752.5.12 = {
-		add_spouse = gauredain_waithor_g2_spouse
+		add_spouse = tfw_lineofgauredain_waithor_006
 	}
 
 	6797.9.23 = {
@@ -179,8 +179,8 @@ gauredain_waithor_g2 = { # Generation 2 continuation
 	}
 }
 
-gauredain_waithor_g2_spouse = { # Lowborn spouse
-	name = Helyane
+tfw_lineofgauredain_waithor_006 = { # Lowborn spouse
+	name = tfw_lineofgauredain_waithor_006_name
 	female = yes
 
 	religion = faith_werewolves
@@ -207,16 +207,16 @@ gauredain_waithor_g2_spouse = { # Lowborn spouse
 	}
 }
 
-gauredain_waithor_g2_child1 = { # Sibling of generation 3 continuation
-	name = Dion
+tfw_lineofgauredain_waithor_007 = { # Sibling of generation 3 continuation
+	name = tfw_lineofgauredain_waithor_007_name
 
 	dynasty = dynasty_gauredain_waithor
 	religion = faith_werewolves
 	culture = gauredain
 	trait = skinchanger
 
-	father = gauredain_waithor_g2
-	mother = gauredain_waithor_g2_spouse
+	father = tfw_lineofgauredain_waithor_005
+	mother = tfw_lineofgauredain_waithor_006
 
 	trait = temperate
 	trait = impatient
@@ -239,16 +239,16 @@ gauredain_waithor_g2_child1 = { # Sibling of generation 3 continuation
 	}
 }
 
-gauredain_waithor_g2_child2 = { # Sibling of generation 3 continuation
-	name = Elrede
+tfw_lineofgauredain_waithor_008 = { # Sibling of generation 3 continuation
+	name = tfw_lineofgauredain_waithor_008_name
 
 	dynasty = dynasty_gauredain_waithor
 	religion = faith_werewolves
 	culture = gauredain
 	trait = skinchanger
 
-	father = gauredain_waithor_g2
-	mother = gauredain_waithor_g2_spouse
+	father = tfw_lineofgauredain_waithor_005
+	mother = tfw_lineofgauredain_waithor_006
 
 	trait = shy
 	trait = wrathful
@@ -271,8 +271,8 @@ gauredain_waithor_g2_child2 = { # Sibling of generation 3 continuation
 	}
 }
 
-gauredain_waithor_g2_child3 = { # Sibling of generation 3 continuation
-	name = Anes
+tfw_lineofgauredain_waithor_009 = { # Sibling of generation 3 continuation
+	name = tfw_lineofgauredain_waithor_009_name
 	female = yes
 
 	dynasty = dynasty_gauredain_waithor
@@ -280,8 +280,8 @@ gauredain_waithor_g2_child3 = { # Sibling of generation 3 continuation
 	culture = gauredain
 	trait = skinchanger
 
-	father = gauredain_waithor_g2
-	mother = gauredain_waithor_g2_spouse
+	father = tfw_lineofgauredain_waithor_005
+	mother = tfw_lineofgauredain_waithor_006
 
 	trait = humble
 	trait = stubborn
@@ -308,16 +308,16 @@ gauredain_waithor_g2_child3 = { # Sibling of generation 3 continuation
 ##### GENERATION 3 #####
 ############################################
 
-gauredain_waithor_g3 = { # Generation 3 continuation
-	name = Menthor
+tfw_lineofgauredain_waithor_010 = { # Generation 3 continuation
+	name = tfw_lineofgauredain_waithor_010_name
 
 	dynasty = dynasty_gauredain_waithor
 	religion = faith_werewolves
 	culture = gauredain
 	trait = skinchanger
 
-	father = gauredain_waithor_g2
-	mother = gauredain_waithor_g2_spouse
+	father = tfw_lineofgauredain_waithor_005
+	mother = tfw_lineofgauredain_waithor_006
 
 	trait = trusting
 	trait = compassionate
@@ -336,7 +336,7 @@ gauredain_waithor_g3 = { # Generation 3 continuation
 	}
 
 	6780.3.2 = {
-		add_spouse = gauredain_waithor_g3_spouse
+		add_spouse = tfw_lineofgauredain_waithor_011
 	}
 
 	6834.7.23 = {
@@ -344,8 +344,8 @@ gauredain_waithor_g3 = { # Generation 3 continuation
 	}
 }
 
-gauredain_waithor_g3_spouse = { # Lowborn spouse
-	name = Eneli
+tfw_lineofgauredain_waithor_011 = { # Lowborn spouse
+	name = tfw_lineofgauredain_waithor_011_name
 	female = yes
 
 	religion = faith_werewolves
@@ -372,8 +372,8 @@ gauredain_waithor_g3_spouse = { # Lowborn spouse
 	}
 }
 
-gauredain_waithor_g3_child1 = { # Sibling of generation 4 continuation
-	name = Helyane
+tfw_lineofgauredain_waithor_012 = { # Sibling of generation 4 continuation
+	name = tfw_lineofgauredain_waithor_012_name
 	female = yes
 
 	dynasty = dynasty_gauredain_waithor
@@ -381,8 +381,8 @@ gauredain_waithor_g3_child1 = { # Sibling of generation 4 continuation
 	culture = gauredain
 	trait = skinchanger
 
-	father = gauredain_waithor_g3
-	mother = gauredain_waithor_g3_spouse
+	father = tfw_lineofgauredain_waithor_010
+	mother = tfw_lineofgauredain_waithor_011
 
 	trait = patient
 	trait = greedy
@@ -405,8 +405,8 @@ gauredain_waithor_g3_child1 = { # Sibling of generation 4 continuation
 	}
 }
 
-gauredain_waithor_g3_child2 = { # Sibling of generation 4 continuation
-	name = Nothle
+tfw_lineofgauredain_waithor_013 = { # Sibling of generation 4 continuation
+	name = tfw_lineofgauredain_waithor_013_name
 	female = yes
 
 	dynasty = dynasty_gauredain_waithor
@@ -414,8 +414,8 @@ gauredain_waithor_g3_child2 = { # Sibling of generation 4 continuation
 	culture = gauredain
 	trait = skinchanger
 
-	father = gauredain_waithor_g3
-	mother = gauredain_waithor_g3_spouse
+	father = tfw_lineofgauredain_waithor_010
+	mother = tfw_lineofgauredain_waithor_011
 
 	trait = arrogant
 	trait = trusting
@@ -442,8 +442,8 @@ gauredain_waithor_g3_child2 = { # Sibling of generation 4 continuation
 ##### GENERATION 4 #####
 ############################################
 
-gauredain_waithor_g4 = { # Generation 4 continuation
-	name = Anes
+tfw_lineofgauredain_waithor_014 = { # Generation 4 continuation
+	name = tfw_lineofgauredain_waithor_014_name
 	female = yes
 
 	dynasty = dynasty_gauredain_waithor
@@ -451,8 +451,8 @@ gauredain_waithor_g4 = { # Generation 4 continuation
 	culture = gauredain
 	trait = skinchanger
 
-	father = gauredain_waithor_g3
-	mother = gauredain_waithor_g3_spouse
+	father = tfw_lineofgauredain_waithor_010
+	mother = tfw_lineofgauredain_waithor_011
 
 	trait = wrathful
 	trait = just
@@ -471,7 +471,7 @@ gauredain_waithor_g4 = { # Generation 4 continuation
 	}
 
 	6809.4.11 = {
-		add_spouse = gauredain_waithor_g4_spouse
+		add_spouse = tfw_lineofgauredain_waithor_015
 	}
 
 	6863.1.8 = {
@@ -479,8 +479,8 @@ gauredain_waithor_g4 = { # Generation 4 continuation
 	}
 }
 
-gauredain_waithor_g4_spouse = { # Lowborn spouse
-	name = Wair
+tfw_lineofgauredain_waithor_015 = { # Lowborn spouse
+	name = tfw_lineofgauredain_waithor_015_name
 
 	religion = faith_werewolves
 	culture = gauredain
@@ -506,8 +506,8 @@ gauredain_waithor_g4_spouse = { # Lowborn spouse
 	}
 }
 
-gauredain_waithor_g4_child1 = { # Sibling of generation 5 continuation
-	name = Hirwen
+tfw_lineofgauredain_waithor_016 = { # Sibling of generation 5 continuation
+	name = tfw_lineofgauredain_waithor_016_name
 	female = yes
 
 	dynasty = dynasty_gauredain_waithor
@@ -515,8 +515,8 @@ gauredain_waithor_g4_child1 = { # Sibling of generation 5 continuation
 	culture = gauredain
 	trait = skinchanger
 
-	father = gauredain_waithor_g4_spouse
-	mother = gauredain_waithor_g4
+	father = tfw_lineofgauredain_waithor_015
+	mother = tfw_lineofgauredain_waithor_014
 
 	trait = generous
 	trait = just
@@ -539,15 +539,15 @@ gauredain_waithor_g4_child1 = { # Sibling of generation 5 continuation
 	}
 }
 
-gauredain_waithor_g4_child2 = { # Sibling of generation 5 continuation
-	name = Cadan
+tfw_lineofgauredain_waithor_017 = { # Sibling of generation 5 continuation
+	name = tfw_lineofgauredain_waithor_017_name
 
 	dynasty = dynasty_gauredain_waithor
 	religion = faith_werewolves
 	culture = gauredain
 
-	father = gauredain_waithor_g4_spouse
-	mother = gauredain_waithor_g4
+	father = tfw_lineofgauredain_waithor_015
+	mother = tfw_lineofgauredain_waithor_014
 
 	trait = arrogant
 	trait = impatient
@@ -570,8 +570,8 @@ gauredain_waithor_g4_child2 = { # Sibling of generation 5 continuation
 	}
 }
 
-gauredain_waithor_g4_child3 = { # Sibling of generation 5 continuation
-	name = Eneli
+tfw_lineofgauredain_waithor_018 = { # Sibling of generation 5 continuation
+	name = tfw_lineofgauredain_waithor_018_name
 	female = yes
 
 	dynasty = dynasty_gauredain_waithor
@@ -579,8 +579,8 @@ gauredain_waithor_g4_child3 = { # Sibling of generation 5 continuation
 	culture = gauredain
 	trait = skinchanger
 
-	father = gauredain_waithor_g4_spouse
-	mother = gauredain_waithor_g4
+	father = tfw_lineofgauredain_waithor_015
+	mother = tfw_lineofgauredain_waithor_014
 
 	trait = gregarious
 	trait = wrathful
@@ -607,16 +607,16 @@ gauredain_waithor_g4_child3 = { # Sibling of generation 5 continuation
 ##### GENERATION 5 #####
 ############################################
 
-gauredain_waithor_g5 = { # Generation 5 continuation
-	name = Arnethor
+tfw_lineofgauredain_waithor_019 = { # Generation 5 continuation
+	name = tfw_lineofgauredain_waithor_019_name
 
 	dynasty = dynasty_gauredain_waithor
 	religion = faith_werewolves
 	culture = gauredain
 	trait = skinchanger
 
-	father = gauredain_waithor_g4_spouse
-	mother = gauredain_waithor_g4
+	father = tfw_lineofgauredain_waithor_015
+	mother = tfw_lineofgauredain_waithor_014
 
 	trait = forgiving
 	trait = greedy
@@ -635,7 +635,7 @@ gauredain_waithor_g5 = { # Generation 5 continuation
 	}
 
 	6841.7.11 = {
-		add_spouse = gauredain_waithor_g5_spouse
+		add_spouse = tfw_lineofgauredain_waithor_020
 	}
 
 	6877.6.28 = {
@@ -643,8 +643,8 @@ gauredain_waithor_g5 = { # Generation 5 continuation
 	}
 }
 
-gauredain_waithor_g5_spouse = { # Lowborn spouse
-	name = Innis
+tfw_lineofgauredain_waithor_020 = { # Lowborn spouse
+	name = tfw_lineofgauredain_waithor_020_name
 	female = yes
 
 	religion = faith_werewolves
@@ -671,16 +671,16 @@ gauredain_waithor_g5_spouse = { # Lowborn spouse
 	}
 }
 
-gauredain_waithor_g5_child1 = { # Sibling of generation 6 continuation
-	name = Wair
+tfw_lineofgauredain_waithor_021 = { # Sibling of generation 6 continuation
+	name = tfw_lineofgauredain_waithor_021_name
 
 	dynasty = dynasty_gauredain_waithor
 	religion = faith_werewolves
 	culture = gauredain
 	trait = skinchanger
 
-	father = gauredain_waithor_g5
-	mother = gauredain_waithor_g5_spouse
+	father = tfw_lineofgauredain_waithor_019
+	mother = tfw_lineofgauredain_waithor_020
 
 	trait = patient
 	trait = temperate
@@ -703,8 +703,8 @@ gauredain_waithor_g5_child1 = { # Sibling of generation 6 continuation
 	}
 }
 
-gauredain_waithor_g5_child2 = { # Sibling of generation 6 continuation
-	name = Nothle
+tfw_lineofgauredain_waithor_022 = { # Sibling of generation 6 continuation
+	name = tfw_lineofgauredain_waithor_022_name
 	female = yes
 
 	dynasty = dynasty_gauredain_waithor
@@ -712,8 +712,8 @@ gauredain_waithor_g5_child2 = { # Sibling of generation 6 continuation
 	culture = gauredain
 	trait = skinchanger
 
-	father = gauredain_waithor_g5
-	mother = gauredain_waithor_g5_spouse
+	father = tfw_lineofgauredain_waithor_019
+	mother = tfw_lineofgauredain_waithor_020
 
 	trait = arrogant
 	trait = calm
@@ -736,16 +736,16 @@ gauredain_waithor_g5_child2 = { # Sibling of generation 6 continuation
 	}
 }
 
-gauredain_waithor_g5_child3 = { # Sibling of generation 6 continuation
-	name = Cadan
+tfw_lineofgauredain_waithor_023 = { # Sibling of generation 6 continuation
+	name = tfw_lineofgauredain_waithor_023_name
 
 	dynasty = dynasty_gauredain_waithor
 	religion = faith_werewolves
 	culture = gauredain
 	trait = skinchanger
 
-	father = gauredain_waithor_g5
-	mother = gauredain_waithor_g5_spouse
+	father = tfw_lineofgauredain_waithor_019
+	mother = tfw_lineofgauredain_waithor_020
 
 	trait = callous
 	trait = greedy
@@ -772,8 +772,8 @@ gauredain_waithor_g5_child3 = { # Sibling of generation 6 continuation
 ##### GENERATION 6 #####
 ############################################
 
-gauredain_waithor_g6 = { # Generation 6 continuation
-	name = Ide
+tfw_lineofgauredain_waithor_024 = { # Generation 6 continuation
+	name = tfw_lineofgauredain_waithor_024_name
 	female = yes
 
 	dynasty = dynasty_gauredain_waithor
@@ -781,8 +781,8 @@ gauredain_waithor_g6 = { # Generation 6 continuation
 	culture = gauredain
 	trait = skinchanger
 
-	father = gauredain_waithor_g5
-	mother = gauredain_waithor_g5_spouse
+	father = tfw_lineofgauredain_waithor_019
+	mother = tfw_lineofgauredain_waithor_020
 
 	trait = wrathful
 	trait = brave
@@ -801,7 +801,7 @@ gauredain_waithor_g6 = { # Generation 6 continuation
 	}
 
 	6868.12.9 = {
-		add_spouse = gauredain_waithor_g6_spouse
+		add_spouse = tfw_lineofgauredain_waithor_025
 	}
 
 	6919.9.1 = {
@@ -809,8 +809,8 @@ gauredain_waithor_g6 = { # Generation 6 continuation
 	}
 }
 
-gauredain_waithor_g6_spouse = { # Lowborn spouse
-	name = Dawor
+tfw_lineofgauredain_waithor_025 = { # Lowborn spouse
+	name = tfw_lineofgauredain_waithor_025_name
 
 	religion = faith_werewolves
 	culture = gauredain
@@ -836,16 +836,16 @@ gauredain_waithor_g6_spouse = { # Lowborn spouse
 	}
 }
 
-gauredain_waithor_g6_child1 = { # Sibling of generation 7 continuation
-	name = Alcalec
+tfw_lineofgauredain_waithor_026 = { # Sibling of generation 7 continuation
+	name = tfw_lineofgauredain_waithor_026_name
 
 	dynasty = dynasty_gauredain_waithor
 	religion = faith_werewolves
 	culture = gauredain
 	trait = skinchanger
 
-	father = gauredain_waithor_g6_spouse
-	mother = gauredain_waithor_g6
+	father = tfw_lineofgauredain_waithor_025
+	mother = tfw_lineofgauredain_waithor_024
 
 	trait = temperate
 	trait = greedy
@@ -872,8 +872,8 @@ gauredain_waithor_g6_child1 = { # Sibling of generation 7 continuation
 ##### GENERATION 7 #####
 ############################################
 
-gauredain_waithor_g7 = { # Generation 7 continuation
-	name = Ithe
+tfw_lineofgauredain_waithor_027 = { # Generation 7 continuation
+	name = tfw_lineofgauredain_waithor_027_name
 	female = yes
 
 	dynasty = dynasty_gauredain_waithor
@@ -881,8 +881,8 @@ gauredain_waithor_g7 = { # Generation 7 continuation
 	culture = gauredain
 	trait = skinchanger
 
-	father = gauredain_waithor_g6_spouse
-	mother = gauredain_waithor_g6
+	father = tfw_lineofgauredain_waithor_025
+	mother = tfw_lineofgauredain_waithor_024
 
 	trait = just
 	trait = wrathful
@@ -901,7 +901,7 @@ gauredain_waithor_g7 = { # Generation 7 continuation
 	}
 
 	6896.12.2 = {
-		add_spouse = gauredain_waithor_g7_spouse
+		add_spouse = tfw_lineofgauredain_waithor_028
 	}
 
 	6946.12.11 = {
@@ -909,8 +909,8 @@ gauredain_waithor_g7 = { # Generation 7 continuation
 	}
 }
 
-gauredain_waithor_g7_spouse = { # Lowborn spouse
-	name = Thar
+tfw_lineofgauredain_waithor_028 = { # Lowborn spouse
+	name = tfw_lineofgauredain_waithor_028_name
 
 	religion = faith_werewolves
 	culture = gauredain
@@ -936,8 +936,8 @@ gauredain_waithor_g7_spouse = { # Lowborn spouse
 	}
 }
 
-gauredain_waithor_g7_child1 = { # Sibling of generation 8 continuation
-	name = Nothle
+tfw_lineofgauredain_waithor_029 = { # Sibling of generation 8 continuation
+	name = tfw_lineofgauredain_waithor_029_name
 	female = yes
 
 	dynasty = dynasty_gauredain_waithor
@@ -945,8 +945,8 @@ gauredain_waithor_g7_child1 = { # Sibling of generation 8 continuation
 	culture = gauredain
 	trait = skinchanger
 
-	father = gauredain_waithor_g7_spouse
-	mother = gauredain_waithor_g7
+	father = tfw_lineofgauredain_waithor_028
+	mother = tfw_lineofgauredain_waithor_027
 
 	trait = patient
 	trait = fickle
@@ -969,8 +969,8 @@ gauredain_waithor_g7_child1 = { # Sibling of generation 8 continuation
 	}
 }
 
-gauredain_waithor_g7_child2 = { # Sibling of generation 8 continuation
-	name = Rione
+tfw_lineofgauredain_waithor_030 = { # Sibling of generation 8 continuation
+	name = tfw_lineofgauredain_waithor_030_name
 	female = yes
 
 	dynasty = dynasty_gauredain_waithor
@@ -978,8 +978,8 @@ gauredain_waithor_g7_child2 = { # Sibling of generation 8 continuation
 	culture = gauredain
 	trait = skinchanger
 
-	father = gauredain_waithor_g7_spouse
-	mother = gauredain_waithor_g7
+	father = tfw_lineofgauredain_waithor_028
+	mother = tfw_lineofgauredain_waithor_027
 
 	trait = stubborn
 	trait = zealous
@@ -1006,16 +1006,16 @@ gauredain_waithor_g7_child2 = { # Sibling of generation 8 continuation
 ##### GENERATION 8 #####
 ############################################
 
-gauredain_waithor_g8 = { # Generation 8 continuation
-	name = Astoron
+tfw_lineofgauredain_waithor_031 = { # Generation 8 continuation
+	name = tfw_lineofgauredain_waithor_031_name
 
 	dynasty = dynasty_gauredain_waithor
 	religion = faith_werewolves
 	culture = gauredain
 	trait = skinchanger
 
-	father = gauredain_waithor_g7_spouse
-	mother = gauredain_waithor_g7
+	father = tfw_lineofgauredain_waithor_028
+	mother = tfw_lineofgauredain_waithor_027
 
 	trait = fickle
 	trait = patient
@@ -1034,7 +1034,7 @@ gauredain_waithor_g8 = { # Generation 8 continuation
 	}
 
 	6927.6.17 = {
-		add_spouse = gauredain_waithor_g8_spouse
+		add_spouse = tfw_lineofgauredain_waithor_032
 	}
 
 	6969.6.5 = {
@@ -1042,8 +1042,8 @@ gauredain_waithor_g8 = { # Generation 8 continuation
 	}
 }
 
-gauredain_waithor_g8_spouse = { # Lowborn spouse
-	name = Roth
+tfw_lineofgauredain_waithor_032 = { # Lowborn spouse
+	name = tfw_lineofgauredain_waithor_032_name
 	female = yes
 
 	religion = faith_werewolves
@@ -1070,15 +1070,15 @@ gauredain_waithor_g8_spouse = { # Lowborn spouse
 	}
 }
 
-gauredain_waithor_g8_child1 = { # Sibling of generation 9 continuation
-	name = Alcalec
+tfw_lineofgauredain_waithor_033 = { # Sibling of generation 9 continuation
+	name = tfw_lineofgauredain_waithor_033_name
 
 	dynasty = dynasty_gauredain_waithor
 	religion = faith_werewolves
 	culture = gauredain
 
-	father = gauredain_waithor_g8
-	mother = gauredain_waithor_g8_spouse
+	father = tfw_lineofgauredain_waithor_031
+	mother = tfw_lineofgauredain_waithor_032
 
 	trait = fickle
 	trait = arrogant
@@ -1101,16 +1101,16 @@ gauredain_waithor_g8_child1 = { # Sibling of generation 9 continuation
 	}
 }
 
-gauredain_waithor_g8_child2 = { # Sibling of generation 9 continuation
-	name = Meliador
+tfw_lineofgauredain_waithor_034 = { # Sibling of generation 9 continuation
+	name = tfw_lineofgauredain_waithor_034_name
 
 	dynasty = dynasty_gauredain_waithor
 	religion = faith_werewolves
 	culture = gauredain
 	trait = skinchanger
 
-	father = gauredain_waithor_g8
-	mother = gauredain_waithor_g8_spouse
+	father = tfw_lineofgauredain_waithor_031
+	mother = tfw_lineofgauredain_waithor_032
 
 	trait = diligent
 	trait = generous
@@ -1137,16 +1137,16 @@ gauredain_waithor_g8_child2 = { # Sibling of generation 9 continuation
 ##### GENERATION 9 #####
 ############################################
 
-gauredain_waithor_g9 = { # Generation 9 continuation
-	name = Arnethor
+tfw_lineofgauredain_waithor_035 = { # Generation 9 continuation
+	name = tfw_lineofgauredain_waithor_035_name
 
 	dynasty = dynasty_gauredain_waithor
 	religion = faith_werewolves
 	culture = gauredain
 	trait = skinchanger
 
-	father = gauredain_waithor_g8
-	mother = gauredain_waithor_g8_spouse
+	father = tfw_lineofgauredain_waithor_031
+	mother = tfw_lineofgauredain_waithor_032
 
 	trait = stubborn
 	trait = ambitious
@@ -1165,7 +1165,7 @@ gauredain_waithor_g9 = { # Generation 9 continuation
 	}
 
 	6951.5.26 = {
-		add_spouse = gauredain_waithor_g9_spouse
+		add_spouse = tfw_lineofgauredain_waithor_036
 	}
 
 	7000.12.9 = {
@@ -1173,8 +1173,8 @@ gauredain_waithor_g9 = { # Generation 9 continuation
 	}
 }
 
-gauredain_waithor_g9_spouse = { # Lowborn spouse
-	name = Ide
+tfw_lineofgauredain_waithor_036 = { # Lowborn spouse
+	name = tfw_lineofgauredain_waithor_036_name
 	female = yes
 
 	religion = faith_werewolves
@@ -1201,16 +1201,16 @@ gauredain_waithor_g9_spouse = { # Lowborn spouse
 	}
 }
 
-gauredain_waithor_g9_child1 = { # Sibling of generation 10 continuation
-	name = Helyane
+tfw_lineofgauredain_waithor_037 = { # Sibling of generation 10 continuation
+	name = tfw_lineofgauredain_waithor_037_name
 	female = yes
 
 	dynasty = dynasty_gauredain_waithor
 	religion = faith_werewolves
 	culture = gauredain
 
-	father = gauredain_waithor_g9
-	mother = gauredain_waithor_g9_spouse
+	father = tfw_lineofgauredain_waithor_035
+	mother = tfw_lineofgauredain_waithor_036
 
 	trait = diligent
 	trait = calm
@@ -1233,8 +1233,8 @@ gauredain_waithor_g9_child1 = { # Sibling of generation 10 continuation
 	}
 }
 
-gauredain_waithor_g9_child2 = { # Sibling of generation 10 continuation
-	name = Ide
+tfw_lineofgauredain_waithor_038 = { # Sibling of generation 10 continuation
+	name = tfw_lineofgauredain_waithor_038_name
 	female = yes
 
 	dynasty = dynasty_gauredain_waithor
@@ -1242,8 +1242,8 @@ gauredain_waithor_g9_child2 = { # Sibling of generation 10 continuation
 	culture = gauredain
 	trait = skinchanger
 
-	father = gauredain_waithor_g9
-	mother = gauredain_waithor_g9_spouse
+	father = tfw_lineofgauredain_waithor_035
+	mother = tfw_lineofgauredain_waithor_036
 
 	trait = gregarious
 	trait = trusting
@@ -1266,8 +1266,8 @@ gauredain_waithor_g9_child2 = { # Sibling of generation 10 continuation
 	}
 }
 
-gauredain_waithor_g9_child3 = { # Sibling of generation 10 continuation
-	name = Siani
+tfw_lineofgauredain_waithor_039 = { # Sibling of generation 10 continuation
+	name = tfw_lineofgauredain_waithor_039_name
 	female = yes
 
 	dynasty = dynasty_gauredain_waithor
@@ -1275,8 +1275,8 @@ gauredain_waithor_g9_child3 = { # Sibling of generation 10 continuation
 	culture = gauredain
 	trait = skinchanger
 
-	father = gauredain_waithor_g9
-	mother = gauredain_waithor_g9_spouse
+	father = tfw_lineofgauredain_waithor_035
+	mother = tfw_lineofgauredain_waithor_036
 
 	trait = brave
 	trait = temperate
@@ -1303,16 +1303,16 @@ gauredain_waithor_g9_child3 = { # Sibling of generation 10 continuation
 ##### GENERATION 10 #####
 ############################################
 
-gauredain_waithor_g10 = { # Generation 10 continuation
-	name = Arnethor
+tfw_lineofgauredain_waithor_040 = { # Generation 10 continuation
+	name = tfw_lineofgauredain_waithor_040_name
 
 	dynasty = dynasty_gauredain_waithor
 	religion = faith_werewolves
 	culture = gauredain
 	trait = skinchanger
 
-	father = gauredain_waithor_g9
-	mother = gauredain_waithor_g9_spouse
+	father = tfw_lineofgauredain_waithor_035
+	mother = tfw_lineofgauredain_waithor_036
 
 	trait = forgiving
 	trait = arrogant
@@ -1331,7 +1331,7 @@ gauredain_waithor_g10 = { # Generation 10 continuation
 	}
 
 	6983.3.13 = {
-		add_spouse = gauredain_waithor_g10_spouse
+		add_spouse = tfw_lineofgauredain_waithor_041
 	}
 
 	7032.10.12 = {
@@ -1339,8 +1339,8 @@ gauredain_waithor_g10 = { # Generation 10 continuation
 	}
 }
 
-gauredain_waithor_g10_spouse = { # Lowborn spouse
-	name = Belis
+tfw_lineofgauredain_waithor_041 = { # Lowborn spouse
+	name = tfw_lineofgauredain_waithor_041_name
 	female = yes
 
 	religion = faith_werewolves
@@ -1367,16 +1367,16 @@ gauredain_waithor_g10_spouse = { # Lowborn spouse
 	}
 }
 
-gauredain_waithor_g10_child1 = { # Sibling of generation 11 continuation
-	name = Dion
+tfw_lineofgauredain_waithor_042 = { # Sibling of generation 11 continuation
+	name = tfw_lineofgauredain_waithor_042_name
 
 	dynasty = dynasty_gauredain_waithor
 	religion = faith_werewolves
 	culture = gauredain
 	trait = skinchanger
 
-	father = gauredain_waithor_g10
-	mother = gauredain_waithor_g10_spouse
+	father = tfw_lineofgauredain_waithor_040
+	mother = tfw_lineofgauredain_waithor_041
 
 	trait = honest
 	trait = brave
@@ -1399,8 +1399,8 @@ gauredain_waithor_g10_child1 = { # Sibling of generation 11 continuation
 	}
 }
 
-gauredain_waithor_g10_child2 = { # Sibling of generation 11 continuation
-	name = Ide
+tfw_lineofgauredain_waithor_043 = { # Sibling of generation 11 continuation
+	name = tfw_lineofgauredain_waithor_043_name
 	female = yes
 
 	dynasty = dynasty_gauredain_waithor
@@ -1408,8 +1408,8 @@ gauredain_waithor_g10_child2 = { # Sibling of generation 11 continuation
 	culture = gauredain
 	trait = skinchanger
 
-	father = gauredain_waithor_g10
-	mother = gauredain_waithor_g10_spouse
+	father = tfw_lineofgauredain_waithor_040
+	mother = tfw_lineofgauredain_waithor_041
 
 	trait = deceitful
 	trait = content
@@ -1432,16 +1432,16 @@ gauredain_waithor_g10_child2 = { # Sibling of generation 11 continuation
 	}
 }
 
-gauredain_waithor_g10_child3 = { # Sibling of generation 11 continuation
-	name = Cadan
+tfw_lineofgauredain_waithor_044 = { # Sibling of generation 11 continuation
+	name = tfw_lineofgauredain_waithor_044_name
 
 	dynasty = dynasty_gauredain_waithor
 	religion = faith_werewolves
 	culture = gauredain
 	trait = skinchanger
 
-	father = gauredain_waithor_g10
-	mother = gauredain_waithor_g10_spouse
+	father = tfw_lineofgauredain_waithor_040
+	mother = tfw_lineofgauredain_waithor_041
 
 	trait = just
 	trait = temperate
@@ -1468,8 +1468,8 @@ gauredain_waithor_g10_child3 = { # Sibling of generation 11 continuation
 ##### GENERATION 11 #####
 ############################################
 
-gauredain_waithor_g11 = { # Generation 11 continuation
-	name = Anes
+tfw_lineofgauredain_waithor_045 = { # Generation 11 continuation
+	name = tfw_lineofgauredain_waithor_045_name
 	female = yes
 
 	dynasty = dynasty_gauredain_waithor
@@ -1477,8 +1477,8 @@ gauredain_waithor_g11 = { # Generation 11 continuation
 	culture = gauredain
 	trait = skinchanger
 
-	father = gauredain_waithor_g10
-	mother = gauredain_waithor_g10_spouse
+	father = tfw_lineofgauredain_waithor_040
+	mother = tfw_lineofgauredain_waithor_041
 
 	trait = shy
 	trait = compassionate
@@ -1497,7 +1497,7 @@ gauredain_waithor_g11 = { # Generation 11 continuation
 	}
 
 	7010.11.6 = {
-		add_spouse = gauredain_waithor_g11_spouse
+		add_spouse = tfw_lineofgauredain_waithor_046
 	}
 
 	7043.9.1 = {
@@ -1505,8 +1505,8 @@ gauredain_waithor_g11 = { # Generation 11 continuation
 	}
 }
 
-gauredain_waithor_g11_spouse = { # Lowborn spouse
-	name = Thar
+tfw_lineofgauredain_waithor_046 = { # Lowborn spouse
+	name = tfw_lineofgauredain_waithor_046_name
 
 	religion = faith_werewolves
 	culture = gauredain
@@ -1532,8 +1532,8 @@ gauredain_waithor_g11_spouse = { # Lowborn spouse
 	}
 }
 
-gauredain_waithor_g11_child1 = { # Sibling of generation 12 continuation
-	name = Olwen
+tfw_lineofgauredain_waithor_047 = { # Sibling of generation 12 continuation
+	name = tfw_lineofgauredain_waithor_047_name
 	female = yes
 
 	dynasty = dynasty_gauredain_waithor
@@ -1541,8 +1541,8 @@ gauredain_waithor_g11_child1 = { # Sibling of generation 12 continuation
 	culture = gauredain
 	trait = skinchanger
 
-	father = gauredain_waithor_g11_spouse
-	mother = gauredain_waithor_g11
+	father = tfw_lineofgauredain_waithor_046
+	mother = tfw_lineofgauredain_waithor_045
 
 	trait = zealous
 	trait = brave
@@ -1565,16 +1565,16 @@ gauredain_waithor_g11_child1 = { # Sibling of generation 12 continuation
 	}
 }
 
-gauredain_waithor_g11_child2 = { # Sibling of generation 12 continuation
-	name = Roth
+tfw_lineofgauredain_waithor_048 = { # Sibling of generation 12 continuation
+	name = tfw_lineofgauredain_waithor_048_name
 	female = yes
 
 	dynasty = dynasty_gauredain_waithor
 	religion = faith_werewolves
 	culture = gauredain
 
-	father = gauredain_waithor_g11_spouse
-	mother = gauredain_waithor_g11
+	father = tfw_lineofgauredain_waithor_046
+	mother = tfw_lineofgauredain_waithor_045
 
 	trait = wrathful
 	trait = temperate
@@ -1597,16 +1597,16 @@ gauredain_waithor_g11_child2 = { # Sibling of generation 12 continuation
 	}
 }
 
-gauredain_waithor_g11_child3 = { # Sibling of generation 12 continuation
-	name = Sion
+tfw_lineofgauredain_waithor_049 = { # Sibling of generation 12 continuation
+	name = tfw_lineofgauredain_waithor_049_name
 
 	dynasty = dynasty_gauredain_waithor
 	religion = faith_werewolves
 	culture = gauredain
 	trait = skinchanger
 
-	father = gauredain_waithor_g11_spouse
-	mother = gauredain_waithor_g11
+	father = tfw_lineofgauredain_waithor_046
+	mother = tfw_lineofgauredain_waithor_045
 
 	trait = honest
 	trait = just
@@ -1633,8 +1633,8 @@ gauredain_waithor_g11_child3 = { # Sibling of generation 12 continuation
 ##### GENERATION 12 #####
 ############################################
 
-gauredain_waithor_g12 = { # Generation 12 continuation
-	name = Gwerin
+tfw_lineofgauredain_waithor_050 = { # Generation 12 continuation
+	name = tfw_lineofgauredain_waithor_050_name
 	female = yes
 
 	dynasty = dynasty_gauredain_waithor
@@ -1642,8 +1642,8 @@ gauredain_waithor_g12 = { # Generation 12 continuation
 	culture = gauredain
 	trait = skinchanger
 
-	father = gauredain_waithor_g11_spouse
-	mother = gauredain_waithor_g11
+	father = tfw_lineofgauredain_waithor_046
+	mother = tfw_lineofgauredain_waithor_045
 
 	trait = calm
 	trait = deceitful
@@ -1662,7 +1662,7 @@ gauredain_waithor_g12 = { # Generation 12 continuation
 	}
 
 	7037.7.23 = {
-		add_spouse = gauredain_waithor_g12_spouse
+		add_spouse = tfw_lineofgauredain_waithor_051
 	}
 
 	7067.1.18 = {
@@ -1670,8 +1670,8 @@ gauredain_waithor_g12 = { # Generation 12 continuation
 	}
 }
 
-gauredain_waithor_g12_spouse = { # Lowborn spouse
-	name = Elrede
+tfw_lineofgauredain_waithor_051 = { # Lowborn spouse
+	name = tfw_lineofgauredain_waithor_051_name
 
 	religion = faith_werewolves
 	culture = gauredain
@@ -1697,16 +1697,16 @@ gauredain_waithor_g12_spouse = { # Lowborn spouse
 	}
 }
 
-gauredain_waithor_g12_child1 = { # Sibling of generation 13 continuation
-	name = Sieron
+tfw_lineofgauredain_waithor_052 = { # Sibling of generation 13 continuation
+	name = tfw_lineofgauredain_waithor_052_name
 
 	dynasty = dynasty_gauredain_waithor
 	religion = faith_werewolves
 	culture = gauredain
 	trait = skinchanger
 
-	father = gauredain_waithor_g12_spouse
-	mother = gauredain_waithor_g12
+	father = tfw_lineofgauredain_waithor_051
+	mother = tfw_lineofgauredain_waithor_050
 
 	trait = generous
 	trait = honest
@@ -1729,16 +1729,16 @@ gauredain_waithor_g12_child1 = { # Sibling of generation 13 continuation
 	}
 }
 
-gauredain_waithor_g12_child2 = { # Sibling of generation 13 continuation
-	name = Loman
+tfw_lineofgauredain_waithor_053 = { # Sibling of generation 13 continuation
+	name = tfw_lineofgauredain_waithor_053_name
 
 	dynasty = dynasty_gauredain_waithor
 	religion = faith_werewolves
 	culture = gauredain
 	trait = skinchanger
 
-	father = gauredain_waithor_g12_spouse
-	mother = gauredain_waithor_g12
+	father = tfw_lineofgauredain_waithor_051
+	mother = tfw_lineofgauredain_waithor_050
 
 	trait = impatient
 	trait = brave
@@ -1765,16 +1765,16 @@ gauredain_waithor_g12_child2 = { # Sibling of generation 13 continuation
 ##### GENERATION 13 #####
 ############################################
 
-gauredain_waithor_g13 = { # Generation 13 continuation
-	name = Elrede
+tfw_lineofgauredain_waithor_054 = { # Generation 13 continuation
+	name = tfw_lineofgauredain_waithor_054_name
 
 	dynasty = dynasty_gauredain_waithor
 	religion = faith_werewolves
 	culture = gauredain
 	trait = skinchanger
 
-	father = gauredain_waithor_g12_spouse
-	mother = gauredain_waithor_g12
+	father = tfw_lineofgauredain_waithor_051
+	mother = tfw_lineofgauredain_waithor_050
 
 	trait = patient
 	trait = deceitful
@@ -1793,7 +1793,7 @@ gauredain_waithor_g13 = { # Generation 13 continuation
 	}
 
 	7068.11.21 = {
-		add_spouse = gauredain_waithor_g13_spouse
+		add_spouse = tfw_lineofgauredain_waithor_055
 	}
 
 	7121.6.10 = {
@@ -1801,8 +1801,8 @@ gauredain_waithor_g13 = { # Generation 13 continuation
 	}
 }
 
-gauredain_waithor_g13_spouse = { # Lowborn spouse
-	name = Anes
+tfw_lineofgauredain_waithor_055 = { # Lowborn spouse
+	name = tfw_lineofgauredain_waithor_055_name
 	female = yes
 
 	religion = faith_werewolves
@@ -1829,8 +1829,8 @@ gauredain_waithor_g13_spouse = { # Lowborn spouse
 	}
 }
 
-gauredain_waithor_g13_child1 = { # Sibling of generation 14 continuation
-	name = Rione
+tfw_lineofgauredain_waithor_056 = { # Sibling of generation 14 continuation
+	name = tfw_lineofgauredain_waithor_056_name
 	female = yes
 
 	dynasty = dynasty_gauredain_waithor
@@ -1838,8 +1838,8 @@ gauredain_waithor_g13_child1 = { # Sibling of generation 14 continuation
 	culture = gauredain
 	trait = skinchanger
 
-	father = gauredain_waithor_g13
-	mother = gauredain_waithor_g13_spouse
+	father = tfw_lineofgauredain_waithor_054
+	mother = tfw_lineofgauredain_waithor_055
 
 	trait = deceitful
 	trait = temperate
@@ -1862,15 +1862,15 @@ gauredain_waithor_g13_child1 = { # Sibling of generation 14 continuation
 	}
 }
 
-gauredain_waithor_g13_child2 = { # Sibling of generation 14 continuation
-	name = Sieron
+tfw_lineofgauredain_waithor_057 = { # Sibling of generation 14 continuation
+	name = tfw_lineofgauredain_waithor_057_name
 
 	dynasty = dynasty_gauredain_waithor
 	religion = faith_werewolves
 	culture = gauredain
 
-	father = gauredain_waithor_g13
-	mother = gauredain_waithor_g13_spouse
+	father = tfw_lineofgauredain_waithor_054
+	mother = tfw_lineofgauredain_waithor_055
 
 	trait = just
 	trait = greedy
@@ -1893,16 +1893,16 @@ gauredain_waithor_g13_child2 = { # Sibling of generation 14 continuation
 	}
 }
 
-gauredain_waithor_g13_child3 = { # Sibling of generation 14 continuation
-	name = Meliador
+tfw_lineofgauredain_waithor_058 = { # Sibling of generation 14 continuation
+	name = tfw_lineofgauredain_waithor_058_name
 
 	dynasty = dynasty_gauredain_waithor
 	religion = faith_werewolves
 	culture = gauredain
 	trait = skinchanger
 
-	father = gauredain_waithor_g13
-	mother = gauredain_waithor_g13_spouse
+	father = tfw_lineofgauredain_waithor_054
+	mother = tfw_lineofgauredain_waithor_055
 
 	trait = deceitful
 	trait = generous
@@ -1929,8 +1929,8 @@ gauredain_waithor_g13_child3 = { # Sibling of generation 14 continuation
 ##### GENERATION 14 #####
 ############################################
 
-gauredain_waithor_g14 = { # Generation 14 continuation
-	name = Eneli
+tfw_lineofgauredain_waithor_059 = { # Generation 14 continuation
+	name = tfw_lineofgauredain_waithor_059_name
 	female = yes
 
 	dynasty = dynasty_gauredain_waithor
@@ -1938,8 +1938,8 @@ gauredain_waithor_g14 = { # Generation 14 continuation
 	culture = gauredain
 	trait = skinchanger
 
-	father = gauredain_waithor_g13
-	mother = gauredain_waithor_g13_spouse
+	father = tfw_lineofgauredain_waithor_054
+	mother = tfw_lineofgauredain_waithor_055
 
 	trait = arrogant
 	trait = greedy
@@ -1958,7 +1958,7 @@ gauredain_waithor_g14 = { # Generation 14 continuation
 	}
 
 	7096.2.26 = {
-		add_spouse = gauredain_waithor_g14_spouse
+		add_spouse = tfw_lineofgauredain_waithor_060
 	}
 
 	7148.12.3 = {
@@ -1966,8 +1966,8 @@ gauredain_waithor_g14 = { # Generation 14 continuation
 	}
 }
 
-gauredain_waithor_g14_spouse = { # Lowborn spouse
-	name = Cadan
+tfw_lineofgauredain_waithor_060 = { # Lowborn spouse
+	name = tfw_lineofgauredain_waithor_060_name
 
 	religion = faith_werewolves
 	culture = gauredain
@@ -1993,15 +1993,15 @@ gauredain_waithor_g14_spouse = { # Lowborn spouse
 	}
 }
 
-gauredain_waithor_g14_child1 = { # Sibling of generation 15 continuation
-	name = Sion
+tfw_lineofgauredain_waithor_061 = { # Sibling of generation 15 continuation
+	name = tfw_lineofgauredain_waithor_061_name
 
 	dynasty = dynasty_gauredain_waithor
 	religion = faith_werewolves
 	culture = gauredain
 
-	father = gauredain_waithor_g14_spouse
-	mother = gauredain_waithor_g14
+	father = tfw_lineofgauredain_waithor_060
+	mother = tfw_lineofgauredain_waithor_059
 
 	trait = just
 	trait = stubborn
@@ -2028,16 +2028,16 @@ gauredain_waithor_g14_child1 = { # Sibling of generation 15 continuation
 ##### GENERATION 15 #####
 ############################################
 
-gauredain_waithor_g15 = { # Generation 15 continuation
-	name = Sieron
+tfw_lineofgauredain_waithor_062 = { # Generation 15 continuation
+	name = tfw_lineofgauredain_waithor_062_name
 
 	dynasty = dynasty_gauredain_waithor
 	religion = faith_werewolves
 	culture = gauredain
 	trait = skinchanger
 
-	father = gauredain_waithor_g14_spouse
-	mother = gauredain_waithor_g14
+	father = tfw_lineofgauredain_waithor_060
+	mother = tfw_lineofgauredain_waithor_059
 
 	trait = shy
 	trait = ambitious
@@ -2056,7 +2056,7 @@ gauredain_waithor_g15 = { # Generation 15 continuation
 	}
 
 	7127.2.5 = {
-		add_spouse = gauredain_waithor_g15_spouse
+		add_spouse = tfw_lineofgauredain_waithor_063
 	}
 
 	7165.8.28 = {
@@ -2064,8 +2064,8 @@ gauredain_waithor_g15 = { # Generation 15 continuation
 	}
 }
 
-gauredain_waithor_g15_spouse = { # Lowborn spouse
-	name = Helyane
+tfw_lineofgauredain_waithor_063 = { # Lowborn spouse
+	name = tfw_lineofgauredain_waithor_063_name
 	female = yes
 
 	religion = faith_werewolves
@@ -2092,16 +2092,16 @@ gauredain_waithor_g15_spouse = { # Lowborn spouse
 	}
 }
 
-gauredain_waithor_g15_child1 = { # Sibling of generation 16 continuation
-	name = Astoron
+tfw_lineofgauredain_waithor_064 = { # Sibling of generation 16 continuation
+	name = tfw_lineofgauredain_waithor_064_name
 
 	dynasty = dynasty_gauredain_waithor
 	religion = faith_werewolves
 	culture = gauredain
 	trait = skinchanger
 
-	father = gauredain_waithor_g15
-	mother = gauredain_waithor_g15_spouse
+	father = tfw_lineofgauredain_waithor_062
+	mother = tfw_lineofgauredain_waithor_063
 
 	trait = calm
 	trait = generous
@@ -2120,15 +2120,15 @@ gauredain_waithor_g15_child1 = { # Sibling of generation 16 continuation
 	}
 }
 
-gauredain_waithor_g15_child2 = { # Sibling of generation 16 continuation
-	name = Arnethor
+tfw_lineofgauredain_waithor_065 = { # Sibling of generation 16 continuation
+	name = tfw_lineofgauredain_waithor_065_name
 
 	dynasty = dynasty_gauredain_waithor
 	religion = faith_werewolves
 	culture = gauredain
 
-	father = gauredain_waithor_g15
-	mother = gauredain_waithor_g15_spouse
+	father = tfw_lineofgauredain_waithor_062
+	mother = tfw_lineofgauredain_waithor_063
 
 	trait = shy
 	trait = callous
@@ -2151,16 +2151,16 @@ gauredain_waithor_g15_child2 = { # Sibling of generation 16 continuation
 ##### GENERATION 16 #####
 ############################################
 
-gauredain_waithor_g16 = { # Generation 16 continuation
-	name = Thar
+tfw_lineofgauredain_waithor_066 = { # Generation 16 continuation
+	name = tfw_lineofgauredain_waithor_066_name
 
 	dynasty = dynasty_gauredain_waithor
 	religion = faith_werewolves
 	culture = gauredain
 	trait = skinchanger
 
-	father = gauredain_waithor_g15
-	mother = gauredain_waithor_g15_spouse
+	father = tfw_lineofgauredain_waithor_062
+	mother = tfw_lineofgauredain_waithor_063
 
 	trait = forgiving
 	trait = wrathful
@@ -2179,12 +2179,12 @@ gauredain_waithor_g16 = { # Generation 16 continuation
 	}
 
 	7155.12.9 = {
-		add_spouse = gauredain_waithor_g16_spouse
+		add_spouse = tfw_lineofgauredain_waithor_067
 	}
 }
 
-gauredain_waithor_g16_spouse = { # Lowborn spouse
-	name = Belis
+tfw_lineofgauredain_waithor_067 = { # Lowborn spouse
+	name = tfw_lineofgauredain_waithor_067_name
 	female = yes
 
 	religion = faith_werewolves
@@ -2211,16 +2211,16 @@ gauredain_waithor_g16_spouse = { # Lowborn spouse
 	}
 }
 
-gauredain_waithor_g16_child1 = { # Sibling of generation 17 continuation
-	name = Thar
+tfw_lineofgauredain_waithor_068 = { # Sibling of generation 17 continuation
+	name = tfw_lineofgauredain_waithor_068_name
 
 	dynasty = dynasty_gauredain_waithor
 	religion = faith_werewolves
 	culture = gauredain
 	trait = skinchanger
 
-	father = gauredain_waithor_g16
-	mother = gauredain_waithor_g16_spouse
+	father = tfw_lineofgauredain_waithor_066
+	mother = tfw_lineofgauredain_waithor_067
 
 	trait = wrathful
 	trait = zealous
@@ -2239,16 +2239,16 @@ gauredain_waithor_g16_child1 = { # Sibling of generation 17 continuation
 	}
 }
 
-gauredain_waithor_g16_child2 = { # Sibling of generation 17 continuation
-	name = Menthor
+tfw_lineofgauredain_waithor_069 = { # Sibling of generation 17 continuation
+	name = tfw_lineofgauredain_waithor_069_name
 
 	dynasty = dynasty_gauredain_waithor
 	religion = faith_werewolves
 	culture = gauredain
 	trait = skinchanger
 
-	father = gauredain_waithor_g16
-	mother = gauredain_waithor_g16_spouse
+	father = tfw_lineofgauredain_waithor_066
+	mother = tfw_lineofgauredain_waithor_067
 
 	trait = diligent
 	trait = greedy
@@ -2267,8 +2267,8 @@ gauredain_waithor_g16_child2 = { # Sibling of generation 17 continuation
 	}
 }
 
-gauredain_waithor_g16_child3 = { # Sibling of generation 17 continuation
-	name = Siani
+tfw_lineofgauredain_waithor_070 = { # Sibling of generation 17 continuation
+	name = tfw_lineofgauredain_waithor_070_name
 	female = yes
 
 	dynasty = dynasty_gauredain_waithor
@@ -2276,8 +2276,8 @@ gauredain_waithor_g16_child3 = { # Sibling of generation 17 continuation
 	culture = gauredain
 	trait = skinchanger
 
-	father = gauredain_waithor_g16
-	mother = gauredain_waithor_g16_spouse
+	father = tfw_lineofgauredain_waithor_066
+	mother = tfw_lineofgauredain_waithor_067
 
 	trait = arrogant
 	trait = diligent
@@ -2300,8 +2300,8 @@ gauredain_waithor_g16_child3 = { # Sibling of generation 17 continuation
 ##### GENERATION 17 #####
 ############################################
 
-gauredain_waithor_g17 = { # Generation 17 continuation
-	name = Bainath
+tfw_lineofgauredain_waithor_071 = { # Generation 17 continuation
+	name = tfw_lineofgauredain_waithor_071_name
 	female = yes
 
 	dynasty = dynasty_gauredain_waithor
@@ -2309,8 +2309,8 @@ gauredain_waithor_g17 = { # Generation 17 continuation
 	culture = gauredain
 	trait = skinchanger
 
-	father = gauredain_waithor_g16
-	mother = gauredain_waithor_g16_spouse
+	father = tfw_lineofgauredain_waithor_066
+	mother = tfw_lineofgauredain_waithor_067
 
 	trait = shy
 	trait = zealous
@@ -2329,12 +2329,12 @@ gauredain_waithor_g17 = { # Generation 17 continuation
 	}
 
 	7185.6.12 = {
-		add_spouse = gauredain_waithor_g17_spouse
+		add_spouse = tfw_lineofgauredain_waithor_072
 	}
 }
 
-gauredain_waithor_g17_spouse = { # Lowborn spouse
-	name = Alcalec
+tfw_lineofgauredain_waithor_072 = { # Lowborn spouse
+	name = tfw_lineofgauredain_waithor_072_name
 
 	religion = faith_werewolves
 	culture = gauredain
@@ -2356,8 +2356,8 @@ gauredain_waithor_g17_spouse = { # Lowborn spouse
 	}
 }
 
-gauredain_waithor_g17_child1 = { # Sibling of generation 18 continuation
-	name = Innis
+tfw_lineofgauredain_waithor_073 = { # Sibling of generation 18 continuation
+	name = tfw_lineofgauredain_waithor_073_name
 	female = yes
 
 	dynasty = dynasty_gauredain_waithor
@@ -2365,8 +2365,8 @@ gauredain_waithor_g17_child1 = { # Sibling of generation 18 continuation
 	culture = gauredain
 	trait = skinchanger
 
-	father = gauredain_waithor_g17_spouse
-	mother = gauredain_waithor_g17
+	father = tfw_lineofgauredain_waithor_072
+	mother = tfw_lineofgauredain_waithor_071
 
 	trait = content
 	trait = patient
@@ -2389,8 +2389,8 @@ gauredain_waithor_g17_child1 = { # Sibling of generation 18 continuation
 ##### GENERATION 18 #####
 ############################################
 
-gauredain_waithor_g18 = { # Generation 18 continuation
-	name = Anes
+tfw_lineofgauredain_waithor_074 = { # Generation 18 continuation
+	name = tfw_lineofgauredain_waithor_074_name
 	female = yes
 
 	dynasty = dynasty_gauredain_waithor
@@ -2398,8 +2398,8 @@ gauredain_waithor_g18 = { # Generation 18 continuation
 	culture = gauredain
 	trait = skinchanger
 
-	father = gauredain_waithor_g17_spouse
-	mother = gauredain_waithor_g17
+	father = tfw_lineofgauredain_waithor_072
+	mother = tfw_lineofgauredain_waithor_071
 
 	trait = patient
 	trait = just

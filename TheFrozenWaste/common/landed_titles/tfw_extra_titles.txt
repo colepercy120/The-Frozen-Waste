@@ -2,3 +2,19 @@
 	color={ 37 34 74 }
 	capital = c_talath_uichel_16
 }
+
+k_emyn_nimbrith = {
+	color={ 28 24 59 }
+	d_emyn_nimbrith = {
+		color={ 28 24 59 }
+	
+	}
+}
+e_winter_court = {
+	color={ 169 193 192}
+	destroy_on_succession = yes
+	destroy_if_invalid_heir = yes
+	always_follows_primary_heir = yes
+	ruler_uses_title_name = no
+	capital = c_thangorodrim_3
+}

@@ -27,8 +27,8 @@
 ##### HOUSE MOTSOGNIR - ROYAL LINE #####
 ############################################################
 
-umli_motsognir_001 = { # Founder; ROYAL LINE
-	name = Sindri
+tfw_lineofumli_motsognir_001 = { # Founder; ROYAL LINE
+	name = tfw_lineofumli_motsognir_001_name
 
 	dynasty = dynasty_umli_motsognir
 	religion = faith_khazad
@@ -53,7 +53,7 @@ umli_motsognir_001 = { # Founder; ROYAL LINE
 	}
 
 	6699.2.16 = {
-		add_spouse = umli_lowborn_001
+		add_spouse = tfw_lineoflowborn_umli_001
 	}
 
 	6739.4.8 = {
@@ -61,8 +61,8 @@ umli_motsognir_001 = { # Founder; ROYAL LINE
 	}
 }
 
-umli_lowborn_001 = { # Lowborn spouse of Sindri
-	name = Ragnhild
+tfw_lineoflowborn_umli_001 = { # Lowborn spouse of Sindri
+	name = tfw_lineoflowborn_umli_001_name
 	female = yes
 
 	religion = faith_khazad
@@ -94,15 +94,15 @@ umli_lowborn_001 = { # Lowborn spouse of Sindri
 
 ### Generation 1 ###
 
-umli_motsognir_002 = { # Generation 1 continuation
-	name = Regin
+tfw_lineofumli_motsognir_002 = { # Generation 1 continuation
+	name = tfw_lineofumli_motsognir_002_name
 
 	dynasty = dynasty_umli_motsognir
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_motsognir_001
-	mother = umli_lowborn_001
+	father = tfw_lineofumli_motsognir_001
+	mother = tfw_lineoflowborn_umli_001
 
 	trait = dwarf
 	trait = brave
@@ -123,7 +123,7 @@ umli_motsognir_002 = { # Generation 1 continuation
 	}
 
 	6730.11.5 = {
-		add_spouse = umli_lowborn_006
+		add_spouse = tfw_lineoflowborn_umli_002
 	}
 
 	6775.2.5 = {
@@ -131,8 +131,8 @@ umli_motsognir_002 = { # Generation 1 continuation
 	}
 }
 
-umli_lowborn_006 = { # Lowborn spouse into House Motsognir (generation 1)
-	name = Skadi
+tfw_lineoflowborn_umli_002 = { # Lowborn spouse into House Motsognir (generation 1)
+	name = tfw_lineoflowborn_umli_002_name
 	female = yes
 
 	religion = faith_khazad
@@ -161,15 +161,15 @@ umli_lowborn_006 = { # Lowborn spouse into House Motsognir (generation 1)
 	}
 }
 
-umli_motsognir_003 = { # Generation 1 sibling
-	name = Dvalin
+tfw_lineofumli_motsognir_003 = { # Generation 1 sibling
+	name = tfw_lineofumli_motsognir_003_name
 
 	dynasty = dynasty_umli_motsognir
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_motsognir_001
-	mother = umli_lowborn_001
+	father = tfw_lineofumli_motsognir_001
+	mother = tfw_lineoflowborn_umli_001
 
 	trait = dwarf
 	trait = diligent
@@ -194,16 +194,16 @@ umli_motsognir_003 = { # Generation 1 sibling
 	}
 }
 
-umli_motsognir_004 = { # Generation 1 sibling
-	name = Embla
+tfw_lineofumli_motsognir_004 = { # Generation 1 sibling
+	name = tfw_lineofumli_motsognir_004_name
 	female = yes
 
 	dynasty = dynasty_umli_motsognir
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_motsognir_001
-	mother = umli_lowborn_001
+	father = tfw_lineofumli_motsognir_001
+	mother = tfw_lineoflowborn_umli_001
 
 	trait = dwarf
 	trait = calm
@@ -232,15 +232,15 @@ umli_motsognir_004 = { # Generation 1 sibling
 
 ### Generation 2 ###
 
-umli_motsognir_005 = { # Generation 2 continuation
-	name = Skirvir
+tfw_lineofumli_motsognir_005 = { # Generation 2 continuation
+	name = tfw_lineofumli_motsognir_005_name
 
 	dynasty = dynasty_umli_motsognir
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_motsognir_002
-	mother = umli_lowborn_006
+	father = tfw_lineofumli_motsognir_002
+	mother = tfw_lineoflowborn_umli_002
 
 	trait = dwarf
 	trait = brave
@@ -261,7 +261,7 @@ umli_motsognir_005 = { # Generation 2 continuation
 	}
 
 	6762.8.3 = {
-		add_spouse = umli_lowborn_011
+		add_spouse = tfw_lineoflowborn_umli_003
 	}
 
 	6808.12.14 = {
@@ -269,8 +269,8 @@ umli_motsognir_005 = { # Generation 2 continuation
 	}
 }
 
-umli_lowborn_011 = { # Lowborn spouse into House Motsognir (generation 2)
-	name = Liv
+tfw_lineoflowborn_umli_003 = { # Lowborn spouse into House Motsognir (generation 2)
+	name = tfw_lineoflowborn_umli_003_name
 	female = yes
 
 	religion = faith_khazad
@@ -299,15 +299,15 @@ umli_lowborn_011 = { # Lowborn spouse into House Motsognir (generation 2)
 	}
 }
 
-umli_motsognir_006 = { # Generation 2 sibling
-	name = Nali
+tfw_lineofumli_motsognir_006 = { # Generation 2 sibling
+	name = tfw_lineofumli_motsognir_006_name
 
 	dynasty = dynasty_umli_motsognir
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_motsognir_002
-	mother = umli_lowborn_006
+	father = tfw_lineofumli_motsognir_002
+	mother = tfw_lineoflowborn_umli_002
 
 	trait = dwarf
 	trait = impatient
@@ -332,16 +332,16 @@ umli_motsognir_006 = { # Generation 2 sibling
 	}
 }
 
-umli_motsognir_007 = { # Generation 2 sibling
-	name = Hilda
+tfw_lineofumli_motsognir_007 = { # Generation 2 sibling
+	name = tfw_lineofumli_motsognir_007_name
 	female = yes
 
 	dynasty = dynasty_umli_motsognir
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_motsognir_002
-	mother = umli_lowborn_006
+	father = tfw_lineofumli_motsognir_002
+	mother = tfw_lineoflowborn_umli_002
 
 	trait = dwarf
 	trait = paranoid
@@ -370,15 +370,15 @@ umli_motsognir_007 = { # Generation 2 sibling
 
 ### Generation 3 ###
 
-umli_motsognir_008 = { # Generation 3 continuation
-	name = Bifur
+tfw_lineofumli_motsognir_008 = { # Generation 3 continuation
+	name = tfw_lineofumli_motsognir_008_name
 
 	dynasty = dynasty_umli_motsognir
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_motsognir_005
-	mother = umli_lowborn_011
+	father = tfw_lineofumli_motsognir_005
+	mother = tfw_lineoflowborn_umli_003
 
 	trait = dwarf
 	trait = arrogant
@@ -399,7 +399,7 @@ umli_motsognir_008 = { # Generation 3 continuation
 	}
 
 	6790.11.27 = {
-		add_spouse = umli_lowborn_016
+		add_spouse = tfw_lineoflowborn_umli_004
 	}
 
 	6833.7.9 = {
@@ -407,8 +407,8 @@ umli_motsognir_008 = { # Generation 3 continuation
 	}
 }
 
-umli_lowborn_016 = { # Lowborn spouse into House Motsognir (generation 3)
-	name = Ingrid
+tfw_lineoflowborn_umli_004 = { # Lowborn spouse into House Motsognir (generation 3)
+	name = tfw_lineoflowborn_umli_004_name
 	female = yes
 
 	religion = faith_khazad
@@ -436,16 +436,16 @@ umli_lowborn_016 = { # Lowborn spouse into House Motsognir (generation 3)
 	}
 }
 
-umli_motsognir_009 = { # Generation 3 sibling
-	name = Una
+tfw_lineofumli_motsognir_009 = { # Generation 3 sibling
+	name = tfw_lineofumli_motsognir_009_name
 	female = yes
 
 	dynasty = dynasty_umli_motsognir
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_motsognir_005
-	mother = umli_lowborn_011
+	father = tfw_lineofumli_motsognir_005
+	mother = tfw_lineoflowborn_umli_003
 
 	trait = dwarf
 	trait = stubborn
@@ -470,15 +470,15 @@ umli_motsognir_009 = { # Generation 3 sibling
 	}
 }
 
-umli_motsognir_010 = { # Generation 3 sibling
-	name = Fundin
+tfw_lineofumli_motsognir_010 = { # Generation 3 sibling
+	name = tfw_lineofumli_motsognir_010_name
 
 	dynasty = dynasty_umli_motsognir
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_motsognir_005
-	mother = umli_lowborn_011
+	father = tfw_lineofumli_motsognir_005
+	mother = tfw_lineoflowborn_umli_003
 
 	trait = dwarf
 	trait = paranoid
@@ -503,15 +503,15 @@ umli_motsognir_010 = { # Generation 3 sibling
 	}
 }
 
-umli_motsognir_011 = { # Generation 3 sibling
-	name = Bombur
+tfw_lineofumli_motsognir_011 = { # Generation 3 sibling
+	name = tfw_lineofumli_motsognir_011_name
 
 	dynasty = dynasty_umli_motsognir
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_motsognir_005
-	mother = umli_lowborn_011
+	father = tfw_lineofumli_motsognir_005
+	mother = tfw_lineoflowborn_umli_003
 
 	trait = dwarf
 	trait = wrathful
@@ -540,15 +540,15 @@ umli_motsognir_011 = { # Generation 3 sibling
 
 ### Generation 4 ###
 
-umli_motsognir_012 = { # Generation 4 continuation
-	name = Grer
+tfw_lineofumli_motsognir_012 = { # Generation 4 continuation
+	name = tfw_lineofumli_motsognir_012_name
 
 	dynasty = dynasty_umli_motsognir
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_motsognir_008
-	mother = umli_lowborn_016
+	father = tfw_lineofumli_motsognir_008
+	mother = tfw_lineoflowborn_umli_004
 
 	trait = dwarf
 	trait = patient
@@ -569,7 +569,7 @@ umli_motsognir_012 = { # Generation 4 continuation
 	}
 
 	6821.5.17 = {
-		add_spouse = umli_dvalin_010
+		add_spouse = tfw_lineofumli_dvalin_010
 	}
 
 	6851.2.4 = {
@@ -577,16 +577,16 @@ umli_motsognir_012 = { # Generation 4 continuation
 	}
 }
 
-umli_motsognir_013 = { # Generation 4 sibling
-	name = Rind
+tfw_lineofumli_motsognir_013 = { # Generation 4 sibling
+	name = tfw_lineofumli_motsognir_013_name
 	female = yes
 
 	dynasty = dynasty_umli_motsognir
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_motsognir_008
-	mother = umli_lowborn_016
+	father = tfw_lineofumli_motsognir_008
+	mother = tfw_lineoflowborn_umli_004
 
 	trait = just
 	trait = greedy
@@ -614,16 +614,16 @@ umli_motsognir_013 = { # Generation 4 sibling
 
 ### Generation 5 ###
 
-umli_motsognir_014 = { # Generation 5 continuation
-	name = Alfhild
+tfw_lineofumli_motsognir_014 = { # Generation 5 continuation
+	name = tfw_lineofumli_motsognir_014_name
 	female = yes
 
 	dynasty = dynasty_umli_motsognir
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_motsognir_012
-	mother = umli_dvalin_010
+	father = tfw_lineofumli_motsognir_012
+	mother = tfw_lineofumli_dvalin_010
 
 	trait = dwarf
 	trait = greedy
@@ -644,7 +644,7 @@ umli_motsognir_014 = { # Generation 5 continuation
 	}
 
 	6853.8.8 = {
-		add_spouse = umli_lowborn_025
+		add_spouse = tfw_lineoflowborn_umli_005
 	}
 
 	6903.12.20 = {
@@ -652,8 +652,8 @@ umli_motsognir_014 = { # Generation 5 continuation
 	}
 }
 
-umli_lowborn_025 = { # Lowborn spouse into House Motsognir (generation 5)
-	name = Nidi
+tfw_lineoflowborn_umli_005 = { # Lowborn spouse into House Motsognir (generation 5)
+	name = tfw_lineoflowborn_umli_005_name
 
 	religion = faith_khazad
 	culture = umli
@@ -680,15 +680,15 @@ umli_lowborn_025 = { # Lowborn spouse into House Motsognir (generation 5)
 	}
 }
 
-umli_motsognir_015 = { # Generation 5 sibling
-	name = Hanar
+tfw_lineofumli_motsognir_015 = { # Generation 5 sibling
+	name = tfw_lineofumli_motsognir_015_name
 
 	dynasty = dynasty_umli_motsognir
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_motsognir_012
-	mother = umli_dvalin_010
+	father = tfw_lineofumli_motsognir_012
+	mother = tfw_lineofumli_dvalin_010
 
 	trait = dwarf
 	trait = callous
@@ -713,16 +713,16 @@ umli_motsognir_015 = { # Generation 5 sibling
 	}
 }
 
-umli_motsognir_016 = { # Generation 5 sibling
-	name = Runa
+tfw_lineofumli_motsognir_016 = { # Generation 5 sibling
+	name = tfw_lineofumli_motsognir_016_name
 	female = yes
 
 	dynasty = dynasty_umli_motsognir
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_motsognir_012
-	mother = umli_dvalin_010
+	father = tfw_lineofumli_motsognir_012
+	mother = tfw_lineofumli_dvalin_010
 
 	trait = dwarf
 	trait = humble
@@ -747,16 +747,16 @@ umli_motsognir_016 = { # Generation 5 sibling
 	}
 }
 
-umli_motsognir_017 = { # Generation 5 sibling
-	name = Sigrid
+tfw_lineofumli_motsognir_017 = { # Generation 5 sibling
+	name = tfw_lineofumli_motsognir_017_name
 	female = yes
 
 	dynasty = dynasty_umli_motsognir
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_motsognir_012
-	mother = umli_dvalin_010
+	father = tfw_lineofumli_motsognir_012
+	mother = tfw_lineofumli_dvalin_010
 
 	trait = dwarf
 	trait = temperate
@@ -785,16 +785,16 @@ umli_motsognir_017 = { # Generation 5 sibling
 
 ### Generation 6 ###
 
-umli_motsognir_018 = { # Generation 6 continuation
-	name = Sif
+tfw_lineofumli_motsognir_018 = { # Generation 6 continuation
+	name = tfw_lineofumli_motsognir_018_name
 	female = yes
 
 	dynasty = dynasty_umli_motsognir
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_lowborn_025
-	mother = umli_motsognir_014
+	father = tfw_lineoflowborn_umli_005
+	mother = tfw_lineofumli_motsognir_014
 
 	trait = dwarf
 	trait = brave
@@ -815,7 +815,7 @@ umli_motsognir_018 = { # Generation 6 continuation
 	}
 
 	6882.8.17 = {
-		add_spouse = umli_lowborn_029
+		add_spouse = tfw_lineoflowborn_umli_006
 	}
 
 	6916.8.16 = {
@@ -823,8 +823,8 @@ umli_motsognir_018 = { # Generation 6 continuation
 	}
 }
 
-umli_lowborn_029 = { # Lowborn spouse into House Motsognir (generation 6)
-	name = Rathsvith
+tfw_lineoflowborn_umli_006 = { # Lowborn spouse into House Motsognir (generation 6)
+	name = tfw_lineoflowborn_umli_006_name
 
 	religion = faith_khazad
 	culture = umli
@@ -852,15 +852,15 @@ umli_lowborn_029 = { # Lowborn spouse into House Motsognir (generation 6)
 	}
 }
 
-umli_motsognir_019 = { # Generation 6 sibling
-	name = Frar
+tfw_lineofumli_motsognir_019 = { # Generation 6 sibling
+	name = tfw_lineofumli_motsognir_019_name
 
 	dynasty = dynasty_umli_motsognir
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_lowborn_025
-	mother = umli_motsognir_014
+	father = tfw_lineoflowborn_umli_005
+	mother = tfw_lineofumli_motsognir_014
 
 	trait = dwarf
 	trait = just
@@ -889,15 +889,15 @@ umli_motsognir_019 = { # Generation 6 sibling
 
 ### Generation 7 ###
 
-umli_motsognir_020 = { # Generation 7 continuation
-	name = Durin
+tfw_lineofumli_motsognir_020 = { # Generation 7 continuation
+	name = tfw_lineofumli_motsognir_020_name
 
 	dynasty = dynasty_umli_motsognir
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_lowborn_029
-	mother = umli_motsognir_018
+	father = tfw_lineoflowborn_umli_006
+	mother = tfw_lineofumli_motsognir_018
 
 	trait = dwarf
 	trait = greedy
@@ -918,7 +918,7 @@ umli_motsognir_020 = { # Generation 7 continuation
 	}
 
 	6912.5.2 = {
-		add_spouse = umli_lowborn_034
+		add_spouse = tfw_lineoflowborn_umli_007
 	}
 
 	6953.8.10 = {
@@ -926,8 +926,8 @@ umli_motsognir_020 = { # Generation 7 continuation
 	}
 }
 
-umli_lowborn_034 = { # Lowborn spouse into House Motsognir (generation 7)
-	name = Eir
+tfw_lineoflowborn_umli_007 = { # Lowborn spouse into House Motsognir (generation 7)
+	name = tfw_lineoflowborn_umli_007_name
 	female = yes
 
 	religion = faith_khazad
@@ -956,15 +956,15 @@ umli_lowborn_034 = { # Lowborn spouse into House Motsognir (generation 7)
 	}
 }
 
-umli_motsognir_021 = { # Generation 7 sibling
-	name = Niping
+tfw_lineofumli_motsognir_021 = { # Generation 7 sibling
+	name = tfw_lineofumli_motsognir_021_name
 
 	dynasty = dynasty_umli_motsognir
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_lowborn_029
-	mother = umli_motsognir_018
+	father = tfw_lineoflowborn_umli_006
+	mother = tfw_lineofumli_motsognir_018
 
 	trait = dwarf
 	trait = temperate
@@ -989,16 +989,16 @@ umli_motsognir_021 = { # Generation 7 sibling
 	}
 }
 
-umli_motsognir_022 = { # Generation 7 sibling
-	name = Gerda
+tfw_lineofumli_motsognir_022 = { # Generation 7 sibling
+	name = tfw_lineofumli_motsognir_022_name
 	female = yes
 
 	dynasty = dynasty_umli_motsognir
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_lowborn_029
-	mother = umli_motsognir_018
+	father = tfw_lineoflowborn_umli_006
+	mother = tfw_lineofumli_motsognir_018
 
 	trait = dwarf
 	trait = content
@@ -1023,16 +1023,16 @@ umli_motsognir_022 = { # Generation 7 sibling
 	}
 }
 
-umli_motsognir_023 = { # Generation 7 sibling
-	name = Hildr
+tfw_lineofumli_motsognir_023 = { # Generation 7 sibling
+	name = tfw_lineofumli_motsognir_023_name
 	female = yes
 
 	dynasty = dynasty_umli_motsognir
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_lowborn_029
-	mother = umli_motsognir_018
+	father = tfw_lineoflowborn_umli_006
+	mother = tfw_lineofumli_motsognir_018
 
 	trait = dwarf
 	trait = humble
@@ -1061,15 +1061,15 @@ umli_motsognir_023 = { # Generation 7 sibling
 
 ### Generation 8 ###
 
-umli_motsognir_024 = { # Generation 8 continuation
-	name = Gandalf
+tfw_lineofumli_motsognir_024 = { # Generation 8 continuation
+	name = tfw_lineofumli_motsognir_024_name
 
 	dynasty = dynasty_umli_motsognir
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_motsognir_020
-	mother = umli_lowborn_034
+	father = tfw_lineofumli_motsognir_020
+	mother = tfw_lineoflowborn_umli_007
 
 	trait = dwarf
 	trait = greedy
@@ -1090,7 +1090,7 @@ umli_motsognir_024 = { # Generation 8 continuation
 	}
 
 	6944.2.18 = {
-		add_spouse = umli_lowborn_039
+		add_spouse = tfw_lineoflowborn_umli_008
 	}
 
 	6992.8.3 = {
@@ -1098,8 +1098,8 @@ umli_motsognir_024 = { # Generation 8 continuation
 	}
 }
 
-umli_lowborn_039 = { # Lowborn spouse into House Motsognir (generation 8)
-	name = Aud
+tfw_lineoflowborn_umli_008 = { # Lowborn spouse into House Motsognir (generation 8)
+	name = tfw_lineoflowborn_umli_008_name
 	female = yes
 
 	religion = faith_khazad
@@ -1127,16 +1127,16 @@ umli_lowborn_039 = { # Lowborn spouse into House Motsognir (generation 8)
 	}
 }
 
-umli_motsognir_025 = { # Generation 8 sibling; spouse into House Nori
-	name = Eydis
+tfw_lineofumli_motsognir_025 = { # Generation 8 sibling; spouse into House Nori
+	name = tfw_lineofumli_motsognir_025_name
 	female = yes
 
 	dynasty = dynasty_umli_motsognir
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_motsognir_020
-	mother = umli_lowborn_034
+	father = tfw_lineofumli_motsognir_020
+	mother = tfw_lineoflowborn_umli_007
 
 	trait = dwarf
 	trait = forgiving
@@ -1165,15 +1165,15 @@ umli_motsognir_025 = { # Generation 8 sibling; spouse into House Nori
 
 ### Generation 9 ###
 
-umli_motsognir_026 = { # Generation 9 continuation
-	name = Fjalar
+tfw_lineofumli_motsognir_026 = { # Generation 9 continuation
+	name = tfw_lineofumli_motsognir_026_name
 
 	dynasty = dynasty_umli_motsognir
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_motsognir_024
-	mother = umli_lowborn_039
+	father = tfw_lineofumli_motsognir_024
+	mother = tfw_lineoflowborn_umli_008
 
 	trait = dwarf
 	trait = generous
@@ -1194,7 +1194,7 @@ umli_motsognir_026 = { # Generation 9 continuation
 	}
 
 	6972.8.24 = {
-		add_spouse = umli_lowborn_043
+		add_spouse = tfw_lineoflowborn_umli_009
 	}
 
 	7024.11.3 = {
@@ -1202,8 +1202,8 @@ umli_motsognir_026 = { # Generation 9 continuation
 	}
 }
 
-umli_lowborn_043 = { # Lowborn spouse into House Motsognir (generation 9)
-	name = Ingrid
+tfw_lineoflowborn_umli_009 = { # Lowborn spouse into House Motsognir (generation 9)
+	name = tfw_lineoflowborn_umli_009_name
 	female = yes
 
 	religion = faith_khazad
@@ -1231,16 +1231,16 @@ umli_lowborn_043 = { # Lowborn spouse into House Motsognir (generation 9)
 	}
 }
 
-umli_motsognir_027 = { # Generation 9 sibling
-	name = Dagny
+tfw_lineofumli_motsognir_027 = { # Generation 9 sibling
+	name = tfw_lineofumli_motsognir_027_name
 	female = yes
 
 	dynasty = dynasty_umli_motsognir
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_motsognir_024
-	mother = umli_lowborn_039
+	father = tfw_lineofumli_motsognir_024
+	mother = tfw_lineoflowborn_umli_008
 
 	trait = dwarf
 	trait = paranoid
@@ -1265,15 +1265,15 @@ umli_motsognir_027 = { # Generation 9 sibling
 	}
 }
 
-umli_motsognir_028 = { # Generation 9 sibling
-	name = Gloin
+tfw_lineofumli_motsognir_028 = { # Generation 9 sibling
+	name = tfw_lineofumli_motsognir_028_name
 
 	dynasty = dynasty_umli_motsognir
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_motsognir_024
-	mother = umli_lowborn_039
+	father = tfw_lineofumli_motsognir_024
+	mother = tfw_lineoflowborn_umli_008
 
 	trait = dwarf
 	trait = humble
@@ -1302,15 +1302,15 @@ umli_motsognir_028 = { # Generation 9 sibling
 
 ### Generation 10 ###
 
-umli_motsognir_029 = { # Generation 10 continuation
-	name = Ori
+tfw_lineofumli_motsognir_029 = { # Generation 10 continuation
+	name = tfw_lineofumli_motsognir_029_name
 
 	dynasty = dynasty_umli_motsognir
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_motsognir_026
-	mother = umli_lowborn_043
+	father = tfw_lineofumli_motsognir_026
+	mother = tfw_lineoflowborn_umli_009
 
 	trait = dwarf
 	trait = stubborn
@@ -1331,7 +1331,7 @@ umli_motsognir_029 = { # Generation 10 continuation
 	}
 
 	7005.11.22 = {
-		add_spouse = umli_lowborn_048
+		add_spouse = tfw_lineoflowborn_umli_010
 	}
 
 	7040.7.2 = {
@@ -1339,8 +1339,8 @@ umli_motsognir_029 = { # Generation 10 continuation
 	}
 }
 
-umli_lowborn_048 = { # Lowborn spouse into House Motsognir (generation 10)
-	name = Runa
+tfw_lineoflowborn_umli_010 = { # Lowborn spouse into House Motsognir (generation 10)
+	name = tfw_lineoflowborn_umli_010_name
 	female = yes
 
 	religion = faith_khazad
@@ -1369,15 +1369,15 @@ umli_lowborn_048 = { # Lowborn spouse into House Motsognir (generation 10)
 	}
 }
 
-umli_motsognir_030 = { # Generation 10 sibling
-	name = Lit
+tfw_lineofumli_motsognir_030 = { # Generation 10 sibling
+	name = tfw_lineofumli_motsognir_030_name
 
 	dynasty = dynasty_umli_motsognir
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_motsognir_026
-	mother = umli_lowborn_043
+	father = tfw_lineofumli_motsognir_026
+	mother = tfw_lineoflowborn_umli_009
 
 	trait = dwarf
 	trait = callous
@@ -1402,15 +1402,15 @@ umli_motsognir_030 = { # Generation 10 sibling
 	}
 }
 
-umli_motsognir_031 = { # Generation 10 sibling
-	name = Fundin
+tfw_lineofumli_motsognir_031 = { # Generation 10 sibling
+	name = tfw_lineofumli_motsognir_031_name
 
 	dynasty = dynasty_umli_motsognir
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_motsognir_026
-	mother = umli_lowborn_043
+	father = tfw_lineofumli_motsognir_026
+	mother = tfw_lineoflowborn_umli_009
 
 	trait = dwarf
 	trait = diligent
@@ -1439,15 +1439,15 @@ umli_motsognir_031 = { # Generation 10 sibling
 
 ### Generation 11 ###
 
-umli_motsognir_032 = { # Generation 11 continuation
-	name = Niping
+tfw_lineofumli_motsognir_032 = { # Generation 11 continuation
+	name = tfw_lineofumli_motsognir_032_name
 
 	dynasty = dynasty_umli_motsognir
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_motsognir_029
-	mother = umli_lowborn_048
+	father = tfw_lineofumli_motsognir_029
+	mother = tfw_lineoflowborn_umli_010
 
 	trait = dwarf
 	trait = diligent
@@ -1468,7 +1468,7 @@ umli_motsognir_032 = { # Generation 11 continuation
 	}
 
 	7035.2.7 = {
-		add_spouse = umli_lowborn_052
+		add_spouse = tfw_lineoflowborn_umli_011
 	}
 
 	7088.6.25 = {
@@ -1476,8 +1476,8 @@ umli_motsognir_032 = { # Generation 11 continuation
 	}
 }
 
-umli_lowborn_052 = { # Lowborn spouse into House Motsognir (generation 11)
-	name = Ragnhild
+tfw_lineoflowborn_umli_011 = { # Lowborn spouse into House Motsognir (generation 11)
+	name = tfw_lineoflowborn_umli_011_name
 	female = yes
 
 	religion = faith_khazad
@@ -1506,15 +1506,15 @@ umli_lowborn_052 = { # Lowborn spouse into House Motsognir (generation 11)
 	}
 }
 
-umli_motsognir_033 = { # Generation 11 sibling
-	name = Finn
+tfw_lineofumli_motsognir_033 = { # Generation 11 sibling
+	name = tfw_lineofumli_motsognir_033_name
 
 	dynasty = dynasty_umli_motsognir
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_motsognir_029
-	mother = umli_lowborn_048
+	father = tfw_lineofumli_motsognir_029
+	mother = tfw_lineoflowborn_umli_010
 
 	trait = dwarf
 	trait = compassionate
@@ -1539,16 +1539,16 @@ umli_motsognir_033 = { # Generation 11 sibling
 	}
 }
 
-umli_motsognir_034 = { # Generation 11 sibling
-	name = Aud
+tfw_lineofumli_motsognir_034 = { # Generation 11 sibling
+	name = tfw_lineofumli_motsognir_034_name
 	female = yes
 
 	dynasty = dynasty_umli_motsognir
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_motsognir_029
-	mother = umli_lowborn_048
+	father = tfw_lineofumli_motsognir_029
+	mother = tfw_lineoflowborn_umli_010
 
 	trait = dwarf
 	trait = gregarious
@@ -1577,15 +1577,15 @@ umli_motsognir_034 = { # Generation 11 sibling
 
 ### Generation 12 ###
 
-umli_motsognir_035 = { # Generation 12 continuation
-	name = Nordri
+tfw_lineofumli_motsognir_035 = { # Generation 12 continuation
+	name = tfw_lineofumli_motsognir_035_name
 
 	dynasty = dynasty_umli_motsognir
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_motsognir_032
-	mother = umli_lowborn_052
+	father = tfw_lineofumli_motsognir_032
+	mother = tfw_lineoflowborn_umli_011
 
 	trait = dwarf
 	trait = impatient
@@ -1606,7 +1606,7 @@ umli_motsognir_035 = { # Generation 12 continuation
 	}
 
 	7064.9.24 = {
-		add_spouse = umli_lowborn_057
+		add_spouse = tfw_lineoflowborn_umli_012
 	}
 
 	7098.12.13 = {
@@ -1614,8 +1614,8 @@ umli_motsognir_035 = { # Generation 12 continuation
 	}
 }
 
-umli_lowborn_057 = { # Lowborn spouse into House Motsognir (generation 12)
-	name = Gerda
+tfw_lineoflowborn_umli_012 = { # Lowborn spouse into House Motsognir (generation 12)
+	name = tfw_lineoflowborn_umli_012_name
 	female = yes
 
 	religion = faith_khazad
@@ -1644,15 +1644,15 @@ umli_lowborn_057 = { # Lowborn spouse into House Motsognir (generation 12)
 	}
 }
 
-umli_motsognir_036 = { # Generation 12 sibling
-	name = Hepti
+tfw_lineofumli_motsognir_036 = { # Generation 12 sibling
+	name = tfw_lineofumli_motsognir_036_name
 
 	dynasty = dynasty_umli_motsognir
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_motsognir_032
-	mother = umli_lowborn_052
+	father = tfw_lineofumli_motsognir_032
+	mother = tfw_lineoflowborn_umli_011
 
 	trait = brave
 	trait = temperate
@@ -1676,15 +1676,15 @@ umli_motsognir_036 = { # Generation 12 sibling
 	}
 }
 
-umli_motsognir_037 = { # Generation 12 sibling
-	name = Kili
+tfw_lineofumli_motsognir_037 = { # Generation 12 sibling
+	name = tfw_lineofumli_motsognir_037_name
 
 	dynasty = dynasty_umli_motsognir
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_motsognir_032
-	mother = umli_lowborn_052
+	father = tfw_lineofumli_motsognir_032
+	mother = tfw_lineoflowborn_umli_011
 
 	trait = dwarf
 	trait = calm
@@ -1713,15 +1713,15 @@ umli_motsognir_037 = { # Generation 12 sibling
 
 ### Generation 13 ###
 
-umli_motsognir_038 = { # Generation 13 continuation
-	name = Nyi
+tfw_lineofumli_motsognir_038 = { # Generation 13 continuation
+	name = tfw_lineofumli_motsognir_038_name
 
 	dynasty = dynasty_umli_motsognir
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_motsognir_035
-	mother = umli_lowborn_057
+	father = tfw_lineofumli_motsognir_035
+	mother = tfw_lineoflowborn_umli_012
 
 	trait = dwarf
 	trait = deceitful
@@ -1742,7 +1742,7 @@ umli_motsognir_038 = { # Generation 13 continuation
 	}
 
 	7095.12.15 = {
-		add_spouse = umli_lowborn_061
+		add_spouse = tfw_lineoflowborn_umli_013
 	}
 
 	7134.6.12 = {
@@ -1750,8 +1750,8 @@ umli_motsognir_038 = { # Generation 13 continuation
 	}
 }
 
-umli_lowborn_061 = { # Lowborn spouse into House Motsognir (generation 13)
-	name = Gudrun
+tfw_lineoflowborn_umli_013 = { # Lowborn spouse into House Motsognir (generation 13)
+	name = tfw_lineoflowborn_umli_013_name
 	female = yes
 
 	religion = faith_khazad
@@ -1780,16 +1780,16 @@ umli_lowborn_061 = { # Lowborn spouse into House Motsognir (generation 13)
 	}
 }
 
-umli_motsognir_039 = { # Generation 13 sibling
-	name = Ragnhild
+tfw_lineofumli_motsognir_039 = { # Generation 13 sibling
+	name = tfw_lineofumli_motsognir_039_name
 	female = yes
 
 	dynasty = dynasty_umli_motsognir
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_motsognir_035
-	mother = umli_lowborn_057
+	father = tfw_lineofumli_motsognir_035
+	mother = tfw_lineoflowborn_umli_012
 
 	trait = gregarious
 	trait = honest
@@ -1813,15 +1813,15 @@ umli_motsognir_039 = { # Generation 13 sibling
 	}
 }
 
-umli_motsognir_040 = { # Generation 13 sibling
-	name = Durin
+tfw_lineofumli_motsognir_040 = { # Generation 13 sibling
+	name = tfw_lineofumli_motsognir_040_name
 
 	dynasty = dynasty_umli_motsognir
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_motsognir_035
-	mother = umli_lowborn_057
+	father = tfw_lineofumli_motsognir_035
+	mother = tfw_lineoflowborn_umli_012
 
 	trait = dwarf
 	trait = impatient
@@ -1846,15 +1846,15 @@ umli_motsognir_040 = { # Generation 13 sibling
 	}
 }
 
-umli_motsognir_041 = { # Generation 13 sibling
-	name = Oin
+tfw_lineofumli_motsognir_041 = { # Generation 13 sibling
+	name = tfw_lineofumli_motsognir_041_name
 
 	dynasty = dynasty_umli_motsognir
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_motsognir_035
-	mother = umli_lowborn_057
+	father = tfw_lineofumli_motsognir_035
+	mother = tfw_lineoflowborn_umli_012
 
 	trait = dwarf
 	trait = callous
@@ -1883,15 +1883,15 @@ umli_motsognir_041 = { # Generation 13 sibling
 
 ### Generation 14 ###
 
-umli_motsognir_042 = { # Generation 14 continuation
-	name = Sudri
+tfw_lineofumli_motsognir_042 = { # Generation 14 continuation
+	name = tfw_lineofumli_motsognir_042_name
 
 	dynasty = dynasty_umli_motsognir
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_motsognir_038
-	mother = umli_lowborn_061
+	father = tfw_lineofumli_motsognir_038
+	mother = tfw_lineoflowborn_umli_013
 
 	trait = dwarf
 	trait = patient
@@ -1912,7 +1912,7 @@ umli_motsognir_042 = { # Generation 14 continuation
 	}
 
 	7122.3.20 = {
-		add_spouse = umli_brokkr_042
+		add_spouse = tfw_lineofumli_brokkr_042
 	}
 
 	7182.10.10 = {
@@ -1920,15 +1920,15 @@ umli_motsognir_042 = { # Generation 14 continuation
 	}
 }
 
-umli_motsognir_043 = { # Generation 14 sibling
-	name = Sudri
+tfw_lineofumli_motsognir_043 = { # Generation 14 sibling
+	name = tfw_lineofumli_motsognir_043_name
 
 	dynasty = dynasty_umli_motsognir
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_motsognir_038
-	mother = umli_lowborn_061
+	father = tfw_lineofumli_motsognir_038
+	mother = tfw_lineoflowborn_umli_013
 
 	trait = dwarf
 	trait = arrogant
@@ -1957,15 +1957,15 @@ umli_motsognir_043 = { # Generation 14 sibling
 
 ### Generation 15 ###
 
-umli_motsognir_044 = { # Generation 15 continuation
-	name = Austri
+tfw_lineofumli_motsognir_044 = { # Generation 15 continuation
+	name = tfw_lineofumli_motsognir_044_name
 
 	dynasty = dynasty_umli_motsognir
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_motsognir_042
-	mother = umli_brokkr_042
+	father = tfw_lineofumli_motsognir_042
+	mother = tfw_lineofumli_brokkr_042
 
 	trait = dwarf
 	trait = arrogant
@@ -1986,7 +1986,7 @@ umli_motsognir_044 = { # Generation 15 continuation
 	}
 
 	7153.6.11 = {
-		add_spouse = umli_lowborn_070
+		add_spouse = tfw_lineoflowborn_umli_014
 	}
 
 	7197.10.12 = {
@@ -1994,8 +1994,8 @@ umli_motsognir_044 = { # Generation 15 continuation
 	}
 }
 
-umli_lowborn_070 = { # Lowborn spouse into House Motsognir (generation 15)
-	name = Hervor
+tfw_lineoflowborn_umli_014 = { # Lowborn spouse into House Motsognir (generation 15)
+	name = tfw_lineoflowborn_umli_014_name
 	female = yes
 
 	religion = faith_khazad
@@ -2020,16 +2020,16 @@ umli_lowborn_070 = { # Lowborn spouse into House Motsognir (generation 15)
 	}
 }
 
-umli_motsognir_045 = { # Generation 15 sibling
-	name = Idunn
+tfw_lineofumli_motsognir_045 = { # Generation 15 sibling
+	name = tfw_lineofumli_motsognir_045_name
 	female = yes
 
 	dynasty = dynasty_umli_motsognir
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_motsognir_042
-	mother = umli_brokkr_042
+	father = tfw_lineofumli_motsognir_042
+	mother = tfw_lineofumli_brokkr_042
 
 	trait = dwarf
 	trait = stubborn
@@ -2054,15 +2054,15 @@ umli_motsognir_045 = { # Generation 15 sibling
 
 ### Generation 16 ###
 
-umli_motsognir_046 = { # Generation 16 continuation
-	name = Thekk
+tfw_lineofumli_motsognir_046 = { # Generation 16 continuation
+	name = tfw_lineofumli_motsognir_046_name
 
 	dynasty = dynasty_umli_motsognir
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_motsognir_044
-	mother = umli_lowborn_070
+	father = tfw_lineofumli_motsognir_044
+	mother = tfw_lineoflowborn_umli_014
 
 	trait = dwarf
 	trait = impatient
@@ -2083,12 +2083,12 @@ umli_motsognir_046 = { # Generation 16 continuation
 	}
 
 	7185.11.16 = {
-		add_spouse = umli_lowborn_075
+		add_spouse = tfw_lineoflowborn_umli_015
 	}
 }
 
-umli_lowborn_075 = { # Lowborn spouse into House Motsognir (generation 16)
-	name = Yrsa
+tfw_lineoflowborn_umli_015 = { # Lowborn spouse into House Motsognir (generation 16)
+	name = tfw_lineoflowborn_umli_015_name
 	female = yes
 
 	religion = faith_khazad
@@ -2112,16 +2112,16 @@ umli_lowborn_075 = { # Lowborn spouse into House Motsognir (generation 16)
 	}
 }
 
-umli_motsognir_047 = { # Generation 16 sibling
-	name = Geira
+tfw_lineofumli_motsognir_047 = { # Generation 16 sibling
+	name = tfw_lineofumli_motsognir_047_name
 	female = yes
 
 	dynasty = dynasty_umli_motsognir
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_motsognir_044
-	mother = umli_lowborn_070
+	father = tfw_lineofumli_motsognir_044
+	mother = tfw_lineoflowborn_umli_014
 
 	trait = dwarf
 	trait = humble
@@ -2142,16 +2142,16 @@ umli_motsognir_047 = { # Generation 16 sibling
 	}
 }
 
-umli_motsognir_048 = { # Generation 16 sibling
-	name = Ingrid
+tfw_lineofumli_motsognir_048 = { # Generation 16 sibling
+	name = tfw_lineofumli_motsognir_048_name
 	female = yes
 
 	dynasty = dynasty_umli_motsognir
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_motsognir_044
-	mother = umli_lowborn_070
+	father = tfw_lineofumli_motsognir_044
+	mother = tfw_lineoflowborn_umli_014
 
 	trait = dwarf
 	trait = deceitful
@@ -2176,15 +2176,15 @@ umli_motsognir_048 = { # Generation 16 sibling
 
 ### Generation 17 ###
 
-umli_motsognir_049 = { # Generation 17 continuation
-	name = Fundin
+tfw_lineofumli_motsognir_049 = { # Generation 17 continuation
+	name = tfw_lineofumli_motsognir_049_name
 
 	dynasty = dynasty_umli_motsognir
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_motsognir_046
-	mother = umli_lowborn_075
+	father = tfw_lineofumli_motsognir_046
+	mother = tfw_lineoflowborn_umli_015
 
 	trait = dwarf
 	trait = wrathful
@@ -2205,16 +2205,16 @@ umli_motsognir_049 = { # Generation 17 continuation
 	}
 }
 
-umli_motsognir_050 = { # Generation 17 sibling
-	name = Helga
+tfw_lineofumli_motsognir_050 = { # Generation 17 sibling
+	name = tfw_lineofumli_motsognir_050_name
 	female = yes
 
 	dynasty = dynasty_umli_motsognir
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_motsognir_046
-	mother = umli_lowborn_075
+	father = tfw_lineofumli_motsognir_046
+	mother = tfw_lineoflowborn_umli_015
 
 	trait = dwarf
 	trait = callous
@@ -2235,15 +2235,15 @@ umli_motsognir_050 = { # Generation 17 sibling
 	}
 }
 
-umli_motsognir_051 = { # Generation 17 sibling
-	name = Motsognir
+tfw_lineofumli_motsognir_051 = { # Generation 17 sibling
+	name = tfw_lineofumli_motsognir_051_name
 
 	dynasty = dynasty_umli_motsognir
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_motsognir_046
-	mother = umli_lowborn_075
+	father = tfw_lineofumli_motsognir_046
+	mother = tfw_lineoflowborn_umli_015
 
 	trait = dwarf
 	trait = wrathful
@@ -2264,15 +2264,15 @@ umli_motsognir_051 = { # Generation 17 sibling
 	}
 }
 
-umli_motsognir_052 = { # Generation 17 sibling
-	name = Fundin
+tfw_lineofumli_motsognir_052 = { # Generation 17 sibling
+	name = tfw_lineofumli_motsognir_052_name
 
 	dynasty = dynasty_umli_motsognir
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_motsognir_046
-	mother = umli_lowborn_075
+	father = tfw_lineofumli_motsognir_046
+	mother = tfw_lineoflowborn_umli_015
 
 	trait = dwarf
 	trait = forgiving
@@ -2298,8 +2298,8 @@ umli_motsognir_052 = { # Generation 17 sibling
 ##### HOUSE DVALIN #####
 ############################################################
 
-umli_dvalin_001 = { # Founder
-	name = Dvalin
+tfw_lineofumli_dvalin_001 = { # Founder
+	name = tfw_lineofumli_dvalin_001_name
 
 	dynasty = dynasty_umli_dvalin
 	religion = faith_khazad
@@ -2324,7 +2324,7 @@ umli_dvalin_001 = { # Founder
 	}
 
 	6698.9.17 = {
-		add_spouse = umli_lowborn_002
+		add_spouse = tfw_lineoflowborn_umli_016
 	}
 
 	6762.11.2 = {
@@ -2332,8 +2332,8 @@ umli_dvalin_001 = { # Founder
 	}
 }
 
-umli_lowborn_002 = { # Lowborn spouse of Dvalin
-	name = Eir
+tfw_lineoflowborn_umli_016 = { # Lowborn spouse of Dvalin
+	name = tfw_lineoflowborn_umli_016_name
 	female = yes
 
 	religion = faith_khazad
@@ -2365,15 +2365,15 @@ umli_lowborn_002 = { # Lowborn spouse of Dvalin
 
 ### Generation 1 ###
 
-umli_dvalin_002 = { # Generation 1 continuation
-	name = Hanar
+tfw_lineofumli_dvalin_002 = { # Generation 1 continuation
+	name = tfw_lineofumli_dvalin_002_name
 
 	dynasty = dynasty_umli_dvalin
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_dvalin_001
-	mother = umli_lowborn_002
+	father = tfw_lineofumli_dvalin_001
+	mother = tfw_lineoflowborn_umli_016
 
 	trait = dwarf
 	trait = ambitious
@@ -2394,7 +2394,7 @@ umli_dvalin_002 = { # Generation 1 continuation
 	}
 
 	6730.1.27 = {
-		add_spouse = umli_lowborn_007
+		add_spouse = tfw_lineoflowborn_umli_017
 	}
 
 	6760.1.15 = {
@@ -2402,8 +2402,8 @@ umli_dvalin_002 = { # Generation 1 continuation
 	}
 }
 
-umli_lowborn_007 = { # Lowborn spouse into House Dvalin (generation 1)
-	name = Alfhild
+tfw_lineoflowborn_umli_017 = { # Lowborn spouse into House Dvalin (generation 1)
+	name = tfw_lineoflowborn_umli_017_name
 	female = yes
 
 	religion = faith_khazad
@@ -2432,15 +2432,15 @@ umli_lowborn_007 = { # Lowborn spouse into House Dvalin (generation 1)
 	}
 }
 
-umli_dvalin_003 = { # Generation 1 sibling
-	name = Fundin
+tfw_lineofumli_dvalin_003 = { # Generation 1 sibling
+	name = tfw_lineofumli_dvalin_003_name
 
 	dynasty = dynasty_umli_dvalin
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_dvalin_001
-	mother = umli_lowborn_002
+	father = tfw_lineofumli_dvalin_001
+	mother = tfw_lineoflowborn_umli_016
 
 	trait = dwarf
 	trait = patient
@@ -2469,15 +2469,15 @@ umli_dvalin_003 = { # Generation 1 sibling
 
 ### Generation 2 ###
 
-umli_dvalin_004 = { # Generation 2 continuation
-	name = Sudri
+tfw_lineofumli_dvalin_004 = { # Generation 2 continuation
+	name = tfw_lineofumli_dvalin_004_name
 
 	dynasty = dynasty_umli_dvalin
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_dvalin_002
-	mother = umli_lowborn_007
+	father = tfw_lineofumli_dvalin_002
+	mother = tfw_lineoflowborn_umli_017
 
 	trait = dwarf
 	trait = craven
@@ -2498,7 +2498,7 @@ umli_dvalin_004 = { # Generation 2 continuation
 	}
 
 	6761.9.7 = {
-		add_spouse = umli_lowborn_012
+		add_spouse = tfw_lineoflowborn_umli_018
 	}
 
 	6801.9.15 = {
@@ -2506,8 +2506,8 @@ umli_dvalin_004 = { # Generation 2 continuation
 	}
 }
 
-umli_lowborn_012 = { # Lowborn spouse into House Dvalin (generation 2)
-	name = Eir
+tfw_lineoflowborn_umli_018 = { # Lowborn spouse into House Dvalin (generation 2)
+	name = tfw_lineoflowborn_umli_018_name
 	female = yes
 
 	religion = faith_khazad
@@ -2536,16 +2536,16 @@ umli_lowborn_012 = { # Lowborn spouse into House Dvalin (generation 2)
 	}
 }
 
-umli_dvalin_005 = { # Generation 2 sibling
-	name = Runa
+tfw_lineofumli_dvalin_005 = { # Generation 2 sibling
+	name = tfw_lineofumli_dvalin_005_name
 	female = yes
 
 	dynasty = dynasty_umli_dvalin
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_dvalin_002
-	mother = umli_lowborn_007
+	father = tfw_lineofumli_dvalin_002
+	mother = tfw_lineoflowborn_umli_017
 
 	trait = dwarf
 	trait = ambitious
@@ -2574,15 +2574,15 @@ umli_dvalin_005 = { # Generation 2 sibling
 
 ### Generation 3 ###
 
-umli_dvalin_006 = { # Generation 3 continuation
-	name = Brokkr
+tfw_lineofumli_dvalin_006 = { # Generation 3 continuation
+	name = tfw_lineofumli_dvalin_006_name
 
 	dynasty = dynasty_umli_dvalin
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_dvalin_004
-	mother = umli_lowborn_012
+	father = tfw_lineofumli_dvalin_004
+	mother = tfw_lineoflowborn_umli_018
 
 	trait = dwarf
 	trait = impatient
@@ -2603,7 +2603,7 @@ umli_dvalin_006 = { # Generation 3 continuation
 	}
 
 	6790.7.18 = {
-		add_spouse = umli_lowborn_017
+		add_spouse = tfw_lineoflowborn_umli_019
 	}
 
 	6820.12.2 = {
@@ -2611,8 +2611,8 @@ umli_dvalin_006 = { # Generation 3 continuation
 	}
 }
 
-umli_lowborn_017 = { # Lowborn spouse into House Dvalin (generation 3)
-	name = Gudrun
+tfw_lineoflowborn_umli_019 = { # Lowborn spouse into House Dvalin (generation 3)
+	name = tfw_lineoflowborn_umli_019_name
 	female = yes
 
 	religion = faith_khazad
@@ -2641,15 +2641,15 @@ umli_lowborn_017 = { # Lowborn spouse into House Dvalin (generation 3)
 	}
 }
 
-umli_dvalin_007 = { # Generation 3 sibling
-	name = Gloin
+tfw_lineofumli_dvalin_007 = { # Generation 3 sibling
+	name = tfw_lineofumli_dvalin_007_name
 
 	dynasty = dynasty_umli_dvalin
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_dvalin_004
-	mother = umli_lowborn_012
+	father = tfw_lineofumli_dvalin_004
+	mother = tfw_lineoflowborn_umli_018
 
 	trait = dwarf
 	trait = calm
@@ -2674,15 +2674,15 @@ umli_dvalin_007 = { # Generation 3 sibling
 	}
 }
 
-umli_dvalin_008 = { # Generation 3 sibling
-	name = Viggr
+tfw_lineofumli_dvalin_008 = { # Generation 3 sibling
+	name = tfw_lineofumli_dvalin_008_name
 
 	dynasty = dynasty_umli_dvalin
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_dvalin_004
-	mother = umli_lowborn_012
+	father = tfw_lineofumli_dvalin_004
+	mother = tfw_lineoflowborn_umli_018
 
 	trait = dwarf
 	trait = stubborn
@@ -2711,16 +2711,16 @@ umli_dvalin_008 = { # Generation 3 sibling
 
 ### Generation 4 ###
 
-umli_dvalin_009 = { # Generation 4 continuation
-	name = Eydis
+tfw_lineofumli_dvalin_009 = { # Generation 4 continuation
+	name = tfw_lineofumli_dvalin_009_name
 	female = yes
 
 	dynasty = dynasty_umli_dvalin
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_dvalin_006
-	mother = umli_lowborn_017
+	father = tfw_lineofumli_dvalin_006
+	mother = tfw_lineoflowborn_umli_019
 
 	trait = dwarf
 	trait = ambitious
@@ -2741,7 +2741,7 @@ umli_dvalin_009 = { # Generation 4 continuation
 	}
 
 	6821.12.15 = {
-		add_spouse = umli_lowborn_021
+		add_spouse = tfw_lineoflowborn_umli_020
 	}
 
 	6866.8.15 = {
@@ -2749,8 +2749,8 @@ umli_dvalin_009 = { # Generation 4 continuation
 	}
 }
 
-umli_lowborn_021 = { # Lowborn spouse into House Dvalin (generation 4)
-	name = Dain
+tfw_lineoflowborn_umli_020 = { # Lowborn spouse into House Dvalin (generation 4)
+	name = tfw_lineoflowborn_umli_020_name
 
 	religion = faith_khazad
 	culture = umli
@@ -2778,16 +2778,16 @@ umli_lowborn_021 = { # Lowborn spouse into House Dvalin (generation 4)
 	}
 }
 
-umli_dvalin_010 = { # Generation 4 sibling; spouse into House Motsognir
-	name = Sif
+tfw_lineofumli_dvalin_010 = { # Generation 4 sibling; spouse into House Motsognir
+	name = tfw_lineofumli_dvalin_010_name
 	female = yes
 
 	dynasty = dynasty_umli_dvalin
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_dvalin_006
-	mother = umli_lowborn_017
+	father = tfw_lineofumli_dvalin_006
+	mother = tfw_lineoflowborn_umli_019
 
 	trait = dwarf
 	trait = gregarious
@@ -2816,15 +2816,15 @@ umli_dvalin_010 = { # Generation 4 sibling; spouse into House Motsognir
 
 ### Generation 5 ###
 
-umli_dvalin_011 = { # Generation 5 continuation
-	name = Nidi
+tfw_lineofumli_dvalin_011 = { # Generation 5 continuation
+	name = tfw_lineofumli_dvalin_011_name
 
 	dynasty = dynasty_umli_dvalin
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_lowborn_021
-	mother = umli_dvalin_009
+	father = tfw_lineoflowborn_umli_020
+	mother = tfw_lineofumli_dvalin_009
 
 	trait = dwarf
 	trait = impatient
@@ -2845,7 +2845,7 @@ umli_dvalin_011 = { # Generation 5 continuation
 	}
 
 	6852.2.25 = {
-		add_spouse = umli_lowborn_026
+		add_spouse = tfw_lineoflowborn_umli_021
 	}
 
 	6903.8.13 = {
@@ -2853,8 +2853,8 @@ umli_dvalin_011 = { # Generation 5 continuation
 	}
 }
 
-umli_lowborn_026 = { # Lowborn spouse into House Dvalin (generation 5)
-	name = Solveig
+tfw_lineoflowborn_umli_021 = { # Lowborn spouse into House Dvalin (generation 5)
+	name = tfw_lineoflowborn_umli_021_name
 	female = yes
 
 	religion = faith_khazad
@@ -2883,15 +2883,15 @@ umli_lowborn_026 = { # Lowborn spouse into House Dvalin (generation 5)
 	}
 }
 
-umli_dvalin_012 = { # Generation 5 sibling
-	name = Sviar
+tfw_lineofumli_dvalin_012 = { # Generation 5 sibling
+	name = tfw_lineofumli_dvalin_012_name
 
 	dynasty = dynasty_umli_dvalin
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_lowborn_021
-	mother = umli_dvalin_009
+	father = tfw_lineoflowborn_umli_020
+	mother = tfw_lineofumli_dvalin_009
 
 	trait = dwarf
 	trait = cynical
@@ -2916,15 +2916,15 @@ umli_dvalin_012 = { # Generation 5 sibling
 	}
 }
 
-umli_dvalin_013 = { # Generation 5 sibling
-	name = Lofar
+tfw_lineofumli_dvalin_013 = { # Generation 5 sibling
+	name = tfw_lineofumli_dvalin_013_name
 
 	dynasty = dynasty_umli_dvalin
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_lowborn_021
-	mother = umli_dvalin_009
+	father = tfw_lineoflowborn_umli_020
+	mother = tfw_lineofumli_dvalin_009
 
 	trait = dwarf
 	trait = temperate
@@ -2949,15 +2949,15 @@ umli_dvalin_013 = { # Generation 5 sibling
 	}
 }
 
-umli_dvalin_014 = { # Generation 5 sibling
-	name = Bofur
+tfw_lineofumli_dvalin_014 = { # Generation 5 sibling
+	name = tfw_lineofumli_dvalin_014_name
 
 	dynasty = dynasty_umli_dvalin
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_lowborn_021
-	mother = umli_dvalin_009
+	father = tfw_lineoflowborn_umli_020
+	mother = tfw_lineofumli_dvalin_009
 
 	trait = dwarf
 	trait = ambitious
@@ -2986,15 +2986,15 @@ umli_dvalin_014 = { # Generation 5 sibling
 
 ### Generation 6 ###
 
-umli_dvalin_015 = { # Generation 6 continuation
-	name = Hornbori
+tfw_lineofumli_dvalin_015 = { # Generation 6 continuation
+	name = tfw_lineofumli_dvalin_015_name
 
 	dynasty = dynasty_umli_dvalin
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_dvalin_011
-	mother = umli_lowborn_026
+	father = tfw_lineofumli_dvalin_011
+	mother = tfw_lineoflowborn_umli_021
 
 	trait = dwarf
 	trait = forgiving
@@ -3015,7 +3015,7 @@ umli_dvalin_015 = { # Generation 6 continuation
 	}
 
 	6883.3.18 = {
-		add_spouse = umli_lowborn_030
+		add_spouse = tfw_lineoflowborn_umli_022
 	}
 
 	6911.9.20 = {
@@ -3023,8 +3023,8 @@ umli_dvalin_015 = { # Generation 6 continuation
 	}
 }
 
-umli_lowborn_030 = { # Lowborn spouse into House Dvalin (generation 6)
-	name = Ragnhild
+tfw_lineoflowborn_umli_022 = { # Lowborn spouse into House Dvalin (generation 6)
+	name = tfw_lineoflowborn_umli_022_name
 	female = yes
 
 	religion = faith_khazad
@@ -3053,15 +3053,15 @@ umli_lowborn_030 = { # Lowborn spouse into House Dvalin (generation 6)
 	}
 }
 
-umli_dvalin_016 = { # Generation 6 sibling
-	name = Fjalar
+tfw_lineofumli_dvalin_016 = { # Generation 6 sibling
+	name = tfw_lineofumli_dvalin_016_name
 
 	dynasty = dynasty_umli_dvalin
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_dvalin_011
-	mother = umli_lowborn_026
+	father = tfw_lineofumli_dvalin_011
+	mother = tfw_lineoflowborn_umli_021
 
 	trait = dwarf
 	trait = patient
@@ -3086,16 +3086,16 @@ umli_dvalin_016 = { # Generation 6 sibling
 	}
 }
 
-umli_dvalin_017 = { # Generation 6 sibling
-	name = Liv
+tfw_lineofumli_dvalin_017 = { # Generation 6 sibling
+	name = tfw_lineofumli_dvalin_017_name
 	female = yes
 
 	dynasty = dynasty_umli_dvalin
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_dvalin_011
-	mother = umli_lowborn_026
+	father = tfw_lineofumli_dvalin_011
+	mother = tfw_lineoflowborn_umli_021
 
 	trait = dwarf
 	trait = paranoid
@@ -3124,15 +3124,15 @@ umli_dvalin_017 = { # Generation 6 sibling
 
 ### Generation 7 ###
 
-umli_dvalin_018 = { # Generation 7 continuation
-	name = Loni
+tfw_lineofumli_dvalin_018 = { # Generation 7 continuation
+	name = tfw_lineofumli_dvalin_018_name
 
 	dynasty = dynasty_umli_dvalin
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_dvalin_015
-	mother = umli_lowborn_030
+	father = tfw_lineofumli_dvalin_015
+	mother = tfw_lineoflowborn_umli_022
 
 	trait = dwarf
 	trait = forgiving
@@ -3153,7 +3153,7 @@ umli_dvalin_018 = { # Generation 7 continuation
 	}
 
 	6911.7.28 = {
-		add_spouse = umli_lowborn_035
+		add_spouse = tfw_lineoflowborn_umli_023
 	}
 
 	6969.2.1 = {
@@ -3161,8 +3161,8 @@ umli_dvalin_018 = { # Generation 7 continuation
 	}
 }
 
-umli_lowborn_035 = { # Lowborn spouse into House Dvalin (generation 7)
-	name = Svanhild
+tfw_lineoflowborn_umli_023 = { # Lowborn spouse into House Dvalin (generation 7)
+	name = tfw_lineoflowborn_umli_023_name
 	female = yes
 
 	religion = faith_khazad
@@ -3191,16 +3191,16 @@ umli_lowborn_035 = { # Lowborn spouse into House Dvalin (generation 7)
 	}
 }
 
-umli_dvalin_019 = { # Generation 7 sibling
-	name = Nanna
+tfw_lineofumli_dvalin_019 = { # Generation 7 sibling
+	name = tfw_lineofumli_dvalin_019_name
 	female = yes
 
 	dynasty = dynasty_umli_dvalin
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_dvalin_015
-	mother = umli_lowborn_030
+	father = tfw_lineofumli_dvalin_015
+	mother = tfw_lineoflowborn_umli_022
 
 	trait = dwarf
 	trait = temperate
@@ -3225,15 +3225,15 @@ umli_dvalin_019 = { # Generation 7 sibling
 	}
 }
 
-umli_dvalin_020 = { # Generation 7 sibling
-	name = Bofur
+tfw_lineofumli_dvalin_020 = { # Generation 7 sibling
+	name = tfw_lineofumli_dvalin_020_name
 
 	dynasty = dynasty_umli_dvalin
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_dvalin_015
-	mother = umli_lowborn_030
+	father = tfw_lineofumli_dvalin_015
+	mother = tfw_lineoflowborn_umli_022
 
 	trait = dwarf
 	trait = brave
@@ -3258,16 +3258,16 @@ umli_dvalin_020 = { # Generation 7 sibling
 	}
 }
 
-umli_dvalin_021 = { # Generation 7 sibling
-	name = Hervor
+tfw_lineofumli_dvalin_021 = { # Generation 7 sibling
+	name = tfw_lineofumli_dvalin_021_name
 	female = yes
 
 	dynasty = dynasty_umli_dvalin
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_dvalin_015
-	mother = umli_lowborn_030
+	father = tfw_lineofumli_dvalin_015
+	mother = tfw_lineoflowborn_umli_022
 
 	trait = dwarf
 	trait = patient
@@ -3296,15 +3296,15 @@ umli_dvalin_021 = { # Generation 7 sibling
 
 ### Generation 8 ###
 
-umli_dvalin_022 = { # Generation 8 continuation
-	name = Eitri
+tfw_lineofumli_dvalin_022 = { # Generation 8 continuation
+	name = tfw_lineofumli_dvalin_022_name
 
 	dynasty = dynasty_umli_dvalin
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_dvalin_018
-	mother = umli_lowborn_035
+	father = tfw_lineofumli_dvalin_018
+	mother = tfw_lineoflowborn_umli_023
 
 	trait = dwarf
 	trait = content
@@ -3325,7 +3325,7 @@ umli_dvalin_022 = { # Generation 8 continuation
 	}
 
 	6942.2.16 = {
-		add_spouse = umli_lowborn_040
+		add_spouse = tfw_lineoflowborn_umli_024
 	}
 
 	6999.5.9 = {
@@ -3333,8 +3333,8 @@ umli_dvalin_022 = { # Generation 8 continuation
 	}
 }
 
-umli_lowborn_040 = { # Lowborn spouse into House Dvalin (generation 8)
-	name = Tove
+tfw_lineoflowborn_umli_024 = { # Lowborn spouse into House Dvalin (generation 8)
+	name = tfw_lineoflowborn_umli_024_name
 	female = yes
 
 	religion = faith_khazad
@@ -3363,15 +3363,15 @@ umli_lowborn_040 = { # Lowborn spouse into House Dvalin (generation 8)
 	}
 }
 
-umli_dvalin_023 = { # Generation 8 sibling
-	name = Sindri
+tfw_lineofumli_dvalin_023 = { # Generation 8 sibling
+	name = tfw_lineofumli_dvalin_023_name
 
 	dynasty = dynasty_umli_dvalin
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_dvalin_018
-	mother = umli_lowborn_035
+	father = tfw_lineofumli_dvalin_018
+	mother = tfw_lineoflowborn_umli_023
 
 	trait = dwarf
 	trait = diligent
@@ -3396,15 +3396,15 @@ umli_dvalin_023 = { # Generation 8 sibling
 	}
 }
 
-umli_dvalin_024 = { # Generation 8 sibling
-	name = Nidi
+tfw_lineofumli_dvalin_024 = { # Generation 8 sibling
+	name = tfw_lineofumli_dvalin_024_name
 
 	dynasty = dynasty_umli_dvalin
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_dvalin_018
-	mother = umli_lowborn_035
+	father = tfw_lineofumli_dvalin_018
+	mother = tfw_lineoflowborn_umli_023
 
 	trait = dwarf
 	trait = compassionate
@@ -3433,15 +3433,15 @@ umli_dvalin_024 = { # Generation 8 sibling
 
 ### Generation 9 ###
 
-umli_dvalin_025 = { # Generation 9 continuation
-	name = Dvalin
+tfw_lineofumli_dvalin_025 = { # Generation 9 continuation
+	name = tfw_lineofumli_dvalin_025_name
 
 	dynasty = dynasty_umli_dvalin
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_dvalin_022
-	mother = umli_lowborn_040
+	father = tfw_lineofumli_dvalin_022
+	mother = tfw_lineoflowborn_umli_024
 
 	trait = dwarf
 	trait = content
@@ -3462,7 +3462,7 @@ umli_dvalin_025 = { # Generation 9 continuation
 	}
 
 	6973.5.21 = {
-		add_spouse = umli_lowborn_044
+		add_spouse = tfw_lineoflowborn_umli_025
 	}
 
 	7025.8.12 = {
@@ -3470,8 +3470,8 @@ umli_dvalin_025 = { # Generation 9 continuation
 	}
 }
 
-umli_lowborn_044 = { # Lowborn spouse into House Dvalin (generation 9)
-	name = Thora
+tfw_lineoflowborn_umli_025 = { # Lowborn spouse into House Dvalin (generation 9)
+	name = tfw_lineoflowborn_umli_025_name
 	female = yes
 
 	religion = faith_khazad
@@ -3500,15 +3500,15 @@ umli_lowborn_044 = { # Lowborn spouse into House Dvalin (generation 9)
 	}
 }
 
-umli_dvalin_026 = { # Generation 9 sibling
-	name = Nyi
+tfw_lineofumli_dvalin_026 = { # Generation 9 sibling
+	name = tfw_lineofumli_dvalin_026_name
 
 	dynasty = dynasty_umli_dvalin
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_dvalin_022
-	mother = umli_lowborn_040
+	father = tfw_lineofumli_dvalin_022
+	mother = tfw_lineoflowborn_umli_024
 
 	trait = dwarf
 	trait = forgiving
@@ -3533,16 +3533,16 @@ umli_dvalin_026 = { # Generation 9 sibling
 	}
 }
 
-umli_dvalin_027 = { # Generation 9 sibling
-	name = Kara
+tfw_lineofumli_dvalin_027 = { # Generation 9 sibling
+	name = tfw_lineofumli_dvalin_027_name
 	female = yes
 
 	dynasty = dynasty_umli_dvalin
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_dvalin_022
-	mother = umli_lowborn_040
+	father = tfw_lineofumli_dvalin_022
+	mother = tfw_lineoflowborn_umli_024
 
 	trait = dwarf
 	trait = callous
@@ -3571,15 +3571,15 @@ umli_dvalin_027 = { # Generation 9 sibling
 
 ### Generation 10 ###
 
-umli_dvalin_028 = { # Generation 10 continuation
-	name = Dori
+tfw_lineofumli_dvalin_028 = { # Generation 10 continuation
+	name = tfw_lineofumli_dvalin_028_name
 
 	dynasty = dynasty_umli_dvalin
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_dvalin_025
-	mother = umli_lowborn_044
+	father = tfw_lineofumli_dvalin_025
+	mother = tfw_lineoflowborn_umli_025
 
 	trait = dwarf
 	trait = temperate
@@ -3600,7 +3600,7 @@ umli_dvalin_028 = { # Generation 10 continuation
 	}
 
 	7004.2.26 = {
-		add_spouse = umli_brokkr_031
+		add_spouse = tfw_lineofumli_brokkr_031
 	}
 
 	7050.8.15 = {
@@ -3608,15 +3608,15 @@ umli_dvalin_028 = { # Generation 10 continuation
 	}
 }
 
-umli_dvalin_029 = { # Generation 10 sibling
-	name = Virfir
+tfw_lineofumli_dvalin_029 = { # Generation 10 sibling
+	name = tfw_lineofumli_dvalin_029_name
 
 	dynasty = dynasty_umli_dvalin
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_dvalin_025
-	mother = umli_lowborn_044
+	father = tfw_lineofumli_dvalin_025
+	mother = tfw_lineoflowborn_umli_025
 
 	trait = dwarf
 	trait = temperate
@@ -3645,16 +3645,16 @@ umli_dvalin_029 = { # Generation 10 sibling
 
 ### Generation 11 ###
 
-umli_dvalin_030 = { # Generation 11 continuation
-	name = Signe
+tfw_lineofumli_dvalin_030 = { # Generation 11 continuation
+	name = tfw_lineofumli_dvalin_030_name
 	female = yes
 
 	dynasty = dynasty_umli_dvalin
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_dvalin_028
-	mother = umli_brokkr_031
+	father = tfw_lineofumli_dvalin_028
+	mother = tfw_lineofumli_brokkr_031
 
 	trait = dwarf
 	trait = gregarious
@@ -3675,7 +3675,7 @@ umli_dvalin_030 = { # Generation 11 continuation
 	}
 
 	7036.9.19 = {
-		add_spouse = umli_lowborn_053
+		add_spouse = tfw_lineoflowborn_umli_026
 	}
 
 	7079.11.14 = {
@@ -3683,8 +3683,8 @@ umli_dvalin_030 = { # Generation 11 continuation
 	}
 }
 
-umli_lowborn_053 = { # Lowborn spouse into House Dvalin (generation 11)
-	name = Fjalar
+tfw_lineoflowborn_umli_026 = { # Lowborn spouse into House Dvalin (generation 11)
+	name = tfw_lineoflowborn_umli_026_name
 
 	religion = faith_khazad
 	culture = umli
@@ -3712,15 +3712,15 @@ umli_lowborn_053 = { # Lowborn spouse into House Dvalin (generation 11)
 	}
 }
 
-umli_dvalin_031 = { # Generation 11 sibling
-	name = Sindri
+tfw_lineofumli_dvalin_031 = { # Generation 11 sibling
+	name = tfw_lineofumli_dvalin_031_name
 
 	dynasty = dynasty_umli_dvalin
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_dvalin_028
-	mother = umli_brokkr_031
+	father = tfw_lineofumli_dvalin_028
+	mother = tfw_lineofumli_brokkr_031
 
 	trait = dwarf
 	trait = content
@@ -3745,15 +3745,15 @@ umli_dvalin_031 = { # Generation 11 sibling
 	}
 }
 
-umli_dvalin_032 = { # Generation 11 sibling
-	name = Vili
+tfw_lineofumli_dvalin_032 = { # Generation 11 sibling
+	name = tfw_lineofumli_dvalin_032_name
 
 	dynasty = dynasty_umli_dvalin
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_dvalin_028
-	mother = umli_brokkr_031
+	father = tfw_lineofumli_dvalin_028
+	mother = tfw_lineofumli_brokkr_031
 
 	trait = dwarf
 	trait = cynical
@@ -3782,15 +3782,15 @@ umli_dvalin_032 = { # Generation 11 sibling
 
 ### Generation 12 ###
 
-umli_dvalin_033 = { # Generation 12 continuation
-	name = Hornbori
+tfw_lineofumli_dvalin_033 = { # Generation 12 continuation
+	name = tfw_lineofumli_dvalin_033_name
 
 	dynasty = dynasty_umli_dvalin
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_lowborn_053
-	mother = umli_dvalin_030
+	father = tfw_lineoflowborn_umli_026
+	mother = tfw_lineofumli_dvalin_030
 
 	trait = dwarf
 	trait = calm
@@ -3811,7 +3811,7 @@ umli_dvalin_033 = { # Generation 12 continuation
 	}
 
 	7064.6.28 = {
-		add_spouse = umli_lowborn_058
+		add_spouse = tfw_lineoflowborn_umli_027
 	}
 
 	7114.4.7 = {
@@ -3819,8 +3819,8 @@ umli_dvalin_033 = { # Generation 12 continuation
 	}
 }
 
-umli_lowborn_058 = { # Lowborn spouse into House Dvalin (generation 12)
-	name = Skadi
+tfw_lineoflowborn_umli_027 = { # Lowborn spouse into House Dvalin (generation 12)
+	name = tfw_lineoflowborn_umli_027_name
 	female = yes
 
 	religion = faith_khazad
@@ -3849,16 +3849,16 @@ umli_lowborn_058 = { # Lowborn spouse into House Dvalin (generation 12)
 	}
 }
 
-umli_dvalin_034 = { # Generation 12 sibling
-	name = Solveig
+tfw_lineofumli_dvalin_034 = { # Generation 12 sibling
+	name = tfw_lineofumli_dvalin_034_name
 	female = yes
 
 	dynasty = dynasty_umli_dvalin
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_lowborn_053
-	mother = umli_dvalin_030
+	father = tfw_lineoflowborn_umli_026
+	mother = tfw_lineofumli_dvalin_030
 
 	trait = dwarf
 	trait = diligent
@@ -3883,16 +3883,16 @@ umli_dvalin_034 = { # Generation 12 sibling
 	}
 }
 
-umli_dvalin_035 = { # Generation 12 sibling
-	name = Gudrun
+tfw_lineofumli_dvalin_035 = { # Generation 12 sibling
+	name = tfw_lineofumli_dvalin_035_name
 	female = yes
 
 	dynasty = dynasty_umli_dvalin
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_lowborn_053
-	mother = umli_dvalin_030
+	father = tfw_lineoflowborn_umli_026
+	mother = tfw_lineofumli_dvalin_030
 
 	trait = dwarf
 	trait = temperate
@@ -3921,15 +3921,15 @@ umli_dvalin_035 = { # Generation 12 sibling
 
 ### Generation 13 ###
 
-umli_dvalin_036 = { # Generation 13 continuation
-	name = Vili
+tfw_lineofumli_dvalin_036 = { # Generation 13 continuation
+	name = tfw_lineofumli_dvalin_036_name
 
 	dynasty = dynasty_umli_dvalin
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_dvalin_033
-	mother = umli_lowborn_058
+	father = tfw_lineofumli_dvalin_033
+	mother = tfw_lineoflowborn_umli_027
 
 	trait = dwarf
 	trait = honest
@@ -3950,7 +3950,7 @@ umli_dvalin_036 = { # Generation 13 continuation
 	}
 
 	7094.7.16 = {
-		add_spouse = umli_lowborn_062
+		add_spouse = tfw_lineoflowborn_umli_028
 	}
 
 	7150.2.26 = {
@@ -3958,8 +3958,8 @@ umli_dvalin_036 = { # Generation 13 continuation
 	}
 }
 
-umli_lowborn_062 = { # Lowborn spouse into House Dvalin (generation 13)
-	name = Skadi
+tfw_lineoflowborn_umli_028 = { # Lowborn spouse into House Dvalin (generation 13)
+	name = tfw_lineoflowborn_umli_028_name
 	female = yes
 
 	religion = faith_khazad
@@ -3988,15 +3988,15 @@ umli_lowborn_062 = { # Lowborn spouse into House Dvalin (generation 13)
 	}
 }
 
-umli_dvalin_037 = { # Generation 13 sibling
-	name = Fundin
+tfw_lineofumli_dvalin_037 = { # Generation 13 sibling
+	name = tfw_lineofumli_dvalin_037_name
 
 	dynasty = dynasty_umli_dvalin
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_dvalin_033
-	mother = umli_lowborn_058
+	father = tfw_lineofumli_dvalin_033
+	mother = tfw_lineoflowborn_umli_027
 
 	trait = dwarf
 	trait = calm
@@ -4021,15 +4021,15 @@ umli_dvalin_037 = { # Generation 13 sibling
 	}
 }
 
-umli_dvalin_038 = { # Generation 13 sibling
-	name = Lit
+tfw_lineofumli_dvalin_038 = { # Generation 13 sibling
+	name = tfw_lineofumli_dvalin_038_name
 
 	dynasty = dynasty_umli_dvalin
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_dvalin_033
-	mother = umli_lowborn_058
+	father = tfw_lineofumli_dvalin_033
+	mother = tfw_lineoflowborn_umli_027
 
 	trait = dwarf
 	trait = content
@@ -4058,15 +4058,15 @@ umli_dvalin_038 = { # Generation 13 sibling
 
 ### Generation 14 ###
 
-umli_dvalin_039 = { # Generation 14 continuation
-	name = Gloin
+tfw_lineofumli_dvalin_039 = { # Generation 14 continuation
+	name = tfw_lineofumli_dvalin_039_name
 
 	dynasty = dynasty_umli_dvalin
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_dvalin_036
-	mother = umli_lowborn_062
+	father = tfw_lineofumli_dvalin_036
+	mother = tfw_lineoflowborn_umli_028
 
 	trait = dwarf
 	trait = arrogant
@@ -4087,7 +4087,7 @@ umli_dvalin_039 = { # Generation 14 continuation
 	}
 
 	7124.1.24 = {
-		add_spouse = umli_lowborn_066
+		add_spouse = tfw_lineoflowborn_umli_029
 	}
 
 	7165.4.24 = {
@@ -4095,8 +4095,8 @@ umli_dvalin_039 = { # Generation 14 continuation
 	}
 }
 
-umli_lowborn_066 = { # Lowborn spouse into House Dvalin (generation 14)
-	name = Alfhild
+tfw_lineoflowborn_umli_029 = { # Lowborn spouse into House Dvalin (generation 14)
+	name = tfw_lineoflowborn_umli_029_name
 	female = yes
 
 	religion = faith_khazad
@@ -4125,15 +4125,15 @@ umli_lowborn_066 = { # Lowborn spouse into House Dvalin (generation 14)
 	}
 }
 
-umli_dvalin_040 = { # Generation 14 sibling
-	name = Niping
+tfw_lineofumli_dvalin_040 = { # Generation 14 sibling
+	name = tfw_lineofumli_dvalin_040_name
 
 	dynasty = dynasty_umli_dvalin
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_dvalin_036
-	mother = umli_lowborn_062
+	father = tfw_lineofumli_dvalin_036
+	mother = tfw_lineoflowborn_umli_028
 
 	trait = honest
 	trait = craven
@@ -4157,16 +4157,16 @@ umli_dvalin_040 = { # Generation 14 sibling
 	}
 }
 
-umli_dvalin_041 = { # Generation 14 sibling
-	name = Helga
+tfw_lineofumli_dvalin_041 = { # Generation 14 sibling
+	name = tfw_lineofumli_dvalin_041_name
 	female = yes
 
 	dynasty = dynasty_umli_dvalin
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_dvalin_036
-	mother = umli_lowborn_062
+	father = tfw_lineofumli_dvalin_036
+	mother = tfw_lineoflowborn_umli_028
 
 	trait = dwarf
 	trait = patient
@@ -4195,15 +4195,15 @@ umli_dvalin_041 = { # Generation 14 sibling
 
 ### Generation 15 ###
 
-umli_dvalin_042 = { # Generation 15 continuation
-	name = Hanar
+tfw_lineofumli_dvalin_042 = { # Generation 15 continuation
+	name = tfw_lineofumli_dvalin_042_name
 
 	dynasty = dynasty_umli_dvalin
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_dvalin_039
-	mother = umli_lowborn_066
+	father = tfw_lineofumli_dvalin_039
+	mother = tfw_lineoflowborn_umli_029
 
 	trait = dwarf
 	trait = shy
@@ -4224,12 +4224,12 @@ umli_dvalin_042 = { # Generation 15 continuation
 	}
 
 	7155.10.23 = {
-		add_spouse = umli_lowborn_071
+		add_spouse = tfw_lineoflowborn_umli_030
 	}
 }
 
-umli_lowborn_071 = { # Lowborn spouse into House Dvalin (generation 15)
-	name = Yrsa
+tfw_lineoflowborn_umli_030 = { # Lowborn spouse into House Dvalin (generation 15)
+	name = tfw_lineoflowborn_umli_030_name
 	female = yes
 
 	religion = faith_khazad
@@ -4254,16 +4254,16 @@ umli_lowborn_071 = { # Lowborn spouse into House Dvalin (generation 15)
 	}
 }
 
-umli_dvalin_043 = { # Generation 15 sibling
-	name = Sif
+tfw_lineofumli_dvalin_043 = { # Generation 15 sibling
+	name = tfw_lineofumli_dvalin_043_name
 	female = yes
 
 	dynasty = dynasty_umli_dvalin
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_dvalin_039
-	mother = umli_lowborn_066
+	father = tfw_lineofumli_dvalin_039
+	mother = tfw_lineoflowborn_umli_029
 
 	trait = dwarf
 	trait = callous
@@ -4292,15 +4292,15 @@ umli_dvalin_043 = { # Generation 15 sibling
 
 ### Generation 16 ###
 
-umli_dvalin_044 = { # Generation 16 continuation
-	name = Dvalin
+tfw_lineofumli_dvalin_044 = { # Generation 16 continuation
+	name = tfw_lineofumli_dvalin_044_name
 
 	dynasty = dynasty_umli_dvalin
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_dvalin_042
-	mother = umli_lowborn_071
+	father = tfw_lineofumli_dvalin_042
+	mother = tfw_lineoflowborn_umli_030
 
 	trait = dwarf
 	trait = diligent
@@ -4321,12 +4321,12 @@ umli_dvalin_044 = { # Generation 16 continuation
 	}
 
 	7186.9.19 = {
-		add_spouse = umli_lowborn_076
+		add_spouse = tfw_lineoflowborn_umli_031
 	}
 }
 
-umli_lowborn_076 = { # Lowborn spouse into House Dvalin (generation 16)
-	name = Una
+tfw_lineoflowborn_umli_031 = { # Lowborn spouse into House Dvalin (generation 16)
+	name = tfw_lineoflowborn_umli_031_name
 	female = yes
 
 	religion = faith_khazad
@@ -4351,15 +4351,15 @@ umli_lowborn_076 = { # Lowborn spouse into House Dvalin (generation 16)
 	}
 }
 
-umli_dvalin_045 = { # Generation 16 sibling
-	name = Frar
+tfw_lineofumli_dvalin_045 = { # Generation 16 sibling
+	name = tfw_lineofumli_dvalin_045_name
 
 	dynasty = dynasty_umli_dvalin
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_dvalin_042
-	mother = umli_lowborn_071
+	father = tfw_lineofumli_dvalin_042
+	mother = tfw_lineoflowborn_umli_030
 
 	trait = dwarf
 	trait = diligent
@@ -4380,15 +4380,15 @@ umli_dvalin_045 = { # Generation 16 sibling
 	}
 }
 
-umli_dvalin_046 = { # Generation 16 sibling
-	name = Dvalin
+tfw_lineofumli_dvalin_046 = { # Generation 16 sibling
+	name = tfw_lineofumli_dvalin_046_name
 
 	dynasty = dynasty_umli_dvalin
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_dvalin_042
-	mother = umli_lowborn_071
+	father = tfw_lineofumli_dvalin_042
+	mother = tfw_lineoflowborn_umli_030
 
 	trait = dwarf
 	trait = zealous
@@ -4413,16 +4413,16 @@ umli_dvalin_046 = { # Generation 16 sibling
 
 ### Generation 17 ###
 
-umli_dvalin_047 = { # Generation 17 continuation
-	name = Gudrun
+tfw_lineofumli_dvalin_047 = { # Generation 17 continuation
+	name = tfw_lineofumli_dvalin_047_name
 	female = yes
 
 	dynasty = dynasty_umli_dvalin
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_dvalin_044
-	mother = umli_lowborn_076
+	father = tfw_lineofumli_dvalin_044
+	mother = tfw_lineoflowborn_umli_031
 
 	trait = craven
 	trait = callous
@@ -4442,16 +4442,16 @@ umli_dvalin_047 = { # Generation 17 continuation
 	}
 }
 
-umli_dvalin_048 = { # Generation 17 sibling
-	name = Eir
+tfw_lineofumli_dvalin_048 = { # Generation 17 sibling
+	name = tfw_lineofumli_dvalin_048_name
 	female = yes
 
 	dynasty = dynasty_umli_dvalin
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_dvalin_044
-	mother = umli_lowborn_076
+	father = tfw_lineofumli_dvalin_044
+	mother = tfw_lineoflowborn_umli_031
 
 	trait = dwarf
 	trait = craven
@@ -4472,15 +4472,15 @@ umli_dvalin_048 = { # Generation 17 sibling
 	}
 }
 
-umli_dvalin_049 = { # Generation 17 sibling
-	name = Nidi
+tfw_lineofumli_dvalin_049 = { # Generation 17 sibling
+	name = tfw_lineofumli_dvalin_049_name
 
 	dynasty = dynasty_umli_dvalin
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_dvalin_044
-	mother = umli_lowborn_076
+	father = tfw_lineofumli_dvalin_044
+	mother = tfw_lineoflowborn_umli_031
 
 	trait = dwarf
 	trait = diligent
@@ -4501,15 +4501,15 @@ umli_dvalin_049 = { # Generation 17 sibling
 	}
 }
 
-umli_dvalin_050 = { # Generation 17 sibling
-	name = Ori
+tfw_lineofumli_dvalin_050 = { # Generation 17 sibling
+	name = tfw_lineofumli_dvalin_050_name
 
 	dynasty = dynasty_umli_dvalin
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_dvalin_044
-	mother = umli_lowborn_076
+	father = tfw_lineofumli_dvalin_044
+	mother = tfw_lineoflowborn_umli_031
 
 	trait = dwarf
 	trait = greedy
@@ -4535,8 +4535,8 @@ umli_dvalin_050 = { # Generation 17 sibling
 ##### HOUSE BROKKR #####
 ############################################################
 
-umli_brokkr_001 = { # Founder
-	name = Brokkr
+tfw_lineofumli_brokkr_001 = { # Founder
+	name = tfw_lineofumli_brokkr_001_name
 
 	dynasty = dynasty_umli_brokkr
 	religion = faith_khazad
@@ -4561,7 +4561,7 @@ umli_brokkr_001 = { # Founder
 	}
 
 	6698.5.23 = {
-		add_spouse = umli_lowborn_003
+		add_spouse = tfw_lineoflowborn_umli_032
 	}
 
 	6753.7.14 = {
@@ -4569,8 +4569,8 @@ umli_brokkr_001 = { # Founder
 	}
 }
 
-umli_lowborn_003 = { # Lowborn spouse of Brokkr
-	name = Gudrun
+tfw_lineoflowborn_umli_032 = { # Lowborn spouse of Brokkr
+	name = tfw_lineoflowborn_umli_032_name
 	female = yes
 
 	religion = faith_khazad
@@ -4602,15 +4602,15 @@ umli_lowborn_003 = { # Lowborn spouse of Brokkr
 
 ### Generation 1 ###
 
-umli_brokkr_002 = { # Generation 1 continuation
-	name = Regin
+tfw_lineofumli_brokkr_002 = { # Generation 1 continuation
+	name = tfw_lineofumli_brokkr_002_name
 
 	dynasty = dynasty_umli_brokkr
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_brokkr_001
-	mother = umli_lowborn_003
+	father = tfw_lineofumli_brokkr_001
+	mother = tfw_lineoflowborn_umli_032
 
 	trait = dwarf
 	trait = deceitful
@@ -4631,7 +4631,7 @@ umli_brokkr_002 = { # Generation 1 continuation
 	}
 
 	6730.8.18 = {
-		add_spouse = umli_lowborn_008
+		add_spouse = tfw_lineoflowborn_umli_033
 	}
 
 	6760.6.3 = {
@@ -4639,8 +4639,8 @@ umli_brokkr_002 = { # Generation 1 continuation
 	}
 }
 
-umli_lowborn_008 = { # Lowborn spouse into House Brokkr (generation 1)
-	name = Nanna
+tfw_lineoflowborn_umli_033 = { # Lowborn spouse into House Brokkr (generation 1)
+	name = tfw_lineoflowborn_umli_033_name
 	female = yes
 
 	religion = faith_khazad
@@ -4668,15 +4668,15 @@ umli_lowborn_008 = { # Lowborn spouse into House Brokkr (generation 1)
 	}
 }
 
-umli_brokkr_003 = { # Generation 1 sibling
-	name = Frosti
+tfw_lineofumli_brokkr_003 = { # Generation 1 sibling
+	name = tfw_lineofumli_brokkr_003_name
 
 	dynasty = dynasty_umli_brokkr
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_brokkr_001
-	mother = umli_lowborn_003
+	father = tfw_lineofumli_brokkr_001
+	mother = tfw_lineoflowborn_umli_032
 
 	trait = brave
 	trait = deceitful
@@ -4700,15 +4700,15 @@ umli_brokkr_003 = { # Generation 1 sibling
 	}
 }
 
-umli_brokkr_004 = { # Generation 1 sibling
-	name = Virfir
+tfw_lineofumli_brokkr_004 = { # Generation 1 sibling
+	name = tfw_lineofumli_brokkr_004_name
 
 	dynasty = dynasty_umli_brokkr
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_brokkr_001
-	mother = umli_lowborn_003
+	father = tfw_lineofumli_brokkr_001
+	mother = tfw_lineoflowborn_umli_032
 
 	trait = dwarf
 	trait = impatient
@@ -4737,15 +4737,15 @@ umli_brokkr_004 = { # Generation 1 sibling
 
 ### Generation 2 ###
 
-umli_brokkr_005 = { # Generation 2 continuation
-	name = Motsognir
+tfw_lineofumli_brokkr_005 = { # Generation 2 continuation
+	name = tfw_lineofumli_brokkr_005_name
 
 	dynasty = dynasty_umli_brokkr
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_brokkr_002
-	mother = umli_lowborn_008
+	father = tfw_lineofumli_brokkr_002
+	mother = tfw_lineoflowborn_umli_033
 
 	trait = dwarf
 	trait = callous
@@ -4766,7 +4766,7 @@ umli_brokkr_005 = { # Generation 2 continuation
 	}
 
 	6761.8.23 = {
-		add_spouse = umli_lowborn_013
+		add_spouse = tfw_lineoflowborn_umli_034
 	}
 
 	6792.1.18 = {
@@ -4774,8 +4774,8 @@ umli_brokkr_005 = { # Generation 2 continuation
 	}
 }
 
-umli_lowborn_013 = { # Lowborn spouse into House Brokkr (generation 2)
-	name = Gudrun
+tfw_lineoflowborn_umli_034 = { # Lowborn spouse into House Brokkr (generation 2)
+	name = tfw_lineoflowborn_umli_034_name
 	female = yes
 
 	religion = faith_khazad
@@ -4804,16 +4804,16 @@ umli_lowborn_013 = { # Lowborn spouse into House Brokkr (generation 2)
 	}
 }
 
-umli_brokkr_006 = { # Generation 2 sibling
-	name = Hervor
+tfw_lineofumli_brokkr_006 = { # Generation 2 sibling
+	name = tfw_lineofumli_brokkr_006_name
 	female = yes
 
 	dynasty = dynasty_umli_brokkr
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_brokkr_002
-	mother = umli_lowborn_008
+	father = tfw_lineofumli_brokkr_002
+	mother = tfw_lineoflowborn_umli_033
 
 	trait = dwarf
 	trait = deceitful
@@ -4838,15 +4838,15 @@ umli_brokkr_006 = { # Generation 2 sibling
 	}
 }
 
-umli_brokkr_007 = { # Generation 2 sibling
-	name = Hepti
+tfw_lineofumli_brokkr_007 = { # Generation 2 sibling
+	name = tfw_lineofumli_brokkr_007_name
 
 	dynasty = dynasty_umli_brokkr
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_brokkr_002
-	mother = umli_lowborn_008
+	father = tfw_lineofumli_brokkr_002
+	mother = tfw_lineoflowborn_umli_033
 
 	trait = greedy
 	trait = just
@@ -4874,16 +4874,16 @@ umli_brokkr_007 = { # Generation 2 sibling
 
 ### Generation 3 ###
 
-umli_brokkr_008 = { # Generation 3 continuation
-	name = Yrsa
+tfw_lineofumli_brokkr_008 = { # Generation 3 continuation
+	name = tfw_lineofumli_brokkr_008_name
 	female = yes
 
 	dynasty = dynasty_umli_brokkr
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_brokkr_005
-	mother = umli_lowborn_013
+	father = tfw_lineofumli_brokkr_005
+	mother = tfw_lineoflowborn_umli_034
 
 	trait = dwarf
 	trait = greedy
@@ -4904,7 +4904,7 @@ umli_brokkr_008 = { # Generation 3 continuation
 	}
 
 	6790.1.22 = {
-		add_spouse = umli_lowborn_018
+		add_spouse = tfw_lineoflowborn_umli_035
 	}
 
 	6835.6.1 = {
@@ -4912,8 +4912,8 @@ umli_brokkr_008 = { # Generation 3 continuation
 	}
 }
 
-umli_lowborn_018 = { # Lowborn spouse into House Brokkr (generation 3)
-	name = Dain
+tfw_lineoflowborn_umli_035 = { # Lowborn spouse into House Brokkr (generation 3)
+	name = tfw_lineoflowborn_umli_035_name
 
 	religion = faith_khazad
 	culture = umli
@@ -4940,16 +4940,16 @@ umli_lowborn_018 = { # Lowborn spouse into House Brokkr (generation 3)
 	}
 }
 
-umli_brokkr_009 = { # Generation 3 sibling
-	name = Tove
+tfw_lineofumli_brokkr_009 = { # Generation 3 sibling
+	name = tfw_lineofumli_brokkr_009_name
 	female = yes
 
 	dynasty = dynasty_umli_brokkr
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_brokkr_005
-	mother = umli_lowborn_013
+	father = tfw_lineofumli_brokkr_005
+	mother = tfw_lineoflowborn_umli_034
 
 	trait = dwarf
 	trait = shy
@@ -4974,16 +4974,16 @@ umli_brokkr_009 = { # Generation 3 sibling
 	}
 }
 
-umli_brokkr_010 = { # Generation 3 sibling
-	name = Ragnhild
+tfw_lineofumli_brokkr_010 = { # Generation 3 sibling
+	name = tfw_lineofumli_brokkr_010_name
 	female = yes
 
 	dynasty = dynasty_umli_brokkr
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_brokkr_005
-	mother = umli_lowborn_013
+	father = tfw_lineofumli_brokkr_005
+	mother = tfw_lineoflowborn_umli_034
 
 	trait = dwarf
 	trait = content
@@ -5012,16 +5012,16 @@ umli_brokkr_010 = { # Generation 3 sibling
 
 ### Generation 4 ###
 
-umli_brokkr_011 = { # Generation 4 continuation
-	name = Rind
+tfw_lineofumli_brokkr_011 = { # Generation 4 continuation
+	name = tfw_lineofumli_brokkr_011_name
 	female = yes
 
 	dynasty = dynasty_umli_brokkr
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_lowborn_018
-	mother = umli_brokkr_008
+	father = tfw_lineoflowborn_umli_035
+	mother = tfw_lineofumli_brokkr_008
 
 	trait = dwarf
 	trait = temperate
@@ -5042,7 +5042,7 @@ umli_brokkr_011 = { # Generation 4 continuation
 	}
 
 	6822.12.28 = {
-		add_spouse = umli_lowborn_022
+		add_spouse = tfw_lineoflowborn_umli_036
 	}
 
 	6872.12.23 = {
@@ -5050,8 +5050,8 @@ umli_brokkr_011 = { # Generation 4 continuation
 	}
 }
 
-umli_lowborn_022 = { # Lowborn spouse into House Brokkr (generation 4)
-	name = Gandalf
+tfw_lineoflowborn_umli_036 = { # Lowborn spouse into House Brokkr (generation 4)
+	name = tfw_lineoflowborn_umli_036_name
 
 	religion = faith_khazad
 	culture = umli
@@ -5078,16 +5078,16 @@ umli_lowborn_022 = { # Lowborn spouse into House Brokkr (generation 4)
 	}
 }
 
-umli_brokkr_012 = { # Generation 4 sibling
-	name = Signy
+tfw_lineofumli_brokkr_012 = { # Generation 4 sibling
+	name = tfw_lineofumli_brokkr_012_name
 	female = yes
 
 	dynasty = dynasty_umli_brokkr
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_lowborn_018
-	mother = umli_brokkr_008
+	father = tfw_lineoflowborn_umli_035
+	mother = tfw_lineofumli_brokkr_008
 
 	trait = dwarf
 	trait = compassionate
@@ -5112,15 +5112,15 @@ umli_brokkr_012 = { # Generation 4 sibling
 	}
 }
 
-umli_brokkr_013 = { # Generation 4 sibling
-	name = Finn
+tfw_lineofumli_brokkr_013 = { # Generation 4 sibling
+	name = tfw_lineofumli_brokkr_013_name
 
 	dynasty = dynasty_umli_brokkr
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_lowborn_018
-	mother = umli_brokkr_008
+	father = tfw_lineoflowborn_umli_035
+	mother = tfw_lineofumli_brokkr_008
 
 	trait = dwarf
 	trait = stubborn
@@ -5149,15 +5149,15 @@ umli_brokkr_013 = { # Generation 4 sibling
 
 ### Generation 5 ###
 
-umli_brokkr_014 = { # Generation 5 continuation
-	name = Vili
+tfw_lineofumli_brokkr_014 = { # Generation 5 continuation
+	name = tfw_lineofumli_brokkr_014_name
 
 	dynasty = dynasty_umli_brokkr
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_lowborn_022
-	mother = umli_brokkr_011
+	father = tfw_lineoflowborn_umli_036
+	mother = tfw_lineofumli_brokkr_011
 
 	trait = dwarf
 	trait = just
@@ -5178,7 +5178,7 @@ umli_brokkr_014 = { # Generation 5 continuation
 	}
 
 	6852.12.28 = {
-		add_spouse = umli_andvari_016
+		add_spouse = tfw_lineofumli_andvari_016
 	}
 
 	6893.7.21 = {
@@ -5186,16 +5186,16 @@ umli_brokkr_014 = { # Generation 5 continuation
 	}
 }
 
-umli_brokkr_015 = { # Generation 5 sibling
-	name = Svanhild
+tfw_lineofumli_brokkr_015 = { # Generation 5 sibling
+	name = tfw_lineofumli_brokkr_015_name
 	female = yes
 
 	dynasty = dynasty_umli_brokkr
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_lowborn_022
-	mother = umli_brokkr_011
+	father = tfw_lineoflowborn_umli_036
+	mother = tfw_lineofumli_brokkr_011
 
 	trait = dwarf
 	trait = impatient
@@ -5220,16 +5220,16 @@ umli_brokkr_015 = { # Generation 5 sibling
 	}
 }
 
-umli_brokkr_016 = { # Generation 5 sibling
-	name = Signy
+tfw_lineofumli_brokkr_016 = { # Generation 5 sibling
+	name = tfw_lineofumli_brokkr_016_name
 	female = yes
 
 	dynasty = dynasty_umli_brokkr
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_lowborn_022
-	mother = umli_brokkr_011
+	father = tfw_lineoflowborn_umli_036
+	mother = tfw_lineofumli_brokkr_011
 
 	trait = dwarf
 	trait = gregarious
@@ -5254,16 +5254,16 @@ umli_brokkr_016 = { # Generation 5 sibling
 	}
 }
 
-umli_brokkr_017 = { # Generation 5 sibling
-	name = Astrid
+tfw_lineofumli_brokkr_017 = { # Generation 5 sibling
+	name = tfw_lineofumli_brokkr_017_name
 	female = yes
 
 	dynasty = dynasty_umli_brokkr
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_lowborn_022
-	mother = umli_brokkr_011
+	father = tfw_lineoflowborn_umli_036
+	mother = tfw_lineofumli_brokkr_011
 
 	trait = dwarf
 	trait = wrathful
@@ -5292,15 +5292,15 @@ umli_brokkr_017 = { # Generation 5 sibling
 
 ### Generation 6 ###
 
-umli_brokkr_018 = { # Generation 6 continuation
-	name = Fjalar
+tfw_lineofumli_brokkr_018 = { # Generation 6 continuation
+	name = tfw_lineofumli_brokkr_018_name
 
 	dynasty = dynasty_umli_brokkr
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_brokkr_014
-	mother = umli_andvari_016
+	father = tfw_lineofumli_brokkr_014
+	mother = tfw_lineofumli_andvari_016
 
 	trait = dwarf
 	trait = impatient
@@ -5321,7 +5321,7 @@ umli_brokkr_018 = { # Generation 6 continuation
 	}
 
 	6882.12.6 = {
-		add_spouse = umli_lowborn_031
+		add_spouse = tfw_lineoflowborn_umli_037
 	}
 
 	6922.8.16 = {
@@ -5329,8 +5329,8 @@ umli_brokkr_018 = { # Generation 6 continuation
 	}
 }
 
-umli_lowborn_031 = { # Lowborn spouse into House Brokkr (generation 6)
-	name = Alfhild
+tfw_lineoflowborn_umli_037 = { # Lowborn spouse into House Brokkr (generation 6)
+	name = tfw_lineoflowborn_umli_037_name
 	female = yes
 
 	religion = faith_khazad
@@ -5359,16 +5359,16 @@ umli_lowborn_031 = { # Lowborn spouse into House Brokkr (generation 6)
 	}
 }
 
-umli_brokkr_019 = { # Generation 6 sibling
-	name = Helga
+tfw_lineofumli_brokkr_019 = { # Generation 6 sibling
+	name = tfw_lineofumli_brokkr_019_name
 	female = yes
 
 	dynasty = dynasty_umli_brokkr
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_brokkr_014
-	mother = umli_andvari_016
+	father = tfw_lineofumli_brokkr_014
+	mother = tfw_lineofumli_andvari_016
 
 	trait = dwarf
 	trait = shy
@@ -5393,16 +5393,16 @@ umli_brokkr_019 = { # Generation 6 sibling
 	}
 }
 
-umli_brokkr_020 = { # Generation 6 sibling
-	name = Embla
+tfw_lineofumli_brokkr_020 = { # Generation 6 sibling
+	name = tfw_lineofumli_brokkr_020_name
 	female = yes
 
 	dynasty = dynasty_umli_brokkr
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_brokkr_014
-	mother = umli_andvari_016
+	father = tfw_lineofumli_brokkr_014
+	mother = tfw_lineofumli_andvari_016
 
 	trait = humble
 	trait = stubborn
@@ -5426,15 +5426,15 @@ umli_brokkr_020 = { # Generation 6 sibling
 	}
 }
 
-umli_brokkr_021 = { # Generation 6 sibling
-	name = Rathsvith
+tfw_lineofumli_brokkr_021 = { # Generation 6 sibling
+	name = tfw_lineofumli_brokkr_021_name
 
 	dynasty = dynasty_umli_brokkr
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_brokkr_014
-	mother = umli_andvari_016
+	father = tfw_lineofumli_brokkr_014
+	mother = tfw_lineofumli_andvari_016
 
 	trait = dwarf
 	trait = forgiving
@@ -5463,15 +5463,15 @@ umli_brokkr_021 = { # Generation 6 sibling
 
 ### Generation 7 ###
 
-umli_brokkr_022 = { # Generation 7 continuation
-	name = Nordri
+tfw_lineofumli_brokkr_022 = { # Generation 7 continuation
+	name = tfw_lineofumli_brokkr_022_name
 
 	dynasty = dynasty_umli_brokkr
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_brokkr_018
-	mother = umli_lowborn_031
+	father = tfw_lineofumli_brokkr_018
+	mother = tfw_lineoflowborn_umli_037
 
 	trait = dwarf
 	trait = compassionate
@@ -5492,7 +5492,7 @@ umli_brokkr_022 = { # Generation 7 continuation
 	}
 
 	6912.10.7 = {
-		add_spouse = umli_lowborn_036
+		add_spouse = tfw_lineoflowborn_umli_038
 	}
 
 	6964.12.21 = {
@@ -5500,8 +5500,8 @@ umli_brokkr_022 = { # Generation 7 continuation
 	}
 }
 
-umli_lowborn_036 = { # Lowborn spouse into House Brokkr (generation 7)
-	name = Freydis
+tfw_lineoflowborn_umli_038 = { # Lowborn spouse into House Brokkr (generation 7)
+	name = tfw_lineoflowborn_umli_038_name
 	female = yes
 
 	religion = faith_khazad
@@ -5530,15 +5530,15 @@ umli_lowborn_036 = { # Lowborn spouse into House Brokkr (generation 7)
 	}
 }
 
-umli_brokkr_023 = { # Generation 7 sibling
-	name = Lit
+tfw_lineofumli_brokkr_023 = { # Generation 7 sibling
+	name = tfw_lineofumli_brokkr_023_name
 
 	dynasty = dynasty_umli_brokkr
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_brokkr_018
-	mother = umli_lowborn_031
+	father = tfw_lineofumli_brokkr_018
+	mother = tfw_lineoflowborn_umli_037
 
 	trait = dwarf
 	trait = content
@@ -5563,15 +5563,15 @@ umli_brokkr_023 = { # Generation 7 sibling
 	}
 }
 
-umli_brokkr_024 = { # Generation 7 sibling
-	name = Lofar
+tfw_lineofumli_brokkr_024 = { # Generation 7 sibling
+	name = tfw_lineofumli_brokkr_024_name
 
 	dynasty = dynasty_umli_brokkr
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_brokkr_018
-	mother = umli_lowborn_031
+	father = tfw_lineofumli_brokkr_018
+	mother = tfw_lineoflowborn_umli_037
 
 	trait = dwarf
 	trait = honest
@@ -5600,15 +5600,15 @@ umli_brokkr_024 = { # Generation 7 sibling
 
 ### Generation 8 ###
 
-umli_brokkr_025 = { # Generation 8 continuation
-	name = Gloin
+tfw_lineofumli_brokkr_025 = { # Generation 8 continuation
+	name = tfw_lineofumli_brokkr_025_name
 
 	dynasty = dynasty_umli_brokkr
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_brokkr_022
-	mother = umli_lowborn_036
+	father = tfw_lineofumli_brokkr_022
+	mother = tfw_lineoflowborn_umli_038
 
 	trait = dwarf
 	trait = calm
@@ -5629,7 +5629,7 @@ umli_brokkr_025 = { # Generation 8 continuation
 	}
 
 	6943.3.8 = {
-		add_spouse = umli_lowborn_041
+		add_spouse = tfw_lineoflowborn_umli_039
 	}
 
 	6991.10.26 = {
@@ -5637,8 +5637,8 @@ umli_brokkr_025 = { # Generation 8 continuation
 	}
 }
 
-umli_lowborn_041 = { # Lowborn spouse into House Brokkr (generation 8)
-	name = Aud
+tfw_lineoflowborn_umli_039 = { # Lowborn spouse into House Brokkr (generation 8)
+	name = tfw_lineoflowborn_umli_039_name
 	female = yes
 
 	religion = faith_khazad
@@ -5667,15 +5667,15 @@ umli_lowborn_041 = { # Lowborn spouse into House Brokkr (generation 8)
 	}
 }
 
-umli_brokkr_026 = { # Generation 8 sibling
-	name = Sindri
+tfw_lineofumli_brokkr_026 = { # Generation 8 sibling
+	name = tfw_lineofumli_brokkr_026_name
 
 	dynasty = dynasty_umli_brokkr
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_brokkr_022
-	mother = umli_lowborn_036
+	father = tfw_lineofumli_brokkr_022
+	mother = tfw_lineoflowborn_umli_038
 
 	trait = dwarf
 	trait = generous
@@ -5704,16 +5704,16 @@ umli_brokkr_026 = { # Generation 8 sibling
 
 ### Generation 9 ###
 
-umli_brokkr_027 = { # Generation 9 continuation
-	name = Vigdis
+tfw_lineofumli_brokkr_027 = { # Generation 9 continuation
+	name = tfw_lineofumli_brokkr_027_name
 	female = yes
 
 	dynasty = dynasty_umli_brokkr
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_brokkr_025
-	mother = umli_lowborn_041
+	father = tfw_lineofumli_brokkr_025
+	mother = tfw_lineoflowborn_umli_039
 
 	trait = dwarf
 	trait = shy
@@ -5734,7 +5734,7 @@ umli_brokkr_027 = { # Generation 9 continuation
 	}
 
 	6974.4.20 = {
-		add_spouse = umli_lowborn_045
+		add_spouse = tfw_lineoflowborn_umli_040
 	}
 
 	7015.12.5 = {
@@ -5742,8 +5742,8 @@ umli_brokkr_027 = { # Generation 9 continuation
 	}
 }
 
-umli_lowborn_045 = { # Lowborn spouse into House Brokkr (generation 9)
-	name = Eitri
+tfw_lineoflowborn_umli_040 = { # Lowborn spouse into House Brokkr (generation 9)
+	name = tfw_lineoflowborn_umli_040_name
 
 	religion = faith_khazad
 	culture = umli
@@ -5771,15 +5771,15 @@ umli_lowborn_045 = { # Lowborn spouse into House Brokkr (generation 9)
 	}
 }
 
-umli_brokkr_028 = { # Generation 9 sibling
-	name = Fjalar
+tfw_lineofumli_brokkr_028 = { # Generation 9 sibling
+	name = tfw_lineofumli_brokkr_028_name
 
 	dynasty = dynasty_umli_brokkr
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_brokkr_025
-	mother = umli_lowborn_041
+	father = tfw_lineofumli_brokkr_025
+	mother = tfw_lineoflowborn_umli_039
 
 	trait = dwarf
 	trait = temperate
@@ -5804,16 +5804,16 @@ umli_brokkr_028 = { # Generation 9 sibling
 	}
 }
 
-umli_brokkr_029 = { # Generation 9 sibling
-	name = Una
+tfw_lineofumli_brokkr_029 = { # Generation 9 sibling
+	name = tfw_lineofumli_brokkr_029_name
 	female = yes
 
 	dynasty = dynasty_umli_brokkr
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_brokkr_025
-	mother = umli_lowborn_041
+	father = tfw_lineofumli_brokkr_025
+	mother = tfw_lineoflowborn_umli_039
 
 	trait = dwarf
 	trait = content
@@ -5842,15 +5842,15 @@ umli_brokkr_029 = { # Generation 9 sibling
 
 ### Generation 10 ###
 
-umli_brokkr_030 = { # Generation 10 continuation
-	name = Sindri
+tfw_lineofumli_brokkr_030 = { # Generation 10 continuation
+	name = tfw_lineofumli_brokkr_030_name
 
 	dynasty = dynasty_umli_brokkr
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_lowborn_045
-	mother = umli_brokkr_027
+	father = tfw_lineoflowborn_umli_040
+	mother = tfw_lineofumli_brokkr_027
 
 	trait = dwarf
 	trait = lustful
@@ -5871,7 +5871,7 @@ umli_brokkr_030 = { # Generation 10 continuation
 	}
 
 	7005.7.3 = {
-		add_spouse = umli_lowborn_049
+		add_spouse = tfw_lineoflowborn_umli_041
 	}
 
 	7056.9.20 = {
@@ -5879,8 +5879,8 @@ umli_brokkr_030 = { # Generation 10 continuation
 	}
 }
 
-umli_lowborn_049 = { # Lowborn spouse into House Brokkr (generation 10)
-	name = Torhild
+tfw_lineoflowborn_umli_041 = { # Lowborn spouse into House Brokkr (generation 10)
+	name = tfw_lineoflowborn_umli_041_name
 	female = yes
 
 	religion = faith_khazad
@@ -5908,16 +5908,16 @@ umli_lowborn_049 = { # Lowborn spouse into House Brokkr (generation 10)
 	}
 }
 
-umli_brokkr_031 = { # Generation 10 sibling; spouse into House Dvalin
-	name = Torhild
+tfw_lineofumli_brokkr_031 = { # Generation 10 sibling; spouse into House Dvalin
+	name = tfw_lineofumli_brokkr_031_name
 	female = yes
 
 	dynasty = dynasty_umli_brokkr
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_lowborn_045
-	mother = umli_brokkr_027
+	father = tfw_lineoflowborn_umli_040
+	mother = tfw_lineofumli_brokkr_027
 
 	trait = dwarf
 	trait = generous
@@ -5942,15 +5942,15 @@ umli_brokkr_031 = { # Generation 10 sibling; spouse into House Dvalin
 	}
 }
 
-umli_brokkr_032 = { # Generation 10 sibling
-	name = Dvalin
+tfw_lineofumli_brokkr_032 = { # Generation 10 sibling
+	name = tfw_lineofumli_brokkr_032_name
 
 	dynasty = dynasty_umli_brokkr
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_lowborn_045
-	mother = umli_brokkr_027
+	father = tfw_lineoflowborn_umli_040
+	mother = tfw_lineofumli_brokkr_027
 
 	trait = dwarf
 	trait = humble
@@ -5979,15 +5979,15 @@ umli_brokkr_032 = { # Generation 10 sibling
 
 ### Generation 11 ###
 
-umli_brokkr_033 = { # Generation 11 continuation
-	name = Dain
+tfw_lineofumli_brokkr_033 = { # Generation 11 continuation
+	name = tfw_lineofumli_brokkr_033_name
 
 	dynasty = dynasty_umli_brokkr
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_brokkr_030
-	mother = umli_lowborn_049
+	father = tfw_lineofumli_brokkr_030
+	mother = tfw_lineoflowborn_umli_041
 
 	trait = dwarf
 	trait = craven
@@ -6008,7 +6008,7 @@ umli_brokkr_033 = { # Generation 11 continuation
 	}
 
 	7035.5.28 = {
-		add_spouse = umli_lowborn_054
+		add_spouse = tfw_lineoflowborn_umli_042
 	}
 
 	7091.5.28 = {
@@ -6016,8 +6016,8 @@ umli_brokkr_033 = { # Generation 11 continuation
 	}
 }
 
-umli_lowborn_054 = { # Lowborn spouse into House Brokkr (generation 11)
-	name = Brynhild
+tfw_lineoflowborn_umli_042 = { # Lowborn spouse into House Brokkr (generation 11)
+	name = tfw_lineoflowborn_umli_042_name
 	female = yes
 
 	religion = faith_khazad
@@ -6046,15 +6046,15 @@ umli_lowborn_054 = { # Lowborn spouse into House Brokkr (generation 11)
 	}
 }
 
-umli_brokkr_034 = { # Generation 11 sibling
-	name = Yngvi
+tfw_lineofumli_brokkr_034 = { # Generation 11 sibling
+	name = tfw_lineofumli_brokkr_034_name
 
 	dynasty = dynasty_umli_brokkr
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_brokkr_030
-	mother = umli_lowborn_049
+	father = tfw_lineofumli_brokkr_030
+	mother = tfw_lineoflowborn_umli_041
 
 	trait = dwarf
 	trait = calm
@@ -6083,15 +6083,15 @@ umli_brokkr_034 = { # Generation 11 sibling
 
 ### Generation 12 ###
 
-umli_brokkr_035 = { # Generation 12 continuation
-	name = Frerin
+tfw_lineofumli_brokkr_035 = { # Generation 12 continuation
+	name = tfw_lineofumli_brokkr_035_name
 
 	dynasty = dynasty_umli_brokkr
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_brokkr_033
-	mother = umli_lowborn_054
+	father = tfw_lineofumli_brokkr_033
+	mother = tfw_lineoflowborn_umli_042
 
 	trait = dwarf
 	trait = temperate
@@ -6112,7 +6112,7 @@ umli_brokkr_035 = { # Generation 12 continuation
 	}
 
 	7064.8.5 = {
-		add_spouse = umli_lowborn_059
+		add_spouse = tfw_lineoflowborn_umli_043
 	}
 
 	7099.11.27 = {
@@ -6120,8 +6120,8 @@ umli_brokkr_035 = { # Generation 12 continuation
 	}
 }
 
-umli_lowborn_059 = { # Lowborn spouse into House Brokkr (generation 12)
-	name = Una
+tfw_lineoflowborn_umli_043 = { # Lowborn spouse into House Brokkr (generation 12)
+	name = tfw_lineoflowborn_umli_043_name
 	female = yes
 
 	religion = faith_khazad
@@ -6150,16 +6150,16 @@ umli_lowborn_059 = { # Lowborn spouse into House Brokkr (generation 12)
 	}
 }
 
-umli_brokkr_036 = { # Generation 12 sibling
-	name = Helga
+tfw_lineofumli_brokkr_036 = { # Generation 12 sibling
+	name = tfw_lineofumli_brokkr_036_name
 	female = yes
 
 	dynasty = dynasty_umli_brokkr
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_brokkr_033
-	mother = umli_lowborn_054
+	father = tfw_lineofumli_brokkr_033
+	mother = tfw_lineoflowborn_umli_042
 
 	trait = dwarf
 	trait = stubborn
@@ -6188,15 +6188,15 @@ umli_brokkr_036 = { # Generation 12 sibling
 
 ### Generation 13 ###
 
-umli_brokkr_037 = { # Generation 13 continuation
-	name = Frosti
+tfw_lineofumli_brokkr_037 = { # Generation 13 continuation
+	name = tfw_lineofumli_brokkr_037_name
 
 	dynasty = dynasty_umli_brokkr
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_brokkr_035
-	mother = umli_lowborn_059
+	father = tfw_lineofumli_brokkr_035
+	mother = tfw_lineoflowborn_umli_043
 
 	trait = cynical
 	trait = stubborn
@@ -6216,7 +6216,7 @@ umli_brokkr_037 = { # Generation 13 continuation
 	}
 
 	7094.12.3 = {
-		add_spouse = umli_lowborn_063
+		add_spouse = tfw_lineoflowborn_umli_044
 	}
 
 	7131.1.27 = {
@@ -6224,8 +6224,8 @@ umli_brokkr_037 = { # Generation 13 continuation
 	}
 }
 
-umli_lowborn_063 = { # Lowborn spouse into House Brokkr (generation 13)
-	name = Idunn
+tfw_lineoflowborn_umli_044 = { # Lowborn spouse into House Brokkr (generation 13)
+	name = tfw_lineoflowborn_umli_044_name
 	female = yes
 
 	religion = faith_khazad
@@ -6254,16 +6254,16 @@ umli_lowborn_063 = { # Lowborn spouse into House Brokkr (generation 13)
 	}
 }
 
-umli_brokkr_038 = { # Generation 13 sibling
-	name = Sigrid
+tfw_lineofumli_brokkr_038 = { # Generation 13 sibling
+	name = tfw_lineofumli_brokkr_038_name
 	female = yes
 
 	dynasty = dynasty_umli_brokkr
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_brokkr_035
-	mother = umli_lowborn_059
+	father = tfw_lineofumli_brokkr_035
+	mother = tfw_lineoflowborn_umli_043
 
 	trait = dwarf
 	trait = honest
@@ -6288,15 +6288,15 @@ umli_brokkr_038 = { # Generation 13 sibling
 	}
 }
 
-umli_brokkr_039 = { # Generation 13 sibling
-	name = Thror
+tfw_lineofumli_brokkr_039 = { # Generation 13 sibling
+	name = tfw_lineofumli_brokkr_039_name
 
 	dynasty = dynasty_umli_brokkr
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_brokkr_035
-	mother = umli_lowborn_059
+	father = tfw_lineofumli_brokkr_035
+	mother = tfw_lineoflowborn_umli_043
 
 	trait = dwarf
 	trait = callous
@@ -6321,16 +6321,16 @@ umli_brokkr_039 = { # Generation 13 sibling
 	}
 }
 
-umli_brokkr_040 = { # Generation 13 sibling
-	name = Sif
+tfw_lineofumli_brokkr_040 = { # Generation 13 sibling
+	name = tfw_lineofumli_brokkr_040_name
 	female = yes
 
 	dynasty = dynasty_umli_brokkr
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_brokkr_035
-	mother = umli_lowborn_059
+	father = tfw_lineofumli_brokkr_035
+	mother = tfw_lineoflowborn_umli_043
 
 	trait = dwarf
 	trait = trusting
@@ -6359,15 +6359,15 @@ umli_brokkr_040 = { # Generation 13 sibling
 
 ### Generation 14 ###
 
-umli_brokkr_041 = { # Generation 14 continuation
-	name = Niping
+tfw_lineofumli_brokkr_041 = { # Generation 14 continuation
+	name = tfw_lineofumli_brokkr_041_name
 
 	dynasty = dynasty_umli_brokkr
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_brokkr_037
-	mother = umli_lowborn_063
+	father = tfw_lineofumli_brokkr_037
+	mother = tfw_lineoflowborn_umli_044
 
 	trait = dwarf
 	trait = forgiving
@@ -6388,7 +6388,7 @@ umli_brokkr_041 = { # Generation 14 continuation
 	}
 
 	7122.12.15 = {
-		add_spouse = umli_lowborn_067
+		add_spouse = tfw_lineoflowborn_umli_045
 	}
 
 	7154.6.1 = {
@@ -6396,8 +6396,8 @@ umli_brokkr_041 = { # Generation 14 continuation
 	}
 }
 
-umli_lowborn_067 = { # Lowborn spouse into House Brokkr (generation 14)
-	name = Gerda
+tfw_lineoflowborn_umli_045 = { # Lowborn spouse into House Brokkr (generation 14)
+	name = tfw_lineoflowborn_umli_045_name
 	female = yes
 
 	religion = faith_khazad
@@ -6426,16 +6426,16 @@ umli_lowborn_067 = { # Lowborn spouse into House Brokkr (generation 14)
 	}
 }
 
-umli_brokkr_042 = { # Generation 14 sibling; spouse into House Motsognir
-	name = Hlin
+tfw_lineofumli_brokkr_042 = { # Generation 14 sibling; spouse into House Motsognir
+	name = tfw_lineofumli_brokkr_042_name
 	female = yes
 
 	dynasty = dynasty_umli_brokkr
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_brokkr_037
-	mother = umli_lowborn_063
+	father = tfw_lineofumli_brokkr_037
+	mother = tfw_lineoflowborn_umli_044
 
 	trait = dwarf
 	trait = honest
@@ -6460,16 +6460,16 @@ umli_brokkr_042 = { # Generation 14 sibling; spouse into House Motsognir
 	}
 }
 
-umli_brokkr_043 = { # Generation 14 sibling
-	name = Runa
+tfw_lineofumli_brokkr_043 = { # Generation 14 sibling
+	name = tfw_lineofumli_brokkr_043_name
 	female = yes
 
 	dynasty = dynasty_umli_brokkr
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_brokkr_037
-	mother = umli_lowborn_063
+	father = tfw_lineofumli_brokkr_037
+	mother = tfw_lineoflowborn_umli_044
 
 	trait = dwarf
 	trait = zealous
@@ -6498,15 +6498,15 @@ umli_brokkr_043 = { # Generation 14 sibling
 
 ### Generation 15 ###
 
-umli_brokkr_044 = { # Generation 15 continuation
-	name = Virfir
+tfw_lineofumli_brokkr_044 = { # Generation 15 continuation
+	name = tfw_lineofumli_brokkr_044_name
 
 	dynasty = dynasty_umli_brokkr
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_brokkr_041
-	mother = umli_lowborn_067
+	father = tfw_lineofumli_brokkr_041
+	mother = tfw_lineoflowborn_umli_045
 
 	trait = dwarf
 	trait = arrogant
@@ -6527,7 +6527,7 @@ umli_brokkr_044 = { # Generation 15 continuation
 	}
 
 	7155.5.21 = {
-		add_spouse = umli_lowborn_072
+		add_spouse = tfw_lineoflowborn_umli_046
 	}
 
 	7182.4.6 = {
@@ -6535,8 +6535,8 @@ umli_brokkr_044 = { # Generation 15 continuation
 	}
 }
 
-umli_lowborn_072 = { # Lowborn spouse into House Brokkr (generation 15)
-	name = Ragnhild
+tfw_lineoflowborn_umli_046 = { # Lowborn spouse into House Brokkr (generation 15)
+	name = tfw_lineoflowborn_umli_046_name
 	female = yes
 
 	religion = faith_khazad
@@ -6565,15 +6565,15 @@ umli_lowborn_072 = { # Lowborn spouse into House Brokkr (generation 15)
 	}
 }
 
-umli_brokkr_045 = { # Generation 15 sibling
-	name = Bombur
+tfw_lineofumli_brokkr_045 = { # Generation 15 sibling
+	name = tfw_lineofumli_brokkr_045_name
 
 	dynasty = dynasty_umli_brokkr
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_brokkr_041
-	mother = umli_lowborn_067
+	father = tfw_lineofumli_brokkr_041
+	mother = tfw_lineoflowborn_umli_045
 
 	trait = dwarf
 	trait = lustful
@@ -6598,16 +6598,16 @@ umli_brokkr_045 = { # Generation 15 sibling
 	}
 }
 
-umli_brokkr_046 = { # Generation 15 sibling
-	name = Svanhild
+tfw_lineofumli_brokkr_046 = { # Generation 15 sibling
+	name = tfw_lineofumli_brokkr_046_name
 	female = yes
 
 	dynasty = dynasty_umli_brokkr
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_brokkr_041
-	mother = umli_lowborn_067
+	father = tfw_lineofumli_brokkr_041
+	mother = tfw_lineoflowborn_umli_045
 
 	trait = dwarf
 	trait = patient
@@ -6632,15 +6632,15 @@ umli_brokkr_046 = { # Generation 15 sibling
 
 ### Generation 16 ###
 
-umli_brokkr_047 = { # Generation 16 continuation
-	name = Vili
+tfw_lineofumli_brokkr_047 = { # Generation 16 continuation
+	name = tfw_lineofumli_brokkr_047_name
 
 	dynasty = dynasty_umli_brokkr
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_brokkr_044
-	mother = umli_lowborn_072
+	father = tfw_lineofumli_brokkr_044
+	mother = tfw_lineoflowborn_umli_046
 
 	trait = dwarf
 	trait = generous
@@ -6661,12 +6661,12 @@ umli_brokkr_047 = { # Generation 16 continuation
 	}
 
 	7187.11.8 = {
-		add_spouse = umli_lowborn_077
+		add_spouse = tfw_lineoflowborn_umli_047
 	}
 }
 
-umli_lowborn_077 = { # Lowborn spouse into House Brokkr (generation 16)
-	name = Dagny
+tfw_lineoflowborn_umli_047 = { # Lowborn spouse into House Brokkr (generation 16)
+	name = tfw_lineoflowborn_umli_047_name
 	female = yes
 
 	religion = faith_khazad
@@ -6691,16 +6691,16 @@ umli_lowborn_077 = { # Lowborn spouse into House Brokkr (generation 16)
 	}
 }
 
-umli_brokkr_048 = { # Generation 16 sibling
-	name = Helga
+tfw_lineofumli_brokkr_048 = { # Generation 16 sibling
+	name = tfw_lineofumli_brokkr_048_name
 	female = yes
 
 	dynasty = dynasty_umli_brokkr
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_brokkr_044
-	mother = umli_lowborn_072
+	father = tfw_lineofumli_brokkr_044
+	mother = tfw_lineoflowborn_umli_046
 
 	trait = dwarf
 	trait = compassionate
@@ -6721,15 +6721,15 @@ umli_brokkr_048 = { # Generation 16 sibling
 	}
 }
 
-umli_brokkr_049 = { # Generation 16 sibling
-	name = Nar
+tfw_lineofumli_brokkr_049 = { # Generation 16 sibling
+	name = tfw_lineofumli_brokkr_049_name
 
 	dynasty = dynasty_umli_brokkr
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_brokkr_044
-	mother = umli_lowborn_072
+	father = tfw_lineofumli_brokkr_044
+	mother = tfw_lineoflowborn_umli_046
 
 	trait = dwarf
 	trait = trusting
@@ -6754,15 +6754,15 @@ umli_brokkr_049 = { # Generation 16 sibling
 
 ### Generation 17 ###
 
-umli_brokkr_050 = { # Generation 17 continuation
-	name = Nori
+tfw_lineofumli_brokkr_050 = { # Generation 17 continuation
+	name = tfw_lineofumli_brokkr_050_name
 
 	dynasty = dynasty_umli_brokkr
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_brokkr_047
-	mother = umli_lowborn_077
+	father = tfw_lineofumli_brokkr_047
+	mother = tfw_lineoflowborn_umli_047
 
 	trait = dwarf
 	trait = generous
@@ -6783,16 +6783,16 @@ umli_brokkr_050 = { # Generation 17 continuation
 	}
 }
 
-umli_brokkr_051 = { # Generation 17 sibling
-	name = Eydis
+tfw_lineofumli_brokkr_051 = { # Generation 17 sibling
+	name = tfw_lineofumli_brokkr_051_name
 	female = yes
 
 	dynasty = dynasty_umli_brokkr
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_brokkr_047
-	mother = umli_lowborn_077
+	father = tfw_lineofumli_brokkr_047
+	mother = tfw_lineoflowborn_umli_047
 
 	trait = dwarf
 	trait = arrogant
@@ -6813,16 +6813,16 @@ umli_brokkr_051 = { # Generation 17 sibling
 	}
 }
 
-umli_brokkr_052 = { # Generation 17 sibling
-	name = Mist
+tfw_lineofumli_brokkr_052 = { # Generation 17 sibling
+	name = tfw_lineofumli_brokkr_052_name
 	female = yes
 
 	dynasty = dynasty_umli_brokkr
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_brokkr_047
-	mother = umli_lowborn_077
+	father = tfw_lineofumli_brokkr_047
+	mother = tfw_lineoflowborn_umli_047
 
 	trait = humble
 	trait = shy
@@ -6847,8 +6847,8 @@ umli_brokkr_052 = { # Generation 17 sibling
 ##### HOUSE ANDVARI #####
 ############################################################
 
-umli_andvari_001 = { # Founder
-	name = Andvari
+tfw_lineofumli_andvari_001 = { # Founder
+	name = tfw_lineofumli_andvari_001_name
 
 	dynasty = dynasty_umli_andvari
 	religion = faith_khazad
@@ -6873,7 +6873,7 @@ umli_andvari_001 = { # Founder
 	}
 
 	6697.11.11 = {
-		add_spouse = umli_lowborn_004
+		add_spouse = tfw_lineoflowborn_umli_048
 	}
 
 	6740.3.18 = {
@@ -6881,8 +6881,8 @@ umli_andvari_001 = { # Founder
 	}
 }
 
-umli_lowborn_004 = { # Lowborn spouse of Andvari
-	name = Sigrid
+tfw_lineoflowborn_umli_048 = { # Lowborn spouse of Andvari
+	name = tfw_lineoflowborn_umli_048_name
 	female = yes
 
 	religion = faith_khazad
@@ -6914,15 +6914,15 @@ umli_lowborn_004 = { # Lowborn spouse of Andvari
 
 ### Generation 1 ###
 
-umli_andvari_002 = { # Generation 1 continuation
-	name = Vili
+tfw_lineofumli_andvari_002 = { # Generation 1 continuation
+	name = tfw_lineofumli_andvari_002_name
 
 	dynasty = dynasty_umli_andvari
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_andvari_001
-	mother = umli_lowborn_004
+	father = tfw_lineofumli_andvari_001
+	mother = tfw_lineoflowborn_umli_048
 
 	trait = dwarf
 	trait = impatient
@@ -6943,7 +6943,7 @@ umli_andvari_002 = { # Generation 1 continuation
 	}
 
 	6730.11.5 = {
-		add_spouse = umli_lowborn_009
+		add_spouse = tfw_lineoflowborn_umli_049
 	}
 
 	6782.8.1 = {
@@ -6951,8 +6951,8 @@ umli_andvari_002 = { # Generation 1 continuation
 	}
 }
 
-umli_lowborn_009 = { # Lowborn spouse into House Andvari (generation 1)
-	name = Tove
+tfw_lineoflowborn_umli_049 = { # Lowborn spouse into House Andvari (generation 1)
+	name = tfw_lineoflowborn_umli_049_name
 	female = yes
 
 	religion = faith_khazad
@@ -6981,15 +6981,15 @@ umli_lowborn_009 = { # Lowborn spouse into House Andvari (generation 1)
 	}
 }
 
-umli_andvari_003 = { # Generation 1 sibling
-	name = Bofur
+tfw_lineofumli_andvari_003 = { # Generation 1 sibling
+	name = tfw_lineofumli_andvari_003_name
 
 	dynasty = dynasty_umli_andvari
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_andvari_001
-	mother = umli_lowborn_004
+	father = tfw_lineofumli_andvari_001
+	mother = tfw_lineoflowborn_umli_048
 
 	trait = dwarf
 	trait = cynical
@@ -7014,16 +7014,16 @@ umli_andvari_003 = { # Generation 1 sibling
 	}
 }
 
-umli_andvari_004 = { # Generation 1 sibling
-	name = Sigrid
+tfw_lineofumli_andvari_004 = { # Generation 1 sibling
+	name = tfw_lineofumli_andvari_004_name
 	female = yes
 
 	dynasty = dynasty_umli_andvari
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_andvari_001
-	mother = umli_lowborn_004
+	father = tfw_lineofumli_andvari_001
+	mother = tfw_lineoflowborn_umli_048
 
 	trait = dwarf
 	trait = paranoid
@@ -7052,16 +7052,16 @@ umli_andvari_004 = { # Generation 1 sibling
 
 ### Generation 2 ###
 
-umli_andvari_005 = { # Generation 2 continuation
-	name = Saga
+tfw_lineofumli_andvari_005 = { # Generation 2 continuation
+	name = tfw_lineofumli_andvari_005_name
 	female = yes
 
 	dynasty = dynasty_umli_andvari
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_andvari_002
-	mother = umli_lowborn_009
+	father = tfw_lineofumli_andvari_002
+	mother = tfw_lineoflowborn_umli_049
 
 	trait = dwarf
 	trait = impatient
@@ -7082,7 +7082,7 @@ umli_andvari_005 = { # Generation 2 continuation
 	}
 
 	6762.10.6 = {
-		add_spouse = umli_lowborn_014
+		add_spouse = tfw_lineoflowborn_umli_050
 	}
 
 	6796.2.18 = {
@@ -7090,8 +7090,8 @@ umli_andvari_005 = { # Generation 2 continuation
 	}
 }
 
-umli_lowborn_014 = { # Lowborn spouse into House Andvari (generation 2)
-	name = Nori
+tfw_lineoflowborn_umli_050 = { # Lowborn spouse into House Andvari (generation 2)
+	name = tfw_lineoflowborn_umli_050_name
 
 	religion = faith_khazad
 	culture = umli
@@ -7119,15 +7119,15 @@ umli_lowborn_014 = { # Lowborn spouse into House Andvari (generation 2)
 	}
 }
 
-umli_andvari_006 = { # Generation 2 sibling
-	name = Rathsvith
+tfw_lineofumli_andvari_006 = { # Generation 2 sibling
+	name = tfw_lineofumli_andvari_006_name
 
 	dynasty = dynasty_umli_andvari
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_andvari_002
-	mother = umli_lowborn_009
+	father = tfw_lineofumli_andvari_002
+	mother = tfw_lineoflowborn_umli_049
 
 	trait = brave
 	trait = trusting
@@ -7151,16 +7151,16 @@ umli_andvari_006 = { # Generation 2 sibling
 	}
 }
 
-umli_andvari_007 = { # Generation 2 sibling
-	name = Freydis
+tfw_lineofumli_andvari_007 = { # Generation 2 sibling
+	name = tfw_lineofumli_andvari_007_name
 	female = yes
 
 	dynasty = dynasty_umli_andvari
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_andvari_002
-	mother = umli_lowborn_009
+	father = tfw_lineofumli_andvari_002
+	mother = tfw_lineoflowborn_umli_049
 
 	trait = dwarf
 	trait = impatient
@@ -7189,15 +7189,15 @@ umli_andvari_007 = { # Generation 2 sibling
 
 ### Generation 3 ###
 
-umli_andvari_008 = { # Generation 3 continuation
-	name = Thekk
+tfw_lineofumli_andvari_008 = { # Generation 3 continuation
+	name = tfw_lineofumli_andvari_008_name
 
 	dynasty = dynasty_umli_andvari
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_lowborn_014
-	mother = umli_andvari_005
+	father = tfw_lineoflowborn_umli_050
+	mother = tfw_lineofumli_andvari_005
 
 	trait = dwarf
 	trait = patient
@@ -7218,7 +7218,7 @@ umli_andvari_008 = { # Generation 3 continuation
 	}
 
 	6790.4.11 = {
-		add_spouse = umli_lowborn_019
+		add_spouse = tfw_lineoflowborn_umli_051
 	}
 
 	6830.3.11 = {
@@ -7226,8 +7226,8 @@ umli_andvari_008 = { # Generation 3 continuation
 	}
 }
 
-umli_lowborn_019 = { # Lowborn spouse into House Andvari (generation 3)
-	name = Gunnhild
+tfw_lineoflowborn_umli_051 = { # Lowborn spouse into House Andvari (generation 3)
+	name = tfw_lineoflowborn_umli_051_name
 	female = yes
 
 	religion = faith_khazad
@@ -7256,15 +7256,15 @@ umli_lowborn_019 = { # Lowborn spouse into House Andvari (generation 3)
 	}
 }
 
-umli_andvari_009 = { # Generation 3 sibling
-	name = Skirvir
+tfw_lineofumli_andvari_009 = { # Generation 3 sibling
+	name = tfw_lineofumli_andvari_009_name
 
 	dynasty = dynasty_umli_andvari
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_lowborn_014
-	mother = umli_andvari_005
+	father = tfw_lineoflowborn_umli_050
+	mother = tfw_lineofumli_andvari_005
 
 	trait = dwarf
 	trait = craven
@@ -7289,15 +7289,15 @@ umli_andvari_009 = { # Generation 3 sibling
 	}
 }
 
-umli_andvari_010 = { # Generation 3 sibling
-	name = Ori
+tfw_lineofumli_andvari_010 = { # Generation 3 sibling
+	name = tfw_lineofumli_andvari_010_name
 
 	dynasty = dynasty_umli_andvari
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_lowborn_014
-	mother = umli_andvari_005
+	father = tfw_lineoflowborn_umli_050
+	mother = tfw_lineofumli_andvari_005
 
 	trait = dwarf
 	trait = humble
@@ -7326,15 +7326,15 @@ umli_andvari_010 = { # Generation 3 sibling
 
 ### Generation 4 ###
 
-umli_andvari_011 = { # Generation 4 continuation
-	name = Galar
+tfw_lineofumli_andvari_011 = { # Generation 4 continuation
+	name = tfw_lineofumli_andvari_011_name
 
 	dynasty = dynasty_umli_andvari
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_andvari_008
-	mother = umli_lowborn_019
+	father = tfw_lineofumli_andvari_008
+	mother = tfw_lineoflowborn_umli_051
 
 	trait = dwarf
 	trait = deceitful
@@ -7355,7 +7355,7 @@ umli_andvari_011 = { # Generation 4 continuation
 	}
 
 	6822.5.19 = {
-		add_spouse = umli_lowborn_023
+		add_spouse = tfw_lineoflowborn_umli_052
 	}
 
 	6878.10.2 = {
@@ -7363,8 +7363,8 @@ umli_andvari_011 = { # Generation 4 continuation
 	}
 }
 
-umli_lowborn_023 = { # Lowborn spouse into House Andvari (generation 4)
-	name = Torhild
+tfw_lineoflowborn_umli_052 = { # Lowborn spouse into House Andvari (generation 4)
+	name = tfw_lineoflowborn_umli_052_name
 	female = yes
 
 	religion = faith_khazad
@@ -7393,16 +7393,16 @@ umli_lowborn_023 = { # Lowborn spouse into House Andvari (generation 4)
 	}
 }
 
-umli_andvari_012 = { # Generation 4 sibling
-	name = Una
+tfw_lineofumli_andvari_012 = { # Generation 4 sibling
+	name = tfw_lineofumli_andvari_012_name
 	female = yes
 
 	dynasty = dynasty_umli_andvari
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_andvari_008
-	mother = umli_lowborn_019
+	father = tfw_lineofumli_andvari_008
+	mother = tfw_lineoflowborn_umli_051
 
 	trait = dwarf
 	trait = callous
@@ -7427,15 +7427,15 @@ umli_andvari_012 = { # Generation 4 sibling
 	}
 }
 
-umli_andvari_013 = { # Generation 4 sibling
-	name = Dori
+tfw_lineofumli_andvari_013 = { # Generation 4 sibling
+	name = tfw_lineofumli_andvari_013_name
 
 	dynasty = dynasty_umli_andvari
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_andvari_008
-	mother = umli_lowborn_019
+	father = tfw_lineofumli_andvari_008
+	mother = tfw_lineoflowborn_umli_051
 
 	trait = dwarf
 	trait = just
@@ -7460,16 +7460,16 @@ umli_andvari_013 = { # Generation 4 sibling
 	}
 }
 
-umli_andvari_014 = { # Generation 4 sibling
-	name = Gerda
+tfw_lineofumli_andvari_014 = { # Generation 4 sibling
+	name = tfw_lineofumli_andvari_014_name
 	female = yes
 
 	dynasty = dynasty_umli_andvari
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_andvari_008
-	mother = umli_lowborn_019
+	father = tfw_lineofumli_andvari_008
+	mother = tfw_lineoflowborn_umli_051
 
 	trait = dwarf
 	trait = honest
@@ -7498,15 +7498,15 @@ umli_andvari_014 = { # Generation 4 sibling
 
 ### Generation 5 ###
 
-umli_andvari_015 = { # Generation 5 continuation
-	name = Hanar
+tfw_lineofumli_andvari_015 = { # Generation 5 continuation
+	name = tfw_lineofumli_andvari_015_name
 
 	dynasty = dynasty_umli_andvari
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_andvari_011
-	mother = umli_lowborn_023
+	father = tfw_lineofumli_andvari_011
+	mother = tfw_lineoflowborn_umli_052
 
 	trait = dwarf
 	trait = deceitful
@@ -7527,7 +7527,7 @@ umli_andvari_015 = { # Generation 5 continuation
 	}
 
 	6852.9.7 = {
-		add_spouse = umli_lowborn_027
+		add_spouse = tfw_lineoflowborn_umli_053
 	}
 
 	6888.12.2 = {
@@ -7535,8 +7535,8 @@ umli_andvari_015 = { # Generation 5 continuation
 	}
 }
 
-umli_lowborn_027 = { # Lowborn spouse into House Andvari (generation 5)
-	name = Hildr
+tfw_lineoflowborn_umli_053 = { # Lowborn spouse into House Andvari (generation 5)
+	name = tfw_lineoflowborn_umli_053_name
 	female = yes
 
 	religion = faith_khazad
@@ -7565,16 +7565,16 @@ umli_lowborn_027 = { # Lowborn spouse into House Andvari (generation 5)
 	}
 }
 
-umli_andvari_016 = { # Generation 5 sibling; spouse into House Brokkr
-	name = Kara
+tfw_lineofumli_andvari_016 = { # Generation 5 sibling; spouse into House Brokkr
+	name = tfw_lineofumli_andvari_016_name
 	female = yes
 
 	dynasty = dynasty_umli_andvari
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_andvari_011
-	mother = umli_lowborn_023
+	father = tfw_lineofumli_andvari_011
+	mother = tfw_lineoflowborn_umli_052
 
 	trait = dwarf
 	trait = deceitful
@@ -7599,16 +7599,16 @@ umli_andvari_016 = { # Generation 5 sibling; spouse into House Brokkr
 	}
 }
 
-umli_andvari_017 = { # Generation 5 sibling
-	name = Yrsa
+tfw_lineofumli_andvari_017 = { # Generation 5 sibling
+	name = tfw_lineofumli_andvari_017_name
 	female = yes
 
 	dynasty = dynasty_umli_andvari
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_andvari_011
-	mother = umli_lowborn_023
+	father = tfw_lineofumli_andvari_011
+	mother = tfw_lineoflowborn_umli_052
 
 	trait = dwarf
 	trait = brave
@@ -7637,15 +7637,15 @@ umli_andvari_017 = { # Generation 5 sibling
 
 ### Generation 6 ###
 
-umli_andvari_018 = { # Generation 6 continuation
-	name = Eitri
+tfw_lineofumli_andvari_018 = { # Generation 6 continuation
+	name = tfw_lineofumli_andvari_018_name
 
 	dynasty = dynasty_umli_andvari
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_andvari_015
-	mother = umli_lowborn_027
+	father = tfw_lineofumli_andvari_015
+	mother = tfw_lineoflowborn_umli_053
 
 	trait = dwarf
 	trait = honest
@@ -7666,7 +7666,7 @@ umli_andvari_018 = { # Generation 6 continuation
 	}
 
 	6881.12.26 = {
-		add_spouse = umli_lowborn_032
+		add_spouse = tfw_lineoflowborn_umli_054
 	}
 
 	6920.12.13 = {
@@ -7674,8 +7674,8 @@ umli_andvari_018 = { # Generation 6 continuation
 	}
 }
 
-umli_lowborn_032 = { # Lowborn spouse into House Andvari (generation 6)
-	name = Signy
+tfw_lineoflowborn_umli_054 = { # Lowborn spouse into House Andvari (generation 6)
+	name = tfw_lineoflowborn_umli_054_name
 	female = yes
 
 	religion = faith_khazad
@@ -7704,15 +7704,15 @@ umli_lowborn_032 = { # Lowborn spouse into House Andvari (generation 6)
 	}
 }
 
-umli_andvari_019 = { # Generation 6 sibling
-	name = Oin
+tfw_lineofumli_andvari_019 = { # Generation 6 sibling
+	name = tfw_lineofumli_andvari_019_name
 
 	dynasty = dynasty_umli_andvari
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_andvari_015
-	mother = umli_lowborn_027
+	father = tfw_lineofumli_andvari_015
+	mother = tfw_lineoflowborn_umli_053
 
 	trait = dwarf
 	trait = wrathful
@@ -7737,16 +7737,16 @@ umli_andvari_019 = { # Generation 6 sibling
 	}
 }
 
-umli_andvari_020 = { # Generation 6 sibling
-	name = Brynhild
+tfw_lineofumli_andvari_020 = { # Generation 6 sibling
+	name = tfw_lineofumli_andvari_020_name
 	female = yes
 
 	dynasty = dynasty_umli_andvari
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_andvari_015
-	mother = umli_lowborn_027
+	father = tfw_lineofumli_andvari_015
+	mother = tfw_lineoflowborn_umli_053
 
 	trait = dwarf
 	trait = temperate
@@ -7775,15 +7775,15 @@ umli_andvari_020 = { # Generation 6 sibling
 
 ### Generation 7 ###
 
-umli_andvari_021 = { # Generation 7 continuation
-	name = Fundin
+tfw_lineofumli_andvari_021 = { # Generation 7 continuation
+	name = tfw_lineofumli_andvari_021_name
 
 	dynasty = dynasty_umli_andvari
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_andvari_018
-	mother = umli_lowborn_032
+	father = tfw_lineofumli_andvari_018
+	mother = tfw_lineoflowborn_umli_054
 
 	trait = dwarf
 	trait = zealous
@@ -7804,7 +7804,7 @@ umli_andvari_021 = { # Generation 7 continuation
 	}
 
 	6912.8.8 = {
-		add_spouse = umli_lowborn_037
+		add_spouse = tfw_lineoflowborn_umli_055
 	}
 
 	6965.4.9 = {
@@ -7812,8 +7812,8 @@ umli_andvari_021 = { # Generation 7 continuation
 	}
 }
 
-umli_lowborn_037 = { # Lowborn spouse into House Andvari (generation 7)
-	name = Skadi
+tfw_lineoflowborn_umli_055 = { # Lowborn spouse into House Andvari (generation 7)
+	name = tfw_lineoflowborn_umli_055_name
 	female = yes
 
 	religion = faith_khazad
@@ -7842,16 +7842,16 @@ umli_lowborn_037 = { # Lowborn spouse into House Andvari (generation 7)
 	}
 }
 
-umli_andvari_022 = { # Generation 7 sibling
-	name = Idunn
+tfw_lineofumli_andvari_022 = { # Generation 7 sibling
+	name = tfw_lineofumli_andvari_022_name
 	female = yes
 
 	dynasty = dynasty_umli_andvari
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_andvari_018
-	mother = umli_lowborn_032
+	father = tfw_lineofumli_andvari_018
+	mother = tfw_lineoflowborn_umli_054
 
 	trait = dwarf
 	trait = wrathful
@@ -7880,15 +7880,15 @@ umli_andvari_022 = { # Generation 7 sibling
 
 ### Generation 8 ###
 
-umli_andvari_023 = { # Generation 8 continuation
-	name = Nordri
+tfw_lineofumli_andvari_023 = { # Generation 8 continuation
+	name = tfw_lineofumli_andvari_023_name
 
 	dynasty = dynasty_umli_andvari
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_andvari_021
-	mother = umli_lowborn_037
+	father = tfw_lineofumli_andvari_021
+	mother = tfw_lineoflowborn_umli_055
 
 	trait = dwarf
 	trait = diligent
@@ -7909,7 +7909,7 @@ umli_andvari_023 = { # Generation 8 continuation
 	}
 
 	6943.3.16 = {
-		add_spouse = umli_lowborn_042
+		add_spouse = tfw_lineoflowborn_umli_056
 	}
 
 	6974.1.1 = {
@@ -7917,8 +7917,8 @@ umli_andvari_023 = { # Generation 8 continuation
 	}
 }
 
-umli_lowborn_042 = { # Lowborn spouse into House Andvari (generation 8)
-	name = Thora
+tfw_lineoflowborn_umli_056 = { # Lowborn spouse into House Andvari (generation 8)
+	name = tfw_lineoflowborn_umli_056_name
 	female = yes
 
 	religion = faith_khazad
@@ -7947,15 +7947,15 @@ umli_lowborn_042 = { # Lowborn spouse into House Andvari (generation 8)
 	}
 }
 
-umli_andvari_024 = { # Generation 8 sibling
-	name = Fundin
+tfw_lineofumli_andvari_024 = { # Generation 8 sibling
+	name = tfw_lineofumli_andvari_024_name
 
 	dynasty = dynasty_umli_andvari
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_andvari_021
-	mother = umli_lowborn_037
+	father = tfw_lineofumli_andvari_021
+	mother = tfw_lineoflowborn_umli_055
 
 	trait = dwarf
 	trait = deceitful
@@ -7980,16 +7980,16 @@ umli_andvari_024 = { # Generation 8 sibling
 	}
 }
 
-umli_andvari_025 = { # Generation 8 sibling
-	name = Tove
+tfw_lineofumli_andvari_025 = { # Generation 8 sibling
+	name = tfw_lineofumli_andvari_025_name
 	female = yes
 
 	dynasty = dynasty_umli_andvari
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_andvari_021
-	mother = umli_lowborn_037
+	father = tfw_lineofumli_andvari_021
+	mother = tfw_lineoflowborn_umli_055
 
 	trait = dwarf
 	trait = craven
@@ -8018,15 +8018,15 @@ umli_andvari_025 = { # Generation 8 sibling
 
 ### Generation 9 ###
 
-umli_andvari_026 = { # Generation 9 continuation
-	name = Thrain
+tfw_lineofumli_andvari_026 = { # Generation 9 continuation
+	name = tfw_lineofumli_andvari_026_name
 
 	dynasty = dynasty_umli_andvari
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_andvari_023
-	mother = umli_lowborn_042
+	father = tfw_lineofumli_andvari_023
+	mother = tfw_lineoflowborn_umli_056
 
 	trait = dwarf
 	trait = brave
@@ -8047,7 +8047,7 @@ umli_andvari_026 = { # Generation 9 continuation
 	}
 
 	6974.11.6 = {
-		add_spouse = umli_lowborn_046
+		add_spouse = tfw_lineoflowborn_umli_057
 	}
 
 	7006.12.12 = {
@@ -8055,8 +8055,8 @@ umli_andvari_026 = { # Generation 9 continuation
 	}
 }
 
-umli_lowborn_046 = { # Lowborn spouse into House Andvari (generation 9)
-	name = Helga
+tfw_lineoflowborn_umli_057 = { # Lowborn spouse into House Andvari (generation 9)
+	name = tfw_lineoflowborn_umli_057_name
 	female = yes
 
 	religion = faith_khazad
@@ -8084,15 +8084,15 @@ umli_lowborn_046 = { # Lowborn spouse into House Andvari (generation 9)
 	}
 }
 
-umli_andvari_027 = { # Generation 9 sibling
-	name = Nar
+tfw_lineofumli_andvari_027 = { # Generation 9 sibling
+	name = tfw_lineofumli_andvari_027_name
 
 	dynasty = dynasty_umli_andvari
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_andvari_023
-	mother = umli_lowborn_042
+	father = tfw_lineofumli_andvari_023
+	mother = tfw_lineoflowborn_umli_056
 
 	trait = dwarf
 	trait = cynical
@@ -8117,15 +8117,15 @@ umli_andvari_027 = { # Generation 9 sibling
 	}
 }
 
-umli_andvari_028 = { # Generation 9 sibling
-	name = Finn
+tfw_lineofumli_andvari_028 = { # Generation 9 sibling
+	name = tfw_lineofumli_andvari_028_name
 
 	dynasty = dynasty_umli_andvari
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_andvari_023
-	mother = umli_lowborn_042
+	father = tfw_lineofumli_andvari_023
+	mother = tfw_lineoflowborn_umli_056
 
 	trait = stubborn
 	trait = callous
@@ -8153,15 +8153,15 @@ umli_andvari_028 = { # Generation 9 sibling
 
 ### Generation 10 ###
 
-umli_andvari_029 = { # Generation 10 continuation
-	name = Loni
+tfw_lineofumli_andvari_029 = { # Generation 10 continuation
+	name = tfw_lineofumli_andvari_029_name
 
 	dynasty = dynasty_umli_andvari
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_andvari_026
-	mother = umli_lowborn_046
+	father = tfw_lineofumli_andvari_026
+	mother = tfw_lineoflowborn_umli_057
 
 	trait = dwarf
 	trait = cynical
@@ -8182,7 +8182,7 @@ umli_andvari_029 = { # Generation 10 continuation
 	}
 
 	7005.12.25 = {
-		add_spouse = umli_lowborn_050
+		add_spouse = tfw_lineoflowborn_umli_058
 	}
 
 	7056.8.10 = {
@@ -8190,8 +8190,8 @@ umli_andvari_029 = { # Generation 10 continuation
 	}
 }
 
-umli_lowborn_050 = { # Lowborn spouse into House Andvari (generation 10)
-	name = Kara
+tfw_lineoflowborn_umli_058 = { # Lowborn spouse into House Andvari (generation 10)
+	name = tfw_lineoflowborn_umli_058_name
 	female = yes
 
 	religion = faith_khazad
@@ -8220,15 +8220,15 @@ umli_lowborn_050 = { # Lowborn spouse into House Andvari (generation 10)
 	}
 }
 
-umli_andvari_030 = { # Generation 10 sibling
-	name = Fili
+tfw_lineofumli_andvari_030 = { # Generation 10 sibling
+	name = tfw_lineofumli_andvari_030_name
 
 	dynasty = dynasty_umli_andvari
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_andvari_026
-	mother = umli_lowborn_046
+	father = tfw_lineofumli_andvari_026
+	mother = tfw_lineoflowborn_umli_057
 
 	trait = dwarf
 	trait = trusting
@@ -8253,16 +8253,16 @@ umli_andvari_030 = { # Generation 10 sibling
 	}
 }
 
-umli_andvari_031 = { # Generation 10 sibling
-	name = Torhild
+tfw_lineofumli_andvari_031 = { # Generation 10 sibling
+	name = tfw_lineofumli_andvari_031_name
 	female = yes
 
 	dynasty = dynasty_umli_andvari
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_andvari_026
-	mother = umli_lowborn_046
+	father = tfw_lineofumli_andvari_026
+	mother = tfw_lineoflowborn_umli_057
 
 	trait = dwarf
 	trait = shy
@@ -8287,16 +8287,16 @@ umli_andvari_031 = { # Generation 10 sibling
 	}
 }
 
-umli_andvari_032 = { # Generation 10 sibling
-	name = Sigrid
+tfw_lineofumli_andvari_032 = { # Generation 10 sibling
+	name = tfw_lineofumli_andvari_032_name
 	female = yes
 
 	dynasty = dynasty_umli_andvari
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_andvari_026
-	mother = umli_lowborn_046
+	father = tfw_lineofumli_andvari_026
+	mother = tfw_lineoflowborn_umli_057
 
 	trait = dwarf
 	trait = cynical
@@ -8325,15 +8325,15 @@ umli_andvari_032 = { # Generation 10 sibling
 
 ### Generation 11 ###
 
-umli_andvari_033 = { # Generation 11 continuation
-	name = Regin
+tfw_lineofumli_andvari_033 = { # Generation 11 continuation
+	name = tfw_lineofumli_andvari_033_name
 
 	dynasty = dynasty_umli_andvari
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_andvari_029
-	mother = umli_lowborn_050
+	father = tfw_lineofumli_andvari_029
+	mother = tfw_lineoflowborn_umli_058
 
 	trait = dwarf
 	trait = paranoid
@@ -8354,7 +8354,7 @@ umli_andvari_033 = { # Generation 11 continuation
 	}
 
 	7036.1.18 = {
-		add_spouse = umli_lowborn_055
+		add_spouse = tfw_lineoflowborn_umli_059
 	}
 
 	7067.5.3 = {
@@ -8362,8 +8362,8 @@ umli_andvari_033 = { # Generation 11 continuation
 	}
 }
 
-umli_lowborn_055 = { # Lowborn spouse into House Andvari (generation 11)
-	name = Ragnhild
+tfw_lineoflowborn_umli_059 = { # Lowborn spouse into House Andvari (generation 11)
+	name = tfw_lineoflowborn_umli_059_name
 	female = yes
 
 	religion = faith_khazad
@@ -8392,15 +8392,15 @@ umli_lowborn_055 = { # Lowborn spouse into House Andvari (generation 11)
 	}
 }
 
-umli_andvari_034 = { # Generation 11 sibling
-	name = Frar
+tfw_lineofumli_andvari_034 = { # Generation 11 sibling
+	name = tfw_lineofumli_andvari_034_name
 
 	dynasty = dynasty_umli_andvari
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_andvari_029
-	mother = umli_lowborn_050
+	father = tfw_lineofumli_andvari_029
+	mother = tfw_lineoflowborn_umli_058
 
 	trait = dwarf
 	trait = diligent
@@ -8425,16 +8425,16 @@ umli_andvari_034 = { # Generation 11 sibling
 	}
 }
 
-umli_andvari_035 = { # Generation 11 sibling
-	name = Skadi
+tfw_lineofumli_andvari_035 = { # Generation 11 sibling
+	name = tfw_lineofumli_andvari_035_name
 	female = yes
 
 	dynasty = dynasty_umli_andvari
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_andvari_029
-	mother = umli_lowborn_050
+	father = tfw_lineofumli_andvari_029
+	mother = tfw_lineoflowborn_umli_058
 
 	trait = dwarf
 	trait = content
@@ -8463,15 +8463,15 @@ umli_andvari_035 = { # Generation 11 sibling
 
 ### Generation 12 ###
 
-umli_andvari_036 = { # Generation 12 continuation
-	name = Gloin
+tfw_lineofumli_andvari_036 = { # Generation 12 continuation
+	name = tfw_lineofumli_andvari_036_name
 
 	dynasty = dynasty_umli_andvari
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_andvari_033
-	mother = umli_lowborn_055
+	father = tfw_lineofumli_andvari_033
+	mother = tfw_lineoflowborn_umli_059
 
 	trait = just
 	trait = generous
@@ -8491,7 +8491,7 @@ umli_andvari_036 = { # Generation 12 continuation
 	}
 
 	7064.6.12 = {
-		add_spouse = umli_nori_034
+		add_spouse = tfw_lineofumli_nori_034
 	}
 
 	7121.5.23 = {
@@ -8499,15 +8499,15 @@ umli_andvari_036 = { # Generation 12 continuation
 	}
 }
 
-umli_andvari_037 = { # Generation 12 sibling
-	name = Niping
+tfw_lineofumli_andvari_037 = { # Generation 12 sibling
+	name = tfw_lineofumli_andvari_037_name
 
 	dynasty = dynasty_umli_andvari
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_andvari_033
-	mother = umli_lowborn_055
+	father = tfw_lineofumli_andvari_033
+	mother = tfw_lineoflowborn_umli_059
 
 	trait = dwarf
 	trait = patient
@@ -8536,15 +8536,15 @@ umli_andvari_037 = { # Generation 12 sibling
 
 ### Generation 13 ###
 
-umli_andvari_038 = { # Generation 13 continuation
-	name = Fundin
+tfw_lineofumli_andvari_038 = { # Generation 13 continuation
+	name = tfw_lineofumli_andvari_038_name
 
 	dynasty = dynasty_umli_andvari
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_andvari_036
-	mother = umli_nori_034
+	father = tfw_lineofumli_andvari_036
+	mother = tfw_lineofumli_nori_034
 
 	trait = dwarf
 	trait = craven
@@ -8565,7 +8565,7 @@ umli_andvari_038 = { # Generation 13 continuation
 	}
 
 	7093.4.13 = {
-		add_spouse = umli_lowborn_064
+		add_spouse = tfw_lineoflowborn_umli_060
 	}
 
 	7129.11.7 = {
@@ -8573,8 +8573,8 @@ umli_andvari_038 = { # Generation 13 continuation
 	}
 }
 
-umli_lowborn_064 = { # Lowborn spouse into House Andvari (generation 13)
-	name = Solveig
+tfw_lineoflowborn_umli_060 = { # Lowborn spouse into House Andvari (generation 13)
+	name = tfw_lineoflowborn_umli_060_name
 	female = yes
 
 	religion = faith_khazad
@@ -8603,16 +8603,16 @@ umli_lowborn_064 = { # Lowborn spouse into House Andvari (generation 13)
 	}
 }
 
-umli_andvari_039 = { # Generation 13 sibling
-	name = Mist
+tfw_lineofumli_andvari_039 = { # Generation 13 sibling
+	name = tfw_lineofumli_andvari_039_name
 	female = yes
 
 	dynasty = dynasty_umli_andvari
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_andvari_036
-	mother = umli_nori_034
+	father = tfw_lineofumli_andvari_036
+	mother = tfw_lineofumli_nori_034
 
 	trait = dwarf
 	trait = forgiving
@@ -8637,15 +8637,15 @@ umli_andvari_039 = { # Generation 13 sibling
 	}
 }
 
-umli_andvari_040 = { # Generation 13 sibling
-	name = Hanar
+tfw_lineofumli_andvari_040 = { # Generation 13 sibling
+	name = tfw_lineofumli_andvari_040_name
 
 	dynasty = dynasty_umli_andvari
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_andvari_036
-	mother = umli_nori_034
+	father = tfw_lineofumli_andvari_036
+	mother = tfw_lineofumli_nori_034
 
 	trait = dwarf
 	trait = zealous
@@ -8674,16 +8674,16 @@ umli_andvari_040 = { # Generation 13 sibling
 
 ### Generation 14 ###
 
-umli_andvari_041 = { # Generation 14 continuation
-	name = Hervor
+tfw_lineofumli_andvari_041 = { # Generation 14 continuation
+	name = tfw_lineofumli_andvari_041_name
 	female = yes
 
 	dynasty = dynasty_umli_andvari
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_andvari_038
-	mother = umli_lowborn_064
+	father = tfw_lineofumli_andvari_038
+	mother = tfw_lineoflowborn_umli_060
 
 	trait = dwarf
 	trait = compassionate
@@ -8704,7 +8704,7 @@ umli_andvari_041 = { # Generation 14 continuation
 	}
 
 	7124.8.26 = {
-		add_spouse = umli_lowborn_068
+		add_spouse = tfw_lineoflowborn_umli_061
 	}
 
 	7160.11.26 = {
@@ -8712,8 +8712,8 @@ umli_andvari_041 = { # Generation 14 continuation
 	}
 }
 
-umli_lowborn_068 = { # Lowborn spouse into House Andvari (generation 14)
-	name = Sviar
+tfw_lineoflowborn_umli_061 = { # Lowborn spouse into House Andvari (generation 14)
+	name = tfw_lineoflowborn_umli_061_name
 
 	religion = faith_khazad
 	culture = umli
@@ -8741,15 +8741,15 @@ umli_lowborn_068 = { # Lowborn spouse into House Andvari (generation 14)
 	}
 }
 
-umli_andvari_042 = { # Generation 14 sibling
-	name = Hepti
+tfw_lineofumli_andvari_042 = { # Generation 14 sibling
+	name = tfw_lineofumli_andvari_042_name
 
 	dynasty = dynasty_umli_andvari
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_andvari_038
-	mother = umli_lowborn_064
+	father = tfw_lineofumli_andvari_038
+	mother = tfw_lineoflowborn_umli_060
 
 	trait = dwarf
 	trait = stubborn
@@ -8774,15 +8774,15 @@ umli_andvari_042 = { # Generation 14 sibling
 	}
 }
 
-umli_andvari_043 = { # Generation 14 sibling
-	name = Bombur
+tfw_lineofumli_andvari_043 = { # Generation 14 sibling
+	name = tfw_lineofumli_andvari_043_name
 
 	dynasty = dynasty_umli_andvari
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_andvari_038
-	mother = umli_lowborn_064
+	father = tfw_lineofumli_andvari_038
+	mother = tfw_lineoflowborn_umli_060
 
 	trait = dwarf
 	trait = generous
@@ -8811,15 +8811,15 @@ umli_andvari_043 = { # Generation 14 sibling
 
 ### Generation 15 ###
 
-umli_andvari_044 = { # Generation 15 continuation
-	name = Finn
+tfw_lineofumli_andvari_044 = { # Generation 15 continuation
+	name = tfw_lineofumli_andvari_044_name
 
 	dynasty = dynasty_umli_andvari
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_lowborn_068
-	mother = umli_andvari_041
+	father = tfw_lineoflowborn_umli_061
+	mother = tfw_lineofumli_andvari_041
 
 	trait = dwarf
 	trait = stubborn
@@ -8840,7 +8840,7 @@ umli_andvari_044 = { # Generation 15 continuation
 	}
 
 	7154.5.16 = {
-		add_spouse = umli_lowborn_073
+		add_spouse = tfw_lineoflowborn_umli_062
 	}
 
 	7198.8.6 = {
@@ -8848,8 +8848,8 @@ umli_andvari_044 = { # Generation 15 continuation
 	}
 }
 
-umli_lowborn_073 = { # Lowborn spouse into House Andvari (generation 15)
-	name = Helga
+tfw_lineoflowborn_umli_062 = { # Lowborn spouse into House Andvari (generation 15)
+	name = tfw_lineoflowborn_umli_062_name
 	female = yes
 
 	religion = faith_khazad
@@ -8878,16 +8878,16 @@ umli_lowborn_073 = { # Lowborn spouse into House Andvari (generation 15)
 	}
 }
 
-umli_andvari_045 = { # Generation 15 sibling
-	name = Hlin
+tfw_lineofumli_andvari_045 = { # Generation 15 sibling
+	name = tfw_lineofumli_andvari_045_name
 	female = yes
 
 	dynasty = dynasty_umli_andvari
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_lowborn_068
-	mother = umli_andvari_041
+	father = tfw_lineoflowborn_umli_061
+	mother = tfw_lineofumli_andvari_041
 
 	trait = dwarf
 	trait = honest
@@ -8912,16 +8912,16 @@ umli_andvari_045 = { # Generation 15 sibling
 	}
 }
 
-umli_andvari_046 = { # Generation 15 sibling
-	name = Ingrid
+tfw_lineofumli_andvari_046 = { # Generation 15 sibling
+	name = tfw_lineofumli_andvari_046_name
 	female = yes
 
 	dynasty = dynasty_umli_andvari
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_lowborn_068
-	mother = umli_andvari_041
+	father = tfw_lineoflowborn_umli_061
+	mother = tfw_lineofumli_andvari_041
 
 	trait = dwarf
 	trait = compassionate
@@ -8946,16 +8946,16 @@ umli_andvari_046 = { # Generation 15 sibling
 
 ### Generation 16 ###
 
-umli_andvari_047 = { # Generation 16 continuation
-	name = Ingrid
+tfw_lineofumli_andvari_047 = { # Generation 16 continuation
+	name = tfw_lineofumli_andvari_047_name
 	female = yes
 
 	dynasty = dynasty_umli_andvari
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_andvari_044
-	mother = umli_lowborn_073
+	father = tfw_lineofumli_andvari_044
+	mother = tfw_lineoflowborn_umli_062
 
 	trait = dwarf
 	trait = diligent
@@ -8976,12 +8976,12 @@ umli_andvari_047 = { # Generation 16 continuation
 	}
 
 	7186.11.23 = {
-		add_spouse = umli_lowborn_078
+		add_spouse = tfw_lineoflowborn_umli_063
 	}
 }
 
-umli_lowborn_078 = { # Lowborn spouse into House Andvari (generation 16)
-	name = Thror
+tfw_lineoflowborn_umli_063 = { # Lowborn spouse into House Andvari (generation 16)
+	name = tfw_lineoflowborn_umli_063_name
 
 	religion = faith_khazad
 	culture = umli
@@ -9005,15 +9005,15 @@ umli_lowborn_078 = { # Lowborn spouse into House Andvari (generation 16)
 	}
 }
 
-umli_andvari_048 = { # Generation 16 sibling
-	name = Thror
+tfw_lineofumli_andvari_048 = { # Generation 16 sibling
+	name = tfw_lineofumli_andvari_048_name
 
 	dynasty = dynasty_umli_andvari
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_andvari_044
-	mother = umli_lowborn_073
+	father = tfw_lineofumli_andvari_044
+	mother = tfw_lineoflowborn_umli_062
 
 	trait = dwarf
 	trait = honest
@@ -9034,15 +9034,15 @@ umli_andvari_048 = { # Generation 16 sibling
 	}
 }
 
-umli_andvari_049 = { # Generation 16 sibling
-	name = Dain
+tfw_lineofumli_andvari_049 = { # Generation 16 sibling
+	name = tfw_lineofumli_andvari_049_name
 
 	dynasty = dynasty_umli_andvari
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_andvari_044
-	mother = umli_lowborn_073
+	father = tfw_lineofumli_andvari_044
+	mother = tfw_lineoflowborn_umli_062
 
 	trait = dwarf
 	trait = lustful
@@ -9067,16 +9067,16 @@ umli_andvari_049 = { # Generation 16 sibling
 
 ### Generation 17 ###
 
-umli_andvari_050 = { # Generation 17 continuation
-	name = Eydis
+tfw_lineofumli_andvari_050 = { # Generation 17 continuation
+	name = tfw_lineofumli_andvari_050_name
 	female = yes
 
 	dynasty = dynasty_umli_andvari
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_lowborn_078
-	mother = umli_andvari_047
+	father = tfw_lineoflowborn_umli_063
+	mother = tfw_lineofumli_andvari_047
 
 	trait = dwarf
 	trait = deceitful
@@ -9097,15 +9097,15 @@ umli_andvari_050 = { # Generation 17 continuation
 	}
 }
 
-umli_andvari_051 = { # Generation 17 sibling
-	name = Fundin
+tfw_lineofumli_andvari_051 = { # Generation 17 sibling
+	name = tfw_lineofumli_andvari_051_name
 
 	dynasty = dynasty_umli_andvari
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_lowborn_078
-	mother = umli_andvari_047
+	father = tfw_lineoflowborn_umli_063
+	mother = tfw_lineofumli_andvari_047
 
 	trait = dwarf
 	trait = patient
@@ -9126,15 +9126,15 @@ umli_andvari_051 = { # Generation 17 sibling
 	}
 }
 
-umli_andvari_052 = { # Generation 17 sibling
-	name = Nar
+tfw_lineofumli_andvari_052 = { # Generation 17 sibling
+	name = tfw_lineofumli_andvari_052_name
 
 	dynasty = dynasty_umli_andvari
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_lowborn_078
-	mother = umli_andvari_047
+	father = tfw_lineoflowborn_umli_063
+	mother = tfw_lineofumli_andvari_047
 
 	trait = dwarf
 	trait = diligent
@@ -9155,16 +9155,16 @@ umli_andvari_052 = { # Generation 17 sibling
 	}
 }
 
-umli_andvari_053 = { # Generation 17 sibling
-	name = Ingrid
+tfw_lineofumli_andvari_053 = { # Generation 17 sibling
+	name = tfw_lineofumli_andvari_053_name
 	female = yes
 
 	dynasty = dynasty_umli_andvari
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_lowborn_078
-	mother = umli_andvari_047
+	father = tfw_lineoflowborn_umli_063
+	mother = tfw_lineofumli_andvari_047
 
 	trait = dwarf
 	trait = paranoid
@@ -9190,8 +9190,8 @@ umli_andvari_053 = { # Generation 17 sibling
 ##### HOUSE NORI #####
 ############################################################
 
-umli_nori_001 = { # Founder
-	name = Nori
+tfw_lineofumli_nori_001 = { # Founder
+	name = tfw_lineofumli_nori_001_name
 
 	dynasty = dynasty_umli_nori
 	religion = faith_khazad
@@ -9216,7 +9216,7 @@ umli_nori_001 = { # Founder
 	}
 
 	6697.3.9 = {
-		add_spouse = umli_lowborn_005
+		add_spouse = tfw_lineoflowborn_umli_064
 	}
 
 	6748.1.3 = {
@@ -9224,8 +9224,8 @@ umli_nori_001 = { # Founder
 	}
 }
 
-umli_lowborn_005 = { # Lowborn spouse of Nori
-	name = Hlin
+tfw_lineoflowborn_umli_064 = { # Lowborn spouse of Nori
+	name = tfw_lineoflowborn_umli_064_name
 	female = yes
 
 	religion = faith_khazad
@@ -9257,16 +9257,16 @@ umli_lowborn_005 = { # Lowborn spouse of Nori
 
 ### Generation 1 ###
 
-umli_nori_002 = { # Generation 1 continuation
-	name = Yngvild
+tfw_lineofumli_nori_002 = { # Generation 1 continuation
+	name = tfw_lineofumli_nori_002_name
 	female = yes
 
 	dynasty = dynasty_umli_nori
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_nori_001
-	mother = umli_lowborn_005
+	father = tfw_lineofumli_nori_001
+	mother = tfw_lineoflowborn_umli_064
 
 	trait = dwarf
 	trait = stubborn
@@ -9287,7 +9287,7 @@ umli_nori_002 = { # Generation 1 continuation
 	}
 
 	6730.7.10 = {
-		add_spouse = umli_lowborn_010
+		add_spouse = tfw_lineoflowborn_umli_065
 	}
 
 	6765.2.8 = {
@@ -9295,8 +9295,8 @@ umli_nori_002 = { # Generation 1 continuation
 	}
 }
 
-umli_lowborn_010 = { # Lowborn spouse into House Nori (generation 1)
-	name = Sviar
+tfw_lineoflowborn_umli_065 = { # Lowborn spouse into House Nori (generation 1)
+	name = tfw_lineoflowborn_umli_065_name
 
 	religion = faith_khazad
 	culture = umli
@@ -9323,16 +9323,16 @@ umli_lowborn_010 = { # Lowborn spouse into House Nori (generation 1)
 	}
 }
 
-umli_nori_003 = { # Generation 1 sibling
-	name = Astrid
+tfw_lineofumli_nori_003 = { # Generation 1 sibling
+	name = tfw_lineofumli_nori_003_name
 	female = yes
 
 	dynasty = dynasty_umli_nori
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_nori_001
-	mother = umli_lowborn_005
+	father = tfw_lineofumli_nori_001
+	mother = tfw_lineoflowborn_umli_064
 
 	trait = dwarf
 	trait = generous
@@ -9357,16 +9357,16 @@ umli_nori_003 = { # Generation 1 sibling
 	}
 }
 
-umli_nori_004 = { # Generation 1 sibling
-	name = Liv
+tfw_lineofumli_nori_004 = { # Generation 1 sibling
+	name = tfw_lineofumli_nori_004_name
 	female = yes
 
 	dynasty = dynasty_umli_nori
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_nori_001
-	mother = umli_lowborn_005
+	father = tfw_lineofumli_nori_001
+	mother = tfw_lineoflowborn_umli_064
 
 	trait = dwarf
 	trait = content
@@ -9391,15 +9391,15 @@ umli_nori_004 = { # Generation 1 sibling
 	}
 }
 
-umli_nori_005 = { # Generation 1 sibling
-	name = Thrain
+tfw_lineofumli_nori_005 = { # Generation 1 sibling
+	name = tfw_lineofumli_nori_005_name
 
 	dynasty = dynasty_umli_nori
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_nori_001
-	mother = umli_lowborn_005
+	father = tfw_lineofumli_nori_001
+	mother = tfw_lineoflowborn_umli_064
 
 	trait = stubborn
 	trait = craven
@@ -9427,15 +9427,15 @@ umli_nori_005 = { # Generation 1 sibling
 
 ### Generation 2 ###
 
-umli_nori_006 = { # Generation 2 continuation
-	name = Brokkr
+tfw_lineofumli_nori_006 = { # Generation 2 continuation
+	name = tfw_lineofumli_nori_006_name
 
 	dynasty = dynasty_umli_nori
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_lowborn_010
-	mother = umli_nori_002
+	father = tfw_lineoflowborn_umli_065
+	mother = tfw_lineofumli_nori_002
 
 	trait = dwarf
 	trait = callous
@@ -9456,7 +9456,7 @@ umli_nori_006 = { # Generation 2 continuation
 	}
 
 	6762.7.3 = {
-		add_spouse = umli_lowborn_015
+		add_spouse = tfw_lineoflowborn_umli_066
 	}
 
 	6813.6.15 = {
@@ -9464,8 +9464,8 @@ umli_nori_006 = { # Generation 2 continuation
 	}
 }
 
-umli_lowborn_015 = { # Lowborn spouse into House Nori (generation 2)
-	name = Thora
+tfw_lineoflowborn_umli_066 = { # Lowborn spouse into House Nori (generation 2)
+	name = tfw_lineoflowborn_umli_066_name
 	female = yes
 
 	religion = faith_khazad
@@ -9494,16 +9494,16 @@ umli_lowborn_015 = { # Lowborn spouse into House Nori (generation 2)
 	}
 }
 
-umli_nori_007 = { # Generation 2 sibling
-	name = Mist
+tfw_lineofumli_nori_007 = { # Generation 2 sibling
+	name = tfw_lineofumli_nori_007_name
 	female = yes
 
 	dynasty = dynasty_umli_nori
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_lowborn_010
-	mother = umli_nori_002
+	father = tfw_lineoflowborn_umli_065
+	mother = tfw_lineofumli_nori_002
 
 	trait = dwarf
 	trait = just
@@ -9528,16 +9528,16 @@ umli_nori_007 = { # Generation 2 sibling
 	}
 }
 
-umli_nori_008 = { # Generation 2 sibling
-	name = Yngvild
+tfw_lineofumli_nori_008 = { # Generation 2 sibling
+	name = tfw_lineofumli_nori_008_name
 	female = yes
 
 	dynasty = dynasty_umli_nori
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_lowborn_010
-	mother = umli_nori_002
+	father = tfw_lineoflowborn_umli_065
+	mother = tfw_lineofumli_nori_002
 
 	trait = dwarf
 	trait = calm
@@ -9562,15 +9562,15 @@ umli_nori_008 = { # Generation 2 sibling
 	}
 }
 
-umli_nori_009 = { # Generation 2 sibling
-	name = Lit
+tfw_lineofumli_nori_009 = { # Generation 2 sibling
+	name = tfw_lineofumli_nori_009_name
 
 	dynasty = dynasty_umli_nori
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_lowborn_010
-	mother = umli_nori_002
+	father = tfw_lineoflowborn_umli_065
+	mother = tfw_lineofumli_nori_002
 
 	trait = dwarf
 	trait = trusting
@@ -9599,15 +9599,15 @@ umli_nori_009 = { # Generation 2 sibling
 
 ### Generation 3 ###
 
-umli_nori_010 = { # Generation 3 continuation
-	name = Lofar
+tfw_lineofumli_nori_010 = { # Generation 3 continuation
+	name = tfw_lineofumli_nori_010_name
 
 	dynasty = dynasty_umli_nori
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_nori_006
-	mother = umli_lowborn_015
+	father = tfw_lineofumli_nori_006
+	mother = tfw_lineoflowborn_umli_066
 
 	trait = dwarf
 	trait = content
@@ -9628,7 +9628,7 @@ umli_nori_010 = { # Generation 3 continuation
 	}
 
 	6791.9.18 = {
-		add_spouse = umli_lowborn_020
+		add_spouse = tfw_lineoflowborn_umli_067
 	}
 
 	6847.12.22 = {
@@ -9636,8 +9636,8 @@ umli_nori_010 = { # Generation 3 continuation
 	}
 }
 
-umli_lowborn_020 = { # Lowborn spouse into House Nori (generation 3)
-	name = Rind
+tfw_lineoflowborn_umli_067 = { # Lowborn spouse into House Nori (generation 3)
+	name = tfw_lineoflowborn_umli_067_name
 	female = yes
 
 	religion = faith_khazad
@@ -9666,16 +9666,16 @@ umli_lowborn_020 = { # Lowborn spouse into House Nori (generation 3)
 	}
 }
 
-umli_nori_011 = { # Generation 3 sibling
-	name = Freydis
+tfw_lineofumli_nori_011 = { # Generation 3 sibling
+	name = tfw_lineofumli_nori_011_name
 	female = yes
 
 	dynasty = dynasty_umli_nori
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_nori_006
-	mother = umli_lowborn_015
+	father = tfw_lineofumli_nori_006
+	mother = tfw_lineoflowborn_umli_066
 
 	trait = dwarf
 	trait = craven
@@ -9700,15 +9700,15 @@ umli_nori_011 = { # Generation 3 sibling
 	}
 }
 
-umli_nori_012 = { # Generation 3 sibling
-	name = Alvis
+tfw_lineofumli_nori_012 = { # Generation 3 sibling
+	name = tfw_lineofumli_nori_012_name
 
 	dynasty = dynasty_umli_nori
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_nori_006
-	mother = umli_lowborn_015
+	father = tfw_lineofumli_nori_006
+	mother = tfw_lineoflowborn_umli_066
 
 	trait = dwarf
 	trait = humble
@@ -9737,15 +9737,15 @@ umli_nori_012 = { # Generation 3 sibling
 
 ### Generation 4 ###
 
-umli_nori_013 = { # Generation 4 continuation
-	name = Dvalin
+tfw_lineofumli_nori_013 = { # Generation 4 continuation
+	name = tfw_lineofumli_nori_013_name
 
 	dynasty = dynasty_umli_nori
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_nori_010
-	mother = umli_lowborn_020
+	father = tfw_lineofumli_nori_010
+	mother = tfw_lineoflowborn_umli_067
 
 	trait = dwarf
 	trait = content
@@ -9766,7 +9766,7 @@ umli_nori_013 = { # Generation 4 continuation
 	}
 
 	6820.9.7 = {
-		add_spouse = umli_lowborn_024
+		add_spouse = tfw_lineoflowborn_umli_068
 	}
 
 	6869.6.22 = {
@@ -9774,8 +9774,8 @@ umli_nori_013 = { # Generation 4 continuation
 	}
 }
 
-umli_lowborn_024 = { # Lowborn spouse into House Nori (generation 4)
-	name = Gunnhild
+tfw_lineoflowborn_umli_068 = { # Lowborn spouse into House Nori (generation 4)
+	name = tfw_lineoflowborn_umli_068_name
 	female = yes
 
 	religion = faith_khazad
@@ -9804,15 +9804,15 @@ umli_lowborn_024 = { # Lowborn spouse into House Nori (generation 4)
 	}
 }
 
-umli_nori_014 = { # Generation 4 sibling
-	name = Durin
+tfw_lineofumli_nori_014 = { # Generation 4 sibling
+	name = tfw_lineofumli_nori_014_name
 
 	dynasty = dynasty_umli_nori
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_nori_010
-	mother = umli_lowborn_020
+	father = tfw_lineofumli_nori_010
+	mother = tfw_lineoflowborn_umli_067
 
 	trait = dwarf
 	trait = just
@@ -9837,15 +9837,15 @@ umli_nori_014 = { # Generation 4 sibling
 	}
 }
 
-umli_nori_015 = { # Generation 4 sibling
-	name = Frar
+tfw_lineofumli_nori_015 = { # Generation 4 sibling
+	name = tfw_lineofumli_nori_015_name
 
 	dynasty = dynasty_umli_nori
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_nori_010
-	mother = umli_lowborn_020
+	father = tfw_lineofumli_nori_010
+	mother = tfw_lineoflowborn_umli_067
 
 	trait = dwarf
 	trait = honest
@@ -9874,15 +9874,15 @@ umli_nori_015 = { # Generation 4 sibling
 
 ### Generation 5 ###
 
-umli_nori_016 = { # Generation 5 continuation
-	name = Gandalf
+tfw_lineofumli_nori_016 = { # Generation 5 continuation
+	name = tfw_lineofumli_nori_016_name
 
 	dynasty = dynasty_umli_nori
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_nori_013
-	mother = umli_lowborn_024
+	father = tfw_lineofumli_nori_013
+	mother = tfw_lineoflowborn_umli_068
 
 	trait = dwarf
 	trait = shy
@@ -9903,7 +9903,7 @@ umli_nori_016 = { # Generation 5 continuation
 	}
 
 	6853.5.16 = {
-		add_spouse = umli_lowborn_028
+		add_spouse = tfw_lineoflowborn_umli_069
 	}
 
 	6886.2.24 = {
@@ -9911,8 +9911,8 @@ umli_nori_016 = { # Generation 5 continuation
 	}
 }
 
-umli_lowborn_028 = { # Lowborn spouse into House Nori (generation 5)
-	name = Saga
+tfw_lineoflowborn_umli_069 = { # Lowborn spouse into House Nori (generation 5)
+	name = tfw_lineoflowborn_umli_069_name
 	female = yes
 
 	religion = faith_khazad
@@ -9941,15 +9941,15 @@ umli_lowborn_028 = { # Lowborn spouse into House Nori (generation 5)
 	}
 }
 
-umli_nori_017 = { # Generation 5 sibling
-	name = Nori
+tfw_lineofumli_nori_017 = { # Generation 5 sibling
+	name = tfw_lineofumli_nori_017_name
 
 	dynasty = dynasty_umli_nori
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_nori_013
-	mother = umli_lowborn_024
+	father = tfw_lineofumli_nori_013
+	mother = tfw_lineoflowborn_umli_068
 
 	trait = dwarf
 	trait = greedy
@@ -9978,16 +9978,16 @@ umli_nori_017 = { # Generation 5 sibling
 
 ### Generation 6 ###
 
-umli_nori_018 = { # Generation 6 continuation
-	name = Geira
+tfw_lineofumli_nori_018 = { # Generation 6 continuation
+	name = tfw_lineofumli_nori_018_name
 	female = yes
 
 	dynasty = dynasty_umli_nori
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_nori_016
-	mother = umli_lowborn_028
+	father = tfw_lineofumli_nori_016
+	mother = tfw_lineoflowborn_umli_069
 
 	trait = dwarf
 	trait = deceitful
@@ -10008,7 +10008,7 @@ umli_nori_018 = { # Generation 6 continuation
 	}
 
 	6881.1.16 = {
-		add_spouse = umli_lowborn_033
+		add_spouse = tfw_lineoflowborn_umli_070
 	}
 
 	6928.11.6 = {
@@ -10016,8 +10016,8 @@ umli_nori_018 = { # Generation 6 continuation
 	}
 }
 
-umli_lowborn_033 = { # Lowborn spouse into House Nori (generation 6)
-	name = Gandalf
+tfw_lineoflowborn_umli_070 = { # Lowborn spouse into House Nori (generation 6)
+	name = tfw_lineoflowborn_umli_070_name
 
 	religion = faith_khazad
 	culture = umli
@@ -10045,15 +10045,15 @@ umli_lowborn_033 = { # Lowborn spouse into House Nori (generation 6)
 	}
 }
 
-umli_nori_019 = { # Generation 6 sibling
-	name = Fili
+tfw_lineofumli_nori_019 = { # Generation 6 sibling
+	name = tfw_lineofumli_nori_019_name
 
 	dynasty = dynasty_umli_nori
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_nori_016
-	mother = umli_lowborn_028
+	father = tfw_lineofumli_nori_016
+	mother = tfw_lineoflowborn_umli_069
 
 	trait = dwarf
 	trait = ambitious
@@ -10078,15 +10078,15 @@ umli_nori_019 = { # Generation 6 sibling
 	}
 }
 
-umli_nori_020 = { # Generation 6 sibling
-	name = Vili
+tfw_lineofumli_nori_020 = { # Generation 6 sibling
+	name = tfw_lineofumli_nori_020_name
 
 	dynasty = dynasty_umli_nori
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_nori_016
-	mother = umli_lowborn_028
+	father = tfw_lineofumli_nori_016
+	mother = tfw_lineoflowborn_umli_069
 
 	trait = dwarf
 	trait = trusting
@@ -10115,16 +10115,16 @@ umli_nori_020 = { # Generation 6 sibling
 
 ### Generation 7 ###
 
-umli_nori_021 = { # Generation 7 continuation
-	name = Hilda
+tfw_lineofumli_nori_021 = { # Generation 7 continuation
+	name = tfw_lineofumli_nori_021_name
 	female = yes
 
 	dynasty = dynasty_umli_nori
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_lowborn_033
-	mother = umli_nori_018
+	father = tfw_lineoflowborn_umli_070
+	mother = tfw_lineofumli_nori_018
 
 	trait = dwarf
 	trait = humble
@@ -10145,7 +10145,7 @@ umli_nori_021 = { # Generation 7 continuation
 	}
 
 	6913.2.7 = {
-		add_spouse = umli_lowborn_038
+		add_spouse = tfw_lineoflowborn_umli_071
 	}
 
 	6944.1.8 = {
@@ -10153,8 +10153,8 @@ umli_nori_021 = { # Generation 7 continuation
 	}
 }
 
-umli_lowborn_038 = { # Lowborn spouse into House Nori (generation 7)
-	name = Lit
+tfw_lineoflowborn_umli_071 = { # Lowborn spouse into House Nori (generation 7)
+	name = tfw_lineoflowborn_umli_071_name
 
 	religion = faith_khazad
 	culture = umli
@@ -10181,15 +10181,15 @@ umli_lowborn_038 = { # Lowborn spouse into House Nori (generation 7)
 	}
 }
 
-umli_nori_022 = { # Generation 7 sibling
-	name = Dori
+tfw_lineofumli_nori_022 = { # Generation 7 sibling
+	name = tfw_lineofumli_nori_022_name
 
 	dynasty = dynasty_umli_nori
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_lowborn_033
-	mother = umli_nori_018
+	father = tfw_lineoflowborn_umli_070
+	mother = tfw_lineofumli_nori_018
 
 	trait = dwarf
 	trait = diligent
@@ -10218,15 +10218,15 @@ umli_nori_022 = { # Generation 7 sibling
 
 ### Generation 8 ###
 
-umli_nori_023 = { # Generation 8 continuation
-	name = Regin
+tfw_lineofumli_nori_023 = { # Generation 8 continuation
+	name = tfw_lineofumli_nori_023_name
 
 	dynasty = dynasty_umli_nori
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_lowborn_038
-	mother = umli_nori_021
+	father = tfw_lineoflowborn_umli_071
+	mother = tfw_lineofumli_nori_021
 
 	trait = dwarf
 	trait = forgiving
@@ -10247,7 +10247,7 @@ umli_nori_023 = { # Generation 8 continuation
 	}
 
 	6943.6.5 = {
-		add_spouse = umli_motsognir_025
+		add_spouse = tfw_lineofumli_motsognir_025
 	}
 
 	6981.8.1 = {
@@ -10255,16 +10255,16 @@ umli_nori_023 = { # Generation 8 continuation
 	}
 }
 
-umli_nori_024 = { # Generation 8 sibling
-	name = Dagny
+tfw_lineofumli_nori_024 = { # Generation 8 sibling
+	name = tfw_lineofumli_nori_024_name
 	female = yes
 
 	dynasty = dynasty_umli_nori
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_lowborn_038
-	mother = umli_nori_021
+	father = tfw_lineoflowborn_umli_071
+	mother = tfw_lineofumli_nori_021
 
 	trait = dwarf
 	trait = arrogant
@@ -10293,15 +10293,15 @@ umli_nori_024 = { # Generation 8 sibling
 
 ### Generation 9 ###
 
-umli_nori_025 = { # Generation 9 continuation
-	name = Bofur
+tfw_lineofumli_nori_025 = { # Generation 9 continuation
+	name = tfw_lineofumli_nori_025_name
 
 	dynasty = dynasty_umli_nori
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_nori_023
-	mother = umli_motsognir_025
+	father = tfw_lineofumli_nori_023
+	mother = tfw_lineofumli_motsognir_025
 
 	trait = dwarf
 	trait = paranoid
@@ -10322,7 +10322,7 @@ umli_nori_025 = { # Generation 9 continuation
 	}
 
 	6972.4.2 = {
-		add_spouse = umli_lowborn_047
+		add_spouse = tfw_lineoflowborn_umli_072
 	}
 
 	7005.1.15 = {
@@ -10330,8 +10330,8 @@ umli_nori_025 = { # Generation 9 continuation
 	}
 }
 
-umli_lowborn_047 = { # Lowborn spouse into House Nori (generation 9)
-	name = Mist
+tfw_lineoflowborn_umli_072 = { # Lowborn spouse into House Nori (generation 9)
+	name = tfw_lineoflowborn_umli_072_name
 	female = yes
 
 	religion = faith_khazad
@@ -10360,16 +10360,16 @@ umli_lowborn_047 = { # Lowborn spouse into House Nori (generation 9)
 	}
 }
 
-umli_nori_026 = { # Generation 9 sibling
-	name = Thora
+tfw_lineofumli_nori_026 = { # Generation 9 sibling
+	name = tfw_lineofumli_nori_026_name
 	female = yes
 
 	dynasty = dynasty_umli_nori
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_nori_023
-	mother = umli_motsognir_025
+	father = tfw_lineofumli_nori_023
+	mother = tfw_lineofumli_motsognir_025
 
 	trait = dwarf
 	trait = diligent
@@ -10394,15 +10394,15 @@ umli_nori_026 = { # Generation 9 sibling
 	}
 }
 
-umli_nori_027 = { # Generation 9 sibling
-	name = Thorin
+tfw_lineofumli_nori_027 = { # Generation 9 sibling
+	name = tfw_lineofumli_nori_027_name
 
 	dynasty = dynasty_umli_nori
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_nori_023
-	mother = umli_motsognir_025
+	father = tfw_lineofumli_nori_023
+	mother = tfw_lineofumli_motsognir_025
 
 	trait = dwarf
 	trait = callous
@@ -10431,16 +10431,16 @@ umli_nori_027 = { # Generation 9 sibling
 
 ### Generation 10 ###
 
-umli_nori_028 = { # Generation 10 continuation
-	name = Vigdis
+tfw_lineofumli_nori_028 = { # Generation 10 continuation
+	name = tfw_lineofumli_nori_028_name
 	female = yes
 
 	dynasty = dynasty_umli_nori
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_nori_025
-	mother = umli_lowborn_047
+	father = tfw_lineofumli_nori_025
+	mother = tfw_lineoflowborn_umli_072
 
 	trait = dwarf
 	trait = impatient
@@ -10461,7 +10461,7 @@ umli_nori_028 = { # Generation 10 continuation
 	}
 
 	7005.5.28 = {
-		add_spouse = umli_lowborn_051
+		add_spouse = tfw_lineoflowborn_umli_073
 	}
 
 	7041.10.8 = {
@@ -10469,8 +10469,8 @@ umli_nori_028 = { # Generation 10 continuation
 	}
 }
 
-umli_lowborn_051 = { # Lowborn spouse into House Nori (generation 10)
-	name = Thorin
+tfw_lineoflowborn_umli_073 = { # Lowborn spouse into House Nori (generation 10)
+	name = tfw_lineoflowborn_umli_073_name
 
 	religion = faith_khazad
 	culture = umli
@@ -10497,15 +10497,15 @@ umli_lowborn_051 = { # Lowborn spouse into House Nori (generation 10)
 	}
 }
 
-umli_nori_029 = { # Generation 10 sibling
-	name = Thorin
+tfw_lineofumli_nori_029 = { # Generation 10 sibling
+	name = tfw_lineofumli_nori_029_name
 
 	dynasty = dynasty_umli_nori
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_nori_025
-	mother = umli_lowborn_047
+	father = tfw_lineofumli_nori_025
+	mother = tfw_lineoflowborn_umli_072
 
 	trait = dwarf
 	trait = ambitious
@@ -10530,15 +10530,15 @@ umli_nori_029 = { # Generation 10 sibling
 	}
 }
 
-umli_nori_030 = { # Generation 10 sibling
-	name = Loni
+tfw_lineofumli_nori_030 = { # Generation 10 sibling
+	name = tfw_lineofumli_nori_030_name
 
 	dynasty = dynasty_umli_nori
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_nori_025
-	mother = umli_lowborn_047
+	father = tfw_lineofumli_nori_025
+	mother = tfw_lineoflowborn_umli_072
 
 	trait = dwarf
 	trait = content
@@ -10567,15 +10567,15 @@ umli_nori_030 = { # Generation 10 sibling
 
 ### Generation 11 ###
 
-umli_nori_031 = { # Generation 11 continuation
-	name = Motsognir
+tfw_lineofumli_nori_031 = { # Generation 11 continuation
+	name = tfw_lineofumli_nori_031_name
 
 	dynasty = dynasty_umli_nori
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_lowborn_051
-	mother = umli_nori_028
+	father = tfw_lineoflowborn_umli_073
+	mother = tfw_lineofumli_nori_028
 
 	trait = dwarf
 	trait = impatient
@@ -10596,7 +10596,7 @@ umli_nori_031 = { # Generation 11 continuation
 	}
 
 	7035.8.11 = {
-		add_spouse = umli_lowborn_056
+		add_spouse = tfw_lineoflowborn_umli_074
 	}
 
 	7083.9.7 = {
@@ -10604,8 +10604,8 @@ umli_nori_031 = { # Generation 11 continuation
 	}
 }
 
-umli_lowborn_056 = { # Lowborn spouse into House Nori (generation 11)
-	name = Alfhild
+tfw_lineoflowborn_umli_074 = { # Lowborn spouse into House Nori (generation 11)
+	name = tfw_lineoflowborn_umli_074_name
 	female = yes
 
 	religion = faith_khazad
@@ -10634,15 +10634,15 @@ umli_lowborn_056 = { # Lowborn spouse into House Nori (generation 11)
 	}
 }
 
-umli_nori_032 = { # Generation 11 sibling
-	name = Regin
+tfw_lineofumli_nori_032 = { # Generation 11 sibling
+	name = tfw_lineofumli_nori_032_name
 
 	dynasty = dynasty_umli_nori
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_lowborn_051
-	mother = umli_nori_028
+	father = tfw_lineoflowborn_umli_073
+	mother = tfw_lineofumli_nori_028
 
 	trait = dwarf
 	trait = honest
@@ -10671,16 +10671,16 @@ umli_nori_032 = { # Generation 11 sibling
 
 ### Generation 12 ###
 
-umli_nori_033 = { # Generation 12 continuation
-	name = Hilda
+tfw_lineofumli_nori_033 = { # Generation 12 continuation
+	name = tfw_lineofumli_nori_033_name
 	female = yes
 
 	dynasty = dynasty_umli_nori
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_nori_031
-	mother = umli_lowborn_056
+	father = tfw_lineofumli_nori_031
+	mother = tfw_lineoflowborn_umli_074
 
 	trait = compassionate
 	trait = humble
@@ -10700,7 +10700,7 @@ umli_nori_033 = { # Generation 12 continuation
 	}
 
 	7064.4.16 = {
-		add_spouse = umli_lowborn_060
+		add_spouse = tfw_lineoflowborn_umli_075
 	}
 
 	7116.10.9 = {
@@ -10708,8 +10708,8 @@ umli_nori_033 = { # Generation 12 continuation
 	}
 }
 
-umli_lowborn_060 = { # Lowborn spouse into House Nori (generation 12)
-	name = Thekk
+tfw_lineoflowborn_umli_075 = { # Lowborn spouse into House Nori (generation 12)
+	name = tfw_lineoflowborn_umli_075_name
 
 	religion = faith_khazad
 	culture = umli
@@ -10737,16 +10737,16 @@ umli_lowborn_060 = { # Lowborn spouse into House Nori (generation 12)
 	}
 }
 
-umli_nori_034 = { # Generation 12 sibling; spouse into House Andvari
-	name = Frida
+tfw_lineofumli_nori_034 = { # Generation 12 sibling; spouse into House Andvari
+	name = tfw_lineofumli_nori_034_name
 	female = yes
 
 	dynasty = dynasty_umli_nori
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_nori_031
-	mother = umli_lowborn_056
+	father = tfw_lineofumli_nori_031
+	mother = tfw_lineoflowborn_umli_074
 
 	trait = dwarf
 	trait = diligent
@@ -10771,16 +10771,16 @@ umli_nori_034 = { # Generation 12 sibling; spouse into House Andvari
 	}
 }
 
-umli_nori_035 = { # Generation 12 sibling
-	name = Thora
+tfw_lineofumli_nori_035 = { # Generation 12 sibling
+	name = tfw_lineofumli_nori_035_name
 	female = yes
 
 	dynasty = dynasty_umli_nori
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_nori_031
-	mother = umli_lowborn_056
+	father = tfw_lineofumli_nori_031
+	mother = tfw_lineoflowborn_umli_074
 
 	trait = dwarf
 	trait = forgiving
@@ -10809,16 +10809,16 @@ umli_nori_035 = { # Generation 12 sibling
 
 ### Generation 13 ###
 
-umli_nori_036 = { # Generation 13 continuation
-	name = Freydis
+tfw_lineofumli_nori_036 = { # Generation 13 continuation
+	name = tfw_lineofumli_nori_036_name
 	female = yes
 
 	dynasty = dynasty_umli_nori
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_lowborn_060
-	mother = umli_nori_033
+	father = tfw_lineoflowborn_umli_075
+	mother = tfw_lineofumli_nori_033
 
 	trait = dwarf
 	trait = craven
@@ -10839,7 +10839,7 @@ umli_nori_036 = { # Generation 13 continuation
 	}
 
 	7094.6.23 = {
-		add_spouse = umli_lowborn_065
+		add_spouse = tfw_lineoflowborn_umli_076
 	}
 
 	7148.12.7 = {
@@ -10847,8 +10847,8 @@ umli_nori_036 = { # Generation 13 continuation
 	}
 }
 
-umli_lowborn_065 = { # Lowborn spouse into House Nori (generation 13)
-	name = Frar
+tfw_lineoflowborn_umli_076 = { # Lowborn spouse into House Nori (generation 13)
+	name = tfw_lineoflowborn_umli_076_name
 
 	religion = faith_khazad
 	culture = umli
@@ -10876,16 +10876,16 @@ umli_lowborn_065 = { # Lowborn spouse into House Nori (generation 13)
 	}
 }
 
-umli_nori_037 = { # Generation 13 sibling
-	name = Skadi
+tfw_lineofumli_nori_037 = { # Generation 13 sibling
+	name = tfw_lineofumli_nori_037_name
 	female = yes
 
 	dynasty = dynasty_umli_nori
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_lowborn_060
-	mother = umli_nori_033
+	father = tfw_lineoflowborn_umli_075
+	mother = tfw_lineofumli_nori_033
 
 	trait = dwarf
 	trait = cynical
@@ -10910,15 +10910,15 @@ umli_nori_037 = { # Generation 13 sibling
 	}
 }
 
-umli_nori_038 = { # Generation 13 sibling
-	name = Finn
+tfw_lineofumli_nori_038 = { # Generation 13 sibling
+	name = tfw_lineofumli_nori_038_name
 
 	dynasty = dynasty_umli_nori
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_lowborn_060
-	mother = umli_nori_033
+	father = tfw_lineoflowborn_umli_075
+	mother = tfw_lineofumli_nori_033
 
 	trait = dwarf
 	trait = arrogant
@@ -10947,15 +10947,15 @@ umli_nori_038 = { # Generation 13 sibling
 
 ### Generation 14 ###
 
-umli_nori_039 = { # Generation 14 continuation
-	name = Nyi
+tfw_lineofumli_nori_039 = { # Generation 14 continuation
+	name = tfw_lineofumli_nori_039_name
 
 	dynasty = dynasty_umli_nori
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_lowborn_065
-	mother = umli_nori_036
+	father = tfw_lineoflowborn_umli_076
+	mother = tfw_lineofumli_nori_036
 
 	trait = dwarf
 	trait = honest
@@ -10976,7 +10976,7 @@ umli_nori_039 = { # Generation 14 continuation
 	}
 
 	7124.9.26 = {
-		add_spouse = umli_lowborn_069
+		add_spouse = tfw_lineoflowborn_umli_077
 	}
 
 	7175.9.18 = {
@@ -10984,8 +10984,8 @@ umli_nori_039 = { # Generation 14 continuation
 	}
 }
 
-umli_lowborn_069 = { # Lowborn spouse into House Nori (generation 14)
-	name = Gerda
+tfw_lineoflowborn_umli_077 = { # Lowborn spouse into House Nori (generation 14)
+	name = tfw_lineoflowborn_umli_077_name
 	female = yes
 
 	religion = faith_khazad
@@ -11014,15 +11014,15 @@ umli_lowborn_069 = { # Lowborn spouse into House Nori (generation 14)
 	}
 }
 
-umli_nori_040 = { # Generation 14 sibling
-	name = Oin
+tfw_lineofumli_nori_040 = { # Generation 14 sibling
+	name = tfw_lineofumli_nori_040_name
 
 	dynasty = dynasty_umli_nori
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_lowborn_065
-	mother = umli_nori_036
+	father = tfw_lineoflowborn_umli_076
+	mother = tfw_lineofumli_nori_036
 
 	trait = dwarf
 	trait = brave
@@ -11047,15 +11047,15 @@ umli_nori_040 = { # Generation 14 sibling
 	}
 }
 
-umli_nori_041 = { # Generation 14 sibling
-	name = Nyi
+tfw_lineofumli_nori_041 = { # Generation 14 sibling
+	name = tfw_lineofumli_nori_041_name
 
 	dynasty = dynasty_umli_nori
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_lowborn_065
-	mother = umli_nori_036
+	father = tfw_lineoflowborn_umli_076
+	mother = tfw_lineofumli_nori_036
 
 	trait = dwarf
 	trait = just
@@ -11084,15 +11084,15 @@ umli_nori_041 = { # Generation 14 sibling
 
 ### Generation 15 ###
 
-umli_nori_042 = { # Generation 15 continuation
-	name = Oin
+tfw_lineofumli_nori_042 = { # Generation 15 continuation
+	name = tfw_lineofumli_nori_042_name
 
 	dynasty = dynasty_umli_nori
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_nori_039
-	mother = umli_lowborn_069
+	father = tfw_lineofumli_nori_039
+	mother = tfw_lineoflowborn_umli_077
 
 	trait = dwarf
 	trait = deceitful
@@ -11113,12 +11113,12 @@ umli_nori_042 = { # Generation 15 continuation
 	}
 
 	7154.9.23 = {
-		add_spouse = umli_lowborn_074
+		add_spouse = tfw_lineoflowborn_umli_078
 	}
 }
 
-umli_lowborn_074 = { # Lowborn spouse into House Nori (generation 15)
-	name = Vigdis
+tfw_lineoflowborn_umli_078 = { # Lowborn spouse into House Nori (generation 15)
+	name = tfw_lineoflowborn_umli_078_name
 	female = yes
 
 	religion = faith_khazad
@@ -11143,15 +11143,15 @@ umli_lowborn_074 = { # Lowborn spouse into House Nori (generation 15)
 	}
 }
 
-umli_nori_043 = { # Generation 15 sibling
-	name = Vili
+tfw_lineofumli_nori_043 = { # Generation 15 sibling
+	name = tfw_lineofumli_nori_043_name
 
 	dynasty = dynasty_umli_nori
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_nori_039
-	mother = umli_lowborn_069
+	father = tfw_lineofumli_nori_039
+	mother = tfw_lineoflowborn_umli_077
 
 	trait = dwarf
 	trait = diligent
@@ -11172,16 +11172,16 @@ umli_nori_043 = { # Generation 15 sibling
 	}
 }
 
-umli_nori_044 = { # Generation 15 sibling
-	name = Ingrid
+tfw_lineofumli_nori_044 = { # Generation 15 sibling
+	name = tfw_lineofumli_nori_044_name
 	female = yes
 
 	dynasty = dynasty_umli_nori
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_nori_039
-	mother = umli_lowborn_069
+	father = tfw_lineofumli_nori_039
+	mother = tfw_lineoflowborn_umli_077
 
 	trait = dwarf
 	trait = compassionate
@@ -11206,16 +11206,16 @@ umli_nori_044 = { # Generation 15 sibling
 	}
 }
 
-umli_nori_045 = { # Generation 15 sibling
-	name = Signe
+tfw_lineofumli_nori_045 = { # Generation 15 sibling
+	name = tfw_lineofumli_nori_045_name
 	female = yes
 
 	dynasty = dynasty_umli_nori
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_nori_039
-	mother = umli_lowborn_069
+	father = tfw_lineofumli_nori_039
+	mother = tfw_lineoflowborn_umli_077
 
 	trait = dwarf
 	trait = impatient
@@ -11244,16 +11244,16 @@ umli_nori_045 = { # Generation 15 sibling
 
 ### Generation 16 ###
 
-umli_nori_046 = { # Generation 16 continuation
-	name = Hlin
+tfw_lineofumli_nori_046 = { # Generation 16 continuation
+	name = tfw_lineofumli_nori_046_name
 	female = yes
 
 	dynasty = dynasty_umli_nori
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_nori_042
-	mother = umli_lowborn_074
+	father = tfw_lineofumli_nori_042
+	mother = tfw_lineoflowborn_umli_078
 
 	trait = dwarf
 	trait = arrogant
@@ -11274,12 +11274,12 @@ umli_nori_046 = { # Generation 16 continuation
 	}
 
 	7186.10.19 = {
-		add_spouse = umli_lowborn_079
+		add_spouse = tfw_lineoflowborn_umli_079
 	}
 }
 
-umli_lowborn_079 = { # Lowborn spouse into House Nori (generation 16)
-	name = Virfir
+tfw_lineoflowborn_umli_079 = { # Lowborn spouse into House Nori (generation 16)
+	name = tfw_lineoflowborn_umli_079_name
 
 	religion = faith_khazad
 	culture = umli
@@ -11303,15 +11303,15 @@ umli_lowborn_079 = { # Lowborn spouse into House Nori (generation 16)
 	}
 }
 
-umli_nori_047 = { # Generation 16 sibling
-	name = Bifur
+tfw_lineofumli_nori_047 = { # Generation 16 sibling
+	name = tfw_lineofumli_nori_047_name
 
 	dynasty = dynasty_umli_nori
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_nori_042
-	mother = umli_lowborn_074
+	father = tfw_lineofumli_nori_042
+	mother = tfw_lineoflowborn_umli_078
 
 	trait = dwarf
 	trait = stubborn
@@ -11332,16 +11332,16 @@ umli_nori_047 = { # Generation 16 sibling
 	}
 }
 
-umli_nori_048 = { # Generation 16 sibling
-	name = Skadi
+tfw_lineofumli_nori_048 = { # Generation 16 sibling
+	name = tfw_lineofumli_nori_048_name
 	female = yes
 
 	dynasty = dynasty_umli_nori
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_nori_042
-	mother = umli_lowborn_074
+	father = tfw_lineofumli_nori_042
+	mother = tfw_lineoflowborn_umli_078
 
 	trait = dwarf
 	trait = patient
@@ -11366,15 +11366,15 @@ umli_nori_048 = { # Generation 16 sibling
 
 ### Generation 17 ###
 
-umli_nori_049 = { # Generation 17 continuation
-	name = Gloin
+tfw_lineofumli_nori_049 = { # Generation 17 continuation
+	name = tfw_lineofumli_nori_049_name
 
 	dynasty = dynasty_umli_nori
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_lowborn_079
-	mother = umli_nori_046
+	father = tfw_lineoflowborn_umli_079
+	mother = tfw_lineofumli_nori_046
 
 	trait = dwarf
 	trait = just
@@ -11395,15 +11395,15 @@ umli_nori_049 = { # Generation 17 continuation
 	}
 }
 
-umli_nori_050 = { # Generation 17 sibling
-	name = Bofur
+tfw_lineofumli_nori_050 = { # Generation 17 sibling
+	name = tfw_lineofumli_nori_050_name
 
 	dynasty = dynasty_umli_nori
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_lowborn_079
-	mother = umli_nori_046
+	father = tfw_lineoflowborn_umli_079
+	mother = tfw_lineofumli_nori_046
 
 	trait = dwarf
 	trait = greedy
@@ -11424,15 +11424,15 @@ umli_nori_050 = { # Generation 17 sibling
 	}
 }
 
-umli_nori_051 = { # Generation 17 sibling
-	name = Hepti
+tfw_lineofumli_nori_051 = { # Generation 17 sibling
+	name = tfw_lineofumli_nori_051_name
 
 	dynasty = dynasty_umli_nori
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_lowborn_079
-	mother = umli_nori_046
+	father = tfw_lineoflowborn_umli_079
+	mother = tfw_lineofumli_nori_046
 
 	trait = dwarf
 	trait = trusting
@@ -11453,15 +11453,15 @@ umli_nori_051 = { # Generation 17 sibling
 	}
 }
 
-umli_nori_052 = { # Generation 17 sibling
-	name = Durin
+tfw_lineofumli_nori_052 = { # Generation 17 sibling
+	name = tfw_lineofumli_nori_052_name
 
 	dynasty = dynasty_umli_nori
 	religion = faith_khazad
 	culture = umli
 
-	father = umli_lowborn_079
-	mother = umli_nori_046
+	father = tfw_lineoflowborn_umli_079
+	mother = tfw_lineofumli_nori_046
 
 	trait = trusting
 	trait = gregarious

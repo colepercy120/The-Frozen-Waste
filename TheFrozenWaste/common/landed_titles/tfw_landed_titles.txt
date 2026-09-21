@@ -1881,7 +1881,7 @@ e_bleak_mountains = {
 	capital = c_nidavellir_22
 	color={ 204 204 204 }
 	k_durnost = {
-		capital = c_durnost_14
+		capital = c_durnost_6
 		color={ 60 64 66 }
 		d_durnost_1 = {
 			capital = c_durnost_3
@@ -1916,20 +1916,20 @@ e_bleak_mountains = {
 			}
 		}
 		d_durnost_2 = {
-			capital = c_durnost_5
+			capital = c_durnost_6
 			color={ 58 57 64 }
-			c_durnost_5 = {
-				color={ 58 57 64 }
-				b_bleak_mountains_5 = {
-					province = 9190
-					color={ 213 92 95 }
-				}
-			}
 			c_durnost_6 = {
 				color={ 65 59 102 }
 				b_bleak_mountains_7 = {
 					province = 9191
 					color={ 216 145 98 }
+				}
+			}
+			c_durnost_5 = {
+				color={ 58 57 64 }
+				b_bleak_mountains_5 = {
+					province = 9190
+					color={ 213 92 95 }
 				}
 			}
 			c_durnost_7 = {
@@ -6767,26 +6767,11 @@ e_frostwood = {
 		}
 	}
 	k_east_frostwood = {
-		capital = c_frostwood_20
+		capital = c_frostwood_21
 		color={ 0 255 187 }
 		d_east_frostwood_1 = {
 			capital = c_frostwood_21
 			color={ 71 255 255 }
-			c_frostwood_20 = {
-				color={ 71 255 255 }
-				b_eryn_halcin_9 = {
-					province = 8725
-					color={ 196 130 60 }
-				}
-				b_eryn_halcin_10 = {
-					province = 8726
-					color={ 176 180 109 }
-				}
-				b_eryn_halcin_11 = {
-					province = 8727
-					color={ 68 169 101 }
-				}
-			}
 			c_frostwood_21 = {
 				color={ 59 255 219 }
 				b_eryn_halcin_65 = {
@@ -6804,6 +6789,21 @@ e_frostwood = {
 				b_eryn_halcin_80 = {
 					province = 8797
 					color={ 126 191 33 }
+				}
+			}
+						c_frostwood_20 = {
+				color={ 71 255 255 }
+				b_eryn_halcin_9 = {
+					province = 8725
+					color={ 196 130 60 }
+				}
+				b_eryn_halcin_10 = {
+					province = 8726
+					color={ 176 180 109 }
+				}
+				b_eryn_halcin_11 = {
+					province = 8727
+					color={ 68 169 101 }
 				}
 			}
 			c_frostwood_22 = {
@@ -6966,20 +6966,4 @@ e_frostwood = {
 			}
 		}
 	}
-}
-
-k_emyn_nimbrith = {
-	color={ 28 24 59 }
-	d_emyn_nimbrith = {
-		color={ 28 24 59 }
-	
-	}
-}
-e_winter_court = {
-	color={ 169 193 192}
-	destroy_on_succession = yes
-	destroy_if_invalid_heir = yes
-	always_follows_primary_heir = yes
-	ruler_uses_title_name = no
-	capital = c_thangorodrim_3
 }

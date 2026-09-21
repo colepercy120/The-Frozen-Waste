@@ -15,8 +15,8 @@
 # dynasty_naethor
 ##############################
 
-linenaethor1 = {
-	name = Tervain
+tfw_lineofnaethor_001 = {
+	name = tfw_lineofnaethor_001_name
 
 	dynasty = dynasty_naethor
 	religion = faith_forodain
@@ -40,7 +40,7 @@ linenaethor1 = {
 	}
 
 	6738.6.1 = {
-		add_spouse = wife_naethor1
+		add_spouse = tfw_lineoflowborn_forodain_001
 	}
 
 	6817.1.1 = {
@@ -48,8 +48,8 @@ linenaethor1 = {
 	}
 }
 
-wife_naethor1 = {
-	name = Orvaeth
+tfw_lineoflowborn_forodain_001 = {
+	name = tfw_lineoflowborn_forodain_001_name
 
 	female = yes
 	religion = faith_forodain
@@ -77,16 +77,16 @@ wife_naethor1 = {
 	}
 }
 
-linenaethor2side1 = {
-	name = Arweniel
+tfw_lineofnaethor_002 = {
+	name = tfw_lineofnaethor_002_name
 
 	female = yes
 	dynasty = dynasty_naethor
 	religion = faith_forodain
 	culture = forodain
 
-	father = linenaethor1
-	mother = wife_naethor1
+	father = tfw_lineofnaethor_001
+	mother = tfw_lineoflowborn_forodain_001
 
 	trait = education_diplomacy_2
 	trait = patient
@@ -110,15 +110,15 @@ linenaethor2side1 = {
 	}
 }
 
-linenaethor2 = {
-	name = Saelgon
+tfw_lineofnaethor_003 = {
+	name = tfw_lineofnaethor_003_name
 
 	dynasty = dynasty_naethor
 	religion = faith_forodain
 	culture = forodain
 
-	father = linenaethor1
-	mother = wife_naethor1
+	father = tfw_lineofnaethor_001
+	mother = tfw_lineoflowborn_forodain_001
 
 	trait = education_stewardship_2
 	trait = content
@@ -138,7 +138,7 @@ linenaethor2 = {
 	}
 
 	6784.6.1 = {
-		add_spouse = wife_naethor2
+		add_spouse = tfw_lineoflowborn_forodain_002
 	}
 
 	6857.1.1 = {
@@ -146,8 +146,8 @@ linenaethor2 = {
 	}
 }
 
-wife_naethor2 = {
-	name = Tindiel
+tfw_lineoflowborn_forodain_002 = {
+	name = tfw_lineoflowborn_forodain_002_name
 
 	female = yes
 	religion = faith_forodain
@@ -175,16 +175,16 @@ wife_naethor2 = {
 	}
 }
 
-linenaethor3bridge = {
-	name = Silmeth
+tfw_lineofnaethor_004 = {
+	name = tfw_lineofnaethor_004_name
 
 	female = yes
 	dynasty = dynasty_naethor
 	religion = faith_forodain
 	culture = forodain
 
-	father = linenaethor2
-	mother = wife_naethor2
+	father = tfw_lineofnaethor_003
+	mother = tfw_lineoflowborn_forodain_002
 
 	trait = education_intrigue_2
 	trait = diligent
@@ -208,16 +208,16 @@ linenaethor3bridge = {
 	}
 }
 
-linenaethor3side1 = {
-	name = Aeladan
+tfw_lineofnaethor_005 = {
+	name = tfw_lineofnaethor_005_name
 
 	female = yes
 	dynasty = dynasty_naethor
 	religion = faith_forodain
 	culture = forodain
 
-	father = linenaethor2
-	mother = wife_naethor2
+	father = tfw_lineofnaethor_003
+	mother = tfw_lineoflowborn_forodain_002
 
 	trait = education_learning_3
 	trait = diligent
@@ -241,15 +241,15 @@ linenaethor3side1 = {
 	}
 }
 
-linenaethor3 = {
-	name = Norvegil
+tfw_lineofnaethor_006 = {
+	name = tfw_lineofnaethor_006_name
 
 	dynasty = dynasty_naethor
 	religion = faith_forodain
 	culture = forodain
 
-	father = linenaethor2
-	mother = wife_naethor2
+	father = tfw_lineofnaethor_003
+	mother = tfw_lineoflowborn_forodain_002
 
 	trait = education_martial_3
 	trait = brave
@@ -269,7 +269,7 @@ linenaethor3 = {
 	}
 
 	6841.6.1 = {
-		add_spouse = linevaelthor3bridge
+		add_spouse = tfw_lineofvaelthor_005
 	}
 
 	6909.1.1 = {
@@ -277,15 +277,15 @@ linenaethor3 = {
 	}
 }
 
-linenaethor4 = {
-	name = Dagnir
+tfw_lineofnaethor_007 = {
+	name = tfw_lineofnaethor_007_name
 
 	dynasty = dynasty_naethor
 	religion = faith_forodain
 	culture = forodain
 
-	father = linenaethor3
-	mother = linevaelthor3bridge
+	father = tfw_lineofnaethor_006
+	mother = tfw_lineofvaelthor_005
 
 	trait = education_diplomacy_2
 	trait = arbitrary
@@ -305,7 +305,7 @@ linenaethor4 = {
 	}
 
 	6880.6.1 = {
-		add_spouse = wife_naethor4
+		add_spouse = tfw_lineoflowborn_forodain_003
 	}
 
 	6953.1.1 = {
@@ -313,8 +313,8 @@ linenaethor4 = {
 	}
 }
 
-wife_naethor4 = {
-	name = Hiriel
+tfw_lineoflowborn_forodain_003 = {
+	name = tfw_lineoflowborn_forodain_003_name
 
 	female = yes
 	religion = faith_forodain
@@ -342,15 +342,15 @@ wife_naethor4 = {
 	}
 }
 
-linenaethor5side1 = {
-	name = Ragnor
+tfw_lineofnaethor_008 = {
+	name = tfw_lineofnaethor_008_name
 
 	dynasty = dynasty_naethor
 	religion = faith_forodain
 	culture = forodain
 
-	father = linenaethor4
-	mother = wife_naethor4
+	father = tfw_lineofnaethor_007
+	mother = tfw_lineoflowborn_forodain_003
 
 	trait = education_martial_2
 	trait = arbitrary
@@ -373,16 +373,16 @@ linenaethor5side1 = {
 	}
 }
 
-linenaethor5side2 = {
-	name = Aeladir
+tfw_lineofnaethor_009 = {
+	name = tfw_lineofnaethor_009_name
 
 	female = yes
 	dynasty = dynasty_naethor
 	religion = faith_forodain
 	culture = forodain
 
-	father = linenaethor4
-	mother = wife_naethor4
+	father = tfw_lineofnaethor_007
+	mother = tfw_lineoflowborn_forodain_003
 
 	trait = education_stewardship_3
 	trait = humble
@@ -406,15 +406,15 @@ linenaethor5side2 = {
 	}
 }
 
-linenaethor5side3 = {
-	name = Orchald
+tfw_lineofnaethor_010 = {
+	name = tfw_lineofnaethor_010_name
 
 	dynasty = dynasty_naethor
 	religion = faith_forodain
 	culture = forodain
 
-	father = linenaethor4
-	mother = wife_naethor4
+	father = tfw_lineofnaethor_007
+	mother = tfw_lineoflowborn_forodain_003
 
 	trait = education_diplomacy_2
 	trait = calm
@@ -438,15 +438,15 @@ linenaethor5side3 = {
 	}
 }
 
-linenaethor5 = {
-	name = Merenor
+tfw_lineofnaethor_011 = {
+	name = tfw_lineofnaethor_011_name
 
 	dynasty = dynasty_naethor
 	religion = faith_forodain
 	culture = forodain
 
-	father = linenaethor4
-	mother = wife_naethor4
+	father = tfw_lineofnaethor_007
+	mother = tfw_lineoflowborn_forodain_003
 
 	trait = education_martial_3
 	trait = shy
@@ -466,7 +466,7 @@ linenaethor5 = {
 	}
 
 	6935.6.1 = {
-		add_spouse = wife_naethor5
+		add_spouse = tfw_lineoflowborn_forodain_004
 	}
 
 	7010.1.1 = {
@@ -474,8 +474,8 @@ linenaethor5 = {
 	}
 }
 
-wife_naethor5 = {
-	name = Eiravel
+tfw_lineoflowborn_forodain_004 = {
+	name = tfw_lineoflowborn_forodain_004_name
 
 	female = yes
 	religion = faith_forodain
@@ -503,16 +503,16 @@ wife_naethor5 = {
 	}
 }
 
-linenaethor6side1 = {
-	name = Danel
+tfw_lineofnaethor_012 = {
+	name = tfw_lineofnaethor_012_name
 
 	female = yes
 	dynasty = dynasty_naethor
 	religion = faith_forodain
 	culture = forodain
 
-	father = linenaethor5
-	mother = wife_naethor5
+	father = tfw_lineofnaethor_011
+	mother = tfw_lineoflowborn_forodain_004
 
 	trait = education_diplomacy_3
 	trait = vengeful
@@ -536,15 +536,15 @@ linenaethor6side1 = {
 	}
 }
 
-linenaethor6 = {
-	name = Galdoron
+tfw_lineofnaethor_013 = {
+	name = tfw_lineofnaethor_013_name
 
 	dynasty = dynasty_naethor
 	religion = faith_forodain
 	culture = forodain
 
-	father = linenaethor5
-	mother = wife_naethor5
+	father = tfw_lineofnaethor_011
+	mother = tfw_lineoflowborn_forodain_004
 
 	trait = education_stewardship_3
 	trait = calm
@@ -564,7 +564,7 @@ linenaethor6 = {
 	}
 
 	6994.6.1 = {
-		add_spouse = wife_naethor6
+		add_spouse = tfw_lineoflowborn_forodain_005
 	}
 
 	7062.1.1 = {
@@ -572,8 +572,8 @@ linenaethor6 = {
 	}
 }
 
-wife_naethor6 = {
-	name = Nellavir
+tfw_lineoflowborn_forodain_005 = {
+	name = tfw_lineoflowborn_forodain_005_name
 
 	female = yes
 	religion = faith_forodain
@@ -601,15 +601,15 @@ wife_naethor6 = {
 	}
 }
 
-linenaethor7side1 = {
-	name = Vorond
+tfw_lineofnaethor_014 = {
+	name = tfw_lineofnaethor_014_name
 
 	dynasty = dynasty_naethor
 	religion = faith_forodain
 	culture = forodain
 
-	father = linenaethor6
-	mother = wife_naethor6
+	father = tfw_lineofnaethor_013
+	mother = tfw_lineoflowborn_forodain_005
 
 	trait = education_martial_2
 	trait = impatient
@@ -628,16 +628,16 @@ linenaethor7side1 = {
 	}
 }
 
-linenaethor7side2 = {
-	name = Aelael
+tfw_lineofnaethor_015 = {
+	name = tfw_lineofnaethor_015_name
 
 	female = yes
 	dynasty = dynasty_naethor
 	religion = faith_forodain
 	culture = forodain
 
-	father = linenaethor6
-	mother = wife_naethor6
+	father = tfw_lineofnaethor_013
+	mother = tfw_lineoflowborn_forodain_005
 
 	trait = education_martial_2
 	trait = trusting
@@ -656,15 +656,15 @@ linenaethor7side2 = {
 	}
 }
 
-linenaethor7 = {
-	name = Vardamirn
+tfw_lineofnaethor_016 = {
+	name = tfw_lineofnaethor_016_name
 
 	dynasty = dynasty_naethor
 	religion = faith_forodain
 	culture = forodain
 
-	father = linenaethor6
-	mother = wife_naethor6
+	father = tfw_lineofnaethor_013
+	mother = tfw_lineoflowborn_forodain_005
 
 	trait = education_diplomacy_2
 	trait = paranoid
@@ -683,12 +683,12 @@ linenaethor7 = {
 	}
 
 	7046.6.1 = {
-		add_spouse = wife_naethor7
+		add_spouse = tfw_lineoflowborn_forodain_006
 	}
 }
 
-wife_naethor7 = {
-	name = Harethiel
+tfw_lineoflowborn_forodain_006 = {
+	name = tfw_lineoflowborn_forodain_006_name
 
 	female = yes
 	religion = faith_forodain
@@ -711,15 +711,15 @@ wife_naethor7 = {
 	}
 }
 
-linenaethor8 = {
-	name = Aelandir
+tfw_lineofnaethor_017 = {
+	name = tfw_lineofnaethor_017_name
 
 	dynasty = dynasty_naethor
 	religion = faith_forodain
 	culture = forodain
 
-	father = linenaethor7
-	mother = wife_naethor7
+	father = tfw_lineofnaethor_016
+	mother = tfw_lineoflowborn_forodain_006
 
 	trait = education_learning_2
 	trait = trusting
@@ -743,8 +743,8 @@ linenaethor8 = {
 # dynasty_vaelthor
 ##############################
 
-linevaelthor1 = {
-	name = Aelanor
+tfw_lineofvaelthor_001 = {
+	name = tfw_lineofvaelthor_001_name
 
 	dynasty = dynasty_vaelthor
 	religion = faith_forodain
@@ -768,7 +768,7 @@ linevaelthor1 = {
 	}
 
 	6737.6.1 = {
-		add_spouse = wife_vaelthor1
+		add_spouse = tfw_lineoflowborn_forodain_007
 	}
 
 	6820.1.1 = {
@@ -776,8 +776,8 @@ linevaelthor1 = {
 	}
 }
 
-wife_vaelthor1 = {
-	name = Rhovwen
+tfw_lineoflowborn_forodain_007 = {
+	name = tfw_lineoflowborn_forodain_007_name
 
 	female = yes
 	religion = faith_forodain
@@ -805,15 +805,15 @@ wife_vaelthor1 = {
 	}
 }
 
-linevaelthor2side1 = {
-	name = Amdirion
+tfw_lineofvaelthor_002 = {
+	name = tfw_lineofvaelthor_002_name
 
 	dynasty = dynasty_vaelthor
 	religion = faith_forodain
 	culture = forodain
 
-	father = linevaelthor1
-	mother = wife_vaelthor1
+	father = tfw_lineofvaelthor_001
+	mother = tfw_lineoflowborn_forodain_007
 
 	trait = education_learning_3
 	trait = impatient
@@ -837,16 +837,16 @@ linevaelthor2side1 = {
 	}
 }
 
-linevaelthor2side2 = {
-	name = Aelarin
+tfw_lineofvaelthor_003 = {
+	name = tfw_lineofvaelthor_003_name
 
 	female = yes
 	dynasty = dynasty_vaelthor
 	religion = faith_forodain
 	culture = forodain
 
-	father = linevaelthor1
-	mother = wife_vaelthor1
+	father = tfw_lineofvaelthor_001
+	mother = tfw_lineoflowborn_forodain_007
 
 	trait = education_learning_2
 	trait = brave
@@ -870,15 +870,15 @@ linevaelthor2side2 = {
 	}
 }
 
-linevaelthor2 = {
-	name = Calendir
+tfw_lineofvaelthor_004 = {
+	name = tfw_lineofvaelthor_004_name
 
 	dynasty = dynasty_vaelthor
 	religion = faith_forodain
 	culture = forodain
 
-	father = linevaelthor1
-	mother = wife_vaelthor1
+	father = tfw_lineofvaelthor_001
+	mother = tfw_lineoflowborn_forodain_007
 
 	trait = education_diplomacy_2
 	trait = shy
@@ -898,7 +898,7 @@ linevaelthor2 = {
 	}
 
 	6783.6.1 = {
-		add_spouse = wife_vaelthor2
+		add_spouse = tfw_lineoflowborn_forodain_008
 	}
 
 	6869.1.1 = {
@@ -906,8 +906,8 @@ linevaelthor2 = {
 	}
 }
 
-wife_vaelthor2 = {
-	name = Eleneth
+tfw_lineoflowborn_forodain_008 = {
+	name = tfw_lineoflowborn_forodain_008_name
 
 	female = yes
 	religion = faith_forodain
@@ -935,16 +935,16 @@ wife_vaelthor2 = {
 	}
 }
 
-linevaelthor3bridge = {
-	name = Aelavor
+tfw_lineofvaelthor_005 = {
+	name = tfw_lineofvaelthor_005_name
 
 	female = yes
 	dynasty = dynasty_vaelthor
 	religion = faith_forodain
 	culture = forodain
 
-	father = linevaelthor2
-	mother = wife_vaelthor2
+	father = tfw_lineofvaelthor_004
+	mother = tfw_lineoflowborn_forodain_008
 
 	trait = education_intrigue_2
 	trait = wrathful
@@ -968,15 +968,15 @@ linevaelthor3bridge = {
 	}
 }
 
-linevaelthor3side1 = {
-	name = Sarnor
+tfw_lineofvaelthor_006 = {
+	name = tfw_lineofvaelthor_006_name
 
 	dynasty = dynasty_vaelthor
 	religion = faith_forodain
 	culture = forodain
 
-	father = linevaelthor2
-	mother = wife_vaelthor2
+	father = tfw_lineofvaelthor_004
+	mother = tfw_lineoflowborn_forodain_008
 
 	trait = education_learning_3
 	trait = generous
@@ -1000,15 +1000,15 @@ linevaelthor3side1 = {
 	}
 }
 
-linevaelthor3 = {
-	name = Aelendir
+tfw_lineofvaelthor_007 = {
+	name = tfw_lineofvaelthor_007_name
 
 	dynasty = dynasty_vaelthor
 	religion = faith_forodain
 	culture = forodain
 
-	father = linevaelthor2
-	mother = wife_vaelthor2
+	father = tfw_lineofvaelthor_004
+	mother = tfw_lineoflowborn_forodain_008
 
 	trait = education_intrigue_2
 	trait = content
@@ -1028,7 +1028,7 @@ linevaelthor3 = {
 	}
 
 	6832.6.1 = {
-		add_spouse = linecorphen3bridge
+		add_spouse = tfw_lineofcorphen_003
 	}
 
 	6899.1.1 = {
@@ -1036,15 +1036,15 @@ linevaelthor3 = {
 	}
 }
 
-linevaelthor4side1 = {
-	name = Aelethor
+tfw_lineofvaelthor_008 = {
+	name = tfw_lineofvaelthor_008_name
 
 	dynasty = dynasty_vaelthor
 	religion = faith_forodain
 	culture = forodain
 
-	father = linevaelthor3
-	mother = linecorphen3bridge
+	father = tfw_lineofvaelthor_007
+	mother = tfw_lineofcorphen_003
 
 	trait = education_diplomacy_3
 	trait = fickle
@@ -1068,15 +1068,15 @@ linevaelthor4side1 = {
 	}
 }
 
-linevaelthor4 = {
-	name = Braegor
+tfw_lineofvaelthor_009 = {
+	name = tfw_lineofvaelthor_009_name
 
 	dynasty = dynasty_vaelthor
 	religion = faith_forodain
 	culture = forodain
 
-	father = linevaelthor3
-	mother = linecorphen3bridge
+	father = tfw_lineofvaelthor_007
+	mother = tfw_lineofcorphen_003
 
 	trait = education_diplomacy_3
 	trait = callous
@@ -1096,7 +1096,7 @@ linevaelthor4 = {
 	}
 
 	6876.6.1 = {
-		add_spouse = wife_vaelthor4
+		add_spouse = tfw_lineoflowborn_forodain_009
 	}
 
 	6952.1.1 = {
@@ -1104,8 +1104,8 @@ linevaelthor4 = {
 	}
 }
 
-wife_vaelthor4 = {
-	name = Faelwen
+tfw_lineoflowborn_forodain_009 = {
+	name = tfw_lineoflowborn_forodain_009_name
 
 	female = yes
 	religion = faith_forodain
@@ -1133,15 +1133,15 @@ wife_vaelthor4 = {
 	}
 }
 
-linevaelthor5 = {
-	name = Elrohirn
+tfw_lineofvaelthor_010 = {
+	name = tfw_lineofvaelthor_010_name
 
 	dynasty = dynasty_vaelthor
 	religion = faith_forodain
 	culture = forodain
 
-	father = linevaelthor4
-	mother = wife_vaelthor4
+	father = tfw_lineofvaelthor_009
+	mother = tfw_lineoflowborn_forodain_009
 
 	trait = education_diplomacy_3
 	trait = just
@@ -1161,7 +1161,7 @@ linevaelthor5 = {
 	}
 
 	6933.6.1 = {
-		add_spouse = wife_vaelthor5
+		add_spouse = tfw_lineoflowborn_forodain_010
 	}
 
 	7016.1.1 = {
@@ -1169,8 +1169,8 @@ linevaelthor5 = {
 	}
 }
 
-wife_vaelthor5 = {
-	name = Aelwen
+tfw_lineoflowborn_forodain_010 = {
+	name = tfw_lineoflowborn_forodain_010_name
 
 	female = yes
 	religion = faith_forodain
@@ -1198,15 +1198,15 @@ wife_vaelthor5 = {
 	}
 }
 
-linevaelthor6side1 = {
-	name = Beledhir
+tfw_lineofvaelthor_011 = {
+	name = tfw_lineofvaelthor_011_name
 
 	dynasty = dynasty_vaelthor
 	religion = faith_forodain
 	culture = forodain
 
-	father = linevaelthor5
-	mother = wife_vaelthor5
+	father = tfw_lineofvaelthor_010
+	mother = tfw_lineoflowborn_forodain_010
 
 	trait = education_stewardship_2
 	trait = impatient
@@ -1229,16 +1229,16 @@ linevaelthor6side1 = {
 	}
 }
 
-linevaelthor6side2 = {
-	name = Aelion
+tfw_lineofvaelthor_012 = {
+	name = tfw_lineofvaelthor_012_name
 
 	female = yes
 	dynasty = dynasty_vaelthor
 	religion = faith_forodain
 	culture = forodain
 
-	father = linevaelthor5
-	mother = wife_vaelthor5
+	father = tfw_lineofvaelthor_010
+	mother = tfw_lineoflowborn_forodain_010
 
 	trait = education_martial_2
 	trait = diligent
@@ -1261,15 +1261,15 @@ linevaelthor6side2 = {
 	}
 }
 
-linevaelthor6side3 = {
-	name = Gwaelorn
+tfw_lineofvaelthor_013 = {
+	name = tfw_lineofvaelthor_013_name
 
 	dynasty = dynasty_vaelthor
 	religion = faith_forodain
 	culture = forodain
 
-	father = linevaelthor5
-	mother = wife_vaelthor5
+	father = tfw_lineofvaelthor_010
+	mother = tfw_lineoflowborn_forodain_010
 
 	trait = education_diplomacy_2
 	trait = humble
@@ -1292,15 +1292,15 @@ linevaelthor6side3 = {
 	}
 }
 
-linevaelthor6 = {
-	name = Aelmir
+tfw_lineofvaelthor_014 = {
+	name = tfw_lineofvaelthor_014_name
 
 	dynasty = dynasty_vaelthor
 	religion = faith_forodain
 	culture = forodain
 
-	father = linevaelthor5
-	mother = wife_vaelthor5
+	father = tfw_lineofvaelthor_010
+	mother = tfw_lineoflowborn_forodain_010
 
 	trait = education_martial_3
 	trait = paranoid
@@ -1319,7 +1319,7 @@ linevaelthor6 = {
 	}
 
 	6980.6.1 = {
-		add_spouse = wife_vaelthor6
+		add_spouse = tfw_lineoflowborn_forodain_011
 	}
 
 	7054.1.1 = {
@@ -1327,8 +1327,8 @@ linevaelthor6 = {
 	}
 }
 
-wife_vaelthor6 = {
-	name = Saelwen
+tfw_lineoflowborn_forodain_011 = {
+	name = tfw_lineoflowborn_forodain_011_name
 
 	female = yes
 	religion = faith_forodain
@@ -1355,16 +1355,16 @@ wife_vaelthor6 = {
 	}
 }
 
-linevaelthor7side1 = {
-	name = Mireth
+tfw_lineofvaelthor_015 = {
+	name = tfw_lineofvaelthor_015_name
 
 	female = yes
 	dynasty = dynasty_vaelthor
 	religion = faith_forodain
 	culture = forodain
 
-	father = linevaelthor6
-	mother = wife_vaelthor6
+	father = tfw_lineofvaelthor_014
+	mother = tfw_lineoflowborn_forodain_011
 
 	trait = education_diplomacy_3
 	trait = just
@@ -1383,15 +1383,15 @@ linevaelthor7side1 = {
 	}
 }
 
-linevaelthor7 = {
-	name = Lathron
+tfw_lineofvaelthor_016 = {
+	name = tfw_lineofvaelthor_016_name
 
 	dynasty = dynasty_vaelthor
 	religion = faith_forodain
 	culture = forodain
 
-	father = linevaelthor6
-	mother = wife_vaelthor6
+	father = tfw_lineofvaelthor_014
+	mother = tfw_lineoflowborn_forodain_011
 
 	trait = education_intrigue_2
 	trait = trusting
@@ -1410,12 +1410,12 @@ linevaelthor7 = {
 	}
 
 	7033.6.1 = {
-		add_spouse = wife_vaelthor7
+		add_spouse = tfw_lineoflowborn_forodain_012
 	}
 }
 
-wife_vaelthor7 = {
-	name = Duilwen
+tfw_lineoflowborn_forodain_012 = {
+	name = tfw_lineoflowborn_forodain_012_name
 
 	female = yes
 	religion = faith_forodain
@@ -1438,15 +1438,15 @@ wife_vaelthor7 = {
 	}
 }
 
-linevaelthor8side1 = {
-	name = Aelnor
+tfw_lineofvaelthor_017 = {
+	name = tfw_lineofvaelthor_017_name
 
 	dynasty = dynasty_vaelthor
 	religion = faith_forodain
 	culture = forodain
 
-	father = linevaelthor7
-	mother = wife_vaelthor7
+	father = tfw_lineofvaelthor_016
+	mother = tfw_lineoflowborn_forodain_012
 
 	trait = education_diplomacy_2
 	trait = ambitious
@@ -1465,16 +1465,16 @@ linevaelthor8side1 = {
 	}
 }
 
-linevaelthor8side2 = {
-	name = Iorethil
+tfw_lineofvaelthor_018 = {
+	name = tfw_lineofvaelthor_018_name
 
 	female = yes
 	dynasty = dynasty_vaelthor
 	religion = faith_forodain
 	culture = forodain
 
-	father = linevaelthor7
-	mother = wife_vaelthor7
+	father = tfw_lineofvaelthor_016
+	mother = tfw_lineoflowborn_forodain_012
 
 	trait = education_diplomacy_3
 	trait = impatient
@@ -1493,15 +1493,15 @@ linevaelthor8side2 = {
 	}
 }
 
-linevaelthor8 = {
-	name = Aelor
+tfw_lineofvaelthor_019 = {
+	name = tfw_lineofvaelthor_019_name
 
 	dynasty = dynasty_vaelthor
 	religion = faith_forodain
 	culture = forodain
 
-	father = linevaelthor7
-	mother = wife_vaelthor7
+	father = tfw_lineofvaelthor_016
+	mother = tfw_lineoflowborn_forodain_012
 
 	trait = education_diplomacy_2
 	trait = arbitrary
@@ -1525,8 +1525,8 @@ linevaelthor8 = {
 # dynasty_corphen
 ##############################
 
-linecorphen1 = {
-	name = Taldir
+tfw_lineofcorphen_001 = {
+	name = tfw_lineofcorphen_001_name
 
 	dynasty = dynasty_corphen
 	religion = faith_forodain
@@ -1550,7 +1550,7 @@ linecorphen1 = {
 	}
 
 	6728.6.1 = {
-		add_spouse = wife_corphen1
+		add_spouse = tfw_lineoflowborn_forodain_013
 	}
 
 	6801.1.1 = {
@@ -1558,8 +1558,8 @@ linecorphen1 = {
 	}
 }
 
-wife_corphen1 = {
-	name = Gilvaen
+tfw_lineoflowborn_forodain_013 = {
+	name = tfw_lineoflowborn_forodain_013_name
 
 	female = yes
 	religion = faith_forodain
@@ -1587,15 +1587,15 @@ wife_corphen1 = {
 	}
 }
 
-linecorphen2 = {
-	name = Aervor
+tfw_lineofcorphen_002 = {
+	name = tfw_lineofcorphen_002_name
 
 	dynasty = dynasty_corphen
 	religion = faith_forodain
 	culture = forodain
 
-	father = linecorphen1
-	mother = wife_corphen1
+	father = tfw_lineofcorphen_001
+	mother = tfw_lineoflowborn_forodain_013
 
 	trait = education_diplomacy_2
 	trait = humble
@@ -1615,7 +1615,7 @@ linecorphen2 = {
 	}
 
 	6771.6.1 = {
-		add_spouse = wife_corphen2
+		add_spouse = tfw_lineoflowborn_forodain_014
 	}
 
 	6855.1.1 = {
@@ -1623,8 +1623,8 @@ linecorphen2 = {
 	}
 }
 
-wife_corphen2 = {
-	name = Vanimel
+tfw_lineoflowborn_forodain_014 = {
+	name = tfw_lineoflowborn_forodain_014_name
 
 	female = yes
 	religion = faith_forodain
@@ -1652,16 +1652,16 @@ wife_corphen2 = {
 	}
 }
 
-linecorphen3bridge = {
-	name = Beravel
+tfw_lineofcorphen_003 = {
+	name = tfw_lineofcorphen_003_name
 
 	female = yes
 	dynasty = dynasty_corphen
 	religion = faith_forodain
 	culture = forodain
 
-	father = linecorphen2
-	mother = wife_corphen2
+	father = tfw_lineofcorphen_002
+	mother = tfw_lineoflowborn_forodain_014
 
 	trait = education_stewardship_3
 	trait = shy
@@ -1685,16 +1685,16 @@ linecorphen3bridge = {
 	}
 }
 
-linecorphen3side1 = {
-	name = Aelrad
+tfw_lineofcorphen_004 = {
+	name = tfw_lineofcorphen_004_name
 
 	female = yes
 	dynasty = dynasty_corphen
 	religion = faith_forodain
 	culture = forodain
 
-	father = linecorphen2
-	mother = wife_corphen2
+	father = tfw_lineofcorphen_002
+	mother = tfw_lineoflowborn_forodain_014
 
 	trait = education_diplomacy_2
 	trait = fickle
@@ -1718,15 +1718,15 @@ linecorphen3side1 = {
 	}
 }
 
-linecorphen3 = {
-	name = Aelron
+tfw_lineofcorphen_005 = {
+	name = tfw_lineofcorphen_005_name
 
 	dynasty = dynasty_corphen
 	religion = faith_forodain
 	culture = forodain
 
-	father = linecorphen2
-	mother = wife_corphen2
+	father = tfw_lineofcorphen_002
+	mother = tfw_lineoflowborn_forodain_014
 
 	trait = education_stewardship_2
 	trait = just
@@ -1746,7 +1746,7 @@ linecorphen3 = {
 	}
 
 	6837.6.1 = {
-		add_spouse = lineraudhave3bridge
+		add_spouse = tfw_lineofraudhave_006
 	}
 
 	6898.1.1 = {
@@ -1754,16 +1754,16 @@ linecorphen3 = {
 	}
 }
 
-linecorphen4side1 = {
-	name = Lothriel
+tfw_lineofcorphen_006 = {
+	name = tfw_lineofcorphen_006_name
 
 	female = yes
 	dynasty = dynasty_corphen
 	religion = faith_forodain
 	culture = forodain
 
-	father = linecorphen3
-	mother = lineraudhave3bridge
+	father = tfw_lineofcorphen_005
+	mother = tfw_lineofraudhave_006
 
 	trait = education_learning_3
 	trait = brave
@@ -1787,15 +1787,15 @@ linecorphen4side1 = {
 	}
 }
 
-linecorphen4side2 = {
-	name = Aelthor
+tfw_lineofcorphen_007 = {
+	name = tfw_lineofcorphen_007_name
 
 	dynasty = dynasty_corphen
 	religion = faith_forodain
 	culture = forodain
 
-	father = linecorphen3
-	mother = lineraudhave3bridge
+	father = tfw_lineofcorphen_005
+	mother = tfw_lineofraudhave_006
 
 	trait = education_intrigue_2
 	trait = temperate
@@ -1819,16 +1819,16 @@ linecorphen4side2 = {
 	}
 }
 
-linecorphen4side3 = {
-	name = Aelvar
+tfw_lineofcorphen_008 = {
+	name = tfw_lineofcorphen_008_name
 
 	female = yes
 	dynasty = dynasty_corphen
 	religion = faith_forodain
 	culture = forodain
 
-	father = linecorphen3
-	mother = lineraudhave3bridge
+	father = tfw_lineofcorphen_005
+	mother = tfw_lineofraudhave_006
 
 	trait = education_stewardship_3
 	trait = trusting
@@ -1852,15 +1852,15 @@ linecorphen4side3 = {
 	}
 }
 
-linecorphen4 = {
-	name = Malthor
+tfw_lineofcorphen_009 = {
+	name = tfw_lineofcorphen_009_name
 
 	dynasty = dynasty_corphen
 	religion = faith_forodain
 	culture = forodain
 
-	father = linecorphen3
-	mother = lineraudhave3bridge
+	father = tfw_lineofcorphen_005
+	mother = tfw_lineofraudhave_006
 
 	trait = education_stewardship_2
 	trait = compassionate
@@ -1880,7 +1880,7 @@ linecorphen4 = {
 	}
 
 	6878.6.1 = {
-		add_spouse = wife_corphen4
+		add_spouse = tfw_lineoflowborn_forodain_015
 	}
 
 	6953.1.1 = {
@@ -1888,8 +1888,8 @@ linecorphen4 = {
 	}
 }
 
-wife_corphen4 = {
-	name = Gwaelwen
+tfw_lineoflowborn_forodain_015 = {
+	name = tfw_lineoflowborn_forodain_015_name
 
 	female = yes
 	religion = faith_forodain
@@ -1917,15 +1917,15 @@ wife_corphen4 = {
 	}
 }
 
-linecorphen5side1 = {
-	name = Haldamir
+tfw_lineofcorphen_010 = {
+	name = tfw_lineofcorphen_010_name
 
 	dynasty = dynasty_corphen
 	religion = faith_forodain
 	culture = forodain
 
-	father = linecorphen4
-	mother = wife_corphen4
+	father = tfw_lineofcorphen_009
+	mother = tfw_lineoflowborn_forodain_015
 
 	trait = education_martial_2
 	trait = patient
@@ -1949,15 +1949,15 @@ linecorphen5side1 = {
 	}
 }
 
-linecorphen5 = {
-	name = Lendor
+tfw_lineofcorphen_011 = {
+	name = tfw_lineofcorphen_011_name
 
 	dynasty = dynasty_corphen
 	religion = faith_forodain
 	culture = forodain
 
-	father = linecorphen4
-	mother = wife_corphen4
+	father = tfw_lineofcorphen_009
+	mother = tfw_lineoflowborn_forodain_015
 
 	trait = education_intrigue_2
 	trait = impatient
@@ -1977,7 +1977,7 @@ linecorphen5 = {
 	}
 
 	6931.6.1 = {
-		add_spouse = wife_corphen5
+		add_spouse = tfw_lineoflowborn_forodain_016
 	}
 
 	6998.1.1 = {
@@ -1985,8 +1985,8 @@ linecorphen5 = {
 	}
 }
 
-wife_corphen5 = {
-	name = Aelvir
+tfw_lineoflowborn_forodain_016 = {
+	name = tfw_lineoflowborn_forodain_016_name
 
 	female = yes
 	religion = faith_forodain
@@ -2014,16 +2014,16 @@ wife_corphen5 = {
 	}
 }
 
-linecorphen6side1 = {
-	name = Ceredis
+tfw_lineofcorphen_012 = {
+	name = tfw_lineofcorphen_012_name
 
 	female = yes
 	dynasty = dynasty_corphen
 	religion = faith_forodain
 	culture = forodain
 
-	father = linecorphen5
-	mother = wife_corphen5
+	father = tfw_lineofcorphen_011
+	mother = tfw_lineoflowborn_forodain_016
 
 	trait = education_stewardship_3
 	trait = patient
@@ -2047,15 +2047,15 @@ linecorphen6side1 = {
 	}
 }
 
-linecorphen6side2 = {
-	name = Forlongir
+tfw_lineofcorphen_013 = {
+	name = tfw_lineofcorphen_013_name
 
 	dynasty = dynasty_corphen
 	religion = faith_forodain
 	culture = forodain
 
-	father = linecorphen5
-	mother = wife_corphen5
+	father = tfw_lineofcorphen_011
+	mother = tfw_lineoflowborn_forodain_016
 
 	trait = education_intrigue_2
 	trait = stubborn
@@ -2079,15 +2079,15 @@ linecorphen6side2 = {
 	}
 }
 
-linecorphen6 = {
-	name = Aela
+tfw_lineofcorphen_014 = {
+	name = tfw_lineofcorphen_014_name
 
 	dynasty = dynasty_corphen
 	religion = faith_forodain
 	culture = forodain
 
-	father = linecorphen5
-	mother = wife_corphen5
+	father = tfw_lineofcorphen_011
+	mother = tfw_lineoflowborn_forodain_016
 
 	trait = education_learning_2
 	trait = just
@@ -2107,7 +2107,7 @@ linecorphen6 = {
 	}
 
 	6987.6.1 = {
-		add_spouse = wife_corphen6
+		add_spouse = tfw_lineoflowborn_forodain_017
 	}
 
 	7054.1.1 = {
@@ -2115,8 +2115,8 @@ linecorphen6 = {
 	}
 }
 
-wife_corphen6 = {
-	name = Aeleth
+tfw_lineoflowborn_forodain_017 = {
+	name = tfw_lineoflowborn_forodain_017_name
 
 	female = yes
 	religion = faith_forodain
@@ -2144,15 +2144,15 @@ wife_corphen6 = {
 	}
 }
 
-linecorphen7 = {
-	name = Aeliel
+tfw_lineofcorphen_015 = {
+	name = tfw_lineofcorphen_015_name
 
 	dynasty = dynasty_corphen
 	religion = faith_forodain
 	culture = forodain
 
-	father = linecorphen6
-	mother = wife_corphen6
+	father = tfw_lineofcorphen_014
+	mother = tfw_lineoflowborn_forodain_017
 
 	trait = education_learning_3
 	trait = impatient
@@ -2171,12 +2171,12 @@ linecorphen7 = {
 	}
 
 	7039.6.1 = {
-		add_spouse = wife_corphen7
+		add_spouse = tfw_lineoflowborn_forodain_018
 	}
 }
 
-wife_corphen7 = {
-	name = Brithiel
+tfw_lineoflowborn_forodain_018 = {
+	name = tfw_lineoflowborn_forodain_018_name
 
 	female = yes
 	religion = faith_forodain
@@ -2199,16 +2199,16 @@ wife_corphen7 = {
 	}
 }
 
-linecorphen8side1 = {
-	name = Aelien
+tfw_lineofcorphen_016 = {
+	name = tfw_lineofcorphen_016_name
 
 	female = yes
 	dynasty = dynasty_corphen
 	religion = faith_forodain
 	culture = forodain
 
-	father = linecorphen7
-	mother = wife_corphen7
+	father = tfw_lineofcorphen_015
+	mother = tfw_lineoflowborn_forodain_018
 
 	trait = education_martial_2
 	trait = stubborn
@@ -2227,15 +2227,15 @@ linecorphen8side1 = {
 	}
 }
 
-linecorphen8 = {
-	name = Aelith
+tfw_lineofcorphen_017 = {
+	name = tfw_lineofcorphen_017_name
 
 	dynasty = dynasty_corphen
 	religion = faith_forodain
 	culture = forodain
 
-	father = linecorphen7
-	mother = wife_corphen7
+	father = tfw_lineofcorphen_015
+	mother = tfw_lineoflowborn_forodain_018
 
 	trait = education_intrigue_2
 	trait = paranoid
@@ -2259,8 +2259,8 @@ linecorphen8 = {
 # dynasty_raudhave
 ##############################
 
-lineraudhave1 = {
-	name = Iorven
+tfw_lineofraudhave_001 = {
+	name = tfw_lineofraudhave_001_name
 
 	dynasty = dynasty_raudhave
 	religion = faith_forodain
@@ -2284,7 +2284,7 @@ lineraudhave1 = {
 	}
 
 	6738.6.1 = {
-		add_spouse = wife_raudhave1
+		add_spouse = tfw_lineoflowborn_forodain_019
 	}
 
 	6802.1.1 = {
@@ -2292,8 +2292,8 @@ lineraudhave1 = {
 	}
 }
 
-wife_raudhave1 = {
-	name = Aellin
+tfw_lineoflowborn_forodain_019 = {
+	name = tfw_lineoflowborn_forodain_019_name
 
 	female = yes
 	religion = faith_forodain
@@ -2321,15 +2321,15 @@ wife_raudhave1 = {
 	}
 }
 
-lineraudhave2side1 = {
-	name = Dervanor
+tfw_lineofraudhave_002 = {
+	name = tfw_lineofraudhave_002_name
 
 	dynasty = dynasty_raudhave
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineraudhave1
-	mother = wife_raudhave1
+	father = tfw_lineofraudhave_001
+	mother = tfw_lineoflowborn_forodain_019
 
 	trait = education_martial_2
 	trait = humble
@@ -2353,16 +2353,16 @@ lineraudhave2side1 = {
 	}
 }
 
-lineraudhave2side2 = {
-	name = Aelriel
+tfw_lineofraudhave_003 = {
+	name = tfw_lineofraudhave_003_name
 
 	female = yes
 	dynasty = dynasty_raudhave
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineraudhave1
-	mother = wife_raudhave1
+	father = tfw_lineofraudhave_001
+	mother = tfw_lineoflowborn_forodain_019
 
 	trait = education_learning_2
 	trait = honest
@@ -2386,15 +2386,15 @@ lineraudhave2side2 = {
 	}
 }
 
-lineraudhave2side3 = {
-	name = Aelwyn
+tfw_lineofraudhave_004 = {
+	name = tfw_lineofraudhave_004_name
 
 	dynasty = dynasty_raudhave
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineraudhave1
-	mother = wife_raudhave1
+	father = tfw_lineofraudhave_001
+	mother = tfw_lineoflowborn_forodain_019
 
 	trait = education_stewardship_3
 	trait = fickle
@@ -2418,15 +2418,15 @@ lineraudhave2side3 = {
 	}
 }
 
-lineraudhave2 = {
-	name = Aldadan
+tfw_lineofraudhave_005 = {
+	name = tfw_lineofraudhave_005_name
 
 	dynasty = dynasty_raudhave
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineraudhave1
-	mother = wife_raudhave1
+	father = tfw_lineofraudhave_001
+	mother = tfw_lineoflowborn_forodain_019
 
 	trait = education_diplomacy_2
 	trait = diligent
@@ -2446,7 +2446,7 @@ lineraudhave2 = {
 	}
 
 	6784.6.1 = {
-		add_spouse = wife_raudhave2
+		add_spouse = tfw_lineoflowborn_forodain_020
 	}
 
 	6851.1.1 = {
@@ -2454,8 +2454,8 @@ lineraudhave2 = {
 	}
 }
 
-wife_raudhave2 = {
-	name = Aldadir
+tfw_lineoflowborn_forodain_020 = {
+	name = tfw_lineoflowborn_forodain_020_name
 
 	female = yes
 	religion = faith_forodain
@@ -2483,16 +2483,16 @@ wife_raudhave2 = {
 	}
 }
 
-lineraudhave3bridge = {
-	name = Aldael
+tfw_lineofraudhave_006 = {
+	name = tfw_lineofraudhave_006_name
 
 	female = yes
 	dynasty = dynasty_raudhave
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineraudhave2
-	mother = wife_raudhave2
+	father = tfw_lineofraudhave_005
+	mother = tfw_lineoflowborn_forodain_020
 
 	trait = education_diplomacy_3
 	trait = generous
@@ -2515,15 +2515,15 @@ lineraudhave3bridge = {
 	}
 }
 
-lineraudhave3side1 = {
-	name = Aldandir
+tfw_lineofraudhave_007 = {
+	name = tfw_lineofraudhave_007_name
 
 	dynasty = dynasty_raudhave
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineraudhave2
-	mother = wife_raudhave2
+	father = tfw_lineofraudhave_005
+	mother = tfw_lineoflowborn_forodain_020
 
 	trait = education_intrigue_2
 	trait = arbitrary
@@ -2547,15 +2547,15 @@ lineraudhave3side1 = {
 	}
 }
 
-lineraudhave3 = {
-	name = Aldanor
+tfw_lineofraudhave_008 = {
+	name = tfw_lineofraudhave_008_name
 
 	dynasty = dynasty_raudhave
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineraudhave2
-	mother = wife_raudhave2
+	father = tfw_lineofraudhave_005
+	mother = tfw_lineoflowborn_forodain_020
 
 	trait = education_stewardship_3
 	trait = patient
@@ -2575,7 +2575,7 @@ lineraudhave3 = {
 	}
 
 	6832.6.1 = {
-		add_spouse = linegalenmir3bridge
+		add_spouse = tfw_lineofgalenmir_004
 	}
 
 	6918.1.1 = {
@@ -2583,15 +2583,15 @@ lineraudhave3 = {
 	}
 }
 
-lineraudhave4side1 = {
-	name = Aldarin
+tfw_lineofraudhave_009 = {
+	name = tfw_lineofraudhave_009_name
 
 	dynasty = dynasty_raudhave
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineraudhave3
-	mother = linegalenmir3bridge
+	father = tfw_lineofraudhave_008
+	mother = tfw_lineofgalenmir_004
 
 	trait = education_learning_2
 	trait = content
@@ -2615,15 +2615,15 @@ lineraudhave4side1 = {
 	}
 }
 
-lineraudhave4 = {
-	name = Aldavor
+tfw_lineofraudhave_010 = {
+	name = tfw_lineofraudhave_010_name
 
 	dynasty = dynasty_raudhave
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineraudhave3
-	mother = linegalenmir3bridge
+	father = tfw_lineofraudhave_008
+	mother = tfw_lineofgalenmir_004
 
 	trait = education_diplomacy_3
 	trait = content
@@ -2643,7 +2643,7 @@ lineraudhave4 = {
 	}
 
 	6873.6.1 = {
-		add_spouse = wife_raudhave4
+		add_spouse = tfw_lineoflowborn_forodain_021
 	}
 
 	6952.1.1 = {
@@ -2651,8 +2651,8 @@ lineraudhave4 = {
 	}
 }
 
-wife_raudhave4 = {
-	name = Aldendir
+tfw_lineoflowborn_forodain_021 = {
+	name = tfw_lineoflowborn_forodain_021_name
 
 	female = yes
 	religion = faith_forodain
@@ -2680,16 +2680,16 @@ wife_raudhave4 = {
 	}
 }
 
-lineraudhave5side1 = {
-	name = Aldethor
+tfw_lineofraudhave_011 = {
+	name = tfw_lineofraudhave_011_name
 
 	female = yes
 	dynasty = dynasty_raudhave
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineraudhave4
-	mother = wife_raudhave4
+	father = tfw_lineofraudhave_010
+	mother = tfw_lineoflowborn_forodain_021
 
 	trait = education_stewardship_2
 	trait = stubborn
@@ -2713,15 +2713,15 @@ lineraudhave5side1 = {
 	}
 }
 
-lineraudhave5side2 = {
-	name = Hirvegil
+tfw_lineofraudhave_012 = {
+	name = tfw_lineofraudhave_012_name
 
 	dynasty = dynasty_raudhave
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineraudhave4
-	mother = wife_raudhave4
+	father = tfw_lineofraudhave_010
+	mother = tfw_lineoflowborn_forodain_021
 
 	trait = education_stewardship_3
 	trait = content
@@ -2745,15 +2745,15 @@ lineraudhave5side2 = {
 	}
 }
 
-lineraudhave5 = {
-	name = Aldion
+tfw_lineofraudhave_013 = {
+	name = tfw_lineofraudhave_013_name
 
 	dynasty = dynasty_raudhave
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineraudhave4
-	mother = wife_raudhave4
+	father = tfw_lineofraudhave_010
+	mother = tfw_lineoflowborn_forodain_021
 
 	trait = education_martial_3
 	trait = paranoid
@@ -2773,7 +2773,7 @@ lineraudhave5 = {
 	}
 
 	6928.6.1 = {
-		add_spouse = wife_raudhave5
+		add_spouse = tfw_lineoflowborn_forodain_022
 	}
 
 	6994.1.1 = {
@@ -2781,8 +2781,8 @@ lineraudhave5 = {
 	}
 }
 
-wife_raudhave5 = {
-	name = Celebwen
+tfw_lineoflowborn_forodain_022 = {
+	name = tfw_lineoflowborn_forodain_022_name
 
 	female = yes
 	religion = faith_forodain
@@ -2810,15 +2810,15 @@ wife_raudhave5 = {
 	}
 }
 
-lineraudhave6 = {
-	name = Aldmir
+tfw_lineofraudhave_014 = {
+	name = tfw_lineofraudhave_014_name
 
 	dynasty = dynasty_raudhave
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineraudhave5
-	mother = wife_raudhave5
+	father = tfw_lineofraudhave_013
+	mother = tfw_lineoflowborn_forodain_022
 
 	trait = education_diplomacy_2
 	trait = vengeful
@@ -2837,7 +2837,7 @@ lineraudhave6 = {
 	}
 
 	6981.6.1 = {
-		add_spouse = wife_raudhave6
+		add_spouse = tfw_lineoflowborn_forodain_023
 	}
 
 	7066.1.1 = {
@@ -2845,8 +2845,8 @@ lineraudhave6 = {
 	}
 }
 
-wife_raudhave6 = {
-	name = Nimriel
+tfw_lineoflowborn_forodain_023 = {
+	name = tfw_lineoflowborn_forodain_023_name
 
 	female = yes
 	religion = faith_forodain
@@ -2873,16 +2873,16 @@ wife_raudhave6 = {
 	}
 }
 
-lineraudhave7side1 = {
-	name = Aldnor
+tfw_lineofraudhave_015 = {
+	name = tfw_lineofraudhave_015_name
 
 	female = yes
 	dynasty = dynasty_raudhave
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineraudhave6
-	mother = wife_raudhave6
+	father = tfw_lineofraudhave_014
+	mother = tfw_lineoflowborn_forodain_023
 
 	trait = education_learning_2
 	trait = trusting
@@ -2901,15 +2901,15 @@ lineraudhave7side1 = {
 	}
 }
 
-lineraudhave7side2 = {
-	name = Aldrad
+tfw_lineofraudhave_016 = {
+	name = tfw_lineofraudhave_016_name
 
 	dynasty = dynasty_raudhave
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineraudhave6
-	mother = wife_raudhave6
+	father = tfw_lineofraudhave_014
+	mother = tfw_lineoflowborn_forodain_023
 
 	trait = education_diplomacy_3
 	trait = impatient
@@ -2928,16 +2928,16 @@ lineraudhave7side2 = {
 	}
 }
 
-lineraudhave7side3 = {
-	name = Aldron
+tfw_lineofraudhave_017 = {
+	name = tfw_lineofraudhave_017_name
 
 	female = yes
 	dynasty = dynasty_raudhave
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineraudhave6
-	mother = wife_raudhave6
+	father = tfw_lineofraudhave_014
+	mother = tfw_lineoflowborn_forodain_023
 
 	trait = education_diplomacy_2
 	trait = calm
@@ -2956,15 +2956,15 @@ lineraudhave7side3 = {
 	}
 }
 
-lineraudhave7 = {
-	name = Aldthor
+tfw_lineofraudhave_018 = {
+	name = tfw_lineofraudhave_018_name
 
 	dynasty = dynasty_raudhave
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineraudhave6
-	mother = wife_raudhave6
+	father = tfw_lineofraudhave_014
+	mother = tfw_lineoflowborn_forodain_023
 
 	trait = education_martial_2
 	trait = honest
@@ -2983,12 +2983,12 @@ lineraudhave7 = {
 	}
 
 	7030.6.1 = {
-		add_spouse = wife_raudhave7
+		add_spouse = tfw_lineoflowborn_forodain_024
 	}
 }
 
-wife_raudhave7 = {
-	name = Aldvar
+tfw_lineoflowborn_forodain_024 = {
+	name = tfw_lineoflowborn_forodain_024_name
 
 	female = yes
 	religion = faith_forodain
@@ -3011,15 +3011,15 @@ wife_raudhave7 = {
 	}
 }
 
-lineraudhave8side1 = {
-	name = Rhovandir
+tfw_lineofraudhave_019 = {
+	name = tfw_lineofraudhave_019_name
 
 	dynasty = dynasty_raudhave
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineraudhave7
-	mother = wife_raudhave7
+	father = tfw_lineofraudhave_018
+	mother = tfw_lineoflowborn_forodain_024
 
 	trait = education_martial_3
 	trait = gregarious
@@ -3038,15 +3038,15 @@ lineraudhave8side1 = {
 	}
 }
 
-lineraudhave8 = {
-	name = Aldvir
+tfw_lineofraudhave_020 = {
+	name = tfw_lineofraudhave_020_name
 
 	dynasty = dynasty_raudhave
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineraudhave7
-	mother = wife_raudhave7
+	father = tfw_lineofraudhave_018
+	mother = tfw_lineoflowborn_forodain_024
 
 	trait = education_stewardship_2
 	trait = diligent
@@ -3070,8 +3070,8 @@ lineraudhave8 = {
 # dynasty_galenmir
 ##############################
 
-linegalenmir1 = {
-	name = Alda
+tfw_lineofgalenmir_001 = {
+	name = tfw_lineofgalenmir_001_name
 
 	dynasty = dynasty_galenmir
 	religion = faith_forodain
@@ -3095,7 +3095,7 @@ linegalenmir1 = {
 	}
 
 	6732.6.1 = {
-		add_spouse = wife_galenmir1
+		add_spouse = tfw_lineoflowborn_forodain_025
 	}
 
 	6808.1.1 = {
@@ -3103,8 +3103,8 @@ linegalenmir1 = {
 	}
 }
 
-wife_galenmir1 = {
-	name = Lindis
+tfw_lineoflowborn_forodain_025 = {
+	name = tfw_lineoflowborn_forodain_025_name
 
 	female = yes
 	religion = faith_forodain
@@ -3132,16 +3132,16 @@ wife_galenmir1 = {
 	}
 }
 
-linegalenmir2side1 = {
-	name = Aldeth
+tfw_lineofgalenmir_002 = {
+	name = tfw_lineofgalenmir_002_name
 
 	female = yes
 	dynasty = dynasty_galenmir
 	religion = faith_forodain
 	culture = forodain
 
-	father = linegalenmir1
-	mother = wife_galenmir1
+	father = tfw_lineofgalenmir_001
+	mother = tfw_lineoflowborn_forodain_025
 
 	trait = education_diplomacy_2
 	trait = humble
@@ -3165,15 +3165,15 @@ linegalenmir2side1 = {
 	}
 }
 
-linegalenmir2 = {
-	name = Aldiel
+tfw_lineofgalenmir_003 = {
+	name = tfw_lineofgalenmir_003_name
 
 	dynasty = dynasty_galenmir
 	religion = faith_forodain
 	culture = forodain
 
-	father = linegalenmir1
-	mother = wife_galenmir1
+	father = tfw_lineofgalenmir_001
+	mother = tfw_lineoflowborn_forodain_025
 
 	trait = education_learning_3
 	trait = humble
@@ -3193,7 +3193,7 @@ linegalenmir2 = {
 	}
 
 	6781.6.1 = {
-		add_spouse = wife_galenmir2
+		add_spouse = tfw_lineoflowborn_forodain_026
 	}
 
 	6859.1.1 = {
@@ -3201,8 +3201,8 @@ linegalenmir2 = {
 	}
 }
 
-wife_galenmir2 = {
-	name = Aldien
+tfw_lineoflowborn_forodain_026 = {
+	name = tfw_lineoflowborn_forodain_026_name
 
 	female = yes
 	religion = faith_forodain
@@ -3230,16 +3230,16 @@ wife_galenmir2 = {
 	}
 }
 
-linegalenmir3bridge = {
-	name = Aldith
+tfw_lineofgalenmir_004 = {
+	name = tfw_lineofgalenmir_004_name
 
 	female = yes
 	dynasty = dynasty_galenmir
 	religion = faith_forodain
 	culture = forodain
 
-	father = linegalenmir2
-	mother = wife_galenmir2
+	father = tfw_lineofgalenmir_003
+	mother = tfw_lineoflowborn_forodain_026
 
 	trait = education_learning_2
 	trait = stubborn
@@ -3263,16 +3263,16 @@ linegalenmir3bridge = {
 	}
 }
 
-linegalenmir3side1 = {
-	name = Aldlin
+tfw_lineofgalenmir_005 = {
+	name = tfw_lineofgalenmir_005_name
 
 	female = yes
 	dynasty = dynasty_galenmir
 	religion = faith_forodain
 	culture = forodain
 
-	father = linegalenmir2
-	mother = wife_galenmir2
+	father = tfw_lineofgalenmir_003
+	mother = tfw_lineoflowborn_forodain_026
 
 	trait = education_learning_2
 	trait = honest
@@ -3296,15 +3296,15 @@ linegalenmir3side1 = {
 	}
 }
 
-linegalenmir3 = {
-	name = Pelendir
+tfw_lineofgalenmir_006 = {
+	name = tfw_lineofgalenmir_006_name
 
 	dynasty = dynasty_galenmir
 	religion = faith_forodain
 	culture = forodain
 
-	father = linegalenmir2
-	mother = wife_galenmir2
+	father = tfw_lineofgalenmir_003
+	mother = tfw_lineoflowborn_forodain_026
 
 	trait = education_learning_3
 	trait = diligent
@@ -3324,7 +3324,7 @@ linegalenmir3 = {
 	}
 
 	6833.6.1 = {
-		add_spouse = linethalioneth3bridge
+		add_spouse = tfw_lineofthalioneth_005
 	}
 
 	6898.1.1 = {
@@ -3332,16 +3332,16 @@ linegalenmir3 = {
 	}
 }
 
-linegalenmir4side1 = {
-	name = Aldriel
+tfw_lineofgalenmir_007 = {
+	name = tfw_lineofgalenmir_007_name
 
 	female = yes
 	dynasty = dynasty_galenmir
 	religion = faith_forodain
 	culture = forodain
 
-	father = linegalenmir3
-	mother = linethalioneth3bridge
+	father = tfw_lineofgalenmir_006
+	mother = tfw_lineofthalioneth_005
 
 	trait = education_stewardship_3
 	trait = paranoid
@@ -3365,15 +3365,15 @@ linegalenmir4side1 = {
 	}
 }
 
-linegalenmir4side2 = {
-	name = Aldwen
+tfw_lineofgalenmir_008 = {
+	name = tfw_lineofgalenmir_008_name
 
 	dynasty = dynasty_galenmir
 	religion = faith_forodain
 	culture = forodain
 
-	father = linegalenmir3
-	mother = linethalioneth3bridge
+	father = tfw_lineofgalenmir_006
+	mother = tfw_lineofthalioneth_005
 
 	trait = education_diplomacy_2
 	trait = fickle
@@ -3397,15 +3397,15 @@ linegalenmir4side2 = {
 	}
 }
 
-linegalenmir4 = {
-	name = Aldwyn
+tfw_lineofgalenmir_009 = {
+	name = tfw_lineofgalenmir_009_name
 
 	dynasty = dynasty_galenmir
 	religion = faith_forodain
 	culture = forodain
 
-	father = linegalenmir3
-	mother = linethalioneth3bridge
+	father = tfw_lineofgalenmir_006
+	mother = tfw_lineofthalioneth_005
 
 	trait = education_intrigue_2
 	trait = temperate
@@ -3425,7 +3425,7 @@ linegalenmir4 = {
 	}
 
 	6885.6.1 = {
-		add_spouse = wife_galenmir4
+		add_spouse = tfw_lineoflowborn_forodain_027
 	}
 
 	6949.1.1 = {
@@ -3433,8 +3433,8 @@ linegalenmir4 = {
 	}
 }
 
-wife_galenmir4 = {
-	name = Moraeth
+tfw_lineoflowborn_forodain_027 = {
+	name = tfw_lineoflowborn_forodain_027_name
 
 	female = yes
 	religion = faith_forodain
@@ -3462,15 +3462,15 @@ wife_galenmir4 = {
 	}
 }
 
-linegalenmir5 = {
-	name = Arvadan
+tfw_lineofgalenmir_010 = {
+	name = tfw_lineofgalenmir_010_name
 
 	dynasty = dynasty_galenmir
 	religion = faith_forodain
 	culture = forodain
 
-	father = linegalenmir4
-	mother = wife_galenmir4
+	father = tfw_lineofgalenmir_009
+	mother = tfw_lineoflowborn_forodain_027
 
 	trait = education_intrigue_2
 	trait = wrathful
@@ -3490,7 +3490,7 @@ linegalenmir5 = {
 	}
 
 	6940.6.1 = {
-		add_spouse = wife_galenmir5
+		add_spouse = tfw_lineoflowborn_forodain_028
 	}
 
 	7004.1.1 = {
@@ -3498,8 +3498,8 @@ linegalenmir5 = {
 	}
 }
 
-wife_galenmir5 = {
-	name = Arvadir
+tfw_lineoflowborn_forodain_028 = {
+	name = tfw_lineoflowborn_forodain_028_name
 
 	female = yes
 	religion = faith_forodain
@@ -3527,16 +3527,16 @@ wife_galenmir5 = {
 	}
 }
 
-linegalenmir6side1 = {
-	name = Arvael
+tfw_lineofgalenmir_011 = {
+	name = tfw_lineofgalenmir_011_name
 
 	female = yes
 	dynasty = dynasty_galenmir
 	religion = faith_forodain
 	culture = forodain
 
-	father = linegalenmir5
-	mother = wife_galenmir5
+	father = tfw_lineofgalenmir_010
+	mother = tfw_lineoflowborn_forodain_028
 
 	trait = education_stewardship_2
 	trait = temperate
@@ -3559,15 +3559,15 @@ linegalenmir6side1 = {
 	}
 }
 
-linegalenmir6 = {
-	name = Arvandir
+tfw_lineofgalenmir_012 = {
+	name = tfw_lineofgalenmir_012_name
 
 	dynasty = dynasty_galenmir
 	religion = faith_forodain
 	culture = forodain
 
-	father = linegalenmir5
-	mother = wife_galenmir5
+	father = tfw_lineofgalenmir_010
+	mother = tfw_lineoflowborn_forodain_028
 
 	trait = education_learning_3
 	trait = humble
@@ -3586,7 +3586,7 @@ linegalenmir6 = {
 	}
 
 	6984.6.1 = {
-		add_spouse = wife_galenmir6
+		add_spouse = tfw_lineoflowborn_forodain_029
 	}
 
 	7052.1.1 = {
@@ -3594,8 +3594,8 @@ linegalenmir6 = {
 	}
 }
 
-wife_galenmir6 = {
-	name = Arvanor
+tfw_lineoflowborn_forodain_029 = {
+	name = tfw_lineoflowborn_forodain_029_name
 
 	female = yes
 	religion = faith_forodain
@@ -3622,15 +3622,15 @@ wife_galenmir6 = {
 	}
 }
 
-linegalenmir7side1 = {
-	name = Arvarin
+tfw_lineofgalenmir_013 = {
+	name = tfw_lineofgalenmir_013_name
 
 	dynasty = dynasty_galenmir
 	religion = faith_forodain
 	culture = forodain
 
-	father = linegalenmir6
-	mother = wife_galenmir6
+	father = tfw_lineofgalenmir_012
+	mother = tfw_lineoflowborn_forodain_029
 
 	trait = education_martial_2
 	trait = shy
@@ -3649,16 +3649,16 @@ linegalenmir7side1 = {
 	}
 }
 
-linegalenmir7side2 = {
-	name = Arvavor
+tfw_lineofgalenmir_014 = {
+	name = tfw_lineofgalenmir_014_name
 
 	female = yes
 	dynasty = dynasty_galenmir
 	religion = faith_forodain
 	culture = forodain
 
-	father = linegalenmir6
-	mother = wife_galenmir6
+	father = tfw_lineofgalenmir_012
+	mother = tfw_lineoflowborn_forodain_029
 
 	trait = education_intrigue_2
 	trait = honest
@@ -3677,15 +3677,15 @@ linegalenmir7side2 = {
 	}
 }
 
-linegalenmir7side3 = {
-	name = Arvendir
+tfw_lineofgalenmir_015 = {
+	name = tfw_lineofgalenmir_015_name
 
 	dynasty = dynasty_galenmir
 	religion = faith_forodain
 	culture = forodain
 
-	father = linegalenmir6
-	mother = wife_galenmir6
+	father = tfw_lineofgalenmir_012
+	mother = tfw_lineoflowborn_forodain_029
 
 	trait = education_intrigue_2
 	trait = patient
@@ -3704,15 +3704,15 @@ linegalenmir7side3 = {
 	}
 }
 
-linegalenmir7 = {
-	name = Arvethor
+tfw_lineofgalenmir_016 = {
+	name = tfw_lineofgalenmir_016_name
 
 	dynasty = dynasty_galenmir
 	religion = faith_forodain
 	culture = forodain
 
-	father = linegalenmir6
-	mother = wife_galenmir6
+	father = tfw_lineofgalenmir_012
+	mother = tfw_lineoflowborn_forodain_029
 
 	trait = education_martial_3
 	trait = stubborn
@@ -3731,12 +3731,12 @@ linegalenmir7 = {
 	}
 
 	7036.6.1 = {
-		add_spouse = wife_galenmir7
+		add_spouse = tfw_lineoflowborn_forodain_030
 	}
 }
 
-wife_galenmir7 = {
-	name = Arvion
+tfw_lineoflowborn_forodain_030 = {
+	name = tfw_lineoflowborn_forodain_030_name
 
 	female = yes
 	religion = faith_forodain
@@ -3759,15 +3759,15 @@ wife_galenmir7 = {
 	}
 }
 
-linegalenmir8 = {
-	name = Arvmir
+tfw_lineofgalenmir_017 = {
+	name = tfw_lineofgalenmir_017_name
 
 	dynasty = dynasty_galenmir
 	religion = faith_forodain
 	culture = forodain
 
-	father = linegalenmir7
-	mother = wife_galenmir7
+	father = tfw_lineofgalenmir_016
+	mother = tfw_lineoflowborn_forodain_030
 
 	trait = education_learning_3
 	trait = impatient
@@ -3791,8 +3791,8 @@ linegalenmir8 = {
 # dynasty_thalioneth
 ##############################
 
-linethalioneth1 = {
-	name = Arvnor
+tfw_lineofthalioneth_001 = {
+	name = tfw_lineofthalioneth_001_name
 
 	dynasty = dynasty_thalioneth
 	religion = faith_forodain
@@ -3816,7 +3816,7 @@ linethalioneth1 = {
 	}
 
 	6728.6.1 = {
-		add_spouse = wife_thalioneth1
+		add_spouse = tfw_lineoflowborn_forodain_031
 	}
 
 	6815.1.1 = {
@@ -3824,8 +3824,8 @@ linethalioneth1 = {
 	}
 }
 
-wife_thalioneth1 = {
-	name = Arvor
+tfw_lineoflowborn_forodain_031 = {
+	name = tfw_lineoflowborn_forodain_031_name
 
 	female = yes
 	religion = faith_forodain
@@ -3853,15 +3853,15 @@ wife_thalioneth1 = {
 	}
 }
 
-linethalioneth2side1 = {
-	name = Arvrad
+tfw_lineofthalioneth_002 = {
+	name = tfw_lineofthalioneth_002_name
 
 	dynasty = dynasty_thalioneth
 	religion = faith_forodain
 	culture = forodain
 
-	father = linethalioneth1
-	mother = wife_thalioneth1
+	father = tfw_lineofthalioneth_001
+	mother = tfw_lineoflowborn_forodain_031
 
 	trait = education_learning_2
 	trait = humble
@@ -3885,16 +3885,16 @@ linethalioneth2side1 = {
 	}
 }
 
-linethalioneth2side2 = {
-	name = Arvron
+tfw_lineofthalioneth_003 = {
+	name = tfw_lineofthalioneth_003_name
 
 	female = yes
 	dynasty = dynasty_thalioneth
 	religion = faith_forodain
 	culture = forodain
 
-	father = linethalioneth1
-	mother = wife_thalioneth1
+	father = tfw_lineofthalioneth_001
+	mother = tfw_lineoflowborn_forodain_031
 
 	trait = education_martial_2
 	trait = impatient
@@ -3918,15 +3918,15 @@ linethalioneth2side2 = {
 	}
 }
 
-linethalioneth2 = {
-	name = Arvthor
+tfw_lineofthalioneth_004 = {
+	name = tfw_lineofthalioneth_004_name
 
 	dynasty = dynasty_thalioneth
 	religion = faith_forodain
 	culture = forodain
 
-	father = linethalioneth1
-	mother = wife_thalioneth1
+	father = tfw_lineofthalioneth_001
+	mother = tfw_lineoflowborn_forodain_031
 
 	trait = education_stewardship_2
 	trait = gregarious
@@ -3946,7 +3946,7 @@ linethalioneth2 = {
 	}
 
 	6776.6.1 = {
-		add_spouse = wife_thalioneth2
+		add_spouse = tfw_lineoflowborn_forodain_032
 	}
 
 	6842.1.1 = {
@@ -3954,8 +3954,8 @@ linethalioneth2 = {
 	}
 }
 
-wife_thalioneth2 = {
-	name = Arvvar
+tfw_lineoflowborn_forodain_032 = {
+	name = tfw_lineoflowborn_forodain_032_name
 
 	female = yes
 	religion = faith_forodain
@@ -3983,16 +3983,16 @@ wife_thalioneth2 = {
 	}
 }
 
-linethalioneth3bridge = {
-	name = Arvvir
+tfw_lineofthalioneth_005 = {
+	name = tfw_lineofthalioneth_005_name
 
 	female = yes
 	dynasty = dynasty_thalioneth
 	religion = faith_forodain
 	culture = forodain
 
-	father = linethalioneth2
-	mother = wife_thalioneth2
+	father = tfw_lineofthalioneth_004
+	mother = tfw_lineoflowborn_forodain_032
 
 	trait = education_diplomacy_3
 	trait = gregarious
@@ -4014,15 +4014,15 @@ linethalioneth3bridge = {
 	}
 }
 
-linethalioneth3side1 = {
-	name = Arva
+tfw_lineofthalioneth_006 = {
+	name = tfw_lineofthalioneth_006_name
 
 	dynasty = dynasty_thalioneth
 	religion = faith_forodain
 	culture = forodain
 
-	father = linethalioneth2
-	mother = wife_thalioneth2
+	father = tfw_lineofthalioneth_004
+	mother = tfw_lineoflowborn_forodain_032
 
 	trait = education_martial_2
 	trait = brave
@@ -4046,15 +4046,15 @@ linethalioneth3side1 = {
 	}
 }
 
-linethalioneth3 = {
-	name = Arveth
+tfw_lineofthalioneth_007 = {
+	name = tfw_lineofthalioneth_007_name
 
 	dynasty = dynasty_thalioneth
 	religion = faith_forodain
 	culture = forodain
 
-	father = linethalioneth2
-	mother = wife_thalioneth2
+	father = tfw_lineofthalioneth_004
+	mother = tfw_lineoflowborn_forodain_032
 
 	trait = education_stewardship_3
 	trait = calm
@@ -4074,7 +4074,7 @@ linethalioneth3 = {
 	}
 
 	6830.6.1 = {
-		add_spouse = lineberethril3bridge
+		add_spouse = tfw_lineofberethril_004
 	}
 
 	6884.1.1 = {
@@ -4082,15 +4082,15 @@ linethalioneth3 = {
 	}
 }
 
-linethalioneth4 = {
-	name = Arviel
+tfw_lineofthalioneth_008 = {
+	name = tfw_lineofthalioneth_008_name
 
 	dynasty = dynasty_thalioneth
 	religion = faith_forodain
 	culture = forodain
 
-	father = linethalioneth3
-	mother = lineberethril3bridge
+	father = tfw_lineofthalioneth_007
+	mother = tfw_lineofberethril_004
 
 	trait = education_stewardship_2
 	trait = ambitious
@@ -4110,7 +4110,7 @@ linethalioneth4 = {
 	}
 
 	6871.6.1 = {
-		add_spouse = wife_thalioneth4
+		add_spouse = tfw_lineoflowborn_forodain_033
 	}
 
 	6951.1.1 = {
@@ -4118,8 +4118,8 @@ linethalioneth4 = {
 	}
 }
 
-wife_thalioneth4 = {
-	name = Arvien
+tfw_lineoflowborn_forodain_033 = {
+	name = tfw_lineoflowborn_forodain_033_name
 
 	female = yes
 	religion = faith_forodain
@@ -4147,16 +4147,16 @@ wife_thalioneth4 = {
 	}
 }
 
-linethalioneth5side1 = {
-	name = Arvith
+tfw_lineofthalioneth_009 = {
+	name = tfw_lineofthalioneth_009_name
 
 	female = yes
 	dynasty = dynasty_thalioneth
 	religion = faith_forodain
 	culture = forodain
 
-	father = linethalioneth4
-	mother = wife_thalioneth4
+	father = tfw_lineofthalioneth_008
+	mother = tfw_lineoflowborn_forodain_033
 
 	trait = education_martial_2
 	trait = vengeful
@@ -4179,15 +4179,15 @@ linethalioneth5side1 = {
 	}
 }
 
-linethalioneth5 = {
-	name = Arvlin
+tfw_lineofthalioneth_010 = {
+	name = tfw_lineofthalioneth_010_name
 
 	dynasty = dynasty_thalioneth
 	religion = faith_forodain
 	culture = forodain
 
-	father = linethalioneth4
-	mother = wife_thalioneth4
+	father = tfw_lineofthalioneth_008
+	mother = tfw_lineoflowborn_forodain_033
 
 	trait = education_stewardship_2
 	trait = fickle
@@ -4206,7 +4206,7 @@ linethalioneth5 = {
 	}
 
 	6916.6.1 = {
-		add_spouse = wife_thalioneth5
+		add_spouse = tfw_lineoflowborn_forodain_034
 	}
 
 	6999.1.1 = {
@@ -4214,8 +4214,8 @@ linethalioneth5 = {
 	}
 }
 
-wife_thalioneth5 = {
-	name = Taurieln
+tfw_lineoflowborn_forodain_034 = {
+	name = tfw_lineoflowborn_forodain_034_name
 
 	female = yes
 	religion = faith_forodain
@@ -4242,15 +4242,15 @@ wife_thalioneth5 = {
 	}
 }
 
-linethalioneth6side1 = {
-	name = Arvriel
+tfw_lineofthalioneth_011 = {
+	name = tfw_lineofthalioneth_011_name
 
 	dynasty = dynasty_thalioneth
 	religion = faith_forodain
 	culture = forodain
 
-	father = linethalioneth5
-	mother = wife_thalioneth5
+	father = tfw_lineofthalioneth_010
+	mother = tfw_lineoflowborn_forodain_034
 
 	trait = education_diplomacy_3
 	trait = brave
@@ -4273,16 +4273,16 @@ linethalioneth6side1 = {
 	}
 }
 
-linethalioneth6side2 = {
-	name = Arvwen
+tfw_lineofthalioneth_012 = {
+	name = tfw_lineofthalioneth_012_name
 
 	female = yes
 	dynasty = dynasty_thalioneth
 	religion = faith_forodain
 	culture = forodain
 
-	father = linethalioneth5
-	mother = wife_thalioneth5
+	father = tfw_lineofthalioneth_010
+	mother = tfw_lineoflowborn_forodain_034
 
 	trait = education_stewardship_2
 	trait = content
@@ -4305,15 +4305,15 @@ linethalioneth6side2 = {
 	}
 }
 
-linethalioneth6side3 = {
-	name = Arvwyn
+tfw_lineofthalioneth_013 = {
+	name = tfw_lineofthalioneth_013_name
 
 	dynasty = dynasty_thalioneth
 	religion = faith_forodain
 	culture = forodain
 
-	father = linethalioneth5
-	mother = wife_thalioneth5
+	father = tfw_lineofthalioneth_010
+	mother = tfw_lineoflowborn_forodain_034
 
 	trait = education_martial_3
 	trait = shy
@@ -4336,15 +4336,15 @@ linethalioneth6side3 = {
 	}
 }
 
-linethalioneth6 = {
-	name = Bairadan
+tfw_lineofthalioneth_014 = {
+	name = tfw_lineofthalioneth_014_name
 
 	dynasty = dynasty_thalioneth
 	religion = faith_forodain
 	culture = forodain
 
-	father = linethalioneth5
-	mother = wife_thalioneth5
+	father = tfw_lineofthalioneth_010
+	mother = tfw_lineoflowborn_forodain_034
 
 	trait = education_stewardship_3
 	trait = generous
@@ -4363,7 +4363,7 @@ linethalioneth6 = {
 	}
 
 	6955.6.1 = {
-		add_spouse = wife_thalioneth6
+		add_spouse = tfw_lineoflowborn_forodain_035
 	}
 
 	7037.1.1 = {
@@ -4371,8 +4371,8 @@ linethalioneth6 = {
 	}
 }
 
-wife_thalioneth6 = {
-	name = Bairadir
+tfw_lineoflowborn_forodain_035 = {
+	name = tfw_lineoflowborn_forodain_035_name
 
 	female = yes
 	religion = faith_forodain
@@ -4399,16 +4399,16 @@ wife_thalioneth6 = {
 	}
 }
 
-linethalioneth7side1 = {
-	name = Bairael
+tfw_lineofthalioneth_015 = {
+	name = tfw_lineofthalioneth_015_name
 
 	female = yes
 	dynasty = dynasty_thalioneth
 	religion = faith_forodain
 	culture = forodain
 
-	father = linethalioneth6
-	mother = wife_thalioneth6
+	father = tfw_lineofthalioneth_014
+	mother = tfw_lineoflowborn_forodain_035
 
 	trait = education_diplomacy_3
 	trait = gregarious
@@ -4431,15 +4431,15 @@ linethalioneth7side1 = {
 	}
 }
 
-linethalioneth7side2 = {
-	name = Bairandir
+tfw_lineofthalioneth_016 = {
+	name = tfw_lineofthalioneth_016_name
 
 	dynasty = dynasty_thalioneth
 	religion = faith_forodain
 	culture = forodain
 
-	father = linethalioneth6
-	mother = wife_thalioneth6
+	father = tfw_lineofthalioneth_014
+	mother = tfw_lineoflowborn_forodain_035
 
 	trait = education_diplomacy_2
 	trait = patient
@@ -4458,15 +4458,15 @@ linethalioneth7side2 = {
 	}
 }
 
-linethalioneth7 = {
-	name = Bairanor
+tfw_lineofthalioneth_017 = {
+	name = tfw_lineofthalioneth_017_name
 
 	dynasty = dynasty_thalioneth
 	religion = faith_forodain
 	culture = forodain
 
-	father = linethalioneth6
-	mother = wife_thalioneth6
+	father = tfw_lineofthalioneth_014
+	mother = tfw_lineoflowborn_forodain_035
 
 	trait = education_intrigue_2
 	trait = brave
@@ -4485,12 +4485,12 @@ linethalioneth7 = {
 	}
 
 	7006.6.1 = {
-		add_spouse = wife_thalioneth7
+		add_spouse = tfw_lineoflowborn_forodain_036
 	}
 }
 
-wife_thalioneth7 = {
-	name = Bairarin
+tfw_lineoflowborn_forodain_036 = {
+	name = tfw_lineoflowborn_forodain_036_name
 
 	female = yes
 	religion = faith_forodain
@@ -4513,15 +4513,15 @@ wife_thalioneth7 = {
 	}
 }
 
-linethalioneth8side1 = {
-	name = Eglahir
+tfw_lineofthalioneth_018 = {
+	name = tfw_lineofthalioneth_018_name
 
 	dynasty = dynasty_thalioneth
 	religion = faith_forodain
 	culture = forodain
 
-	father = linethalioneth7
-	mother = wife_thalioneth7
+	father = tfw_lineofthalioneth_017
+	mother = tfw_lineoflowborn_forodain_036
 
 	trait = education_learning_3
 	trait = calm
@@ -4540,15 +4540,15 @@ linethalioneth8side1 = {
 	}
 }
 
-linethalioneth8 = {
-	name = Bairavor
+tfw_lineofthalioneth_019 = {
+	name = tfw_lineofthalioneth_019_name
 
 	dynasty = dynasty_thalioneth
 	religion = faith_forodain
 	culture = forodain
 
-	father = linethalioneth7
-	mother = wife_thalioneth7
+	father = tfw_lineofthalioneth_017
+	mother = tfw_lineoflowborn_forodain_036
 
 	trait = education_diplomacy_3
 	trait = content
@@ -4572,8 +4572,8 @@ linethalioneth8 = {
 # dynasty_berethril
 ##############################
 
-lineberethril1 = {
-	name = Bairendir
+tfw_lineofberethril_001 = {
+	name = tfw_lineofberethril_001_name
 
 	dynasty = dynasty_berethril
 	religion = faith_forodain
@@ -4597,7 +4597,7 @@ lineberethril1 = {
 	}
 
 	6733.6.1 = {
-		add_spouse = wife_berethril1
+		add_spouse = tfw_lineoflowborn_forodain_037
 	}
 
 	6805.1.1 = {
@@ -4605,8 +4605,8 @@ lineberethril1 = {
 	}
 }
 
-wife_berethril1 = {
-	name = Vardis
+tfw_lineoflowborn_forodain_037 = {
+	name = tfw_lineoflowborn_forodain_037_name
 
 	female = yes
 	religion = faith_forodain
@@ -4634,16 +4634,16 @@ wife_berethril1 = {
 	}
 }
 
-lineberethril2side1 = {
-	name = Bairethor
+tfw_lineofberethril_002 = {
+	name = tfw_lineofberethril_002_name
 
 	female = yes
 	dynasty = dynasty_berethril
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineberethril1
-	mother = wife_berethril1
+	father = tfw_lineofberethril_001
+	mother = tfw_lineoflowborn_forodain_037
 
 	trait = education_learning_3
 	trait = compassionate
@@ -4667,15 +4667,15 @@ lineberethril2side1 = {
 	}
 }
 
-lineberethril2 = {
-	name = Bairion
+tfw_lineofberethril_003 = {
+	name = tfw_lineofberethril_003_name
 
 	dynasty = dynasty_berethril
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineberethril1
-	mother = wife_berethril1
+	father = tfw_lineofberethril_001
+	mother = tfw_lineoflowborn_forodain_037
 
 	trait = education_martial_2
 	trait = vengeful
@@ -4695,7 +4695,7 @@ lineberethril2 = {
 	}
 
 	6780.6.1 = {
-		add_spouse = wife_berethril2
+		add_spouse = tfw_lineoflowborn_forodain_038
 	}
 
 	6856.1.1 = {
@@ -4703,8 +4703,8 @@ lineberethril2 = {
 	}
 }
 
-wife_berethril2 = {
-	name = Pelien
+tfw_lineoflowborn_forodain_038 = {
+	name = tfw_lineoflowborn_forodain_038_name
 
 	female = yes
 	religion = faith_forodain
@@ -4732,16 +4732,16 @@ wife_berethril2 = {
 	}
 }
 
-lineberethril3bridge = {
-	name = Bairmir
+tfw_lineofberethril_004 = {
+	name = tfw_lineofberethril_004_name
 
 	female = yes
 	dynasty = dynasty_berethril
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineberethril2
-	mother = wife_berethril2
+	father = tfw_lineofberethril_003
+	mother = tfw_lineoflowborn_forodain_038
 
 	trait = education_stewardship_2
 	trait = fickle
@@ -4765,16 +4765,16 @@ lineberethril3bridge = {
 	}
 }
 
-lineberethril3side1 = {
-	name = Bairnor
+tfw_lineofberethril_005 = {
+	name = tfw_lineofberethril_005_name
 
 	female = yes
 	dynasty = dynasty_berethril
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineberethril2
-	mother = wife_berethril2
+	father = tfw_lineofberethril_003
+	mother = tfw_lineoflowborn_forodain_038
 
 	trait = education_stewardship_2
 	trait = wrathful
@@ -4798,15 +4798,15 @@ lineberethril3side1 = {
 	}
 }
 
-lineberethril3 = {
-	name = Bairor
+tfw_lineofberethril_006 = {
+	name = tfw_lineofberethril_006_name
 
 	dynasty = dynasty_berethril
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineberethril2
-	mother = wife_berethril2
+	father = tfw_lineofberethril_003
+	mother = tfw_lineoflowborn_forodain_038
 
 	trait = education_diplomacy_3
 	trait = just
@@ -4826,7 +4826,7 @@ lineberethril3 = {
 	}
 
 	6837.6.1 = {
-		add_spouse = lineorvath3bridge
+		add_spouse = tfw_lineoforvath_003
 	}
 
 	6900.1.1 = {
@@ -4834,16 +4834,16 @@ lineberethril3 = {
 	}
 }
 
-lineberethril4side1 = {
-	name = Bairrad
+tfw_lineofberethril_007 = {
+	name = tfw_lineofberethril_007_name
 
 	female = yes
 	dynasty = dynasty_berethril
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineberethril3
-	mother = lineorvath3bridge
+	father = tfw_lineofberethril_006
+	mother = tfw_lineoforvath_003
 
 	trait = education_learning_2
 	trait = diligent
@@ -4867,15 +4867,15 @@ lineberethril4side1 = {
 	}
 }
 
-lineberethril4side2 = {
-	name = Bairron
+tfw_lineofberethril_008 = {
+	name = tfw_lineofberethril_008_name
 
 	dynasty = dynasty_berethril
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineberethril3
-	mother = lineorvath3bridge
+	father = tfw_lineofberethril_006
+	mother = tfw_lineoforvath_003
 
 	trait = education_stewardship_2
 	trait = wrathful
@@ -4899,16 +4899,16 @@ lineberethril4side2 = {
 	}
 }
 
-lineberethril4side3 = {
-	name = Bairthor
+tfw_lineofberethril_009 = {
+	name = tfw_lineofberethril_009_name
 
 	female = yes
 	dynasty = dynasty_berethril
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineberethril3
-	mother = lineorvath3bridge
+	father = tfw_lineofberethril_006
+	mother = tfw_lineoforvath_003
 
 	trait = education_intrigue_2
 	trait = callous
@@ -4932,15 +4932,15 @@ lineberethril4side3 = {
 	}
 }
 
-lineberethril4 = {
-	name = Ithron
+tfw_lineofberethril_010 = {
+	name = tfw_lineofberethril_010_name
 
 	dynasty = dynasty_berethril
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineberethril3
-	mother = lineorvath3bridge
+	father = tfw_lineofberethril_006
+	mother = tfw_lineoforvath_003
 
 	trait = education_stewardship_2
 	trait = shy
@@ -4960,7 +4960,7 @@ lineberethril4 = {
 	}
 
 	6879.6.1 = {
-		add_spouse = wife_berethril4
+		add_spouse = tfw_lineoflowborn_forodain_039
 	}
 
 	6965.1.1 = {
@@ -4968,8 +4968,8 @@ lineberethril4 = {
 	}
 }
 
-wife_berethril4 = {
-	name = Bairvar
+tfw_lineoflowborn_forodain_039 = {
+	name = tfw_lineoflowborn_forodain_039_name
 
 	female = yes
 	religion = faith_forodain
@@ -4997,15 +4997,15 @@ wife_berethril4 = {
 	}
 }
 
-lineberethril5side1 = {
-	name = Bairvir
+tfw_lineofberethril_011 = {
+	name = tfw_lineofberethril_011_name
 
 	dynasty = dynasty_berethril
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineberethril4
-	mother = wife_berethril4
+	father = tfw_lineofberethril_010
+	mother = tfw_lineoflowborn_forodain_039
 
 	trait = education_martial_3
 	trait = arbitrary
@@ -5029,16 +5029,16 @@ lineberethril5side1 = {
 	}
 }
 
-lineberethril5side2 = {
-	name = Rianeth
+tfw_lineofberethril_012 = {
+	name = tfw_lineofberethril_012_name
 
 	female = yes
 	dynasty = dynasty_berethril
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineberethril4
-	mother = wife_berethril4
+	father = tfw_lineofberethril_010
+	mother = tfw_lineoflowborn_forodain_039
 
 	trait = education_martial_3
 	trait = impatient
@@ -5061,15 +5061,15 @@ lineberethril5side2 = {
 	}
 }
 
-lineberethril5 = {
-	name = Baira
+tfw_lineofberethril_013 = {
+	name = tfw_lineofberethril_013_name
 
 	dynasty = dynasty_berethril
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineberethril4
-	mother = wife_berethril4
+	father = tfw_lineofberethril_010
+	mother = tfw_lineoflowborn_forodain_039
 
 	trait = education_diplomacy_2
 	trait = diligent
@@ -5089,7 +5089,7 @@ lineberethril5 = {
 	}
 
 	6925.6.1 = {
-		add_spouse = wife_berethril5
+		add_spouse = tfw_lineoflowborn_forodain_040
 	}
 
 	7006.1.1 = {
@@ -5097,8 +5097,8 @@ lineberethril5 = {
 	}
 }
 
-wife_berethril5 = {
-	name = Baireth
+tfw_lineoflowborn_forodain_040 = {
+	name = tfw_lineoflowborn_forodain_040_name
 
 	female = yes
 	religion = faith_forodain
@@ -5126,16 +5126,16 @@ wife_berethril5 = {
 	}
 }
 
-lineberethril6side1 = {
-	name = Bairiel
+tfw_lineofberethril_014 = {
+	name = tfw_lineofberethril_014_name
 
 	female = yes
 	dynasty = dynasty_berethril
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineberethril5
-	mother = wife_berethril5
+	father = tfw_lineofberethril_013
+	mother = tfw_lineoflowborn_forodain_040
 
 	trait = education_stewardship_3
 	trait = content
@@ -5159,15 +5159,15 @@ lineberethril6side1 = {
 	}
 }
 
-lineberethril6 = {
-	name = Bairien
+tfw_lineofberethril_015 = {
+	name = tfw_lineofberethril_015_name
 
 	dynasty = dynasty_berethril
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineberethril5
-	mother = wife_berethril5
+	father = tfw_lineofberethril_013
+	mother = tfw_lineoflowborn_forodain_040
 
 	trait = education_martial_2
 	trait = just
@@ -5187,7 +5187,7 @@ lineberethril6 = {
 	}
 
 	6980.6.1 = {
-		add_spouse = wife_berethril6
+		add_spouse = tfw_lineoflowborn_forodain_041
 	}
 
 	7072.1.1 = {
@@ -5195,8 +5195,8 @@ lineberethril6 = {
 	}
 }
 
-wife_berethril6 = {
-	name = Bairith
+tfw_lineoflowborn_forodain_041 = {
+	name = tfw_lineoflowborn_forodain_041_name
 
 	female = yes
 	religion = faith_forodain
@@ -5224,15 +5224,15 @@ wife_berethril6 = {
 	}
 }
 
-lineberethril7 = {
-	name = Bairlin
+tfw_lineofberethril_016 = {
+	name = tfw_lineofberethril_016_name
 
 	dynasty = dynasty_berethril
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineberethril6
-	mother = wife_berethril6
+	father = tfw_lineofberethril_015
+	mother = tfw_lineoflowborn_forodain_041
 
 	trait = education_stewardship_2
 	trait = content
@@ -5252,12 +5252,12 @@ lineberethril7 = {
 	}
 
 	7032.6.1 = {
-		add_spouse = wife_berethril7
+		add_spouse = tfw_lineoflowborn_forodain_042
 	}
 }
 
-wife_berethril7 = {
-	name = Bairriel
+tfw_lineoflowborn_forodain_042 = {
+	name = tfw_lineoflowborn_forodain_042_name
 
 	female = yes
 	religion = faith_forodain
@@ -5281,16 +5281,16 @@ wife_berethril7 = {
 	}
 }
 
-lineberethril8side1 = {
-	name = Bairwen
+tfw_lineofberethril_017 = {
+	name = tfw_lineofberethril_017_name
 
 	female = yes
 	dynasty = dynasty_berethril
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineberethril7
-	mother = wife_berethril7
+	father = tfw_lineofberethril_016
+	mother = tfw_lineoflowborn_forodain_042
 
 	trait = education_stewardship_3
 	trait = arbitrary
@@ -5309,15 +5309,15 @@ lineberethril8side1 = {
 	}
 }
 
-lineberethril8side2 = {
-	name = Bairwyn
+tfw_lineofberethril_018 = {
+	name = tfw_lineofberethril_018_name
 
 	dynasty = dynasty_berethril
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineberethril7
-	mother = wife_berethril7
+	father = tfw_lineofberethril_016
+	mother = tfw_lineoflowborn_forodain_042
 
 	trait = education_learning_2
 	trait = arbitrary
@@ -5336,16 +5336,16 @@ lineberethril8side2 = {
 	}
 }
 
-lineberethril8side3 = {
-	name = Beladan
+tfw_lineofberethril_019 = {
+	name = tfw_lineofberethril_019_name
 
 	female = yes
 	dynasty = dynasty_berethril
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineberethril7
-	mother = wife_berethril7
+	father = tfw_lineofberethril_016
+	mother = tfw_lineoflowborn_forodain_042
 
 	trait = education_diplomacy_3
 	trait = generous
@@ -5364,15 +5364,15 @@ lineberethril8side3 = {
 	}
 }
 
-lineberethril8 = {
-	name = Beladir
+tfw_lineofberethril_020 = {
+	name = tfw_lineofberethril_020_name
 
 	dynasty = dynasty_berethril
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineberethril7
-	mother = wife_berethril7
+	father = tfw_lineofberethril_016
+	mother = tfw_lineoflowborn_forodain_042
 
 	trait = education_martial_2
 	trait = diligent
@@ -5396,8 +5396,8 @@ lineberethril8 = {
 # dynasty_orvath
 ##############################
 
-lineorvath1 = {
-	name = Belael
+tfw_lineoforvath_001 = {
+	name = tfw_lineoforvath_001_name
 
 	dynasty = dynasty_orvath
 	religion = faith_forodain
@@ -5421,7 +5421,7 @@ lineorvath1 = {
 	}
 
 	6732.6.1 = {
-		add_spouse = wife_orvath1
+		add_spouse = tfw_lineoflowborn_forodain_043
 	}
 
 	6809.1.1 = {
@@ -5429,8 +5429,8 @@ lineorvath1 = {
 	}
 }
 
-wife_orvath1 = {
-	name = Belandir
+tfw_lineoflowborn_forodain_043 = {
+	name = tfw_lineoflowborn_forodain_043_name
 
 	female = yes
 	religion = faith_forodain
@@ -5458,15 +5458,15 @@ wife_orvath1 = {
 	}
 }
 
-lineorvath2 = {
-	name = Belanor
+tfw_lineoforvath_002 = {
+	name = tfw_lineoforvath_002_name
 
 	dynasty = dynasty_orvath
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineorvath1
-	mother = wife_orvath1
+	father = tfw_lineoforvath_001
+	mother = tfw_lineoflowborn_forodain_043
 
 	trait = education_stewardship_3
 	trait = honest
@@ -5486,7 +5486,7 @@ lineorvath2 = {
 	}
 
 	6787.6.1 = {
-		add_spouse = wife_orvath2
+		add_spouse = tfw_lineoflowborn_forodain_044
 	}
 
 	6854.1.1 = {
@@ -5494,8 +5494,8 @@ lineorvath2 = {
 	}
 }
 
-wife_orvath2 = {
-	name = Belarin
+tfw_lineoflowborn_forodain_044 = {
+	name = tfw_lineoflowborn_forodain_044_name
 
 	female = yes
 	religion = faith_forodain
@@ -5523,16 +5523,16 @@ wife_orvath2 = {
 	}
 }
 
-lineorvath3bridge = {
-	name = Belavor
+tfw_lineoforvath_003 = {
+	name = tfw_lineoforvath_003_name
 
 	female = yes
 	dynasty = dynasty_orvath
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineorvath2
-	mother = wife_orvath2
+	father = tfw_lineoforvath_002
+	mother = tfw_lineoflowborn_forodain_044
 
 	trait = education_intrigue_2
 	trait = impatient
@@ -5554,15 +5554,15 @@ lineorvath3bridge = {
 	}
 }
 
-lineorvath3side1 = {
-	name = Belendir
+tfw_lineoforvath_004 = {
+	name = tfw_lineoforvath_004_name
 
 	dynasty = dynasty_orvath
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineorvath2
-	mother = wife_orvath2
+	father = tfw_lineoforvath_002
+	mother = tfw_lineoflowborn_forodain_044
 
 	trait = education_martial_2
 	trait = content
@@ -5586,15 +5586,15 @@ lineorvath3side1 = {
 	}
 }
 
-lineorvath3 = {
-	name = Belethor
+tfw_lineoforvath_005 = {
+	name = tfw_lineoforvath_005_name
 
 	dynasty = dynasty_orvath
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineorvath2
-	mother = wife_orvath2
+	father = tfw_lineoforvath_002
+	mother = tfw_lineoflowborn_forodain_044
 
 	trait = education_diplomacy_3
 	trait = fickle
@@ -5614,7 +5614,7 @@ lineorvath3 = {
 	}
 
 	6836.6.1 = {
-		add_spouse = linemaelvaren3bridge
+		add_spouse = tfw_lineofmaelvaren_006
 	}
 
 	6907.1.1 = {
@@ -5622,15 +5622,15 @@ lineorvath3 = {
 	}
 }
 
-lineorvath4side1 = {
-	name = Belmir
+tfw_lineoforvath_006 = {
+	name = tfw_lineoforvath_006_name
 
 	dynasty = dynasty_orvath
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineorvath3
-	mother = linemaelvaren3bridge
+	father = tfw_lineoforvath_005
+	mother = tfw_lineofmaelvaren_006
 
 	trait = education_martial_2
 	trait = arbitrary
@@ -5654,15 +5654,15 @@ lineorvath4side1 = {
 	}
 }
 
-lineorvath4 = {
-	name = Ohtaril
+tfw_lineoforvath_007 = {
+	name = tfw_lineoforvath_007_name
 
 	dynasty = dynasty_orvath
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineorvath3
-	mother = linemaelvaren3bridge
+	father = tfw_lineoforvath_005
+	mother = tfw_lineofmaelvaren_006
 
 	trait = education_intrigue_2
 	trait = patient
@@ -5682,7 +5682,7 @@ lineorvath4 = {
 	}
 
 	6894.6.1 = {
-		add_spouse = wife_orvath4
+		add_spouse = tfw_lineoflowborn_forodain_045
 	}
 
 	6965.1.1 = {
@@ -5690,8 +5690,8 @@ lineorvath4 = {
 	}
 }
 
-wife_orvath4 = {
-	name = Belnor
+tfw_lineoflowborn_forodain_045 = {
+	name = tfw_lineoflowborn_forodain_045_name
 
 	female = yes
 	religion = faith_forodain
@@ -5719,16 +5719,16 @@ wife_orvath4 = {
 	}
 }
 
-lineorvath5side1 = {
-	name = Belor
+tfw_lineoforvath_008 = {
+	name = tfw_lineoforvath_008_name
 
 	female = yes
 	dynasty = dynasty_orvath
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineorvath4
-	mother = wife_orvath4
+	father = tfw_lineoforvath_007
+	mother = tfw_lineoflowborn_forodain_045
 
 	trait = education_stewardship_3
 	trait = diligent
@@ -5751,15 +5751,15 @@ lineorvath5side1 = {
 	}
 }
 
-lineorvath5side2 = {
-	name = Belrad
+tfw_lineoforvath_009 = {
+	name = tfw_lineoforvath_009_name
 
 	dynasty = dynasty_orvath
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineorvath4
-	mother = wife_orvath4
+	father = tfw_lineoforvath_007
+	mother = tfw_lineoflowborn_forodain_045
 
 	trait = education_stewardship_2
 	trait = paranoid
@@ -5782,16 +5782,16 @@ lineorvath5side2 = {
 	}
 }
 
-lineorvath5side3 = {
-	name = Belron
+tfw_lineoforvath_010 = {
+	name = tfw_lineoforvath_010_name
 
 	female = yes
 	dynasty = dynasty_orvath
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineorvath4
-	mother = wife_orvath4
+	father = tfw_lineoforvath_007
+	mother = tfw_lineoflowborn_forodain_045
 
 	trait = education_learning_2
 	trait = ambitious
@@ -5814,15 +5814,15 @@ lineorvath5side3 = {
 	}
 }
 
-lineorvath5 = {
-	name = Belthor
+tfw_lineoforvath_011 = {
+	name = tfw_lineoforvath_011_name
 
 	dynasty = dynasty_orvath
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineorvath4
-	mother = wife_orvath4
+	father = tfw_lineoforvath_007
+	mother = tfw_lineoflowborn_forodain_045
 
 	trait = education_diplomacy_3
 	trait = stubborn
@@ -5841,7 +5841,7 @@ lineorvath5 = {
 	}
 
 	6936.6.1 = {
-		add_spouse = wife_orvath5
+		add_spouse = tfw_lineoflowborn_forodain_046
 	}
 
 	7018.1.1 = {
@@ -5849,8 +5849,8 @@ lineorvath5 = {
 	}
 }
 
-wife_orvath5 = {
-	name = Belvar
+tfw_lineoflowborn_forodain_046 = {
+	name = tfw_lineoflowborn_forodain_046_name
 
 	female = yes
 	religion = faith_forodain
@@ -5877,15 +5877,15 @@ wife_orvath5 = {
 	}
 }
 
-lineorvath6side1 = {
-	name = Belvir
+tfw_lineoforvath_012 = {
+	name = tfw_lineoforvath_012_name
 
 	dynasty = dynasty_orvath
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineorvath5
-	mother = wife_orvath5
+	father = tfw_lineoforvath_011
+	mother = tfw_lineoflowborn_forodain_046
 
 	trait = education_diplomacy_2
 	trait = honest
@@ -5908,16 +5908,16 @@ lineorvath6side1 = {
 	}
 }
 
-lineorvath6side2 = {
-	name = Bela
+tfw_lineoforvath_013 = {
+	name = tfw_lineoforvath_013_name
 
 	female = yes
 	dynasty = dynasty_orvath
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineorvath5
-	mother = wife_orvath5
+	father = tfw_lineoforvath_011
+	mother = tfw_lineoflowborn_forodain_046
 
 	trait = education_learning_2
 	trait = ambitious
@@ -5940,15 +5940,15 @@ lineorvath6side2 = {
 	}
 }
 
-lineorvath6 = {
-	name = Beliel
+tfw_lineoforvath_014 = {
+	name = tfw_lineoforvath_014_name
 
 	dynasty = dynasty_orvath
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineorvath5
-	mother = wife_orvath5
+	father = tfw_lineoforvath_011
+	mother = tfw_lineoflowborn_forodain_046
 
 	trait = education_stewardship_3
 	trait = calm
@@ -5967,7 +5967,7 @@ lineorvath6 = {
 	}
 
 	6991.6.1 = {
-		add_spouse = wife_orvath6
+		add_spouse = tfw_lineoflowborn_forodain_047
 	}
 
 	7073.1.1 = {
@@ -5975,8 +5975,8 @@ lineorvath6 = {
 	}
 }
 
-wife_orvath6 = {
-	name = Belien
+tfw_lineoflowborn_forodain_047 = {
+	name = tfw_lineoflowborn_forodain_047_name
 
 	female = yes
 	religion = faith_forodain
@@ -6003,16 +6003,16 @@ wife_orvath6 = {
 	}
 }
 
-lineorvath7side1 = {
-	name = Belith
+tfw_lineoforvath_015 = {
+	name = tfw_lineoforvath_015_name
 
 	female = yes
 	dynasty = dynasty_orvath
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineorvath6
-	mother = wife_orvath6
+	father = tfw_lineoforvath_014
+	mother = tfw_lineoflowborn_forodain_047
 
 	trait = education_learning_3
 	trait = brave
@@ -6031,15 +6031,15 @@ lineorvath7side1 = {
 	}
 }
 
-lineorvath7 = {
-	name = Bellin
+tfw_lineoforvath_016 = {
+	name = tfw_lineoforvath_016_name
 
 	dynasty = dynasty_orvath
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineorvath6
-	mother = wife_orvath6
+	father = tfw_lineoforvath_014
+	mother = tfw_lineoflowborn_forodain_047
 
 	trait = education_stewardship_2
 	trait = impatient
@@ -6058,12 +6058,12 @@ lineorvath7 = {
 	}
 
 	7041.6.1 = {
-		add_spouse = wife_orvath7
+		add_spouse = tfw_lineoflowborn_forodain_048
 	}
 }
 
-wife_orvath7 = {
-	name = Belriel
+tfw_lineoflowborn_forodain_048 = {
+	name = tfw_lineoflowborn_forodain_048_name
 
 	female = yes
 	religion = faith_forodain
@@ -6086,15 +6086,15 @@ wife_orvath7 = {
 	}
 }
 
-lineorvath8 = {
-	name = Belwyn
+tfw_lineoforvath_017 = {
+	name = tfw_lineoforvath_017_name
 
 	dynasty = dynasty_orvath
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineorvath7
-	mother = wife_orvath7
+	father = tfw_lineoforvath_016
+	mother = tfw_lineoflowborn_forodain_048
 
 	trait = education_stewardship_3
 	trait = ambitious
@@ -6118,8 +6118,8 @@ lineorvath8 = {
 # dynasty_maelvaren
 ##############################
 
-linemaelvaren1 = {
-	name = Brenadan
+tfw_lineofmaelvaren_001 = {
+	name = tfw_lineofmaelvaren_001_name
 
 	dynasty = dynasty_maelvaren
 	religion = faith_forodain
@@ -6143,7 +6143,7 @@ linemaelvaren1 = {
 	}
 
 	6738.6.1 = {
-		add_spouse = wife_maelvaren1
+		add_spouse = tfw_lineoflowborn_forodain_049
 	}
 
 	6816.1.1 = {
@@ -6151,8 +6151,8 @@ linemaelvaren1 = {
 	}
 }
 
-wife_maelvaren1 = {
-	name = Brenadir
+tfw_lineoflowborn_forodain_049 = {
+	name = tfw_lineoflowborn_forodain_049_name
 
 	female = yes
 	religion = faith_forodain
@@ -6180,16 +6180,16 @@ wife_maelvaren1 = {
 	}
 }
 
-linemaelvaren2side1 = {
-	name = Brenael
+tfw_lineofmaelvaren_002 = {
+	name = tfw_lineofmaelvaren_002_name
 
 	female = yes
 	dynasty = dynasty_maelvaren
 	religion = faith_forodain
 	culture = forodain
 
-	father = linemaelvaren1
-	mother = wife_maelvaren1
+	father = tfw_lineofmaelvaren_001
+	mother = tfw_lineoflowborn_forodain_049
 
 	trait = education_stewardship_3
 	trait = patient
@@ -6213,15 +6213,15 @@ linemaelvaren2side1 = {
 	}
 }
 
-linemaelvaren2side2 = {
-	name = Brenandir
+tfw_lineofmaelvaren_003 = {
+	name = tfw_lineofmaelvaren_003_name
 
 	dynasty = dynasty_maelvaren
 	religion = faith_forodain
 	culture = forodain
 
-	father = linemaelvaren1
-	mother = wife_maelvaren1
+	father = tfw_lineofmaelvaren_001
+	mother = tfw_lineoflowborn_forodain_049
 
 	trait = education_learning_2
 	trait = vengeful
@@ -6245,16 +6245,16 @@ linemaelvaren2side2 = {
 	}
 }
 
-linemaelvaren2side3 = {
-	name = Brenanor
+tfw_lineofmaelvaren_004 = {
+	name = tfw_lineofmaelvaren_004_name
 
 	female = yes
 	dynasty = dynasty_maelvaren
 	religion = faith_forodain
 	culture = forodain
 
-	father = linemaelvaren1
-	mother = wife_maelvaren1
+	father = tfw_lineofmaelvaren_001
+	mother = tfw_lineoflowborn_forodain_049
 
 	trait = education_intrigue_2
 	trait = temperate
@@ -6278,15 +6278,15 @@ linemaelvaren2side3 = {
 	}
 }
 
-linemaelvaren2 = {
-	name = Brenarin
+tfw_lineofmaelvaren_005 = {
+	name = tfw_lineofmaelvaren_005_name
 
 	dynasty = dynasty_maelvaren
 	religion = faith_forodain
 	culture = forodain
 
-	father = linemaelvaren1
-	mother = wife_maelvaren1
+	father = tfw_lineofmaelvaren_001
+	mother = tfw_lineoflowborn_forodain_049
 
 	trait = education_learning_2
 	trait = just
@@ -6306,7 +6306,7 @@ linemaelvaren2 = {
 	}
 
 	6786.6.1 = {
-		add_spouse = wife_maelvaren2
+		add_spouse = tfw_lineoflowborn_forodain_050
 	}
 
 	6855.1.1 = {
@@ -6314,8 +6314,8 @@ linemaelvaren2 = {
 	}
 }
 
-wife_maelvaren2 = {
-	name = Brenavor
+tfw_lineoflowborn_forodain_050 = {
+	name = tfw_lineoflowborn_forodain_050_name
 
 	female = yes
 	religion = faith_forodain
@@ -6343,16 +6343,16 @@ wife_maelvaren2 = {
 	}
 }
 
-linemaelvaren3bridge = {
-	name = Brenendir
+tfw_lineofmaelvaren_006 = {
+	name = tfw_lineofmaelvaren_006_name
 
 	female = yes
 	dynasty = dynasty_maelvaren
 	religion = faith_forodain
 	culture = forodain
 
-	father = linemaelvaren2
-	mother = wife_maelvaren2
+	father = tfw_lineofmaelvaren_005
+	mother = tfw_lineoflowborn_forodain_050
 
 	trait = education_intrigue_2
 	trait = content
@@ -6376,16 +6376,16 @@ linemaelvaren3bridge = {
 	}
 }
 
-linemaelvaren3side1 = {
-	name = Brenethor
+tfw_lineofmaelvaren_007 = {
+	name = tfw_lineofmaelvaren_007_name
 
 	female = yes
 	dynasty = dynasty_maelvaren
 	religion = faith_forodain
 	culture = forodain
 
-	father = linemaelvaren2
-	mother = wife_maelvaren2
+	father = tfw_lineofmaelvaren_005
+	mother = tfw_lineoflowborn_forodain_050
 
 	trait = education_martial_2
 	trait = just
@@ -6409,15 +6409,15 @@ linemaelvaren3side1 = {
 	}
 }
 
-linemaelvaren3 = {
-	name = Brenion
+tfw_lineofmaelvaren_008 = {
+	name = tfw_lineofmaelvaren_008_name
 
 	dynasty = dynasty_maelvaren
 	religion = faith_forodain
 	culture = forodain
 
-	father = linemaelvaren2
-	mother = wife_maelvaren2
+	father = tfw_lineofmaelvaren_005
+	mother = tfw_lineoflowborn_forodain_050
 
 	trait = education_stewardship_2
 	trait = ambitious
@@ -6437,7 +6437,7 @@ linemaelvaren3 = {
 	}
 
 	6848.6.1 = {
-		add_spouse = lineardanoril3bridge
+		add_spouse = tfw_lineofardanoril_005
 	}
 
 	6903.1.1 = {
@@ -6445,16 +6445,16 @@ linemaelvaren3 = {
 	}
 }
 
-linemaelvaren4side1 = {
-	name = Brenmir
+tfw_lineofmaelvaren_009 = {
+	name = tfw_lineofmaelvaren_009_name
 
 	female = yes
 	dynasty = dynasty_maelvaren
 	religion = faith_forodain
 	culture = forodain
 
-	father = linemaelvaren3
-	mother = lineardanoril3bridge
+	father = tfw_lineofmaelvaren_008
+	mother = tfw_lineofardanoril_005
 
 	trait = education_intrigue_2
 	trait = shy
@@ -6478,15 +6478,15 @@ linemaelvaren4side1 = {
 	}
 }
 
-linemaelvaren4side2 = {
-	name = Brennor
+tfw_lineofmaelvaren_010 = {
+	name = tfw_lineofmaelvaren_010_name
 
 	dynasty = dynasty_maelvaren
 	religion = faith_forodain
 	culture = forodain
 
-	father = linemaelvaren3
-	mother = lineardanoril3bridge
+	father = tfw_lineofmaelvaren_008
+	mother = tfw_lineofardanoril_005
 
 	trait = education_learning_3
 	trait = stubborn
@@ -6510,15 +6510,15 @@ linemaelvaren4side2 = {
 	}
 }
 
-linemaelvaren4 = {
-	name = Brenor
+tfw_lineofmaelvaren_011 = {
+	name = tfw_lineofmaelvaren_011_name
 
 	dynasty = dynasty_maelvaren
 	religion = faith_forodain
 	culture = forodain
 
-	father = linemaelvaren3
-	mother = lineardanoril3bridge
+	father = tfw_lineofmaelvaren_008
+	mother = tfw_lineofardanoril_005
 
 	trait = education_learning_3
 	trait = honest
@@ -6538,7 +6538,7 @@ linemaelvaren4 = {
 	}
 
 	6877.6.1 = {
-		add_spouse = wife_maelvaren4
+		add_spouse = tfw_lineoflowborn_forodain_051
 	}
 
 	6960.1.1 = {
@@ -6546,8 +6546,8 @@ linemaelvaren4 = {
 	}
 }
 
-wife_maelvaren4 = {
-	name = Ivravel
+tfw_lineoflowborn_forodain_051 = {
+	name = tfw_lineoflowborn_forodain_051_name
 
 	female = yes
 	religion = faith_forodain
@@ -6575,15 +6575,15 @@ wife_maelvaren4 = {
 	}
 }
 
-linemaelvaren5side1 = {
-	name = Brenrad
+tfw_lineofmaelvaren_012 = {
+	name = tfw_lineofmaelvaren_012_name
 
 	dynasty = dynasty_maelvaren
 	religion = faith_forodain
 	culture = forodain
 
-	father = linemaelvaren4
-	mother = wife_maelvaren4
+	father = tfw_lineofmaelvaren_011
+	mother = tfw_lineoflowborn_forodain_051
 
 	trait = education_martial_2
 	trait = wrathful
@@ -6607,15 +6607,15 @@ linemaelvaren5side1 = {
 	}
 }
 
-linemaelvaren5 = {
-	name = Brenron
+tfw_lineofmaelvaren_013 = {
+	name = tfw_lineofmaelvaren_013_name
 
 	dynasty = dynasty_maelvaren
 	religion = faith_forodain
 	culture = forodain
 
-	father = linemaelvaren4
-	mother = wife_maelvaren4
+	father = tfw_lineofmaelvaren_011
+	mother = tfw_lineoflowborn_forodain_051
 
 	trait = education_diplomacy_2
 	trait = generous
@@ -6635,7 +6635,7 @@ linemaelvaren5 = {
 	}
 
 	6926.6.1 = {
-		add_spouse = wife_maelvaren5
+		add_spouse = tfw_lineoflowborn_forodain_052
 	}
 
 	7012.1.1 = {
@@ -6643,8 +6643,8 @@ linemaelvaren5 = {
 	}
 }
 
-wife_maelvaren5 = {
-	name = Brenthor
+tfw_lineoflowborn_forodain_052 = {
+	name = tfw_lineoflowborn_forodain_052_name
 
 	female = yes
 	religion = faith_forodain
@@ -6672,15 +6672,15 @@ wife_maelvaren5 = {
 	}
 }
 
-linemaelvaren6 = {
-	name = Brenvar
+tfw_lineofmaelvaren_014 = {
+	name = tfw_lineofmaelvaren_014_name
 
 	dynasty = dynasty_maelvaren
 	religion = faith_forodain
 	culture = forodain
 
-	father = linemaelvaren5
-	mother = wife_maelvaren5
+	father = tfw_lineofmaelvaren_013
+	mother = tfw_lineoflowborn_forodain_052
 
 	trait = education_learning_3
 	trait = generous
@@ -6700,7 +6700,7 @@ linemaelvaren6 = {
 	}
 
 	6982.6.1 = {
-		add_spouse = wife_maelvaren6
+		add_spouse = tfw_lineoflowborn_forodain_053
 	}
 
 	7057.1.1 = {
@@ -6708,8 +6708,8 @@ linemaelvaren6 = {
 	}
 }
 
-wife_maelvaren6 = {
-	name = Brenvir
+tfw_lineoflowborn_forodain_053 = {
+	name = tfw_lineoflowborn_forodain_053_name
 
 	female = yes
 	religion = faith_forodain
@@ -6737,15 +6737,15 @@ wife_maelvaren6 = {
 	}
 }
 
-linemaelvaren7side1 = {
-	name = Brena
+tfw_lineofmaelvaren_015 = {
+	name = tfw_lineofmaelvaren_015_name
 
 	dynasty = dynasty_maelvaren
 	religion = faith_forodain
 	culture = forodain
 
-	father = linemaelvaren6
-	mother = wife_maelvaren6
+	father = tfw_lineofmaelvaren_014
+	mother = tfw_lineoflowborn_forodain_053
 
 	trait = education_diplomacy_3
 	trait = vengeful
@@ -6765,16 +6765,16 @@ linemaelvaren7side1 = {
 	}
 }
 
-linemaelvaren7side2 = {
-	name = Breneth
+tfw_lineofmaelvaren_016 = {
+	name = tfw_lineofmaelvaren_016_name
 
 	female = yes
 	dynasty = dynasty_maelvaren
 	religion = faith_forodain
 	culture = forodain
 
-	father = linemaelvaren6
-	mother = wife_maelvaren6
+	father = tfw_lineofmaelvaren_014
+	mother = tfw_lineoflowborn_forodain_053
 
 	trait = education_diplomacy_3
 	trait = generous
@@ -6794,15 +6794,15 @@ linemaelvaren7side2 = {
 	}
 }
 
-linemaelvaren7 = {
-	name = Breniel
+tfw_lineofmaelvaren_017 = {
+	name = tfw_lineofmaelvaren_017_name
 
 	dynasty = dynasty_maelvaren
 	religion = faith_forodain
 	culture = forodain
 
-	father = linemaelvaren6
-	mother = wife_maelvaren6
+	father = tfw_lineofmaelvaren_014
+	mother = tfw_lineoflowborn_forodain_053
 
 	trait = education_martial_3
 	trait = arbitrary
@@ -6822,12 +6822,12 @@ linemaelvaren7 = {
 	}
 
 	7024.6.1 = {
-		add_spouse = wife_maelvaren7
+		add_spouse = tfw_lineoflowborn_forodain_054
 	}
 }
 
-wife_maelvaren7 = {
-	name = Brenien
+tfw_lineoflowborn_forodain_054 = {
+	name = tfw_lineoflowborn_forodain_054_name
 
 	female = yes
 	religion = faith_forodain
@@ -6851,16 +6851,16 @@ wife_maelvaren7 = {
 	}
 }
 
-linemaelvaren8side1 = {
-	name = Brenith
+tfw_lineofmaelvaren_018 = {
+	name = tfw_lineofmaelvaren_018_name
 
 	female = yes
 	dynasty = dynasty_maelvaren
 	religion = faith_forodain
 	culture = forodain
 
-	father = linemaelvaren7
-	mother = wife_maelvaren7
+	father = tfw_lineofmaelvaren_017
+	mother = tfw_lineoflowborn_forodain_054
 
 	trait = education_stewardship_3
 	trait = impatient
@@ -6879,15 +6879,15 @@ linemaelvaren8side1 = {
 	}
 }
 
-linemaelvaren8 = {
-	name = Brenlin
+tfw_lineofmaelvaren_019 = {
+	name = tfw_lineofmaelvaren_019_name
 
 	dynasty = dynasty_maelvaren
 	religion = faith_forodain
 	culture = forodain
 
-	father = linemaelvaren7
-	mother = wife_maelvaren7
+	father = tfw_lineofmaelvaren_017
+	mother = tfw_lineoflowborn_forodain_054
 
 	trait = education_learning_3
 	trait = shy
@@ -6911,8 +6911,8 @@ linemaelvaren8 = {
 # dynasty_ardanoril
 ##############################
 
-lineardanoril1 = {
-	name = Brenriel
+tfw_lineofardanoril_001 = {
+	name = tfw_lineofardanoril_001_name
 
 	dynasty = dynasty_ardanoril
 	religion = faith_forodain
@@ -6936,7 +6936,7 @@ lineardanoril1 = {
 	}
 
 	6734.6.1 = {
-		add_spouse = wife_ardanoril1
+		add_spouse = tfw_lineoflowborn_forodain_055
 	}
 
 	6801.1.1 = {
@@ -6944,8 +6944,8 @@ lineardanoril1 = {
 	}
 }
 
-wife_ardanoril1 = {
-	name = Brenwen
+tfw_lineoflowborn_forodain_055 = {
+	name = tfw_lineoflowborn_forodain_055_name
 
 	female = yes
 	religion = faith_forodain
@@ -6973,15 +6973,15 @@ wife_ardanoril1 = {
 	}
 }
 
-lineardanoril2side1 = {
-	name = Brenwyn
+tfw_lineofardanoril_002 = {
+	name = tfw_lineofardanoril_002_name
 
 	dynasty = dynasty_ardanoril
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineardanoril1
-	mother = wife_ardanoril1
+	father = tfw_lineofardanoril_001
+	mother = tfw_lineoflowborn_forodain_055
 
 	trait = education_learning_2
 	trait = callous
@@ -7005,16 +7005,16 @@ lineardanoril2side1 = {
 	}
 }
 
-lineardanoril2side2 = {
-	name = Caeladan
+tfw_lineofardanoril_003 = {
+	name = tfw_lineofardanoril_003_name
 
 	female = yes
 	dynasty = dynasty_ardanoril
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineardanoril1
-	mother = wife_ardanoril1
+	father = tfw_lineofardanoril_001
+	mother = tfw_lineoflowborn_forodain_055
 
 	trait = education_stewardship_3
 	trait = brave
@@ -7038,15 +7038,15 @@ lineardanoril2side2 = {
 	}
 }
 
-lineardanoril2 = {
-	name = Caeladir
+tfw_lineofardanoril_004 = {
+	name = tfw_lineofardanoril_004_name
 
 	dynasty = dynasty_ardanoril
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineardanoril1
-	mother = wife_ardanoril1
+	father = tfw_lineofardanoril_001
+	mother = tfw_lineoflowborn_forodain_055
 
 	trait = education_stewardship_2
 	trait = diligent
@@ -7066,7 +7066,7 @@ lineardanoril2 = {
 	}
 
 	6794.6.1 = {
-		add_spouse = wife_ardanoril2
+		add_spouse = tfw_lineoflowborn_forodain_056
 	}
 
 	6863.1.1 = {
@@ -7074,8 +7074,8 @@ lineardanoril2 = {
 	}
 }
 
-wife_ardanoril2 = {
-	name = Caelael
+tfw_lineoflowborn_forodain_056 = {
+	name = tfw_lineoflowborn_forodain_056_name
 
 	female = yes
 	religion = faith_forodain
@@ -7103,16 +7103,16 @@ wife_ardanoril2 = {
 	}
 }
 
-lineardanoril3bridge = {
-	name = Caelandir
+tfw_lineofardanoril_005 = {
+	name = tfw_lineofardanoril_005_name
 
 	female = yes
 	dynasty = dynasty_ardanoril
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineardanoril2
-	mother = wife_ardanoril2
+	father = tfw_lineofardanoril_004
+	mother = tfw_lineoflowborn_forodain_056
 
 	trait = education_diplomacy_2
 	trait = callous
@@ -7136,15 +7136,15 @@ lineardanoril3bridge = {
 	}
 }
 
-lineardanoril3side1 = {
-	name = Caelanor
+tfw_lineofardanoril_006 = {
+	name = tfw_lineofardanoril_006_name
 
 	dynasty = dynasty_ardanoril
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineardanoril2
-	mother = wife_ardanoril2
+	father = tfw_lineofardanoril_004
+	mother = tfw_lineoflowborn_forodain_056
 
 	trait = education_martial_3
 	trait = vengeful
@@ -7168,15 +7168,15 @@ lineardanoril3side1 = {
 	}
 }
 
-lineardanoril3 = {
-	name = Caelarin
+tfw_lineofardanoril_007 = {
+	name = tfw_lineofardanoril_007_name
 
 	dynasty = dynasty_ardanoril
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineardanoril2
-	mother = wife_ardanoril2
+	father = tfw_lineofardanoril_004
+	mother = tfw_lineoflowborn_forodain_056
 
 	trait = education_intrigue_2
 	trait = shy
@@ -7196,7 +7196,7 @@ lineardanoril3 = {
 	}
 
 	6838.6.1 = {
-		add_spouse = linenaethor3bridge
+		add_spouse = tfw_lineofnaethor_004
 	}
 
 	6926.1.1 = {
@@ -7204,15 +7204,15 @@ lineardanoril3 = {
 	}
 }
 
-lineardanoril4side1 = {
-	name = Caelavor
+tfw_lineofardanoril_008 = {
+	name = tfw_lineofardanoril_008_name
 
 	dynasty = dynasty_ardanoril
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineardanoril3
-	mother = linenaethor3bridge
+	father = tfw_lineofardanoril_007
+	mother = tfw_lineofnaethor_004
 
 	trait = education_diplomacy_3
 	trait = patient
@@ -7236,15 +7236,15 @@ lineardanoril4side1 = {
 	}
 }
 
-lineardanoril4 = {
-	name = Caelendir
+tfw_lineofardanoril_009 = {
+	name = tfw_lineofardanoril_009_name
 
 	dynasty = dynasty_ardanoril
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineardanoril3
-	mother = linenaethor3bridge
+	father = tfw_lineofardanoril_007
+	mother = tfw_lineofnaethor_004
 
 	trait = education_stewardship_3
 	trait = fickle
@@ -7264,7 +7264,7 @@ lineardanoril4 = {
 	}
 
 	6900.6.1 = {
-		add_spouse = wife_ardanoril4
+		add_spouse = tfw_lineoflowborn_forodain_057
 	}
 
 	6980.1.1 = {
@@ -7272,8 +7272,8 @@ lineardanoril4 = {
 	}
 }
 
-wife_ardanoril4 = {
-	name = Finduilen
+tfw_lineoflowborn_forodain_057 = {
+	name = tfw_lineoflowborn_forodain_057_name
 
 	female = yes
 	religion = faith_forodain
@@ -7301,16 +7301,16 @@ wife_ardanoril4 = {
 	}
 }
 
-lineardanoril5side1 = {
-	name = Caelethor
+tfw_lineofardanoril_010 = {
+	name = tfw_lineofardanoril_010_name
 
 	female = yes
 	dynasty = dynasty_ardanoril
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineardanoril4
-	mother = wife_ardanoril4
+	father = tfw_lineofardanoril_009
+	mother = tfw_lineoflowborn_forodain_057
 
 	trait = education_diplomacy_2
 	trait = ambitious
@@ -7333,15 +7333,15 @@ lineardanoril5side1 = {
 	}
 }
 
-lineardanoril5side2 = {
-	name = Caelion
+tfw_lineofardanoril_011 = {
+	name = tfw_lineofardanoril_011_name
 
 	dynasty = dynasty_ardanoril
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineardanoril4
-	mother = wife_ardanoril4
+	father = tfw_lineofardanoril_009
+	mother = tfw_lineoflowborn_forodain_057
 
 	trait = education_intrigue_2
 	trait = temperate
@@ -7365,16 +7365,16 @@ lineardanoril5side2 = {
 	}
 }
 
-lineardanoril5side3 = {
-	name = Caelmir
+tfw_lineofardanoril_012 = {
+	name = tfw_lineofardanoril_012_name
 
 	female = yes
 	dynasty = dynasty_ardanoril
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineardanoril4
-	mother = wife_ardanoril4
+	father = tfw_lineofardanoril_009
+	mother = tfw_lineoflowborn_forodain_057
 
 	trait = education_martial_3
 	trait = compassionate
@@ -7398,15 +7398,15 @@ lineardanoril5side3 = {
 	}
 }
 
-lineardanoril5 = {
-	name = Caelnor
+tfw_lineofardanoril_013 = {
+	name = tfw_lineofardanoril_013_name
 
 	dynasty = dynasty_ardanoril
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineardanoril4
-	mother = wife_ardanoril4
+	father = tfw_lineofardanoril_009
+	mother = tfw_lineoflowborn_forodain_057
 
 	trait = education_stewardship_3
 	trait = impatient
@@ -7426,7 +7426,7 @@ lineardanoril5 = {
 	}
 
 	6947.6.1 = {
-		add_spouse = wife_ardanoril5
+		add_spouse = tfw_lineoflowborn_forodain_058
 	}
 
 	7021.1.1 = {
@@ -7434,8 +7434,8 @@ lineardanoril5 = {
 	}
 }
 
-wife_ardanoril5 = {
-	name = Caelor
+tfw_lineoflowborn_forodain_058 = {
+	name = tfw_lineoflowborn_forodain_058_name
 
 	female = yes
 	religion = faith_forodain
@@ -7463,15 +7463,15 @@ wife_ardanoril5 = {
 	}
 }
 
-lineardanoril6side1 = {
-	name = Caelrad
+tfw_lineofardanoril_014 = {
+	name = tfw_lineofardanoril_014_name
 
 	dynasty = dynasty_ardanoril
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineardanoril5
-	mother = wife_ardanoril5
+	father = tfw_lineofardanoril_013
+	mother = tfw_lineoflowborn_forodain_058
 
 	trait = education_martial_3
 	trait = content
@@ -7495,15 +7495,15 @@ lineardanoril6side1 = {
 	}
 }
 
-lineardanoril6 = {
-	name = Caelron
+tfw_lineofardanoril_015 = {
+	name = tfw_lineofardanoril_015_name
 
 	dynasty = dynasty_ardanoril
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineardanoril5
-	mother = wife_ardanoril5
+	father = tfw_lineofardanoril_013
+	mother = tfw_lineoflowborn_forodain_058
 
 	trait = education_stewardship_2
 	trait = ambitious
@@ -7523,7 +7523,7 @@ lineardanoril6 = {
 	}
 
 	7003.6.1 = {
-		add_spouse = wife_ardanoril6
+		add_spouse = tfw_lineoflowborn_forodain_059
 	}
 
 	7075.1.1 = {
@@ -7531,8 +7531,8 @@ lineardanoril6 = {
 	}
 }
 
-wife_ardanoril6 = {
-	name = Caelthor
+tfw_lineoflowborn_forodain_059 = {
+	name = tfw_lineoflowborn_forodain_059_name
 
 	female = yes
 	religion = faith_forodain
@@ -7560,15 +7560,15 @@ wife_ardanoril6 = {
 	}
 }
 
-lineardanoril7 = {
-	name = Caelvar
+tfw_lineofardanoril_016 = {
+	name = tfw_lineofardanoril_016_name
 
 	dynasty = dynasty_ardanoril
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineardanoril6
-	mother = wife_ardanoril6
+	father = tfw_lineofardanoril_015
+	mother = tfw_lineoflowborn_forodain_059
 
 	trait = education_diplomacy_2
 	trait = paranoid
@@ -7587,12 +7587,12 @@ lineardanoril7 = {
 	}
 
 	7048.6.1 = {
-		add_spouse = wife_ardanoril7
+		add_spouse = tfw_lineoflowborn_forodain_060
 	}
 }
 
-wife_ardanoril7 = {
-	name = Caelvir
+tfw_lineoflowborn_forodain_060 = {
+	name = tfw_lineoflowborn_forodain_060_name
 
 	female = yes
 	religion = faith_forodain
@@ -7615,15 +7615,15 @@ wife_ardanoril7 = {
 	}
 }
 
-lineardanoril8side1 = {
-	name = Caela
+tfw_lineofardanoril_017 = {
+	name = tfw_lineofardanoril_017_name
 
 	dynasty = dynasty_ardanoril
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineardanoril7
-	mother = wife_ardanoril7
+	father = tfw_lineofardanoril_016
+	mother = tfw_lineoflowborn_forodain_060
 
 	trait = education_learning_3
 	trait = content
@@ -7642,16 +7642,16 @@ lineardanoril8side1 = {
 	}
 }
 
-lineardanoril8side2 = {
-	name = Caeleth
+tfw_lineofardanoril_018 = {
+	name = tfw_lineofardanoril_018_name
 
 	female = yes
 	dynasty = dynasty_ardanoril
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineardanoril7
-	mother = wife_ardanoril7
+	father = tfw_lineofardanoril_016
+	mother = tfw_lineoflowborn_forodain_060
 
 	trait = education_diplomacy_3
 	trait = calm
@@ -7670,15 +7670,15 @@ lineardanoril8side2 = {
 	}
 }
 
-lineardanoril8 = {
-	name = Caeliel
+tfw_lineofardanoril_019 = {
+	name = tfw_lineofardanoril_019_name
 
 	dynasty = dynasty_ardanoril
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineardanoril7
-	mother = wife_ardanoril7
+	father = tfw_lineofardanoril_016
+	mother = tfw_lineoflowborn_forodain_060
 
 	trait = education_diplomacy_2
 	trait = diligent
@@ -7702,8 +7702,8 @@ lineardanoril8 = {
 # dynasty_heorwulf
 ##############################
 
-lineheorwulf1 = {
-	name = Beorwulf
+tfw_lineofheorwulf_001 = {
+	name = tfw_lineofheorwulf_001_name
 
 	dynasty = dynasty_heorwulf
 	religion = faith_forodain
@@ -7729,7 +7729,7 @@ lineheorwulf1 = {
 	}
 
 	6788.6.3 = {
-		add_spouse = wife_heorwulf1
+		add_spouse = tfw_lineoflowborn_forodain_061
 	}
 
 	6851.10.17 = {
@@ -7737,8 +7737,8 @@ lineheorwulf1 = {
 	}
 }
 
-wife_heorwulf1 = {
-	name = Saelwyn
+tfw_lineoflowborn_forodain_061 = {
+	name = tfw_lineoflowborn_forodain_061_name
 
 	female = yes
 	religion = faith_forodain
@@ -7766,15 +7766,15 @@ wife_heorwulf1 = {
 	}
 }
 
-lineheorwulf2 = {
-	name = Heorgrim
+tfw_lineofheorwulf_002 = {
+	name = tfw_lineofheorwulf_002_name
 
 	dynasty = dynasty_heorwulf
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineheorwulf1
-	mother = wife_heorwulf1
+	father = tfw_lineofheorwulf_001
+	mother = tfw_lineoflowborn_forodain_061
 
 	trait = education_martial_3
 	trait = brave
@@ -7794,7 +7794,7 @@ lineheorwulf2 = {
 	}
 
 	6817.7.12 = {
-		add_spouse = wife_heorwulf2
+		add_spouse = tfw_lineoflowborn_forodain_062
 	}
 
 	6880.11.5 = {
@@ -7802,16 +7802,16 @@ lineheorwulf2 = {
 	}
 }
 
-lineheorwulf2side1 = {
-	name = Wulfhild
+tfw_lineofheorwulf_003 = {
+	name = tfw_lineofheorwulf_003_name
 
 	female = yes
 	dynasty = dynasty_heorwulf
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineheorwulf1
-	mother = wife_heorwulf1
+	father = tfw_lineofheorwulf_001
+	mother = tfw_lineoflowborn_forodain_061
 
 	trait = education_stewardship_3
 	trait = brave
@@ -7835,8 +7835,8 @@ lineheorwulf2side1 = {
 	}
 }
 
-wife_heorwulf2 = {
-	name = Eadwyn
+tfw_lineoflowborn_forodain_062 = {
+	name = tfw_lineoflowborn_forodain_062_name
 
 	female = yes
 	religion = faith_forodain
@@ -7865,17 +7865,17 @@ wife_heorwulf2 = {
 }
 
 # Generation 3 begins direct intermarriage with the other new Forodain dynasties.
-# Spouse: Caelanor of dynasty_ardanoril (lineardanoril3side1).
-lineheorwulf3 = {
-	name = Hildraen
+# Spouse: Caelanor of dynasty_ardanoril (tfw_lineofardanoril_006).
+tfw_lineofheorwulf_004 = {
+	name = tfw_lineofheorwulf_004_name
 
 	female = yes
 	dynasty = dynasty_heorwulf
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineheorwulf2
-	mother = wife_heorwulf2
+	father = tfw_lineofheorwulf_002
+	mother = tfw_lineoflowborn_forodain_062
 
 	trait = education_stewardship_4
 	trait = brave
@@ -7895,7 +7895,7 @@ lineheorwulf3 = {
 	}
 
 	6848.9.21 = {
-		add_spouse = lineardanoril3side1
+		add_spouse = tfw_lineofardanoril_006
 	}
 
 	6913.1.27 = {
@@ -7903,15 +7903,15 @@ lineheorwulf3 = {
 	}
 }
 
-lineheorwulf3side1 = {
-	name = Garwulf
+tfw_lineofheorwulf_005 = {
+	name = tfw_lineofheorwulf_005_name
 
 	dynasty = dynasty_heorwulf
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineheorwulf2
-	mother = wife_heorwulf2
+	father = tfw_lineofheorwulf_002
+	mother = tfw_lineoflowborn_forodain_062
 
 	trait = education_martial_3
 	trait = brave
@@ -7935,16 +7935,16 @@ lineheorwulf3side1 = {
 	}
 }
 
-lineheorwulf3side2 = {
-	name = Wynhild
+tfw_lineofheorwulf_006 = {
+	name = tfw_lineofheorwulf_006_name
 
 	female = yes
 	dynasty = dynasty_heorwulf
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineheorwulf2
-	mother = wife_heorwulf2
+	father = tfw_lineofheorwulf_002
+	mother = tfw_lineoflowborn_forodain_062
 
 	trait = education_stewardship_3
 	trait = diligent
@@ -7968,16 +7968,16 @@ lineheorwulf3side2 = {
 	}
 }
 
-# Generation 4 spouse: Aldriel of dynasty_galenmir (linegalenmir4side1).
-lineheorwulf4 = {
-	name = Brandwulf
+# Generation 4 spouse: Aldriel of dynasty_galenmir (tfw_lineofgalenmir_007).
+tfw_lineofheorwulf_007 = {
+	name = tfw_lineofheorwulf_007_name
 
 	dynasty = dynasty_heorwulf
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineardanoril3side1
-	mother = lineheorwulf3
+	father = tfw_lineofardanoril_006
+	mother = tfw_lineofheorwulf_004
 
 	trait = education_martial_4
 	trait = brave
@@ -7997,7 +7997,7 @@ lineheorwulf4 = {
 	}
 
 	6878.5.18 = {
-		add_spouse = linegalenmir4side1
+		add_spouse = tfw_lineofgalenmir_007
 	}
 
 	6940.12.2 = {
@@ -8005,15 +8005,15 @@ lineheorwulf4 = {
 	}
 }
 
-lineheorwulf4side1 = {
-	name = Eadric
+tfw_lineofheorwulf_008 = {
+	name = tfw_lineofheorwulf_008_name
 
 	dynasty = dynasty_heorwulf
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineardanoril3side1
-	mother = lineheorwulf3
+	father = tfw_lineofardanoril_006
+	mother = tfw_lineofheorwulf_004
 
 	trait = education_stewardship_3
 	trait = patient
@@ -8037,17 +8037,17 @@ lineheorwulf4side1 = {
 	}
 }
 
-# Generation 5 spouse: Hirvegil of dynasty_raudhave (lineraudhave5side2).
-lineheorwulf5 = {
-	name = Maerhild
+# Generation 5 spouse: Hirvegil of dynasty_raudhave (tfw_lineofraudhave_012).
+tfw_lineofheorwulf_009 = {
+	name = tfw_lineofheorwulf_009_name
 
 	female = yes
 	dynasty = dynasty_heorwulf
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineheorwulf4
-	mother = linegalenmir4side1
+	father = tfw_lineofheorwulf_007
+	mother = tfw_lineofgalenmir_007
 
 	trait = education_stewardship_4
 	trait = diligent
@@ -8067,7 +8067,7 @@ lineheorwulf5 = {
 	}
 
 	6920.8.6 = {
-		add_spouse = lineraudhave5side2
+		add_spouse = tfw_lineofraudhave_012
 	}
 
 	6977.5.19 = {
@@ -8075,15 +8075,15 @@ lineheorwulf5 = {
 	}
 }
 
-lineheorwulf5side1 = {
-	name = Hrothgar
+tfw_lineofheorwulf_010 = {
+	name = tfw_lineofheorwulf_010_name
 
 	dynasty = dynasty_heorwulf
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineheorwulf4
-	mother = linegalenmir4side1
+	father = tfw_lineofheorwulf_007
+	mother = tfw_lineofgalenmir_007
 
 	trait = education_martial_3
 	trait = brave
@@ -8107,16 +8107,16 @@ lineheorwulf5side1 = {
 	}
 }
 
-lineheorwulf5side2 = {
-	name = Beorneth
+tfw_lineofheorwulf_011 = {
+	name = tfw_lineofheorwulf_011_name
 
 	female = yes
 	dynasty = dynasty_heorwulf
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineheorwulf4
-	mother = linegalenmir4side1
+	father = tfw_lineofheorwulf_007
+	mother = tfw_lineofgalenmir_007
 
 	trait = education_diplomacy_3
 	trait = brave
@@ -8140,16 +8140,16 @@ lineheorwulf5side2 = {
 	}
 }
 
-# Generation 6 spouse: Arvwen of dynasty_thalioneth (linethalioneth6side2).
-lineheorwulf6 = {
-	name = Wulfram
+# Generation 6 spouse: Arvwen of dynasty_thalioneth (tfw_lineofthalioneth_012).
+tfw_lineofheorwulf_012 = {
+	name = tfw_lineofheorwulf_012_name
 
 	dynasty = dynasty_heorwulf
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineraudhave5side2
-	mother = lineheorwulf5
+	father = tfw_lineofraudhave_012
+	mother = tfw_lineofheorwulf_009
 
 	trait = education_martial_4
 	trait = brave
@@ -8169,7 +8169,7 @@ lineheorwulf6 = {
 	}
 
 	6955.4.14 = {
-		add_spouse = linethalioneth6side2
+		add_spouse = tfw_lineofthalioneth_012
 	}
 
 	7011.6.30 = {
@@ -8177,15 +8177,15 @@ lineheorwulf6 = {
 	}
 }
 
-lineheorwulf6side1 = {
-	name = Eorling
+tfw_lineofheorwulf_013 = {
+	name = tfw_lineofheorwulf_013_name
 
 	dynasty = dynasty_heorwulf
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineraudhave5side2
-	mother = lineheorwulf5
+	father = tfw_lineofraudhave_012
+	mother = tfw_lineofheorwulf_009
 
 	trait = education_martial_3
 	trait = brave
@@ -8209,17 +8209,17 @@ lineheorwulf6side1 = {
 	}
 }
 
-# Generation 7 spouse: Caelrad of dynasty_ardanoril (lineardanoril6side1).
-lineheorwulf7 = {
-	name = Freawyn
+# Generation 7 spouse: Caelrad of dynasty_ardanoril (tfw_lineofardanoril_014).
+tfw_lineofheorwulf_014 = {
+	name = tfw_lineofheorwulf_014_name
 
 	female = yes
 	dynasty = dynasty_heorwulf
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineheorwulf6
-	mother = linethalioneth6side2
+	father = tfw_lineofheorwulf_012
+	mother = tfw_lineofthalioneth_012
 
 	trait = education_stewardship_4
 	trait = brave
@@ -8238,7 +8238,7 @@ lineheorwulf7 = {
 	}
 
 	6996.5.2 = {
-		add_spouse = lineardanoril6side1
+		add_spouse = tfw_lineofardanoril_014
 	}
 
 	7045.2.18 = {
@@ -8246,15 +8246,15 @@ lineheorwulf7 = {
 	}
 }
 
-lineheorwulf7side1 = {
-	name = Wulfred
+tfw_lineofheorwulf_015 = {
+	name = tfw_lineofheorwulf_015_name
 
 	dynasty = dynasty_heorwulf
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineheorwulf6
-	mother = linethalioneth6side2
+	father = tfw_lineofheorwulf_012
+	mother = tfw_lineofthalioneth_012
 
 	trait = education_martial_3
 	trait = brave
@@ -8277,16 +8277,16 @@ lineheorwulf7side1 = {
 	}
 }
 
-lineheorwulf7side2 = {
-	name = Aelwynn
+tfw_lineofheorwulf_016 = {
+	name = tfw_lineofheorwulf_016_name
 
 	female = yes
 	dynasty = dynasty_heorwulf
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineheorwulf6
-	mother = linethalioneth6side2
+	father = tfw_lineofheorwulf_012
+	mother = tfw_lineofthalioneth_012
 
 	trait = education_stewardship_3
 	trait = diligent
@@ -8309,15 +8309,15 @@ lineheorwulf7side2 = {
 	}
 }
 
-lineheorwulf7side3 = {
-	name = Herebrand
+tfw_lineofheorwulf_017 = {
+	name = tfw_lineofheorwulf_017_name
 
 	dynasty = dynasty_heorwulf
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineheorwulf6
-	mother = linethalioneth6side2
+	father = tfw_lineofheorwulf_012
+	mother = tfw_lineofthalioneth_012
 
 	trait = education_martial_3
 	trait = brave
@@ -8340,16 +8340,16 @@ lineheorwulf7side3 = {
 	}
 }
 
-# Generation 8 spouse: Mireth of dynasty_vaelthor (linevaelthor7side1).
-lineheorwulf8 = {
-	name = Beorric
+# Generation 8 spouse: Mireth of dynasty_vaelthor (tfw_lineofvaelthor_015).
+tfw_lineofheorwulf_018 = {
+	name = tfw_lineofheorwulf_018_name
 
 	dynasty = dynasty_heorwulf
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineardanoril6side1
-	mother = lineheorwulf7
+	father = tfw_lineofardanoril_014
+	mother = tfw_lineofheorwulf_014
 
 	trait = education_martial_4
 	trait = brave
@@ -8368,7 +8368,7 @@ lineheorwulf8 = {
 	}
 
 	7036.6.10 = {
-		add_spouse = linevaelthor7side1
+		add_spouse = tfw_lineofvaelthor_015
 	}
 
 	7084.11.22 = {
@@ -8376,15 +8376,15 @@ lineheorwulf8 = {
 	}
 }
 
-lineheorwulf8side1 = {
-	name = Hildric
+tfw_lineofheorwulf_019 = {
+	name = tfw_lineofheorwulf_019_name
 
 	dynasty = dynasty_heorwulf
 	religion = faith_forodain
 	culture = forodain
 
-	father = lineardanoril6side1
-	mother = lineheorwulf7
+	father = tfw_lineofardanoril_014
+	mother = tfw_lineofheorwulf_014
 
 	trait = education_stewardship_3
 	trait = brave

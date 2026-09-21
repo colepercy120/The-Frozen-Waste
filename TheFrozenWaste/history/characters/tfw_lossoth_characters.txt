@@ -5,8 +5,8 @@
 ############################################################
 
 ### c_rast_losnaeth_1 - ruler 1 (Kuusivaara)
-fc_rast_losnaeth_1_1 = {
-	name = Suvi
+tfw_lineoffc_kuusivaara_001 = {
+	name = tfw_lineoffc_kuusivaara_001_name
 	dynasty = dynasty_fc_kuusivaara
 	religion = faith_lossoth
 	culture = lossoth
@@ -21,7 +21,7 @@ fc_rast_losnaeth_1_1 = {
 		birth = yes
 	}
 	6683.4.22 = {
-		add_spouse = fc_rast_losnaeth_1_1_spouse
+		add_spouse = tfw_lineoffc_kuusivaara_002
 	}
 
 	6748.10.1 = {
@@ -31,8 +31,8 @@ fc_rast_losnaeth_1_1 = {
 	}
 }
 
-fc_rast_losnaeth_1_1_spouse = {
-	name = Suvi
+tfw_lineoffc_kuusivaara_002 = {
+	name = tfw_lineoffc_kuusivaara_002_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -52,14 +52,14 @@ fc_rast_losnaeth_1_1_spouse = {
 }
 
 ### c_rast_losnaeth_1 - ruler 2 (Kuusivaara)
-fc_rast_losnaeth_1_2 = {
-	name = Arijoutsi
+tfw_lineoffc_kuusivaara_003 = {
+	name = tfw_lineoffc_kuusivaara_003_name
 	dynasty = dynasty_fc_kuusivaara
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_rast_losnaeth_1_1
-	mother = fc_rast_losnaeth_1_1_spouse
+	father = tfw_lineoffc_kuusivaara_001
+	mother = tfw_lineoffc_kuusivaara_002
 
 	trait = honest
 	trait = humble
@@ -71,7 +71,7 @@ fc_rast_losnaeth_1_2 = {
 		birth = yes
 	}
 	6714.1.12 = {
-		add_spouse = fc_rast_losnaeth_1_2_spouse
+		add_spouse = tfw_lineoffc_kuusivaara_004
 	}
 
 	6783.4.16 = {
@@ -81,8 +81,8 @@ fc_rast_losnaeth_1_2 = {
 	}
 }
 
-fc_rast_losnaeth_1_2_spouse = {
-	name = Ilta
+tfw_lineoffc_kuusivaara_004 = {
+	name = tfw_lineoffc_kuusivaara_004_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -102,14 +102,14 @@ fc_rast_losnaeth_1_2_spouse = {
 }
 
 ### c_rast_losnaeth_1 - ruler 3 (Kuusivaara)
-fc_rast_losnaeth_1_3 = {
-	name = Vihavaino
+tfw_lineoffc_kuusivaara_005 = {
+	name = tfw_lineoffc_kuusivaara_005_name
 	dynasty = dynasty_fc_kuusivaara
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_rast_losnaeth_1_2
-	mother = fc_rast_losnaeth_1_2_spouse
+	father = tfw_lineoffc_kuusivaara_003
+	mother = tfw_lineoffc_kuusivaara_004
 
 	trait = stubborn
 	trait = content
@@ -121,7 +121,7 @@ fc_rast_losnaeth_1_3 = {
 		birth = yes
 	}
 	6739.4.24 = {
-		add_spouse = fc_rast_losnaeth_1_3_spouse
+		add_spouse = tfw_lineoffc_kuusivaara_006
 	}
 
 	6824.4.2 = {
@@ -131,8 +131,8 @@ fc_rast_losnaeth_1_3 = {
 	}
 }
 
-fc_rast_losnaeth_1_3_spouse = {
-	name = Suoma
+tfw_lineoffc_kuusivaara_006 = {
+	name = tfw_lineoffc_kuusivaara_006_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -152,8 +152,8 @@ fc_rast_losnaeth_1_3_spouse = {
 }
 
 ### c_rast_losnaeth_1 - ruler 4 (Huurrela)
-fc_rast_losnaeth_1_4 = {
-	name = Mesi
+tfw_lineoffc_huurrela_001 = {
+	name = tfw_lineoffc_huurrela_001_name
 	female = yes
 	dynasty = dynasty_fc_huurrela
 	religion = faith_lossoth
@@ -169,7 +169,7 @@ fc_rast_losnaeth_1_4 = {
 		birth = yes
 	}
 	6808.1.25 = {
-		add_spouse = fc_rast_losnaeth_1_4_spouse
+		add_spouse = tfw_lineoffc_huurrela_002
 	}
 
 	6865.10.4 = {
@@ -179,8 +179,8 @@ fc_rast_losnaeth_1_4 = {
 	}
 }
 
-fc_rast_losnaeth_1_4_spouse = {
-	name = Satatieto
+tfw_lineoffc_huurrela_002 = {
+	name = tfw_lineoffc_huurrela_002_name
 	religion = faith_lossoth
 	culture = lossoth
 
@@ -199,15 +199,15 @@ fc_rast_losnaeth_1_4_spouse = {
 }
 
 ### c_rast_losnaeth_1 - ruler 5 (Huurrela)
-fc_rast_losnaeth_1_5 = {
-	name = Alli
+tfw_lineoffc_huurrela_003 = {
+	name = tfw_lineoffc_huurrela_003_name
 	female = yes
 	dynasty = dynasty_fc_huurrela
 	religion = faith_lossoth
 	culture = lossoth
 
-	mother = fc_rast_losnaeth_1_4
-	father = fc_rast_losnaeth_1_4_spouse
+	mother = tfw_lineoffc_huurrela_001
+	father = tfw_lineoffc_huurrela_002
 
 	trait = content
 	trait = vengeful
@@ -219,7 +219,7 @@ fc_rast_losnaeth_1_5 = {
 		birth = yes
 	}
 	6835.1.13 = {
-		add_spouse = fc_rast_losnaeth_1_5_spouse
+		add_spouse = tfw_lineoffc_huurrela_004
 	}
 
 	6904.10.22 = {
@@ -229,8 +229,8 @@ fc_rast_losnaeth_1_5 = {
 	}
 }
 
-fc_rast_losnaeth_1_5_spouse = {
-	name = Venemies
+tfw_lineoffc_huurrela_004 = {
+	name = tfw_lineoffc_huurrela_004_name
 	religion = faith_lossoth
 	culture = lossoth
 
@@ -249,15 +249,15 @@ fc_rast_losnaeth_1_5_spouse = {
 }
 
 ### c_rast_losnaeth_1 - ruler 6 (Huurrela)
-fc_rast_losnaeth_1_6 = {
-	name = Leinikka
+tfw_lineoffc_huurrela_005 = {
+	name = tfw_lineoffc_huurrela_005_name
 	female = yes
 	dynasty = dynasty_fc_huurrela
 	religion = faith_lossoth
 	culture = lossoth
 
-	mother = fc_rast_losnaeth_1_5
-	father = fc_rast_losnaeth_1_5_spouse
+	mother = tfw_lineoffc_huurrela_003
+	father = tfw_lineoffc_huurrela_004
 
 	trait = brave
 	trait = humble
@@ -269,7 +269,7 @@ fc_rast_losnaeth_1_6 = {
 		birth = yes
 	}
 	6867.2.26 = {
-		add_spouse = fc_rast_losnaeth_1_6_spouse
+		add_spouse = tfw_lineoffc_huurrela_006
 	}
 
 	6938.3.18 = {
@@ -279,8 +279,8 @@ fc_rast_losnaeth_1_6 = {
 	}
 }
 
-fc_rast_losnaeth_1_6_spouse = {
-	name = Arvo
+tfw_lineoffc_huurrela_006 = {
+	name = tfw_lineoffc_huurrela_006_name
 	religion = faith_lossoth
 	culture = lossoth
 
@@ -299,15 +299,15 @@ fc_rast_losnaeth_1_6_spouse = {
 }
 
 ### c_rast_losnaeth_1 - ruler 7 (Huurrela)
-fc_rast_losnaeth_1_7 = {
-	name = Tuovi
+tfw_lineoffc_huurrela_007 = {
+	name = tfw_lineoffc_huurrela_007_name
 	female = yes
 	dynasty = dynasty_fc_huurrela
 	religion = faith_lossoth
 	culture = lossoth
 
-	mother = fc_rast_losnaeth_1_6
-	father = fc_rast_losnaeth_1_6_spouse
+	mother = tfw_lineoffc_huurrela_005
+	father = tfw_lineoffc_huurrela_006
 
 	trait = temperate
 	trait = gregarious
@@ -319,7 +319,7 @@ fc_rast_losnaeth_1_7 = {
 		birth = yes
 	}
 	6887.10.7 = {
-		add_spouse = fc_rast_losnaeth_1_7_spouse
+		add_spouse = tfw_lineoffc_huurrela_008
 	}
 
 	7103.3.15 = {
@@ -329,8 +329,8 @@ fc_rast_losnaeth_1_7 = {
 	}
 }
 
-fc_rast_losnaeth_1_7_spouse = {
-	name = Arvo
+tfw_lineoffc_huurrela_008 = {
+	name = tfw_lineoffc_huurrela_008_name
 	religion = faith_lossoth
 	culture = lossoth
 
@@ -349,8 +349,8 @@ fc_rast_losnaeth_1_7_spouse = {
 }
 
 ### c_rast_losnaeth_2 - ruler 1 (Jaaniemi)
-fc_rast_losnaeth_2_1 = {
-	name = Arvo
+tfw_lineoffc_jaaniemi_001 = {
+	name = tfw_lineoffc_jaaniemi_001_name
 	dynasty = dynasty_fc_jaaniemi
 	religion = faith_lossoth
 	culture = lossoth
@@ -365,7 +365,7 @@ fc_rast_losnaeth_2_1 = {
 		birth = yes
 	}
 	6695.1.10 = {
-		add_spouse = fc_rast_losnaeth_2_1_spouse
+		add_spouse = tfw_lineoffc_jaaniemi_002
 	}
 
 	6751.10.14 = {
@@ -375,8 +375,8 @@ fc_rast_losnaeth_2_1 = {
 	}
 }
 
-fc_rast_losnaeth_2_1_spouse = {
-	name = Suvi
+tfw_lineoffc_jaaniemi_002 = {
+	name = tfw_lineoffc_jaaniemi_002_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -396,14 +396,14 @@ fc_rast_losnaeth_2_1_spouse = {
 }
 
 ### c_rast_losnaeth_2 - ruler 2 (Jaaniemi)
-fc_rast_losnaeth_2_2 = {
-	name = Lempo
+tfw_lineoffc_jaaniemi_003 = {
+	name = tfw_lineoffc_jaaniemi_003_name
 	dynasty = dynasty_fc_jaaniemi
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_rast_losnaeth_2_1
-	mother = fc_rast_losnaeth_2_1_spouse
+	father = tfw_lineoffc_jaaniemi_001
+	mother = tfw_lineoffc_jaaniemi_002
 
 	trait = vengeful
 	trait = calm
@@ -415,7 +415,7 @@ fc_rast_losnaeth_2_2 = {
 		birth = yes
 	}
 	6722.8.16 = {
-		add_spouse = fc_rast_losnaeth_2_2_spouse
+		add_spouse = tfw_lineoffc_jaaniemi_004
 	}
 
 	6794.10.13 = {
@@ -425,8 +425,8 @@ fc_rast_losnaeth_2_2 = {
 	}
 }
 
-fc_rast_losnaeth_2_2_spouse = {
-	name = Vilja
+tfw_lineoffc_jaaniemi_004 = {
+	name = tfw_lineoffc_jaaniemi_004_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -446,15 +446,15 @@ fc_rast_losnaeth_2_2_spouse = {
 }
 
 ### c_rast_losnaeth_2 - ruler 3 (Jaaniemi)
-fc_rast_losnaeth_2_3 = {
-	name = Miela
+tfw_lineoffc_jaaniemi_005 = {
+	name = tfw_lineoffc_jaaniemi_005_name
 	female = yes
 	dynasty = dynasty_fc_jaaniemi
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_rast_losnaeth_2_2
-	mother = fc_rast_losnaeth_2_2_spouse
+	father = tfw_lineoffc_jaaniemi_003
+	mother = tfw_lineoffc_jaaniemi_004
 
 	trait = temperate
 	trait = brave
@@ -466,7 +466,7 @@ fc_rast_losnaeth_2_3 = {
 		birth = yes
 	}
 	6748.9.28 = {
-		add_spouse = fc_rast_losnaeth_2_3_spouse
+		add_spouse = tfw_lineoffc_jaaniemi_006
 	}
 
 	6830.5.8 = {
@@ -476,8 +476,8 @@ fc_rast_losnaeth_2_3 = {
 	}
 }
 
-fc_rast_losnaeth_2_3_spouse = {
-	name = Aikamieli
+tfw_lineoffc_jaaniemi_006 = {
+	name = tfw_lineoffc_jaaniemi_006_name
 	religion = faith_lossoth
 	culture = lossoth
 
@@ -496,14 +496,14 @@ fc_rast_losnaeth_2_3_spouse = {
 }
 
 ### c_rast_losnaeth_2 - ruler 4 (Jaaniemi)
-fc_rast_losnaeth_2_4 = {
-	name = Kalpa
+tfw_lineoffc_jaaniemi_007 = {
+	name = tfw_lineoffc_jaaniemi_007_name
 	dynasty = dynasty_fc_jaaniemi
 	religion = faith_lossoth
 	culture = lossoth
 
-	mother = fc_rast_losnaeth_2_3
-	father = fc_rast_losnaeth_2_3_spouse
+	mother = tfw_lineoffc_jaaniemi_005
+	father = tfw_lineoffc_jaaniemi_006
 
 	trait = impatient
 	trait = diligent
@@ -515,7 +515,7 @@ fc_rast_losnaeth_2_4 = {
 		birth = yes
 	}
 	6780.5.16 = {
-		add_spouse = fc_rast_losnaeth_2_4_spouse
+		add_spouse = tfw_lineoffc_jaaniemi_008
 	}
 
 	6871.2.5 = {
@@ -525,8 +525,8 @@ fc_rast_losnaeth_2_4 = {
 	}
 }
 
-fc_rast_losnaeth_2_4_spouse = {
-	name = Tuovi
+tfw_lineoffc_jaaniemi_008 = {
+	name = tfw_lineoffc_jaaniemi_008_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -546,8 +546,8 @@ fc_rast_losnaeth_2_4_spouse = {
 }
 
 ### c_rast_losnaeth_2 - ruler 5 (Sumikka)
-fc_rast_losnaeth_2_5 = {
-	name = Arijoutsi
+tfw_lineoffc_sumikka_001 = {
+	name = tfw_lineoffc_sumikka_001_name
 	dynasty = dynasty_fc_sumikka
 	religion = faith_lossoth
 	culture = lossoth
@@ -562,7 +562,7 @@ fc_rast_losnaeth_2_5 = {
 		birth = yes
 	}
 	6865.9.26 = {
-		add_spouse = fc_rast_losnaeth_2_5_spouse
+		add_spouse = tfw_lineoffc_sumikka_002
 	}
 
 	6918.5.18 = {
@@ -572,8 +572,8 @@ fc_rast_losnaeth_2_5 = {
 	}
 }
 
-fc_rast_losnaeth_2_5_spouse = {
-	name = Mahla
+tfw_lineoffc_sumikka_002 = {
+	name = tfw_lineoffc_sumikka_002_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -593,14 +593,14 @@ fc_rast_losnaeth_2_5_spouse = {
 }
 
 ### c_rast_losnaeth_2 - ruler 6 (Sumikka)
-fc_rast_losnaeth_2_6 = {
-	name = Satatieto
+tfw_lineoffc_sumikka_003 = {
+	name = tfw_lineoffc_sumikka_003_name
 	dynasty = dynasty_fc_sumikka
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_rast_losnaeth_2_5
-	mother = fc_rast_losnaeth_2_5_spouse
+	father = tfw_lineoffc_sumikka_001
+	mother = tfw_lineoffc_sumikka_002
 
 	trait = humble
 	trait = calm
@@ -612,7 +612,7 @@ fc_rast_losnaeth_2_6 = {
 		birth = yes
 	}
 	6884.10.28 = {
-		add_spouse = fc_rast_losnaeth_2_6_spouse
+		add_spouse = tfw_lineoffc_sumikka_004
 	}
 
 	6955.12.7 = {
@@ -622,8 +622,8 @@ fc_rast_losnaeth_2_6 = {
 	}
 }
 
-fc_rast_losnaeth_2_6_spouse = {
-	name = Mielikki
+tfw_lineoffc_sumikka_004 = {
+	name = tfw_lineoffc_sumikka_004_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -643,15 +643,15 @@ fc_rast_losnaeth_2_6_spouse = {
 }
 
 ### c_rast_losnaeth_2 - ruler 7 (Sumikka)
-fc_rast_losnaeth_2_7 = {
-	name = Suoma
+tfw_lineoffc_sumikka_005 = {
+	name = tfw_lineoffc_sumikka_005_name
 	female = yes
 	dynasty = dynasty_fc_sumikka
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_rast_losnaeth_2_6
-	mother = fc_rast_losnaeth_2_6_spouse
+	father = tfw_lineoffc_sumikka_003
+	mother = tfw_lineoffc_sumikka_004
 
 	trait = calm
 	trait = ambitious
@@ -663,7 +663,7 @@ fc_rast_losnaeth_2_7 = {
 		birth = yes
 	}
 	6911.2.18 = {
-		add_spouse = fc_rast_losnaeth_2_7_spouse
+		add_spouse = tfw_lineoffc_sumikka_006
 	}
 
 	7006.8.7 = {
@@ -673,8 +673,8 @@ fc_rast_losnaeth_2_7 = {
 	}
 }
 
-fc_rast_losnaeth_2_7_spouse = {
-	name = Leino
+tfw_lineoffc_sumikka_006 = {
+	name = tfw_lineoffc_sumikka_006_name
 	religion = faith_lossoth
 	culture = lossoth
 
@@ -693,14 +693,14 @@ fc_rast_losnaeth_2_7_spouse = {
 }
 
 ### c_rast_losnaeth_2 - ruler 8 (Sumikka)
-fc_rast_losnaeth_2_8 = {
-	name = Onni
+tfw_lineoffc_sumikka_007 = {
+	name = tfw_lineoffc_sumikka_007_name
 	dynasty = dynasty_fc_sumikka
 	religion = faith_lossoth
 	culture = lossoth
 
-	mother = fc_rast_losnaeth_2_7
-	father = fc_rast_losnaeth_2_7_spouse
+	mother = tfw_lineoffc_sumikka_005
+	father = tfw_lineoffc_sumikka_006
 
 	trait = patient
 	trait = diligent
@@ -712,7 +712,7 @@ fc_rast_losnaeth_2_8 = {
 		birth = yes
 	}
 	6944.9.22 = {
-		add_spouse = fc_rast_losnaeth_2_8_spouse
+		add_spouse = tfw_lineoffc_sumikka_008
 	}
 
 	7103.9.3 = {
@@ -722,8 +722,8 @@ fc_rast_losnaeth_2_8 = {
 	}
 }
 
-fc_rast_losnaeth_2_8_spouse = {
-	name = Maija
+tfw_lineoffc_sumikka_008 = {
+	name = tfw_lineoffc_sumikka_008_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -743,8 +743,8 @@ fc_rast_losnaeth_2_8_spouse = {
 }
 
 ### c_rast_losnaeth_3 - ruler 1 (Riekkola)
-fc_rast_losnaeth_3_1 = {
-	name = Leinikka
+tfw_lineoffc_riekkola_001 = {
+	name = tfw_lineoffc_riekkola_001_name
 	female = yes
 	dynasty = dynasty_fc_riekkola
 	religion = faith_lossoth
@@ -760,7 +760,7 @@ fc_rast_losnaeth_3_1 = {
 		birth = yes
 	}
 	6703.2.5 = {
-		add_spouse = fc_rast_losnaeth_3_1_spouse
+		add_spouse = tfw_lineoffc_riekkola_002
 	}
 
 	6770.7.4 = {
@@ -770,8 +770,8 @@ fc_rast_losnaeth_3_1 = {
 	}
 }
 
-fc_rast_losnaeth_3_1_spouse = {
-	name = Sampo
+tfw_lineoffc_riekkola_002 = {
+	name = tfw_lineoffc_riekkola_002_name
 	religion = faith_lossoth
 	culture = lossoth
 
@@ -790,15 +790,15 @@ fc_rast_losnaeth_3_1_spouse = {
 }
 
 ### c_rast_losnaeth_3 - ruler 2 (Riekkola)
-fc_rast_losnaeth_3_2 = {
-	name = Aamu
+tfw_lineoffc_riekkola_003 = {
+	name = tfw_lineoffc_riekkola_003_name
 	female = yes
 	dynasty = dynasty_fc_riekkola
 	religion = faith_lossoth
 	culture = lossoth
 
-	mother = fc_rast_losnaeth_3_1
-	father = fc_rast_losnaeth_3_1_spouse
+	mother = tfw_lineoffc_riekkola_001
+	father = tfw_lineoffc_riekkola_002
 
 	trait = gregarious
 	trait = trusting
@@ -810,7 +810,7 @@ fc_rast_losnaeth_3_2 = {
 		birth = yes
 	}
 	6728.4.15 = {
-		add_spouse = fc_rast_losnaeth_3_2_spouse
+		add_spouse = tfw_lineoffc_riekkola_004
 	}
 
 	6812.6.14 = {
@@ -820,8 +820,8 @@ fc_rast_losnaeth_3_2 = {
 	}
 }
 
-fc_rast_losnaeth_3_2_spouse = {
-	name = Tervahartia
+tfw_lineoffc_riekkola_004 = {
+	name = tfw_lineoffc_riekkola_004_name
 	religion = faith_lossoth
 	culture = lossoth
 
@@ -840,14 +840,14 @@ fc_rast_losnaeth_3_2_spouse = {
 }
 
 ### c_rast_losnaeth_3 - ruler 3 (Riekkola)
-fc_rast_losnaeth_3_3 = {
-	name = Osma
+tfw_lineoffc_riekkola_005 = {
+	name = tfw_lineoffc_riekkola_005_name
 	dynasty = dynasty_fc_riekkola
 	religion = faith_lossoth
 	culture = lossoth
 
-	mother = fc_rast_losnaeth_3_2
-	father = fc_rast_losnaeth_3_2_spouse
+	mother = tfw_lineoffc_riekkola_003
+	father = tfw_lineoffc_riekkola_004
 
 	trait = temperate
 	trait = diligent
@@ -859,7 +859,7 @@ fc_rast_losnaeth_3_3 = {
 		birth = yes
 	}
 	6752.8.22 = {
-		add_spouse = fc_rast_losnaeth_3_3_spouse
+		add_spouse = tfw_lineoffc_riekkola_006
 	}
 
 	6855.5.7 = {
@@ -869,8 +869,8 @@ fc_rast_losnaeth_3_3 = {
 	}
 }
 
-fc_rast_losnaeth_3_3_spouse = {
-	name = Suvi
+tfw_lineoffc_riekkola_006 = {
+	name = tfw_lineoffc_riekkola_006_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -890,8 +890,8 @@ fc_rast_losnaeth_3_3_spouse = {
 }
 
 ### c_rast_losnaeth_3 - ruler 4 (Vaskela)
-fc_rast_losnaeth_3_4 = {
-	name = Lempivaino
+tfw_lineoffc_vaskela_001 = {
+	name = tfw_lineoffc_vaskela_001_name
 	dynasty = dynasty_fc_vaskela
 	religion = faith_lossoth
 	culture = lossoth
@@ -906,7 +906,7 @@ fc_rast_losnaeth_3_4 = {
 		birth = yes
 	}
 	6848.11.12 = {
-		add_spouse = fc_rast_losnaeth_3_4_spouse
+		add_spouse = tfw_lineoffc_vaskela_002
 	}
 
 	6891.6.23 = {
@@ -916,8 +916,8 @@ fc_rast_losnaeth_3_4 = {
 	}
 }
 
-fc_rast_losnaeth_3_4_spouse = {
-	name = Tyyni
+tfw_lineoffc_vaskela_002 = {
+	name = tfw_lineoffc_vaskela_002_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -937,14 +937,14 @@ fc_rast_losnaeth_3_4_spouse = {
 }
 
 ### c_rast_losnaeth_3 - ruler 5 (Vaskela)
-fc_rast_losnaeth_3_5 = {
-	name = Rautio
+tfw_lineoffc_vaskela_003 = {
+	name = tfw_lineoffc_vaskela_003_name
 	dynasty = dynasty_fc_vaskela
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_rast_losnaeth_3_4
-	mother = fc_rast_losnaeth_3_4_spouse
+	father = tfw_lineoffc_vaskela_001
+	mother = tfw_lineoffc_vaskela_002
 
 	trait = zealous
 	trait = patient
@@ -956,7 +956,7 @@ fc_rast_losnaeth_3_5 = {
 		birth = yes
 	}
 	6875.10.17 = {
-		add_spouse = fc_rast_losnaeth_3_5_spouse
+		add_spouse = tfw_lineoffc_vaskela_004
 	}
 
 	6944.11.1 = {
@@ -966,8 +966,8 @@ fc_rast_losnaeth_3_5 = {
 	}
 }
 
-fc_rast_losnaeth_3_5_spouse = {
-	name = Miela
+tfw_lineoffc_vaskela_004 = {
+	name = tfw_lineoffc_vaskela_004_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -987,14 +987,14 @@ fc_rast_losnaeth_3_5_spouse = {
 }
 
 ### c_rast_losnaeth_3 - ruler 6 (Vaskela)
-fc_rast_losnaeth_3_6 = {
-	name = Miela
+tfw_lineoffc_vaskela_005 = {
+	name = tfw_lineoffc_vaskela_005_name
 	dynasty = dynasty_fc_vaskela
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_rast_losnaeth_3_5
-	mother = fc_rast_losnaeth_3_5_spouse
+	father = tfw_lineoffc_vaskela_003
+	mother = tfw_lineoffc_vaskela_004
 
 	trait = honest
 	trait = gregarious
@@ -1006,7 +1006,7 @@ fc_rast_losnaeth_3_6 = {
 		birth = yes
 	}
 	6897.9.19 = {
-		add_spouse = fc_rast_losnaeth_3_6_spouse
+		add_spouse = tfw_lineoffc_vaskela_006
 	}
 
 	6990.11.7 = {
@@ -1016,8 +1016,8 @@ fc_rast_losnaeth_3_6 = {
 	}
 }
 
-fc_rast_losnaeth_3_6_spouse = {
-	name = Lempi
+tfw_lineoffc_vaskela_006 = {
+	name = tfw_lineoffc_vaskela_006_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -1037,14 +1037,14 @@ fc_rast_losnaeth_3_6_spouse = {
 }
 
 ### c_rast_losnaeth_3 - ruler 7 (Vaskela)
-fc_rast_losnaeth_3_7 = {
-	name = Kalevi
+tfw_lineoffc_vaskela_007 = {
+	name = tfw_lineoffc_vaskela_007_name
 	dynasty = dynasty_fc_vaskela
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_rast_losnaeth_3_6
-	mother = fc_rast_losnaeth_3_6_spouse
+	father = tfw_lineoffc_vaskela_005
+	mother = tfw_lineoffc_vaskela_006
 
 	trait = honest
 	trait = zealous
@@ -1056,7 +1056,7 @@ fc_rast_losnaeth_3_7 = {
 		birth = yes
 	}
 	6925.4.3 = {
-		add_spouse = fc_rast_losnaeth_3_7_spouse
+		add_spouse = tfw_lineoffc_vaskela_008
 	}
 
 	7103.3.26 = {
@@ -1066,8 +1066,8 @@ fc_rast_losnaeth_3_7 = {
 	}
 }
 
-fc_rast_losnaeth_3_7_spouse = {
-	name = Mielikki
+tfw_lineoffc_vaskela_008 = {
+	name = tfw_lineoffc_vaskela_008_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -1087,8 +1087,8 @@ fc_rast_losnaeth_3_7_spouse = {
 }
 
 ### c_rast_losnaeth_4 - ruler 1 (Kivela)
-fc_rast_losnaeth_4_1 = {
-	name = Valto
+tfw_lineoffc_kivela_001 = {
+	name = tfw_lineoffc_kivela_001_name
 	dynasty = dynasty_fc_kivela
 	religion = faith_lossoth
 	culture = lossoth
@@ -1103,7 +1103,7 @@ fc_rast_losnaeth_4_1 = {
 		birth = yes
 	}
 	6712.5.7 = {
-		add_spouse = fc_rast_losnaeth_4_1_spouse
+		add_spouse = tfw_lineoffc_kivela_002
 	}
 
 	6773.8.23 = {
@@ -1113,8 +1113,8 @@ fc_rast_losnaeth_4_1 = {
 	}
 }
 
-fc_rast_losnaeth_4_1_spouse = {
-	name = Tuulikki
+tfw_lineoffc_kivela_002 = {
+	name = tfw_lineoffc_kivela_002_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -1134,15 +1134,15 @@ fc_rast_losnaeth_4_1_spouse = {
 }
 
 ### c_rast_losnaeth_4 - ruler 2 (Kivela)
-fc_rast_losnaeth_4_2 = {
-	name = Suvituuli
+tfw_lineoffc_kivela_003 = {
+	name = tfw_lineoffc_kivela_003_name
 	female = yes
 	dynasty = dynasty_fc_kivela
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_rast_losnaeth_4_1
-	mother = fc_rast_losnaeth_4_1_spouse
+	father = tfw_lineoffc_kivela_001
+	mother = tfw_lineoffc_kivela_002
 
 	trait = forgiving
 	trait = content
@@ -1154,7 +1154,7 @@ fc_rast_losnaeth_4_2 = {
 		birth = yes
 	}
 	6739.10.1 = {
-		add_spouse = fc_rast_losnaeth_4_2_spouse
+		add_spouse = tfw_lineoffc_kivela_004
 	}
 
 	6824.5.7 = {
@@ -1164,8 +1164,8 @@ fc_rast_losnaeth_4_2 = {
 	}
 }
 
-fc_rast_losnaeth_4_2_spouse = {
-	name = Yrjana
+tfw_lineoffc_kivela_004 = {
+	name = tfw_lineoffc_kivela_004_name
 	religion = faith_lossoth
 	culture = lossoth
 
@@ -1184,15 +1184,15 @@ fc_rast_losnaeth_4_2_spouse = {
 }
 
 ### c_rast_losnaeth_4 - ruler 3 (Kivela)
-fc_rast_losnaeth_4_3 = {
-	name = Terhi
+tfw_lineoffc_kivela_005 = {
+	name = tfw_lineoffc_kivela_005_name
 	female = yes
 	dynasty = dynasty_fc_kivela
 	religion = faith_lossoth
 	culture = lossoth
 
-	mother = fc_rast_losnaeth_4_2
-	father = fc_rast_losnaeth_4_2_spouse
+	mother = tfw_lineoffc_kivela_003
+	father = tfw_lineoffc_kivela_004
 
 	trait = ambitious
 	trait = vengeful
@@ -1204,7 +1204,7 @@ fc_rast_losnaeth_4_3 = {
 		birth = yes
 	}
 	6766.2.12 = {
-		add_spouse = fc_rast_losnaeth_4_3_spouse
+		add_spouse = tfw_lineoffc_kivela_006
 	}
 
 	6869.9.26 = {
@@ -1214,8 +1214,8 @@ fc_rast_losnaeth_4_3 = {
 	}
 }
 
-fc_rast_losnaeth_4_3_spouse = {
-	name = Lauri
+tfw_lineoffc_kivela_006 = {
+	name = tfw_lineoffc_kivela_006_name
 	religion = faith_lossoth
 	culture = lossoth
 
@@ -1234,14 +1234,14 @@ fc_rast_losnaeth_4_3_spouse = {
 }
 
 ### c_rast_losnaeth_4 - ruler 4 (Kivela)
-fc_rast_losnaeth_4_4 = {
-	name = Venemies
+tfw_lineoffc_kivela_007 = {
+	name = tfw_lineoffc_kivela_007_name
 	dynasty = dynasty_fc_kivela
 	religion = faith_lossoth
 	culture = lossoth
 
-	mother = fc_rast_losnaeth_4_3
-	father = fc_rast_losnaeth_4_3_spouse
+	mother = tfw_lineoffc_kivela_005
+	father = tfw_lineoffc_kivela_006
 
 	trait = vengeful
 	trait = gregarious
@@ -1253,7 +1253,7 @@ fc_rast_losnaeth_4_4 = {
 		birth = yes
 	}
 	6799.10.28 = {
-		add_spouse = fc_rast_losnaeth_4_4_spouse
+		add_spouse = tfw_lineoffc_kivela_008
 	}
 
 	6919.9.5 = {
@@ -1263,8 +1263,8 @@ fc_rast_losnaeth_4_4 = {
 	}
 }
 
-fc_rast_losnaeth_4_4_spouse = {
-	name = Terhi
+tfw_lineoffc_kivela_008 = {
+	name = tfw_lineoffc_kivela_008_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -1284,8 +1284,8 @@ fc_rast_losnaeth_4_4_spouse = {
 }
 
 ### c_rast_losnaeth_4 - ruler 5 (Tuiskula)
-fc_rast_losnaeth_4_5 = {
-	name = Kaukovalta
+tfw_lineoffc_tuiskula_001 = {
+	name = tfw_lineoffc_tuiskula_001_name
 	dynasty = dynasty_fc_tuiskula
 	religion = faith_lossoth
 	culture = lossoth
@@ -1300,7 +1300,7 @@ fc_rast_losnaeth_4_5 = {
 		birth = yes
 	}
 	6899.2.15 = {
-		add_spouse = fc_rast_losnaeth_4_5_spouse
+		add_spouse = tfw_lineoffc_tuiskula_002
 	}
 
 	6962.6.28 = {
@@ -1310,8 +1310,8 @@ fc_rast_losnaeth_4_5 = {
 	}
 }
 
-fc_rast_losnaeth_4_5_spouse = {
-	name = Toivikki
+tfw_lineoffc_tuiskula_002 = {
+	name = tfw_lineoffc_tuiskula_002_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -1331,14 +1331,14 @@ fc_rast_losnaeth_4_5_spouse = {
 }
 
 ### c_rast_losnaeth_4 - ruler 6 (Tuiskula)
-fc_rast_losnaeth_4_6 = {
-	name = Tyyni
+tfw_lineoffc_tuiskula_003 = {
+	name = tfw_lineoffc_tuiskula_003_name
 	dynasty = dynasty_fc_tuiskula
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_rast_losnaeth_4_5
-	mother = fc_rast_losnaeth_4_5_spouse
+	father = tfw_lineoffc_tuiskula_001
+	mother = tfw_lineoffc_tuiskula_002
 
 	trait = calm
 	trait = humble
@@ -1350,7 +1350,7 @@ fc_rast_losnaeth_4_6 = {
 		birth = yes
 	}
 	6922.12.15 = {
-		add_spouse = fc_rast_losnaeth_4_6_spouse
+		add_spouse = tfw_lineoffc_tuiskula_004
 	}
 
 	6999.12.28 = {
@@ -1360,8 +1360,8 @@ fc_rast_losnaeth_4_6 = {
 	}
 }
 
-fc_rast_losnaeth_4_6_spouse = {
-	name = Pihla
+tfw_lineoffc_tuiskula_004 = {
+	name = tfw_lineoffc_tuiskula_004_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -1381,14 +1381,14 @@ fc_rast_losnaeth_4_6_spouse = {
 }
 
 ### c_rast_losnaeth_4 - ruler 7 (Tuiskula)
-fc_rast_losnaeth_4_7 = {
-	name = Satatieto
+tfw_lineoffc_tuiskula_005 = {
+	name = tfw_lineoffc_tuiskula_005_name
 	dynasty = dynasty_fc_tuiskula
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_rast_losnaeth_4_6
-	mother = fc_rast_losnaeth_4_6_spouse
+	father = tfw_lineoffc_tuiskula_003
+	mother = tfw_lineoffc_tuiskula_004
 
 	trait = zealous
 	trait = stubborn
@@ -1400,7 +1400,7 @@ fc_rast_losnaeth_4_7 = {
 		birth = yes
 	}
 	6947.3.5 = {
-		add_spouse = fc_rast_losnaeth_4_7_spouse
+		add_spouse = tfw_lineoffc_tuiskula_006
 	}
 
 	7050.7.10 = {
@@ -1410,8 +1410,8 @@ fc_rast_losnaeth_4_7 = {
 	}
 }
 
-fc_rast_losnaeth_4_7_spouse = {
-	name = Miela
+tfw_lineoffc_tuiskula_006 = {
+	name = tfw_lineoffc_tuiskula_006_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -1431,14 +1431,14 @@ fc_rast_losnaeth_4_7_spouse = {
 }
 
 ### c_rast_losnaeth_4 - ruler 8 (Tuiskula)
-fc_rast_losnaeth_4_8 = {
-	name = Yrjana
+tfw_lineoffc_tuiskula_007 = {
+	name = tfw_lineoffc_tuiskula_007_name
 	dynasty = dynasty_fc_tuiskula
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_rast_losnaeth_4_7
-	mother = fc_rast_losnaeth_4_7_spouse
+	father = tfw_lineoffc_tuiskula_005
+	mother = tfw_lineoffc_tuiskula_006
 
 	trait = vengeful
 	trait = patient
@@ -1450,7 +1450,7 @@ fc_rast_losnaeth_4_8 = {
 		birth = yes
 	}
 	6977.7.12 = {
-		add_spouse = fc_rast_losnaeth_4_8_spouse
+		add_spouse = tfw_lineoffc_tuiskula_008
 	}
 
 	7103.9.8 = {
@@ -1460,8 +1460,8 @@ fc_rast_losnaeth_4_8 = {
 	}
 }
 
-fc_rast_losnaeth_4_8_spouse = {
-	name = Lauha
+tfw_lineoffc_tuiskula_008 = {
+	name = tfw_lineoffc_tuiskula_008_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -1481,8 +1481,8 @@ fc_rast_losnaeth_4_8_spouse = {
 }
 
 ### c_rast_losnaeth_5 - ruler 1 (Hallava)
-fc_rast_losnaeth_5_1 = {
-	name = Ahti
+tfw_lineoffc_hallava_001 = {
+	name = tfw_lineoffc_hallava_001_name
 	dynasty = dynasty_fc_hallava
 	religion = faith_lossoth
 	culture = lossoth
@@ -1497,7 +1497,7 @@ fc_rast_losnaeth_5_1 = {
 		birth = yes
 	}
 	6692.1.8 = {
-		add_spouse = fc_rast_losnaeth_5_1_spouse
+		add_spouse = tfw_lineoffc_hallava_002
 	}
 
 	6747.12.10 = {
@@ -1507,8 +1507,8 @@ fc_rast_losnaeth_5_1 = {
 	}
 }
 
-fc_rast_losnaeth_5_1_spouse = {
-	name = Pilvi
+tfw_lineoffc_hallava_002 = {
+	name = tfw_lineoffc_hallava_002_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -1528,15 +1528,15 @@ fc_rast_losnaeth_5_1_spouse = {
 }
 
 ### c_rast_losnaeth_5 - ruler 2 (Hallava)
-fc_rast_losnaeth_5_2 = {
-	name = Leinikka
+tfw_lineoffc_hallava_003 = {
+	name = tfw_lineoffc_hallava_003_name
 	female = yes
 	dynasty = dynasty_fc_hallava
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_rast_losnaeth_5_1
-	mother = fc_rast_losnaeth_5_1_spouse
+	father = tfw_lineoffc_hallava_001
+	mother = tfw_lineoffc_hallava_002
 
 	trait = honest
 	trait = calm
@@ -1548,7 +1548,7 @@ fc_rast_losnaeth_5_2 = {
 		birth = yes
 	}
 	6725.5.22 = {
-		add_spouse = fc_rast_losnaeth_5_2_spouse
+		add_spouse = tfw_lineoffc_hallava_004
 	}
 
 	6783.6.8 = {
@@ -1558,8 +1558,8 @@ fc_rast_losnaeth_5_2 = {
 	}
 }
 
-fc_rast_losnaeth_5_2_spouse = {
-	name = Ilmalempi
+tfw_lineoffc_hallava_004 = {
+	name = tfw_lineoffc_hallava_004_name
 	religion = faith_lossoth
 	culture = lossoth
 
@@ -1578,14 +1578,14 @@ fc_rast_losnaeth_5_2_spouse = {
 }
 
 ### c_rast_losnaeth_5 - ruler 3 (Hallava)
-fc_rast_losnaeth_5_3 = {
-	name = Kalervo
+tfw_lineoffc_hallava_005 = {
+	name = tfw_lineoffc_hallava_005_name
 	dynasty = dynasty_fc_hallava
 	religion = faith_lossoth
 	culture = lossoth
 
-	mother = fc_rast_losnaeth_5_2
-	father = fc_rast_losnaeth_5_2_spouse
+	mother = tfw_lineoffc_hallava_003
+	father = tfw_lineoffc_hallava_004
 
 	trait = trusting
 	trait = brave
@@ -1597,7 +1597,7 @@ fc_rast_losnaeth_5_3 = {
 		birth = yes
 	}
 	6752.5.8 = {
-		add_spouse = fc_rast_losnaeth_5_3_spouse
+		add_spouse = tfw_lineoffc_hallava_006
 	}
 
 	6835.5.23 = {
@@ -1607,8 +1607,8 @@ fc_rast_losnaeth_5_3 = {
 	}
 }
 
-fc_rast_losnaeth_5_3_spouse = {
-	name = Lemmikki
+tfw_lineoffc_hallava_006 = {
+	name = tfw_lineoffc_hallava_006_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -1628,8 +1628,8 @@ fc_rast_losnaeth_5_3_spouse = {
 }
 
 ### c_rast_losnaeth_5 - ruler 4 (Merituuli)
-fc_rast_losnaeth_5_4 = {
-	name = Ilmalempi
+tfw_lineoffc_merituuli_001 = {
+	name = tfw_lineoffc_merituuli_001_name
 	dynasty = dynasty_fc_merituuli
 	religion = faith_lossoth
 	culture = lossoth
@@ -1644,7 +1644,7 @@ fc_rast_losnaeth_5_4 = {
 		birth = yes
 	}
 	6819.5.9 = {
-		add_spouse = fc_rast_losnaeth_5_4_spouse
+		add_spouse = tfw_lineoffc_merituuli_002
 	}
 
 	6882.2.14 = {
@@ -1654,8 +1654,8 @@ fc_rast_losnaeth_5_4 = {
 	}
 }
 
-fc_rast_losnaeth_5_4_spouse = {
-	name = Terhi
+tfw_lineoffc_merituuli_002 = {
+	name = tfw_lineoffc_merituuli_002_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -1675,14 +1675,14 @@ fc_rast_losnaeth_5_4_spouse = {
 }
 
 ### c_rast_losnaeth_5 - ruler 5 (Merituuli)
-fc_rast_losnaeth_5_5 = {
-	name = Aimo
+tfw_lineoffc_merituuli_003 = {
+	name = tfw_lineoffc_merituuli_003_name
 	dynasty = dynasty_fc_merituuli
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_rast_losnaeth_5_4
-	mother = fc_rast_losnaeth_5_4_spouse
+	father = tfw_lineoffc_merituuli_001
+	mother = tfw_lineoffc_merituuli_002
 
 	trait = patient
 	trait = diligent
@@ -1694,7 +1694,7 @@ fc_rast_losnaeth_5_5 = {
 		birth = yes
 	}
 	6842.3.23 = {
-		add_spouse = fc_rast_losnaeth_5_5_spouse
+		add_spouse = tfw_lineoffc_merituuli_004
 	}
 
 	6932.1.21 = {
@@ -1704,8 +1704,8 @@ fc_rast_losnaeth_5_5 = {
 	}
 }
 
-fc_rast_losnaeth_5_5_spouse = {
-	name = Taimi
+tfw_lineoffc_merituuli_004 = {
+	name = tfw_lineoffc_merituuli_004_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -1725,15 +1725,15 @@ fc_rast_losnaeth_5_5_spouse = {
 }
 
 ### c_rast_losnaeth_5 - ruler 6 (Merituuli)
-fc_rast_losnaeth_5_6 = {
-	name = Aili
+tfw_lineoffc_merituuli_005 = {
+	name = tfw_lineoffc_merituuli_005_name
 	female = yes
 	dynasty = dynasty_fc_merituuli
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_rast_losnaeth_5_5
-	mother = fc_rast_losnaeth_5_5_spouse
+	father = tfw_lineoffc_merituuli_003
+	mother = tfw_lineoffc_merituuli_004
 
 	trait = diligent
 	trait = gregarious
@@ -1745,7 +1745,7 @@ fc_rast_losnaeth_5_6 = {
 		birth = yes
 	}
 	6872.6.23 = {
-		add_spouse = fc_rast_losnaeth_5_6_spouse
+		add_spouse = tfw_lineoffc_merituuli_006
 	}
 
 	6980.11.20 = {
@@ -1755,8 +1755,8 @@ fc_rast_losnaeth_5_6 = {
 	}
 }
 
-fc_rast_losnaeth_5_6_spouse = {
-	name = Arvo
+tfw_lineoffc_merituuli_006 = {
+	name = tfw_lineoffc_merituuli_006_name
 	religion = faith_lossoth
 	culture = lossoth
 
@@ -1775,14 +1775,14 @@ fc_rast_losnaeth_5_6_spouse = {
 }
 
 ### c_rast_losnaeth_5 - ruler 7 (Merituuli)
-fc_rast_losnaeth_5_7 = {
-	name = Venemies
+tfw_lineoffc_merituuli_007 = {
+	name = tfw_lineoffc_merituuli_007_name
 	dynasty = dynasty_fc_merituuli
 	religion = faith_lossoth
 	culture = lossoth
 
-	mother = fc_rast_losnaeth_5_6
-	father = fc_rast_losnaeth_5_6_spouse
+	mother = tfw_lineoffc_merituuli_005
+	father = tfw_lineoffc_merituuli_006
 
 	trait = brave
 	trait = temperate
@@ -1794,7 +1794,7 @@ fc_rast_losnaeth_5_7 = {
 		birth = yes
 	}
 	6897.12.23 = {
-		add_spouse = fc_rast_losnaeth_5_7_spouse
+		add_spouse = tfw_lineoffc_merituuli_008
 	}
 
 	7103.3.9 = {
@@ -1804,8 +1804,8 @@ fc_rast_losnaeth_5_7 = {
 	}
 }
 
-fc_rast_losnaeth_5_7_spouse = {
-	name = Pilvi
+tfw_lineoffc_merituuli_008 = {
+	name = tfw_lineoffc_merituuli_008_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -1825,8 +1825,8 @@ fc_rast_losnaeth_5_7_spouse = {
 }
 
 ### c_rast_losnaeth_6 - ruler 1 (Routala)
-fc_rast_losnaeth_6_1 = {
-	name = Lempivaino
+tfw_lineoffc_routala_001 = {
+	name = tfw_lineoffc_routala_001_name
 	dynasty = dynasty_fc_routala
 	religion = faith_lossoth
 	culture = lossoth
@@ -1841,7 +1841,7 @@ fc_rast_losnaeth_6_1 = {
 		birth = yes
 	}
 	6716.5.17 = {
-		add_spouse = fc_rast_losnaeth_6_1_spouse
+		add_spouse = tfw_lineoffc_routala_002
 	}
 
 	6784.1.24 = {
@@ -1851,8 +1851,8 @@ fc_rast_losnaeth_6_1 = {
 	}
 }
 
-fc_rast_losnaeth_6_1_spouse = {
-	name = Terhi
+tfw_lineoffc_routala_002 = {
+	name = tfw_lineoffc_routala_002_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -1872,14 +1872,14 @@ fc_rast_losnaeth_6_1_spouse = {
 }
 
 ### c_rast_losnaeth_6 - ruler 2 (Routala)
-fc_rast_losnaeth_6_2 = {
-	name = Aikamieli
+tfw_lineoffc_routala_003 = {
+	name = tfw_lineoffc_routala_003_name
 	dynasty = dynasty_fc_routala
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_rast_losnaeth_6_1
-	mother = fc_rast_losnaeth_6_1_spouse
+	father = tfw_lineoffc_routala_001
+	mother = tfw_lineoffc_routala_002
 
 	trait = forgiving
 	trait = humble
@@ -1891,7 +1891,7 @@ fc_rast_losnaeth_6_2 = {
 		birth = yes
 	}
 	6743.5.9 = {
-		add_spouse = fc_rast_losnaeth_6_2_spouse
+		add_spouse = tfw_lineoffc_routala_004
 	}
 
 	6837.12.22 = {
@@ -1901,8 +1901,8 @@ fc_rast_losnaeth_6_2 = {
 	}
 }
 
-fc_rast_losnaeth_6_2_spouse = {
-	name = Suvi
+tfw_lineoffc_routala_004 = {
+	name = tfw_lineoffc_routala_004_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -1922,15 +1922,15 @@ fc_rast_losnaeth_6_2_spouse = {
 }
 
 ### c_rast_losnaeth_6 - ruler 3 (Routala)
-fc_rast_losnaeth_6_3 = {
-	name = Miela
+tfw_lineoffc_routala_005 = {
+	name = tfw_lineoffc_routala_005_name
 	female = yes
 	dynasty = dynasty_fc_routala
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_rast_losnaeth_6_2
-	mother = fc_rast_losnaeth_6_2_spouse
+	father = tfw_lineoffc_routala_003
+	mother = tfw_lineoffc_routala_004
 
 	trait = content
 	trait = trusting
@@ -1942,7 +1942,7 @@ fc_rast_losnaeth_6_3 = {
 		birth = yes
 	}
 	6772.8.5 = {
-		add_spouse = fc_rast_losnaeth_6_3_spouse
+		add_spouse = tfw_lineoffc_routala_006
 	}
 
 	6871.3.19 = {
@@ -1952,8 +1952,8 @@ fc_rast_losnaeth_6_3 = {
 	}
 }
 
-fc_rast_losnaeth_6_3_spouse = {
-	name = Rautio
+tfw_lineoffc_routala_006 = {
+	name = tfw_lineoffc_routala_006_name
 	religion = faith_lossoth
 	culture = lossoth
 
@@ -1972,14 +1972,14 @@ fc_rast_losnaeth_6_3_spouse = {
 }
 
 ### c_rast_losnaeth_6 - ruler 4 (Routala)
-fc_rast_losnaeth_6_4 = {
-	name = Kaukolempi
+tfw_lineoffc_routala_007 = {
+	name = tfw_lineoffc_routala_007_name
 	dynasty = dynasty_fc_routala
 	religion = faith_lossoth
 	culture = lossoth
 
-	mother = fc_rast_losnaeth_6_3
-	father = fc_rast_losnaeth_6_3_spouse
+	mother = tfw_lineoffc_routala_005
+	father = tfw_lineoffc_routala_006
 
 	trait = honest
 	trait = vengeful
@@ -1991,7 +1991,7 @@ fc_rast_losnaeth_6_4 = {
 		birth = yes
 	}
 	6800.8.24 = {
-		add_spouse = fc_rast_losnaeth_6_4_spouse
+		add_spouse = tfw_lineoffc_routala_008
 	}
 
 	6914.11.25 = {
@@ -2001,8 +2001,8 @@ fc_rast_losnaeth_6_4 = {
 	}
 }
 
-fc_rast_losnaeth_6_4_spouse = {
-	name = Aamu
+tfw_lineoffc_routala_008 = {
+	name = tfw_lineoffc_routala_008_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -2022,8 +2022,8 @@ fc_rast_losnaeth_6_4_spouse = {
 }
 
 ### c_rast_losnaeth_6 - ruler 5 (Saarikko)
-fc_rast_losnaeth_6_5 = {
-	name = Sisko
+tfw_lineoffc_saarikko_001 = {
+	name = tfw_lineoffc_saarikko_001_name
 	female = yes
 	dynasty = dynasty_fc_saarikko
 	religion = faith_lossoth
@@ -2039,7 +2039,7 @@ fc_rast_losnaeth_6_5 = {
 		birth = yes
 	}
 	6903.8.4 = {
-		add_spouse = fc_rast_losnaeth_6_5_spouse
+		add_spouse = tfw_lineoffc_saarikko_002
 	}
 
 	6962.11.20 = {
@@ -2049,8 +2049,8 @@ fc_rast_losnaeth_6_5 = {
 	}
 }
 
-fc_rast_losnaeth_6_5_spouse = {
-	name = Lempo
+tfw_lineoffc_saarikko_002 = {
+	name = tfw_lineoffc_saarikko_002_name
 	religion = faith_lossoth
 	culture = lossoth
 
@@ -2069,14 +2069,14 @@ fc_rast_losnaeth_6_5_spouse = {
 }
 
 ### c_rast_losnaeth_6 - ruler 6 (Saarikko)
-fc_rast_losnaeth_6_6 = {
-	name = Aimo
+tfw_lineoffc_saarikko_003 = {
+	name = tfw_lineoffc_saarikko_003_name
 	dynasty = dynasty_fc_saarikko
 	religion = faith_lossoth
 	culture = lossoth
 
-	mother = fc_rast_losnaeth_6_5
-	father = fc_rast_losnaeth_6_5_spouse
+	mother = tfw_lineoffc_saarikko_001
+	father = tfw_lineoffc_saarikko_002
 
 	trait = calm
 	trait = brave
@@ -2088,7 +2088,7 @@ fc_rast_losnaeth_6_6 = {
 		birth = yes
 	}
 	6925.4.23 = {
-		add_spouse = fc_rast_losnaeth_6_6_spouse
+		add_spouse = tfw_lineoffc_saarikko_004
 	}
 
 	7002.7.5 = {
@@ -2098,8 +2098,8 @@ fc_rast_losnaeth_6_6 = {
 	}
 }
 
-fc_rast_losnaeth_6_6_spouse = {
-	name = Ilta
+tfw_lineoffc_saarikko_004 = {
+	name = tfw_lineoffc_saarikko_004_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -2119,15 +2119,15 @@ fc_rast_losnaeth_6_6_spouse = {
 }
 
 ### c_rast_losnaeth_6 - ruler 7 (Saarikko)
-fc_rast_losnaeth_6_7 = {
-	name = Vanamo
+tfw_lineoffc_saarikko_005 = {
+	name = tfw_lineoffc_saarikko_005_name
 	female = yes
 	dynasty = dynasty_fc_saarikko
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_rast_losnaeth_6_6
-	mother = fc_rast_losnaeth_6_6_spouse
+	father = tfw_lineoffc_saarikko_003
+	mother = tfw_lineoffc_saarikko_004
 
 	trait = diligent
 	trait = content
@@ -2139,7 +2139,7 @@ fc_rast_losnaeth_6_7 = {
 		birth = yes
 	}
 	6951.6.16 = {
-		add_spouse = fc_rast_losnaeth_6_7_spouse
+		add_spouse = tfw_lineoffc_saarikko_006
 	}
 
 	7058.10.3 = {
@@ -2149,8 +2149,8 @@ fc_rast_losnaeth_6_7 = {
 	}
 }
 
-fc_rast_losnaeth_6_7_spouse = {
-	name = Ilmalempi
+tfw_lineoffc_saarikko_006 = {
+	name = tfw_lineoffc_saarikko_006_name
 	religion = faith_lossoth
 	culture = lossoth
 
@@ -2169,14 +2169,14 @@ fc_rast_losnaeth_6_7_spouse = {
 }
 
 ### c_rast_losnaeth_6 - ruler 8 (Saarikko)
-fc_rast_losnaeth_6_8 = {
-	name = Tapio
+tfw_lineoffc_saarikko_007 = {
+	name = tfw_lineoffc_saarikko_007_name
 	dynasty = dynasty_fc_saarikko
 	religion = faith_lossoth
 	culture = lossoth
 
-	mother = fc_rast_losnaeth_6_7
-	father = fc_rast_losnaeth_6_7_spouse
+	mother = tfw_lineoffc_saarikko_005
+	father = tfw_lineoffc_saarikko_006
 
 	trait = temperate
 	trait = vengeful
@@ -2188,7 +2188,7 @@ fc_rast_losnaeth_6_8 = {
 		birth = yes
 	}
 	6973.2.14 = {
-		add_spouse = fc_rast_losnaeth_6_8_spouse
+		add_spouse = tfw_lineoffc_saarikko_008
 	}
 
 	7103.6.7 = {
@@ -2198,8 +2198,8 @@ fc_rast_losnaeth_6_8 = {
 	}
 }
 
-fc_rast_losnaeth_6_8_spouse = {
-	name = Lyylikki
+tfw_lineoffc_saarikko_008 = {
+	name = tfw_lineoffc_saarikko_008_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -2219,8 +2219,8 @@ fc_rast_losnaeth_6_8_spouse = {
 }
 
 ### c_ailindalf_12 - ruler 1 (Lumivaara)
-fc_ailindalf_12_1 = {
-	name = Osma
+tfw_lineoffc_lumivaara_001 = {
+	name = tfw_lineoffc_lumivaara_001_name
 	dynasty = dynasty_fc_lumivaara
 	religion = faith_lossoth
 	culture = lossoth
@@ -2235,7 +2235,7 @@ fc_ailindalf_12_1 = {
 		birth = yes
 	}
 	6702.10.16 = {
-		add_spouse = fc_ailindalf_12_1_spouse
+		add_spouse = tfw_lineoffc_lumivaara_002
 	}
 
 	6748.5.24 = {
@@ -2245,8 +2245,8 @@ fc_ailindalf_12_1 = {
 	}
 }
 
-fc_ailindalf_12_1_spouse = {
-	name = Mesi
+tfw_lineoffc_lumivaara_002 = {
+	name = tfw_lineoffc_lumivaara_002_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -2266,14 +2266,14 @@ fc_ailindalf_12_1_spouse = {
 }
 
 ### c_ailindalf_12 - ruler 2 (Lumivaara)
-fc_ailindalf_12_2 = {
-	name = Ilmalempi
+tfw_lineoffc_lumivaara_003 = {
+	name = tfw_lineoffc_lumivaara_003_name
 	dynasty = dynasty_fc_lumivaara
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_ailindalf_12_1
-	mother = fc_ailindalf_12_1_spouse
+	father = tfw_lineoffc_lumivaara_001
+	mother = tfw_lineoffc_lumivaara_002
 
 	trait = calm
 	trait = content
@@ -2285,7 +2285,7 @@ fc_ailindalf_12_2 = {
 		birth = yes
 	}
 	6734.11.28 = {
-		add_spouse = fc_ailindalf_12_2_spouse
+		add_spouse = tfw_lineoffc_lumivaara_004
 	}
 
 	6784.5.17 = {
@@ -2295,8 +2295,8 @@ fc_ailindalf_12_2 = {
 	}
 }
 
-fc_ailindalf_12_2_spouse = {
-	name = Rauha
+tfw_lineoffc_lumivaara_004 = {
+	name = tfw_lineoffc_lumivaara_004_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -2316,14 +2316,14 @@ fc_ailindalf_12_2_spouse = {
 }
 
 ### c_ailindalf_12 - ruler 3 (Lumivaara)
-fc_ailindalf_12_3 = {
-	name = Kalervo
+tfw_lineoffc_lumivaara_005 = {
+	name = tfw_lineoffc_lumivaara_005_name
 	dynasty = dynasty_fc_lumivaara
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_ailindalf_12_2
-	mother = fc_ailindalf_12_2_spouse
+	father = tfw_lineoffc_lumivaara_003
+	mother = tfw_lineoffc_lumivaara_004
 
 	trait = vengeful
 	trait = temperate
@@ -2335,7 +2335,7 @@ fc_ailindalf_12_3 = {
 		birth = yes
 	}
 	6762.11.3 = {
-		add_spouse = fc_ailindalf_12_3_spouse
+		add_spouse = tfw_lineoffc_lumivaara_006
 	}
 
 	6823.2.23 = {
@@ -2345,8 +2345,8 @@ fc_ailindalf_12_3 = {
 	}
 }
 
-fc_ailindalf_12_3_spouse = {
-	name = Hopea
+tfw_lineoffc_lumivaara_006 = {
+	name = tfw_lineoffc_lumivaara_006_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -2366,8 +2366,8 @@ fc_ailindalf_12_3_spouse = {
 }
 
 ### c_ailindalf_12 - ruler 4 (Pakkala)
-fc_ailindalf_12_4 = {
-	name = Suvi
+tfw_lineoffc_pakkala_001 = {
+	name = tfw_lineoffc_pakkala_001_name
 	dynasty = dynasty_fc_pakkala
 	religion = faith_lossoth
 	culture = lossoth
@@ -2382,7 +2382,7 @@ fc_ailindalf_12_4 = {
 		birth = yes
 	}
 	6814.7.11 = {
-		add_spouse = fc_ailindalf_12_4_spouse
+		add_spouse = tfw_lineoffc_pakkala_002
 	}
 
 	6863.6.5 = {
@@ -2392,8 +2392,8 @@ fc_ailindalf_12_4 = {
 	}
 }
 
-fc_ailindalf_12_4_spouse = {
-	name = Suoma
+tfw_lineoffc_pakkala_002 = {
+	name = tfw_lineoffc_pakkala_002_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -2413,14 +2413,14 @@ fc_ailindalf_12_4_spouse = {
 }
 
 ### c_ailindalf_12 - ruler 5 (Pakkala)
-fc_ailindalf_12_5 = {
-	name = Sampo
+tfw_lineoffc_pakkala_003 = {
+	name = tfw_lineoffc_pakkala_003_name
 	dynasty = dynasty_fc_pakkala
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_ailindalf_12_4
-	mother = fc_ailindalf_12_4_spouse
+	father = tfw_lineoffc_pakkala_001
+	mother = tfw_lineoffc_pakkala_002
 
 	trait = ambitious
 	trait = gregarious
@@ -2432,7 +2432,7 @@ fc_ailindalf_12_5 = {
 		birth = yes
 	}
 	6835.1.27 = {
-		add_spouse = fc_ailindalf_12_5_spouse
+		add_spouse = tfw_lineoffc_pakkala_004
 	}
 
 	6897.12.27 = {
@@ -2442,8 +2442,8 @@ fc_ailindalf_12_5 = {
 	}
 }
 
-fc_ailindalf_12_5_spouse = {
-	name = Tyyni
+tfw_lineoffc_pakkala_004 = {
+	name = tfw_lineoffc_pakkala_004_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -2463,15 +2463,15 @@ fc_ailindalf_12_5_spouse = {
 }
 
 ### c_ailindalf_12 - ruler 6 (Pakkala)
-fc_ailindalf_12_6 = {
-	name = Pilvi
+tfw_lineoffc_pakkala_005 = {
+	name = tfw_lineoffc_pakkala_005_name
 	female = yes
 	dynasty = dynasty_fc_pakkala
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_ailindalf_12_5
-	mother = fc_ailindalf_12_5_spouse
+	father = tfw_lineoffc_pakkala_003
+	mother = tfw_lineoffc_pakkala_004
 
 	trait = honest
 	trait = trusting
@@ -2483,7 +2483,7 @@ fc_ailindalf_12_6 = {
 		birth = yes
 	}
 	6860.7.27 = {
-		add_spouse = fc_ailindalf_12_6_spouse
+		add_spouse = tfw_lineoffc_pakkala_006
 	}
 
 	6949.8.11 = {
@@ -2493,8 +2493,8 @@ fc_ailindalf_12_6 = {
 	}
 }
 
-fc_ailindalf_12_6_spouse = {
-	name = Osma
+tfw_lineoffc_pakkala_006 = {
+	name = tfw_lineoffc_pakkala_006_name
 	religion = faith_lossoth
 	culture = lossoth
 
@@ -2513,14 +2513,14 @@ fc_ailindalf_12_6_spouse = {
 }
 
 ### c_ailindalf_12 - ruler 7 (Pakkala)
-fc_ailindalf_12_7 = {
-	name = Osma
+tfw_lineoffc_pakkala_007 = {
+	name = tfw_lineoffc_pakkala_007_name
 	dynasty = dynasty_fc_pakkala
 	religion = faith_lossoth
 	culture = lossoth
 
-	mother = fc_ailindalf_12_6
-	father = fc_ailindalf_12_6_spouse
+	mother = tfw_lineoffc_pakkala_005
+	father = tfw_lineoffc_pakkala_006
 
 	trait = zealous
 	trait = ambitious
@@ -2532,7 +2532,7 @@ fc_ailindalf_12_7 = {
 		birth = yes
 	}
 	6881.8.24 = {
-		add_spouse = fc_ailindalf_12_7_spouse
+		add_spouse = tfw_lineoffc_pakkala_008
 	}
 
 	7103.6.3 = {
@@ -2542,8 +2542,8 @@ fc_ailindalf_12_7 = {
 	}
 }
 
-fc_ailindalf_12_7_spouse = {
-	name = Suoma
+tfw_lineoffc_pakkala_008 = {
+	name = tfw_lineoffc_pakkala_008_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -2563,8 +2563,8 @@ fc_ailindalf_12_7_spouse = {
 }
 
 ### c_ailindalf_13 - ruler 1 (Jokela)
-fc_ailindalf_13_1 = {
-	name = Leino
+tfw_lineoffc_jokela_001 = {
+	name = tfw_lineoffc_jokela_001_name
 	dynasty = dynasty_fc_jokela
 	religion = faith_lossoth
 	culture = lossoth
@@ -2579,7 +2579,7 @@ fc_ailindalf_13_1 = {
 		birth = yes
 	}
 	6699.4.17 = {
-		add_spouse = fc_ailindalf_13_1_spouse
+		add_spouse = tfw_lineoffc_jokela_002
 	}
 
 	6747.8.8 = {
@@ -2589,8 +2589,8 @@ fc_ailindalf_13_1 = {
 	}
 }
 
-fc_ailindalf_13_1_spouse = {
-	name = Lyylikki
+tfw_lineoffc_jokela_002 = {
+	name = tfw_lineoffc_jokela_002_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -2610,14 +2610,14 @@ fc_ailindalf_13_1_spouse = {
 }
 
 ### c_ailindalf_13 - ruler 2 (Jokela)
-fc_ailindalf_13_2 = {
-	name = Venemies
+tfw_lineoffc_jokela_003 = {
+	name = tfw_lineoffc_jokela_003_name
 	dynasty = dynasty_fc_jokela
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_ailindalf_13_1
-	mother = fc_ailindalf_13_1_spouse
+	father = tfw_lineoffc_jokela_001
+	mother = tfw_lineoffc_jokela_002
 
 	trait = honest
 	trait = humble
@@ -2629,7 +2629,7 @@ fc_ailindalf_13_2 = {
 		birth = yes
 	}
 	6730.1.7 = {
-		add_spouse = fc_ailindalf_13_2_spouse
+		add_spouse = tfw_lineoffc_jokela_004
 	}
 
 	6792.4.15 = {
@@ -2639,8 +2639,8 @@ fc_ailindalf_13_2 = {
 	}
 }
 
-fc_ailindalf_13_2_spouse = {
-	name = Pilvi
+tfw_lineoffc_jokela_004 = {
+	name = tfw_lineoffc_jokela_004_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -2660,14 +2660,14 @@ fc_ailindalf_13_2_spouse = {
 }
 
 ### c_ailindalf_13 - ruler 3 (Jokela)
-fc_ailindalf_13_3 = {
-	name = Tyyni
+tfw_lineoffc_jokela_005 = {
+	name = tfw_lineoffc_jokela_005_name
 	dynasty = dynasty_fc_jokela
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_ailindalf_13_2
-	mother = fc_ailindalf_13_2_spouse
+	father = tfw_lineoffc_jokela_003
+	mother = tfw_lineoffc_jokela_004
 
 	trait = gregarious
 	trait = calm
@@ -2679,7 +2679,7 @@ fc_ailindalf_13_3 = {
 		birth = yes
 	}
 	6754.6.23 = {
-		add_spouse = fc_ailindalf_13_3_spouse
+		add_spouse = tfw_lineoffc_jokela_006
 	}
 
 	6827.4.4 = {
@@ -2689,8 +2689,8 @@ fc_ailindalf_13_3 = {
 	}
 }
 
-fc_ailindalf_13_3_spouse = {
-	name = Taimi
+tfw_lineoffc_jokela_006 = {
+	name = tfw_lineoffc_jokela_006_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -2710,14 +2710,14 @@ fc_ailindalf_13_3_spouse = {
 }
 
 ### c_ailindalf_13 - ruler 4 (Jokela)
-fc_ailindalf_13_4 = {
-	name = Suvi
+tfw_lineoffc_jokela_007 = {
+	name = tfw_lineoffc_jokela_007_name
 	dynasty = dynasty_fc_jokela
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_ailindalf_13_3
-	mother = fc_ailindalf_13_3_spouse
+	father = tfw_lineoffc_jokela_005
+	mother = tfw_lineoffc_jokela_006
 
 	trait = humble
 	trait = temperate
@@ -2729,7 +2729,7 @@ fc_ailindalf_13_4 = {
 		birth = yes
 	}
 	6781.12.12 = {
-		add_spouse = fc_ailindalf_13_4_spouse
+		add_spouse = tfw_lineoffc_jokela_008
 	}
 
 	6872.9.26 = {
@@ -2739,8 +2739,8 @@ fc_ailindalf_13_4 = {
 	}
 }
 
-fc_ailindalf_13_4_spouse = {
-	name = Airikka
+tfw_lineoffc_jokela_008 = {
+	name = tfw_lineoffc_jokela_008_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -2760,8 +2760,8 @@ fc_ailindalf_13_4_spouse = {
 }
 
 ### c_ailindalf_13 - ruler 5 (Naskali)
-fc_ailindalf_13_5 = {
-	name = Lemmikki
+tfw_lineoffc_naskali_001 = {
+	name = tfw_lineoffc_naskali_001_name
 	female = yes
 	dynasty = dynasty_fc_naskali
 	religion = faith_lossoth
@@ -2777,7 +2777,7 @@ fc_ailindalf_13_5 = {
 		birth = yes
 	}
 	6865.12.13 = {
-		add_spouse = fc_ailindalf_13_5_spouse
+		add_spouse = tfw_lineoffc_naskali_002
 	}
 
 	6918.1.5 = {
@@ -2787,8 +2787,8 @@ fc_ailindalf_13_5 = {
 	}
 }
 
-fc_ailindalf_13_5_spouse = {
-	name = Kaukolempi
+tfw_lineoffc_naskali_002 = {
+	name = tfw_lineoffc_naskali_002_name
 	religion = faith_lossoth
 	culture = lossoth
 
@@ -2807,15 +2807,15 @@ fc_ailindalf_13_5_spouse = {
 }
 
 ### c_ailindalf_13 - ruler 6 (Naskali)
-fc_ailindalf_13_6 = {
-	name = Tuulikki
+tfw_lineoffc_naskali_003 = {
+	name = tfw_lineoffc_naskali_003_name
 	female = yes
 	dynasty = dynasty_fc_naskali
 	religion = faith_lossoth
 	culture = lossoth
 
-	mother = fc_ailindalf_13_5
-	father = fc_ailindalf_13_5_spouse
+	mother = tfw_lineoffc_naskali_001
+	father = tfw_lineoffc_naskali_002
 
 	trait = zealous
 	trait = content
@@ -2827,7 +2827,7 @@ fc_ailindalf_13_6 = {
 		birth = yes
 	}
 	6895.3.23 = {
-		add_spouse = fc_ailindalf_13_6_spouse
+		add_spouse = tfw_lineoffc_naskali_004
 	}
 
 	6969.5.12 = {
@@ -2837,8 +2837,8 @@ fc_ailindalf_13_6 = {
 	}
 }
 
-fc_ailindalf_13_6_spouse = {
-	name = Mielitoivo
+tfw_lineoffc_naskali_004 = {
+	name = tfw_lineoffc_naskali_004_name
 	religion = faith_lossoth
 	culture = lossoth
 
@@ -2857,15 +2857,15 @@ fc_ailindalf_13_6_spouse = {
 }
 
 ### c_ailindalf_13 - ruler 7 (Naskali)
-fc_ailindalf_13_7 = {
-	name = Tyyne
+tfw_lineoffc_naskali_005 = {
+	name = tfw_lineoffc_naskali_005_name
 	female = yes
 	dynasty = dynasty_fc_naskali
 	religion = faith_lossoth
 	culture = lossoth
 
-	mother = fc_ailindalf_13_6
-	father = fc_ailindalf_13_6_spouse
+	mother = tfw_lineoffc_naskali_003
+	father = tfw_lineoffc_naskali_004
 
 	trait = honest
 	trait = brave
@@ -2877,7 +2877,7 @@ fc_ailindalf_13_7 = {
 		birth = yes
 	}
 	6927.12.14 = {
-		add_spouse = fc_ailindalf_13_7_spouse
+		add_spouse = tfw_lineoffc_naskali_006
 	}
 
 	7005.5.4 = {
@@ -2887,8 +2887,8 @@ fc_ailindalf_13_7 = {
 	}
 }
 
-fc_ailindalf_13_7_spouse = {
-	name = Kultavaino
+tfw_lineoffc_naskali_006 = {
+	name = tfw_lineoffc_naskali_006_name
 	religion = faith_lossoth
 	culture = lossoth
 
@@ -2907,14 +2907,14 @@ fc_ailindalf_13_7_spouse = {
 }
 
 ### c_ailindalf_13 - ruler 8 (Naskali)
-fc_ailindalf_13_8 = {
-	name = Vanamo
+tfw_lineoffc_naskali_007 = {
+	name = tfw_lineoffc_naskali_007_name
 	dynasty = dynasty_fc_naskali
 	religion = faith_lossoth
 	culture = lossoth
 
-	mother = fc_ailindalf_13_7
-	father = fc_ailindalf_13_7_spouse
+	mother = tfw_lineoffc_naskali_005
+	father = tfw_lineoffc_naskali_006
 
 	trait = trusting
 	trait = content
@@ -2926,7 +2926,7 @@ fc_ailindalf_13_8 = {
 		birth = yes
 	}
 	6956.11.6 = {
-		add_spouse = fc_ailindalf_13_8_spouse
+		add_spouse = tfw_lineoffc_naskali_008
 	}
 
 	7103.9.17 = {
@@ -2936,8 +2936,8 @@ fc_ailindalf_13_8 = {
 	}
 }
 
-fc_ailindalf_13_8_spouse = {
-	name = Lempi
+tfw_lineoffc_naskali_008 = {
+	name = tfw_lineoffc_naskali_008_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -2957,8 +2957,8 @@ fc_ailindalf_13_8_spouse = {
 }
 
 ### c_ailindalf_14 - ruler 1 (Ketola)
-fc_ailindalf_14_1 = {
-	name = Vanamo
+tfw_lineoffc_ketola_001 = {
+	name = tfw_lineoffc_ketola_001_name
 	dynasty = dynasty_fc_ketola
 	religion = faith_lossoth
 	culture = lossoth
@@ -2973,7 +2973,7 @@ fc_ailindalf_14_1 = {
 		birth = yes
 	}
 	6698.12.4 = {
-		add_spouse = fc_ailindalf_14_1_spouse
+		add_spouse = tfw_lineoffc_ketola_002
 	}
 
 	6766.2.15 = {
@@ -2983,8 +2983,8 @@ fc_ailindalf_14_1 = {
 	}
 }
 
-fc_ailindalf_14_1_spouse = {
-	name = Aamu
+tfw_lineoffc_ketola_002 = {
+	name = tfw_lineoffc_ketola_002_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -3004,15 +3004,15 @@ fc_ailindalf_14_1_spouse = {
 }
 
 ### c_ailindalf_14 - ruler 2 (Ketola)
-fc_ailindalf_14_2 = {
-	name = Aino
+tfw_lineoffc_ketola_003 = {
+	name = tfw_lineoffc_ketola_003_name
 	female = yes
 	dynasty = dynasty_fc_ketola
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_ailindalf_14_1
-	mother = fc_ailindalf_14_1_spouse
+	father = tfw_lineoffc_ketola_001
+	mother = tfw_lineoffc_ketola_002
 
 	trait = honest
 	trait = impatient
@@ -3024,7 +3024,7 @@ fc_ailindalf_14_2 = {
 		birth = yes
 	}
 	6726.9.7 = {
-		add_spouse = fc_ailindalf_14_2_spouse
+		add_spouse = tfw_lineoffc_ketola_004
 	}
 
 	6809.3.4 = {
@@ -3034,8 +3034,8 @@ fc_ailindalf_14_2 = {
 	}
 }
 
-fc_ailindalf_14_2_spouse = {
-	name = Mielitoivo
+tfw_lineoffc_ketola_004 = {
+	name = tfw_lineoffc_ketola_004_name
 	religion = faith_lossoth
 	culture = lossoth
 
@@ -3054,15 +3054,15 @@ fc_ailindalf_14_2_spouse = {
 }
 
 ### c_ailindalf_14 - ruler 3 (Ketola)
-fc_ailindalf_14_3 = {
-	name = Vilja
+tfw_lineoffc_ketola_005 = {
+	name = tfw_lineoffc_ketola_005_name
 	female = yes
 	dynasty = dynasty_fc_ketola
 	religion = faith_lossoth
 	culture = lossoth
 
-	mother = fc_ailindalf_14_2
-	father = fc_ailindalf_14_2_spouse
+	mother = tfw_lineoffc_ketola_003
+	father = tfw_lineoffc_ketola_004
 
 	trait = impatient
 	trait = content
@@ -3074,7 +3074,7 @@ fc_ailindalf_14_3 = {
 		birth = yes
 	}
 	6755.7.16 = {
-		add_spouse = fc_ailindalf_14_3_spouse
+		add_spouse = tfw_lineoffc_ketola_006
 	}
 
 	6864.1.25 = {
@@ -3084,8 +3084,8 @@ fc_ailindalf_14_3 = {
 	}
 }
 
-fc_ailindalf_14_3_spouse = {
-	name = Rautio
+tfw_lineoffc_ketola_006 = {
+	name = tfw_lineoffc_ketola_006_name
 	religion = faith_lossoth
 	culture = lossoth
 
@@ -3104,8 +3104,8 @@ fc_ailindalf_14_3_spouse = {
 }
 
 ### c_ailindalf_14 - ruler 4 (Talas)
-fc_ailindalf_14_4 = {
-	name = Tyyni
+tfw_lineoffc_talas_001 = {
+	name = tfw_lineoffc_talas_001_name
 	dynasty = dynasty_fc_talas
 	religion = faith_lossoth
 	culture = lossoth
@@ -3120,7 +3120,7 @@ fc_ailindalf_14_4 = {
 		birth = yes
 	}
 	6855.4.24 = {
-		add_spouse = fc_ailindalf_14_4_spouse
+		add_spouse = tfw_lineoffc_talas_002
 	}
 
 	6912.8.18 = {
@@ -3130,8 +3130,8 @@ fc_ailindalf_14_4 = {
 	}
 }
 
-fc_ailindalf_14_4_spouse = {
-	name = Kivutar
+tfw_lineoffc_talas_002 = {
+	name = tfw_lineoffc_talas_002_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -3151,14 +3151,14 @@ fc_ailindalf_14_4_spouse = {
 }
 
 ### c_ailindalf_14 - ruler 5 (Talas)
-fc_ailindalf_14_5 = {
-	name = Vihavaino
+tfw_lineoffc_talas_003 = {
+	name = tfw_lineoffc_talas_003_name
 	dynasty = dynasty_fc_talas
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_ailindalf_14_4
-	mother = fc_ailindalf_14_4_spouse
+	father = tfw_lineoffc_talas_001
+	mother = tfw_lineoffc_talas_002
 
 	trait = diligent
 	trait = brave
@@ -3170,7 +3170,7 @@ fc_ailindalf_14_5 = {
 		birth = yes
 	}
 	6883.1.5 = {
-		add_spouse = fc_ailindalf_14_5_spouse
+		add_spouse = tfw_lineoffc_talas_004
 	}
 
 	6962.5.15 = {
@@ -3180,8 +3180,8 @@ fc_ailindalf_14_5 = {
 	}
 }
 
-fc_ailindalf_14_5_spouse = {
-	name = Kanerva
+tfw_lineoffc_talas_004 = {
+	name = tfw_lineoffc_talas_004_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -3201,14 +3201,14 @@ fc_ailindalf_14_5_spouse = {
 }
 
 ### c_ailindalf_14 - ruler 6 (Talas)
-fc_ailindalf_14_6 = {
-	name = Suvi
+tfw_lineoffc_talas_005 = {
+	name = tfw_lineoffc_talas_005_name
 	dynasty = dynasty_fc_talas
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_ailindalf_14_5
-	mother = fc_ailindalf_14_5_spouse
+	father = tfw_lineoffc_talas_003
+	mother = tfw_lineoffc_talas_004
 
 	trait = ambitious
 	trait = vengeful
@@ -3220,7 +3220,7 @@ fc_ailindalf_14_6 = {
 		birth = yes
 	}
 	6913.10.21 = {
-		add_spouse = fc_ailindalf_14_6_spouse
+		add_spouse = tfw_lineoffc_talas_006
 	}
 
 	7016.10.24 = {
@@ -3230,8 +3230,8 @@ fc_ailindalf_14_6 = {
 	}
 }
 
-fc_ailindalf_14_6_spouse = {
-	name = Alli
+tfw_lineoffc_talas_006 = {
+	name = tfw_lineoffc_talas_006_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -3251,14 +3251,14 @@ fc_ailindalf_14_6_spouse = {
 }
 
 ### c_ailindalf_14 - ruler 7 (Talas)
-fc_ailindalf_14_7 = {
-	name = Utujoutsi
+tfw_lineoffc_talas_007 = {
+	name = tfw_lineoffc_talas_007_name
 	dynasty = dynasty_fc_talas
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_ailindalf_14_6
-	mother = fc_ailindalf_14_6_spouse
+	father = tfw_lineoffc_talas_005
+	mother = tfw_lineoffc_talas_006
 
 	trait = content
 	trait = diligent
@@ -3270,7 +3270,7 @@ fc_ailindalf_14_7 = {
 		birth = yes
 	}
 	6941.6.17 = {
-		add_spouse = fc_ailindalf_14_7_spouse
+		add_spouse = tfw_lineoffc_talas_008
 	}
 
 	7103.6.21 = {
@@ -3280,8 +3280,8 @@ fc_ailindalf_14_7 = {
 	}
 }
 
-fc_ailindalf_14_7_spouse = {
-	name = Airikka
+tfw_lineoffc_talas_008 = {
+	name = tfw_lineoffc_talas_008_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -3301,8 +3301,8 @@ fc_ailindalf_14_7_spouse = {
 }
 
 ### c_ailindalf_15 - ruler 1 (Aarnio)
-fc_ailindalf_15_1 = {
-	name = Tyyni
+tfw_lineoffc_aarnio_001 = {
+	name = tfw_lineoffc_aarnio_001_name
 	dynasty = dynasty_fc_aarnio
 	religion = faith_lossoth
 	culture = lossoth
@@ -3317,7 +3317,7 @@ fc_ailindalf_15_1 = {
 		birth = yes
 	}
 	6702.7.11 = {
-		add_spouse = fc_ailindalf_15_1_spouse
+		add_spouse = tfw_lineoffc_aarnio_002
 	}
 
 	6769.9.10 = {
@@ -3327,8 +3327,8 @@ fc_ailindalf_15_1 = {
 	}
 }
 
-fc_ailindalf_15_1_spouse = {
-	name = Toivikki
+tfw_lineoffc_aarnio_002 = {
+	name = tfw_lineoffc_aarnio_002_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -3348,14 +3348,14 @@ fc_ailindalf_15_1_spouse = {
 }
 
 ### c_ailindalf_15 - ruler 2 (Aarnio)
-fc_ailindalf_15_2 = {
-	name = Osma
+tfw_lineoffc_aarnio_003 = {
+	name = tfw_lineoffc_aarnio_003_name
 	dynasty = dynasty_fc_aarnio
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_ailindalf_15_1
-	mother = fc_ailindalf_15_1_spouse
+	father = tfw_lineoffc_aarnio_001
+	mother = tfw_lineoffc_aarnio_002
 
 	trait = diligent
 	trait = zealous
@@ -3367,7 +3367,7 @@ fc_ailindalf_15_2 = {
 		birth = yes
 	}
 	6732.8.19 = {
-		add_spouse = fc_ailindalf_15_2_spouse
+		add_spouse = tfw_lineoffc_aarnio_004
 	}
 
 	6803.3.10 = {
@@ -3377,8 +3377,8 @@ fc_ailindalf_15_2 = {
 	}
 }
 
-fc_ailindalf_15_2_spouse = {
-	name = Mielikki
+tfw_lineoffc_aarnio_004 = {
+	name = tfw_lineoffc_aarnio_004_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -3398,14 +3398,14 @@ fc_ailindalf_15_2_spouse = {
 }
 
 ### c_ailindalf_15 - ruler 3 (Aarnio)
-fc_ailindalf_15_3 = {
-	name = Osma
+tfw_lineoffc_aarnio_005 = {
+	name = tfw_lineoffc_aarnio_005_name
 	dynasty = dynasty_fc_aarnio
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_ailindalf_15_2
-	mother = fc_ailindalf_15_2_spouse
+	father = tfw_lineoffc_aarnio_003
+	mother = tfw_lineoffc_aarnio_004
 
 	trait = ambitious
 	trait = humble
@@ -3417,7 +3417,7 @@ fc_ailindalf_15_3 = {
 		birth = yes
 	}
 	6761.10.12 = {
-		add_spouse = fc_ailindalf_15_3_spouse
+		add_spouse = tfw_lineoffc_aarnio_006
 	}
 
 	6857.7.7 = {
@@ -3427,8 +3427,8 @@ fc_ailindalf_15_3 = {
 	}
 }
 
-fc_ailindalf_15_3_spouse = {
-	name = Suoma
+tfw_lineoffc_aarnio_006 = {
+	name = tfw_lineoffc_aarnio_006_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -3448,14 +3448,14 @@ fc_ailindalf_15_3_spouse = {
 }
 
 ### c_ailindalf_15 - ruler 4 (Aarnio)
-fc_ailindalf_15_4 = {
-	name = Sampo
+tfw_lineoffc_aarnio_007 = {
+	name = tfw_lineoffc_aarnio_007_name
 	dynasty = dynasty_fc_aarnio
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_ailindalf_15_3
-	mother = fc_ailindalf_15_3_spouse
+	father = tfw_lineoffc_aarnio_005
+	mother = tfw_lineoffc_aarnio_006
 
 	trait = forgiving
 	trait = brave
@@ -3467,7 +3467,7 @@ fc_ailindalf_15_4 = {
 		birth = yes
 	}
 	6789.10.3 = {
-		add_spouse = fc_ailindalf_15_4_spouse
+		add_spouse = tfw_lineoffc_aarnio_008
 	}
 
 	6907.3.26 = {
@@ -3477,8 +3477,8 @@ fc_ailindalf_15_4 = {
 	}
 }
 
-fc_ailindalf_15_4_spouse = {
-	name = Ilta
+tfw_lineoffc_aarnio_008 = {
+	name = tfw_lineoffc_aarnio_008_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -3498,8 +3498,8 @@ fc_ailindalf_15_4_spouse = {
 }
 
 ### c_ailindalf_15 - ruler 5 (Kuurala)
-fc_ailindalf_15_5 = {
-	name = Ilmalempi
+tfw_lineoffc_kuurala_001 = {
+	name = tfw_lineoffc_kuurala_001_name
 	dynasty = dynasty_fc_kuurala
 	religion = faith_lossoth
 	culture = lossoth
@@ -3514,7 +3514,7 @@ fc_ailindalf_15_5 = {
 		birth = yes
 	}
 	6900.7.27 = {
-		add_spouse = fc_ailindalf_15_5_spouse
+		add_spouse = tfw_lineoffc_kuurala_002
 	}
 
 	6949.1.27 = {
@@ -3524,8 +3524,8 @@ fc_ailindalf_15_5 = {
 	}
 }
 
-fc_ailindalf_15_5_spouse = {
-	name = Alli
+tfw_lineoffc_kuurala_002 = {
+	name = tfw_lineoffc_kuurala_002_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -3545,14 +3545,14 @@ fc_ailindalf_15_5_spouse = {
 }
 
 ### c_ailindalf_15 - ruler 6 (Kuurala)
-fc_ailindalf_15_6 = {
-	name = Osmo
+tfw_lineoffc_kuurala_003 = {
+	name = tfw_lineoffc_kuurala_003_name
 	dynasty = dynasty_fc_kuurala
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_ailindalf_15_5
-	mother = fc_ailindalf_15_5_spouse
+	father = tfw_lineoffc_kuurala_001
+	mother = tfw_lineoffc_kuurala_002
 
 	trait = trusting
 	trait = humble
@@ -3564,7 +3564,7 @@ fc_ailindalf_15_6 = {
 		birth = yes
 	}
 	6926.5.12 = {
-		add_spouse = fc_ailindalf_15_6_spouse
+		add_spouse = tfw_lineoffc_kuurala_004
 	}
 
 	6996.12.2 = {
@@ -3574,8 +3574,8 @@ fc_ailindalf_15_6 = {
 	}
 }
 
-fc_ailindalf_15_6_spouse = {
-	name = Aino
+tfw_lineoffc_kuurala_004 = {
+	name = tfw_lineoffc_kuurala_004_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -3595,14 +3595,14 @@ fc_ailindalf_15_6_spouse = {
 }
 
 ### c_ailindalf_15 - ruler 7 (Kuurala)
-fc_ailindalf_15_7 = {
-	name = Kaukolempi
+tfw_lineoffc_kuurala_005 = {
+	name = tfw_lineoffc_kuurala_005_name
 	dynasty = dynasty_fc_kuurala
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_ailindalf_15_6
-	mother = fc_ailindalf_15_6_spouse
+	father = tfw_lineoffc_kuurala_003
+	mother = tfw_lineoffc_kuurala_004
 
 	trait = temperate
 	trait = calm
@@ -3614,7 +3614,7 @@ fc_ailindalf_15_7 = {
 		birth = yes
 	}
 	6954.10.11 = {
-		add_spouse = fc_ailindalf_15_7_spouse
+		add_spouse = tfw_lineoffc_kuurala_006
 	}
 
 	7043.4.28 = {
@@ -3624,8 +3624,8 @@ fc_ailindalf_15_7 = {
 	}
 }
 
-fc_ailindalf_15_7_spouse = {
-	name = Lauha
+tfw_lineoffc_kuurala_006 = {
+	name = tfw_lineoffc_kuurala_006_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -3645,14 +3645,14 @@ fc_ailindalf_15_7_spouse = {
 }
 
 ### c_ailindalf_15 - ruler 8 (Kuurala)
-fc_ailindalf_15_8 = {
-	name = Tyyni
+tfw_lineoffc_kuurala_007 = {
+	name = tfw_lineoffc_kuurala_007_name
 	dynasty = dynasty_fc_kuurala
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_ailindalf_15_7
-	mother = fc_ailindalf_15_7_spouse
+	father = tfw_lineoffc_kuurala_005
+	mother = tfw_lineoffc_kuurala_006
 
 	trait = vengeful
 	trait = diligent
@@ -3664,7 +3664,7 @@ fc_ailindalf_15_8 = {
 		birth = yes
 	}
 	6987.3.21 = {
-		add_spouse = fc_ailindalf_15_8_spouse
+		add_spouse = tfw_lineoffc_kuurala_008
 	}
 
 	7103.6.18 = {
@@ -3674,8 +3674,8 @@ fc_ailindalf_15_8 = {
 	}
 }
 
-fc_ailindalf_15_8_spouse = {
-	name = Airikka
+tfw_lineoffc_kuurala_008 = {
+	name = tfw_lineoffc_kuurala_008_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -3695,8 +3695,8 @@ fc_ailindalf_15_8_spouse = {
 }
 
 ### c_everdalf_4 - ruler 1 (Kaarnio)
-fc_everdalf_4_1 = {
-	name = Vilja
+tfw_lineoffc_kaarnio_001 = {
+	name = tfw_lineoffc_kaarnio_001_name
 	female = yes
 	dynasty = dynasty_fc_kaarnio
 	religion = faith_lossoth
@@ -3712,7 +3712,7 @@ fc_everdalf_4_1 = {
 		birth = yes
 	}
 	6709.4.15 = {
-		add_spouse = fc_everdalf_4_1_spouse
+		add_spouse = tfw_lineoffc_kaarnio_002
 	}
 
 	6762.7.20 = {
@@ -3722,8 +3722,8 @@ fc_everdalf_4_1 = {
 	}
 }
 
-fc_everdalf_4_1_spouse = {
-	name = Tyyni
+tfw_lineoffc_kaarnio_002 = {
+	name = tfw_lineoffc_kaarnio_002_name
 	religion = faith_lossoth
 	culture = lossoth
 
@@ -3742,14 +3742,14 @@ fc_everdalf_4_1_spouse = {
 }
 
 ### c_everdalf_4 - ruler 2 (Kaarnio)
-fc_everdalf_4_2 = {
-	name = Yrjana
+tfw_lineoffc_kaarnio_003 = {
+	name = tfw_lineoffc_kaarnio_003_name
 	dynasty = dynasty_fc_kaarnio
 	religion = faith_lossoth
 	culture = lossoth
 
-	mother = fc_everdalf_4_1
-	father = fc_everdalf_4_1_spouse
+	mother = tfw_lineoffc_kaarnio_001
+	father = tfw_lineoffc_kaarnio_002
 
 	trait = calm
 	trait = patient
@@ -3761,7 +3761,7 @@ fc_everdalf_4_2 = {
 		birth = yes
 	}
 	6735.5.1 = {
-		add_spouse = fc_everdalf_4_2_spouse
+		add_spouse = tfw_lineoffc_kaarnio_004
 	}
 
 	6813.9.7 = {
@@ -3771,8 +3771,8 @@ fc_everdalf_4_2 = {
 	}
 }
 
-fc_everdalf_4_2_spouse = {
-	name = Hopea
+tfw_lineoffc_kaarnio_004 = {
+	name = tfw_lineoffc_kaarnio_004_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -3792,14 +3792,14 @@ fc_everdalf_4_2_spouse = {
 }
 
 ### c_everdalf_4 - ruler 3 (Kaarnio)
-fc_everdalf_4_3 = {
-	name = Kaukolempi
+tfw_lineoffc_kaarnio_005 = {
+	name = tfw_lineoffc_kaarnio_005_name
 	dynasty = dynasty_fc_kaarnio
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_everdalf_4_2
-	mother = fc_everdalf_4_2_spouse
+	father = tfw_lineoffc_kaarnio_003
+	mother = tfw_lineoffc_kaarnio_004
 
 	trait = diligent
 	trait = trusting
@@ -3811,7 +3811,7 @@ fc_everdalf_4_3 = {
 		birth = yes
 	}
 	6767.9.6 = {
-		add_spouse = fc_everdalf_4_3_spouse
+		add_spouse = tfw_lineoffc_kaarnio_006
 	}
 
 	6856.12.22 = {
@@ -3821,8 +3821,8 @@ fc_everdalf_4_3 = {
 	}
 }
 
-fc_everdalf_4_3_spouse = {
-	name = Salme
+tfw_lineoffc_kaarnio_006 = {
+	name = tfw_lineoffc_kaarnio_006_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -3842,8 +3842,8 @@ fc_everdalf_4_3_spouse = {
 }
 
 ### c_everdalf_4 - ruler 4 (Siniharju)
-fc_everdalf_4_4 = {
-	name = Arvo
+tfw_lineoffc_siniharju_001 = {
+	name = tfw_lineoffc_siniharju_001_name
 	dynasty = dynasty_fc_siniharju
 	religion = faith_lossoth
 	culture = lossoth
@@ -3858,7 +3858,7 @@ fc_everdalf_4_4 = {
 		birth = yes
 	}
 	6849.3.3 = {
-		add_spouse = fc_everdalf_4_4_spouse
+		add_spouse = tfw_lineoffc_siniharju_002
 	}
 
 	6898.3.9 = {
@@ -3868,8 +3868,8 @@ fc_everdalf_4_4 = {
 	}
 }
 
-fc_everdalf_4_4_spouse = {
-	name = Mesi
+tfw_lineoffc_siniharju_002 = {
+	name = tfw_lineoffc_siniharju_002_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -3889,14 +3889,14 @@ fc_everdalf_4_4_spouse = {
 }
 
 ### c_everdalf_4 - ruler 5 (Siniharju)
-fc_everdalf_4_5 = {
-	name = Aikamieli
+tfw_lineoffc_siniharju_003 = {
+	name = tfw_lineoffc_siniharju_003_name
 	dynasty = dynasty_fc_siniharju
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_everdalf_4_4
-	mother = fc_everdalf_4_4_spouse
+	father = tfw_lineoffc_siniharju_001
+	mother = tfw_lineoffc_siniharju_002
 
 	trait = ambitious
 	trait = vengeful
@@ -3908,7 +3908,7 @@ fc_everdalf_4_5 = {
 		birth = yes
 	}
 	6882.9.16 = {
-		add_spouse = fc_everdalf_4_5_spouse
+		add_spouse = tfw_lineoffc_siniharju_004
 	}
 
 	6943.3.26 = {
@@ -3918,8 +3918,8 @@ fc_everdalf_4_5 = {
 	}
 }
 
-fc_everdalf_4_5_spouse = {
-	name = Mesi
+tfw_lineoffc_siniharju_004 = {
+	name = tfw_lineoffc_siniharju_004_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -3939,14 +3939,14 @@ fc_everdalf_4_5_spouse = {
 }
 
 ### c_everdalf_4 - ruler 6 (Siniharju)
-fc_everdalf_4_6 = {
-	name = Venemies
+tfw_lineoffc_siniharju_005 = {
+	name = tfw_lineoffc_siniharju_005_name
 	dynasty = dynasty_fc_siniharju
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_everdalf_4_5
-	mother = fc_everdalf_4_5_spouse
+	father = tfw_lineoffc_siniharju_003
+	mother = tfw_lineoffc_siniharju_004
 
 	trait = patient
 	trait = forgiving
@@ -3958,7 +3958,7 @@ fc_everdalf_4_6 = {
 		birth = yes
 	}
 	6910.12.27 = {
-		add_spouse = fc_everdalf_4_6_spouse
+		add_spouse = tfw_lineoffc_siniharju_006
 	}
 
 	6978.1.25 = {
@@ -3968,8 +3968,8 @@ fc_everdalf_4_6 = {
 	}
 }
 
-fc_everdalf_4_6_spouse = {
-	name = Kivutar
+tfw_lineoffc_siniharju_006 = {
+	name = tfw_lineoffc_siniharju_006_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -3989,14 +3989,14 @@ fc_everdalf_4_6_spouse = {
 }
 
 ### c_everdalf_4 - ruler 7 (Siniharju)
-fc_everdalf_4_7 = {
-	name = Havu
+tfw_lineoffc_siniharju_007 = {
+	name = tfw_lineoffc_siniharju_007_name
 	dynasty = dynasty_fc_siniharju
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_everdalf_4_6
-	mother = fc_everdalf_4_6_spouse
+	father = tfw_lineoffc_siniharju_005
+	mother = tfw_lineoffc_siniharju_006
 
 	trait = patient
 	trait = ambitious
@@ -4008,7 +4008,7 @@ fc_everdalf_4_7 = {
 		birth = yes
 	}
 	6936.7.4 = {
-		add_spouse = fc_everdalf_4_7_spouse
+		add_spouse = tfw_lineoffc_siniharju_008
 	}
 
 	7103.7.2 = {
@@ -4018,8 +4018,8 @@ fc_everdalf_4_7 = {
 	}
 }
 
-fc_everdalf_4_7_spouse = {
-	name = Suvituuli
+tfw_lineoffc_siniharju_008 = {
+	name = tfw_lineoffc_siniharju_008_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -4039,8 +4039,8 @@ fc_everdalf_4_7_spouse = {
 }
 
 ### c_everdalf_5 - ruler 1 (Otava)
-fc_everdalf_5_1 = {
-	name = Satatieto
+tfw_lineoffc_otava_001 = {
+	name = tfw_lineoffc_otava_001_name
 	dynasty = dynasty_fc_otava
 	religion = faith_lossoth
 	culture = lossoth
@@ -4055,7 +4055,7 @@ fc_everdalf_5_1 = {
 		birth = yes
 	}
 	6726.1.12 = {
-		add_spouse = fc_everdalf_5_1_spouse
+		add_spouse = tfw_lineoffc_otava_002
 	}
 
 	6769.4.24 = {
@@ -4065,8 +4065,8 @@ fc_everdalf_5_1 = {
 	}
 }
 
-fc_everdalf_5_1_spouse = {
-	name = Mielikki
+tfw_lineoffc_otava_002 = {
+	name = tfw_lineoffc_otava_002_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -4086,14 +4086,14 @@ fc_everdalf_5_1_spouse = {
 }
 
 ### c_everdalf_5 - ruler 2 (Otava)
-fc_everdalf_5_2 = {
-	name = Kalpa
+tfw_lineoffc_otava_003 = {
+	name = tfw_lineoffc_otava_003_name
 	dynasty = dynasty_fc_otava
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_everdalf_5_1
-	mother = fc_everdalf_5_1_spouse
+	father = tfw_lineoffc_otava_001
+	mother = tfw_lineoffc_otava_002
 
 	trait = trusting
 	trait = diligent
@@ -4105,7 +4105,7 @@ fc_everdalf_5_2 = {
 		birth = yes
 	}
 	6756.10.28 = {
-		add_spouse = fc_everdalf_5_2_spouse
+		add_spouse = tfw_lineoffc_otava_004
 	}
 
 	6804.11.7 = {
@@ -4115,8 +4115,8 @@ fc_everdalf_5_2 = {
 	}
 }
 
-fc_everdalf_5_2_spouse = {
-	name = Maija
+tfw_lineoffc_otava_004 = {
+	name = tfw_lineoffc_otava_004_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -4136,14 +4136,14 @@ fc_everdalf_5_2_spouse = {
 }
 
 ### c_everdalf_5 - ruler 3 (Otava)
-fc_everdalf_5_3 = {
-	name = Venemies
+tfw_lineoffc_otava_005 = {
+	name = tfw_lineoffc_otava_005_name
 	dynasty = dynasty_fc_otava
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_everdalf_5_2
-	mother = fc_everdalf_5_2_spouse
+	father = tfw_lineoffc_otava_003
+	mother = tfw_lineoffc_otava_004
 
 	trait = zealous
 	trait = diligent
@@ -4155,7 +4155,7 @@ fc_everdalf_5_3 = {
 		birth = yes
 	}
 	6789.9.15 = {
-		add_spouse = fc_everdalf_5_3_spouse
+		add_spouse = tfw_lineoffc_otava_006
 	}
 
 	6859.10.14 = {
@@ -4165,8 +4165,8 @@ fc_everdalf_5_3 = {
 	}
 }
 
-fc_everdalf_5_3_spouse = {
-	name = Vanamo
+tfw_lineoffc_otava_006 = {
+	name = tfw_lineoffc_otava_006_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -4186,14 +4186,14 @@ fc_everdalf_5_3_spouse = {
 }
 
 ### c_everdalf_5 - ruler 4 (Otava)
-fc_everdalf_5_4 = {
-	name = Lempivalta
+tfw_lineoffc_otava_007 = {
+	name = tfw_lineoffc_otava_007_name
 	dynasty = dynasty_fc_otava
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_everdalf_5_3
-	mother = fc_everdalf_5_3_spouse
+	father = tfw_lineoffc_otava_005
+	mother = tfw_lineoffc_otava_006
 
 	trait = zealous
 	trait = patient
@@ -4205,7 +4205,7 @@ fc_everdalf_5_4 = {
 		birth = yes
 	}
 	6816.12.17 = {
-		add_spouse = fc_everdalf_5_4_spouse
+		add_spouse = tfw_lineoffc_otava_008
 	}
 
 	6894.6.18 = {
@@ -4215,8 +4215,8 @@ fc_everdalf_5_4 = {
 	}
 }
 
-fc_everdalf_5_4_spouse = {
-	name = Hopea
+tfw_lineoffc_otava_008 = {
+	name = tfw_lineoffc_otava_008_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -4236,8 +4236,8 @@ fc_everdalf_5_4_spouse = {
 }
 
 ### c_everdalf_5 - ruler 5 (Vainio)
-fc_everdalf_5_5 = {
-	name = Pihla
+tfw_lineoffc_vainio_001 = {
+	name = tfw_lineoffc_vainio_001_name
 	female = yes
 	dynasty = dynasty_fc_vainio
 	religion = faith_lossoth
@@ -4253,7 +4253,7 @@ fc_everdalf_5_5 = {
 		birth = yes
 	}
 	6876.7.10 = {
-		add_spouse = fc_everdalf_5_5_spouse
+		add_spouse = tfw_lineoffc_vainio_002
 	}
 
 	6948.6.19 = {
@@ -4263,8 +4263,8 @@ fc_everdalf_5_5 = {
 	}
 }
 
-fc_everdalf_5_5_spouse = {
-	name = Valto
+tfw_lineoffc_vainio_002 = {
+	name = tfw_lineoffc_vainio_002_name
 	religion = faith_lossoth
 	culture = lossoth
 
@@ -4283,14 +4283,14 @@ fc_everdalf_5_5_spouse = {
 }
 
 ### c_everdalf_5 - ruler 6 (Vainio)
-fc_everdalf_5_6 = {
-	name = Tyyni
+tfw_lineoffc_vainio_003 = {
+	name = tfw_lineoffc_vainio_003_name
 	dynasty = dynasty_fc_vainio
 	religion = faith_lossoth
 	culture = lossoth
 
-	mother = fc_everdalf_5_5
-	father = fc_everdalf_5_5_spouse
+	mother = tfw_lineoffc_vainio_001
+	father = tfw_lineoffc_vainio_002
 
 	trait = ambitious
 	trait = honest
@@ -4302,7 +4302,7 @@ fc_everdalf_5_6 = {
 		birth = yes
 	}
 	6907.12.19 = {
-		add_spouse = fc_everdalf_5_6_spouse
+		add_spouse = tfw_lineoffc_vainio_004
 	}
 
 	7001.8.8 = {
@@ -4312,8 +4312,8 @@ fc_everdalf_5_6 = {
 	}
 }
 
-fc_everdalf_5_6_spouse = {
-	name = Lempi
+tfw_lineoffc_vainio_004 = {
+	name = tfw_lineoffc_vainio_004_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -4333,14 +4333,14 @@ fc_everdalf_5_6_spouse = {
 }
 
 ### c_everdalf_5 - ruler 7 (Vainio)
-fc_everdalf_5_7 = {
-	name = Kaukolempi
+tfw_lineoffc_vainio_005 = {
+	name = tfw_lineoffc_vainio_005_name
 	dynasty = dynasty_fc_vainio
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_everdalf_5_6
-	mother = fc_everdalf_5_6_spouse
+	father = tfw_lineoffc_vainio_003
+	mother = tfw_lineoffc_vainio_004
 
 	trait = ambitious
 	trait = humble
@@ -4352,7 +4352,7 @@ fc_everdalf_5_7 = {
 		birth = yes
 	}
 	6934.6.27 = {
-		add_spouse = fc_everdalf_5_7_spouse
+		add_spouse = tfw_lineoffc_vainio_006
 	}
 
 	7054.1.1 = {
@@ -4362,8 +4362,8 @@ fc_everdalf_5_7 = {
 	}
 }
 
-fc_everdalf_5_7_spouse = {
-	name = Suoma
+tfw_lineoffc_vainio_006 = {
+	name = tfw_lineoffc_vainio_006_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -4383,14 +4383,14 @@ fc_everdalf_5_7_spouse = {
 }
 
 ### c_everdalf_5 - ruler 8 (Vainio)
-fc_everdalf_5_8 = {
-	name = Kalervo
+tfw_lineoffc_vainio_007 = {
+	name = tfw_lineoffc_vainio_007_name
 	dynasty = dynasty_fc_vainio
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_everdalf_5_7
-	mother = fc_everdalf_5_7_spouse
+	father = tfw_lineoffc_vainio_005
+	mother = tfw_lineoffc_vainio_006
 
 	trait = brave
 	trait = content
@@ -4402,7 +4402,7 @@ fc_everdalf_5_8 = {
 		birth = yes
 	}
 	6964.9.16 = {
-		add_spouse = fc_everdalf_5_8_spouse
+		add_spouse = tfw_lineoffc_vainio_008
 	}
 
 	7103.2.11 = {
@@ -4412,8 +4412,8 @@ fc_everdalf_5_8 = {
 	}
 }
 
-fc_everdalf_5_8_spouse = {
-	name = Mielikki
+tfw_lineoffc_vainio_008 = {
+	name = tfw_lineoffc_vainio_008_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -4433,8 +4433,8 @@ fc_everdalf_5_8_spouse = {
 }
 
 ### c_everdalf_6 - ruler 1 (Nivala)
-fc_everdalf_6_1 = {
-	name = Tyyne
+tfw_lineoffc_nivala_001 = {
+	name = tfw_lineoffc_nivala_001_name
 	female = yes
 	dynasty = dynasty_fc_nivala
 	religion = faith_lossoth
@@ -4450,7 +4450,7 @@ fc_everdalf_6_1 = {
 		birth = yes
 	}
 	6726.4.25 = {
-		add_spouse = fc_everdalf_6_1_spouse
+		add_spouse = tfw_lineoffc_nivala_002
 	}
 
 	6785.2.23 = {
@@ -4460,8 +4460,8 @@ fc_everdalf_6_1 = {
 	}
 }
 
-fc_everdalf_6_1_spouse = {
-	name = Kalpa
+tfw_lineoffc_nivala_002 = {
+	name = tfw_lineoffc_nivala_002_name
 	religion = faith_lossoth
 	culture = lossoth
 
@@ -4480,15 +4480,15 @@ fc_everdalf_6_1_spouse = {
 }
 
 ### c_everdalf_6 - ruler 2 (Nivala)
-fc_everdalf_6_2 = {
-	name = Kukka
+tfw_lineoffc_nivala_003 = {
+	name = tfw_lineoffc_nivala_003_name
 	female = yes
 	dynasty = dynasty_fc_nivala
 	religion = faith_lossoth
 	culture = lossoth
 
-	mother = fc_everdalf_6_1
-	father = fc_everdalf_6_1_spouse
+	mother = tfw_lineoffc_nivala_001
+	father = tfw_lineoffc_nivala_002
 
 	trait = zealous
 	trait = gregarious
@@ -4500,7 +4500,7 @@ fc_everdalf_6_2 = {
 		birth = yes
 	}
 	6754.5.14 = {
-		add_spouse = fc_everdalf_6_2_spouse
+		add_spouse = tfw_lineoffc_nivala_004
 	}
 
 	6825.6.21 = {
@@ -4510,8 +4510,8 @@ fc_everdalf_6_2 = {
 	}
 }
 
-fc_everdalf_6_2_spouse = {
-	name = Valto
+tfw_lineoffc_nivala_004 = {
+	name = tfw_lineoffc_nivala_004_name
 	religion = faith_lossoth
 	culture = lossoth
 
@@ -4530,14 +4530,14 @@ fc_everdalf_6_2_spouse = {
 }
 
 ### c_everdalf_6 - ruler 3 (Nivala)
-fc_everdalf_6_3 = {
-	name = Sotijalo
+tfw_lineoffc_nivala_005 = {
+	name = tfw_lineoffc_nivala_005_name
 	dynasty = dynasty_fc_nivala
 	religion = faith_lossoth
 	culture = lossoth
 
-	mother = fc_everdalf_6_2
-	father = fc_everdalf_6_2_spouse
+	mother = tfw_lineoffc_nivala_003
+	father = tfw_lineoffc_nivala_004
 
 	trait = trusting
 	trait = content
@@ -4549,7 +4549,7 @@ fc_everdalf_6_3 = {
 		birth = yes
 	}
 	6786.10.23 = {
-		add_spouse = fc_everdalf_6_3_spouse
+		add_spouse = tfw_lineoffc_nivala_006
 	}
 
 	6881.8.18 = {
@@ -4559,8 +4559,8 @@ fc_everdalf_6_3 = {
 	}
 }
 
-fc_everdalf_6_3_spouse = {
-	name = Maija
+tfw_lineoffc_nivala_006 = {
+	name = tfw_lineoffc_nivala_006_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -4580,8 +4580,8 @@ fc_everdalf_6_3_spouse = {
 }
 
 ### c_everdalf_6 - ruler 4 (Sampola)
-fc_everdalf_6_4 = {
-	name = Lempi
+tfw_lineoffc_sampola_001 = {
+	name = tfw_lineoffc_sampola_001_name
 	female = yes
 	dynasty = dynasty_fc_sampola
 	religion = faith_lossoth
@@ -4597,7 +4597,7 @@ fc_everdalf_6_4 = {
 		birth = yes
 	}
 	6860.1.11 = {
-		add_spouse = fc_everdalf_6_4_spouse
+		add_spouse = tfw_lineoffc_sampola_002
 	}
 
 	6930.9.2 = {
@@ -4607,8 +4607,8 @@ fc_everdalf_6_4 = {
 	}
 }
 
-fc_everdalf_6_4_spouse = {
-	name = Arvo
+tfw_lineoffc_sampola_002 = {
+	name = tfw_lineoffc_sampola_002_name
 	religion = faith_lossoth
 	culture = lossoth
 
@@ -4627,14 +4627,14 @@ fc_everdalf_6_4_spouse = {
 }
 
 ### c_everdalf_6 - ruler 5 (Sampola)
-fc_everdalf_6_5 = {
-	name = Satatieto
+tfw_lineoffc_sampola_003 = {
+	name = tfw_lineoffc_sampola_003_name
 	dynasty = dynasty_fc_sampola
 	religion = faith_lossoth
 	culture = lossoth
 
-	mother = fc_everdalf_6_4
-	father = fc_everdalf_6_4_spouse
+	mother = tfw_lineoffc_sampola_001
+	father = tfw_lineoffc_sampola_002
 
 	trait = impatient
 	trait = calm
@@ -4646,7 +4646,7 @@ fc_everdalf_6_5 = {
 		birth = yes
 	}
 	6884.7.18 = {
-		add_spouse = fc_everdalf_6_5_spouse
+		add_spouse = tfw_lineoffc_sampola_004
 	}
 
 	6977.7.10 = {
@@ -4656,8 +4656,8 @@ fc_everdalf_6_5 = {
 	}
 }
 
-fc_everdalf_6_5_spouse = {
-	name = Aino
+tfw_lineoffc_sampola_004 = {
+	name = tfw_lineoffc_sampola_004_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -4677,14 +4677,14 @@ fc_everdalf_6_5_spouse = {
 }
 
 ### c_everdalf_6 - ruler 6 (Sampola)
-fc_everdalf_6_6 = {
-	name = Kalervo
+tfw_lineoffc_sampola_005 = {
+	name = tfw_lineoffc_sampola_005_name
 	dynasty = dynasty_fc_sampola
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_everdalf_6_5
-	mother = fc_everdalf_6_5_spouse
+	father = tfw_lineoffc_sampola_003
+	mother = tfw_lineoffc_sampola_004
 
 	trait = calm
 	trait = brave
@@ -4696,7 +4696,7 @@ fc_everdalf_6_6 = {
 		birth = yes
 	}
 	6916.12.11 = {
-		add_spouse = fc_everdalf_6_6_spouse
+		add_spouse = tfw_lineoffc_sampola_006
 	}
 
 	7028.11.10 = {
@@ -4706,8 +4706,8 @@ fc_everdalf_6_6 = {
 	}
 }
 
-fc_everdalf_6_6_spouse = {
-	name = Leinikka
+tfw_lineoffc_sampola_006 = {
+	name = tfw_lineoffc_sampola_006_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -4727,14 +4727,14 @@ fc_everdalf_6_6_spouse = {
 }
 
 ### c_everdalf_6 - ruler 7 (Sampola)
-fc_everdalf_6_7 = {
-	name = Aimo
+tfw_lineoffc_sampola_007 = {
+	name = tfw_lineoffc_sampola_007_name
 	dynasty = dynasty_fc_sampola
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_everdalf_6_6
-	mother = fc_everdalf_6_6_spouse
+	father = tfw_lineoffc_sampola_005
+	mother = tfw_lineoffc_sampola_006
 
 	trait = impatient
 	trait = forgiving
@@ -4746,7 +4746,7 @@ fc_everdalf_6_7 = {
 		birth = yes
 	}
 	6944.10.7 = {
-		add_spouse = fc_everdalf_6_7_spouse
+		add_spouse = tfw_lineoffc_sampola_008
 	}
 
 	7103.7.18 = {
@@ -4756,8 +4756,8 @@ fc_everdalf_6_7 = {
 	}
 }
 
-fc_everdalf_6_7_spouse = {
-	name = Talvikki
+tfw_lineoffc_sampola_008 = {
+	name = tfw_lineoffc_sampola_008_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -4777,8 +4777,8 @@ fc_everdalf_6_7_spouse = {
 }
 
 ### c_everdalf_7 - ruler 1 (Kairala)
-fc_everdalf_7_1 = {
-	name = Kaukovalta
+tfw_lineoffc_kairala_001 = {
+	name = tfw_lineoffc_kairala_001_name
 	dynasty = dynasty_fc_kairala
 	religion = faith_lossoth
 	culture = lossoth
@@ -4793,7 +4793,7 @@ fc_everdalf_7_1 = {
 		birth = yes
 	}
 	6692.6.3 = {
-		add_spouse = fc_everdalf_7_1_spouse
+		add_spouse = tfw_lineoffc_kairala_002
 	}
 
 	6742.11.20 = {
@@ -4803,8 +4803,8 @@ fc_everdalf_7_1 = {
 	}
 }
 
-fc_everdalf_7_1_spouse = {
-	name = Ilta
+tfw_lineoffc_kairala_002 = {
+	name = tfw_lineoffc_kairala_002_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -4824,14 +4824,14 @@ fc_everdalf_7_1_spouse = {
 }
 
 ### c_everdalf_7 - ruler 2 (Kairala)
-fc_everdalf_7_2 = {
-	name = Yrjana
+tfw_lineoffc_kairala_003 = {
+	name = tfw_lineoffc_kairala_003_name
 	dynasty = dynasty_fc_kairala
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_everdalf_7_1
-	mother = fc_everdalf_7_1_spouse
+	father = tfw_lineoffc_kairala_001
+	mother = tfw_lineoffc_kairala_002
 
 	trait = zealous
 	trait = impatient
@@ -4843,7 +4843,7 @@ fc_everdalf_7_2 = {
 		birth = yes
 	}
 	6721.12.15 = {
-		add_spouse = fc_everdalf_7_2_spouse
+		add_spouse = tfw_lineoffc_kairala_004
 	}
 
 	6786.5.19 = {
@@ -4853,8 +4853,8 @@ fc_everdalf_7_2 = {
 	}
 }
 
-fc_everdalf_7_2_spouse = {
-	name = Tyyni
+tfw_lineoffc_kairala_004 = {
+	name = tfw_lineoffc_kairala_004_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -4874,14 +4874,14 @@ fc_everdalf_7_2_spouse = {
 }
 
 ### c_everdalf_7 - ruler 3 (Kairala)
-fc_everdalf_7_3 = {
-	name = Suvi
+tfw_lineoffc_kairala_005 = {
+	name = tfw_lineoffc_kairala_005_name
 	dynasty = dynasty_fc_kairala
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_everdalf_7_2
-	mother = fc_everdalf_7_2_spouse
+	father = tfw_lineoffc_kairala_003
+	mother = tfw_lineoffc_kairala_004
 
 	trait = humble
 	trait = patient
@@ -4893,7 +4893,7 @@ fc_everdalf_7_3 = {
 		birth = yes
 	}
 	6745.12.28 = {
-		add_spouse = fc_everdalf_7_3_spouse
+		add_spouse = tfw_lineoffc_kairala_006
 	}
 
 	6828.12.12 = {
@@ -4903,8 +4903,8 @@ fc_everdalf_7_3 = {
 	}
 }
 
-fc_everdalf_7_3_spouse = {
-	name = Kivutar
+tfw_lineoffc_kairala_006 = {
+	name = tfw_lineoffc_kairala_006_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -4924,15 +4924,15 @@ fc_everdalf_7_3_spouse = {
 }
 
 ### c_everdalf_7 - ruler 4 (Kairala)
-fc_everdalf_7_4 = {
-	name = Sisko
+tfw_lineoffc_kairala_007 = {
+	name = tfw_lineoffc_kairala_007_name
 	female = yes
 	dynasty = dynasty_fc_kairala
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_everdalf_7_3
-	mother = fc_everdalf_7_3_spouse
+	father = tfw_lineoffc_kairala_005
+	mother = tfw_lineoffc_kairala_006
 
 	trait = trusting
 	trait = stubborn
@@ -4944,7 +4944,7 @@ fc_everdalf_7_4 = {
 		birth = yes
 	}
 	6772.12.20 = {
-		add_spouse = fc_everdalf_7_4_spouse
+		add_spouse = tfw_lineoffc_kairala_008
 	}
 
 	6883.5.6 = {
@@ -4954,8 +4954,8 @@ fc_everdalf_7_4 = {
 	}
 }
 
-fc_everdalf_7_4_spouse = {
-	name = Tyyni
+tfw_lineoffc_kairala_008 = {
+	name = tfw_lineoffc_kairala_008_name
 	religion = faith_lossoth
 	culture = lossoth
 
@@ -4974,8 +4974,8 @@ fc_everdalf_7_4_spouse = {
 }
 
 ### c_everdalf_7 - ruler 5 (Niemela)
-fc_everdalf_7_5 = {
-	name = Kivutar
+tfw_lineoffc_niemela_001 = {
+	name = tfw_lineoffc_niemela_001_name
 	female = yes
 	dynasty = dynasty_fc_niemela
 	religion = faith_lossoth
@@ -4991,7 +4991,7 @@ fc_everdalf_7_5 = {
 		birth = yes
 	}
 	6865.5.9 = {
-		add_spouse = fc_everdalf_7_5_spouse
+		add_spouse = tfw_lineoffc_niemela_002
 	}
 
 	6922.1.28 = {
@@ -5001,8 +5001,8 @@ fc_everdalf_7_5 = {
 	}
 }
 
-fc_everdalf_7_5_spouse = {
-	name = Aikamieli
+tfw_lineoffc_niemela_002 = {
+	name = tfw_lineoffc_niemela_002_name
 	religion = faith_lossoth
 	culture = lossoth
 
@@ -5021,14 +5021,14 @@ fc_everdalf_7_5_spouse = {
 }
 
 ### c_everdalf_7 - ruler 6 (Niemela)
-fc_everdalf_7_6 = {
-	name = Ihamieli
+tfw_lineoffc_niemela_003 = {
+	name = tfw_lineoffc_niemela_003_name
 	dynasty = dynasty_fc_niemela
 	religion = faith_lossoth
 	culture = lossoth
 
-	mother = fc_everdalf_7_5
-	father = fc_everdalf_7_5_spouse
+	mother = tfw_lineoffc_niemela_001
+	father = tfw_lineoffc_niemela_002
 
 	trait = forgiving
 	trait = vengeful
@@ -5040,7 +5040,7 @@ fc_everdalf_7_6 = {
 		birth = yes
 	}
 	6893.7.21 = {
-		add_spouse = fc_everdalf_7_6_spouse
+		add_spouse = tfw_lineoffc_niemela_004
 	}
 
 	6963.7.27 = {
@@ -5050,8 +5050,8 @@ fc_everdalf_7_6 = {
 	}
 }
 
-fc_everdalf_7_6_spouse = {
-	name = Suvi
+tfw_lineoffc_niemela_004 = {
+	name = tfw_lineoffc_niemela_004_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -5071,15 +5071,15 @@ fc_everdalf_7_6_spouse = {
 }
 
 ### c_everdalf_7 - ruler 7 (Niemela)
-fc_everdalf_7_7 = {
-	name = Lemmikki
+tfw_lineoffc_niemela_005 = {
+	name = tfw_lineoffc_niemela_005_name
 	female = yes
 	dynasty = dynasty_fc_niemela
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_everdalf_7_6
-	mother = fc_everdalf_7_6_spouse
+	father = tfw_lineoffc_niemela_003
+	mother = tfw_lineoffc_niemela_004
 
 	trait = impatient
 	trait = vengeful
@@ -5091,7 +5091,7 @@ fc_everdalf_7_7 = {
 		birth = yes
 	}
 	6915.5.26 = {
-		add_spouse = fc_everdalf_7_7_spouse
+		add_spouse = tfw_lineoffc_niemela_006
 	}
 
 	7002.4.19 = {
@@ -5101,8 +5101,8 @@ fc_everdalf_7_7 = {
 	}
 }
 
-fc_everdalf_7_7_spouse = {
-	name = Lempivaino
+tfw_lineoffc_niemela_006 = {
+	name = tfw_lineoffc_niemela_006_name
 	religion = faith_lossoth
 	culture = lossoth
 
@@ -5121,14 +5121,14 @@ fc_everdalf_7_7_spouse = {
 }
 
 ### c_everdalf_7 - ruler 8 (Niemela)
-fc_everdalf_7_8 = {
-	name = Kaukovalta
+tfw_lineoffc_niemela_007 = {
+	name = tfw_lineoffc_niemela_007_name
 	dynasty = dynasty_fc_niemela
 	religion = faith_lossoth
 	culture = lossoth
 
-	mother = fc_everdalf_7_7
-	father = fc_everdalf_7_7_spouse
+	mother = tfw_lineoffc_niemela_005
+	father = tfw_lineoffc_niemela_006
 
 	trait = trusting
 	trait = honest
@@ -5140,7 +5140,7 @@ fc_everdalf_7_8 = {
 		birth = yes
 	}
 	6942.6.1 = {
-		add_spouse = fc_everdalf_7_8_spouse
+		add_spouse = tfw_lineoffc_niemela_008
 	}
 
 	7103.9.10 = {
@@ -5150,8 +5150,8 @@ fc_everdalf_7_8 = {
 	}
 }
 
-fc_everdalf_7_8_spouse = {
-	name = Kukka
+tfw_lineoffc_niemela_008 = {
+	name = tfw_lineoffc_niemela_008_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -5171,8 +5171,8 @@ fc_everdalf_7_8_spouse = {
 }
 
 ### c_ailindalf_1 - ruler 1 (Pohjola)
-fc_ailindalf_1_1 = {
-	name = Yrjana
+tfw_lineoffc_pohjola_001 = {
+	name = tfw_lineoffc_pohjola_001_name
 	dynasty = dynasty_fc_pohjola
 	religion = faith_lossoth
 	culture = lossoth
@@ -5187,7 +5187,7 @@ fc_ailindalf_1_1 = {
 		birth = yes
 	}
 	6701.6.5 = {
-		add_spouse = fc_ailindalf_1_1_spouse
+		add_spouse = tfw_lineoffc_pohjola_002
 	}
 
 	6753.10.1 = {
@@ -5197,8 +5197,8 @@ fc_ailindalf_1_1 = {
 	}
 }
 
-fc_ailindalf_1_1_spouse = {
-	name = Aili
+tfw_lineoffc_pohjola_002 = {
+	name = tfw_lineoffc_pohjola_002_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -5218,15 +5218,15 @@ fc_ailindalf_1_1_spouse = {
 }
 
 ### c_ailindalf_1 - ruler 2 (Pohjola)
-fc_ailindalf_1_2 = {
-	name = Lauha
+tfw_lineoffc_pohjola_003 = {
+	name = tfw_lineoffc_pohjola_003_name
 	female = yes
 	dynasty = dynasty_fc_pohjola
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_ailindalf_1_1
-	mother = fc_ailindalf_1_1_spouse
+	father = tfw_lineoffc_pohjola_001
+	mother = tfw_lineoffc_pohjola_002
 
 	trait = diligent
 	trait = impatient
@@ -5238,7 +5238,7 @@ fc_ailindalf_1_2 = {
 		birth = yes
 	}
 	6726.10.15 = {
-		add_spouse = fc_ailindalf_1_2_spouse
+		add_spouse = tfw_lineoffc_pohjola_004
 	}
 
 	6790.2.26 = {
@@ -5248,8 +5248,8 @@ fc_ailindalf_1_2 = {
 	}
 }
 
-fc_ailindalf_1_2_spouse = {
-	name = Tervahartia
+tfw_lineoffc_pohjola_004 = {
+	name = tfw_lineoffc_pohjola_004_name
 	religion = faith_lossoth
 	culture = lossoth
 
@@ -5268,14 +5268,14 @@ fc_ailindalf_1_2_spouse = {
 }
 
 ### c_ailindalf_1 - ruler 3 (Pohjola)
-fc_ailindalf_1_3 = {
-	name = Arijoutsi
+tfw_lineoffc_pohjola_005 = {
+	name = tfw_lineoffc_pohjola_005_name
 	dynasty = dynasty_fc_pohjola
 	religion = faith_lossoth
 	culture = lossoth
 
-	mother = fc_ailindalf_1_2
-	father = fc_ailindalf_1_2_spouse
+	mother = tfw_lineoffc_pohjola_003
+	father = tfw_lineoffc_pohjola_004
 
 	trait = impatient
 	trait = calm
@@ -5287,7 +5287,7 @@ fc_ailindalf_1_3 = {
 		birth = yes
 	}
 	6749.9.18 = {
-		add_spouse = fc_ailindalf_1_3_spouse
+		add_spouse = tfw_lineoffc_pohjola_006
 	}
 
 	6834.7.3 = {
@@ -5297,8 +5297,8 @@ fc_ailindalf_1_3 = {
 	}
 }
 
-fc_ailindalf_1_3_spouse = {
-	name = Pilvi
+tfw_lineoffc_pohjola_006 = {
+	name = tfw_lineoffc_pohjola_006_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -5318,8 +5318,8 @@ fc_ailindalf_1_3_spouse = {
 }
 
 ### c_ailindalf_1 - ruler 4 (Honkala)
-fc_ailindalf_1_4 = {
-	name = Aikamieli
+tfw_lineoffc_honkala_001 = {
+	name = tfw_lineoffc_honkala_001_name
 	dynasty = dynasty_fc_honkala
 	religion = faith_lossoth
 	culture = lossoth
@@ -5334,7 +5334,7 @@ fc_ailindalf_1_4 = {
 		birth = yes
 	}
 	6814.5.18 = {
-		add_spouse = fc_ailindalf_1_4_spouse
+		add_spouse = tfw_lineoffc_honkala_002
 	}
 
 	6889.11.18 = {
@@ -5344,8 +5344,8 @@ fc_ailindalf_1_4 = {
 	}
 }
 
-fc_ailindalf_1_4_spouse = {
-	name = Mahla
+tfw_lineoffc_honkala_002 = {
+	name = tfw_lineoffc_honkala_002_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -5365,14 +5365,14 @@ fc_ailindalf_1_4_spouse = {
 }
 
 ### c_ailindalf_1 - ruler 5 (Honkala)
-fc_ailindalf_1_5 = {
-	name = Havu
+tfw_lineoffc_honkala_003 = {
+	name = tfw_lineoffc_honkala_003_name
 	dynasty = dynasty_fc_honkala
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_ailindalf_1_4
-	mother = fc_ailindalf_1_4_spouse
+	father = tfw_lineoffc_honkala_001
+	mother = tfw_lineoffc_honkala_002
 
 	trait = ambitious
 	trait = trusting
@@ -5384,7 +5384,7 @@ fc_ailindalf_1_5 = {
 		birth = yes
 	}
 	6843.11.4 = {
-		add_spouse = fc_ailindalf_1_5_spouse
+		add_spouse = tfw_lineoffc_honkala_004
 	}
 
 	6934.3.7 = {
@@ -5394,8 +5394,8 @@ fc_ailindalf_1_5 = {
 	}
 }
 
-fc_ailindalf_1_5_spouse = {
-	name = Suvi
+tfw_lineoffc_honkala_004 = {
+	name = tfw_lineoffc_honkala_004_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -5415,14 +5415,14 @@ fc_ailindalf_1_5_spouse = {
 }
 
 ### c_ailindalf_1 - ruler 6 (Honkala)
-fc_ailindalf_1_6 = {
-	name = Aikio
+tfw_lineoffc_honkala_005 = {
+	name = tfw_lineoffc_honkala_005_name
 	dynasty = dynasty_fc_honkala
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_ailindalf_1_5
-	mother = fc_ailindalf_1_5_spouse
+	father = tfw_lineoffc_honkala_003
+	mother = tfw_lineoffc_honkala_004
 
 	trait = forgiving
 	trait = trusting
@@ -5434,7 +5434,7 @@ fc_ailindalf_1_6 = {
 		birth = yes
 	}
 	6868.6.16 = {
-		add_spouse = fc_ailindalf_1_6_spouse
+		add_spouse = tfw_lineoffc_honkala_006
 	}
 
 	6971.5.22 = {
@@ -5444,8 +5444,8 @@ fc_ailindalf_1_6 = {
 	}
 }
 
-fc_ailindalf_1_6_spouse = {
-	name = Airikka
+tfw_lineoffc_honkala_006 = {
+	name = tfw_lineoffc_honkala_006_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -5465,14 +5465,14 @@ fc_ailindalf_1_6_spouse = {
 }
 
 ### c_ailindalf_1 - ruler 7 (Honkala)
-fc_ailindalf_1_7 = {
-	name = Vihavaino
+tfw_lineoffc_honkala_007 = {
+	name = tfw_lineoffc_honkala_007_name
 	dynasty = dynasty_fc_honkala
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_ailindalf_1_6
-	mother = fc_ailindalf_1_6_spouse
+	father = tfw_lineoffc_honkala_005
+	mother = tfw_lineoffc_honkala_006
 
 	trait = calm
 	trait = patient
@@ -5484,7 +5484,7 @@ fc_ailindalf_1_7 = {
 		birth = yes
 	}
 	6890.5.15 = {
-		add_spouse = fc_ailindalf_1_7_spouse
+		add_spouse = tfw_lineoffc_honkala_008
 	}
 
 	7103.2.27 = {
@@ -5494,8 +5494,8 @@ fc_ailindalf_1_7 = {
 	}
 }
 
-fc_ailindalf_1_7_spouse = {
-	name = Taimi
+tfw_lineoffc_honkala_008 = {
+	name = tfw_lineoffc_honkala_008_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -5515,8 +5515,8 @@ fc_ailindalf_1_7_spouse = {
 }
 
 ### c_ailindalf_2 - ruler 1 (Korvela)
-fc_ailindalf_2_1 = {
-	name = Lempo
+tfw_lineoffc_korvela_001 = {
+	name = tfw_lineoffc_korvela_001_name
 	dynasty = dynasty_fc_korvela
 	religion = faith_lossoth
 	culture = lossoth
@@ -5531,7 +5531,7 @@ fc_ailindalf_2_1 = {
 		birth = yes
 	}
 	6707.12.12 = {
-		add_spouse = fc_ailindalf_2_1_spouse
+		add_spouse = tfw_lineoffc_korvela_002
 	}
 
 	6773.12.3 = {
@@ -5541,8 +5541,8 @@ fc_ailindalf_2_1 = {
 	}
 }
 
-fc_ailindalf_2_1_spouse = {
-	name = Tuovi
+tfw_lineoffc_korvela_002 = {
+	name = tfw_lineoffc_korvela_002_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -5562,15 +5562,15 @@ fc_ailindalf_2_1_spouse = {
 }
 
 ### c_ailindalf_2 - ruler 2 (Korvela)
-fc_ailindalf_2_2 = {
-	name = Lauha
+tfw_lineoffc_korvela_003 = {
+	name = tfw_lineoffc_korvela_003_name
 	female = yes
 	dynasty = dynasty_fc_korvela
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_ailindalf_2_1
-	mother = fc_ailindalf_2_1_spouse
+	father = tfw_lineoffc_korvela_001
+	mother = tfw_lineoffc_korvela_002
 
 	trait = ambitious
 	trait = humble
@@ -5582,7 +5582,7 @@ fc_ailindalf_2_2 = {
 		birth = yes
 	}
 	6740.11.19 = {
-		add_spouse = fc_ailindalf_2_2_spouse
+		add_spouse = tfw_lineoffc_korvela_004
 	}
 
 	6813.10.3 = {
@@ -5592,8 +5592,8 @@ fc_ailindalf_2_2 = {
 	}
 }
 
-fc_ailindalf_2_2_spouse = {
-	name = Leino
+tfw_lineoffc_korvela_004 = {
+	name = tfw_lineoffc_korvela_004_name
 	religion = faith_lossoth
 	culture = lossoth
 
@@ -5612,14 +5612,14 @@ fc_ailindalf_2_2_spouse = {
 }
 
 ### c_ailindalf_2 - ruler 3 (Korvela)
-fc_ailindalf_2_3 = {
-	name = Oiva
+tfw_lineoffc_korvela_005 = {
+	name = tfw_lineoffc_korvela_005_name
 	dynasty = dynasty_fc_korvela
 	religion = faith_lossoth
 	culture = lossoth
 
-	mother = fc_ailindalf_2_2
-	father = fc_ailindalf_2_2_spouse
+	mother = tfw_lineoffc_korvela_003
+	father = tfw_lineoffc_korvela_004
 
 	trait = diligent
 	trait = trusting
@@ -5631,7 +5631,7 @@ fc_ailindalf_2_3 = {
 		birth = yes
 	}
 	6763.6.16 = {
-		add_spouse = fc_ailindalf_2_3_spouse
+		add_spouse = tfw_lineoffc_korvela_006
 	}
 
 	6851.2.2 = {
@@ -5641,8 +5641,8 @@ fc_ailindalf_2_3 = {
 	}
 }
 
-fc_ailindalf_2_3_spouse = {
-	name = Toivikki
+tfw_lineoffc_korvela_006 = {
+	name = tfw_lineoffc_korvela_006_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -5662,15 +5662,15 @@ fc_ailindalf_2_3_spouse = {
 }
 
 ### c_ailindalf_2 - ruler 4 (Korvela)
-fc_ailindalf_2_4 = {
-	name = Aili
+tfw_lineoffc_korvela_007 = {
+	name = tfw_lineoffc_korvela_007_name
 	female = yes
 	dynasty = dynasty_fc_korvela
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_ailindalf_2_3
-	mother = fc_ailindalf_2_3_spouse
+	father = tfw_lineoffc_korvela_005
+	mother = tfw_lineoffc_korvela_006
 
 	trait = impatient
 	trait = trusting
@@ -5682,7 +5682,7 @@ fc_ailindalf_2_4 = {
 		birth = yes
 	}
 	6789.6.12 = {
-		add_spouse = fc_ailindalf_2_4_spouse
+		add_spouse = tfw_lineoffc_korvela_008
 	}
 
 	6893.11.12 = {
@@ -5692,8 +5692,8 @@ fc_ailindalf_2_4 = {
 	}
 }
 
-fc_ailindalf_2_4_spouse = {
-	name = Sotijalo
+tfw_lineoffc_korvela_008 = {
+	name = tfw_lineoffc_korvela_008_name
 	religion = faith_lossoth
 	culture = lossoth
 
@@ -5712,8 +5712,8 @@ fc_ailindalf_2_4_spouse = {
 }
 
 ### c_ailindalf_2 - ruler 5 (Joutsi)
-fc_ailindalf_2_5 = {
-	name = Untamo
+tfw_lineoffc_joutsi_001 = {
+	name = tfw_lineoffc_joutsi_001_name
 	dynasty = dynasty_fc_joutsi
 	religion = faith_lossoth
 	culture = lossoth
@@ -5728,7 +5728,7 @@ fc_ailindalf_2_5 = {
 		birth = yes
 	}
 	6879.4.11 = {
-		add_spouse = fc_ailindalf_2_5_spouse
+		add_spouse = tfw_lineoffc_joutsi_002
 	}
 
 	6930.1.7 = {
@@ -5738,8 +5738,8 @@ fc_ailindalf_2_5 = {
 	}
 }
 
-fc_ailindalf_2_5_spouse = {
-	name = Aino
+tfw_lineoffc_joutsi_002 = {
+	name = tfw_lineoffc_joutsi_002_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -5759,15 +5759,15 @@ fc_ailindalf_2_5_spouse = {
 }
 
 ### c_ailindalf_2 - ruler 6 (Joutsi)
-fc_ailindalf_2_6 = {
-	name = Ilta
+tfw_lineoffc_joutsi_003 = {
+	name = tfw_lineoffc_joutsi_003_name
 	female = yes
 	dynasty = dynasty_fc_joutsi
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_ailindalf_2_5
-	mother = fc_ailindalf_2_5_spouse
+	father = tfw_lineoffc_joutsi_001
+	mother = tfw_lineoffc_joutsi_002
 
 	trait = honest
 	trait = stubborn
@@ -5779,7 +5779,7 @@ fc_ailindalf_2_6 = {
 		birth = yes
 	}
 	6910.2.9 = {
-		add_spouse = fc_ailindalf_2_6_spouse
+		add_spouse = tfw_lineoffc_joutsi_004
 	}
 
 	6982.12.25 = {
@@ -5789,8 +5789,8 @@ fc_ailindalf_2_6 = {
 	}
 }
 
-fc_ailindalf_2_6_spouse = {
-	name = Satatieto
+tfw_lineoffc_joutsi_004 = {
+	name = tfw_lineoffc_joutsi_004_name
 	religion = faith_lossoth
 	culture = lossoth
 
@@ -5809,14 +5809,14 @@ fc_ailindalf_2_6_spouse = {
 }
 
 ### c_ailindalf_2 - ruler 7 (Joutsi)
-fc_ailindalf_2_7 = {
-	name = Sotijalo
+tfw_lineoffc_joutsi_005 = {
+	name = tfw_lineoffc_joutsi_005_name
 	dynasty = dynasty_fc_joutsi
 	religion = faith_lossoth
 	culture = lossoth
 
-	mother = fc_ailindalf_2_6
-	father = fc_ailindalf_2_6_spouse
+	mother = tfw_lineoffc_joutsi_003
+	father = tfw_lineoffc_joutsi_004
 
 	trait = humble
 	trait = patient
@@ -5828,7 +5828,7 @@ fc_ailindalf_2_7 = {
 		birth = yes
 	}
 	6931.5.9 = {
-		add_spouse = fc_ailindalf_2_7_spouse
+		add_spouse = tfw_lineoffc_joutsi_006
 	}
 
 	7026.1.2 = {
@@ -5838,8 +5838,8 @@ fc_ailindalf_2_7 = {
 	}
 }
 
-fc_ailindalf_2_7_spouse = {
-	name = Hopea
+tfw_lineoffc_joutsi_006 = {
+	name = tfw_lineoffc_joutsi_006_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -5859,14 +5859,14 @@ fc_ailindalf_2_7_spouse = {
 }
 
 ### c_ailindalf_2 - ruler 8 (Joutsi)
-fc_ailindalf_2_8 = {
-	name = Aikamieli
+tfw_lineoffc_joutsi_007 = {
+	name = tfw_lineoffc_joutsi_007_name
 	dynasty = dynasty_fc_joutsi
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_ailindalf_2_7
-	mother = fc_ailindalf_2_7_spouse
+	father = tfw_lineoffc_joutsi_005
+	mother = tfw_lineoffc_joutsi_006
 
 	trait = vengeful
 	trait = zealous
@@ -5878,7 +5878,7 @@ fc_ailindalf_2_8 = {
 		birth = yes
 	}
 	6962.9.25 = {
-		add_spouse = fc_ailindalf_2_8_spouse
+		add_spouse = tfw_lineoffc_joutsi_008
 	}
 
 	7103.7.17 = {
@@ -5888,8 +5888,8 @@ fc_ailindalf_2_8 = {
 	}
 }
 
-fc_ailindalf_2_8_spouse = {
-	name = Miela
+tfw_lineoffc_joutsi_008 = {
+	name = tfw_lineoffc_joutsi_008_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -5909,8 +5909,8 @@ fc_ailindalf_2_8_spouse = {
 }
 
 ### c_ailindalf_3 - ruler 1 (Varpula)
-fc_ailindalf_3_1 = {
-	name = Kultavaino
+tfw_lineoffc_varpula_001 = {
+	name = tfw_lineoffc_varpula_001_name
 	dynasty = dynasty_fc_varpula
 	religion = faith_lossoth
 	culture = lossoth
@@ -5925,7 +5925,7 @@ fc_ailindalf_3_1 = {
 		birth = yes
 	}
 	6714.3.3 = {
-		add_spouse = fc_ailindalf_3_1_spouse
+		add_spouse = tfw_lineoffc_varpula_002
 	}
 
 	6767.4.16 = {
@@ -5935,8 +5935,8 @@ fc_ailindalf_3_1 = {
 	}
 }
 
-fc_ailindalf_3_1_spouse = {
-	name = Kivutar
+tfw_lineoffc_varpula_002 = {
+	name = tfw_lineoffc_varpula_002_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -5956,14 +5956,14 @@ fc_ailindalf_3_1_spouse = {
 }
 
 ### c_ailindalf_3 - ruler 2 (Varpula)
-fc_ailindalf_3_2 = {
-	name = Utujoutsi
+tfw_lineoffc_varpula_003 = {
+	name = tfw_lineoffc_varpula_003_name
 	dynasty = dynasty_fc_varpula
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_ailindalf_3_1
-	mother = fc_ailindalf_3_1_spouse
+	father = tfw_lineoffc_varpula_001
+	mother = tfw_lineoffc_varpula_002
 
 	trait = temperate
 	trait = zealous
@@ -5975,7 +5975,7 @@ fc_ailindalf_3_2 = {
 		birth = yes
 	}
 	6742.11.24 = {
-		add_spouse = fc_ailindalf_3_2_spouse
+		add_spouse = tfw_lineoffc_varpula_004
 	}
 
 	6803.5.19 = {
@@ -5985,8 +5985,8 @@ fc_ailindalf_3_2 = {
 	}
 }
 
-fc_ailindalf_3_2_spouse = {
-	name = Kukka
+tfw_lineoffc_varpula_004 = {
+	name = tfw_lineoffc_varpula_004_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -6006,14 +6006,14 @@ fc_ailindalf_3_2_spouse = {
 }
 
 ### c_ailindalf_3 - ruler 3 (Varpula)
-fc_ailindalf_3_3 = {
-	name = Tapio
+tfw_lineoffc_varpula_005 = {
+	name = tfw_lineoffc_varpula_005_name
 	dynasty = dynasty_fc_varpula
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_ailindalf_3_2
-	mother = fc_ailindalf_3_2_spouse
+	father = tfw_lineoffc_varpula_003
+	mother = tfw_lineoffc_varpula_004
 
 	trait = gregarious
 	trait = diligent
@@ -6025,7 +6025,7 @@ fc_ailindalf_3_3 = {
 		birth = yes
 	}
 	6768.11.18 = {
-		add_spouse = fc_ailindalf_3_3_spouse
+		add_spouse = tfw_lineoffc_varpula_006
 	}
 
 	6852.11.22 = {
@@ -6035,8 +6035,8 @@ fc_ailindalf_3_3 = {
 	}
 }
 
-fc_ailindalf_3_3_spouse = {
-	name = Aamu
+tfw_lineoffc_varpula_006 = {
+	name = tfw_lineoffc_varpula_006_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -6056,8 +6056,8 @@ fc_ailindalf_3_3_spouse = {
 }
 
 ### c_ailindalf_3 - ruler 4 (Suvanto)
-fc_ailindalf_3_4 = {
-	name = Vihavaino
+tfw_lineoffc_suvanto_001 = {
+	name = tfw_lineoffc_suvanto_001_name
 	dynasty = dynasty_fc_suvanto
 	religion = faith_lossoth
 	culture = lossoth
@@ -6072,7 +6072,7 @@ fc_ailindalf_3_4 = {
 		birth = yes
 	}
 	6831.2.27 = {
-		add_spouse = fc_ailindalf_3_4_spouse
+		add_spouse = tfw_lineoffc_suvanto_002
 	}
 
 	6908.7.7 = {
@@ -6082,8 +6082,8 @@ fc_ailindalf_3_4 = {
 	}
 }
 
-fc_ailindalf_3_4_spouse = {
-	name = Pihla
+tfw_lineoffc_suvanto_002 = {
+	name = tfw_lineoffc_suvanto_002_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -6103,14 +6103,14 @@ fc_ailindalf_3_4_spouse = {
 }
 
 ### c_ailindalf_3 - ruler 5 (Suvanto)
-fc_ailindalf_3_5 = {
-	name = Kotarikko
+tfw_lineoffc_suvanto_003 = {
+	name = tfw_lineoffc_suvanto_003_name
 	dynasty = dynasty_fc_suvanto
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_ailindalf_3_4
-	mother = fc_ailindalf_3_4_spouse
+	father = tfw_lineoffc_suvanto_001
+	mother = tfw_lineoffc_suvanto_002
 
 	trait = trusting
 	trait = temperate
@@ -6122,7 +6122,7 @@ fc_ailindalf_3_5 = {
 		birth = yes
 	}
 	6856.8.25 = {
-		add_spouse = fc_ailindalf_3_5_spouse
+		add_spouse = tfw_lineoffc_suvanto_004
 	}
 
 	6947.12.15 = {
@@ -6132,8 +6132,8 @@ fc_ailindalf_3_5 = {
 	}
 }
 
-fc_ailindalf_3_5_spouse = {
-	name = Lemmikki
+tfw_lineoffc_suvanto_004 = {
+	name = tfw_lineoffc_suvanto_004_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -6153,14 +6153,14 @@ fc_ailindalf_3_5_spouse = {
 }
 
 ### c_ailindalf_3 - ruler 6 (Suvanto)
-fc_ailindalf_3_6 = {
-	name = Toivo
+tfw_lineoffc_suvanto_005 = {
+	name = tfw_lineoffc_suvanto_005_name
 	dynasty = dynasty_fc_suvanto
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_ailindalf_3_5
-	mother = fc_ailindalf_3_5_spouse
+	father = tfw_lineoffc_suvanto_003
+	mother = tfw_lineoffc_suvanto_004
 
 	trait = impatient
 	trait = patient
@@ -6172,7 +6172,7 @@ fc_ailindalf_3_6 = {
 		birth = yes
 	}
 	6887.2.14 = {
-		add_spouse = fc_ailindalf_3_6_spouse
+		add_spouse = tfw_lineoffc_suvanto_006
 	}
 
 	7001.3.16 = {
@@ -6182,8 +6182,8 @@ fc_ailindalf_3_6 = {
 	}
 }
 
-fc_ailindalf_3_6_spouse = {
-	name = Toivikki
+tfw_lineoffc_suvanto_006 = {
+	name = tfw_lineoffc_suvanto_006_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -6203,14 +6203,14 @@ fc_ailindalf_3_6_spouse = {
 }
 
 ### c_ailindalf_3 - ruler 7 (Suvanto)
-fc_ailindalf_3_7 = {
-	name = Tervahartia
+tfw_lineoffc_suvanto_007 = {
+	name = tfw_lineoffc_suvanto_007_name
 	dynasty = dynasty_fc_suvanto
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_ailindalf_3_6
-	mother = fc_ailindalf_3_6_spouse
+	father = tfw_lineoffc_suvanto_005
+	mother = tfw_lineoffc_suvanto_006
 
 	trait = honest
 	trait = trusting
@@ -6222,7 +6222,7 @@ fc_ailindalf_3_7 = {
 		birth = yes
 	}
 	6917.10.20 = {
-		add_spouse = fc_ailindalf_3_7_spouse
+		add_spouse = tfw_lineoffc_suvanto_008
 	}
 
 	7103.2.1 = {
@@ -6232,8 +6232,8 @@ fc_ailindalf_3_7 = {
 	}
 }
 
-fc_ailindalf_3_7_spouse = {
-	name = Suvituuli
+tfw_lineoffc_suvanto_008 = {
+	name = tfw_lineoffc_suvanto_008_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -6253,8 +6253,8 @@ fc_ailindalf_3_7_spouse = {
 }
 
 ### c_ailindalf_5 - ruler 1 (Hankala)
-fc_ailindalf_5_1 = {
-	name = Pihla
+tfw_lineoffc_hankala_001 = {
+	name = tfw_lineoffc_hankala_001_name
 	female = yes
 	dynasty = dynasty_fc_hankala
 	religion = faith_lossoth
@@ -6270,7 +6270,7 @@ fc_ailindalf_5_1 = {
 		birth = yes
 	}
 	6724.5.12 = {
-		add_spouse = fc_ailindalf_5_1_spouse
+		add_spouse = tfw_lineoffc_hankala_002
 	}
 
 	6786.12.14 = {
@@ -6280,8 +6280,8 @@ fc_ailindalf_5_1 = {
 	}
 }
 
-fc_ailindalf_5_1_spouse = {
-	name = Lempivaino
+tfw_lineoffc_hankala_002 = {
+	name = tfw_lineoffc_hankala_002_name
 	religion = faith_lossoth
 	culture = lossoth
 
@@ -6300,14 +6300,14 @@ fc_ailindalf_5_1_spouse = {
 }
 
 ### c_ailindalf_5 - ruler 2 (Hankala)
-fc_ailindalf_5_2 = {
-	name = Utujoutsi
+tfw_lineoffc_hankala_003 = {
+	name = tfw_lineoffc_hankala_003_name
 	dynasty = dynasty_fc_hankala
 	religion = faith_lossoth
 	culture = lossoth
 
-	mother = fc_ailindalf_5_1
-	father = fc_ailindalf_5_1_spouse
+	mother = tfw_lineoffc_hankala_001
+	father = tfw_lineoffc_hankala_002
 
 	trait = ambitious
 	trait = vengeful
@@ -6319,7 +6319,7 @@ fc_ailindalf_5_2 = {
 		birth = yes
 	}
 	6758.6.20 = {
-		add_spouse = fc_ailindalf_5_2_spouse
+		add_spouse = tfw_lineoffc_hankala_004
 	}
 
 	6837.10.20 = {
@@ -6329,8 +6329,8 @@ fc_ailindalf_5_2 = {
 	}
 }
 
-fc_ailindalf_5_2_spouse = {
-	name = Tuulikki
+tfw_lineoffc_hankala_004 = {
+	name = tfw_lineoffc_hankala_004_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -6350,14 +6350,14 @@ fc_ailindalf_5_2_spouse = {
 }
 
 ### c_ailindalf_5 - ruler 3 (Hankala)
-fc_ailindalf_5_3 = {
-	name = Oiva
+tfw_lineoffc_hankala_005 = {
+	name = tfw_lineoffc_hankala_005_name
 	dynasty = dynasty_fc_hankala
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_ailindalf_5_2
-	mother = fc_ailindalf_5_2_spouse
+	father = tfw_lineoffc_hankala_003
+	mother = tfw_lineoffc_hankala_004
 
 	trait = vengeful
 	trait = trusting
@@ -6369,7 +6369,7 @@ fc_ailindalf_5_3 = {
 		birth = yes
 	}
 	6784.12.20 = {
-		add_spouse = fc_ailindalf_5_3_spouse
+		add_spouse = tfw_lineoffc_hankala_006
 	}
 
 	6886.11.13 = {
@@ -6379,8 +6379,8 @@ fc_ailindalf_5_3 = {
 	}
 }
 
-fc_ailindalf_5_3_spouse = {
-	name = Maija
+tfw_lineoffc_hankala_006 = {
+	name = tfw_lineoffc_hankala_006_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -6400,14 +6400,14 @@ fc_ailindalf_5_3_spouse = {
 }
 
 ### c_ailindalf_5 - ruler 4 (Hankala)
-fc_ailindalf_5_4 = {
-	name = Kalevi
+tfw_lineoffc_hankala_007 = {
+	name = tfw_lineoffc_hankala_007_name
 	dynasty = dynasty_fc_hankala
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_ailindalf_5_3
-	mother = fc_ailindalf_5_3_spouse
+	father = tfw_lineoffc_hankala_005
+	mother = tfw_lineoffc_hankala_006
 
 	trait = humble
 	trait = brave
@@ -6419,7 +6419,7 @@ fc_ailindalf_5_4 = {
 		birth = yes
 	}
 	6811.9.26 = {
-		add_spouse = fc_ailindalf_5_4_spouse
+		add_spouse = tfw_lineoffc_hankala_008
 	}
 
 	6923.10.23 = {
@@ -6429,8 +6429,8 @@ fc_ailindalf_5_4 = {
 	}
 }
 
-fc_ailindalf_5_4_spouse = {
-	name = Suoma
+tfw_lineoffc_hankala_008 = {
+	name = tfw_lineoffc_hankala_008_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -6450,8 +6450,8 @@ fc_ailindalf_5_4_spouse = {
 }
 
 ### c_ailindalf_5 - ruler 5 (Jarvi)
-fc_ailindalf_5_5 = {
-	name = Osma
+tfw_lineoffc_jarvi_001 = {
+	name = tfw_lineoffc_jarvi_001_name
 	dynasty = dynasty_fc_jarvi
 	religion = faith_lossoth
 	culture = lossoth
@@ -6466,7 +6466,7 @@ fc_ailindalf_5_5 = {
 		birth = yes
 	}
 	6904.2.10 = {
-		add_spouse = fc_ailindalf_5_5_spouse
+		add_spouse = tfw_lineoffc_jarvi_002
 	}
 
 	6967.3.20 = {
@@ -6476,8 +6476,8 @@ fc_ailindalf_5_5 = {
 	}
 }
 
-fc_ailindalf_5_5_spouse = {
-	name = Terhi
+tfw_lineoffc_jarvi_002 = {
+	name = tfw_lineoffc_jarvi_002_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -6497,15 +6497,15 @@ fc_ailindalf_5_5_spouse = {
 }
 
 ### c_ailindalf_5 - ruler 6 (Jarvi)
-fc_ailindalf_5_6 = {
-	name = Kivutar
+tfw_lineoffc_jarvi_003 = {
+	name = tfw_lineoffc_jarvi_003_name
 	female = yes
 	dynasty = dynasty_fc_jarvi
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_ailindalf_5_5
-	mother = fc_ailindalf_5_5_spouse
+	father = tfw_lineoffc_jarvi_001
+	mother = tfw_lineoffc_jarvi_002
 
 	trait = forgiving
 	trait = impatient
@@ -6517,7 +6517,7 @@ fc_ailindalf_5_6 = {
 		birth = yes
 	}
 	6934.4.12 = {
-		add_spouse = fc_ailindalf_5_6_spouse
+		add_spouse = tfw_lineoffc_jarvi_004
 	}
 
 	7012.7.20 = {
@@ -6527,8 +6527,8 @@ fc_ailindalf_5_6 = {
 	}
 }
 
-fc_ailindalf_5_6_spouse = {
-	name = Mielitoivo
+tfw_lineoffc_jarvi_004 = {
+	name = tfw_lineoffc_jarvi_004_name
 	religion = faith_lossoth
 	culture = lossoth
 
@@ -6547,14 +6547,14 @@ fc_ailindalf_5_6_spouse = {
 }
 
 ### c_ailindalf_5 - ruler 7 (Jarvi)
-fc_ailindalf_5_7 = {
-	name = Lempivaino
+tfw_lineoffc_jarvi_005 = {
+	name = tfw_lineoffc_jarvi_005_name
 	dynasty = dynasty_fc_jarvi
 	religion = faith_lossoth
 	culture = lossoth
 
-	mother = fc_ailindalf_5_6
-	father = fc_ailindalf_5_6_spouse
+	mother = tfw_lineoffc_jarvi_003
+	father = tfw_lineoffc_jarvi_004
 
 	trait = diligent
 	trait = zealous
@@ -6566,7 +6566,7 @@ fc_ailindalf_5_7 = {
 		birth = yes
 	}
 	6959.1.28 = {
-		add_spouse = fc_ailindalf_5_7_spouse
+		add_spouse = tfw_lineoffc_jarvi_006
 	}
 
 	7062.10.13 = {
@@ -6576,8 +6576,8 @@ fc_ailindalf_5_7 = {
 	}
 }
 
-fc_ailindalf_5_7_spouse = {
-	name = Tuulikki
+tfw_lineoffc_jarvi_006 = {
+	name = tfw_lineoffc_jarvi_006_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -6597,14 +6597,14 @@ fc_ailindalf_5_7_spouse = {
 }
 
 ### c_ailindalf_5 - ruler 8 (Jarvi)
-fc_ailindalf_5_8 = {
-	name = Arvo
+tfw_lineoffc_jarvi_007 = {
+	name = tfw_lineoffc_jarvi_007_name
 	dynasty = dynasty_fc_jarvi
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_ailindalf_5_7
-	mother = fc_ailindalf_5_7_spouse
+	father = tfw_lineoffc_jarvi_005
+	mother = tfw_lineoffc_jarvi_006
 
 	trait = calm
 	trait = honest
@@ -6616,7 +6616,7 @@ fc_ailindalf_5_8 = {
 		birth = yes
 	}
 	6991.7.3 = {
-		add_spouse = fc_ailindalf_5_8_spouse
+		add_spouse = tfw_lineoffc_jarvi_008
 	}
 
 	7103.3.9 = {
@@ -6626,8 +6626,8 @@ fc_ailindalf_5_8 = {
 	}
 }
 
-fc_ailindalf_5_8_spouse = {
-	name = Miela
+tfw_lineoffc_jarvi_008 = {
+	name = tfw_lineoffc_jarvi_008_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -6647,8 +6647,8 @@ fc_ailindalf_5_8_spouse = {
 }
 
 ### c_ailindalf_8 - ruler 1 (Laakso)
-fc_ailindalf_8_1 = {
-	name = Jalo
+tfw_lineoffc_laakso_001 = {
+	name = tfw_lineoffc_laakso_001_name
 	dynasty = dynasty_fc_laakso
 	religion = faith_lossoth
 	culture = lossoth
@@ -6663,7 +6663,7 @@ fc_ailindalf_8_1 = {
 		birth = yes
 	}
 	6728.11.7 = {
-		add_spouse = fc_ailindalf_8_1_spouse
+		add_spouse = tfw_lineoffc_laakso_002
 	}
 
 	6794.2.2 = {
@@ -6673,8 +6673,8 @@ fc_ailindalf_8_1 = {
 	}
 }
 
-fc_ailindalf_8_1_spouse = {
-	name = Leinikka
+tfw_lineoffc_laakso_002 = {
+	name = tfw_lineoffc_laakso_002_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -6694,14 +6694,14 @@ fc_ailindalf_8_1_spouse = {
 }
 
 ### c_ailindalf_8 - ruler 2 (Laakso)
-fc_ailindalf_8_2 = {
-	name = Sampo
+tfw_lineoffc_laakso_003 = {
+	name = tfw_lineoffc_laakso_003_name
 	dynasty = dynasty_fc_laakso
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_ailindalf_8_1
-	mother = fc_ailindalf_8_1_spouse
+	father = tfw_lineoffc_laakso_001
+	mother = tfw_lineoffc_laakso_002
 
 	trait = vengeful
 	trait = stubborn
@@ -6713,7 +6713,7 @@ fc_ailindalf_8_2 = {
 		birth = yes
 	}
 	6758.8.14 = {
-		add_spouse = fc_ailindalf_8_2_spouse
+		add_spouse = tfw_lineoffc_laakso_004
 	}
 
 	6830.5.17 = {
@@ -6723,8 +6723,8 @@ fc_ailindalf_8_2 = {
 	}
 }
 
-fc_ailindalf_8_2_spouse = {
-	name = Airikka
+tfw_lineoffc_laakso_004 = {
+	name = tfw_lineoffc_laakso_004_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -6744,14 +6744,14 @@ fc_ailindalf_8_2_spouse = {
 }
 
 ### c_ailindalf_8 - ruler 3 (Laakso)
-fc_ailindalf_8_3 = {
-	name = Yrjana
+tfw_lineoffc_laakso_005 = {
+	name = tfw_lineoffc_laakso_005_name
 	dynasty = dynasty_fc_laakso
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_ailindalf_8_2
-	mother = fc_ailindalf_8_2_spouse
+	father = tfw_lineoffc_laakso_003
+	mother = tfw_lineoffc_laakso_004
 
 	trait = ambitious
 	trait = vengeful
@@ -6763,7 +6763,7 @@ fc_ailindalf_8_3 = {
 		birth = yes
 	}
 	6786.11.19 = {
-		add_spouse = fc_ailindalf_8_3_spouse
+		add_spouse = tfw_lineoffc_laakso_006
 	}
 
 	6875.3.20 = {
@@ -6773,8 +6773,8 @@ fc_ailindalf_8_3 = {
 	}
 }
 
-fc_ailindalf_8_3_spouse = {
-	name = Hopea
+tfw_lineoffc_laakso_006 = {
+	name = tfw_lineoffc_laakso_006_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -6794,8 +6794,8 @@ fc_ailindalf_8_3_spouse = {
 }
 
 ### c_ailindalf_8 - ruler 4 (Korpela)
-fc_ailindalf_8_4 = {
-	name = Suvi
+tfw_lineoffc_korpela_001 = {
+	name = tfw_lineoffc_korpela_001_name
 	dynasty = dynasty_fc_korpela
 	religion = faith_lossoth
 	culture = lossoth
@@ -6810,7 +6810,7 @@ fc_ailindalf_8_4 = {
 		birth = yes
 	}
 	6871.4.7 = {
-		add_spouse = fc_ailindalf_8_4_spouse
+		add_spouse = tfw_lineoffc_korpela_002
 	}
 
 	6919.4.18 = {
@@ -6820,8 +6820,8 @@ fc_ailindalf_8_4 = {
 	}
 }
 
-fc_ailindalf_8_4_spouse = {
-	name = Sisko
+tfw_lineoffc_korpela_002 = {
+	name = tfw_lineoffc_korpela_002_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -6841,14 +6841,14 @@ fc_ailindalf_8_4_spouse = {
 }
 
 ### c_ailindalf_8 - ruler 5 (Korpela)
-fc_ailindalf_8_5 = {
-	name = Mielitoivo
+tfw_lineoffc_korpela_003 = {
+	name = tfw_lineoffc_korpela_003_name
 	dynasty = dynasty_fc_korpela
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_ailindalf_8_4
-	mother = fc_ailindalf_8_4_spouse
+	father = tfw_lineoffc_korpela_001
+	mother = tfw_lineoffc_korpela_002
 
 	trait = diligent
 	trait = honest
@@ -6860,7 +6860,7 @@ fc_ailindalf_8_5 = {
 		birth = yes
 	}
 	6890.2.6 = {
-		add_spouse = fc_ailindalf_8_5_spouse
+		add_spouse = tfw_lineoffc_korpela_004
 	}
 
 	6953.9.5 = {
@@ -6870,8 +6870,8 @@ fc_ailindalf_8_5 = {
 	}
 }
 
-fc_ailindalf_8_5_spouse = {
-	name = Ilta
+tfw_lineoffc_korpela_004 = {
+	name = tfw_lineoffc_korpela_004_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -6891,14 +6891,14 @@ fc_ailindalf_8_5_spouse = {
 }
 
 ### c_ailindalf_8 - ruler 6 (Korpela)
-fc_ailindalf_8_6 = {
-	name = Untamo
+tfw_lineoffc_korpela_005 = {
+	name = tfw_lineoffc_korpela_005_name
 	dynasty = dynasty_fc_korpela
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_ailindalf_8_5
-	mother = fc_ailindalf_8_5_spouse
+	father = tfw_lineoffc_korpela_003
+	mother = tfw_lineoffc_korpela_004
 
 	trait = humble
 	trait = stubborn
@@ -6910,7 +6910,7 @@ fc_ailindalf_8_6 = {
 		birth = yes
 	}
 	6920.3.19 = {
-		add_spouse = fc_ailindalf_8_6_spouse
+		add_spouse = tfw_lineoffc_korpela_006
 	}
 
 	6994.7.18 = {
@@ -6920,8 +6920,8 @@ fc_ailindalf_8_6 = {
 	}
 }
 
-fc_ailindalf_8_6_spouse = {
-	name = Aili
+tfw_lineoffc_korpela_006 = {
+	name = tfw_lineoffc_korpela_006_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -6941,14 +6941,14 @@ fc_ailindalf_8_6_spouse = {
 }
 
 ### c_ailindalf_8 - ruler 7 (Korpela)
-fc_ailindalf_8_7 = {
-	name = Kultavaino
+tfw_lineoffc_korpela_007 = {
+	name = tfw_lineoffc_korpela_007_name
 	dynasty = dynasty_fc_korpela
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_ailindalf_8_6
-	mother = fc_ailindalf_8_6_spouse
+	father = tfw_lineoffc_korpela_005
+	mother = tfw_lineoffc_korpela_006
 
 	trait = brave
 	trait = forgiving
@@ -6960,7 +6960,7 @@ fc_ailindalf_8_7 = {
 		birth = yes
 	}
 	6940.4.7 = {
-		add_spouse = fc_ailindalf_8_7_spouse
+		add_spouse = tfw_lineoffc_korpela_008
 	}
 
 	7103.10.16 = {
@@ -6970,8 +6970,8 @@ fc_ailindalf_8_7 = {
 	}
 }
 
-fc_ailindalf_8_7_spouse = {
-	name = Suvi
+tfw_lineoffc_korpela_008 = {
+	name = tfw_lineoffc_korpela_008_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -6991,8 +6991,8 @@ fc_ailindalf_8_7_spouse = {
 }
 
 ### c_ailindalf_9 - ruler 1 (Revontuli)
-fc_ailindalf_9_1 = {
-	name = Mielitoivo
+tfw_lineoffc_revontuli_001 = {
+	name = tfw_lineoffc_revontuli_001_name
 	dynasty = dynasty_fc_revontuli
 	religion = faith_lossoth
 	culture = lossoth
@@ -7007,7 +7007,7 @@ fc_ailindalf_9_1 = {
 		birth = yes
 	}
 	6693.10.21 = {
-		add_spouse = fc_ailindalf_9_1_spouse
+		add_spouse = tfw_lineoffc_revontuli_002
 	}
 
 	6741.10.15 = {
@@ -7017,8 +7017,8 @@ fc_ailindalf_9_1 = {
 	}
 }
 
-fc_ailindalf_9_1_spouse = {
-	name = Sisko
+tfw_lineoffc_revontuli_002 = {
+	name = tfw_lineoffc_revontuli_002_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -7038,14 +7038,14 @@ fc_ailindalf_9_1_spouse = {
 }
 
 ### c_ailindalf_9 - ruler 2 (Revontuli)
-fc_ailindalf_9_2 = {
-	name = Miela
+tfw_lineoffc_revontuli_003 = {
+	name = tfw_lineoffc_revontuli_003_name
 	dynasty = dynasty_fc_revontuli
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_ailindalf_9_1
-	mother = fc_ailindalf_9_1_spouse
+	father = tfw_lineoffc_revontuli_001
+	mother = tfw_lineoffc_revontuli_002
 
 	trait = ambitious
 	trait = humble
@@ -7057,7 +7057,7 @@ fc_ailindalf_9_2 = {
 		birth = yes
 	}
 	6725.9.28 = {
-		add_spouse = fc_ailindalf_9_2_spouse
+		add_spouse = tfw_lineoffc_revontuli_004
 	}
 
 	6796.10.21 = {
@@ -7067,8 +7067,8 @@ fc_ailindalf_9_2 = {
 	}
 }
 
-fc_ailindalf_9_2_spouse = {
-	name = Tuovi
+tfw_lineoffc_revontuli_004 = {
+	name = tfw_lineoffc_revontuli_004_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -7088,14 +7088,14 @@ fc_ailindalf_9_2_spouse = {
 }
 
 ### c_ailindalf_9 - ruler 3 (Revontuli)
-fc_ailindalf_9_3 = {
-	name = Onni
+tfw_lineoffc_revontuli_005 = {
+	name = tfw_lineoffc_revontuli_005_name
 	dynasty = dynasty_fc_revontuli
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_ailindalf_9_2
-	mother = fc_ailindalf_9_2_spouse
+	father = tfw_lineoffc_revontuli_003
+	mother = tfw_lineoffc_revontuli_004
 
 	trait = trusting
 	trait = content
@@ -7107,7 +7107,7 @@ fc_ailindalf_9_3 = {
 		birth = yes
 	}
 	6752.2.4 = {
-		add_spouse = fc_ailindalf_9_3_spouse
+		add_spouse = tfw_lineoffc_revontuli_006
 	}
 
 	6836.8.28 = {
@@ -7117,8 +7117,8 @@ fc_ailindalf_9_3 = {
 	}
 }
 
-fc_ailindalf_9_3_spouse = {
-	name = Vanamo
+tfw_lineoffc_revontuli_006 = {
+	name = tfw_lineoffc_revontuli_006_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -7138,14 +7138,14 @@ fc_ailindalf_9_3_spouse = {
 }
 
 ### c_ailindalf_9 - ruler 4 (Revontuli)
-fc_ailindalf_9_4 = {
-	name = Toivo
+tfw_lineoffc_revontuli_007 = {
+	name = tfw_lineoffc_revontuli_007_name
 	dynasty = dynasty_fc_revontuli
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_ailindalf_9_3
-	mother = fc_ailindalf_9_3_spouse
+	father = tfw_lineoffc_revontuli_005
+	mother = tfw_lineoffc_revontuli_006
 
 	trait = zealous
 	trait = patient
@@ -7157,7 +7157,7 @@ fc_ailindalf_9_4 = {
 		birth = yes
 	}
 	6776.7.20 = {
-		add_spouse = fc_ailindalf_9_4_spouse
+		add_spouse = tfw_lineoffc_revontuli_008
 	}
 
 	6877.11.14 = {
@@ -7167,8 +7167,8 @@ fc_ailindalf_9_4 = {
 	}
 }
 
-fc_ailindalf_9_4_spouse = {
-	name = Mielikki
+tfw_lineoffc_revontuli_008 = {
+	name = tfw_lineoffc_revontuli_008_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -7188,8 +7188,8 @@ fc_ailindalf_9_4_spouse = {
 }
 
 ### c_ailindalf_9 - ruler 5 (Sarkela)
-fc_ailindalf_9_5 = {
-	name = Lempo
+tfw_lineoffc_sarkela_001 = {
+	name = tfw_lineoffc_sarkela_001_name
 	dynasty = dynasty_fc_sarkela
 	religion = faith_lossoth
 	culture = lossoth
@@ -7204,7 +7204,7 @@ fc_ailindalf_9_5 = {
 		birth = yes
 	}
 	6872.3.23 = {
-		add_spouse = fc_ailindalf_9_5_spouse
+		add_spouse = tfw_lineoffc_sarkela_002
 	}
 
 	6922.12.15 = {
@@ -7214,8 +7214,8 @@ fc_ailindalf_9_5 = {
 	}
 }
 
-fc_ailindalf_9_5_spouse = {
-	name = Lempi
+tfw_lineoffc_sarkela_002 = {
+	name = tfw_lineoffc_sarkela_002_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -7235,15 +7235,15 @@ fc_ailindalf_9_5_spouse = {
 }
 
 ### c_ailindalf_9 - ruler 6 (Sarkela)
-fc_ailindalf_9_6 = {
-	name = Lyylikki
+tfw_lineoffc_sarkela_003 = {
+	name = tfw_lineoffc_sarkela_003_name
 	female = yes
 	dynasty = dynasty_fc_sarkela
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_ailindalf_9_5
-	mother = fc_ailindalf_9_5_spouse
+	father = tfw_lineoffc_sarkela_001
+	mother = tfw_lineoffc_sarkela_002
 
 	trait = content
 	trait = impatient
@@ -7255,7 +7255,7 @@ fc_ailindalf_9_6 = {
 		birth = yes
 	}
 	6899.12.21 = {
-		add_spouse = fc_ailindalf_9_6_spouse
+		add_spouse = tfw_lineoffc_sarkela_004
 	}
 
 	6965.9.3 = {
@@ -7265,8 +7265,8 @@ fc_ailindalf_9_6 = {
 	}
 }
 
-fc_ailindalf_9_6_spouse = {
-	name = Osmo
+tfw_lineoffc_sarkela_004 = {
+	name = tfw_lineoffc_sarkela_004_name
 	religion = faith_lossoth
 	culture = lossoth
 
@@ -7285,14 +7285,14 @@ fc_ailindalf_9_6_spouse = {
 }
 
 ### c_ailindalf_9 - ruler 7 (Sarkela)
-fc_ailindalf_9_7 = {
-	name = Leino
+tfw_lineoffc_sarkela_005 = {
+	name = tfw_lineoffc_sarkela_005_name
 	dynasty = dynasty_fc_sarkela
 	religion = faith_lossoth
 	culture = lossoth
 
-	mother = fc_ailindalf_9_6
-	father = fc_ailindalf_9_6_spouse
+	mother = tfw_lineoffc_sarkela_003
+	father = tfw_lineoffc_sarkela_004
 
 	trait = content
 	trait = zealous
@@ -7304,7 +7304,7 @@ fc_ailindalf_9_7 = {
 		birth = yes
 	}
 	6925.4.17 = {
-		add_spouse = fc_ailindalf_9_7_spouse
+		add_spouse = tfw_lineoffc_sarkela_006
 	}
 
 	7002.5.20 = {
@@ -7314,8 +7314,8 @@ fc_ailindalf_9_7 = {
 	}
 }
 
-fc_ailindalf_9_7_spouse = {
-	name = Vanamo
+tfw_lineoffc_sarkela_006 = {
+	name = tfw_lineoffc_sarkela_006_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -7335,14 +7335,14 @@ fc_ailindalf_9_7_spouse = {
 }
 
 ### c_ailindalf_9 - ruler 8 (Sarkela)
-fc_ailindalf_9_8 = {
-	name = Mielitoivo
+tfw_lineoffc_sarkela_007 = {
+	name = tfw_lineoffc_sarkela_007_name
 	dynasty = dynasty_fc_sarkela
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_ailindalf_9_7
-	mother = fc_ailindalf_9_7_spouse
+	father = tfw_lineoffc_sarkela_005
+	mother = tfw_lineoffc_sarkela_006
 
 	trait = temperate
 	trait = patient
@@ -7354,7 +7354,7 @@ fc_ailindalf_9_8 = {
 		birth = yes
 	}
 	6953.3.14 = {
-		add_spouse = fc_ailindalf_9_8_spouse
+		add_spouse = tfw_lineoffc_sarkela_008
 	}
 
 	7103.6.1 = {
@@ -7364,8 +7364,8 @@ fc_ailindalf_9_8 = {
 	}
 }
 
-fc_ailindalf_9_8_spouse = {
-	name = Aamu
+tfw_lineoffc_sarkela_008 = {
+	name = tfw_lineoffc_sarkela_008_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -7385,8 +7385,8 @@ fc_ailindalf_9_8_spouse = {
 }
 
 ### c_ailindalf_10 - ruler 1 (Tunturila)
-fc_ailindalf_10_1 = {
-	name = Sotijalo
+tfw_lineoffc_tunturila_001 = {
+	name = tfw_lineoffc_tunturila_001_name
 	dynasty = dynasty_fc_tunturila
 	religion = faith_lossoth
 	culture = lossoth
@@ -7401,7 +7401,7 @@ fc_ailindalf_10_1 = {
 		birth = yes
 	}
 	6706.8.5 = {
-		add_spouse = fc_ailindalf_10_1_spouse
+		add_spouse = tfw_lineoffc_tunturila_002
 	}
 
 	6748.4.7 = {
@@ -7411,8 +7411,8 @@ fc_ailindalf_10_1 = {
 	}
 }
 
-fc_ailindalf_10_1_spouse = {
-	name = Ilta
+tfw_lineoffc_tunturila_002 = {
+	name = tfw_lineoffc_tunturila_002_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -7432,14 +7432,14 @@ fc_ailindalf_10_1_spouse = {
 }
 
 ### c_ailindalf_10 - ruler 2 (Tunturila)
-fc_ailindalf_10_2 = {
-	name = Arijoutsi
+tfw_lineoffc_tunturila_003 = {
+	name = tfw_lineoffc_tunturila_003_name
 	dynasty = dynasty_fc_tunturila
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_ailindalf_10_1
-	mother = fc_ailindalf_10_1_spouse
+	father = tfw_lineoffc_tunturila_001
+	mother = tfw_lineoffc_tunturila_002
 
 	trait = gregarious
 	trait = diligent
@@ -7451,7 +7451,7 @@ fc_ailindalf_10_2 = {
 		birth = yes
 	}
 	6736.11.26 = {
-		add_spouse = fc_ailindalf_10_2_spouse
+		add_spouse = tfw_lineoffc_tunturila_004
 	}
 
 	6796.2.12 = {
@@ -7461,8 +7461,8 @@ fc_ailindalf_10_2 = {
 	}
 }
 
-fc_ailindalf_10_2_spouse = {
-	name = Kanerva
+tfw_lineoffc_tunturila_004 = {
+	name = tfw_lineoffc_tunturila_004_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -7482,14 +7482,14 @@ fc_ailindalf_10_2_spouse = {
 }
 
 ### c_ailindalf_10 - ruler 3 (Tunturila)
-fc_ailindalf_10_3 = {
-	name = Lempo
+tfw_lineoffc_tunturila_005 = {
+	name = tfw_lineoffc_tunturila_005_name
 	dynasty = dynasty_fc_tunturila
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_ailindalf_10_2
-	mother = fc_ailindalf_10_2_spouse
+	father = tfw_lineoffc_tunturila_003
+	mother = tfw_lineoffc_tunturila_004
 
 	trait = forgiving
 	trait = gregarious
@@ -7501,7 +7501,7 @@ fc_ailindalf_10_3 = {
 		birth = yes
 	}
 	6761.6.1 = {
-		add_spouse = fc_ailindalf_10_3_spouse
+		add_spouse = tfw_lineoffc_tunturila_006
 	}
 
 	6840.3.18 = {
@@ -7511,8 +7511,8 @@ fc_ailindalf_10_3 = {
 	}
 }
 
-fc_ailindalf_10_3_spouse = {
-	name = Pihla
+tfw_lineoffc_tunturila_006 = {
+	name = tfw_lineoffc_tunturila_006_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -7532,8 +7532,8 @@ fc_ailindalf_10_3_spouse = {
 }
 
 ### c_ailindalf_10 - ruler 4 (Ulvila)
-fc_ailindalf_10_4 = {
-	name = Alli
+tfw_lineoffc_ulvila_001 = {
+	name = tfw_lineoffc_ulvila_001_name
 	female = yes
 	dynasty = dynasty_fc_ulvila
 	religion = faith_lossoth
@@ -7549,7 +7549,7 @@ fc_ailindalf_10_4 = {
 		birth = yes
 	}
 	6821.11.2 = {
-		add_spouse = fc_ailindalf_10_4_spouse
+		add_spouse = tfw_lineoffc_ulvila_002
 	}
 
 	6876.4.16 = {
@@ -7559,8 +7559,8 @@ fc_ailindalf_10_4 = {
 	}
 }
 
-fc_ailindalf_10_4_spouse = {
-	name = Tyyni
+tfw_lineoffc_ulvila_002 = {
+	name = tfw_lineoffc_ulvila_002_name
 	religion = faith_lossoth
 	culture = lossoth
 
@@ -7579,14 +7579,14 @@ fc_ailindalf_10_4_spouse = {
 }
 
 ### c_ailindalf_10 - ruler 5 (Ulvila)
-fc_ailindalf_10_5 = {
-	name = Arijoutsi
+tfw_lineoffc_ulvila_003 = {
+	name = tfw_lineoffc_ulvila_003_name
 	dynasty = dynasty_fc_ulvila
 	religion = faith_lossoth
 	culture = lossoth
 
-	mother = fc_ailindalf_10_4
-	father = fc_ailindalf_10_4_spouse
+	mother = tfw_lineoffc_ulvila_001
+	father = tfw_lineoffc_ulvila_002
 
 	trait = diligent
 	trait = patient
@@ -7598,7 +7598,7 @@ fc_ailindalf_10_5 = {
 		birth = yes
 	}
 	6845.6.27 = {
-		add_spouse = fc_ailindalf_10_5_spouse
+		add_spouse = tfw_lineoffc_ulvila_004
 	}
 
 	6922.8.3 = {
@@ -7608,8 +7608,8 @@ fc_ailindalf_10_5 = {
 	}
 }
 
-fc_ailindalf_10_5_spouse = {
-	name = Mahla
+tfw_lineoffc_ulvila_004 = {
+	name = tfw_lineoffc_ulvila_004_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -7629,15 +7629,15 @@ fc_ailindalf_10_5_spouse = {
 }
 
 ### c_ailindalf_10 - ruler 6 (Ulvila)
-fc_ailindalf_10_6 = {
-	name = Aamu
+tfw_lineoffc_ulvila_005 = {
+	name = tfw_lineoffc_ulvila_005_name
 	female = yes
 	dynasty = dynasty_fc_ulvila
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_ailindalf_10_5
-	mother = fc_ailindalf_10_5_spouse
+	father = tfw_lineoffc_ulvila_003
+	mother = tfw_lineoffc_ulvila_004
 
 	trait = ambitious
 	trait = zealous
@@ -7649,7 +7649,7 @@ fc_ailindalf_10_6 = {
 		birth = yes
 	}
 	6867.3.2 = {
-		add_spouse = fc_ailindalf_10_6_spouse
+		add_spouse = tfw_lineoffc_ulvila_006
 	}
 
 	6967.4.2 = {
@@ -7659,8 +7659,8 @@ fc_ailindalf_10_6 = {
 	}
 }
 
-fc_ailindalf_10_6_spouse = {
-	name = Osmo
+tfw_lineoffc_ulvila_006 = {
+	name = tfw_lineoffc_ulvila_006_name
 	religion = faith_lossoth
 	culture = lossoth
 
@@ -7679,14 +7679,14 @@ fc_ailindalf_10_6_spouse = {
 }
 
 ### c_ailindalf_10 - ruler 7 (Ulvila)
-fc_ailindalf_10_7 = {
-	name = Tapio
+tfw_lineoffc_ulvila_007 = {
+	name = tfw_lineoffc_ulvila_007_name
 	dynasty = dynasty_fc_ulvila
 	religion = faith_lossoth
 	culture = lossoth
 
-	mother = fc_ailindalf_10_6
-	father = fc_ailindalf_10_6_spouse
+	mother = tfw_lineoffc_ulvila_005
+	father = tfw_lineoffc_ulvila_006
 
 	trait = calm
 	trait = forgiving
@@ -7698,7 +7698,7 @@ fc_ailindalf_10_7 = {
 		birth = yes
 	}
 	6891.8.7 = {
-		add_spouse = fc_ailindalf_10_7_spouse
+		add_spouse = tfw_lineoffc_ulvila_008
 	}
 
 	7103.8.2 = {
@@ -7708,8 +7708,8 @@ fc_ailindalf_10_7 = {
 	}
 }
 
-fc_ailindalf_10_7_spouse = {
-	name = Aino
+tfw_lineoffc_ulvila_008 = {
+	name = tfw_lineoffc_ulvila_008_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -7729,8 +7729,8 @@ fc_ailindalf_10_7_spouse = {
 }
 
 ### c_lindalf_1 - ruler 1 (Vesala)
-fc_lindalf_1_1 = {
-	name = Satatieto
+tfw_lineoffc_vesala_001 = {
+	name = tfw_lineoffc_vesala_001_name
 	dynasty = dynasty_fc_vesala
 	religion = faith_lossoth
 	culture = lossoth
@@ -7745,7 +7745,7 @@ fc_lindalf_1_1 = {
 		birth = yes
 	}
 	6704.10.5 = {
-		add_spouse = fc_lindalf_1_1_spouse
+		add_spouse = tfw_lineoffc_vesala_002
 	}
 
 	6757.12.27 = {
@@ -7755,8 +7755,8 @@ fc_lindalf_1_1 = {
 	}
 }
 
-fc_lindalf_1_1_spouse = {
-	name = Rauha
+tfw_lineoffc_vesala_002 = {
+	name = tfw_lineoffc_vesala_002_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -7776,14 +7776,14 @@ fc_lindalf_1_1_spouse = {
 }
 
 ### c_lindalf_1 - ruler 2 (Vesala)
-fc_lindalf_1_2 = {
-	name = Aimo
+tfw_lineoffc_vesala_003 = {
+	name = tfw_lineoffc_vesala_003_name
 	dynasty = dynasty_fc_vesala
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_lindalf_1_1
-	mother = fc_lindalf_1_1_spouse
+	father = tfw_lineoffc_vesala_001
+	mother = tfw_lineoffc_vesala_002
 
 	trait = vengeful
 	trait = gregarious
@@ -7795,7 +7795,7 @@ fc_lindalf_1_2 = {
 		birth = yes
 	}
 	6727.6.7 = {
-		add_spouse = fc_lindalf_1_2_spouse
+		add_spouse = tfw_lineoffc_vesala_004
 	}
 
 	6803.2.28 = {
@@ -7805,8 +7805,8 @@ fc_lindalf_1_2 = {
 	}
 }
 
-fc_lindalf_1_2_spouse = {
-	name = Suvituuli
+tfw_lineoffc_vesala_004 = {
+	name = tfw_lineoffc_vesala_004_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -7826,14 +7826,14 @@ fc_lindalf_1_2_spouse = {
 }
 
 ### c_lindalf_1 - ruler 3 (Vesala)
-fc_lindalf_1_3 = {
-	name = Sotijalo
+tfw_lineoffc_vesala_005 = {
+	name = tfw_lineoffc_vesala_005_name
 	dynasty = dynasty_fc_vesala
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_lindalf_1_2
-	mother = fc_lindalf_1_2_spouse
+	father = tfw_lineoffc_vesala_003
+	mother = tfw_lineoffc_vesala_004
 
 	trait = forgiving
 	trait = calm
@@ -7845,7 +7845,7 @@ fc_lindalf_1_3 = {
 		birth = yes
 	}
 	6752.6.26 = {
-		add_spouse = fc_lindalf_1_3_spouse
+		add_spouse = tfw_lineoffc_vesala_006
 	}
 
 	6844.9.20 = {
@@ -7855,8 +7855,8 @@ fc_lindalf_1_3 = {
 	}
 }
 
-fc_lindalf_1_3_spouse = {
-	name = Kukka
+tfw_lineoffc_vesala_006 = {
+	name = tfw_lineoffc_vesala_006_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -7876,14 +7876,14 @@ fc_lindalf_1_3_spouse = {
 }
 
 ### c_lindalf_1 - ruler 4 (Vesala)
-fc_lindalf_1_4 = {
-	name = Osmo
+tfw_lineoffc_vesala_007 = {
+	name = tfw_lineoffc_vesala_007_name
 	dynasty = dynasty_fc_vesala
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_lindalf_1_3
-	mother = fc_lindalf_1_3_spouse
+	father = tfw_lineoffc_vesala_005
+	mother = tfw_lineoffc_vesala_006
 
 	trait = impatient
 	trait = diligent
@@ -7895,7 +7895,7 @@ fc_lindalf_1_4 = {
 		birth = yes
 	}
 	6778.8.5 = {
-		add_spouse = fc_lindalf_1_4_spouse
+		add_spouse = tfw_lineoffc_vesala_008
 	}
 
 	6884.5.4 = {
@@ -7905,8 +7905,8 @@ fc_lindalf_1_4 = {
 	}
 }
 
-fc_lindalf_1_4_spouse = {
-	name = Rauha
+tfw_lineoffc_vesala_008 = {
+	name = tfw_lineoffc_vesala_008_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -7926,8 +7926,8 @@ fc_lindalf_1_4_spouse = {
 }
 
 ### c_lindalf_1 - ruler 5 (Ahmala)
-fc_lindalf_1_5 = {
-	name = Osmo
+tfw_lineoffc_ahmala_001 = {
+	name = tfw_lineoffc_ahmala_001_name
 	dynasty = dynasty_fc_ahmala
 	religion = faith_lossoth
 	culture = lossoth
@@ -7942,7 +7942,7 @@ fc_lindalf_1_5 = {
 		birth = yes
 	}
 	6867.11.16 = {
-		add_spouse = fc_lindalf_1_5_spouse
+		add_spouse = tfw_lineoffc_ahmala_002
 	}
 
 	6932.8.6 = {
@@ -7952,8 +7952,8 @@ fc_lindalf_1_5 = {
 	}
 }
 
-fc_lindalf_1_5_spouse = {
-	name = Ilta
+tfw_lineoffc_ahmala_002 = {
+	name = tfw_lineoffc_ahmala_002_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -7973,14 +7973,14 @@ fc_lindalf_1_5_spouse = {
 }
 
 ### c_lindalf_1 - ruler 6 (Ahmala)
-fc_lindalf_1_6 = {
-	name = Ahti
+tfw_lineoffc_ahmala_003 = {
+	name = tfw_lineoffc_ahmala_003_name
 	dynasty = dynasty_fc_ahmala
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_lindalf_1_5
-	mother = fc_lindalf_1_5_spouse
+	father = tfw_lineoffc_ahmala_001
+	mother = tfw_lineoffc_ahmala_002
 
 	trait = gregarious
 	trait = honest
@@ -7992,7 +7992,7 @@ fc_lindalf_1_6 = {
 		birth = yes
 	}
 	6892.1.5 = {
-		add_spouse = fc_lindalf_1_6_spouse
+		add_spouse = tfw_lineoffc_ahmala_004
 	}
 
 	6976.3.23 = {
@@ -8002,8 +8002,8 @@ fc_lindalf_1_6 = {
 	}
 }
 
-fc_lindalf_1_6_spouse = {
-	name = Ilta
+tfw_lineoffc_ahmala_004 = {
+	name = tfw_lineoffc_ahmala_004_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -8023,14 +8023,14 @@ fc_lindalf_1_6_spouse = {
 }
 
 ### c_lindalf_1 - ruler 7 (Ahmala)
-fc_lindalf_1_7 = {
-	name = Arijoutsi
+tfw_lineoffc_ahmala_005 = {
+	name = tfw_lineoffc_ahmala_005_name
 	dynasty = dynasty_fc_ahmala
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_lindalf_1_6
-	mother = fc_lindalf_1_6_spouse
+	father = tfw_lineoffc_ahmala_003
+	mother = tfw_lineoffc_ahmala_004
 
 	trait = ambitious
 	trait = forgiving
@@ -8042,7 +8042,7 @@ fc_lindalf_1_7 = {
 		birth = yes
 	}
 	6916.7.15 = {
-		add_spouse = fc_lindalf_1_7_spouse
+		add_spouse = tfw_lineoffc_ahmala_006
 	}
 
 	7026.4.28 = {
@@ -8052,8 +8052,8 @@ fc_lindalf_1_7 = {
 	}
 }
 
-fc_lindalf_1_7_spouse = {
-	name = Sisko
+tfw_lineoffc_ahmala_006 = {
+	name = tfw_lineoffc_ahmala_006_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -8073,14 +8073,14 @@ fc_lindalf_1_7_spouse = {
 }
 
 ### c_lindalf_1 - ruler 8 (Ahmala)
-fc_lindalf_1_8 = {
-	name = Kaukovalta
+tfw_lineoffc_ahmala_007 = {
+	name = tfw_lineoffc_ahmala_007_name
 	dynasty = dynasty_fc_ahmala
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_lindalf_1_7
-	mother = fc_lindalf_1_7_spouse
+	father = tfw_lineoffc_ahmala_005
+	mother = tfw_lineoffc_ahmala_006
 
 	trait = ambitious
 	trait = patient
@@ -8092,7 +8092,7 @@ fc_lindalf_1_8 = {
 		birth = yes
 	}
 	6942.2.25 = {
-		add_spouse = fc_lindalf_1_8_spouse
+		add_spouse = tfw_lineoffc_ahmala_008
 	}
 
 	7103.1.1 = {
@@ -8102,8 +8102,8 @@ fc_lindalf_1_8 = {
 	}
 }
 
-fc_lindalf_1_8_spouse = {
-	name = Kukka
+tfw_lineoffc_ahmala_008 = {
+	name = tfw_lineoffc_ahmala_008_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -8123,8 +8123,8 @@ fc_lindalf_1_8_spouse = {
 }
 
 ### c_calendalf_17 - ruler 1 (Peurala)
-fc_calendalf_17_1 = {
-	name = Utujoutsi
+tfw_lineoffc_peurala_001 = {
+	name = tfw_lineoffc_peurala_001_name
 	dynasty = dynasty_fc_peurala
 	religion = faith_lossoth
 	culture = lossoth
@@ -8139,7 +8139,7 @@ fc_calendalf_17_1 = {
 		birth = yes
 	}
 	6713.2.8 = {
-		add_spouse = fc_calendalf_17_1_spouse
+		add_spouse = tfw_lineoffc_peurala_002
 	}
 
 	6761.4.21 = {
@@ -8149,8 +8149,8 @@ fc_calendalf_17_1 = {
 	}
 }
 
-fc_calendalf_17_1_spouse = {
-	name = Alli
+tfw_lineoffc_peurala_002 = {
+	name = tfw_lineoffc_peurala_002_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -8170,14 +8170,14 @@ fc_calendalf_17_1_spouse = {
 }
 
 ### c_calendalf_17 - ruler 2 (Peurala)
-fc_calendalf_17_2 = {
-	name = Tyyni
+tfw_lineoffc_peurala_003 = {
+	name = tfw_lineoffc_peurala_003_name
 	dynasty = dynasty_fc_peurala
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_calendalf_17_1
-	mother = fc_calendalf_17_1_spouse
+	father = tfw_lineoffc_peurala_001
+	mother = tfw_lineoffc_peurala_002
 
 	trait = gregarious
 	trait = content
@@ -8189,7 +8189,7 @@ fc_calendalf_17_2 = {
 		birth = yes
 	}
 	6737.6.23 = {
-		add_spouse = fc_calendalf_17_2_spouse
+		add_spouse = tfw_lineoffc_peurala_004
 	}
 
 	6807.4.4 = {
@@ -8199,8 +8199,8 @@ fc_calendalf_17_2 = {
 	}
 }
 
-fc_calendalf_17_2_spouse = {
-	name = Aino
+tfw_lineoffc_peurala_004 = {
+	name = tfw_lineoffc_peurala_004_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -8220,14 +8220,14 @@ fc_calendalf_17_2_spouse = {
 }
 
 ### c_calendalf_17 - ruler 3 (Peurala)
-fc_calendalf_17_3 = {
-	name = Otso
+tfw_lineoffc_peurala_005 = {
+	name = tfw_lineoffc_peurala_005_name
 	dynasty = dynasty_fc_peurala
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_calendalf_17_2
-	mother = fc_calendalf_17_2_spouse
+	father = tfw_lineoffc_peurala_003
+	mother = tfw_lineoffc_peurala_004
 
 	trait = honest
 	trait = impatient
@@ -8239,7 +8239,7 @@ fc_calendalf_17_3 = {
 		birth = yes
 	}
 	6764.10.14 = {
-		add_spouse = fc_calendalf_17_3_spouse
+		add_spouse = tfw_lineoffc_peurala_006
 	}
 
 	6854.5.7 = {
@@ -8249,8 +8249,8 @@ fc_calendalf_17_3 = {
 	}
 }
 
-fc_calendalf_17_3_spouse = {
-	name = Hopea
+tfw_lineoffc_peurala_006 = {
+	name = tfw_lineoffc_peurala_006_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -8270,8 +8270,8 @@ fc_calendalf_17_3_spouse = {
 }
 
 ### c_calendalf_17 - ruler 4 (Karpalo)
-fc_calendalf_17_4 = {
-	name = Tyyni
+tfw_lineoffc_karpalo_001 = {
+	name = tfw_lineoffc_karpalo_001_name
 	dynasty = dynasty_fc_karpalo
 	religion = faith_lossoth
 	culture = lossoth
@@ -8286,7 +8286,7 @@ fc_calendalf_17_4 = {
 		birth = yes
 	}
 	6838.11.20 = {
-		add_spouse = fc_calendalf_17_4_spouse
+		add_spouse = tfw_lineoffc_karpalo_002
 	}
 
 	6907.2.22 = {
@@ -8296,8 +8296,8 @@ fc_calendalf_17_4 = {
 	}
 }
 
-fc_calendalf_17_4_spouse = {
-	name = Ilta
+tfw_lineoffc_karpalo_002 = {
+	name = tfw_lineoffc_karpalo_002_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -8317,14 +8317,14 @@ fc_calendalf_17_4_spouse = {
 }
 
 ### c_calendalf_17 - ruler 5 (Karpalo)
-fc_calendalf_17_5 = {
-	name = Havu
+tfw_lineoffc_karpalo_003 = {
+	name = tfw_lineoffc_karpalo_003_name
 	dynasty = dynasty_fc_karpalo
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_calendalf_17_4
-	mother = fc_calendalf_17_4_spouse
+	father = tfw_lineoffc_karpalo_001
+	mother = tfw_lineoffc_karpalo_002
 
 	trait = content
 	trait = ambitious
@@ -8336,7 +8336,7 @@ fc_calendalf_17_5 = {
 		birth = yes
 	}
 	6869.11.7 = {
-		add_spouse = fc_calendalf_17_5_spouse
+		add_spouse = tfw_lineoffc_karpalo_004
 	}
 
 	6946.2.3 = {
@@ -8346,8 +8346,8 @@ fc_calendalf_17_5 = {
 	}
 }
 
-fc_calendalf_17_5_spouse = {
-	name = Mesi
+tfw_lineoffc_karpalo_004 = {
+	name = tfw_lineoffc_karpalo_004_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -8367,15 +8367,15 @@ fc_calendalf_17_5_spouse = {
 }
 
 ### c_calendalf_17 - ruler 6 (Karpalo)
-fc_calendalf_17_6 = {
-	name = Mielikki
+tfw_lineoffc_karpalo_005 = {
+	name = tfw_lineoffc_karpalo_005_name
 	female = yes
 	dynasty = dynasty_fc_karpalo
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_calendalf_17_5
-	mother = fc_calendalf_17_5_spouse
+	father = tfw_lineoffc_karpalo_003
+	mother = tfw_lineoffc_karpalo_004
 
 	trait = impatient
 	trait = gregarious
@@ -8387,7 +8387,7 @@ fc_calendalf_17_6 = {
 		birth = yes
 	}
 	6897.1.25 = {
-		add_spouse = fc_calendalf_17_6_spouse
+		add_spouse = tfw_lineoffc_karpalo_006
 	}
 
 	6983.12.8 = {
@@ -8397,8 +8397,8 @@ fc_calendalf_17_6 = {
 	}
 }
 
-fc_calendalf_17_6_spouse = {
-	name = Vanamo
+tfw_lineoffc_karpalo_006 = {
+	name = tfw_lineoffc_karpalo_006_name
 	religion = faith_lossoth
 	culture = lossoth
 
@@ -8417,14 +8417,14 @@ fc_calendalf_17_6_spouse = {
 }
 
 ### c_calendalf_17 - ruler 7 (Karpalo)
-fc_calendalf_17_7 = {
-	name = Ilmalempi
+tfw_lineoffc_karpalo_007 = {
+	name = tfw_lineoffc_karpalo_007_name
 	dynasty = dynasty_fc_karpalo
 	religion = faith_lossoth
 	culture = lossoth
 
-	mother = fc_calendalf_17_6
-	father = fc_calendalf_17_6_spouse
+	mother = tfw_lineoffc_karpalo_005
+	father = tfw_lineoffc_karpalo_006
 
 	trait = calm
 	trait = trusting
@@ -8436,7 +8436,7 @@ fc_calendalf_17_7 = {
 		birth = yes
 	}
 	6921.11.1 = {
-		add_spouse = fc_calendalf_17_7_spouse
+		add_spouse = tfw_lineoffc_karpalo_008
 	}
 
 	7103.6.11 = {
@@ -8446,8 +8446,8 @@ fc_calendalf_17_7 = {
 	}
 }
 
-fc_calendalf_17_7_spouse = {
-	name = Tuovi
+tfw_lineoffc_karpalo_008 = {
+	name = tfw_lineoffc_karpalo_008_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -8467,8 +8467,8 @@ fc_calendalf_17_7_spouse = {
 }
 
 ### c_calendalf_15 - ruler 1 (Naavala)
-fc_calendalf_15_1 = {
-	name = Toivo
+tfw_lineoffc_naavala_001 = {
+	name = tfw_lineoffc_naavala_001_name
 	dynasty = dynasty_fc_naavala
 	religion = faith_lossoth
 	culture = lossoth
@@ -8483,7 +8483,7 @@ fc_calendalf_15_1 = {
 		birth = yes
 	}
 	6726.2.4 = {
-		add_spouse = fc_calendalf_15_1_spouse
+		add_spouse = tfw_lineoffc_naavala_002
 	}
 
 	6768.9.2 = {
@@ -8493,8 +8493,8 @@ fc_calendalf_15_1 = {
 	}
 }
 
-fc_calendalf_15_1_spouse = {
-	name = Mielikki
+tfw_lineoffc_naavala_002 = {
+	name = tfw_lineoffc_naavala_002_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -8514,14 +8514,14 @@ fc_calendalf_15_1_spouse = {
 }
 
 ### c_calendalf_15 - ruler 2 (Naavala)
-fc_calendalf_15_2 = {
-	name = Jalo
+tfw_lineoffc_naavala_003 = {
+	name = tfw_lineoffc_naavala_003_name
 	dynasty = dynasty_fc_naavala
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_calendalf_15_1
-	mother = fc_calendalf_15_1_spouse
+	father = tfw_lineoffc_naavala_001
+	mother = tfw_lineoffc_naavala_002
 
 	trait = vengeful
 	trait = diligent
@@ -8533,7 +8533,7 @@ fc_calendalf_15_2 = {
 		birth = yes
 	}
 	6751.12.24 = {
-		add_spouse = fc_calendalf_15_2_spouse
+		add_spouse = tfw_lineoffc_naavala_004
 	}
 
 	6819.7.16 = {
@@ -8543,8 +8543,8 @@ fc_calendalf_15_2 = {
 	}
 }
 
-fc_calendalf_15_2_spouse = {
-	name = Lyylikki
+tfw_lineoffc_naavala_004 = {
+	name = tfw_lineoffc_naavala_004_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -8564,15 +8564,15 @@ fc_calendalf_15_2_spouse = {
 }
 
 ### c_calendalf_15 - ruler 3 (Naavala)
-fc_calendalf_15_3 = {
-	name = Miela
+tfw_lineoffc_naavala_005 = {
+	name = tfw_lineoffc_naavala_005_name
 	female = yes
 	dynasty = dynasty_fc_naavala
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_calendalf_15_2
-	mother = fc_calendalf_15_2_spouse
+	father = tfw_lineoffc_naavala_003
+	mother = tfw_lineoffc_naavala_004
 
 	trait = patient
 	trait = stubborn
@@ -8584,7 +8584,7 @@ fc_calendalf_15_3 = {
 		birth = yes
 	}
 	6779.5.9 = {
-		add_spouse = fc_calendalf_15_3_spouse
+		add_spouse = tfw_lineoffc_naavala_006
 	}
 
 	6869.12.25 = {
@@ -8594,8 +8594,8 @@ fc_calendalf_15_3 = {
 	}
 }
 
-fc_calendalf_15_3_spouse = {
-	name = Aikamieli
+tfw_lineoffc_naavala_006 = {
+	name = tfw_lineoffc_naavala_006_name
 	religion = faith_lossoth
 	culture = lossoth
 
@@ -8614,15 +8614,15 @@ fc_calendalf_15_3_spouse = {
 }
 
 ### c_calendalf_15 - ruler 4 (Naavala)
-fc_calendalf_15_4 = {
-	name = Kivutar
+tfw_lineoffc_naavala_007 = {
+	name = tfw_lineoffc_naavala_007_name
 	female = yes
 	dynasty = dynasty_fc_naavala
 	religion = faith_lossoth
 	culture = lossoth
 
-	mother = fc_calendalf_15_3
-	father = fc_calendalf_15_3_spouse
+	mother = tfw_lineoffc_naavala_005
+	father = tfw_lineoffc_naavala_006
 
 	trait = trusting
 	trait = diligent
@@ -8634,7 +8634,7 @@ fc_calendalf_15_4 = {
 		birth = yes
 	}
 	6804.2.20 = {
-		add_spouse = fc_calendalf_15_4_spouse
+		add_spouse = tfw_lineoffc_naavala_008
 	}
 
 	6917.1.12 = {
@@ -8644,8 +8644,8 @@ fc_calendalf_15_4 = {
 	}
 }
 
-fc_calendalf_15_4_spouse = {
-	name = Jalo
+tfw_lineoffc_naavala_008 = {
+	name = tfw_lineoffc_naavala_008_name
 	religion = faith_lossoth
 	culture = lossoth
 
@@ -8664,8 +8664,8 @@ fc_calendalf_15_4_spouse = {
 }
 
 ### c_calendalf_15 - ruler 5 (Rannikko)
-fc_calendalf_15_5 = {
-	name = Tyyni
+tfw_lineoffc_rannikko_001 = {
+	name = tfw_lineoffc_rannikko_001_name
 	female = yes
 	dynasty = dynasty_fc_rannikko
 	religion = faith_lossoth
@@ -8681,7 +8681,7 @@ fc_calendalf_15_5 = {
 		birth = yes
 	}
 	6903.9.10 = {
-		add_spouse = fc_calendalf_15_5_spouse
+		add_spouse = tfw_lineoffc_rannikko_002
 	}
 
 	6965.9.6 = {
@@ -8691,8 +8691,8 @@ fc_calendalf_15_5 = {
 	}
 }
 
-fc_calendalf_15_5_spouse = {
-	name = Tervahartia
+tfw_lineoffc_rannikko_002 = {
+	name = tfw_lineoffc_rannikko_002_name
 	religion = faith_lossoth
 	culture = lossoth
 
@@ -8711,14 +8711,14 @@ fc_calendalf_15_5_spouse = {
 }
 
 ### c_calendalf_15 - ruler 6 (Rannikko)
-fc_calendalf_15_6 = {
-	name = Kultavaino
+tfw_lineoffc_rannikko_003 = {
+	name = tfw_lineoffc_rannikko_003_name
 	dynasty = dynasty_fc_rannikko
 	religion = faith_lossoth
 	culture = lossoth
 
-	mother = fc_calendalf_15_5
-	father = fc_calendalf_15_5_spouse
+	mother = tfw_lineoffc_rannikko_001
+	father = tfw_lineoffc_rannikko_002
 
 	trait = humble
 	trait = zealous
@@ -8730,7 +8730,7 @@ fc_calendalf_15_6 = {
 		birth = yes
 	}
 	6927.7.18 = {
-		add_spouse = fc_calendalf_15_6_spouse
+		add_spouse = tfw_lineoffc_rannikko_004
 	}
 
 	7009.4.11 = {
@@ -8740,8 +8740,8 @@ fc_calendalf_15_6 = {
 	}
 }
 
-fc_calendalf_15_6_spouse = {
-	name = Pihla
+tfw_lineoffc_rannikko_004 = {
+	name = tfw_lineoffc_rannikko_004_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -8761,15 +8761,15 @@ fc_calendalf_15_6_spouse = {
 }
 
 ### c_calendalf_15 - ruler 7 (Rannikko)
-fc_calendalf_15_7 = {
-	name = Mesi
+tfw_lineoffc_rannikko_005 = {
+	name = tfw_lineoffc_rannikko_005_name
 	female = yes
 	dynasty = dynasty_fc_rannikko
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_calendalf_15_6
-	mother = fc_calendalf_15_6_spouse
+	father = tfw_lineoffc_rannikko_003
+	mother = tfw_lineoffc_rannikko_004
 
 	trait = content
 	trait = temperate
@@ -8781,7 +8781,7 @@ fc_calendalf_15_7 = {
 		birth = yes
 	}
 	6956.3.20 = {
-		add_spouse = fc_calendalf_15_7_spouse
+		add_spouse = tfw_lineoffc_rannikko_006
 	}
 
 	7059.5.20 = {
@@ -8791,8 +8791,8 @@ fc_calendalf_15_7 = {
 	}
 }
 
-fc_calendalf_15_7_spouse = {
-	name = Osma
+tfw_lineoffc_rannikko_006 = {
+	name = tfw_lineoffc_rannikko_006_name
 	religion = faith_lossoth
 	culture = lossoth
 
@@ -8811,14 +8811,14 @@ fc_calendalf_15_7_spouse = {
 }
 
 ### c_calendalf_15 - ruler 8 (Rannikko)
-fc_calendalf_15_8 = {
-	name = Lauri
+tfw_lineoffc_rannikko_007 = {
+	name = tfw_lineoffc_rannikko_007_name
 	dynasty = dynasty_fc_rannikko
 	religion = faith_lossoth
 	culture = lossoth
 
-	mother = fc_calendalf_15_7
-	father = fc_calendalf_15_7_spouse
+	mother = tfw_lineoffc_rannikko_005
+	father = tfw_lineoffc_rannikko_006
 
 	trait = gregarious
 	trait = diligent
@@ -8830,7 +8830,7 @@ fc_calendalf_15_8 = {
 		birth = yes
 	}
 	6986.8.3 = {
-		add_spouse = fc_calendalf_15_8_spouse
+		add_spouse = tfw_lineoffc_rannikko_008
 	}
 
 	7103.12.4 = {
@@ -8840,8 +8840,8 @@ fc_calendalf_15_8 = {
 	}
 }
 
-fc_calendalf_15_8_spouse = {
-	name = Lauha
+tfw_lineoffc_rannikko_008 = {
+	name = tfw_lineoffc_rannikko_008_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -8861,8 +8861,8 @@ fc_calendalf_15_8_spouse = {
 }
 
 ### c_everdalf_8 - ruler 1 (Kallio)
-fc_everdalf_8_1 = {
-	name = Aimo
+tfw_lineoffc_kallio_001 = {
+	name = tfw_lineoffc_kallio_001_name
 	dynasty = dynasty_fc_kallio
 	religion = faith_lossoth
 	culture = lossoth
@@ -8877,7 +8877,7 @@ fc_everdalf_8_1 = {
 		birth = yes
 	}
 	6725.5.17 = {
-		add_spouse = fc_everdalf_8_1_spouse
+		add_spouse = tfw_lineoffc_kallio_002
 	}
 
 	6780.6.12 = {
@@ -8887,8 +8887,8 @@ fc_everdalf_8_1 = {
 	}
 }
 
-fc_everdalf_8_1_spouse = {
-	name = Pihla
+tfw_lineoffc_kallio_002 = {
+	name = tfw_lineoffc_kallio_002_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -8908,15 +8908,15 @@ fc_everdalf_8_1_spouse = {
 }
 
 ### c_everdalf_8 - ruler 2 (Kallio)
-fc_everdalf_8_2 = {
-	name = Kanerva
+tfw_lineoffc_kallio_003 = {
+	name = tfw_lineoffc_kallio_003_name
 	female = yes
 	dynasty = dynasty_fc_kallio
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_everdalf_8_1
-	mother = fc_everdalf_8_1_spouse
+	father = tfw_lineoffc_kallio_001
+	mother = tfw_lineoffc_kallio_002
 
 	trait = patient
 	trait = stubborn
@@ -8928,7 +8928,7 @@ fc_everdalf_8_2 = {
 		birth = yes
 	}
 	6755.6.24 = {
-		add_spouse = fc_everdalf_8_2_spouse
+		add_spouse = tfw_lineoffc_kallio_004
 	}
 
 	6828.7.22 = {
@@ -8938,8 +8938,8 @@ fc_everdalf_8_2 = {
 	}
 }
 
-fc_everdalf_8_2_spouse = {
-	name = Otso
+tfw_lineoffc_kallio_004 = {
+	name = tfw_lineoffc_kallio_004_name
 	religion = faith_lossoth
 	culture = lossoth
 
@@ -8958,14 +8958,14 @@ fc_everdalf_8_2_spouse = {
 }
 
 ### c_everdalf_8 - ruler 3 (Kallio)
-fc_everdalf_8_3 = {
-	name = Havu
+tfw_lineoffc_kallio_005 = {
+	name = tfw_lineoffc_kallio_005_name
 	dynasty = dynasty_fc_kallio
 	religion = faith_lossoth
 	culture = lossoth
 
-	mother = fc_everdalf_8_2
-	father = fc_everdalf_8_2_spouse
+	mother = tfw_lineoffc_kallio_003
+	father = tfw_lineoffc_kallio_004
 
 	trait = humble
 	trait = impatient
@@ -8977,7 +8977,7 @@ fc_everdalf_8_3 = {
 		birth = yes
 	}
 	6780.6.2 = {
-		add_spouse = fc_everdalf_8_3_spouse
+		add_spouse = tfw_lineoffc_kallio_006
 	}
 
 	6878.12.15 = {
@@ -8987,8 +8987,8 @@ fc_everdalf_8_3 = {
 	}
 }
 
-fc_everdalf_8_3_spouse = {
-	name = Aamu
+tfw_lineoffc_kallio_006 = {
+	name = tfw_lineoffc_kallio_006_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -9008,8 +9008,8 @@ fc_everdalf_8_3_spouse = {
 }
 
 ### c_everdalf_8 - ruler 4 (Myrskyla)
-fc_everdalf_8_4 = {
-	name = Lempi
+tfw_lineoffc_myrskyla_001 = {
+	name = tfw_lineoffc_myrskyla_001_name
 	female = yes
 	dynasty = dynasty_fc_myrskyla
 	religion = faith_lossoth
@@ -9025,7 +9025,7 @@ fc_everdalf_8_4 = {
 		birth = yes
 	}
 	6869.10.6 = {
-		add_spouse = fc_everdalf_8_4_spouse
+		add_spouse = tfw_lineoffc_myrskyla_002
 	}
 
 	6933.2.2 = {
@@ -9035,8 +9035,8 @@ fc_everdalf_8_4 = {
 	}
 }
 
-fc_everdalf_8_4_spouse = {
-	name = Miela
+tfw_lineoffc_myrskyla_002 = {
+	name = tfw_lineoffc_myrskyla_002_name
 	religion = faith_lossoth
 	culture = lossoth
 
@@ -9055,14 +9055,14 @@ fc_everdalf_8_4_spouse = {
 }
 
 ### c_everdalf_8 - ruler 5 (Myrskyla)
-fc_everdalf_8_5 = {
-	name = Miela
+tfw_lineoffc_myrskyla_003 = {
+	name = tfw_lineoffc_myrskyla_003_name
 	dynasty = dynasty_fc_myrskyla
 	religion = faith_lossoth
 	culture = lossoth
 
-	mother = fc_everdalf_8_4
-	father = fc_everdalf_8_4_spouse
+	mother = tfw_lineoffc_myrskyla_001
+	father = tfw_lineoffc_myrskyla_002
 
 	trait = vengeful
 	trait = temperate
@@ -9074,7 +9074,7 @@ fc_everdalf_8_5 = {
 		birth = yes
 	}
 	6900.2.13 = {
-		add_spouse = fc_everdalf_8_5_spouse
+		add_spouse = tfw_lineoffc_myrskyla_004
 	}
 
 	6989.1.17 = {
@@ -9084,8 +9084,8 @@ fc_everdalf_8_5 = {
 	}
 }
 
-fc_everdalf_8_5_spouse = {
-	name = Tuovi
+tfw_lineoffc_myrskyla_004 = {
+	name = tfw_lineoffc_myrskyla_004_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -9105,15 +9105,15 @@ fc_everdalf_8_5_spouse = {
 }
 
 ### c_everdalf_8 - ruler 6 (Myrskyla)
-fc_everdalf_8_6 = {
-	name = Taimi
+tfw_lineoffc_myrskyla_005 = {
+	name = tfw_lineoffc_myrskyla_005_name
 	female = yes
 	dynasty = dynasty_fc_myrskyla
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_everdalf_8_5
-	mother = fc_everdalf_8_5_spouse
+	father = tfw_lineoffc_myrskyla_003
+	mother = tfw_lineoffc_myrskyla_004
 
 	trait = content
 	trait = brave
@@ -9125,7 +9125,7 @@ fc_everdalf_8_6 = {
 		birth = yes
 	}
 	6931.4.26 = {
-		add_spouse = fc_everdalf_8_6_spouse
+		add_spouse = tfw_lineoffc_myrskyla_006
 	}
 
 	7027.12.28 = {
@@ -9135,8 +9135,8 @@ fc_everdalf_8_6 = {
 	}
 }
 
-fc_everdalf_8_6_spouse = {
-	name = Venemies
+tfw_lineoffc_myrskyla_006 = {
+	name = tfw_lineoffc_myrskyla_006_name
 	religion = faith_lossoth
 	culture = lossoth
 
@@ -9155,14 +9155,14 @@ fc_everdalf_8_6_spouse = {
 }
 
 ### c_everdalf_8 - ruler 7 (Myrskyla)
-fc_everdalf_8_7 = {
-	name = Sotijalo
+tfw_lineoffc_myrskyla_007 = {
+	name = tfw_lineoffc_myrskyla_007_name
 	dynasty = dynasty_fc_myrskyla
 	religion = faith_lossoth
 	culture = lossoth
 
-	mother = fc_everdalf_8_6
-	father = fc_everdalf_8_6_spouse
+	mother = tfw_lineoffc_myrskyla_005
+	father = tfw_lineoffc_myrskyla_006
 
 	trait = vengeful
 	trait = honest
@@ -9174,7 +9174,7 @@ fc_everdalf_8_7 = {
 		birth = yes
 	}
 	6958.9.8 = {
-		add_spouse = fc_everdalf_8_7_spouse
+		add_spouse = tfw_lineoffc_myrskyla_008
 	}
 
 	7103.10.17 = {
@@ -9184,8 +9184,8 @@ fc_everdalf_8_7 = {
 	}
 }
 
-fc_everdalf_8_7_spouse = {
-	name = Talvikki
+tfw_lineoffc_myrskyla_008 = {
+	name = tfw_lineoffc_myrskyla_008_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -9205,8 +9205,8 @@ fc_everdalf_8_7_spouse = {
 }
 
 ### c_everdalf_9 - ruler 1 (Aallokko)
-fc_everdalf_9_1 = {
-	name = Ihamieli
+tfw_lineoffc_aallokko_001 = {
+	name = tfw_lineoffc_aallokko_001_name
 	dynasty = dynasty_fc_aallokko
 	religion = faith_lossoth
 	culture = lossoth
@@ -9221,7 +9221,7 @@ fc_everdalf_9_1 = {
 		birth = yes
 	}
 	6698.10.16 = {
-		add_spouse = fc_everdalf_9_1_spouse
+		add_spouse = tfw_lineoffc_aallokko_002
 	}
 
 	6760.4.5 = {
@@ -9231,8 +9231,8 @@ fc_everdalf_9_1 = {
 	}
 }
 
-fc_everdalf_9_1_spouse = {
-	name = Kukka
+tfw_lineoffc_aallokko_002 = {
+	name = tfw_lineoffc_aallokko_002_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -9252,14 +9252,14 @@ fc_everdalf_9_1_spouse = {
 }
 
 ### c_everdalf_9 - ruler 2 (Aallokko)
-fc_everdalf_9_2 = {
-	name = Lempivalta
+tfw_lineoffc_aallokko_003 = {
+	name = tfw_lineoffc_aallokko_003_name
 	dynasty = dynasty_fc_aallokko
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_everdalf_9_1
-	mother = fc_everdalf_9_1_spouse
+	father = tfw_lineoffc_aallokko_001
+	mother = tfw_lineoffc_aallokko_002
 
 	trait = calm
 	trait = trusting
@@ -9271,7 +9271,7 @@ fc_everdalf_9_2 = {
 		birth = yes
 	}
 	6719.9.12 = {
-		add_spouse = fc_everdalf_9_2_spouse
+		add_spouse = tfw_lineoffc_aallokko_004
 	}
 
 	6799.12.28 = {
@@ -9281,8 +9281,8 @@ fc_everdalf_9_2 = {
 	}
 }
 
-fc_everdalf_9_2_spouse = {
-	name = Airikka
+tfw_lineoffc_aallokko_004 = {
+	name = tfw_lineoffc_aallokko_004_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -9302,14 +9302,14 @@ fc_everdalf_9_2_spouse = {
 }
 
 ### c_everdalf_9 - ruler 3 (Aallokko)
-fc_everdalf_9_3 = {
-	name = Kalpa
+tfw_lineoffc_aallokko_005 = {
+	name = tfw_lineoffc_aallokko_005_name
 	dynasty = dynasty_fc_aallokko
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_everdalf_9_2
-	mother = fc_everdalf_9_2_spouse
+	father = tfw_lineoffc_aallokko_003
+	mother = tfw_lineoffc_aallokko_004
 
 	trait = honest
 	trait = forgiving
@@ -9321,7 +9321,7 @@ fc_everdalf_9_3 = {
 		birth = yes
 	}
 	6742.4.23 = {
-		add_spouse = fc_everdalf_9_3_spouse
+		add_spouse = tfw_lineoffc_aallokko_006
 	}
 
 	6836.8.22 = {
@@ -9331,8 +9331,8 @@ fc_everdalf_9_3 = {
 	}
 }
 
-fc_everdalf_9_3_spouse = {
-	name = Suoma
+tfw_lineoffc_aallokko_006 = {
+	name = tfw_lineoffc_aallokko_006_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -9352,14 +9352,14 @@ fc_everdalf_9_3_spouse = {
 }
 
 ### c_everdalf_9 - ruler 4 (Aallokko)
-fc_everdalf_9_4 = {
-	name = Otso
+tfw_lineoffc_aallokko_007 = {
+	name = tfw_lineoffc_aallokko_007_name
 	dynasty = dynasty_fc_aallokko
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_everdalf_9_3
-	mother = fc_everdalf_9_3_spouse
+	father = tfw_lineoffc_aallokko_005
+	mother = tfw_lineoffc_aallokko_006
 
 	trait = gregarious
 	trait = impatient
@@ -9371,7 +9371,7 @@ fc_everdalf_9_4 = {
 		birth = yes
 	}
 	6770.10.9 = {
-		add_spouse = fc_everdalf_9_4_spouse
+		add_spouse = tfw_lineoffc_aallokko_008
 	}
 
 	6871.9.27 = {
@@ -9381,8 +9381,8 @@ fc_everdalf_9_4 = {
 	}
 }
 
-fc_everdalf_9_4_spouse = {
-	name = Taimi
+tfw_lineoffc_aallokko_008 = {
+	name = tfw_lineoffc_aallokko_008_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -9402,8 +9402,8 @@ fc_everdalf_9_4_spouse = {
 }
 
 ### c_everdalf_9 - ruler 5 (Pihlaja)
-fc_everdalf_9_5 = {
-	name = Arijoutsi
+tfw_lineoffc_pihlaja_001 = {
+	name = tfw_lineoffc_pihlaja_001_name
 	dynasty = dynasty_fc_pihlaja
 	religion = faith_lossoth
 	culture = lossoth
@@ -9418,7 +9418,7 @@ fc_everdalf_9_5 = {
 		birth = yes
 	}
 	6859.9.5 = {
-		add_spouse = fc_everdalf_9_5_spouse
+		add_spouse = tfw_lineoffc_pihlaja_002
 	}
 
 	6922.8.13 = {
@@ -9428,8 +9428,8 @@ fc_everdalf_9_5 = {
 	}
 }
 
-fc_everdalf_9_5_spouse = {
-	name = Alli
+tfw_lineoffc_pihlaja_002 = {
+	name = tfw_lineoffc_pihlaja_002_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -9449,15 +9449,15 @@ fc_everdalf_9_5_spouse = {
 }
 
 ### c_everdalf_9 - ruler 6 (Pihlaja)
-fc_everdalf_9_6 = {
-	name = Suoma
+tfw_lineoffc_pihlaja_003 = {
+	name = tfw_lineoffc_pihlaja_003_name
 	female = yes
 	dynasty = dynasty_fc_pihlaja
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_everdalf_9_5
-	mother = fc_everdalf_9_5_spouse
+	father = tfw_lineoffc_pihlaja_001
+	mother = tfw_lineoffc_pihlaja_002
 
 	trait = forgiving
 	trait = honest
@@ -9469,7 +9469,7 @@ fc_everdalf_9_6 = {
 		birth = yes
 	}
 	6886.1.9 = {
-		add_spouse = fc_everdalf_9_6_spouse
+		add_spouse = tfw_lineoffc_pihlaja_004
 	}
 
 	6961.3.4 = {
@@ -9479,8 +9479,8 @@ fc_everdalf_9_6 = {
 	}
 }
 
-fc_everdalf_9_6_spouse = {
-	name = Tapio
+tfw_lineoffc_pihlaja_004 = {
+	name = tfw_lineoffc_pihlaja_004_name
 	religion = faith_lossoth
 	culture = lossoth
 
@@ -9499,14 +9499,14 @@ fc_everdalf_9_6_spouse = {
 }
 
 ### c_everdalf_9 - ruler 7 (Pihlaja)
-fc_everdalf_9_7 = {
-	name = Tyyni
+tfw_lineoffc_pihlaja_005 = {
+	name = tfw_lineoffc_pihlaja_005_name
 	dynasty = dynasty_fc_pihlaja
 	religion = faith_lossoth
 	culture = lossoth
 
-	mother = fc_everdalf_9_6
-	father = fc_everdalf_9_6_spouse
+	mother = tfw_lineoffc_pihlaja_003
+	father = tfw_lineoffc_pihlaja_004
 
 	trait = zealous
 	trait = temperate
@@ -9518,7 +9518,7 @@ fc_everdalf_9_7 = {
 		birth = yes
 	}
 	6916.8.19 = {
-		add_spouse = fc_everdalf_9_7_spouse
+		add_spouse = tfw_lineoffc_pihlaja_006
 	}
 
 	6995.12.6 = {
@@ -9528,8 +9528,8 @@ fc_everdalf_9_7 = {
 	}
 }
 
-fc_everdalf_9_7_spouse = {
-	name = Pihla
+tfw_lineoffc_pihlaja_006 = {
+	name = tfw_lineoffc_pihlaja_006_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -9549,14 +9549,14 @@ fc_everdalf_9_7_spouse = {
 }
 
 ### c_everdalf_9 - ruler 8 (Pihlaja)
-fc_everdalf_9_8 = {
-	name = Kalevi
+tfw_lineoffc_pihlaja_007 = {
+	name = tfw_lineoffc_pihlaja_007_name
 	dynasty = dynasty_fc_pihlaja
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_everdalf_9_7
-	mother = fc_everdalf_9_7_spouse
+	father = tfw_lineoffc_pihlaja_005
+	mother = tfw_lineoffc_pihlaja_006
 
 	trait = temperate
 	trait = content
@@ -9568,7 +9568,7 @@ fc_everdalf_9_8 = {
 		birth = yes
 	}
 	6937.1.10 = {
-		add_spouse = fc_everdalf_9_8_spouse
+		add_spouse = tfw_lineoffc_pihlaja_008
 	}
 
 	7103.9.15 = {
@@ -9578,8 +9578,8 @@ fc_everdalf_9_8 = {
 	}
 }
 
-fc_everdalf_9_8_spouse = {
-	name = Talvikki
+tfw_lineoffc_pihlaja_008 = {
+	name = tfw_lineoffc_pihlaja_008_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -9599,8 +9599,8 @@ fc_everdalf_9_8_spouse = {
 }
 
 ### c_everdalf_1 - ruler 1 (Routio)
-fc_everdalf_1_1 = {
-	name = Lauha
+tfw_lineoffc_routio_001 = {
+	name = tfw_lineoffc_routio_001_name
 	female = yes
 	dynasty = dynasty_fc_routio
 	religion = faith_lossoth
@@ -9616,7 +9616,7 @@ fc_everdalf_1_1 = {
 		birth = yes
 	}
 	6699.6.2 = {
-		add_spouse = fc_everdalf_1_1_spouse
+		add_spouse = tfw_lineoffc_routio_002
 	}
 
 	6746.1.2 = {
@@ -9626,8 +9626,8 @@ fc_everdalf_1_1 = {
 	}
 }
 
-fc_everdalf_1_1_spouse = {
-	name = Rautio
+tfw_lineoffc_routio_002 = {
+	name = tfw_lineoffc_routio_002_name
 	religion = faith_lossoth
 	culture = lossoth
 
@@ -9646,14 +9646,14 @@ fc_everdalf_1_1_spouse = {
 }
 
 ### c_everdalf_1 - ruler 2 (Routio)
-fc_everdalf_1_2 = {
-	name = Vihavaino
+tfw_lineoffc_routio_003 = {
+	name = tfw_lineoffc_routio_003_name
 	dynasty = dynasty_fc_routio
 	religion = faith_lossoth
 	culture = lossoth
 
-	mother = fc_everdalf_1_1
-	father = fc_everdalf_1_1_spouse
+	mother = tfw_lineoffc_routio_001
+	father = tfw_lineoffc_routio_002
 
 	trait = brave
 	trait = calm
@@ -9665,7 +9665,7 @@ fc_everdalf_1_2 = {
 		birth = yes
 	}
 	6721.12.24 = {
-		add_spouse = fc_everdalf_1_2_spouse
+		add_spouse = tfw_lineoffc_routio_004
 	}
 
 	6787.9.13 = {
@@ -9675,8 +9675,8 @@ fc_everdalf_1_2 = {
 	}
 }
 
-fc_everdalf_1_2_spouse = {
-	name = Kivutar
+tfw_lineoffc_routio_004 = {
+	name = tfw_lineoffc_routio_004_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -9696,14 +9696,14 @@ fc_everdalf_1_2_spouse = {
 }
 
 ### c_everdalf_1 - ruler 3 (Routio)
-fc_everdalf_1_3 = {
-	name = Lempivalta
+tfw_lineoffc_routio_005 = {
+	name = tfw_lineoffc_routio_005_name
 	dynasty = dynasty_fc_routio
 	religion = faith_lossoth
 	culture = lossoth
 
-	father = fc_everdalf_1_2
-	mother = fc_everdalf_1_2_spouse
+	father = tfw_lineoffc_routio_003
+	mother = tfw_lineoffc_routio_004
 
 	trait = diligent
 	trait = impatient
@@ -9715,7 +9715,7 @@ fc_everdalf_1_3 = {
 		birth = yes
 	}
 	6749.3.2 = {
-		add_spouse = fc_everdalf_1_3_spouse
+		add_spouse = tfw_lineoffc_routio_006
 	}
 
 	6821.7.25 = {
@@ -9725,8 +9725,8 @@ fc_everdalf_1_3 = {
 	}
 }
 
-fc_everdalf_1_3_spouse = {
-	name = Lempi
+tfw_lineoffc_routio_006 = {
+	name = tfw_lineoffc_routio_006_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth
@@ -9746,8 +9746,8 @@ fc_everdalf_1_3_spouse = {
 }
 
 ### c_everdalf_1 - ruler 4 (Kuurto)
-fc_everdalf_1_4 = {
-	name = Aamu
+tfw_lineoffc_kuurto_001 = {
+	name = tfw_lineoffc_kuurto_001_name
 	female = yes
 	dynasty = dynasty_fc_kuurto
 	religion = faith_lossoth
@@ -9763,7 +9763,7 @@ fc_everdalf_1_4 = {
 		birth = yes
 	}
 	6800.8.8 = {
-		add_spouse = fc_everdalf_1_4_spouse
+		add_spouse = tfw_lineoffc_kuurto_002
 	}
 
 	6862.11.1 = {
@@ -9773,8 +9773,8 @@ fc_everdalf_1_4 = {
 	}
 }
 
-fc_everdalf_1_4_spouse = {
-	name = Ilmalempi
+tfw_lineoffc_kuurto_002 = {
+	name = tfw_lineoffc_kuurto_002_name
 	religion = faith_lossoth
 	culture = lossoth
 
@@ -9793,15 +9793,15 @@ fc_everdalf_1_4_spouse = {
 }
 
 ### c_everdalf_1 - ruler 5 (Kuurto)
-fc_everdalf_1_5 = {
-	name = Mielikki
+tfw_lineoffc_kuurto_003 = {
+	name = tfw_lineoffc_kuurto_003_name
 	female = yes
 	dynasty = dynasty_fc_kuurto
 	religion = faith_lossoth
 	culture = lossoth
 
-	mother = fc_everdalf_1_4
-	father = fc_everdalf_1_4_spouse
+	mother = tfw_lineoffc_kuurto_001
+	father = tfw_lineoffc_kuurto_002
 
 	trait = humble
 	trait = gregarious
@@ -9813,7 +9813,7 @@ fc_everdalf_1_5 = {
 		birth = yes
 	}
 	6825.10.5 = {
-		add_spouse = fc_everdalf_1_5_spouse
+		add_spouse = tfw_lineoffc_kuurto_004
 	}
 
 	6916.10.5 = {
@@ -9823,8 +9823,8 @@ fc_everdalf_1_5 = {
 	}
 }
 
-fc_everdalf_1_5_spouse = {
-	name = Jalo
+tfw_lineoffc_kuurto_004 = {
+	name = tfw_lineoffc_kuurto_004_name
 	religion = faith_lossoth
 	culture = lossoth
 
@@ -9843,15 +9843,15 @@ fc_everdalf_1_5_spouse = {
 }
 
 ### c_everdalf_1 - ruler 6 (Kuurto)
-fc_everdalf_1_6 = {
-	name = Kivutar
+tfw_lineoffc_kuurto_005 = {
+	name = tfw_lineoffc_kuurto_005_name
 	female = yes
 	dynasty = dynasty_fc_kuurto
 	religion = faith_lossoth
 	culture = lossoth
 
-	mother = fc_everdalf_1_5
-	father = fc_everdalf_1_5_spouse
+	mother = tfw_lineoffc_kuurto_003
+	father = tfw_lineoffc_kuurto_004
 
 	trait = temperate
 	trait = vengeful
@@ -9863,7 +9863,7 @@ fc_everdalf_1_6 = {
 		birth = yes
 	}
 	6855.10.3 = {
-		add_spouse = fc_everdalf_1_6_spouse
+		add_spouse = tfw_lineoffc_kuurto_006
 	}
 
 	6966.8.12 = {
@@ -9873,8 +9873,8 @@ fc_everdalf_1_6 = {
 	}
 }
 
-fc_everdalf_1_6_spouse = {
-	name = Lempo
+tfw_lineoffc_kuurto_006 = {
+	name = tfw_lineoffc_kuurto_006_name
 	religion = faith_lossoth
 	culture = lossoth
 
@@ -9893,14 +9893,14 @@ fc_everdalf_1_6_spouse = {
 }
 
 ### c_everdalf_1 - ruler 7 (Kuurto)
-fc_everdalf_1_7 = {
-	name = Kotarikko
+tfw_lineoffc_kuurto_007 = {
+	name = tfw_lineoffc_kuurto_007_name
 	dynasty = dynasty_fc_kuurto
 	religion = faith_lossoth
 	culture = lossoth
 
-	mother = fc_everdalf_1_6
-	father = fc_everdalf_1_6_spouse
+	mother = tfw_lineoffc_kuurto_005
+	father = tfw_lineoffc_kuurto_006
 
 	trait = calm
 	trait = content
@@ -9912,7 +9912,7 @@ fc_everdalf_1_7 = {
 		birth = yes
 	}
 	6886.5.10 = {
-		add_spouse = fc_everdalf_1_7_spouse
+		add_spouse = tfw_lineoffc_kuurto_008
 	}
 
 	7103.2.19 = {
@@ -9922,8 +9922,8 @@ fc_everdalf_1_7 = {
 	}
 }
 
-fc_everdalf_1_7_spouse = {
-	name = Kukka
+tfw_lineoffc_kuurto_008 = {
+	name = tfw_lineoffc_kuurto_008_name
 	female = yes
 	religion = faith_lossoth
 	culture = lossoth

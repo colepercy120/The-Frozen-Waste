@@ -62,8 +62,8 @@
 			modifier = {
 				add = 9999
 				exists = this
-				exists = character:lineofnixni
-				this = character:lineofnixni
+				exists = character:tfw_lineofnixni_001
+				this = character:tfw_lineofnixni_001
 			}
 		}
 	}
