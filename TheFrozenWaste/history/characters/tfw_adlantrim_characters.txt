@@ -1,4 +1,4 @@
-############################################################
+﻿############################################################
 # ERYD RHIVAMAR - ADLANTRIM ORC DYNASTIC HISTORY
 # Generated against tfw_landed_titles(2).txt and tfw_forodwaith_titles(3).txt
 #
@@ -165,8 +165,7 @@ tfw_lineofadlantrim_mornaer_005 = {
 
 	trait = trusting
 	trait = generous
-	trait = greedy
-	trait = education_intrigue_4
+trait = education_intrigue_4
 
 	diplomacy = 11
 	martial = 10
@@ -493,8 +492,7 @@ tfw_lineofadlantrim_haldorim_001 = {
 
 	trait = shy
 	trait = calm
-	trait = wrathful
-	trait = education_intrigue_4
+trait = education_intrigue_4
 
 	diplomacy = 8
 	martial = 8
@@ -677,8 +675,7 @@ tfw_lineofadlantrim_indorion_001 = {
 
 	trait = gregarious
 	trait = chaste
-	trait = lustful
-	trait = education_diplomacy_4
+trait = education_diplomacy_4
 
 	diplomacy = 12
 	martial = 9
@@ -1517,8 +1514,7 @@ tfw_lineofadlantrim_naurond_001 = {
 
 	trait = calm
 	trait = brave
-	trait = wrathful
-	trait = education_diplomacy_4
+trait = education_diplomacy_4
 
 	diplomacy = 12
 	martial = 12
@@ -1859,8 +1855,7 @@ tfw_lineofadlantrim_mornovar_001 = {
 	sexuality = heterosexual
 
 	trait = lustful
-	trait = chaste
-	trait = gregarious
+trait = gregarious
 	trait = education_diplomacy_4
 
 	diplomacy = 12
@@ -4164,8 +4159,7 @@ tfw_lineofadlantrim_dorvael_005 = {
 
 	trait = chaste
 	trait = content
-	trait = lustful
-	trait = education_learning_3
+trait = education_learning_3
 
 	diplomacy = 7
 	martial = 9
@@ -4965,8 +4959,7 @@ tfw_lineofadlantrim_maerandir_008 = {
 
 	trait = compassionate
 	trait = ambitious
-	trait = content
-	trait = education_diplomacy_3
+trait = education_diplomacy_3
 
 	diplomacy = 11
 	martial = 11
@@ -7002,8 +6995,7 @@ tfw_lineofadlantrim_maerandir_012 = {
 
 	trait = ambitious
 	trait = greedy
-	trait = generous
-	trait = education_stewardship_3
+trait = education_stewardship_3
 
 	diplomacy = 7
 	martial = 7
@@ -7378,8 +7370,7 @@ tfw_lineofadlantrim_thaliondor_008 = {
 
 	trait = gregarious
 	trait = calm
-	trait = wrathful
-	trait = education_diplomacy_3
+trait = education_diplomacy_3
 
 	diplomacy = 10
 	martial = 7
@@ -7418,8 +7409,7 @@ tfw_lineofadlantrim_thaliondor_009 = {
 	sexuality = heterosexual
 
 	trait = wrathful
-	trait = calm
-	trait = ambitious
+trait = ambitious
 	trait = education_intrigue_3
 
 	diplomacy = 7
@@ -8142,8 +8132,7 @@ tfw_lineofadlantrim_faelorin_013 = {
 
 	trait = zealous
 	trait = wrathful
-	trait = calm
-	trait = education_learning_3
+trait = education_learning_3
 
 	diplomacy = 8
 	martial = 5
@@ -9760,8 +9749,7 @@ tfw_lineofadlantrim_dorvael_014 = {
 	sexuality = heterosexual
 
 	trait = humble
-	trait = arrogant
-	trait = content
+trait = content
 	trait = education_stewardship_2
 
 	diplomacy = 6
@@ -10402,8 +10390,7 @@ tfw_lineofadlantrim_ithilorn_016 = {
 
 	trait = greedy
 	trait = zealous
-	trait = cynical
-	trait = education_stewardship_2
+trait = education_stewardship_2
 
 	diplomacy = 6
 	martial = 6
@@ -10706,8 +10693,7 @@ tfw_lineofadlantrim_naurond_015 = {
 
 	trait = ambitious
 	trait = lustful
-	trait = content
-	trait = education_martial_2
+trait = education_martial_2
 
 	diplomacy = 7
 	martial = 8
@@ -10818,8 +10804,7 @@ tfw_lineofadlantrim_saerath_005 = {
 	sexuality = heterosexual
 
 	trait = humble
-	trait = arrogant
-	trait = brave
+trait = brave
 	trait = education_martial_3
 
 	diplomacy = 5
@@ -11084,8 +11069,7 @@ tfw_lineofadlantrim_thaliondor_014 = {
 
 	trait = humble
 	trait = stubborn
-	trait = arrogant
-	trait = education_diplomacy_2
+trait = education_diplomacy_2
 
 	diplomacy = 9
 	martial = 5
@@ -11430,8 +11414,7 @@ tfw_lineofadlantrim_aerendil_015 = {
 
 	trait = calm
 	trait = shy
-	trait = wrathful
-	trait = education_diplomacy_2
+trait = education_diplomacy_2
 
 	diplomacy = 7
 	martial = 7
@@ -11771,8 +11754,7 @@ tfw_lineofadlantrim_elenrath_016 = {
 	sexuality = heterosexual
 
 	trait = zealous
-	trait = cynical
-	trait = wrathful
+trait = wrathful
 	trait = education_diplomacy_2
 
 	diplomacy = 7
@@ -12375,8 +12357,7 @@ tfw_lineofadlantrim_maerandir_019 = {
 	sexuality = heterosexual
 
 	trait = greedy
-	trait = generous
-	trait = temperate
+trait = temperate
 	trait = education_stewardship_2
 
 	diplomacy = 6
@@ -12415,8 +12396,7 @@ tfw_lineofadlantrim_maerandir_020 = {
 	sexuality = heterosexual
 
 	trait = arrogant
-	trait = humble
-	trait = ambitious
+trait = ambitious
 	trait = education_martial_2
 
 	diplomacy = 5
@@ -12452,8 +12432,7 @@ tfw_lineofadlantrim_naurond_018 = {
 
 	trait = lustful
 	trait = wrathful
-	trait = calm
-	trait = education_learning_2
+trait = education_learning_2
 
 	diplomacy = 6
 	martial = 7
@@ -12795,8 +12774,7 @@ tfw_lineofadlantrim_thaliondor_017 = {
 	sexuality = heterosexual
 
 	trait = generous
-	trait = greedy
-	trait = diligent
+trait = diligent
 	trait = education_stewardship_2
 
 	diplomacy = 5
@@ -13100,8 +13078,7 @@ tfw_lineofadlantrim_aerendil_017 = {
 
 	trait = generous
 	trait = arrogant
-	trait = humble
-	trait = education_martial_2
+trait = education_martial_2
 
 	diplomacy = 6
 	martial = 7
@@ -13287,8 +13264,7 @@ tfw_lineofadlantrim_dorvael_021 = {
 
 	trait = cynical
 	trait = wrathful
-	trait = zealous
-	trait = education_martial_2
+trait = education_martial_2
 
 	diplomacy = 6
 	martial = 7
@@ -13402,8 +13378,7 @@ tfw_lineofadlantrim_dorvael_024 = {
 
 	trait = lustful
 	trait = cynical
-	trait = chaste
-	trait = education_intrigue_2
+trait = education_intrigue_2
 
 	diplomacy = 5
 	martial = 5
@@ -13554,8 +13529,7 @@ tfw_lineofadlantrim_artanor_003 = {
 
 	trait = chaste
 	trait = content
-	trait = ambitious
-	trait = education_diplomacy_2
+trait = education_diplomacy_2
 
 	diplomacy = 7
 	martial = 5
@@ -13930,8 +13904,7 @@ tfw_lineofadlantrim_macaglor_002 = {
 	sexuality = heterosexual
 
 	trait = gregarious
-	trait = shy
-	trait = wrathful
+trait = wrathful
 	trait = education_stewardship_2
 
 	diplomacy = 6
@@ -15066,8 +15039,7 @@ tfw_lineofadlantrim_calenvar_027 = {
 
 	trait = just
 	trait = wrathful
-	trait = calm
-	trait = education_diplomacy_1
+trait = education_diplomacy_1
 
 	diplomacy = 5
 	martial = 5
@@ -15557,8 +15529,7 @@ tfw_lineofadlantrim_almaren_017 = {
 
 	trait = brave
 	trait = gregarious
-	trait = shy
-	trait = education_intrigue_2
+trait = education_intrigue_2
 
 	diplomacy = 5
 	martial = 5
@@ -15933,8 +15904,7 @@ tfw_lineofadlantrim_macaglor_008 = {
 
 	trait = cynical
 	trait = ambitious
-	trait = content
-	trait = education_diplomacy_1
+trait = education_diplomacy_1
 
 	diplomacy = 6
 	martial = 5
@@ -16086,8 +16056,7 @@ tfw_lineofadlantrim_naurond_024 = {
 
 	trait = generous
 	trait = vengeful
-	trait = greedy
-	trait = education_martial_2
+trait = education_martial_2
 
 	diplomacy = 4
 	martial = 6
@@ -16773,8 +16742,7 @@ tfw_lineofadlantrim_calenvar_029 = {
 
 	trait = shy
 	trait = content
-	trait = gregarious
-	trait = education_stewardship_1
+trait = education_stewardship_1
 
 	diplomacy = 4
 	martial = 5
@@ -17602,8 +17570,7 @@ tfw_lineofadlantrim_maerandir_026 = {
 	sexuality = heterosexual
 
 	trait = zealous
-	trait = cynical
-	trait = greedy
+trait = greedy
 	trait = education_martial_2
 
 	diplomacy = 4
@@ -17752,8 +17719,7 @@ tfw_lineofadlantrim_naurond_026 = {
 	sexuality = heterosexual
 
 	trait = humble
-	trait = arrogant
-	trait = honest
+trait = honest
 	trait = education_stewardship_1
 
 	diplomacy = 4
@@ -17870,8 +17836,7 @@ tfw_lineofadlantrim_saerath_017 = {
 	sexuality = heterosexual
 
 	trait = arrogant
-	trait = humble
-	trait = gregarious
+trait = gregarious
 	trait = education_martial_1
 
 	diplomacy = 3
@@ -18775,8 +18740,7 @@ tfw_lineofadlantrim_elenrath_026 = {
 
 	trait = vengeful
 	trait = lustful
-	trait = chaste
-	trait = education_diplomacy_1
+trait = education_diplomacy_1
 
 	diplomacy = 6
 	martial = 4
@@ -18959,8 +18923,7 @@ tfw_lineofadlantrim_almaren_021 = {
 	sexuality = heterosexual
 
 	trait = content
-	trait = ambitious
-	trait = cynical
+trait = cynical
 	trait = education_diplomacy_2
 
 	diplomacy = 5
@@ -19726,8 +19689,7 @@ tfw_lineofadlantrim_saelrond_030 = {
 
 	trait = zealous
 	trait = chaste
-	trait = lustful
-	trait = education_diplomacy_2
+trait = education_diplomacy_2
 
 	diplomacy = 5
 	martial = 4
@@ -20142,8 +20104,7 @@ tfw_lineofadlantrim_aerendil_028 = {
 
 	trait = chaste
 	trait = arrogant
-	trait = lustful
-	trait = education_learning_1
+trait = education_learning_1
 
 	diplomacy = 4
 	martial = 5
@@ -20721,8 +20682,7 @@ tfw_lineofadlantrim_almaren_025 = {
 
 	trait = diligent
 	trait = zealous
-	trait = cynical
-	trait = education_intrigue_2
+trait = education_intrigue_2
 
 	diplomacy = 4
 	martial = 4
@@ -20822,8 +20782,7 @@ tfw_lineofadlantrim_hithrandir_035 = {
 
 	trait = content
 	trait = generous
-	trait = greedy
-	trait = education_learning_1
+trait = education_learning_1
 
 	diplomacy = 4
 	martial = 4
@@ -21273,8 +21232,7 @@ tfw_lineofadlantrim_delyanor_006 = {
 	sexuality = heterosexual
 
 	trait = cynical
-	trait = zealous
-	trait = patient
+trait = patient
 	trait = education_martial_1
 
 	diplomacy = 4
@@ -22745,8 +22703,7 @@ tfw_lineofadlantrim_macaglor_022 = {
 
 	trait = arrogant
 	trait = cynical
-	trait = zealous
-	trait = education_martial_1
+trait = education_martial_1
 
 	diplomacy = 4
 	martial = 5
@@ -23248,8 +23205,7 @@ tfw_lineofadlantrim_thaliondor_038 = {
 	sexuality = heterosexual
 
 	trait = gregarious
-	trait = shy
-	trait = content
+trait = content
 	trait = education_learning_2
 
 	diplomacy = 4

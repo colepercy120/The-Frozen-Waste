@@ -10,7 +10,11 @@ l_english:
 
   dynn_nixni: "Niquëtári"
   dynn_nixni_motto: "The stars will rain from the sky before Nixní fulfills not her word."
-
+  
+  ### Evermist ###
+  
+  dynn_nestador: "Nestador"
+  dynn_nestador_motto: "What Is Broken Shall Be Made Whole"
 
   ### LOSSOTH / FOROCHEL COAST DYNASTIES ###
 
@@ -514,6 +518,9 @@ l_english:
 
   dynn_windan_varath: "Varath"
   dynn_windan_varath_motto: "No storm finds us unready"
+  
+  dynn_tareg: "Tareg"
+  dynn_tareg_motto: "Bane of Darkness"
 
 
   ### UMLI DYNASTIES ###

@@ -1,0 +1,28 @@
+﻿ ### LotR: This file needs to be kept in sync with the release version.
+ 
+ ### Edited the dates
+ 
+ ### Edited the loading screen text
+ 
+l_english:
+
+ cleanse_angband_decision: "Cleanse Angband"
+ cleanse_angband_decision_desc: "The shadow of Morgoth still clings to Angband. Its halls, pits, and broken foundations remain stained by the evils committed there. Through immense devotion, labor, and sacrifice, we may finally begin the work of cleansing this ancient wound upon the world."
+ cleanse_angband_decision_tooltip: "Undertake the sacred work of cleansing Angband of its lingering corruption."
+ cleanse_angband_decision_confirm: "Begin the Cleansing"
+ cleanse_angband_decision_tooltip_1: "Any county in [GetTitleByKey('k_angband').GetName] is held by You"
+ cleanse_angband_decision_tooltip_2: "Every County in [GetTitleByKey('k_angband').GetName] is [wilderness|e]"
+ cleanse_angband_decision_effect: "Angband Is Cleansed of Darkness"
+
+ heal_frostwood_decision: "Heal Frostwood"
+ heal_frostwood_decision_desc: "Frostwood has endured wounds that neither years nor winter could erase. Yet what has been scarred need not remain broken forever. With sufficient devotion and effort, the forests may be restored and the ancient land allowed to flourish once again."
+ heal_frostwood_decision_tooltip: "Undertake the sacred work of restoring and healing Frostwood."
+ heal_frostwood_decision_confirm: "Begin the Healing"
+ heal_frostwood_decision_tooltip_1: "Every County in [GetTitleByKey('e_frostwood').GetName] is held by Good Aligned Rulers"
+ heal_frostwood_decision_effect: "The Curse on Frostwood is Broken"
+ 
+ unleash_angband_decision: "Unleash Angband"
+ unleash_angband_decision_desc: "For to long i have sat idle in the broken waste of [melkorcharacter|e]s realm, its time that Terror once again Spread across the north and [angband|e] rises once again!"
+ unleash_angband_decision_tooltip: "Unleash Angband"
+ unleash_angband_decision_confirm: "Raise a Great host"
+ unleash_angband_decision_effect: "Gain Acess to War Decleration" 

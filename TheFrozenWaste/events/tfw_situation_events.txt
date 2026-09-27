@@ -1,0 +1,252 @@
+﻿namespace = tfw_situation
+
+tfw_situation.0001 = {
+	type = character_event
+	title = tfw_situation.0001.t
+	desc = tfw_situation.0001.desc
+	theme = faith
+	
+	override_background = {
+		reference = forodwaith
+	}
+	
+	left_portrait = {
+		character = root
+		animation = celebrate_sword
+	}
+
+	option = {
+		name = tfw_situation.0001.a
+	}
+}
+
+
+tfw_situation.0002 = {
+	type = character_event
+	title = tfw_situation.0002.t
+	desc = tfw_situation.0002.desc
+	theme = faith
+	
+	
+	
+	left_portrait = {
+		character = root
+		animation = ecstasy
+	}
+
+	option = {
+		name = tfw_situation.0002.a
+	}
+}
+
+tfw_situation.0003 = {
+	type = character_event
+	title = tfw_situation.0003.t
+	desc = tfw_situation.0003.desc
+	theme = faith
+	
+	override_background = {
+		reference = wood_elves
+	}
+	
+	left_portrait = {
+		character = root
+		animation = shock
+	}
+	right_portrait = {
+		character = scope:tareg
+		animation = ecstasy
+	}
+	
+	immediate = {
+		create_character = { # Thaw Tareg
+			culture = culture:avari
+			faith = faith:faith_moriquendi
+			gender = male
+			
+			martial = 12
+			diplomacy = 10
+			stewardship = 9
+			intrigue = 5
+			learning = 10 
+			prowess = 15
+			
+			random_traits = no
+			
+			trait = zealous
+			trait = brave
+			trait = diligent
+			trait = education_martial_5
+			trait = physique_good_3
+			trait = veteran_of_palisor
+			trait = lifestyle_blademaster
+			
+			trait = organizer
+			
+			
+			age = 8106
+			name = "Tareg"
+			dynasty_house = house_tareg
+			
+			location = root.location
+			
+			save_scope_as = tareg
+			after_creation = {
+				add_trait_xp = { trait = lifestyle_blademaster  value = 100 }
+				add_trait_xp = { trait = organizer  value = 100 }
+				get_title = title:c_frostwood_14
+				get_title = title:e_frostwood
+				copy_inheritable_appearance_from = character:tfw_lineoftareg_001
+				add_piety_level = 5
+				add_prestige_level = 5
+				dynasty = {
+					add_dynasty_prestige_level = 5
+					add_dynasty_prestige = 5
+				}
+				add_legitimacy = 3000
+				set_relation_nemesis = character:tfw_lineofnixni_001
+			}
+		}
+		
+	}
+
+	option = {
+		name = tfw_situation.0003.a
+		create_title_and_vassal_change = {
+			type = swear_fealty
+			save_scope_as = change
+		}
+		change_liege = {
+			liege = title:e_frostwood.holder
+			change = scope:change
+		}
+		resolve_title_and_vassal_change = scope:change
+		set_player_character = title:e_frostwood.holder
+	}
+	
+	option = {
+		name = tfw_situation.0003.b
+		create_title_and_vassal_change = {
+			type = swear_fealty
+			save_scope_as = change
+		}
+		change_liege = {
+			liege = title:e_frostwood.holder
+			change = scope:change
+		}
+		resolve_title_and_vassal_change = scope:change
+	}
+	
+	option = {
+		name = tfw_situation.0003.c
+		
+	}
+	
+	after = {
+		every_independent_ruler = {
+			limit = {
+				any_sub_realm_county = {
+					any_county_province = {
+						geographical_region = middleearth_forodwaith_rhuvorodwaith_frostwood
+					}
+				}
+				NOT = {
+					OR = { 
+						this = scope:tareg
+						this = root 
+					}
+				}
+			}
+			trigger_event = tfw_situation.0004
+		}
+		every_character_situation = {
+			limit = { situation_type = frozen_waste }
+			tfw_frozen_waste_monthly_tick = yes
+			every_situation_participant = {
+				trigger_event = tfw_situation.0002
+			}
+		}
+	}
+}
+
+tfw_situation.0004 = {
+	type = character_event
+	title = tfw_situation.0003.t
+	desc = tfw_situation.0003.desc
+	theme = faith
+	
+	override_background = {
+		reference = wood_elves
+	}
+	
+	left_portrait = {
+		character = root
+		animation = shock
+	}
+	right_portrait = {
+		character = scope:tareg
+		animation = ecstasy
+	}
+	
+	immediate = {
+		
+		
+	}
+
+	option = {
+		name = tfw_situation.0003.a
+		create_title_and_vassal_change = {
+			type = swear_fealty
+			save_scope_as = change
+		}
+		change_liege = {
+			liege = title:e_frostwood.holder
+			change = scope:change
+		}
+		resolve_title_and_vassal_change = scope:change
+		set_player_character = title:e_frostwood.holder
+	}
+	
+	option = {
+		name = tfw_situation.0003.b
+		create_title_and_vassal_change = {
+			type = swear_fealty
+			save_scope_as = change
+		}
+		change_liege = {
+			liege = title:e_frostwood.holder
+			change = scope:change
+		}
+		resolve_title_and_vassal_change = scope:change
+	}
+	
+	option = {
+		name = tfw_situation.0003.c
+		
+	}
+	
+	after = {
+	
+	}
+}
+
+
+tfw_situation.0005 = {
+	type = character_event
+	title = tfw_situation.0005.t
+	desc = tfw_situation.0005.desc
+	theme = faith
+	
+	override_background = {
+		reference = forodwaith
+	}
+	
+	left_portrait = {
+		character = root
+		animation = celebrate_sword
+	}
+
+	option = {
+		name = tfw_situation.0005.a
+	}
+}

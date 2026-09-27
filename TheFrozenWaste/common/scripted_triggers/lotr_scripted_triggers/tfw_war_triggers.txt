@@ -1,0 +1,13 @@
+﻿lotr_can_declare_war = {	
+	NOR = {
+		has_culture = culture:wastelands
+		AND = {
+			exists = primary_title.empire
+			primary_title.empire = title:e_valinor
+		}
+	}
+	# The Necromancer is hidden
+	NOT = { has_character_flag = unknown_sauron_flag } # LOTR
+	NOT = { has_character_flag = nixni_distracted_flag } # LOTR
+}
+

@@ -1,0 +1,177 @@
+﻿l_english:
+
+  ### FORODWAITH SPECIAL BUILDINGS ###
+
+  # Tareg's Corpse
+  building_type_wonder_taregs_corpse: "Tareg's Corpse"
+  building_type_wonder_taregs_corpse_desc: "$building_wonder_taregs_corpse_desc$"
+  building_wonder_taregs_corpse: "Tareg's Corpse"
+  building_wonder_taregs_corpse_desc: "Here's where the Avarin King Tareg met his end at the hands of the Ice Queen, His perfectly preserved body standing upright and defiant in a meter thick prision of Ice. To the Avari who remained in Frostwood, this is both the site of their greatest defeat and a reminder of why they remain viligent."
+
+  # The Ribs of Ancalagon
+  building_type_wonder_ribs_of_ancalagon: "The Ribs of Ancalagon"
+  building_type_wonder_ribs_of_ancalagon_desc: "$building_wonder_ribs_of_ancalagon_desc$"
+  building_wonder_ribs_of_ancalagon: "The Ribs of Ancalagon"
+  building_wonder_ribs_of_ancalagon_desc: "Vast bones jut from the frozen earth like the ruined arches of some impossible hall. Said to be the ribs of Ancalagon the Black, they inspire dread even in those who dismiss the oldest tales as legend. The land around them is bleak and perilous, yet their terrible grandeur draws the bold, the curious, and the foolhardy from afar."
+
+  # Frozen Remains of the Númenórean Fleet
+  building_type_wonder_frozen_numenorean_fleet: "Shatterwood"
+  building_type_wonder_frozen_numenorean_fleet_desc: "$building_wonder_frozen_numenorean_fleet_desc$"
+  building_wonder_frozen_numenorean_fleet: "Shatterwood"
+  building_wonder_frozen_numenorean_fleet_desc: "Locked within the ice are the broken timbers and weathered hulls of an ancient Númenórean fleet, Shatted by the Lady of Cold near the end of the Second Age. The survivors would later become a major influence on the Forodain, who treat the hulks with reverence but shifting ice and treacherous ground make any journey among them a dangerous undertaking."
+
+  # Whitehaven
+  building_type_wonder_whitehaven: "Whitehaven"
+  building_type_wonder_whitehaven_desc: "$building_wonder_whitehaven_desc$"
+  building_wonder_whitehaven: "Whitehaven"
+  building_wonder_whitehaven_desc: "Raised along a sheltered northern harbor, Whitehaven is a stout port of pale stone overlooking the cold sea. Its quays shelter merchants, fishing craft, and warships alike, while strong walls and well-stocked storehouses make the settlement a secure anchor for commerce and travel across the northern waters."
+
+  # Númenórean Whaling Post / Forodain City
+  building_type_wonder_forodain_whaling_city: "Achrond"
+  building_type_wonder_forodain_whaling_city_desc: "$building_wonder_forodain_whaling_city_desc$"
+  building_wonder_forodain_whaling_city: "Achrond"
+  building_wonder_forodain_whaling_city_desc: "Origionally a Numenorean Whaling port the haven of Achrond grew into a one of the main centers of Forodain Society following the fall of numenor."
+
+  # Morgoth's Well
+  building_type_wonder_morgoths_well: "Morgoth's Well"
+  building_type_wonder_morgoths_well_desc: "$building_wonder_morgoths_well_desc$"
+  building_wonder_morgoths_well: "Morgoth's Well"
+  building_wonder_morgoths_well_desc: "In the elder days this was a vast chasm deep into the bowels of the world, here was where Maedthros cast himself and his Silmiril into the earth. But nothing is eternal and the rounding of the world lead to a massive eruption of magma, turning the Crevice into a mightly shield Volcano."
+
+  # Wolfmere
+  building_type_wonder_wolfmere: "Wolfmere"
+  building_type_wonder_wolfmere_desc: "$building_wonder_wolfmere_desc$"
+  building_wonder_wolfmere: "Wolfmere"
+  building_wonder_wolfmere_desc: "Wolfmere is a cold lake ringed by dark woods and defensible ridges, long used as a gathering place by the peoples of the surrounding wilderness. Fishing camps and fortified settlements cling to its shores, profiting from the lake while keeping watch against raiders and the beasts that prowl the winter forests."
+
+  # Site Where Beowulf Slew the Dragon Faron
+  building_type_wonder_faron_dragon_site: "The Barrow of Faron"
+  building_type_wonder_faron_dragon_site_desc: "$building_wonder_faron_dragon_site_desc$"
+  building_wonder_faron_dragon_site: "The Barrow of Faron"
+  building_wonder_faron_dragon_site_desc: "Here, according to the songs of the Forodain, the hero Beowulf faced the dragon Faron and slew the beast after a terrible struggle. Cairns and weathered memorial stones mark the battlefield, and warriors still come to honor the courage of the hero whose deed has echoed through generations."
+
+  # Evermist
+  building_type_wonder_evermist_01: "Evermist"
+  building_type_wonder_evermist_01_desc: "Hidden among mist-shrouded heights, Evermist is an ancient Elven refuge where stone, water, and living wood have been shaped into a harmonious whole."
+  building_wonder_evermist_01: "Refuge of Evermist"
+  building_wonder_evermist_01_desc: "Veiled by perpetual mist, the first halls of Evermist lie concealed among steep ridges, sheltered gardens, and clear-running streams. Its quiet beauty offers safety and restoration to those who dwell within, while the surrounding terrain makes the refuge exceedingly difficult for an enemy to approach."
+  building_wonder_evermist_02: "Stronghold of Evermist"
+  building_wonder_evermist_02_desc: "Evermist has grown into a formidable hidden stronghold. Terraced halls, guarded paths, concealed storehouses, and carefully cultivated gardens blend so completely into the landscape that fortress and wilderness seem part of a single design."
+  building_wonder_evermist_03: "Sanctuary of Evermist"
+  building_wonder_evermist_03_desc: "At its height, Evermist is both sanctuary and fortress, a place of learning, healing, contemplation, and unyielding defense. Its halls disappear into the mist and stone, while its gardens and waters seem untouched by the passing of years."
+
+  # Helecthil
+  building_type_wonder_helecthil_01: "Helecthil"
+  building_type_wonder_helecthil_01_desc: "A beacon and sanctuary of the Lossidil, Helecthil shines across the frozen north as a place of guidance, endurance, and spiritual refuge."
+  building_wonder_helecthil_01: "Beacon of Helecthil"
+  building_wonder_helecthil_01_desc: "A bright beacon rises above the frozen landscape, guiding travelers through snow, darkness, and bitter wind. Around it stands a modest sanctuary where the weary may find warmth, rest, and a moment of peace beneath the northern sky."
+  building_wonder_helecthil_02: "Sanctuary of Helecthil"
+  building_wonder_helecthil_02_desc: "The beacon has become the heart of a flourishing sanctuary. Halls, storehouses, and sheltered dwellings cluster around its light, offering safety to travelers and sustaining settlement in lands that would otherwise resist habitation."
+  building_wonder_helecthil_03: "Great Beacon of Helecthil"
+  building_wonder_helecthil_03_desc: "Helecthil now blazes like a star over the frozen wilderness. Its great beacon can be seen from afar, while the strong halls beneath it form a prosperous refuge whose warmth, faith, and ordered life stand in defiance of the killing cold."
+
+  # Evermist Falls
+  building_type_wonder_evermist_falls: "Evermist Falls"
+  building_type_wonder_evermist_falls_desc: "$building_wonder_evermist_falls_desc$"
+  building_wonder_evermist_falls: "Evermist Falls"
+  building_wonder_evermist_falls_desc: "A broad silver cascade plunges from the misty heights near Evermist, filling the valley with cool spray and the constant murmur of falling water. The Elves have preserved the surrounding pools and gardens with great care, and the serenity of the falls makes the site prized for rest, contemplation, and healing."
+
+  # Boiling Lake
+  building_type_wonder_boiling_lake: "Boiling Lake"
+  building_type_wonder_boiling_lake_desc: "$building_wonder_boiling_lake_desc$"
+  building_wonder_boiling_lake: "Boiling Lake"
+  building_wonder_boiling_lake_desc: "Fed by deep fires beneath the earth, this remarkable lake steams even through the fiercest northern winter. Warm waters and mineral springs have made its shores an unexpected haven, supporting permanent settlement and drawing pilgrims, healers, and travelers seeking relief from the cold."
+
+  # Forges of the Winden
+  building_type_wonder_forges_of_the_winden: "Forges of the Winden"
+  building_type_wonder_forges_of_the_winden_desc: "$building_wonder_forges_of_the_winden_desc$"
+  building_wonder_forges_of_the_winden: "Forges of the Winden"
+  building_wonder_forges_of_the_winden_desc: "The Winden have raised a great complex of furnaces, workshops, stone yards, and smithies where the wealth of the surrounding lands is shaped into tools, weapons, armor, and building materials. Their disciplined craftsmen support both war and peace, making the forges a center of industry and construction throughout the realm."
+
+  # Hwenti Halls
+  building_type_wonder_hwenti_halls: "Thalas"
+  building_type_wonder_hwenti_halls_desc: "$building_wonder_hwenti_halls_desc$"
+  building_wonder_hwenti_halls: "Thalas"
+  building_wonder_hwenti_halls_desc: "The halls of the Hwenti wind through sheltered woodland and living stone, serving at once as gathering place, archive, refuge, and seat of counsel. Knowledge is carefully preserved here, disputes are settled beneath ancient boughs, and travelers may pass through the surrounding lands under the protection of well-kept roads and watchful wardens."
+
+  # Carasthon
+  building_type_wonder_carasthon_01: "Carasthon"
+  building_type_wonder_carasthon_01_desc: "Carasthon is an Elven settlement of terraces, towers, and halls, built to command the surrounding land while fostering trade, order, and prosperity."
+  building_wonder_carasthon_01: "Young Carasthon"
+  building_wonder_carasthon_01_desc: "The foundations of Carasthon have been firmly laid. Stone roads connect new halls, storehouses, and defensible towers, while craftsmen and merchants begin to gather beneath the protection of its growing walls."
+  building_wonder_carasthon_02: "Flourishing Carasthon"
+  building_wonder_carasthon_02_desc: "Carasthon has become a prosperous regional center. Its walls and garrison have expanded alongside broad markets, workshops, granaries, and ordered streets, allowing wealth and population to grow securely behind its defenses."
+  building_wonder_carasthon_03: "Great City of Carasthon"
+  building_wonder_carasthon_03_desc: "Carasthon stands at its full splendor, a great Elven city of high towers, fortified terraces, busy markets, and elegant halls. Wealth flows through its gates, its people prosper, and its defenses ensure that the city can endure both war and winter."
+
+  # Halls of Talanthir
+  building_type_wonder_halls_of_talanthir_01: "Halls of Talanthir"
+  building_type_wonder_halls_of_talanthir_01_desc: "The Halls of Talanthir are a vast fortified industrial complex, combining workshops, storehouses, barracks, and defensive works into a single stronghold."
+  building_wonder_halls_of_talanthir_01: "Outer Halls of Talanthir"
+  building_wonder_halls_of_talanthir_01_desc: "The first halls of Talanthir combine rugged fortifications with workshops and storehouses carved into the surrounding stone. Laborers and craftsmen work under the protection of a permanent garrison, allowing the complex to expand rapidly and at comparatively low cost."
+  building_wonder_halls_of_talanthir_02: "Deep Halls of Talanthir"
+  building_wonder_halls_of_talanthir_02_desc: "The complex has expanded deeper into the earth and outward behind stronger defenses. Forges and workshops supply the garrison directly, while protected passages, layered walls, and hardened mustering spaces turn Talanthir into both an industrial center and a formidable fortress."
+  building_wonder_halls_of_talanthir_03: "Great Halls of Talanthir"
+  building_wonder_halls_of_talanthir_03_desc: "At their greatest extent, the Halls of Talanthir are a fortress built around an engine of industry. Deep storehouses feed vast workshops and forges, heavily defended gates control every approach, and the weapons and armor produced within can pass directly into the hands of the warriors stationed there."
+
+### ANGBAND GREAT BUILDINGS ###
+
+  building_type_wonder_angband_01: "Angband"
+  building_type_wonder_angband_01_desc: "The greatest fortress of the North, Angband is a vast subterranean stronghold of iron, fire, pits, forges, barracks, and uncounted chambers driven deep beneath the mountains."
+
+  building_wonder_angband_01: "Ruined Gates of Angband"
+  building_wonder_angband_01_desc: "The outer works of Angband rise again from ruin. Black walls seal the approaches, furnaces burn beneath the earth, and deep galleries are cleared for soldiers, laborers, and stores. Even in this diminished state, the fortress is a grim and formidable place."
+
+  building_wonder_angband_02: "Reawakened Angband"
+  building_wonder_angband_02_desc: "The first great halls and defenses of Angband have been restored. Vast gates, layered walls, underground mustering grounds, and fortified tunnels turn the mountain into a weapon in its own right, while renewed mines and forges feed an expanding war machine."
+
+  building_wonder_angband_03: "Iron Hells of Angband"
+  building_wonder_angband_03_desc: "Angband has spread far beneath the mountains. Endless galleries house troops and stores, great furnaces illuminate cavernous halls, and successive lines of defenses make every approach murderous. The fortress now sustains armies on a scale few realms could hope to match."
+
+  building_wonder_angband_04: "Mighty Angband"
+  building_wonder_angband_04_desc: "The stronghold has become a realm beneath the earth. Towering gates guard labyrinthine passages, immense arsenals equip hosts without rest, and whole districts are given over to barracks, workshops, prisons, and engines of war. To assault Angband is to wage war against the mountain itself."
+
+  building_wonder_angband_05: "Angband Unconquered"
+  building_wonder_angband_05_desc: "Angband stands restored to terrible grandeur. Its fortifications are layered beyond counting, its halls can shelter vast hosts, and its forges burn without ceasing. From the deepest vaults to the black gates above, every part of the fortress is built for dominion, war, and endurance. Few strongholds in Arda could hope to rival it."
+
+
+  ### DURNOST GREAT BUILDINGS ###
+
+  building_type_wonder_durnost_01: "Durnost"
+  building_type_wonder_durnost_01_desc: "Durnost is a great northern fortress, built to command the surrounding lands through strong walls, disciplined garrisons, and carefully maintained roads and storehouses."
+
+  building_wonder_durnost_01: "Fort of Durnost"
+  building_wonder_durnost_01_desc: "A stout fortress anchors the surrounding region. Its walls, barracks, and storehouses provide security for nearby settlements and a reliable base from which patrols can control the neighboring roads and passes."
+
+  building_wonder_durnost_02: "Stronghold of Durnost"
+  building_wonder_durnost_02_desc: "Durnost has grown beyond a simple fort. Additional walls, expanded barracks, and improved supply depots allow the stronghold to support a larger permanent garrison and resist prolonged attack."
+
+  building_wonder_durnost_03: "Citadel of Durnost"
+  building_wonder_durnost_03_desc: "The fortress now dominates the surrounding countryside. Thick walls and towers protect workshops, granaries, and administrative halls, while its growing garrison keeps the nearby lands orderly and secure."
+
+  building_wonder_durnost_04: "Great Citadel of Durnost"
+  building_wonder_durnost_04_desc: "Durnost has become a major regional stronghold. Multiple defensive lines, deep stores, fortified gates, and well-drilled troops make it exceedingly difficult to besiege, while trade and settlement flourish beneath its protection."
+
+  building_wonder_durnost_05: "High Fortress of Durnost"
+  building_wonder_durnost_05_desc: "At its height, Durnost is both fortress and capital. Its imposing walls command the land for leagues around, its garrison can answer threats swiftly, and its halls oversee a prosperous and disciplined domain protected by one of the strongest citadels of the North."
+  
+    ### AZNÂN-DÛM / NIDAVILLIR GREAT BUILDINGS ###
+
+  building_type_wonder_nidavillir_foundation: "Aznân-dûm"
+  building_type_wonder_nidavillir_foundation_desc: "Aznân-dûm is the great northern mansion of the Ironfists, a growing Dwarven hold of mines, workshops, fortified halls, and deep delvings carved steadily into the mountains."
+
+  building_wonder_nidavillir_foundation: "Foundations of Aznân-dûm"
+  building_wonder_nidavillir_foundation_desc: "The first permanent halls of Aznân-dûm have been driven into the mountain. Rough-hewn galleries connect mines, storehouses, workshops, and defensible chambers, while new settlers labor constantly to expand the young hold."
+
+  building_wonder_nidavillir_t2: "Hold of Aznân-dûm"
+  building_wonder_nidavillir_t2_desc: "Aznân-dûm has grown from a frontier settlement into a true Dwarven hold. Broad galleries carry ore and supplies through the mountain, workshops ring with hammer blows, and stout defenses protect the growing population dwelling beneath the stone."
+
+  building_wonder_nidavillir_t3: "Great Hold of Aznân-dûm"
+  building_wonder_nidavillir_t3_desc: "The halls of Aznân-dûm now reach deep beneath the mountains. Mines feed great forges and workshops, carefully engineered roads move goods efficiently through the hold, and increasingly formidable defenses guard its gates and inner passages."
+
+  building_wonder_nidavillir_t4: "Deep Citadel of Aznân-dûm"
+  building_wonder_nidavillir_t4_desc: "Aznân-dûm has become a mighty underground citadel. Layered gates and fortified galleries protect vast storehouses, foundries, barracks, and mines, while the craftsmen of the Ironfists turn the wealth of the mountain into weapons, armor, tools, and monumental works of stone."
+
+  building_wonder_nidavillir_t5: "Aznân-dûm, Hold of the Ironfists"
+  building_wonder_nidavillir_t5_desc: "Aznân-dûm stands among the great mansions of the Dwarves. Its deepest mines yield immense wealth, its furnaces and workshops labor without rest, and its fortified halls can shelter a great host. The Ironfists have transformed a distant northern colony into a capital worthy of their people."
+

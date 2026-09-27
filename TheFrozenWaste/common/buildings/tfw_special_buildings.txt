@@ -1,0 +1,2209 @@
+### FORODWAITH SPECIAL BUILDING TEMPLATES ###
+
+### ONE-LEVEL SPECIAL BUILDINGS ###
+
+# Tareg's Corpse
+wonder_taregs_corpse = {
+	type_icon = "icon_structure_newgrange.dds"
+	construction_time = very_slow_construction_time
+	cost_gold = 500
+	cost_prestige = 500
+	cost_piety = 500
+	can_construct_potential = {
+		always = no
+	}
+
+	can_construct = {
+		always = no
+	}
+
+	is_enabled = {
+		
+	}
+
+	character_modifier = {
+		monthly_piety = 0.5
+		same_culture_opinion = 5
+	}
+
+	province_modifier = {
+
+	}
+
+	county_modifier = {
+
+	}
+
+	type = special
+
+	ai_value = {
+		base = 100
+	}
+}
+
+
+# The Ribs of Ancalagon
+wonder_ribs_of_ancalagon = {
+	type_icon = "icon_building_dragon.dds"
+	construction_time = very_slow_construction_time
+	cost_gold = 500
+	cost_prestige = 500
+	cost_piety = 500
+	can_construct_potential = {
+
+	}
+
+	can_construct = {
+
+	}
+
+	is_enabled = {
+
+	}
+
+	character_modifier = {
+		monthly_prestige = 0.5
+		dread_baseline_add = 10
+	}
+
+	province_modifier = {
+		travel_danger = 40
+	}
+
+	county_modifier = {
+
+	}
+
+	type = special
+
+	ai_value = {
+		base = 100
+	}
+}
+
+
+# Frozen Remains of the Númenórean Fleet
+wonder_frozen_numenorean_fleet = {
+	type_icon = "icon_building_tradeport.dds"
+	construction_time = very_slow_construction_time
+	cost_gold = 500
+	cost_prestige = 500
+	cost_piety = 500
+	can_construct_potential = {
+
+	}
+
+	can_construct = {
+
+	}
+
+	is_enabled = {
+		scope:holder.culture ?= { has_cultural_pillar = heritage_dunedain }
+	}
+
+	character_modifier = {
+		monthly_piety = 0.5
+	}
+
+	province_modifier = {
+		travel_danger = 40
+	}
+
+	county_modifier = {
+
+	}
+
+	type = special
+
+	ai_value = {
+		base = 100
+	}
+}
+
+
+# Whitehaven
+wonder_whitehaven = {
+	type_icon = "icon_wonder_pelargir.dds"
+	construction_time = very_slow_construction_time
+	cost_gold = 500
+	cost_prestige = 500
+	cost_piety = 500
+	can_construct_potential = {
+
+	}
+
+	can_construct = {
+
+	}
+
+	is_enabled = {
+
+	}
+
+	province_modifier = {
+		fort_level = good_building_fort_level_tier_1
+		supply_limit_mult = 0.2
+		monthly_income = 2
+	}
+	county_modifier = {
+		development_growth_factor = 0.1
+	}
+	character_modifier = {
+		naval_movement_speed_mult = 0.25
+	}
+
+	type = special
+
+	ai_value = {
+		base = 100
+	}
+}
+
+
+# Númenórean Whaling Post / Forodain City
+wonder_forodain_whaling_city = {
+	type_icon = "icon_building_tradeport.dds"
+	construction_time = very_slow_construction_time
+	cost_gold = 500
+	cost_prestige = 500
+	cost_piety = 500
+	can_construct_potential = {
+
+	}
+
+	can_construct = {
+
+	}
+
+	is_enabled = {
+
+	}
+
+	province_modifier = {
+		fort_level = good_building_fort_level_tier_1
+		supply_limit_mult = 0.2
+		tax_mult = 0.2
+	}
+	county_modifier = {
+		development_growth_factor = 0.1
+	}
+
+	type = special
+
+	ai_value = {
+		base = 100
+	}
+}
+
+
+# Morgoth's Well
+wonder_morgoths_well = {
+	type_icon = "icon_wonder_orodruin.dds"
+	construction_time = very_slow_construction_time
+	cost_gold = 500
+	cost_prestige = 500
+	cost_piety = 500
+	can_construct_potential = {
+
+	}
+
+	can_construct = {
+
+	}
+
+	is_enabled = {
+
+	}
+
+	character_modifier = {
+		dread_baseline_add = 10
+		monthly_piety = 1
+	}
+
+	province_modifier = {
+		travel_danger = 50
+	}
+
+	county_modifier = {
+		tax_mult = -0.5
+	}
+
+	type = special
+
+	ai_value = {
+		base = 100
+	}
+}
+
+
+# Wolfmere
+wonder_wolfmere = {
+	type_icon = "icon_structure_maharloo_lake.dds"
+	construction_time = very_slow_construction_time
+	cost_gold = 500
+	cost_prestige = 500
+	cost_piety = 500
+	can_construct_potential = {
+
+	}
+
+	can_construct = {
+
+	}
+
+	is_enabled = {
+
+	}
+
+	character_modifier = {
+		monthly_piety = 0.25
+		
+	}
+
+	province_modifier = {
+		garrison_size = 0.1
+		fort_level = normal_building_fort_level_tier_1
+		hostile_raid_time = 0.1
+		monthly_income = 0.5
+	}
+
+	county_modifier = {
+		
+	}
+
+	type = special
+
+	ai_value = {
+		base = 100
+	}
+}
+
+
+# Site Where Beowulf Slew the Dragon Faron
+wonder_faron_dragon_site = {
+	type_icon = "icon_structure_newgrange.dds"
+	construction_time = very_slow_construction_time
+	cost_gold = 500
+	cost_prestige = 500
+	cost_piety = 500
+	can_construct_potential = {
+
+	}
+
+	can_construct = {
+
+	}
+
+	is_enabled = {
+		
+	}
+
+	character_modifier = {
+		monthly_prestige = 0.25
+		monthly_piety = 0.5
+	}
+
+	province_modifier = {
+		fort_level = 1
+	}
+
+	county_modifier = {
+		
+	}
+
+	type = special
+
+	ai_value = {
+		base = 100
+	}
+}
+
+
+### THREE-LEVEL SPECIAL BUILDINGS ###
+
+# Evermist - Level 1
+wonder_evermist_01 = {
+	type_icon = "icon_structure_maharloo_lake.dds"
+	construction_time = very_slow_construction_time
+	cost_gold = 500
+	cost_prestige = 500
+	cost_piety = 500
+	can_construct_potential = {
+
+	}
+
+	can_construct = {
+
+	}
+
+	is_enabled = {
+
+	}
+
+	province_modifier = {
+
+		fort_level = normal_building_fort_level_tier_2
+		hostile_raid_time = 0.25
+		garrison_size = 0.1
+		monthly_income = 1
+	}
+
+	county_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_6
+	}
+
+	character_modifier = {
+        monthly_prestige = 0.25
+		monthly_learning_lifestyle_xp_gain_mult = 0.1
+		stress_loss_mult = 0.3
+		negate_health_penalty_add = 2
+		health = 1
+		controlled_province_advantage = 10
+	}
+
+	next_building = wonder_evermist_02
+	type = special
+
+	ai_value = {
+		base = 100
+	}
+}
+
+
+# Evermist - Level 2
+wonder_evermist_02 = {
+	type_icon = "icon_structure_maharloo_lake.dds"
+	construction_time = very_slow_construction_time
+	cost_gold = 500
+	cost_prestige = 500
+	cost_piety = 500
+	can_construct_potential = {
+
+	}
+
+	can_construct = {
+		building_requirement_elven = yes
+		culture = {
+			has_innovation = innovation_hoardings
+		}
+	}
+
+	is_enabled = {
+
+	}
+
+	province_modifier = {
+
+		fort_level = normal_building_fort_level_tier_3
+		hostile_raid_time = 0.5
+		garrison_size = 0.2
+		monthly_income = 2
+	}
+
+	county_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_7
+	}
+
+	character_modifier = {
+        monthly_prestige = 0.5
+		monthly_learning_lifestyle_xp_gain_mult = 0.1
+		stress_loss_mult = 0.3
+		negate_health_penalty_add = 2
+		health = 1
+		controlled_province_advantage = 10
+	}
+
+	next_building = wonder_evermist_03
+	type = special
+
+	ai_value = {
+		base = 100
+	}
+}
+
+
+# Evermist - Level 3
+wonder_evermist_03 = {
+	type_icon = "icon_structure_maharloo_lake.dds"
+	construction_time = very_slow_construction_time
+	cost_gold = 500
+	cost_prestige = 500
+	cost_piety = 500
+	can_construct_potential = {
+
+	}
+
+	can_construct = {
+		building_requirement_elven = yes
+		culture = {
+			has_innovation = innovation_hoardings
+		}
+	}
+
+	is_enabled = {
+
+	}
+
+	province_modifier = {
+
+		fort_level = normal_building_fort_level_tier_4
+		hostile_raid_time = 0.75
+		garrison_size = 0.2
+		monthly_income = 3
+	}
+
+	county_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_8
+	}
+
+	character_modifier = {
+        monthly_prestige = 1
+		monthly_learning_lifestyle_xp_gain_mult = 0.1
+		stress_loss_mult = 0.3
+		negate_health_penalty_add = 2
+		health = 1
+		controlled_province_advantage = 10
+	}
+
+	type = special
+
+	ai_value = {
+		base = 100
+	}
+}
+
+
+# Helecthil - Level 1
+wonder_helecthil_01 = {
+	type_icon = "icon_wonder_beacon_of_soronomar.dds"
+	construction_time = very_slow_construction_time
+	cost_gold = 500
+	cost_prestige = 500
+	cost_piety = 500
+	can_construct_potential = {
+
+	}
+
+	can_construct = {
+
+	}
+
+	is_enabled = {
+
+	}
+
+	character_modifier = {
+		monthly_piety = 1
+		stress_loss_mult = 0.25
+		arctic_development_growth = 0.1
+	}
+
+	province_modifier = {
+		travel_danger = -20
+	}
+
+	county_modifier = {
+		
+	}
+
+	next_building = wonder_helecthil_02
+	type = special
+
+	ai_value = {
+		base = 100
+	}
+}
+
+
+# Helecthil - Level 2
+wonder_helecthil_02 = {
+	type_icon = "icon_wonder_beacon_of_soronomar.dds"
+	construction_time = very_slow_construction_time
+	cost_gold = 500
+	cost_prestige = 500
+	cost_piety = 500
+	can_construct_potential = {
+
+	}
+
+	can_construct = {
+
+	}
+
+	is_enabled = {
+
+	}
+
+	character_modifier = {
+		monthly_piety = 2
+		stress_loss_mult = 0.5
+		arctic_development_growth = 0.25
+	}
+
+	province_modifier = {
+		monthly_income = 1
+		fort_level = 5
+	}
+
+	county_modifier = {
+		
+	}
+
+	next_building = wonder_helecthil_03
+	type = special
+
+	ai_value = {
+		base = 100
+	}
+}
+
+
+# Helecthil - Level 3
+wonder_helecthil_03 = {
+	type_icon = "icon_wonder_beacon_of_soronomar.dds"
+	construction_time = very_slow_construction_time
+	cost_gold = 500
+	cost_prestige = 500
+	cost_piety = 500
+	can_construct_potential = {
+
+	}
+
+	can_construct = {
+
+	}
+
+	is_enabled = {
+
+	}
+
+	character_modifier = {
+		monthly_piety = 3
+		stress_loss_mult = 1
+		arctic_development_growth = 0.5
+	}
+
+	province_modifier = {
+		monthly_income = 2
+		fort_level = 10
+	}
+
+	county_modifier = {
+		
+	}
+
+	type = special
+
+	ai_value = {
+		base = 100
+	}
+}
+
+
+# Evermist Falls
+wonder_evermist_falls = {
+	type_icon = "icon_building_waterfall.dds"
+
+	ai_value = {
+		base = 100
+	}
+
+	character_modifier = {
+		stress_gain_mult = -0.1
+		health = 0.2
+	}
+
+	province_modifier = {
+		monthly_income = 0.3
+	}
+
+	type = special
+	flag = travel_point_of_interest_natural_feature # waterfall
+}
+
+
+# Boiling Lake
+wonder_boiling_lake = {
+	type_icon = "icon_structure_maharloo_lake.dds"
+	construction_time = very_slow_construction_time
+	cost_gold = 500
+	cost_prestige = 500
+	cost_piety = 500
+	can_construct_potential = {
+
+	}
+
+	can_construct = {
+
+	}
+
+	is_enabled = {
+
+	}
+
+	character_modifier = {
+		stress_loss_mult = 0.15
+		monthly_piety = 0.5
+	}
+
+	county_modifier = {
+		county_opinion_add = 10
+		development_growth_factor = 0.25
+	}
+
+	type = special
+
+	ai_value = {
+		base = 100
+	}
+}
+
+
+# Forges of the Winden
+wonder_forges_of_the_winden = {
+	type_icon = "icon_building_blacksmiths.dds"
+	construction_time = very_slow_construction_time
+	cost_gold = 500
+	cost_prestige = 500
+	cost_piety = 500
+	can_construct_potential = {
+
+	}
+
+	can_construct = {
+
+	}
+
+	is_enabled = {
+
+	}
+
+	character_modifier = {
+		stewardship = 1
+		monthly_prestige = 0.25
+	}
+	
+	province_modifier = {
+		holding_build_speed = 0.15
+		build_gold_cost = -0.10
+		stationed_maa_damage_mult = 0.10
+		stationed_maa_toughness_mult = 0.10
+		tax_mult = 0.15
+	}
+	
+	county_modifier = {
+		development_growth_factor = 0.10
+	}
+
+	type = special
+
+	ai_value = {
+		base = 100
+	}
+}
+
+
+# Hwenti Halls
+wonder_hwenti_halls = {
+	type_icon = "icon_wonder_thranduil_hall.dds"
+	construction_time = very_slow_construction_time
+	cost_gold = 500
+	cost_prestige = 500
+	cost_piety = 500
+	can_construct_potential = {
+
+	}
+
+	can_construct = {
+
+	}
+
+	is_enabled = {
+
+	}
+
+	character_modifier = {
+		learning = 1
+		diplomacy = 1
+		cultural_head_fascination_add = 0.05
+	}
+	
+	province_modifier = {
+		travel_danger = -10
+		supply_limit_mult = 0.15
+	}
+	
+	county_modifier = {
+		development_growth_factor = 0.10
+		county_opinion_add = 5
+		monthly_county_control_growth_add = 0.10
+	}
+
+	type = special
+
+	ai_value = {
+		base = 100
+	}
+}
+
+
+# Carasthon - Level 1
+wonder_carasthon_01 = {
+	type_icon = "icon_wonder_caras_galadhon_2.dds"
+	construction_time = very_slow_construction_time
+	cost_gold = 1000
+	
+	can_construct_potential = {
+
+	}
+
+	can_construct = {
+
+	}
+
+	is_enabled = {
+		
+	}
+
+	character_modifier = {
+		monthly_prestige = 0.15
+	}
+	
+	province_modifier = {
+		tax_mult = 0.10
+		supply_limit_mult = 0.10
+		fort_level = 1
+	}
+	
+	county_modifier = {
+		development_growth_factor = 0.10
+	}
+
+	next_building = wonder_carasthon_02
+	type = special
+
+	ai_value = {
+		base = 100
+	}
+}
+
+
+# Carasthon - Level 2
+wonder_carasthon_02 = {
+	type_icon = "icon_wonder_caras_galadhon_2.dds"
+	construction_time = very_slow_construction_time
+	cost_gold = 1000
+	
+	can_construct_potential = {
+
+	}
+
+	can_construct = {
+		scope:holder ?= {
+			is_elf = yes
+		}
+		building_requirement_elven = yes
+	}
+
+	is_enabled = {
+
+	}
+
+	character_modifier = {
+		monthly_prestige = 0.30
+		stewardship = 1
+	}
+	
+	province_modifier = {
+		tax_mult = 0.20
+		supply_limit_mult = 0.20
+		fort_level = 2
+		garrison_size = 0.15
+	}
+	
+	county_modifier = {
+		development_growth_factor = 0.20
+		monthly_county_control_growth_add = 0.10
+	}
+
+	next_building = wonder_carasthon_03
+	type = special
+
+	ai_value = {
+		base = 100
+	}
+}
+
+
+# Carasthon - Level 3
+wonder_carasthon_03 = {
+	type_icon = "icon_wonder_caras_galadhon_2.dds"
+	construction_time = very_slow_construction_time
+	cost_gold = 1000
+	
+	can_construct_potential = {
+
+	}
+
+	can_construct = {
+		scope:holder ?= {
+			is_elf = yes
+		}
+		building_requirement_elven = yes
+	}
+
+	is_enabled = {
+
+	}
+
+	character_modifier = {
+		monthly_prestige = 0.50
+		stewardship = 2
+		diplomacy = 1
+	}
+	
+	province_modifier = {
+		tax_mult = 0.30
+		supply_limit_mult = 0.30
+		fort_level = 3
+		garrison_size = 0.25
+	}
+	
+	county_modifier = {
+		development_growth_factor = 0.30
+		monthly_county_control_growth_add = 0.20
+		county_opinion_add = 5
+	}
+
+	type = special
+
+	ai_value = {
+		base = 100
+	}
+}
+
+
+# Halls of Talanthir - Level 1
+wonder_halls_of_talanthir_01 = {
+	type_icon = "icon_structure_grand_library_of_baghdad.dds"
+	construction_time = very_slow_construction_time
+	cost_gold = 500
+	
+	can_construct_potential = {
+
+	}
+
+	can_construct = {
+
+	}
+
+	is_enabled = {
+		scope:holder ?= {
+			is_orc = yes
+		}
+	}
+
+	character_modifier = {
+		stewardship = 1
+		monthly_prestige = 0.20
+	}
+	
+	province_modifier = {
+		fort_level = 1
+		garrison_size = 0.10
+		holding_build_speed = 0.10
+		build_gold_cost = -0.05
+	}
+	
+	county_modifier = {
+		development_growth_factor = 0.05
+	}
+
+	next_building = wonder_halls_of_talanthir_02
+	type = special
+
+	ai_value = {
+		base = 100
+	}
+}
+
+
+# Halls of Talanthir - Level 2
+wonder_halls_of_talanthir_02 = {
+	type_icon = "icon_structure_grand_library_of_baghdad.dds"
+	construction_time = very_slow_construction_time
+	cost_gold = 1000
+	
+	can_construct_potential = {
+
+	}
+
+	is_enabled = {
+		scope:holder ?= {
+			is_orc = yes
+		}
+	}
+
+	is_enabled = {
+		scope:holder ?= {
+			is_orc = yes
+		}
+	}
+
+	character_modifier = {
+		stewardship = 1
+		martial = 1
+		monthly_prestige = 0.35
+	}
+	
+	province_modifier = {
+		fort_level = 2
+		garrison_size = 0.20
+		defender_holding_advantage = 3
+		holding_build_speed = 0.15
+		build_gold_cost = -0.10
+		stationed_maa_toughness_mult = 0.10
+	}
+	
+	county_modifier = {
+		development_growth_factor = 0.10
+	}
+
+	next_building = wonder_halls_of_talanthir_03
+	type = special
+
+	ai_value = {
+		base = 100
+	}
+}
+
+
+# Halls of Talanthir - Level 3
+wonder_halls_of_talanthir_03 = {
+	type_icon = "icon_structure_grand_library_of_baghdad.dds"
+	construction_time = very_slow_construction_time
+	cost_gold = 1000
+	
+	can_construct_potential = {
+
+	}
+
+	is_enabled = {
+		scope:holder ?= {
+			is_orc = yes
+		}
+	}
+
+	is_enabled = {
+		scope:holder ?= {
+			is_orc = yes
+		}
+	}
+
+	character_modifier = {
+		stewardship = 2
+		martial = 1
+		monthly_prestige = 0.50
+	}
+	
+	province_modifier = {
+		fort_level = 3
+		garrison_size = 0.30
+		defender_holding_advantage = 5
+		holding_build_speed = 0.20
+		build_gold_cost = -0.15
+		stationed_maa_damage_mult = 0.10
+		stationed_maa_toughness_mult = 0.20
+	}
+	
+	county_modifier = {
+		development_growth_factor = 0.15
+	}
+
+	type = special
+
+	ai_value = {
+		base = 100
+	}
+}
+
+dragon_lair = {
+	# This is automatically spawned, so AI should ignore this
+	can_construct = {
+		always = no
+	}	
+	
+	can_construct_potential = {
+		always = no
+	}
+
+	county_modifier = {
+		development_growth_factor = -0.9
+		supply_limit_mult = -0.9
+		tax_mult = -0.9
+		travel_danger = 30
+	}
+			
+	type = special
+	
+	type_icon = "icon_building_dragon.dds"
+
+	
+
+	# This is automatically spawned, so AI should ignore this
+	ai_value = {
+		base = -100
+	}
+}
+
+#### Great Buildings
+
+# Nidavillir Foundation - Tier 1
+wonder_nidavillir_foundation = { # Nidavillir (Ironfist Capital)
+	type_icon = "icon_structure_newgrange.dds"
+
+	# We only build this through Decision -> Great Projects
+	can_construct_potential = {
+		always = no # This should never show up normally
+	}
+
+	is_enabled = {
+		is_dwarf = yes
+	}
+
+	show_disabled = yes
+
+	rebuild_cost = {
+		gold = {
+			if = {
+				limit = { is_ai = yes }
+				value = ai_rebuild_value
+			}
+			else = { value = standard_rebuild_value }
+		}
+		piety = {
+			if = {
+				limit = { is_ai = yes }
+				value = ai_rebuild_value
+			}
+			else = { value = standard_rebuild_value }
+		}
+	}
+
+	can_rebuild = {
+		custom_tooltip = {
+			text = no_orcish_special_building
+			NOT = { has_building_with_flag = desecrated_dwarven_capital }
+		}
+		is_dwarf = yes
+		has_building_or_higher = dwarven_depths_01
+	}
+
+	province_modifier = {
+		monthly_income = 0.5
+		supply_limit_mult = 0.10
+	}
+
+	county_modifier = {
+		development_growth = 0.05
+		build_gold_cost = -0.05
+		build_speed = -0.10
+	}
+
+	character_modifier = {
+		monthly_prestige = 0.25
+		monthly_crafting_lifestyle_xp_gain_mult = 0.10
+	}
+
+	fallback = {
+		province_modifier = {
+			monthly_income = 0.1
+		}
+	}
+
+	type = great_building
+	flag = first_tier_dwarven_capital_building
+	flag = dwarven_capital_building
+	next_building = wonder_nidavillir_t2
+}
+
+
+# Nidavillir Hold - Tier 2
+wonder_nidavillir_t2 = { # Nidavillir (Ironfist Capital)
+	type_icon = "icon_structure_newgrange.dds"
+
+	can_construct_potential = {
+		is_dwarf = yes
+		has_building_or_higher = dwarven_depths_02
+		lotr_dwarven_underground_buildings_requirement_terrain = yes
+		has_building = wonder_nidavillir_foundation
+	}
+
+	is_enabled = {
+		is_dwarf = yes
+	}
+
+	can_rebuild = {
+		custom_tooltip = {
+			text = no_orcish_special_building
+			NOT = { has_building_with_flag = desecrated_dwarven_capital }
+		}
+		is_dwarf = yes
+		has_building_or_higher = dwarven_depths_01
+	}
+
+	show_disabled = yes
+
+	rebuild_cost = {
+		gold = {
+			if = {
+				limit = { is_ai = yes }
+				value = ai_rebuild_value
+			}
+			else = {
+				value = {
+					add = standard_rebuild_value
+					multiply = 1.25
+				}
+			}
+		}
+		piety = {
+			if = {
+				limit = { is_ai = yes }
+				value = ai_rebuild_value
+			}
+			else = {
+				value = {
+					add = standard_rebuild_value
+					multiply = 1.25
+				}
+			}
+		}
+	}
+
+	province_modifier = {
+		monthly_income = 1.5
+		supply_limit_mult = 0.15
+		stationed_heavy_infantry_damage_mult = 0.15
+		stationed_heavy_infantry_toughness_mult = 0.15
+	}
+
+	county_modifier = {
+		development_growth = 0.10
+		build_gold_cost = -0.05
+		build_speed = -0.10
+	}
+
+	character_modifier = {
+		monthly_prestige = 0.5
+		monthly_crafting_lifestyle_xp_gain_mult = 0.15
+	}
+
+	fallback = {
+		province_modifier = {
+			monthly_income = 0.1
+		}
+	}
+
+	type = great_building
+	great_project_type = dwarven_capital_02
+	next_building = wonder_nidavillir_t3
+	flag = dwarven_capital_building
+	flag = second_tier_dwarven_capital_building
+}
+
+
+# Great Hold of Nidavillir - Tier 3
+wonder_nidavillir_t3 = { # Nidavillir (Ironfist Capital)
+	type_icon = "icon_structure_newgrange.dds"
+
+	can_construct_potential = {
+		is_dwarf = yes
+		has_building_or_higher = dwarven_depths_04
+		lotr_dwarven_underground_buildings_requirement_terrain = yes
+		has_building = wonder_nidavillir_t2
+	}
+
+	is_enabled = {
+		is_dwarf = yes
+	}
+
+	can_rebuild = {
+		custom_tooltip = {
+			text = no_orcish_special_building
+			NOT = { has_building_with_flag = desecrated_dwarven_capital }
+		}
+		is_dwarf = yes
+		has_building_or_higher = dwarven_depths_01
+	}
+
+	show_disabled = yes
+
+	rebuild_cost = {
+		gold = {
+			if = {
+				limit = { is_ai = yes }
+				value = ai_rebuild_value
+			}
+			else = {
+				value = {
+					add = standard_rebuild_value
+					multiply = 1.5
+				}
+			}
+		}
+		piety = {
+			if = {
+				limit = { is_ai = yes }
+				value = ai_rebuild_value
+			}
+			else = {
+				value = {
+					add = standard_rebuild_value
+					multiply = 1.5
+				}
+			}
+		}
+	}
+
+	province_modifier = {
+		monthly_income = 3
+		supply_limit_mult = 0.20
+		stationed_heavy_infantry_damage_mult = 0.30
+		stationed_heavy_infantry_toughness_mult = 0.30
+		fort_level = normal_building_fort_level_tier_1
+	}
+
+	county_modifier = {
+		development_growth = 0.20
+		build_gold_cost = -0.10
+		build_speed = -0.15
+	}
+
+	character_modifier = {
+		monthly_prestige = 0.75
+		monthly_crafting_lifestyle_xp_gain_mult = 0.30
+	}
+
+	fallback = {
+		province_modifier = {
+			monthly_income = 0.1
+		}
+	}
+
+	type = great_building
+	great_project_type = dwarven_capital_03
+	next_building = wonder_nidavillir_t4
+	flag = dwarven_capital_building
+	flag = third_tier_dwarven_capital_building
+}
+
+
+# Deep Citadel of Nidavillir - Tier 4
+wonder_nidavillir_t4 = { # Nidavillir (Ironfist Capital)
+	type_icon = "icon_structure_newgrange.dds"
+
+	can_construct_potential = {
+		is_dwarf = yes
+		has_building_or_higher = dwarven_depths_06
+		lotr_dwarven_underground_buildings_requirement_terrain = yes
+		has_building = wonder_nidavillir_t3
+	}
+
+	is_enabled = {
+		is_dwarf = yes
+	}
+
+	can_rebuild = {
+		custom_tooltip = {
+			text = no_orcish_special_building
+			NOT = { has_building_with_flag = desecrated_dwarven_capital }
+		}
+		is_dwarf = yes
+		has_building_or_higher = dwarven_depths_01
+	}
+
+	show_disabled = yes
+
+	rebuild_cost = {
+		gold = {
+			if = {
+				limit = { is_ai = yes }
+				value = ai_rebuild_value
+			}
+			else = {
+				value = {
+					add = standard_rebuild_value
+					multiply = 1.75
+				}
+			}
+		}
+		piety = {
+			if = {
+				limit = { is_ai = yes }
+				value = ai_rebuild_value
+			}
+			else = {
+				value = {
+					add = standard_rebuild_value
+					multiply = 1.75
+				}
+			}
+		}
+	}
+
+	province_modifier = {
+		monthly_income = 4.5
+		supply_limit_mult = 0.30
+		garrison_size = 0.25
+		stationed_heavy_infantry_damage_mult = 0.60
+		stationed_heavy_infantry_toughness_mult = 0.60
+		fort_level = normal_building_fort_level_tier_2
+	}
+
+	county_modifier = {
+		development_growth = 0.30
+		build_gold_cost = -0.15
+		build_speed = -0.20
+	}
+
+	character_modifier = {
+		monthly_prestige = 1.25
+		same_culture_opinion = 10
+		monthly_crafting_lifestyle_xp_gain_mult = 0.40
+	}
+
+	fallback = {
+		province_modifier = {
+			monthly_income = 0.1
+		}
+	}
+
+	type = great_building
+	great_project_type = dwarven_capital_04
+	next_building = wonder_nidavillir_t5
+	flag = dwarven_capital_building
+	flag = fourth_tier_dwarven_capital_building
+}
+
+
+# Ironfist Capital of Nidavillir - Tier 5
+wonder_nidavillir_t5 = { # Nidavillir (Ironfist Capital)
+	type_icon = "icon_structure_newgrange.dds"
+
+	can_construct_potential = {
+		is_dwarf = yes
+		has_building_or_higher = dwarven_depths_08
+		lotr_dwarven_underground_buildings_requirement_terrain = yes
+		has_building = wonder_nidavillir_t4
+	}
+
+	is_enabled = {
+		is_dwarf = yes
+	}
+
+	can_rebuild = {
+		custom_tooltip = {
+			text = no_orcish_special_building
+			NOT = { has_building_with_flag = desecrated_dwarven_capital }
+		}
+		is_dwarf = yes
+		has_building_or_higher = dwarven_depths_01
+	}
+
+	show_disabled = yes
+
+	rebuild_cost = {
+		gold = {
+			if = {
+				limit = { is_ai = yes }
+				value = ai_rebuild_value
+			}
+			else = {
+				value = {
+					add = standard_rebuild_value
+					multiply = 2
+				}
+			}
+		}
+		piety = {
+			if = {
+				limit = { is_ai = yes }
+				value = ai_rebuild_value
+			}
+			else = {
+				value = {
+					add = standard_rebuild_value
+					multiply = 2
+				}
+			}
+		}
+	}
+
+	province_modifier = {
+		monthly_income = 6
+		supply_limit_mult = 0.50
+		garrison_size = 0.50
+		stationed_heavy_infantry_damage_mult = 1.00
+		stationed_heavy_infantry_toughness_mult = 1.00
+		fort_level = normal_building_fort_level_tier_3
+	}
+
+	county_modifier = {
+		development_growth = 0.50
+		build_gold_cost = -0.20
+		build_speed = -0.25
+	}
+
+	character_modifier = {
+		monthly_prestige = 2
+		same_culture_opinion = 20
+		monthly_dynasty_prestige_mult = 0.10
+		monthly_crafting_lifestyle_xp_gain_mult = 0.50
+		build_gold_cost = -0.05
+		build_speed = -0.10
+	}
+
+	fallback = {
+		province_modifier = {
+			monthly_income = 0.1
+		}
+	}
+
+	type = great_building
+	great_project_type = dwarven_capital_05
+	flag = dwarven_capital_building
+	flag = final_tier_dwarven_capital_building
+}
+
+wonder_angband_01 = { # Angband - Tier 1
+	type_icon = "icon_wonder_orodruin.dds"
+
+	can_construct_potential = {
+		always = no
+	}
+
+	show_disabled = yes
+
+	rebuild_cost = {
+		gold = {
+			if = {
+				limit = { is_ai = yes }
+				value = ai_rebuild_value
+			}
+			else = {
+				value = {
+					add = standard_rebuild_value
+					multiply = 2
+				}
+			}
+		}
+		piety = {
+			if = {
+				limit = { is_ai = yes }
+				value = ai_rebuild_value
+			}
+			else = {
+				value = {
+					add = standard_rebuild_value
+					multiply = 2
+				}
+			}
+		}
+	}
+
+	province_modifier = {
+		fort_level = 8
+		garrison_size = 0.50
+		defender_holding_advantage = 5
+		monthly_income = 2
+		supply_limit_mult = 0.20
+		hostile_raid_time = 0.50
+		stationed_maa_damage_mult = 0.20
+		stationed_maa_toughness_mult = 0.20
+	}
+
+	county_modifier = {
+		development_growth = 0.10
+		monthly_county_control_growth_add = 0.25
+	}
+
+	character_modifier = {
+		monthly_prestige = 0.5
+		dread_baseline_add = 10
+		knight_effectiveness_mult = 0.10
+	}
+
+	fallback = {
+		province_modifier = {
+			fort_level = 3
+		}
+	}
+	
+	levy = 1000
+
+	type = great_building
+	great_project_type = angband_durnost_upgrade
+	next_building = wonder_angband_02
+	flag = angband_great_building
+	flag = angband_tier_01
+}
+
+
+wonder_angband_02 = { # Angband - Tier 2
+	type_icon = "icon_wonder_orodruin.dds"
+
+	can_construct_potential = {
+		has_building = wonder_angband_01
+	}
+
+	show_disabled = yes
+
+	rebuild_cost = {
+		gold = {
+			if = {
+				limit = { is_ai = yes }
+				value = ai_rebuild_value
+			}
+			else = {
+				value = {
+					add = standard_rebuild_value
+					multiply = 3
+				}
+			}
+		}
+		piety = {
+			if = {
+				limit = { is_ai = yes }
+				value = ai_rebuild_value
+			}
+			else = {
+				value = {
+					add = standard_rebuild_value
+					multiply = 3
+				}
+			}
+		}
+	}
+
+	province_modifier = {
+		fort_level = 12
+		garrison_size = 0.75
+		defender_holding_advantage = 8
+		monthly_income = 4
+		supply_limit_mult = 0.30
+		hostile_raid_time = 0.75
+		stationed_maa_damage_mult = 0.40
+		stationed_maa_toughness_mult = 0.40
+		stationed_maa_maintenance_mult = -0.10
+	}
+
+	county_modifier = {
+		development_growth = 0.20
+		monthly_county_control_growth_add = 0.50
+	}
+
+	character_modifier = {
+		monthly_prestige = 1
+		dread_baseline_add = 20
+		knight_effectiveness_mult = 0.20
+		men_at_arms_limit = 1
+	}
+
+	fallback = {
+		province_modifier = {
+			fort_level = 4
+		}
+	}
+	
+	levy = 2000
+
+	type = great_building
+	great_project_type = angband_durnost_upgrade
+	next_building = wonder_angband_03
+	flag = angband_great_building
+	flag = angband_tier_02
+}
+
+
+wonder_angband_03 = { # Angband - Tier 3
+	type_icon = "icon_wonder_orodruin.dds"
+
+	can_construct_potential = {
+		has_building = wonder_angband_02
+	}
+
+	show_disabled = yes
+
+	rebuild_cost = {
+		gold = {
+			if = {
+				limit = { is_ai = yes }
+				value = ai_rebuild_value
+			}
+			else = {
+				value = {
+					add = standard_rebuild_value
+					multiply = 4
+				}
+			}
+		}
+		piety = {
+			if = {
+				limit = { is_ai = yes }
+				value = ai_rebuild_value
+			}
+			else = {
+				value = {
+					add = standard_rebuild_value
+					multiply = 4
+				}
+			}
+		}
+	}
+
+	province_modifier = {
+		fort_level = 16
+		garrison_size = 1.00
+		defender_holding_advantage = 12
+		monthly_income = 6
+		supply_limit_mult = 0.50
+		hostile_raid_time = 1.00
+		stationed_maa_damage_mult = 0.75
+		stationed_maa_toughness_mult = 0.75
+		stationed_maa_maintenance_mult = -0.20
+		levy_size = 0.25
+	}
+
+	county_modifier = {
+		development_growth = 0.30
+		monthly_county_control_growth_add = 0.75
+	}
+
+	character_modifier = {
+		monthly_prestige = 1.5
+		dread_baseline_add = 30
+		knight_effectiveness_mult = 0.35
+		men_at_arms_limit = 1
+		men_at_arms_cap = 1
+	}
+	
+	levy = 3000
+
+	fallback = {
+		province_modifier = {
+			fort_level = 5
+		}
+	}
+
+	type = great_building
+	great_project_type = angband_durnost_upgrade
+	next_building = wonder_angband_04
+	flag = angband_great_building
+	flag = angband_tier_03
+}
+
+
+wonder_angband_04 = { # Angband - Tier 4
+	type_icon = "icon_wonder_orodruin.dds"
+
+	can_construct_potential = {
+		has_building = wonder_angband_03
+	}
+
+	show_disabled = yes
+
+	rebuild_cost = {
+		gold = {
+			if = {
+				limit = { is_ai = yes }
+				value = ai_rebuild_value
+			}
+			else = {
+				value = {
+					add = standard_rebuild_value
+					multiply = 6
+				}
+			}
+		}
+		piety = {
+			if = {
+				limit = { is_ai = yes }
+				value = ai_rebuild_value
+			}
+			else = {
+				value = {
+					add = standard_rebuild_value
+					multiply = 6
+				}
+			}
+		}
+	}
+	
+	levy = 4000
+
+	province_modifier = {
+		fort_level = 20
+		garrison_size = 1.50
+		defender_holding_advantage = 16
+		monthly_income = 9
+		supply_limit_mult = 0.75
+		hostile_raid_time = 1.50
+		stationed_maa_damage_mult = 1.25
+		stationed_maa_toughness_mult = 1.25
+		stationed_maa_maintenance_mult = -0.30
+		levy_size = 0.50
+	}
+
+	county_modifier = {
+		development_growth = 0.40
+		monthly_county_control_growth_add = 1.00
+		county_opinion_add = -10
+	}
+
+	character_modifier = {
+		monthly_prestige = 2.5
+		dread_baseline_add = 40
+		knight_effectiveness_mult = 0.50
+		men_at_arms_limit = 2
+		men_at_arms_cap = 2
+		hostile_scheme_power_add = 10
+	}
+
+	fallback = {
+		province_modifier = {
+			fort_level = 6
+		}
+	}
+
+	type = great_building
+	great_project_type = angband_durnost_upgrade
+	next_building = wonder_angband_05
+	flag = angband_great_building
+	flag = angband_tier_04
+}
+
+
+wonder_angband_05 = { # Angband - Tier 5
+	type_icon = "icon_wonder_orodruin.dds"
+
+	can_construct_potential = {
+		has_building = wonder_angband_04
+	}
+
+	show_disabled = yes
+
+	rebuild_cost = {
+		gold = {
+			if = {
+				limit = { is_ai = yes }
+				value = ai_rebuild_value
+			}
+			else = {
+				value = {
+					add = standard_rebuild_value
+					multiply = 8
+				}
+			}
+		}
+		piety = {
+			if = {
+				limit = { is_ai = yes }
+				value = ai_rebuild_value
+			}
+			else = {
+				value = {
+					add = standard_rebuild_value
+					multiply = 8
+				}
+			}
+		}
+	}
+
+	province_modifier = {
+		fort_level = 25
+		garrison_size = 2.00
+		defender_holding_advantage = 20
+		monthly_income = 12
+		supply_limit_mult = 1.00
+		hostile_raid_time = 2.00
+		stationed_maa_damage_mult = 2.00
+		stationed_maa_toughness_mult = 2.00
+		stationed_maa_maintenance_mult = -0.40
+		levy_size = 1.00
+	}
+
+	county_modifier = {
+		development_growth = 0.50
+		monthly_county_control_growth_add = 1.50
+		county_opinion_add = -20
+	}
+
+	character_modifier = {
+		monthly_prestige = 4
+		dread_baseline_add = 50
+		knight_effectiveness_mult = 0.75
+		men_at_arms_limit = 3
+		men_at_arms_cap = 3
+		hostile_scheme_power_add = 20
+		monthly_crafting_lifestyle_xp_gain_mult = 0.50
+	}
+
+	fallback = {
+		province_modifier = {
+			fort_level = 8
+		}
+	}
+	
+	levy = 5000
+
+	type = great_building
+	great_project_type = angband_durnost_upgrade
+	flag = angband_great_building
+	flag = angband_tier_05
+}
+
+
+### DURNOST GREAT PROJECT BUILDINGS ###
+# Strong regional capital/fortress.
+# Uses its own Great Project chain:
+# construct_durnost_01 through construct_durnost_05
+
+wonder_durnost_01 = { # Durnost - Tier 1
+	type_icon = "icon_building_range.dds"
+
+	can_construct_potential = {
+		always = no
+	}
+
+	show_disabled = yes
+
+	rebuild_cost = {
+		gold = {
+			if = {
+				limit = { is_ai = yes }
+				value = ai_rebuild_value
+			}
+			else = { value = standard_rebuild_value }
+		}
+		piety = {
+			if = {
+				limit = { is_ai = yes }
+				value = ai_rebuild_value
+			}
+			else = { value = standard_rebuild_value }
+		}
+	}
+
+	province_modifier = {
+		fort_level = 3
+		garrison_size = 0.15
+		monthly_income = 0.75
+		supply_limit_mult = 0.10
+	}
+
+	county_modifier = {
+		development_growth = 0.05
+		monthly_county_control_growth_add = 0.10
+	}
+
+	character_modifier = {
+		monthly_prestige = 0.25
+	}
+
+	fallback = {
+		province_modifier = {
+			monthly_income = 0.1
+		}
+	}
+
+	type = great_building
+	great_project_type = angband_durnost_upgrade
+	next_building = wonder_durnost_02
+	flag = durnost_great_building
+	flag = durnost_tier_01
+}
+
+
+wonder_durnost_02 = { # Durnost - Tier 2
+	type_icon = "icon_building_range.dds"
+
+	can_construct_potential = {
+		has_building = wonder_durnost_01
+	}
+
+	show_disabled = yes
+
+	rebuild_cost = {
+		gold = {
+			if = {
+				limit = { is_ai = yes }
+				value = ai_rebuild_value
+			}
+			else = {
+				value = {
+					add = standard_rebuild_value
+					multiply = 1.5
+				}
+			}
+		}
+		piety = {
+			if = {
+				limit = { is_ai = yes }
+				value = ai_rebuild_value
+			}
+			else = {
+				value = {
+					add = standard_rebuild_value
+					multiply = 1.5
+				}
+			}
+		}
+	}
+
+	province_modifier = {
+		fort_level = 5
+		garrison_size = 0.25
+		monthly_income = 1.5
+		supply_limit_mult = 0.15
+		stationed_maa_damage_mult = 0.10
+		stationed_maa_toughness_mult = 0.10
+	}
+
+	county_modifier = {
+		development_growth = 0.10
+		monthly_county_control_growth_add = 0.20
+	}
+
+	character_modifier = {
+		monthly_prestige = 0.5
+		martial = 1
+	}
+
+	fallback = {
+		province_modifier = {
+			monthly_income = 0.1
+		}
+	}
+
+	type = great_building
+	great_project_type = angband_durnost_upgrade
+	next_building = wonder_durnost_03
+	flag = durnost_great_building
+	flag = durnost_tier_02
+}
+
+
+wonder_durnost_03 = { # Durnost - Tier 3
+	type_icon = "icon_building_range.dds"
+
+	can_construct_potential = {
+		has_building = wonder_durnost_02
+	}
+
+	show_disabled = yes
+
+	rebuild_cost = {
+		gold = {
+			if = {
+				limit = { is_ai = yes }
+				value = ai_rebuild_value
+			}
+			else = {
+				value = {
+					add = standard_rebuild_value
+					multiply = 2
+				}
+			}
+		}
+		piety = {
+			if = {
+				limit = { is_ai = yes }
+				value = ai_rebuild_value
+			}
+			else = {
+				value = {
+					add = standard_rebuild_value
+					multiply = 2
+				}
+			}
+		}
+	}
+
+	province_modifier = {
+		fort_level = 7
+		garrison_size = 0.40
+		monthly_income = 2.5
+		supply_limit_mult = 0.25
+		stationed_maa_damage_mult = 0.20
+		stationed_maa_toughness_mult = 0.20
+	}
+
+	county_modifier = {
+		development_growth = 0.20
+		monthly_county_control_growth_add = 0.35
+	}
+
+	character_modifier = {
+		monthly_prestige = 0.75
+		martial = 1
+		stewardship = 1
+	}
+
+	fallback = {
+		province_modifier = {
+			monthly_income = 0.1
+		}
+	}
+
+	type = great_building
+	great_project_type = angband_durnost_upgrade
+	next_building = wonder_durnost_04
+	flag = durnost_great_building
+	flag = durnost_tier_03
+}
+
+
+wonder_durnost_04 = { # Durnost - Tier 4
+	type_icon = "icon_building_range.dds"
+
+	can_construct_potential = {
+		has_building = wonder_durnost_03
+	}
+
+	show_disabled = yes
+
+	rebuild_cost = {
+		gold = {
+			if = {
+				limit = { is_ai = yes }
+				value = ai_rebuild_value
+			}
+			else = {
+				value = {
+					add = standard_rebuild_value
+					multiply = 2.5
+				}
+			}
+		}
+		piety = {
+			if = {
+				limit = { is_ai = yes }
+				value = ai_rebuild_value
+			}
+			else = {
+				value = {
+					add = standard_rebuild_value
+					multiply = 2.5
+				}
+			}
+		}
+	}
+
+	province_modifier = {
+		fort_level = 9
+		garrison_size = 0.60
+		defender_holding_advantage = 4
+		monthly_income = 3.5
+		supply_limit_mult = 0.35
+		stationed_maa_damage_mult = 0.35
+		stationed_maa_toughness_mult = 0.35
+	}
+
+	county_modifier = {
+		development_growth = 0.30
+		monthly_county_control_growth_add = 0.50
+	}
+
+	character_modifier = {
+		monthly_prestige = 1.25
+		martial = 1
+		stewardship = 1
+		same_culture_opinion = 5
+	}
+
+	fallback = {
+		province_modifier = {
+			monthly_income = 0.1
+		}
+	}
+
+	type = great_building
+	great_project_type = angband_durnost_upgrade
+	next_building = wonder_durnost_05
+	flag = durnost_great_building
+	flag = durnost_tier_04
+}
+
+
+wonder_durnost_05 = { # Durnost - Tier 5
+	type_icon = "icon_building_range.dds"
+
+	can_construct_potential = {
+		has_building = wonder_durnost_04
+	}
+
+	show_disabled = yes
+
+	rebuild_cost = {
+		gold = {
+			if = {
+				limit = { is_ai = yes }
+				value = ai_rebuild_value
+			}
+			else = {
+				value = {
+					add = standard_rebuild_value
+					multiply = 3
+				}
+			}
+		}
+		piety = {
+			if = {
+				limit = { is_ai = yes }
+				value = ai_rebuild_value
+			}
+			else = {
+				value = {
+					add = standard_rebuild_value
+					multiply = 3
+				}
+			}
+		}
+	}
+
+	province_modifier = {
+		fort_level = 12
+		garrison_size = 0.80
+		defender_holding_advantage = 6
+		monthly_income = 5
+		supply_limit_mult = 0.50
+		stationed_maa_damage_mult = 0.50
+		stationed_maa_toughness_mult = 0.50
+	}
+
+	county_modifier = {
+		development_growth = 0.40
+		monthly_county_control_growth_add = 0.75
+	}
+
+	character_modifier = {
+		monthly_prestige = 2
+		martial = 2
+		stewardship = 1
+		same_culture_opinion = 10
+		monthly_dynasty_prestige_mult = 0.10
+	}
+
+	fallback = {
+		province_modifier = {
+			monthly_income = 0.1
+		}
+	}
+
+	type = great_building
+	great_project_type = angband_durnost_upgrade
+	flag = durnost_great_building
+	flag = durnost_tier_05
+}
+

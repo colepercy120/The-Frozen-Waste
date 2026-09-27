@@ -1,0 +1,988 @@
+# dynasty_nixni # Niquëtári
+dynasty_nixni ={
+	pattern="pattern_solid.dds"
+	color1=white
+	color2=white
+	color3=blue
+	colored_emblem={
+		color1=blue
+		texture="ce_rwby_weiss.dds"
+	}
+
+	colored_emblem={
+		color1=blue_light
+		texture="ce_border_stars_05.dds"
+		instance={
+			scale={ 0.900000 0.900000 }
+			depth=2.010000
+			rotation=182
+		}
+
+		instance={
+			scale={ 0.900000 0.900000 }
+			depth=3.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=blue_light
+		texture="ce_cross_voided.dds"
+		instance={
+			depth=1.010000
+		}
+
+	}
+
+}
+
+# dynasty_nestador # 
+dynasty_nestador={
+	custom=yes
+	pattern="pattern__solid_designer.dds"
+	color1=white
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=rgb { 107 64 0 }
+		color2=rgb { 31 63 35 }
+		texture="cat_acorn.dds"
+		instance={
+			scale={ 0.340000 0.340000 }
+			depth=3.010000
+			rotation=222
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		color2=rgb { 98 125 151 }
+		color3=yellow
+		texture="ce_elven_feanor_2.dds"
+		instance={
+			position={ 0.500000 0.510000 }
+			depth=6.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_vanyar_green_03.dds"
+		instance={
+			position={ 0.500000 0.900000 }
+			scale={ 0.000000 0.000000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_elven_star_of_feanor_01.dds"
+		instance={
+			position={ 0.900000 0.900000 }
+			scale={ 0.200000 0.200000 }
+		}
+
+		instance={
+			position={ 0.100000 0.900000 }
+			scale={ 0.200000 0.200000 }
+			depth=2.010000
+		}
+
+		instance={
+			position={ 0.900000 0.100000 }
+			scale={ 0.200000 0.200000 }
+			depth=5.010000
+		}
+
+		instance={
+			position={ 0.100000 0.100000 }
+			scale={ 0.200000 0.200000 }
+			depth=7.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 255 255 255 }
+		color2=rgb { 171 104 145 }
+		texture="ce_elven_fingolfin_2.dds"
+		instance={
+			scale={ 0.950000 0.950000 }
+			depth=4.010000
+		}
+
+	}
+
+}
+
+
+# dynasty_fc_aallokko # Aallokko
+
+
+
+# dynasty_fc_aarnio # Aarnio
+
+
+
+# dynasty_fc_ahmala # Ahmala
+
+
+
+# dynasty_fc_hallava # Hallava
+
+
+
+# dynasty_fc_hankala # Hankala
+
+
+
+# dynasty_fc_honkala # Honkala
+
+
+
+# dynasty_fc_huurrela # Huurrela
+
+
+
+# dynasty_fc_jaaniemi # Jaaniemi
+
+
+
+# dynasty_fc_jarvi # Jarvi
+
+
+
+# dynasty_fc_jokela # Jokela
+
+
+
+# dynasty_fc_joutsi # Joutsi
+
+
+
+# dynasty_fc_kaarnio # Kaarnio
+
+
+
+# dynasty_fc_kairala # Kairala
+
+
+
+# dynasty_fc_kallio # Kallio
+
+
+
+# dynasty_fc_karpalo # Karpalo
+
+
+
+# dynasty_fc_ketola # Ketola
+
+
+
+# dynasty_fc_kivela # Kivela
+
+
+
+# dynasty_fc_korpela # Korpela
+
+
+
+# dynasty_fc_korvela # Korvela
+
+
+
+# dynasty_fc_kuurala # Kuurala
+
+
+
+# dynasty_fc_kuurto # Kuurto
+
+
+
+# dynasty_fc_kuusivaara # Kuusivaara
+
+
+
+# dynasty_fc_laakso # Laakso
+
+
+
+# dynasty_fc_lumivaara # Lumivaara
+
+
+
+# dynasty_fc_merituuli # Merituuli
+
+
+
+# dynasty_fc_myrskyla # Myrskyla
+
+
+
+# dynasty_fc_naavala # Naavala
+
+
+
+# dynasty_fc_naskali # Naskali
+
+
+
+# dynasty_fc_niemela # Niemela
+
+
+
+# dynasty_fc_nivala # Nivala
+
+
+
+# dynasty_fc_otava # Otava
+
+
+
+# dynasty_fc_pakkala # Pakkala
+
+
+
+# dynasty_fc_peurala # Peurala
+
+
+
+# dynasty_fc_pihlaja # Pihlaja
+
+
+
+# dynasty_fc_pohjola # Pohjola
+
+
+
+# dynasty_fc_rannikko # Rannikko
+
+
+
+# dynasty_fc_revontuli # Revontuli
+
+
+
+# dynasty_fc_riekkola # Riekkola
+
+
+
+# dynasty_fc_routala # Routala
+
+
+
+# dynasty_fc_routio # Routio
+
+
+
+# dynasty_fc_saarikko # Saarikko
+
+
+
+# dynasty_fc_sampola # Sampola
+
+
+
+# dynasty_fc_sarkela # Sarkela
+
+
+
+# dynasty_fc_siniharju # Siniharju
+
+
+
+# dynasty_fc_sumikka # Sumikka
+
+
+
+# dynasty_fc_suvanto # Suvanto
+
+
+
+# dynasty_fc_talas # Talas
+
+
+
+# dynasty_fc_tuiskula # Tuiskula
+
+
+
+# dynasty_fc_tunturila # Tunturila
+
+
+
+# dynasty_fc_ulvila # Ulvila
+
+
+
+# dynasty_fc_vainio # Vainio
+
+
+
+# dynasty_fc_varpula # Varpula
+
+
+
+# dynasty_fc_vaskela # Vaskela
+
+
+
+# dynasty_fc_vesala # Vesala
+
+
+
+# dynasty_ardanoril # Ardanoril
+
+
+
+# dynasty_berethril # Berethril
+
+
+
+# dynasty_corphen # Corphen
+
+
+
+# dynasty_galenmir # Galenmir
+
+
+
+# dynasty_heorwulf # Heorwulf
+
+
+
+# dynasty_maelvaren # Maelvaren
+
+
+
+# dynasty_naethor # Naethor
+
+
+
+# dynasty_orvath # Orvath
+
+
+
+# dynasty_raudhave # Raudhave
+
+
+
+# dynasty_thalioneth # Thalioneth
+
+
+
+# dynasty_vaelthor # Vaelthor
+
+
+
+# dynasty_nidavellir_barukhan # Barukhan
+dynasty_nidavellir_barukhan={
+	pattern="pattern_solid.dds"
+	color1=rgb { 17 13 13 }
+	color2=arnor_blue
+	color3=moria_blue
+	color4=evil_white_2
+	colored_emblem={
+		color1=evil_white_2
+		color2=red
+		color3=evil_white_2
+		texture="ce_dwarven_hammer_02.dds"
+		instance={
+			position={ 0.500000 0.440000 }
+			scale={ 0.430000 0.430000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_star_16.dds"
+		instance={
+			position={ 0.500000 0.630000 }
+			scale={ 0.300000 0.300000 }
+			depth=3.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=evil_white_2
+		color2=red
+		texture="ce_frame_circle_urnes_runes.dds"
+		instance={
+			position={ 0.500000 0.490000 }
+			depth=4.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=red
+		color2=white
+		texture="ce_iron_hills_02.dds"
+		instance={
+			position={ 0.500000 0.580000 }
+			scale={ 0.970000 0.930000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=red
+		color2=white
+		texture="ce_cc_mountains_08.dds"
+		instance={
+			position={ 0.500000 0.290000 }
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 19 13 13 }
+		color2=moria_grey_blue
+		texture="ce_border_circle_fimbriated.dds"
+		instance={
+			position={ 0.495000 0.485000 }
+			scale={ 0.835000 0.835000 }
+			depth=5.010000
+		}
+
+	}
+
+}
+
+
+# dynasty_nidavellir_gabilan # Gabilan
+dynasty_nidavellir_gabilan={
+	pattern="pattern_solid.dds"
+	color1=rgb { 17 23 29 }
+	color2=evil_metallic_grey_2
+	color3=moria_blue
+	color4=evil_grey_2
+	colored_emblem={
+		color1=white
+		texture="ce_khuzdul_d.dds"
+		instance={
+			position={ 0.665000 0.250000 }
+			scale={ 0.200000 0.200000 }
+			depth=6.010000
+		}
+
+		instance={
+			position={ 0.200000 0.425000 }
+			scale={ 0.200000 0.200000 }
+			depth=8.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 47 74 106 }
+		color2=evil_metallic_grey_2
+		texture="ce_cc_mountains_diag_06.dds"
+		instance={
+			position={ 0.500000 0.550000 }
+			depth=3.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=evil_metallic_grey_2
+		color2=evil_grey_2
+		texture="ce_iron_hills_02.dds"
+		instance={
+			position={ 0.575000 0.665000 }
+			depth=1.010000
+			rotation=315
+		}
+
+		instance={
+			position={ 0.425000 0.665000 }
+			depth=2.010000
+			rotation=45
+		}
+
+	}
+
+	colored_emblem={
+		color1=evil_metallic_grey_2
+		color2=evil_grey_2
+		texture="ce_pattern_diamond_01.dds"
+		instance={
+			position={ 0.500000 0.950000 }
+			scale={ 0.250000 0.250000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 67 16 16 }
+		texture="ce_circle_mask.dds"
+		instance={
+			position={ 0.500000 0.350000 }
+			scale={ 0.350000 0.350000 }
+			depth=4.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_khuzdul_a.dds"
+		instance={
+			position={ 0.800000 0.425000 }
+			scale={ 0.200000 0.200000 }
+			depth=5.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_circle_mask.dds"
+		instance={
+			scale={ 0.900000 0.900000 }
+			depth=10.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=evil_metallic_grey_2
+		color2=moria_blue
+		texture="ce_empty.dds"
+		instance={
+			depth=11.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_khuzdul_h.dds"
+		instance={
+			position={ 0.335000 0.250000 }
+			scale={ 0.200000 0.200000 }
+			depth=7.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=evil_grey_2
+		color2=moria_blue
+		texture="ce_haleth_04.dds"
+		instance={
+			depth=9.010000
+		}
+
+	}
+
+}
+
+
+# dynasty_nidavellir_kharum # Kharum
+
+
+
+# dynasty_nidavellir_kheledan # Kheledan
+
+
+
+# dynasty_nidavellir_tharim # Tharim
+
+
+
+# dynasty_nidavellir_zharakh # Zharakh
+
+
+
+# dynasty_lossidil_celethrim # Celethrim
+
+
+
+# dynasty_lossidil_himrath # Himrath
+
+
+
+# dynasty_lossidil_ithrinn # Ithrinn
+
+
+
+# dynasty_lossidil_morlaith # Morlaith
+
+
+
+# dynasty_lossidil_naereth # Naereth
+
+
+
+# dynasty_lossidil_vaelorn # Vaelorn
+
+
+
+# dynasty_adlantrim_aerendil # Aerendil
+
+
+
+# dynasty_adlantrim_alatinnor # Alatinnor
+
+
+
+# dynasty_adlantrim_almaren # Almaren
+
+
+
+# dynasty_adlantrim_amonvael # Amonvael
+
+
+
+# dynasty_adlantrim_aramath # Aramath
+
+
+
+# dynasty_adlantrim_araneth # Araneth
+
+
+
+# dynasty_adlantrim_artanor # Artanor
+
+
+
+# dynasty_adlantrim_artanvar # Artanvar
+
+
+
+# dynasty_adlantrim_arwenor # Arwenor
+
+
+
+# dynasty_adlantrim_belenthar # Belenthar
+
+
+
+# dynasty_adlantrim_caledorn # Caledorn
+
+
+
+# dynasty_adlantrim_calenvar # Calenvar
+
+
+
+# dynasty_adlantrim_camrath # Camrath
+
+
+
+# dynasty_adlantrim_dailrond # Dailrond
+
+
+
+# dynasty_adlantrim_delyanor # Delyanor
+
+
+
+# dynasty_adlantrim_denethril # Denethril
+
+
+
+# dynasty_adlantrim_dorvael # Dorvael
+
+
+
+# dynasty_adlantrim_drogvael # Drogvael
+
+
+
+# dynasty_adlantrim_edhelrath # Edhelrath
+
+
+
+# dynasty_adlantrim_elenrath # Elenrath
+
+
+
+# dynasty_adlantrim_elenvar # Elenvar
+
+
+
+# dynasty_adlantrim_elroth # Elroth
+
+
+
+# dynasty_adlantrim_emelvar # Emelvar
+
+
+
+# dynasty_adlantrim_erienor # Erienor
+
+
+
+# dynasty_adlantrim_eryndor # Eryndor
+
+
+
+# dynasty_adlantrim_faelorin # Faelorin
+
+
+
+# dynasty_adlantrim_findorath # Findorath
+
+
+
+# dynasty_adlantrim_galadhor # Galadhor
+
+
+
+# dynasty_adlantrim_haldorim # Haldorim
+
+
+
+# dynasty_adlantrim_hithrandir # Hithrandir
+
+
+
+# dynasty_adlantrim_indorion # Indorion
+
+
+
+# dynasty_adlantrim_ithilorn # Ithilorn
+
+
+
+# dynasty_adlantrim_kulurath # Kulurath
+
+
+
+# dynasty_adlantrim_laurendor # Laurendor
+
+
+
+# dynasty_adlantrim_lenweth # Lenweth
+
+
+
+# dynasty_adlantrim_liannar # Liannar
+
+
+
+# dynasty_adlantrim_lothvael # Lothvael
+
+
+
+# dynasty_adlantrim_macaglor # Macaglor
+
+
+
+# dynasty_adlantrim_maerandir # Maerandir
+
+
+
+# dynasty_adlantrim_malvar # Malvar
+
+
+
+# dynasty_adlantrim_mornaer # Mornaer
+
+
+
+# dynasty_adlantrim_mornovar # Mornovar
+
+
+
+# dynasty_adlantrim_naurond # Naurond
+
+
+
+# dynasty_adlantrim_orodhael # Orodhael
+
+
+
+# dynasty_adlantrim_peenor # Peenor
+
+
+
+# dynasty_adlantrim_pujorel # Pujorel
+
+
+
+# dynasty_adlantrim_saelrond # Saelrond
+
+
+
+# dynasty_adlantrim_saerath # Saerath
+
+
+
+# dynasty_adlantrim_shelevor # Shelevor
+
+
+
+# dynasty_adlantrim_slusith # Slusith
+
+
+
+# dynasty_adlantrim_thaliondor # Thaliondor
+
+
+
+# dynasty_adlantrim_vaelith # Vaelith
+
+
+
+# dynasty_adlantrim_yaviren # Yaviren
+
+
+
+# dynasty_erkki # Erkki
+
+
+
+# dynasty_kaarlo # Kaarlo
+
+
+
+# dynasty_veikko # Veikko
+
+
+
+# dynasty_hwenti_hwanaar # Hwanaar
+
+
+
+# dynasty_hwenti_hweneth # Hweneth
+
+
+
+# dynasty_hwenti_hwerin # Hwerin
+
+
+
+# dynasty_hwenti_kuiren # Kuiren
+
+
+
+# dynasty_hwenti_kwendir # Kwendir
+
+
+
+# dynasty_hwenti_lethwin # Lethwin
+
+
+
+# dynasty_hwenti_nauriva # Nauriva
+
+
+
+# dynasty_hwenti_orelwi # Orelwi
+
+
+
+# dynasty_hwenti_sailen # Sailen
+
+
+
+# dynasty_hwenti_vairanta # Vairanta
+
+
+
+# dynasty_hwenti_velenwi # Velenwi
+
+
+
+# dynasty_windan_aelvar # Aelvar
+
+
+
+# dynasty_windan_aereth # Aereth
+
+
+
+# dynasty_windan_calenth # Calenth
+
+
+
+# dynasty_windan_elvar # Elvar
+
+
+
+# dynasty_windan_faelor # Faelor
+
+
+
+# dynasty_windan_galath # Galath
+
+
+
+# dynasty_windan_maerwen # Maerwen
+
+
+
+# dynasty_windan_mirath # Mirath
+
+
+
+# dynasty_windan_neldarin # Neldarin
+
+
+
+# dynasty_windan_nethrin # Nethrin
+
+
+
+# dynasty_windan_ornaeth # Ornaeth
+
+
+
+# dynasty_windan_rindor # Rindor
+
+
+
+# dynasty_windan_saelith # Saelith
+
+
+
+# dynasty_windan_sairavel # Sairavel
+
+
+
+# dynasty_windan_sulvar # Sulvar
+
+
+
+# dynasty_windan_thalorn # Thalorn
+
+
+
+# dynasty_windan_varath # Varath
+
+
+
+# dynasty_umli_andvari # Andvari
+
+
+
+# dynasty_umli_brokkr # Brokkr
+
+
+
+# dynasty_umli_dvalin # Dvalin
+
+
+
+# dynasty_umli_motsognir # Motsognir
+
+
+
+# dynasty_umli_nori # Nori
+
+
+
+# dynasty_gauredain_waithor # Waithor

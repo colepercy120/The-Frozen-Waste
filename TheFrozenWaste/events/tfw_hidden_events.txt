@@ -7,35 +7,7 @@ tfw.1 = { # integrate the southern provinces
 	
 	immediate = {
 		
-		title:k_forochel = {
-			set_de_jure_liege_title = title:e_annuvorodwaith
-		}
-		title:k_grey_foothills = {
-			set_de_jure_liege_title = title:e_iron_mountains
-		}
-		title:k_angmar = {
-			set_de_jure_liege_title = title:e_annuvorodwaith
-		}
-		
-		title:k_emyn_nimbrith = {
-			set_de_jure_liege_title = title:e_misty_mountains
-		}
-		title:d_foryagsh = {
-			set_de_jure_liege_title = title:k_emyn_nimbrith
-		}
-		title:d_haryagsh = {
-			set_de_jure_liege_title = title:k_emyn_nimbrith
-		}
-		title:d_kanelemas = {
-			every_de_jure_county = {
-				limit = {
-					any_county_province = {
-						terrain = halls
-					}
-				}
-				set_de_jure_liege_title = title:d_emyn_nimbrith
-			}
-		}
+		tfw_history_start = yes
 		
 		every_county_in_region = {
 			region = middleearth_forodwaith
@@ -131,11 +103,7 @@ tfw.1 = { # integrate the southern provinces
 		#	}
 		#}
 		
-		### Age Fixing
-		
-		character:rhiv_original_01 = {
-			set_immortal_age = 20
-		}
+		tfw_age_fixing = yes
 		
 		### Buggy history fix
 		every_county_in_region = {
@@ -150,6 +118,13 @@ tfw.1 = { # integrate the southern provinces
 			}
 			set_county_culture = holder.culture
 			set_county_faith = holder.faith
+		}
+		
+		tfw_special_building_start = yes
+		tfw_elven_homelands_start = yes
+		
+		start_situation = {
+			type = frozen_waste	
 		}
 	}
 }

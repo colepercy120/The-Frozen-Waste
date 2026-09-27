@@ -91,11 +91,40 @@ l_english:
  gauredain_history_loc: "the origional inhabitants of [angmar|e], driven into the wastes by the [witchking|e]"
  gauredain_desc: "Temp"
  
- ### Faiths
+ ### Situations
  
+ elven_hope_situation_sub_region_forodwaith: "Forodwaith"
+ elven_hope_situation_sub_region_forodwaith_desc: "$SITUATION_SUB_REGION_TOOLTIP_DESC$\n\n#weak The Frozen North has long been host to [elves|e] dating clear back to the [elderdays|e]. their realms while not as grand as those to the south have endured and unlike much of the [eldar|e] have even thrived far away from the troubles of warmer climes.#!"
+ DISPLAY_CURRENT_FORODWAITH_HOPE_VALUE: "$elven_hope_situation_sub_region_forodwaith$ (#high [Situation.GetSubRegionByKey( 'forodwaith' ).MakeScope.Var('forodwaith_hope_value').GetValue]#! [hope|E])" 
+ 
+ situation_frozen_waste: "The Frozen Waste"
+ situation_frozen_waste_desc: "The Shattered land of [forodwaith|e] once played host to the First Dark Lord, [morgothcharacter|e] and his great fortresses. The Dark Lord may be gone, but his taint lays on the land even mellenia later. The region has remained unnaturally cold and barren ever since the [warofwrath|e]. Some blame this on the lingering shadow, others blame the [witchking|e] and [sauroncharacter|e] while still others speak of the [ladyofcold|e]..."
+ eternal_winter_desc: "- [GetScriptedCharacterByHistoryID('tfw_lineofnixni_001').GetFirstName] Has been Expelled from the [GetTitleByKey('k_angband').GetName]\n- Angband has been Cleansed\n- Frostwood has been healed\n- Helecthil is not in evil hands"
+ frozen_waste_eternal_winter_situation_phase: "Eternal Winter"
+ eternal_winter_effects: "Eternal Winter Effects"
+ eternal_winter_effects_concept: "Eternal Winter Effects"
+ frozen_waste_participant_group_affected_ruler: "Affected Ruler"
+ frozen_waste_participant_group_affected_ruler_desc: "Affected Ruler"
+ frozen_waste_participant_group_winter_queen: "The Winter Queen"
+ frozen_waste_participant_group_winter_queen_desc: "The Winter Queen"
+ frozen_waste_affected_ruler: "Affected Ruler"
+ frozen_waste_winter_queen: "Winter Queen"
+ 
+ JOURNAL_ENTRY_PROGRESS: "Progress to Completion: [Situation.MakeScope.Var('progress_points').GetValue]%"
+ JOURNAL_ENTRY_COMPLETION_REQUIREMENTS: "Completion Requirements"
  
  ### MISC
  
   
- ### Epidemics 
+ ### Great Projects 
  
+ great_project_type_angband_durnost_upgrade: "Restore Dread Fortress"
+ great_project_type_angband_durnost_upgrade_desc: "The north is dotted with Dread Fortresses of the [elderdays|e] with the right investment and effort these Fortifications can be restored to their ancient glory"
+ great_project_type_angband_durnost_upgrade_valid_location_tt: "This province must contain an upgradeable level of #high Angband#! or #high Durnost#!."
+ great_project_type_angband_durnost_construct_building_tt: "The fortress will be expanded to its next level."
+ great_project_type_angband_durnost_upgrade_stonework: "Massive Stoneworks"
+ great_project_type_angband_durnost_upgrade_stonework_desc: "Quarry, shape, and transport the immense quantities of stone required to enlarge the fortress."
+ great_project_type_angband_durnost_upgrade_fortifications: "Strengthen the Fortifications"
+ great_project_type_angband_durnost_upgrade_fortifications_desc: "Raise new walls, gates, towers, and defensive works around the growing stronghold."
+ great_project_type_angband_durnost_upgrade_work_force: "Muster the Workforce"
+ great_project_type_angband_durnost_upgrade_work_force_desc: "Gather the laborers, craftsmen, engineers, and overseers required for construction on this scale."

@@ -1,0 +1,27 @@
+﻿ ### LotR: This file needs to be kept in sync with the release version.
+ 
+ ### Edited the dates
+ 
+ ### Edited the loading screen text
+ 
+l_english:
+
+ tfw_situation.0001.t: "Angband Cleansed"
+ tfw_situation.0001.desc: "Angband Stands Shattered! The Ancient Taint of [melkorcharacter|e] has been cast off and the tunnels cleansed of evil! The shadow it has left on the world might remain, but at long last the world may finally start healing."
+ tfw_situation.0001.a: "The long shadow recedes."
+
+ tfw_situation.0002.t: "Frostwood Healed"
+ tfw_situation.0002.desc: "The long labor of restoration has borne fruit. The wounds of Frostwood have begun to close, and life once again spreads through places long left barren and broken.\n\nAncient groves stir beneath the cold sky, roots reclaim scarred earth, and the Ice that has clung to the trees since the [elderdays|e] has finally began to melt. Frostwood will never be precisely what it once was, but it lives."
+ tfw_situation.0002.a: "Let the forest flourish."
+ 
+ tfw_situation.0003.t: "A Frozen Miracle"
+ tfw_situation.0003.desc: "A miracle has occured! [tareg|e], the leader of our host has survived being frozen in Ice! for the last 7000 years frozen he has lain frozen in the eternal ice of the [ladyofcold|e]. but as the ice finally began to melt we were amazed to find him still alive. \n\nWhile his body is wounded and covered in frostbite it is not yet broken and our great leader has once again taken control of the [avarielves|e] of the Frostwood"
+ tfw_situation.0003.a: "Hail the Return of the King (play as Tareg)"
+ tfw_situation.0003.b: "Hail the Return of the King"
+ tfw_situation.0003.c: "We stand independent"
+ 
+ tfw_situation.0005.t: "Spring At Last!" 
+ tfw_situation.0005.desc: "Sping has finally come to [forodwaith|e]. the eternal winter of the [snowqueen|e] is finally over. for the first time in over 6000 years a far north will have a summer. \n\n All across the region the people are rejoicing, herds are growing and the spirits of cold are retreating. while the north will never be a warm place, it is no longer hostile. Spring has come at last"
+ tfw_situation.0005.a: "To a New Age!"
+ 
+ 

@@ -1,0 +1,1187 @@
+﻿# TFW Northern Cultural Men-at-Arms
+# Balance references: Arnor/Gondor, Vale/Woodmen, Grey Elves, and standard LOTR cultural MAA.
+
+@cultural_maa_extra_ai_score = 60
+@provisions_cost_infantry_cheap = 3
+@provisions_cost_infantry_moderate = 7
+@provisions_cost_infantry_expensive = 12
+@provisions_cost_cavalry_cheap = 7
+@provisions_cost_cavalry_moderate = 15
+@provisions_cost_cavalry_expensive = 21
+@provisions_cost_special_moderate = 12
+
+############################
+# FORODAIN
+############################
+
+forodain_huscarls = {
+	type = heavy_infantry
+	access_through_subject = { lotr_orc_can_recruit_from_subject = no }
+	can_recruit = {
+		OR = {
+			culture = { has_innovation = innovation_forodain_warfare }
+			AND = {
+				is_human = yes
+				is_landless_adventurer = yes
+				has_perk = planned_cultivation_perk
+				location.culture ?= { has_innovation = innovation_forodain_warfare }
+			}
+		}
+		NOT = { culture = { has_cultural_parameter = strength_in_numbers_heavy_maa_ban } }
+	}
+	damage = 42
+	toughness = 42
+	pursuit = 10
+	screen = 20
+	counters = {
+		pikemen = 1
+		peasant_militia = 2
+	}
+	terrain_bonus = {
+		hills = { damage = 8 toughness = 8 screen = 3 }
+		taiga = { damage = 8 toughness = 8 screen = 3 }
+	
+		arctic = { damage = 10 toughness = 10 screen = 4 }
+	}
+	buy_cost = { gold = 120 }
+	low_maintenance_cost = { gold = 0.50 }
+	high_maintenance_cost = { gold = 1.50 }
+	provision_cost = @provisions_cost_infantry_expensive
+	stack = 100
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+	icon = varangian_veterans
+	allowed_in_hired_troops = no
+}
+
+forodain_longbowmen = {
+	type = archers
+	access_through_subject = { lotr_orc_can_recruit_from_subject = no }
+	can_recruit = {
+		OR = {
+			culture = { has_innovation = innovation_forodain_warfare }
+			AND = {
+				is_human = yes
+				is_landless_adventurer = yes
+				has_perk = planned_cultivation_perk
+				location.culture ?= { has_innovation = innovation_forodain_warfare }
+			}
+		}
+	}
+	damage = 44
+	toughness = 22
+	pursuit = 10
+	screen = 10
+	counters = {
+		skirmishers = 1
+		heavy_infantry = 0.5
+	}
+	terrain_bonus = {
+		hills = { damage = 12 toughness = 5 }
+		taiga = { damage = 14 toughness = 6 screen = 4 }
+		forest = { damage = 10 toughness = 5 screen = 3 }
+	
+		arctic = { damage = 12 toughness = 6 screen = 3 }
+	}
+	buy_cost = { gold = 105 }
+	low_maintenance_cost = { gold = 0.38 }
+	high_maintenance_cost = { gold = 1.15 }
+	provision_cost = @provisions_cost_infantry_moderate
+	stack = 100
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+	icon = arnorian_bowmen
+	allowed_in_hired_troops = no
+}
+
+forodain_shieldwall = {
+	type = pikemen
+	access_through_subject = { lotr_orc_can_recruit_from_subject = no }
+	can_recruit = {
+		OR = {
+			culture = { has_innovation = innovation_forodain_warfare }
+			AND = {
+				is_human = yes
+				is_landless_adventurer = yes
+				has_perk = planned_cultivation_perk
+				location.culture ?= { has_innovation = innovation_forodain_warfare }
+			}
+		}
+	}
+	damage = 30
+	toughness = 46
+	pursuit = 5
+	screen = 25
+	counters = {
+		light_cavalry = 1
+		heavy_cavalry = 1
+		camel_cavalry = 0.5
+	}
+	terrain_bonus = {
+		hills = { damage = 5 toughness = 10 screen = 4 }
+		taiga = { damage = 5 toughness = 10 screen = 4 }
+	
+		arctic = { damage = 8 toughness = 12 screen = 5 }
+	}
+	buy_cost = { gold = 112 }
+	low_maintenance_cost = { gold = 0.44 }
+	high_maintenance_cost = { gold = 1.32 }
+	provision_cost = @provisions_cost_infantry_moderate
+	stack = 100
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+	icon = arnorian_soldiers
+	allowed_in_hired_troops = no
+}
+
+forodain_raiders = {
+	type = skirmishers
+	access_through_subject = { lotr_orc_can_recruit_from_subject = no }
+	can_recruit = {
+		OR = {
+			culture = { has_innovation = innovation_forodain_warfare }
+			AND = {
+				is_human = yes
+				is_landless_adventurer = yes
+				has_perk = planned_cultivation_perk
+				location.culture ?= { has_innovation = innovation_forodain_warfare }
+			}
+		}
+	}
+	damage = 30
+	toughness = 24
+	pursuit = 30
+	screen = 35
+	counters = {
+		heavy_infantry = 1
+		archer_cavalry = 0.5
+	}
+	terrain_bonus = {
+		wetlands = { damage = 6 toughness = 5 pursuit = 8 screen = 8 }
+		taiga = { damage = 8 toughness = 6 pursuit = 8 screen = 8 }
+	
+		arctic = { damage = 8 toughness = 8 pursuit = 12 screen = 12 }
+	}
+	buy_cost = { gold = 82 }
+	low_maintenance_cost = { gold = 0.28 }
+	high_maintenance_cost = { gold = 0.84 }
+	provision_cost = @provisions_cost_infantry_cheap
+	stack = 100
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+	icon = bondi
+	allowed_in_hired_troops = no
+}
+
+############################
+# NORTHERN ORCS
+# Shared by Angband Orcs and Snow Orcs
+############################
+
+northern_orc_reavers = {
+	type = heavy_infantry
+	can_recruit = { culture = { has_innovation = innovation_northern_orc_warfare } }
+	damage = 34
+	toughness = 28
+	pursuit = 10
+	screen = 10
+	counters = {
+		pikemen = 1
+		peasant_militia = 2
+	}
+	terrain_bonus = {
+		mountains = { damage = 7 toughness = 6 }
+		hills = { damage = 5 toughness = 4 }
+	
+		arctic = { damage = 6 toughness = 6 }
+	}
+	buy_cost = { gold = 88 }
+	low_maintenance_cost = { gold = 0.35 }
+	high_maintenance_cost = { gold = 1.05 }
+	provision_cost = @provisions_cost_infantry_moderate
+	stack = 100
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+	icon = varangian_veterans
+}
+
+northern_orc_archers = {
+	type = archers
+	can_recruit = { culture = { has_innovation = innovation_northern_orc_warfare } }
+	damage = 28
+	toughness = 18
+	pursuit = 5
+	screen = 5
+	counters = {
+		skirmishers = 1
+	}
+	terrain_bonus = {
+		mountains = { damage = 6 }
+		hills = { damage = 8 toughness = 3 }
+	
+		arctic = { damage = 5 toughness = 3 }
+	}
+	buy_cost = { gold = 65 }
+	low_maintenance_cost = { gold = 0.22 }
+	high_maintenance_cost = { gold = 0.66 }
+	provision_cost = @provisions_cost_infantry_cheap
+	stack = 100
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+	icon = arnorian_bowmen
+}
+
+northern_orc_spears = {
+	type = pikemen
+	can_recruit = { culture = { has_innovation = innovation_northern_orc_warfare } }
+	damage = 24
+	toughness = 32
+	pursuit = 0
+	screen = 15
+	counters = {
+		light_cavalry = 1
+		heavy_cavalry = 1
+		monster = 0.5
+	}
+	terrain_bonus = {
+		mountains = { damage = 5 toughness = 8 screen = 3 }
+		hills = { damage = 4 toughness = 6 screen = 2 }
+	
+		arctic = { damage = 4 toughness = 6 }
+	}
+	buy_cost = { gold = 72 }
+	low_maintenance_cost = { gold = 0.26 }
+	high_maintenance_cost = { gold = 0.78 }
+	provision_cost = @provisions_cost_infantry_moderate
+	stack = 100
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+	icon = arnorian_soldiers
+}
+
+northern_orc_trackers = {
+	type = skirmishers
+	can_recruit = { culture = { has_innovation = innovation_northern_orc_warfare } }
+	damage = 20
+	toughness = 20
+	pursuit = 30
+	screen = 25
+	counters = {
+		heavy_infantry = 1
+	}
+	terrain_bonus = {
+		taiga = { damage = 6 toughness = 6 pursuit = 8 screen = 8 }
+		forest = { damage = 5 toughness = 5 pursuit = 6 screen = 6 }
+		mountains = { pursuit = 8 screen = 8 }
+	
+		arctic = { damage = 6 toughness = 6 pursuit = 12 screen = 12 }
+	}
+	buy_cost = { gold = 52 }
+	low_maintenance_cost = { gold = 0.18 }
+	high_maintenance_cost = { gold = 0.54 }
+	provision_cost = @provisions_cost_infantry_cheap
+	stack = 100
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+	icon = woodmen_widulingas
+}
+
+northern_orc_warg_riders = {
+	type = light_cavalry
+	can_recruit = { culture = { has_innovation = innovation_northern_orc_warfare } }
+	damage = 40
+	toughness = 24
+	pursuit = 50
+	screen = 35
+	counters = {
+		archers = 1
+		skirmishers = 1
+	}
+	terrain_bonus = {
+		hills = { damage = 6 toughness = 4 pursuit = 8 }
+		taiga = { damage = 6 toughness = 4 pursuit = 10 screen = 5 }
+	
+		arctic = { damage = 6 toughness = 6 pursuit = 10 }
+	}
+	buy_cost = { gold = 95 }
+	low_maintenance_cost = { gold = 0.36 }
+	high_maintenance_cost = { gold = 1.08 }
+	provision_cost = @provisions_cost_cavalry_moderate
+	stack = 50
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+	icon = arnorian_cavalry
+}
+
+############################
+# LOSSIDIL / SNOW ELVES
+# Full elven strength, 50-man stacks.
+############################
+
+lossidil_frostguard = {
+	type = heavy_infantry
+	access_through_subject = { lotr_orc_can_recruit_from_subject = no }
+	can_recruit = { culture = { has_innovation = innovation_lossidil_warfare } }
+	damage = 135
+	toughness = 120
+	pursuit = 10
+	screen = 30
+	counters = {
+		pikemen = 1
+		monster = 1
+		peasant_militia = 2
+	}
+	terrain_bonus = {
+		taiga = { damage = 30 toughness = 30 screen = 8 }
+		mountains = { damage = 25 toughness = 30 screen = 8 }
+		hills = { damage = 18 toughness = 20 screen = 5 }
+	
+		arctic = { damage = 45 toughness = 45 screen = 12 }
+	}
+	buy_cost = { gold = 275 }
+	low_maintenance_cost = { gold = 0.50 }
+	high_maintenance_cost = { gold = 1.50 }
+	provision_cost = @provisions_cost_infantry_moderate
+	stack = 50
+	ai_quality = { value = 200 }
+	icon = grey_elven_heavy_infantry
+	allowed_in_hired_troops = no
+}
+
+lossidil_icebowmen = {
+	type = archers
+	access_through_subject = { lotr_orc_can_recruit_from_subject = no }
+	can_recruit = { culture = { has_innovation = innovation_lossidil_warfare } }
+	damage = 150
+	toughness = 72
+	pursuit = 25
+	screen = 10
+	counters = {
+		skirmishers = 1.5
+		pikemen = 1
+		elephant_cavalry = 1
+	}
+	terrain_bonus = {
+		taiga = { damage = 40 toughness = 22 pursuit = 8 screen = 5 }
+		mountains = { damage = 35 toughness = 20 pursuit = 6 }
+		hills = { damage = 22 toughness = 12 pursuit = 4 }
+	
+		arctic = { damage = 50 toughness = 25 pursuit = 10 screen = 5 }
+	}
+	buy_cost = { gold = 245 }
+	low_maintenance_cost = { gold = 0.46 }
+	high_maintenance_cost = { gold = 1.38 }
+	provision_cost = @provisions_cost_infantry_moderate
+	stack = 50
+	ai_quality = { value = 200 }
+	icon = grey_elven_archers
+	allowed_in_hired_troops = no
+}
+
+lossidil_snow_spears = {
+	type = pikemen
+	access_through_subject = { lotr_orc_can_recruit_from_subject = no }
+	can_recruit = { culture = { has_innovation = innovation_lossidil_warfare } }
+	damage = 110
+	toughness = 140
+	pursuit = 0
+	screen = 45
+	counters = {
+		light_cavalry = 1
+		heavy_cavalry = 1
+		elephant_cavalry = 1
+		camel_cavalry = 1
+	}
+	terrain_bonus = {
+		taiga = { damage = 28 toughness = 35 screen = 10 }
+		mountains = { damage = 28 toughness = 35 screen = 10 }
+		hills = { damage = 16 toughness = 20 screen = 6 }
+	
+		arctic = { damage = 42 toughness = 50 screen = 15 }
+	}
+	buy_cost = { gold = 255 }
+	low_maintenance_cost = { gold = 0.48 }
+	high_maintenance_cost = { gold = 1.44 }
+	provision_cost = @provisions_cost_infantry_moderate
+	stack = 50
+	ai_quality = { value = 200 }
+	icon = grey_elven_pikemen
+	allowed_in_hired_troops = no
+}
+
+lossidil_frost_riders = {
+	type = light_cavalry
+	access_through_subject = { lotr_orc_can_recruit_from_subject = no }
+	can_recruit = { culture = { has_innovation = innovation_lossidil_warfare } }
+	damage = 110
+	toughness = 78
+	pursuit = 100
+	screen = 50
+	counters = {
+		heavy_infantry = 1
+		archers = 1
+		monster = 1
+	}
+	terrain_bonus = {
+		taiga = { damage = 25 toughness = 18 pursuit = 25 screen = 12 }
+		hills = { damage = 15 toughness = 10 pursuit = 15 screen = 8 }
+		wetlands = { damage = -20 toughness = -15 pursuit = -15 screen = -8 }
+	
+		arctic = { damage = 30 toughness = 22 pursuit = 30 screen = 15 }
+	}
+	buy_cost = { gold = 260 }
+	low_maintenance_cost = { gold = 0.52 }
+	high_maintenance_cost = { gold = 1.56 }
+	provision_cost = @provisions_cost_cavalry_moderate
+	stack = 50
+	ai_quality = { value = 200 }
+	icon = grey_elven_light_cavalry
+	allowed_in_hired_troops = no
+}
+
+############################
+# UMLI
+############################
+
+umli_ironwardens = {
+	type = heavy_infantry
+	access_through_subject = { lotr_orc_can_recruit_from_subject = no }
+	can_recruit = { culture = { has_innovation = innovation_umli_warfare } }
+	damage = 44
+	toughness = 48
+	pursuit = 0
+	screen = 20
+	counters = {
+		pikemen = 1
+		peasant_militia = 2
+	}
+	terrain_bonus = {
+		mountains = { damage = 10 toughness = 14 screen = 4 }
+		hills = { damage = 7 toughness = 10 screen = 3 }
+		halls = { damage = 10 toughness = 14 screen = 4 }
+	
+		arctic = { damage = 5 toughness = 8 }
+	}
+	buy_cost = { gold = 125 }
+	low_maintenance_cost = { gold = 0.52 }
+	high_maintenance_cost = { gold = 1.56 }
+	provision_cost = @provisions_cost_infantry_expensive
+	stack = 100
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+	icon = wardens_of_annuminas
+	allowed_in_hired_troops = no
+}
+
+umli_crossbowmen = {
+	type = archers
+	access_through_subject = { lotr_orc_can_recruit_from_subject = no }
+	can_recruit = { culture = { has_innovation = innovation_umli_warfare } }
+	damage = 46
+	toughness = 24
+	pursuit = 0
+	screen = 5
+	counters = {
+		heavy_infantry = 1
+		heavy_cavalry = 0.5
+	}
+	terrain_bonus = {
+		mountains = { damage = 12 toughness = 6 }
+		hills = { damage = 9 toughness = 5 }
+		halls = { damage = 12 toughness = 6 }
+	
+		arctic = { damage = 6 toughness = 4 }
+	}
+	buy_cost = { gold = 112 }
+	low_maintenance_cost = { gold = 0.40 }
+	high_maintenance_cost = { gold = 1.20 }
+	provision_cost = @provisions_cost_infantry_expensive
+	stack = 100
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+	icon = arnorian_bowmen
+	allowed_in_hired_troops = no
+}
+
+umli_deep_pikes = {
+	type = pikemen
+	access_through_subject = { lotr_orc_can_recruit_from_subject = no }
+	can_recruit = { culture = { has_innovation = innovation_umli_warfare } }
+	damage = 32
+	toughness = 54
+	pursuit = 0
+	screen = 30
+	counters = {
+		light_cavalry = 1
+		heavy_cavalry = 1
+		monster = 1
+	}
+	terrain_bonus = {
+		mountains = { damage = 8 toughness = 16 screen = 5 }
+		hills = { damage = 5 toughness = 10 screen = 3 }
+		halls = { damage = 10 toughness = 18 screen = 6 }
+	
+		arctic = { toughness = 8 screen = 3 }
+	}
+	buy_cost = { gold = 118 }
+	low_maintenance_cost = { gold = 0.46 }
+	high_maintenance_cost = { gold = 1.38 }
+	provision_cost = @provisions_cost_infantry_moderate
+	stack = 100
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+	icon = arnorian_soldiers
+	allowed_in_hired_troops = no
+}
+
+umli_axe_scouts = {
+	type = skirmishers
+	access_through_subject = { lotr_orc_can_recruit_from_subject = no }
+	can_recruit = { culture = { has_innovation = innovation_umli_warfare } }
+	damage = 30
+	toughness = 30
+	pursuit = 20
+	screen = 30
+	counters = {
+		heavy_infantry = 1
+	}
+	terrain_bonus = {
+		mountains = { damage = 8 toughness = 8 pursuit = 5 screen = 5 }
+		hills = { damage = 6 toughness = 6 pursuit = 5 screen = 5 }
+		halls = { damage = 8 toughness = 8 screen = 8 }
+	
+		arctic = { damage = 6 toughness = 6 screen = 4 }
+	}
+	buy_cost = { gold = 82 }
+	low_maintenance_cost = { gold = 0.29 }
+	high_maintenance_cost = { gold = 0.87 }
+	provision_cost = @provisions_cost_infantry_cheap
+	stack = 100
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+	icon = varangian_veterans
+	allowed_in_hired_troops = no
+}
+
+############################
+# GAUREDAIN
+############################
+
+gauredain_huntsmen = {
+	type = archers
+	access_through_subject = { lotr_orc_can_recruit_from_subject = no }
+	can_recruit = { culture = { has_innovation = innovation_gauredain_warfare } }
+	damage = 31
+	toughness = 16
+	pursuit = 10
+	screen = 10
+	counters = { skirmishers = 1.5 }
+	terrain_bonus = {
+		forest = { damage = 7 toughness = 18 screen = 25 }
+		taiga = { damage = 7 toughness = 18 screen = 25 }
+		deep_forest = { damage = 7 toughness = 18 screen = 25 }
+		hills = { damage = 6 toughness = 6 }
+	
+		arctic = { damage = 5 toughness = 7 pursuit = 15 }
+	}
+	buy_cost = { gold = 68 }
+	low_maintenance_cost = { gold = 0.23 }
+	high_maintenance_cost = { gold = 0.69 }
+	provision_cost = @provisions_cost_infantry_moderate
+	stack = 100
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+	icon = woodmen_huntsmen
+	allowed_in_hired_troops = no
+}
+
+gauredain_wildspears = {
+	type = pikemen
+	access_through_subject = { lotr_orc_can_recruit_from_subject = no }
+	can_recruit = { culture = { has_innovation = innovation_gauredain_warfare } }
+	damage = 24
+	toughness = 31
+	pursuit = 10
+	screen = 5
+	counters = {
+		light_cavalry = 1
+		heavy_cavalry = 1
+		monster = 1
+	}
+	terrain_bonus = {
+		hills = { damage = 10 toughness = 13 pursuit = 3 }
+		mountains = { damage = 8 toughness = 10 pursuit = 2 }
+		forest = { toughness = 8 }
+	
+		arctic = { damage = 6 toughness = 7 pursuit = 2 }
+	}
+	buy_cost = { gold = 58 }
+	low_maintenance_cost = { gold = 0.19 }
+	high_maintenance_cost = { gold = 0.57 }
+	provision_cost = @provisions_cost_infantry_moderate
+	stack = 100
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+	icon = bondi
+	allowed_in_hired_troops = no
+}
+
+gauredain_wildlings = {
+	type = skirmishers
+	access_through_subject = { lotr_orc_can_recruit_from_subject = no }
+	can_recruit = { culture = { has_innovation = innovation_gauredain_warfare } }
+	damage = 27
+	toughness = 16
+	pursuit = 15
+	screen = 15
+	counters = {
+		pikemen = 1
+		heavy_infantry = 1
+	}
+	terrain_bonus = {
+		forest = { damage = 12 toughness = 8 screen = 24 }
+		taiga = { damage = 12 toughness = 8 screen = 24 }
+		deep_forest = { damage = 12 toughness = 8 screen = 24 }
+		hills = { damage = 6 toughness = 4 screen = 8 }
+	
+		arctic = { damage = 6 toughness = 6 pursuit = 5 }
+	}
+	buy_cost = { gold = 76 }
+	low_maintenance_cost = { gold = 0.25 }
+	high_maintenance_cost = { gold = 0.75 }
+	provision_cost = @provisions_cost_infantry_moderate
+	stack = 100
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+	icon = varangian_veterans
+	allowed_in_hired_troops = no
+}
+
+gauredain_wolf_skinchangers = {
+	type = skirmishers
+	access_through_subject = { lotr_orc_can_recruit_from_subject = no }
+	can_recruit = { culture = { has_innovation = innovation_gauredain_warfare } }
+
+	damage = 42
+	toughness = 30
+	pursuit = 45
+	screen = 40
+
+	counters = {
+		heavy_infantry = 1.5
+		pikemen = 0.5
+		archer_cavalry = 0.5
+	}
+
+	terrain_bonus = {
+		forest = { damage = 14 toughness = 10 pursuit = 15 screen = 15 }
+		taiga = { damage = 14 toughness = 10 pursuit = 15 screen = 15 }
+		deep_forest = { damage = 18 toughness = 12 pursuit = 20 screen = 20 }
+		hills = { damage = 8 toughness = 6 pursuit = 10 screen = 10 }
+		mountains = { damage = 6 toughness = 6 pursuit = 8 screen = 8 }
+	
+		arctic = { damage = 12 toughness = 8 pursuit = 15 screen = 15 }
+	}
+
+	winter_bonus = {
+		normal_winter = { damage = 8 toughness = 6 pursuit = 10 screen = 10 }
+		harsh_winter = { damage = 12 toughness = 8 pursuit = 15 screen = 15 }
+	}
+
+	buy_cost = { gold = 105 }
+	low_maintenance_cost = { gold = 0.36 }
+	high_maintenance_cost = { gold = 1.08 }
+	provision_cost = @provisions_cost_infantry_moderate
+
+	stack = 100
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+	icon = varangian_veterans
+	allowed_in_hired_troops = no
+}
+
+############################
+# ADLANTRIM
+# Elven-derived doctrine, but intentionally much weaker than true elves.
+############################
+
+adlantrim_blades = {
+	type = heavy_infantry
+	access_through_subject = { lotr_orc_can_recruit_from_subject = no }
+	can_recruit = { culture = { has_innovation = innovation_adlantrim_warfare } }
+	damage = 45
+	toughness = 38
+	pursuit = 10
+	screen = 20
+	counters = {
+		pikemen = 1
+		peasant_militia = 2
+	}
+	terrain_bonus = {
+		mountains = { damage = 9 toughness = 8 }
+		taiga = { damage = 8 toughness = 8 screen = 3 }
+	
+		arctic = { damage = 8 toughness = 8 }
+	}
+	buy_cost = { gold = 118 }
+	low_maintenance_cost = { gold = 0.48 }
+	high_maintenance_cost = { gold = 1.44 }
+	provision_cost = @provisions_cost_infantry_expensive
+	stack = 100
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+	icon = grey_elven_heavy_infantry
+	allowed_in_hired_troops = no
+}
+
+adlantrim_archers = {
+	type = archers
+	access_through_subject = { lotr_orc_can_recruit_from_subject = no }
+	can_recruit = { culture = { has_innovation = innovation_adlantrim_warfare } }
+	damage = 47
+	toughness = 22
+	pursuit = 10
+	screen = 5
+	counters = {
+		skirmishers = 1
+		heavy_infantry = 0.5
+	}
+	terrain_bonus = {
+		taiga = { damage = 12 toughness = 6 screen = 4 }
+		forest = { damage = 12 toughness = 6 screen = 4 }
+		hills = { damage = 8 toughness = 4 }
+	
+		arctic = { damage = 9 toughness = 5 }
+	}
+	buy_cost = { gold = 108 }
+	low_maintenance_cost = { gold = 0.39 }
+	high_maintenance_cost = { gold = 1.17 }
+	provision_cost = @provisions_cost_infantry_moderate
+	stack = 100
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+	icon = grey_elven_archers
+	allowed_in_hired_troops = no
+}
+
+adlantrim_spears = {
+	type = pikemen
+	access_through_subject = { lotr_orc_can_recruit_from_subject = no }
+	can_recruit = { culture = { has_innovation = innovation_adlantrim_warfare } }
+	damage = 32
+	toughness = 44
+	pursuit = 0
+	screen = 25
+	counters = {
+		light_cavalry = 1
+		heavy_cavalry = 1
+		camel_cavalry = 0.5
+	}
+	terrain_bonus = {
+		mountains = { damage = 7 toughness = 10 screen = 3 }
+		taiga = { damage = 6 toughness = 9 screen = 3 }
+		hills = { damage = 5 toughness = 7 screen = 2 }
+	
+		arctic = { damage = 5 toughness = 9 screen = 3 }
+	}
+	buy_cost = { gold = 112 }
+	low_maintenance_cost = { gold = 0.44 }
+	high_maintenance_cost = { gold = 1.32 }
+	provision_cost = @provisions_cost_infantry_moderate
+	stack = 100
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+	icon = grey_elven_pikemen
+	allowed_in_hired_troops = no
+}
+
+adlantrim_scouts = {
+	type = skirmishers
+	access_through_subject = { lotr_orc_can_recruit_from_subject = no }
+	can_recruit = { culture = { has_innovation = innovation_adlantrim_warfare } }
+	damage = 29
+	toughness = 28
+	pursuit = 30
+	screen = 30
+	counters = {
+		heavy_infantry = 1
+		archer_cavalry = 0.5
+	}
+	terrain_bonus = {
+		taiga = { damage = 8 toughness = 8 pursuit = 8 screen = 8 }
+		forest = { damage = 8 toughness = 8 pursuit = 8 screen = 8 }
+		mountains = { damage = 5 toughness = 5 pursuit = 5 screen = 5 }
+	
+		arctic = { damage = 8 toughness = 8 pursuit = 8 screen = 8 }
+	}
+	buy_cost = { gold = 86 }
+	low_maintenance_cost = { gold = 0.30 }
+	high_maintenance_cost = { gold = 0.90 }
+	provision_cost = @provisions_cost_infantry_cheap
+	stack = 100
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+	icon = grey_elven_skirmishers
+	allowed_in_hired_troops = no
+}
+
+
+############################
+# ICE SPIRIT
+############################
+
+frostbound_spirits = {
+	access_through_subject = { lotr_orc_can_recruit_from_subject = no }
+
+	can_recruit = {
+		this = character:tfw_lineofnixni_001
+	}
+
+	type = skirmishers
+
+	buy_cost = {
+		gold = 110
+		piety = 140
+	}
+	low_maintenance_cost = {
+		gold = 0.25
+		piety = 0.12
+	}
+	high_maintenance_cost = {
+		gold = 0.75
+		piety = 0.36
+	}
+
+	provision_cost = 0
+
+	stack = 50
+	damage = 65
+	toughness = 55
+	pursuit = 55
+	screen = 45
+
+	counters = {
+		heavy_infantry = 1
+		pikemen = 0.5
+		archer_cavalry = 0.5
+	}
+
+	terrain_bonus = {
+		taiga = { damage = 18 toughness = 16 pursuit = 12 screen = 12 }
+		mountains = { damage = 14 toughness = 14 pursuit = 8 screen = 8 }
+		hills = { damage = 8 toughness = 8 pursuit = 5 screen = 5 }
+
+		desert = { damage = -26 toughness = -22 pursuit = -12 screen = -10 }
+		red_desert = { damage = -26 toughness = -22 pursuit = -12 screen = -10 }
+		dune_sea = { damage = -65 toughness = -55 pursuit = -55 screen = -45 }
+	
+		arctic = { damage = 30 toughness = 25 pursuit = 20 screen = 18 }
+	}
+
+	winter_bonus = {
+		normal_winter = { damage = 18 toughness = 16 pursuit = 12 screen = 12 }
+		harsh_winter = { damage = 30 toughness = 25 pursuit = 20 screen = 18 }
+	}
+
+	allowed_in_hired_troops = no
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+
+	# Temporary reuse of an existing undead icon.
+	icon = unburied_wights
+}
+
+
+############################
+# ZOMBIES
+############################
+
+frozen_dead = {
+	access_through_subject = { lotr_orc_can_recruit_from_subject = no }
+
+	can_recruit = {
+		this = character:tfw_lineofnixni_001
+	}
+
+	type = skirmishers
+
+	buy_cost = {
+		gold = 40
+		piety = 30
+	}
+	low_maintenance_cost = {
+		gold = 0.06
+		piety = 0.02
+	}
+	high_maintenance_cost = {
+		gold = 0.18
+		piety = 0.06
+	}
+
+	provision_cost = 0
+
+	stack = 200
+	damage = 18
+	toughness = 8
+	pursuit = 0
+	screen = 5
+
+	counters = {
+		heavy_infantry = 0.5
+	}
+
+	terrain_bonus = {
+		taiga = { damage = 4 toughness = 4 }
+		mountains = { toughness = 3 }
+		hills = { toughness = 2 }
+
+		desert = { damage = -8 toughness = -4 }
+		red_desert = { damage = -8 toughness = -4 }
+		dune_sea = { damage = -18 toughness = -8 }
+	
+		arctic = { damage = 5 toughness = 5 }
+	}
+
+	winter_bonus = {
+		normal_winter = { damage = 3 toughness = 3 }
+		harsh_winter = { damage = 5 toughness = 5 }
+	}
+
+	allowed_in_hired_troops = no
+	ai_quality = { value = 20 }
+
+	icon = risen_carrion
+}
+
+
+rime_wraiths = {
+	access_through_subject = { lotr_orc_can_recruit_from_subject = no }
+
+	can_recruit = {
+		this = character:tfw_lineofnixni_001
+	}
+
+	type = heavy_infantry
+
+	buy_cost = {
+		gold = 125
+		piety = 170
+	}
+	low_maintenance_cost = {
+		gold = 0.30
+		piety = 0.12
+	}
+	high_maintenance_cost = {
+		gold = 0.90
+		piety = 0.36
+	}
+
+	provision_cost = 0
+
+	stack = 50
+	damage = 72
+	toughness = 100
+	pursuit = 10
+	screen = 25
+
+	counters = {
+		pikemen = 1
+		heavy_infantry = 0.5
+		heavy_cavalry = 0.5
+		monster = 0.5
+	}
+
+	terrain_bonus = {
+		taiga = { damage = 18 toughness = 25 screen = 6 }
+		mountains = { damage = 14 toughness = 22 screen = 5 }
+		hills = { damage = 8 toughness = 14 screen = 4 }
+		arctic = { damage = 30 toughness = 42 pursuit = 5 screen = 12 }
+
+		desert = { damage = -28 toughness = -40 }
+		red_desert = { damage = -28 toughness = -40 }
+		dune_sea = { damage = -72 toughness = -100 pursuit = -10 screen = -25 }
+	}
+
+	winter_bonus = {
+		normal_winter = { damage = 18 toughness = 25 screen = 6 }
+		harsh_winter = { damage = 30 toughness = 42 pursuit = 5 screen = 12 }
+	}
+
+	allowed_in_hired_troops = no
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+
+	# Temporary reuse of an existing undead icon.
+	icon = unburied_wights
+}
+
+# Frostwood Avari Men-at-Arms
+# Shared by Windan and Hwenti.
+# Normal cultural troops: arctic terrain bonuses, no winter_bonus blocks.
+
+@cultural_maa_extra_ai_score = 60
+@provisions_cost_infantry_cheap = 3
+@provisions_cost_infantry_moderate = 7
+@provisions_cost_infantry_expensive = 12
+
+############################
+# FROSTWOOD RANGERS
+############################
+
+frostwood_rangers = {
+	type = archers
+
+	buy_cost = { gold = 180 }
+	low_maintenance_cost = { gold = 0.40 }
+	high_maintenance_cost = { gold = 1.20 }
+
+	provision_cost = @provisions_cost_infantry_moderate
+
+	access_through_subject = { lotr_orc_can_recruit_from_subject = no }
+
+	can_recruit = {
+		OR = {
+			culture = { has_innovation = innovation_frostwood_warfare }
+			AND = {
+				is_elf = yes
+				is_landless_adventurer = yes
+				has_perk = planned_cultivation_perk
+				location.culture ?= { has_innovation = innovation_frostwood_warfare }
+			}
+		}
+	}
+
+	stack = 75
+	damage = 90
+	toughness = 48
+	pursuit = 35
+	screen = 20
+
+	counters = {
+		skirmishers = 1.5
+		archer_cavalry = 1
+		light_cavalry = 0.5
+	}
+
+	terrain_bonus = {
+		hills = { damage = 18 toughness = 10 pursuit = 5 screen = 3 }
+		taiga = { damage = 22 toughness = 14 pursuit = 7 screen = 5 }
+		forest = { damage = 24 toughness = 15 pursuit = 7 screen = 6 }
+		deep_forest = { damage = 30 toughness = 18 pursuit = 10 screen = 8 }
+		arctic = { damage = 28 toughness = 18 pursuit = 10 screen = 8 }
+	}
+
+	holding_bonus = {
+		elven_holding = { damage = 40 toughness = 22 pursuit = 8 screen = 5 }
+	}
+
+	ai_quality = {
+		value = culture_ai_weight_archers
+		add = counter_synergy_ai_weight_archers
+	}
+
+	icon = green_elven_archers
+	allowed_in_hired_troops = no
+}
+
+
+############################
+# FROSTWOOD WARDENS
+############################
+
+frostwood_wardens = {
+	type = pikemen
+
+	buy_cost = { gold = 205 }
+	low_maintenance_cost = { gold = 0.46 }
+	high_maintenance_cost = { gold = 1.38 }
+
+	provision_cost = @provisions_cost_infantry_moderate
+
+	access_through_subject = { lotr_orc_can_recruit_from_subject = no }
+
+	can_recruit = {
+		OR = {
+			culture = { has_innovation = innovation_frostwood_warfare }
+			AND = {
+				is_elf = yes
+				is_landless_adventurer = yes
+				has_perk = planned_cultivation_perk
+				location.culture ?= { has_innovation = innovation_frostwood_warfare }
+			}
+		}
+	}
+
+	stack = 75
+	damage = 70
+	toughness = 80
+	pursuit = 5
+	screen = 35
+
+	counters = {
+		light_cavalry = 1
+		heavy_cavalry = 1
+		elephant_cavalry = 1
+		camel_cavalry = 1
+		monster = 1
+	}
+
+	terrain_bonus = {
+		mountains = { damage = 18 toughness = 24 screen = 6 }
+		hills = { damage = 12 toughness = 18 screen = 5 }
+		taiga = { damage = 14 toughness = 22 screen = 6 }
+		forest = { damage = 14 toughness = 22 screen = 6 }
+		deep_forest = { damage = 18 toughness = 28 screen = 8 }
+		arctic = { damage = 20 toughness = 30 screen = 9 }
+	}
+
+	holding_bonus = {
+		elven_holding = { damage = 31 toughness = 36 screen = 8 }
+	}
+
+	ai_quality = {
+		value = culture_ai_weight_pikemen
+		add = counter_synergy_ai_weight_pikemen
+	}
+
+	icon = green_elven_pikemen
+	allowed_in_hired_troops = no
+}
+
+
+############################
+# FROSTWOOD STALKERS
+############################
+
+frostwood_stalkers = {
+	type = skirmishers
+
+	buy_cost = { gold = 125 }
+	low_maintenance_cost = { gold = 0.30 }
+	high_maintenance_cost = { gold = 0.90 }
+
+	provision_cost = @provisions_cost_infantry_cheap
+
+	access_through_subject = { lotr_orc_can_recruit_from_subject = no }
+
+	can_recruit = {
+		OR = {
+			culture = { has_innovation = innovation_frostwood_warfare }
+			AND = {
+				is_elf = yes
+				is_landless_adventurer = yes
+				has_perk = planned_cultivation_perk
+				location.culture ?= { has_innovation = innovation_frostwood_warfare }
+			}
+		}
+	}
+
+	stack = 75
+	damage = 48
+	toughness = 58
+	pursuit = 35
+	screen = 30
+
+	counters = {
+		heavy_infantry = 1
+		pikemen = 1
+		archer_cavalry = 0.5
+	}
+
+	terrain_bonus = {
+		hills = { damage = 10 toughness = 12 pursuit = 5 screen = 5 }
+		taiga = { damage = 16 toughness = 20 pursuit = 10 screen = 10 }
+		forest = { damage = 18 toughness = 22 pursuit = 10 screen = 12 }
+		deep_forest = { damage = 24 toughness = 28 pursuit = 15 screen = 15 }
+		arctic = { damage = 20 toughness = 26 pursuit = 15 screen = 15 }
+	}
+
+	holding_bonus = {
+		elven_holding = { damage = 22 toughness = 27 pursuit = 8 screen = 8 }
+	}
+
+	ai_quality = {
+		value = culture_ai_weight_skirmishers
+		add = counter_synergy_ai_weight_skirmishers
+	}
+
+	icon = green_elven_skirmishers
+	allowed_in_hired_troops = no
+}

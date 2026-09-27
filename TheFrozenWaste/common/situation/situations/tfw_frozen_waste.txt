@@ -1,0 +1,137 @@
+﻿frozen_waste = { # Earthquake (Land)
+	situation_group_type = major
+	is_unique = yes
+	
+	illustration = "gfx/interface/illustrations/event_scenes/lotr_throneroom_forodwaith.dds"
+
+	##################################################
+	# Regions
+	##################################################
+	sub_regions = {
+		disaster_area = {
+			icon = "gfx/interface/icons/situation_types/natural_disaster_earthquake.dds"
+			map_color = { 1 0.2 0.2 }
+			geographical_regions = { middleearth_forodwaith }
+		}
+	}
+
+	##################################################
+	# On Actions
+	##################################################
+
+	on_start = {
+		tfw_frozen_waste_monthly_tick = yes
+		character:tfw_lineofnixni_001 = {
+			add_character_flag = nixni_distracted_flag
+		}
+	}
+
+	on_end = {
+		
+	}
+
+	on_monthly = {
+		tfw_frozen_waste_monthly_tick = yes
+	}
+
+	on_leave = {
+		
+	}
+
+	##################################################
+	# Groups
+	##################################################
+	participant_groups = {
+		# read order is first valid
+		affected_ruler = {
+			icon = "gfx/interface/icons/flat_icons/prestige.dds"
+			require_realm_in_sub_region = yes
+			auto_add_rulers = yes
+			map_color = rgb{ 250 100 0 }
+			is_character_valid = {
+				is_landed = yes # ensures landless adventurers don't get duplicate projects
+				is_independent_ruler = yes
+				NOT = { is_wastelands = yes }
+				NOT = { this = character:tfw_lineofnixni_001 }
+			}
+			on_join = {
+				
+			}
+		}
+		winter_queen = {
+			icon = "gfx/interface/icons/flat_icons/snowflake_icon.dds"
+			require_realm_in_sub_region = yes
+			auto_add_rulers = yes
+			map_color = rgb{ 0 60 255 }
+			is_character_valid = {
+				is_landed = yes # ensures landless adventurers don't get duplicate projects
+				is_independent_ruler = yes
+				NOT = { is_wastelands = yes }
+				this = character:tfw_lineofnixni_001
+			}
+			on_join = {
+				
+			}
+		}
+		
+	}
+
+	##################################################
+	# Phases
+	##################################################
+	start_phase = eternal_winter
+
+	phases = {
+		eternal_winter = {
+			max_duration = { years = 500 }
+			icon = "gfx/interface/icons/faith/winter_queen_icon.dds"
+			illustration = "gfx/interface/illustrations/event_scenes/lotr_throneroom_forodwaith.dds"
+			map_province_effect = snow
+			map_province_effect_intensity = 10.0
+			on_start = {
+				
+			}
+			modifier_sets = {
+				eternal_winter_effects = {
+					icon = "gfx/interface/icons/modifiers/snowflake_modifier_negative.dds"
+					affected_ruler = {
+						character_modifier = {
+							levy_size = -0.75
+							
+							
+						}
+						county_modifier = {
+							development_growth_factor = -0.90
+							supply_limit_mult = -0.5
+							build_speed = -0.75
+							tax_mult = -0.5
+							
+							travel_danger = 50
+						}
+					}
+					winter_queen = {
+						character_modifier = {
+							siege_phase_time = -0.25
+							levy_size = 2
+							men_at_arms_cap = 3
+						}
+						county_modifier = {
+							tax_mult = 0.5
+						}
+					}
+				}
+				
+			}
+			future_phases = {
+				
+			}
+		}
+		
+	}
+
+	##################################################
+	# GUI
+	##################################################
+	gui_window_name = window_journal_entry
+}
+

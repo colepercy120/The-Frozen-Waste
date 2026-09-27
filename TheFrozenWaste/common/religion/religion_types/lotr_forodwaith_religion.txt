@@ -826,7 +826,7 @@ forodwaith_religion = {
 			#Doctrines
 			
 			
-			doctrine = special_doctrine_is_survival_of_the_strong_faith
+			doctrine = doctrine_dominion_of_the_dark
 			doctrine = doctrine_witchcraft_virtuous
 			doctrine = doctrine_pluralism_fundamentalist
 			doctrine = doctrine_gender_female_dominated

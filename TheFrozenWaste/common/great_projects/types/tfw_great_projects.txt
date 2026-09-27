@@ -1,0 +1,344 @@
+﻿### ANGBAND / DURNOST SHARED UPGRADE GREAT PROJECT ###
+# One repeatable Great Project type upgrades either Angband or Durnost
+# from the current tier to the next tier.
+
+angband_durnost_upgrade = {
+	icon = {
+		reference = @lotr_build_citadel_icon
+	}
+
+	illustration = {
+		reference = @lotr_build_citadel_illustration
+	}
+
+	name = {
+		desc = great_project_type_angband_durnost_upgrade
+	}
+
+	owner = province_owner_top_liege
+	is_important = yes
+
+	is_shown = {
+		any_sub_realm_county = {
+			any_county_province = {
+				OR = {
+					has_building = wonder_angband_01
+					has_building = wonder_angband_02
+					has_building = wonder_angband_03
+					has_building = wonder_angband_04
+
+					has_building = wonder_durnost_01
+					has_building = wonder_durnost_02
+					has_building = wonder_durnost_03
+					has_building = wonder_durnost_04
+				}
+			}
+		}
+	}
+
+	province_filter = realm
+
+	is_location_valid = {
+		scope:province = {
+			has_ruined_great_building = no
+
+			custom_tooltip = {
+				text = great_project_type_angband_durnost_upgrade_valid_location_tt
+				OR = {
+					has_building = wonder_angband_01
+					has_building = wonder_angband_02
+					has_building = wonder_angband_03
+					has_building = wonder_angband_04
+
+					has_building = wonder_durnost_01
+					has_building = wonder_durnost_02
+					has_building = wonder_durnost_03
+					has_building = wonder_durnost_04
+				}
+			}
+		}
+	}
+
+	can_start_planning = {
+		prestige_level >= high_prestige_level
+
+		any_sub_realm_county = {
+			any_county_province = {
+				OR = {
+					has_building = wonder_angband_01
+					has_building = wonder_angband_02
+					has_building = wonder_angband_03
+					has_building = wonder_angband_04
+
+					has_building = wonder_durnost_01
+					has_building = wonder_durnost_02
+					has_building = wonder_durnost_03
+					has_building = wonder_durnost_04
+				}
+			}
+		}
+	}
+
+	# One project type is used for every stage.
+	# Rebuilding Angband costs three times the normal project cost.
+	# Durnost uses the normal base cost.
+	cost = {
+		treasury_or_gold = {
+			value = dwarven_capital_gold_cost
+			if = {
+				limit = {
+					scope:province = {
+						OR = {
+							has_building = wonder_angband_01
+							has_building = wonder_angband_02
+							has_building = wonder_angband_03
+							has_building = wonder_angband_04
+						}
+					}
+				}
+				multiply = 3
+			}
+		}
+	}
+
+	construction_time = dwarven_great_project_base_construction_time
+
+	contributor_cooldown = standard_contributor_cooldown_value
+
+	on_complete = {
+		custom_tooltip = {
+			text = great_project_type_angband_durnost_construct_building_tt
+			scope:province ?= {
+				upgrade_angband_durnost_great_building_effect = yes
+
+				add_to_global_variable_list = {
+					name = lotr_gp_poi_list
+					target = this
+				}
+			}
+		}
+
+		scope:owner = {
+			show_as_tooltip = {
+				mandala_owner_reward_01_effect = yes
+			}
+		}
+
+		gather_contributors_in_list_effect = yes
+		every_in_list = {
+			list = contributors_to_reward
+			if = {
+				limit = { this = scope:owner }
+				trigger_event = lotr_great_project.1000
+			}
+			else = {
+				if = {
+					limit = {
+						scope:owner = { is_ai = yes }
+					}
+					show_as_tooltip = {
+						mandala_contributor_opinion_reward_effect = {
+							OVERLORD = scope:owner
+						}
+					}
+				}
+				trigger_event = lotr_great_project.1010
+			}
+		}
+	}
+
+	on_cancel = {
+		scope:owner = {
+			add_prestige = minor_prestige_loss
+		}
+
+		every_contribution = {
+			limit = {
+				contribution_is_funded = yes
+			}
+			contributor = {
+				if = {
+					limit = {
+						this != scope:owner
+						this != scope:founder
+					}
+					add_to_list = contributors_to_disappoint
+				}
+			}
+		}
+
+		every_in_list = {
+			list = contributors_to_disappoint
+			add_opinion = {
+				modifier = wasted_our_efforts
+				target = scope:owner
+				opinion = -30
+			}
+		}
+	}
+
+	on_start_build = {
+		scope:owner = {
+			add_legitimacy_effect = {
+				LEGITIMACY = minor_legitimacy_gain
+			}
+		}
+
+		scope:great_project = {
+			every_contribution = {
+				limit = {
+					contribution_is_funded = yes
+				}
+				contributor = {
+					add_prestige = minor_prestige_value
+				}
+			}
+		}
+	}
+
+	allowed_contributor_filter = {
+		owner = yes
+		tributaries = yes
+		vassals = yes
+	}
+
+	invite_interaction = request_great_project_contribution_interaction
+
+	# Generic construction contributions so the same project works for
+	# both Angband and Durnost without dwarven-race requirements.
+	project_contributions = {
+		stonework = {
+			contributor_is_valid = {
+				highest_held_title_tier > tier_barony
+			}
+
+			cost = {
+				treasury_or_gold = {
+					if = {
+						limit = { is_ai = yes }
+						value = dwarven_contribution_low_gold_cost
+					}
+					else = {
+						value = dwarven_contribution_mid_gold_cost
+					}
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {
+				barony = 0
+				county = 12
+				duchy = 12
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+
+			ai_will_do = {
+				value = chinese_great_projects_contribution_ai_will_do_base_value
+			}
+		}
+
+		fortifications = {
+			contributor_is_valid = {
+				highest_held_title_tier > tier_barony
+			}
+
+			cost = {
+				treasury_or_gold = {
+					if = {
+						limit = { is_ai = yes }
+						value = dwarven_contribution_mid_gold_cost
+					}
+					else = {
+						value = dwarven_contribution_high_gold_cost
+					}
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {
+				barony = 0
+				county = 12
+				duchy = 12
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+
+			ai_will_do = {
+				value = chinese_great_projects_contribution_ai_will_do_base_value
+			}
+		}
+
+		work_force = {
+			contributor_is_valid = {
+				highest_held_title_tier > tier_barony
+			}
+
+			cost = {
+				treasury_or_gold = {
+					if = {
+						limit = { is_ai = yes }
+						value = dwarven_contribution_low_gold_cost
+					}
+					else = {
+						value = dwarven_contribution_mid_gold_cost
+					}
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {
+				barony = 0
+				county = 12
+				duchy = 12
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+
+			ai_will_do = {
+				value = chinese_great_projects_contribution_ai_will_do_base_value
+			}
+		}
+	}
+
+	ai_target_quick_trigger = {
+		adult = yes
+		rank = county
+	}
+
+	ai_check_interval_by_tier = {
+		barony = 0
+		county = 1
+		duchy = 1
+		kingdom = 1
+		empire = 1
+		hegemony = 1
+	}
+
+	ai_will_do = {
+		value = 1000
+	}
+
+	completion_sound_effect = @msg_completion_effect_dwarven
+}

@@ -1,4 +1,4 @@
-# Snow-orc character history for Durnost, Ruinfalas, and the Bleak Mountains
+﻿# Snow-orc character history for Durnost, Ruinfalas, and the Bleak Mountains
 # Culture: snow_orcs
 # Faith: dragon_cult
 # Period emphasized: 6700-7100
@@ -3136,7 +3136,7 @@ tfw_lineoflowborn_snow_orcs_068 = {
 	trait = education_martial_2
 	6903.7.23 = { birth = yes }
 	6919.4.26 = { add_spouse = tfw_lineoflowborn_snow_orcs_067 }
-	7031.3.17 = { death = yes }
+	7101.1.1 = { death = yes }
 }
 
 tfw_lineoflowborn_snow_orcs_069 = {
@@ -6628,7 +6628,7 @@ tfw_lineoflowborn_snow_orcs_293 = {
 	trait = education_martial_2
 	6903.4.11 = { birth = yes }
 	6919.12.27 = { add_spouse = tfw_lineoflowborn_snow_orcs_292 }
-	7028.6.4 = { death = yes }
+	7101.1.1 = { death = yes }
 }
 
 tfw_lineoflowborn_snow_orcs_294 = {
@@ -17880,7 +17880,7 @@ tfw_lineoflowborn_snow_orcs_1018 = {
 	trait = education_martial_2
 	6905.7.2 = { birth = yes }
 	6921.9.14 = { add_spouse = tfw_lineoflowborn_snow_orcs_1017 }
-	7032.7.10 = { death = yes }
+	7101.1.1 = { death = yes }
 }
 
 tfw_lineoflowborn_snow_orcs_1019 = {

@@ -1,0 +1,182 @@
+
+cleanse_angband_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_blue_mountains_01.dds"
+	}
+
+	desc = cleanse_angband_decision_desc
+	selection_tooltip = cleanse_angband_decision_tooltip
+	confirm_text = cleanse_angband_decision_confirm
+
+	decision_group_type = realms_in_exile_major
+
+	is_shown = {
+		any_character_situation = {
+			situation_type = frozen_waste
+		}
+		faith_is_good = yes
+		NOT = { global_var:tfw_angband_cleansed = 1 }
+	}
+
+	is_valid = {
+		OR = {
+			custom_tooltip = {
+				text = cleanse_angband_decision_tooltip_1
+				any_county_in_region = {
+					region = middleearth_forodwaith_angband
+					holder = root
+				}
+			}
+			custom_tooltip = {
+				text = cleanse_angband_decision_tooltip_2
+				any_county_in_region = {
+					region = middleearth_forodwaith_angband
+					count = all
+					is_wasteland = yes
+				}
+			}
+		}
+		piety_level >= 4
+	}
+
+	cost = {
+		piety = 2000
+	}
+
+	effect = {
+		custom_tooltip = cleanse_angband_decision_effect
+		set_global_variable = { name = tfw_angband_cleansed value = 1 }
+		every_character_situation = {
+			limit = { situation_type = frozen_waste }
+			tfw_frozen_waste_monthly_tick = yes
+			every_situation_participant = {
+				trigger_event = tfw_situation.0001
+			}
+		}
+		province:8105 = {
+			ruin_great_building = yes
+		}
+		add_elven_hope_effect = { VALUE = 100 HOPE_EFFECT = effect_elven_hope_debug }
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+
+
+heal_frostwood_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_elves_dwarves_05.dds"
+	}
+
+	desc = heal_frostwood_decision_desc
+	selection_tooltip = heal_frostwood_decision_tooltip
+	confirm_text = heal_frostwood_decision_confirm
+
+	decision_group_type = realms_in_exile_major
+
+	is_shown = {
+		any_character_situation = {
+			situation_type = frozen_waste
+		}
+		faith_is_good = yes
+		NOT = { global_var:tfw_frostwood_cleansed = 1 }
+	}
+
+	is_valid = {
+		completely_controls = title:c_frostwood_14
+		custom_tooltip = {
+			text = heal_frostwood_decision_tooltip_1
+			any_county_in_region = {
+				count = all
+				region = middleearth_forodwaith_rhuvorodwaith_frostwood 
+				holder = {
+					faith_is_good = yes
+				}
+			}
+		}
+		
+		
+		piety_level >= 4
+	}
+
+	cost = {
+		piety = 2000
+	}
+
+	effect = {
+		custom_tooltip = heal_frostwood_decision_effect
+		set_global_variable = { name = tfw_frostwood_cleansed value = 1 }
+		
+		title:c_frostwood_14 = {
+			title_province = {
+				remove_building = wonder_taregs_corpse 
+			}
+		}
+		trigger_event = tfw_situation.0003
+		add_elven_hope_effect = { VALUE = 100 HOPE_EFFECT = effect_elven_hope_debug }
+		
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+
+unleash_angband_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_blue_mountains_01.dds"
+	}
+
+	desc = unleash_angband_decision_desc
+	selection_tooltip = unleash_angband_decision_tooltip
+	confirm_text = unleash_angband_decision_confirm
+
+	decision_group_type = realms_in_exile_major
+
+	is_shown = {
+		
+		has_character_flag = nixni_distracted_flag
+	}
+
+	is_valid = {
+		OR = {
+			piety_level >= 5
+			prestige_level >= 5
+			AND = {
+				piety_level >= 3
+				prestige_level >= 3
+				is_allied_to = character:lineofsauron
+			}
+		}
+		province:8105 = {
+			has_building_or_higher = wonder_angband_03
+		}
+	}
+
+	cost = {
+		piety = 2000
+	}
+
+	effect = {
+		custom_tooltip = unleash_angband_decision_effect
+		remove_character_flag = nixni_distracted_flag
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}

@@ -1,0 +1,136 @@
+﻿@special_maa_02 = "gfx/interface/icons/culture_innovations/innovation_special_maa_02.dds"
+@maa_01 = "gfx/interface/icons/culture_innovations/innovation_maa_01.dds"
+@lotr_special_maa_longbeards = "gfx/interface/icons/culture_innovations/innovation_lotr_special_maa_longbeards.dds"
+
+innovation_forodain_warfare = {
+	skill = martial
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	icon = @special_maa_02
+	potential = {
+		OR = {
+			this = culture:forodain
+			any_parent_culture_or_above = { this = culture:forodain }
+		}
+	}
+	custom = unlock_forodain_huscarls
+	custom = unlock_forodain_longbowmen
+	custom = unlock_forodain_shieldwall
+	custom = unlock_forodain_raiders
+	flag = global_maa
+}
+
+innovation_northern_orc_warfare = {
+	skill = martial
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	icon = @maa_01
+	potential = {
+		OR = {
+			this = culture:angband_orcs
+			this = culture:snow_orcs
+			any_parent_culture_or_above = { this = culture:angband_orcs }
+			any_parent_culture_or_above = { this = culture:snow_orcs }
+		}
+	}
+	custom = unlock_northern_orc_reavers
+	custom = unlock_northern_orc_archers
+	custom = unlock_northern_orc_spears
+	custom = unlock_northern_orc_trackers
+	custom = unlock_northern_orc_warg_riders
+	flag = global_maa
+}
+
+innovation_lossidil_warfare = {
+	skill = martial
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	icon = @special_maa_02
+	potential = {
+		OR = {
+			this = culture:lossidil
+			any_parent_culture_or_above = { this = culture:lossidil }
+		}
+	}
+	custom = unlock_lossidil_frostguard
+	custom = unlock_lossidil_icebowmen
+	custom = unlock_lossidil_snow_spears
+	custom = unlock_lossidil_frost_riders
+	flag = global_maa
+}
+
+innovation_umli_warfare = {
+	skill = martial
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	icon = @lotr_special_maa_longbeards
+	potential = {
+		OR = {
+			this = culture:umli
+			any_parent_culture_or_above = { this = culture:umli }
+		}
+	}
+	custom = unlock_umli_ironwardens
+	custom = unlock_umli_crossbowmen
+	custom = unlock_umli_deep_pikes
+	custom = unlock_umli_axe_scouts
+	flag = global_maa
+}
+
+innovation_gauredain_warfare = {
+	skill = martial
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	icon = @special_maa_02
+	potential = {
+		OR = {
+			this = culture:gauredain
+			any_parent_culture_or_above = { this = culture:gauredain }
+		}
+	}
+	custom = unlock_gauredain_huntsmen
+	custom = unlock_gauredain_wildspears
+	custom = unlock_gauredain_wildlings
+	custom = unlock_gauredain_wolf_skinchangers
+	flag = global_maa
+}
+
+innovation_adlantrim_warfare = {
+	skill = martial
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	icon = @special_maa_02
+	potential = {
+		OR = {
+			this = culture:adlantrim
+			any_parent_culture_or_above = { this = culture:adlantrim }
+		}
+	}
+	custom = unlock_adlantrim_blades
+	custom = unlock_adlantrim_archers
+	custom = unlock_adlantrim_spears
+	custom = unlock_adlantrim_scouts
+	flag = global_maa
+}
+
+innovation_frostwood_warfare = {
+	skill = martial
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	icon = @special_maa_02
+
+	potential = {
+		OR = {
+			this = culture:windan
+			this = culture:hwenti
+			any_parent_culture_or_above = { this = culture:windan }
+			any_parent_culture_or_above = { this = culture:hwenti }
+		}
+	}
+
+	custom = unlock_frostwood_rangers
+	custom = unlock_frostwood_wardens
+	custom = unlock_frostwood_stalkers
+
+	flag = global_maa
+}

@@ -1,3 +1,202 @@
 ﻿tfw_game_start = {
+	tfw_history_start = yes
+}
+
+tfw_history_start = {
+	title:k_forochel = {
+			set_de_jure_liege_title = title:e_annuvorodwaith
+		}
+		title:k_grey_foothills = {
+			set_de_jure_liege_title = title:e_iron_mountains
+		}
+		title:k_angmar = {
+			set_de_jure_liege_title = title:e_annuvorodwaith
+		}
+		
+		title:k_emyn_nimbrith = {
+			set_de_jure_liege_title = title:e_misty_mountains
+		}
+		title:d_foryagsh = {
+			set_de_jure_liege_title = title:k_emyn_nimbrith
+		}
+		title:d_haryagsh = {
+			set_de_jure_liege_title = title:k_emyn_nimbrith
+		}
+		title:d_kanelemas = {
+			every_de_jure_county = {
+				limit = {
+					any_county_province = {
+						terrain = halls
+					}
+				}
+				set_de_jure_liege_title = title:d_emyn_nimbrith
+			}
+		}
+}
+
+tfw_building_start = {
+	every_county_in_region = {
+		region = middleearth_forodwaith
+		limit = {
+			is_wastelands = no
+		}
+		title_province = {
+			generate_building = yes
+		}
+	}
+}
+
+tfw_age_fixing = {
+	character:lineofnixni = { # Osse
+		change_age = 14373 # not counting 33,537 years of the Lamps due it causing an overflow error
+	}	
+	character:tfw_lineofadlantrim_mornaer_001 = {
+		set_immortal_age = 20
+		change_age = 4309
+	}
+}
+
+tfw_special_building_start = {
+	province:8768 = {
+		add_special_building = wonder_taregs_corpse
+	}
+	province:8106 = {
+		add_special_building = wonder_ribs_of_ancalagon
+	}
+	province:8069 = {
+		add_special_building = wonder_frozen_numenorean_fleet
+	}
+	province:8010 = {
+		add_special_building = wonder_whitehaven
+	}
+	province:8000 = {
+		add_special_building = wonder_forodain_whaling_city
+	}
+	province:8075 = {
+		add_special_building = wonder_morgoths_well
+	}
+	province:8940 = {
+		add_special_building = wonder_wolfmere
+	}
+	province:8071 = {
+		if = { 
+			limit = {
+				game_start_date > 6768.1.1
+			}
+			add_special_building = wonder_faron_dragon_site
+		}
+		else = {
+			add_special_building = dragon_lair
+		}
+	}
+	province:8026 = {
+		add_special_building = wonder_evermist_02
+	}
+	province:9180 = {
+		add_special_building = wonder_helecthil_02
+	}
+	province:8236 = {
+		add_special_building = wonder_evermist_falls
+	}
+	province:8528 = {
+		add_special_building = wonder_boiling_lake
+	}
+	province:8762 = {
+		add_special_building = wonder_forges_of_the_winden
+	}
+	province:8782 = {
+		add_special_building = wonder_hwenti_halls
+	}
+	province:8473 = {
+		add_special_building = wonder_carasthon_02
+	}
+	province:8181 = {
+		add_special_building = wonder_halls_of_talanthir_03
+	}
 	
+	province:8131 = {
+		add_special_building = mountain_pass_01
+	}
+	province:8037 = {
+		add_special_building = mountain_pass_01
+	}
+	
+	province:8105 = {
+		add_great_building = wonder_angband_01
+		
+	}
+	province:9191 = {
+		add_great_building = wonder_durnost_01
+		ruin_great_building = yes
+	}
+	province:9208 = {
+		if = { 
+			limit = {
+				game_start_date > 6768.1.1
+			}
+			add_great_building = wonder_nidavillir_foundation
+		}
+		else = {
+			add_great_building = wonder_nidavillir_t3
+		}
+		
+	}
+	
+}
+
+tfw_elven_homelands_start = {
+	title:e_tormequendi = {
+		every_de_jure_county = {
+			add_county_modifier = elven_homeland_county_modifier
+		}
+	}
+	title:e_frostwood = {
+		every_de_jure_county = {
+			add_county_modifier = elven_homeland_county_modifier
+		}
+	}
+}
+
+tfw_frozen_waste_monthly_tick = {
+	set_variable = { name = progress_points value = 0 }
+	if = {
+		limit = {
+			title:c_aurora_isles_2.holder = {
+				faith_is_good = yes
+			}
+		}
+		change_variable = { name = progress_points add = 25 }
+	}
+	if = {
+		limit = {
+			NOT = {
+				any_county_in_region = {
+					region = middleearth_forodwaith_angband
+					holder = character:tfw_lineofnixni_001
+				}
+			}
+		}
+		change_variable = { name = progress_points add = 25 }
+	}
+	if = {
+		limit = {
+			global_var:tfw_angband_cleansed = 1
+		}
+		change_variable = { name = progress_points add = 25 }
+	}
+	if = {
+		limit = {
+			global_var:tfw_frostwood_cleansed = 1
+		}
+		change_variable = { name = progress_points add = 25 }
+	}
+	if = {
+		limit = {
+			var:progress_points = 100
+		}
+		every_situation_participant = {
+			trigger_event = tfw_situation.0005
+		}
+		end_situation = yes
+	}
 }

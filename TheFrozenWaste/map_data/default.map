@@ -244,6 +244,9 @@ impassable_mountains = LIST { 8717 } # Frostwood 1
 impassable_mountains = LIST { 8781 } # Frostwood 2
 impassable_mountains = RANGE { 9252 9271 } # Extras
 
+impassable_mountains = LIST { 8058 }
+impassable_mountains = LIST { 7981 }
+
 ############
 # WASTELAND
 ############

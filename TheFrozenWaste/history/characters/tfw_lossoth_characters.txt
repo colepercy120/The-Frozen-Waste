@@ -1,4 +1,4 @@
-############################################################
+﻿############################################################
 # Generated Lossoth rulers for custom_forochel_coast, 6700-7100
 # Existing southern Lossoth histories are intentionally not duplicated.
 # Dynasty ids used here are new and are mapped in the companion dynasty map.
@@ -161,8 +161,7 @@ tfw_lineoffc_huurrela_001 = {
 
 	trait = patient
 	trait = diligent
-	trait = impatient
-	trait = education_martial_2
+trait = education_martial_2
 	trait = lifestyle_hunter
 
 	6787.10.18 = {
@@ -1196,8 +1195,7 @@ tfw_lineoffc_kivela_005 = {
 
 	trait = ambitious
 	trait = vengeful
-	trait = forgiving
-	trait = education_learning_2
+trait = education_learning_2
 	trait = lifestyle_hunter
 
 	6748.10.14 = {
@@ -1320,8 +1318,7 @@ tfw_lineoffc_tuiskula_002 = {
 		birth = yes
 	}
 	trait = forgiving
-	trait = vengeful
-	trait = education_intrigue_2
+trait = education_intrigue_2
 
 	6955.11.5 = {
 		death = {
@@ -1442,8 +1439,7 @@ tfw_lineoffc_tuiskula_007 = {
 
 	trait = vengeful
 	trait = patient
-	trait = forgiving
-	trait = education_learning_2
+trait = education_learning_2
 	trait = lifestyle_mariner
 
 	6957.6.16 = {
@@ -1934,8 +1930,7 @@ tfw_lineoffc_routala_005 = {
 
 	trait = content
 	trait = trusting
-	trait = ambitious
-	trait = education_martial_2
+trait = education_martial_2
 	trait = lifestyle_mariner
 
 	6754.10.28 = {
@@ -2277,8 +2272,7 @@ tfw_lineoffc_lumivaara_003 = {
 
 	trait = calm
 	trait = content
-	trait = ambitious
-	trait = education_diplomacy_2
+trait = education_diplomacy_2
 	trait = lifestyle_mariner
 
 	6713.12.15 = {
@@ -2327,8 +2321,7 @@ tfw_lineoffc_lumivaara_005 = {
 
 	trait = vengeful
 	trait = temperate
-	trait = forgiving
-	trait = education_martial_2
+trait = education_martial_2
 	trait = lifestyle_hunter
 
 	6742.1.28 = {
@@ -2768,8 +2761,7 @@ tfw_lineoffc_naskali_001 = {
 	culture = lossoth
 
 	trait = content
-	trait = ambitious
-	trait = brave
+trait = brave
 	trait = education_learning_2
 	trait = lifestyle_hunter
 
@@ -2918,8 +2910,7 @@ tfw_lineoffc_naskali_007 = {
 
 	trait = trusting
 	trait = content
-	trait = ambitious
-	trait = education_stewardship_2
+trait = education_stewardship_2
 	trait = lifestyle_mariner
 
 	6937.6.22 = {
@@ -3409,8 +3400,7 @@ tfw_lineoffc_aarnio_005 = {
 
 	trait = ambitious
 	trait = humble
-	trait = content
-	trait = education_stewardship_3
+trait = education_stewardship_3
 	trait = lifestyle_hunter
 
 	6742.1.25 = {
@@ -3505,8 +3495,7 @@ tfw_lineoffc_kuurala_001 = {
 	culture = lossoth
 
 	trait = vengeful
-	trait = forgiving
-	trait = trusting
+trait = trusting
 	trait = education_martial_3
 	trait = lifestyle_hunter
 
@@ -3704,8 +3693,7 @@ tfw_lineoffc_kaarnio_001 = {
 
 	trait = patient
 	trait = trusting
-	trait = impatient
-	trait = education_diplomacy_2
+trait = education_diplomacy_2
 	trait = lifestyle_mariner
 
 	6688.1.14 = {
@@ -3950,8 +3938,7 @@ tfw_lineoffc_siniharju_005 = {
 
 	trait = patient
 	trait = forgiving
-	trait = vengeful
-	trait = education_diplomacy_2
+trait = education_diplomacy_2
 	trait = lifestyle_mariner
 
 	6892.3.18 = {
@@ -4000,8 +3987,7 @@ tfw_lineoffc_siniharju_007 = {
 
 	trait = patient
 	trait = ambitious
-	trait = impatient
-	trait = education_stewardship_2
+trait = education_stewardship_2
 	trait = lifestyle_hunter
 
 	6916.11.5 = {
@@ -4441,8 +4427,7 @@ tfw_lineoffc_nivala_001 = {
 	culture = lossoth
 
 	trait = impatient
-	trait = patient
-	trait = brave
+trait = brave
 	trait = education_learning_2
 	trait = lifestyle_hunter
 
@@ -4469,8 +4454,7 @@ tfw_lineoffc_nivala_002 = {
 		birth = yes
 	}
 	trait = vengeful
-	trait = forgiving
-	trait = education_martial_2
+trait = education_martial_2
 
 	6788.9.28 = {
 		death = {
@@ -4738,8 +4722,7 @@ tfw_lineoffc_sampola_007 = {
 
 	trait = impatient
 	trait = forgiving
-	trait = vengeful
-	trait = education_stewardship_2
+trait = education_stewardship_2
 	trait = lifestyle_hunter
 
 	6923.4.7 = {
@@ -5031,8 +5014,7 @@ tfw_lineoffc_niemela_003 = {
 	father = tfw_lineoffc_niemela_002
 
 	trait = forgiving
-	trait = vengeful
-	trait = diligent
+trait = diligent
 	trait = education_learning_2
 	trait = lifestyle_mariner
 
@@ -5083,8 +5065,7 @@ tfw_lineoffc_niemela_005 = {
 
 	trait = impatient
 	trait = vengeful
-	trait = patient
-	trait = education_martial_3
+trait = education_martial_3
 	trait = lifestyle_hunter
 
 	6894.7.19 = {
@@ -5898,8 +5879,7 @@ tfw_lineoffc_joutsi_008 = {
 		birth = yes
 	}
 	trait = impatient
-	trait = patient
-	trait = education_intrigue_2
+trait = education_intrigue_2
 
 	7111.5.2 = {
 		death = {
@@ -6064,8 +6044,7 @@ tfw_lineoffc_suvanto_001 = {
 
 	trait = humble
 	trait = forgiving
-	trait = vengeful
-	trait = education_martial_2
+trait = education_martial_2
 	trait = lifestyle_hunter
 
 	6812.6.5 = {
@@ -6163,8 +6142,7 @@ tfw_lineoffc_suvanto_005 = {
 	mother = tfw_lineoffc_suvanto_004
 
 	trait = impatient
-	trait = patient
-	trait = temperate
+trait = temperate
 	trait = education_learning_2
 	trait = lifestyle_mariner
 
@@ -7274,8 +7252,7 @@ tfw_lineoffc_sarkela_004 = {
 		birth = yes
 	}
 	trait = forgiving
-	trait = vengeful
-	trait = education_martial_2
+trait = education_martial_2
 
 	6977.1.10 = {
 		death = {
@@ -8181,8 +8158,7 @@ tfw_lineoffc_peurala_003 = {
 
 	trait = gregarious
 	trait = content
-	trait = ambitious
-	trait = education_stewardship_2
+trait = education_stewardship_2
 	trait = lifestyle_mariner
 
 	6718.8.3 = {
@@ -8327,8 +8303,7 @@ tfw_lineoffc_karpalo_003 = {
 	mother = tfw_lineoffc_karpalo_002
 
 	trait = content
-	trait = ambitious
-	trait = temperate
+trait = temperate
 	trait = education_diplomacy_2
 	trait = lifestyle_hunter
 
@@ -8947,8 +8922,7 @@ tfw_lineoffc_kallio_004 = {
 		birth = yes
 	}
 	trait = content
-	trait = ambitious
-	trait = education_intrigue_2
+trait = education_intrigue_2
 
 	6830.2.22 = {
 		death = {
@@ -8969,8 +8943,7 @@ tfw_lineoffc_kallio_005 = {
 
 	trait = humble
 	trait = impatient
-	trait = patient
-	trait = education_martial_3
+trait = education_martial_3
 	trait = lifestyle_hunter
 
 	6759.1.21 = {
@@ -9144,8 +9117,7 @@ tfw_lineoffc_myrskyla_006 = {
 		birth = yes
 	}
 	trait = patient
-	trait = impatient
-	trait = education_intrigue_2
+trait = education_intrigue_2
 
 	7024.6.23 = {
 		death = {
@@ -9166,8 +9138,7 @@ tfw_lineoffc_myrskyla_007 = {
 
 	trait = vengeful
 	trait = honest
-	trait = forgiving
-	trait = education_stewardship_2
+trait = education_stewardship_2
 	trait = lifestyle_hunter
 
 	6939.9.8 = {

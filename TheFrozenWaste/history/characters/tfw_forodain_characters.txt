@@ -1,4 +1,4 @@
-############################################################
+﻿############################################################
 # 10 NEW FORODAIN DYNASTIC CHARACTER LINES
 # Date window: 6700-7100
 # Culture: forodain
@@ -123,9 +123,7 @@ tfw_lineofnaethor_003 = {
 	trait = education_stewardship_2
 	trait = content
 	trait = compassionate
-	trait = ambitious
-
-	diplomacy = 8
+diplomacy = 8
 	martial = 8
 	stewardship = 8
 	intrigue = 5
@@ -290,9 +288,7 @@ tfw_lineofnaethor_007 = {
 	trait = education_diplomacy_2
 	trait = arbitrary
 	trait = ambitious
-	trait = content
-
-	diplomacy = 5
+diplomacy = 5
 	martial = 8
 	stewardship = 2
 	intrigue = 2
@@ -641,8 +637,7 @@ tfw_lineofnaethor_015 = {
 
 	trait = education_martial_2
 	trait = trusting
-	trait = paranoid
-	trait = just
+trait = just
 
 	diplomacy = 10
 	martial = 7
@@ -883,9 +878,7 @@ tfw_lineofvaelthor_004 = {
 	trait = education_diplomacy_2
 	trait = shy
 	trait = paranoid
-	trait = trusting
-
-	diplomacy = 8
+diplomacy = 8
 	martial = 8
 	stewardship = 7
 	intrigue = 4
@@ -1210,8 +1203,7 @@ tfw_lineofvaelthor_011 = {
 
 	trait = education_stewardship_2
 	trait = impatient
-	trait = patient
-	trait = brave
+trait = brave
 
 	diplomacy = 8
 	martial = 4
@@ -1832,8 +1824,7 @@ tfw_lineofcorphen_008 = {
 
 	trait = education_stewardship_3
 	trait = trusting
-	trait = paranoid
-	trait = impatient
+trait = impatient
 
 	diplomacy = 10
 	martial = 3
@@ -2092,9 +2083,7 @@ tfw_lineofcorphen_014 = {
 	trait = education_learning_2
 	trait = just
 	trait = humble
-	trait = arbitrary
-
-	diplomacy = 5
+diplomacy = 5
 	martial = 5
 	stewardship = 10
 	intrigue = 10
@@ -2464,9 +2453,7 @@ tfw_lineoflowborn_forodain_020 = {
 	trait = education_stewardship_2
 	trait = vengeful
 	trait = gregarious
-	trait = shy
-
-	diplomacy = 8
+diplomacy = 8
 	martial = 3
 	stewardship = 6
 	intrigue = 2
@@ -2725,8 +2712,7 @@ tfw_lineofraudhave_012 = {
 
 	trait = education_stewardship_3
 	trait = content
-	trait = ambitious
-	trait = brave
+trait = brave
 
 	diplomacy = 8
 	martial = 4
@@ -2791,9 +2777,7 @@ tfw_lineoflowborn_forodain_022 = {
 	trait = education_diplomacy_3
 	trait = shy
 	trait = just
-	trait = gregarious
-
-	diplomacy = 2
+diplomacy = 2
 	martial = 10
 	stewardship = 5
 	intrigue = 4
@@ -3080,9 +3064,7 @@ tfw_lineofgalenmir_001 = {
 	trait = education_martial_3
 	trait = humble
 	trait = trusting
-	trait = paranoid
-
-	diplomacy = 10
+diplomacy = 10
 	martial = 5
 	stewardship = 6
 	intrigue = 2
@@ -3243,8 +3225,7 @@ tfw_lineofgalenmir_004 = {
 
 	trait = education_learning_2
 	trait = stubborn
-	trait = fickle
-	trait = arbitrary
+trait = arbitrary
 
 	diplomacy = 6
 	martial = 4
@@ -3690,9 +3671,7 @@ tfw_lineofgalenmir_015 = {
 	trait = education_intrigue_2
 	trait = patient
 	trait = fickle
-	trait = stubborn
-
-	diplomacy = 3
+diplomacy = 3
 	martial = 8
 	stewardship = 2
 	intrigue = 2
@@ -4648,9 +4627,7 @@ tfw_lineofberethril_002 = {
 	trait = education_learning_3
 	trait = compassionate
 	trait = vengeful
-	trait = callous
-
-	diplomacy = 6
+diplomacy = 6
 	martial = 9
 	stewardship = 2
 	intrigue = 2
@@ -4713,9 +4690,7 @@ tfw_lineoflowborn_forodain_038 = {
 	trait = education_diplomacy_2
 	trait = impatient
 	trait = brave
-	trait = patient
-
-	diplomacy = 9
+diplomacy = 9
 	martial = 3
 	stewardship = 4
 	intrigue = 8
@@ -4779,9 +4754,7 @@ tfw_lineofberethril_005 = {
 	trait = education_stewardship_2
 	trait = wrathful
 	trait = paranoid
-	trait = calm
-
-	diplomacy = 9
+diplomacy = 9
 	martial = 7
 	stewardship = 4
 	intrigue = 10
@@ -4810,8 +4783,7 @@ tfw_lineofberethril_006 = {
 
 	trait = education_diplomacy_3
 	trait = just
-	trait = arbitrary
-	trait = diligent
+trait = diligent
 
 	diplomacy = 8
 	martial = 9
@@ -6128,9 +6100,7 @@ tfw_lineofmaelvaren_001 = {
 	trait = education_stewardship_2
 	trait = callous
 	trait = ambitious
-	trait = content
-
-	diplomacy = 7
+diplomacy = 7
 	martial = 10
 	stewardship = 8
 	intrigue = 2
@@ -6389,8 +6359,7 @@ tfw_lineofmaelvaren_007 = {
 
 	trait = education_martial_2
 	trait = just
-	trait = arbitrary
-	trait = temperate
+trait = temperate
 
 	diplomacy = 3
 	martial = 5
@@ -6422,9 +6391,7 @@ tfw_lineofmaelvaren_008 = {
 	trait = education_stewardship_2
 	trait = ambitious
 	trait = just
-	trait = content
-
-	diplomacy = 3
+diplomacy = 3
 	martial = 9
 	stewardship = 5
 	intrigue = 9

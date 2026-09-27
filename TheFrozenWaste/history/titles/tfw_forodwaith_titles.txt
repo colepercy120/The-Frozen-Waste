@@ -16209,7 +16209,7 @@ d_west_frostwood_1 = {
 ##############################
 
 c_frostwood_1 = {
-	1.1.3 = {
+	2.1.2 = {
 		holder = tfw_lineofwindan_neldarin_001
 		liege = d_west_frostwood_1
 	}
@@ -16224,7 +16224,7 @@ c_frostwood_1 = {
 ##############################
 
 c_frostwood_2 = {
-	1.1.3 = {
+	2.1.2 = {
 		holder = tfw_lineofwindan_saelith_001
 		liege = d_west_frostwood_1
 	}
@@ -16239,7 +16239,7 @@ c_frostwood_2 = {
 ##############################
 
 c_frostwood_3 = {
-	1.1.3 = {
+	2.1.2 = {
 		holder = tfw_lineofwindan_aereth_001
 		liege = d_west_frostwood_1
 	}
@@ -16265,7 +16265,7 @@ d_west_frostwood_2 = {
 ##############################
 
 c_frostwood_4 = {
-	1.1.3 = {
+	2.1.2 = {
 		holder = tfw_lineofwindan_sairavel_001
 		liege = d_west_frostwood_2
 	}
@@ -16280,7 +16280,7 @@ c_frostwood_4 = {
 ##############################
 
 c_frostwood_5 = {
-	1.1.3 = {
+	2.1.2 = {
 		holder = tfw_lineofwindan_thalorn_001
 		liege = d_west_frostwood_2
 	}
@@ -16295,7 +16295,7 @@ c_frostwood_5 = {
 ##############################
 
 c_frostwood_6 = {
-	1.1.3 = {
+	2.1.2 = {
 		holder = tfw_lineofwindan_sairavel_001
 		liege = d_west_frostwood_2
 	}
@@ -16310,7 +16310,7 @@ c_frostwood_6 = {
 ##############################
 
 c_frostwood_7 = {
-	1.1.3 = {
+	2.1.2 = {
 		holder = tfw_lineofwindan_elvar_001
 		liege = d_west_frostwood_2
 	}
@@ -16325,7 +16325,7 @@ c_frostwood_7 = {
 ##############################
 
 c_frostwood_8 = {
-	1.1.3 = {
+	2.1.2 = {
 		holder = tfw_lineofwindan_maerwen_001
 		liege = d_west_frostwood_2
 	}
@@ -16340,7 +16340,7 @@ c_frostwood_8 = {
 ##############################
 
 c_frostwood_9 = {
-	1.1.3 = {
+	2.1.2 = {
 		holder = tfw_lineofwindan_sairavel_001
 		liege = d_west_frostwood_2
 	}
@@ -16366,7 +16366,7 @@ d_west_frostwood_3 = {
 ##############################
 
 c_frostwood_10 = {
-	1.1.3 = {
+	2.1.2 = {
 		holder = tfw_lineofwindan_varath_001
 		liege = d_west_frostwood_3
 	}
@@ -16381,7 +16381,7 @@ c_frostwood_10 = {
 ##############################
 
 c_frostwood_11 = {
-	1.1.3 = {
+	2.1.2 = {
 		holder = tfw_lineofwindan_calenth_001
 		liege = d_west_frostwood_3
 	}
@@ -16396,7 +16396,7 @@ c_frostwood_11 = {
 ##############################
 
 c_frostwood_12 = {
-	1.1.3 = {
+	2.1.2 = {
 		holder = tfw_lineofwindan_rindor_001
 		liege = d_west_frostwood_3
 	}
@@ -16411,7 +16411,7 @@ c_frostwood_12 = {
 ##############################
 
 c_frostwood_13 = {
-	1.1.3 = {
+	2.1.2 = {
 		holder = tfw_lineofwindan_aelvar_001
 		liege = d_west_frostwood_3
 	}
@@ -16437,7 +16437,7 @@ d_west_frostwood_4 = {
 ##############################
 
 c_frostwood_14 = {
-	1.1.3 = {
+	2.1.2 = {
 		holder = tfw_lineofwindan_mirath_001
 		liege = d_west_frostwood_4
 	}
@@ -16452,7 +16452,7 @@ c_frostwood_14 = {
 ##############################
 
 c_frostwood_15 = {
-	1.1.3 = {
+	2.1.2 = {
 		holder = tfw_lineofwindan_faelor_001
 		liege = d_west_frostwood_4
 	}
@@ -16467,7 +16467,7 @@ c_frostwood_15 = {
 ##############################
 
 c_frostwood_16 = {
-	1.1.3 = {
+	2.1.2 = {
 		holder = tfw_lineofwindan_ornaeth_001
 		liege = d_west_frostwood_4
 	}
@@ -16482,7 +16482,7 @@ c_frostwood_16 = {
 ##############################
 
 c_frostwood_17 = {
-	1.1.3 = {
+	2.1.2 = {
 		holder = tfw_lineofwindan_galath_001
 		liege = d_west_frostwood_4
 	}
@@ -16497,7 +16497,7 @@ c_frostwood_17 = {
 ##############################
 
 c_frostwood_18 = {
-	1.1.3 = {
+	2.1.2 = {
 		holder = tfw_lineofwindan_sulvar_001
 		liege = d_west_frostwood_4
 	}
@@ -16512,7 +16512,7 @@ c_frostwood_18 = {
 ##############################
 
 c_frostwood_19 = {
-	1.1.3 = {
+	2.1.2 = {
 		holder = tfw_lineofwindan_nethrin_001
 		liege = d_west_frostwood_4
 	}
@@ -16548,7 +16548,7 @@ d_east_frostwood_1 = {
 ##############################
 
 c_frostwood_21 = {
-	1.1.3 = {
+	2.1.2 = {
 		holder = tfw_lineofhwenti_hwerin_001
 		liege = d_east_frostwood_1
 	}
@@ -16563,7 +16563,7 @@ c_frostwood_21 = {
 ##############################
 
 c_frostwood_20 = {
-	1.1.3 = {
+	2.1.2 = {
 		holder = tfw_lineofhwenti_hwerin_001
 		liege = d_east_frostwood_1
 	}
@@ -16578,7 +16578,7 @@ c_frostwood_20 = {
 ##############################
 
 c_frostwood_22 = {
-	1.1.3 = {
+	2.1.2 = {
 		holder = tfw_lineofhwenti_hwerin_001
 		liege = d_east_frostwood_1
 	}
@@ -16593,7 +16593,7 @@ c_frostwood_22 = {
 ##############################
 
 c_frostwood_23 = {
-	1.1.3 = {
+	2.1.2 = {
 		holder = tfw_lineofhwenti_hwanaar_001
 		liege = d_east_frostwood_1
 	}
@@ -16608,7 +16608,7 @@ c_frostwood_23 = {
 ##############################
 
 c_frostwood_24 = {
-	1.1.3 = {
+	2.1.2 = {
 		holder = tfw_lineofhwenti_kuiren_001
 		liege = d_east_frostwood_1
 	}
@@ -16634,7 +16634,7 @@ d_east_frostwood_2 = {
 ##############################
 
 c_frostwood_25 = {
-	1.1.3 = {
+	2.1.2 = {
 		holder = tfw_lineofhwenti_velenwi_001
 		liege = d_east_frostwood_2
 	}
@@ -16649,7 +16649,7 @@ c_frostwood_25 = {
 ##############################
 
 c_frostwood_26 = {
-	1.1.3 = {
+	2.1.2 = {
 		holder = tfw_lineofhwenti_nauriva_001
 		liege = d_east_frostwood_2
 	}
@@ -16664,7 +16664,7 @@ c_frostwood_26 = {
 ##############################
 
 c_frostwood_27 = {
-	1.1.3 = {
+	2.1.2 = {
 		holder = tfw_lineofhwenti_hweneth_001
 		liege = d_east_frostwood_2
 	}
@@ -16679,7 +16679,7 @@ c_frostwood_27 = {
 ##############################
 
 c_frostwood_28 = {
-	1.1.3 = {
+	2.1.2 = {
 		holder = tfw_lineofhwenti_orelwi_001
 		liege = d_east_frostwood_2
 	}
@@ -16705,7 +16705,7 @@ d_east_frostwood_3 = {
 ##############################
 
 c_frostwood_29 = {
-	1.1.3 = {
+	2.1.2 = {
 		holder = tfw_lineofhwenti_sailen_001
 		liege = d_east_frostwood_3
 	}
@@ -16720,7 +16720,7 @@ c_frostwood_29 = {
 ##############################
 
 c_frostwood_30 = {
-	1.1.3 = {
+	2.1.2 = {
 		holder = tfw_lineofhwenti_vairanta_001
 		liege = d_east_frostwood_3
 	}
@@ -16735,7 +16735,7 @@ c_frostwood_30 = {
 ##############################
 
 c_frostwood_31 = {
-	1.1.3 = {
+	2.1.2 = {
 		holder = tfw_lineofhwenti_kwendir_001
 		liege = d_east_frostwood_3
 	}
@@ -16750,7 +16750,7 @@ c_frostwood_31 = {
 ##############################
 
 c_frostwood_32 = {
-	1.1.3 = {
+	2.1.2 = {
 		holder = tfw_lineofhwenti_lethwin_001
 		liege = d_east_frostwood_3
 	}

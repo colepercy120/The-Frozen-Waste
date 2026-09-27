@@ -1,4 +1,4 @@
-
+﻿
 
 tfw_lineofnixni_001 = {					
 	name = tfw_lineofnixni_001_name
@@ -50,11 +50,6 @@ tfw_lineofnixni_001 = {
             add_character_flag = no_auto_family
 		
 			
-			add_trait = lifestyle_mage
-			add_trait_xp = {
-				trait = lifestyle_mage
-				value = 100
-			}
 			add_trait_xp = {
 				trait = winter_soldier
 				value = 100
@@ -75,8 +70,8 @@ tfw_lineoffeanor_001 = { # Daughter of Caranthir
 	culture = noldor
 	dna = tfw_lineoffeanor11_dna
 	
-	father = lineoffeanor4
 	mother = lineoffeanor5
+	father = lineoffeanor4
 
 	sexuality = heterosexual
 
@@ -97,7 +92,6 @@ tfw_lineoffeanor_001 = { # Daughter of Caranthir
 	trait = twotreeslight
 	trait = architect
 	trait = overseer
-	trait = herbalist
 	trait = irritable
 	trait = faith_warrior
 	
@@ -162,7 +156,6 @@ tfw_lineoffeanor_002 = { # Daughter of Caranthir husband
 
 	2.1.1 = {	#-1423.1.1
 		birth = yes
-		learn_language = language_quenya # Accounting for Noldor culture using Sindarin as primary on account of the Noldor of Middle-earth
 	}
 	2.2.2 = {
 		add_spouse = tfw_lineoffeanor_001
@@ -190,8 +183,8 @@ tfw_lineoffeanor_003 = { # Daughter of Maglor
 	culture = noldor
 	dna = tfw_lineoffeanor12_dna
 	
-	father = lineoffeanor2
 	mother = lineofrumil3
+	father = lineoffeanor2
 
 	sexuality = heterosexual
 
@@ -236,7 +229,7 @@ tfw_lineofnestador_001 = { # Merp Wizard king of Evermist
 	religion = faith_evermist
 	culture = noldor
 	dna = tfw_lineofnestador_dna
-	
+	dynasty = dynasty_nestador
 	
 
 	sexuality = heterosexual
@@ -261,19 +254,9 @@ tfw_lineofnestador_001 = { # Merp Wizard king of Evermist
 	trait = theologian
 	trait = reclusive
 	trait = lifestyle_physician
-	trait = lifestyle_mage
-	
-	
-	
-	
-
-	2.1.1 = {	#-1423.1.1
+2.1.1 = {	#-1423.1.1
 		birth = yes
 		learn_language = language_quenya # Accounting for Noldor culture using Sindarin as primary on account of the Noldor of Middle-earth
-		add_trait_xp = {
-			trait = lifestyle_mage
-			value = 100
-		}
 		add_trait_xp = {
 			trait = lifestyle_physician
 			value = 100
@@ -1436,6 +1419,7 @@ tfw_lineofwindan_sairavel_001 = { # Founding King of West Frostwood; ancient Ava
 	dynasty = dynasty_windan_sairavel
 	religion = faith_moriquendi
 	culture = windan
+	dna = tfw_lineofwindan_sairavel_001_dna
 
 	sexuality = heterosexual
 
@@ -1453,7 +1437,7 @@ tfw_lineofwindan_sairavel_001 = { # Founding King of West Frostwood; ancient Ava
 	learning = 10
 	prowess = 13
 
-	1.1.1 = {
+	2.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -1472,6 +1456,7 @@ tfw_lineofhwenti_hwerin_001 = { # Founding Queen of East Frostwood; ancient Avar
 	dynasty = dynasty_hwenti_hwerin
 	religion = faith_moriquendi
 	culture = hwenti
+	dna = tfw_lineofhwenti_hwerin_001_dna
 
 	sexuality = heterosexual
 
@@ -1489,7 +1474,7 @@ tfw_lineofhwenti_hwerin_001 = { # Founding Queen of East Frostwood; ancient Avar
 	learning = 11
 	prowess = 12
 
-	1.1.1 = {
+	2.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -1908,7 +1893,7 @@ tfw_lineofwindan_aereth_001 = { # Holder of c_frostwood_3 and d_west_frostwood_1
 	learning = 8
 	prowess = 7
 
-	1.1.1 = {
+	2.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -1941,7 +1926,7 @@ tfw_lineofwindan_aereth_002 = { # Ancient Avari consort; true birth predates rec
 	learning = 6
 	prowess = 8
 
-	1.1.1 = {
+	2.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -2133,7 +2118,7 @@ tfw_lineofwindan_neldarin_001 = { # Holder of c_frostwood_1; ancient Avari found
 	learning = 7
 	prowess = 9
 
-	1.1.1 = {
+	2.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -2166,7 +2151,7 @@ tfw_lineofwindan_neldarin_002 = { # Ancient Avari consort; true birth predates r
 	learning = 7
 	prowess = 8
 
-	1.1.1 = {
+	2.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -2391,7 +2376,7 @@ tfw_lineofwindan_saelith_001 = { # Holder of c_frostwood_2; ancient Avari founde
 	learning = 8
 	prowess = 7
 
-	1.1.1 = {
+	2.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -2423,7 +2408,7 @@ tfw_lineofwindan_saelith_002 = { # Ancient Avari consort; true birth predates re
 	learning = 7
 	prowess = 6
 
-	1.1.1 = {
+	2.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -2614,7 +2599,7 @@ tfw_lineofwindan_elvar_001 = { # Holder of c_frostwood_7; ancient Avari founder,
 	learning = 9
 	prowess = 6
 
-	1.1.1 = {
+	2.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -2647,7 +2632,7 @@ tfw_lineofwindan_elvar_002 = { # Ancient Avari consort; true birth predates reco
 	learning = 8
 	prowess = 6
 
-	1.1.1 = {
+	2.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -2668,8 +2653,7 @@ tfw_lineofwindan_elvar_003 = { # Second generation heir of Elur's house
 	sexuality = heterosexual
 
 	trait = fickle
-	trait = stubborn
-	trait = gregarious
+trait = gregarious
 	trait = education_stewardship_2
 
 	diplomacy = 6
@@ -2872,7 +2856,7 @@ tfw_lineofwindan_maerwen_001 = { # Holder of c_frostwood_8; ancient Avari founde
 	learning = 7
 	prowess = 8
 
-	1.1.1 = {
+	2.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -2904,7 +2888,7 @@ tfw_lineofwindan_maerwen_002 = { # Ancient Avari consort; true birth predates re
 	learning = 5
 	prowess = 8
 
-	1.1.1 = {
+	2.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -3095,7 +3079,7 @@ tfw_lineofwindan_thalorn_001 = { # Holder of c_frostwood_9; ancient Avari founde
 	learning = 8
 	prowess = 6
 
-	1.1.1 = {
+	2.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -3128,7 +3112,7 @@ tfw_lineofwindan_thalorn_002 = { # Ancient Avari consort; true birth predates re
 	learning = 7
 	prowess = 5
 
-	1.1.1 = {
+	2.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -3352,7 +3336,7 @@ tfw_lineofwindan_calenth_001 = { # Holder of c_frostwood_11 and d_west_frostwood
 	learning = 7
 	prowess = 7
 
-	1.1.1 = {
+	2.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -3385,7 +3369,7 @@ tfw_lineofwindan_calenth_002 = { # Ancient Avari consort; true birth predates re
 	learning = 7
 	prowess = 5
 
-	1.1.1 = {
+	2.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -3577,7 +3561,7 @@ tfw_lineofwindan_varath_001 = { # Holder of c_frostwood_10; ancient Avari founde
 	learning = 8
 	prowess = 7
 
-	1.1.1 = {
+	2.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -3610,7 +3594,7 @@ tfw_lineofwindan_varath_002 = { # Ancient Avari consort; true birth predates rec
 	learning = 5
 	prowess = 5
 
-	1.1.1 = {
+	2.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -3834,7 +3818,7 @@ tfw_lineofwindan_rindor_001 = { # Holder of c_frostwood_12; ancient Avari founde
 	learning = 8
 	prowess = 7
 
-	1.1.1 = {
+	2.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -3867,7 +3851,7 @@ tfw_lineofwindan_rindor_002 = { # Ancient Avari consort; true birth predates rec
 	learning = 8
 	prowess = 7
 
-	1.1.1 = {
+	2.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -4060,7 +4044,7 @@ tfw_lineofwindan_aelvar_001 = { # Holder of c_frostwood_13; ancient Avari founde
 	learning = 7
 	prowess = 9
 
-	1.1.1 = {
+	2.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -4092,7 +4076,7 @@ tfw_lineofwindan_aelvar_002 = { # Ancient Avari consort; true birth predates rec
 	learning = 8
 	prowess = 5
 
-	1.1.1 = {
+	2.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -4316,7 +4300,7 @@ tfw_lineofwindan_sulvar_001 = { # Holder of c_frostwood_18 and d_west_frostwood_
 	learning = 8
 	prowess = 7
 
-	1.1.1 = {
+	2.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -4349,7 +4333,7 @@ tfw_lineofwindan_sulvar_002 = { # Ancient Avari consort; true birth predates rec
 	learning = 7
 	prowess = 7
 
-	1.1.1 = {
+	2.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -4541,7 +4525,7 @@ tfw_lineofwindan_mirath_001 = { # Holder of c_frostwood_14; ancient Avari founde
 	learning = 9
 	prowess = 6
 
-	1.1.1 = {
+	2.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -4574,7 +4558,7 @@ tfw_lineofwindan_mirath_002 = { # Ancient Avari consort; true birth predates rec
 	learning = 7
 	prowess = 5
 
-	1.1.1 = {
+	2.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -4799,7 +4783,7 @@ tfw_lineofwindan_faelor_001 = { # Holder of c_frostwood_15; ancient Avari founde
 	learning = 7
 	prowess = 8
 
-	1.1.1 = {
+	2.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -4831,7 +4815,7 @@ tfw_lineofwindan_faelor_002 = { # Ancient Avari consort; true birth predates rec
 	learning = 6
 	prowess = 5
 
-	1.1.1 = {
+	2.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -5023,7 +5007,7 @@ tfw_lineofwindan_ornaeth_001 = { # Holder of c_frostwood_16; ancient Avari found
 	learning = 8
 	prowess = 6
 
-	1.1.1 = {
+	2.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -5055,7 +5039,7 @@ tfw_lineofwindan_ornaeth_002 = { # Ancient Avari consort; true birth predates re
 	learning = 6
 	prowess = 5
 
-	1.1.1 = {
+	2.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -5279,7 +5263,7 @@ tfw_lineofwindan_galath_001 = { # Holder of c_frostwood_17; ancient Avari founde
 	learning = 7
 	prowess = 7
 
-	1.1.1 = {
+	2.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -5312,7 +5296,7 @@ tfw_lineofwindan_galath_002 = { # Ancient Avari consort; true birth predates rec
 	learning = 6
 	prowess = 5
 
-	1.1.1 = {
+	2.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -5505,7 +5489,7 @@ tfw_lineofwindan_nethrin_001 = { # Holder of c_frostwood_19; ancient Avari found
 	learning = 8
 	prowess = 7
 
-	1.1.1 = {
+	2.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -5537,7 +5521,7 @@ tfw_lineofwindan_nethrin_002 = { # Ancient Avari consort; true birth predates re
 	learning = 5
 	prowess = 6
 
-	1.1.1 = {
+	2.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -5688,8 +5672,7 @@ tfw_lineofwindan_nethrin_007 = { # Third generation of Nethiel's house
 	sexuality = heterosexual
 
 	trait = fickle
-	trait = stubborn
-	trait = vengeful
+trait = vengeful
 	trait = education_intrigue_2
 
 	diplomacy = 8
@@ -5722,8 +5705,7 @@ tfw_lineofwindan_nethrin_008 = { # Third generation of Nethiel's house
 
 	trait = humble
 	trait = zealous
-	trait = cynical
-	trait = education_martial_3
+trait = education_martial_3
 
 	diplomacy = 6
 	martial = 8
@@ -5762,7 +5744,7 @@ tfw_lineofhwenti_hwanaar_001 = { # Holder of c_frostwood_23; ancient Avari found
 	learning = 8
 	prowess = 7
 
-	1.1.1 = {
+	2.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -5794,7 +5776,7 @@ tfw_lineofhwenti_hwanaar_002 = { # Ancient Avari consort; true birth predates re
 	learning = 7
 	prowess = 6
 
-	1.1.1 = {
+	2.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -5985,7 +5967,7 @@ tfw_lineofhwenti_kuiren_001 = { # Holder of c_frostwood_24; ancient Avari founde
 	learning = 7
 	prowess = 9
 
-	1.1.1 = {
+	2.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -6018,7 +6000,7 @@ tfw_lineofhwenti_kuiren_002 = { # Ancient Avari consort; true birth predates rec
 	learning = 5
 	prowess = 7
 
-	1.1.1 = {
+	2.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -6243,7 +6225,7 @@ tfw_lineofhwenti_velenwi_001 = { # Holder of c_frostwood_25 and d_east_frostwood
 	learning = 8
 	prowess = 7
 
-	1.1.1 = {
+	2.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -6275,7 +6257,7 @@ tfw_lineofhwenti_velenwi_002 = { # Ancient Avari consort; true birth predates re
 	learning = 7
 	prowess = 6
 
-	1.1.1 = {
+	2.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -6467,7 +6449,7 @@ tfw_lineofhwenti_nauriva_001 = { # Holder of c_frostwood_26; ancient Avari found
 	learning = 9
 	prowess = 6
 
-	1.1.1 = {
+	2.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -6499,7 +6481,7 @@ tfw_lineofhwenti_nauriva_002 = { # Ancient Avari consort; true birth predates re
 	learning = 8
 	prowess = 7
 
-	1.1.1 = {
+	2.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -6724,7 +6706,7 @@ tfw_lineofhwenti_hweneth_001 = { # Holder of c_frostwood_27; ancient Avari found
 	learning = 7
 	prowess = 8
 
-	1.1.1 = {
+	2.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -6756,7 +6738,7 @@ tfw_lineofhwenti_hweneth_002 = { # Ancient Avari consort; true birth predates re
 	learning = 8
 	prowess = 7
 
-	1.1.1 = {
+	2.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -6947,7 +6929,7 @@ tfw_lineofhwenti_orelwi_001 = { # Holder of c_frostwood_28; ancient Avari founde
 	learning = 8
 	prowess = 6
 
-	1.1.1 = {
+	2.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -6980,7 +6962,7 @@ tfw_lineofhwenti_orelwi_002 = { # Ancient Avari consort; true birth predates rec
 	learning = 5
 	prowess = 6
 
-	1.1.1 = {
+	2.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -7189,6 +7171,7 @@ tfw_lineofhwenti_kwendir_001 = { # Holder of c_frostwood_31 and d_east_frostwood
 	dynasty = dynasty_hwenti_kwendir
 	religion = faith_moriquendi
 	culture = hwenti
+	dna = tfw_lineofhwenti_kwendir_001_dna
 
 	sexuality = heterosexual
 
@@ -7204,7 +7187,7 @@ tfw_lineofhwenti_kwendir_001 = { # Holder of c_frostwood_31 and d_east_frostwood
 	learning = 7
 	prowess = 7
 
-	1.1.1 = {
+	2.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -7237,7 +7220,7 @@ tfw_lineofhwenti_kwendir_002 = { # Ancient Avari consort; true birth predates re
 	learning = 8
 	prowess = 7
 
-	1.1.1 = {
+	2.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -7430,7 +7413,7 @@ tfw_lineofhwenti_sailen_001 = { # Holder of c_frostwood_29; ancient Avari founde
 	learning = 8
 	prowess = 7
 
-	1.1.1 = {
+	2.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -7462,7 +7445,7 @@ tfw_lineofhwenti_sailen_002 = { # Ancient Avari consort; true birth predates rec
 	learning = 6
 	prowess = 6
 
-	1.1.1 = {
+	2.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -7485,8 +7468,7 @@ tfw_lineofhwenti_sailen_003 = { # Second generation heir of Saila's house
 
 	trait = zealous
 	trait = humble
-	trait = cynical
-	trait = education_diplomacy_2
+trait = education_diplomacy_2
 
 	diplomacy = 8
 	martial = 6
@@ -7686,7 +7668,7 @@ tfw_lineofhwenti_vairanta_001 = { # Holder of c_frostwood_30; ancient Avari foun
 	learning = 8
 	prowess = 7
 
-	1.1.1 = {
+	2.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -7719,7 +7701,7 @@ tfw_lineofhwenti_vairanta_002 = { # Ancient Avari consort; true birth predates r
 	learning = 5
 	prowess = 5
 
-	1.1.1 = {
+	2.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -7912,7 +7894,7 @@ tfw_lineofhwenti_lethwin_001 = { # Holder of c_frostwood_32; ancient Avari found
 	learning = 7
 	prowess = 9
 
-	1.1.1 = {
+	2.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -7944,7 +7926,7 @@ tfw_lineofhwenti_lethwin_002 = { # Ancient Avari consort; true birth predates re
 	learning = 5
 	prowess = 8
 
-	1.1.1 = {
+	2.1.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -8145,4 +8127,51 @@ tfw_lineofhwenti_lethwin_008 = { # Third generation of Lethwi's house
 			add_character_flag = do_not_generate_starting_family
 		}
 	}
+}
+
+tfw_lineoftareg_001 = { # dummy to assign dna to
+	name = Tareg
+	
+
+	religion = faith_eternal_vigil
+	culture = vanyar
+	dna = tfw_lineoftareg_001_dna
+	
+	
+
+	sexuality = heterosexual
+
+	trait = brave
+	trait = gregarious
+	trait = content
+
+	diplomacy = 11
+	martial = 12
+	stewardship = 5
+	intrigue = 2
+	learning = 3
+	prowess = 12
+
+	trait = education_martial_4
+	trait = beauty_good_1
+	trait = lifestyle_blademaster
+	trait = twotreeslight
+	trait = architect
+	trait = strategist
+	trait = gallant
+	trait = loyal
+	trait = faith_warrior
+	
+	trait = winter_soldier
+	trait = holy_warrior
+	trait = organizer
+	
+
+	2.1.1 = {	#-1423.1.1
+		birth = yes
+	}
+	2.2.2 = {
+		death = yes
+	}
+	
 }

@@ -12,6 +12,16 @@ dynasty_nixni = {
 	motto = dynn_nixni_motto
 }
 
+##################
+#### Evermist ####
+##################
+
+dynasty_nestador = {
+	name = "dynn_nestador"
+	culture = "noldor"
+	motto = dynn_nestador_motto
+}
+
 
 ##################
 ##### LOSSOTH #####
@@ -1018,6 +1028,11 @@ dynasty_windan_varath = {
 	motto = dynn_windan_varath_motto
 }
 
+dynasty_tareg = {
+	name = "dynn_tareg"
+	culture = "avari"
+	motto = dynn_tareg_motto
+}
 
 ############################################################
 ##### UMLI DYNASTIES ########################################
@@ -1073,48 +1088,48 @@ dynasty_gauredain_waithor = {
 
 snoworc_ash_tusk = {
 	name = dynn_snoworc_ash_tusk
-	culture = snow_orc
+	culture = snow_orcs
 	motto = dynn_snoworc_ash_tusk_motto
 }
 
 snoworc_black_fang = {
 	name = dynn_snoworc_black_fang
-	culture = snow_orc
+	culture = snow_orcs
 	motto = dynn_snoworc_black_fang_motto
 }
 
 snoworc_bloodscale = {
 	name = dynn_snoworc_bloodscale
-	culture = snow_orc
+	culture = snow_orcs
 	motto = dynn_snoworc_bloodscale_motto
 }
 
 snoworc_bone_crown = {
 	name = dynn_snoworc_bone_crown
-	culture = snow_orc
+	culture = snow_orcs
 	motto = dynn_snoworc_bone_crown_motto
 }
 
 snoworc_dragonblood = {
 	name = dynn_snoworc_dragonblood
-	culture = snow_orc
+	culture = snow_orcs
 	motto = dynn_snoworc_dragonblood_motto
 }
 
 snoworc_frostclaw = {
 	name = dynn_snoworc_frostclaw
-	culture = snow_orc
+	culture = snow_orcs
 	motto = dynn_snoworc_frostclaw_motto
 }
 
 snoworc_ironhide = {
 	name = dynn_snoworc_ironhide
-	culture = snow_orc
+	culture = snow_orcs
 	motto = dynn_snoworc_ironhide_motto
 }
 
 snoworc_red_maw = {
 	name = dynn_snoworc_red_maw
-	culture = snow_orc
+	culture = snow_orcs
 	motto = dynn_snoworc_red_maw_motto
 }

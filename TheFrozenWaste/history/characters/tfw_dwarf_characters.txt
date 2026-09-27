@@ -1,4 +1,4 @@
-###############################
+﻿###############################
 ### IRONFISTS OF NIDAVELLIR ###
 ###############################
 # Separate history file.
@@ -21,10 +21,7 @@ tfw_lineofsindri_001 = { # younger sister of Eitri
 	religion = faith_ironfists
 	culture = ironfists
 
-	father = lineofsindriVI
-	mother = nidavellir_royal_mother
-
-	sexuality = heterosexual
+sexuality = heterosexual
 
 	trait = ambitious
 	trait = gregarious
@@ -54,11 +51,9 @@ tfw_lineofsindri_002 = { # founder of Nidavellir; base stats total 55
 	dynasty = dynasty_sindri
 	religion = faith_ironfists
 	culture = ironfists
+	dna = etri_dna
 
-	father = lineofsindriVI
-	mother = nidavellir_royal_mother
-
-	sexuality = heterosexual
+sexuality = heterosexual
 
 	trait = ambitious
 	trait = diligent
@@ -126,6 +121,7 @@ tfw_lineofsindri_003 = { # son and heir of Eitri; replaces Sindri VII; base stat
 	dynasty = dynasty_sindri
 	religion = faith_ironfists
 	culture = ironfists
+	dna = brokkr_dna
 
 	father = tfw_lineofsindri_002
 	mother = tfw_lineofnidavellir_zharakh_001
@@ -302,6 +298,7 @@ tfw_lineofsindri_006 = { # grandson of Eitri; base stats total 55
 	dynasty = dynasty_sindri
 	religion = faith_ironfists
 	culture = ironfists
+	dna = tfw_lineofsindri_006_dna
 
 	father = tfw_lineofsindri_003
 	mother = tfw_lineofnidavellir_tharim_001
@@ -805,9 +802,7 @@ tfw_lineofnidavellir_kharum_005 = { # sibling of Khurubra
 
 	trait = forgiving
 	trait = ambitious
-	trait = content
-
-	diplomacy = 7
+diplomacy = 7
 	martial = 5
 	stewardship = 7
 	intrigue = 4
@@ -1152,9 +1147,7 @@ tfw_lineofnidavellir_kharum_011 = {
 
 	trait = forgiving
 	trait = ambitious
-	trait = content
-
-	diplomacy = 7
+diplomacy = 7
 	martial = 5
 	stewardship = 7
 	intrigue = 4
@@ -1540,9 +1533,7 @@ tfw_lineofnidavellir_tharim_005 = { # sibling of U_U_vatha
 
 	trait = forgiving
 	trait = ambitious
-	trait = content
-
-	diplomacy = 7
+diplomacy = 7
 	martial = 5
 	stewardship = 7
 	intrigue = 4
@@ -1887,9 +1878,7 @@ tfw_lineofnidavellir_tharim_012 = {
 
 	trait = forgiving
 	trait = ambitious
-	trait = content
-
-	diplomacy = 7
+diplomacy = 7
 	martial = 5
 	stewardship = 7
 	intrigue = 4
@@ -2266,9 +2255,7 @@ tfw_lineofnidavellir_kheledan_004 = { # parent generation of the third hall hous
 
 	trait = forgiving
 	trait = ambitious
-	trait = content
-
-	diplomacy = 7
+diplomacy = 7
 	martial = 5
 	stewardship = 7
 	intrigue = 4
@@ -2552,9 +2539,7 @@ tfw_lineofnidavellir_kharum_012 = {
 
 	trait = forgiving
 	trait = ambitious
-	trait = content
-
-	diplomacy = 6
+diplomacy = 6
 	martial = 5
 	stewardship = 6
 	intrigue = 4

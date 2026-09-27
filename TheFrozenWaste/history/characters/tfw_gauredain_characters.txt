@@ -1,4 +1,4 @@
-############################################################
+﻿############################################################
 # GAUREDAIN - HOUSE WAITHOR
 # One continuous Gauredain family line, 6700-7200
 # Culture: gauredain
@@ -120,8 +120,7 @@ tfw_lineofgauredain_waithor_004 = { # Sibling of generation 2 continuation
 
 	trait = compassionate
 	trait = honest
-	trait = callous
-	trait = education_stewardship_1
+trait = education_stewardship_1
 
 	diplomacy = 5
 	martial = 3
@@ -584,8 +583,7 @@ tfw_lineofgauredain_waithor_018 = { # Sibling of generation 5 continuation
 
 	trait = gregarious
 	trait = wrathful
-	trait = shy
-	trait = education_intrigue_1
+trait = education_intrigue_1
 
 	diplomacy = 4
 	martial = 5
@@ -651,8 +649,7 @@ tfw_lineofgauredain_waithor_020 = { # Lowborn spouse
 	culture = gauredain
 
 	trait = compassionate
-	trait = callous
-	trait = just
+trait = just
 	trait = education_learning_3
 
 	diplomacy = 6
@@ -1316,8 +1313,7 @@ tfw_lineofgauredain_waithor_040 = { # Generation 10 continuation
 
 	trait = forgiving
 	trait = arrogant
-	trait = humble
-	trait = education_stewardship_1
+trait = education_stewardship_1
 
 	diplomacy = 4
 	martial = 4
@@ -1578,8 +1574,7 @@ tfw_lineofgauredain_waithor_048 = { # Sibling of generation 12 continuation
 
 	trait = wrathful
 	trait = temperate
-	trait = calm
-	trait = education_learning_3
+trait = education_learning_3
 
 	diplomacy = 3
 	martial = 7
@@ -1610,8 +1605,7 @@ tfw_lineofgauredain_waithor_049 = { # Sibling of generation 12 continuation
 
 	trait = honest
 	trait = just
-	trait = deceitful
-	trait = education_intrigue_1
+trait = education_intrigue_1
 
 	diplomacy = 5
 	martial = 3
@@ -1678,8 +1672,7 @@ tfw_lineofgauredain_waithor_051 = { # Lowborn spouse
 
 	trait = wrathful
 	trait = brave
-	trait = calm
-	trait = education_learning_2
+trait = education_learning_2
 
 	diplomacy = 4
 	martial = 6
