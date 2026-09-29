@@ -1,177 +1,186 @@
 ﻿l_english:
 
-  ### FORODWAITH SPECIAL BUILDINGS ###
+ #### UNDERGROUND ELVEN BUILDINGS ####
 
-  # Tareg's Corpse
-  building_type_wonder_taregs_corpse: "Tareg's Corpse"
-  building_type_wonder_taregs_corpse_desc: "$building_wonder_taregs_corpse_desc$"
-  building_wonder_taregs_corpse: "Tareg's Corpse"
-  building_wonder_taregs_corpse_desc: "Here's where the Avarin King Tareg met his end at the hands of the Ice Queen, His perfectly preserved body standing upright and defiant in a meter thick prision of Ice. To the Avari who remained in Frostwood, this is both the site of their greatest defeat and a reminder of why they remain viligent."
+ # Underground Elven Hall
+ building_type_elven_hall_01: "Underground Elven Hall"
+ building_type_elven_hall_01_desc: "A great refuge of the Elves beneath the earth, where halls, gardens, workshops, and dwellings are carved into vast caverns and hidden from the wider world."
+ building_elven_hall_01: "#high Underground Elven Sanctuary#!"
+ building_elven_hall_01_desc: "Though the [elves|E] that dwell here are few in number, this subterranean [elven_sanctuary|E] bears the mark of their dwelling regardless, with crystal lamps, flowing water, and carefully tended gardens beneath the stone."
+ building_elven_hall_02: "#high Vibrant Underground Elven Sanctuary#!"
+ building_elven_hall_02_desc: "Small groups of [elvish|E] dwellings can be found throughout the caverns surrounding this [elven_sanctuary|E], the presence of the Elves increasingly obvious as carved roads and illuminated passages carry travelers and traders through the deeps."
+ building_elven_hall_03: "#high Underground Elven Stronghold#!"
+ building_elven_hall_03_desc: "An [elven_stronghold|E] beneath the earth, many of the more sophisticated parts of [elvish|E] civilization flourish here, with fine estates, libraries, halls, gardens, and fountains housed within great caverns."
+ building_elven_hall_04: "#high Notable Underground Elven Stronghold#!"
+ building_elven_hall_04_desc: "An underground [elven_stronghold|E] of some renown, its name has become synonymous with the surrounding mountain and the halls beneath it, as more Elves establish their homes within its deep chambers."
+ building_elven_hall_05: "#high Great Underground Elven Stronghold#!"
+ building_elven_hall_05_desc: "With stout gates, guarded passages, and vast vaulted chambers, the [elves|E] of the region have built a truly impressive [elven_stronghold|E]. Within its halls are many works of peerless worth and ancient lore."
+ building_elven_hall_06: "#high Underground Elven City#!"
+ building_elven_hall_06_desc: "A jewel of the [elves|E] beneath the earth, this [elven_city|E] is a true locus of power and wisdom. Its broad halls, gardens, workshops, and illuminated caverns rival the greatest settlements of the surface."
+ building_elven_hall_07: "#high Legendary Underground Elven City#!"
+ building_elven_hall_07_desc: "Unparalleled in its size and majesty, few cities of [ardaconcept|E] can hope to compare to this subterranean [elven_city|E], whose endless halls and shining caverns stand as an exemplar of [elvish|E] civilization."
 
-  # The Ribs of Ancalagon
-  building_type_wonder_ribs_of_ancalagon: "The Ribs of Ancalagon"
-  building_type_wonder_ribs_of_ancalagon_desc: "$building_wonder_ribs_of_ancalagon_desc$"
-  building_wonder_ribs_of_ancalagon: "The Ribs of Ancalagon"
-  building_wonder_ribs_of_ancalagon_desc: "Vast bones jut from the frozen earth like the ruined arches of some impossible hall. Said to be the ribs of Ancalagon the Black, they inspire dread even in those who dismiss the oldest tales as legend. The land around them is bleak and perilous, yet their terrible grandeur draws the bold, the curious, and the foolhardy from afar."
+ # Elven Cavern Gardens
+ building_type_elven_cavern_gardens_01: "Elven Cavern Gardens"
+ building_type_elven_cavern_gardens_01_desc: "Beneath the earth, the Elves coax life from stone and shadow, cultivating gardens by spring-water, crystal light, and patient care."
+ building_elven_cavern_gardens_01: "Moss Gardens"
+ building_elven_cavern_gardens_01_desc: "Small beds of moss, herbs, roots, and shade-loving plants are tended beside springs and lamp-lit chambers."
+ building_elven_cavern_gardens_02: "Terraced Cavern Gardens"
+ building_elven_cavern_gardens_02_desc: "Stone terraces have been cut into the cavern walls, allowing larger gardens to flourish wherever water may be guided."
+ building_elven_cavern_gardens_03: "Lamp-Lit Groves"
+ building_elven_cavern_gardens_03_desc: "Crystal lamps and reflected light allow delicate herbs, flowers, and fruit-bearing plants to thrive far beneath the open sky."
+ building_elven_cavern_gardens_04: "Gardens of the Deep"
+ building_elven_cavern_gardens_04_desc: "Whole chambers have been set aside for carefully tended gardens, providing food, medicine, and beauty to the halls."
+ building_elven_cavern_gardens_05: "Verdant Caverns"
+ building_elven_cavern_gardens_05_desc: "What were once bare caverns have become lush places of greenery, where trees, flowers, and vines grow among carved pools and streams."
+ building_elven_cavern_gardens_06: "Gardens Beneath the Mountain"
+ building_elven_cavern_gardens_06_desc: "Generations of careful cultivation have transformed the deep halls into a living landscape of orchards, herbs, flowing water, and shaded paths."
+ building_elven_cavern_gardens_07: "Evergreen Deeps"
+ building_elven_cavern_gardens_07_desc: "The greatest caverns bloom as though beneath an unseen spring, their gardens sustained by ancient Elven skill and made beautiful beyond mortal imitation."
 
-  # Frozen Remains of the Númenórean Fleet
-  building_type_wonder_frozen_numenorean_fleet: "Shatterwood"
-  building_type_wonder_frozen_numenorean_fleet_desc: "$building_wonder_frozen_numenorean_fleet_desc$"
-  building_wonder_frozen_numenorean_fleet: "Shatterwood"
-  building_wonder_frozen_numenorean_fleet_desc: "Locked within the ice are the broken timbers and weathered hulls of an ancient Númenórean fleet, Shatted by the Lady of Cold near the end of the Second Age. The survivors would later become a major influence on the Forodain, who treat the hulks with reverence but shifting ice and treacherous ground make any journey among them a dangerous undertaking."
+ # Elven Crystal Delvings
+ building_type_elven_crystal_delvings_01: "Elven Crystal Delvings"
+ building_type_elven_crystal_delvings_01_desc: "Rather than tear greedily at the earth, Elven miners work with care and precision, following veins of crystal, ore, and precious stone through the living rock."
+ building_elven_crystal_delvings_01: "Shallow Crystal Veins"
+ building_elven_crystal_delvings_01_desc: "Small veins of crystal and ore close to the settled halls are worked carefully and with little disturbance to the surrounding stone."
+ building_elven_crystal_delvings_02: "Shimmering Shafts"
+ building_elven_crystal_delvings_02_desc: "New shafts follow bright seams deeper into the mountain, yielding greater quantities of useful ore and beautiful crystal."
+ building_elven_crystal_delvings_03: "Gleaming Delvings"
+ building_elven_crystal_delvings_03_desc: "Well-supported galleries wind through the rock, opening richer deposits while preserving the shape and beauty of the caverns."
+ building_elven_crystal_delvings_04: "Crystal Galleries"
+ building_elven_crystal_delvings_04_desc: "The mines themselves have become works of craft, their walls left glittering with exposed crystal and their passages shaped with Elven care."
+ building_elven_crystal_delvings_05: "Deep Gemworks"
+ building_elven_crystal_delvings_05_desc: "Miners, cutters, and jewelers work side by side, bringing forth precious stones and refining them within workshops close to the delvings."
+ building_elven_crystal_delvings_06: "Vaults of Living Crystal"
+ building_elven_crystal_delvings_06_desc: "Vast chambers rich with crystal and mineral wealth are worked with great restraint, leaving much of their natural splendor intact."
+ building_elven_crystal_delvings_07: "Treasures of the Deep"
+ building_elven_crystal_delvings_07_desc: "The richest veins beneath the halls are known and carefully tended, yielding gems and metals of legendary quality without despoiling the mountain."
 
-  # Whitehaven
-  building_type_wonder_whitehaven: "Whitehaven"
-  building_type_wonder_whitehaven_desc: "$building_wonder_whitehaven_desc$"
-  building_wonder_whitehaven: "Whitehaven"
-  building_wonder_whitehaven_desc: "Raised along a sheltered northern harbor, Whitehaven is a stout port of pale stone overlooking the cold sea. Its quays shelter merchants, fishing craft, and warships alike, while strong walls and well-stocked storehouses make the settlement a secure anchor for commerce and travel across the northern waters."
+ # Elven Deep Markets
+ building_type_elven_deep_markets_01: "Elven Deep Markets"
+ building_type_elven_deep_markets_01_desc: "Within the underground halls, broad chambers and galleries become places of trade, art, conversation, and exchange."
+ building_elven_deep_markets_01: "Passage Markets"
+ building_elven_deep_markets_01_desc: "Small stalls gather at busy junctions where craftsmen, growers, and travelers exchange their wares."
+ building_elven_deep_markets_02: "Cavern Bazaars"
+ building_elven_deep_markets_02_desc: "Permanent stalls and workshops line widened passages, drawing regular trade from across the underground settlement."
+ building_elven_deep_markets_03: "Markets of the Halls"
+ building_elven_deep_markets_03_desc: "Broad market chambers have become centers of commerce where crafts, foodstuffs, and imported goods change hands."
+ building_elven_deep_markets_04: "Grand Deep Markets"
+ building_elven_deep_markets_04_desc: "Merchants and artisans fill carefully planned halls whose galleries and side chambers are dedicated to trade."
+ building_elven_deep_markets_05: "Galleries of Exchange"
+ building_elven_deep_markets_05_desc: "Entire networks of connected caverns are given over to workshops, storehouses, stalls, and meeting places."
+ building_elven_deep_markets_06: "Markets Beneath the Mountain"
+ building_elven_deep_markets_06_desc: "A sophisticated commercial quarter serves nobles, artisans, travelers, and merchants arriving from distant lands."
+ building_elven_deep_markets_07: "Great Halls of Exchange"
+ building_elven_deep_markets_07_desc: "The markets beneath the mountain are famed abroad for the beauty of their wares, the skill of their craftsmen, and the wealth that passes through them."
 
-  # Númenórean Whaling Post / Forodain City
-  building_type_wonder_forodain_whaling_city: "Achrond"
-  building_type_wonder_forodain_whaling_city_desc: "$building_wonder_forodain_whaling_city_desc$"
-  building_wonder_forodain_whaling_city: "Achrond"
-  building_wonder_forodain_whaling_city_desc: "Origionally a Numenorean Whaling port the haven of Achrond grew into a one of the main centers of Forodain Society following the fall of numenor."
+ # Elven Deep Forges
+ building_type_elven_deep_forges_01: "Elven Deep Forges"
+ building_type_elven_deep_forges_01_desc: "Hidden beneath the earth, Elven smiths maintain carefully ventilated forges where mundane tools and peerless works are wrought alike."
+ building_elven_deep_forges_01: "Cavern Smithies"
+ building_elven_deep_forges_01_desc: "Small smithies provide the halls with nails, fittings, tools, and simple arms."
+ building_elven_deep_forges_02: "Ventilated Forges"
+ building_elven_deep_forges_02_desc: "Carefully designed vents carry smoke and heat away from the inhabited halls, allowing larger forges to operate safely."
+ building_elven_deep_forges_03: "Forges of the Halls"
+ building_elven_deep_forges_03_desc: "Purpose-built forge chambers house skilled smiths and their apprentices, producing arms and tools of fine quality."
+ building_elven_deep_forges_04: "Great Deep Forges"
+ building_elven_deep_forges_04_desc: "Large forge complexes support armorers, weaponsmiths, metalworkers, and other master craftsmen."
+ building_elven_deep_forges_05: "Forges Beneath the Mountain"
+ building_elven_deep_forges_05_desc: "Powerful furnaces and ancient techniques allow the smiths here to work large quantities of metal without sacrificing quality."
+ building_elven_deep_forges_06: "Masterwork Forges"
+ building_elven_deep_forges_06_desc: "The finest smiths of the halls labor in carefully planned workshops where every tool and furnace has been refined over generations."
+ building_elven_deep_forges_07: "Forges of Undying Flame"
+ building_elven_deep_forges_07_desc: "Legendary forges burn in the deepest halls, producing works of extraordinary strength, beauty, and refinement."
 
-  # Morgoth's Well
-  building_type_wonder_morgoths_well: "Morgoth's Well"
-  building_type_wonder_morgoths_well_desc: "$building_wonder_morgoths_well_desc$"
-  building_wonder_morgoths_well: "Morgoth's Well"
-  building_wonder_morgoths_well_desc: "In the elder days this was a vast chasm deep into the bowels of the world, here was where Maedthros cast himself and his Silmiril into the earth. But nothing is eternal and the rounding of the world lead to a massive eruption of magma, turning the Crevice into a mightly shield Volcano."
+ # Elven Echoing Halls
+ building_type_elven_echoing_halls_01: "Elven Echoing Halls"
+ building_type_elven_echoing_halls_01_desc: "Great communal chambers form the heart of underground Elven life, hosting song, counsel, ceremony, learning, and celebration."
+ building_elven_echoing_halls_01: "Gathering Chambers"
+ building_elven_echoing_halls_01_desc: "Simple shared chambers provide a place for the inhabitants of the halls to gather, speak, and sing together."
+ building_elven_echoing_halls_02: "Gathering Halls"
+ building_elven_echoing_halls_02_desc: "Larger public halls have been set aside for communal meals, music, councils, and celebrations."
+ building_elven_echoing_halls_03: "Halls of Song"
+ building_elven_echoing_halls_03_desc: "Music carries beautifully through the shaped stone, and these halls have become beloved places of performance and remembrance."
+ building_elven_echoing_halls_04: "Great Echoing Halls"
+ building_elven_echoing_halls_04_desc: "Grand communal chambers link the scattered quarters of the settlement and serve as centers of public life."
+ building_elven_echoing_halls_05: "Halls of Memory"
+ building_elven_echoing_halls_05_desc: "Stories, songs, and the memory of generations are preserved in halls whose walls are carved and painted with scenes of ages past."
+ building_elven_echoing_halls_06: "Halls of the People"
+ building_elven_echoing_halls_06_desc: "Vast civic chambers host councils, feasts, instruction, festivals, and the daily affairs of the underground community."
+ building_elven_echoing_halls_07: "Halls Without End"
+ building_elven_echoing_halls_07_desc: "A magnificent network of public halls forms the cultural heart of the realm, filled always with song, memory, and the voices of its people."
 
-  # Wolfmere
-  building_type_wonder_wolfmere: "Wolfmere"
-  building_type_wonder_wolfmere_desc: "$building_wonder_wolfmere_desc$"
-  building_wonder_wolfmere: "Wolfmere"
-  building_wonder_wolfmere_desc: "Wolfmere is a cold lake ringed by dark woods and defensible ridges, long used as a gathering place by the peoples of the surrounding wilderness. Fishing camps and fortified settlements cling to its shores, profiting from the lake while keeping watch against raiders and the beasts that prowl the winter forests."
+ # Elven Subterranean Barracks
+ building_type_elven_subterranean_barracks_01: "Elven Subterranean Barracks"
+ building_type_elven_subterranean_barracks_01_desc: "Barracks and guard halls placed throughout the underground settlement house warriors trained to defend narrow passages, gates, and cavern approaches."
+ building_elven_subterranean_barracks_01: "Passage Guardrooms"
+ building_elven_subterranean_barracks_01_desc: "Small guardrooms near the principal passages provide quarters for those who keep watch over the halls."
+ building_elven_subterranean_barracks_02: "Deep Barracks"
+ building_elven_subterranean_barracks_02_desc: "Expanded barracks allow a larger permanent guard to be stationed throughout the underground settlement."
+ building_elven_subterranean_barracks_03: "Barracks of the Halls"
+ building_elven_subterranean_barracks_03_desc: "Well-equipped garrisons stand ready near important gates, passages, and public chambers."
+ building_elven_subterranean_barracks_04: "Great Subterranean Barracks"
+ building_elven_subterranean_barracks_04_desc: "Professional soldiers are housed close to strategic junctions, able to respond quickly to threats from any direction."
+ building_elven_subterranean_barracks_05: "Guard Halls"
+ building_elven_subterranean_barracks_05_desc: "Elite defenders train constantly for battle in tunnels, chambers, stairways, and narrow approaches."
+ building_elven_subterranean_barracks_06: "Barracks Beneath the Mountain"
+ building_elven_subterranean_barracks_06_desc: "A disciplined permanent force guards the sprawling city, supplied by armories and storehouses integrated into the barracks."
+ building_elven_subterranean_barracks_07: "Halls of the Deep Guard"
+ building_elven_subterranean_barracks_07_desc: "The finest warriors of the realm keep ceaseless watch from vast fortified barracks throughout the deepest halls."
 
-  # Site Where Beowulf Slew the Dragon Faron
-  building_type_wonder_faron_dragon_site: "The Barrow of Faron"
-  building_type_wonder_faron_dragon_site_desc: "$building_wonder_faron_dragon_site_desc$"
-  building_wonder_faron_dragon_site: "The Barrow of Faron"
-  building_wonder_faron_dragon_site_desc: "Here, according to the songs of the Forodain, the hero Beowulf faced the dragon Faron and slew the beast after a terrible struggle. Cairns and weathered memorial stones mark the battlefield, and warriors still come to honor the courage of the hero whose deed has echoed through generations."
+ # Elven Warded Passages
+ building_type_elven_warded_passages_01: "Elven Warded Passages"
+ building_type_elven_warded_passages_01_desc: "The Elves make the natural strength of the underground halls greater still, protecting their passages with gates, hidden defenses, and carefully prepared chokepoints."
+ building_elven_warded_passages_01: "Watched Passages"
+ building_elven_warded_passages_01_desc: "The most important tunnels are patrolled and watched from small hidden posts."
+ building_elven_warded_passages_02: "Guarded Passages"
+ building_elven_warded_passages_02_desc: "Gates and permanent watch posts protect the busiest entrances and junctions."
+ building_elven_warded_passages_03: "Sealed Ways"
+ building_elven_warded_passages_03_desc: "Strong doors, concealed barriers, and prepared chokepoints protect the inner halls from sudden assault."
+ building_elven_warded_passages_04: "Wards of the Deep"
+ building_elven_warded_passages_04_desc: "Layered defenses guard every important approach, forcing an enemy to fight for each passage."
+ building_elven_warded_passages_05: "Hidden Defenses"
+ building_elven_warded_passages_05_desc: "Secret gates, concealed firing positions, and false passages make the ways difficult for any outsider to navigate safely."
+ building_elven_warded_passages_06: "Labyrinthine Wards"
+ building_elven_warded_passages_06_desc: "The approaches to the halls have become a maze of guarded paths, sealed chambers, and deliberately misleading passages."
+ building_elven_warded_passages_07: "Unbreakable Ways"
+ building_elven_warded_passages_07_desc: "Generations of Elven engineering have rendered the deepest approaches nearly impossible to force without terrible cost."
 
-  # Evermist
-  building_type_wonder_evermist_01: "Evermist"
-  building_type_wonder_evermist_01_desc: "Hidden among mist-shrouded heights, Evermist is an ancient Elven refuge where stone, water, and living wood have been shaped into a harmonious whole."
-  building_wonder_evermist_01: "Refuge of Evermist"
-  building_wonder_evermist_01_desc: "Veiled by perpetual mist, the first halls of Evermist lie concealed among steep ridges, sheltered gardens, and clear-running streams. Its quiet beauty offers safety and restoration to those who dwell within, while the surrounding terrain makes the refuge exceedingly difficult for an enemy to approach."
-  building_wonder_evermist_02: "Stronghold of Evermist"
-  building_wonder_evermist_02_desc: "Evermist has grown into a formidable hidden stronghold. Terraced halls, guarded paths, concealed storehouses, and carefully cultivated gardens blend so completely into the landscape that fortress and wilderness seem part of a single design."
-  building_wonder_evermist_03: "Sanctuary of Evermist"
-  building_wonder_evermist_03_desc: "At its height, Evermist is both sanctuary and fortress, a place of learning, healing, contemplation, and unyielding defense. Its halls disappear into the mist and stone, while its gardens and waters seem untouched by the passing of years."
+ # Elven Cavern Fletchers
+ building_type_elven_cavern_fletchers_01: "Elven Cavern Fletchers"
+ building_type_elven_cavern_fletchers_01_desc: "Bowyers and fletchers within the underground halls craft weapons suited to both open battle and the narrow confines of the deep."
+ building_elven_cavern_fletchers_01: "Cavern Fletchers"
+ building_elven_cavern_fletchers_01_desc: "Small groups of bowyers and fletchers maintain bows and arrows for the guards of the underground halls."
+ building_elven_cavern_fletchers_02: "Deep Bowyers"
+ building_elven_cavern_fletchers_02_desc: "Dedicated workshops produce greater quantities of bows, arrows, and specialized missile equipment."
+ building_elven_cavern_fletchers_03: "Fletchers of the Halls"
+ building_elven_cavern_fletchers_03_desc: "Skilled craftsmen supply the garrison with reliable weapons designed for use in tunnels and chambers."
+ building_elven_cavern_fletchers_04: "Great Cavern Fletchers"
+ building_elven_cavern_fletchers_04_desc: "Large workshops equip whole companies of archers and skirmishers with finely balanced weapons."
+ building_elven_cavern_fletchers_05: "Bowyers Beneath the Mountain"
+ building_elven_cavern_fletchers_05_desc: "Exceptional bows and arrows are crafted here, designed to remain deadly even where space is limited."
+ building_elven_cavern_fletchers_06: "Master Fletchers"
+ building_elven_cavern_fletchers_06_desc: "The finest bowyers refine every part of their craft, from the shaping of the bow to the balance and flight of each arrow."
+ building_elven_cavern_fletchers_07: "Fletchers of the Deep Guard"
+ building_elven_cavern_fletchers_07_desc: "Legendary craftsmen supply the elite defenders of the halls with bows and arrows of unmatched precision."
 
-  # Helecthil
-  building_type_wonder_helecthil_01: "Helecthil"
-  building_type_wonder_helecthil_01_desc: "A beacon and sanctuary of the Lossidil, Helecthil shines across the frozen north as a place of guidance, endurance, and spiritual refuge."
-  building_wonder_helecthil_01: "Beacon of Helecthil"
-  building_wonder_helecthil_01_desc: "A bright beacon rises above the frozen landscape, guiding travelers through snow, darkness, and bitter wind. Around it stands a modest sanctuary where the weary may find warmth, rest, and a moment of peace beneath the northern sky."
-  building_wonder_helecthil_02: "Sanctuary of Helecthil"
-  building_wonder_helecthil_02_desc: "The beacon has become the heart of a flourishing sanctuary. Halls, storehouses, and sheltered dwellings cluster around its light, offering safety to travelers and sustaining settlement in lands that would otherwise resist habitation."
-  building_wonder_helecthil_03: "Great Beacon of Helecthil"
-  building_wonder_helecthil_03_desc: "Helecthil now blazes like a star over the frozen wilderness. Its great beacon can be seen from afar, while the strong halls beneath it form a prosperous refuge whose warmth, faith, and ordered life stand in defiance of the killing cold."
+ # Elven Hall Fortifications
+ building_type_elven_hall_fortifications_01: "Elven Hall Fortifications"
+ building_type_elven_hall_fortifications_01_desc: "The hidden strength of the underground halls is reinforced by gates, bastions, guarded chambers, and defensive works shaped directly into the mountain."
+ building_elven_hall_fortifications_01: "Guarded Entrances"
+ building_elven_hall_fortifications_01_desc: "Simple gates and watch posts protect the main approaches to the underground settlement."
+ building_elven_hall_fortifications_02: "Fortified Passages"
+ building_elven_hall_fortifications_02_desc: "Reinforced gates and stone defenses make the principal passages far more difficult to force."
+ building_elven_hall_fortifications_03: "Warded Gates"
+ building_elven_hall_fortifications_03_desc: "Strong gates, defensive galleries, and carefully planned approaches guard the deeper halls."
+ building_elven_hall_fortifications_04: "Deep Bastions"
+ building_elven_hall_fortifications_04_desc: "Subterranean bastions command the main passages and provide secure positions from which defenders may hold back larger forces."
+ building_elven_hall_fortifications_05: "Fortresses of Stone"
+ building_elven_hall_fortifications_05_desc: "Layered gates, fortified chambers, and prepared killing grounds turn the halls into a formidable stronghold."
+ building_elven_hall_fortifications_06: "Great Wards of the Deep"
+ building_elven_hall_fortifications_06_desc: "Massive defensive works protect every major approach to the city, with fallback positions prepared far into the mountain."
+ building_elven_hall_fortifications_07: "Unassailable Halls"
+ building_elven_hall_fortifications_07_desc: "A masterwork system of gates, bastions, concealed defenses, and narrow approaches makes these halls among the strongest fortresses beneath the earth."
 
-  # Evermist Falls
-  building_type_wonder_evermist_falls: "Evermist Falls"
-  building_type_wonder_evermist_falls_desc: "$building_wonder_evermist_falls_desc$"
-  building_wonder_evermist_falls: "Evermist Falls"
-  building_wonder_evermist_falls_desc: "A broad silver cascade plunges from the misty heights near Evermist, filling the valley with cool spray and the constant murmur of falling water. The Elves have preserved the surrounding pools and gardens with great care, and the serenity of the falls makes the site prized for rest, contemplation, and healing."
-
-  # Boiling Lake
-  building_type_wonder_boiling_lake: "Boiling Lake"
-  building_type_wonder_boiling_lake_desc: "$building_wonder_boiling_lake_desc$"
-  building_wonder_boiling_lake: "Boiling Lake"
-  building_wonder_boiling_lake_desc: "Fed by deep fires beneath the earth, this remarkable lake steams even through the fiercest northern winter. Warm waters and mineral springs have made its shores an unexpected haven, supporting permanent settlement and drawing pilgrims, healers, and travelers seeking relief from the cold."
-
-  # Forges of the Winden
-  building_type_wonder_forges_of_the_winden: "Forges of the Winden"
-  building_type_wonder_forges_of_the_winden_desc: "$building_wonder_forges_of_the_winden_desc$"
-  building_wonder_forges_of_the_winden: "Forges of the Winden"
-  building_wonder_forges_of_the_winden_desc: "The Winden have raised a great complex of furnaces, workshops, stone yards, and smithies where the wealth of the surrounding lands is shaped into tools, weapons, armor, and building materials. Their disciplined craftsmen support both war and peace, making the forges a center of industry and construction throughout the realm."
-
-  # Hwenti Halls
-  building_type_wonder_hwenti_halls: "Thalas"
-  building_type_wonder_hwenti_halls_desc: "$building_wonder_hwenti_halls_desc$"
-  building_wonder_hwenti_halls: "Thalas"
-  building_wonder_hwenti_halls_desc: "The halls of the Hwenti wind through sheltered woodland and living stone, serving at once as gathering place, archive, refuge, and seat of counsel. Knowledge is carefully preserved here, disputes are settled beneath ancient boughs, and travelers may pass through the surrounding lands under the protection of well-kept roads and watchful wardens."
-
-  # Carasthon
-  building_type_wonder_carasthon_01: "Carasthon"
-  building_type_wonder_carasthon_01_desc: "Carasthon is an Elven settlement of terraces, towers, and halls, built to command the surrounding land while fostering trade, order, and prosperity."
-  building_wonder_carasthon_01: "Young Carasthon"
-  building_wonder_carasthon_01_desc: "The foundations of Carasthon have been firmly laid. Stone roads connect new halls, storehouses, and defensible towers, while craftsmen and merchants begin to gather beneath the protection of its growing walls."
-  building_wonder_carasthon_02: "Flourishing Carasthon"
-  building_wonder_carasthon_02_desc: "Carasthon has become a prosperous regional center. Its walls and garrison have expanded alongside broad markets, workshops, granaries, and ordered streets, allowing wealth and population to grow securely behind its defenses."
-  building_wonder_carasthon_03: "Great City of Carasthon"
-  building_wonder_carasthon_03_desc: "Carasthon stands at its full splendor, a great Elven city of high towers, fortified terraces, busy markets, and elegant halls. Wealth flows through its gates, its people prosper, and its defenses ensure that the city can endure both war and winter."
-
-  # Halls of Talanthir
-  building_type_wonder_halls_of_talanthir_01: "Halls of Talanthir"
-  building_type_wonder_halls_of_talanthir_01_desc: "The Halls of Talanthir are a vast fortified industrial complex, combining workshops, storehouses, barracks, and defensive works into a single stronghold."
-  building_wonder_halls_of_talanthir_01: "Outer Halls of Talanthir"
-  building_wonder_halls_of_talanthir_01_desc: "The first halls of Talanthir combine rugged fortifications with workshops and storehouses carved into the surrounding stone. Laborers and craftsmen work under the protection of a permanent garrison, allowing the complex to expand rapidly and at comparatively low cost."
-  building_wonder_halls_of_talanthir_02: "Deep Halls of Talanthir"
-  building_wonder_halls_of_talanthir_02_desc: "The complex has expanded deeper into the earth and outward behind stronger defenses. Forges and workshops supply the garrison directly, while protected passages, layered walls, and hardened mustering spaces turn Talanthir into both an industrial center and a formidable fortress."
-  building_wonder_halls_of_talanthir_03: "Great Halls of Talanthir"
-  building_wonder_halls_of_talanthir_03_desc: "At their greatest extent, the Halls of Talanthir are a fortress built around an engine of industry. Deep storehouses feed vast workshops and forges, heavily defended gates control every approach, and the weapons and armor produced within can pass directly into the hands of the warriors stationed there."
-
-### ANGBAND GREAT BUILDINGS ###
-
-  building_type_wonder_angband_01: "Angband"
-  building_type_wonder_angband_01_desc: "The greatest fortress of the North, Angband is a vast subterranean stronghold of iron, fire, pits, forges, barracks, and uncounted chambers driven deep beneath the mountains."
-
-  building_wonder_angband_01: "Ruined Gates of Angband"
-  building_wonder_angband_01_desc: "The outer works of Angband rise again from ruin. Black walls seal the approaches, furnaces burn beneath the earth, and deep galleries are cleared for soldiers, laborers, and stores. Even in this diminished state, the fortress is a grim and formidable place."
-
-  building_wonder_angband_02: "Reawakened Angband"
-  building_wonder_angband_02_desc: "The first great halls and defenses of Angband have been restored. Vast gates, layered walls, underground mustering grounds, and fortified tunnels turn the mountain into a weapon in its own right, while renewed mines and forges feed an expanding war machine."
-
-  building_wonder_angband_03: "Iron Hells of Angband"
-  building_wonder_angband_03_desc: "Angband has spread far beneath the mountains. Endless galleries house troops and stores, great furnaces illuminate cavernous halls, and successive lines of defenses make every approach murderous. The fortress now sustains armies on a scale few realms could hope to match."
-
-  building_wonder_angband_04: "Mighty Angband"
-  building_wonder_angband_04_desc: "The stronghold has become a realm beneath the earth. Towering gates guard labyrinthine passages, immense arsenals equip hosts without rest, and whole districts are given over to barracks, workshops, prisons, and engines of war. To assault Angband is to wage war against the mountain itself."
-
-  building_wonder_angband_05: "Angband Unconquered"
-  building_wonder_angband_05_desc: "Angband stands restored to terrible grandeur. Its fortifications are layered beyond counting, its halls can shelter vast hosts, and its forges burn without ceasing. From the deepest vaults to the black gates above, every part of the fortress is built for dominion, war, and endurance. Few strongholds in Arda could hope to rival it."
-
-
-  ### DURNOST GREAT BUILDINGS ###
-
-  building_type_wonder_durnost_01: "Durnost"
-  building_type_wonder_durnost_01_desc: "Durnost is a great northern fortress, built to command the surrounding lands through strong walls, disciplined garrisons, and carefully maintained roads and storehouses."
-
-  building_wonder_durnost_01: "Fort of Durnost"
-  building_wonder_durnost_01_desc: "A stout fortress anchors the surrounding region. Its walls, barracks, and storehouses provide security for nearby settlements and a reliable base from which patrols can control the neighboring roads and passes."
-
-  building_wonder_durnost_02: "Stronghold of Durnost"
-  building_wonder_durnost_02_desc: "Durnost has grown beyond a simple fort. Additional walls, expanded barracks, and improved supply depots allow the stronghold to support a larger permanent garrison and resist prolonged attack."
-
-  building_wonder_durnost_03: "Citadel of Durnost"
-  building_wonder_durnost_03_desc: "The fortress now dominates the surrounding countryside. Thick walls and towers protect workshops, granaries, and administrative halls, while its growing garrison keeps the nearby lands orderly and secure."
-
-  building_wonder_durnost_04: "Great Citadel of Durnost"
-  building_wonder_durnost_04_desc: "Durnost has become a major regional stronghold. Multiple defensive lines, deep stores, fortified gates, and well-drilled troops make it exceedingly difficult to besiege, while trade and settlement flourish beneath its protection."
-
-  building_wonder_durnost_05: "High Fortress of Durnost"
-  building_wonder_durnost_05_desc: "At its height, Durnost is both fortress and capital. Its imposing walls command the land for leagues around, its garrison can answer threats swiftly, and its halls oversee a prosperous and disciplined domain protected by one of the strongest citadels of the North."
-  
-    ### AZNÂN-DÛM / NIDAVILLIR GREAT BUILDINGS ###
-
-  building_type_wonder_nidavillir_foundation: "Aznân-dûm"
-  building_type_wonder_nidavillir_foundation_desc: "Aznân-dûm is the great northern mansion of the Ironfists, a growing Dwarven hold of mines, workshops, fortified halls, and deep delvings carved steadily into the mountains."
-
-  building_wonder_nidavillir_foundation: "Foundations of Aznân-dûm"
-  building_wonder_nidavillir_foundation_desc: "The first permanent halls of Aznân-dûm have been driven into the mountain. Rough-hewn galleries connect mines, storehouses, workshops, and defensible chambers, while new settlers labor constantly to expand the young hold."
-
-  building_wonder_nidavillir_t2: "Hold of Aznân-dûm"
-  building_wonder_nidavillir_t2_desc: "Aznân-dûm has grown from a frontier settlement into a true Dwarven hold. Broad galleries carry ore and supplies through the mountain, workshops ring with hammer blows, and stout defenses protect the growing population dwelling beneath the stone."
-
-  building_wonder_nidavillir_t3: "Great Hold of Aznân-dûm"
-  building_wonder_nidavillir_t3_desc: "The halls of Aznân-dûm now reach deep beneath the mountains. Mines feed great forges and workshops, carefully engineered roads move goods efficiently through the hold, and increasingly formidable defenses guard its gates and inner passages."
-
-  building_wonder_nidavillir_t4: "Deep Citadel of Aznân-dûm"
-  building_wonder_nidavillir_t4_desc: "Aznân-dûm has become a mighty underground citadel. Layered gates and fortified galleries protect vast storehouses, foundries, barracks, and mines, while the craftsmen of the Ironfists turn the wealth of the mountain into weapons, armor, tools, and monumental works of stone."
-
-  building_wonder_nidavillir_t5: "Aznân-dûm, Hold of the Ironfists"
-  building_wonder_nidavillir_t5_desc: "Aznân-dûm stands among the great mansions of the Dwarves. Its deepest mines yield immense wealth, its furnaces and workshops labor without rest, and its fortified halls can shelter a great host. The Ironfists have transformed a distant northern colony into a capital worthy of their people."
-
+ elven_hall_holding_concept_key: "[elven_refuge|E]"
+ elven_hall_holding: "Elven Hall"

@@ -66,6 +66,7 @@ cleanse_angband_decision = {
 	ai_will_do = {
 		base = 100
 	}
+	ai_goal = yes
 }
 
 
@@ -130,6 +131,7 @@ heal_frostwood_decision = {
 	ai_will_do = {
 		base = 100
 	}
+	ai_goal = yes
 }
 
 unleash_angband_decision = {
@@ -179,4 +181,5 @@ unleash_angband_decision = {
 	ai_will_do = {
 		base = 100
 	}
+	ai_goal = yes
 }

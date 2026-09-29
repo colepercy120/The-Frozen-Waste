@@ -4,7 +4,7 @@
 
 # Tareg's Corpse
 wonder_taregs_corpse = {
-	type_icon = "icon_structure_newgrange.dds"
+	type_icon = "tareg_icon.dds"
 	construction_time = very_slow_construction_time
 	cost_gold = 500
 	cost_prestige = 500
@@ -84,7 +84,7 @@ wonder_ribs_of_ancalagon = {
 
 # Frozen Remains of the Númenórean Fleet
 wonder_frozen_numenorean_fleet = {
-	type_icon = "icon_building_tradeport.dds"
+	type_icon = "shattered_fleet_icon.dds"
 	construction_time = very_slow_construction_time
 	cost_gold = 500
 	cost_prestige = 500
@@ -475,7 +475,7 @@ wonder_evermist_03 = {
 
 # Helecthil - Level 1
 wonder_helecthil_01 = {
-	type_icon = "icon_wonder_beacon_of_soronomar.dds"
+	type_icon = "helecthil_icon.dds"
 	construction_time = very_slow_construction_time
 	cost_gold = 500
 	cost_prestige = 500
@@ -517,7 +517,7 @@ wonder_helecthil_01 = {
 
 # Helecthil - Level 2
 wonder_helecthil_02 = {
-	type_icon = "icon_wonder_beacon_of_soronomar.dds"
+	type_icon = "helecthil_icon.dds"
 	construction_time = very_slow_construction_time
 	cost_gold = 500
 	cost_prestige = 500
@@ -560,7 +560,7 @@ wonder_helecthil_02 = {
 
 # Helecthil - Level 3
 wonder_helecthil_03 = {
-	type_icon = "icon_wonder_beacon_of_soronomar.dds"
+	type_icon = "helecthil_icon.dds"
 	construction_time = very_slow_construction_time
 	cost_gold = 500
 	cost_prestige = 500
@@ -1060,7 +1060,7 @@ dragon_lair = {
 
 # Nidavillir Foundation - Tier 1
 wonder_nidavillir_foundation = { # Nidavillir (Ironfist Capital)
-	type_icon = "icon_structure_newgrange.dds"
+	type_icon = "nidavellir_icon.dds"
 
 	# We only build this through Decision -> Great Projects
 	can_construct_potential = {
@@ -1130,7 +1130,7 @@ wonder_nidavillir_foundation = { # Nidavillir (Ironfist Capital)
 
 # Nidavillir Hold - Tier 2
 wonder_nidavillir_t2 = { # Nidavillir (Ironfist Capital)
-	type_icon = "icon_structure_newgrange.dds"
+	type_icon = "nidavellir_icon.dds"
 
 	can_construct_potential = {
 		is_dwarf = yes
@@ -1215,7 +1215,7 @@ wonder_nidavillir_t2 = { # Nidavillir (Ironfist Capital)
 
 # Great Hold of Nidavillir - Tier 3
 wonder_nidavillir_t3 = { # Nidavillir (Ironfist Capital)
-	type_icon = "icon_structure_newgrange.dds"
+	type_icon = "nidavellir_icon.dds"
 
 	can_construct_potential = {
 		is_dwarf = yes
@@ -1301,7 +1301,7 @@ wonder_nidavillir_t3 = { # Nidavillir (Ironfist Capital)
 
 # Deep Citadel of Nidavillir - Tier 4
 wonder_nidavillir_t4 = { # Nidavillir (Ironfist Capital)
-	type_icon = "icon_structure_newgrange.dds"
+	type_icon = "nidavellir_icon.dds"
 
 	can_construct_potential = {
 		is_dwarf = yes
@@ -1389,7 +1389,7 @@ wonder_nidavillir_t4 = { # Nidavillir (Ironfist Capital)
 
 # Ironfist Capital of Nidavillir - Tier 5
 wonder_nidavillir_t5 = { # Nidavillir (Ironfist Capital)
-	type_icon = "icon_structure_newgrange.dds"
+	type_icon = "nidavellir_icon.dds"
 
 	can_construct_potential = {
 		is_dwarf = yes
@@ -1477,7 +1477,7 @@ wonder_nidavillir_t5 = { # Nidavillir (Ironfist Capital)
 }
 
 wonder_angband_01 = { # Angband - Tier 1
-	type_icon = "icon_wonder_orodruin.dds"
+	type_icon = "thangorodrim_icon.dds"
 
 	can_construct_potential = {
 		always = no
@@ -1551,7 +1551,7 @@ wonder_angband_01 = { # Angband - Tier 1
 
 
 wonder_angband_02 = { # Angband - Tier 2
-	type_icon = "icon_wonder_orodruin.dds"
+	type_icon = "thangorodrim_icon.dds"
 
 	can_construct_potential = {
 		has_building = wonder_angband_01
@@ -1627,7 +1627,7 @@ wonder_angband_02 = { # Angband - Tier 2
 
 
 wonder_angband_03 = { # Angband - Tier 3
-	type_icon = "icon_wonder_orodruin.dds"
+	type_icon = "thangorodrim_icon.dds"
 
 	can_construct_potential = {
 		has_building = wonder_angband_02
@@ -1705,7 +1705,7 @@ wonder_angband_03 = { # Angband - Tier 3
 
 
 wonder_angband_04 = { # Angband - Tier 4
-	type_icon = "icon_wonder_orodruin.dds"
+	type_icon = "thangorodrim_icon.dds"
 
 	can_construct_potential = {
 		has_building = wonder_angband_03
@@ -1785,7 +1785,7 @@ wonder_angband_04 = { # Angband - Tier 4
 
 
 wonder_angband_05 = { # Angband - Tier 5
-	type_icon = "icon_wonder_orodruin.dds"
+	type_icon = "thangorodrim_icon.dds"
 
 	can_construct_potential = {
 		has_building = wonder_angband_04
@@ -1870,7 +1870,7 @@ wonder_angband_05 = { # Angband - Tier 5
 # construct_durnost_01 through construct_durnost_05
 
 wonder_durnost_01 = { # Durnost - Tier 1
-	type_icon = "icon_building_range.dds"
+	type_icon = "durnost_icon.dds"
 
 	can_construct_potential = {
 		always = no
@@ -1926,7 +1926,7 @@ wonder_durnost_01 = { # Durnost - Tier 1
 
 
 wonder_durnost_02 = { # Durnost - Tier 2
-	type_icon = "icon_building_range.dds"
+	type_icon = "durnost_icon.dds"
 
 	can_construct_potential = {
 		has_building = wonder_durnost_01
@@ -1995,7 +1995,7 @@ wonder_durnost_02 = { # Durnost - Tier 2
 
 
 wonder_durnost_03 = { # Durnost - Tier 3
-	type_icon = "icon_building_range.dds"
+	type_icon = "durnost_icon.dds"
 
 	can_construct_potential = {
 		has_building = wonder_durnost_02
@@ -2065,7 +2065,7 @@ wonder_durnost_03 = { # Durnost - Tier 3
 
 
 wonder_durnost_04 = { # Durnost - Tier 4
-	type_icon = "icon_building_range.dds"
+	type_icon = "durnost_icon.dds"
 
 	can_construct_potential = {
 		has_building = wonder_durnost_03
@@ -2137,7 +2137,7 @@ wonder_durnost_04 = { # Durnost - Tier 4
 
 
 wonder_durnost_05 = { # Durnost - Tier 5
-	type_icon = "icon_building_range.dds"
+	type_icon = "durnost_icon.dds"
 
 	can_construct_potential = {
 		has_building = wonder_durnost_04

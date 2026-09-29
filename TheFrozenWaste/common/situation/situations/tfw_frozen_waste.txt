@@ -20,10 +20,14 @@
 	##################################################
 
 	on_start = {
-		tfw_frozen_waste_monthly_tick = yes
+		
 		character:tfw_lineofnixni_001 = {
 			add_character_flag = nixni_distracted_flag
 		}
+		set_global_variable = { name = tfw_frostwood_cleansed value = 0 }
+		set_global_variable = { name = tfw_angband_cleansed value = 0 }
+		
+		tfw_frozen_waste_monthly_tick = yes
 	}
 
 	on_end = {
@@ -87,7 +91,7 @@
 			icon = "gfx/interface/icons/faith/winter_queen_icon.dds"
 			illustration = "gfx/interface/illustrations/event_scenes/lotr_throneroom_forodwaith.dds"
 			map_province_effect = snow
-			map_province_effect_intensity = 10.0
+			map_province_effect_intensity = 1.0
 			on_start = {
 				
 			}

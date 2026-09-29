@@ -1,0 +1,80 @@
+﻿
+
+elven_government = {
+	government_rules = {
+		create_cadet_branches = yes
+		religious = no
+		court_generate_spouses = yes
+		council = yes
+		rulers_should_have_dynasty = yes
+		regiments_prestige_as_gold = no
+		dynasty_named_realms = no
+		legitimacy = yes
+		administrative = no
+		landless_playable = no
+		use_as_base_on_landed = no
+		use_as_base_on_rank_up = no
+		conditional_maa_refill = no
+		mercenary = no
+		use_title_tier_modifiers = yes
+		allow_accolades = yes
+	}
+
+	royal_court = any
+
+	fallback = 1
+	
+	supply_limit_mult_for_others = -0.5 # Elven lands should not be easily taken by non-elves
+
+	primary_holding = elven_holding
+	required_county_holdings = { elven_holding }
+	valid_holdings = { elven_holding settlement_holding elven_hall_holding}
+
+	can_get_government = {
+		is_elf = yes
+	}
+
+	primary_heritages = { heritage_quendi heritage_calaquendi heritage_lomiquendi heritage_moriquendi }
+
+	character_modifier = { # No levies from non-elven vassals
+		feudal_government_levy_contribution_add = -1
+	#	republic_government_tax_contribution_add = -1
+	#	theocracy_government_tax_contribution_add = -1
+		clan_government_levy_contribution_add = -1
+		tribal_government_levy_contribution_add = -1
+		wanua_government_levy_contribution_add = -1
+		administrative_government_levy_contribution_add = -1
+		nomad_government_levy_contribution_add = -1
+		celestial_government_levy_contribution_add = -1
+		mandala_government_levy_contribution_add = -1
+		steppe_admin_government_levy_contribution_add = -1
+		meritocratic_government_levy_contribution_add = -1
+		hobbit_government_levy_contribution_add = -1
+		oligarchy_government_levy_contribution_add = -1
+	}
+
+	vassal_contract_group = elven_vassal
+
+	ai = {
+		use_lifestyle = yes
+		#start_murders = no #No longer used apparently
+		arrange_marriage = yes
+		use_goals = yes
+		use_decisions = yes
+		use_scripted_guis = yes
+		perform_religious_reformation = yes
+		use_legends = yes
+	}
+
+	# Use flags instead of has_government for moddability if possible (i.e., wherever not visible to the player).
+	flags = {
+		government_is_elven
+		may_elevate_co_monarch
+		government_is_settled
+		government_uses_crown_authority
+		government_uses_domain_limit
+	}
+	# color = { 48 69 41 } # Forest green
+	color = hsv{ 0.39 0.93 0.54 } #Vanilla Clan
+}
+

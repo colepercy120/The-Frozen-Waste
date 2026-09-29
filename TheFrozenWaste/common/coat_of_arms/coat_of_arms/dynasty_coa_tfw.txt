@@ -354,6 +354,35 @@ dynasty_nestador={
 
 # dynasty_heorwulf # Heorwulf
 
+dynasty_heorwulf={
+	pattern="pattern_solid.dds"
+	color1=rgb { 9 32 53 }
+	color2=yellow
+	color3=red
+	colored_emblem={
+		color1=white
+		texture="ce_border_simple_square.dds"
+		instance={
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_cc_edain_stars_03.dds"
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_cc_edain_stars_08.dds"
+		instance={
+			depth=1.010000
+		}
+
+	}
+
+}
 
 
 # dynasty_maelvaren # Maelvaren
@@ -607,6 +636,56 @@ dynasty_nidavellir_gabilan={
 
 # dynasty_lossidil_celethrim # Celethrim
 
+dynasty_lossidil_celethrim={
+	custom=yes
+	pattern="pattern_solid.dds"
+	color1=purple
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=white
+		texture="ce_border_stars_05.dds"
+		instance={
+			rotation=180
+		}
+
+		instance={
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=blue_light
+		texture="ce_lindon_01.dds"
+		instance={
+			scale={ 0.700000 0.700000 }
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 51 181 105 }
+		texture="gil_galad_01.dds"
+		instance={
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_cc_edain_border_30.dds"
+		instance={
+			scale={ 0.760000 0.760000 }
+			depth=3.010000
+		}
+
+	}
+
+}
+
 
 
 # dynasty_lossidil_himrath # Himrath
@@ -790,6 +869,50 @@ dynasty_nidavellir_gabilan={
 
 
 # dynasty_adlantrim_mornaer # Mornaer
+
+dynasty_adlantrim_mornaer={
+	pattern="pattern__solid_designer.dds"
+	color1=black
+	color2=yellow
+	color3=red
+	colored_emblem={
+		color1=white
+		texture="ce_border_stars_05.dds"
+		instance={
+			rotation=180
+		}
+
+		instance={
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		color2=blue_light
+		color3=grey
+		texture="ce_pattern_numenorean_detail_03.dds"
+		instance={
+			depth=3.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		color2=blue
+		color3=brown
+		texture="ce_elwe_01.dds"
+		instance={
+			scale={ 0.420000 0.420000 }
+			depth=2.010000
+		}
+
+	}
+
+}
+
 
 
 

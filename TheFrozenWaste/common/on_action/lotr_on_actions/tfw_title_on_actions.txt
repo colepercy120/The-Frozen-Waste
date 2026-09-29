@@ -673,7 +673,7 @@ lotr_on_title_gain = {
 		#}
 
 		### Underground | Both AI & Player ###
-		lotr_make_halls_wastelands = yes
+		tfw_make_halls_wastelands = yes ### TFW
 
 		### WILDERNESS | Player Side ###
 		if = { ## New Holder --> Gained settlement county
@@ -1168,6 +1168,7 @@ lotr_on_title_gain = {
 					is_evil_istari = yes
 					faith_is_evil = yes
 				}
+				faith_is_evil = yes #TFW
 			}
 			if = {
 				limit = {
@@ -1246,6 +1247,12 @@ lotr_on_title_gain = {
 									}
 								}
 								if = {
+									limit = {
+										terrain = halls
+									}
+									set_holding_type = tribal_holding
+								}
+								else_if = {
 									limit = {
 										root = { government_has_flag = government_is_tribal }
 									}
@@ -1418,6 +1425,7 @@ lotr_on_title_gain = {
 						is_nazgul = yes
 						has_county_modifier = hidden_elven_refugees_modifier
 					}
+					faith_is_evil = yes
 				}
 			}
 			send_interface_toast = {
@@ -1443,8 +1451,19 @@ lotr_on_title_gain = {
 						years = 25
 					}
 					every_county_province = {
-						limit = { has_holding = yes }
+						limit = { 
+							has_holding = yes 
+							NOT = { terrain = halls }
+						}
 						set_holding_type = elven_holding
+						barony = { generate_coa = yes }
+					}
+					every_county_province = {
+						limit = { 
+							has_holding = yes 
+							terrain = halls 
+						}
+						set_holding_type = elven_hall_holding
 						barony = { generate_coa = yes }
 					}
 				}
@@ -1494,6 +1513,7 @@ lotr_on_title_gain = {
 						is_nazgul = yes
 						is_maiar_fallen = yes
 					}
+					faith_is_evil = yes
 				}
 			}
 			send_interface_toast = {

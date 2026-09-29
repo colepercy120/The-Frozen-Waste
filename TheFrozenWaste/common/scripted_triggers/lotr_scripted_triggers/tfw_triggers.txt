@@ -97,3 +97,34 @@ is_wasteland = {
 		has_holding_type = wastelands_holding
 	}
 }
+
+
+#### Better Alignment Triggers
+
+faith_is_good = {
+	custom_description = {
+		text = faith_is_good
+		OR = {
+			religion = { is_in_family = rf_eruhini }
+			faith = { has_doctrine = doctrine_echoes_of_the_ainur }
+			faith = { has_doctrine = special_doctrine_is_freepeople_faith }
+		}
+		NOT = {
+			faith = { has_doctrine = doctrine_dominion_of_the_dark }
+		}
+	}
+}
+
+faith_is_evil = {
+	custom_description = {
+		text = faith_is_evil
+		OR = {
+			religion = { is_in_family = rf_forcesofevil }
+			faith = { has_doctrine = doctrine_dominion_of_the_dark }
+		}
+		NOR = {
+			faith = { has_doctrine = doctrine_echoes_of_the_ainur }
+			faith = { has_doctrine = special_doctrine_is_freepeople_faith }
+		}
+	}
+}
