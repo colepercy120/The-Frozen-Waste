@@ -18,3 +18,98 @@ e_winter_court = {
 	ruler_uses_title_name = no
 	capital = c_thangorodrim_3
 }
+
+# Additional Forodwaith titles
+# Assign capital = c_<existing_county_id> to titles as appropriate.
+
+# Duchies: landless companies
+
+d_beowulf_company = {
+	color = { 115 77 43 }
+	definite_form = yes
+	landless = yes
+	require_landless = yes
+	ruler_uses_title_name = no
+	no_automatic_claims = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = { add = @never_primary_score }
+}
+
+d_santas_elves = {
+	color = { 34 117 77 }
+	definite_form = yes
+	landless = yes
+	require_landless = yes
+	ruler_uses_title_name = no
+	no_automatic_claims = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = { add = @never_primary_score }
+}
+
+d_northern_wardens = {
+	color = { 34 117 77 }
+	definite_form = yes
+	landless = yes
+	require_landless = yes
+	ruler_uses_title_name = no
+	no_automatic_claims = yes
+	destroy_if_invalid_heir = yes
+	ai_primary_priority = { add = @never_primary_score }
+}
+
+# Kingdoms
+
+k_rast_losnath = {
+	color = { 58 120 142 }
+	always_follows_primary_heir = yes
+}
+
+k_muilfalas = {
+	color = { 48 99 128 }
+	always_follows_primary_heir = yes
+}
+
+k_gaurmar = {
+	color = { 88 48 66 }
+	always_follows_primary_heir = yes
+}
+
+# Empires
+
+e_fordor = {
+	color = { 75 98 114 }
+	always_follows_primary_heir = yes
+}
+
+e_lossoth = {
+	color = { 152 201 219 }
+	always_follows_primary_heir = yes
+}
+
+e_forochel = {
+	color = { 75 147 185 }
+	always_follows_primary_heir = yes
+}
+
+e_northern_territories = {
+	color = { 93 120 107 }
+	always_follows_primary_heir = yes
+}
+
+# Hegemonies
+
+h_avari = {
+	color = { 38 104 77 }
+	always_follows_primary_heir = yes
+}
+
+h_forodwaith = {
+	color = { 95 152 195 }
+	always_follows_primary_heir = yes
+}
+
+h_winter = {
+	color = { 201 226 243 }
+	always_follows_primary_heir = yes
+	capital = c_thangorodrim_3
+}

@@ -1,0 +1,649 @@
+decision_form_rast_losnath = {
+	title = decision_form_rast_losnath
+	desc = decision_form_rast_losnath_desc
+	confirm_text = decision_form_rast_losnath_confirm
+	selection_tooltip = decision_form_rast_losnath_tooltip
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_angmar_03.dds"
+	}
+
+	# AI
+	ai_goal = yes
+	ai_potential = {
+		always = yes
+	}
+	ai_will_do = {
+		base = 100
+	}
+
+	# IS SHOWN
+	decision_group_type = realms_in_exile_major
+
+	is_shown = {
+		is_independent_ruler = yes
+		OR = {
+			has_title = title:d_rast_losnaeth_1
+			has_title = title:d_rast_losnaeth_2
+		}
+		NOT = {
+			has_title = title:k_rast_losnath
+		}
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:decision_form_rast_losnath
+			}
+		}
+	}
+
+	# IS VALID
+	is_valid = {
+		prestige_level >= high_prestige_level
+
+		completely_controls = title:d_rast_losnaeth_1
+		completely_controls = title:d_rast_losnaeth_2
+		realm_size >= 10
+	}
+
+	cost = {
+		prestige = major_prestige_value
+	}
+
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+		is_available_adult = yes
+		is_at_war = no
+	}
+
+	# EFFECT
+	effect = {
+		get_title = title:k_rast_losnath
+
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:decision_form_rast_losnath
+		}
+	}
+}
+
+decision_form_muilfalas = {
+	title = decision_form_muilfalas
+	desc = decision_form_muilfalas_desc
+	confirm_text = decision_form_muilfalas_confirm
+	selection_tooltip = decision_form_muilfalas_tooltip
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_angmar_03.dds"
+	}
+
+	# AI
+	ai_goal = yes
+	ai_potential = {
+		always = yes
+	}
+	ai_will_do = {
+		base = 100
+	}
+
+	# IS SHOWN
+	decision_group_type = realms_in_exile_major
+
+	is_shown = {
+		is_independent_ruler = yes
+		OR = {
+			has_title = title:d_muilfalas_1
+			has_title = title:d_muilfalas_2
+		}
+		NOT = {
+			has_title = title:k_muilfalas
+		}
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:decision_form_muilfalas
+			}
+		}
+	}
+
+	# IS VALID
+	is_valid = {
+		prestige_level >= high_prestige_level
+		completely_controls = title:d_muilfalas_1
+		completely_controls = title:d_muilfalas_2
+		
+		realm_size >= 10
+	}
+
+	cost = {
+		prestige = major_prestige_value
+	}
+
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+		is_available_adult = yes
+		is_at_war = no
+	}
+
+	# EFFECT
+	effect = {
+		get_title = title:k_muilfalas
+
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:decision_form_muilfalas
+		}
+	}
+}
+
+decision_form_gaurmar = {
+	title = decision_form_gaurmar
+	desc = decision_form_gaurmar_desc
+	confirm_text = decision_form_gaurmar_confirm
+	selection_tooltip = decision_form_gaurmar_tooltip
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_amon_sul.dds"
+	}
+
+	# AI
+	ai_goal = yes
+	ai_potential = {
+		always = yes
+	}
+	ai_will_do = {
+		base = 100
+	}
+
+	# IS SHOWN
+	decision_group_type = realms_in_exile_major
+
+	is_shown = {
+		is_independent_ruler = yes
+		culture = culture:gauredain
+		NOT = {
+			has_title = title:k_gaurmar
+		}
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:decision_form_gaurmar
+			}
+		}
+	}
+
+	# IS VALID
+	is_valid = {
+		prestige_level >= high_prestige_level
+
+		# Basic placeholder requirement.
+		# Replace this with the appropriate territorial / cultural / faith requirements.
+		completely_controls = title:k_angmar
+		
+	}
+
+	cost = {
+		prestige = major_prestige_value
+	}
+
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+		is_available_adult = yes
+		is_at_war = no
+	}
+
+	# EFFECT
+	effect = {
+		get_title = title:k_gaurmar
+
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:decision_form_gaurmar
+		}
+	}
+}
+
+decision_form_fordor = {
+	title = decision_form_fordor
+	desc = decision_form_fordor_desc
+	confirm_text = decision_form_fordor_confirm
+	selection_tooltip = decision_form_fordor_tooltip
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_minas_tirith_02.dds"
+	}
+
+	# AI
+	ai_goal = yes
+	ai_potential = {
+		always = yes
+	}
+	ai_will_do = {
+		base = 100
+	}
+
+	# IS SHOWN
+	decision_group_type = realms_in_exile_major
+
+	is_shown = {
+		is_independent_ruler = yes
+		NOT = {
+			has_title = title:e_fordor
+		}
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:decision_form_fordor
+			}
+		}
+	}
+
+	# IS VALID
+	is_valid = {
+		prestige_level >= high_prestige_level
+
+		# Basic placeholder requirement.
+		# Replace this with the appropriate territorial / cultural / faith requirements.
+		realm_size >= 25
+	}
+
+	cost = {
+		prestige = major_prestige_value
+	}
+
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+		is_available_adult = yes
+		is_at_war = no
+	}
+
+	# EFFECT
+	effect = {
+		get_title = title:e_fordor
+
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:decision_form_fordor
+		}
+	}
+}
+
+decision_form_lossoth = {
+	title = decision_form_lossoth
+	desc = decision_form_lossoth_desc
+	confirm_text = decision_form_lossoth_confirm
+	selection_tooltip = decision_form_lossoth_tooltip
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_minas_tirith_02.dds"
+	}
+
+	# AI
+	ai_goal = yes
+	ai_potential = {
+		always = yes
+	}
+	ai_will_do = {
+		base = 100
+	}
+
+	# IS SHOWN
+	decision_group_type = realms_in_exile_major
+
+	is_shown = {
+		is_independent_ruler = yes
+		NOT = {
+			has_title = title:e_lossoth
+		}
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:decision_form_lossoth
+			}
+		}
+	}
+
+	# IS VALID
+	is_valid = {
+		prestige_level >= high_prestige_level
+
+		# Basic placeholder requirement.
+		# Replace this with the appropriate territorial / cultural / faith requirements.
+		realm_size >= 25
+	}
+
+	cost = {
+		prestige = major_prestige_value
+	}
+
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+		is_available_adult = yes
+		is_at_war = no
+	}
+
+	# EFFECT
+	effect = {
+		get_title = title:e_lossoth
+
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:decision_form_lossoth
+		}
+	}
+}
+
+decision_form_forochel = {
+	title = decision_form_forochel
+	desc = decision_form_forochel_desc
+	confirm_text = decision_form_forochel_confirm
+	selection_tooltip = decision_form_forochel_tooltip
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_minas_tirith_02.dds"
+	}
+
+	# AI
+	ai_goal = yes
+	ai_potential = {
+		always = yes
+	}
+	ai_will_do = {
+		base = 100
+	}
+
+	# IS SHOWN
+	decision_group_type = realms_in_exile_major
+
+	is_shown = {
+		is_independent_ruler = yes
+		NOT = {
+			has_title = title:e_forochel
+		}
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:decision_form_forochel
+			}
+		}
+	}
+
+	# IS VALID
+	is_valid = {
+		prestige_level >= high_prestige_level
+
+		# Basic placeholder requirement.
+		# Replace this with the appropriate territorial / cultural / faith requirements.
+		realm_size >= 25
+	}
+
+	cost = {
+		prestige = major_prestige_value
+	}
+
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+		is_available_adult = yes
+		is_at_war = no
+	}
+
+	# EFFECT
+	effect = {
+		get_title = title:e_forochel
+
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:decision_form_forochel
+		}
+	}
+}
+
+decision_form_northern_territories = {
+	title = decision_form_northern_territories
+	desc = decision_form_northern_territories_desc
+	confirm_text = decision_form_northern_territories_confirm
+	selection_tooltip = decision_form_northern_territories_tooltip
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_minas_tirith_02.dds"
+	}
+
+	# AI
+	ai_goal = yes
+	ai_potential = {
+		always = yes
+	}
+	ai_will_do = {
+		base = 100
+	}
+
+	# IS SHOWN
+	decision_group_type = realms_in_exile_major
+
+	is_shown = {
+		is_independent_ruler = yes
+		NOT = {
+			has_title = title:e_northern_territories
+		}
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:decision_form_northern_territories
+			}
+		}
+	}
+
+	# IS VALID
+	is_valid = {
+		prestige_level >= high_prestige_level
+
+		# Basic placeholder requirement.
+		# Replace this with the appropriate territorial / cultural / faith requirements.
+		realm_size >= 25
+	}
+
+	cost = {
+		prestige = major_prestige_value
+	}
+
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+		is_available_adult = yes
+		is_at_war = no
+	}
+
+	# EFFECT
+	effect = {
+		get_title = title:e_northern_territories
+
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:decision_form_northern_territories
+		}
+	}
+}
+
+decision_form_avari = {
+	title = decision_form_avari
+	desc = decision_form_avari_desc
+	confirm_text = decision_form_avari_confirm
+	selection_tooltip = decision_form_avari_tooltip
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_elves_dwarves_02.dds"
+	}
+
+	# AI
+	ai_goal = yes
+	ai_potential = {
+		always = yes
+	}
+	ai_will_do = {
+		base = 100
+	}
+
+	# IS SHOWN
+	decision_group_type = realms_in_exile_major
+
+	is_shown = {
+		is_independent_ruler = yes
+		NOT = {
+			has_title = title:h_avari
+		}
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:decision_form_avari
+			}
+		}
+	}
+
+	# IS VALID
+	is_valid = {
+		prestige_level >= high_prestige_level
+
+		# Basic placeholder requirement.
+		# Replace this with the appropriate territorial / cultural / faith requirements.
+		realm_size >= 50
+	}
+
+	cost = {
+		prestige = major_prestige_value
+	}
+
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+		is_available_adult = yes
+		is_at_war = no
+	}
+
+	# EFFECT
+	effect = {
+		get_title = title:h_avari
+
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:decision_form_avari
+		}
+	}
+}
+
+decision_form_forodwaith = {
+	title = decision_form_forodwaith
+	desc = decision_form_forodwaith_desc
+	confirm_text = decision_form_forodwaith_confirm
+	selection_tooltip = decision_form_forodwaith_tooltip
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_elves_dwarves_02.dds"
+	}
+
+	# AI
+	ai_goal = yes
+	ai_potential = {
+		always = yes
+	}
+	ai_will_do = {
+		base = 100
+	}
+
+	# IS SHOWN
+	decision_group_type = realms_in_exile_major
+
+	is_shown = {
+		is_independent_ruler = yes
+		NOT = {
+			has_title = title:h_forodwaith
+		}
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:decision_form_forodwaith
+			}
+		}
+	}
+
+	# IS VALID
+	is_valid = {
+		prestige_level >= high_prestige_level
+
+		# Basic placeholder requirement.
+		# Replace this with the appropriate territorial / cultural / faith requirements.
+		realm_size >= 50
+	}
+
+	cost = {
+		prestige = major_prestige_value
+	}
+
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+		is_available_adult = yes
+		is_at_war = no
+	}
+
+	# EFFECT
+	effect = {
+		get_title = title:h_forodwaith
+
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:decision_form_forodwaith
+		}
+	}
+}
+
+decision_form_winter = {
+	title = decision_form_winter
+	desc = decision_form_winter_desc
+	confirm_text = decision_form_winter_confirm
+	selection_tooltip = decision_form_winter_tooltip
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_elves_dwarves_02.dds"
+	}
+
+	# AI
+	ai_goal = yes
+	ai_potential = {
+		always = yes
+	}
+	ai_will_do = {
+		base = 100
+	}
+
+	# IS SHOWN
+	decision_group_type = realms_in_exile_major
+
+	is_shown = {
+		is_independent_ruler = yes
+		NOT = {
+			has_title = title:h_winter
+		}
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:decision_form_winter
+			}
+		}
+	}
+
+	# IS VALID
+	is_valid = {
+		prestige_level >= high_prestige_level
+
+		# Basic placeholder requirement.
+		# Replace this with the appropriate territorial / cultural / faith requirements.
+		realm_size >= 50
+	}
+
+	cost = {
+		prestige = major_prestige_value
+	}
+
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+		is_available_adult = yes
+		is_at_war = no
+	}
+
+	# EFFECT
+	effect = {
+		get_title = title:h_winter
+
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:decision_form_winter
+		}
+	}
+}

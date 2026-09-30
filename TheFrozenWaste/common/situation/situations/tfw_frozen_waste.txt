@@ -90,8 +90,7 @@
 			max_duration = { years = 500 }
 			icon = "gfx/interface/icons/faith/winter_queen_icon.dds"
 			illustration = "gfx/interface/illustrations/event_scenes/lotr_throneroom_forodwaith.dds"
-			map_province_effect = snow
-			map_province_effect_intensity = 1.0
+			
 			on_start = {
 				
 			}

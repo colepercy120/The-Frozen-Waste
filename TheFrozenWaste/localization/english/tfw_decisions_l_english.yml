@@ -26,3 +26,53 @@ l_english:
  unleash_angband_decision_tooltip: "Unleash Angband"
  unleash_angband_decision_confirm: "Raise a Great host"
  unleash_angband_decision_effect: "Gain Acess to War Decleration" 
+ 
+ decision_form_rast_losnath: "Form the Kingdom of Rast Losnath"
+ decision_form_rast_losnath_desc: "The time has come to bind our lands together and proclaim the Kingdom of Rast Losnath."
+ decision_form_rast_losnath_tooltip: "Form the Kingdom of Rast Losnath."
+ decision_form_rast_losnath_confirm: "Proclaim the Kingdom of Rast Losnath"
+
+ decision_form_muilfalas: "Form the Kingdom of Muilfalas"
+ decision_form_muilfalas_desc: "The time has come to bind our lands together and proclaim the Kingdom of Muilfalas."
+ decision_form_muilfalas_tooltip: "Form the Kingdom of Muilfalas."
+ decision_form_muilfalas_confirm: "Proclaim the Kingdom of Muilfalas"
+
+ decision_form_gaurmar: "Form the Kingdom of Gaurmar"
+ decision_form_gaurmar_desc: "The time has come to bind our lands together and proclaim the Kingdom of Gaurmar."
+ decision_form_gaurmar_tooltip: "Form the Kingdom of Gaurmar."
+ decision_form_gaurmar_confirm: "Proclaim the Kingdom of Gaurmar"
+
+ decision_form_fordor: "Form the Empire of Fordor"
+ decision_form_fordor_desc: "Our dominion has grown beyond the bounds of a lesser realm. We shall proclaim the Empire of Fordor."
+ decision_form_fordor_tooltip: "Form the Empire of Fordor."
+ decision_form_fordor_confirm: "Proclaim the Empire of Fordor"
+
+ decision_form_lossoth: "Form the Empire of Lossoth"
+ decision_form_lossoth_desc: "Our dominion has grown beyond the bounds of a lesser realm. We shall proclaim the Empire of Lossoth."
+ decision_form_lossoth_tooltip: "Form the Empire of Lossoth."
+ decision_form_lossoth_confirm: "Proclaim the Empire of Lossoth"
+
+ decision_form_forochel: "Form the Empire of Forochel"
+ decision_form_forochel_desc: "Our dominion has grown beyond the bounds of a lesser realm. We shall proclaim the Empire of Forochel."
+ decision_form_forochel_tooltip: "Form the Empire of Forochel."
+ decision_form_forochel_confirm: "Proclaim the Empire of Forochel"
+
+ decision_form_northern_territories: "Form the Empire of Northern Territories"
+ decision_form_northern_territories_desc: "Our dominion has grown beyond the bounds of a lesser realm. We shall proclaim the Empire of Northern Territories."
+ decision_form_northern_territories_tooltip: "Form the Empire of Northern Territories."
+ decision_form_northern_territories_confirm: "Proclaim the Empire of Northern Territories"
+
+ decision_form_avari: "Form the Hegemony of Avari"
+ decision_form_avari_desc: "Our supremacy across the north can no longer be denied. We shall establish the Hegemony of Avari."
+ decision_form_avari_tooltip: "Form the Hegemony of Avari."
+ decision_form_avari_confirm: "Proclaim the Hegemony of Avari"
+
+ decision_form_forodwaith: "Form the Hegemony of Forodwaith"
+ decision_form_forodwaith_desc: "Our supremacy across the north can no longer be denied. We shall establish the Hegemony of Forodwaith."
+ decision_form_forodwaith_tooltip: "Form the Hegemony of Forodwaith."
+ decision_form_forodwaith_confirm: "Proclaim the Hegemony of Forodwaith"
+
+ decision_form_winter: "Form the Hegemony of Winter"
+ decision_form_winter_desc: "Our supremacy across the north can no longer be denied. We shall establish the Hegemony of Winter."
+ decision_form_winter_tooltip: "Form the Hegemony of Winter."
+ decision_form_winter_confirm: "Proclaim the Hegemony of Winter"
