@@ -62,8 +62,8 @@ l_english:
  decision_form_northern_territories_tooltip: "Form the Empire of Northern Territories."
  decision_form_northern_territories_confirm: "Proclaim the Empire of Northern Territories"
 
- decision_form_avari: "Form the Hegemony of Avari"
- decision_form_avari_desc: "Our supremacy across the north can no longer be denied. We shall establish the Hegemony of Avari."
+ decision_form_avari: "Unite the Avari"
+ decision_form_avari_desc: "For to long have the [avari|e] been scattered across [middleearth|e]. if we were to reunite the ancient houses of our folk and proclaim a united realm we would no longer need to fear the [darklord|e] or the abuse of [men|e] and [dwarves|e]. Even the [eldar|e] would have to respect our rule."
  decision_form_avari_tooltip: "Form the Hegemony of Avari."
  decision_form_avari_confirm: "Proclaim the Hegemony of Avari"
 

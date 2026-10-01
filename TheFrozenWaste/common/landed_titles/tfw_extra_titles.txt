@@ -96,6 +96,17 @@ e_northern_territories = {
 	always_follows_primary_heir = yes
 }
 
+e_cuind = {
+	color = { 20 100 150 }
+	capital = c_ainglad
+	always_follows_primary_heir = yes
+}
+e_penni = {
+	color = { 140 195 40 }
+	always_follows_primary_heir = yes
+	capital = c_caras_torn
+}
+
 # Hegemonies
 
 h_avari = {

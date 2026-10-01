@@ -1862,3 +1862,43 @@
  k_emyn_nimbrith: "Rubble Mountains"
     d_emyn_nimbrith: "Rubble Mountains"
  d_anghoth: "Anghoth"
+ 
+ d_beowulf_company: "Beowulf Company"
+ d_beowulf_company_adj: "Beowulf Company"
+
+ d_santas_elves: "Santa's Elves"
+ d_santas_elves_adj: "Santa's Elven"
+
+ k_rast_losnath: "Rast Losnath"
+ k_rast_losnath_adj: "Rast Losnath"
+
+ k_muilfalas: "Muilfalas"
+ k_muilfalas_adj: "Muilfalas"
+
+ k_gaurmar: "Gaurmar"
+ k_gaurmar_adj: "Gaurmar"
+
+ e_fordor: "Fordor"
+ e_fordor_adj: "Fordorian"
+
+ e_lossoth: "Lossoth"
+ e_lossoth_adj: "Lossoth"
+
+ e_forochel: "Forochel"
+ e_forochel_adj: "Forochelic"
+
+ e_northern_territories: "Northern Territories"
+ e_northern_territories_adj: "Northern"
+
+ h_avari: "Avari"
+ h_avari_adj: "Avarin"
+
+ h_forodwaith: "Forodwaith"
+ h_forodwaith_adj: "Forodwaith"
+
+ h_winter: "Winter"
+ h_winter_adj: "Winter"
+ 
+ e_cuind: "Cuind"
+ e_cuind_adj: "Cuindi"
+ 

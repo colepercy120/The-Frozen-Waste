@@ -24,7 +24,46 @@ l_english:
  ### Innovation
  
  
- ### Titles
+ ### Regions
+ 
+ middleearth_forodwaith_northernwastes: "Northern Wastes"
+ middleearth_forodwaith_bayofhelkar: "Bay of Helkar"
+ middleearth_forodwaith_tol_engrin: "Tol Engrin"
+ middleearth_forodwaith_tol_engrin_minheldolath: "Minheldolath"
+ middleearth_forodwaith_tol_engrin_evermist: "Evermist"
+ middleearth_forodwaith_tol_faron: "Tol Faron"
+ middleearth_forodwaith_tol_engrin_gondalf: "Gondalf"
+ middleearth_forodwaith_tol_engrin_narthalf: "Narthalf"
+ middleearth_forodwaith_tol_engrin_helfalas: "Helfalas"
+ middleearth_forodwaith_frost_isles: "Frost Isles"
+ middleearth_forodwaith_morgoths_well: "Morgoth's Well"
+ middleearth_forodwaith_angband: "Angband"
+ middleearth_forodwaith_annuvorodwaith: "Annuvorodwaith"
+ middleearth_forodwaith_annuvorodwaith_everdalf: "Everdalf"
+ middleearth_forodwaith_annuvorodwaith_calendalf: "Calendalf"
+ middleearth_forodwaith_annuvorodwaith_lindalf: "Lindalf"
+ middleearth_forodwaith_annuvorodwaith_ailindalf: "Ailindalf"
+ middleearth_forodwaith_annuvorodwaith_ruinfalas: "Ruinfalas"
+ middleearth_forodwaith_annuvorodwaith_taurethon: "Taurethon"
+ middleearth_forodwaith_aurora_isles: "Aurora Isles"
+ middleearth_forodwaith_enevorodwaith: "Enevorodwaith"
+ middleearth_forodwaith_enevorodwaith_mosha: "Mosha"
+ middleearth_forodwaith_enevorodwaith_lhugdalf: "Lhugdalf"
+ middleearth_forodwaith_enevorodwaith_sula: "Sula"
+ middleearth_forodwaith_enevorodwaith_forovirian: "Forovirian"
+ middleearth_forodwaith_enevorodwaith_talath_uichel: "Talath Uichel"
+ middleearth_forodwaith_rhuvorodwaith: "Rhuvorodwaith"
+ middleearth_forodwaith_rhuvorodwaith_komi: "Komi"
+ middleearth_forodwaith_rhuvorodwaith_frostwood: "Frostwood"
+ middleearth_forodwaith_rhuvorodwaith_grey_foothills: "Grey Foothills"
+ middleearth_mountains_bleak: "Bleak Mountains"
+ middleearth_mountains_bleak_durnost: "Durnost"
+ middleearth_mountains_bleak_bleak_mountains: "Bleak Mountains"
+ middleearth_mountains_bleak_nidavellir: "Nidavellir"
+ middleearth_mountains_rhivamar: "Rhivamar Mountains"
+ middleearth_mountains_rhivamar_ered_rhivamar: "Ered Rhivamar"
+ middleearth_mountains_rhivamar_northern_iron_mountains: "Northern Iron Mountains"
+ middleearth_mountains_rhivamar_angband_reach: "Angband Reach"
   
  ### Nicknames
  

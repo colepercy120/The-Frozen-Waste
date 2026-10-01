@@ -7352,3 +7352,153 @@ d_anghoth={
 	}
 
 }
+
+h_avari ={
+	custom=yes
+	pattern="pattern_solid.dds"
+	color1=green
+	color2=white
+	color3=blue
+	colored_emblem={
+		color1=green_light
+		color2=rgb { 236 214 120 }
+		texture="ce_pattern_square_gondor_04.dds"
+		instance={
+			scale={ 0.910000 0.910000 }
+			depth=12.010000
+			rotation=135
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 255 255 255 }
+		texture="ce_cc_edain_stars_05.dds"
+		instance={
+			scale={ 0.290000 0.290000 }
+			rotation=29
+		}
+
+		instance={
+			scale={ 0.285000 0.285000 }
+			depth=1.010000
+			rotation=53
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 255 255 255 }
+		texture="ce_cc_edain_border_35.dds"
+		instance={
+			scale={ 0.690000 0.690000 }
+			depth=10.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 236 214 120 }
+		color2=rgb { 236 214 120 }
+		texture="ce_elven_amroth_lothlorien_06.dds"
+		instance={
+			scale={ 0.400000 0.400000 }
+			depth=4.010000
+			rotation=135
+		}
+
+		instance={
+			scale={ 0.400000 0.400000 }
+			depth=5.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 255 204 71 }
+		texture="ce_star_16.dds"
+		instance={
+			scale={ 0.370000 0.370000 }
+			depth=6.010000
+			rotation=124
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 236 214 120 }
+		color2=green_light
+		color3=rgb { 14 36 16 }
+		texture="ce_elven_generic_1.dds"
+		instance={
+			scale={ 0.940000 0.940000 }
+			depth=13.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 236 214 120 }
+		texture="ce_cc_edain_border_34.dds"
+		instance={
+			scale={ 0.650000 0.650000 }
+			depth=8.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 255 255 255 }
+		texture="ce_cc_edain_stars_03.dds"
+		instance={
+			scale={ 0.300000 0.300000 }
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 14 36 16 }
+		texture="ce_cc_edain_border_28.dds"
+		instance={
+			scale={ 0.940000 0.940000 }
+			depth=7.010000
+			rotation=135
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 236 214 120 }
+		color2=rgb { 236 214 120 }
+		texture="ce_cc_edain_border_34.dds"
+		instance={
+			scale={ 0.710000 0.710000 }
+			depth=9.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 225 143 147 }
+		color2=rgb { 255 255 255 }
+		texture="ce_rosetta_08.dds"
+		instance={
+			scale={ 0.150000 0.150000 }
+			depth=3.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 76 112 79 }
+		color2=rgb { 236 214 120 }
+		texture="beta_14_a.dds"
+		instance={
+			scale={ 0.550000 0.550000 }
+			depth=11.010000
+		}
+
+	}
+
+}

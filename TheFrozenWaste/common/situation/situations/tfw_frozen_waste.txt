@@ -13,7 +13,7 @@
 			map_color = { 1 0.2 0.2 }
 			geographical_regions = { middleearth_forodwaith }
 		}
-	}
+	} 
 
 	##################################################
 	# On Actions

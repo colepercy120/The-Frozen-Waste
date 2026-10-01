@@ -140,7 +140,7 @@ decision_form_gaurmar = {
 	confirm_text = decision_form_gaurmar_confirm
 	selection_tooltip = decision_form_gaurmar_tooltip
 	picture = {
-		reference = "gfx/interface/illustrations/decisions/decision_amon_sul.dds"
+		reference = "gfx/interface/illustrations/decisions/decision_angmar_03.dds"
 	}
 
 	# AI
@@ -206,7 +206,7 @@ decision_form_fordor = {
 	confirm_text = decision_form_fordor_confirm
 	selection_tooltip = decision_form_fordor_tooltip
 	picture = {
-		reference = "gfx/interface/illustrations/decisions/decision_minas_tirith_02.dds"
+		reference = "gfx/interface/illustrations/decisions/decision_arnor_01.dds"
 	}
 
 	# AI
@@ -232,15 +232,35 @@ decision_form_fordor = {
 				target = flag:decision_form_fordor
 			}
 		}
+		culture = { has_same_culture_heritage = culture:arnorian }
+		capital_province = { geographical_region = middleearth_forodwaith }
 	}
 
 	# IS VALID
 	is_valid = {
 		prestige_level >= high_prestige_level
+		OR = {
+			has_title = title:k_tol_faron
+			has_title = title:k_frost_isles
+			has_title = title:k_gondalf
+		}
+		custom_tooltip = {
+			text = unite_forodain_tooltip
+			culture = {
+				any_culture_county = {
+					percent = 0.95
+					OR = {
+						holder = root
+						holder.top_liege = root
+					}
+				}
+			}
+		}
 
 		# Basic placeholder requirement.
 		# Replace this with the appropriate territorial / cultural / faith requirements.
-		realm_size >= 25
+		realm_size >= 80
+		
 	}
 
 	cost = {
@@ -256,6 +276,24 @@ decision_form_fordor = {
 	# EFFECT
 	effect = {
 		get_title = title:e_fordor
+		custom_tooltip = unite_forodain_effect_tooltip
+		every_kingdom = {
+			limit = {
+				title_capital_county = {
+					any_county_province = {
+						geographical_region = middleearth_forodwaith 
+					}
+				}
+				any_de_jure_county = {
+					count = all
+					OR = {
+						holder = root
+						holder.top_liege = root
+					}
+				}
+			}
+			set_de_jure_liege_title = title:e_fordor
+		}
 
 		add_to_global_variable_list = {
 			name = unavailable_unique_decisions
@@ -270,7 +308,7 @@ decision_form_lossoth = {
 	confirm_text = decision_form_lossoth_confirm
 	selection_tooltip = decision_form_lossoth_tooltip
 	picture = {
-		reference = "gfx/interface/illustrations/decisions/decision_minas_tirith_02.dds"
+		reference = "gfx/interface/illustrations/event_scenes/lotr_throneroom_forodwaith.dds"
 	}
 
 	# AI
@@ -296,15 +334,30 @@ decision_form_lossoth = {
 				target = flag:decision_form_lossoth
 			}
 		}
+		culture = { has_same_culture_heritage = culture:lossoth }
 	}
 
 	# IS VALID
 	is_valid = {
 		prestige_level >= high_prestige_level
+		
+		primary_title = { tier >= 4 }
+		custom_tooltip = {
+			text = unite_lossoth_tooltip
+			culture = {
+				any_culture_county = {
+					percent = 0.95
+					OR = {
+						holder = root
+						holder.top_liege = root
+					}
+				}
+			}
+		}
 
 		# Basic placeholder requirement.
 		# Replace this with the appropriate territorial / cultural / faith requirements.
-		realm_size >= 25
+		
 	}
 
 	cost = {
@@ -320,6 +373,24 @@ decision_form_lossoth = {
 	# EFFECT
 	effect = {
 		get_title = title:e_lossoth
+		custom_tooltip = unite_lossoth_effect_tooltip
+		every_kingdom = {
+			limit = {
+				title_capital_county = {
+					any_county_province = {
+						geographical_region = middleearth_forodwaith 
+					}
+				}
+				any_de_jure_county = {
+					count = all
+					OR = {
+						holder = root
+						holder.top_liege = root
+					}
+				}
+			}
+			set_de_jure_liege_title = title:e_fordor
+		}
 
 		add_to_global_variable_list = {
 			name = unavailable_unique_decisions
@@ -334,7 +405,7 @@ decision_form_forochel = {
 	confirm_text = decision_form_forochel_confirm
 	selection_tooltip = decision_form_forochel_tooltip
 	picture = {
-		reference = "gfx/interface/illustrations/decisions/decision_minas_tirith_02.dds"
+		reference = "gfx/interface/illustrations/event_scenes/lotr_throneroom_forodwaith.dds"
 	}
 
 	# AI
@@ -360,15 +431,22 @@ decision_form_forochel = {
 				target = flag:decision_form_forochel
 			}
 		}
+		capital_province = { 
+			OR = { 
+				geographical_region = middleearth_forodwaith_annuvorodwaith
+				geographical_region = middleearth_forodwaith_tol_engrin
+				geographical_region = middleearth_forodwaith_forochel
+			}
+		}
 	}
 
 	# IS VALID
 	is_valid = {
 		prestige_level >= high_prestige_level
-
-		# Basic placeholder requirement.
-		# Replace this with the appropriate territorial / cultural / faith requirements.
-		realm_size >= 25
+		completely_controls_region = middleearth_forodwaith_annuvorodwaith
+		completely_controls_region = middleearth_forodwaith_tol_engrin
+		completely_controls_region = middleearth_forodwaith_forochel
+		
 	}
 
 	cost = {
@@ -384,6 +462,21 @@ decision_form_forochel = {
 	# EFFECT
 	effect = {
 		get_title = title:e_forochel
+		
+		every_kingdom = {
+			limit = {
+				title_capital_county = {
+					any_county_province = {
+						OR = { 
+							geographical_region = middleearth_forodwaith_annuvorodwaith
+							geographical_region = middleearth_forodwaith_tol_engrin
+							geographical_region = middleearth_forodwaith_forochel
+						}
+					}
+				}
+			}
+			set_de_jure_liege_title = title:e_forochel
+		}
 
 		add_to_global_variable_list = {
 			name = unavailable_unique_decisions
@@ -398,7 +491,7 @@ decision_form_northern_territories = {
 	confirm_text = decision_form_northern_territories_confirm
 	selection_tooltip = decision_form_northern_territories_tooltip
 	picture = {
-		reference = "gfx/interface/illustrations/decisions/decision_minas_tirith_02.dds"
+		reference = "gfx/interface/illustrations/event_scenes/lotr_throneroom_forodwaith.dds"
 	}
 
 	# AI
@@ -415,6 +508,8 @@ decision_form_northern_territories = {
 
 	is_shown = {
 		is_independent_ruler = yes
+		primary_title = { tier >= 6 }
+		NOT = { capital_province = { geographical_region = middleearth_forodwaith } }
 		NOT = {
 			has_title = title:e_northern_territories
 		}
@@ -428,15 +523,15 @@ decision_form_northern_territories = {
 
 	# IS VALID
 	is_valid = {
-		prestige_level >= high_prestige_level
+		prestige_level >= 5
 
 		# Basic placeholder requirement.
 		# Replace this with the appropriate territorial / cultural / faith requirements.
-		realm_size >= 25
+		completely_controls_region = middleearth_forodwaith
 	}
 
 	cost = {
-		prestige = major_prestige_value
+		prestige = 2000
 	}
 
 	is_valid_showing_failures_only = {
@@ -448,6 +543,27 @@ decision_form_northern_territories = {
 	# EFFECT
 	effect = {
 		get_title = title:e_northern_territories
+		
+		title:e_northern_territories = {
+			set_de_jure_liege_title = root.primary_title
+		}
+		
+		custom_tooltip = {
+			text = secure_the_north_effect
+			every_kingdom = {
+				limit = {
+					title_capital_county = {
+						any_county_province = {
+							OR = { 
+								geographical_region = middleearth_forodwaith
+								
+							}
+						}
+					}
+				}
+				set_de_jure_liege_title = title:e_northern_territories
+			}
+		}
 
 		add_to_global_variable_list = {
 			name = unavailable_unique_decisions
@@ -462,7 +578,7 @@ decision_form_avari = {
 	confirm_text = decision_form_avari_confirm
 	selection_tooltip = decision_form_avari_tooltip
 	picture = {
-		reference = "gfx/interface/illustrations/decisions/decision_elves_dwarves_02.dds"
+		reference = "gfx/interface/illustrations/decisions/decision_elves_06.dds"
 	}
 
 	# AI
@@ -488,19 +604,28 @@ decision_form_avari = {
 				target = flag:decision_form_avari
 			}
 		}
+		culture = { has_same_culture_heritage = culture:avari }
 	}
 
 	# IS VALID
 	is_valid = {
-		prestige_level >= high_prestige_level
-
-		# Basic placeholder requirement.
-		# Replace this with the appropriate territorial / cultural / faith requirements.
-		realm_size >= 50
+		prestige_level >= 5
+		piety_level >= 5
+		has_high_hope_or_higher = yes
+		
+		completely_controls = title:e_frostwood
+		
+		completely_controls = title:k_usakan
+		completely_controls = title:k_talilan
+		
+		completely_controls = title:k_nelornieth
+		
+		completely_controls = title:k_drel
+		
 	}
 
 	cost = {
-		prestige = major_prestige_value
+		prestige = 2000
 	}
 
 	is_valid_showing_failures_only = {
@@ -512,6 +637,35 @@ decision_form_avari = {
 	# EFFECT
 	effect = {
 		get_title = title:h_avari
+		
+		title:e_frostwood = {
+			set_de_jure_liege_title = title:h_avari
+		}
+		
+		title:e_kinnlai = {
+			set_de_jure_liege_title = title:h_avari
+		}
+		title:k_usakan = {
+			set_de_jure_liege_title = title:e_kinnlai
+		}
+		title:k_talilan = {
+			set_de_jure_liege_title = title:e_kinnlai
+		}
+		
+		title:e_penni = {
+			set_de_jure_liege_title = title:h_avari
+		}
+		title:k_nelornieth = {
+			set_de_jure_liege_title = title:e_penni
+		}
+		
+		title:e_cuind = {
+			set_de_jure_liege_title = title:h_avari
+		}
+		title:k_drel = {
+			set_de_jure_liege_title = title:e_cuind
+		}
+		add_elven_hope_global_effect = { VALUE = massive_elven_hope_gain HOPE_EFFECT = effect_elven_hope_good_realm_rises }
 
 		add_to_global_variable_list = {
 			name = unavailable_unique_decisions
@@ -526,7 +680,7 @@ decision_form_forodwaith = {
 	confirm_text = decision_form_forodwaith_confirm
 	selection_tooltip = decision_form_forodwaith_tooltip
 	picture = {
-		reference = "gfx/interface/illustrations/decisions/decision_elves_dwarves_02.dds"
+		reference = "gfx/interface/illustrations/event_scenes/lotr_throneroom_forodwaith.dds"
 	}
 
 	# AI
@@ -552,19 +706,22 @@ decision_form_forodwaith = {
 				target = flag:decision_form_forodwaith
 			}
 		}
+		capital_province = { geographical_region = middleearth_forodwaith }
 	}
 
 	# IS VALID
 	is_valid = {
-		prestige_level >= high_prestige_level
+		prestige_level >= 5
+		piety_level >= 5
 
 		# Basic placeholder requirement.
 		# Replace this with the appropriate territorial / cultural / faith requirements.
-		realm_size >= 50
+		completely_controls_region = middleearth_forodwaith
 	}
 
 	cost = {
-		prestige = major_prestige_value
+		prestige = 1000
+		piety = 1000
 	}
 
 	is_valid_showing_failures_only = {
@@ -576,6 +733,20 @@ decision_form_forodwaith = {
 	# EFFECT
 	effect = {
 		get_title = title:h_forodwaith
+		
+		every_empire = {
+			limit = {
+				title_capital_county = {
+						any_county_province = {
+							OR = { 
+								geographical_region = middleearth_forodwaith
+								
+							}
+						}
+					}
+			}
+			set_de_jure_liege_title = title:e_northern_territories
+		}
 
 		add_to_global_variable_list = {
 			name = unavailable_unique_decisions
@@ -616,6 +787,7 @@ decision_form_winter = {
 				target = flag:decision_form_winter
 			}
 		}
+		always = no
 	}
 
 	# IS VALID
