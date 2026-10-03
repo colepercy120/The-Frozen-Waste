@@ -436,6 +436,8 @@ middleearth_forodwaith_rhuvorodwaith_grey_foothills = {
 	}
 }
 
+
+
 middleearth_mountains_bleak = {
 	regions = {
 		middleearth_mountains_bleak_durnost
@@ -613,5 +615,20 @@ custom_forochel_coast = {
 		c_lansi_ma
 		c_talvi_muri
 		c_rovala
+	}
+}
+
+custom_greater_forochel = {
+	regions = {
+		middleearth_forodwaith_angband
+		middleearth_forodwaith_annuvorodwaith
+		middleearth_forodwaith_tol_engrin
+		middleearth_forodwaith_tol_faron
+		middleearth_forodwaith_frost_isles
+		middleearth_forodwaith_forochel
+	}
+	duchies = {
+	#	d_thargelion
+	#	d_andunaloni
 	}
 }

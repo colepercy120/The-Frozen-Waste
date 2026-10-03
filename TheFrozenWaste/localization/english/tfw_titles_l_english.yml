@@ -1863,11 +1863,14 @@
     d_emyn_nimbrith: "Rubble Mountains"
  d_anghoth: "Anghoth"
  
- d_beowulf_company: "Beowulf Company"
- d_beowulf_company_adj: "Beowulf Company"
+  d_beowulf_company: "Graw's Company"
+ d_beowulf_company_adj: "Graw's"
 
- d_santas_elves: "Santa's Elves"
- d_santas_elves_adj: "Santa's Elven"
+ d_santas_elves: "The Kindly Host"
+ d_santas_elves_adj: "Kindly Host"
+
+ d_northern_wardens: "The Everwatch"
+ d_northern_wardens_adj: "Everwatch"
 
  k_rast_losnath: "Rast Losnath"
  k_rast_losnath_adj: "Rast Losnath"

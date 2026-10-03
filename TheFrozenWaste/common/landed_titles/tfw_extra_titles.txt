@@ -33,6 +33,7 @@ d_beowulf_company = {
 	no_automatic_claims = yes
 	destroy_if_invalid_heir = yes
 	ai_primary_priority = { add = @never_primary_score }
+	capital = c_frost_isles_8
 }
 
 d_santas_elves = {
@@ -44,6 +45,7 @@ d_santas_elves = {
 	no_automatic_claims = yes
 	destroy_if_invalid_heir = yes
 	ai_primary_priority = { add = @never_primary_score }
+	capital = c_aurora_isles_2
 }
 
 d_northern_wardens = {
@@ -55,6 +57,7 @@ d_northern_wardens = {
 	no_automatic_claims = yes
 	destroy_if_invalid_heir = yes
 	ai_primary_priority = { add = @never_primary_score }
+	capital = c_evermist_1
 }
 
 # Kingdoms
@@ -101,11 +104,7 @@ e_cuind = {
 	capital = c_ainglad
 	always_follows_primary_heir = yes
 }
-e_penni = {
-	color = { 140 195 40 }
-	always_follows_primary_heir = yes
-	capital = c_caras_torn
-}
+
 
 # Hegemonies
 

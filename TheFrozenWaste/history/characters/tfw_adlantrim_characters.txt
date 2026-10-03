@@ -11,7 +11,7 @@
 # - lifespan targets use exponential decay from ~3000 years (generation 1)
 #   to ~215 years (generation 12).
 # - generation 12 is the current ruling generation at 6787.
-# - generation 13 is born after 6787; generations 14-15 extend the lines toward 7100.
+# - generation 13 begins before 6787 so the current rulers have children at the bookmark; later generations extend the lines toward 7100.
 # - names are drawn from the existing elven-character name tokens where possible.
 ############################################################
 
@@ -20113,7 +20113,7 @@ trait = education_learning_1
 	learning = 6
 	prowess = 5
 
-	6812.12.10 = {
+	6765.12.10 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -20150,7 +20150,7 @@ tfw_lineofadlantrim_aerendil_029 = {
 	learning = 4
 	prowess = 4
 
-	6816.7.19 = {
+	6773.7.19 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -20182,7 +20182,7 @@ tfw_lineofadlantrim_aerendil_030 = {
 	learning = 4
 	prowess = 5
 
-	6820.12.27 = {
+	6781.12.27 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -20215,7 +20215,7 @@ tfw_lineofadlantrim_aerendil_031 = {
 	learning = 3
 	prowess = 4
 
-	6805.6.22 = {
+	6758.6.22 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -20252,7 +20252,7 @@ tfw_lineofadlantrim_calenvar_033 = {
 	learning = 4
 	prowess = 5
 
-	6812.11.9 = {
+	6767.11.9 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -20289,7 +20289,7 @@ tfw_lineofadlantrim_calenvar_034 = {
 	learning = 5
 	prowess = 3
 
-	6817.10.6 = {
+	6777.10.6 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -20321,7 +20321,7 @@ tfw_lineofadlantrim_calenvar_035 = {
 	learning = 5
 	prowess = 4
 
-	6800.4.28 = {
+	6758.4.28 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -20354,7 +20354,7 @@ tfw_lineofadlantrim_dorvael_035 = {
 	learning = 4
 	prowess = 4
 
-	6812.11.12 = {
+	6760.11.12 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -20390,7 +20390,7 @@ tfw_lineofadlantrim_dorvael_036 = {
 	learning = 4
 	prowess = 4
 
-	6815.9.9 = {
+	6769.9.9 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -20422,7 +20422,7 @@ tfw_lineofadlantrim_dorvael_037 = {
 	learning = 4
 	prowess = 4
 
-	6818.7.20 = {
+	6779.7.20 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -20454,7 +20454,7 @@ tfw_lineofadlantrim_elenrath_029 = {
 	learning = 3
 	prowess = 4
 
-	6812.5.16 = {
+	6768.5.16 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -20491,7 +20491,7 @@ tfw_lineofadlantrim_elenrath_030 = {
 	learning = 5
 	prowess = 5
 
-	6816.4.3 = {
+	6777.4.3 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -20523,7 +20523,7 @@ tfw_lineofadlantrim_elenrath_031 = {
 	learning = 3
 	prowess = 4
 
-	6808.12.5 = {
+	6759.12.5 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -20555,7 +20555,7 @@ tfw_lineofadlantrim_findorath_004 = {
 	learning = 5
 	prowess = 3
 
-	6812.7.14 = {
+	6775.7.14 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -20591,7 +20591,7 @@ tfw_lineofadlantrim_findorath_005 = {
 	learning = 4
 	prowess = 4
 
-	6808.10.4 = {
+	6764.10.4 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -20624,7 +20624,7 @@ tfw_lineofadlantrim_almaren_023 = {
 	learning = 6
 	prowess = 4
 
-	6812.11.16 = {
+	6759.11.16 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -20660,7 +20660,7 @@ tfw_lineofadlantrim_almaren_024 = {
 	learning = 4
 	prowess = 5
 
-	6813.1.22 = {
+	6768.1.22 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -20691,7 +20691,7 @@ trait = education_intrigue_2
 	learning = 4
 	prowess = 4
 
-	6825.9.1 = {
+	6779.9.1 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -20723,7 +20723,7 @@ tfw_lineofadlantrim_hithrandir_033 = {
 	learning = 5
 	prowess = 3
 
-	6812.2.22 = {
+	6767.2.22 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -20759,7 +20759,7 @@ tfw_lineofadlantrim_hithrandir_034 = {
 	learning = 4
 	prowess = 4
 
-	6816.2.15 = {
+	6777.2.15 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family
@@ -20791,7 +20791,7 @@ trait = education_learning_1
 	learning = 5
 	prowess = 4
 
-	6810.9.10 = {
+	6758.9.10 = {
 		birth = yes
 		effect = {
 			add_character_flag = do_not_generate_starting_family

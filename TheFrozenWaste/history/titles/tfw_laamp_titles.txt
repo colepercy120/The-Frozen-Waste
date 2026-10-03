@@ -1,0 +1,31 @@
+
+
+###############
+### 2754 TA ###
+###############
+# 6787 - War of the Rohirrim
+
+d_beowulf_company = {
+	6787.1.1 = {
+		holder = tfw_lineofheorwulf_001
+		government = landless_adventurer_government
+		liege = 0
+	}
+}
+
+d_santas_elves = {
+	6787.1.1 = {
+		holder = tfw_landless_santas_elves_001
+		government = landless_adventurer_government
+		liege = 0
+	}
+}
+
+d_northern_wardens = {
+	6787.1.1 = {
+		holder = tfw_landless_northern_wardens_001
+		government = landless_adventurer_government
+		liege = 0
+	}
+}
+

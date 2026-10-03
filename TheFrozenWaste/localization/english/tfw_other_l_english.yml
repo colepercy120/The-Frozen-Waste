@@ -5,9 +5,6 @@
  ### Edited the loading screen text
  
 l_english:
-
- ### Activitys
- 
   
  ### Traits
  
@@ -17,12 +14,11 @@ l_english:
  
  ### Game concepts
  
-  
- ### MAA
  
- 
- ### Innovation
- 
+ ### Seas
+ sea_helcear: "Helcear Coast"
+ sea_thorenaer: "Forsaken Sea"
+ sea_thangorodrim: "Angband Coast"
  
  ### Regions
  
@@ -64,6 +60,7 @@ l_english:
  middleearth_mountains_rhivamar_ered_rhivamar: "Ered Rhivamar"
  middleearth_mountains_rhivamar_northern_iron_mountains: "Northern Iron Mountains"
  middleearth_mountains_rhivamar_angband_reach: "Angband Reach"
+ custom_greater_forochel: "Greater Forochel"
   
  ### Nicknames
  
@@ -75,11 +72,6 @@ l_english:
  ### Holdings
  
  elven_hall_holding: "Elven Hall"
- 
- 
- 
- 
- 
  
  ### Game Rules
  

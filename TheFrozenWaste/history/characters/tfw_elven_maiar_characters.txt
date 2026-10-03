@@ -123,7 +123,7 @@ tfw_lineoffeanor_002 = { # Daughter of Caranthir husband
 	religion = faith_eternal_vigil
 	culture = vanyar
 	dna = tfw_lineoffeanor11_husband_dna
-	
+	father = tfw_vanyar_vorondil_001
 	
 
 	sexuality = heterosexual
@@ -8174,4 +8174,137 @@ tfw_lineoftareg_001 = { # dummy to assign dna to
 		death = yes
 	}
 	
+}
+
+### LLAMPS
+
+tfw_landless_northern_wardens_001 = {
+	name = tfw_landless_northern_wardens_001_name
+
+	religion = faith_eternal_vigil
+	culture = vanyar
+	
+	father = tfw_vanyar_vorondil_001
+
+	sexuality = heterosexual
+
+	trait = education_martial_4
+	trait = brave
+	trait = diligent
+	trait = just
+
+	trait = lifestyle_blademaster
+	trait = winter_soldier
+	trait = organizer
+	trait = cautious_leader
+	trait = twotreeslight
+
+	diplomacy = 8
+	martial = 12
+	stewardship = 9
+	intrigue = 5
+	learning = 10
+	prowess = 13
+
+	2.1.1 = {	#-1423.1.1
+		birth = yes
+	
+
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+
+			add_trait_xp = {
+				trait = lifestyle_blademaster
+				value = 75
+			}
+
+			add_trait_xp = {
+				trait = winter_soldier
+				value = 75
+			}
+		}
+	}
+}
+
+tfw_landless_santas_elves_001 = {
+	name = tfw_landless_santas_elves_001_name
+
+	mother = tfw_lineoflossidil_himrath_004
+	father = tfw_lineoflossidil_celethrim_009
+
+	religion = faith_santa
+	culture = lossidil
+
+	sexuality = heterosexual
+
+	trait = education_martial_4
+	trait = brave
+	trait = generous
+	trait = gregarious
+
+	trait = winter_soldier
+	trait = forest_fighter
+	trait = rough_terrain_expert
+	trait = lifestyle_blademaster
+
+	diplomacy = 9
+	martial = 11
+	stewardship = 8
+	intrigue = 7
+	learning = 8
+	prowess = 12
+
+	6571.12.24 = {
+		birth = yes
+
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+
+			add_trait_xp = {
+				trait = lifestyle_blademaster
+				value = 50
+			}
+
+			add_trait_xp = {
+				trait = winter_soldier
+				value = 100
+			}
+		}
+	}
+}
+
+tfw_vanyar_vorondil_001 = {
+	name = tfw_vanyar_vorondil_001_name
+
+	religion = faith_eternal_vigil
+	culture = vanyar
+
+	sexuality = heterosexual
+
+	trait = patient
+	trait = diligent
+	trait = just
+
+	trait = education_martial_4
+	trait = twotreeslight
+	trait = lifestyle_blademaster
+	trait = faith_warrior
+
+	diplomacy = 10
+	martial = 12
+	stewardship = 8
+	intrigue = 5
+	learning = 11
+	prowess = 12
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	587.4.18 = {
+		death = { death_reason = death_battle }
+	}
 }

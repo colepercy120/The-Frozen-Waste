@@ -2034,7 +2034,7 @@
  tfw_lineofardanoril_017_name: "Caela"
  tfw_lineofardanoril_018_name: "Caeleth"
  tfw_lineofardanoril_019_name: "Caeliel"
- tfw_lineofheorwulf_001_name: "Beorwulf"
+ tfw_lineofheorwulf_001_name: "Graw"
  tfw_lineoflowborn_forodain_061_name: "Saelwyn"
  tfw_lineofheorwulf_002_name: "Heorgrim"
  tfw_lineofheorwulf_003_name: "Wulfhild"
@@ -4132,3 +4132,9 @@
  tfw_lineofumli_nori_050_name: "Bofur"
  tfw_lineofumli_nori_051_name: "Hepti"
  tfw_lineofumli_nori_052_name: "Durin"
+ 
+ ### LLAMPS
+ 
+ tfw_landless_northern_wardens_001_name: "Aracáno"
+ tfw_landless_santas_elves_001_name: "Hirilas"
+ tfw_vanyar_vorondil_001_name: "Vorondil"

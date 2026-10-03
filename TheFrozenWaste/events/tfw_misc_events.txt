@@ -1,0 +1,186 @@
+﻿namespace = tfw_misc
+
+tfw_misc.001 = {	# Formation of Rast Losnath
+	type = character_event
+	title = tfw_misc.001.t
+	desc = tfw_misc.001.desc
+	theme = stewardship_duty_focus
+	override_background = {
+		reference = forodwaith
+	}
+
+	left_portrait = {
+		character = root
+		animation = steward
+	}
+
+	option = {
+		name = tfw_misc.001.a
+	}
+}
+
+tfw_misc.002 = {	# Formation of Muilfalas
+	type = character_event
+	title = tfw_misc.002.t
+	desc = tfw_misc.002.desc
+	theme = stewardship_duty_focus
+	override_background = {
+		reference = forodwaith
+	}
+
+	left_portrait = {
+		character = root
+		animation = steward
+	}
+
+	option = {
+		name = tfw_misc.002.a
+	}
+}
+
+tfw_misc.003 = {	# Formation of Gaurmar
+	type = character_event
+	title = tfw_misc.003.t
+	desc = tfw_misc.003.desc
+	theme = stewardship_duty_focus
+
+	left_portrait = {
+		character = root
+		animation = celebrate_sword
+	}
+
+	option = {
+		name = tfw_misc.003.a
+	}
+}
+
+tfw_misc.004 = {	# Formation of Fordor
+	type = character_event
+	title = tfw_misc.004.t
+	desc = tfw_misc.004.desc
+	theme = stewardship_duty_focus
+	override_background = {
+		reference = docks_dunedain
+	}
+	
+
+	left_portrait = {
+		character = root
+		animation = steward
+	}
+
+	option = {
+		name = tfw_misc.004.a
+	}
+}
+
+tfw_misc.005 = {	# Formation of Lossoth
+	type = character_event
+	title = tfw_misc.005.t
+	desc = tfw_misc.005.desc
+	theme = stewardship_duty_focus
+	override_background = {
+		reference = forodwaith
+	}
+
+	left_portrait = {
+		character = root
+		animation = steward
+	}
+
+	option = {
+		name = tfw_misc.005.a
+	}
+}
+
+tfw_misc.006 = {	# Formation of Forochel
+	type = character_event
+	title = tfw_misc.006.t
+	desc = tfw_misc.006.desc
+	theme = stewardship_duty_focus
+	override_background = {
+		reference = forodwaith
+	}
+
+	left_portrait = {
+		character = root
+		animation = steward
+	}
+
+	option = {
+		name = tfw_misc.006.a
+	}
+}
+
+tfw_misc.007 = {	# Formation of Northern Territories
+	type = character_event
+	title = tfw_misc.007.t
+	desc = tfw_misc.007.desc
+	theme = stewardship_duty_focus
+	override_background = {
+		reference = forodwaith
+	}
+
+	left_portrait = {
+		character = root
+		animation = steward
+	}
+
+	option = {
+		name = tfw_misc.007.a
+	}
+}
+
+tfw_misc.008 = {	# Formation of Avari
+	type = character_event
+	title = tfw_misc.008.t
+	desc = tfw_misc.008.desc
+	theme = stewardship_duty_focus
+	override_background = {
+		reference = eregion
+	}
+
+	left_portrait = {
+		character = root
+		animation = steward
+	}
+
+	option = {
+		name = tfw_misc.008.a
+	}
+}
+
+tfw_misc.009 = {	# Formation of Forodwaith
+	type = character_event
+	title = tfw_misc.009.t
+	desc = tfw_misc.009.desc
+	theme = stewardship_duty_focus
+	override_background = {
+		reference = forodwaith
+	}
+
+	left_portrait = {
+		character = root
+		animation = steward
+	}
+
+	option = {
+		name = tfw_misc.009.a
+	}
+}
+
+tfw_misc.010 = {	# Formation of Winter
+	type = character_event
+	title = tfw_misc.010.t
+	desc = tfw_misc.010.desc
+	theme = stewardship_duty_focus
+
+	left_portrait = {
+		character = root
+		animation = steward
+	}
+
+	option = {
+		name = tfw_misc.010.a
+	}
+}
