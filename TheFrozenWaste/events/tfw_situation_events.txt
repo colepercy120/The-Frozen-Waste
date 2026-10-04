@@ -105,6 +105,7 @@ tfw_situation.0003 = {
 				}
 				add_legitimacy = 3000
 				set_relation_nemesis = character:tfw_lineofnixni_001
+				give_nickname = nick_tareg
 			}
 		}
 		

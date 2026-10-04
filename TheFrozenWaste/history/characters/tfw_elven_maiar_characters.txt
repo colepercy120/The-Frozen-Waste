@@ -93,7 +93,7 @@ tfw_lineoffeanor_001 = { # Daughter of Caranthir
 	trait = architect
 	trait = overseer
 	trait = irritable
-	trait = faith_warrior
+	trait = veteran_of_war_of_wrath
 	
 	trait = winter_soldier
 	trait = holy_warrior
@@ -114,6 +114,43 @@ tfw_lineoffeanor_001 = { # Daughter of Caranthir
 	}
 
 	
+}
+
+tfw_vanyar_vorondil_001 = {
+	name = tfw_vanyar_vorondil_001_name
+
+	religion = faith_eternal_vigil
+	culture = vanyar
+	dynasty = dynasty_vorondil
+
+	sexuality = heterosexual
+
+	trait = patient
+	trait = diligent
+	trait = just
+
+	trait = education_martial_4
+	trait = twotreeslight
+	trait = lifestyle_blademaster
+	trait = faith_warrior
+
+	diplomacy = 10
+	martial = 12
+	stewardship = 8
+	intrigue = 5
+	learning = 11
+	prowess = 12
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+
+	587.4.18 = {
+		death = { death_reason = death_battle }
+	}
 }
 
 tfw_lineoffeanor_002 = { # Daughter of Caranthir husband
@@ -147,7 +184,7 @@ tfw_lineoffeanor_002 = { # Daughter of Caranthir husband
 	trait = strategist
 	trait = gallant
 	trait = loyal
-	trait = faith_warrior
+	trait = veteran_of_war_of_wrath
 	
 	trait = winter_soldier
 	trait = holy_warrior
@@ -203,6 +240,7 @@ tfw_lineoffeanor_003 = { # Daughter of Maglor
 	trait = intellect_good_2
 	trait = lifestyle_blademaster
 	trait = twotreeslight
+	trait = veteran_of_war_of_wrath
 	
 	
 	trait = lifestyle_gardener
@@ -254,6 +292,8 @@ tfw_lineofnestador_001 = { # Merp Wizard king of Evermist
 	trait = theologian
 	trait = reclusive
 	trait = lifestyle_physician
+	trait = veteran_of_war_of_wrath
+	
 2.1.1 = {	#-1423.1.1
 		birth = yes
 		learn_language = language_quenya # Accounting for Noldor culture using Sindarin as primary on account of the Noldor of Middle-earth
@@ -8273,38 +8313,3 @@ tfw_landless_santas_elves_001 = {
 	}
 }
 
-tfw_vanyar_vorondil_001 = {
-	name = tfw_vanyar_vorondil_001_name
-
-	religion = faith_eternal_vigil
-	culture = vanyar
-
-	sexuality = heterosexual
-
-	trait = patient
-	trait = diligent
-	trait = just
-
-	trait = education_martial_4
-	trait = twotreeslight
-	trait = lifestyle_blademaster
-	trait = faith_warrior
-
-	diplomacy = 10
-	martial = 12
-	stewardship = 8
-	intrigue = 5
-	learning = 11
-	prowess = 12
-
-	1.1.1 = {
-		birth = yes
-		effect = {
-			add_character_flag = do_not_generate_starting_family
-		}
-	}
-
-	587.4.18 = {
-		death = { death_reason = death_battle }
-	}
-}

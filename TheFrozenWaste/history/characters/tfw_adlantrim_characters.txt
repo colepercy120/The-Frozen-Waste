@@ -28,7 +28,9 @@ tfw_lineofadlantrim_mornaer_001 = {
 	trait = diligent
 	trait = ambitious
 	trait = education_stewardship_4
-	trait = immortal
+	trait = orc_father
+	
+	give_nickname = nick_adar
 
 	diplomacy = 8
 	martial = 8

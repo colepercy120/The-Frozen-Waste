@@ -22,6 +22,12 @@ dynasty_nestador = {
 	motto = dynn_nestador_motto
 }
 
+dynasty_vorondil = {
+	name = "dynn_vorondil"
+	culture = "noldor"
+	motto = dynn_vorondil_motto
+}
+
 
 ##################
 ##### LOSSOTH #####

@@ -1,0 +1,113 @@
+﻿###############################
+#### The Frozen Waste Lore ####
+###############################
+
+### Central Lore ###
+
+frozen_waste = {
+	parent = conceptmajorloreidea
+	alias = { the_frozen_waste }
+}
+
+eternal_winter = {
+	parent = conceptmajorloreidea
+	alias = { endless_winter }
+}
+
+the_unbroken = {
+	parent = conceptmajorloreidea
+	alias = { unbroken }
+}
+
+gift_of_the_wolf = {
+	parent = conceptmajorloreidea
+	alias = { wolfs_gift wolfgift }
+}
+
+roundingofworld = {
+	texture = "gfx/interface/icons/concept_icons/concepteventdownfallofnumenor.dds"
+	parent = downfallofnumenor
+	alias = { forodwaithshattering }
+}
+
+
+####################
+### Characters ####
+####################
+
+ladyofcold = {
+	parent = conceptmajorcharacter
+	alias = { winter_queen snowqueen nixni }
+}
+
+# The base LOTR concept file already defines "tareg".
+# TFW uses a separate key because this mod gives him a substantially
+# different history and fate than the base concept localization.
+#tfw_tareg = {
+#	parent = conceptmajorcharacter
+#	alias = { tareg_frostwood }
+#}
+
+giftlord = {
+	parent = maiargods
+	alias = { giftbringer gift_bringer }
+}
+
+
+#################
+### Peoples #####
+#################
+
+forodain = {
+	parent = conceptracemen
+}
+
+lossidil = {
+	parent = elves
+}
+
+gauredain = {
+	parent = conceptracemen
+	alias = { wolfsworn_people }
+}
+
+uracinar = {
+	parent = orcs
+	alias = { unbowed_orcs }
+}
+
+
+#################
+### Locations ###
+#################
+
+helecthil = {
+	parent = conceptplace
+	alias = { beaconofhelecthil beacon_of_helecthil }
+}
+
+frostwood = {
+	parent = conceptplace
+}
+
+shatterwood = {
+	parent = conceptplace
+	alias = { frozen_numenorean_fleet }
+}
+
+morgoths_well = {
+	parent = conceptplace
+	alias = { morgothswell }
+}
+
+evermist = {
+	parent = conceptplace
+}
+
+durnost = {
+	parent = conceptplace
+}
+
+nidavellir = {
+	parent = conceptplace
+}

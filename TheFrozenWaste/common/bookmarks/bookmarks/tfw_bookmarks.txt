@@ -1,0 +1,94 @@
+﻿bm_2754_frozen_waste = {
+	start_date = 6787.1.1
+	is_playable = yes
+	group = bm_group_2754TA
+
+	weight = {
+		value = 1000
+	}
+
+	# Nixni
+	character = {
+		name = "bookmark_frozen_waste_nixni"
+		dynasty = dynasty_nixni
+		dynasty_splendor_level = 6
+		type = female
+		birth = 1.1.1
+		title = e_winter_court
+		religion = faith_winter_queen
+		culture = maiar_fallen
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = tfw_lineofnixni_001
+		position = { 300 650 }
+		animation = personality_callous
+		government = feudal_government
+	}
+
+	# Talanthir
+	character = {
+		name = "bookmark_frozen_waste_talanthir"
+		dynasty = dynasty_adlantrim_mornaer
+		dynasty_splendor_level = 6
+		type = male
+		birth = 2.2.5
+		title = e_ered_rhivamar
+		religion = faith_unbowed
+		culture = adlantrim
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = tfw_lineofadlantrim_mornaer_001
+		position = { 540 250 }
+		animation = personality_honorable
+		government = feudal_government
+	}
+
+	# Graw
+	character = {
+		name = "bookmark_frozen_waste_graw"
+		dynasty = dynasty_heorwulf
+		dynasty_splendor_level = 2
+		type = male
+		birth = 6767.3.14
+		title = d_beowulf_company
+		government = landless_adventurer_government
+		religion = faith_forodain
+		culture = forodain
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = tfw_lineofheorwulf_001
+		position = { 780 700 }
+		animation = personality_bold
+	}
+
+	# Queen of Evermist
+	character = {
+		name = "bookmark_frozen_waste_evermist_queen"
+		dynasty_splendor_level = 6
+		dynasty_house = house_feanor
+		type = female
+		birth = 2.1.1
+		title = k_evermist
+		religion = faith_evermist
+		culture = noldor
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = tfw_lineoffeanor_001
+		position = { 1000 250 }
+		animation = personality_honorable
+		government = elven_government
+	}
+
+	# Eitri
+	character = {
+		name = "bookmark_frozen_waste_eitri"
+		dynasty = dynasty_sindri
+		dynasty_splendor_level = 6
+		type = male
+		birth = 6704.2.11
+		title = k_nidavellir
+		religion = faith_ironfists
+		culture = ironfists
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = tfw_lineofsindri_002
+		position = { 1200 600 }
+		animation = personality_rational
+		government = feudal_government
+	}
+}
