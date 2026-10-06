@@ -317,7 +317,7 @@ tfw_lineofsindri_006 = { # grandson of Eitri; base stats total 55
 	prowess = 11
 
 	trait = education_martial_4
-	trait = dwarf_father
+	
 
 	6891.12.4 = {
 		birth = yes
@@ -668,7 +668,7 @@ tfw_lineofnidavellir_kharum_002 = { # landed ruler of the western marches
 	prowess = 9
 
 	trait = education_martial_3
-	trait = dwarf_father
+	
 
 	6751.8.9 = {
 		birth = yes
@@ -773,7 +773,7 @@ tfw_lineofnidavellir_kharum_004 = { # successor in the western marches
 	prowess = 7
 
 	trait = education_stewardship_4
-	trait = dwarf_father
+	
 
 	6876.3.14 = {
 		birth = yes
@@ -1086,7 +1086,7 @@ tfw_lineofnidavellir_zharakh_003 = { # landed ruler of the second hall
 	prowess = 9
 
 	trait = education_martial_4
-	trait = dwarf_father
+	
 
 	6780.5.2 = {
 		birth = yes
@@ -1189,7 +1189,7 @@ tfw_lineofnidavellir_zharakh_005 = { # successor in the second hall
 	prowess = 7
 
 	trait = education_stewardship_4
-	trait = dwarf_father
+	
 
 	6901.9.20 = {
 		birth = yes
@@ -1504,7 +1504,7 @@ tfw_lineofnidavellir_tharim_004 = { # landed ruler of the deep-road wardens
 	prowess = 7
 
 	trait = education_stewardship_3
-	trait = dwarf_father
+	
 
 	6825.1.17 = {
 		birth = yes
@@ -1607,7 +1607,7 @@ tfw_lineofnidavellir_tharim_006 = { # successor in the deep-road wardens
 	prowess = 8
 
 	trait = education_martial_3
-	trait = dwarf_father
+	
 
 	6952.11.6 = {
 		birth = yes
@@ -1920,7 +1920,7 @@ tfw_lineofnidavellir_gabilan_003 = { # landed ruler of the eastern gate
 	prowess = 10
 
 	trait = education_martial_4
-	trait = dwarf_father
+	
 
 	6871.6.12 = {
 		birth = yes
@@ -2025,7 +2025,7 @@ tfw_lineofnidavellir_gabilan_005 = { # successor in the eastern gate
 	prowess = 7
 
 	trait = education_learning_3
-	trait = dwarf_father
+	
 
 	6992.2.23 = {
 		birth = yes
@@ -2338,7 +2338,7 @@ tfw_lineofnidavellir_kheledan_005 = { # landed ruler of the third hall
 	prowess = 8
 
 	trait = education_stewardship_4
-	trait = dwarf_father
+	
 
 	6890.10.3 = {
 		birth = yes
@@ -2443,7 +2443,7 @@ tfw_lineofnidavellir_kheledan_007 = { # successor in the third hall
 	prowess = 8
 
 	trait = education_martial_3
-	trait = dwarf_father
+	
 
 	7012.5.29 = {
 		birth = yes
@@ -2756,7 +2756,7 @@ tfw_lineofnidavellir_barukhan_006 = { # landed ruler of the far eastern delvers
 	prowess = 9
 
 	trait = education_martial_3
-	trait = dwarf_father
+	
 
 	6938.4.15 = {
 		birth = yes
@@ -2861,7 +2861,7 @@ tfw_lineofnidavellir_barukhan_008 = { # successor in the far eastern delvers
 	prowess = 8
 
 	trait = education_stewardship_3
-	trait = dwarf_father
+	
 
 	7061.7.8 = {
 		birth = yes

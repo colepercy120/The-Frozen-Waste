@@ -1,0 +1,148 @@
+
+namespace = tfw_intro
+
+
+############################################################
+# TALANTHIR
+############################################################
+
+tfw_intro.001 = { # Talanthir - Head of the Adalantrim
+	type = character_event
+	title = tfw_intro.001.t
+	desc = tfw_intro.001.desc
+	theme = realm
+
+	left_portrait = {
+		character = root
+		animation = thinking
+	}
+
+	immediate = {
+
+	}
+
+	option = {
+		name = tfw_intro.001.a
+	}
+}
+
+
+############################################################
+# EVERMIST
+############################################################
+
+tfw_intro.010 = { # Evermist introduction
+	type = character_event
+	title = tfw_intro.010.t
+	desc = tfw_intro.010.desc
+	theme = elven
+
+	left_portrait = {
+		character = root
+		animation = thinking
+	}
+
+	right_portrait = {
+		character = character:tfw_lineoffeanor_001
+		animation = personality_honorable
+	}
+
+	immediate = {
+
+	}
+
+	option = {
+		name = tfw_intro.010.a
+	}
+}
+
+
+############################################################
+# TAURETHON
+############################################################
+
+tfw_intro.020 = { # Taurethon introduction
+	type = character_event
+	title = tfw_intro.020.t
+	desc = tfw_intro.020.desc
+	theme = elven
+
+	left_portrait = {
+		character = root
+		animation = personality_honorable
+	}
+
+	right_portrait = {
+		character = character:tfw_lineoflossidil_celethrim_003
+		animation = personality_honorable
+	}
+
+	immediate = {
+
+	}
+
+	option = {
+		name = tfw_intro.020.a
+	}
+}
+
+
+############################################################
+# AURORA ISLES
+############################################################
+
+tfw_intro.030 = { # Aurora Isles introduction
+	type = character_event
+	title = tfw_intro.030.t
+	desc = tfw_intro.030.desc
+	theme = elven
+
+	left_portrait = {
+		character = root
+		animation = thinking
+	}
+
+	right_portrait = {
+		character = character:tfw_lineoflossidil_celethrim_004
+		animation = personality_honorable
+	}
+
+	immediate = {
+
+	}
+
+	option = {
+		name = tfw_intro.030.a
+	}
+}
+
+
+############################################################
+# FROSTWOOD
+############################################################
+
+tfw_intro.040 = { # Frostwood introduction
+	type = character_event
+	title = tfw_intro.040.t
+	desc = tfw_intro.040.desc
+	theme = elven
+
+	left_portrait = {
+		character = character:tfw_lineofwindan_sairavel_001
+		animation = personality_honorable
+	}
+
+	right_portrait = {
+		character = character:tfw_lineofhwenti_hwerin_001
+		animation = thinking
+	}
+
+	immediate = {
+
+	}
+
+	option = {
+		name = tfw_intro.040.a
+	}
+}
+

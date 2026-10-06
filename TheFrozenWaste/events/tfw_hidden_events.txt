@@ -104,6 +104,8 @@ tfw.1 = { # integrate the southern provinces
 		#}
 		
 		tfw_age_fixing = yes
+		tfw_war_of_wrath_handout = yes
+		tfw_add_palisor_veterans = yes
 		
 		### Buggy history fix
 		every_county_in_region = {
@@ -122,6 +124,7 @@ tfw.1 = { # integrate the southern provinces
 		
 		tfw_special_building_start = yes
 		tfw_elven_homelands_start = yes
+		tfw_trigger_intro_events = yes
 		
 		start_situation = {
 			type = frozen_waste	

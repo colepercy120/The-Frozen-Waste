@@ -67,3 +67,31 @@ l_english:
  tfw_misc.010.t: "The Formation of Winter"
  tfw_misc.010.desc: "A new realm has arisen in the north. The lands and peoples of Winter now stand united beneath a single authority, and a new chapter in the history of the frozen wastes has begun."
  tfw_misc.010.a: "So it shall be."
+ 
+ ### Into Events
+
+ ### Talanthir
+ tfw_intro.001.t: "The Abandoned Children"
+ tfw_intro.001.desc: "Talanthir remembers what came before.\n\nBefore the pits. Before the breaking. Before Morgoth took the Children of Ilúvatar and twisted flesh, mind, and spirit into something made for fear and war.\n\nHe remembers being an Elf.\n\nThat memory has never brought him comfort.\n\nThe Dark Lord committed the crime, but Talanthir has never forgotten those who failed to answer it. The Valar knew what Morgoth was. The Eldar knew that captives had vanished into his hands. Yet no host came to free them. No mercy was offered to those who escaped. In the ages that followed, the descendants of the tortured were not welcomed home, but hunted as monsters by the very peoples who should have recognized them as kin.\n\nThus were the Adalantrim born: not children of Morgoth, but abandoned Children of Ilúvatar.\n\nTalanthir stands now as their eldest father and their protector. He does not deny what Orcs have become, nor the cruelties committed beneath the Shadow. But neither will he accept that Morgoth's work defines what they truly are. Beneath the scars, the rage, the twisted bodies and clouded minds, he still sees the people who were stolen.\n\nIn the mountains he is building realms where the Adalantrim will no longer exist at the mercy of those who despise them. There they may heal. Their bodies may one day be restored, their minds freed from the poison passed down through generations, and their children raised without the chains Morgoth forged for them.\n\nYet Talanthir will not have them crawl back to the Eldar begging forgiveness for surviving. Healing will not mean surrendering their dignity, their history, or the identity forged through ages of suffering.\n\nIf the Elves and the Valar abandoned them once, the Adalantrim will learn to stand without them."
+ tfw_intro.001.a: "We were abandoned, not forsaken by Ilúvatar."
+
+ ### Evermist
+ tfw_intro.010.t: "The Realm of Evermist"
+ tfw_intro.010.desc: "Hidden amid the frozen reaches stands Evermist, one of the last great refuges of the Eldar in the north. Its people have endured war, ruin, and the long decline of the Elder Days while preserving traditions carried out of lands now lost beneath ice, sea, and memory.\n\nThe realm remains a bastion of the Noldor and those who followed them into the uttermost north. Though distant from the great Elven realms of the south, Evermist has endured where lesser settlements vanished entirely.\n\nIts ruler carries memories of an older world, of the light of the Trees and of wars fought against the first Dark Lord. Evermist may stand at the edge of the world, but its history reaches back to the greatest triumphs and tragedies of the Eldar."
+ tfw_intro.010.a: "Evermist shall endure."
+
+ ### Taurethon
+ tfw_intro.020.t: "The Kingdom of Taurethon"
+ tfw_intro.020.desc: "Taurethon is one half of the realm founded by the Lossidil, descendants of Elven refugees who sought a new home in the north. After the death of their father, the inheritance of his people passed to his twin children, and the growing Lossidil realm was divided between two closely bound kingdoms.\n\nTaurethon became the mainland heart of their people, guarding the forests and settlements carved from a wilderness few others would willingly inhabit.\n\nIts people have long since ceased to think of themselves merely as refugees. The forests of Taurethon are their home now, defended by generations who have known no other land."
+ tfw_intro.020.a: "The forest remains ours."
+
+ ### Aurora Isles
+ tfw_intro.030.t: "The Aurora Isles"
+ tfw_intro.030.desc: "Beyond the frozen coast lie the Aurora Isles, the second of the twin kingdoms of the Lossidil. Settled by Elves driven north through centuries of war and displacement, the islands became both refuge and fortress beneath the dancing lights of the northern sky.\n\nThe crown of the Isles remains bound by blood and history to Taurethon. Though two kingdoms arose from the inheritance of the founding house, their peoples have never truly regarded one another as strangers.\n\nIsolation has shaped the islanders into a people accustomed to the sea, the cold, and the long darkness of the north. What began as a refuge has become a realm with traditions entirely its own."
+ tfw_intro.030.a: "The lights still shine above us."
+
+ ### Frostwood
+ tfw_intro.040.t: "The Refuge of Frostwood"
+ tfw_intro.040.desc: "Frostwood was not always a kingdom.\n\nIn the Elder Days, Sairavel and Hwerin were war leaders among the Avari, fighting to preserve their people against enemies far greater than themselves. When that struggle ended in defeat, they led the survivors north and withdrew into the frozen forest that would become their refuge.\n\nWhat began as a sanctuary slowly became a realm.\n\nThe Windan settled the western reaches beneath Sairavel, while the Hwenti gathered in the east beneath Hwerin. The two peoples kept their own traditions, their own rulers, and their own ways, but they shared the memory of defeat and the knowledge that Frostwood existed because there had been nowhere else left to go.\n\nSince the Elder Days, Sairavel and Hwerin have ruled there together, husband and wife over two crowns. Generations have been born beneath the frozen boughs while the kingdoms of the outside world rose, fell, and passed into legend.\n\nFrostwood is no longer merely a refuge. It is their homeland now, defended by people who remember exactly what it cost to find one."
+ tfw_intro.040.a: "We endured, and made a home of it."
+

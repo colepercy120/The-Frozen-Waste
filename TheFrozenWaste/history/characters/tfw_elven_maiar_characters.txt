@@ -133,6 +133,7 @@ tfw_vanyar_vorondil_001 = {
 	trait = twotreeslight
 	trait = lifestyle_blademaster
 	trait = faith_warrior
+	trait = veteran_of_war_of_wrath
 
 	diplomacy = 10
 	martial = 12
@@ -331,6 +332,7 @@ tfw_lineoflossidil_celethrim_001 = { # Sindar refugee lord; father of the twin m
 	trait = education_martial_4
 	trait = beauty_good_2
 	trait = lifestyle_blademaster
+	trait = veteran_of_war_of_wrath
 
 	diplomacy = 8
 	martial = 10
@@ -372,6 +374,7 @@ tfw_lineoflossidil_celethrim_002 = { # Sindar refugee lady; mother of the twin m
 	trait = education_learning_4
 	trait = beauty_good_2
 	trait = intellect_good_1
+	trait = veteran_of_war_of_wrath
 
 	diplomacy = 10
 	martial = 6
@@ -8200,7 +8203,7 @@ tfw_lineoftareg_001 = { # dummy to assign dna to
 	trait = strategist
 	trait = gallant
 	trait = loyal
-	trait = faith_warrior
+	trait = veteran_of_palisor
 	
 	trait = winter_soldier
 	trait = holy_warrior
@@ -8238,6 +8241,7 @@ tfw_landless_northern_wardens_001 = {
 	trait = organizer
 	trait = cautious_leader
 	trait = twotreeslight
+	trait = veteran_of_war_of_wrath
 
 	diplomacy = 8
 	martial = 12

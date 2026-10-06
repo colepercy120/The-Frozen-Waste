@@ -29,6 +29,7 @@ tfw_lineofadlantrim_mornaer_001 = {
 	trait = ambitious
 	trait = education_stewardship_4
 	trait = orc_father
+	trait = veteran_of_war_of_wrath
 	
 	give_nickname = nick_adar
 
