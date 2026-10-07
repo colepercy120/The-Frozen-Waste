@@ -73,7 +73,12 @@ gauredain = {
 
 uracinar = {
 	parent = orcs
-	alias = { unbowed_orcs }
+	alias = { unbowed_orcs adalantrim }
+}
+
+moriondor = {
+	parent = orcs
+	alias = { orc_father orc_mother }
 }
 
 

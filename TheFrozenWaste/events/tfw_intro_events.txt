@@ -43,7 +43,7 @@ tfw_intro.010 = { # Evermist introduction
 	}
 
 	right_portrait = {
-		character = character:tfw_lineoffeanor_001
+		character = character:tfw_lineoffeanor_002
 		animation = personality_honorable
 	}
 

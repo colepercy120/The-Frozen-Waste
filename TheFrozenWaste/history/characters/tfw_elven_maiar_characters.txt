@@ -162,7 +162,7 @@ tfw_lineoffeanor_002 = { # Daughter of Caranthir husband
 	culture = vanyar
 	dna = tfw_lineoffeanor11_husband_dna
 	father = tfw_vanyar_vorondil_001
-	
+	dynasty = dynasty_vorondil
 
 	sexuality = heterosexual
 
@@ -8226,7 +8226,7 @@ tfw_landless_northern_wardens_001 = {
 
 	religion = faith_eternal_vigil
 	culture = vanyar
-	
+	dynasty = dynasty_vorondil
 	father = tfw_vanyar_vorondil_001
 
 	sexuality = heterosexual

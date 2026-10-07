@@ -128,9 +128,7 @@ tfw_lineofsindri_003 = { # son and heir of Eitri; replaces Sindri VII; base stat
 
 	sexuality = heterosexual
 
-	trait = stubborn
-	trait = diligent
-	trait = greedy
+	trait = bossy
 
 	diplomacy = 7
 	martial = 11
@@ -139,12 +137,19 @@ tfw_lineofsindri_003 = { # son and heir of Eitri; replaces Sindri VII; base stat
 	learning = 9
 	prowess = 11
 
-	trait = education_stewardship_4
-	trait = artificer
-	trait = lifestyle_artifact_crafting
 
 	6772.7.18 = {
 		birth = yes
+	}
+
+	6788.7.18 = {
+		remove_trait = bossy
+		add_trait = stubborn
+		add_trait = diligent
+		add_trait = greedy
+		add_trait = education_stewardship_4
+		add_trait = artificer
+		add_trait = lifestyle_artifact_crafting
 	}
 
 	6868.4.15 = {
@@ -169,9 +174,7 @@ tfw_lineofsindri_004 = { # daughter of Eitri; sister of Brokkr
 
 	sexuality = heterosexual
 
-	trait = compassionate
-	trait = patient
-	trait = content
+	trait = curious
 
 	diplomacy = 7
 	martial = 5
@@ -180,10 +183,17 @@ tfw_lineofsindri_004 = { # daughter of Eitri; sister of Brokkr
 	learning = 8
 	prowess = 5
 
-	trait = education_learning_3
 
 	6780.10.6 = {
 		birth = yes
+	}
+
+	6796.10.6 = {
+		remove_trait = curious
+		add_trait = compassionate
+		add_trait = patient
+		add_trait = content
+		add_trait = education_learning_3
 	}
 
 	6877.7.12 = {
@@ -204,9 +214,7 @@ tfw_lineofnidavellir_barukhan_001 = {
 
 	sexuality = heterosexual
 
-	trait = arrogant
-	trait = brave
-	trait = forgiving
+	trait = rowdy
 
 	diplomacy = 5
 	martial = 8
@@ -215,10 +223,17 @@ tfw_lineofnidavellir_barukhan_001 = {
 	learning = 5
 	prowess = 8
 
-	trait = education_martial_3
 
 	6777.4.19 = {
 		birth = yes
+	}
+
+	6793.4.19 = {
+		remove_trait = rowdy
+		add_trait = arrogant
+		add_trait = brave
+		add_trait = forgiving
+		add_trait = education_martial_3
 	}
 
 	7041.8.10 = {
@@ -270,9 +285,7 @@ tfw_lineofnidavellir_tharim_001 = {
 
 	sexuality = heterosexual
 
-	trait = gregarious
-	trait = ambitious
-	trait = temperate
+	trait = charming
 
 	diplomacy = 8
 	martial = 5
@@ -281,10 +294,17 @@ tfw_lineofnidavellir_tharim_001 = {
 	learning = 6
 	prowess = 4
 
-	trait = education_diplomacy_4
 
 	6777.12.3 = {
 		birth = yes
+	}
+
+	6793.12.3 = {
+		remove_trait = charming
+		add_trait = gregarious
+		add_trait = ambitious
+		add_trait = temperate
+		add_trait = education_diplomacy_4
 	}
 
 	7059.5.22 = {
@@ -899,9 +919,7 @@ tfw_lineofnidavellir_kharum_007 = { # child of Khurubra
 
 	sexuality = heterosexual
 
-	trait = calm
-	trait = greedy
-	trait = just
+	trait = bossy
 
 	diplomacy = 4
 	martial = 8
@@ -910,10 +928,17 @@ tfw_lineofnidavellir_kharum_007 = { # child of Khurubra
 	learning = 5
 	prowess = 8
 
-	trait = education_stewardship_3
 
 	6987.3.14 = {
 		birth = yes
+	}
+
+	7003.3.14 = {
+		remove_trait = bossy
+		add_trait = calm
+		add_trait = greedy
+		add_trait = just
+		add_trait = education_stewardship_3
 	}
 
 	7232.3.14 = {
@@ -934,9 +959,7 @@ tfw_lineofnidavellir_kharum_008 = { # child of Khurubra
 
 	sexuality = heterosexual
 
-	trait = arbitrary
-	trait = brave
-	trait = temperate
+	trait = charming
 
 	diplomacy = 6
 	martial = 6
@@ -945,10 +968,17 @@ tfw_lineofnidavellir_kharum_008 = { # child of Khurubra
 	learning = 6
 	prowess = 5
 
-	trait = education_diplomacy_3
 
 	7000.3.14 = {
 		birth = yes
+	}
+
+	7016.3.14 = {
+		remove_trait = charming
+		add_trait = arbitrary
+		add_trait = brave
+		add_trait = temperate
+		add_trait = education_diplomacy_3
 	}
 
 	7245.3.14 = {
@@ -1074,9 +1104,7 @@ tfw_lineofnidavellir_zharakh_003 = { # landed ruler of the second hall
 
 	sexuality = heterosexual
 
-	trait = greedy
-	trait = gregarious
-	trait = brave
+	trait = rowdy
 
 	diplomacy = 7
 	martial = 9
@@ -1085,11 +1113,18 @@ tfw_lineofnidavellir_zharakh_003 = { # landed ruler of the second hall
 	learning = 5
 	prowess = 9
 
-	trait = education_martial_4
 	
 
 	6780.5.2 = {
 		birth = yes
+	}
+
+	6796.5.2 = {
+		remove_trait = rowdy
+		add_trait = greedy
+		add_trait = gregarious
+		add_trait = brave
+		add_trait = education_martial_4
 	}
 
 	6864.5.2 = {
@@ -1145,8 +1180,7 @@ tfw_lineofnidavellir_kharum_011 = {
 
 	sexuality = heterosexual
 
-	trait = forgiving
-	trait = ambitious
+	trait = bossy
 diplomacy = 7
 	martial = 5
 	stewardship = 7
@@ -1154,10 +1188,16 @@ diplomacy = 7
 	learning = 5
 	prowess = 6
 
-	trait = education_stewardship_2
 
 	6785.5.2 = {
 		birth = yes
+	}
+
+	6801.5.2 = {
+		remove_trait = bossy
+		add_trait = forgiving
+		add_trait = ambitious
+		add_trait = education_stewardship_2
 	}
 
 	7035.5.2 = {
@@ -2013,9 +2053,7 @@ tfw_lineofnidavellir_gabilan_005 = { # successor in the eastern gate
 
 	sexuality = heterosexual
 
-	trait = content
-	trait = trusting
-	trait = stubborn
+	trait = curious
 
 	diplomacy = 7
 	martial = 7
@@ -2024,11 +2062,18 @@ tfw_lineofnidavellir_gabilan_005 = { # successor in the eastern gate
 	learning = 8
 	prowess = 7
 
-	trait = education_learning_3
 	
 
 	6992.2.23 = {
 		birth = yes
+	}
+
+	7008.2.23 = {
+		remove_trait = curious
+		add_trait = content
+		add_trait = trusting
+		add_trait = stubborn
+		add_trait = education_learning_3
 	}
 
 	7083.2.23 = {
@@ -2119,9 +2164,7 @@ tfw_lineofnidavellir_barukhan_004 = {
 
 	sexuality = heterosexual
 
-	trait = shy
-	trait = diligent
-	trait = cynical
+	trait = pensive
 
 	diplomacy = 7
 	martial = 5
@@ -2130,10 +2173,17 @@ tfw_lineofnidavellir_barukhan_004 = {
 	learning = 5
 	prowess = 6
 
-	trait = education_intrigue_3
 
 	6996.2.23 = {
 		birth = yes
+	}
+
+	7012.2.23 = {
+		remove_trait = pensive
+		add_trait = shy
+		add_trait = diligent
+		add_trait = cynical
+		add_trait = education_intrigue_3
 	}
 
 	7247.2.23 = {
@@ -2292,9 +2342,7 @@ tfw_lineofnidavellir_gabilan_011 = {
 
 	sexuality = heterosexual
 
-	trait = patient
-	trait = honest
-	trait = compassionate
+	trait = curious
 
 	diplomacy = 6
 	martial = 5
@@ -2303,10 +2351,17 @@ tfw_lineofnidavellir_gabilan_011 = {
 	learning = 7
 	prowess = 4
 
-	trait = education_learning_3
 
 	6774.10.3 = {
 		birth = yes
+	}
+
+	6790.10.3 = {
+		remove_trait = curious
+		add_trait = patient
+		add_trait = honest
+		add_trait = compassionate
+		add_trait = education_learning_3
 	}
 
 	7022.10.3 = {
@@ -2470,9 +2525,7 @@ tfw_lineofnidavellir_kheledan_008 = { # sibling of O_O_erli_i_s
 
 	sexuality = heterosexual
 
-	trait = arbitrary
-	trait = brave
-	trait = temperate
+	trait = charming
 
 	diplomacy = 4
 	martial = 8
@@ -2481,10 +2534,17 @@ tfw_lineofnidavellir_kheledan_008 = { # sibling of O_O_erli_i_s
 	learning = 5
 	prowess = 8
 
-	trait = education_diplomacy_3
 
 	6996.5.29 = {
 		birth = yes
+	}
+
+	7012.5.29 = {
+		remove_trait = charming
+		add_trait = arbitrary
+		add_trait = brave
+		add_trait = temperate
+		add_trait = education_diplomacy_3
 	}
 
 	7242.5.29 = {

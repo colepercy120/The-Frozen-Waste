@@ -985,6 +985,79 @@ dynasty_adlantrim_mornaer={
 
 
 # dynasty_hwenti_hwerin # Hwerin
+dynasty_hwenti_hwerin={
+	pattern="pattern_solid.dds"
+	color1=black
+	color2=dark_green
+	color3=ocean_blue
+	color4=black
+	colored_emblem={
+		color1=dark_green
+		color2=frost_blue
+		texture="ce_cc_edain_border_33_gradient.dds"
+	}
+
+	colored_emblem={
+		color1=black
+		texture="ce_cc_edain_border_32.dds"
+	}
+
+	colored_emblem={
+		color1=dark_green
+		color2=mint_green
+		texture="ce_cc_edain_border_33.dds"
+		instance={
+			scale={ 0.975000 0.975000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=black
+		texture="ce_cc_edain_border_34.dds"
+	}
+
+	colored_emblem={
+		color1=black
+		color2=ocean_blue
+		color3=green
+		texture="beta_14.dds"
+		instance={
+			scale={ 0.800000 0.800000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=black
+		color2=ocean_blue
+		texture="ce_empty.dds"
+		instance={
+			position={ 0.500000 0.100000 }
+			scale={ 0.100000 0.100000 }
+		}
+
+		instance={
+			position={ 0.900000 0.500000 }
+			scale={ 0.100000 0.100000 }
+			rotation=90
+		}
+
+		instance={
+			position={ 0.500000 0.900000 }
+			scale={ 0.100000 0.100000 }
+			rotation=180
+		}
+
+		instance={
+			position={ 0.100000 0.500000 }
+			scale={ 0.100000 0.100000 }
+			rotation=270
+		}
+
+	}
+
+}
 
 
 
@@ -1109,3 +1182,128 @@ dynasty_adlantrim_mornaer={
 
 
 # dynasty_gauredain_waithor # Waithor
+
+
+dynasty_vorondil={
+	custom=yes
+	pattern="pattern_solid.dds"
+	color1=black
+	color2=yellow
+	color3=black
+	colored_emblem={
+		color1=rgb { 26 49 69 }
+		texture="ce_texture_uruk_1.dds"
+		instance={
+			scale={ 0.780000 0.780000 }
+			depth=10.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 33 65 95 }
+		texture="ce_rwby_weiss.dds"
+		instance={
+			scale={ 0.490000 0.490000 }
+			depth=2.010000
+			rotation=25
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 158 184 206 }
+		texture="ce_edain_border_03.dds"
+		instance={
+			depth=3.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 252 255 254 }
+		texture="ce_cc_edain_stars_05.dds"
+		instance={
+			scale={ 0.400000 0.400000 }
+			rotation=15
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 0 39 76 }
+		texture="ce_cc_edain_border_33.dds"
+		instance={
+			depth=7.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 144 183 195 }
+		texture="ce_cc_edain_border_34.dds"
+		instance={
+			scale={ 0.875000 0.875000 }
+			depth=4.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		color2=rgb { 0 0 0 }
+		texture="beta_18_aa.dds"
+		instance={
+			scale={ 0.930000 0.930000 }
+			depth=9.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 158 184 206 }
+		color2=rgb { 158 184 206 }
+		color3=black
+		texture="beta_17_aa.dds"
+		instance={
+			scale={ 0.870000 0.870000 }
+			depth=8.010000
+			rotation=135
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 158 184 206 }
+		color2=rgb { 158 184 206 }
+		texture="ce_border_simple_circle.dds"
+		instance={
+			scale={ 0.780000 0.780000 }
+			depth=5.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 25 34 58 }
+		color2=rgb { 0 0 0 }
+		texture="ce_cc_edain_border_33_gradient.dds"
+		instance={
+			scale={ 0.860000 0.860000 }
+			depth=6.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=rgb { 158 184 206 }
+		texture="ce_rwby_weiss.dds"
+		instance={
+			scale={ 0.575000 0.575000 }
+			depth=1.010000
+			rotation=38
+		}
+
+	}
+
+}

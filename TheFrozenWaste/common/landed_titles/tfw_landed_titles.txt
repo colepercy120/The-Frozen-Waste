@@ -2179,7 +2179,7 @@ e_bleak_mountains = {
 		capital = c_nidavellir_1
 		color={ 198 247 247 }
 		d_nidavellir_1 = {
-			capital = c_nidavellir_5
+			capital = c_nidavellir_1
 			color={ 198 247 247 }
 			c_nidavellir_1 = {
 				color={ 198 247 247 }
@@ -2239,7 +2239,7 @@ e_bleak_mountains = {
 			}
 		}
 		d_nidavellir_2 = {
-			capital = c_nidavellir_11
+			capital = c_nidavellir_14
 			color={ 234 237 183 }
 			c_nidavellir_9 = {
 				color={ 234 237 183 }
@@ -2304,9 +2304,16 @@ e_bleak_mountains = {
 					color={ 166 150 57 }
 				}
 			}
+			c_nidavellir_24 = {
+				color={ 255 213 77 }
+				b_nidavellir_24 = {
+					province = 9272
+					color={ 255 213 77 }
+				}
+			}
 		}
 		d_nidavellir_3 = {
-			capital = c_nidavellir_19
+			capital = c_nidavellir_18
 			color={ 99 133 107 }
 			c_nidavellir_18 = {
 				color={ 99 133 107 }
@@ -2350,13 +2357,7 @@ e_bleak_mountains = {
 					color={ 163 196 34 }
 				}
 			}
-			c_nidavellir_24 = {
-				color={ 255 213 77 }
-				b_nidavellir_24 = {
-					province = 9272
-					color={ 255 213 77 }
-				}
-			}
+			
 		}
 	}
 }

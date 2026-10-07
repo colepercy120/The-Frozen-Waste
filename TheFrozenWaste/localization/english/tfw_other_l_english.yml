@@ -63,6 +63,11 @@ l_english:
  game_concept_unbowed_orcs: "The Unbowed"
  game_concept_uracinar_desc: "The Úrácinar are [orcs|E] who reject the claim that darkness owns their people. They believe their ancestors were broken and corrupted by [morgothcharacter|E], and that the damage inflicted upon Orc-kind does not create an eternal obligation to serve the Shadow.\n\nTheir communities value diligence, preservation, learning, and patient reconstruction. Old songs are pieced together from fragments, genealogies are preserved, tools and halls are repaired, and each generation is expected to leave its people stronger and freer than it found them. This philosophy is expressed most clearly in the teaching of [the_unbroken|E]."
 
+ game_concept_moriondor: "Moriondor"
+ game_concept_orc_father: "Orc Father"
+ game_concept_orc_mother: "Orc Mother"
+ game_concept_moriondor_desc: "The origional [orcs|e], [elves|e] taken from the wilds by the [darklord|e] and tortured until they were broken beyond recognition, marred and twisted into the Orcs and forced to serve the Dark Lord."
+
  game_concept_helecthil: "Helecthil"
  game_concept_beaconofhelecthil: "Beacon of Helecthil"
  game_concept_beacon_of_helecthil: "Beacon of Helecthil"
