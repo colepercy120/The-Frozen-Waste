@@ -681,7 +681,7 @@ tfw_trigger_intro_events = {
 				is_alive = yes
 			}
 			trigger_event = {
-				id = tfw_intro.010
+				id = tfw_intro.002
 				days = 1
 			}
 			lotr_set_lore_character_for_bookmark = { TYPE_OF_CONTENT = intro_event }
@@ -694,7 +694,7 @@ tfw_trigger_intro_events = {
 				is_alive = yes
 			}
 			trigger_event = {
-				id = tfw_intro.020
+				id = tfw_intro.003
 				days = 1
 			}
 			lotr_set_lore_character_for_bookmark = { TYPE_OF_CONTENT = intro_event }
@@ -707,7 +707,7 @@ tfw_trigger_intro_events = {
 				is_alive = yes
 			}
 			trigger_event = {
-				id = tfw_intro.030
+				id = tfw_intro.003
 				days = 1
 			}
 			lotr_set_lore_character_for_bookmark = { TYPE_OF_CONTENT = intro_event }
@@ -720,7 +720,7 @@ tfw_trigger_intro_events = {
 				is_alive = yes
 			}
 			trigger_event = {
-				id = tfw_intro.040
+				id = tfw_intro.004
 				days = 1
 			}
 			lotr_set_lore_character_for_bookmark = { TYPE_OF_CONTENT = intro_event }
@@ -733,10 +733,23 @@ tfw_trigger_intro_events = {
 				is_alive = yes
 			}
 			trigger_event = {
-				id = tfw_intro.040
+				id = tfw_intro.004
 				days = 1
 			}
 			lotr_set_lore_character_for_bookmark = { TYPE_OF_CONTENT = intro_event }
+		}
+	}
+	
+	character:tfw_lineofheorwulf_001 = { # Graw
+		if = {
+			limit = {
+				is_alive = yes
+			}
+			trigger_event = {
+				id = tfw_story.001
+				days = 1
+			}
+			lotr_set_lore_character_for_bookmark = { TYPE_OF_CONTENT = story_content }
 		}
 	}
 }
@@ -762,4 +775,104 @@ tfw_make_halls_wastelands = {
 		add_gold = 125
 		debug_log = "Wilderness: Surface Race got Underground - Making Wasteland"
 	}
+}
+
+create_artifact_maegdaes_effect = {
+	# Get the character the artifact is being made for.
+	$OWNER$ = { save_scope_as = owner }
+	# Not really used, but if we don't set the scopes we get errors in the feature selection
+	set_artifact_rarity_illustrious = yes
+
+	# Create the artifact
+	create_artifact = {
+		name = maegdaes_name
+		description = {
+			desc = maegdaes_description
+			
+		}
+		type = sword
+		visuals = orcrist
+		wealth = scope:wealth
+		quality = scope:quality
+		history = {
+			type = created
+			date = 118.1.1
+			recipient = character:lineoffeanor10 #Turgon
+		}
+		modifier = orcrist_modifier
+		save_scope_as = newly_created_artifact
+		decaying = no
+	}
+
+	scope:newly_created_artifact ?= {
+		equip_artifact_to_owner_replace = yes
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = orcrist
+		set_variable = elven
+		elven_artifact_reclaimed_effect = yes
+		set_variable = relic 
+		save_scope_as = epic
+		
+	}
+}
+
+claim_tol_faron = {
+	hidden_effect = {
+		title:k_tol_faron = {
+			every_de_jure_county = {
+				
+				change_development_level = 1
+				
+				save_temporary_scope_as = target_county
+						
+				ai_colonisation_effect = { WASTELANDS = scope:target_county ROOT_SCOPE = root }
+						
+				scope:target_county = {
+					if = {
+						limit = { root = { is_elf = yes } }
+						title_province = { set_holding_type = elven_holding }
+					} else_if = {
+						limit = { title_province = { terrain = halls } }
+						title_province = { set_holding_type = dwarven_holding }
+					} else_if = {
+						limit = { root = { is_hobbit = yes } }
+						title_province = { set_holding_type = city_holding }
+					} else = {
+						if = {
+							limit = { root = { has_government = tribal_government } }
+							title_province = { set_holding_type = tribal_holding }
+						} else = {
+							title_province = { set_holding_type = castle_holding }
+						}
+					}
+				}		
+		
+				if = { #Fallback
+					limit = { faith = faith:faith_wastelands_pagan }
+					set_county_faith = root.faith
+				}
+				if = { #Fallback
+					limit = { culture = culture:wastelands }
+					set_county_culture = root.culture
+				}
+				generate_coa = yes
+			}
+			
+		}
+		root = {
+			change_government = feudal_government
+			get_title = title:k_tol_faron
+			get_title = title:d_tol_faron
+			set_realm_capital = title:b_tol_feredir_4
+			current_travel_plan = {
+				abort_travel_plan = yes
+			}
+			set_location_to_default = yes
+			
+		}
+		
+		
+		
+	}
+	custom_tooltip = claim_tol_faron
 }

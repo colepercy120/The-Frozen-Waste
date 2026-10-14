@@ -30,6 +30,10 @@ roundingofworld = {
 	alias = { forodwaithshattering }
 }
 
+dagor_losscriss = {
+	parent = concepthistoricevent
+}
+
 
 ####################
 ### Characters ####

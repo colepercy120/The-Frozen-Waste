@@ -1,0 +1,333 @@
+﻿namespace = tfw_story
+
+
+#############################################
+# Graw and Faron Story Chain
+#
+# .001 - Revenge / begin journey
+# .002 - Arrival on Tol Faron
+# .003 - Discover the Elder Days sword in Faron's hoard
+# .004 - Fight Faron / choose approach
+# .005 - Failure / death
+# .006 - Victory over Faron
+# .007 - Aftermath / claim Tol Faron or continue questing
+#############################################
+
+
+#############################################
+# 001 - REVENGE / THE JOURNEY BEGINS
+#############################################
+
+tfw_story.001 = {
+	type = character_event
+	title = tfw_story.001.t
+	desc = tfw_story.001.desc
+	theme = war
+	override_background = {
+		reference = forodwaith
+	}
+
+	left_portrait = {
+		character = root
+		animation = personality_vengeful
+	}
+
+	option = {
+		name = tfw_story.001.a
+
+		start_travel_plan = {
+			destination = province:8071
+			on_arrival_destinations = last
+
+			on_arrival_event = tfw_story.002
+
+			return_trip = no
+			players_use_planner = no
+		}
+	}
+}
+
+
+#############################################
+# 002 - ARRIVAL ON TOL FARON
+#############################################
+
+tfw_story.002 = {
+	type = character_event
+	title = tfw_story.002.t
+	desc = tfw_story.002.desc
+	theme = war
+	
+	override_background = {
+		reference = forodwaith
+	}
+
+	left_portrait = {
+		character = root
+		animation = personality_vengeful
+	}
+
+	option = {
+		name = tfw_story.002.a
+
+		trigger_event = {
+			id = tfw_story.003
+		}
+	}
+}
+
+
+#############################################
+# 003 - FARON'S HOARD / THE ELDER DAYS SWORD
+#############################################
+
+tfw_story.003 = {
+	type = character_event
+	title = tfw_story.003.t
+	desc = tfw_story.003.desc
+	theme = war
+	
+	override_background = {
+		reference = wilderness_underground
+	}
+
+	left_portrait = {
+		character = root
+		animation = admiration
+	}
+
+	# Once the actual artifact creation effect exists,
+	# the newly-created sword can be displayed in this event.
+	#
+	artifact = {
+		target = scope:faron_sword
+		position = lower_center_portrait
+	}
+	
+	immediate = {
+		create_artifact_maegdaes_effect = { OWNER = this }
+		scope:newly_created_artifact = {
+			save_scope_as = faron_sword
+		}
+	}
+
+	option = {
+		name = tfw_story.003.a
+
+		
+		trigger_event = {
+			id = tfw_story.004
+		}
+	}
+}
+
+
+#############################################
+# 004 - FARON / CHOOSE APPROACH
+#############################################
+
+tfw_story.004 = {
+	type = character_event
+	title = tfw_story.004.t
+	desc = tfw_story.004.desc
+	theme = war
+	
+	override_background = {
+		reference = dragon_generic
+	}
+
+	left_portrait = {
+		character = root
+		animation = aggressive_sword
+	}
+
+	# Faron is an ancient female cold-drake who has inhabited
+	# Tol Faron for centuries. If she is represented as a character,
+	# add her portrait here and her death effect to tfw_story.006.
+	#
+	# right_portrait = {
+	#	character = character:TEMP_FARON
+	#	animation = threatening
+	# }
+
+
+	###############################
+	# MARTIAL + PROWESS
+	###############################
+
+	option = {
+		name = tfw_story.004.a
+
+		show_as_tooltip = {
+			duel = {
+				skills = { prowess martial }
+	
+				# TEMP:
+				# Increase this number to make the challenge harder.
+				value = 30
+	
+				25 = {
+					compare_modifier = {
+						value = scope:duel_value
+						multiplier = 1
+					}
+	
+					send_interface_toast = {
+						title = tfw_story.004.a.success
+					}
+	
+					custom_tooltip = {
+						text = tfw_story.004.a.success
+					}
+	
+					trigger_event = {
+						id = tfw_story.006
+					}
+				}
+	
+				75 = {
+					compare_modifier = {
+						value = scope:duel_value
+						multiplier = -1
+					}
+	
+					send_interface_toast = {
+						title = tfw_story.004.a.failure
+					}
+	
+					death = {
+						death_reason = death_duel
+					}
+				}
+			}
+		}
+		trigger_event = {
+			id = tfw_story.006
+		}
+
+		ai_chance = {
+			base = 100
+
+			
+		}
+	}
+
+
+	###############################
+	# INTRIGUE + PROWESS
+	###############################
+
+	option = {
+		name = tfw_story.004.b
+
+		
+		
+
+		ai_chance = {
+			base = 0
+
+			
+		}
+	}
+}
+
+
+#############################################
+# 005 - FAILURE / DEATH
+#############################################
+
+tfw_story.005 = {
+	type = character_event
+	title = tfw_story.005.t
+	desc = tfw_story.005.desc
+	theme = death
+
+	left_portrait = {
+		character = root
+		animation = fear
+	}
+
+	option = {
+		name = tfw_story.005.a
+
+		death = {
+			death_reason = death_duel
+		}
+	}
+}
+
+
+#############################################
+# 006 - VICTORY / FARON IS SLAIN
+#############################################
+
+tfw_story.006 = {
+	type = character_event
+	title = tfw_story.006.t
+	desc = tfw_story.006.desc
+	theme = war
+	
+	override_background = {
+		reference = wilderness_underground
+	}
+
+	left_portrait = {
+		character = root
+		animation = celebrate_sword
+	}
+	
+	
+
+	immediate = {
+		give_nickname = nick_beowulf
+		add_prestige = 2000
+	}
+
+	option = {
+		name = tfw_story.006.a
+
+		add_gold = 10000
+		province:8071 = {
+			add_special_building = wonder_faron_dragon_site
+		}
+
+		trigger_event = {
+			id = tfw_story.007
+		}
+	}
+}
+
+
+#############################################
+# 007 - AFTERMATH / WHAT COMES NEXT
+#############################################
+
+tfw_story.007 = {
+	type = character_event
+	title = tfw_story.007.t
+	desc = tfw_story.007.desc
+	theme = stewardship
+
+	left_portrait = {
+		character = root
+		animation = thinking
+	}
+	
+	override_background = {
+		reference = forodwaith
+	}
+
+
+	option = {
+		name = tfw_story.007.a
+		claim_tol_faron = yes
+		
+	}
+
+
+	option = {
+		name = tfw_story.007.b
+
+		
+	}
+}

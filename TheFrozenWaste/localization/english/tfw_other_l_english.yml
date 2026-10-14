@@ -12,6 +12,12 @@ l_english:
  trait_veteran_of_war_of_wrath: "Veteran of the War of Wrath"
  trait_veteran_of_war_of_wrath_desc: "This Character fought in the [warofwrath|e] against the forces of [morgothcharacter|e] at the end of the [elderdays|e]."
  
+ ### Artifacts
+ 
+ maegdaes_name: "Maegdaes"
+ maegdaes_description: "Forged by the [noldorelves|e] of [gondolin|e] in the [elderdays|e], Maegdaes was looted from the wreckage of the great city by the [dragon|e] Faron and laid in her horde for the following ages before being found by [GetScriptedCharacterByHistoryID('tfw_lineofheorwulf_001').GetFirstName]"
+ 
+ 
  ### Modifiers
  
  
@@ -154,6 +160,9 @@ l_english:
  nick_adar_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] is the eldest survivng [orc|e] in [middleearth|e] and is in a very real sense the father to his people."
  nick_tareg: "Rúnlion"
  nick_tareg_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] lead a great host of [avari|e] into the west following the [battleofpalisor|e], before being defeated in battle by forces of the [morgothcharacter|e] and left entombed in ice"
+ 
+ nick_beowulf: "The Dragonslayer"
+ nick_beowulf_desc: "This character slew a great [dragon|e] in battle, saving his people from the dread wyrm."
  
  ### Holdings
  

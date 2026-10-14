@@ -76,22 +76,47 @@ l_english:
  tfw_intro.001.a: "All that is broken can be made whole"
 
  ### Evermist
- tfw_intro.010.t: "The Noldor of Oiomure"
- tfw_intro.010.desc: "Hidden amid the frozen reaches of the Ered Rhivamar stands Oiomure, or Evermist in the common tongue. A hidden vale in the ruins of an ancient volcano. the land itself geothermally heated to warmth in even the coldest winters. Found by [ROOT.Char.GetName] during the [warofwrath|e], after the she lead a contingent of [noldorelves|e] to the valley and began to heal the scars of the war. \n\n For [ROOT.Char.GetFirstName] belived that her family and the [noldorelves|e] as a whole bared partial responsiblity for the destruction and thus must bare the responsiblity for its renewal. pledging to not rest until the world was purged of the taint of [morgothcharacter|e]"
- tfw_intro.010.a: "Until the Task is done"
+ tfw_intro.002.t: "The Noldor of Oiomure"
+ tfw_intro.002.desc: "Hidden amid the frozen reaches of the Ered Rhivamar stands Oiomure, or Evermist in the common tongue. A hidden vale in the ruins of an ancient volcano. the land itself geothermally heated to warmth in even the coldest winters. Found by [ROOT.Char.GetName] during the [warofwrath|e], after the she lead a contingent of [noldorelves|e] to the valley and began to heal the scars of the war. \n\n For [ROOT.Char.GetFirstName] belived that her family and the [noldorelves|e] as a whole bared partial responsiblity for the destruction and thus must bare the responsiblity for its renewal. pledging to not rest until the world was purged of the taint of [morgothcharacter|e]"
+ tfw_intro.002.a: "Until the Task is done"
 
- ### Taurethon
- tfw_intro.020.t: "The Kingdom of Taurethon"
- tfw_intro.020.desc: "Taurethon is one half of the realm founded by the Lossidil, descendants of Elven refugees who sought a new home in the north. After the death of their father, the inheritance of his people passed to his twin children, and the growing Lossidil realm was divided between two closely bound kingdoms.\n\nTaurethon became the mainland heart of their people, guarding the forests and settlements carved from a wilderness few others would willingly inhabit.\n\nIts people have long since ceased to think of themselves merely as refugees. The forests of Taurethon are their home now, defended by generations who have known no other land."
- tfw_intro.020.a: "The forest remains ours."
-
- ### Aurora Isles
- tfw_intro.030.t: "The Aurora Isles"
- tfw_intro.030.desc: "Beyond the frozen coast lie the Aurora Isles, the second of the twin kingdoms of the Lossidil. Settled by Elves driven north through centuries of war and displacement, the islands became both refuge and fortress beneath the dancing lights of the northern sky.\n\nThe crown of the Isles remains bound by blood and history to Taurethon. Though two kingdoms arose from the inheritance of the founding house, their peoples have never truly regarded one another as strangers.\n\nIsolation has shaped the islanders into a people accustomed to the sea, the cold, and the long darkness of the north. What began as a refuge has become a realm with traditions entirely its own."
- tfw_intro.030.a: "The lights still shine above us."
+ ### Lossidil
+ tfw_intro.003.t: "The Lossidil of the Utter North"
+ tfw_intro.003.desc: "The [lossidil|e] are a strange folk, decendents of Sindar fleeing destruction of Belariand and Nandor who had wandered into the far north, they crystalized into a cohesive whole before the end of the [firstage|e]. With the death of their king in the [warofwrath|e], the twin heirs [GetScriptedCharacterByHistoryID('tfw_lineoflossidil_celethrim_003').GetFirstName] and [GetScriptedCharacterByHistoryID('tfw_lineoflossidil_celethrim_004').GetFirstName] settled their people in the northern forest of [GetTitleByKey('k_taurethon').GetNameNoTier]. But they wouldn't all remain under the pines. \n\nIn the early days of the [secondage|e] upon seeing the beutiful Aurora for the first time [GetScriptedCharacterByHistoryID('tfw_lineoflossidil_celethrim_004').GetFirstName] bid her brother farewell and led a group of her people to discover the source of the beutiful light. upon one of the islands of the uttermost north they found it. the [beaconofhelecthil], a gift from [ulmocharacter|e], raised on an obsidion spire, shining the ancient light of the great Lamps into the skies. it was there under the light that she raised the second Lossidil realm, [GetTitleByKey('k_aurora_isles').GetName]."
+ tfw_intro.003.a: "And here we stay."
 
  ### Frostwood
- tfw_intro.040.t: "The Refuge of Frostwood"
- tfw_intro.040.desc: "Frostwood was not always a kingdom.\n\nIn the Elder Days, Sairavel and Hwerin were war leaders among the Avari, fighting to preserve their people against enemies far greater than themselves. When that struggle ended in defeat, they led the survivors north and withdrew into the frozen forest that would become their refuge.\n\nWhat began as a sanctuary slowly became a realm.\n\nThe Windan settled the western reaches beneath Sairavel, while the Hwenti gathered in the east beneath Hwerin. The two peoples kept their own traditions, their own rulers, and their own ways, but they shared the memory of defeat and the knowledge that Frostwood existed because there had been nowhere else left to go.\n\nSince the Elder Days, Sairavel and Hwerin have ruled there together, husband and wife over two crowns. Generations have been born beneath the frozen boughs while the kingdoms of the outside world rose, fell, and passed into legend.\n\nFrostwood is no longer merely a refuge. It is their homeland now, defended by people who remember exactly what it cost to find one."
- tfw_intro.040.a: "We endured, and made a home of it."
+ tfw_intro.004.t: "The Refuge of Frostwood"
+ tfw_intro.004.desc: "Frostwood was not always a kingdom.\n\nIn the Elder Days, Sairavel and Hwerin were war leaders among the Avari, fighting to preserve their people against enemies far greater than themselves. When that struggle ended in defeat, they led the survivors north and withdrew into the frozen forest that would become their refuge.\n\nWhat began as a sanctuary slowly became a realm.\n\nThe Windan settled the western reaches beneath Sairavel, while the Hwenti gathered in the east beneath Hwerin. The two peoples kept their own traditions, their own rulers, and their own ways, but they shared the memory of defeat and the knowledge that Frostwood existed because there had been nowhere else left to go.\n\nSince the Elder Days, Sairavel and Hwerin have ruled there together, husband and wife over two crowns. Generations have been born beneath the frozen boughs while the kingdoms of the outside world rose, fell, and passed into legend.\n\nFrostwood is no longer merely a refuge. It is their homeland now, defended by people who remember exactly what it cost to find one."
+ tfw_intro.004.a: "We endured, and made a home of it."
 
+ ### Story Events
+
+ tfw_story.001.t: "The Foundling from the North"
+ tfw_story.001.desc: "[ROOT.Char.GetFirstName] has just lost pretty much everything he had. a foundling who grew up on the cold ships of the [forodain|e], he came to consider the crew of his ship as the closest thing hes had to a family, that is until two days ago.\n\n Two days ago his ship was attacked by the elder Cold [drake|e] Faron, the bane of the north. She sunk his ship and killed most of the crew with [ROOT.Char.GetFirstName] and a few others left clinging to timbers. \n\nBut now is not the time for grief, now is the time for vengeance. The [dragon|e] sank the wrong ship and [ROOT.Char.GetFirstName] will not rest until shes dead."
+ tfw_story.001.a: "I Shall Be Avenged!"
+
+ tfw_story.002.t: "Tol Faron"
+ tfw_story.002.desc: "The island rises from the cold sea like the back of some sleeping beast. Faron has ruled here for centuries. Her presence is written across the land. Blackened trees stand beside forests that have grown and burned and grown again beneath her shadow, bones of dead animals riddle the forest, and upon the tallest mountain of the island not a single green thing still grows. it is there in one of the cracks and caves left over from the Cataclysm of the Elder Days that the dragon sleeps upon her horde of stolen gold and its there i will either suceed or fail in my destiny"
+ tfw_story.002.a: "I did not come here to turn back."
+
+ tfw_story.003.t: "Among the Treasures of the Dead"
+ tfw_story.003.desc: "Faron's hoard is older than the great kingdoms of the south. Gold lies in drifts across the cavern floor, mixed with silver cups, broken crowns, rusting armor, shattered shields, and treasures whose makers have been dust for thousands of years. Treasures who could have only come from the [elves|e] in their ancient war with [morgothcharacter|e]. \n\nOut of the corner of my eye i spot it, an ancient [noldorelves|e] Sword, Forged in [gondolin|e] in the [firstage|e]. its blade untouched by time and faintly shimering in the dark. a weapon forged precisely for my present purpose."
+ tfw_story.003.a: "I shall call you Maegdaes"
+
+ tfw_story.004.t: "The Cold-Drake"
+ tfw_story.004.desc: "As i climb deeper into the caverns i finally spot my foe. The brilliant silver grey scales of the long sinuous [dragon|e] reflect the light of my torch. Faron is one of the truly ancient Wyrms and i only can see a portion of her bulk, the rest of her mass lays obscured in shadow and beneath the horde. But I spy her head poking up out of a pile of golden coins.\n\nIts now or never."
+ tfw_story.004.a: "I jam my blade deep into her Eye"
+ tfw_story.004.a.success: "The Dragon Falls"
+ tfw_story.004.a.failure: "You Die"
+ tfw_story.004.b: "I may have miscalculated."
+
+ tfw_story.006.t: "Victory!"
+ tfw_story.006.desc: "Faron lies slain before me, The great [dragon|e] of the [elderdays|e] is finally dead! her reign of terror across [forodwaith|e] is finally over! No longer do the [forodain|e] have to fear for our ships, no longer do we need to fear this island! Now it is time for us to reclaim what was stolen and for us to find solance in victory"
+ tfw_story.006.a: "To the Victor go the spoils"
+
+ tfw_story.007.t: "A New Dawn"
+ tfw_story.007.desc: "The dragon is dead, my vengeance is saited, yet now is the matter of what to do next. word of the dragons fall will quickly spread across the north, leading to many a wanderer coming to claim a share of the loot if its not protected. which leaves me with a quandry. \n\nby ancient right to the victor go the spoils, this island is as much part of the spoils as the gold or the sword is. but do i want to claim it as my own"
+ tfw_story.007.a: "King Graw has a nice ring to it"
+ tfw_story.007.b: "There are still roads I have not walked."
+ claim_tol_faron: "Claim Tol Faron as your Realm"

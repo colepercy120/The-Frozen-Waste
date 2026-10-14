@@ -31,10 +31,10 @@ tfw_intro.001 = { # Talanthir - Head of the Adalantrim
 # EVERMIST
 ############################################################
 
-tfw_intro.010 = { # Evermist introduction
+tfw_intro.002 = { # Evermist introduction
 	type = character_event
-	title = tfw_intro.010.t
-	desc = tfw_intro.010.desc
+	title = tfw_intro.002.t
+	desc = tfw_intro.002.desc
 	theme = elven
 
 	left_portrait = {
@@ -52,7 +52,7 @@ tfw_intro.010 = { # Evermist introduction
 	}
 
 	option = {
-		name = tfw_intro.010.a
+		name = tfw_intro.002.a
 	}
 }
 
@@ -61,14 +61,18 @@ tfw_intro.010 = { # Evermist introduction
 # TAURETHON
 ############################################################
 
-tfw_intro.020 = { # Taurethon introduction
+tfw_intro.003 = { # Taurethon introduction
 	type = character_event
-	title = tfw_intro.020.t
-	desc = tfw_intro.020.desc
+	title = tfw_intro.003.t
+	desc = tfw_intro.003.desc
 	theme = elven
+	
+	override_background = {
+		reference = helecthil
+	}
 
 	left_portrait = {
-		character = root
+		character = character:tfw_lineoflossidil_celethrim_004
 		animation = personality_honorable
 	}
 
@@ -82,49 +86,18 @@ tfw_intro.020 = { # Taurethon introduction
 	}
 
 	option = {
-		name = tfw_intro.020.a
+		name = tfw_intro.003.a
 	}
 }
-
-
-############################################################
-# AURORA ISLES
-############################################################
-
-tfw_intro.030 = { # Aurora Isles introduction
-	type = character_event
-	title = tfw_intro.030.t
-	desc = tfw_intro.030.desc
-	theme = elven
-
-	left_portrait = {
-		character = root
-		animation = thinking
-	}
-
-	right_portrait = {
-		character = character:tfw_lineoflossidil_celethrim_004
-		animation = personality_honorable
-	}
-
-	immediate = {
-
-	}
-
-	option = {
-		name = tfw_intro.030.a
-	}
-}
-
 
 ############################################################
 # FROSTWOOD
 ############################################################
 
-tfw_intro.040 = { # Frostwood introduction
+tfw_intro.004 = { # Frostwood introduction
 	type = character_event
-	title = tfw_intro.040.t
-	desc = tfw_intro.040.desc
+	title = tfw_intro.004.t
+	desc = tfw_intro.004.desc
 	theme = elven
 
 	left_portrait = {
@@ -142,7 +115,7 @@ tfw_intro.040 = { # Frostwood introduction
 	}
 
 	option = {
-		name = tfw_intro.040.a
+		name = tfw_intro.004.a
 	}
 }
 
