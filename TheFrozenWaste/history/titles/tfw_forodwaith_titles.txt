@@ -3702,9 +3702,14 @@ c_bleak_mountains_15 = {
 # Founded by Eitri of the Line of Sindri in 6786
 
 k_nidavellir = {
-	6786.4.12 = { holder = tfw_lineofsindri_002 }
+	6796.4.12 = { holder = tfw_lineofsindri_002 }
 	6931.4.7 = { holder = tfw_lineofsindri_003 }
 	7047.9.3 = { holder = tfw_lineofsindri_006 }
+}
+
+d_eitris_expedition = {
+	6786.4.12 = { holder = tfw_lineofsindri_002 }
+	6796.4.12 = { holder = 0 }
 }
 
 ################################################
@@ -3712,7 +3717,7 @@ k_nidavellir = {
 ################################################
 
 d_nidavellir_1 = {
-	6786.4.12 = {
+	6796.4.12 = {
 		holder = tfw_lineofsindri_002
 		liege = k_nidavellir
 	}

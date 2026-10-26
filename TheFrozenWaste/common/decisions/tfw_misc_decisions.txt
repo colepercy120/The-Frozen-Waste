@@ -868,3 +868,79 @@ decision_form_winter = {
 		}
 	}
 }
+
+#### Dwarf Decisions
+
+decision_build_nidavillir = {
+	title = decision_build_nidavillir
+	desc = decision_build_nidavillir_desc
+	confirm_text = decision_build_nidavillir_confirm
+	selection_tooltip = decision_build_nidavillir_tooltip
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_dwarves_02.dds"
+	}
+
+	# AI
+	ai_goal = yes
+	ai_potential = {
+		always = yes
+	}
+	ai_will_do = {
+		base = 100
+	}
+
+	# IS SHOWN
+	decision_group_type = realms_in_exile_major
+
+	is_shown = {
+		is_independent_ruler = yes
+		OR = {
+			has_title = title:d_eitris_expedition
+			
+		}
+		
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:decision_build_nidavillir
+			}
+		}
+	}
+
+	# IS VALID
+	is_valid = {
+		prestige_level >= high_prestige_level
+		has_title = title:k_nidavellir
+		completely_controls = title:d_nidavellir_1
+		
+		realm_size >= 12
+	}
+
+	cost = {
+		gold = 1000
+	}
+
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+		is_available_adult = yes
+		is_at_war = no
+	}
+
+	# EFFECT
+	effect = {
+	
+		give_nickname = nick_the_builder
+		custom_tooltip = decision_build_nidavillir_effect
+		custom_tooltip = decision_build_nidavillir_effect_2
+		
+		trigger_event = {
+			id = tfw_story.008
+		}
+		
+
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:decision_build_nidavillir
+		}
+	}
+}

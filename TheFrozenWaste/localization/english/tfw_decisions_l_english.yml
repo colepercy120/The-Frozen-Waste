@@ -81,3 +81,18 @@ l_english:
  decision_form_winter_desc: "Our supremacy across the north can no longer be denied. We shall establish the Hegemony of Winter."
  decision_form_winter_tooltip: "Form the Hegemony of Winter."
  decision_form_winter_confirm: "Proclaim the Hegemony of Winter"
+ 
+ decision_build_nidavillir: "Construct a Great Hold"
+ decision_build_nidavillir_desc: "Our expedition here in the Ered Muil has borne fruit. we have established ourselves in these halls and it is now time to plan for the future. time to draw up plans for what shape this hold will be take, along with how our people will define themselves." 
+ decision_build_nidavillir_tooltip: "Construct a Great Hold"
+ decision_build_nidavillir_confirm: "Draw up the plans"
+ decision_build_nidavillir_effect: "You will choose a new Name and Coat of Arms for [GetTitleByKey('k_nidavellir').GetName]"
+ decision_build_nidavillir_effect_2: "You will choose a [great_building|e] to construct in [GetTitleByKey('c_nidavellir_1').GetName]"
+ 
+ start_long_winter_decision: "Start the Long Winter"
+ start_long_winter_decision_desc: "the [darklord|e] has called in a favor and asked me to cast a curse of winter onto the south. yet the timing is up to me. is it time to start [sauroncharacter|e]s winter"
+ start_long_winter_decision_tooltip: "Start the Long Winter"
+ start_long_winter_decision_confirm: "Cast the Arctic Winds"
+ start_long_winter_decision_trigger: "It is currently winter"
+ start_long_winter_decision_effect: "The Long Winter Starts"
+

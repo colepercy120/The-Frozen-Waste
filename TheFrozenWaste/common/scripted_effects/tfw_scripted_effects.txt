@@ -358,6 +358,14 @@ tfw_special_building_start = {
 	province:8181 = {
 		add_special_building = wonder_halls_of_talanthir_03
 	}
+	province:9243 = {
+		add_special_building = wonder_bleak_diamond_01
+		add_province_modifier = mining_diamond_province_modifier
+	}
+	province:9227 = {
+		add_special_building = wonder_bleak_mithril_01
+		add_province_modifier = mining_mithril_province_modifier
+	}
 	
 	province:8131 = {
 		add_special_building = mountain_pass_01
@@ -365,6 +373,8 @@ tfw_special_building_start = {
 	province:8037 = {
 		add_special_building = mountain_pass_01
 	}
+	
+	
 	
 	province:8105 = {
 		add_great_building = wonder_angband_01
@@ -379,12 +389,12 @@ tfw_special_building_start = {
 			limit = {
 				game_start_date > 6768.1.1
 			}
-			add_great_building = wonder_nidavillir_foundation
+			# add_great_building = wonder_nidavillir_foundation
 		}
 		else = {
 			add_great_building = wonder_nidavillir_t3
 		}
-		
+		add_province_modifier = mining_gold_province_modifier
 	}
 	
 }
@@ -657,6 +667,14 @@ tfw_war_of_wrath_handout = {
 	character:lineofelros1 = {
 		add_trait = veteran_of_war_of_wrath
 	}
+	
+	### Badies
+	character:lineofsauron = {
+		add_trait = veteran_of_war_of_wrath
+	}
+	character:tfw_lineofnixni_001 = {
+		add_trait = veteran_of_war_of_wrath
+	}
 }
 
 
@@ -750,6 +768,39 @@ tfw_trigger_intro_events = {
 				days = 1
 			}
 			lotr_set_lore_character_for_bookmark = { TYPE_OF_CONTENT = story_content }
+		}
+	}
+	
+	character:tfw_lineofsindri_002 = { # Eitri
+		if = {
+			limit = {
+				is_alive = yes
+			}
+			trigger_event = {
+				id = tfw_intro.005
+				days = 1
+			}
+			lotr_set_lore_character_for_bookmark = { TYPE_OF_CONTENT = story_content }
+		}
+	}
+	character:tfw_lineofnixni_001 = { # Nixni
+		if = {
+			limit = {
+				is_alive = yes
+			}
+			trigger_event = {
+				id = tfw_intro.006
+				days = 1
+			}
+			if = {
+				limit = {
+					game_start_date = 6787.1.1
+				}
+				lotr_set_lore_character_for_bookmark = { TYPE_OF_CONTENT = story_content }
+			}
+			else = {
+				lotr_set_lore_character_for_bookmark = { TYPE_OF_CONTENT = intro_event }
+			}
 		}
 	}
 }

@@ -183,3 +183,59 @@ unleash_angband_decision = {
 	}
 	ai_goal = yes
 }
+
+start_long_winter_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/event_scenes/lotr_throneroom_forodwaith.dds"
+	}
+
+	desc = start_long_winter_decision_desc
+	selection_tooltip = start_long_winter_decision_tooltip
+	confirm_text = start_long_winter_decision_confirm
+
+	decision_group_type = realms_in_exile_major
+
+	is_shown = {
+		has_character_flag = lwdelayed
+	}
+
+	is_valid = {
+		custom_tooltip = {
+			text = start_long_winter_decision_trigger
+			OR = {
+				current_month >= 9
+				current_month <= 3
+			}
+		}
+	}
+
+	cost = {
+		piety = 1000
+	}
+
+	effect = {
+		custom_tooltip = start_long_winter_decision_effect
+		set_global_variable = {
+			name = long_winter_occurred
+			value = yes
+		}
+		title:k_wastelands.holder = { create_story = story_cycle_winter }
+		if = {
+			limit = { # Major News
+				NOT = { has_game_rule = no_news }
+			}
+			every_player = { # Global News Announcement
+				trigger_event = long_winter.0002
+			}
+		}
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+	ai_goal = yes
+}

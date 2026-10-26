@@ -60,6 +60,11 @@ d_northern_wardens = {
 	capital = c_evermist_1
 }
 
+d_eitris_expedition = {
+	color = { 173 173 173 }
+	always_follows_primary_heir = yes
+}
+
 # Kingdoms
 
 k_rast_losnath = {

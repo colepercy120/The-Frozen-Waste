@@ -323,6 +323,8 @@ tfw_lineoflossidil_celethrim_001 = { # Sindar refugee lord; father of the twin m
 	dynasty = dynasty_lossidil_celethrim
 	religion = faith_eldar
 	culture = sindar
+	
+	dna = tfw_lineoflossidil_celethrim_001_dna
 
 	sexuality = heterosexual
 
@@ -362,7 +364,7 @@ tfw_lineoflossidil_celethrim_002 = { # Sindar refugee lady; mother of the twin m
 	name = tfw_lineoflossidil_celethrim_002_name
 	female = yes
 
-	dynasty = dynasty_lossidil_celethrim
+	dna = tfw_lineoflossidil_celethrim_002_dna
 	religion = faith_eldar
 	culture = sindar
 

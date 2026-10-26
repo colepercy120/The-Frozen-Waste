@@ -7977,10 +7977,10 @@
 7976;220;175;104;b_thaakris;x
 7977;150;225;150;b_mumakris;x
 7978;26;42;10;wold_impassable;x
-7979;49;116;170;sea_helcear ;x
-7980;43;143;246;sea_helcear ;x
+7979;49;116;170;sea_helcear;x
+7980;43;143;246;sea_helcear;x
 7981;71;106;213;sea_13015;x
-7982;59;88;242;sea_helcear ;x
+7982;59;88;242;sea_helcear;x
 7983;126;149;32;b_evermist_15;x
 7984;91;135;21;b_evermist_10;x
 7985;192;118;21;b_narthalf_13;x
@@ -8060,13 +8060,13 @@
 8059;86;144;22;b_gondolf_14;x
 8060;58;105;57;b_province_13389;x
 8061;168;191;107;b_minheldolath_20;x
-8062;4;71;189;sea_helcear ;x
+8062;4;71;189;sea_helcear;x
 8063;78;158;218;sea_forochel;x
-8064;14;120;170;sea_helcear ;x
-8065;20;135;189;sea_helcear ;x
+8064;14;120;170;sea_helcear;x
+8065;20;135;189;sea_helcear;x
 8066;2;81;173;sea_forochel;x
 8067;81;103;203;sea_forochel;x
-8068;45;144;173;sea_helcear ;x
+8068;45;144;173;sea_helcear;x
 8069;49;131;123;b_tol_feredir_1;x
 8070;71;135;128;b_tol_feredir_2;x
 8071;148;112;65;b_tol_feredir_8;x
@@ -8075,7 +8075,7 @@
 8074;133;135;97;b_province_13008;x
 8075;219;109;32;b_morgoths_well_1;x
 8076;67;124;210;sea_forochel;x
-8077;0;77;242;sea_helcear ;x
+8077;0;77;242;sea_helcear;x
 8078;82;120;206;sea_forochel;x
 8079;22;106;237;sea_13005;x
 8080;10;121;157;sea_13006;x
@@ -8107,22 +8107,22 @@
 8106;62;92;20;b_thangorodrim_1;x
 8107;61;117;102;b_thangorodrim_2;x
 8108;48;108;75;b_thangorodrim_4;x
-8109;51;94;151;sea_helcear ;x
-8110;54;132;153;sea_helcear ;x
-8111;14;76;154;sea_helcear ;x
-8112;68;76;207;sea_helcear ;x
-8113;14;155;247;sea_helcear ;x
-8114;60;155;185;sea_helcear ;x
-8115;63;84;156;sea_helcear ;x
+8109;51;94;151;sea_helcear;x
+8110;54;132;153;sea_helcear;x
+8111;14;76;154;sea_helcear;x
+8112;68;76;207;sea_helcear;x
+8113;14;155;247;sea_helcear;x
+8114;60;155;185;sea_helcear;x
+8115;63;84;156;sea_helcear;x
 8116;90;86;207;sea_thangorodrim;x
 8117;57;94;173;sea_thorenaer;x
 8118;82;94;242;sea_thorenaer;x
 8119;76;77;208;sea_thorenaer;x
-8120;27;136;237;sea_helcear ;x
-8121;87;125;182;sea_helcear ;x
-8122;16;131;159;sea_helcear ;x
-8123;20;117;191;sea_helcear ;x
-8124;82;88;186;sea_helcear ;x
+8120;27;136;237;sea_helcear;x
+8121;87;125;182;sea_helcear;x
+8122;16;131;159;sea_helcear;x
+8123;20;117;191;sea_helcear;x
+8124;82;88;186;sea_helcear;x
 8125;166;122;84;b_iron_spine_5;x
 8126;153;91;22;b_iron_spine_4;x
 8127;124;142;68;b_north_iron_mountains_8;x

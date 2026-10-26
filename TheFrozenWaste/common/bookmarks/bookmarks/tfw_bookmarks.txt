@@ -82,7 +82,7 @@
 		dynasty_splendor_level = 6
 		type = male
 		birth = 6704.2.11
-		title = k_nidavellir
+		title = d_eitris_expedition
 		religion = faith_ironfists
 		culture = ironfists
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"

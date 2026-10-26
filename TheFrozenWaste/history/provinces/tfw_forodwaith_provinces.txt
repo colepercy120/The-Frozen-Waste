@@ -2779,10 +2779,40 @@ holding = wastelands_holding
 	6786.4.12 = {
 		holding = dwarven_holding
 		buildings = {
-			dwarven_depths_06
+			dwarven_depths_01
 		}
 		religion = faith_ironfists
 		culture = ironfists
+	}
+
+	6829.1.8 = {
+		buildings = {
+			dwarven_depths_02
+		}
+	}
+
+	6871.10.7 = {
+		buildings = {
+			dwarven_depths_03
+		}
+	}
+
+	6914.7.7 = {
+		buildings = {
+			dwarven_depths_04
+		}
+	}
+
+	6957.4.4 = {
+		buildings = {
+			dwarven_depths_05
+		}
+	}
+
+	7000.1.1 = {
+		buildings = {
+			dwarven_depths_06
+		}
 	}
 }
 
@@ -2800,10 +2830,28 @@ holding = wastelands_holding
 	6801.8.3 = {
 		holding = dwarven_holding
 		buildings = {
-			dwarven_depths_04
+			dwarven_depths_01
 		}
 		religion = faith_ironfists
 		culture = ironfists
+	}
+
+	6867.9.22 = {
+		buildings = {
+			dwarven_depths_02
+		}
+	}
+
+	6933.11.12 = {
+		buildings = {
+			dwarven_depths_03
+		}
+	}
+
+	7000.1.1 = {
+		buildings = {
+			dwarven_depths_04
+		}
 	}
 }
 
@@ -2821,10 +2869,28 @@ holding = wastelands_holding
 	6817.5.19 = {
 		holding = dwarven_holding
 		buildings = {
-			dwarven_depths_04
+			dwarven_depths_01
 		}
 		religion = faith_ironfists
 		culture = ironfists
+	}
+
+	6878.4.3 = {
+		buildings = {
+			dwarven_depths_02
+		}
+	}
+
+	6939.2.16 = {
+		buildings = {
+			dwarven_depths_03
+		}
+	}
+
+	7000.1.1 = {
+		buildings = {
+			dwarven_depths_04
+		}
 	}
 }
 
@@ -2842,10 +2908,28 @@ holding = wastelands_holding
 	6786.4.12 = {
 		holding = dwarven_holding
 		buildings = {
-			dwarven_depths_04
+			dwarven_depths_01
 		}
 		religion = faith_ironfists
 		culture = ironfists
+	}
+
+	6857.7.8 = {
+		buildings = {
+			dwarven_depths_02
+		}
+	}
+
+	6928.10.5 = {
+		buildings = {
+			dwarven_depths_03
+		}
+	}
+
+	7000.1.1 = {
+		buildings = {
+			dwarven_depths_04
+		}
 	}
 }
 
@@ -2863,10 +2947,22 @@ holding = wastelands_holding
 	6832.10.7 = {
 		holding = dwarven_holding
 		buildings = {
-			dwarven_depths_03
+			dwarven_depths_01
 		}
 		religion = faith_ironfists
 		culture = ironfists
+	}
+
+	6916.5.20 = {
+		buildings = {
+			dwarven_depths_02
+		}
+	}
+
+	7000.1.1 = {
+		buildings = {
+			dwarven_depths_03
+		}
 	}
 }
 
@@ -2884,10 +2980,22 @@ holding = wastelands_holding
 	6849.3.26 = {
 		holding = dwarven_holding
 		buildings = {
-			dwarven_depths_03
+			dwarven_depths_01
 		}
 		religion = faith_ironfists
 		culture = ironfists
+	}
+
+	6924.8.14 = {
+		buildings = {
+			dwarven_depths_02
+		}
+	}
+
+	7000.1.1 = {
+		buildings = {
+			dwarven_depths_03
+		}
 	}
 }
 
@@ -2905,10 +3013,22 @@ holding = wastelands_holding
 	6864.9.14 = {
 		holding = dwarven_holding
 		buildings = {
-			dwarven_depths_03
+			dwarven_depths_01
 		}
 		religion = faith_ironfists
 		culture = ironfists
+	}
+
+	6932.5.9 = {
+		buildings = {
+			dwarven_depths_02
+		}
+	}
+
+	7000.1.1 = {
+		buildings = {
+			dwarven_depths_03
+		}
 	}
 }
 
@@ -2926,10 +3046,22 @@ holding = wastelands_holding
 	6880.6.2 = {
 		holding = dwarven_holding
 		buildings = {
-			dwarven_depths_03
+			dwarven_depths_01
 		}
 		religion = faith_ironfists
 		culture = ironfists
+	}
+
+	6940.3.18 = {
+		buildings = {
+			dwarven_depths_02
+		}
+	}
+
+	7000.1.1 = {
+		buildings = {
+			dwarven_depths_03
+		}
 	}
 }
 
@@ -2951,10 +3083,22 @@ holding = wastelands_holding
 	6895.11.21 = {
 		holding = dwarven_holding
 		buildings = {
-			dwarven_depths_03
+			dwarven_depths_01
 		}
 		religion = faith_ironfists
 		culture = ironfists
+	}
+
+	6947.12.12 = {
+		buildings = {
+			dwarven_depths_02
+		}
+	}
+
+	7000.1.1 = {
+		buildings = {
+			dwarven_depths_03
+		}
 	}
 }
 
@@ -2972,10 +3116,22 @@ holding = wastelands_holding
 	6910.4.8 = {
 		holding = dwarven_holding
 		buildings = {
-			dwarven_depths_03
+			dwarven_depths_01
 		}
 		religion = faith_ironfists
 		culture = ironfists
+	}
+
+	6955.2.19 = {
+		buildings = {
+			dwarven_depths_02
+		}
+	}
+
+	7000.1.1 = {
+		buildings = {
+			dwarven_depths_03
+		}
 	}
 }
 
@@ -2993,10 +3149,22 @@ holding = wastelands_holding
 	6928.8.16 = {
 		holding = dwarven_holding
 		buildings = {
-			dwarven_depths_03
+			dwarven_depths_01
 		}
 		religion = faith_ironfists
 		culture = ironfists
+	}
+
+	6964.4.24 = {
+		buildings = {
+			dwarven_depths_02
+		}
+	}
+
+	7000.1.1 = {
+		buildings = {
+			dwarven_depths_03
+		}
 	}
 }
 
@@ -3014,10 +3182,22 @@ holding = wastelands_holding
 	6943.2.5 = {
 		holding = dwarven_holding
 		buildings = {
-			dwarven_depths_03
+			dwarven_depths_01
 		}
 		religion = faith_ironfists
 		culture = ironfists
+	}
+
+	6971.7.20 = {
+		buildings = {
+			dwarven_depths_02
+		}
+	}
+
+	7000.1.1 = {
+		buildings = {
+			dwarven_depths_03
+		}
 	}
 }
 
@@ -3035,10 +3215,22 @@ holding = wastelands_holding
 	6958.10.27 = {
 		holding = dwarven_holding
 		buildings = {
-			dwarven_depths_03
+			dwarven_depths_01
 		}
 		religion = faith_ironfists
 		culture = ironfists
+	}
+
+	6979.5.30 = {
+		buildings = {
+			dwarven_depths_02
+		}
+	}
+
+	7000.1.1 = {
+		buildings = {
+			dwarven_depths_03
+		}
 	}
 }
 
@@ -3056,10 +3248,22 @@ holding = wastelands_holding
 	6974.6.11 = {
 		holding = dwarven_holding
 		buildings = {
-			dwarven_depths_03
+			dwarven_depths_01
 		}
 		religion = faith_ironfists
 		culture = ironfists
+	}
+
+	6987.3.23 = {
+		buildings = {
+			dwarven_depths_02
+		}
+	}
+
+	7000.1.1 = {
+		buildings = {
+			dwarven_depths_03
+		}
 	}
 }
 
@@ -3077,10 +3281,16 @@ holding = wastelands_holding
 	6989.12.19 = {
 		holding = dwarven_holding
 		buildings = {
-			dwarven_depths_02
+			dwarven_depths_01
 		}
 		religion = faith_ironfists
 		culture = ironfists
+	}
+
+	7000.1.1 = {
+		buildings = {
+			dwarven_depths_02
+		}
 	}
 }
 
@@ -3098,10 +3308,16 @@ holding = wastelands_holding
 	7004.7.3 = {
 		holding = dwarven_holding
 		buildings = {
-			dwarven_depths_02
+			dwarven_depths_01
 		}
 		religion = faith_ironfists
 		culture = ironfists
+	}
+
+	7022.7.3 = {
+		buildings = {
+			dwarven_depths_02
+		}
 	}
 }
 
@@ -3119,10 +3335,16 @@ holding = wastelands_holding
 	7019.3.25 = {
 		holding = dwarven_holding
 		buildings = {
-			dwarven_depths_02
+			dwarven_depths_01
 		}
 		religion = faith_ironfists
 		culture = ironfists
+	}
+
+	7037.3.25 = {
+		buildings = {
+			dwarven_depths_02
+		}
 	}
 }
 
@@ -3144,10 +3366,16 @@ holding = wastelands_holding
 	7032.9.12 = {
 		holding = dwarven_holding
 		buildings = {
-			dwarven_depths_02
+			dwarven_depths_01
 		}
 		religion = faith_ironfists
 		culture = ironfists
+	}
+
+	7050.9.12 = {
+		buildings = {
+			dwarven_depths_02
+		}
 	}
 }
 
@@ -3165,10 +3393,16 @@ holding = wastelands_holding
 	7043.5.29 = {
 		holding = dwarven_holding
 		buildings = {
-			dwarven_depths_02
+			dwarven_depths_01
 		}
 		religion = faith_ironfists
 		culture = ironfists
+	}
+
+	7061.5.29 = {
+		buildings = {
+			dwarven_depths_02
+		}
 	}
 }
 
@@ -3186,10 +3420,16 @@ holding = wastelands_holding
 	7053.11.6 = {
 		holding = dwarven_holding
 		buildings = {
-			dwarven_depths_02
+			dwarven_depths_01
 		}
 		religion = faith_ironfists
 		culture = ironfists
+	}
+
+	7071.11.6 = {
+		buildings = {
+			dwarven_depths_02
+		}
 	}
 }
 
@@ -3207,10 +3447,16 @@ holding = wastelands_holding
 	7062.8.18 = {
 		holding = dwarven_holding
 		buildings = {
-			dwarven_depths_02
+			dwarven_depths_01
 		}
 		religion = faith_ironfists
 		culture = ironfists
+	}
+
+	7080.8.18 = {
+		buildings = {
+			dwarven_depths_02
+		}
 	}
 }
 
@@ -3228,10 +3474,16 @@ holding = wastelands_holding
 	7071.2.24 = {
 		holding = dwarven_holding
 		buildings = {
-			dwarven_depths_02
+			dwarven_depths_01
 		}
 		religion = faith_ironfists
 		culture = ironfists
+	}
+
+	7089.2.24 = {
+		buildings = {
+			dwarven_depths_02
+		}
 	}
 }
 
@@ -3249,10 +3501,16 @@ holding = wastelands_holding
 	7079.10.9 = {
 		holding = dwarven_holding
 		buildings = {
-			dwarven_depths_02
+			dwarven_depths_01
 		}
 		religion = faith_ironfists
 		culture = ironfists
+	}
+
+	7097.10.9 = {
+		buildings = {
+			dwarven_depths_02
+		}
 	}
 }
 
@@ -3270,10 +3528,16 @@ holding = wastelands_holding
 	7086.6.17 = {
 		holding = dwarven_holding
 		buildings = {
-			dwarven_depths_02
+			dwarven_depths_01
 		}
 		religion = faith_ironfists
 		culture = ironfists
+	}
+
+	7099.6.17 = {
+		buildings = {
+			dwarven_depths_02
+		}
 	}
 }
 

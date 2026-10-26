@@ -113,6 +113,37 @@
   building_wonder_halls_of_talanthir_02_desc: "The complex has expanded deeper into the earth and outward behind stronger defenses. Forges and workshops supply the garrison directly, while protected passages, layered walls, and hardened mustering spaces turn Talanthir into both an industrial center and a formidable fortress."
   building_wonder_halls_of_talanthir_03: "Great Halls of Talanthir"
   building_wonder_halls_of_talanthir_03_desc: "At their greatest extent, the Halls of Talanthir are a fortress built around an engine of industry. Deep storehouses feed vast workshops and forges, heavily defended gates control every approach, and the weapons and armor produced within can pass directly into the hands of the warriors stationed there."
+  
+  
+  
+  ### BLEAK MOUNTAINS - MENEGMÍRROND (DIAMOND CAVERN) ###
+
+  building_type_wonder_bleak_diamond_01: "Menegmírrond"
+  building_type_wonder_bleak_diamond_01_desc: "Menegmírrond, the Vault of a Thousand Jewels, is an extraordinary cavern deep beneath the Bleak Mountains. Formed by the immense volcanic pressures unleashed during the Rounding of the World, its walls contain a concentration of diamonds unlike almost any other in Middle-earth."
+
+  building_wonder_bleak_diamond_01: "Menegmírrond"
+  building_wonder_bleak_diamond_01_desc: "During the Rounding of the World, tremendous volcanic forces compressed the deep rock of the Bleak Mountains, forming an immense concentration of diamonds within a newly fractured cavern. Precious stones glitter in its exposed walls, and even without organized mining, the collection of loose gemstones provides a modest source of wealth."
+
+  building_wonder_bleak_diamond_02: "Workings of Menegmírrond"
+  building_wonder_bleak_diamond_02_desc: "Miners have begun exploiting the extraordinary deposits of Menegmírrond. New galleries follow the richest concentrations of diamonds through the mountain, while workshops cut and polish the recovered stones. What was once a remarkable natural cavern is steadily becoming one of the most valuable mineral deposits of the Bleak Mountains."
+
+  building_wonder_bleak_diamond_03: "Great Mines of Menegmírrond"
+  building_wonder_bleak_diamond_03_desc: "A vast network of excavations now surrounds the original cavern of Menegmírrond, following the unusually dense deposits created by the volcanic upheaval of the Rounding of the World. Skilled miners extract diamonds in astonishing quantities, while master gemcutters transform the finest stones into treasures coveted throughout Middle-earth. The wealth drawn from these depths rivals that of many celebrated mines."
+
+
+  ### BLEAK MOUNTAINS - MITHRILHAUDH (BURIED MITHRIL ARMORY) ###
+
+  building_type_wonder_bleak_mithril_01: "Mithrilhaudh"
+  building_type_wonder_bleak_mithril_01_desc: "Mithrilhaudh, the Grave of Mithril, marks the buried remains of an ancient armory destroyed during the Rounding of the World. Immense heat and pressure melted its stores of precious metal and crushed the structure deep into the mountain, leaving behind an extraordinary deposit of mithril embedded within the stone."
+
+  building_wonder_bleak_mithril_01: "Mithrilhaudh"
+  building_wonder_bleak_mithril_01_desc: "Before the Rounding of the World, an ancient armory stood upon this site, filled with weapons, armor, and stores of precious mithril. During the cataclysm, volcanic heat melted its contents while immense geological forces crushed the structure beneath the mountain. Little remains of the original armory, but its mithril survives as rich metallic veins twisted through the surrounding rock."
+
+  building_wonder_bleak_mithril_02: "Excavations of Mithrilhaudh"
+  building_wonder_bleak_mithril_02_desc: "Miners have begun excavating the strange metallic deposits surrounding the crushed remains of Mithrilhaudh. Veins of mithril, formed when the ancient armory's treasures were melted and compressed into the mountain, yield quantities of the precious metal rarely encountered elsewhere. Carefully recovered and refined, this mithril provides both immense wealth and materials for exceptional arms and armor."
+
+  building_wonder_bleak_mithril_03: "Great Mines of Mithrilhaudh"
+  building_wonder_bleak_mithril_03_desc: "Extensive galleries now follow the mithril deposits of Mithrilhaudh through layers of stone twisted and compressed during the Rounding of the World. The precious metal, once worked into the arms and armor of a forgotten age, is brought forth from the mountain to be forged anew. Great workshops refine the recovered mithril into extraordinary weapons, armor, and ornaments, transforming the destruction of an ancient armory into a source of tremendous wealth."
 
 ### ANGBAND GREAT BUILDINGS ###
 
@@ -155,23 +186,65 @@
   building_wonder_durnost_05: "High Fortress of Durnost"
   building_wonder_durnost_05_desc: "At its height, Durnost is both fortress and capital. Its imposing walls command the land for leagues around, its garrison can answer threats swiftly, and its halls oversee a prosperous and disciplined domain protected by one of the strongest citadels of the North."
   
-    ### AZNÂN-DÛM / NIDAVILLIR GREAT BUILDINGS ###
+ 
+  ### NIDAVELLIR - ECONOMIC GREAT BUILDINGS ###
 
-  building_type_wonder_nidavillir_foundation: "Aznân-dûm"
-  building_type_wonder_nidavillir_foundation_desc: "Aznân-dûm is the great northern mansion of the Ironfists, a growing Dwarven hold of mines, workshops, fortified halls, and deep delvings carved steadily into the mountains."
+  building_type_wonder_nidavillir_foundation: "Nidavellir"
+  building_type_wonder_nidavillir_foundation_desc: "Nidavellir is the growing industrial heart of the Ironfists, a new Dwarven city being carved from the untouched stone of the northern mountains. Through mining, craftsmanship, and trade, its settlers seek to transform a remote wilderness into a prosperous center of Dwarven industry."
 
-  building_wonder_nidavillir_foundation: "Foundations of Aznân-dûm"
-  building_wonder_nidavillir_foundation_desc: "The first permanent halls of Aznân-dûm have been driven into the mountain. Rough-hewn galleries connect mines, storehouses, workshops, and defensible chambers, while new settlers labor constantly to expand the young hold."
+  building_wonder_nidavillir_foundation: "Foundations of Nidavellir"
+  building_wonder_nidavillir_foundation_desc: "Where once there was only unbroken mountain rock, the first miners of the Ironfists have opened narrow tunnels and rough-hewn chambers. Promising veins of ore are explored, simple workshops take shape, and the steady labor of the settlers begins to transform the wilderness into a permanent home."
 
-  building_wonder_nidavillir_t2: "Hold of Aznân-dûm"
-  building_wonder_nidavillir_t2_desc: "Aznân-dûm has grown from a frontier settlement into a true Dwarven hold. Broad galleries carry ore and supplies through the mountain, workshops ring with hammer blows, and stout defenses protect the growing population dwelling beneath the stone."
+  building_wonder_nidavillir_t2: "Mines of Nidavellir"
+  building_wonder_nidavillir_t2_desc: "The miners of Nidavellir have pushed deeper into the mountain, uncovering rich deposits of iron, precious metals, and gemstones. New galleries connect the growing mines to furnaces, workshops, and storehouses, while an expanding network of stone roads carries the fruits of their labor throughout the young settlement."
 
-  building_wonder_nidavillir_t3: "Great Hold of Aznân-dûm"
-  building_wonder_nidavillir_t3_desc: "The halls of Aznân-dûm now reach deep beneath the mountains. Mines feed great forges and workshops, carefully engineered roads move goods efficiently through the hold, and increasingly formidable defenses guard its gates and inner passages."
+  building_wonder_nidavillir_t3: "Forges of Nidavellir"
+  building_wonder_nidavillir_t3_desc: "Great furnaces now illuminate halls that were solid stone only a generation ago. Skilled smiths transform the wealth of the mountain into tools, ornaments, and finely wrought metalwork, while merchants from distant lands begin to seek the products of Nidavellir's industrious craftsmen."
 
-  building_wonder_nidavillir_t4: "Deep Citadel of Aznân-dûm"
-  building_wonder_nidavillir_t4_desc: "Aznân-dûm has become a mighty underground citadel. Layered gates and fortified galleries protect vast storehouses, foundries, barracks, and mines, while the craftsmen of the Ironfists turn the wealth of the mountain into weapons, armor, tools, and monumental works of stone."
+  building_wonder_nidavillir_t4: "Great Foundries of Nidavellir"
+  building_wonder_nidavillir_t4_desc: "Nidavellir has become a vast center of mining and manufacture, its foundries consuming a seemingly endless stream of ore from the mountain depths. Broad galleries, ingenious machinery, and prosperous merchant halls support an industry that continues to expand with every new excavation. The Ironfists have turned barren stone into extraordinary wealth."
 
-  building_wonder_nidavillir_t5: "Aznân-dûm, Hold of the Ironfists"
-  building_wonder_nidavillir_t5_desc: "Aznân-dûm stands among the great mansions of the Dwarves. Its deepest mines yield immense wealth, its furnaces and workshops labor without rest, and its fortified halls can shelter a great host. The Ironfists have transformed a distant northern colony into a capital worthy of their people."
+  building_wonder_nidavillir_t5: "Nidavellir, the Golden City"
+  building_wonder_nidavillir_t5_desc: "From mountains once untouched by pick or chisel, the Ironfists have raised a city of astonishing wealth and industry. Its deep mines yield precious metals and rare gems, its furnaces burn without rest, and its master artisans produce works sought throughout the world. Nidavellir now stands among the great industrial wonders of the Dwarves, a testament to what determination and generations of labor can accomplish."
 
+
+  ### KALLZAHAR - MILITARY GREAT BUILDINGS ###
+
+  building_type_wonder_nidavillir_military_01: "Kallzahar"
+  building_type_wonder_nidavillir_military_01_desc: "Kallzahar, the Cold Home, is the growing military stronghold of the Ironfists, hewn from the unbroken stone of the northern mountains. Its armories, barracks, and defensive galleries are being raised to protect the new Dwarven settlements and secure their future against the dangers of the frozen wilderness."
+
+  building_wonder_nidavillir_military_01: "Foundations of Kallzahar"
+  building_wonder_nidavillir_military_01_desc: "The first defensive tunnels of Kallzahar have been cut into the mountain, providing refuge for the settlers and a defensible position against hostile forces. Rough barracks, supply chambers, and narrow passages mark the beginnings of what the Ironfists intend to make a formidable stronghold."
+
+  building_wonder_nidavillir_military_02: "Armories of Kallzahar"
+  building_wonder_nidavillir_military_02_desc: "The growing workshops of Kallzahar now supply the warriors of the Ironfists with sturdy weapons and finely fitted armor. Training grounds ring with the clash of steel, while reinforced gates and guarded galleries protect the settlement. Each new excavation strengthens the defenses of the young Dwarven kingdom."
+
+  building_wonder_nidavillir_military_03: "Fortress of Kallzahar"
+  building_wonder_nidavillir_military_03_desc: "Kallzahar has grown into a formidable mountain fortress, its defenses carefully planned as new chambers are carved from the living rock. Layered gates, fortified passages, and deep defensive galleries protect extensive barracks and arsenals, while disciplined companies of warriors stand ready to defend the homes their people have labored to create."
+
+  building_wonder_nidavillir_military_04: "Great Citadel of Kallzahar"
+  building_wonder_nidavillir_military_04_desc: "The Ironfists have transformed the mountain into a vast military citadel. Immense armories equip companies of heavily armored warriors, while reinforced gates, murder holes, and carefully engineered defensive passages make every approach perilous to an invading host. What began as a refuge against the dangers of the north has become a stronghold capable of resisting mighty armies."
+
+  building_wonder_nidavillir_military_05: "Kallzahar, the Unbreakable Hold"
+  building_wonder_nidavillir_military_05_desc: "Kallzahar stands as the unyielding shield of the Ironfists, a fortress raised entirely through the labor and ingenuity of its people. Its great arsenals equip powerful armies, its halls shelter seasoned warriors, and its defenses descend through seemingly endless layers of fortified stone. Neither the bitter cold of the north nor the fury of invading hosts shall easily overcome this mighty work of Dwarven determination."
+
+
+  ### AZNÂN-DÛM - GLORY GREAT BUILDINGS ###
+
+  building_type_wonder_nidavillir_glory_01: "Aznân-dûm"
+  building_type_wonder_nidavillir_glory_01_desc: "Aznân-dûm is the emerging royal and ceremonial heart of the Ironfists, a new Dwarven mansion being carved from untouched mountain stone. Its halls, monuments, council chambers, and shrines are intended to celebrate the achievements of the settlers, establish the authority of their rulers, and preserve the history of the kingdom they are founding."
+
+  building_wonder_nidavillir_glory_01: "Foundations of Aznân-dûm"
+  building_wonder_nidavillir_glory_01_desc: "The Ironfists have begun carving their first great gathering hall from the solid mountain. Though its pillars remain rough and its chambers modest, the new hall provides a place for their leaders to administer justice, settle disputes, and celebrate the founding of their northern home. Here the first chapters of a new Dwarven history are being written."
+
+  building_wonder_nidavillir_glory_02: "Halls of Aznân-dûm"
+  building_wonder_nidavillir_glory_02_desc: "Aznân-dûm has grown into a center of Dwarven governance and ceremony. Broad council chambers welcome clan elders and visiting dignitaries, while newly carved pillars commemorate the founding of the Ironfist settlements and the hardships overcome by their people. The accomplishments of the young kingdom are already becoming worthy subjects for stonecarvers and storytellers."
+
+  building_wonder_nidavillir_glory_03: "Great Halls of Aznân-dûm"
+  building_wonder_nidavillir_glory_03_desc: "Magnificent halls now stretch beneath the mountain, adorned with intricate carvings, precious metals, and monuments celebrating the deeds of the Ironfists. Royal councils assemble beneath towering pillars, learned recordkeepers preserve the history of the settlement, and solemn ceremonies strengthen the bonds between the clans and their rulers. The rough chambers of the first settlers have become halls worthy of a rising Dwarven kingdom."
+
+  building_wonder_nidavillir_glory_04: "Royal Citadel of Aznân-dûm"
+  building_wonder_nidavillir_glory_04_desc: "Aznân-dûm has become a splendid royal seat, its grand chambers reflecting the growing power and dignity of the Ironfists. Monumental statues honor the founders of the kingdom, masterfully carved galleries recount its triumphs, and magnificent ceremonial halls welcome envoys from distant realms. The Ironfists are no longer merely settlers struggling to survive, but rulers of a flourishing Dwarven realm."
+
+  building_wonder_nidavillir_glory_05: "Aznân-dûm, Hall of the Ironfist Kings"
+  building_wonder_nidavillir_glory_05_desc: "Aznân-dûm stands as a monument to the achievements and ambitions of the Ironfists. Beneath vaulted ceilings of extraordinary craftsmanship, the history of their kingdom is preserved in stone, gold, and song. Its throne hall receives the envoys of distant realms, its ceremonial chambers honor the founders and heroes of the realm, and its learned custodians safeguard the wisdom gathered since the first stone was cut. From untouched mountain rock, the Ironfists have raised a royal mansion worthy of the greatest Dwarven kings, ensuring that future generations shall remember the glory of those who built it."

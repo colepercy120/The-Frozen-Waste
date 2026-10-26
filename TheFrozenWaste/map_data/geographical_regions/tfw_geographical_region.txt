@@ -632,3 +632,18 @@ custom_greater_forochel = {
 	#	d_andunaloni
 	}
 }
+
+special_long_winter_very_heavy_region = {
+	regions = {
+		middleearth_forodwaith
+	}
+	duchies = {
+		
+		#Gundabad
+		d_gundabad d_gunduz_mahab d_dweorad d_ronen_in_anduin
+		d_greyspine d_thakalgund d_withered_heath d_iron_gap d_enad_agmal
+		d_grey_mountain_narrows d_drakkenvast d_hithaeglir_forn d_dol_tiriamon
+		d_cameth_brin d_hithaeglir_harad d_malasul_tagerkar d_zandith_dum d_goblin_town
+		d_gabilgir d_fuhmdusha d_high_pass
+	}
+}

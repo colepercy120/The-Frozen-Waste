@@ -579,7 +579,7 @@
              b_bleak_mountains_37: "Nightdeep"
           c_bleak_mountains_15: "Grimwarren"
              b_bleak_mountains_38: "Grimwarren"
-    k_nidavellir: "Aznân-dûm"
+    k_nidavellir: "Southern Bleak Mountains"
        d_nidavellir_1: "Khazad-Khurum"
           c_nidavellir_1: "Khazad-Khurum"
              b_nidavellir_1: "Khazad-Khurum"
@@ -1904,4 +1904,8 @@
  
  e_cuind: "Cuind"
  e_cuind_adj: "Cuindi"
+ 
+ d_eitris_expedition: "Eitri's Expedition"
+ d_eitris_expedition_adj: "Eitri's" 
+ 
  

@@ -89,6 +89,16 @@ l_english:
  tfw_intro.004.t: "The Refuge of Frostwood"
  tfw_intro.004.desc: "Frostwood was not always a kingdom.\n\nIn the Elder Days, Sairavel and Hwerin were war leaders among the Avari, fighting to preserve their people against enemies far greater than themselves. When that struggle ended in defeat, they led the survivors north and withdrew into the frozen forest that would become their refuge.\n\nWhat began as a sanctuary slowly became a realm.\n\nThe Windan settled the western reaches beneath Sairavel, while the Hwenti gathered in the east beneath Hwerin. The two peoples kept their own traditions, their own rulers, and their own ways, but they shared the memory of defeat and the knowledge that Frostwood existed because there had been nowhere else left to go.\n\nSince the Elder Days, Sairavel and Hwerin have ruled there together, husband and wife over two crowns. Generations have been born beneath the frozen boughs while the kingdoms of the outside world rose, fell, and passed into legend.\n\nFrostwood is no longer merely a refuge. It is their homeland now, defended by people who remember exactly what it cost to find one."
  tfw_intro.004.a: "We endured, and made a home of it."
+ 
+ ### Eitri
+ tfw_intro.005.t: "Eitri of the Ironfists"
+ tfw_intro.005.desc: "[ROOT.Char.GetFirstName] was the second son of [GetScriptedCharacterByHistoryID('lineofsindriVI').GetName], not wanting to spend the days of his long life in his fathers hold he began to look for additional loci that might support a [dwarf|e]-hold capable of matching the grandure of [belegost|e], [nogrond|e], or even [mablad_dum|e] or {khazad_dum|e] itself. \n\nWhich lead him to the Utter North. While most people considered the Ered Muil and Ered Rhivamar as mere shattered remnants of the [ironmountains|e], [ROOT.Char.GetFirstName] saw potential. the Broken crust from both the [warofwrath|e] and the [roundingofworld|e] would cause the immense preesures and tempetures needed to form precious gemstones, while leaving the mountains themselves riven with caves. not to mention any artifacts left over from the [firstdarklord|e] \n\nWith his target aquired he gathered a company of like minded dwarves and struck out north. what will become of them none yet know..."
+ tfw_intro.005.a: "Lets get Digging"
+ 
+ ### Nixni
+ tfw_intro.006.t: "The Winter Queen"
+ tfw_intro.006.desc: "[ROOT.Char.GetFirstName], the [ladyofcold|e], has long been the scourge of the north. following an ancient oath to [melkorcharacter|e] to guard his fortress of [angband|e] she has ensnared all of [forodwaith|e] in an eternal winter. smashing ships with mighty gales and preventing even the mighty [numenor|e] from establishing more than a foothold here. but in recent mellenia she has remained content in her halls and hasn't been seen outside since the [angmarwars|e] \n\nBut now things are changing. the [darklord|e] is once more rising in the south, and the [sauron|e] does not tolerate any rivals. [ROOT.Char.GetFirstName] has to once more choose her stance in the coming war. will she stand with sauron, or will she help bring about his fall."
+ tfw_intro.006.a: "The Cold Wind Blows"
 
  ### Story Events
 
@@ -120,3 +130,20 @@ l_english:
  tfw_story.007.a: "King Graw has a nice ring to it"
  tfw_story.007.b: "There are still roads I have not walked."
  claim_tol_faron: "Claim Tol Faron as your Realm"
+ 
+ tfw_story.008.t: "Archetechs Plans"
+ tfw_story.008.desc: "Our realm here in the Bleak Mountains has grown into a sizeable dwarf hold, and it is time that we decide what sort of hall it will be. do we want a hold of Gold, a hold of Steel, or a Hold of Marble. all have their benifets, all have their risks. and we must chose wisely for this will become our very idenity."
+ tfw_story.008.a: "A hold of Marble - Aznân-dûm"
+ tfw_story.008.b: "A hold of Steel - Kallzahar"
+ tfw_story.008.c: "A Hold of Gold - Nidavellir"
+ tfw_story.008.effect: "[GetTitleByKey('k_nidavellir').GetNameNoTier] Will Recive a new name and coat of arms"
+ aznandum: "Aznân-dûm"
+ winterdeep: "Kallzahar"
+ nidavellir: "Nidavellir"
+ 
+ long_winter.0003.t: "Hearld from the Dark Lord"
+ long_winter.0003.desc: "A Herald has arrived from [GetScriptedCharacterByHistoryID('lineofsauron').GetName]. he wishes me to unleash a wave of fridige cold across [eriador|e] and [rhovanion|e] to weaken his foes in the north. invoking an ancient favor i owed him from the [elderdays|e]. while i must oblige, i have some disgression on the timing" 
+ long_winter.0003.a: "As you Wish"
+ long_winter.0003.a.effect: "The Long Winter Starts"
+ long_winter.0003.b: "The Time is not yet right"
+ long_winter.0003.b.effect: "You will gain acess to a decision to start the Long Winter." 

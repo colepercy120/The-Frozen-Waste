@@ -119,3 +119,54 @@ tfw_intro.004 = { # Frostwood introduction
 	}
 }
 
+############################################################
+# Eitri
+############################################################
+
+tfw_intro.005 = { # Eitri - Exibition to the Southern Bleak Mountains
+	type = character_event
+	title = tfw_intro.005.t
+	desc = tfw_intro.005.desc
+	theme = dwarven
+
+	left_portrait = {
+		character = root
+		animation = thinking
+	}
+
+	immediate = {
+
+	}
+
+	option = {
+		name = tfw_intro.005.a
+	}
+}
+
+############################################################
+# Nixni
+############################################################
+
+tfw_intro.006 = { # Nixni - The Winter Queen
+	type = character_event
+	title = tfw_intro.006.t
+	desc = tfw_intro.006.desc
+	theme = death
+	
+	override_background = {
+		reference = wilderness_arctic
+	}
+
+	left_portrait = {
+		character = root
+		animation = thinking
+	}
+
+	immediate = {
+
+	}
+
+	option = {
+		name = tfw_intro.006.a
+	}
+}

@@ -21,7 +21,8 @@ tfw_lineofsindri_001 = { # younger sister of Eitri
 	religion = faith_ironfists
 	culture = ironfists
 
-sexuality = heterosexual
+	sexuality = heterosexual
+	father = lineofsindriVI
 
 	trait = ambitious
 	trait = gregarious
@@ -53,7 +54,8 @@ tfw_lineofsindri_002 = { # founder of Nidavellir; base stats total 55
 	culture = ironfists
 	dna = etri_dna
 
-sexuality = heterosexual
+	sexuality = heterosexual
+	father = lineofsindriVI
 
 	trait = ambitious
 	trait = diligent

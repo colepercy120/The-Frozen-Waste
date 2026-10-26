@@ -322,12 +322,79 @@ tfw_story.007 = {
 		name = tfw_story.007.a
 		claim_tol_faron = yes
 		
+		
+		ai_chance = {
+			base = 100
+
+			
+		}
 	}
 
 
 	option = {
 		name = tfw_story.007.b
 
+		ai_chance = {
+			base = 0
+
+			
+		}
+	}
+}
+
+
+#### Build Nidavellir
+
+tfw_story.008 = {
+	type = character_event
+	title = tfw_story.008.t
+	desc = tfw_story.008.desc
+	theme = dwarven
+	
+
+	left_portrait = {
+		character = root
+		animation = thinking
+	}
+	
+	immediate = {
+		destroy_title = title:d_eitris_expedition 
+	}
+
+	option = { ### Aznan-dum
+		name = tfw_story.008.a
 		
+		title:k_nidavellir = {
+			set_title_name = aznandum
+			set_coa = d_eitris_expedition
+		}
+		custom_tooltip = tfw_story.008.effect
+		province:9208 = {
+			add_great_building = wonder_nidavillir_glory_01
+		}
+	}
+	option = { ### Winter Deep
+		name = tfw_story.008.b
+		
+		title:k_nidavellir = {
+			set_title_name = winterdeep
+			set_coa = k_winterdeep
+		}
+		custom_tooltip = tfw_story.008.effect
+		province:9208 = {
+			add_great_building = wonder_nidavillir_military_01
+		}
+	}
+	option = { ### Nidavellir
+		name = tfw_story.008.c
+		
+		title:k_nidavellir = {
+			set_title_name = nidavellir
+			set_coa = k_nidavellir_2
+		}
+		custom_tooltip = tfw_story.008.effect
+		province:9208 = {
+			add_great_building = wonder_nidavillir_foundation
+		}
 	}
 }

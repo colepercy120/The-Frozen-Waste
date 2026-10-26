@@ -103,6 +103,43 @@
 			hidden_effect = { remove_building = wonder_nidavillir_t4 }
 			set_great_building = wonder_nidavillir_t5
 		}
+		
+		# Nidavillir Military
+		wonder_nidavillir_military_01 = {
+			hidden_effect = { remove_building = wonder_nidavillir_military_01 }
+			set_great_building = wonder_nidavillir_military_02
+		}
+		wonder_nidavillir_military_02 = {
+			hidden_effect = { remove_building = wonder_nidavillir_military_02 }
+			set_great_building = wonder_nidavillir_military_03
+		}
+		wonder_nidavillir_military_03 = {
+			hidden_effect = { remove_building = wonder_nidavillir_military_03 }
+			set_great_building = wonder_nidavillir_military_04
+		}
+		wonder_nidavillir_military_04 = {
+			hidden_effect = { remove_building = wonder_nidavillir_military_04 }
+			set_great_building = wonder_nidavillir_military_05
+		}
+
+		# Nidavillir Glory
+		wonder_nidavillir_glory_01 = {
+			hidden_effect = { remove_building = wonder_nidavillir_glory_01 }
+			set_great_building = wonder_nidavillir_glory_02
+		}
+		wonder_nidavillir_glory_02 = {
+			hidden_effect = { remove_building = wonder_nidavillir_glory_02 }
+			set_great_building = wonder_nidavillir_glory_03
+		}
+		wonder_nidavillir_glory_03 = {
+			hidden_effect = { remove_building = wonder_nidavillir_glory_03 }
+			set_great_building = wonder_nidavillir_glory_04
+		}
+		wonder_nidavillir_glory_04 = {
+			hidden_effect = { remove_building = wonder_nidavillir_glory_04 }
+			set_great_building = wonder_nidavillir_glory_05
+		}
+
 	}
 }
 
