@@ -3,7 +3,7 @@
 	is_unique = yes
 	gui_window_name = window_journal_entry
 	illustration = "gfx/interface/illustrations/decisions/decision_elves_dwarves_05.dds"
-	icon = { reference = "gfx/interface/icons/flat_icons/piety.dds" }
+	
 
 	sub_regions = {
 		tfw_restoration_middleearth = {
@@ -18,7 +18,7 @@
 			require_realm_in_sub_region = no
 			require_domicile_in_sub_region = yes
 			map_color = rgb { 85 180 115 }
-			icon = "gfx/interface/icons/flat_icons/piety.dds"
+			icon = "gfx/interface/icons/flat_icons/legends.dds"
 			is_character_valid = {
 				tfw_restoration_good_orc = yes
 				location = { geographical_region = middleearth }
@@ -28,11 +28,9 @@
 	on_start = {
 		set_global_variable = { name = tfw_orc_restoration_started value = yes }
 		set_global_variable = { name = tfw_orc_restoration_active value = yes }
-		tfw_restoration_initialize_state = yes
 		tfw_orc_restoration_tick = yes
 	}
 	on_monthly = {
-		tfw_restoration_initialize_state = yes
 		tfw_orc_restoration_tick = yes
 	}
 	on_end = {
@@ -46,10 +44,11 @@
 	phases = {
 		tfw_restoration_long_road = {
 			# No timer: only the four scripted requirements can finish this situation.
-			icon = "gfx/interface/icons/flat_icons/piety.dds"
+			icon = "gfx/interface/icons/situation_types/tfw_orc_restoration.dds"
 			illustration = "gfx/interface/illustrations/decisions/decision_elves_dwarves_05.dds"
 			modifier_sets = {
 				tfw_restoration_shared_purpose = {
+					icon = "gfx/interface/icons/modifiers/magic_positive.dds"
 					good_orcs = { character_modifier = { same_faith_opinion = 5 } }
 				}
 			}

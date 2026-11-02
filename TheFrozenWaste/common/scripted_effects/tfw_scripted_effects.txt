@@ -929,15 +929,6 @@ claim_tol_faron = {
 }
 
 # BEGIN RESTORATION: common/scripted_effects/tfw_orc_restoration_effects.txt
-# Initialize only numeric state; milestone flags exist only when completed.
-# Safe on existing saves: never resets funding or completion milestones.
-tfw_restoration_initialize_state = {
-	if = {
-		limit = { NOT = { has_global_variable = tfw_restoration_prayer_piety } }
-		set_global_variable = { name = tfw_restoration_prayer_piety value = 0 }
-	}
-}
-
 # Situation scope. Progress uses milestone flags and a native independent-ruler query.
 tfw_orc_restoration_tick = {
 	if = {
@@ -962,7 +953,13 @@ tfw_orc_restoration_tick = {
 		}
 		if = {
 			limit = { var:progress_points = 100 }
-			set_global_variable = { name = tfw_orc_restoration_completed value = yes }
+			tfw_end_restoration = yes
+		}
+	}
+}
+
+tfw_end_restoration = {
+	set_global_variable = { name = tfw_orc_restoration_completed value = yes }
 			culture:tfw_restored_adlantrim = {
 				get_all_innovations_from = culture:adlantrim
 				reset_culture_creation_date = yes
@@ -980,8 +977,6 @@ tfw_orc_restoration_tick = {
 			}
 			add_elven_hope_global_effect = { VALUE = 1000 HOPE_EFFECT = effect_elven_hope_good_realm_rises }
 			end_situation = yes
-		}
-	}
 }
 
 # Character scope. Called by the recipient's conversion event, not by a world scan.
@@ -1009,7 +1004,14 @@ tfw_restore_good_orcs_to_elves = {
             }
         }
         # Buildings precede government on-actions; culture establishes eligibility.
-        if = { limit = { is_landed = yes } change_government = elven_government }
+        if = { 
+			limit = { is_landed = yes } 
+			change_government = elven_government
+			every_situation = {
+				limit = { situation_type = elven_hope_situation }
+				add_manual_participant = root
+			}
+		}
     }
 }
 

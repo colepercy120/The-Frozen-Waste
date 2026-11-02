@@ -9,32 +9,20 @@ raf_at_war = {
 }
 
 # BEGIN RESTORATION: common/modifiers/tfw_orc_restoration_modifiers.txt
-tfw_restoration_prayer_contributor_1 = {
-    icon = county_modifier_faith_positive
-    monthly_piety = 0.1
-    same_faith_opinion = 1
-    stress_gain_mult = -0.02
-}
-tfw_restoration_prayer_contributor_2 = {
-    icon = county_modifier_faith_positive
-    monthly_piety = 0.2
-    same_faith_opinion = 2
-    stress_gain_mult = -0.04
-}
 tfw_restoration_prayer_contributor_3 = {
-    icon = county_modifier_faith_positive
+    icon = magic_positive
     monthly_piety = 0.3
     same_faith_opinion = 3
     stress_gain_mult = -0.06
 }
 tfw_restoration_prayer_contributor_4 = {
-    icon = county_modifier_faith_positive
+    icon = magic_positive
     monthly_piety = 0.4
     same_faith_opinion = 4
     stress_gain_mult = -0.08
 }
 tfw_restoration_prayer_contributor_5 = {
-    icon = county_modifier_faith_positive
+    icon = magic_positive
     monthly_piety = 0.5
     same_faith_opinion = 5
     stress_gain_mult = -0.10

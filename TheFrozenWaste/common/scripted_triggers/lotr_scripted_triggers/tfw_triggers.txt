@@ -154,28 +154,6 @@ tfw_restoration_angband_cleansed = {
 	trigger_else = { always = no }
 }
 
-tfw_restoration_can_pray = {
-	tfw_restoration_good_orc = yes
-	tfw_restoration_is_active = yes
-	NOT = { has_global_variable = tfw_restoration_prayer_completed }
-	trigger_if = {
-		limit = { has_global_variable = tfw_restoration_prayer_piety }
-		global_var:tfw_restoration_prayer_piety < 25000
-	}
-	trigger_else = { always = no }
-	NOT = { has_character_flag = tfw_restoration_prayer_cooldown }
-}
-
-tfw_restoration_can_give = {
-	tfw_restoration_can_pray = yes
-	piety >= $AMOUNT$
-	trigger_if = {
-		limit = { has_global_variable = tfw_restoration_prayer_piety }
-		global_var:tfw_restoration_prayer_piety <= { value = 25000 subtract = $AMOUNT$ }
-	}
-	trigger_else = { always = no }
-}
-
 # Global ruler requirement: independent Orc dukes, kings, and emperors.
 # Counts, vassals, and non-evil faiths do not block restoration.
 tfw_restoration_no_evil_orc_rulers = {
