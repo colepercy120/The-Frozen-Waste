@@ -324,9 +324,7 @@ window = {
 				}
 				expand = {}
 			}
-				vbox_actionable_section = {
-					margin = { 0 12 }
-				}
+				
 		}
 	}
 	

@@ -129,6 +129,14 @@ tfw.1 = { # integrate the southern provinces
 		start_situation = {
 			type = frozen_waste	
 		}
+		# Start after Frozen Waste initializes the shared Angband-cleansed flag.
+		if = {
+			limit = {
+				NOT = { exists = global_var:tfw_orc_restoration_started }
+				NOT = { has_global_variable = tfw_orc_restoration_completed }
+			}
+			start_situation = { type = tfw_orc_restoration }
+		}
 	}
 }
 

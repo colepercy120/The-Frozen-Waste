@@ -217,6 +217,10 @@ l_english:
  gauredain_history_loc: "the origional inhabitants of [angmar|e], driven into the wastes by the [witchking|e]"
  gauredain_desc: "Temp"
  
+ tfw_restored_adlantrim: "Cýredhil"
+ tfw_restored_adlantrim_prefix: "Cŷr"
+ tfw_restored_adlantrim_collective_noun: "Cýredhil"
+ 
  ### Situations
  
  elven_hope_situation_sub_region_forodwaith: "Forodwaith"
@@ -238,6 +242,18 @@ l_english:
  
  JOURNAL_ENTRY_PROGRESS: "Progress to Completion: [Situation.MakeScope.Var('progress_points').GetValue]%"
  JOURNAL_ENTRY_COMPLETION_REQUIREMENTS: "Completion Requirements"
+ 
+ situation_tfw_orc_restoration: "The Great Healing"
+ situation_tfw_orc_restoration_desc: "The Abandoned Children of Illuivatar, the [adlantrim|e], have endured untold suffering and grief since [melkorcharacter|e] stole their ancestors from [cuivenien|e]. yet they have not lost hope. they work tirelessly to cleanse themselves of the taint of the [darklord|e]."
+ tfw_restoration_middleearth: "Middle-earth"
+ tfw_orc_restoration_tfw_restoration_long_road_situation_phase: "The Long Road"
+ tfw_restoration_long_road: "PLACEHOLDER: tfw_restoration_long_road"
+ tfw_restoration_long_road_desc: "- [GetScriptedCharacterByHistoryID('lineofsauron').GetFirstName] has been defeated\n- Angband has been Cleansed\n- The Beseech Higher Powers [great_project|e] has been completed\n- No [orc|e] ruler is [duke|e] [rank|e] or above"
+ tfw_orc_restoration_participant_group_good_orcs: "Adlantrim"
+ tfw_orc_restoration_participant_group_good_orcs_desc: "Orcs who have seen the light and work to purify themselves and the world of darkness"
+ tfw_orc_restoration_good_orcs: "Adlantrim"
+ tfw_restoration_shared_purpose: "Glorius Purpose"
+ tfw_restoration_shared_purpose_concept: "Glorius Purpose"
  
  ### Bookmarks
  
@@ -277,3 +293,34 @@ l_english:
  great_project_type_angband_durnost_upgrade_fortifications_desc: "Raise new walls, gates, towers, and defensive works around the growing stronghold."
  great_project_type_angband_durnost_upgrade_work_force: "Muster the Workforce"
  great_project_type_angband_durnost_upgrade_work_force_desc: "Gather the laborers, craftsmen, engineers, and overseers required for construction on this scale."
+
+# BEGIN RESTORATION LOCALIZATION
+ 
+ great_project_type_tfw_restoration_mass_prayer: "Beseech Higher Powers"
+ great_project_type_tfw_restoration_mass_prayer_desc: "We have been to long scorned by our breathren and scored by the [valar|e], for us to have any hope of suceeding we need to cast our prayers higher, to [illuivatar|e] himself. only he has the power to undo what [morgothcharacter|e] has done to us, and it will take a lot to get his attention."
+ great_project_type_tooltip_tfw_restoration_mass_prayer: "Beseech Higher Powers"
+ great_project_name_tfw_restoration_mass_prayer: "Beseech Higher Powers"
+ great_project_name_possessive_tfw_restoration_mass_prayer: "Beseech Higher Powers"
+ great_project_type_tfw_restoration_mass_prayer_contribution_prayer_5000_1: "Stage a Monumental Act of Devotion"
+ great_project_type_tfw_restoration_mass_prayer_contribution_prayer_5000_1_desc: "Stage a Monumental Act of Devotion"
+ great_project_type_tfw_restoration_mass_prayer_contribution_prayer_5000_2: "Stage a Monumental Act of Devotion"
+ great_project_type_tfw_restoration_mass_prayer_contribution_prayer_5000_2_desc: "Stage a Monumental Act of Devotion"
+ great_project_type_tfw_restoration_mass_prayer_contribution_prayer_2500_1: "Stage a Great Act of Devotion"
+ great_project_type_tfw_restoration_mass_prayer_contribution_prayer_2500_1_desc: "Stage a Great Act of Devotion"
+ great_project_type_tfw_restoration_mass_prayer_contribution_prayer_2500_2: "Stage a Great Act of Devotion"
+ great_project_type_tfw_restoration_mass_prayer_contribution_prayer_2500_2_desc: "Stage a Great Act of Devotion"
+ great_project_type_tfw_restoration_mass_prayer_contribution_prayer_2500_3: "Stage a Great Act of Devotion"
+ great_project_type_tfw_restoration_mass_prayer_contribution_prayer_2500_3_desc: "Stage a Great Act of Devotion"
+ great_project_type_tfw_restoration_mass_prayer_contribution_prayer_2500_4: "Stage a Great Act of Devotion"
+ great_project_type_tfw_restoration_mass_prayer_contribution_prayer_2500_4_desc: "Stage a Great Act of Devotion"
+ great_project_type_tfw_restoration_mass_prayer_contribution_prayer_1000_1: "Stage a Act of Devotion"
+ great_project_type_tfw_restoration_mass_prayer_contribution_prayer_1000_1_desc: "Stage a Act of Devotion"
+ great_project_type_tfw_restoration_mass_prayer_contribution_prayer_1000_2: "Stage a Act of Devotion"
+ great_project_type_tfw_restoration_mass_prayer_contribution_prayer_1000_2_desc: "Stage a Act of Devotion"
+ great_project_type_tfw_restoration_mass_prayer_contribution_prayer_1000_3: "Stage a Act of Devotion"
+ great_project_type_tfw_restoration_mass_prayer_contribution_prayer_1000_3_desc: "Stage a Act of Devotion"
+ great_project_type_tfw_restoration_mass_prayer_contribution_prayer_1000_4: "Stage a Act of Devotion"
+ great_project_type_tfw_restoration_mass_prayer_contribution_prayer_1000_4_desc: "Stage a Act of Devotion"
+ great_project_type_tfw_restoration_mass_prayer_contribution_prayer_1000_5: "Stage a Act of Devotion"
+ great_project_type_tfw_restoration_mass_prayer_contribution_prayer_1000_5_desc: "Stage a Act of Devotion"
+# END RESTORATION LOCALIZATION

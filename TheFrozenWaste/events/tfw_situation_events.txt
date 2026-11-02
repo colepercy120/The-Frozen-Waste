@@ -251,3 +251,31 @@ tfw_situation.0005 = {
 		name = tfw_situation.0005.a
 	}
 }
+
+# BEGIN RESTORATION: events/tfw_orc_restoration_events.txt
+tfw_situation.0006 = {
+	type = character_event
+	window = fullscreen_event
+	title = tfw_situation.0006.t
+	desc = tfw_situation.0006.desc
+	theme = elven
+	option = { name = tfw_situation.0006.a }
+}
+
+tfw_situation.0007 = {
+    type = character_event
+    title = tfw_situation.0007.t
+    desc = tfw_situation.0007.desc
+    theme = elven
+    immediate = { tfw_restore_good_orcs_to_elves = yes }
+	
+	left_portrait = {
+		character = root
+		animation = disbelief
+	}
+   
+    option = { 
+		name = tfw_situation.0007.a 
+	}
+}
+# END RESTORATION: events/tfw_orc_restoration_events.txt

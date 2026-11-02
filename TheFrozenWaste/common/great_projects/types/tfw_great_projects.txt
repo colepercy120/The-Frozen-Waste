@@ -342,3 +342,183 @@ angband_durnost_upgrade = {
 
 	completion_sound_effect = @msg_completion_effect_dwarven
 }
+
+# BEGIN RESTORATION: common/great_projects/types/tfw_restoration_prayer.txt
+# Eleven mandatory, one-time native contributions: 25,000 total piety.
+# No custom funding ledger or final-chorus contribution.
+tfw_restoration_mass_prayer = {
+    icon = { reference = "gfx/interface/icons/flat_icons/piety.dds" }
+    illustration = { reference = "gfx/interface/illustrations/decisions/decision_elves_dwarves_05.dds" }
+    name = { desc = great_project_type_tfw_restoration_mass_prayer }
+    owner = founder_primary_title_owner
+    is_important = yes
+    is_shown = {
+        tfw_restoration_good_orc = yes
+        tfw_restoration_is_active = yes
+        NOT = { has_global_variable = tfw_restoration_prayer_completed }
+    }
+    can_start_planning = {
+        highest_held_title_tier >= tier_kingdom
+        is_landed = yes
+        tfw_restoration_good_orc = yes
+        tfw_restoration_is_active = yes
+        NOT = { has_global_variable = tfw_restoration_prayer_completed }
+        NOT = { has_global_variable = tfw_restoration_prayer_project }
+    }
+    can_cancel = { always = no }
+    province_filter = capital
+    is_location_valid = { always = yes }
+    is_valid = {
+        tfw_restoration_is_active = yes
+        NOT = { has_global_variable = tfw_restoration_prayer_completed }
+    }
+    cost = { piety = 1000 }
+    construction_time = 1
+    contributor_cooldown = 0
+    contribution_threshold = 100
+    on_plan_build = {
+        set_global_variable = { name = tfw_restoration_prayer_project value = this }
+    }
+    allowed_contributor_filter = {
+        owner = yes vassals = yes tributaries = yes
+        liege = yes top_liege = yes allies = yes
+    }
+    on_complete = {
+        set_global_variable = { name = tfw_restoration_prayer_completed value = yes }
+        remove_global_variable = tfw_restoration_prayer_project
+    }
+    on_cancel = {
+        if = {
+            limit = { has_global_variable = tfw_restoration_prayer_project }
+            if = {
+                limit = { this = global_var:tfw_restoration_prayer_project }
+                remove_global_variable = tfw_restoration_prayer_project
+            }
+        }
+    }
+    project_contributions = {
+        prayer_5000_1 = {
+            is_required = yes
+            contributor_is_valid = { tfw_restoration_good_orc = yes }
+            context_allows_contributions = { always = yes }
+            cost = { piety = 5000 }
+            on_contribution_funded = {
+                add_character_modifier = { modifier = tfw_restoration_prayer_contributor_5 }
+            }
+            ai_check_interval = 12
+            ai_will_do = { value = 100 }
+        }
+        prayer_5000_2 = {
+            is_required = yes
+            contributor_is_valid = { tfw_restoration_good_orc = yes }
+            context_allows_contributions = { always = yes }
+            cost = { piety = 5000 }
+            on_contribution_funded = {
+                add_character_modifier = { modifier = tfw_restoration_prayer_contributor_5 }
+            }
+            ai_check_interval = 12
+            ai_will_do = { value = 100 }
+        }
+        prayer_2500_1 = {
+            is_required = yes
+            contributor_is_valid = { tfw_restoration_good_orc = yes }
+            context_allows_contributions = { always = yes }
+            cost = { piety = 2500 }
+            on_contribution_funded = {
+                add_character_modifier = { modifier = tfw_restoration_prayer_contributor_4 }
+            }
+            ai_check_interval = 12
+            ai_will_do = { value = 100 }
+        }
+        prayer_2500_2 = {
+            is_required = yes
+            contributor_is_valid = { tfw_restoration_good_orc = yes }
+            context_allows_contributions = { always = yes }
+            cost = { piety = 2500 }
+            on_contribution_funded = {
+                add_character_modifier = { modifier = tfw_restoration_prayer_contributor_4 }
+            }
+            ai_check_interval = 12
+            ai_will_do = { value = 100 }
+        }
+        prayer_2500_3 = {
+            is_required = yes
+            contributor_is_valid = { tfw_restoration_good_orc = yes }
+            context_allows_contributions = { always = yes }
+            cost = { piety = 2500 }
+            on_contribution_funded = {
+                add_character_modifier = { modifier = tfw_restoration_prayer_contributor_4 }
+            }
+            ai_check_interval = 12
+            ai_will_do = { value = 100 }
+        }
+        prayer_2500_4 = {
+            is_required = yes
+            contributor_is_valid = { tfw_restoration_good_orc = yes }
+            context_allows_contributions = { always = yes }
+            cost = { piety = 2500 }
+            on_contribution_funded = {
+                add_character_modifier = { modifier = tfw_restoration_prayer_contributor_4 }
+            }
+            ai_check_interval = 12
+            ai_will_do = { value = 100 }
+        }
+        prayer_1000_1 = {
+            is_required = yes
+            contributor_is_valid = { tfw_restoration_good_orc = yes }
+            context_allows_contributions = { always = yes }
+            cost = { piety = 1000 }
+            on_contribution_funded = {
+                add_character_modifier = { modifier = tfw_restoration_prayer_contributor_3 }
+            }
+            ai_check_interval = 12
+            ai_will_do = { value = 100 }
+        }
+        prayer_1000_2 = {
+            is_required = yes
+            contributor_is_valid = { tfw_restoration_good_orc = yes }
+            context_allows_contributions = { always = yes }
+            cost = { piety = 1000 }
+            on_contribution_funded = {
+                add_character_modifier = { modifier = tfw_restoration_prayer_contributor_3 }
+            }
+            ai_check_interval = 12
+            ai_will_do = { value = 100 }
+        }
+        prayer_1000_3 = {
+            is_required = yes
+            contributor_is_valid = { tfw_restoration_good_orc = yes }
+            context_allows_contributions = { always = yes }
+            cost = { piety = 1000 }
+            on_contribution_funded = {
+                add_character_modifier = { modifier = tfw_restoration_prayer_contributor_3 }
+            }
+            ai_check_interval = 12
+            ai_will_do = { value = 100 }
+        }
+        prayer_1000_4 = {
+            is_required = yes
+            contributor_is_valid = { tfw_restoration_good_orc = yes }
+            context_allows_contributions = { always = yes }
+            cost = { piety = 1000 }
+            on_contribution_funded = {
+                add_character_modifier = { modifier = tfw_restoration_prayer_contributor_3 }
+            }
+            ai_check_interval = 12
+            ai_will_do = { value = 100 }
+        }
+        prayer_1000_5 = {
+            is_required = yes
+            contributor_is_valid = { tfw_restoration_good_orc = yes }
+            context_allows_contributions = { always = yes }
+            cost = { piety = 1000 }
+            on_contribution_funded = {
+                add_character_modifier = { modifier = tfw_restoration_prayer_contributor_3 }
+            }
+            ai_check_interval = 12
+            ai_will_do = { value = 100 }
+        }
+    }
+    ai_will_do = { value = 100 }
+}
+# END RESTORATION: common/great_projects/types/tfw_restoration_prayer.txt

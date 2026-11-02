@@ -254,3 +254,31 @@ gauredain = { # Hadorrim that remained in Eriador and came to live mostly in the
 		1 = hithaeglirim_ethnicity
 	}
 }
+
+# BEGIN RESTORATION: common/culture/cultures/tfw_restored_adlantrim.txt
+# Working name: Restored Adlantrim. Elven heritage is essential to is_elf.
+tfw_restored_adlantrim = {
+	color = { 115 185 145 }
+	created = 2.8.2
+	parents = { adlantrim avari }
+	ethos = ethos_egalitarian
+	heritage = heritage_moriquendi
+	language = language_sindarin
+	martial_custom = martial_custom_equal
+	head_determination = head_determination_domain
+	traditions = {
+		tradition_winter_warriors
+		tradition_hard_working
+		tradition_mountain_homes
+		tradition_charitable
+	}
+	name_list = name_list_nandorin
+	coa_gfx = { elven_group_coa_gfx }
+	building_gfx = { noldor_building_gfx elven_building_gfx western_building_gfx }
+	clothing_gfx = { elven_clothing_gfx }
+	unit_gfx = { acg_sindar_unit_gfx noldor_unit_gfx }
+	house_coa_frame = house_frame_04
+	dynasty_coa_frame = house_frame_04
+	ethnicities = { 1 = sindar_ethnicity }
+}
+# END RESTORATION: common/culture/cultures/tfw_restored_adlantrim.txt

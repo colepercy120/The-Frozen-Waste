@@ -146,4 +146,14 @@ l_english:
  long_winter.0003.a: "As you Wish"
  long_winter.0003.a.effect: "The Long Winter Starts"
  long_winter.0003.b: "The Time is not yet right"
- long_winter.0003.b.effect: "You will gain acess to a decision to start the Long Winter." 
+ long_winter.0003.b.effect: "You will gain acess to a decision to start the Long Winter."
+
+
+ tfw_situation.0007.t: "What was once broken..."
+ tfw_situation.0007.desc: "I feel a fog lifting from my mind, strength returning to my body, and sense of peace i have never before felt. the welts and misshappen flesh left as part of my [orcish|e] heritage is melting away. all around me i see other Adalantrim undergoing the same transformation. It is finally done. [eru|e] has answered our prayers and has restored our bodies and souls to what they were always ment to be."
+ tfw_situation.0007.a: "... Has been Renewed"
+ 
+ tfw_situation.0006.t: "Divine Intervention"
+ tfw_situation.0006.desc: "[iluvatar|e] has answered the prayers of the [orcs|e] mending their flesh and unclouding their minds. the taint of the [morgothcharacter|e] has been removed and the Downfallen are once again [elves|e]"
+ tfw_situation.0006.a: "We have Witnessed a Miracle"
+

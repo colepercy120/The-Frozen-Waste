@@ -1,4 +1,4 @@
-
+﻿
 cleanse_angband_decision = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_blue_mountains_01.dds"
@@ -239,3 +239,31 @@ start_long_winter_decision = {
 	}
 	ai_goal = yes
 }
+
+
+
+# Post-restoration path for newly good Orcs or characters missed by the main pulse.
+tfw_embrace_elven_restoration_decision = {
+    picture = { reference = "gfx/interface/illustrations/decisions/decision_elves_dwarves_05.dds" }
+    desc = tfw_embrace_elven_restoration_decision_desc
+    selection_tooltip = tfw_embrace_elven_restoration_decision_tooltip
+    confirm_text = tfw_embrace_elven_restoration_decision_confirm
+    decision_group_type = realms_in_exile_major
+    ai_check_interval = 12
+    is_shown = {
+        has_global_variable = tfw_orc_restoration_completed
+        tfw_restoration_is_active = no
+        tfw_restoration_good_orc = yes
+    }
+    is_valid = {
+        has_global_variable = tfw_orc_restoration_completed
+        tfw_restoration_is_active = no
+        tfw_restoration_good_orc = yes
+        piety >= 1000
+    }
+    cost = { piety = 1000 }
+    effect = { trigger_event = tfw_situation.0007 }
+    ai_potential = { tfw_restoration_good_orc = yes }
+    ai_will_do = { base = 100 }
+}
+# END RESTORATION: common/decisions/tfw_orc_restoration_decisions.txt

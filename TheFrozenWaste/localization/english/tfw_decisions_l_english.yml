@@ -96,3 +96,10 @@ l_english:
  start_long_winter_decision_trigger: "It is currently winter"
  start_long_winter_decision_effect: "The Long Winter Starts"
 
+# BEGIN RESTORATION LOCALIZATION
+ tfw_embrace_elven_restoration_decision: "Embrace Redemption"
+ tfw_embrace_elven_restoration_decision_desc: "Our Prayers have been answered and the creator has freed us from the taint of [melkorcharacter|e]. now it is time to join our breathern in the light once again."
+ tfw_embrace_elven_restoration_decision_tooltip: "Embrace Redemption"
+ tfw_embrace_elven_restoration_decision_confirm: "Embrace Redemption"
+
+# END RESTORATION LOCALIZATION
