@@ -1,159 +1,189 @@
-﻿ ### LotR: This file needs to be kept in sync with the release version.
- 
- ### Edited the dates
- 
- ### Edited the loading screen text
- 
+﻿ # ============================================================
+ # LotR: This file needs to be kept in sync with the release version.
+ # ============================================================
+
+ # ============================================================
+ # Edited the dates
+ # ============================================================
+
+ # ============================================================
+ # Edited the loading screen text
+ # ============================================================
+
 l_english:
 
-### Situation Events
+# ============================================================
+# Situation Events
+# ============================================================
 
  tfw_situation.0001.t: "Angband Cleansed"
- tfw_situation.0001.desc: "Angband Stands Shattered! The Ancient Taint of [melkorcharacter|e] has been cast off and the tunnels cleansed of evil! The shadow it has left on the world might remain, but at long last the world may finally start healing."
+ tfw_situation.0001.desc: "[Concept('angband','Angband')|E] stands shattered! The ancient taint of [melkorcharacter|E] has been cast off, and the tunnels have been cleansed of evil. The shadow it left upon the world may linger, but at long last the land can begin to heal."
  tfw_situation.0001.a: "The long shadow recedes."
 
  tfw_situation.0002.t: "Frostwood Healed"
- tfw_situation.0002.desc: "The long labor of restoration has borne fruit. The wounds of Frostwood have begun to close, and life once again spreads through places long left barren and broken.\n\nAncient groves stir beneath the cold sky, roots reclaim scarred earth, and the Ice that has clung to the trees since the [elderdays|e] has finally began to melt. Frostwood will never be precisely what it once was, but it lives."
+ tfw_situation.0002.desc: "The long labor of restoration has borne fruit. The wounds of [Concept('frostwood','Frostwood')|E] have begun to close, and life once again spreads through places long left barren and broken.\n\nAncient groves stir beneath the cold sky, roots reclaim scarred earth, and the ice that has clung to the trees since the [elderdays|E] has finally begun to melt. Frostwood will never be precisely what it once was, but it lives."
  tfw_situation.0002.a: "Let the forest flourish."
- 
+
  tfw_situation.0003.t: "A Frozen Miracle"
- tfw_situation.0003.desc: "A miracle has occured! [tareg|e], the leader of our host has survived being frozen in Ice! for the last 7000 years frozen he has lain frozen in the eternal ice of the [ladyofcold|e]. but as the ice finally began to melt we were amazed to find him still alive. \n\nWhile his body is wounded and covered in frostbite it is not yet broken and our great leader has once again taken control of the [avarielves|e] of the Frostwood"
- tfw_situation.0003.a: "Hail the Return of the King (play as Tareg)"
- tfw_situation.0003.b: "Hail the Return of the King"
- tfw_situation.0003.c: "We stand independent"
- 
- tfw_situation.0005.t: "Spring At Last!" 
- tfw_situation.0005.desc: "Sping has finally come to [forodwaith|e]. the eternal winter of the [snowqueen|e] is finally over. for the first time in over 6000 years a far north will have a summer. \n\n All across the region the people are rejoicing, herds are growing and the spirits of cold are retreating. while the north will never be a warm place, it is no longer hostile. Spring has come at last"
- tfw_situation.0005.a: "To a New Age!"
- 
- ### Title Formation Events
- 
+ tfw_situation.0003.desc: "A miracle has occurred! [tareg|E], the leader of our host, has survived his imprisonment in ice. For the last seven thousand years, he has lain frozen in the eternal ice of the [ladyofcold|E]. As the ice began to melt, we were astonished to find him still alive.\n\nHis body is wounded and covered in frostbite, but it is not yet broken. Our great leader has once again taken command of the [avari|E] of [Concept('frostwood','Frostwood')|E]."
+ tfw_situation.0003.a: "Hail the return of the king! (Play as Tareg)"
+ tfw_situation.0003.b: "Hail the return of the king!"
+ tfw_situation.0003.c: "We stand independent."
+
+ tfw_situation.0005.t: "Spring at Last!"
+ tfw_situation.0005.desc: "Spring has finally come to [forodwaith|E]. The eternal winter of the [snowqueen|E] is over. For the first time in more than six thousand years, the far North will know summer.\n\nAcross the region, people rejoice, herds grow, and the spirits of cold retreat. The North will never be a warm place, but it is no longer so hostile. Spring has come at last."
+ tfw_situation.0005.a: "To a new age!"
+
+ # ============================================================
+ # Title Formation Events
+ # ============================================================
+
  tfw_misc.001.t: "The Formation of Rast Losnath"
- tfw_misc.001.desc: "The cape of biting snow has long been vital in the politics of the north. but for to long these lands were divided amoungst competing groups. but no longer. we have unified the cape and proclaimed our might across [forodwaith|e]"
+ tfw_misc.001.desc: "The Cape of Biting Snow has long played a vital role in the politics of the North. For too long, its lands were divided among competing peoples. No longer. We have unified the cape and proclaimed our strength across [forodwaith|E]."
  tfw_misc.001.a: "To a new age!"
 
  tfw_misc.002.t: "The Formation of Muilfalas"
- tfw_misc.002.desc: "Along the shores of the Forsaken Sea lies Muilfalas, the bleak coast. a land barely more than a waste, but yet we have surivived it. more than that we have thrived, and now the Bleak Coast is truly our home and we will not be expeled"
+ tfw_misc.002.desc: "Along the shores of the Forsaken Sea lies Muilfalas, the Bleak Coast. Its harsh lands offered little welcome, yet we survived. More than that, we thrived. Now the Bleak Coast is truly our home, and we will not be expelled."
  tfw_misc.002.a: "To a new age!"
 
  tfw_misc.003.t: "Our Homeland Reclaimed"
- tfw_misc.003.desc: "For to long our people have been in exile, but now we return! the land of Land of [angmar|e] has been freed and we once more take our place in [eriador|e] along side our kin!"
+ tfw_misc.003.desc: "For too long, our people have lived in exile. Now we return! The lands of [angmar|E] have been freed, and we once more take our place in [eriador|E] alongside our kin."
  tfw_misc.003.a: "At long last!"
 
  tfw_misc.004.t: "A New Realm in Exile!"
- tfw_misc.004.desc: "Since the Downfall, our people have been scattered across the shattered remnants of the North, surviving among the ruins while the fortunes of our kin to the south waxed and waned. We have endured in isolation for long enough.\n\nIf we are ever to stand beside [gondor|E], [arnor|E], or even [umbar|E] as a great realm of the Dúnedain, then we must cast aside our divisions, unite our people, and carve our own path through the world. Let the scattered heirs of Númenor in the North be scattered no longer."
+ tfw_misc.004.desc: "Since the Downfall, our people have been scattered across the shattered remnants of the North, surviving among the ruins while the fortunes of our kin to the south waxed and waned. We have endured in isolation for long enough.\n\nIf we are ever to stand beside [gondor|E], [arnor|E], or even [umbar|E] as a great realm of the [Concept('dunedain','Dúnedain')|E], then we must cast aside our divisions, unite our people, and carve our own path through the world. Let the scattered heirs of [Concept('numenor','Númenor')|E] in the North be scattered no longer."
  tfw_misc.004.a: "We shall take our rightful place!"
 
  tfw_misc.005.t: "The Lossoth United"
- tfw_misc.005.desc: "The scattered peoples of Forochel have at last been brought together. Tribes and clans that once stood apart now acknowledge a common ruler, their old rivalries set aside beneath a single banner.\n\nThe frozen North has shaped the Lossoth through countless generations, teaching us endurance where softer peoples would perish. Now that strength is no longer divided. From the coasts of Forochel to the deepest reaches of the frozen wastes, the Lossoth stand united."
+ tfw_misc.005.desc: "The scattered peoples of [Concept('forochel','Forochel')|E] have at last been brought together. Tribes and clans that once stood apart now acknowledge a common ruler, their old rivalries set aside beneath a single banner.\n\nThe frozen North has shaped the [Concept('lossoth','Lossoth')|E] through countless generations, teaching us endurance where softer peoples would perish. Now that strength is no longer divided. From the coasts of Forochel to the deepest reaches of the frozen wastes, the Lossoth stand united."
  tfw_misc.005.a: "One people beneath the northern sky."
 
  tfw_misc.006.t: "The Bay of Forochel United"
- tfw_misc.006.desc: "From one end of the frozen coast to the other, the peoples of the Bay of Forochel now acknowledge a common ruler. The scattered settlements and clans that once looked only to their own shores now stand together as part of a greater whole.\n\nThe bay that once divided us now binds us together. Its waters, islands, and icy coasts belong to one realm, and its people will face the future as one."
+ tfw_misc.006.desc: "From one end of the frozen coast to the other, the peoples of the Bay of [Concept('forochel','Forochel')|E] now acknowledge a common ruler. The scattered settlements and clans that once looked only to their own shores now stand together as part of a greater whole.\n\nThe bay that once divided us now binds us together. Its waters, islands, and icy coasts belong to one realm, and its people will face the future as one."
  tfw_misc.006.a: "Let the bay be divided no longer."
 
  tfw_misc.007.t: "The Utter North Secured"
- tfw_misc.007.desc: "The distant territories of the North have been brought beneath our authority. Lands that once stood apart now answer to a common order, their rulers and peoples incorporated into the greater hegemony.\n\nFrom the heartlands of Forodwaith to its furthest reaches, our influence now extends across the Utter North."
+ tfw_misc.007.desc: "The distant territories of the North have been brought beneath our authority. Lands that once stood apart now answer to a common order, their rulers and peoples incorporated into the greater hegemony.\n\nFrom the heartlands of [Concept('forodwaith','Forodwaith')|E] to its furthest reaches, our influence now extends across the Utter North."
  tfw_misc.007.a: "The North is ours to guard."
 
  tfw_misc.008.t: "The Unification of the Avari"
- tfw_misc.008.desc: "The [avari|e], long divided have been reunited under the [ROOT.Char.GetName]. Already the [elves|e] of the world are calling this a turning point in their races history. Now all eyes turn to [ROOT.Char.GetFirstName] and what the future holds for him"
+ tfw_misc.008.desc: "The [avari|E], long divided, have been reunited under [ROOT.Char.GetName]. Already, the [elves|E] of the world are calling this a turning point in their people's history. Now all eyes turn to [ROOT.Char.GetFirstName] and the future that awaits."
  tfw_misc.008.a: "Hail the Reunifier!"
 
  tfw_misc.009.t: "Forodwaith United"
- tfw_misc.009.desc: "For generations, the lands of Forodwaith have been divided between distant peoples, rival realms, and isolated communities scattered across the frozen North. Mountains, wastes, forests, and icy seas kept them apart, and few rulers could claim authority beyond their own borders.\n\nNo longer. The realms of the North now stand beneath a single hegemony. From the shores of Forochel to the furthest reaches of the frozen wastes, the peoples of Forodwaith are bound together under one order.\n\nOnly once before has the North been united, and then it was beneath the cruel dominion of the Dark Lord Melkor. This time is different. Forodwaith stands together not through terror or chains, but through shared purpose, strength, and the will to build something greater than what came before. The North is united at last, and its future is its own."
+ tfw_misc.009.desc: "For generations, the lands of [Concept('forodwaith','Forodwaith')|E] have been divided between distant peoples, rival realms, and isolated communities scattered across the frozen North. Mountains, wastes, forests, and icy seas kept them apart, and few rulers could claim authority beyond their own borders.\n\nNo longer. The realms of the North now stand beneath a single hegemony. From the shores of [Concept('forochel','Forochel')|E] to the furthest reaches of the frozen wastes, the peoples of Forodwaith are bound together under one order.\n\nOnly once before has the North been united, and then it was beneath the cruel dominion of the [Concept('melkorcharacter','Dark Lord Melkor')|E]. This time is different. Forodwaith stands together not through terror or chains, but through shared purpose, strength, and the will to build something greater than what came before. The North is united at last, and its future is its own."
  tfw_misc.009.a: "A new age dawns in the North."
 
  tfw_misc.010.t: "The Formation of Winter"
  tfw_misc.010.desc: "A new realm has arisen in the north. The lands and peoples of Winter now stand united beneath a single authority, and a new chapter in the history of the frozen wastes has begun."
  tfw_misc.010.a: "So it shall be."
- 
- ### Into Events
 
- ### Talanthir
+ # ============================================================
+ # Into Events
+ # ============================================================
+
+ # ============================================================
+ # Talanthir
+ # ============================================================
  tfw_intro.001.t: "The Abandoned Children of Ilúvatar"
- tfw_intro.001.desc: "The Adalantrim are some of the most peculiar peoples in [middleearth|e], [orcs|e] who have chosen to reject the darkness [morgothcharacter|e] inflicted upon them and instead work to create something new and whole out of the ruins. One of the biggest reasons for that is [ROOT.Char.GetFirstName]. \n\n[ROOT.Char.GetFirstName] was one of the [elves|e] who awoke at cuiveneien in the [elderdays|e], captured and tortured by [morgothcharacter|e] along with his kin until they were the [moriondor|e] the first of the [orcs|e], he survived the wars of the [firstage|e] with a mix of cunning, skill, and luck and has the honor of being the only one to survive. \n\nYet when [morgothcharacter|e] fell and the world was changed, when he approched the host of the [valargods|e] to beseech aid for his children he was turned back before even reaching [eonwecharacter|e], cast out by the people who should have been his champions. \n\nHe has spent the latter days working to heal his folk and turn them into more than mere slaves to the [darklord|e], taking in any [orc|e] who wanted something more, and turning the ruins left by the [valargods|e] into a true homeland for them"
- tfw_intro.001.a: "All that is broken can be made whole"
+ tfw_intro.001.desc: "The [Concept('adlantrim','Adlantrim')|E] are among the most unusual peoples of [middleearth|E]: [orcs|E] who reject the darkness [morgothcharacter|E] inflicted upon them and work to build something whole from the ruins. Much of that resolve is owed to [ROOT.Char.GetFirstName].\n\n[ROOT.Char.GetFirstName] was one of the [elves|E] who awoke at [Concept('cuivienen','Cuiviénen')|E] in the [elderdays|E]. Captured and tortured by [morgothcharacter|E] alongside his kin, he became one of the [moriondor|E], the first of the [orcs|E]. Through cunning, skill, and luck, he survived the wars of the [firstage|E] and remains the last survivor of that first generation.\n\nYet when [morgothcharacter|E] fell and the world was changed, he was denied help. Approaching the host of the [valargods|E] to beseech aid for his children, he was turned away before he could even reach [eonwecharacter|E], rejected by those who should have been his champions.\n\nHe has spent the later ages working to heal his people and make them more than slaves to the [darklord|E]. He welcomes any [orc|E] who seeks a different future, turning the ruins left by the [valargods|E] into a true homeland."
+ tfw_intro.001.a: "All that is broken can be made whole."
 
- ### Evermist
+ # ============================================================
+ # Evermist
+ # ============================================================
  tfw_intro.002.t: "The Noldor of Oiomure"
- tfw_intro.002.desc: "Hidden amid the frozen reaches of the Ered Rhivamar stands Oiomure, or Evermist in the common tongue. A hidden vale in the ruins of an ancient volcano. the land itself geothermally heated to warmth in even the coldest winters. Found by [ROOT.Char.GetName] during the [warofwrath|e], after the she lead a contingent of [noldorelves|e] to the valley and began to heal the scars of the war. \n\n For [ROOT.Char.GetFirstName] belived that her family and the [noldorelves|e] as a whole bared partial responsiblity for the destruction and thus must bare the responsiblity for its renewal. pledging to not rest until the world was purged of the taint of [morgothcharacter|e]"
- tfw_intro.002.a: "Until the Task is done"
+ tfw_intro.002.desc: "Hidden amid the frozen reaches of the Ered Rhivamar lies Oiomure, or [Concept('evermist','Evermist')|E] in the common tongue. This secluded valley occupies the ruins of an ancient volcano, whose warmth shelters it even through the coldest winters. [ROOT.Char.GetName] discovered the valley during the [warofwrath|E], then led a contingent of [noldorelves|E] there to begin healing the scars of war.\n\n[ROOT.Char.GetFirstName] believed that her family and the [noldorelves|E] shared responsibility for the world's destruction and must therefore help renew it. She pledged not to rest until the land was cleansed of the taint of [morgothcharacter|E]."
+ tfw_intro.002.a: "Until the task is done."
 
- ### Lossidil
+ # ============================================================
+ # Lossidil
+ # ============================================================
  tfw_intro.003.t: "The Lossidil of the Utter North"
- tfw_intro.003.desc: "The [lossidil|e] are a strange folk, decendents of Sindar fleeing destruction of Belariand and Nandor who had wandered into the far north, they crystalized into a cohesive whole before the end of the [firstage|e]. With the death of their king in the [warofwrath|e], the twin heirs [GetScriptedCharacterByHistoryID('tfw_lineoflossidil_celethrim_003').GetFirstName] and [GetScriptedCharacterByHistoryID('tfw_lineoflossidil_celethrim_004').GetFirstName] settled their people in the northern forest of [GetTitleByKey('k_taurethon').GetNameNoTier]. But they wouldn't all remain under the pines. \n\nIn the early days of the [secondage|e] upon seeing the beutiful Aurora for the first time [GetScriptedCharacterByHistoryID('tfw_lineoflossidil_celethrim_004').GetFirstName] bid her brother farewell and led a group of her people to discover the source of the beutiful light. upon one of the islands of the uttermost north they found it. the [beaconofhelecthil], a gift from [ulmocharacter|e], raised on an obsidion spire, shining the ancient light of the great Lamps into the skies. it was there under the light that she raised the second Lossidil realm, [GetTitleByKey('k_aurora_isles').GetName]."
+ tfw_intro.003.desc: "The [lossidil|E] are an unusual people, descended from [Concept('sindarelves','Sindar')|E] fleeing the destruction of [Concept('beleriand','Beleriand')|E] and Nandor who had wandered into the far North. They became a distinct people before the end of the [firstage|E]. After their king died in the [warofwrath|E], his twin heirs, [GetScriptedCharacterByHistoryID('tfw_lineoflossidil_celethrim_003').GetFirstName] and [GetScriptedCharacterByHistoryID('tfw_lineoflossidil_celethrim_004').GetFirstName], settled their people in the northern forest of [GetTitleByKey('k_taurethon').GetNameNoTier]. But not all would remain beneath its pines.\n\nEarly in the [secondage|E], [GetScriptedCharacterByHistoryID('tfw_lineoflossidil_celethrim_004').GetFirstName] saw the beautiful aurora for the first time. Bidding her brother farewell, she led a company north to seek its source. On an island in the uttermost North, they found the [Concept('helecthil','Beacon of Helecthil')|E], a gift from [ulmocharacter|E]. Raised upon an obsidian spire, it cast the ancient light of the [Concept('lampsofthevalar','Great Lamps')|E] into the sky. Beneath that light, she founded the second Lossidil realm, [GetTitleByKey('k_aurora_isles').GetName]."
  tfw_intro.003.a: "And here we stay."
 
- ### Frostwood
+ # ============================================================
+ # Frostwood
+ # ============================================================
  tfw_intro.004.t: "The Refuge of Frostwood"
- tfw_intro.004.desc: "Frostwood was not always a kingdom.\n\nIn the Elder Days, Sairavel and Hwerin were war leaders among the Avari, fighting to preserve their people against enemies far greater than themselves. When that struggle ended in defeat, they led the survivors north and withdrew into the frozen forest that would become their refuge.\n\nWhat began as a sanctuary slowly became a realm.\n\nThe Windan settled the western reaches beneath Sairavel, while the Hwenti gathered in the east beneath Hwerin. The two peoples kept their own traditions, their own rulers, and their own ways, but they shared the memory of defeat and the knowledge that Frostwood existed because there had been nowhere else left to go.\n\nSince the Elder Days, Sairavel and Hwerin have ruled there together, husband and wife over two crowns. Generations have been born beneath the frozen boughs while the kingdoms of the outside world rose, fell, and passed into legend.\n\nFrostwood is no longer merely a refuge. It is their homeland now, defended by people who remember exactly what it cost to find one."
+ tfw_intro.004.desc: "[Concept('frostwood','Frostwood')|E] was not always a kingdom.\n\nIn the [Concept('elderdays','Elder Days')|E], Sairavel and Hwerin were war leaders among the [Concept('avari','Avari')|E], fighting to preserve their people against enemies far greater than themselves. When that struggle ended in defeat, they led the survivors north and withdrew into the frozen forest that would become their refuge.\n\nWhat began as a sanctuary slowly became a realm.\n\nThe Windan settled the western reaches beneath Sairavel, while the Hwenti gathered in the east beneath Hwerin. The two peoples kept their own traditions, their own rulers, and their own ways, but they shared the memory of defeat and the knowledge that Frostwood existed because there had been nowhere else left to go.\n\nSince the Elder Days, Sairavel and Hwerin have ruled there together, husband and wife over two crowns. Generations have been born beneath the frozen boughs while the kingdoms of the outside world rose, fell, and passed into legend.\n\nFrostwood is no longer merely a refuge. It is their homeland now, defended by people who remember exactly what it cost to find one."
  tfw_intro.004.a: "We endured, and made a home of it."
- 
- ### Eitri
- tfw_intro.005.t: "Eitri of the Ironfists"
- tfw_intro.005.desc: "[ROOT.Char.GetFirstName] was the second son of [GetScriptedCharacterByHistoryID('lineofsindriVI').GetName], not wanting to spend the days of his long life in his fathers hold he began to look for additional loci that might support a [dwarf|e]-hold capable of matching the grandure of [belegost|e], [nogrond|e], or even [mablad_dum|e] or {khazad_dum|e] itself. \n\nWhich lead him to the Utter North. While most people considered the Ered Muil and Ered Rhivamar as mere shattered remnants of the [ironmountains|e], [ROOT.Char.GetFirstName] saw potential. the Broken crust from both the [warofwrath|e] and the [roundingofworld|e] would cause the immense preesures and tempetures needed to form precious gemstones, while leaving the mountains themselves riven with caves. not to mention any artifacts left over from the [firstdarklord|e] \n\nWith his target aquired he gathered a company of like minded dwarves and struck out north. what will become of them none yet know..."
- tfw_intro.005.a: "Lets get Digging"
- 
- ### Nixni
- tfw_intro.006.t: "The Winter Queen"
- tfw_intro.006.desc: "[ROOT.Char.GetFirstName], the [ladyofcold|e], has long been the scourge of the north. following an ancient oath to [melkorcharacter|e] to guard his fortress of [angband|e] she has ensnared all of [forodwaith|e] in an eternal winter. smashing ships with mighty gales and preventing even the mighty [numenor|e] from establishing more than a foothold here. but in recent mellenia she has remained content in her halls and hasn't been seen outside since the [angmarwars|e] \n\nBut now things are changing. the [darklord|e] is once more rising in the south, and the [sauron|e] does not tolerate any rivals. [ROOT.Char.GetFirstName] has to once more choose her stance in the coming war. will she stand with sauron, or will she help bring about his fall."
- tfw_intro.006.a: "The Cold Wind Blows"
 
- ### Story Events
+ # ============================================================
+ # Eitri
+ # ============================================================
+ tfw_intro.005.t: "Eitri of the Ironfists"
+ tfw_intro.005.desc: "[ROOT.Char.GetFirstName] was the second son of [GetScriptedCharacterByHistoryID('lineofsindriVI').GetName]. Unwilling to spend his long life in his father's hold, he sought a site for a [dwarf|E]-hold that might one day rival [belegost|E], [nogrod|E], Mablâd-dûm, or even [khazaddum|E] itself.\n\nThat search led him to the Utter North. Others saw the Ered Muil and Ered Rhivamar as shattered remnants of the Iron Mountains, but [ROOT.Char.GetFirstName] saw opportunity. The upheavals of the [warofwrath|E] and the [roundingofworld|E] had subjected the broken crust to immense heat and pressure, creating precious gemstones while leaving the mountains riddled with caves. There might also be artifacts left behind by the [firstdarklord|E].\n\nWith his destination chosen, he gathered a company of like-minded Dwarves and set out north. What will become of them, no one yet knows."
+ tfw_intro.005.a: "Let's get digging."
+
+ # ============================================================
+ # Nixni
+ # ============================================================
+ tfw_intro.006.t: "The Winter Queen"
+ tfw_intro.006.desc: "[ROOT.Char.GetFirstName], the [ladyofcold|E], has long been the scourge of the North. Bound by an ancient oath to [melkorcharacter|E] to guard his fortress of [angband|E], she has ensnared [forodwaith|E] in an eternal winter. Her mighty gales have smashed ships and prevented even [numenor|E] from gaining more than a foothold. In recent millennia, however, she has remained content in her halls and has not been seen abroad since the [angmar_war|E].\n\nNow things are changing. The [darklord|E] rises once more in the South, and [sauroncharacter|E] tolerates no rivals. [ROOT.Char.GetFirstName] must choose her place in the coming war. Will she stand with Sauron, or help bring about his fall?"
+ tfw_intro.006.a: "The cold wind blows."
+
+ # ============================================================
+ # Story Events
+ # ============================================================
 
  tfw_story.001.t: "The Foundling from the North"
- tfw_story.001.desc: "[ROOT.Char.GetFirstName] has just lost pretty much everything he had. a foundling who grew up on the cold ships of the [forodain|e], he came to consider the crew of his ship as the closest thing hes had to a family, that is until two days ago.\n\n Two days ago his ship was attacked by the elder Cold [drake|e] Faron, the bane of the north. She sunk his ship and killed most of the crew with [ROOT.Char.GetFirstName] and a few others left clinging to timbers. \n\nBut now is not the time for grief, now is the time for vengeance. The [dragon|e] sank the wrong ship and [ROOT.Char.GetFirstName] will not rest until shes dead."
- tfw_story.001.a: "I Shall Be Avenged!"
+ tfw_story.001.desc: "[ROOT.Char.GetFirstName] has lost almost everything. A foundling raised aboard the cold-water ships of the [forodain|E], he came to regard his crew as the closest thing he had to a family. Then, two days ago, everything changed.\n\nHis ship was attacked by the ancient cold-[drake|E] Faron, the bane of the North. She sank the vessel and killed most of its crew, leaving [ROOT.Char.GetFirstName] and a few other survivors clinging to the wreckage.\n\nBut now is not the time for grief. Now is the time for vengeance. The [dragon|E] sank the wrong ship, and [ROOT.Char.GetFirstName] will not rest until she is dead."
+ tfw_story.001.a: "I shall be avenged!"
 
  tfw_story.002.t: "Tol Faron"
- tfw_story.002.desc: "The island rises from the cold sea like the back of some sleeping beast. Faron has ruled here for centuries. Her presence is written across the land. Blackened trees stand beside forests that have grown and burned and grown again beneath her shadow, bones of dead animals riddle the forest, and upon the tallest mountain of the island not a single green thing still grows. it is there in one of the cracks and caves left over from the Cataclysm of the Elder Days that the dragon sleeps upon her horde of stolen gold and its there i will either suceed or fail in my destiny"
+ tfw_story.002.desc: "The island rises from the cold sea like the back of a sleeping beast. Faron has ruled here for centuries, and her presence is written across the land. Blackened trees stand beside forests that have grown, burned, and grown again beneath her shadow. The bones of dead animals litter the woods, and not a single green thing grows on the island's tallest mountain.\n\nThere, in a cavern left by the cataclysms of the [Concept('elderdays','Elder Days')|E], the [Concept('dragon','dragon')|E] sleeps upon her hoard of stolen gold. There, I will either fulfill my destiny or fail."
  tfw_story.002.a: "I did not come here to turn back."
 
  tfw_story.003.t: "Among the Treasures of the Dead"
- tfw_story.003.desc: "Faron's hoard is older than the great kingdoms of the south. Gold lies in drifts across the cavern floor, mixed with silver cups, broken crowns, rusting armor, shattered shields, and treasures whose makers have been dust for thousands of years. Treasures who could have only come from the [elves|e] in their ancient war with [morgothcharacter|e]. \n\nOut of the corner of my eye i spot it, an ancient [noldorelves|e] Sword, Forged in [gondolin|e] in the [firstage|e]. its blade untouched by time and faintly shimering in the dark. a weapon forged precisely for my present purpose."
- tfw_story.003.a: "I shall call you Maegdaes"
+ tfw_story.003.desc: "Faron's hoard is older than the great kingdoms of the South. Gold lies in drifts across the cavern floor, mixed with silver cups, broken crowns, rusting armor, shattered shields, and treasures whose makers have been dust for thousands of years. Some could only have come from the [elves|E] and their ancient wars against [morgothcharacter|E].\n\nOut of the corner of my eye, I spot it: an ancient [noldorelves|E] sword, forged in [gondolin|E] during the [firstage|E]. Its blade is untouched by time and shimmers faintly in the darkness. A weapon forged for precisely the task before me."
+ tfw_story.003.a: "I shall call you Maegdaes."
 
  tfw_story.004.t: "The Cold-Drake"
- tfw_story.004.desc: "As i climb deeper into the caverns i finally spot my foe. The brilliant silver grey scales of the long sinuous [dragon|e] reflect the light of my torch. Faron is one of the truly ancient Wyrms and i only can see a portion of her bulk, the rest of her mass lays obscured in shadow and beneath the horde. But I spy her head poking up out of a pile of golden coins.\n\nIts now or never."
- tfw_story.004.a: "I jam my blade deep into her Eye"
- tfw_story.004.a.success: "The Dragon Falls"
- tfw_story.004.a.failure: "You Die"
+ tfw_story.004.desc: "As I climb deeper into the caverns, I finally glimpse my foe. The silver-gray scales of the long, sinuous [dragon|E] reflect my torchlight. Faron is one of the truly ancient wyrms. I can see only part of her immense body; the rest lies hidden in shadow and buried beneath the hoard. But her head rests upon a pile of golden coins, within my reach.\n\nIt's now or never."
+ tfw_story.004.a: "I drive my blade into her eye!"
+ tfw_story.004.a.success: "The dragon falls!"
+ tfw_story.004.a.failure: "You die."
  tfw_story.004.b: "I may have miscalculated."
 
  tfw_story.006.t: "Victory!"
- tfw_story.006.desc: "Faron lies slain before me, The great [dragon|e] of the [elderdays|e] is finally dead! her reign of terror across [forodwaith|e] is finally over! No longer do the [forodain|e] have to fear for our ships, no longer do we need to fear this island! Now it is time for us to reclaim what was stolen and for us to find solance in victory"
- tfw_story.006.a: "To the Victor go the spoils"
+ tfw_story.006.desc: "Faron lies slain before me. The great [dragon|E] of the [elderdays|E] is dead, and her reign of terror across [forodwaith|E] is over! No longer must the [forodain|E] fear for our ships or dread this island. Now we can reclaim what was stolen and find solace in victory."
+ tfw_story.006.a: "To the victor go the spoils."
 
  tfw_story.007.t: "A New Dawn"
- tfw_story.007.desc: "The dragon is dead, my vengeance is saited, yet now is the matter of what to do next. word of the dragons fall will quickly spread across the north, leading to many a wanderer coming to claim a share of the loot if its not protected. which leaves me with a quandry. \n\nby ancient right to the victor go the spoils, this island is as much part of the spoils as the gold or the sword is. but do i want to claim it as my own"
- tfw_story.007.a: "King Graw has a nice ring to it"
+ tfw_story.007.desc: "The [Concept('dragon','dragon')|E] is dead, and my vengeance is satisfied. Now I must decide what comes next. Word of her fall will soon spread across the North, drawing wanderers eager to claim a share of the treasure unless it is protected.\n\nBy ancient right, to the victor go the spoils. This island is as much a part of those spoils as the gold or the sword. But do I wish to claim it as my own?"
+ tfw_story.007.a: "King Graw has a nice ring to it."
  tfw_story.007.b: "There are still roads I have not walked."
- claim_tol_faron: "Claim Tol Faron as your Realm"
- 
- tfw_story.008.t: "Archetechs Plans"
- tfw_story.008.desc: "Our realm here in the Bleak Mountains has grown into a sizeable dwarf hold, and it is time that we decide what sort of hall it will be. do we want a hold of Gold, a hold of Steel, or a Hold of Marble. all have their benifets, all have their risks. and we must chose wisely for this will become our very idenity."
- tfw_story.008.a: "A hold of Marble - Aznân-dûm"
- tfw_story.008.b: "A hold of Steel - Kallzahar"
- tfw_story.008.c: "A Hold of Gold - Nidavellir"
- tfw_story.008.effect: "[GetTitleByKey('k_nidavellir').GetNameNoTier] Will Recive a new name and coat of arms"
+ claim_tol_faron: "Claim Tol Faron as your realm."
+
+ tfw_story.008.t: "The Architects' Plans"
+ tfw_story.008.desc: "Our realm in the Bleak Mountains has grown into a sizable [Concept('dwarves','Dwarf')|E]-hold. Now we must decide what sort of great hold it will become: a hold of gold, a hold of steel, or a hold of marble. Each path offers benefits and risks. We must choose wisely, for this choice will define our people."
+ tfw_story.008.a: "A hold of marble: Aznân-dûm"
+ tfw_story.008.b: "A hold of steel: Kallzahar"
+ tfw_story.008.c: "A hold of gold: Nidavellir"
+ tfw_story.008.effect: "[GetTitleByKey('k_nidavellir').GetNameNoTier] will receive a new name and coat of arms."
  aznandum: "Aznân-dûm"
  winterdeep: "Kallzahar"
  nidavellir: "Nidavellir"
- 
- long_winter.0003.t: "Hearld from the Dark Lord"
- long_winter.0003.desc: "A Herald has arrived from [GetScriptedCharacterByHistoryID('lineofsauron').GetName]. he wishes me to unleash a wave of fridige cold across [eriador|e] and [rhovanion|e] to weaken his foes in the north. invoking an ancient favor i owed him from the [elderdays|e]. while i must oblige, i have some disgression on the timing" 
- long_winter.0003.a: "As you Wish"
- long_winter.0003.a.effect: "The Long Winter Starts"
- long_winter.0003.b: "The Time is not yet right"
- long_winter.0003.b.effect: "You will gain acess to a decision to start the Long Winter."
+
+ long_winter.0003.t: "A Herald from the Dark Lord"
+ long_winter.0003.desc: "A herald has arrived from [GetScriptedCharacterByHistoryID('lineofsauron').GetName]. He asks me to unleash a wave of frigid cold across [eriador|E] and [rhovanion|E] to weaken his enemies in the North, invoking an ancient favor I owe him from the [elderdays|E]. I must oblige, but I still have some discretion over the timing."
+ long_winter.0003.a: "As you wish."
+ long_winter.0003.a.effect: "The Long Winter begins."
+ long_winter.0003.b: "The time is not yet right."
+ long_winter.0003.b.effect: "You gain access to a decision to begin the Long Winter."
 
 
- tfw_situation.0007.t: "What was once broken..."
- tfw_situation.0007.desc: "I feel a fog lifting from my mind, strength returning to my body, and sense of peace i have never before felt. the welts and misshappen flesh left as part of my [orcish|e] heritage is melting away. all around me i see other Adalantrim undergoing the same transformation. It is finally done. [eru|e] has answered our prayers and has restored our bodies and souls to what they were always ment to be."
- tfw_situation.0007.a: "... Has been Renewed"
- 
+ tfw_situation.0007.t: "What Was Once Broken..."
+ tfw_situation.0007.desc: "I feel a fog lifting from my mind, strength returning to my body, and a peace I have never known. The welts and misshapen flesh of my [orcish|E] heritage melt away. All around me, other [Concept('adlantrim','Adlantrim')|E] undergo the same transformation. It is finally done. [eru|E] has answered our prayers, restoring our bodies and souls to what they were always meant to be."
+ tfw_situation.0007.a: "...Has Been Renewed"
+
  tfw_situation.0006.t: "Divine Intervention"
- tfw_situation.0006.desc: "[iluvatar|e] has answered the prayers of the [orcs|e] mending their flesh and unclouding their minds. the taint of the [morgothcharacter|e] has been removed and the Downfallen are once again [elves|e]"
- tfw_situation.0006.a: "We have Witnessed a Miracle"
+ tfw_situation.0006.desc: "[iluvatar|E] has answered the prayers of the [orcs|E], mending their flesh and clearing their minds. The taint of [morgothcharacter|E] has been removed, and the Downfallen are once again [elves|E]."
+ tfw_situation.0006.a: "We have witnessed a miracle."
 
+
+ tfw_story.005.t: "Beneath the Dragon's Gaze"
+ tfw_story.005.desc: "I hesitate. In that instant Faron stirs, and the vast head turns toward me. There is nowhere left to hide and no time to strike."
+ tfw_story.005.a: "I have miscalculated."

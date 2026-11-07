@@ -22,9 +22,12 @@ cleanse_angband_decision = {
 		OR = {
 			custom_tooltip = {
 				text = cleanse_angband_decision_tooltip_1
-				any_county_in_region = {
-					region = middleearth_forodwaith_angband
-					holder = root
+				completely_controls = title:c_thangorodrim_3
+				NOT = {
+					any_county_in_region = {
+						region = middleearth_forodwaith_angband
+						holder = { faith_is_evil = yes }
+					}
 				}
 			}
 			custom_tooltip = {
@@ -95,14 +98,14 @@ heal_frostwood_decision = {
 			text = heal_frostwood_decision_tooltip_1
 			any_county_in_region = {
 				count = all
-				region = middleearth_forodwaith_rhuvorodwaith_frostwood 
+				region = middleearth_forodwaith_rhuvorodwaith_frostwood
 				holder = {
 					faith_is_good = yes
 				}
 			}
 		}
-		
-		
+
+
 		piety_level >= 4
 	}
 
@@ -113,15 +116,15 @@ heal_frostwood_decision = {
 	effect = {
 		custom_tooltip = heal_frostwood_decision_effect
 		set_global_variable = { name = tfw_frostwood_cleansed value = 1 }
-		
+
 		title:c_frostwood_14 = {
 			title_province = {
-				remove_building = wonder_taregs_corpse 
+				remove_building = wonder_taregs_corpse
 			}
 		}
 		trigger_event = tfw_situation.0003
 		add_elven_hope_effect = { VALUE = 100 HOPE_EFFECT = effect_elven_hope_debug }
-		
+
 	}
 
 	ai_potential = {
@@ -146,7 +149,7 @@ unleash_angband_decision = {
 	decision_group_type = realms_in_exile_major
 
 	is_shown = {
-		
+
 		has_character_flag = nixni_distracted_flag
 	}
 
@@ -197,6 +200,7 @@ start_long_winter_decision = {
 
 	is_shown = {
 		has_character_flag = lwdelayed
+		NOT = { has_global_variable = long_winter_occurred }
 	}
 
 	is_valid = {
@@ -214,6 +218,7 @@ start_long_winter_decision = {
 	}
 
 	effect = {
+		remove_character_flag = lwdelayed
 		custom_tooltip = start_long_winter_decision_effect
 		set_global_variable = {
 			name = long_winter_occurred
@@ -241,7 +246,6 @@ start_long_winter_decision = {
 }
 
 
-
 # Post-restoration path for newly good Orcs or characters missed by the main pulse.
 tfw_embrace_elven_restoration_decision = {
     picture = { reference = "gfx/interface/illustrations/decisions/decision_elves_dwarves_05.dds" }
@@ -266,4 +270,3 @@ tfw_embrace_elven_restoration_decision = {
     ai_potential = { tfw_restoration_good_orc = yes }
     ai_will_do = { base = 100 }
 }
-# END RESTORATION: common/decisions/tfw_orc_restoration_decisions.txt

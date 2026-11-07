@@ -1,6 +1,6 @@
-﻿#######################################################
-################ ELVEN HOPE SITUATION #################
-#######################################################
+﻿# ============================================================
+# ELVEN HOPE SITUATION
+# ============================================================
 
 window = {
 	name = "lotr_window_elven_hope_situation"
@@ -247,7 +247,7 @@ window = {
 
 								expand = {}
 
-								widget = { #Set map mode to elven hope
+								widget = { # Set map mode to elven hope
 									visible = "[And(Not(IsObserver), GetScriptedGui('elven_hope_map').IsValid(GuiScope.End))]"
 									size = { 32 32 }
 									datacontext = "[GetMapMode( 'elven_hope' )]"
@@ -374,16 +374,16 @@ window = {
 					vbox = { # Hope bars for all sub-regions
 						name = "current_hope"
 						margin_top = 5
-						#using = Animation_Tab_Switch
+						# using = Animation_Tab_Switch
 
 						layoutpolicy_horizontal = expanding
-						#layoutpolicy_vertical = expanding
+						# layoutpolicy_vertical = expanding
 
 						datacontext = "[SituationWindow.GetSituation]"
 						datacontext = "[SituationWindow.GetSelectedOrLeadingFuturePhaseType]"
 
-						#min_height = 185
-						#max_height = 185
+						# min_height = 185
+						# max_height = 185
 
 						scrollbox = {
 							layoutpolicy_horizontal = expanding
@@ -400,105 +400,135 @@ window = {
 								layoutpolicy_horizontal = expanding
 								layoutpolicy_vertical = expanding
 
-								### Lorien Hope Value Bar ###
+								# ============================================================
+								# Lorien Hope Value Bar
+								# ============================================================
 								progress_bars_for_hope_levels = {
 									visible = "[GreaterThan_int32( GetDataModelSize(Situation.GetSubRegionByKey( 'rivendell_lorien' ).GetParticipatingCharacters), '(int32)0' )]"
 									tooltip = "[SituationPhase.GetType.GetName]"
 									blockoverride "hope_value_header" { text = "DISPLAY_CURRENT_LORIEN_HOPE_VALUE" }
 									blockoverride "hope_value" { datacontext = "[Situation.GetSubRegionByKey( 'rivendell_lorien' ).MakeScope.Var('lorien_hope_value')]" }
 								}
-								### Lindon Hope Value Bar ###
+								# ============================================================
+								# Lindon Hope Value Bar
+								# ============================================================
 								progress_bars_for_hope_levels = {
 									visible = "[GreaterThan_int32( GetDataModelSize(Situation.GetSubRegionByKey( 'lindon' ).GetParticipatingCharacters), '(int32)0' )]"
 									tooltip = "[SituationPhase.GetType.GetName]"
 									blockoverride "hope_value_header" { text = "DISPLAY_CURRENT_LINDON_HOPE_VALUE" }
 									blockoverride "hope_value" { datacontext = "[Situation.GetSubRegionByKey( 'lindon' ).MakeScope.Var('lindon_hope_value')]" }
 								}
-								### Greenwood Hope Value Bar ###
+								# ============================================================
+								# Greenwood Hope Value Bar
+								# ============================================================
 								progress_bars_for_hope_levels = {
 									visible = "[GreaterThan_int32( GetDataModelSize(Situation.GetSubRegionByKey( 'lasgalen' ).GetParticipatingCharacters), '(int32)0' )]"
 									tooltip = "[SituationPhase.GetType.GetName]"
 									blockoverride "hope_value_header" { text = "DISPLAY_CURRENT_GREENWOOD_HOPE_VALUE" }
 									blockoverride "hope_value" { datacontext = "[Situation.GetSubRegionByKey( 'lasgalen' ).MakeScope.Var('greenwood_hope_value')]" }
 								}
-								### Nelornieth Hope Value Bar ###
+								# ============================================================
+								# Nelornieth Hope Value Bar
+								# ============================================================
 								progress_bars_for_hope_levels = {
 									visible = "[GreaterThan_int32( GetDataModelSize(Situation.GetSubRegionByKey( 'nelornieth' ).GetParticipatingCharacters), '(int32)0' )]"
 									tooltip = "[SituationPhase.GetType.GetName]"
 									blockoverride "hope_value_header" { text = "DISPLAY_CURRENT_NELORNIETH_HOPE_VALUE" }
 									blockoverride "hope_value" { datacontext = "[Situation.GetSubRegionByKey( 'nelornieth' ).MakeScope.Var('nelornieth_hope_value')]" }
 								}
-								### Drel Hope Value Bar ###
+								# ============================================================
+								# Drel Hope Value Bar
+								# ============================================================
 								progress_bars_for_hope_levels = {
 									visible = "[GreaterThan_int32( GetDataModelSize(Situation.GetSubRegionByKey( 'thani_hazad' ).GetParticipatingCharacters), '(int32)0' )]"
 									tooltip = "[SituationPhase.GetType.GetName]"
 									blockoverride "hope_value_header" { text = "DISPLAY_CURRENT_DREL_HOPE_VALUE" }
 									blockoverride "hope_value" { datacontext = "[Situation.GetSubRegionByKey( 'thani_hazad' ).MakeScope.Var('drel_hope_value')]" }
 								}
-								### Kinn-lai Hope Value Bar ###
+								# ============================================================
+								# Kinn-lai Hope Value Bar
+								# ============================================================
 								progress_bars_for_hope_levels = {
 									visible = "[GreaterThan_int32( GetDataModelSize(Situation.GetSubRegionByKey( 'utter_south' ).GetParticipatingCharacters), '(int32)0' )]"
 									tooltip = "[SituationPhase.GetType.GetName]"
 									blockoverride "hope_value_header" { text = "DISPLAY_CURRENT_KINNLAI_HOPE_VALUE" }
 									blockoverride "hope_value" { datacontext = "[Situation.GetSubRegionByKey( 'utter_south' ).MakeScope.Var('kinnlai_hope_value')]" }
 								}
-								### Mumakan Value Bar ###
+								# ============================================================
+								# Mumakan Value Bar
+								# ============================================================
 								progress_bars_for_hope_levels = {
 									visible = "[GreaterThan_int32( GetDataModelSize(Situation.GetSubRegionByKey( 'mumakan' ).GetParticipatingCharacters), '(int32)0' )]"
 									tooltip = "[SituationPhase.GetType.GetName]"
 									blockoverride "hope_value_header" { text = "DISPLAY_CURRENT_MUMAKAN_HOPE_VALUE" }
 									blockoverride "hope_value" { datacontext = "[Situation.GetSubRegionByKey( 'mumakan' ).MakeScope.Var('mumakan_hope_value')]" }
 								}
-								### Eriador Hope Value Bar ###
+								# ============================================================
+								# Eriador Hope Value Bar
+								# ============================================================
 								progress_bars_for_hope_levels = {
 									visible = "[GreaterThan_int32( GetDataModelSize(Situation.GetSubRegionByKey( 'eriador' ).GetParticipatingCharacters), '(int32)0' )]"
 									tooltip = "[SituationPhase.GetType.GetName]"
 									blockoverride "hope_value_header" { text = "DISPLAY_CURRENT_ERIADOR_HOPE_VALUE" }
 									blockoverride "hope_value" { datacontext = "[Situation.GetSubRegionByKey( 'eriador' ).MakeScope.Var('eriador_hope_value')]" }
 								}
-								### Rhovanion Hope Value Bar ###
+								# ============================================================
+								# Rhovanion Hope Value Bar
+								# ============================================================
 								progress_bars_for_hope_levels = {
 									visible = "[GreaterThan_int32( GetDataModelSize(Situation.GetSubRegionByKey( 'eastern_rhovanion' ).GetParticipatingCharacters), '(int32)0' )]"
 									tooltip = "[SituationPhase.GetType.GetName]"
 									blockoverride "hope_value_header" { text = "DISPLAY_CURRENT_RHOVANION_HOPE_VALUE" }
 									blockoverride "hope_value" { datacontext = "[Situation.GetSubRegionByKey( 'eastern_rhovanion' ).MakeScope.Var('rhovanion_hope_value')]" }
 								}
-								### Gondor Hope Value Bar ###
+								# ============================================================
+								# Gondor Hope Value Bar
+								# ============================================================
 								progress_bars_for_hope_levels = {
 									visible = "[GreaterThan_int32( GetDataModelSize(Situation.GetSubRegionByKey( 'gondor' ).GetParticipatingCharacters), '(int32)0' )]"
 									tooltip = "[SituationPhase.GetType.GetName]"
 									blockoverride "hope_value_header" { text = "DISPLAY_CURRENT_GONDOR_HOPE_VALUE" }
 									blockoverride "hope_value" { datacontext = "[Situation.GetSubRegionByKey( 'gondor' ).MakeScope.Var('gondor_hope_value')]" }
 								}
-								### Ormal Hope Value Bar ###
+								# ============================================================
+								# Ormal Hope Value Bar
+								# ============================================================
 								progress_bars_for_hope_levels = {
 									visible = "[GreaterThan_int32( GetDataModelSize(Situation.GetSubRegionByKey( 'bay_of_ormal' ).GetParticipatingCharacters), '(int32)0' )]"
 									tooltip = "[SituationPhase.GetType.GetName]"
 									blockoverride "hope_value_header" { text = "DISPLAY_CURRENT_ORMAL_HOPE_VALUE" }
 									blockoverride "hope_value" { datacontext = "[Situation.GetSubRegionByKey( 'bay_of_ormal' ).MakeScope.Var('ormal_hope_value')]" }
 								}
-								### Sumarieth Hope Value Bar ###
+								# ============================================================
+								# Sumarieth Hope Value Bar
+								# ============================================================
 								progress_bars_for_hope_levels = {
 									visible = "[GreaterThan_int32( GetDataModelSize(Situation.GetSubRegionByKey( 'bay_of_tulwang' ).GetParticipatingCharacters), '(int32)0' )]"
 									tooltip = "[SituationPhase.GetType.GetName]"
 									blockoverride "hope_value_header" { text = "DISPLAY_CURRENT_SUMARIETH_HOPE_VALUE" }
 									blockoverride "hope_value" { datacontext = "[Situation.GetSubRegionByKey( 'bay_of_tulwang' ).MakeScope.Var('sumarieth_hope_value')]" }
 								}
-								### Haradwaith Hope Value Bar ###
+								# ============================================================
+								# Haradwaith Hope Value Bar
+								# ============================================================
 								progress_bars_for_hope_levels = {
 									visible = "[GreaterThan_int32( GetDataModelSize(Situation.GetSubRegionByKey( 'haradwaith' ).GetParticipatingCharacters), '(int32)0' )]"
 									tooltip = "[SituationPhase.GetType.GetName]"
 									blockoverride "hope_value_header" { text = "DISPLAY_CURRENT_HARADWAITH_HOPE_VALUE" }
 									blockoverride "hope_value" { datacontext = "[Situation.GetSubRegionByKey( 'haradwaith' ).MakeScope.Var('haradwaith_hope_value')]" }
 								}
-								### Mordor Hope Value Bar ###
+								# ============================================================
+								# Mordor Hope Value Bar
+								# ============================================================
 								progress_bars_for_hope_levels = {
 									visible = "[GreaterThan_int32( GetDataModelSize(Situation.GetSubRegionByKey( 'mordor' ).GetParticipatingCharacters), '(int32)0' )]"
 									tooltip = "[SituationPhase.GetType.GetName]"
 									blockoverride "hope_value_header" { text = "DISPLAY_CURRENT_MORDOR_HOPE_VALUE" }
 									blockoverride "hope_value" { datacontext = "[Situation.GetSubRegionByKey( 'mordor' ).MakeScope.Var('mordor_hope_value')]" }
 								}
-								### Forodwaith Hope Value Bar ###
+								# ============================================================
+								# Forodwaith Hope Value Bar
+								# ============================================================
 								progress_bars_for_hope_levels = {
 									visible = "[GreaterThan_int32( GetDataModelSize(Situation.GetSubRegionByKey( 'forodwaith' ).GetParticipatingCharacters), '(int32)0' )]"
 									tooltip = "[SituationPhase.GetType.GetName]"
@@ -533,7 +563,7 @@ window = {
 				vbox = { # Catalysts tab #1
 					name = "tab_elven_catalysts"
 					visible = "[GetVariableSystem.HasValue( 'elven_hope_tab', 'elven_catalysts' )]"
-					#visible = "[SituationWindow.IsTabActive( 'elven_catalysts' )]"
+					# visible = "[SituationWindow.IsTabActive( 'elven_catalysts' )]"
 					layoutpolicy_horizontal = expanding
 					layoutpolicy_vertical = expanding
 
@@ -551,7 +581,9 @@ window = {
 							name = "elven_catalysts_explainer"
 							spacing = 3
 
-							### Header Text ###
+							# ============================================================
+							# Header Text
+							# ============================================================
 							text_label_center = {
 								layoutpolicy_horizontal = expanding
 								using = Background_Area
@@ -590,112 +622,112 @@ window = {
 								layoutpolicy_horizontal = expanding
 								layoutpolicy_vertical = expanding
 
-								lotr_show_sub_region_catalyst = { ### Rivendell & Lorien Catalysts
-									blockoverride "catalyst_visible" { #Need to visible if you are participant in that region
+								lotr_show_sub_region_catalyst = { # Rivendell & Lorien Catalysts
+									blockoverride "catalyst_visible" { # Need to visible if you are participant in that region
 										visible = "[ObjectsEqual( SituationWindow.GetSelectedSubRegion.Self, Situation.GetSubRegionByKey( 'rivendell_lorien' ).Self )]"
 									}
 									blockoverride "catalyst_datamodel" {
 										datamodel = "[Situation.GetSubRegionByKey( 'rivendell_lorien' ).MakeScope.GetList('region_lorien_situation_localization')]"
 									}
 								}
-								lotr_show_sub_region_catalyst = { ### Lindon Catalysts
-									blockoverride "catalyst_visible" { #Need to visible if you are participant in that region
+								lotr_show_sub_region_catalyst = { # Lindon Catalysts
+									blockoverride "catalyst_visible" { # Need to visible if you are participant in that region
 										visible = "[ObjectsEqual( SituationWindow.GetSelectedSubRegion.Self, Situation.GetSubRegionByKey( 'lindon' ).Self )]"
 									}
 									blockoverride "catalyst_datamodel" {
 										datamodel = "[Situation.GetSubRegionByKey( 'lindon' ).MakeScope.GetList('region_lindon_situation_localization')]"
 									}
 								}
-								lotr_show_sub_region_catalyst = { ### Lasgalen Catalysts
-									blockoverride "catalyst_visible" { #Need to visible if you are participant in that region
+								lotr_show_sub_region_catalyst = { # Lasgalen Catalysts
+									blockoverride "catalyst_visible" { # Need to visible if you are participant in that region
 										visible = "[ObjectsEqual( SituationWindow.GetSelectedSubRegion.Self, Situation.GetSubRegionByKey( 'lasgalen' ).Self )]"
 									}
 									blockoverride "catalyst_datamodel" {
 										datamodel = "[Situation.GetSubRegionByKey( 'lasgalen' ).MakeScope.GetList('region_greenwood_situation_localization')]"
 									}
 								}
-								lotr_show_sub_region_catalyst = { ### Nelornieth Catalysts
-									blockoverride "catalyst_visible" { #Need to visible if you are participant in that region
+								lotr_show_sub_region_catalyst = { # Nelornieth Catalysts
+									blockoverride "catalyst_visible" { # Need to visible if you are participant in that region
 										visible = "[ObjectsEqual( SituationWindow.GetSelectedSubRegion.Self, Situation.GetSubRegionByKey( 'nelornieth' ).Self )]"
 									}
 									blockoverride "catalyst_datamodel" {
 										datamodel = "[Situation.GetSubRegionByKey( 'nelornieth' ).MakeScope.GetList('region_nelornieth_situation_localization')]"
 									}
 								}
-								lotr_show_sub_region_catalyst = { ### Mumakan Catalysts
-									blockoverride "catalyst_visible" { #Need to visible if you are participant in that region
+								lotr_show_sub_region_catalyst = { # Mumakan Catalysts
+									blockoverride "catalyst_visible" { # Need to visible if you are participant in that region
 										visible = "[ObjectsEqual( SituationWindow.GetSelectedSubRegion.Self, Situation.GetSubRegionByKey( 'mumakan' ).Self )]"
 									}
 									blockoverride "catalyst_datamodel" {
 										datamodel = "[Situation.GetSubRegionByKey( 'mumakan' ).MakeScope.GetList('region_mumakan_situation_localization')]"
 									}
 								}
-								lotr_show_sub_region_catalyst = { ### Eriador Catalysts
-									blockoverride "catalyst_visible" { #Need to visible if you are participant in that region
+								lotr_show_sub_region_catalyst = { # Eriador Catalysts
+									blockoverride "catalyst_visible" { # Need to visible if you are participant in that region
 										visible = "[ObjectsEqual( SituationWindow.GetSelectedSubRegion.Self, Situation.GetSubRegionByKey( 'eriador' ).Self )]"
 									}
 									blockoverride "catalyst_datamodel" {
 										datamodel = "[Situation.GetSubRegionByKey( 'eriador' ).MakeScope.GetList('region_eriador_situation_localization')]"
 									}
 								}
-								lotr_show_sub_region_catalyst = { ### Eastern Rhovanion Catalysts
-									blockoverride "catalyst_visible" { #Need to visible if you are participant in that region
+								lotr_show_sub_region_catalyst = { # Eastern Rhovanion Catalysts
+									blockoverride "catalyst_visible" { # Need to visible if you are participant in that region
 										visible = "[ObjectsEqual( SituationWindow.GetSelectedSubRegion.Self, Situation.GetSubRegionByKey( 'eastern_rhovanion' ).Self )]"
 									}
 									blockoverride "catalyst_datamodel" {
 										datamodel = "[Situation.GetSubRegionByKey( 'eastern_rhovanion' ).MakeScope.GetList('region_rhovanion_situation_localization')]"
 									}
 								}
-								lotr_show_sub_region_catalyst = { ### Thani-Hazad Catalysts
-									blockoverride "catalyst_visible" { #Need to visible if you are participant in that region
+								lotr_show_sub_region_catalyst = { # Thani-Hazad Catalysts
+									blockoverride "catalyst_visible" { # Need to visible if you are participant in that region
 										visible = "[ObjectsEqual( SituationWindow.GetSelectedSubRegion.Self, Situation.GetSubRegionByKey( 'thani_hazad' ).Self )]"
 									}
 									blockoverride "catalyst_datamodel" {
 										datamodel = "[Situation.GetSubRegionByKey( 'thani_hazad' ).MakeScope.GetList('region_drel_situation_localization')]"
 									}
 								}
-								lotr_show_sub_region_catalyst = { ### Utter South Catalysts
-									blockoverride "catalyst_visible" { #Need to visible if you are participant in that region
+								lotr_show_sub_region_catalyst = { # Utter South Catalysts
+									blockoverride "catalyst_visible" { # Need to visible if you are participant in that region
 										visible = "[ObjectsEqual( SituationWindow.GetSelectedSubRegion.Self, Situation.GetSubRegionByKey( 'utter_south' ).Self )]"
 									}
 									blockoverride "catalyst_datamodel" {
 										datamodel = "[Situation.GetSubRegionByKey( 'utter_south' ).MakeScope.GetList('region_kinnlai_situation_localization')]"
 									}
 								}
-								lotr_show_sub_region_catalyst = { ### Gondor Catalysts
-									blockoverride "catalyst_visible" { #Need to visible if you are participant in that region
+								lotr_show_sub_region_catalyst = { # Gondor Catalysts
+									blockoverride "catalyst_visible" { # Need to visible if you are participant in that region
 										visible = "[ObjectsEqual( SituationWindow.GetSelectedSubRegion.Self, Situation.GetSubRegionByKey( 'gondor' ).Self )]"
 									}
 									blockoverride "catalyst_datamodel" {
 										datamodel = "[Situation.GetSubRegionByKey( 'gondor' ).MakeScope.GetList('region_gondor_situation_localization')]"
 									}
 								}
-								lotr_show_sub_region_catalyst = { ### Haradwaith Catalysts
-									blockoverride "catalyst_visible" { #Need to visible if you are participant in that region
+								lotr_show_sub_region_catalyst = { # Haradwaith Catalysts
+									blockoverride "catalyst_visible" { # Need to visible if you are participant in that region
 										visible = "[ObjectsEqual( SituationWindow.GetSelectedSubRegion.Self, Situation.GetSubRegionByKey( 'haradwaith' ).Self )]"
 									}
 									blockoverride "catalyst_datamodel" {
 										datamodel = "[Situation.GetSubRegionByKey( 'haradwaith' ).MakeScope.GetList('region_haradwaith_situation_localization')]"
 									}
 								}
-								lotr_show_sub_region_catalyst = { ### Bay of Tulwang Catalysts
-									blockoverride "catalyst_visible" { #Need to visible if you are participant in that region
+								lotr_show_sub_region_catalyst = { # Bay of Tulwang Catalysts
+									blockoverride "catalyst_visible" { # Need to visible if you are participant in that region
 										visible = "[ObjectsEqual( SituationWindow.GetSelectedSubRegion.Self, Situation.GetSubRegionByKey( 'bay_of_tulwang' ).Self )]"
 									}
 									blockoverride "catalyst_datamodel" {
 										datamodel = "[Situation.GetSubRegionByKey( 'bay_of_tulwang' ).MakeScope.GetList('region_sumarieth_situation_localization')]"
 									}
 								}
-								lotr_show_sub_region_catalyst = { ### Bay of Ormal Catalysts
-									blockoverride "catalyst_visible" { #Need to visible if you are participant in that region
+								lotr_show_sub_region_catalyst = { # Bay of Ormal Catalysts
+									blockoverride "catalyst_visible" { # Need to visible if you are participant in that region
 										visible = "[ObjectsEqual( SituationWindow.GetSelectedSubRegion.Self, Situation.GetSubRegionByKey( 'bay_of_ormal' ).Self )]"
 									}
 									blockoverride "catalyst_datamodel" {
 										datamodel = "[Situation.GetSubRegionByKey( 'bay_of_ormal' ).MakeScope.GetList('region_ormal_situation_localization')]"
 									}
 								}
-								lotr_show_sub_region_catalyst = { ### Mordor Catalysts
-									blockoverride "catalyst_visible" { #Need to visible if you are participant in that region
+								lotr_show_sub_region_catalyst = { # Mordor Catalysts
+									blockoverride "catalyst_visible" { # Need to visible if you are participant in that region
 										visible = "[ObjectsEqual( SituationWindow.GetSelectedSubRegion.Self, Situation.GetSubRegionByKey( 'mordor' ).Self )]"
 									}
 									blockoverride "catalyst_datamodel" {
@@ -732,9 +764,9 @@ window = {
 
 types Situation
 {
-	###########################
-	## ↓↓↓ Added by Jaco ↓↓↓ ##
-	###########################
+	# ============================================================
+	# ↓↓↓ Added by Jaco ↓↓↓
+	# ============================================================
 	type progress_bars_for_hope_levels = widget {
 		size = { 550 80 }
 		allow_outside = yes
@@ -742,7 +774,9 @@ types Situation
 			allow_outside = yes
 			layoutpolicy_vertical = expanding
 			spacing = 20
-			### Header Text ###
+			# ============================================================
+			# Header Text
+			# ============================================================
 			text_label_center = {
 				layoutpolicy_horizontal = expanding
 				using = Background_Area_Dark
@@ -751,7 +785,9 @@ types Situation
 				}
 			}
 
-			### Progress Bar ###
+			# ============================================================
+			# Progress Bar
+			# ============================================================
 			hbox = {
 				block "hope_value" {
 					datacontext = "[Situation.MakeScope.Var('lorien_hope_value')]"
@@ -797,7 +833,7 @@ types Situation
 						}
 					}
 				}
-				progressbar_gray_red = { #Larger version
+				progressbar_gray_red = { # Larger version
 					block "hope_value" {
 						datacontext = "[Situation.MakeScope.Var('lorien_hope_value')]"
 					}
@@ -808,7 +844,9 @@ types Situation
 					allow_outside = yes
 					value = "[Scope.GetValue]"
 
-					### Horizontal Wipe Animation Left
+					# ============================================================
+					# Horizontal Wipe Animation Left
+					# ============================================================
 					lotr_elven_progressbar_horizontal_swipe_left = {
 						blockoverride "visible_swipe" {
 							visible = "[Not( GreaterThan_CFixedPoint( Scope.GetValue, '(CFixedPoint)200' ))]"
@@ -890,7 +928,7 @@ types Situation
 						}
 					}
 				}
-				progressbar_orange_red = { #Larger version
+				progressbar_orange_red = { # Larger version
 					size = { 100 44 }
 					visible = "[And( Not( GreaterThan_CFixedPoint( Scope.GetValue, '(CFixedPoint)400' )), GreaterThan_CFixedPoint( Scope.GetValue, '(CFixedPoint)200' ))]"
 					max = 400
@@ -898,13 +936,17 @@ types Situation
 					allow_outside = yes
 					value = "[Scope.GetValue]"
 
-					### Horizontal Wipe Animation Left
+					# ============================================================
+					# Horizontal Wipe Animation Left
+					# ============================================================
 					lotr_elven_progressbar_horizontal_swipe_left = {
 						blockoverride "visible_swipe" {
 							visible = "[And( Not( GreaterThan_CFixedPoint( Scope.GetValue, '(CFixedPoint)400' )), GreaterThan_CFixedPoint( Scope.GetValue, '(CFixedPoint)200' ))]"
 						}
 					}
-					### Horizontal Wipe Animation Right
+					# ============================================================
+					# Horizontal Wipe Animation Right
+					# ============================================================
 					lotr_elven_progressbar_horizontal_swipe_right = {
 						blockoverride "visible_swipe" {
 							visible = "[And(Not( GreaterThan_CFixedPoint( Scope.GetValue, '(CFixedPoint)400' )), GreaterThan_CFixedPoint( Scope.GetValue, '(CFixedPoint)200' ))]"
@@ -980,7 +1022,7 @@ types Situation
 						}
 					}
 				}
-				progressbar_bright_orange_red = { #Larger version
+				progressbar_bright_orange_red = { # Larger version
 					size = { 100 44 }
 					visible = "[And(Not( GreaterThan_CFixedPoint( Scope.GetValue, '(CFixedPoint)600' )), GreaterThan_CFixedPoint( Scope.GetValue, '(CFixedPoint)400' ))]"
 					max = 600
@@ -988,13 +1030,17 @@ types Situation
 					allow_outside = yes
 					value = "[Scope.GetValue]"
 
-					### Horizontal Wipe Animation Left
+					# ============================================================
+					# Horizontal Wipe Animation Left
+					# ============================================================
 					lotr_elven_progressbar_horizontal_swipe_left = {
 						blockoverride "visible_swipe" {
 							visible = "[And(Not( GreaterThan_CFixedPoint( Scope.GetValue, '(CFixedPoint)600' )), GreaterThan_CFixedPoint( Scope.GetValue, '(CFixedPoint)400' ))]"
 						}
 					}
-					### Horizontal Wipe Animation Right
+					# ============================================================
+					# Horizontal Wipe Animation Right
+					# ============================================================
 					lotr_elven_progressbar_horizontal_swipe_right = {
 						blockoverride "visible_swipe" {
 							visible = "[And(Not( GreaterThan_CFixedPoint( Scope.GetValue, '(CFixedPoint)600' )), GreaterThan_CFixedPoint( Scope.GetValue, '(CFixedPoint)400' ))]"
@@ -1070,7 +1116,7 @@ types Situation
 						}
 					}
 				}
-				progressbar_red_green = { #Larger version
+				progressbar_red_green = { # Larger version
 					size = { 100 44 }
 					max = 800
 					min = 600
@@ -1078,13 +1124,17 @@ types Situation
 					value = "[Scope.GetValue]"
 					visible = "[And(Not( GreaterThan_CFixedPoint( Scope.GetValue, '(CFixedPoint)800' )), GreaterThan_CFixedPoint( Scope.GetValue, '(CFixedPoint)600' ))]"
 
-					### Horizontal Wipe Animation Left
+					# ============================================================
+					# Horizontal Wipe Animation Left
+					# ============================================================
 					lotr_elven_progressbar_horizontal_swipe_left = {
 						blockoverride "visible_swipe" {
 							visible = "[And(Not( GreaterThan_CFixedPoint( Scope.GetValue, '(CFixedPoint)800' )), GreaterThan_CFixedPoint( Scope.GetValue, '(CFixedPoint)600' ))]"
 						}
 					}
-					### Horizontal Wipe Animation Right
+					# ============================================================
+					# Horizontal Wipe Animation Right
+					# ============================================================
 					lotr_elven_progressbar_horizontal_swipe_right = {
 						blockoverride "visible_swipe" {
 							visible = "[And(Not( GreaterThan_CFixedPoint( Scope.GetValue, '(CFixedPoint)800' )), GreaterThan_CFixedPoint( Scope.GetValue, '(CFixedPoint)600' ))]"
@@ -1176,7 +1226,7 @@ types Situation
 						}
 					}
 				}
-				progressbar_bright_green_red = { #Larger version
+				progressbar_bright_green_red = { # Larger version
 					size = { 100 44 }
 					max = 1000
 					min = 800
@@ -1184,13 +1234,17 @@ types Situation
 					value = "[Scope.GetValue]"
 					visible = "[GreaterThan_CFixedPoint( Scope.GetValue, '(CFixedPoint)800' )]"
 
-					### Horizontal Wipe Animation Left
+					# ============================================================
+					# Horizontal Wipe Animation Left
+					# ============================================================
 					lotr_elven_progressbar_horizontal_swipe_left = {
 						blockoverride "visible_swipe" {
 							visible = "[GreaterThan_CFixedPoint( Scope.GetValue, '(CFixedPoint)800' )]"
 						}
 					}
-					### Horizontal Wipe Animation Right
+					# ============================================================
+					# Horizontal Wipe Animation Right
+					# ============================================================
 					lotr_elven_progressbar_horizontal_swipe_right = {
 						blockoverride "visible_swipe" {
 							visible = "[GreaterThan_CFixedPoint( Scope.GetValue, '(CFixedPoint)800' )]"
@@ -1248,9 +1302,9 @@ types Situation
 
 		expand = {}
 	}
-	###########################
-	## ↑↑↑ Added by Jaco ↑↑↑ ##
-	###########################
+	# ============================================================
+	# ↑↑↑ Added by Jaco ↑↑↑
+	# ============================================================
 
 	type button_situation_subregion = button_standard {
 		minimumsize = { 527 50 }
@@ -1673,12 +1727,12 @@ types Situation
 										using = Background_Area_Dark
 										using = Mask_Rough_Edges
 									}
-									text_single = { #Positive Values
+									text_single = { # Positive Values
 										visible = "[EqualTo_string(Scope.Var('elven_hope_catalyst_positive_or_negative').GetFlagName, 'positive_effect')]"
 										raw_text = "#P +[Scope.Var('elven_hope_catalyst_loc_value').GetValue]#!"
 										parentanchor = center
 									}
-									text_single = { #Negative Values
+									text_single = { # Negative Values
 										raw_text = "#N [Scope.Var('elven_hope_catalyst_loc_value').GetValue]#!"
 										visible = "[EqualTo_string(Scope.Var('elven_hope_catalyst_positive_or_negative').GetFlagName, 'negative_effect')]"
 										parentanchor = center

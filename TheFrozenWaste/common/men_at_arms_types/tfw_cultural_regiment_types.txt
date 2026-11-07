@@ -10,9 +10,9 @@
 @provisions_cost_cavalry_expensive = 21
 @provisions_cost_special_moderate = 12
 
-############################
+# ============================================================
 # FORODAIN
-############################
+# ============================================================
 
 forodain_huscarls = {
 	type = heavy_infantry
@@ -40,7 +40,7 @@ forodain_huscarls = {
 	terrain_bonus = {
 		hills = { damage = 8 toughness = 8 screen = 3 }
 		taiga = { damage = 8 toughness = 8 screen = 3 }
-	
+
 		arctic = { damage = 10 toughness = 10 screen = 4 }
 	}
 	buy_cost = { gold = 120 }
@@ -79,7 +79,7 @@ forodain_longbowmen = {
 		hills = { damage = 12 toughness = 5 }
 		taiga = { damage = 14 toughness = 6 screen = 4 }
 		forest = { damage = 10 toughness = 5 screen = 3 }
-	
+
 		arctic = { damage = 12 toughness = 6 screen = 3 }
 	}
 	buy_cost = { gold = 105 }
@@ -118,7 +118,7 @@ forodain_shieldwall = {
 	terrain_bonus = {
 		hills = { damage = 5 toughness = 10 screen = 4 }
 		taiga = { damage = 5 toughness = 10 screen = 4 }
-	
+
 		arctic = { damage = 8 toughness = 12 screen = 5 }
 	}
 	buy_cost = { gold = 112 }
@@ -156,7 +156,7 @@ forodain_raiders = {
 	terrain_bonus = {
 		wetlands = { damage = 6 toughness = 5 pursuit = 8 screen = 8 }
 		taiga = { damage = 8 toughness = 6 pursuit = 8 screen = 8 }
-	
+
 		arctic = { damage = 8 toughness = 8 pursuit = 12 screen = 12 }
 	}
 	buy_cost = { gold = 82 }
@@ -169,10 +169,10 @@ forodain_raiders = {
 	allowed_in_hired_troops = no
 }
 
-############################
+# ============================================================
 # NORTHERN ORCS
 # Shared by Angband Orcs and Snow Orcs
-############################
+# ============================================================
 
 northern_orc_reavers = {
 	type = heavy_infantry
@@ -188,7 +188,7 @@ northern_orc_reavers = {
 	terrain_bonus = {
 		mountains = { damage = 7 toughness = 6 }
 		hills = { damage = 5 toughness = 4 }
-	
+
 		arctic = { damage = 6 toughness = 6 }
 	}
 	buy_cost = { gold = 88 }
@@ -213,7 +213,7 @@ northern_orc_archers = {
 	terrain_bonus = {
 		mountains = { damage = 6 }
 		hills = { damage = 8 toughness = 3 }
-	
+
 		arctic = { damage = 5 toughness = 3 }
 	}
 	buy_cost = { gold = 65 }
@@ -240,7 +240,7 @@ northern_orc_spears = {
 	terrain_bonus = {
 		mountains = { damage = 5 toughness = 8 screen = 3 }
 		hills = { damage = 4 toughness = 6 screen = 2 }
-	
+
 		arctic = { damage = 4 toughness = 6 }
 	}
 	buy_cost = { gold = 72 }
@@ -266,7 +266,7 @@ northern_orc_trackers = {
 		taiga = { damage = 6 toughness = 6 pursuit = 8 screen = 8 }
 		forest = { damage = 5 toughness = 5 pursuit = 6 screen = 6 }
 		mountains = { pursuit = 8 screen = 8 }
-	
+
 		arctic = { damage = 6 toughness = 6 pursuit = 12 screen = 12 }
 	}
 	buy_cost = { gold = 52 }
@@ -292,7 +292,7 @@ northern_orc_warg_riders = {
 	terrain_bonus = {
 		hills = { damage = 6 toughness = 4 pursuit = 8 }
 		taiga = { damage = 6 toughness = 4 pursuit = 10 screen = 5 }
-	
+
 		arctic = { damage = 6 toughness = 6 pursuit = 10 }
 	}
 	buy_cost = { gold = 95 }
@@ -304,10 +304,10 @@ northern_orc_warg_riders = {
 	icon = arnorian_cavalry
 }
 
-############################
+# ============================================================
 # LOSSIDIL / SNOW ELVES
 # Full elven strength, 50-man stacks.
-############################
+# ============================================================
 
 lossidil_frostguard = {
 	type = heavy_infantry
@@ -326,7 +326,7 @@ lossidil_frostguard = {
 		taiga = { damage = 30 toughness = 30 screen = 8 }
 		mountains = { damage = 25 toughness = 30 screen = 8 }
 		hills = { damage = 18 toughness = 20 screen = 5 }
-	
+
 		arctic = { damage = 45 toughness = 45 screen = 12 }
 	}
 	buy_cost = { gold = 275 }
@@ -356,7 +356,7 @@ lossidil_icebowmen = {
 		taiga = { damage = 40 toughness = 22 pursuit = 8 screen = 5 }
 		mountains = { damage = 35 toughness = 20 pursuit = 6 }
 		hills = { damage = 22 toughness = 12 pursuit = 4 }
-	
+
 		arctic = { damage = 50 toughness = 25 pursuit = 10 screen = 5 }
 	}
 	buy_cost = { gold = 245 }
@@ -387,7 +387,7 @@ lossidil_snow_spears = {
 		taiga = { damage = 28 toughness = 35 screen = 10 }
 		mountains = { damage = 28 toughness = 35 screen = 10 }
 		hills = { damage = 16 toughness = 20 screen = 6 }
-	
+
 		arctic = { damage = 42 toughness = 50 screen = 15 }
 	}
 	buy_cost = { gold = 255 }
@@ -417,7 +417,7 @@ lossidil_frost_riders = {
 		taiga = { damage = 25 toughness = 18 pursuit = 25 screen = 12 }
 		hills = { damage = 15 toughness = 10 pursuit = 15 screen = 8 }
 		wetlands = { damage = -20 toughness = -15 pursuit = -15 screen = -8 }
-	
+
 		arctic = { damage = 30 toughness = 22 pursuit = 30 screen = 15 }
 	}
 	buy_cost = { gold = 260 }
@@ -430,9 +430,9 @@ lossidil_frost_riders = {
 	allowed_in_hired_troops = no
 }
 
-############################
+# ============================================================
 # UMLI
-############################
+# ============================================================
 
 umli_ironwardens = {
 	type = heavy_infantry
@@ -450,7 +450,7 @@ umli_ironwardens = {
 		mountains = { damage = 10 toughness = 14 screen = 4 }
 		hills = { damage = 7 toughness = 10 screen = 3 }
 		halls = { damage = 10 toughness = 14 screen = 4 }
-	
+
 		arctic = { damage = 5 toughness = 8 }
 	}
 	buy_cost = { gold = 125 }
@@ -479,7 +479,7 @@ umli_crossbowmen = {
 		mountains = { damage = 12 toughness = 6 }
 		hills = { damage = 9 toughness = 5 }
 		halls = { damage = 12 toughness = 6 }
-	
+
 		arctic = { damage = 6 toughness = 4 }
 	}
 	buy_cost = { gold = 112 }
@@ -509,7 +509,7 @@ umli_deep_pikes = {
 		mountains = { damage = 8 toughness = 16 screen = 5 }
 		hills = { damage = 5 toughness = 10 screen = 3 }
 		halls = { damage = 10 toughness = 18 screen = 6 }
-	
+
 		arctic = { toughness = 8 screen = 3 }
 	}
 	buy_cost = { gold = 118 }
@@ -537,7 +537,7 @@ umli_axe_scouts = {
 		mountains = { damage = 8 toughness = 8 pursuit = 5 screen = 5 }
 		hills = { damage = 6 toughness = 6 pursuit = 5 screen = 5 }
 		halls = { damage = 8 toughness = 8 screen = 8 }
-	
+
 		arctic = { damage = 6 toughness = 6 screen = 4 }
 	}
 	buy_cost = { gold = 82 }
@@ -550,9 +550,9 @@ umli_axe_scouts = {
 	allowed_in_hired_troops = no
 }
 
-############################
+# ============================================================
 # GAUREDAIN
-############################
+# ============================================================
 
 gauredain_huntsmen = {
 	type = archers
@@ -568,7 +568,7 @@ gauredain_huntsmen = {
 		taiga = { damage = 7 toughness = 18 screen = 25 }
 		deep_forest = { damage = 7 toughness = 18 screen = 25 }
 		hills = { damage = 6 toughness = 6 }
-	
+
 		arctic = { damage = 5 toughness = 7 pursuit = 15 }
 	}
 	buy_cost = { gold = 68 }
@@ -598,7 +598,7 @@ gauredain_wildspears = {
 		hills = { damage = 10 toughness = 13 pursuit = 3 }
 		mountains = { damage = 8 toughness = 10 pursuit = 2 }
 		forest = { toughness = 8 }
-	
+
 		arctic = { damage = 6 toughness = 7 pursuit = 2 }
 	}
 	buy_cost = { gold = 58 }
@@ -628,7 +628,7 @@ gauredain_wildlings = {
 		taiga = { damage = 12 toughness = 8 screen = 24 }
 		deep_forest = { damage = 12 toughness = 8 screen = 24 }
 		hills = { damage = 6 toughness = 4 screen = 8 }
-	
+
 		arctic = { damage = 6 toughness = 6 pursuit = 5 }
 	}
 	buy_cost = { gold = 76 }
@@ -663,7 +663,7 @@ gauredain_wolf_skinchangers = {
 		deep_forest = { damage = 18 toughness = 12 pursuit = 20 screen = 20 }
 		hills = { damage = 8 toughness = 6 pursuit = 10 screen = 10 }
 		mountains = { damage = 6 toughness = 6 pursuit = 8 screen = 8 }
-	
+
 		arctic = { damage = 12 toughness = 8 pursuit = 15 screen = 15 }
 	}
 
@@ -683,10 +683,10 @@ gauredain_wolf_skinchangers = {
 	allowed_in_hired_troops = no
 }
 
-############################
+# ============================================================
 # ADLANTRIM
 # Elven-derived doctrine, but intentionally much weaker than true elves.
-############################
+# ============================================================
 
 adlantrim_blades = {
 	type = heavy_infantry
@@ -703,7 +703,7 @@ adlantrim_blades = {
 	terrain_bonus = {
 		mountains = { damage = 9 toughness = 8 }
 		taiga = { damage = 8 toughness = 8 screen = 3 }
-	
+
 		arctic = { damage = 8 toughness = 8 }
 	}
 	buy_cost = { gold = 118 }
@@ -732,7 +732,7 @@ adlantrim_archers = {
 		taiga = { damage = 12 toughness = 6 screen = 4 }
 		forest = { damage = 12 toughness = 6 screen = 4 }
 		hills = { damage = 8 toughness = 4 }
-	
+
 		arctic = { damage = 9 toughness = 5 }
 	}
 	buy_cost = { gold = 108 }
@@ -762,7 +762,7 @@ adlantrim_spears = {
 		mountains = { damage = 7 toughness = 10 screen = 3 }
 		taiga = { damage = 6 toughness = 9 screen = 3 }
 		hills = { damage = 5 toughness = 7 screen = 2 }
-	
+
 		arctic = { damage = 5 toughness = 9 screen = 3 }
 	}
 	buy_cost = { gold = 112 }
@@ -791,7 +791,7 @@ adlantrim_scouts = {
 		taiga = { damage = 8 toughness = 8 pursuit = 8 screen = 8 }
 		forest = { damage = 8 toughness = 8 pursuit = 8 screen = 8 }
 		mountains = { damage = 5 toughness = 5 pursuit = 5 screen = 5 }
-	
+
 		arctic = { damage = 8 toughness = 8 pursuit = 8 screen = 8 }
 	}
 	buy_cost = { gold = 86 }
@@ -805,10 +805,9 @@ adlantrim_scouts = {
 }
 
 
-
-############################
+# ============================================================
 # ICE SPIRIT
-############################
+# ============================================================
 
 frostbound_spirits = {
 	access_through_subject = { lotr_orc_can_recruit_from_subject = no }
@@ -854,7 +853,7 @@ frostbound_spirits = {
 		desert = { damage = -26 toughness = -22 pursuit = -12 screen = -10 }
 		red_desert = { damage = -26 toughness = -22 pursuit = -12 screen = -10 }
 		dune_sea = { damage = -65 toughness = -55 pursuit = -55 screen = -45 }
-	
+
 		arctic = { damage = 30 toughness = 25 pursuit = 20 screen = 18 }
 	}
 
@@ -871,9 +870,9 @@ frostbound_spirits = {
 }
 
 
-############################
+# ============================================================
 # ZOMBIES
-############################
+# ============================================================
 
 frozen_dead = {
 	access_through_subject = { lotr_orc_can_recruit_from_subject = no }
@@ -917,7 +916,7 @@ frozen_dead = {
 		desert = { damage = -8 toughness = -4 }
 		red_desert = { damage = -8 toughness = -4 }
 		dune_sea = { damage = -18 toughness = -8 }
-	
+
 		arctic = { damage = 5 toughness = 5 }
 	}
 
@@ -998,9 +997,9 @@ rime_wraiths = {
 # Normal cultural troops: arctic terrain bonuses, no winter_bonus blocks.
 
 
-############################
+# ============================================================
 # FROSTWOOD RANGERS
-############################
+# ============================================================
 
 frostwood_rangers = {
 	type = archers
@@ -1059,9 +1058,9 @@ frostwood_rangers = {
 }
 
 
-############################
+# ============================================================
 # FROSTWOOD WARDENS
-############################
+# ============================================================
 
 frostwood_wardens = {
 	type = pikemen
@@ -1123,9 +1122,9 @@ frostwood_wardens = {
 }
 
 
-############################
+# ============================================================
 # FROSTWOOD STALKERS
-############################
+# ============================================================
 
 frostwood_stalkers = {
 	type = skirmishers

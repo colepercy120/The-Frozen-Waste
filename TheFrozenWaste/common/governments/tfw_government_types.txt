@@ -23,7 +23,7 @@ elven_government = {
 	royal_court = any
 
 	fallback = 1
-	
+
 	supply_limit_mult_for_others = -0.5 # Elven lands should not be easily taken by non-elves
 
 	primary_holding = elven_holding
@@ -38,8 +38,8 @@ elven_government = {
 
 	character_modifier = { # No levies from non-elven vassals
 		feudal_government_levy_contribution_add = -1
-	#	republic_government_tax_contribution_add = -1
-	#	theocracy_government_tax_contribution_add = -1
+	# republic_government_tax_contribution_add = -1
+	# theocracy_government_tax_contribution_add = -1
 		clan_government_levy_contribution_add = -1
 		tribal_government_levy_contribution_add = -1
 		wanua_government_levy_contribution_add = -1
@@ -57,7 +57,7 @@ elven_government = {
 
 	ai = {
 		use_lifestyle = yes
-		#start_murders = no #No longer used apparently
+		# start_murders = no #No longer used apparently
 		arrange_marriage = yes
 		use_goals = yes
 		use_decisions = yes
@@ -75,6 +75,6 @@ elven_government = {
 		government_uses_domain_limit
 	}
 	# color = { 48 69 41 } # Forest green
-	color = hsv{ 0.39 0.93 0.54 } #Vanilla Clan
+	color = hsv{ 0.39 0.93 0.54 } # Vanilla Clan
 }
 

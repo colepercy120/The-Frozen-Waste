@@ -430,7 +430,7 @@
           c_ruinfalas_3: "Janiyali"
              b_ruinfalas_17: "Iyakotao"
              b_ruinfalas_18: "Jowanawae"
-             b_ruinfalas_20: "PLACEHOLDER Barony Ruinfalas 20"
+             b_ruinfalas_20: "Ruinfalas Watch"
              b_ruinfalas_19: "Kenamowao"
           c_ruinfalas_4: "Cahanakie"
              b_ruinfalas_26: "Lowaqawai"
@@ -442,7 +442,7 @@
              b_ruinfalas_4: "Hawiwakia"
              b_ruinfalas_5: "Iyamakie"
              b_ruinfalas_8: "Jowapayaa"
-             b_ruinfalas_10: "PLACEHOLDER Barony Ruinfalas 10"
+             b_ruinfalas_10: "Ruinfalas Haven"
           c_ruinfalas_6: "Kenanokao"
              b_ruinfalas_1: "Rawapayae"
              b_ruinfalas_2: "Iyanokai"
@@ -1862,7 +1862,7 @@
  k_emyn_nimbrith: "Rubble Mountains"
     d_emyn_nimbrith: "Rubble Mountains"
  d_anghoth: "Anghoth"
- 
+
   d_beowulf_company: "Graw's Company"
  d_beowulf_company_adj: "Graw's"
 
@@ -1901,11 +1901,11 @@
 
  h_winter: "Winter"
  h_winter_adj: "Winter"
- 
+
  e_cuind: "Cuind"
  e_cuind_adj: "Cuindi"
- 
+
  d_eitris_expedition: "Eitri's Expedition"
- d_eitris_expedition_adj: "Eitri's" 
- 
- 
+ d_eitris_expedition_adj: "Eitri's"
+
+

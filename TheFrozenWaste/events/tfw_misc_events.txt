@@ -1,6 +1,6 @@
 ﻿namespace = tfw_misc
 
-tfw_misc.001 = {	# Formation of Rast Losnath
+tfw_misc.001 = { # Formation of Rast Losnath
 	type = character_event
 	title = tfw_misc.001.t
 	desc = tfw_misc.001.desc
@@ -19,7 +19,7 @@ tfw_misc.001 = {	# Formation of Rast Losnath
 	}
 }
 
-tfw_misc.002 = {	# Formation of Muilfalas
+tfw_misc.002 = { # Formation of Muilfalas
 	type = character_event
 	title = tfw_misc.002.t
 	desc = tfw_misc.002.desc
@@ -38,7 +38,7 @@ tfw_misc.002 = {	# Formation of Muilfalas
 	}
 }
 
-tfw_misc.003 = {	# Formation of Gaurmar
+tfw_misc.003 = { # Formation of Gaurmar
 	type = character_event
 	title = tfw_misc.003.t
 	desc = tfw_misc.003.desc
@@ -54,7 +54,7 @@ tfw_misc.003 = {	# Formation of Gaurmar
 	}
 }
 
-tfw_misc.004 = {	# Formation of Fordor
+tfw_misc.004 = { # Formation of Fordor
 	type = character_event
 	title = tfw_misc.004.t
 	desc = tfw_misc.004.desc
@@ -62,7 +62,7 @@ tfw_misc.004 = {	# Formation of Fordor
 	override_background = {
 		reference = docks_dunedain
 	}
-	
+
 
 	left_portrait = {
 		character = root
@@ -74,7 +74,7 @@ tfw_misc.004 = {	# Formation of Fordor
 	}
 }
 
-tfw_misc.005 = {	# Formation of Lossoth
+tfw_misc.005 = { # Formation of Lossoth
 	type = character_event
 	title = tfw_misc.005.t
 	desc = tfw_misc.005.desc
@@ -93,7 +93,7 @@ tfw_misc.005 = {	# Formation of Lossoth
 	}
 }
 
-tfw_misc.006 = {	# Formation of Forochel
+tfw_misc.006 = { # Formation of Forochel
 	type = character_event
 	title = tfw_misc.006.t
 	desc = tfw_misc.006.desc
@@ -112,7 +112,7 @@ tfw_misc.006 = {	# Formation of Forochel
 	}
 }
 
-tfw_misc.007 = {	# Formation of Northern Territories
+tfw_misc.007 = { # Formation of Northern Territories
 	type = character_event
 	title = tfw_misc.007.t
 	desc = tfw_misc.007.desc
@@ -131,7 +131,7 @@ tfw_misc.007 = {	# Formation of Northern Territories
 	}
 }
 
-tfw_misc.008 = {	# Formation of Avari
+tfw_misc.008 = { # Formation of Avari
 	type = character_event
 	title = tfw_misc.008.t
 	desc = tfw_misc.008.desc
@@ -150,7 +150,7 @@ tfw_misc.008 = {	# Formation of Avari
 	}
 }
 
-tfw_misc.009 = {	# Formation of Forodwaith
+tfw_misc.009 = { # Formation of Forodwaith
 	type = character_event
 	title = tfw_misc.009.t
 	desc = tfw_misc.009.desc
@@ -169,7 +169,7 @@ tfw_misc.009 = {	# Formation of Forodwaith
 	}
 }
 
-tfw_misc.010 = {	# Formation of Winter
+tfw_misc.010 = { # Formation of Winter
 	type = character_event
 	title = tfw_misc.010.t
 	desc = tfw_misc.010.desc

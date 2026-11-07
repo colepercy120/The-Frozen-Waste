@@ -1,7 +1,7 @@
-﻿############################################################
+﻿# ============================================================
 # ERYD RHIVAMAR - ADLANTRIM ORC DYNASTIC HISTORY
-# Generated against tfw_landed_titles(2).txt and tfw_forodwaith_titles(3).txt
-#
+# Title references match tfw_landed_titles.txt and tfw_forodwaith_titles.txt.
+# ============================================================
 # Design:
 # - culture = adlantrim
 # - religion = faith_unbowed
@@ -9,11 +9,11 @@
 # - tfw_lineofadlantrim_mornaer_001 is the Orc Father and remains alive through 7000.
 # - all later ruling/spousal branches descend from the original twelve.
 # - lifespan targets use exponential decay from ~3000 years (generation 1)
-#   to ~215 years (generation 12).
+# to ~215 years (generation 12).
 # - generation 12 is the current ruling generation at 6787.
 # - generation 13 begins before 6787 so the current rulers have children at the bookmark; later generations extend the lines toward 7100.
 # - names are drawn from the existing elven-character name tokens where possible.
-############################################################
+# ============================================================
 
 tfw_lineofadlantrim_mornaer_001 = {
 	name = tfw_lineofadlantrim_mornaer_001_name
@@ -30,7 +30,7 @@ tfw_lineofadlantrim_mornaer_001 = {
 	trait = education_stewardship_4
 	trait = orc_father
 	trait = veteran_of_war_of_wrath
-	
+
 	give_nickname = nick_adar
 
 	diplomacy = 8
@@ -21733,16 +21733,16 @@ tfw_lineofadlantrim_emelvar_007 = {
 	}
 }
 
-############################################################
+# ============================================================
 # ADDITIONAL ADLANTRIM GENERATIONS - EXTENSION TO ~7100
 # Generation 14: born primarily in the mid/late 6900s.
 # Generation 15: final generation born approximately 7090-7110.
 # Existing branch dynasties and cross-branch marriage pattern preserved.
-############################################################
+# ============================================================
 
-############################################################
+# ============================================================
 # GENERATION 14
-############################################################
+# ============================================================
 
 tfw_lineofadlantrim_aerendil_032 = {
 	name = tfw_lineofadlantrim_aerendil_032_name
@@ -23428,9 +23428,9 @@ tfw_lineofadlantrim_emelvar_010 = {
 	}
 }
 
-############################################################
+# ============================================================
 # GENERATION 15
-############################################################
+# ============================================================
 
 tfw_lineofadlantrim_aerendil_035 = {
 	name = tfw_lineofadlantrim_aerendil_035_name

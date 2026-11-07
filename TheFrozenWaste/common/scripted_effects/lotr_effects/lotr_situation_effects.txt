@@ -1,10 +1,12 @@
-﻿#####################
-## General Effects ##
-#####################
+﻿# ============================================================
+# General Effects
+# ============================================================
 
 start_situations_effect = { # Fired in on_game_start, starts all situations and struggles
 
-	### Start Elven Hope Situation ###
+	# ============================================================
+	# Start Elven Hope Situation
+	# ============================================================
 	start_situation = {
 		type = elven_hope_situation
 		start_phase = situation_elven_waning
@@ -40,7 +42,9 @@ start_situations_effect = { # Fired in on_game_start, starts all situations and 
 		set_historical_hope_effect = yes
 	}
 
-	### Initialise Durin's Bane Struggle
+	# ============================================================
+	# Initialise Durin's Bane Struggle
+	# ============================================================
 	start_struggle = { # Balrog flees after defeat in War of Wrath, settling in Moria
 		struggle_type = balrog_struggle
 		start_phase = struggle_balrog_phase_slumbering
@@ -77,24 +81,26 @@ start_situations_effect = { # Fired in on_game_start, starts all situations and 
 		}
 	}
 
-	### Thani-Hazad Struggle
+	# ============================================================
+	# Thani-Hazad Struggle
+	# ============================================================
 	set_global_variable = {
 		name = th_confederation_val
 		value = 0
 	}
 }
- 
- ###################################
-###								  ###
-###		Elven Situation Effects	  ###
-###								  ###
- ###################################
 
-### Situation Phase Effects ###
+ # ============================================================
+# Elven Situation Effects
+# ============================================================
+
+# ============================================================
+# Situation Phase Effects
+# ============================================================
 
 # Move situation to the next phase according to current hope threshold
 update_lorien_phase_effect = { # Lorien & Imladris
-	update_X_region_phase_effect = { 
+	update_X_region_phase_effect = {
 		REGION_HOPE_VAR = var:lorien_hope_value
 		REGION_CAPITAL = title:c_caras_galadhon
 		SUB_REGION = rivendell_lorien
@@ -102,7 +108,7 @@ update_lorien_phase_effect = { # Lorien & Imladris
 }
 
 update_lindon_phase_effect = { # Lindon
-	update_X_region_phase_effect = { 
+	update_X_region_phase_effect = {
 		REGION_HOPE_VAR = var:lindon_hope_value
 		REGION_CAPITAL = title:c_mithrhulond
 		SUB_REGION = lindon
@@ -110,7 +116,7 @@ update_lindon_phase_effect = { # Lindon
 }
 
 update_greenwood_phase_effect = { # Greenwood
-	update_X_region_phase_effect = { 
+	update_X_region_phase_effect = {
 		REGION_HOPE_VAR = var:greenwood_hope_value
 		REGION_CAPITAL = title:c_aradhrynd
 		SUB_REGION = lasgalen
@@ -118,7 +124,7 @@ update_greenwood_phase_effect = { # Greenwood
 }
 
 update_ormal_phase_effect = { # Bay of Ormal
-	update_X_region_phase_effect = { 
+	update_X_region_phase_effect = {
 		REGION_HOPE_VAR = var:ormal_hope_value
 		REGION_CAPITAL = title:c_carnesra
 		SUB_REGION = bay_of_ormal
@@ -126,7 +132,7 @@ update_ormal_phase_effect = { # Bay of Ormal
 }
 
 update_kinnlai_phase_effect = { # Lands of the Kinn-lai
-	update_X_region_phase_effect = { 
+	update_X_region_phase_effect = {
 		REGION_HOPE_VAR = var:kinnlai_hope_value
 		REGION_CAPITAL = title:c_ayahopa
 		SUB_REGION = utter_south
@@ -134,7 +140,7 @@ update_kinnlai_phase_effect = { # Lands of the Kinn-lai
 }
 
 update_drel_phase_effect = { # Drel & Thani-Hazad
-	update_X_region_phase_effect = { 
+	update_X_region_phase_effect = {
 		REGION_HOPE_VAR = var:drel_hope_value
 		REGION_CAPITAL = title:c_ainglad
 		SUB_REGION = thani_hazad
@@ -142,7 +148,7 @@ update_drel_phase_effect = { # Drel & Thani-Hazad
 }
 
 update_sumarieth_phase_effect = { # Ray, Bellakar, Tulwang
-	update_X_region_phase_effect = { 
+	update_X_region_phase_effect = {
 		REGION_HOPE_VAR = var:sumarieth_hope_value
 		REGION_CAPITAL = title:c_bozisha_dar
 		SUB_REGION = bay_of_tulwang
@@ -150,7 +156,7 @@ update_sumarieth_phase_effect = { # Ray, Bellakar, Tulwang
 }
 
 update_haradwaith_phase_effect = { # Far and Near Harad, plus the Dune Sea
-	update_X_region_phase_effect = { 
+	update_X_region_phase_effect = {
 		REGION_HOPE_VAR = var:haradwaith_hope_value
 		REGION_CAPITAL = title:c_mazharath
 		SUB_REGION = haradwaith
@@ -158,7 +164,7 @@ update_haradwaith_phase_effect = { # Far and Near Harad, plus the Dune Sea
 }
 
 update_nelornieth_phase_effect = { # Nelornieth and wider Rhûn
-	update_X_region_phase_effect = { 
+	update_X_region_phase_effect = {
 		REGION_HOPE_VAR = var:nelornieth_hope_value
 		REGION_CAPITAL = title:c_caras_torn
 		SUB_REGION = nelornieth
@@ -166,7 +172,7 @@ update_nelornieth_phase_effect = { # Nelornieth and wider Rhûn
 }
 
 update_rhovanion_phase_effect = { # Most of Rhovanion plus the Northern Mountains
-	update_X_region_phase_effect = { 
+	update_X_region_phase_effect = {
 		REGION_HOPE_VAR = var:rhovanion_hope_value
 		REGION_CAPITAL = title:c_dale
 		SUB_REGION = eastern_rhovanion
@@ -174,7 +180,7 @@ update_rhovanion_phase_effect = { # Most of Rhovanion plus the Northern Mountain
 }
 
 update_mumakan_phase_effect = { # Mumakan, Shayn, Yellow Mountains
-	update_X_region_phase_effect = { 
+	update_X_region_phase_effect = {
 		REGION_HOPE_VAR = var:mumakan_hope_value
 		REGION_CAPITAL = title:c_amaru
 		SUB_REGION = mumakan
@@ -182,7 +188,7 @@ update_mumakan_phase_effect = { # Mumakan, Shayn, Yellow Mountains
 }
 
 update_eriador_phase_effect = { # Eriador, Enedhwaith
-	update_X_region_phase_effect = { 
+	update_X_region_phase_effect = {
 		REGION_HOPE_VAR = var:eriador_hope_value
 		REGION_CAPITAL = title:c_fornost
 		SUB_REGION = eriador
@@ -190,7 +196,7 @@ update_eriador_phase_effect = { # Eriador, Enedhwaith
 }
 
 update_gondor_phase_effect = { # Gondor and the White Mountains
-	update_X_region_phase_effect = { 
+	update_X_region_phase_effect = {
 		REGION_HOPE_VAR = var:gondor_hope_value
 		REGION_CAPITAL = title:c_minas_tirith
 		SUB_REGION = gondor
@@ -198,7 +204,7 @@ update_gondor_phase_effect = { # Gondor and the White Mountains
 }
 
 update_mordor_phase_effect = { # Mordor
-	update_X_region_phase_effect = { 
+	update_X_region_phase_effect = {
 		REGION_HOPE_VAR = var:mordor_hope_value
 		REGION_CAPITAL = title:c_barad_dur
 		SUB_REGION = mordor
@@ -206,7 +212,7 @@ update_mordor_phase_effect = { # Mordor
 }
 
 update_forodwaith_phase_effect = { # Forodwaith
-	update_X_region_phase_effect = { 
+	update_X_region_phase_effect = {
 		REGION_HOPE_VAR = var:forodwaith_hope_value
 		REGION_CAPITAL = title:c_aurora_isles_2
 		SUB_REGION = forodwaith
@@ -275,7 +281,9 @@ update_X_region_phase_effect = {
 	}
 }
 
-### Remove excess hope ###
+# ============================================================
+# Remove excess hope
+# ============================================================
 remove_excess_hope_effect = {
 	remove_excess_hope_sub_region_effect = {
 		REGION_HOPE_VAR = lorien_hope_value
@@ -315,7 +323,7 @@ remove_excess_hope_effect = {
 	}
 	remove_excess_hope_sub_region_effect = {
 		REGION_HOPE_VAR = gondor_hope_value
-		SUB_REGION = gondor 
+		SUB_REGION = gondor
 	}
 	remove_excess_hope_sub_region_effect = {
 		REGION_HOPE_VAR = ormal_hope_value
@@ -355,7 +363,9 @@ remove_excess_hope_sub_region_effect = {
 	}
 }
 
-### Cap hope at zero so it can't go below ###
+# ============================================================
+# Cap hope at zero so it can't go below
+# ============================================================
 cap_hope_at_zero_effect = {
 	cap_hope_at_zero_effect_sub_region_effect = {
 		REGION_HOPE_VAR = lorien_hope_value
@@ -395,7 +405,7 @@ cap_hope_at_zero_effect = {
 	}
 	cap_hope_at_zero_effect_sub_region_effect = {
 		REGION_HOPE_VAR = gondor_hope_value
-		SUB_REGION = gondor 
+		SUB_REGION = gondor
 	}
 	cap_hope_at_zero_effect_sub_region_effect = {
 		REGION_HOPE_VAR = ormal_hope_value
@@ -435,9 +445,11 @@ cap_hope_at_zero_effect_sub_region_effect = {
 	}
 }
 
-### Adding and Removing Hope ###
+# ============================================================
+# Adding and Removing Hope
+# ============================================================
 
-# Add/Subtract hope through effect 
+# Add/Subtract hope through effect
 add_elven_hope_effect = {
 	save_scope_as = hope_recipient
 	every_character_situation = {
@@ -530,7 +542,7 @@ add_elven_hope_effect = {
 			save_scope_as = forodwaith_situation
 		}
 	}
-	
+
 	if = {
 		limit = {
 			exists = scope:lorien_situation
@@ -564,9 +576,9 @@ add_elven_hope_effect = {
 				add = $VALUE$
 			}
 		}
-		create_elven_catalyst_for_history = { 
-			VALUE = $VALUE$ 
-			HOPE_EFFECT = $HOPE_EFFECT$ 
+		create_elven_catalyst_for_history = {
+			VALUE = $VALUE$
+			HOPE_EFFECT = $HOPE_EFFECT$
 			SITUATION_REGION = lorien_situation
 		}
 	}
@@ -599,9 +611,9 @@ add_elven_hope_effect = {
 				add = $VALUE$
 			}
 		}
-		create_elven_catalyst_for_history = { 
-			VALUE = $VALUE$ 
-			HOPE_EFFECT = $HOPE_EFFECT$ 
+		create_elven_catalyst_for_history = {
+			VALUE = $VALUE$
+			HOPE_EFFECT = $HOPE_EFFECT$
 			SITUATION_REGION = lindon_situation
 		}
 	}
@@ -628,9 +640,9 @@ add_elven_hope_effect = {
 				add = $VALUE$
 			}
 		}
-		create_elven_catalyst_for_history = { 
-			VALUE = $VALUE$ 
-			HOPE_EFFECT = $HOPE_EFFECT$ 
+		create_elven_catalyst_for_history = {
+			VALUE = $VALUE$
+			HOPE_EFFECT = $HOPE_EFFECT$
 			SITUATION_REGION = greenwood_situation
 		}
 	}
@@ -657,9 +669,9 @@ add_elven_hope_effect = {
 				add = $VALUE$
 			}
 		}
-		create_elven_catalyst_for_history = { 
-			VALUE = $VALUE$ 
-			HOPE_EFFECT = $HOPE_EFFECT$ 
+		create_elven_catalyst_for_history = {
+			VALUE = $VALUE$
+			HOPE_EFFECT = $HOPE_EFFECT$
 			SITUATION_REGION = ormal_situation
 		}
 	}
@@ -700,9 +712,9 @@ add_elven_hope_effect = {
 				add = $VALUE$
 			}
 		}
-		create_elven_catalyst_for_history = { 
-			VALUE = $VALUE$ 
-			HOPE_EFFECT = $HOPE_EFFECT$ 
+		create_elven_catalyst_for_history = {
+			VALUE = $VALUE$
+			HOPE_EFFECT = $HOPE_EFFECT$
 			SITUATION_REGION = kinnlai_situation
 		}
 	}
@@ -735,9 +747,9 @@ add_elven_hope_effect = {
 				add = $VALUE$
 			}
 		}
-		create_elven_catalyst_for_history = { 
-			VALUE = $VALUE$ 
-			HOPE_EFFECT = $HOPE_EFFECT$ 
+		create_elven_catalyst_for_history = {
+			VALUE = $VALUE$
+			HOPE_EFFECT = $HOPE_EFFECT$
 			SITUATION_REGION = drel_situation
 		}
 	}
@@ -772,9 +784,9 @@ add_elven_hope_effect = {
 				add = $VALUE$
 			}
 		}
-		create_elven_catalyst_for_history = { 
-			VALUE = $VALUE$ 
-			HOPE_EFFECT = $HOPE_EFFECT$ 
+		create_elven_catalyst_for_history = {
+			VALUE = $VALUE$
+			HOPE_EFFECT = $HOPE_EFFECT$
 			SITUATION_REGION = sumarieth_situation
 		}
 	}
@@ -809,9 +821,9 @@ add_elven_hope_effect = {
 				add = $VALUE$
 			}
 		}
-		create_elven_catalyst_for_history = { 
-			VALUE = $VALUE$ 
-			HOPE_EFFECT = $HOPE_EFFECT$ 
+		create_elven_catalyst_for_history = {
+			VALUE = $VALUE$
+			HOPE_EFFECT = $HOPE_EFFECT$
 			SITUATION_REGION = haradwaith_situation
 		}
 	}
@@ -820,8 +832,8 @@ add_elven_hope_effect = {
 			exists = scope:nelornieth_situation
 			OR = {
 				any_realm_province = {
-					OR = { 
-						geographical_region = middleearth_west_rhovanion_dorwinion  
+					OR = {
+						geographical_region = middleearth_west_rhovanion_dorwinion
 						geographical_region = middleearth_rhun_seaofrhun
 						geographical_region = middleearth_rhun_nurunkizdin
 					}
@@ -830,8 +842,8 @@ add_elven_hope_effect = {
 					is_landless_adventurer = yes
 					domicile ?= {
 						domicile_location = {
-							OR = { 
-								geographical_region = middleearth_west_rhovanion_dorwinion  
+							OR = {
+								geographical_region = middleearth_west_rhovanion_dorwinion
 								geographical_region = middleearth_rhun_seaofrhun
 								geographical_region = middleearth_rhun_nurunkizdin
 							}
@@ -846,9 +858,9 @@ add_elven_hope_effect = {
 				add = $VALUE$
 			}
 		}
-		create_elven_catalyst_for_history = { 
-			VALUE = $VALUE$ 
-			HOPE_EFFECT = $HOPE_EFFECT$ 
+		create_elven_catalyst_for_history = {
+			VALUE = $VALUE$
+			HOPE_EFFECT = $HOPE_EFFECT$
 			SITUATION_REGION = nelornieth_situation
 		}
 	}
@@ -883,9 +895,9 @@ add_elven_hope_effect = {
 				add = $VALUE$
 			}
 		}
-		create_elven_catalyst_for_history = { 
-			VALUE = $VALUE$ 
-			HOPE_EFFECT = $HOPE_EFFECT$ 
+		create_elven_catalyst_for_history = {
+			VALUE = $VALUE$
+			HOPE_EFFECT = $HOPE_EFFECT$
 			SITUATION_REGION = rhovanion_situation
 		}
 	}
@@ -895,7 +907,7 @@ add_elven_hope_effect = {
 			OR = {
 				any_realm_province = {
 					OR = {
-						geographical_region = middleearth_uttersouth_mumakan_dushera    
+						geographical_region = middleearth_uttersouth_mumakan_dushera
 						geographical_region = middleearth_uttersouth_mumakan_mumakan
 						geographical_region = middleearth_uttersouth_mumakan_tuktan
 						geographical_region = middleearth_uttersouth_shayn
@@ -907,7 +919,7 @@ add_elven_hope_effect = {
 					domicile ?= {
 						domicile_location = {
 							OR = {
-								geographical_region = middleearth_uttersouth_mumakan_dushera    
+								geographical_region = middleearth_uttersouth_mumakan_dushera
 								geographical_region = middleearth_uttersouth_mumakan_mumakan
 								geographical_region = middleearth_uttersouth_mumakan_tuktan
 								geographical_region = middleearth_uttersouth_shayn
@@ -924,9 +936,9 @@ add_elven_hope_effect = {
 				add = $VALUE$
 			}
 		}
-		create_elven_catalyst_for_history = { 
-			VALUE = $VALUE$ 
-			HOPE_EFFECT = $HOPE_EFFECT$ 
+		create_elven_catalyst_for_history = {
+			VALUE = $VALUE$
+			HOPE_EFFECT = $HOPE_EFFECT$
 			SITUATION_REGION = mumakan_situation
 		}
 	}
@@ -937,7 +949,7 @@ add_elven_hope_effect = {
 				any_realm_province = {
 					OR = {
 						geographical_region = middleearth_west_arnor
-						
+
 						geographical_region = middleearth_west_enedhwaith
 					}
 				}
@@ -947,7 +959,7 @@ add_elven_hope_effect = {
 						domicile_location = {
 							OR = {
 								geographical_region = middleearth_west_arnor
-								
+
 								geographical_region = middleearth_west_enedhwaith
 							}
 						}
@@ -961,9 +973,9 @@ add_elven_hope_effect = {
 				add = $VALUE$
 			}
 		}
-		create_elven_catalyst_for_history = { 
-			VALUE = $VALUE$ 
-			HOPE_EFFECT = $HOPE_EFFECT$ 
+		create_elven_catalyst_for_history = {
+			VALUE = $VALUE$
+			HOPE_EFFECT = $HOPE_EFFECT$
 			SITUATION_REGION = eriador_situation
 		}
 	}
@@ -1000,9 +1012,9 @@ add_elven_hope_effect = {
 				add = $VALUE$
 			}
 		}
-		create_elven_catalyst_for_history = { 
-			VALUE = $VALUE$ 
-			HOPE_EFFECT = $HOPE_EFFECT$ 
+		create_elven_catalyst_for_history = {
+			VALUE = $VALUE$
+			HOPE_EFFECT = $HOPE_EFFECT$
 			SITUATION_REGION = gondor_situation
 		}
 	}
@@ -1035,9 +1047,9 @@ add_elven_hope_effect = {
 				add = $VALUE$
 			}
 		}
-		create_elven_catalyst_for_history = { 
-			VALUE = $VALUE$ 
-			HOPE_EFFECT = $HOPE_EFFECT$ 
+		create_elven_catalyst_for_history = {
+			VALUE = $VALUE$
+			HOPE_EFFECT = $HOPE_EFFECT$
 			SITUATION_REGION = mordor_situation
 		}
 	}
@@ -1047,9 +1059,9 @@ add_elven_hope_effect = {
 			OR = {
 				any_realm_province = {
 					OR = {
-						
+
 						geographical_region = middleearth_forodwaith
-						
+
 					}
 				}
 				AND = {
@@ -1057,9 +1069,9 @@ add_elven_hope_effect = {
 					domicile ?= {
 						domicile_location = {
 							OR = {
-								
+
 								geographical_region = middleearth_forodwaith
-								
+
 							}
 						}
 					}
@@ -1072,9 +1084,9 @@ add_elven_hope_effect = {
 				add = $VALUE$
 			}
 		}
-		create_elven_catalyst_for_history = { 
-			VALUE = $VALUE$ 
-			HOPE_EFFECT = $HOPE_EFFECT$ 
+		create_elven_catalyst_for_history = {
+			VALUE = $VALUE$
+			HOPE_EFFECT = $HOPE_EFFECT$
 			SITUATION_REGION = forodwaith_situation
 		}
 	}
@@ -1174,7 +1186,7 @@ add_elven_hope_global_effect = {
 			save_scope_as = forodwaith_situation
 		}
 	}
-	
+
 	scope:lorien_situation = {
 		change_variable = {
 			name = lorien_hope_value
@@ -1265,92 +1277,94 @@ add_elven_hope_global_effect = {
 			add = $VALUE$
 		}
 	}
-	create_elven_catalyst_for_history = { 
-		VALUE = $VALUE$ 
-		HOPE_EFFECT = $HOPE_EFFECT$ 
+	create_elven_catalyst_for_history = {
+		VALUE = $VALUE$
+		HOPE_EFFECT = $HOPE_EFFECT$
 		SITUATION_REGION = lindon_situation
 	}
-	create_elven_catalyst_for_history = { 
-		VALUE = $VALUE$ 
-		HOPE_EFFECT = $HOPE_EFFECT$ 
+	create_elven_catalyst_for_history = {
+		VALUE = $VALUE$
+		HOPE_EFFECT = $HOPE_EFFECT$
 		SITUATION_REGION = lorien_situation
 	}
-	create_elven_catalyst_for_history = { 
-		VALUE = $VALUE$ 
-		HOPE_EFFECT = $HOPE_EFFECT$ 
+	create_elven_catalyst_for_history = {
+		VALUE = $VALUE$
+		HOPE_EFFECT = $HOPE_EFFECT$
 		SITUATION_REGION = greenwood_situation
 	}
-	create_elven_catalyst_for_history = { 
-		VALUE = $VALUE$ 
-		HOPE_EFFECT = $HOPE_EFFECT$ 
+	create_elven_catalyst_for_history = {
+		VALUE = $VALUE$
+		HOPE_EFFECT = $HOPE_EFFECT$
 		SITUATION_REGION = ormal_situation
 	}
-	create_elven_catalyst_for_history = { 
-		VALUE = $VALUE$ 
-		HOPE_EFFECT = $HOPE_EFFECT$ 
+	create_elven_catalyst_for_history = {
+		VALUE = $VALUE$
+		HOPE_EFFECT = $HOPE_EFFECT$
 		SITUATION_REGION = kinnlai_situation
 	}
-	create_elven_catalyst_for_history = { 
-		VALUE = $VALUE$ 
-		HOPE_EFFECT = $HOPE_EFFECT$ 
+	create_elven_catalyst_for_history = {
+		VALUE = $VALUE$
+		HOPE_EFFECT = $HOPE_EFFECT$
 		SITUATION_REGION = drel_situation
 	}
-	create_elven_catalyst_for_history = { 
-		VALUE = $VALUE$ 
-		HOPE_EFFECT = $HOPE_EFFECT$ 
+	create_elven_catalyst_for_history = {
+		VALUE = $VALUE$
+		HOPE_EFFECT = $HOPE_EFFECT$
 		SITUATION_REGION = sumarieth_situation
 	}
-	create_elven_catalyst_for_history = { 
-		VALUE = $VALUE$ 
-		HOPE_EFFECT = $HOPE_EFFECT$ 
+	create_elven_catalyst_for_history = {
+		VALUE = $VALUE$
+		HOPE_EFFECT = $HOPE_EFFECT$
 		SITUATION_REGION = haradwaith_situation
 	}
-	create_elven_catalyst_for_history = { 
-		VALUE = $VALUE$ 
-		HOPE_EFFECT = $HOPE_EFFECT$ 
+	create_elven_catalyst_for_history = {
+		VALUE = $VALUE$
+		HOPE_EFFECT = $HOPE_EFFECT$
 		SITUATION_REGION = nelornieth_situation
 	}
-	create_elven_catalyst_for_history = { 
-		VALUE = $VALUE$ 
-		HOPE_EFFECT = $HOPE_EFFECT$ 
+	create_elven_catalyst_for_history = {
+		VALUE = $VALUE$
+		HOPE_EFFECT = $HOPE_EFFECT$
 		SITUATION_REGION = rhovanion_situation
 	}
-	create_elven_catalyst_for_history = { 
-		VALUE = $VALUE$ 
-		HOPE_EFFECT = $HOPE_EFFECT$ 
+	create_elven_catalyst_for_history = {
+		VALUE = $VALUE$
+		HOPE_EFFECT = $HOPE_EFFECT$
 		SITUATION_REGION = mumakan_situation
 	}
-	create_elven_catalyst_for_history = { 
-		VALUE = $VALUE$ 
-		HOPE_EFFECT = $HOPE_EFFECT$ 
+	create_elven_catalyst_for_history = {
+		VALUE = $VALUE$
+		HOPE_EFFECT = $HOPE_EFFECT$
 		SITUATION_REGION = eriador_situation
 	}
-	create_elven_catalyst_for_history = { 
-		VALUE = $VALUE$ 
-		HOPE_EFFECT = $HOPE_EFFECT$ 
+	create_elven_catalyst_for_history = {
+		VALUE = $VALUE$
+		HOPE_EFFECT = $HOPE_EFFECT$
 		SITUATION_REGION = gondor_situation
 	}
-	create_elven_catalyst_for_history = { 
-		VALUE = $VALUE$ 
-		HOPE_EFFECT = $HOPE_EFFECT$ 
+	create_elven_catalyst_for_history = {
+		VALUE = $VALUE$
+		HOPE_EFFECT = $HOPE_EFFECT$
 		SITUATION_REGION = mordor_situation
 	}
-	create_elven_catalyst_for_history = { 
-		VALUE = $VALUE$ 
-		HOPE_EFFECT = $HOPE_EFFECT$ 
+	create_elven_catalyst_for_history = {
+		VALUE = $VALUE$
+		HOPE_EFFECT = $HOPE_EFFECT$
 		SITUATION_REGION = forodwaith_situation
 	}
 	custom_description = { text = add_elven_hope_global_desc value = $VALUE$ }
 }
 
-### Misc Effects ###
+# ============================================================
+# Misc Effects
+# ============================================================
 
 # Apply development penalty when hope is low
 check_elven_development_penalties_effect = {
 	every_situation_sub_region = {
 		every_situation_sub_region_participant = {
-			limit = { 
-				is_independent_ruler = yes 
+			limit = {
+				is_independent_ruler = yes
 				faith_is_evil = no
 			}
 			trigger_event = {
@@ -1382,27 +1396,27 @@ create_elven_catalyst_for_history = {
 			name = elven_hope_catalyst_positive_or_negative
 			value = flag:positive_effect
 		}
-	} 
+	}
 	else_if = {
 		limit = { $VALUE$ < 0 }
 		set_variable = {
 			name = elven_hope_catalyst_positive_or_negative
 			value = flag:negative_effect
 		}
-	} 
+	}
 	else = {
 		set_variable = {
 			name = elven_hope_catalyst_positive_or_negative
 			value = flag:positive_effect
 		}
 	}
-	
+
 	create_story = story_elven_hope_catalyst
 	random_owned_story = {
 		limit = {
 			story_type = story_elven_hope_catalyst
-			save_temporary_scope_as = this_story 
-			
+			save_temporary_scope_as = this_story
+
 			NOT = {
 				scope:$SITUATION_REGION$ = {
 					is_target_in_variable_list = {
@@ -1425,14 +1439,14 @@ create_elven_catalyst_for_history = {
 	remove_variable = elven_hope_catalyst_specific_situation
 }
 
-# Old effect, commented out and saved if needed 
+# Old effect, commented out and saved if needed
 # check_evil_rulers_per_subregion_effect = {
     # situation_sub_region:rivendell_lorien = {
         # every_situation_sub_region_county = {
             # limit = {
                 # holder = {
                     # is_independent_ruler = yes
-					# faith_is_evil = yes 
+					# faith_is_evil = yes
                 # }
             # }
 
@@ -1502,18 +1516,18 @@ create_elven_catalyst_for_history = {
 				# limit = { any_situation_sub_region_participant = { is_ai = no } }
 				# ordered_situation_sub_region_participant = {
 					# limit = { is_ai = no }
-					# trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly 
-					# trigger_event = { # Fire an event that resets these variables after 2 days 
-						# id = elven_hope.0031 
+					# trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly
+					# trigger_event = { # Fire an event that resets these variables after 2 days
+						# id = elven_hope.0031
 						# days = 2
 					# }
 				# }
 			# }
 			# else = {
 				# ordered_situation_sub_region_participant = {
-					# trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly 
-					# trigger_event = { # Fire an event that resets these variables after 2 days 
-						# id = elven_hope.0031 
+					# trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly
+					# trigger_event = { # Fire an event that resets these variables after 2 days
+						# id = elven_hope.0031
 						# days = 2
 					# }
 				# }
@@ -1522,7 +1536,7 @@ create_elven_catalyst_for_history = {
 	# }
 # }
 
-# Counting evil counties in a subregion 
+# Counting evil counties in a subregion
 # count_evil_counties_per_subregion_effect = {
 	# every_situation_sub_region = {
 		# limit = {
@@ -1532,7 +1546,7 @@ create_elven_catalyst_for_history = {
 		# }
 		# set_variable = {
 			# name = evil_counties_per_subregion
-			# value = 0 
+			# value = 0
 		# }
 		# every_situation_sub_region_county = {
 			# limit = {
@@ -1555,18 +1569,18 @@ create_elven_catalyst_for_history = {
 				# limit = { any_situation_sub_region_participant = { is_ai = no } }
 				# ordered_situation_sub_region_participant = {
 					# limit = { is_ai = no }
-					# trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly 
-					# # trigger_event = { # Fire an event that resets these variables after 2 days 
-						# # id = elven_hope.0031 
+					# trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly
+					# # trigger_event = { # Fire an event that resets these variables after 2 days
+						# # id = elven_hope.0031
 						# # days = 2
 					# # }
 				# }
 			# }
 			# else = {
 				# ordered_situation_sub_region_participant = {
-					# trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly 
-					# # trigger_event = { # Fire an event that resets these variables after 2 days 
-						# # id = elven_hope.0031 
+					# trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly
+					# # trigger_event = { # Fire an event that resets these variables after 2 days
+						# # id = elven_hope.0031
 						# # days = 2
 					# # }
 				# }
@@ -1575,7 +1589,7 @@ create_elven_catalyst_for_history = {
 	# }
 # }
 
-# Counting evil rulers in a subregion 
+# Counting evil rulers in a subregion
 check_evil_rulers_per_subregion_effect = {
     situation_sub_region:rivendell_lorien = {
         if = {
@@ -1586,7 +1600,7 @@ check_evil_rulers_per_subregion_effect = {
 			}
 			set_variable = {
 				name = evil_counties_per_subregion
-				value = 0 
+				value = 0
 			}
 			every_situation_sub_region_county = {
 				limit = {
@@ -1608,13 +1622,13 @@ check_evil_rulers_per_subregion_effect = {
 				if = {
 					limit = { any_situation_sub_region_participant = { is_ai = no } }
 					ordered_situation_sub_region_participant = {
-						limit = { 
-							is_ai = no 
+						limit = {
+							is_ai = no
 							is_landed = yes
 						}
-						trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly 
-						# trigger_event = { # Fire an event that resets these variables after 2 days 
-							# id = elven_hope.0031 
+						trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly
+						# trigger_event = { # Fire an event that resets these variables after 2 days
+							# id = elven_hope.0031
 							# days = 2
 						# }
 					}
@@ -1622,11 +1636,11 @@ check_evil_rulers_per_subregion_effect = {
 				else = {
 					ordered_situation_sub_region_participant = {
 						limit = {
-							is_landed = yes 
+							is_landed = yes
 						}
-						trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly 
-						# trigger_event = { # Fire an event that resets these variables after 2 days 
-							# id = elven_hope.0031 
+						trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly
+						# trigger_event = { # Fire an event that resets these variables after 2 days
+							# id = elven_hope.0031
 							# days = 2
 						# }
 					}
@@ -1634,7 +1648,7 @@ check_evil_rulers_per_subregion_effect = {
 			}
 		}
 	}
-	
+
     situation_sub_region:lindon = {
         if = {
 			limit = {
@@ -1644,7 +1658,7 @@ check_evil_rulers_per_subregion_effect = {
 			}
 			set_variable = {
 				name = evil_counties_per_subregion
-				value = 0 
+				value = 0
 			}
 			every_situation_sub_region_county = {
 				limit = {
@@ -1666,22 +1680,22 @@ check_evil_rulers_per_subregion_effect = {
 				if = {
 					limit = { any_situation_sub_region_participant = { is_ai = no } }
 					ordered_situation_sub_region_participant = {
-						limit = { 
-							is_ai = no 
+						limit = {
+							is_ai = no
 							is_landed = yes
 						}
-						trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly 
-						# trigger_event = { # Fire an event that resets these variables after 2 days 
-							# id = elven_hope.0031 
+						trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly
+						# trigger_event = { # Fire an event that resets these variables after 2 days
+							# id = elven_hope.0031
 							# days = 2
 						# }
 					}
 				}
 				else = {
 					ordered_situation_sub_region_participant = {
-						trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly 
-						# trigger_event = { # Fire an event that resets these variables after 2 days 
-							# id = elven_hope.0031 
+						trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly
+						# trigger_event = { # Fire an event that resets these variables after 2 days
+							# id = elven_hope.0031
 							# days = 2
 						# }
 					}
@@ -1689,7 +1703,7 @@ check_evil_rulers_per_subregion_effect = {
 			}
 		}
 	}
-	
+
     situation_sub_region:lasgalen = {
         if = {
 			limit = {
@@ -1699,7 +1713,7 @@ check_evil_rulers_per_subregion_effect = {
 			}
 			set_variable = {
 				name = evil_counties_per_subregion
-				value = 0 
+				value = 0
 			}
 			every_situation_sub_region_county = {
 				limit = {
@@ -1721,22 +1735,22 @@ check_evil_rulers_per_subregion_effect = {
 				if = {
 					limit = { any_situation_sub_region_participant = { is_ai = no } }
 					ordered_situation_sub_region_participant = {
-						limit = { 
-							is_ai = no 
+						limit = {
+							is_ai = no
 							is_landed = yes
 						}
-						trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly 
-						# trigger_event = { # Fire an event that resets these variables after 2 days 
-							# id = elven_hope.0031 
+						trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly
+						# trigger_event = { # Fire an event that resets these variables after 2 days
+							# id = elven_hope.0031
 							# days = 2
 						# }
 					}
 				}
 				else = {
 					ordered_situation_sub_region_participant = {
-						trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly 
-						# trigger_event = { # Fire an event that resets these variables after 2 days 
-							# id = elven_hope.0031 
+						trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly
+						# trigger_event = { # Fire an event that resets these variables after 2 days
+							# id = elven_hope.0031
 							# days = 2
 						# }
 					}
@@ -1744,7 +1758,7 @@ check_evil_rulers_per_subregion_effect = {
 			}
 		}
 	}
-	
+
     situation_sub_region:nelornieth = {
         if = {
 			limit = {
@@ -1754,7 +1768,7 @@ check_evil_rulers_per_subregion_effect = {
 			}
 			set_variable = {
 				name = evil_counties_per_subregion
-				value = 0 
+				value = 0
 			}
 			every_situation_sub_region_county = {
 				limit = {
@@ -1776,22 +1790,22 @@ check_evil_rulers_per_subregion_effect = {
 				if = {
 					limit = { any_situation_sub_region_participant = { is_ai = no } }
 					ordered_situation_sub_region_participant = {
-						limit = { 
-							is_ai = no 
+						limit = {
+							is_ai = no
 							is_landed = yes
 						}
-						trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly 
-						# trigger_event = { # Fire an event that resets these variables after 2 days 
-							# id = elven_hope.0031 
+						trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly
+						# trigger_event = { # Fire an event that resets these variables after 2 days
+							# id = elven_hope.0031
 							# days = 2
 						# }
 					}
 				}
 				else = {
 					ordered_situation_sub_region_participant = {
-						trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly 
-						# trigger_event = { # Fire an event that resets these variables after 2 days 
-							# id = elven_hope.0031 
+						trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly
+						# trigger_event = { # Fire an event that resets these variables after 2 days
+							# id = elven_hope.0031
 							# days = 2
 						# }
 					}
@@ -1799,7 +1813,7 @@ check_evil_rulers_per_subregion_effect = {
 			}
 		}
 	}
-	
+
     situation_sub_region:thani_hazad = {
         if = {
 			limit = {
@@ -1809,7 +1823,7 @@ check_evil_rulers_per_subregion_effect = {
 			}
 			set_variable = {
 				name = evil_counties_per_subregion
-				value = 0 
+				value = 0
 			}
 			every_situation_sub_region_county = {
 				limit = {
@@ -1831,22 +1845,22 @@ check_evil_rulers_per_subregion_effect = {
 				if = {
 					limit = { any_situation_sub_region_participant = { is_ai = no } }
 					ordered_situation_sub_region_participant = {
-						limit = { 
-							is_ai = no 
+						limit = {
+							is_ai = no
 							is_landed = yes
 						}
-						trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly 
-						# trigger_event = { # Fire an event that resets these variables after 2 days 
-							# id = elven_hope.0031 
+						trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly
+						# trigger_event = { # Fire an event that resets these variables after 2 days
+							# id = elven_hope.0031
 							# days = 2
 						# }
 					}
 				}
 				else = {
 					ordered_situation_sub_region_participant = {
-						trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly 
-						# trigger_event = { # Fire an event that resets these variables after 2 days 
-							# id = elven_hope.0031 
+						trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly
+						# trigger_event = { # Fire an event that resets these variables after 2 days
+							# id = elven_hope.0031
 							# days = 2
 						# }
 					}
@@ -1854,7 +1868,7 @@ check_evil_rulers_per_subregion_effect = {
 			}
 		}
 	}
-	
+
     situation_sub_region:utter_south = {
         if = {
 			limit = {
@@ -1864,7 +1878,7 @@ check_evil_rulers_per_subregion_effect = {
 			}
 			set_variable = {
 				name = evil_counties_per_subregion
-				value = 0 
+				value = 0
 			}
 			every_situation_sub_region_county = {
 				limit = {
@@ -1886,22 +1900,22 @@ check_evil_rulers_per_subregion_effect = {
 				if = {
 					limit = { any_situation_sub_region_participant = { is_ai = no } }
 					ordered_situation_sub_region_participant = {
-						limit = { 
-							is_ai = no 
+						limit = {
+							is_ai = no
 							is_landed = yes
 						}
-						trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly 
-						# trigger_event = { # Fire an event that resets these variables after 2 days 
-							# id = elven_hope.0031 
+						trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly
+						# trigger_event = { # Fire an event that resets these variables after 2 days
+							# id = elven_hope.0031
 							# days = 2
 						# }
 					}
 				}
 				else = {
 					ordered_situation_sub_region_participant = {
-						trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly 
-						# trigger_event = { # Fire an event that resets these variables after 2 days 
-							# id = elven_hope.0031 
+						trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly
+						# trigger_event = { # Fire an event that resets these variables after 2 days
+							# id = elven_hope.0031
 							# days = 2
 						# }
 					}
@@ -1909,7 +1923,7 @@ check_evil_rulers_per_subregion_effect = {
 			}
 		}
 	}
-	
+
     situation_sub_region:mumakan = {
         if = {
 			limit = {
@@ -1919,7 +1933,7 @@ check_evil_rulers_per_subregion_effect = {
 			}
 			set_variable = {
 				name = evil_counties_per_subregion
-				value = 0 
+				value = 0
 			}
 			every_situation_sub_region_county = {
 				limit = {
@@ -1941,22 +1955,22 @@ check_evil_rulers_per_subregion_effect = {
 				if = {
 					limit = { any_situation_sub_region_participant = { is_ai = no } }
 					ordered_situation_sub_region_participant = {
-						limit = { 
-							is_ai = no 
+						limit = {
+							is_ai = no
 							is_landed = yes
 						}
-						trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly 
-						# trigger_event = { # Fire an event that resets these variables after 2 days 
-							# id = elven_hope.0031 
+						trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly
+						# trigger_event = { # Fire an event that resets these variables after 2 days
+							# id = elven_hope.0031
 							# days = 2
 						# }
 					}
 				}
 				else = {
 					ordered_situation_sub_region_participant = {
-						trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly 
-						# trigger_event = { # Fire an event that resets these variables after 2 days 
-							# id = elven_hope.0031 
+						trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly
+						# trigger_event = { # Fire an event that resets these variables after 2 days
+							# id = elven_hope.0031
 							# days = 2
 						# }
 					}
@@ -1964,7 +1978,7 @@ check_evil_rulers_per_subregion_effect = {
 			}
 		}
 	}
-	
+
     situation_sub_region:eriador = {
         if = {
 			limit = {
@@ -1974,7 +1988,7 @@ check_evil_rulers_per_subregion_effect = {
 			}
 			set_variable = {
 				name = evil_counties_per_subregion
-				value = 0 
+				value = 0
 			}
 			every_situation_sub_region_county = {
 				limit = {
@@ -1996,22 +2010,22 @@ check_evil_rulers_per_subregion_effect = {
 				if = {
 					limit = { any_situation_sub_region_participant = { is_ai = no } }
 					ordered_situation_sub_region_participant = {
-						limit = { 
-							is_ai = no 
+						limit = {
+							is_ai = no
 							is_landed = yes
 						}
-						trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly 
-						# trigger_event = { # Fire an event that resets these variables after 2 days 
-							# id = elven_hope.0031 
+						trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly
+						# trigger_event = { # Fire an event that resets these variables after 2 days
+							# id = elven_hope.0031
 							# days = 2
 						# }
 					}
 				}
 				else = {
 					ordered_situation_sub_region_participant = {
-						trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly 
-						# trigger_event = { # Fire an event that resets these variables after 2 days 
-							# id = elven_hope.0031 
+						trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly
+						# trigger_event = { # Fire an event that resets these variables after 2 days
+							# id = elven_hope.0031
 							# days = 2
 						# }
 					}
@@ -2019,7 +2033,7 @@ check_evil_rulers_per_subregion_effect = {
 			}
 		}
 	}
-	
+
     situation_sub_region:eastern_rhovanion = {
         if = {
 			limit = {
@@ -2029,7 +2043,7 @@ check_evil_rulers_per_subregion_effect = {
 			}
 			set_variable = {
 				name = evil_counties_per_subregion
-				value = 0 
+				value = 0
 			}
 			every_situation_sub_region_county = {
 				limit = {
@@ -2051,22 +2065,22 @@ check_evil_rulers_per_subregion_effect = {
 				if = {
 					limit = { any_situation_sub_region_participant = { is_ai = no } }
 					ordered_situation_sub_region_participant = {
-						limit = { 
-							is_ai = no 
+						limit = {
+							is_ai = no
 							is_landed = yes
 						}
-						trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly 
-						# trigger_event = { # Fire an event that resets these variables after 2 days 
-							# id = elven_hope.0031 
+						trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly
+						# trigger_event = { # Fire an event that resets these variables after 2 days
+							# id = elven_hope.0031
 							# days = 2
 						# }
 					}
 				}
 				else = {
 					ordered_situation_sub_region_participant = {
-						trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly 
-						# trigger_event = { # Fire an event that resets these variables after 2 days 
-							# id = elven_hope.0031 
+						trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly
+						# trigger_event = { # Fire an event that resets these variables after 2 days
+							# id = elven_hope.0031
 							# days = 2
 						# }
 					}
@@ -2074,7 +2088,7 @@ check_evil_rulers_per_subregion_effect = {
 			}
 		}
 	}
-	
+
     situation_sub_region:gondor = {
         if = {
 			limit = {
@@ -2084,7 +2098,7 @@ check_evil_rulers_per_subregion_effect = {
 			}
 			set_variable = {
 				name = evil_counties_per_subregion
-				value = 0 
+				value = 0
 			}
 			every_situation_sub_region_county = {
 				limit = {
@@ -2106,22 +2120,22 @@ check_evil_rulers_per_subregion_effect = {
 				if = {
 					limit = { any_situation_sub_region_participant = { is_ai = no } }
 					ordered_situation_sub_region_participant = {
-						limit = { 
-							is_ai = no 
+						limit = {
+							is_ai = no
 							is_landed = yes
 						}
-						trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly 
-						# trigger_event = { # Fire an event that resets these variables after 2 days 
-							# id = elven_hope.0031 
+						trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly
+						# trigger_event = { # Fire an event that resets these variables after 2 days
+							# id = elven_hope.0031
 							# days = 2
 						# }
 					}
 				}
 				else = {
 					ordered_situation_sub_region_participant = {
-						trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly 
-						# trigger_event = { # Fire an event that resets these variables after 2 days 
-							# id = elven_hope.0031 
+						trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly
+						# trigger_event = { # Fire an event that resets these variables after 2 days
+							# id = elven_hope.0031
 							# days = 2
 						# }
 					}
@@ -2129,7 +2143,7 @@ check_evil_rulers_per_subregion_effect = {
 			}
 		}
 	}
-	
+
     situation_sub_region:bay_of_ormal = {
         if = {
 			limit = {
@@ -2139,7 +2153,7 @@ check_evil_rulers_per_subregion_effect = {
 			}
 			set_variable = {
 				name = evil_counties_per_subregion
-				value = 0 
+				value = 0
 			}
 			every_situation_sub_region_county = {
 				limit = {
@@ -2161,22 +2175,22 @@ check_evil_rulers_per_subregion_effect = {
 				if = {
 					limit = { any_situation_sub_region_participant = { is_ai = no } }
 					ordered_situation_sub_region_participant = {
-						limit = { 
-							is_ai = no 
+						limit = {
+							is_ai = no
 							is_landed = yes
 						}
-						trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly 
-						# trigger_event = { # Fire an event that resets these variables after 2 days 
-							# id = elven_hope.0031 
+						trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly
+						# trigger_event = { # Fire an event that resets these variables after 2 days
+							# id = elven_hope.0031
 							# days = 2
 						# }
 					}
 				}
 				else = {
 					ordered_situation_sub_region_participant = {
-						trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly 
-						# trigger_event = { # Fire an event that resets these variables after 2 days 
-							# id = elven_hope.0031 
+						trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly
+						# trigger_event = { # Fire an event that resets these variables after 2 days
+							# id = elven_hope.0031
 							# days = 2
 						# }
 					}
@@ -2184,7 +2198,7 @@ check_evil_rulers_per_subregion_effect = {
 			}
 		}
 	}
-	
+
     situation_sub_region:bay_of_tulwang = {
         if = {
 			limit = {
@@ -2194,7 +2208,7 @@ check_evil_rulers_per_subregion_effect = {
 			}
 			set_variable = {
 				name = evil_counties_per_subregion
-				value = 0 
+				value = 0
 			}
 			every_situation_sub_region_county = {
 				limit = {
@@ -2216,22 +2230,22 @@ check_evil_rulers_per_subregion_effect = {
 				if = {
 					limit = { any_situation_sub_region_participant = { is_ai = no } }
 					ordered_situation_sub_region_participant = {
-						limit = { 
-							is_ai = no 
+						limit = {
+							is_ai = no
 							is_landed = yes
 						}
-						trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly 
-						# trigger_event = { # Fire an event that resets these variables after 2 days 
-							# id = elven_hope.0031 
+						trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly
+						# trigger_event = { # Fire an event that resets these variables after 2 days
+							# id = elven_hope.0031
 							# days = 2
 						# }
 					}
 				}
 				else = {
 					ordered_situation_sub_region_participant = {
-						trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly 
-						# trigger_event = { # Fire an event that resets these variables after 2 days 
-							# id = elven_hope.0031 
+						trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly
+						# trigger_event = { # Fire an event that resets these variables after 2 days
+							# id = elven_hope.0031
 							# days = 2
 						# }
 					}
@@ -2239,7 +2253,7 @@ check_evil_rulers_per_subregion_effect = {
 			}
 		}
 	}
-	
+
     situation_sub_region:haradwaith = {
         if = {
 			limit = {
@@ -2249,7 +2263,7 @@ check_evil_rulers_per_subregion_effect = {
 			}
 			set_variable = {
 				name = evil_counties_per_subregion
-				value = 0 
+				value = 0
 			}
 			every_situation_sub_region_county = {
 				limit = {
@@ -2271,22 +2285,22 @@ check_evil_rulers_per_subregion_effect = {
 				if = {
 					limit = { any_situation_sub_region_participant = { is_ai = no } }
 					ordered_situation_sub_region_participant = {
-						limit = { 
-							is_ai = no 
+						limit = {
+							is_ai = no
 							is_landed = yes
 						}
-						trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly 
-						# trigger_event = { # Fire an event that resets these variables after 2 days 
-							# id = elven_hope.0031 
+						trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly
+						# trigger_event = { # Fire an event that resets these variables after 2 days
+							# id = elven_hope.0031
 							# days = 2
 						# }
 					}
 				}
 				else = {
 					ordered_situation_sub_region_participant = {
-						trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly 
-						# trigger_event = { # Fire an event that resets these variables after 2 days 
-							# id = elven_hope.0031 
+						trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly
+						# trigger_event = { # Fire an event that resets these variables after 2 days
+							# id = elven_hope.0031
 							# days = 2
 						# }
 					}
@@ -2294,7 +2308,7 @@ check_evil_rulers_per_subregion_effect = {
 			}
 		}
 	}
-	
+
     situation_sub_region:mordor = {
         if = {
 			limit = {
@@ -2304,7 +2318,7 @@ check_evil_rulers_per_subregion_effect = {
 			}
 			set_variable = {
 				name = evil_counties_per_subregion
-				value = 0 
+				value = 0
 			}
 			every_situation_sub_region_county = {
 				limit = {
@@ -2326,22 +2340,22 @@ check_evil_rulers_per_subregion_effect = {
 				if = {
 					limit = { any_situation_sub_region_participant = { is_ai = no } }
 					ordered_situation_sub_region_participant = {
-						limit = { 
-							is_ai = no 
+						limit = {
+							is_ai = no
 							is_landed = yes
 						}
-						trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly 
-						# trigger_event = { # Fire an event that resets these variables after 2 days 
-							# id = elven_hope.0031 
+						trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly
+						# trigger_event = { # Fire an event that resets these variables after 2 days
+							# id = elven_hope.0031
 							# days = 2
 						# }
 					}
 				}
 				else = {
 					ordered_situation_sub_region_participant = {
-						trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly 
-						# trigger_event = { # Fire an event that resets these variables after 2 days 
-							# id = elven_hope.0031 
+						trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly
+						# trigger_event = { # Fire an event that resets these variables after 2 days
+							# id = elven_hope.0031
 							# days = 2
 						# }
 					}
@@ -2358,7 +2372,7 @@ check_evil_rulers_per_subregion_effect = {
 			}
 			set_variable = {
 				name = evil_counties_per_subregion
-				value = 0 
+				value = 0
 			}
 			every_situation_sub_region_county = {
 				limit = {
@@ -2380,22 +2394,22 @@ check_evil_rulers_per_subregion_effect = {
 				if = {
 					limit = { any_situation_sub_region_participant = { is_ai = no } }
 					ordered_situation_sub_region_participant = {
-						limit = { 
-							is_ai = no 
+						limit = {
+							is_ai = no
 							is_landed = yes
 						}
-						trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly 
-						# trigger_event = { # Fire an event that resets these variables after 2 days 
-							# id = elven_hope.0031 
+						trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly
+						# trigger_event = { # Fire an event that resets these variables after 2 days
+							# id = elven_hope.0031
 							# days = 2
 						# }
 					}
 				}
 				else = {
 					ordered_situation_sub_region_participant = {
-						trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly 
-						# trigger_event = { # Fire an event that resets these variables after 2 days 
-							# id = elven_hope.0031 
+						trigger_event = elven_hope.0030 # Display the amount of evil rulers and reduce hope accordingly
+						# trigger_event = { # Fire an event that resets these variables after 2 days
+							# id = elven_hope.0031
 							# days = 2
 						# }
 					}
@@ -2403,9 +2417,11 @@ check_evil_rulers_per_subregion_effect = {
 			}
 		}
 	}
-}	
+}
 
-### Debug Effects ###
+# ============================================================
+# Debug Effects
+# ============================================================
 add_elven_hope_debug = {
 	add_elven_hope_effect = { VALUE = 100 HOPE_EFFECT = effect_elven_hope_debug }
 }
@@ -2414,26 +2430,26 @@ subtract_elven_hope_debug = {
 	add_elven_hope_effect = { VALUE = -100 HOPE_EFFECT = effect_elven_hope_debug }
 }
 
-# Setup effects 
+# Setup effects
 set_historical_hope_effect = { # Fired on game start
 	if = {
 		limit = {
 			# game_start_date >= 6000.1.1
 			always = yes # Adjust for later start dates when added
 		}
-		situation_sub_region:rivendell_lorien = { #Rivendell-Lorien
+		situation_sub_region:rivendell_lorien = { # Rivendell-Lorien
 			set_variable = {
 				name = lorien_hope_value
 				value = 280
 			}
 		}
-		situation_sub_region:lindon = { #Lindon
+		situation_sub_region:lindon = { # Lindon
 			set_variable = {
 				name = lindon_hope_value
 				value = 220
 			}
 		}
-		situation_sub_region:lasgalen = { #Greenwood
+		situation_sub_region:lasgalen = { # Greenwood
 			set_variable = {
 				name = greenwood_hope_value
 				value = 300

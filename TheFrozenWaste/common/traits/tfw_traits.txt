@@ -1,7 +1,7 @@
 ﻿
 
 veteran_of_war_of_wrath = {
-	# This elf participated in the Battle of Palisor in the First Age
+	# This character fought in the War of Wrath at the end of the First Age.
 	icon = war_of_wrath_icon.dds
 
 	ruler_designer_cost = 150

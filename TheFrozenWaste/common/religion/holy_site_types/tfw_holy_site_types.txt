@@ -1,6 +1,8 @@
 ﻿
 
-### ELVES ###
+# ============================================================
+# ELVES
+# ============================================================
 # evermist
 evermist = { # evermist
 	county = c_evermist_1
@@ -45,9 +47,11 @@ hitheth = {
 	character_modifier = {
 		martial_per_piety_level = 1
 	}
-} 
+}
 
-### Forodain
+# ============================================================
+# Forodain
+# ============================================================
 
 achrond = {
 	county = c_frost_isles_8
@@ -55,7 +59,7 @@ achrond = {
 		character_travel_speed = 0.1
 		naval_movement_speed_mult = 0.1
 		winter_movement_speed = 0.1
-	} 
+	}
 }
 
 whitehaven = {
@@ -79,7 +83,9 @@ morgoths_well = {
 	}
 }
 
-### Lossoth
+# ============================================================
+# Lossoth
+# ============================================================
 
 boiling_river = {
 	county = c_ailindalf_9
@@ -96,7 +102,9 @@ kiehuva_jarvi = {
 	}
 }
 
-### Orcs 
+# ============================================================
+# Orcs
+# ============================================================
 
 angband_bad = {
 	county = c_thangorodrim_3
@@ -122,7 +130,9 @@ durnost = {
 	}
 }
 
-### Werewolves
+# ============================================================
+# Werewolves
+# ============================================================
 
 forovirian = {
 	county = c_forovirian_1

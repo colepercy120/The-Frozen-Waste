@@ -1,9 +1,9 @@
 ﻿namespace = tfw_story
 
 
-#############################################
+# ============================================================
 # Graw and Faron Story Chain
-#
+# ============================================================
 # .001 - Revenge / begin journey
 # .002 - Arrival on Tol Faron
 # .003 - Discover the Elder Days sword in Faron's hoard
@@ -11,12 +11,12 @@
 # .005 - Failure / death
 # .006 - Victory over Faron
 # .007 - Aftermath / claim Tol Faron or continue questing
-#############################################
+# ============================================================
 
 
-#############################################
+# ============================================================
 # 001 - REVENGE / THE JOURNEY BEGINS
-#############################################
+# ============================================================
 
 tfw_story.001 = {
 	type = character_event
@@ -48,16 +48,16 @@ tfw_story.001 = {
 }
 
 
-#############################################
+# ============================================================
 # 002 - ARRIVAL ON TOL FARON
-#############################################
+# ============================================================
 
 tfw_story.002 = {
 	type = character_event
 	title = tfw_story.002.t
 	desc = tfw_story.002.desc
 	theme = war
-	
+
 	override_background = {
 		reference = forodwaith
 	}
@@ -77,16 +77,16 @@ tfw_story.002 = {
 }
 
 
-#############################################
+# ============================================================
 # 003 - FARON'S HOARD / THE ELDER DAYS SWORD
-#############################################
+# ============================================================
 
 tfw_story.003 = {
 	type = character_event
 	title = tfw_story.003.t
 	desc = tfw_story.003.desc
 	theme = war
-	
+
 	override_background = {
 		reference = wilderness_underground
 	}
@@ -96,14 +96,12 @@ tfw_story.003 = {
 		animation = admiration
 	}
 
-	# Once the actual artifact creation effect exists,
-	# the newly-created sword can be displayed in this event.
-	#
+	# Display the sword created in the immediate effect.
 	artifact = {
 		target = scope:faron_sword
 		position = lower_center_portrait
 	}
-	
+
 	immediate = {
 		create_artifact_maegdaes_effect = { OWNER = this }
 		scope:newly_created_artifact = {
@@ -114,7 +112,7 @@ tfw_story.003 = {
 	option = {
 		name = tfw_story.003.a
 
-		
+
 		trigger_event = {
 			id = tfw_story.004
 		}
@@ -122,16 +120,16 @@ tfw_story.003 = {
 }
 
 
-#############################################
+# ============================================================
 # 004 - FARON / CHOOSE APPROACH
-#############################################
+# ============================================================
 
 tfw_story.004 = {
 	type = character_event
 	title = tfw_story.004.t
 	desc = tfw_story.004.desc
 	theme = war
-	
+
 	override_background = {
 		reference = dragon_generic
 	}
@@ -144,57 +142,57 @@ tfw_story.004 = {
 	# Faron is an ancient female cold-drake who has inhabited
 	# Tol Faron for centuries. If she is represented as a character,
 	# add her portrait here and her death effect to tfw_story.006.
-	#
+	# ============================================================
 	# right_portrait = {
-	#	character = character:TEMP_FARON
-	#	animation = threatening
+	# character = character:TEMP_FARON
+	# animation = threatening
 	# }
 
 
-	###############################
+	# ============================================================
 	# MARTIAL + PROWESS
-	###############################
+	# ============================================================
 
 	option = {
 		name = tfw_story.004.a
 
+		# The challenge remains tooltip-only; the scripted victory is intentional.
 		show_as_tooltip = {
 			duel = {
 				skills = { prowess martial }
-	
-				# TEMP:
-				# Increase this number to make the challenge harder.
+
+				# Preview difficulty; the actual victory is scripted by design.
 				value = 30
-	
+
 				25 = {
 					compare_modifier = {
 						value = scope:duel_value
 						multiplier = 1
 					}
-	
+
 					send_interface_toast = {
 						title = tfw_story.004.a.success
 					}
-	
+
 					custom_tooltip = {
 						text = tfw_story.004.a.success
 					}
-	
+
 					trigger_event = {
 						id = tfw_story.006
 					}
 				}
-	
+
 				75 = {
 					compare_modifier = {
 						value = scope:duel_value
 						multiplier = -1
 					}
-	
+
 					send_interface_toast = {
 						title = tfw_story.004.a.failure
 					}
-	
+
 					death = {
 						death_reason = death_duel
 					}
@@ -208,33 +206,32 @@ tfw_story.004 = {
 		ai_chance = {
 			base = 100
 
-			
+
 		}
 	}
 
 
-	###############################
-	# INTRIGUE + PROWESS
-	###############################
+	# ============================================================
+	# HESITATION / FAILURE
+	# ============================================================
 
 	option = {
 		name = tfw_story.004.b
+		trigger_event = tfw_story.005
 
-		
-		
 
 		ai_chance = {
 			base = 0
 
-			
+
 		}
 	}
 }
 
 
-#############################################
+# ============================================================
 # 005 - FAILURE / DEATH
-#############################################
+# ============================================================
 
 tfw_story.005 = {
 	type = character_event
@@ -257,16 +254,16 @@ tfw_story.005 = {
 }
 
 
-#############################################
+# ============================================================
 # 006 - VICTORY / FARON IS SLAIN
-#############################################
+# ============================================================
 
 tfw_story.006 = {
 	type = character_event
 	title = tfw_story.006.t
 	desc = tfw_story.006.desc
 	theme = war
-	
+
 	override_background = {
 		reference = wilderness_underground
 	}
@@ -275,8 +272,7 @@ tfw_story.006 = {
 		character = root
 		animation = celebrate_sword
 	}
-	
-	
+
 
 	immediate = {
 		give_nickname = nick_beowulf
@@ -298,9 +294,9 @@ tfw_story.006 = {
 }
 
 
-#############################################
+# ============================================================
 # 007 - AFTERMATH / WHAT COMES NEXT
-#############################################
+# ============================================================
 
 tfw_story.007 = {
 	type = character_event
@@ -312,7 +308,7 @@ tfw_story.007 = {
 		character = root
 		animation = thinking
 	}
-	
+
 	override_background = {
 		reference = forodwaith
 	}
@@ -321,12 +317,12 @@ tfw_story.007 = {
 	option = {
 		name = tfw_story.007.a
 		claim_tol_faron = yes
-		
-		
+
+
 		ai_chance = {
 			base = 100
 
-			
+
 		}
 	}
 
@@ -337,33 +333,35 @@ tfw_story.007 = {
 		ai_chance = {
 			base = 0
 
-			
+
 		}
 	}
 }
 
 
-#### Build Nidavellir
+# ============================================================
+# Build Nidavellir
+# ============================================================
 
 tfw_story.008 = {
 	type = character_event
 	title = tfw_story.008.t
 	desc = tfw_story.008.desc
 	theme = dwarven
-	
+
 
 	left_portrait = {
 		character = root
 		animation = thinking
 	}
-	
+
 	immediate = {
-		destroy_title = title:d_eitris_expedition 
+		destroy_title = title:d_eitris_expedition
 	}
 
-	option = { ### Aznan-dum
+	option = { # Aznan-dum
 		name = tfw_story.008.a
-		
+
 		title:k_nidavellir = {
 			set_title_name = aznandum
 			set_coa = d_eitris_expedition
@@ -373,9 +371,9 @@ tfw_story.008 = {
 			add_great_building = wonder_nidavillir_glory_01
 		}
 	}
-	option = { ### Winter Deep
+	option = { # Winter Deep
 		name = tfw_story.008.b
-		
+
 		title:k_nidavellir = {
 			set_title_name = winterdeep
 			set_coa = k_winterdeep
@@ -385,9 +383,9 @@ tfw_story.008 = {
 			add_great_building = wonder_nidavillir_military_01
 		}
 	}
-	option = { ### Nidavellir
+	option = { # Nidavellir
 		name = tfw_story.008.c
-		
+
 		title:k_nidavellir = {
 			set_title_name = nidavellir
 			set_coa = k_nidavellir_2

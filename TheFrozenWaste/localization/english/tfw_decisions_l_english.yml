@@ -1,79 +1,85 @@
-﻿ ### LotR: This file needs to be kept in sync with the release version.
- 
- ### Edited the dates
- 
- ### Edited the loading screen text
- 
+﻿ # ============================================================
+ # LotR: This file needs to be kept in sync with the release version.
+ # ============================================================
+
+ # ============================================================
+ # Edited the dates
+ # ============================================================
+
+ # ============================================================
+ # Edited the loading screen text
+ # ============================================================
+
 l_english:
 
  cleanse_angband_decision: "Cleanse Angband"
- cleanse_angband_decision_desc: "The shadow of Morgoth still clings to Angband. Its halls, pits, and broken foundations remain stained by the evils committed there. Through immense devotion, labor, and sacrifice, we may finally begin the work of cleansing this ancient wound upon the world."
+ cleanse_angband_decision_desc: "The shadow of [Concept('morgothcharacter','Morgoth')|E] still clings to [Concept('angband','Angband')|E]. Its halls, pits, and broken foundations remain stained by the evils committed there. Through immense devotion, labor, and sacrifice, we may finally begin the work of cleansing this ancient wound upon the world."
  cleanse_angband_decision_tooltip: "Undertake the sacred work of cleansing Angband of its lingering corruption."
  cleanse_angband_decision_confirm: "Begin the Cleansing"
- cleanse_angband_decision_tooltip_1: "Any county in [GetTitleByKey('k_angband').GetName] is held by You"
- cleanse_angband_decision_tooltip_2: "Every County in [GetTitleByKey('k_angband').GetName] is [wilderness|e]"
- cleanse_angband_decision_effect: "Angband Is Cleansed of Darkness"
+ cleanse_angband_decision_tooltip_1: "You completely control the Angband fortress county, and no county in Angband has an evil-aligned ruler"
+ cleanse_angband_decision_tooltip_2: "Every [county|E] in [GetTitleByKey('k_angband').GetName] is [wilderness|E]."
+ cleanse_angband_decision_effect: "Angband is cleansed of darkness."
 
  heal_frostwood_decision: "Heal Frostwood"
- heal_frostwood_decision_desc: "Frostwood has endured wounds that neither years nor winter could erase. Yet what has been scarred need not remain broken forever. With sufficient devotion and effort, the forests may be restored and the ancient land allowed to flourish once again."
+ heal_frostwood_decision_desc: "[Concept('frostwood','Frostwood')|E] has endured wounds that neither years nor winter could erase. Yet what has been scarred need not remain broken forever. With sufficient devotion and effort, the forests may be restored and the ancient land allowed to flourish once again."
  heal_frostwood_decision_tooltip: "Undertake the sacred work of restoring and healing Frostwood."
  heal_frostwood_decision_confirm: "Begin the Healing"
- heal_frostwood_decision_tooltip_1: "Every County in [GetTitleByKey('e_frostwood').GetName] is held by Good Aligned Rulers"
- heal_frostwood_decision_effect: "The Curse on Frostwood is Broken"
- 
+ heal_frostwood_decision_tooltip_1: "Every [county|E] in [GetTitleByKey('e_frostwood').GetName] is held by a good-aligned ruler."
+ heal_frostwood_decision_effect: "The curse upon Frostwood is broken."
+
  unleash_angband_decision: "Unleash Angband"
- unleash_angband_decision_desc: "For to long i have sat idle in the broken waste of [melkorcharacter|e]s realm, its time that Terror once again Spread across the north and [angband|e] rises once again!"
+ unleash_angband_decision_desc: "For too long, I have sat idle among the broken wastes of [melkorcharacter|E]'s realm. It is time for terror to spread across the North once more, and for [angband|E] to rise again!"
  unleash_angband_decision_tooltip: "Unleash Angband"
- unleash_angband_decision_confirm: "Raise a Great host"
- unleash_angband_decision_effect: "Gain Acess to War Decleration" 
- 
+ unleash_angband_decision_confirm: "Raise a Great Host"
+ unleash_angband_decision_effect: "Gain access to war declarations."
+
  decision_form_rast_losnath: "Form the Kingdom of Rast Losnath"
- decision_form_rast_losnath_desc: "Rast Losnath, the Cape of Biting Snow, is one of the coldest and most unforgiving places in [forodwaith|e], yet we survived, and not only that but we have thrived! now that the Cape has been unifed we can comfortably declare these lands a [kingdom|e] indivisible until the end of days"
+ decision_form_rast_losnath_desc: "Rast Losnath, the Cape of Biting Snow, is one of the coldest and most unforgiving places in [forodwaith|E]. Yet we have survived, and even thrived. Now that the cape is united, we can proclaim these lands a [kingdom|E], indivisible until the end of days."
  decision_form_rast_losnath_tooltip: "Form the Kingdom of Rast Losnath."
  decision_form_rast_losnath_confirm: "Proclaim the Kingdom of Rast Losnath"
 
  decision_form_muilfalas: "Form the Kingdom of Muilfalas"
- decision_form_muilfalas_desc: "Between the Bleak Mountains and the Forsasken Sea lies Muilfalas, the bleak coast. barely more than a thin coastal strip the land still holds power, and if it could be unified would be a true power of the north."
+ decision_form_muilfalas_desc: "Between the Bleak Mountains and the Forsaken Sea lies Muilfalas, the Bleak Coast. Though little more than a narrow coastal strip, the land holds strength. United, it could become a true power of the North."
  decision_form_muilfalas_tooltip: "Form the Kingdom of Muilfalas."
  decision_form_muilfalas_confirm: "Proclaim the Kingdom of Muilfalas"
 
- decision_form_gaurmar: "Reclaim our Homeland!"
- decision_form_gaurmar_desc: "In the ancient past we lived in the dales and valleys of [angmar|e] before being expelled into the Frozen Wastes by the [angmarrim|e] and the [witchking|e] but the time has come for us to make our glorius return!"
+ decision_form_gaurmar: "Reclaim Our Homeland!"
+ decision_form_gaurmar_desc: "Long ago, we lived in the dales and valleys of [angmar|E], before the Angmarrim and the [witchking|E] drove us into the frozen wastes. The time has come to make our glorious return!"
  decision_form_gaurmar_tooltip: "Form the Kingdom of Gaurmar."
  decision_form_gaurmar_confirm: "Proclaim the Kingdom of Gaurmar"
 
  decision_form_fordor: "Unite the Forodain"
- decision_form_fordor_desc: "Since the downfall, our people have been scattered across the shattered wreckage of the north, only barely scrapping by while the fortunes of our kin to the south waxed and waned, if we ever wish to be considered as great as [gondor|e], [arnor|e] or even [umbar|e] we have to unite and carve our path through the world."
+ decision_form_fordor_desc: "Since the Downfall, our people have been scattered across the shattered lands of the North, barely scraping by while the fortunes of our southern kin waxed and waned. If we wish to stand alongside [gondor|E], [arnor|E], or even [umbar|E], we must unite and carve our own path through the world."
  decision_form_fordor_tooltip: "Unite the Forodain"
  decision_form_fordor_confirm: "Proclaim the High Kingdom of Fordor"
  unite_forodain_effect_tooltip: "[GetTitleByKey('e_fordor').GetName] will become [de_jure|e] liege of every [kingdom|e] in [GetGeographicalRegion('custom_greater_forochel').GetName]"
- unite_forodain_tooltip: "Every [county|e] of [GetPlayer.GetCulture.GetName] [culture|e] is ruled by [GetPlayer.GetName]"
+ unite_forodain_tooltip: "At least 95% of the [counties|E] of [GetPlayer.GetCulture.GetName] [culture|E] are ruled by [GetPlayer.GetName] or their vassals."
 
  decision_form_lossoth: "Unite the Lossoth"
- decision_form_lossoth_desc: "For generations, the Lossoth have endured the frozen shores of Forochel as scattered tribes and petty realms, divided by distance, custom, and old rivalries. Yet no matter how far apart our people have grown, we remain bound by the same harsh land, the same ancient traditions, and the same struggle to survive beneath the northern sky.\n\nThe time has come to bring the Lossoth together beneath a single banner. If we are to endure the dangers of the North and command the respect of the realms beyond the ice, then the people of Forochel must stand as one."
+ decision_form_lossoth_desc: "For generations, the [Concept('lossoth','Lossoth')|E] have endured the frozen shores of [Concept('forochel','Forochel')|E] as scattered tribes and petty realms, divided by distance, custom, and old rivalries. Yet no matter how far apart our people have grown, we remain bound by the same harsh land, the same ancient traditions, and the same struggle to survive beneath the northern sky.\n\nThe time has come to bring the Lossoth together beneath a single banner. If we are to endure the dangers of the North and command the respect of the realms beyond the ice, then the people of Forochel must stand as one."
  decision_form_lossoth_tooltip: "Unite the Lossoth"
  decision_form_lossoth_confirm: "Unite the Lossoth"
  unite_lossoth_effect_tooltip: "[GetTitleByKey('e_lossoth').GetName] will become [de_jure|e] liege of every [kingdom|e] in [GetGeographicalRegion('custom_greater_forochel').GetName]"
- unite_lossoth_tooltip: "Every [county|e] of [GetPlayer.GetCulture.GetName] [culture|e] is ruled by [GetPlayer.GetName]"
+ unite_lossoth_tooltip: "At least 95% of the [counties|E] of [GetPlayer.GetCulture.GetName] [culture|E] are ruled by [GetPlayer.GetName] or their vassals."
 
  decision_form_forochel: "Unite the Bay of Forochel"
- decision_form_forochel_desc: "The shores of the Bay of Forochel have long been divided between scattered clans, coastal settlements, and rival chieftains. Though the sea and ice bind us together, old feuds and local loyalties have kept the peoples of the bay apart.\n\nThat division can no longer continue. The coasts of Forochel must be brought beneath a single rule, so that its harbors, hunting grounds, and settlements may stand together against whatever threats come from beyond the frozen sea or the wastes inland."
+ decision_form_forochel_desc: "The shores of the Bay of [Concept('forochel','Forochel')|E] have long been divided between scattered clans, coastal settlements, and rival chieftains. Though the sea and ice bind us together, old feuds and local loyalties have kept the peoples of the bay apart.\n\nThat division can no longer continue. The coasts of Forochel must be brought beneath a single rule, so that its harbors, hunting grounds, and settlements may stand together against whatever threats come from beyond the frozen sea or the wastes inland."
  decision_form_forochel_tooltip: "Unite the peoples and settlements of the Bay of Forochel under one ruler"
  decision_form_forochel_confirm: "The Bay shall stand united"
  decision_form_forochel_effect: "[GetTitleByKey('e_forochel').GetName] will become [de_jure|e] liege of every [kingdom|e] in [GetGeographicalRegion('custom_greater_forochel').GetName]"
 
  decision_form_northern_territories: "Secure the Utter North"
- decision_form_northern_territories_desc: "The farthest reaches of the North remain divided between scattered realms, distant settlements, and lands only loosely bound to the greater powers of Forodwaith. Though these territories have long stood apart, their isolation leaves them vulnerable and weakens the authority of any realm that would claim dominion over the North.\n\nThe time has come to bring these lands into a broader order. By extending our rule across the Utter North, we can bind its peoples and territories into the existing realm and ensure that no corner of Forodwaith stands beyond our reach."
+ decision_form_northern_territories_desc: "The farthest reaches of the North remain divided between scattered realms, distant settlements, and lands only loosely bound to the greater powers of [Concept('forodwaith','Forodwaith')|E]. Though these territories have long stood apart, their isolation leaves them vulnerable and weakens the authority of any realm that would claim dominion over the North.\n\nThe time has come to bring these lands into a broader order. By extending our rule across the Utter North, we can bind its peoples and territories into the existing realm and ensure that no corner of Forodwaith stands beyond our reach."
  decision_form_northern_territories_tooltip: "Integrate the territories of the Utter North into your hegemony"
  decision_form_northern_territories_confirm: "Secure the Utter North"
 
  decision_form_avari: "Unite the Avari"
- decision_form_avari_desc: "For to long have the [avari|e] been scattered across [middleearth|e]. if we were to reunite the ancient houses of our folk and proclaim a united realm we would no longer need to fear the [darklord|e] or the abuse of [men|e] and [dwarves|e]. Even the [eldar|e] would have to respect our rule."
+ decision_form_avari_desc: "For too long, the [avari|E] have been scattered across [middleearth|E]. If we reunite the ancient houses of our people and proclaim a united realm, we need no longer fear the [darklord|E] or the abuses of [men|E] and [dwarves|E]. Even the [eldar|E] would have to respect our strength."
  decision_form_avari_tooltip: "Form the Hegemony of Avari."
  decision_form_avari_confirm: "Proclaim the Hegemony of Avari"
 
  decision_form_forodwaith: "Unite Forodwaith"
- decision_form_forodwaith_desc: "None since [melkorcharacter|e] have dared to try to unite the Utter North of the world, the vast frozen lands may be inhospitable to most, but it is our home, and our home should be united. for though we all come from diffrent places, we have truely turned the ruin of the [elderdays|e] into a realm to rival any in [middleearth|e]"
+ decision_form_forodwaith_desc: "None since [melkorcharacter|E] has dared to unite the Utter North. These vast frozen lands may be inhospitable to most, but they are our home, and our home should stand united. Though we come from different peoples, we have turned the ruins of the [elderdays|E] into realms worthy of any in [middleearth|E]."
  decision_form_forodwaith_tooltip: "Unite Forodwaith"
  decision_form_forodwaith_confirm: "Unite Forodwaith"
 
@@ -81,25 +87,25 @@ l_english:
  decision_form_winter_desc: "Our supremacy across the north can no longer be denied. We shall establish the Hegemony of Winter."
  decision_form_winter_tooltip: "Form the Hegemony of Winter."
  decision_form_winter_confirm: "Proclaim the Hegemony of Winter"
- 
+
  decision_build_nidavillir: "Construct a Great Hold"
- decision_build_nidavillir_desc: "Our expedition here in the Ered Muil has borne fruit. we have established ourselves in these halls and it is now time to plan for the future. time to draw up plans for what shape this hold will be take, along with how our people will define themselves." 
+ decision_build_nidavillir_desc: "Our expedition to the Ered Muil has borne fruit. We have established ourselves in these halls, and now we must plan for the future. It is time to decide what shape our great hold will take, and what kind of people we will become."
  decision_build_nidavillir_tooltip: "Construct a Great Hold"
  decision_build_nidavillir_confirm: "Draw up the plans"
- decision_build_nidavillir_effect: "You will choose a new Name and Coat of Arms for [GetTitleByKey('k_nidavellir').GetName]"
- decision_build_nidavillir_effect_2: "You will choose a [great_building|e] to construct in [GetTitleByKey('c_nidavellir_1').GetName]"
- 
+ decision_build_nidavillir_effect: "You will choose a new name and coat of arms for [GetTitleByKey('k_nidavellir').GetName]."
+ decision_build_nidavillir_effect_2: "You will choose a [great_building|E] to construct in [GetTitleByKey('c_nidavellir_1').GetName]."
+
  start_long_winter_decision: "Start the Long Winter"
- start_long_winter_decision_desc: "the [darklord|e] has called in a favor and asked me to cast a curse of winter onto the south. yet the timing is up to me. is it time to start [sauroncharacter|e]s winter"
+ start_long_winter_decision_desc: "The [darklord|E] has called in an ancient favor, asking me to cast a curse of winter upon the South. The timing remains mine to choose. Is it time to unleash [sauroncharacter|E]'s winter?"
  start_long_winter_decision_tooltip: "Start the Long Winter"
  start_long_winter_decision_confirm: "Cast the Arctic Winds"
- start_long_winter_decision_trigger: "It is currently winter"
- start_long_winter_decision_effect: "The Long Winter Starts"
+ start_long_winter_decision_trigger: "The current month is September through March."
+ start_long_winter_decision_effect: "The Long Winter begins."
 
-# BEGIN RESTORATION LOCALIZATION
+# ============================================================
+# Restoration
+# ============================================================
  tfw_embrace_elven_restoration_decision: "Embrace Redemption"
- tfw_embrace_elven_restoration_decision_desc: "Our Prayers have been answered and the creator has freed us from the taint of [melkorcharacter|e]. now it is time to join our breathern in the light once again."
+ tfw_embrace_elven_restoration_decision_desc: "Our prayers have been answered. The Creator has freed us from the taint of [melkorcharacter|E], and the time has come to join our brethren in the light once more."
  tfw_embrace_elven_restoration_decision_tooltip: "Embrace Redemption"
  tfw_embrace_elven_restoration_decision_confirm: "Embrace Redemption"
-
-# END RESTORATION LOCALIZATION

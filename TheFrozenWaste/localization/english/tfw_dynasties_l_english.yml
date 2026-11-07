@@ -1,25 +1,37 @@
-﻿### LotR: This file needs to be kept in sync with the release version.
+﻿# ============================================================
+# LotR: This file needs to be kept in sync with the release version.
+# ============================================================
 
-### Edited the dates
+# ============================================================
+# Edited the dates
+# ============================================================
 
-### Edited the loading screen text
+# ============================================================
+# Edited the loading screen text
+# ============================================================
 
 l_english:
 
-  ### MAIAR / UMAIAR DYNASTIES ###
+  # ============================================================
+  # MAIAR / UMAIAR DYNASTIES
+  # ============================================================
 
   dynn_nixni: "Niquëtári"
-  dynn_nixni_motto: "The stars will rain from the sky before Nixní fulfills not her word."
-  
-  ### Evermist ###
-  
+  dynn_nixni_motto: "The stars will fall from the sky before Nixní breaks her word."
+
+  # ============================================================
+  # Evermist
+  # ============================================================
+
   dynn_nestador: "Nestador"
   dynn_nestador_motto: "What Is Broken Shall Be Made Whole"
-  
+
   dynn_vorondil: "Vorondil"
   dynn_vorondil_motto: "Until the World is Changed we shall keep watch"
 
-  ### LOSSOTH / FOROCHEL COAST DYNASTIES ###
+  # ============================================================
+  # LOSSOTH / FOROCHEL COAST DYNASTIES
+  # ============================================================
 
   dynn_fc_aallokko: "Aallokko"
   dynn_fc_aallokko_motto: "Wave after wave, still we stand."
@@ -184,7 +196,9 @@ l_english:
   dynn_fc_vesala_motto: "Where water flows, life follows."
 
 
-  ### FORODAIN DYNASTIES ###
+  # ============================================================
+  # FORODAIN DYNASTIES
+  # ============================================================
 
   dynn_ardanoril: "Ardanoril"
   dynn_ardanoril_motto: "The old blood remembers the stars."
@@ -220,7 +234,9 @@ l_english:
   dynn_vaelthor_motto: "Far have we wandered; firm do we stand."
 
 
-  ### NIDAVELLIR IRONFIST VASSAL HOUSES DYNASTIES ###
+  # ============================================================
+  # NIDAVELLIR IRONFIST VASSAL HOUSES DYNASTIES
+  # ============================================================
 
   dynn_nidavellir_barukhan: "Barukhan"
   dynn_nidavellir_barukhan_motto: "Iron Remembers"
@@ -241,7 +257,9 @@ l_english:
   dynn_nidavellir_zharakh_motto: "By Hammer We Make a Home"
 
 
-  ### LOSSIDIL TWIN KINGDOMS DYNASTIES ###
+  # ============================================================
+  # LOSSIDIL TWIN KINGDOMS DYNASTIES
+  # ============================================================
 
   dynn_lossidil_celethrim: "Celethrim"
   dynn_lossidil_celethrim_motto: "From Ruin, Two Crowns"
@@ -262,7 +280,9 @@ l_english:
   dynn_lossidil_vaelorn_motto: "No Master Beneath the Stars"
 
 
-  ### ERYD RHIVAMAR / ADLANTRIM DYNASTIES ###
+  # ============================================================
+  # ERYD RHIVAMAR / ADLANTRIM DYNASTIES
+  # ============================================================
 
   dynn_adlantrim_aerendil: "Aerendil"
   dynn_adlantrim_aerendil_motto: "From the First Shadow, We Endure"
@@ -424,7 +444,9 @@ l_english:
   dynn_adlantrim_yaviren_motto: "Memory Is Our Iron"
 
 
-  ### ANGMARRIM DYNASTIES ###
+  # ============================================================
+  # ANGMARRIM DYNASTIES
+  # ============================================================
 
   dynn_erkki: "Erkki"
   dynn_erkki_motto: "Through Shadow, We Endure"
@@ -436,7 +458,9 @@ l_english:
   dynn_veikko_motto: "Iron Remembers Every Oath"
 
 
-  ### FROSTWOOD DYNASTIES ###
+  # ============================================================
+  # FROSTWOOD DYNASTIES
+  # ============================================================
 
   dynn_hwenti_hwanaar: "Hwanaar"
   dynn_hwenti_hwanaar_motto: "Hear the hidden song"
@@ -521,12 +545,14 @@ l_english:
 
   dynn_windan_varath: "Varath"
   dynn_windan_varath_motto: "No storm finds us unready"
-  
+
   dynn_tareg: "Tareg"
   dynn_tareg_motto: "Bane of Darkness"
 
 
-  ### UMLI DYNASTIES ###
+  # ============================================================
+  # UMLI DYNASTIES
+  # ============================================================
 
   dynn_umli_andvari: "Andvari"
   dynn_umli_andvari_motto: "We Keep What We Earn"
@@ -544,13 +570,17 @@ l_english:
   dynn_umli_nori_motto: "Small in Stature, Great in Deed"
 
 
-  ### GAUREDAIN DYNASTIES ###
+  # ============================================================
+  # GAUREDAIN DYNASTIES
+  # ============================================================
 
   dynn_gauredain_waithor: "Waithor"
   dynn_gauredain_waithor_motto: "Blood Remembers the Wild"
 
 
-  ### SNOW ORC DYNASTIES ###
+  # ============================================================
+  # SNOW ORC DYNASTIES
+  # ============================================================
 
   dynn_snoworc_ash_tusk: "Ash-Tusk"
   dynn_snoworc_ash_tusk_motto: "From Ash, We Gore Again"

@@ -1,6 +1,6 @@
-﻿######################################################
-##################### SITUATION ######################
-######################################################
+﻿# ============================================================
+# SITUATION
+# ============================================================
 window = {
 	name = "window_journal_entry"
 	widgetid = "window_journal_entry"
@@ -81,192 +81,213 @@ window = {
 						  proportional_icon = {
 						name = "illustration_normal"
 						size = { 550 180 }
-						
+
 
 						texture = "[Situation.GetTopCurrentPhase.GetType.GetIllustration]"
 
 						using = Mask_Rough_Edges
 					}
-					
+
 				}
-				
+
 
 				# Situation-specific content is intentionally pulled from the active
 				# Situation/phase data contexts below. No situation keys are hardcoded here.
 
-				vbox = {
+				margin_widget = {
 					layoutpolicy_horizontal = expanding
-					
-				
 					margin = { 10 20 }
-				
-					text_multi = {
+					vbox = {
 						layoutpolicy_horizontal = expanding
-						layoutpolicy_vertical = preferred
-				
-						autoresize = yes
-				
-						margin = { 10 10 }
-						max_width = 500
-				
-						text = "[Situation.GetDesc]"
-					}
-				}
-			
 
-				vbox = {
-					
-					layoutpolicy_horizontal = expanding
-					
-					
-					parentanchor = top|left
-				
-					margin = { 0 0 }
-					
-	
-					# use a different background for each phase
-					
-					text_label_center = {
-						min_width = 240
-						margin = { 0 5 }
-						parentanchor = top|left
-						layoutpolicy_horizontal = expanding
-						text = "JOURNAL_ENTRY_PROGRESS"
-					}
-				
-					progressbar_standard = {
-						name = "situation_progress"
-					
-						position = { 0 0 }
-						size = { 500 50 }
-						margin = { 0 0 }
-					
-						parentanchor = top|left
-						widgetanchor = top|left
-						direction = horizontal
-					
-						progresstexture = "gfx/interface/progressbars/progress_green.dds"
-						noprogresstexture = "gfx/interface/progressbars/progress_red.dds"
-					
-						min = 0
-						max = 100
-					
-						value = "[Situation.MakeScope.Var('progress_points').GetValue]"
-						tooltip = "[Situation.MakeScope.Var('progress_points').GetValue]"
-					
-						marker = {
-							name = "current_value"
-					
-							widget = {
-								icon = {
-									size = { 50 45 }
-									position = { -40 2 }
-									texture = "gfx/interface/progressbars/progressbar_center_glow.dds"
-									color = { 0.80 0.90 1 0.9 }
-								}
+
+						margin_widget = {
+							layoutpolicy_horizontal = expanding
+							margin = { 10 10 }
+							text_multi = {
+								layoutpolicy_horizontal = expanding
+								layoutpolicy_vertical = preferred
+
+								autoresize = yes
+
+								max_width = 500
+
+								text = "[Situation.GetDesc]"
 							}
 						}
 					}
-					
-					text_label_center = {
-						min_width = 240
-						margin = { 15 10 }
-						layoutpolicy_horizontal = expanding
-						text = "JOURNAL_ENTRY_COMPLETION_REQUIREMENTS"
-					}
-					
-					text_multi = {
-						layoutpolicy_horizontal = expanding
-						layoutpolicy_vertical = preferred
-						autoresize = yes
-						margin = { 15 10 }
-						max_width = 500
-						
-						text = "[SituationWindow.GetSelectedSubRegion.GetCurrentPhase.GetType.GetDesc]"
-					}
-				
 				}
-	
-				# EFFECTS
-				vbox = {
+
+
+				margin_widget = {
 					layoutpolicy_horizontal = expanding
-					# use a different background for each phase
-					margin = { 10 0 }
-	
-					
-	
-					
-	
-					spacer = { size = { 0 10 } }
-	
-					divider_light = {
+					margin = { 0 0 }
+					vbox = {
+
 						layoutpolicy_horizontal = expanding
-					}
-	
-					spacer = { size = { 0 10 } }
-	
-					# EFFECTS LIST
-					vbox = { # CURRENT PHASE & EFFECTS
-						layoutpolicy_horizontal = expanding
-		
-						margin = { 15 15 }
-		
-						background = {
-							using = Background_Area
-						}
-		
-						text_label_center = {
-							min_width = 240
+
+
+						parentanchor = top|left
+
+
+						# use a different background for each phase
+
+						margin_widget = {
 							layoutpolicy_horizontal = expanding
-							text = "SITUATION_PHASE_TYPE_MODIFIERS_LABEL"
-						}
-		
-						hbox = {
-							layoutpolicy_horizontal = expanding
-							margin_bottom = 10
-							spacing = 40
-		
-							hbox = {
+							margin = { 0 5 }
+							text_label_center = {
+								min_width = 240
+								parentanchor = top|left
 								layoutpolicy_horizontal = expanding
-		
-								hbox = { # Phase name
-									layoutpolicy_horizontal = expanding
-		
-									icon = {
-										size = { 40 40 }
-										texture = "[SituationWindow.GetSelectedSubRegion.GetCurrentPhase.GetType.GetIcon]"
-										background = {
-											texture = "gfx/interface/window_regency/regency_level_bg.dds"
-											margin = { 5 5 }
+								text = "JOURNAL_ENTRY_PROGRESS"
+							}
+						}
+
+						margin_widget = {
+							layoutpolicy_horizontal = expanding
+							margin = { 0 0 }
+							progressbar_standard = {
+								name = "situation_progress"
+
+								position = { 0 0 }
+								size = { 500 50 }
+
+								parentanchor = top|left
+								widgetanchor = top|left
+								direction = horizontal
+
+								progresstexture = "gfx/interface/progressbars/progress_green.dds"
+								noprogresstexture = "gfx/interface/progressbars/progress_red.dds"
+
+								min = 0
+								max = 100
+
+								value = "[Situation.MakeScope.Var('progress_points').GetValue]"
+								tooltip = "[Situation.MakeScope.Var('progress_points').GetValue]"
+
+								marker = {
+									name = "current_value"
+
+									widget = {
+										icon = {
+											size = { 50 45 }
+											position = { -40 2 }
+											texture = "gfx/interface/progressbars/progressbar_center_glow.dds"
+											color = { 0.80 0.90 1 0.9 }
 										}
-		
-									}
-		
-									text_single = {
-										layoutpolicy_horizontal = expanding
-										margin_left = 10
-										text = "[SituationWindow.GetSelectedSubRegion.GetCurrentPhase.GetName]"
-										align = nobaseline
 									}
 								}
-		
-								fixedgridbox = {
-									
-									name = "named_effect_sets"
+							}
+						}
+
+						margin_widget = {
+							layoutpolicy_horizontal = expanding
+							margin = { 15 10 }
+							text_label_center = {
+								min_width = 240
+								layoutpolicy_horizontal = expanding
+								text = "JOURNAL_ENTRY_COMPLETION_REQUIREMENTS"
+							}
+						}
+
+						margin_widget = {
+							layoutpolicy_horizontal = expanding
+							margin = { 15 10 }
+							text_multi = {
+								layoutpolicy_horizontal = expanding
+								layoutpolicy_vertical = preferred
+								autoresize = yes
+								max_width = 500
+
+								text = "[SituationWindow.GetSelectedSubRegion.GetCurrentPhase.GetType.GetDesc]"
+							}
+						}
+
+					}
+				}
+
+				# EFFECTS
+				margin_widget = {
+					layoutpolicy_horizontal = expanding
+					margin = { 10 0 }
+					vbox = {
+						layoutpolicy_horizontal = expanding
+						# use a different background for each phase
+
+
+						spacer = { size = { 0 10 } }
+
+						divider_light = {
+							layoutpolicy_horizontal = expanding
+						}
+
+						spacer = { size = { 0 10 } }
+
+						# EFFECTS LIST
+						margin_widget = {
+							layoutpolicy_horizontal = expanding
+							margin = { 15 15 }
+							vbox = { # CURRENT PHASE & EFFECTS
+								layoutpolicy_horizontal = expanding
+
+
+								background = {
+									using = Background_Area
+								}
+
+								text_label_center = {
+									min_width = 240
 									layoutpolicy_horizontal = expanding
-		
-									addcolumn = 48
-									addrow = 48
-									setitemsizefromcell = yes
-									datamodel_wrap = 6
-									maxhorizontalslots = 6
-									maxverticalslots = 2
-									flipdirection = yes
-									layoutanchor = topright
-		
-									datamodel = "[SituationSubRegion.GetCurrentPhase.GetType.GetModifierNamedSets]"
-									item = {
-										button_phase_named_set_item = {}
+									text = "SITUATION_PHASE_TYPE_MODIFIERS_LABEL"
+								}
+
+								hbox = {
+									layoutpolicy_horizontal = expanding
+									margin_bottom = 10
+									spacing = 40
+
+									hbox = {
+										layoutpolicy_horizontal = expanding
+
+										hbox = { # Phase name
+											layoutpolicy_horizontal = expanding
+
+											icon = {
+												size = { 40 40 }
+												texture = "[SituationWindow.GetSelectedSubRegion.GetCurrentPhase.GetType.GetIcon]"
+												background = {
+													texture = "gfx/interface/window_regency/regency_level_bg.dds"
+												}
+
+											}
+
+											text_single = {
+												layoutpolicy_horizontal = expanding
+												margin_left = 10
+												text = "[SituationWindow.GetSelectedSubRegion.GetCurrentPhase.GetName]"
+												align = nobaseline
+											}
+										}
+
+										fixedgridbox = {
+
+											name = "named_effect_sets"
+											layoutpolicy_horizontal = expanding
+
+											addcolumn = 48
+											addrow = 48
+											setitemsizefromcell = yes
+											datamodel_wrap = 6
+											maxhorizontalslots = 6
+											maxverticalslots = 2
+											flipdirection = yes
+											layoutanchor = topright
+
+											datamodel = "[SituationSubRegion.GetCurrentPhase.GetType.GetModifierNamedSets]"
+											item = {
+												button_phase_named_set_item = {}
+											}
+										}
 									}
 								}
 							}
@@ -274,60 +295,62 @@ window = {
 					}
 				}
 				# Participant group
-				vbox = {
-					datacontext = "[Situation.GetTopCharacterParticipantGroup( GetPlayer )]"
-					datacontext = "[SituationWindow.AccessParticipantCharacterList]"
-	
+				margin_widget = {
 					layoutpolicy_horizontal = expanding
 					margin = { 10 5 }
-	
-					text_label_center = {
+					vbox = {
+						datacontext = "[Situation.GetTopCharacterParticipantGroup( GetPlayer )]"
+						datacontext = "[SituationWindow.AccessParticipantCharacterList]"
+
 						layoutpolicy_horizontal = expanding
-						text = "[SituationParticipantGroup.GetName]"
-					}
-	
-					hbox = {
-						margin_top = 4
-						layoutpolicy_horizontal = expanding
-						layoutpolicy_vertical = expanding
-	
-						icon = {
-							visible = "[SituationParticipantGroup.IsValid]"
-	
-							size = { 40 40 }
-							texture = "[SituationParticipantGroup.GetType.GetIcon]"
-	
-							modify_texture = {
-								texture = "gfx/interface/colors/colors_textured.dds"
-								framesize = { 96 96 }
-								frame = 7
-								alpha = 1
-							}
-	
-							background = {
-								texture = "gfx/interface/icons/struggle_banners/icon_background_dark.dds"
-								margin = { 5 5 }
-							}
+
+						text_label_center = {
+							layoutpolicy_horizontal = expanding
+							text = "[SituationParticipantGroup.GetName]"
 						}
-	
-						vbox_participant_group_summary = { }
-	
-						expand = {}
-	
-						button_standard = {
-							size = { 180 32 }
-							onclick = "[SituationParticipantCharacterList.Toggle]"
-							down = "[SituationParticipantCharacterList.IsVisible]"
-							text = "SITUATION_PARTICIPANT_GROUP_VIEW_ALL"
+
+						hbox = {
+							margin_top = 4
+							layoutpolicy_horizontal = expanding
+							layoutpolicy_vertical = expanding
+
+							icon = {
+								visible = "[SituationParticipantGroup.IsValid]"
+
+								size = { 40 40 }
+								texture = "[SituationParticipantGroup.GetType.GetIcon]"
+
+								modify_texture = {
+									texture = "gfx/interface/colors/colors_textured.dds"
+									framesize = { 96 96 }
+									frame = 7
+									alpha = 1
+								}
+
+								background = {
+									texture = "gfx/interface/icons/struggle_banners/icon_background_dark.dds"
+								}
+							}
+
+							vbox_participant_group_summary = { }
+
+							expand = {}
+
+							button_standard = {
+								size = { 180 32 }
+								onclick = "[SituationParticipantCharacterList.Toggle]"
+								down = "[SituationParticipantCharacterList.IsVisible]"
+								text = "SITUATION_PARTICIPANT_GROUP_VIEW_ALL"
+							}
 						}
 					}
 				}
 				expand = {}
 			}
-				
+
 		}
 	}
-	
+
 
 	window_situation_participant_groups = {
 		datacontext = "[SituationWindow.AccessParticipantCharacterList]"
@@ -342,9 +365,6 @@ window = {
 	}
 }
 
-
-
-	
 
 	types TFW_Journal_Participant_Types {
 	type window_situation_participant_groups = window {
@@ -382,95 +402,100 @@ window = {
 				}
 			}
 
-			hbox = {
+			margin_widget = {
 				layoutpolicy_horizontal = expanding
 				margin = { 8 0 }
-				margin_bottom = 4
-				
-				background = {
-					using = Background_Area
-					margin = { 0 4 }
-				}
+				hbox = {
+					layoutpolicy_horizontal = expanding
+					margin_bottom = 4
 
-				flowcontainer = {
-					layoutstretchfactor_horizontal = 50
+					background = {
+						using = Background_Area
+					}
 
-					datamodel = "[SituationSubRegion.GetParticipantGroups]"
-					spacing = 10
-					margin = { 10 10 }
+					margin_widget = {
+						layoutpolicy_horizontal = expanding
+						margin = { 10 10 }
+						flowcontainer = {
+							layoutstretchfactor_horizontal = 50
 
-					item = {
-						button = {
-							size = { 46 46 }
-							visible = "[SituationParticipantGroup.IsValid]"
-							onclick = "[SituationParticipantCharacterList.SetSelectedParticipantGroup( SituationParticipantGroup.Self )]"
-							tooltip = "[SituationParticipantGroup.GetName]"
+							datamodel = "[SituationSubRegion.GetParticipantGroups]"
+							spacing = 10
 
-							icon = {
-								visible = "[SituationParticipantCharacterList.IsParticipantGroupSelected( SituationParticipantGroup.Self )]"
-								parentanchor = center
+							item = {
+								button = {
+									size = { 46 46 }
+									visible = "[SituationParticipantGroup.IsValid]"
+									onclick = "[SituationParticipantCharacterList.SetSelectedParticipantGroup( SituationParticipantGroup.Self )]"
+									tooltip = "[SituationParticipantGroup.GetName]"
 
-								texture = "gfx/interface/buttons/button_round_frame.dds"
-								size = { 58 58 }
-								color = { 0.75 0.75 0.65 1 }
+									icon = {
+										visible = "[SituationParticipantCharacterList.IsParticipantGroupSelected( SituationParticipantGroup.Self )]"
+										parentanchor = center
 
-								modify_texture = {
-									texture = "gfx/interface/colors/gold.dds"
-									alpha = 1
-								}
-							}
+										texture = "gfx/interface/buttons/button_round_frame.dds"
+										size = { 58 58 }
+										color = { 0.75 0.75 0.65 1 }
 
-							icon_round_button_base = {
-								parentanchor = center
-								size = { 100% 100% }
-								enabled = "[Not( SituationParticipantCharacterList.IsParticipantGroupSelected( SituationParticipantGroup.Self ) )]"
-							}
+										modify_texture = {
+											texture = "gfx/interface/colors/gold.dds"
+											alpha = 1
+										}
+									}
 
-							icon = {
-								parentanchor = center
-								size = { 36 36 }
+									icon_round_button_base = {
+										parentanchor = center
+										size = { 100% 100% }
+										enabled = "[Not( SituationParticipantCharacterList.IsParticipantGroupSelected( SituationParticipantGroup.Self ) )]"
+									}
 
-								visible = "[SituationParticipantCharacterList.IsParticipantGroupSelected( SituationParticipantGroup.Self )]"
-								texture = "[SituationParticipantGroup.GetType.GetIcon]"
-								
-								modify_texture = {
-									texture = "gfx/interface/colors/gold.dds"
-									alpha = 1
-								}
-							}
+									icon = {
+										parentanchor = center
+										size = { 36 36 }
 
-							icon = {
-								parentanchor = center
-								size = { 36 36 }
+										visible = "[SituationParticipantCharacterList.IsParticipantGroupSelected( SituationParticipantGroup.Self )]"
+										texture = "[SituationParticipantGroup.GetType.GetIcon]"
 
-								visible = "[Not( SituationParticipantCharacterList.IsParticipantGroupSelected( SituationParticipantGroup.Self ) )]"
-								texture = "[SituationParticipantGroup.GetType.GetIcon]"
-								alpha = "[Select_float(SituationParticipantCharacterList.IsParticipantGroupSelected( SituationParticipantGroup.Self ),'(float)1.0','(float)0.6')]"
-								
-								modify_texture = {
-									texture = "gfx/interface/colors/gold.dds"
-									alpha = 1
+										modify_texture = {
+											texture = "gfx/interface/colors/gold.dds"
+											alpha = 1
+										}
+									}
+
+									icon = {
+										parentanchor = center
+										size = { 36 36 }
+
+										visible = "[Not( SituationParticipantCharacterList.IsParticipantGroupSelected( SituationParticipantGroup.Self ) )]"
+										texture = "[SituationParticipantGroup.GetType.GetIcon]"
+										alpha = "[Select_float(SituationParticipantCharacterList.IsParticipantGroupSelected( SituationParticipantGroup.Self ),'(float)1.0','(float)0.6')]"
+
+										modify_texture = {
+											texture = "gfx/interface/colors/gold.dds"
+											alpha = 1
+										}
+									}
 								}
 							}
 						}
 					}
+					expand = {}
+
+					divider_light = {
+						layoutpolicy_vertical = expanding
+					}
+
+					expand = {}
+
+					vbox_participant_group_summary = {
+						datacontext = "[SituationParticipantCharacterList.GetSelectedParticipantGroup]"
+
+						layoutpolicy_vertical = expanding
+						layoutstretchfactor_horizontal = 50
+					}
+
+					expand = {}
 				}
-				expand = {}
-
-				divider_light = {
-					layoutpolicy_vertical = expanding
-				}
-
-				expand = {}
-				
-				vbox_participant_group_summary = {
-					datacontext = "[SituationParticipantCharacterList.GetSelectedParticipantGroup]"
-
-					layoutpolicy_vertical = expanding
-					layoutstretchfactor_horizontal = 50
-				}
-
-				expand = {}
 			}
 
 			vbox_character_list = {

@@ -8,7 +8,6 @@ raf_at_war = {
 	development_decline = -0.5
 }
 
-# BEGIN RESTORATION: common/modifiers/tfw_orc_restoration_modifiers.txt
 tfw_restoration_prayer_contributor_3 = {
     icon = magic_positive
     monthly_piety = 0.3
@@ -27,4 +26,3 @@ tfw_restoration_prayer_contributor_5 = {
     same_faith_opinion = 5
     stress_gain_mult = -0.10
 }
-# END RESTORATION: common/modifiers/tfw_orc_restoration_modifiers.txt

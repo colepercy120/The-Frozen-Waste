@@ -1,8 +1,10 @@
-﻿###############################
-#### The Frozen Waste Lore ####
-###############################
+﻿# ============================================================
+# The Frozen Waste Lore
+# ============================================================
 
-### Central Lore ###
+# ============================================================
+# Central Lore
+# ============================================================
 
 frozen_waste = {
 	parent = conceptmajorloreidea
@@ -35,22 +37,16 @@ dagor_losscriss = {
 }
 
 
-####################
-### Characters ####
-####################
+# ============================================================
+# Characters
+# ============================================================
 
 ladyofcold = {
 	parent = conceptmajorcharacter
 	alias = { winter_queen snowqueen nixni }
 }
 
-# The base LOTR concept file already defines "tareg".
-# TFW uses a separate key because this mod gives him a substantially
-# different history and fate than the base concept localization.
-#tfw_tareg = {
-#	parent = conceptmajorcharacter
-#	alias = { tareg_frostwood }
-#}
+# Tareg is defined by Realms in Exile; this mod overrides his description.
 
 giftlord = {
 	parent = maiargods
@@ -58,9 +54,9 @@ giftlord = {
 }
 
 
-#################
-### Peoples #####
-#################
+# ============================================================
+# Peoples
+# ============================================================
 
 forodain = {
 	parent = conceptracemen
@@ -77,7 +73,7 @@ gauredain = {
 
 uracinar = {
 	parent = orcs
-	alias = { unbowed_orcs adalantrim }
+	alias = { unbowed_orcs adalantrim adlantrim }
 }
 
 moriondor = {
@@ -86,9 +82,9 @@ moriondor = {
 }
 
 
-#################
-### Locations ###
-#################
+# ============================================================
+# Locations
+# ============================================================
 
 helecthil = {
 	parent = conceptplace

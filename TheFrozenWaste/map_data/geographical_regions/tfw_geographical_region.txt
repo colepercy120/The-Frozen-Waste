@@ -12,10 +12,10 @@
 # key + _development_growth_factor
 # This requires "generate_modifiers = yes" in the region
 
-#########################################################################
+# ============================================================
 # World Regions
 	# These groups are mutually exclusive on the same tier & should cover every part of the map
-#########################################################################
+# ============================================================
 
 
 # middleearth_valinor #Not part of middleearth region despite the name
@@ -157,9 +157,9 @@
 			# middleearth_mountains_yellow_west_gunduzanda
 	# middleearth_mountains_red
 
-###########################################################################
-### BOTTOM LEVEL GEOGRAPHICAL REGIONS
-###########################################################################
+# ============================================================
+# BOTTOM LEVEL GEOGRAPHICAL REGIONS
+# ============================================================
 # Defined through duchies
 
 middleearth_valinor = {
@@ -174,15 +174,14 @@ middleearth_wastelands = {
 	}
 }
 
-#################
-### West Misc ###
-#################
+# ============================================================
+# West Misc
+# ============================================================
 
 
-
-##################
-### Forodwaith ###
-##################
+# ============================================================
+# Forodwaith
+# ============================================================
 
 middleearth_forodwaith_forochel = {
 	duchies = {
@@ -204,7 +203,7 @@ middleearth_forodwaith_tol_engrin = {
 		middleearth_forodwaith_tol_engrin_gondalf
 		middleearth_forodwaith_tol_engrin_narthalf
 		middleearth_forodwaith_tol_engrin_helfalas
-		
+
 		middleearth_forodwaith_tol_faron
 		middleearth_forodwaith_frost_isles
 		middleearth_forodwaith_morgoths_well
@@ -224,47 +223,47 @@ middleearth_forodwaith_tol_engrin_minheldolath = {
 
 middleearth_forodwaith_tol_engrin_evermist = {
 	duchies = {
-		d_evermist_1   
+		d_evermist_1
 	}
 }
 middleearth_forodwaith_tol_faron = {
 	duchies = {
-		d_tol_faron_1  
+		d_tol_faron_1
 	}
 }
 middleearth_forodwaith_tol_engrin_gondalf = {
 	duchies = {
-		d_gondalf_1  
-		d_gondalf_2  
+		d_gondalf_1
+		d_gondalf_2
 	}
 }
 middleearth_forodwaith_tol_engrin_narthalf = {
 	duchies = {
-		d_narthalf_1 
-		d_narthalf_2 
+		d_narthalf_1
+		d_narthalf_2
 	}
 }
 middleearth_forodwaith_tol_engrin_helfalas = {
 	duchies = {
-		d_helfalas_1 
-		d_helfalas_2 
+		d_helfalas_1
+		d_helfalas_2
 	}
 }
 middleearth_forodwaith_frost_isles = {
 	duchies = {
-		d_frost_isles_1 
-		d_frost_isles_2 
+		d_frost_isles_1
+		d_frost_isles_2
 	}
 }
 middleearth_forodwaith_morgoths_well = {
 	duchies = {
-		d_morgoths_well 
+		d_morgoths_well
 	}
 }
 
 middleearth_forodwaith_angband = {
 	duchies = {
-		d_thangorodrim 
+		d_thangorodrim
 	}
 }
 
@@ -390,7 +389,7 @@ middleearth_forodwaith_enevorodwaith_forovirian = {
 		d_forovirian_4
 		d_forovirian_5
 	}
-}	
+}
 
 middleearth_forodwaith_enevorodwaith_talath_uichel = {
 	duchies = {
@@ -435,7 +434,6 @@ middleearth_forodwaith_rhuvorodwaith_grey_foothills = {
 		d_grey_foothills_3
 	}
 }
-
 
 
 middleearth_mountains_bleak = {
@@ -510,15 +508,15 @@ middleearth_mountains_rhivamar_angband_reach = {
 	}
 }
 
-###########################################################################
-### HIGHER LEVEL GEOGRAPHICAL REGIONS
-###########################################################################
+# ============================================================
+# HIGHER LEVEL GEOGRAPHICAL REGIONS
+# ============================================================
 # Defined through subregions
 
 
 middleearth_mountains = {
-	#Juke Note: Does not include all mountains, as some are part of other dejure or other regions (see angmar and rhun mountains)
-	#Check for halls terrain instead
+	# Juke Note: Does not include all mountains, as some are part of other dejure or other regions (see angmar and rhun mountains)
+	# Check for halls terrain instead
 	regions = {
 		middleearth_mountains_blue
 		middleearth_mountains_misty
@@ -533,6 +531,8 @@ middleearth_mountains = {
 
 middleearth_forodwaith = {
 	regions = {
+		middleearth_mountains_bleak
+		middleearth_mountains_rhivamar
 		middleearth_forodwaith_forochel
 		middleearth_forodwaith_angmar
 		middleearth_forodwaith_northernwastes
@@ -554,9 +554,6 @@ graphical_siberia = {
 		middleearth_forodwaith
 	}
 }
-
-
-
 
 
 middleearth_mountains_iron = {
@@ -584,7 +581,9 @@ graphical_underground = {
 	}
 }
 
-##### Custom
+# ============================================================
+# Custom
+# ============================================================
 
 custom_forochel_coast = {
 	duchies = {
@@ -607,7 +606,7 @@ custom_forochel_coast = {
 		c_everdalf_8
 		c_everdalf_9
 		c_everdalf_1
-		
+
 		c_homela
 		c_salmi
 		c_ja_rannit
@@ -628,8 +627,8 @@ custom_greater_forochel = {
 		middleearth_forodwaith_forochel
 	}
 	duchies = {
-	#	d_thargelion
-	#	d_andunaloni
+	# d_thargelion
+	# d_andunaloni
 	}
 }
 
@@ -638,8 +637,8 @@ special_long_winter_very_heavy_region = {
 		middleearth_forodwaith
 	}
 	duchies = {
-		
-		#Gundabad
+
+		# Gundabad
 		d_gundabad d_gunduz_mahab d_dweorad d_ronen_in_anduin
 		d_greyspine d_thakalgund d_withered_heath d_iron_gap d_enad_agmal
 		d_grey_mountain_narrows d_drakkenvast d_hithaeglir_forn d_dol_tiriamon

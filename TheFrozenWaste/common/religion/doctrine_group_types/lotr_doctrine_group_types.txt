@@ -1,6 +1,6 @@
 ﻿is_adulation_of_the_dark_faith = {
 	category = "special"
-	
+
 	is_available_on_create = {
 		has_doctrine = special_doctrine_is_adulation_of_the_dark_faith
 	}
@@ -12,7 +12,7 @@
 
 is_freepeople_faith = {
 	category = "special"
-	
+
 	is_available_on_create = {
 		has_doctrine = special_doctrine_is_freepeople_faith
 	}
@@ -24,7 +24,7 @@ is_freepeople_faith = {
 
 is_survival_of_the_strong_faith = {
 	category = "special"
-	
+
 	is_available_on_create = {
 		has_doctrine = special_doctrine_is_survival_of_the_strong_faith
 	}
@@ -65,7 +65,7 @@ doctrine_dwarven_branches = {
 	is_available_on_create = {
 		religion_tag = dwarven_religion
 	}
-	
+
 	doctrine_types = {
 		doctrine_major_branch_dwarven
 		doctrine_heretic_branch_dwarven

@@ -45,24 +45,24 @@ lotr_on_title_gain = {
 				destroy_maa_regiment = yes
 			}
 		}
-		#Artifact title inheritance stuff
+		# Artifact title inheritance stuff
 		if = {
 			limit = {
 				exists = scope:previous_holder
 				scope:previous_holder = {
 					any_character_artifact = {
-						has_variable = artifact_succession_title #Is this an artifact that should follow a title?
-						var:artifact_succession_title = { is_title_created = yes } #Does the title the artifact should follow exist?
-						var:artifact_succession_title = scope:title #Scope title is the artifact title
+						has_variable = artifact_succession_title # Is this an artifact that should follow a title?
+						var:artifact_succession_title = { is_title_created = yes } # Does the title the artifact should follow exist?
+						var:artifact_succession_title = scope:title # Scope title is the artifact title
 					}
 				}
 			}
 			scope:previous_holder = {
 				every_character_artifact = {
 					limit = {
-						has_variable = artifact_succession_title #Is this an artifact that should follow a title?
-						var:artifact_succession_title = { is_title_created = yes } #Does the title the artifact should follow exist?
-						var:artifact_succession_title = scope:title #Scope title is the artifact title
+						has_variable = artifact_succession_title # Is this an artifact that should follow a title?
+						var:artifact_succession_title = { is_title_created = yes } # Does the title the artifact should follow exist?
+						var:artifact_succession_title = scope:title # Scope title is the artifact title
 					}
 					if = {
 						limit = {
@@ -117,7 +117,7 @@ lotr_on_title_gain = {
 			}
 		}
 
-		#Druedain Watch Stones
+		# Druedain Watch Stones
 		if = {
 			limit = {
 				scope:title.tier = tier_county
@@ -135,8 +135,8 @@ lotr_on_title_gain = {
 				}
 			}
 		}
-		
-		#Rlain conquers Enedhwaith
+
+		# Rlain conquers Enedhwaith
 		if = {
 			limit = {
 				scope:title ?= title:k_enedhwaith
@@ -457,7 +457,7 @@ lotr_on_title_gain = {
 				set_variable = conquerored_mispir
 			}
 		}
-		#Maglor stuff
+		# Maglor stuff
 		if = {
 			limit = {
 				OR = {
@@ -478,7 +478,7 @@ lotr_on_title_gain = {
 			}
 			trigger_event = maglor_event_chain.0061
 		}
-		#Balin Expedition stuff
+		# Balin Expedition stuff
 		if = {
 			limit = {
 				scope:title = title:d_balins_expedition
@@ -490,7 +490,7 @@ lotr_on_title_gain = {
 			destroy_title = title:d_balins_expedition
 		}
 
-		#If Angmar should be formed, fire a news event
+		# If Angmar should be formed, fire a news event
 		if = {
 			limit = {
 				scope:title = title:k_angmar
@@ -525,7 +525,9 @@ lotr_on_title_gain = {
 			}
 		}
 
-		### Wilderness fallback: turn illegal wilderness to Tribal if non-Tom characters somehow get ahold of it
+		# ============================================================
+		# Wilderness fallback: turn illegal wilderness to Tribal if non-Tom characters somehow get ahold of it
+		# ============================================================
 		if = {
 			limit = {
 				scope:previous_holder ?= { is_alive = yes }
@@ -607,7 +609,9 @@ lotr_on_title_gain = {
 			debug_log = "Wilderness: Illegal Wilderness turned to Tribal"
 		}
 
-		### Give title back to Tom if Tom tried to give a wastelands title away
+		# ============================================================
+		# Give title back to Tom if Tom tried to give a wastelands title away
+		# ============================================================
 		if = {
 			limit = {
 				NOT = { has_variable = grant_wilderness_titles }
@@ -628,7 +632,9 @@ lotr_on_title_gain = {
 			debug_log = "Wilderness: Tom tried to give away Wilderness - Vanquished Version"
 		}
 
-		### Stop Tom revoking
+		# ============================================================
+		# Stop Tom revoking
+		# ============================================================
 		if = {
 			limit = {
 				NOT = { scope:previous_holder ?= character:k_wastelands_holder }
@@ -657,26 +663,30 @@ lotr_on_title_gain = {
 		}
 
 		# Trig Note - Commented out for history purposes, as it makes all Tom's counties wilderness on game start, making it dificult to test history code. Reenable before releasing beta.
-		## Clean up culture, faith, and holding type of Tom's counties
-		#character:k_wastelands_holder = {
-		#	every_sub_realm_county = {
-		#		limit = {
-		#			NAND = {
-		#				culture = culture:wastelands
-		#				faith = faith:faith_wastelands_pagan
-		#				title_province = { has_holding_type = wastelands_holding }
-		#			}
-		#		}
-		#		save_scope_as = wilderness_county
-		#		make_settlement_county_wilderness = { COUNTY = scope:wilderness_county }
-		#	}
-		#}
+		# Clean up culture, faith, and holding type of Tom's counties
+		# character:k_wastelands_holder = {
+		# every_sub_realm_county = {
+		# limit = {
+		# NAND = {
+		# culture = culture:wastelands
+		# faith = faith:faith_wastelands_pagan
+		# title_province = { has_holding_type = wastelands_holding }
+		# }
+		# }
+		# save_scope_as = wilderness_county
+		# make_settlement_county_wilderness = { COUNTY = scope:wilderness_county }
+		# }
+		# }
 
-		### Underground | Both AI & Player ###
-		tfw_make_halls_wastelands = yes ### TFW
+		# ============================================================
+		# Underground | Both AI & Player
+		# ============================================================
+		tfw_make_halls_wastelands = yes # TFW
 
-		### WILDERNESS | Player Side ###
-		if = { ## New Holder --> Gained settlement county
+		# ============================================================
+		# WILDERNESS | Player Side
+		# ============================================================
+		if = { # New Holder --> Gained settlement county
 			limit = {
 				scope:title ?= { title_province ?= { has_holding_type = settlement_holding } }
 				is_ai = no
@@ -687,7 +697,7 @@ lotr_on_title_gain = {
 			}
 			trigger_event = wastelands.0007
 
-			if = { ## PREVIOUS HOLDER
+			if = { # PREVIOUS HOLDER
 				limit = { scope:previous_holder ?= { is_alive = yes } }
 				scope:previous_holder ?= {
 					decrease_variable = {
@@ -699,13 +709,17 @@ lotr_on_title_gain = {
 			}
 		}
 
-		### WILDERNESS | AI Side ###
+		# ============================================================
+		# WILDERNESS | AI Side
+		# ============================================================
 		if = {
 			limit = {
 				scope:title ?= { title_province ?= { has_holding_type = settlement_holding } }
 				is_ai = yes
 			}
-			### Make county wilderness if it exceeds the AIs limit (since they're too stupid to deal with it themselves)
+			# ============================================================
+			# Make county wilderness if it exceeds the AIs limit (since they're too stupid to deal with it themselves)
+			# ============================================================
 			if = {
 				limit = {
 					highest_held_title_tier = tier_county
@@ -761,7 +775,7 @@ lotr_on_title_gain = {
 				}
 				trigger_event = wastelands.0007
 			}
-			if = { ## PREVIOUS HOLDER
+			if = { # PREVIOUS HOLDER
 				limit = { scope:previous_holder ?= { is_alive = yes } }
 				scope:previous_holder ?= {
 					decrease_variable = {
@@ -788,7 +802,7 @@ lotr_on_title_gain = {
 			destroy_title = title:e_isengard_unleashed
 		}
 
-		#LotR - Convert Elven barons to the correct government
+		# LotR - Convert Elven barons to the correct government
 		if = {
 			limit = {
 				scope:title ?= {
@@ -834,10 +848,10 @@ lotr_on_title_gain = {
 					remove_building_any_level = { BUILDING = plantations }
 					remove_building_any_level = { BUILDING = quarries }
 					remove_building_any_level = { BUILDING = guild_halls }
-					#remove_building_any_level = { BUILDING = ramparts }
-					#remove_building_any_level = { BUILDING = curtain_walls }
-					#remove_building_any_level = { BUILDING = watchtowers }
-					#remove_building_any_level = { BUILDING = hill_forts }
+					# remove_building_any_level = { BUILDING = ramparts }
+					# remove_building_any_level = { BUILDING = curtain_walls }
+					# remove_building_any_level = { BUILDING = watchtowers }
+					# remove_building_any_level = { BUILDING = hill_forts }
 					remove_building_any_level = { BUILDING = wind_furnace }
 					remove_building_any_level = { BUILDING = workshops }
 					remove_building_any_level = { BUILDING = horse_pastures }
@@ -893,8 +907,8 @@ lotr_on_title_gain = {
 					remove_duchy_building_any_level = { BUILDING = sentinel_keeps }
 					remove_duchy_building_any_level = { BUILDING = warriors_enclave }
 					remove_duchy_building_any_level = { BUILDING = sanctuary_groves }
-					#remove_building_any_level = { BUILDING = dwarven_forge }
-					if = { #Ruin Dwarven Capitals
+					# remove_building_any_level = { BUILDING = dwarven_forge }
+					if = { # Ruin Dwarven Capitals
 						limit = {
 							has_ruined_great_building = no
 							OR = {
@@ -998,7 +1012,7 @@ lotr_on_title_gain = {
 				}
 			}
 		}
-		#Event to give Stewards Ithilien
+		# Event to give Stewards Ithilien
 		if = {
 			limit = {
 				game_start_date >= 6083 # After line of Kings fails in Gondor
@@ -1124,7 +1138,7 @@ lotr_on_title_gain = {
 			}
 		}
 
-		if = { #Converting conquered colonies to new holder's culture/faith
+		if = { # Converting conquered colonies to new holder's culture/faith
 			limit = {
 				restricted_culture = no
 				scope:title ?= {
@@ -1147,7 +1161,7 @@ lotr_on_title_gain = {
 			limit = {
 				is_from_ruler_designer = no
 				OR = {
-					#not_valar = yes
+					# not_valar = yes
 					not_nazgul = yes
 					not_istari = yes
 					not_istari_evil = yes
@@ -1168,7 +1182,7 @@ lotr_on_title_gain = {
 					is_evil_istari = yes
 					faith_is_evil = yes
 				}
-				faith_is_evil = yes #TFW
+				faith_is_evil = yes # TFW
 			}
 			if = {
 				limit = {
@@ -1451,17 +1465,17 @@ lotr_on_title_gain = {
 						years = 25
 					}
 					every_county_province = {
-						limit = { 
-							has_holding = yes 
+						limit = {
+							has_holding = yes
 							NOT = { terrain = halls }
 						}
 						set_holding_type = elven_holding
 						barony = { generate_coa = yes }
 					}
 					every_county_province = {
-						limit = { 
-							has_holding = yes 
-							terrain = halls 
+						limit = {
+							has_holding = yes
+							terrain = halls
 						}
 						set_holding_type = elven_hall_holding
 						barony = { generate_coa = yes }
@@ -1569,6 +1583,7 @@ lotr_on_title_gain = {
 					title_province = {
 						NOR = {
 							has_holding_type = elven_holding
+							has_holding_type = elven_hall_holding
 							has_holding_type = settlement_holding
 							has_holding_type = wastelands_holding
 						}
@@ -1583,7 +1598,7 @@ lotr_on_title_gain = {
 				location = root.location
 			}
 			scope:new_holder = {
-				lotr_character_template_age_traits_effect = { #LOTR trait/lifespan fixes
+				lotr_character_template_age_traits_effect = { # LOTR trait/lifespan fixes
 					MAX = middle_age
 					MIN = young_age
 				}
@@ -1621,7 +1636,7 @@ lotr_on_title_gain = {
 				location = root.location
 			}
 			scope:new_holder = {
-				lotr_character_template_age_traits_effect = { #LOTR trait/lifespan fixes
+				lotr_character_template_age_traits_effect = { # LOTR trait/lifespan fixes
 					MAX = middle_age
 					MIN = young_age
 				}
@@ -1641,7 +1656,7 @@ lotr_on_title_gain = {
 			resolve_title_and_vassal_change = scope:title_change
 			scope:title ?= { generate_coa = yes }
 		}
-		#Tamska Inheritance
+		# Tamska Inheritance
 		if = {
 			limit = {
 				scope:title ?= {
@@ -1653,7 +1668,7 @@ lotr_on_title_gain = {
 				days = 1
 			}
 		}
-		#Ovatha Name Change
+		# Ovatha Name Change
 		if = {
 			limit = {
 				scope:title ?= {
@@ -1677,7 +1692,7 @@ lotr_on_title_gain = {
 				}
 			}
 		}
-		#LotR - Tracking Imperial Khand Time Held
+		# LotR - Tracking Imperial Khand Time Held
 		if = {
 			limit = {
 				scope:title ?= {
@@ -1757,7 +1772,7 @@ lotr_on_title_gain = {
 			destroy_title = title:d_nhazadh
 		}
 
-		## Watch on Mordor stuff
+		# Watch on Mordor stuff
 		if = {
 			limit = {
 				NOR = {
@@ -1780,12 +1795,12 @@ lotr_on_title_gain = {
 				}
 			}
 		}
-		trigger_event = { #So that it doesn't fire simultaneously with lotr_artifact.0040
+		trigger_event = { # So that it doesn't fire simultaneously with lotr_artifact.0040
 			id = lotr_artifact.0042 # Reforging Narsil
 			days = 1
 		}
 
-		## Hobbits can be laamps
+		# Hobbits can be laamps
 		if = {
 			limit = {
 				is_hobbit = yes
@@ -1798,7 +1813,7 @@ lotr_on_title_gain = {
 			}
 		}
 
-		## Oligarchy title law handling - Trig Note - clean this up when we have a chance to
+		# Oligarchy title law handling - Trig Note - clean this up when we have a chance to
 		if = {
 			limit = {
 				scope:title ?= { has_title_law = oligarchic_elective_succession_law }
@@ -1830,7 +1845,7 @@ lotr_on_title_gain = {
 				scope:title ?= {
 					NOT = { has_title_law = oligarchic_elective_succession_law }
 					this = root.primary_title
-					is_noble_family_title = no #Throws errors if added to Noble Family titles
+					is_noble_family_title = no # Throws errors if added to Noble Family titles
 				}
 			}
 			scope:title ?= {
@@ -1894,7 +1909,7 @@ lotr_on_title_gain = {
 			}
 		}
 
-		if = { ### Late-blooming kids receive legitimacy reduction debuff ###
+		if = { # Late-blooming kids receive legitimacy reduction debuff
 			limit = {
 				coronation_trigger = yes
 				NOR = {
@@ -1990,7 +2005,7 @@ lotr_on_title_gain = {
 		}
 	}
 	events = {
-		gondor.9998 #Isengard switching
+		gondor.9998 # Isengard switching
 		orcs.0010
 		dwarven.6001
 		nordinbad.0200
@@ -2010,7 +2025,9 @@ lotr_on_title_gain = {
 # scope:previous_holder = previous holder. Should be dead
 lotr_on_title_gain_inheritance = {
 	effect = {
-		### WILDERNESS ###
+		# ============================================================
+		# WILDERNESS
+		# ============================================================
 		if = {
 			limit = {
 				is_landed = yes
@@ -2057,10 +2074,10 @@ lotr_on_title_gain_inheritance = {
 					remove_building_any_level = { BUILDING = plantations }
 					remove_building_any_level = { BUILDING = quarries }
 					remove_building_any_level = { BUILDING = guild_halls }
-					#remove_building_any_level = { BUILDING = ramparts }
-					#remove_building_any_level = { BUILDING = curtain_walls }
-					#remove_building_any_level = { BUILDING = watchtowers }
-					#remove_building_any_level = { BUILDING = hill_forts }
+					# remove_building_any_level = { BUILDING = ramparts }
+					# remove_building_any_level = { BUILDING = curtain_walls }
+					# remove_building_any_level = { BUILDING = watchtowers }
+					# remove_building_any_level = { BUILDING = hill_forts }
 					remove_building_any_level = { BUILDING = wind_furnace }
 					remove_building_any_level = { BUILDING = workshops }
 					remove_building_any_level = { BUILDING = horse_pastures }
@@ -2110,12 +2127,12 @@ lotr_on_title_gain_inheritance = {
 					remove_duchy_building_any_level = { BUILDING = crafting_enclaves }
 					remove_duchy_building_any_level = { BUILDING = warriors_enclave }
 					remove_duchy_building_any_level = { BUILDING = sanctuary_groves }
-					#remove_building_any_level = { BUILDING = dwarven_forge }
+					# remove_building_any_level = { BUILDING = dwarven_forge }
 				}
 			}
 		}
 
-		#LotR - make sure races remain with correct government types
+		# LotR - make sure races remain with correct government types
 		if = {
 			limit = { is_landless_adventurer = no }
 			if = {
@@ -2134,7 +2151,7 @@ lotr_on_title_gain_inheritance = {
 			}
 		}
 
-		#LotR - make sure hobbits remain with the hobbit government type
+		# LotR - make sure hobbits remain with the hobbit government type
 		if = {
 			limit = {
 				is_hobbit = yes
@@ -2147,7 +2164,7 @@ lotr_on_title_gain_inheritance = {
 			}
 		}
 
-		#If settlement inherited, give back to top liege, unless human.
+		# If settlement inherited, give back to top liege, unless human.
 		if = {
 			limit = {
 				scope:title ?= {
@@ -2157,7 +2174,7 @@ lotr_on_title_gain_inheritance = {
 				is_independent_ruler = no
 				is_ai = yes
 			}
-			#top_liege = { add_gold = 10000 }
+			# top_liege = { add_gold = 10000 }
 			create_title_and_vassal_change = {
 				type = usurped
 				save_scope_as = change
@@ -2182,6 +2199,7 @@ lotr_on_title_gain_inheritance = {
 					title_province = {
 						NOR = {
 							has_holding_type = elven_holding
+							has_holding_type = elven_hall_holding
 							has_holding_type = settlement_holding
 							has_holding_type = wastelands_holding
 						}
@@ -2196,7 +2214,7 @@ lotr_on_title_gain_inheritance = {
 				location = root.location
 			}
 			scope:new_holder = {
-				lotr_character_template_age_traits_effect = { #LOTR trait/lifespan fixes
+				lotr_character_template_age_traits_effect = { # LOTR trait/lifespan fixes
 					MAX = middle_age
 					MIN = young_age
 				}
@@ -2233,7 +2251,7 @@ lotr_on_title_gain_inheritance = {
 				location = root.location
 			}
 			scope:new_holder = {
-				lotr_character_template_age_traits_effect = { #LOTR trait/lifespan fixes
+				lotr_character_template_age_traits_effect = { # LOTR trait/lifespan fixes
 					MAX = middle_age
 					MIN = young_age
 				}
@@ -2272,7 +2290,7 @@ lotr_on_title_gain_inheritance = {
 			}
 		}
 
-		#LotR - Tracking Imperial Khand Time Held
+		# LotR - Tracking Imperial Khand Time Held
 		if = {
 			limit = {
 				scope:title ?= {
@@ -2307,7 +2325,7 @@ lotr_on_title_gain_inheritance = {
 				}
 			}
 		}
-		if = { #Variag Succession Handling
+		if = { # Variag Succession Handling
 			limit = {
 				root.highest_held_title_tier = tier_empire
 				scope:previous_holder.culture = { has_cultural_parameter = realms_shatter_on_succession }
@@ -2385,7 +2403,7 @@ lotr_on_title_gain_inheritance = {
 			}
 		}
 
-		#Tracking Dwarven clan titles
+		# Tracking Dwarven clan titles
 		if = {
 			limit = {
 				OR = {
@@ -2416,7 +2434,7 @@ lotr_on_title_gain_inheritance = {
 			house ?= { set_house_head = root }
 		}
 
-		#Clearing inappropriate inherited MaA
+		# Clearing inappropriate inherited MaA
 		if = {
 			limit = { NOT = { same_race = { TARGET = scope:previous_holder } } }
 			trigger_event = {
@@ -2533,10 +2551,10 @@ lotr_on_title_gain_usurpation = {
 					remove_building_any_level = { BUILDING = plantations }
 					remove_building_any_level = { BUILDING = quarries }
 					remove_building_any_level = { BUILDING = guild_halls }
-					#remove_building_any_level = { BUILDING = ramparts }
-					#remove_building_any_level = { BUILDING = curtain_walls }
-					#remove_building_any_level = { BUILDING = watchtowers }
-					#remove_building_any_level = { BUILDING = hill_forts }
+					# remove_building_any_level = { BUILDING = ramparts }
+					# remove_building_any_level = { BUILDING = curtain_walls }
+					# remove_building_any_level = { BUILDING = watchtowers }
+					# remove_building_any_level = { BUILDING = hill_forts }
 					remove_building_any_level = { BUILDING = wind_furnace }
 					remove_building_any_level = { BUILDING = workshops }
 					remove_building_any_level = { BUILDING = horse_pastures }
@@ -2591,7 +2609,7 @@ lotr_on_title_gain_usurpation = {
 					remove_duchy_building_any_level = { BUILDING = crafting_enclaves }
 					remove_duchy_building_any_level = { BUILDING = warriors_enclave }
 					remove_duchy_building_any_level = { BUILDING = sanctuary_groves }
-					#remove_building_any_level = { BUILDING = dwarven_forge }
+					# remove_building_any_level = { BUILDING = dwarven_forge }
 				}
 			}
 		}
@@ -2606,6 +2624,7 @@ lotr_on_title_gain_usurpation = {
 					title_province = {
 						NOR = {
 							has_holding_type = elven_holding
+							has_holding_type = elven_hall_holding
 							has_holding_type = settlement_holding
 							has_holding_type = wastelands_holding
 						}
@@ -2620,7 +2639,7 @@ lotr_on_title_gain_usurpation = {
 				location = root.location
 			}
 			scope:new_holder = {
-				lotr_character_template_age_traits_effect = { #LOTR trait/lifespan fixes
+				lotr_character_template_age_traits_effect = { # LOTR trait/lifespan fixes
 					MAX = middle_age
 					MIN = young_age
 				}
@@ -2657,7 +2676,7 @@ lotr_on_title_gain_usurpation = {
 				location = root.location
 			}
 			scope:new_holder = {
-				lotr_character_template_age_traits_effect = { #LOTR trait/lifespan fixes
+				lotr_character_template_age_traits_effect = { # LOTR trait/lifespan fixes
 					MAX = middle_age
 					MIN = young_age
 				}

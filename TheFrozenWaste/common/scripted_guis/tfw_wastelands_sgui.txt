@@ -1,8 +1,8 @@
-﻿## GUI (MANUAL) TRIGGER OF COLONISATION
-## For AI random events for colonisation, check_
-## - yearly_on_actions.txt
-## - lotr_wasteland_events.txt
-## - lotr_wasteland_effects.txt
+﻿# GUI (MANUAL) TRIGGER OF COLONISATION
+# For AI random events for colonisation, check_
+# - yearly_on_actions.txt
+# - lotr_wasteland_events.txt
+# - lotr_wasteland_effects.txt
 
 gui_not_is_character_wastelands = {
 	scope = character
@@ -129,7 +129,7 @@ gui_can_colonise = {
 		}
 	}
 
-	## Check lotr_wastelands_effects.txt
+	# Check lotr_wastelands_effects.txt
 	effect = {
 		if = { # Islands
 			limit = {
@@ -188,9 +188,9 @@ gui_settlement_count = {
 	}
 }
 
-#########################################
-### Wastelands Automated Colonisation ###
-#########################################
+# ============================================================
+# Wastelands Automated Colonisation
+# ============================================================
 
 lotr_WAC_toggle_story_as_var = {
 	effect = {
@@ -245,7 +245,7 @@ lotr_WAC_rotation_button = {
 		}
 	}
 
-	is_shown = { #Used to get different loc keys for " WASTELANDS_AUTOMATION_TOGGLE_TT_DESC "
+	is_shown = { # Used to get different loc keys for " WASTELANDS_AUTOMATION_TOGGLE_TT_DESC "
 		any_owned_story = {
 			story_type = story_cycle_automated_colonisation
 			has_variable = title_to_colonise
@@ -256,7 +256,7 @@ lotr_WAC_rotation_button = {
 }
 lotr_WAC_effect_button = {
 	effect = {
-		if = { #If already colonising, stop it
+		if = { # If already colonising, stop it
 			limit = {
 				any_owned_story = {
 					story_type = story_cycle_automated_colonisation
@@ -273,7 +273,7 @@ lotr_WAC_effect_button = {
 				end_story = yes
 			}
 		}
-		else = { #If not colonising, start automation
+		else = { # If not colonising, start automation
 			set_variable = {
 				name = automated_colonisation_for_title
 				value = scope:targeted_title
@@ -375,7 +375,9 @@ lotr_WAC_non_landed_title_tooltip = {
 	}
 }
 
-### Settlement Buildings ###
+# ============================================================
+# Settlement Buildings
+# ============================================================
 
 lotr_WAC_building_stockade_settings = {
 	effect = {
@@ -405,7 +407,9 @@ lotr_WAC_building_construction_guilds_settings = {
 	}
 }
 
-### Holdings ###
+# ============================================================
+# Holdings
+# ============================================================
 
 lotr_WAC_holding_castle_settings = {
 	is_valid = {
@@ -513,7 +517,9 @@ lotr_WAC_holding_refuge_settings = {
 	}
 }
 
-### Titles ###
+# ============================================================
+# Titles
+# ============================================================
 
 lotr_WAC_generated_ruler_settings = {
 	effect = {
@@ -529,7 +535,9 @@ lotr_WAC_vassal_ruler_settings = {
 	}
 }
 
-### Gold ###
+# ============================================================
+# Gold
+# ============================================================
 
 lotr_WAC_increase_gold_settings = {
 	is_valid = {
@@ -595,7 +603,9 @@ lotr_WAC_decrease_gold_settings = {
 	}
 }
 
-### Councillor Task ###
+# ============================================================
+# Councillor Task
+# ============================================================
 
 lotr_WAC_councillor_task = {
 	effect = {

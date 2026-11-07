@@ -251,7 +251,7 @@ doctrine_muhammad_succession = {
 
 	is_available_on_create = {
 		# religion_tag = islam_religion #LotR
-		always = no #LotR
+		always = no # LotR
 	}
 
 	doctrine_types = {
@@ -267,7 +267,7 @@ doctrine_temple_authority = {
 
 	is_available_on_create = {
 		# religion_tag = judaism_religion #LotR
-		always = no #LotR
+		always = no # LotR
 	}
 
 	doctrine_types = {
@@ -283,7 +283,7 @@ doctrine_zoroastrian_branches = {
 
 	is_available_on_create = {
 		# religion_tag = zoroastrianism_religion #LotR
-		always = no #LotR
+		always = no # LotR
 	}
 
 	doctrine_types = {
@@ -380,9 +380,9 @@ doctrine_core_tenets = {
 		tenet_preservation
 		tenet_takamin
 
-		###################
-		### LotR Tenets ###
-		###################
+		# ============================================================
+		# LotR Tenets
+		# ============================================================
 		tenet_primacy_of_sulladad
 		tenet_primacy_of_manwe
 		tenet_primacy_of_varda
@@ -401,7 +401,9 @@ doctrine_core_tenets = {
 		tenet_primacy_of_vana
 		tenet_primacy_of_nessa
 		tenet_veneration_of_the_makarnea
-		### Special Tenets ###
+		# ============================================================
+		# Special Tenets
+		# ============================================================
 		tenet_workshops_of_the_maker
 		tenet_druedain_isolation
 		tenet_gift_of_men
@@ -413,7 +415,9 @@ doctrine_core_tenets = {
 		tenet_great_song
 		tenet_yuletide
 		tenet_hobbit_wandering
-		### MEN OF DARKNESS TENETS ###
+		# ============================================================
+		# MEN OF DARKNESS TENETS
+		# ============================================================
 		tenet_unforgetting
 		tenet_unquiet_waters
 		tenet_sacred_waters
@@ -435,7 +439,9 @@ doctrine_core_tenets = {
 		tenet_communal_celebrations
 		tenet_tumrakhis_chosen
 		tenet_children_of_khand
-		### FORCES OF EVIL TENETS ###
+		# ============================================================
+		# FORCES OF EVIL TENETS
+		# ============================================================
 		tenet_dark_tower_subjugation
 		tenet_encroaching_shadow
 		tenet_melkor_worship
@@ -445,9 +451,11 @@ doctrine_core_tenets = {
 		tenet_orc_raiding
 		tenet_dark_trophies
 		tenet_gold_veneration
-		
-		### TFW Tenets ###
-		
+
+		# ============================================================
+		# TFW Tenets
+		# ============================================================
+
 		tenet_world_shapers
 		tenet_giftlord
 		tenet_elven_preservation
@@ -461,9 +469,9 @@ doctrine_core_tenets = {
 
 is_christian_faith = {
 	category = "special"
-	
+
 	is_available_on_create = {
-		always = no #LotR
+		always = no # LotR
 		# has_doctrine = special_doctrine_is_christian_faith
 	}
 
@@ -474,9 +482,9 @@ is_christian_faith = {
 
 is_islamic_faith = {
 	category = "special"
-	
+
 	is_available_on_create = {
-		always = no #LotR
+		always = no # LotR
 		# has_doctrine = special_doctrine_is_islamic_faith
 	}
 
@@ -487,9 +495,9 @@ is_islamic_faith = {
 
 is_jewish_faith = {
 	category = "special"
-	
+
 	is_available_on_create = {
-		always = no #LotR
+		always = no # LotR
 		# has_doctrine = special_doctrine_is_jewish_faith
 	}
 
@@ -500,9 +508,9 @@ is_jewish_faith = {
 
 is_eastern_faith = {
 	category = "special"
-	
+
 	is_available_on_create = {
-		always = no #LotR
+		always = no # LotR
 		# has_doctrine = special_doctrine_is_eastern_faith
 	}
 
@@ -513,7 +521,7 @@ is_eastern_faith = {
 
 is_sinitic_faith = {
 	category = "special"
-	
+
 	is_available_on_create = {
 		has_doctrine = special_doctrine_is_sinitic_faith
 	}
@@ -534,9 +542,9 @@ is_hostile_to_maitreya = {
 
 is_gnostic_faith = {
 	category = "special"
-	
+
 	is_available_on_create = {
-		always = no #LotR
+		always = no # LotR
 		# has_doctrine = special_doctrine_is_gnostic_faith
 	}
 
@@ -547,7 +555,7 @@ is_gnostic_faith = {
 
 special_tolerance = {
 	category = "main_group"
-	
+
 	is_available_on_create = {
 		always = no # Goes away when creating a new Faith
 	}
@@ -609,7 +617,7 @@ divine_destiny = {
 
 adoptionist_school = {
 	category = "special"
-	
+
 	is_available_on_create = {
 		# Removed on reformation.
 		always = no
@@ -635,7 +643,7 @@ not_allowed_to_hof = {
 	}
 }
 
-#Game rule only
+# Game rule only
 full_tolerance = {
 	category = "special"
 
@@ -665,7 +673,7 @@ has_jizya_doctrine = {
 
 immaterial_harmony = {
 	category = "special"
-	
+
 	is_available_on_create = {
 		has_doctrine = special_doctrine_immaterial_harmony
 	}

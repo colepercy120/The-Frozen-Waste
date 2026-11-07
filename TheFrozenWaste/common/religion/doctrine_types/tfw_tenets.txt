@@ -2,7 +2,7 @@
 tenet_elven_preservation = {
 	icon = tenet_elven_renewal_icon
 	name = tenet_elven_preservation_name
-	
+
 	piety_cost = {
 		if = {
 			limit = { has_doctrine = tenet_sanctity_of_nature }
@@ -36,11 +36,11 @@ tenet_elven_preservation = {
 		build_gold_cost = -0.15
 		build_speed = -0.15
 	}
-	
+
 	parameters = {
 		development_gain_on_building_complete = yes
 	}
-	
+
 	traits = {
 		virtues = { architect }
 	}
@@ -52,14 +52,14 @@ tenet_giftlord = {
 	is_shown = {
 		religion = { is_in_family = rf_eruhini }
 	}
-	
+
 	piety_cost = {
 		if = {
 			limit = {
 				OR = {
-					#religion_tag = hinduism_religion
-					#religion_tag = zoroastrianism_religion
-					#rhas_doctrine = pagan_hostility_doctrine
+					# religion_tag = hinduism_religion
+					# religion_tag = zoroastrianism_religion
+					# rhas_doctrine = pagan_hostility_doctrine
 				}
 			}
 			value = faith_tenet_cost_low
@@ -80,14 +80,14 @@ tenet_giftlord = {
 		piety_from_festivals_active = yes
 		lotr_unlock_yuletide_activity = yes
 		piety_from_gifts_active = yes
-		
+
 	}
 
 	character_modifier = {
 		vassal_opinion = 10
 		courtier_opinion = 10
 	}
-	
+
 	traits = {
 		virtues = { generous gregarious }
 		sins = { greedy }
@@ -146,11 +146,11 @@ tenet_helecthil = {
 	}
 
 	parameters = {
-		
+
 	}
 
 	character_modifier = {
-		
+
 		learning = 3
 		stress_gain_mult = -0.1
 		stress_loss_mult = 0.1
@@ -173,7 +173,7 @@ tenet_winter_queen = {
 
 	piety_cost = {
 		value = faith_tenet_cost_high
-		
+
 	}
 
 	parameters = {
@@ -188,7 +188,7 @@ tenet_winter_queen = {
 		arctic_development_growth_factor = 0.25
 		arctic_attrition_mult = -1
 		arctic_supply_limit_mult = 1
-		
+
 	}
 
 	traits = {
@@ -219,13 +219,13 @@ tenet_silmirillion = {
 	}
 
 	character_modifier = {
-		
+
 		learning = 1
 		martial = 1
 	}
 
 	traits = {
-		virtues = { diligent humble lifestyle_mystic = { weight = 1 } } 
+		virtues = { diligent humble lifestyle_mystic = { weight = 1 } }
 		sins = { arrogant }
 	}
 }
@@ -243,17 +243,17 @@ tenet_unbroken = {
 
 	piety_cost = {
 		value = faith_tenet_cost_low
-		
+
 	}
 
 	parameters = {
-		
+
 	}
 
 	character_modifier = {
 		prowess = 1
 		martial = 2
-		
+
 	}
 
 	traits = {
@@ -269,24 +269,24 @@ tenet_werewolves = {
 	}
 
 	can_pick = {
-		
+
 		faith_is_good = yes
-		
+
 	}
 
 	piety_cost = {
 		value = faith_tenet_cost_low
-		
+
 	}
 
 	parameters = {
-		
+
 	}
 
 	character_modifier = {
 		prowess = 3
 		martial = 1
-		
+
 	}
 
 	traits = {

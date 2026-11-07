@@ -1,6 +1,6 @@
 ﻿
 
-#LotR: edited waterlevel
+# LotR: edited waterlevel
 NJominiMap = {
 	WORLD_EXTENTS_X = 8191
 	WORLD_EXTENTS_Y = 51

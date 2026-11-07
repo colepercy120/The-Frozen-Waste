@@ -1,4 +1,4 @@
-﻿lotr_can_declare_war = {	
+﻿lotr_can_declare_war = {
 	NOR = {
 		has_culture = culture:wastelands
 		AND = {

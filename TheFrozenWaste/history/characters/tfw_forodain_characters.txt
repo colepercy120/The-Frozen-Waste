@@ -1,4 +1,4 @@
-﻿############################################################
+﻿# ============================================================
 # 10 NEW FORODAIN DYNASTIC CHARACTER LINES
 # Date window: 6700-7100
 # Culture: forodain
@@ -7,13 +7,13 @@
 # Generation 3 of each line marries a daughter from the next new dynasty,
 # while the other spouses are intentionally non-dynastic/commoner spouses.
 # All dynasty IDs below were checked against the supplied source file and do not occur there.
-############################################################
+# ============================================================
 
 
-##############################
+# ============================================================
 # LINE 1: House of Naethor
 # dynasty_naethor
-##############################
+# ============================================================
 
 tfw_lineofnaethor_001 = {
 	name = tfw_lineofnaethor_001_name
@@ -733,10 +733,10 @@ tfw_lineofnaethor_017 = {
 	}
 }
 
-##############################
+# ============================================================
 # LINE 2: House of Vaelthor
 # dynasty_vaelthor
-##############################
+# ============================================================
 
 tfw_lineofvaelthor_001 = {
 	name = tfw_lineofvaelthor_001_name
@@ -1512,10 +1512,10 @@ tfw_lineofvaelthor_019 = {
 	}
 }
 
-##############################
+# ============================================================
 # LINE 3: House of Corphen
 # dynasty_corphen
-##############################
+# ============================================================
 
 tfw_lineofcorphen_001 = {
 	name = tfw_lineofcorphen_001_name
@@ -2243,10 +2243,10 @@ tfw_lineofcorphen_017 = {
 	}
 }
 
-##############################
+# ============================================================
 # LINE 4: House of Raudhave
 # dynasty_raudhave
-##############################
+# ============================================================
 
 tfw_lineofraudhave_001 = {
 	name = tfw_lineofraudhave_001_name
@@ -3049,10 +3049,10 @@ tfw_lineofraudhave_020 = {
 	}
 }
 
-##############################
+# ============================================================
 # LINE 5: House of Galenmir
 # dynasty_galenmir
-##############################
+# ============================================================
 
 tfw_lineofgalenmir_001 = {
 	name = tfw_lineofgalenmir_001_name
@@ -3765,10 +3765,10 @@ tfw_lineofgalenmir_017 = {
 	}
 }
 
-##############################
+# ============================================================
 # LINE 6: House of Thalioneth
 # dynasty_thalioneth
-##############################
+# ============================================================
 
 tfw_lineofthalioneth_001 = {
 	name = tfw_lineofthalioneth_001_name
@@ -4546,10 +4546,10 @@ tfw_lineofthalioneth_019 = {
 	}
 }
 
-##############################
+# ============================================================
 # LINE 7: House of Berethril
 # dynasty_berethril
-##############################
+# ============================================================
 
 tfw_lineofberethril_001 = {
 	name = tfw_lineofberethril_001_name
@@ -5363,10 +5363,10 @@ tfw_lineofberethril_020 = {
 	}
 }
 
-##############################
+# ============================================================
 # LINE 8: House of Orvath
 # dynasty_orvath
-##############################
+# ============================================================
 
 tfw_lineoforvath_001 = {
 	name = tfw_lineoforvath_001_name
@@ -6085,10 +6085,10 @@ tfw_lineoforvath_017 = {
 	}
 }
 
-##############################
+# ============================================================
 # LINE 9: House of Maelvaren
 # dynasty_maelvaren
-##############################
+# ============================================================
 
 tfw_lineofmaelvaren_001 = {
 	name = tfw_lineofmaelvaren_001_name
@@ -6873,10 +6873,10 @@ tfw_lineofmaelvaren_019 = {
 	}
 }
 
-##############################
+# ============================================================
 # LINE 10: House of Ardanoril
 # dynasty_ardanoril
-##############################
+# ============================================================
 
 tfw_lineofardanoril_001 = {
 	name = tfw_lineofardanoril_001_name
@@ -7664,10 +7664,10 @@ tfw_lineofardanoril_019 = {
 	}
 }
 
-##############################
+# ============================================================
 # LINE 11: House of Heorwulf
 # dynasty_heorwulf
-##############################
+# ============================================================
 
 tfw_lineofheorwulf_001 = {
 	name = tfw_lineofheorwulf_001_name

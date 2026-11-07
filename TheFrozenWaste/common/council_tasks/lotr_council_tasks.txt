@@ -31,7 +31,7 @@
 			}
 		}
 	}
-	
+
 	effect_desc = {
 		desc = {
 			triggered_desc = {
@@ -103,7 +103,7 @@
 					}
 				}
 				desc = task_ravage_the_land_effect_desc_1_angmar
-			}				
+			}
 			triggered_desc = {
 				trigger = {
 					scope:councillor_liege = {
@@ -230,7 +230,7 @@
 		}
 
 		add = steward_ravage_the_land_contextual_bonuses
-		
+
 		if = { # Development reduces the speed. Should be the last non-multiply modifier applied to avoid negative values
 			limit = {
 				exists = scope:county
@@ -244,7 +244,7 @@
 				desc = STEWARD_RAVAGE_THE_LAND_DEVELOPMENT_PENALTY
 			}
 		}
-		
+
 		# Conversion speed game rules
 		if = {
 			limit = {
@@ -289,10 +289,10 @@
 			custom_tooltip = {
 				text = county_is_already_orcish
 				NOT = { is_orc = yes }
-			}	
+			}
 			custom_tooltip = {
 				text = county_holder_is_not_orcish
-				holder = { 
+				holder = {
 					OR = {
 						is_orc = yes
 						is_maiar_fallen = yes
@@ -352,7 +352,7 @@
 						culture = scope:councillor_liege.culture # The AI only wants to convert counties bordering their own culture
 					}
 				}
-				
+
 				AND = {
 					NOT = {
 						scope:county = {
@@ -364,7 +364,7 @@
 				}
 			}
 		}
-		trigger_if = { #LotR - AI should not seek to convert the Nurnoth
+		trigger_if = { # LotR - AI should not seek to convert the Nurnoth
 			limit = {
 				scope:councillor_liege = {
 					is_ai = yes
@@ -621,7 +621,7 @@ task_elven_settlement = {
 			is_elf = yes
 		}
 	}
-	
+
 	effect_desc = {
 		desc = task_elven_settlement_effect_desc
 		desc = {
@@ -712,7 +712,7 @@ task_elven_settlement = {
 		}
 
 		add = steward_promote_culture_contextual_bonuses
-		
+
 		if = { # Development reduces the speed. Should be the last non-multiply modifier applied to avoid negative values
 			limit = {
 				exists = scope:county
@@ -786,8 +786,8 @@ task_elven_settlement = {
 				desc = GAME_RULE_SLOWER_REASON
 			}
 		}
-		
-		# Hope Level Effects 
+
+		# Hope Level Effects
 		if = {
 			limit = {
 				scope:councillor_liege = {
@@ -942,7 +942,7 @@ task_elven_settlement = {
 	on_finish_task_county = {
 		scope:councillor_liege = {
 			if = {
-				limit = {	
+				limit = {
 					NOT = {
 						culture = {
 							is_hybrid_culture = yes
@@ -992,14 +992,14 @@ task_elven_settlement = {
 			set_county_culture = scope:councillor_liege.culture
 			set_county_faith = scope:councillor_liege.faith
 			every_county_province = {
-				limit = { 
+				limit = {
 					has_holding = yes
 				}
 				set_holding_type = elven_holding
 			}
-			
+
 			# if = { #Commented out so that the liege actually takes any baronies titles that are in the county
-			# 	limit = { NOT = { holder = scope:councillor_liege } }
+			# limit = { NOT = { holder = scope:councillor_liege } }
 				create_title_and_vassal_change = {
 					type = revoked
 					save_scope_as = change

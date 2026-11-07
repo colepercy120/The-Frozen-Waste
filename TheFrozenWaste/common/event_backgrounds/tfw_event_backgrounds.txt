@@ -5,7 +5,7 @@ helecthil = {
 		reference = "gfx/interface/illustrations/event_scenes/tfw_helecthil.dds"
 		environment = "environment_event_study_physician" # added because it is expected in events
 		ambience = "event:/DLC/FP2/SFX/UI/fp2_struggle_end_loop_hostility"
-	} 
+	}
 }
 
 dragon_generic = {
@@ -13,5 +13,5 @@ dragon_generic = {
 		reference = "gfx/interface/illustrations/decisions/decision_dragon_03.dds"
 		environment = "environment_event_study_physician" # added because it is expected in events
 		ambience = "event:/DLC/FP2/SFX/UI/fp2_struggle_end_loop_hostility"
-	} 
+	}
 }

@@ -4,13 +4,13 @@
 long_winter.0001 = {
 	hidden = yes
 	scope = none
-	
+
 	trigger = {
 		NOT = { exists = global_var:long_winter_occurred }
 	}
 
 	immediate = {
-		
+
 		if = {
 			limit = {
 				character:tfw_lineofnixni_001 = {
@@ -44,7 +44,7 @@ long_winter.0003 = { # message from sauron
 	title = long_winter.0003.t
 	desc = long_winter.0003.desc
 	theme = death
-	
+
 	override_background = {
 		reference = wilderness_arctic
 	}
@@ -62,8 +62,10 @@ long_winter.0003 = { # message from sauron
 
 	}
 
-	option = { ### Start LW
+	option = { # Start LW
 		name = long_winter.0003.a
+		trigger = { NOT = { has_global_variable = long_winter_occurred } }
+		remove_character_flag = lwdelayed
 		set_global_variable = {
 			name = long_winter_occurred
 			value = yes
@@ -95,7 +97,7 @@ long_winter.0002 = {
 	desc = long_winter.0002.desc
 	theme = court
 	override_background = { reference = the_long_winter }
-	
+
 	trigger = { # we need to prevent this from firing for all players when a new player joins in MP
 		is_ai = no
  	}

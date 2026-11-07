@@ -1,37 +1,37 @@
-﻿frozen_waste = { # Earthquake (Land)
+﻿frozen_waste = { # Northern winter situation.
 	situation_group_type = major
 	is_unique = yes
-	
+
 	illustration = "gfx/interface/illustrations/event_scenes/lotr_throneroom_forodwaith.dds"
 
-	##################################################
+	# ============================================================
 	# Regions
-	##################################################
+	# ============================================================
 	sub_regions = {
 		disaster_area = {
 			icon = "gfx/interface/icons/situation_types/natural_disaster_earthquake.dds"
 			map_color = { 1 0.2 0.2 }
 			geographical_regions = { middleearth_forodwaith }
 		}
-	} 
+	}
 
-	##################################################
+	# ============================================================
 	# On Actions
-	##################################################
+	# ============================================================
 
 	on_start = {
-		
+
 		character:tfw_lineofnixni_001 = {
 			add_character_flag = nixni_distracted_flag
 		}
 		set_global_variable = { name = tfw_frostwood_cleansed value = 0 }
 		set_global_variable = { name = tfw_angband_cleansed value = 0 }
-		
+
 		tfw_frozen_waste_monthly_tick = yes
 	}
 
 	on_end = {
-		
+
 	}
 
 	on_monthly = {
@@ -39,12 +39,12 @@
 	}
 
 	on_leave = {
-		
+
 	}
 
-	##################################################
+	# ============================================================
 	# Groups
-	##################################################
+	# ============================================================
 	participant_groups = {
 		# read order is first valid
 		affected_ruler = {
@@ -59,7 +59,7 @@
 				NOT = { this = character:tfw_lineofnixni_001 }
 			}
 			on_join = {
-				
+
 			}
 		}
 		winter_queen = {
@@ -74,25 +74,25 @@
 				this = character:tfw_lineofnixni_001
 			}
 			on_join = {
-				
+
 			}
 		}
-		
+
 	}
 
-	##################################################
+	# ============================================================
 	# Phases
-	##################################################
+	# ============================================================
 	start_phase = eternal_winter
 
 	phases = {
 		eternal_winter = {
-			max_duration = { years = 500 }
+			# This phase ends only when all four milestones are complete.
 			icon = "gfx/interface/icons/faith/winter_queen_icon.dds"
 			illustration = "gfx/interface/illustrations/event_scenes/lotr_throneroom_forodwaith.dds"
-			
+
 			on_start = {
-				
+
 			}
 			modifier_sets = {
 				eternal_winter_effects = {
@@ -100,15 +100,15 @@
 					affected_ruler = {
 						character_modifier = {
 							levy_size = -0.75
-							
-							
+
+
 						}
 						county_modifier = {
 							development_growth_factor = -0.90
 							supply_limit_mult = -0.5
-							build_speed = -0.75
+							build_speed = 0.75
 							tax_mult = -0.5
-							
+
 							travel_danger = 50
 						}
 					}
@@ -123,18 +123,18 @@
 						}
 					}
 				}
-				
+
 			}
 			future_phases = {
-				
+
 			}
 		}
-		
+
 	}
 
-	##################################################
+	# ============================================================
 	# GUI
-	##################################################
+	# ============================================================
 	gui_window_name = window_journal_entry
 }
 

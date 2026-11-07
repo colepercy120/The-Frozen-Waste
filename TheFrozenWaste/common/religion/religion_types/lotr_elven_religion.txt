@@ -1,9 +1,11 @@
-﻿### Elven Religion ###
-## Eldar
+﻿# ============================================================
+# Elven Religion
+# ============================================================
+# Eldar
 # faith_eldar
 # faith_arimaite_creed
 # faith_nandorin
-## Avari
+# Avari
 # faith_moriquendi
 # faith_wildwood
 # faith_feanturi
@@ -19,20 +21,20 @@ elven_religion = {
 	doctrine_background_icon = core_tenet_banner_elven.dds
 	doctrine = freepeoples_hostility_doctrine
 
-	#Main Group
+	# Main Group
 	doctrine = doctrine_no_head
 	doctrine = doctrine_gender_male_orientated
 	doctrine = doctrine_pluralism_righteous
 	doctrine = doctrine_theocracy_lay_clergy
 	doctrine = doctrine_monotheist
 
-	#Marriage
+	# Marriage
 	doctrine = doctrine_monogamy
 	doctrine = doctrine_divorce_disallowed
 	doctrine = doctrine_bastardry_legitimization
 	doctrine = doctrine_consanguinity_restricted
 
-	#Crimes
+	# Crimes
 	doctrine = doctrine_homosexuality_shunned
 	doctrine = doctrine_adultery_men_shunned
 	doctrine = doctrine_adultery_women_shunned
@@ -40,22 +42,22 @@ elven_religion = {
 	doctrine = doctrine_witchcraft_shunned
 	doctrine = doctrine_deviancy_crime
 
-	#Clerical Functions
+	# Clerical Functions
 	doctrine = doctrine_clerical_function_lore_masters
 	doctrine = doctrine_clerical_gender_either
 	doctrine = doctrine_clerical_marriage_allowed
 	doctrine = doctrine_clerical_succession_temporal_appointment
 
-	#Special Doctrine for Free Peoples Syncretism
+	# Special Doctrine for Free Peoples Syncretism
 	doctrine = special_doctrine_is_freepeople_faith
 
-	#Allow pilgrimages
+	# Allow pilgrimages
 	doctrine = doctrine_pilgrimage_encouraged
 
-	#Funeral tradition
+	# Funeral tradition
 	doctrine = doctrine_funeral_stoic
 
-	#Coronation tradition
+	# Coronation tradition
 	doctrine = doctrine_no_anointment
 
 	traits = {
@@ -90,7 +92,7 @@ elven_religion = {
 	holy_order_maa = { wardens_of_the_council silvan_rangers high_elven_light_cavalry }
 
 	localization = {
-		#HighGodName
+		# HighGodName
 		HighGodName = lotr_high_god_name
 		HighGodName2 = lotr_high_god_name
 		HighGodNamePossessive = lotr_high_god_name_possessive
@@ -104,49 +106,49 @@ elven_religion = {
 		HighGodAlternateSheHe = CHARACTER_SHEHE_HE
 		HighGodAlternateHerselfHimself = CHARACTER_HIMSELF
 		HighGodAlternateHerHis = CHARACTER_HERHIS_HIS
-		#Creator
+		# Creator
 		CreatorName = lotr_creator_god_name
 		CreatorNamePossessive = lotr_creator_god_name_possessive
 		CreatorSheHe = CHARACTER_SHEHE_HE
 		CreatorHerHis = CHARACTER_HERHIS_HIS
 		CreatorHerHim = CHARACTER_HERHIM_HIM
-		#HealthGod
+		# HealthGod
 		HealthGodName = lotr_health_god_name
 		HealthGodNamePossessive = lotr_health_god_name_possessive
 		HealthGodSheHe = CHARACTER_SHEHE_SHE
 		HealthGodHerHis = CHARACTER_HERHIS_HER
 		HealthGodHerHim = CHARACTER_HERHIM_HER
-		#FertilityGod
+		# FertilityGod
 		FertilityGodName = lotr_fertility_god_name
 		FertilityGodNamePossessive = lotr_fertility_god_name_possessive
 		FertilityGodSheHe = CHARACTER_SHEHE_SHE
 		FertilityGodHerHis = CHARACTER_HERHIS_HER
 		FertilityGodHerHim = CHARACTER_HERHIM_HER
-		#WealthGod
+		# WealthGod
 		WealthGodName = lotr_wealth_god_name
 		WealthGodNamePossessive = lotr_wealth_god_name_possessive
 		WealthGodSheHe = CHARACTER_SHEHE_HE
 		WealthGodHerHis = CHARACTER_HERHIS_HIS
 		WealthGodHerHim = CHARACTER_HERHIM_HIM
-		#HouseholdGod
+		# HouseholdGod
 		HouseholdGodName = lotr_household_god_name
 		HouseholdGodNamePossessive = lotr_household_god_name_possessive
 		HouseholdGodSheHe = CHARACTER_SHEHE_SHE
 		HouseholdGodHerHis = CHARACTER_HERHIS_HER
 		HouseholdGodHerHim = CHARACTER_HERHIM_HER
-		#FateGod
+		# FateGod
 		FateGodName = lotr_fate_god_name
 		FateGodNamePossessive = lotr_fate_god_name_possessive
 		FateGodSheHe = CHARACTER_SHEHE_THEY
 		FateGodHerHis = CHARACTER_HERHIS_THEIR
 		FateGodHerHim = CHARACTER_HERHIM_THEM
-		#KnowledgeGod
+		# KnowledgeGod
 		KnowledgeGodName = lotr_knowledge_god_name
 		KnowledgeGodNamePossessive = lotr_knowledge_god_name_possessive
 		KnowledgeGodSheHe = CHARACTER_SHEHE_HE
 		KnowledgeGodHerHis = CHARACTER_HERHIS_HIS
 		KnowledgeGodHerHim = CHARACTER_HERHIM_HIM
-		#WarGod
+		# WarGod
 		WarGodName = lotr_war_god_name
 		WarGodNamePossessive = lotr_war_god_name_possessive
 		WarGodSheHe = CHARACTER_SHEHE_HE
@@ -159,19 +161,19 @@ elven_religion = {
 		WarGodAlternateHerselfHimself = CHARACTER_HIMSELF
 		WarGodAlternateHerHis = CHARACTER_HERHIS_HIS
 		WarGodAlternateHerHim = CHARACTER_HERHIM_HIM
-		#TricksterGod
+		# TricksterGod
 		TricksterGodName = lotr_trickster_god_name
 		TricksterGodNamePossessive = lotr_trickster_god_name_possessive
 		TricksterGodSheHe = CHARACTER_SHEHE_HE
 		TricksterGodHerHis = CHARACTER_HERHIS_HIS
 		TricksterGodHerHim = CHARACTER_HERHIM_HIM
-		#NightGod
+		# NightGod
 		NightGodName = lotr_night_god_name
 		NightGodNamePossessive = lotr_night_god_name_possessive
 		NightGodSheHe = CHARACTER_SHEHE_SHE
 		NightGodHerHis = CHARACTER_HERHIS_HER
 		NightGodHerHim = CHARACTER_HERHIM_HER
-		#WaterGod - Ulmo
+		# WaterGod - Ulmo
 		WaterGodName = lotr_water_god_name
 		WaterGodNamePossessive = lotr_water_god_name_possessive
 		WaterGodSheHe = CHARACTER_SHEHE_HE
@@ -246,14 +248,16 @@ elven_religion = {
 		WitchGodSheHe = CHARACTER_SHEHE_HE
 		WitchGodHerHim = CHARACTER_HERHIM_HIM
 		WitchGodMistressMaster = lord
-		WitchGodMotherFather = father 
+		WitchGodMotherFather = father
 
 		GHWName = ghw_great_holy_war
 		GHWNamePlural = ghw_great_holy_wars
 	}
 
 	faiths = {
-		### The Elves ###
+		# ============================================================
+		# The Elves
+		# ============================================================
 		faith_eldar = { # Faith of the Elves of the Two Trees, who joined the Great Journey
 			color = { 160 95 175 }
 			icon = elves
@@ -263,13 +267,13 @@ elven_religion = {
 			holy_site = aradhrynd # Thranduil's Halls
 			holy_site = rivendell
 			holy_site = tower_hills
-			#holy_site = grey_haven_north
-			#holy_site = grey_haven_south
-			#holy_site = eregion
-			#holy_site = forlond
-			#holy_site = edhellond # Former southernmost realm of the Sindar
+			# holy_site = grey_haven_north
+			# holy_site = grey_haven_south
+			# holy_site = eregion
+			# holy_site = forlond
+			# holy_site = edhellond # Former southernmost realm of the Sindar
 
-			#Tenets
+			# Tenets
 			doctrine = tenet_elven_meditation
 			doctrine = tenet_sanctity_of_nature
 			doctrine = tenet_ritual_celebrations
@@ -286,7 +290,7 @@ elven_religion = {
 			holy_site = grey_haven_north
 			holy_site = eregion
 
-			#Tenets
+			# Tenets
 			doctrine = tenet_birthright_eldar
 			doctrine = tenet_unrelenting_faith
 			doctrine = tenet_legalism
@@ -305,7 +309,7 @@ elven_religion = {
 			holy_site = aradhrynd
 			holy_site = amarthrynd
 
-			#Tenets
+			# Tenets
 			doctrine = tenet_elven_meditation
 			doctrine = tenet_sanctity_of_nature
 			doctrine = tenet_primacy_of_orome
@@ -319,42 +323,42 @@ elven_religion = {
 			holy_site = caras_torn # Penni
 			holy_site = baranagath # Cuind
 			holy_site = sarul # Kinn-lai
-			holy_site = celebrim #TEMP
-			holy_site = hitheth #TEMP
+			holy_site = celebrim # TEMP
+			holy_site = hitheth # TEMP
 
-			#Tenets
+			# Tenets
 			doctrine = tenet_elven_meditation
 			doctrine = tenet_sanctity_of_nature
 			doctrine = tenet_astrology # For love of the stars they remained in Middle-earth
 		}
 
 		# faith_wildwood = {
-		# 	color = { 160 95 175 } #TEMP
-		# 	icon = elves_2
+		# color = { 160 95 175 } #TEMP
+		# icon = elves_2
 
-		# 	holy_site = caras_galadhon #TEMP
-		# 	holy_site = amarthrynd #TEMP
-		# 	holy_site = eglarond #TEMP
-		# 	holy_site = caras_torn #TEMP
-		# 	holy_site = egil_dorn #TEMP
+		# holy_site = caras_galadhon #TEMP
+		# holy_site = amarthrynd #TEMP
+		# holy_site = eglarond #TEMP
+		# holy_site = caras_torn #TEMP
+		# holy_site = egil_dorn #TEMP
 
-		# 	#Tenets
-		# 	doctrine = tenet_elven_meditation
-		# 	doctrine = tenet_sanctity_of_nature
-		# 	doctrine = pastoral_isolation
+		# #Tenets
+		# doctrine = tenet_elven_meditation
+		# doctrine = tenet_sanctity_of_nature
+		# doctrine = pastoral_isolation
 		# }
 
 		faith_feanturi = { # The Faith of a gnostic-esque minority of Hisildi
 			color = { 100 160 190 }
 		 	icon = custom_elven_spiral
 
-			holy_site = caras_galadhon #TEMP
-			holy_site = amarthrynd #TEMP
-			holy_site = eglarond #TEMP
-			holy_site = caras_torn #TEMP
-			holy_site = egil_dorn #TEMP
+			holy_site = caras_galadhon # TEMP
+			holy_site = amarthrynd # TEMP
+			holy_site = eglarond # TEMP
+			holy_site = caras_torn # TEMP
+			holy_site = egil_dorn # TEMP
 
-			#Tenets
+			# Tenets
 			doctrine = tenet_elven_meditation
 			doctrine = tenet_sanctity_of_nature
 			doctrine = tenet_primacy_of_the_feanturi
@@ -373,7 +377,7 @@ elven_religion = {
 			holy_site = caras_torn
 			holy_site = egil_dorn
 
-			#Tenets
+			# Tenets
 			doctrine = tenet_elven_meditation
 			doctrine = tenet_sanctity_of_nature
 			doctrine = tenet_great_song
@@ -389,7 +393,7 @@ elven_religion = {
 			holy_site = baranagath
 			holy_site = mokuba
 
-			#Tenets
+			# Tenets
 			doctrine = tenet_elven_meditation
 			doctrine = tenet_primacy_of_este
 			doctrine = tenet_communal_celebrations
@@ -405,7 +409,7 @@ elven_religion = {
 			holy_site = shendal
 			holy_site = etedor
 
-			#Tenets
+			# Tenets
 			doctrine = tenet_elven_meditation
 			doctrine = tenet_sanctity_of_nature
 			doctrine = tenet_esotericism
@@ -424,7 +428,7 @@ elven_religion = {
 			holy_site = shendal
 			holy_site = dolgunai
 
-			#Tenets
+			# Tenets
 			doctrine = tenet_elven_meditation
 			doctrine = tenet_primacy_of_tulkas
 			doctrine = tenet_unrelenting_faith
@@ -434,7 +438,7 @@ elven_religion = {
 			doctrine = doctrine_witchcraft_crime
 			doctrine = doctrine_clerical_function_recruitment
 		}
-		
+
 		# TFW
 		faith_evermist = { # Faith of the Noldor who stayed to rebuild the North
 			color = { 50 145 168 }
@@ -445,9 +449,9 @@ elven_religion = {
 			holy_site = gondolin # Thranduil's Halls
 			holy_site = morgoths_well
 			holy_site = eregion
-			
 
-			#Tenets
+
+			# Tenets
 			doctrine = tenet_elven_meditation
 			doctrine = tenet_elven_preservation
 			doctrine = tenet_world_shapers
@@ -461,9 +465,9 @@ elven_religion = {
 			holy_site = carasthon # Thranduil's Halls
 			holy_site = celebrim
 			holy_site = hitheth
-			
 
-			#Tenets
+
+			# Tenets
 			doctrine = tenet_elven_meditation
 			doctrine = tenet_sanctity_of_nature
 			doctrine = tenet_helecthil
@@ -472,18 +476,16 @@ elven_religion = {
 			color = { 219 29 0 }
 			icon = eternal_vigil
 
-			
-		
+
 			holy_site = gondolin
 			holy_site = eregion
 			holy_site = himring
 			holy_site = helevorn
 			holy_site = angband_good
 			holy_site = morgoths_well
-			
-			
 
-			#Tenets
+
+			# Tenets
 			doctrine = tenet_unrelenting_faith
 			doctrine = tenet_primacy_of_tulkas
 			doctrine = tenet_veneration_of_the_makarnea
@@ -492,18 +494,16 @@ elven_religion = {
 			color = { 255 0 0 }
 			icon = giftlord
 
-			
-		
+
 			holy_site = helecthil
 			holy_site = rivendell
 			holy_site = himring
 			holy_site = helevorn
 			holy_site = carasthon
 			holy_site = forlond
-			
-			
 
-			#Tenets
+
+			# Tenets
 			doctrine = tenet_elven_meditation
 			doctrine = tenet_giftlord
 			doctrine = tenet_mendicant_preachers

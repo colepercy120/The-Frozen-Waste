@@ -12,7 +12,7 @@ tfw_history_start = {
 		title:k_angmar = {
 			set_de_jure_liege_title = title:e_annuvorodwaith
 		}
-		
+
 		title:k_emyn_nimbrith = {
 			set_de_jure_liege_title = title:e_misty_mountains
 		}
@@ -47,9 +47,9 @@ tfw_building_start = {
 }
 
 tfw_age_fixing = {
-	character:tfw_lineofnixni_001 = { # Osse
+	character:tfw_lineofnixni_001 = { # Nixni
 		change_age = 14373 # not counting 33,537 years of the Lamps due it causing an overflow error
-	}	
+	}
 	character:tfw_lineofadlantrim_mornaer_001 = {
 		set_immortal_age = 20
 		change_age = 4312
@@ -59,243 +59,243 @@ tfw_age_fixing = {
 	character:tfw_lineoffeanor_001 = { # Daughter of Caranthir, ~ -660
 		change_age = 662
 	}
-	
+
 	character:tfw_lineoffeanor_002 = { # Vanyarin husband, ~ -705
 		change_age = 707
 	}
-	
+
 	character:tfw_lineoffeanor_003 = { # Daughter of Maglor, ~ -590
 		change_age = 592
 	}
-	
+
 	character:tfw_lineofnestador_001 = { # Nestador, ~ -825
 		change_age = 827
 	}
-	
+
 	character:tfw_vanyar_vorondil_001 = { # Ancient Vanya, ~ -2380
 		change_age = 2381
 	}
-	
+
 	character:tfw_lineoftareg_001 = { # Tareg, ~ -742
 		change_age = 744
 	}
-	
+
 	character:tfw_landless_northern_wardens_001 = { # Son of Vorondil, ~ -1050
 		change_age = 1052
 	}
-	
+
 	character:tfw_lineofwindan_sairavel_001 = { # ~ -3975
 		change_age = 3977
 	}
-	
+
 	character:tfw_lineofhwenti_hwerin_001 = { # ~ -3890
 		change_age = 3892
 	}
-	
+
 	character:tfw_lineofwindan_aereth_001 = { # ~ -3584
 		change_age = 3586
 	}
-	
+
 	character:tfw_lineofwindan_aereth_002 = { # ~ -3427
 		change_age = 3429
 	}
-	
+
 	character:tfw_lineofwindan_neldarin_001 = { # ~ -3291
 		change_age = 3293
 	}
-	
+
 	character:tfw_lineofwindan_neldarin_002 = { # ~ -3118
 		change_age = 3120
 	}
-	
+
 	character:tfw_lineofwindan_saelith_001 = { # ~ -2964
 		change_age = 2966
 	}
-	
+
 	character:tfw_lineofwindan_saelith_002 = { # ~ -2817
 		change_age = 2819
 	}
-	
+
 	character:tfw_lineofwindan_elvar_001 = { # ~ -2703
 		change_age = 2705
 	}
-	
+
 	character:tfw_lineofwindan_elvar_002 = { # ~ -2496
 		change_age = 2498
 	}
-	
+
 	character:tfw_lineofwindan_maerwen_001 = { # ~ -2571
 		change_age = 2573
 	}
-	
+
 	character:tfw_lineofwindan_maerwen_002 = { # ~ -2348
 		change_age = 2350
 	}
-	
+
 	character:tfw_lineofwindan_thalorn_001 = { # ~ -2263
 		change_age = 2265
 	}
-	
+
 	character:tfw_lineofwindan_thalorn_002 = { # ~ -2131
 		change_age = 2133
 	}
-	
+
 	character:tfw_lineofwindan_calenth_001 = { # ~ -2014
 		change_age = 2016
 	}
-	
+
 	character:tfw_lineofwindan_calenth_002 = { # ~ -1867
 		change_age = 1869
 	}
-	
+
 	character:tfw_lineofwindan_varath_001 = { # ~ -1942
 		change_age = 1944
 	}
-	
+
 	character:tfw_lineofwindan_varath_002 = { # ~ -1736
 		change_age = 1738
 	}
-	
+
 	character:tfw_lineofwindan_rindor_001 = { # ~ -1649
 		change_age = 1651
 	}
-	
+
 	character:tfw_lineofwindan_rindor_002 = { # ~ -1517
 		change_age = 1519
 	}
-	
+
 	character:tfw_lineofwindan_aelvar_001 = { # ~ -1428
 		change_age = 1430
 	}
-	
+
 	character:tfw_lineofwindan_aelvar_002 = { # ~ -1311
 		change_age = 1313
 	}
-	
+
 	character:tfw_lineofwindan_sulvar_001 = { # ~ -1216
 		change_age = 1218
 	}
-	
+
 	character:tfw_lineofwindan_sulvar_002 = { # ~ -1083
 		change_age = 1085
 	}
-	
+
 	character:tfw_lineofwindan_mirath_001 = { # ~ -974
 		change_age = 976
 	}
-	
+
 	character:tfw_lineofwindan_mirath_002 = { # ~ -853
 		change_age = 855
 	}
-	
+
 	character:tfw_lineofwindan_faelor_001 = { # ~ -738
 		change_age = 740
 	}
-	
+
 	character:tfw_lineofwindan_faelor_002 = { # ~ -621
 		change_age = 623
 	}
-	
+
 	character:tfw_lineofwindan_ornaeth_001 = { # ~ -548
 		change_age = 550
 	}
-	
+
 	character:tfw_lineofwindan_ornaeth_002 = { # ~ -447
 		change_age = 449
 	}
-	
+
 	character:tfw_lineofwindan_galath_001 = { # ~ -384
 		change_age = 386
 	}
-	
+
 	character:tfw_lineofwindan_galath_002 = { # ~ -293
 		change_age = 295
 	}
-	
+
 	character:tfw_lineofwindan_nethrin_001 = { # ~ -241
 		change_age = 243
 	}
-	
+
 	character:tfw_lineofwindan_nethrin_002 = { # ~ -126
 		change_age = 128
 	}
-	
+
 	character:tfw_lineofhwenti_hwanaar_001 = { # ~ -3511
 		change_age = 3513
 	}
-	
+
 	character:tfw_lineofhwenti_hwanaar_002 = { # ~ -3372
 		change_age = 3374
 	}
-	
+
 	character:tfw_lineofhwenti_kuiren_001 = { # ~ -3184
 		change_age = 3186
 	}
-	
+
 	character:tfw_lineofhwenti_kuiren_002 = { # ~ -3053
 		change_age = 3055
 	}
-	
+
 	character:tfw_lineofhwenti_velenwi_001 = { # ~ -2879
 		change_age = 2881
 	}
-	
+
 	character:tfw_lineofhwenti_velenwi_002 = { # ~ -2736
 		change_age = 2738
 	}
-	
+
 	character:tfw_lineofhwenti_nauriva_001 = { # ~ -2622
 		change_age = 2624
 	}
-	
+
 	character:tfw_lineofhwenti_nauriva_002 = { # ~ -2431
 		change_age = 2433
 	}
-	
+
 	character:tfw_lineofhwenti_hweneth_001 = { # ~ -2317
 		change_age = 2319
 	}
-	
+
 	character:tfw_lineofhwenti_hweneth_002 = { # ~ -2196
 		change_age = 2198
 	}
-	
+
 	character:tfw_lineofhwenti_orelwi_001 = { # ~ -2073
 		change_age = 2075
 	}
-	
+
 	character:tfw_lineofhwenti_orelwi_002 = { # ~ -1891
 		change_age = 1893
 	}
-	
+
 	character:tfw_lineofhwenti_kwendir_001 = { # ~ -1774
 		change_age = 1776
 	}
-	
+
 	character:tfw_lineofhwenti_kwendir_002 = { # ~ -1633
 		change_age = 1635
 	}
-	
+
 	character:tfw_lineofhwenti_sailen_001 = { # ~ -1486
 		change_age = 1488
 	}
-	
+
 	character:tfw_lineofhwenti_sailen_002 = { # ~ -1372
 		change_age = 1374
 	}
-	
+
 	character:tfw_lineofhwenti_vairanta_001 = { # ~ -1251
 		change_age = 1253
 	}
-	
+
 	character:tfw_lineofhwenti_vairanta_002 = { # ~ -1128
 		change_age = 1130
 	}
-	
+
 	character:tfw_lineofhwenti_lethwin_001 = { # ~ -1017
 		change_age = 1019
 	}
-	
+
 	character:tfw_lineofhwenti_lethwin_002 = { # ~ -874
 		change_age = 876
 	}
@@ -324,7 +324,7 @@ tfw_special_building_start = {
 		add_special_building = wonder_wolfmere
 	}
 	province:8071 = {
-		if = { 
+		if = {
 			limit = {
 				game_start_date > 6768.1.1
 			}
@@ -366,26 +366,25 @@ tfw_special_building_start = {
 		add_special_building = wonder_bleak_mithril_01
 		add_province_modifier = mining_mithril_province_modifier
 	}
-	
+
 	province:8131 = {
 		add_special_building = mountain_pass_01
 	}
 	province:8037 = {
 		add_special_building = mountain_pass_01
 	}
-	
-	
-	
+
+
 	province:8105 = {
 		add_great_building = wonder_angband_01
-		
+
 	}
 	province:9191 = {
 		add_great_building = wonder_durnost_01
 		ruin_great_building = yes
 	}
 	province:9208 = {
-		if = { 
+		if = {
 			limit = {
 				game_start_date > 6768.1.1
 			}
@@ -396,7 +395,7 @@ tfw_special_building_start = {
 		}
 		add_province_modifier = mining_gold_province_modifier
 	}
-	
+
 }
 
 tfw_elven_homelands_start = {
@@ -427,7 +426,12 @@ tfw_frozen_waste_monthly_tick = {
 			NOT = {
 				any_county_in_region = {
 					region = middleearth_forodwaith_angband
-					holder = character:tfw_lineofnixni_001
+					holder = {
+						OR = {
+							this = character:tfw_lineofnixni_001
+							any_liege_or_above = { this = character:tfw_lineofnixni_001 }
+						}
+					}
 				}
 			}
 		}
@@ -667,8 +671,10 @@ tfw_war_of_wrath_handout = {
 	character:lineofelros1 = {
 		add_trait = veteran_of_war_of_wrath
 	}
-	
-	### Badies
+
+	# ============================================================
+	# Badies
+	# ============================================================
 	character:lineofsauron = {
 		add_trait = veteran_of_war_of_wrath
 	}
@@ -757,7 +763,7 @@ tfw_trigger_intro_events = {
 			lotr_set_lore_character_for_bookmark = { TYPE_OF_CONTENT = intro_event }
 		}
 	}
-	
+
 	character:tfw_lineofheorwulf_001 = { # Graw
 		if = {
 			limit = {
@@ -770,7 +776,7 @@ tfw_trigger_intro_events = {
 			lotr_set_lore_character_for_bookmark = { TYPE_OF_CONTENT = story_content }
 		}
 	}
-	
+
 	character:tfw_lineofsindri_002 = { # Eitri
 		if = {
 			limit = {
@@ -839,7 +845,7 @@ create_artifact_maegdaes_effect = {
 		name = maegdaes_name
 		description = {
 			desc = maegdaes_description
-			
+
 		}
 		type = sword
 		visuals = orcrist
@@ -848,7 +854,7 @@ create_artifact_maegdaes_effect = {
 		history = {
 			type = created
 			date = 118.1.1
-			recipient = character:lineoffeanor10 #Turgon
+			recipient = character:lineoffeanor10 # Turgon
 		}
 		modifier = orcrist_modifier
 		save_scope_as = newly_created_artifact
@@ -858,12 +864,12 @@ create_artifact_maegdaes_effect = {
 	scope:newly_created_artifact ?= {
 		equip_artifact_to_owner_replace = yes
 		set_variable = { name = historical_unique_artifact value = yes }
-		set_variable = orcrist
+		set_variable = maegdaes
 		set_variable = elven
 		elven_artifact_reclaimed_effect = yes
-		set_variable = relic 
+		set_variable = relic
 		save_scope_as = epic
-		
+
 	}
 }
 
@@ -871,13 +877,13 @@ claim_tol_faron = {
 	hidden_effect = {
 		title:k_tol_faron = {
 			every_de_jure_county = {
-				
+
 				change_development_level = 1
-				
+
 				save_temporary_scope_as = target_county
-						
+
 				ai_colonisation_effect = { WASTELANDS = scope:target_county ROOT_SCOPE = root }
-						
+
 				scope:target_county = {
 					if = {
 						limit = { root = { is_elf = yes } }
@@ -896,39 +902,37 @@ claim_tol_faron = {
 							title_province = { set_holding_type = castle_holding }
 						}
 					}
-				}		
-		
-				if = { #Fallback
+				}
+
+				if = { # Fallback
 					limit = { faith = faith:faith_wastelands_pagan }
 					set_county_faith = root.faith
 				}
-				if = { #Fallback
+				if = { # Fallback
 					limit = { culture = culture:wastelands }
 					set_county_culture = root.culture
 				}
 				generate_coa = yes
 			}
-			
+
 		}
 		root = {
 			change_government = feudal_government
 			get_title = title:k_tol_faron
-			get_title = title:d_tol_faron
+			get_title = title:d_tol_faron_1
 			set_realm_capital = title:b_tol_feredir_4
 			current_travel_plan = {
 				abort_travel_plan = yes
 			}
 			set_location_to_default = yes
-			
+
 		}
-		
-		
-		
+
+
 	}
 	custom_tooltip = claim_tol_faron
 }
 
-# BEGIN RESTORATION: common/scripted_effects/tfw_orc_restoration_effects.txt
 # Situation scope. Progress uses milestone flags and a native independent-ruler query.
 tfw_orc_restoration_tick = {
 	if = {
@@ -964,6 +968,12 @@ tfw_end_restoration = {
 				get_all_innovations_from = culture:adlantrim
 				reset_culture_creation_date = yes
 			}
+			# Convert good-aligned Orc populations once, including counties held by other races.
+			every_county_in_region = {
+				region = middleearth
+				limit = { is_orc = yes faith_is_good = yes }
+				set_county_culture = culture:tfw_restored_adlantrim
+			}
 			# One dispatch pass. Conversion is performed by each recipient's event.
 			every_living_character = {
 				if = {
@@ -994,6 +1004,12 @@ tfw_restore_good_orcs_to_elves = {
             limit = { tier = tier_county }
             set_county_culture = culture:tfw_restored_adlantrim
         }
+        location.county ?= {
+            if = {
+                limit = { is_orc = yes faith_is_good = yes }
+                set_county_culture = culture:tfw_restored_adlantrim
+            }
+        }
         every_held_title = {
             limit = { tier = tier_barony }
             title_province = {
@@ -1004,8 +1020,8 @@ tfw_restore_good_orcs_to_elves = {
             }
         }
         # Buildings precede government on-actions; culture establishes eligibility.
-        if = { 
-			limit = { is_landed = yes } 
+        if = {
+			limit = { is_landed = yes }
 			change_government = elven_government
 			every_situation = {
 				limit = { situation_type = elven_hope_situation }
@@ -1015,8 +1031,7 @@ tfw_restore_good_orcs_to_elves = {
     }
 }
 
-# BEGIN RESTORATION: common/scripted_effects/tfw_restoration_building_effects.txt
-# Generated by tools/build_orc_restoration.py. Province scope.
+# Province scope. Convert existing building tiers to their Elven equivalents.
 # Snapshot all tiers BEFORE set_holding_type; preserve compatible mines/wonders.
 tfw_restoration_convert_province = {
     set_variable = { name = tfw_restore_elven_agriculture value = 0 }
@@ -9844,4 +9859,3 @@ tfw_restoration_convert_province = {
     remove_variable = tfw_restore_primary
     remove_variable = tfw_restore_tree_flet
 }
-# END RESTORATION: common/scripted_effects/tfw_restoration_building_effects.txt

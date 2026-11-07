@@ -205,7 +205,7 @@
 					province = 8649
 					color={ 60 124 86 }
 				}
-				
+
 				b_everdalf_73 = {
 					province = 8617
 					color={ 212 197 37 }
@@ -413,7 +413,7 @@
 					province = 8604
 					color={ 167 132 60 }
 				}
-				
+
 				b_everdalf_61 = {
 					province = 8605
 					color={ 220 161 74 }
@@ -635,7 +635,7 @@
 					province = 8535
 					color={ 132 140 112 }
 				}
-				
+
 			}
 		}
 		d_calendalf_2 = {
@@ -775,7 +775,7 @@
 			}
 			c_calendalf_12 = {
 				color={ 46 7 140 }
-				
+
 				b_calendalf_33 = {
 					province = 8524
 					color={ 109 94 110 }
@@ -807,7 +807,7 @@
 					province = 8522
 					color={ 196 105 94 }
 				}
-				
+
 			}
 		}
 		d_calendalf_5 = {
@@ -965,7 +965,7 @@
 					color={ 220 188 68 }
 				}
 			}
-			
+
 		}
 		d_lindalf_2 = {
 			capital = c_lindalf_5
@@ -1242,7 +1242,7 @@
 					province = 8370
 					color={ 74 157 105 }
 				}
-				
+
 			}
 			c_ailindalf_4 = {
 				color={ 171 128 160 }
@@ -1644,7 +1644,7 @@
 					province = 8325
 					color={ 140 142 99 }
 				}
-				
+
 				b_ruinfalas_28 = {
 					province = 8093
 					color={ 198 192 85 }
@@ -2357,7 +2357,7 @@ e_bleak_mountains = {
 					color={ 163 196 34 }
 				}
 			}
-			
+
 		}
 	}
 }
@@ -2473,7 +2473,7 @@ e_tormequendi = {
 			color={ 0 138 37 }
 			c_taurethon_1 = {
 				color={ 0 138 37 }
-				
+
 				b_taurethon_11 = {
 					province = 8474
 					color={ 220 130 42 }
@@ -2588,7 +2588,7 @@ e_tormequendi = {
 			color={ 184 251 255 }
 			c_evermist_1 = {
 				color={ 184 251 255 }
-			
+
 				b_evermist_1 = {
 					province = 8026
 					color={ 160 172 36 }
@@ -2669,7 +2669,7 @@ e_tormequendi = {
 					province = 8239
 					color={ 163 184 100 }
 				}
-				
+
 			}
 		}
 	}
@@ -2937,7 +2937,7 @@ e_tol_engrin = {
 				}
 			}
 		}
-		
+
 	}
 	k_minheldolath = {
 		capital = c_minheldolath_3
@@ -2974,7 +2974,7 @@ e_tol_engrin = {
 					province = 8054
 					color={ 202 126 61 }
 				}
-				
+
 			}
 			c_minheldolath_3 = {
 				b_minheldolath_7 = {
@@ -2992,7 +2992,7 @@ e_tol_engrin = {
 			}
 			c_minheldolath_4 = {
 				color={ 0 146 199 }
-				
+
 				b_minheldolath_9 = {
 					province = 8244
 					color={ 185 103 117 }
@@ -3009,7 +3009,7 @@ e_tol_engrin = {
 					province = 7987
 					color={ 111 129 33 }
 				}
-				
+
 			}
 		}
 		d_minheldolath_2 = {
@@ -3120,7 +3120,7 @@ e_tol_engrin = {
 					color={ 168 158 75 }
 				}
 			}
-			
+
 		}
 		d_minheldolath_4 = {
 			capital = c_minheldolath_12
@@ -3476,7 +3476,7 @@ e_tol_engrin = {
 					province = 8225
 					color={ 90 101 29 }
 				}
-		
+
 			}
 			c_narthalf_6 = {
 				color={ 117 35 37 }
@@ -3809,7 +3809,7 @@ e_ered_rhivamar = {
 		d_ered_rhivamar_5 = {
 			capital = c_ered_rhivamar_32
 			color={ 131 163 0 }
-			
+
 			c_ered_rhivamar_30 = {
 				color={ 97 115 22 }
 				b_iron_mountain_30 = {
@@ -4197,8 +4197,8 @@ e_ered_rhivamar = {
 			}
 		}
 	}
-	
-	
+
+
 }
 
 e_enevorodwaith = {
@@ -4788,7 +4788,7 @@ e_enevorodwaith = {
 		d_lhugdalf_2 = {
 			capital = c_lhugdalf_6
 			color={ 168 116 142 }
-			c_lhugdalf_5 = { 
+			c_lhugdalf_5 = {
 				color={ 168 116 142 }
 				b_lhugdalf_76 = {
 					province = 9072
@@ -4807,7 +4807,7 @@ e_enevorodwaith = {
 					color={ 132 170 112 }
 				}
 			}
-			c_lhugdalf_6 = { 
+			c_lhugdalf_6 = {
 				color={ 255 219 237 }
 				b_lhugdalf_7 = {
 					province = 9003
@@ -4826,7 +4826,7 @@ e_enevorodwaith = {
 					color={ 189 190 22 }
 				}
 			}
-			c_lhugdalf_7 = { 
+			c_lhugdalf_7 = {
 				color={ 110 35 72 }
 				b_lhugdalf_78 = {
 					province = 9074
@@ -4849,7 +4849,7 @@ e_enevorodwaith = {
 					color={ 95 105 28 }
 				}
 			}
-			c_lhugdalf_8 = { 
+			c_lhugdalf_8 = {
 				color={ 168 5 86 }
 				b_lhugdalf_74 = {
 					province = 9070
@@ -4923,7 +4923,7 @@ e_enevorodwaith = {
 					province = 9058
 					color={ 202 126 109 }
 				}
-				
+
 				b_lhugdalf_11 = {
 					province = 9007
 					color={ 83 109 26 }
@@ -5768,7 +5768,7 @@ e_enevorodwaith = {
 					color={ 110 116 34 }
 				}
 			}
-			
+
 		}
 		d_talath_uichel_2 = {
 			capital = c_talath_uichel_6
@@ -5817,7 +5817,7 @@ e_enevorodwaith = {
 					province = 8705
 					color={ 119 175 109 }
 				}
-			}			
+			}
 		}
 		d_talath_uichel_3 = {
 			capital = c_talath_uichel_10
@@ -6438,9 +6438,9 @@ k_grey_foothills = {
 				province = 8860
 				color={ 167 108 95 }
 			}
-		
+
 		}
-		
+
 	}
 }
 e_frostwood = {
@@ -6448,7 +6448,7 @@ e_frostwood = {
 	color={ 0 255 255 }
 	k_west_frostwood = {
 		capital = c_frostwood_6
-		
+
 		color={ 199 255 255 }
 		d_west_frostwood_1 = {
 			capital = c_frostwood_3
@@ -6618,7 +6618,7 @@ e_frostwood = {
 					province = 9251
 					color={ 100 190 31 }
 				}
-		
+
 			}
 			c_frostwood_11 = {
 				color={ 41 217 217 }
@@ -6630,7 +6630,7 @@ e_frostwood = {
 					province = 8811
 					color={ 207 192 38 }
 				}
-		
+
 			}
 			c_frostwood_12 = {
 				color={ 109 209 209 }
@@ -6764,7 +6764,7 @@ e_frostwood = {
 					color={ 135 140 119 }
 				}
 			}
-			
+
 		}
 	}
 	k_east_frostwood = {
@@ -6888,7 +6888,7 @@ e_frostwood = {
 					province = 8743
 					color={ 138 172 59 }
 				}
-		
+
 			}
 			c_frostwood_28 = {
 				color={ 109 214 194 }

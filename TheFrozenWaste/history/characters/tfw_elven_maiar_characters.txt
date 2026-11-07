@@ -1,25 +1,25 @@
 ﻿
 
-tfw_lineofnixni_001 = {					
+tfw_lineofnixni_001 = {
 	name = tfw_lineofnixni_001_name
-	female = yes	
+	female = yes
 
 	dynasty = dynasty_nixni
-	religion = faith_winter_queen				
+	religion = faith_winter_queen
 	culture = maiar_fallen
 	dna = mab_dna
 
 	sexuality = bisexual
 
-	
+
 	trait = callous
 	trait = eccentric
 	trait = deceitful
 	trait = diligent
-	
+
 
 	disallow_random_traits = yes
-	
+
 	give_nickname = nick_queen_air_dark
 
 	diplomacy = 12
@@ -33,23 +33,22 @@ tfw_lineofnixni_001 = {
 	trait = maiar
 	trait = beauty_good_3
 	trait = intellect_good_3
-	
-	
+
+
 	trait = winter_soldier
 	trait = shrewd
-	
-	
-	
-	1.1.1 = { # Enters into Arda	
-		birth = yes	
-		effect = {			
+
+
+	1.1.1 = { # Enters into Arda
+		birth = yes
+		effect = {
 			add_character_flag = has_scripted_appearance
 			add_character_flag = ai_immune_to_mental_breaks
 			add_character_flag = immune_to_disease
-			
+
             add_character_flag = no_auto_family
-		
-			
+
+
 			add_trait_xp = {
 				trait = winter_soldier
 				value = 100
@@ -57,10 +56,12 @@ tfw_lineofnixni_001 = {
 		}
 	}
 
-	
+
 }
 
-#### Elves
+# ============================================================
+# Elves
+# ============================================================
 
 tfw_lineoffeanor_001 = { # Daughter of Caranthir
 	name = tfw_lineoffeanor_001_name
@@ -69,7 +70,7 @@ tfw_lineoffeanor_001 = { # Daughter of Caranthir
 	religion = faith_evermist
 	culture = noldor
 	dna = tfw_lineoffeanor11_dna
-	
+
 	mother = lineoffeanor5
 	father = lineoffeanor4
 
@@ -94,13 +95,13 @@ tfw_lineoffeanor_001 = { # Daughter of Caranthir
 	trait = overseer
 	trait = irritable
 	trait = veteran_of_war_of_wrath
-	
+
 	trait = winter_soldier
 	trait = holy_warrior
 	trait = forest_fighter
-	
 
-	2.1.1 = {	#-1423.1.1
+
+	2.1.1 = { # -1423.1.1
 		birth = yes
 		learn_language = language_quenya # Accounting for Noldor culture using Sindarin as primary on account of the Noldor of Middle-earth
 		add_trait_xp = {
@@ -113,7 +114,7 @@ tfw_lineoffeanor_001 = { # Daughter of Caranthir
 		}
 	}
 
-	
+
 }
 
 tfw_vanyar_vorondil_001 = {
@@ -156,7 +157,7 @@ tfw_vanyar_vorondil_001 = {
 
 tfw_lineoffeanor_002 = { # Daughter of Caranthir husband
 	name = tfw_lineoffeanor_002_name
-	
+
 
 	religion = faith_eternal_vigil
 	culture = vanyar
@@ -186,13 +187,13 @@ tfw_lineoffeanor_002 = { # Daughter of Caranthir husband
 	trait = gallant
 	trait = loyal
 	trait = veteran_of_war_of_wrath
-	
+
 	trait = winter_soldier
 	trait = holy_warrior
 	trait = organizer
-	
 
-	2.1.1 = {	#-1423.1.1
+
+	2.1.1 = { # -1423.1.1
 		birth = yes
 	}
 	2.2.2 = {
@@ -210,7 +211,7 @@ tfw_lineoffeanor_002 = { # Daughter of Caranthir husband
 			value = 50
 		}
 	}
-	
+
 }
 
 tfw_lineoffeanor_003 = { # Daughter of Maglor
@@ -220,7 +221,7 @@ tfw_lineoffeanor_003 = { # Daughter of Maglor
 	religion = faith_evermist
 	culture = noldor
 	dna = tfw_lineoffeanor12_dna
-	
+
 	mother = lineofrumil3
 	father = lineoffeanor2
 
@@ -242,14 +243,14 @@ tfw_lineoffeanor_003 = { # Daughter of Maglor
 	trait = lifestyle_blademaster
 	trait = twotreeslight
 	trait = veteran_of_war_of_wrath
-	
-	
+
+
 	trait = lifestyle_gardener
 	trait = lifestyle_poet
 	trait = beauty_good_3
-	
 
-	2.1.1 = {	#-1423.1.1
+
+	2.1.1 = { # -1423.1.1
 		birth = yes
 		learn_language = language_quenya # Accounting for Noldor culture using Sindarin as primary on account of the Noldor of Middle-earth
 		add_trait_xp = {
@@ -258,18 +259,18 @@ tfw_lineoffeanor_003 = { # Daughter of Maglor
 		}
 	}
 
-	
+
 }
 
 tfw_lineofnestador_001 = { # Merp Wizard king of Evermist
 	name = tfw_lineofnestador_001_name
-	
+
 
 	religion = faith_evermist
 	culture = noldor
 	dna = tfw_lineofnestador_dna
 	dynasty = dynasty_nestador
-	
+
 
 	sexuality = heterosexual
 
@@ -294,8 +295,8 @@ tfw_lineofnestador_001 = { # Merp Wizard king of Evermist
 	trait = reclusive
 	trait = lifestyle_physician
 	trait = veteran_of_war_of_wrath
-	
-2.1.1 = {	#-1423.1.1
+
+2.1.1 = { # -1423.1.1
 		birth = yes
 		learn_language = language_quenya # Accounting for Noldor culture using Sindarin as primary on account of the Noldor of Middle-earth
 		add_trait_xp = {
@@ -311,11 +312,13 @@ tfw_lineofnestador_001 = { # Merp Wizard king of Evermist
 			value = 100
 		}
 	}
-	
-	
+
+
 }
 
-### Lossidil
+# ============================================================
+# Lossidil
+# ============================================================
 
 tfw_lineoflossidil_celethrim_001 = { # Sindar refugee lord; father of the twin monarchs
 	name = tfw_lineoflossidil_celethrim_001_name
@@ -323,7 +326,7 @@ tfw_lineoflossidil_celethrim_001 = { # Sindar refugee lord; father of the twin m
 	dynasty = dynasty_lossidil_celethrim
 	religion = faith_eldar
 	culture = sindar
-	
+
 	dna = tfw_lineoflossidil_celethrim_001_dna
 
 	sexuality = heterosexual
@@ -1449,14 +1452,14 @@ tfw_lineoflossidil_naereth_005 = { # Son of Faelien and secondary heir of House 
 	}
 }
 
-############################################################
+# ============================================================
 # FROSTWOOD AVARI ELVES - ANCIENT REALMS, YEARS 1-7100
 # West Frostwood: Windan | East Frostwood: Hwenti
 # The founding monarchs and founding vassal rulers are represented
 # at the history floor (1.1.1) but are intended to predate it.
 # No founding ruler has a death entry; all remain alive in 7100.
 # Three generations are present for every landed house.
-############################################################
+# ============================================================
 
 tfw_lineofwindan_sairavel_001 = { # Founding King of West Frostwood; ancient Avari, true birth predates recorded history
 	name = tfw_lineofwindan_sairavel_001_name
@@ -8176,13 +8179,12 @@ tfw_lineofhwenti_lethwin_008 = { # Third generation of Lethwi's house
 
 tfw_lineoftareg_001 = { # dummy to assign dna to
 	name = Tareg
-	
+
 
 	religion = faith_eternal_vigil
 	culture = vanyar
 	dna = tfw_lineoftareg_001_dna
-	
-	
+
 
 	sexuality = heterosexual
 
@@ -8206,22 +8208,24 @@ tfw_lineoftareg_001 = { # dummy to assign dna to
 	trait = gallant
 	trait = loyal
 	trait = veteran_of_palisor
-	
+
 	trait = winter_soldier
 	trait = holy_warrior
 	trait = organizer
-	
 
-	2.1.1 = {	#-1423.1.1
+
+	2.1.1 = { # -1423.1.1
 		birth = yes
 	}
 	2.2.2 = {
 		death = yes
 	}
-	
+
 }
 
-### LLAMPS
+# ============================================================
+# LLAMPS
+# ============================================================
 
 tfw_landless_northern_wardens_001 = {
 	name = tfw_landless_northern_wardens_001_name
@@ -8252,9 +8256,9 @@ tfw_landless_northern_wardens_001 = {
 	learning = 10
 	prowess = 13
 
-	2.1.1 = {	#-1423.1.1
+	2.1.1 = { # -1423.1.1
 		birth = yes
-	
+
 
 		effect = {
 			add_character_flag = do_not_generate_starting_family

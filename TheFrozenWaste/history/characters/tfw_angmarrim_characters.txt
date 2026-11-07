@@ -1,22 +1,22 @@
-﻿############################################################
-##### NEW ANGMARRIM LINES - 5530 TO 7100 ###################
-############################################################
+﻿# ============================================================
+# NEW ANGMARRIM LINES - 5530 TO 7100
+# ============================================================
 # Three interwoven Angmarrim dynasties.
 # Culture: angmarrim
 # Faith: faith_angmar_evil
 # Base-stat totals: 25-40 across diplomacy, martial, stewardship,
-#                  intrigue, learning, and prowess.
+# intrigue, learning, and prowess.
 # Main-line couples have 2-5 children.
 # Spouses mix lowborn Angmarrim with periodic marriages among
 # Houses Veikko, Kaarlo, and Erkki.
 # Character names are drawn from names already used by Angmarrim
 # characters in the supplied character-history file.
-############################################################
+# ============================================================
 
 
-############################################
-##### HOUSE OF VEIKKO #####
-############################################
+# ============================================================
+# HOUSE OF VEIKKO
+# ============================================================
 
 tfw_lineofveikko_001 = { # Founder
 	name = tfw_lineofveikko_001_name
@@ -8612,9 +8612,9 @@ tfw_lineofveikko_216 = { # Generation 58 sibling
 }
 
 
-############################################
-##### HOUSE OF KAARLO #####
-############################################
+# ============================================================
+# HOUSE OF KAARLO
+# ============================================================
 
 tfw_lineofkaarlo_001 = { # Founder
 	name = tfw_lineofkaarlo_001_name
@@ -16879,9 +16879,9 @@ tfw_lineofkaarlo_205 = { # Generation 58 continuation
 }
 
 
-############################################
-##### HOUSE OF ERKKI #####
-############################################
+# ============================================================
+# HOUSE OF ERKKI
+# ============================================================
 
 tfw_lineoferkki_001 = { # Founder
 	name = tfw_lineoferkki_001_name

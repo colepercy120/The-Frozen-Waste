@@ -1,27 +1,20 @@
-﻿	##################
-	# TRIGGERED ONLY #
-	##################
+﻿	# ============================================================
+	# TRIGGERED ONLY
+	# ============================================================
 
 
-	
+# nick_last_smith = {}
+# nick_shadow_slayer = {}
+# nick_iceborn = {}
+# ============================================================
+# nick_redeemer = {}
+# nick_faithful = {}
 
-	
-#	nick_last_smith = {}
-#	nick_shadow_slayer = {}
-#	nick_iceborn = {}
-#	
-#	nick_redeemer = {}
-#	nick_faithful = {}
 
-	
 	nick_queen_air_dark = {}
-	
+
 	nick_adar = {}
 	nick_beowulf = {}
 	nick_tareg = {}
 
 
-	
-	
-	
-	

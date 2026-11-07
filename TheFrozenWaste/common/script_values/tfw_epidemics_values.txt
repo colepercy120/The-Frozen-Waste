@@ -1,14 +1,18 @@
-﻿######################
+﻿# ============================================================
 # Epidemics
-######################
+# ============================================================
 
-#### OUTBREAK CHANCE ###
+# ============================================================
+# OUTBREAK CHANCE
+# ============================================================
 # Chance for an outbreak of this intensity to spawn on a province per year
 # % from 0-100 inclusive
 # root = potential province
 
-### CONTROL VALUES ###
-# These should be enough to change the balance of epidemics 
+# ============================================================
+# CONTROL VALUES
+# ============================================================
+# These should be enough to change the balance of epidemics
 
 # Outbreak
 
@@ -46,7 +50,7 @@ outbreak_decrease_mult_unlikely = -0.995
 
 spread_chance_base_low = 3.5
 spread_chance_base_medium = 5
-spread_chance_base_high = 9 
+spread_chance_base_high = 9
 
 spread_increase_add_low = 2
 spread_increase_add_medium = 3
@@ -70,7 +74,7 @@ spread_decrease_mult_unlikely = -0.991
 lotr_race_outbreak_chance_epidemics_mult_value = {
 	value = 1
 	# outbreaks chance for elves and wastelands (wasteland holdings)
-	if = {			
+	if = {
 		limit = {
 			OR = {
 				has_holding_type = wastelands_holding
@@ -80,14 +84,14 @@ lotr_race_outbreak_chance_epidemics_mult_value = {
 		multiply = 0
 	}
 	# outbreaks chance for dwarves
-	else_if = {		
+	else_if = {
 		limit = {
 			county.culture = { is_dwarf_culture = yes }
 		}
 		multiply = 0.5
 	}
-	# outbreaks chance for orcs and goblins	
-	else_if = {		
+	# outbreaks chance for orcs and goblins
+	else_if = {
 		limit = {
 			county.culture = {is_orc_culture = yes }
 		}
@@ -108,12 +112,12 @@ lotr_race_outbreak_chance_epidemics_mult_value = {
 lotr_race_dwarf_outbreak_chance_epidemics_mult_value = {
 	value = 0
 	# outbreaks chance for dwarves
-	if = {		
+	if = {
 		limit = {
 			and = {
 				county.culture = { is_dwarf_culture = yes }
 				NOT = { has_game_rule = default_ai_behavior }
-			}	
+			}
 		}
 		add = 1
 	}
@@ -122,7 +126,7 @@ lotr_race_dwarf_outbreak_chance_epidemics_mult_value = {
 lotr_black_plague_rule_outbreak_chance_epidemics_mult_value = {
 	value = 0
 	# outbreaks chance for dwarves
-	if = {		
+	if = {
 		limit = {
 			NOT = { has_game_rule = default_ai_behavior }
 		}
@@ -130,9 +134,11 @@ lotr_black_plague_rule_outbreak_chance_epidemics_mult_value = {
 	}
 }
 
-#### SPREAD CHANCE ###
-#Controls the spread of the epidemic
-#root = potential_province
+# ============================================================
+# SPREAD CHANCE
+# ============================================================
+# Controls the spread of the epidemic
+# root = potential_province
 
 lotr_race_spread_chance_epidemics_mult_value = {
 	value = 1
@@ -147,13 +153,13 @@ lotr_race_spread_chance_epidemics_mult_value = {
 		multiply = 0
 	}
 	# spread chance for dwarves
-	else_if = {		
+	else_if = {
 		limit = {
 			county.culture = { is_dwarf_culture = yes }
 		}
 		multiply = 0.5
 	}
-	# spread chance for orcs and goblins	
+	# spread chance for orcs and goblins
 	else_if = {
 		limit = {
 			county.culture = { is_orc_culture = yes }
@@ -166,7 +172,7 @@ lotr_race_spread_chance_epidemics_mult_value = {
 			county.holder = character:k_wastelands_holder
 		}
 		multiply = 0.7
-	}	
+	}
 	# dwarves immune in lore
 	if = {
 		limit = {
@@ -177,7 +183,7 @@ lotr_race_spread_chance_epidemics_mult_value = {
 		}
 		multiply = 0
 	}
-}	
+}
 
 lotr_race_dwarf_spread_chance_epidemics_mult_value = {
 	value = 1
@@ -187,7 +193,7 @@ lotr_race_dwarf_spread_chance_epidemics_mult_value = {
 			AND = {
 				county.culture = { is_dwarf_culture = no }
 				NOT = { county.holder = character:k_wastelands_holder }
-			}	
+			}
 		}
 		multiply = 0
 	}
@@ -198,19 +204,19 @@ lotr_race_dwarf_spread_chance_epidemics_mult_value = {
 		}
 		multiply = 0.05
 	}
-	
+
 	# spread chance for wastelands (baronies holded by wastelands holder)
 	else_if = {
 		limit = {
 			county.holder = character:k_wastelands_holder
 		}
-		multiply = 0.2		
-	}	
+		multiply = 0.2
+	}
 }
 
 lotr_long_winter_spread_chance_epidemics_default_value = {
 
-	if = { #Should only use Apocalyptic, others for redundency
+	if = { # Should only use Apocalyptic, others for redundency
 		limit = {
 			scope:epidemic = {
 				outbreak_intensity = apocalyptic
@@ -227,11 +233,11 @@ lotr_long_winter_spread_chance_epidemics_default_value = {
 		}
 		add = spread_increase_add_high
 	}
-	else = { #minor
+	else = { # minor
 		add = 0
 	}
-	
-	#less patchy, add
+
+	# less patchy, add
 	if = {
 		limit = {
 			county = {
@@ -242,8 +248,8 @@ lotr_long_winter_spread_chance_epidemics_default_value = {
 		}
 		add = 1000
 	}
-	#Terrain
-	if = { 
+	# Terrain
+	if = {
 		limit = {
 			OR = { # Mountains have more severe winter
 				terrain = desert_mountains
@@ -255,7 +261,7 @@ lotr_long_winter_spread_chance_epidemics_default_value = {
 		}
 		add = spread_increase_add_high
 	}
-	else_if = { 
+	else_if = {
 		limit = {
 			OR = { # Opens lands have more severe winters
 				terrain = wetlands
@@ -292,7 +298,7 @@ lotr_long_winter_spread_chance_epidemics_default_value = {
 			OR = { # It shouldn't be snowing
 				terrain = jungle
 				terrain = desert
-				terrain = dune_sea 
+				terrain = dune_sea
 				terrain = drylands
 				terrain = oasis
 				terrain = halls
@@ -306,7 +312,7 @@ lotr_long_winter_spread_chance_epidemics_mult_value = {
 	value = 1
 	min = 0.001
 
-	#less patchy, mult
+	# less patchy, mult
 	if = {
 		limit = {
 			county = {
@@ -320,10 +326,10 @@ lotr_long_winter_spread_chance_epidemics_mult_value = {
 		add = spread_increase_mult_very_high
 	}
 
-	#Intensity mult
+	# Intensity mult
 
 	if = {
-		limit = { 
+		limit = {
 			scope:epidemic = {
 				outbreak_intensity = apocalyptic
 			}
@@ -331,7 +337,7 @@ lotr_long_winter_spread_chance_epidemics_mult_value = {
 		add = spread_increase_mult_high
 	}
 	else_if = {
-		limit = { 
+		limit = {
 			scope:epidemic = {
 				outbreak_intensity = major
 			}
@@ -339,7 +345,7 @@ lotr_long_winter_spread_chance_epidemics_mult_value = {
 		add = spread_increase_mult_medium
 	}
 
-	#Developed places
+	# Developed places
 	if = {
 		limit = {
 			has_holding = yes
@@ -347,7 +353,7 @@ lotr_long_winter_spread_chance_epidemics_mult_value = {
 		add = spread_decrease_mult_low
 	}
 
-	# TODO - Winter Severity 
+	# TODO - Winter Severity
 	# Alt - Geographic region
 }
 
@@ -356,7 +362,7 @@ lotr_long_winter_spread_chance_epidemics_mult_value = {
 lotr_long_winter_infection_spread_chance_value = {
 	value = 0
 	if = {
-		limit = { 
+		limit = {
 			NOT = { has_variable = recovered_from_winter }
 			NOT = { has_holding_type = elven_holding } # Elves are unaffected
 			OR = {
@@ -370,7 +376,7 @@ lotr_long_winter_infection_spread_chance_value = {
 		add = 100000
 	}
 	else_if = {
-		limit = { 
+		limit = {
 			NOT = { has_variable = recovered_from_winter }
 			geographical_region = special_long_winter_very_mild_region
 		}
@@ -403,7 +409,7 @@ lotr_long_winter_infection_duration_value = {
 	}
 
 	# #Terrain
-	if = { 
+	if = {
 		limit = {
 			OR = {
 				terrain = taiga
@@ -412,7 +418,7 @@ lotr_long_winter_infection_duration_value = {
 		}
 		add = 3
 	}
-	else_if = { 
+	else_if = {
 		limit = {
 			OR = {
 				terrain = halls
@@ -421,7 +427,7 @@ lotr_long_winter_infection_duration_value = {
 		}
 		add = 2
 	}
-	else_if = { 
+	else_if = {
 		limit = {
 			OR = {
 				terrain = hills
@@ -431,25 +437,25 @@ lotr_long_winter_infection_duration_value = {
 	}
 
 	# if = {
-	# 	limit = {
-	# 		geographical_region = special_long_winter_disease_central_region
-	# 		any_county_in_region = {
-	# 			region = special_long_winter_disease_southern_region
-	# 			any_county_province = { any_province_epidemic = { this = scope:epidemic } }
-	# 			percent <= 0.1
-	# 		}
-	# 	}
-	# 	add = 1
+	# limit = {
+	# geographical_region = special_long_winter_disease_central_region
+	# any_county_in_region = {
+	# region = special_long_winter_disease_southern_region
+	# any_county_province = { any_province_epidemic = { this = scope:epidemic } }
+	# percent <= 0.1
+	# }
+	# }
+	# add = 1
 	# } else_if = {
-	# 	limit = {
-	# 		geographical_region = special_long_winter_disease_northern_region
-	# 		any_county_in_region = {
-	# 			region = special_long_winter_disease_central_region
-	# 			any_county_province = { any_province_epidemic = { this = scope:epidemic } }
-	# 			percent <= 0.1
-	# 		}
-	# 	}
-	# 	add = 1
+	# limit = {
+	# geographical_region = special_long_winter_disease_northern_region
+	# any_county_in_region = {
+	# region = special_long_winter_disease_central_region
+	# any_county_province = { any_province_epidemic = { this = scope:epidemic } }
+	# percent <= 0.1
+	# }
+	# }
+	# add = 1
 	# }
 }
 
@@ -477,8 +483,8 @@ lotr_long_winter_recovery_duration_value = {
 		limit = { geographical_region = special_long_winter_very_mild_region }
 		add = 1
 	}
-	#Terrain
-	if = { 
+	# Terrain
+	if = {
 		limit = {
 			OR = { # Mountains have more severe winter
 				terrain = desert_mountains
@@ -490,7 +496,7 @@ lotr_long_winter_recovery_duration_value = {
 		}
 		add = 3
 	}
-	else_if = { 
+	else_if = {
 		limit = {
 			OR = { # Opens lands have more severe winters
 				terrain = wetlands
@@ -527,7 +533,7 @@ lotr_long_winter_recovery_duration_value = {
 			OR = { # It shouldn't be snowing
 				terrain = jungle
 				terrain = desert
-				terrain = dune_sea 
+				terrain = dune_sea
 				terrain = drylands
 				terrain = oasis
 				terrain = halls
@@ -536,10 +542,12 @@ lotr_long_winter_recovery_duration_value = {
 		add = 1
 	}
 
-} 
+}
 
-#### CHARACTER INFECTION CHANCE ###
-#Monthly chance for an epidemic to infect a character in the province
+# ============================================================
+# CHARACTER INFECTION CHANCE
+# ============================================================
+# Monthly chance for an epidemic to infect a character in the province
 
 lotr_character_dwarf_infection_chance_mult_value = {
 	value = 1

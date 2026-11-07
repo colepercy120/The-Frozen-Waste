@@ -1,14 +1,16 @@
-﻿### ANGBAND / DURNOST SHARED UPGRADE GREAT PROJECT ###
+﻿# ============================================================
+# ANGBAND / DURNOST SHARED UPGRADE GREAT PROJECT
+# ============================================================
 # One repeatable Great Project type upgrades either Angband or Durnost
 # from the current tier to the next tier.
 
 angband_durnost_upgrade = {
 	icon = {
-		reference = @lotr_build_citadel_icon
+		reference = "gfx/interface/icons/flat_icons/prestige.dds"
 	}
 
 	illustration = {
-		reference = @lotr_build_citadel_illustration
+		reference = "gfx/interface/illustrations/decisions/decision_dwarves_02.dds"
 	}
 
 	name = {
@@ -340,10 +342,8 @@ angband_durnost_upgrade = {
 		value = 1000
 	}
 
-	completion_sound_effect = @msg_completion_effect_dwarven
 }
 
-# BEGIN RESTORATION: common/great_projects/types/tfw_restoration_prayer.txt
 # Eleven mandatory, one-time native contributions: 25,000 total piety.
 # No custom funding ledger or final-chorus contribution.
 tfw_restoration_mass_prayer = {
@@ -363,7 +363,7 @@ tfw_restoration_mass_prayer = {
         tfw_restoration_good_orc = yes
         tfw_restoration_is_active = yes
         NOT = { has_global_variable = tfw_restoration_prayer_completed }
-        NOT = { has_global_variable = tfw_restoration_prayer_project }
+        NOT = { exists = global_var:tfw_restoration_prayer_project }
     }
     can_cancel = { always = no }
     province_filter = capital
@@ -371,12 +371,18 @@ tfw_restoration_mass_prayer = {
     is_valid = {
         tfw_restoration_is_active = yes
         NOT = { has_global_variable = tfw_restoration_prayer_completed }
+        scope:owner ?= {
+            is_landed = yes
+            tfw_restoration_good_orc = yes
+        }
+        exists = scope:owner
     }
-    cost = { piety = 1000 }
+    cost = { piety = 0 }
     construction_time = 1
     contributor_cooldown = 0
     contribution_threshold = 100
     on_plan_build = {
+        # Project scope. Succession follows the founder's primary title.
         set_global_variable = { name = tfw_restoration_prayer_project value = this }
     }
     allowed_contributor_filter = {
@@ -403,6 +409,7 @@ tfw_restoration_mass_prayer = {
             context_allows_contributions = { always = yes }
             cost = { piety = 5000 }
             on_contribution_funded = {
+                # Character scope: the contributor receives this reward once.
                 add_character_modifier = { modifier = tfw_restoration_prayer_contributor_5 }
             }
             ai_check_interval = 12
@@ -414,6 +421,7 @@ tfw_restoration_mass_prayer = {
             context_allows_contributions = { always = yes }
             cost = { piety = 5000 }
             on_contribution_funded = {
+                # Character scope: the contributor receives this reward once.
                 add_character_modifier = { modifier = tfw_restoration_prayer_contributor_5 }
             }
             ai_check_interval = 12
@@ -425,6 +433,7 @@ tfw_restoration_mass_prayer = {
             context_allows_contributions = { always = yes }
             cost = { piety = 2500 }
             on_contribution_funded = {
+                # Character scope: the contributor receives this reward once.
                 add_character_modifier = { modifier = tfw_restoration_prayer_contributor_4 }
             }
             ai_check_interval = 12
@@ -436,6 +445,7 @@ tfw_restoration_mass_prayer = {
             context_allows_contributions = { always = yes }
             cost = { piety = 2500 }
             on_contribution_funded = {
+                # Character scope: the contributor receives this reward once.
                 add_character_modifier = { modifier = tfw_restoration_prayer_contributor_4 }
             }
             ai_check_interval = 12
@@ -447,6 +457,7 @@ tfw_restoration_mass_prayer = {
             context_allows_contributions = { always = yes }
             cost = { piety = 2500 }
             on_contribution_funded = {
+                # Character scope: the contributor receives this reward once.
                 add_character_modifier = { modifier = tfw_restoration_prayer_contributor_4 }
             }
             ai_check_interval = 12
@@ -458,6 +469,7 @@ tfw_restoration_mass_prayer = {
             context_allows_contributions = { always = yes }
             cost = { piety = 2500 }
             on_contribution_funded = {
+                # Character scope: the contributor receives this reward once.
                 add_character_modifier = { modifier = tfw_restoration_prayer_contributor_4 }
             }
             ai_check_interval = 12
@@ -469,6 +481,7 @@ tfw_restoration_mass_prayer = {
             context_allows_contributions = { always = yes }
             cost = { piety = 1000 }
             on_contribution_funded = {
+                # Character scope: the contributor receives this reward once.
                 add_character_modifier = { modifier = tfw_restoration_prayer_contributor_3 }
             }
             ai_check_interval = 12
@@ -480,6 +493,7 @@ tfw_restoration_mass_prayer = {
             context_allows_contributions = { always = yes }
             cost = { piety = 1000 }
             on_contribution_funded = {
+                # Character scope: the contributor receives this reward once.
                 add_character_modifier = { modifier = tfw_restoration_prayer_contributor_3 }
             }
             ai_check_interval = 12
@@ -491,6 +505,7 @@ tfw_restoration_mass_prayer = {
             context_allows_contributions = { always = yes }
             cost = { piety = 1000 }
             on_contribution_funded = {
+                # Character scope: the contributor receives this reward once.
                 add_character_modifier = { modifier = tfw_restoration_prayer_contributor_3 }
             }
             ai_check_interval = 12
@@ -502,6 +517,7 @@ tfw_restoration_mass_prayer = {
             context_allows_contributions = { always = yes }
             cost = { piety = 1000 }
             on_contribution_funded = {
+                # Character scope: the contributor receives this reward once.
                 add_character_modifier = { modifier = tfw_restoration_prayer_contributor_3 }
             }
             ai_check_interval = 12
@@ -513,6 +529,7 @@ tfw_restoration_mass_prayer = {
             context_allows_contributions = { always = yes }
             cost = { piety = 1000 }
             on_contribution_funded = {
+                # Character scope: the contributor receives this reward once.
                 add_character_modifier = { modifier = tfw_restoration_prayer_contributor_3 }
             }
             ai_check_interval = 12
@@ -521,4 +538,329 @@ tfw_restoration_mass_prayer = {
     }
     ai_will_do = { value = 100 }
 }
-# END RESTORATION: common/great_projects/types/tfw_restoration_prayer.txt
+
+
+# Nidavillir military and glory upgrades.
+tfw_nidavillir_upgrade = {
+	icon = {
+		reference = "gfx/interface/icons/flat_icons/prestige.dds"
+	}
+
+	illustration = {
+		reference = "gfx/interface/illustrations/decisions/decision_dwarves_02.dds"
+	}
+
+	name = {
+		desc = great_project_type_tfw_nidavillir_upgrade
+	}
+
+	owner = province_owner
+	is_important = yes
+
+	is_shown = {
+		is_dwarf = yes
+		any_sub_realm_county = {
+			any_county_province = {
+				OR = {
+					has_building = wonder_nidavillir_military_01
+					has_building = wonder_nidavillir_military_02
+					has_building = wonder_nidavillir_military_03
+					has_building = wonder_nidavillir_military_04
+
+					has_building = wonder_nidavillir_glory_01
+					has_building = wonder_nidavillir_glory_02
+					has_building = wonder_nidavillir_glory_03
+					has_building = wonder_nidavillir_glory_04
+				}
+			}
+		}
+	}
+
+	province_filter = realm
+
+	is_location_valid = {
+		scope:province = {
+			has_ruined_great_building = no
+
+			custom_tooltip = {
+				text = great_project_type_tfw_nidavillir_upgrade_valid_location_tt
+				OR = {
+					has_building = wonder_nidavillir_military_01
+					has_building = wonder_nidavillir_military_02
+					has_building = wonder_nidavillir_military_03
+					has_building = wonder_nidavillir_military_04
+
+					has_building = wonder_nidavillir_glory_01
+					has_building = wonder_nidavillir_glory_02
+					has_building = wonder_nidavillir_glory_03
+					has_building = wonder_nidavillir_glory_04
+				}
+			}
+		}
+	}
+
+	can_start_planning = {
+		is_dwarf = yes
+		prestige_level >= high_prestige_level
+
+		any_sub_realm_county = {
+			any_county_province = {
+				OR = {
+					has_building = wonder_nidavillir_military_01
+					has_building = wonder_nidavillir_military_02
+					has_building = wonder_nidavillir_military_03
+					has_building = wonder_nidavillir_military_04
+
+					has_building = wonder_nidavillir_glory_01
+					has_building = wonder_nidavillir_glory_02
+					has_building = wonder_nidavillir_glory_03
+					has_building = wonder_nidavillir_glory_04
+				}
+			}
+		}
+	}
+
+	# Both Nidavillir branches use the standard Dwarven project cost.
+	cost = {
+		treasury_or_gold = dwarven_capital_gold_cost
+	}
+
+	construction_time = dwarven_great_project_base_construction_time
+
+	contributor_cooldown = standard_contributor_cooldown_value
+
+	on_complete = {
+		custom_tooltip = {
+			text = great_project_type_tfw_nidavillir_upgrade_construct_building_tt
+			scope:province ?= {
+				upgrade_dwarven_great_building_effect = yes
+
+				add_to_global_variable_list = {
+					name = lotr_gp_poi_list
+					target = this
+				}
+			}
+		}
+
+		scope:owner = {
+			show_as_tooltip = {
+				mandala_owner_reward_01_effect = yes
+			}
+		}
+
+		gather_contributors_in_list_effect = yes
+		every_in_list = {
+			list = contributors_to_reward
+			if = {
+				limit = { this = scope:owner }
+				trigger_event = lotr_great_project.1000
+			}
+			else = {
+				if = {
+					limit = {
+						scope:owner = { is_ai = yes }
+					}
+					show_as_tooltip = {
+						mandala_contributor_opinion_reward_effect = {
+							OVERLORD = scope:owner
+						}
+					}
+				}
+				trigger_event = lotr_great_project.1010
+			}
+		}
+	}
+
+	on_cancel = {
+		scope:owner = {
+			add_prestige = minor_prestige_loss
+		}
+
+		every_contribution = {
+			limit = {
+				contribution_is_funded = yes
+			}
+			contributor = {
+				if = {
+					limit = {
+						this != scope:owner
+						this != scope:founder
+					}
+					add_to_list = contributors_to_disappoint
+				}
+			}
+		}
+
+		every_in_list = {
+			list = contributors_to_disappoint
+			add_opinion = {
+				modifier = wasted_our_efforts
+				target = scope:owner
+				opinion = -30
+			}
+		}
+	}
+
+	on_start_build = {
+		scope:owner = {
+			add_legitimacy_effect = {
+				LEGITIMACY = minor_legitimacy_gain
+			}
+		}
+
+		scope:great_project = {
+			every_contribution = {
+				limit = {
+					contribution_is_funded = yes
+				}
+				contributor = {
+					add_prestige = minor_prestige_value
+				}
+			}
+		}
+	}
+
+	allowed_contributor_filter = {
+		owner = yes
+		tributaries = yes
+		vassals = yes
+	}
+
+	invite_interaction = request_great_project_contribution_interaction
+
+	# Shared construction contributions for the military and glory branches.
+	project_contributions = {
+		stonework = {
+			contributor_is_valid = {
+				highest_held_title_tier > tier_barony
+			}
+
+			cost = {
+				treasury_or_gold = {
+					if = {
+						limit = { is_ai = yes }
+						value = dwarven_contribution_low_gold_cost
+					}
+					else = {
+						value = dwarven_contribution_mid_gold_cost
+					}
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {
+				barony = 0
+				county = 12
+				duchy = 12
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+
+			ai_will_do = {
+				value = chinese_great_projects_contribution_ai_will_do_base_value
+			}
+		}
+
+		fortifications = {
+			contributor_is_valid = {
+				highest_held_title_tier > tier_barony
+			}
+
+			cost = {
+				treasury_or_gold = {
+					if = {
+						limit = { is_ai = yes }
+						value = dwarven_contribution_mid_gold_cost
+					}
+					else = {
+						value = dwarven_contribution_high_gold_cost
+					}
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {
+				barony = 0
+				county = 12
+				duchy = 12
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+
+			ai_will_do = {
+				value = chinese_great_projects_contribution_ai_will_do_base_value
+			}
+		}
+
+		work_force = {
+			contributor_is_valid = {
+				highest_held_title_tier > tier_barony
+			}
+
+			cost = {
+				treasury_or_gold = {
+					if = {
+						limit = { is_ai = yes }
+						value = dwarven_contribution_low_gold_cost
+					}
+					else = {
+						value = dwarven_contribution_mid_gold_cost
+					}
+				}
+			}
+
+			contributor_cooldown = individual_contribution_cooldown_value
+
+			on_contribution_funded = {
+				great_project_notify_contribution = yes
+				great_project_contribution_catalyst_effect = yes
+			}
+
+			ai_check_interval_by_tier = {
+				barony = 0
+				county = 12
+				duchy = 12
+				kingdom = 6
+				empire = 6
+				hegemony = 6
+			}
+
+			ai_will_do = {
+				value = chinese_great_projects_contribution_ai_will_do_base_value
+			}
+		}
+	}
+
+	ai_target_quick_trigger = {
+		adult = yes
+		rank = county
+	}
+
+	ai_check_interval_by_tier = {
+		barony = 0
+		county = 1
+		duchy = 1
+		kingdom = 1
+		empire = 1
+		hegemony = 1
+	}
+
+	ai_will_do = {
+		value = 1000
+	}
+
+}

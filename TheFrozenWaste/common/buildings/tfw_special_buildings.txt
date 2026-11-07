@@ -1,6 +1,10 @@
-### FORODWAITH SPECIAL BUILDING TEMPLATES ###
+# ============================================================
+# FORODWAITH SPECIAL BUILDING TEMPLATES
+# ============================================================
 
-### ONE-LEVEL SPECIAL BUILDINGS ###
+# ============================================================
+# ONE-LEVEL SPECIAL BUILDINGS
+# ============================================================
 
 # Tareg's Corpse
 wonder_taregs_corpse = {
@@ -18,7 +22,7 @@ wonder_taregs_corpse = {
 	}
 
 	is_enabled = {
-		
+
 	}
 
 	character_modifier = {
@@ -257,7 +261,7 @@ wonder_wolfmere = {
 
 	character_modifier = {
 		monthly_piety = 0.25
-		
+
 	}
 
 	province_modifier = {
@@ -268,7 +272,7 @@ wonder_wolfmere = {
 	}
 
 	county_modifier = {
-		
+
 	}
 
 	type = special
@@ -295,7 +299,7 @@ wonder_faron_dragon_site = {
 	}
 
 	is_enabled = {
-		
+
 	}
 
 	character_modifier = {
@@ -308,7 +312,7 @@ wonder_faron_dragon_site = {
 	}
 
 	county_modifier = {
-		
+
 	}
 
 	type = special
@@ -319,7 +323,9 @@ wonder_faron_dragon_site = {
 }
 
 
-### THREE-LEVEL SPECIAL BUILDINGS ###
+# ============================================================
+# THREE-LEVEL SPECIAL BUILDINGS
+# ============================================================
 
 # Evermist - Level 1
 wonder_evermist_01 = {
@@ -503,7 +509,7 @@ wonder_helecthil_01 = {
 	}
 
 	county_modifier = {
-		
+
 	}
 
 	next_building = wonder_helecthil_02
@@ -546,7 +552,7 @@ wonder_helecthil_02 = {
 	}
 
 	county_modifier = {
-		
+
 	}
 
 	next_building = wonder_helecthil_03
@@ -589,7 +595,7 @@ wonder_helecthil_03 = {
 	}
 
 	county_modifier = {
-		
+
 	}
 
 	type = special
@@ -682,7 +688,7 @@ wonder_forges_of_the_winden = {
 		stewardship = 1
 		monthly_prestige = 0.25
 	}
-	
+
 	province_modifier = {
 		holding_build_speed = 0.15
 		build_gold_cost = -0.10
@@ -690,7 +696,7 @@ wonder_forges_of_the_winden = {
 		stationed_maa_toughness_mult = 0.10
 		tax_mult = 0.15
 	}
-	
+
 	county_modifier = {
 		development_growth_factor = 0.10
 	}
@@ -727,12 +733,12 @@ wonder_hwenti_halls = {
 		diplomacy = 1
 		cultural_head_fascination_add = 0.05
 	}
-	
+
 	province_modifier = {
 		travel_danger = -10
 		supply_limit_mult = 0.15
 	}
-	
+
 	county_modifier = {
 		development_growth_factor = 0.10
 		county_opinion_add = 5
@@ -752,7 +758,7 @@ wonder_carasthon_01 = {
 	type_icon = "icon_wonder_caras_galadhon_2.dds"
 	construction_time = very_slow_construction_time
 	cost_gold = 1000
-	
+
 	can_construct_potential = {
 
 	}
@@ -762,19 +768,19 @@ wonder_carasthon_01 = {
 	}
 
 	is_enabled = {
-		
+
 	}
 
 	character_modifier = {
 		monthly_prestige = 0.15
 	}
-	
+
 	province_modifier = {
 		tax_mult = 0.10
 		supply_limit_mult = 0.10
 		fort_level = 1
 	}
-	
+
 	county_modifier = {
 		development_growth_factor = 0.10
 	}
@@ -793,7 +799,7 @@ wonder_carasthon_02 = {
 	type_icon = "icon_wonder_caras_galadhon_2.dds"
 	construction_time = very_slow_construction_time
 	cost_gold = 1000
-	
+
 	can_construct_potential = {
 
 	}
@@ -813,14 +819,14 @@ wonder_carasthon_02 = {
 		monthly_prestige = 0.30
 		stewardship = 1
 	}
-	
+
 	province_modifier = {
 		tax_mult = 0.20
 		supply_limit_mult = 0.20
 		fort_level = 2
 		garrison_size = 0.15
 	}
-	
+
 	county_modifier = {
 		development_growth_factor = 0.20
 		monthly_county_control_growth_add = 0.10
@@ -840,7 +846,7 @@ wonder_carasthon_03 = {
 	type_icon = "icon_wonder_caras_galadhon_2.dds"
 	construction_time = very_slow_construction_time
 	cost_gold = 1000
-	
+
 	can_construct_potential = {
 
 	}
@@ -861,14 +867,14 @@ wonder_carasthon_03 = {
 		stewardship = 2
 		diplomacy = 1
 	}
-	
+
 	province_modifier = {
 		tax_mult = 0.30
 		supply_limit_mult = 0.30
 		fort_level = 3
 		garrison_size = 0.25
 	}
-	
+
 	county_modifier = {
 		development_growth_factor = 0.30
 		monthly_county_control_growth_add = 0.20
@@ -888,7 +894,7 @@ wonder_halls_of_talanthir_01 = {
 	type_icon = "icon_structure_grand_library_of_baghdad.dds"
 	construction_time = very_slow_construction_time
 	cost_gold = 500
-	
+
 	can_construct_potential = {
 
 	}
@@ -897,9 +903,13 @@ wonder_halls_of_talanthir_01 = {
 
 	}
 
+
 	is_enabled = {
 		scope:holder ?= {
-			is_orc = yes
+			OR = {
+				is_orc = yes
+				culture = culture:tfw_restored_adlantrim
+			}
 		}
 	}
 
@@ -907,14 +917,14 @@ wonder_halls_of_talanthir_01 = {
 		stewardship = 1
 		monthly_prestige = 0.20
 	}
-	
+
 	province_modifier = {
 		fort_level = 1
 		garrison_size = 0.10
 		holding_build_speed = 0.10
 		build_gold_cost = -0.05
 	}
-	
+
 	county_modifier = {
 		development_growth_factor = 0.05
 	}
@@ -933,20 +943,18 @@ wonder_halls_of_talanthir_02 = {
 	type_icon = "icon_structure_grand_library_of_baghdad.dds"
 	construction_time = very_slow_construction_time
 	cost_gold = 1000
-	
+
 	can_construct_potential = {
 
 	}
 
-	is_enabled = {
-		scope:holder ?= {
-			is_orc = yes
-		}
-	}
 
 	is_enabled = {
 		scope:holder ?= {
-			is_orc = yes
+			OR = {
+				is_orc = yes
+				culture = culture:tfw_restored_adlantrim
+			}
 		}
 	}
 
@@ -955,7 +963,7 @@ wonder_halls_of_talanthir_02 = {
 		martial = 1
 		monthly_prestige = 0.35
 	}
-	
+
 	province_modifier = {
 		fort_level = 2
 		garrison_size = 0.20
@@ -964,7 +972,7 @@ wonder_halls_of_talanthir_02 = {
 		build_gold_cost = -0.10
 		stationed_maa_toughness_mult = 0.10
 	}
-	
+
 	county_modifier = {
 		development_growth_factor = 0.10
 	}
@@ -983,20 +991,18 @@ wonder_halls_of_talanthir_03 = {
 	type_icon = "icon_structure_grand_library_of_baghdad.dds"
 	construction_time = very_slow_construction_time
 	cost_gold = 1000
-	
+
 	can_construct_potential = {
 
 	}
 
-	is_enabled = {
-		scope:holder ?= {
-			is_orc = yes
-		}
-	}
 
 	is_enabled = {
 		scope:holder ?= {
-			is_orc = yes
+			OR = {
+				is_orc = yes
+				culture = culture:tfw_restored_adlantrim
+			}
 		}
 	}
 
@@ -1005,7 +1011,7 @@ wonder_halls_of_talanthir_03 = {
 		martial = 1
 		monthly_prestige = 0.50
 	}
-	
+
 	province_modifier = {
 		fort_level = 3
 		garrison_size = 0.30
@@ -1015,7 +1021,7 @@ wonder_halls_of_talanthir_03 = {
 		stationed_maa_damage_mult = 0.10
 		stationed_maa_toughness_mult = 0.20
 	}
-	
+
 	county_modifier = {
 		development_growth_factor = 0.15
 	}
@@ -1031,8 +1037,8 @@ dragon_lair = {
 	# This is automatically spawned, so AI should ignore this
 	can_construct = {
 		always = no
-	}	
-	
+	}
+
 	can_construct_potential = {
 		always = no
 	}
@@ -1043,12 +1049,11 @@ dragon_lair = {
 		tax_mult = -0.9
 		travel_danger = 30
 	}
-			
+
 	type = special
-	
+
 	type_icon = "icon_building_dragon.dds"
 
-	
 
 	# This is automatically spawned, so AI should ignore this
 	ai_value = {
@@ -1080,10 +1085,13 @@ wonder_bleak_diamond_02 = {
 	cost_gold = 900
 	can_construct_potential = {
 		lotr_dwarven_underground_buildings_requirement_terrain = yes
-		has_building = wonder_bleak_diamond
+		has_building = wonder_bleak_diamond_01
 	}
 	can_construct = {
-		has_building_or_higher = dwarven_depths_02
+		OR = {
+			has_building_or_higher = dwarven_depths_02
+			has_building_or_higher = elven_hall_02
+		}
 	}
 	is_enabled = { }
 	province_modifier = {
@@ -1108,7 +1116,10 @@ wonder_bleak_diamond_03 = {
 		has_building = wonder_bleak_diamond_02
 	}
 	can_construct = {
-		has_building_or_higher = dwarven_depths_04
+		OR = {
+			has_building_or_higher = dwarven_depths_04
+			has_building_or_higher = elven_hall_04
+		}
 	}
 	is_enabled = { }
 	province_modifier = {
@@ -1145,10 +1156,13 @@ wonder_bleak_mithril_02 = {
 	cost_gold = 1200
 	can_construct_potential = {
 		lotr_dwarven_underground_buildings_requirement_terrain = yes
-		has_building = wonder_bleak_mithril
+		has_building = wonder_bleak_mithril_01
 	}
 	can_construct = {
-		has_building_or_higher = dwarven_depths_02
+		OR = {
+			has_building_or_higher = dwarven_depths_02
+			has_building_or_higher = elven_hall_02
+		}
 	}
 	is_enabled = { }
 	province_modifier = {
@@ -1174,7 +1188,10 @@ wonder_bleak_mithril_03 = {
 		has_building = wonder_bleak_mithril_02
 	}
 	can_construct = {
-		has_building_or_higher = dwarven_depths_04
+		OR = {
+			has_building_or_higher = dwarven_depths_04
+			has_building_or_higher = elven_hall_04
+		}
 	}
 	is_enabled = { }
 	province_modifier = {
@@ -1190,12 +1207,16 @@ wonder_bleak_mithril_03 = {
 	ai_value = { base = 100 }
 }
 
-#### Great Buildings
+# ============================================================
+# Great Buildings
+# ============================================================
 
-### NIDAVILLIR GREAT BUILDINGS: THREE INDEPENDENT FIVE-TIER LINES ###
+# ============================================================
+# NIDAVILLIR GREAT BUILDINGS: THREE INDEPENDENT FIVE-TIER LINES
+# ============================================================
 # Economic capital line keeps existing building IDs to preserve saves and references.
-# Separate Military and Glory foundations must be spawned by their own Great Project decisions.
-# The new great_project_type keys require matching Great Project definitions/decisions.
+# The hold-founding event selects the economic, military, or glory foundation.
+# Military and glory upgrades use the shared tfw_nidavillir_upgrade project.
 
 wonder_nidavillir_foundation = { # Nidavillir (Ironfist Capital)
 	type_icon = "nidavellir_icon.dds"
@@ -1727,7 +1748,7 @@ wonder_nidavillir_military_02 = { # Nidavillir (Military Great Project)
 	}
 
 	type = great_building
-	great_project_type = nidavillir_military_02
+	great_project_type = tfw_nidavillir_upgrade
 	next_building = wonder_nidavillir_military_03
 	flag = dwarven_capital_building
 	flag = second_tier_dwarven_capital_building
@@ -1807,7 +1828,7 @@ wonder_nidavillir_military_03 = { # Nidavillir (Military Great Project)
 	}
 
 	type = great_building
-	great_project_type = nidavillir_military_03
+	great_project_type = tfw_nidavillir_upgrade
 	next_building = wonder_nidavillir_military_04
 	flag = dwarven_capital_building
 	flag = third_tier_dwarven_capital_building
@@ -1887,7 +1908,7 @@ wonder_nidavillir_military_04 = { # Nidavillir (Military Great Project)
 	}
 
 	type = great_building
-	great_project_type = nidavillir_military_04
+	great_project_type = tfw_nidavillir_upgrade
 	next_building = wonder_nidavillir_military_05
 	flag = dwarven_capital_building
 	flag = fourth_tier_dwarven_capital_building
@@ -1967,7 +1988,7 @@ wonder_nidavillir_military_05 = { # Nidavillir (Military Great Project)
 	}
 
 	type = great_building
-	great_project_type = nidavillir_military_05
+	great_project_type = tfw_nidavillir_upgrade
 	flag = dwarven_capital_building
 	flag = final_tier_dwarven_capital_building
 }
@@ -2111,7 +2132,7 @@ wonder_nidavillir_glory_02 = { # Nidavillir (Glory Great Project)
 	}
 
 	type = great_building
-	great_project_type = nidavillir_glory_02
+	great_project_type = tfw_nidavillir_upgrade
 	next_building = wonder_nidavillir_glory_03
 	flag = dwarven_capital_building
 	flag = second_tier_dwarven_capital_building
@@ -2191,7 +2212,7 @@ wonder_nidavillir_glory_03 = { # Nidavillir (Glory Great Project)
 	}
 
 	type = great_building
-	great_project_type = nidavillir_glory_03
+	great_project_type = tfw_nidavillir_upgrade
 	next_building = wonder_nidavillir_glory_04
 	flag = dwarven_capital_building
 	flag = third_tier_dwarven_capital_building
@@ -2272,7 +2293,7 @@ wonder_nidavillir_glory_04 = { # Nidavillir (Glory Great Project)
 	}
 
 	type = great_building
-	great_project_type = nidavillir_glory_04
+	great_project_type = tfw_nidavillir_upgrade
 	next_building = wonder_nidavillir_glory_05
 	flag = dwarven_capital_building
 	flag = fourth_tier_dwarven_capital_building
@@ -2353,7 +2374,7 @@ wonder_nidavillir_glory_05 = { # Nidavillir (Glory Great Project)
 	}
 
 	type = great_building
-	great_project_type = nidavillir_glory_05
+	great_project_type = tfw_nidavillir_upgrade
 	flag = dwarven_capital_building
 	flag = final_tier_dwarven_capital_building
 }
@@ -2421,7 +2442,7 @@ wonder_angband_01 = { # Angband - Tier 1
 			fort_level = 3
 		}
 	}
-	
+
 	levy = 1000
 
 	type = great_building
@@ -2497,7 +2518,7 @@ wonder_angband_02 = { # Angband - Tier 2
 			fort_level = 4
 		}
 	}
-	
+
 	levy = 2000
 
 	type = great_building
@@ -2569,7 +2590,7 @@ wonder_angband_03 = { # Angband - Tier 3
 		men_at_arms_limit = 1
 		men_at_arms_cap = 1
 	}
-	
+
 	levy = 3000
 
 	fallback = {
@@ -2621,7 +2642,7 @@ wonder_angband_04 = { # Angband - Tier 4
 			}
 		}
 	}
-	
+
 	levy = 4000
 
 	province_modifier = {
@@ -2736,7 +2757,7 @@ wonder_angband_05 = { # Angband - Tier 5
 			fort_level = 8
 		}
 	}
-	
+
 	levy = 5000
 
 	type = great_building
@@ -2746,7 +2767,9 @@ wonder_angband_05 = { # Angband - Tier 5
 }
 
 
-### DURNOST GREAT PROJECT BUILDINGS ###
+# ============================================================
+# DURNOST GREAT PROJECT BUILDINGS
+# ============================================================
 # Strong regional capital/fortress.
 # Uses its own Great Project chain:
 # construct_durnost_01 through construct_durnost_05

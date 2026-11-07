@@ -1,8 +1,8 @@
-﻿# Talathrim Heritages 
+﻿# Talathrim Heritages
 heritage_umli = {
 	type = heritage
 	parameters = {
-		
+
 		heritage_family_easterling = yes
 		is_human_heritage = yes
 	}

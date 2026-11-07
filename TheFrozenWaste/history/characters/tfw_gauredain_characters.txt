@@ -1,4 +1,4 @@
-﻿############################################################
+﻿# ============================================================
 # GAUREDAIN - HOUSE WAITHOR
 # One continuous Gauredain family line, 6700-7200
 # Culture: gauredain
@@ -8,11 +8,11 @@
 # Base-stat total: 20-30 across the six base stats
 # Names use the Edain / Northron-style pool from the supplied
 # Eriadorim character-history file.
-############################################################
+# ============================================================
 
-############################################
-##### GENERATION 1 #####
-############################################
+# ============================================================
+# GENERATION 1
+# ============================================================
 
 tfw_lineofgauredain_waithor_001 = { # Generation 1 continuation
 	name = tfw_lineofgauredain_waithor_001_name
@@ -138,9 +138,9 @@ trait = education_stewardship_1
 	}
 }
 
-############################################
-##### GENERATION 2 #####
-############################################
+# ============================================================
+# GENERATION 2
+# ============================================================
 
 tfw_lineofgauredain_waithor_005 = { # Generation 2 continuation
 	name = tfw_lineofgauredain_waithor_005_name
@@ -303,9 +303,9 @@ tfw_lineofgauredain_waithor_009 = { # Sibling of generation 3 continuation
 	}
 }
 
-############################################
-##### GENERATION 3 #####
-############################################
+# ============================================================
+# GENERATION 3
+# ============================================================
 
 tfw_lineofgauredain_waithor_010 = { # Generation 3 continuation
 	name = tfw_lineofgauredain_waithor_010_name
@@ -437,9 +437,9 @@ tfw_lineofgauredain_waithor_013 = { # Sibling of generation 4 continuation
 	}
 }
 
-############################################
-##### GENERATION 4 #####
-############################################
+# ============================================================
+# GENERATION 4
+# ============================================================
 
 tfw_lineofgauredain_waithor_014 = { # Generation 4 continuation
 	name = tfw_lineofgauredain_waithor_014_name
@@ -601,9 +601,9 @@ trait = education_intrigue_1
 	}
 }
 
-############################################
-##### GENERATION 5 #####
-############################################
+# ============================================================
+# GENERATION 5
+# ============================================================
 
 tfw_lineofgauredain_waithor_019 = { # Generation 5 continuation
 	name = tfw_lineofgauredain_waithor_019_name
@@ -765,9 +765,9 @@ tfw_lineofgauredain_waithor_023 = { # Sibling of generation 6 continuation
 	}
 }
 
-############################################
-##### GENERATION 6 #####
-############################################
+# ============================================================
+# GENERATION 6
+# ============================================================
 
 tfw_lineofgauredain_waithor_024 = { # Generation 6 continuation
 	name = tfw_lineofgauredain_waithor_024_name
@@ -865,9 +865,9 @@ tfw_lineofgauredain_waithor_026 = { # Sibling of generation 7 continuation
 	}
 }
 
-############################################
-##### GENERATION 7 #####
-############################################
+# ============================================================
+# GENERATION 7
+# ============================================================
 
 tfw_lineofgauredain_waithor_027 = { # Generation 7 continuation
 	name = tfw_lineofgauredain_waithor_027_name
@@ -999,9 +999,9 @@ tfw_lineofgauredain_waithor_030 = { # Sibling of generation 8 continuation
 	}
 }
 
-############################################
-##### GENERATION 8 #####
-############################################
+# ============================================================
+# GENERATION 8
+# ============================================================
 
 tfw_lineofgauredain_waithor_031 = { # Generation 8 continuation
 	name = tfw_lineofgauredain_waithor_031_name
@@ -1130,9 +1130,9 @@ tfw_lineofgauredain_waithor_034 = { # Sibling of generation 9 continuation
 	}
 }
 
-############################################
-##### GENERATION 9 #####
-############################################
+# ============================================================
+# GENERATION 9
+# ============================================================
 
 tfw_lineofgauredain_waithor_035 = { # Generation 9 continuation
 	name = tfw_lineofgauredain_waithor_035_name
@@ -1296,9 +1296,9 @@ tfw_lineofgauredain_waithor_039 = { # Sibling of generation 10 continuation
 	}
 }
 
-############################################
-##### GENERATION 10 #####
-############################################
+# ============================================================
+# GENERATION 10
+# ============================================================
 
 tfw_lineofgauredain_waithor_040 = { # Generation 10 continuation
 	name = tfw_lineofgauredain_waithor_040_name
@@ -1460,9 +1460,9 @@ tfw_lineofgauredain_waithor_044 = { # Sibling of generation 11 continuation
 	}
 }
 
-############################################
-##### GENERATION 11 #####
-############################################
+# ============================================================
+# GENERATION 11
+# ============================================================
 
 tfw_lineofgauredain_waithor_045 = { # Generation 11 continuation
 	name = tfw_lineofgauredain_waithor_045_name
@@ -1623,9 +1623,9 @@ trait = education_intrigue_1
 	}
 }
 
-############################################
-##### GENERATION 12 #####
-############################################
+# ============================================================
+# GENERATION 12
+# ============================================================
 
 tfw_lineofgauredain_waithor_050 = { # Generation 12 continuation
 	name = tfw_lineofgauredain_waithor_050_name
@@ -1754,9 +1754,9 @@ tfw_lineofgauredain_waithor_053 = { # Sibling of generation 13 continuation
 	}
 }
 
-############################################
-##### GENERATION 13 #####
-############################################
+# ============================================================
+# GENERATION 13
+# ============================================================
 
 tfw_lineofgauredain_waithor_054 = { # Generation 13 continuation
 	name = tfw_lineofgauredain_waithor_054_name
@@ -1918,9 +1918,9 @@ tfw_lineofgauredain_waithor_058 = { # Sibling of generation 14 continuation
 	}
 }
 
-############################################
-##### GENERATION 14 #####
-############################################
+# ============================================================
+# GENERATION 14
+# ============================================================
 
 tfw_lineofgauredain_waithor_059 = { # Generation 14 continuation
 	name = tfw_lineofgauredain_waithor_059_name
@@ -2017,9 +2017,9 @@ tfw_lineofgauredain_waithor_061 = { # Sibling of generation 15 continuation
 	}
 }
 
-############################################
-##### GENERATION 15 #####
-############################################
+# ============================================================
+# GENERATION 15
+# ============================================================
 
 tfw_lineofgauredain_waithor_062 = { # Generation 15 continuation
 	name = tfw_lineofgauredain_waithor_062_name
@@ -2140,9 +2140,9 @@ tfw_lineofgauredain_waithor_065 = { # Sibling of generation 16 continuation
 	}
 }
 
-############################################
-##### GENERATION 16 #####
-############################################
+# ============================================================
+# GENERATION 16
+# ============================================================
 
 tfw_lineofgauredain_waithor_066 = { # Generation 16 continuation
 	name = tfw_lineofgauredain_waithor_066_name
@@ -2289,9 +2289,9 @@ tfw_lineofgauredain_waithor_070 = { # Sibling of generation 17 continuation
 	}
 }
 
-############################################
-##### GENERATION 17 #####
-############################################
+# ============================================================
+# GENERATION 17
+# ============================================================
 
 tfw_lineofgauredain_waithor_071 = { # Generation 17 continuation
 	name = tfw_lineofgauredain_waithor_071_name
@@ -2378,9 +2378,9 @@ tfw_lineofgauredain_waithor_073 = { # Sibling of generation 18 continuation
 	}
 }
 
-############################################
-##### GENERATION 18 #####
-############################################
+# ============================================================
+# GENERATION 18
+# ============================================================
 
 tfw_lineofgauredain_waithor_074 = { # Generation 18 continuation
 	name = tfw_lineofgauredain_waithor_074_name

@@ -1,10 +1,12 @@
-﻿############################################################
+﻿# ============================================================
 # Generated Lossoth rulers for custom_forochel_coast, 6700-7100
 # Existing southern Lossoth histories are intentionally not duplicated.
 # Dynasty ids used here are new and are mapped in the companion dynasty map.
-############################################################
+# ============================================================
 
-### c_rast_losnaeth_1 - ruler 1 (Kuusivaara)
+# ============================================================
+# c_rast_losnaeth_1 - ruler 1 (Kuusivaara)
+# ============================================================
 tfw_lineoffc_kuusivaara_001 = {
 	name = tfw_lineoffc_kuusivaara_001_name
 	dynasty = dynasty_fc_kuusivaara
@@ -51,7 +53,9 @@ tfw_lineoffc_kuusivaara_002 = {
 	}
 }
 
-### c_rast_losnaeth_1 - ruler 2 (Kuusivaara)
+# ============================================================
+# c_rast_losnaeth_1 - ruler 2 (Kuusivaara)
+# ============================================================
 tfw_lineoffc_kuusivaara_003 = {
 	name = tfw_lineoffc_kuusivaara_003_name
 	dynasty = dynasty_fc_kuusivaara
@@ -101,7 +105,9 @@ tfw_lineoffc_kuusivaara_004 = {
 	}
 }
 
-### c_rast_losnaeth_1 - ruler 3 (Kuusivaara)
+# ============================================================
+# c_rast_losnaeth_1 - ruler 3 (Kuusivaara)
+# ============================================================
 tfw_lineoffc_kuusivaara_005 = {
 	name = tfw_lineoffc_kuusivaara_005_name
 	dynasty = dynasty_fc_kuusivaara
@@ -151,7 +157,9 @@ tfw_lineoffc_kuusivaara_006 = {
 	}
 }
 
-### c_rast_losnaeth_1 - ruler 4 (Huurrela)
+# ============================================================
+# c_rast_losnaeth_1 - ruler 4 (Huurrela)
+# ============================================================
 tfw_lineoffc_huurrela_001 = {
 	name = tfw_lineoffc_huurrela_001_name
 	female = yes
@@ -197,7 +205,9 @@ tfw_lineoffc_huurrela_002 = {
 	}
 }
 
-### c_rast_losnaeth_1 - ruler 5 (Huurrela)
+# ============================================================
+# c_rast_losnaeth_1 - ruler 5 (Huurrela)
+# ============================================================
 tfw_lineoffc_huurrela_003 = {
 	name = tfw_lineoffc_huurrela_003_name
 	female = yes
@@ -247,7 +257,9 @@ tfw_lineoffc_huurrela_004 = {
 	}
 }
 
-### c_rast_losnaeth_1 - ruler 6 (Huurrela)
+# ============================================================
+# c_rast_losnaeth_1 - ruler 6 (Huurrela)
+# ============================================================
 tfw_lineoffc_huurrela_005 = {
 	name = tfw_lineoffc_huurrela_005_name
 	female = yes
@@ -297,7 +309,9 @@ tfw_lineoffc_huurrela_006 = {
 	}
 }
 
-### c_rast_losnaeth_1 - ruler 7 (Huurrela)
+# ============================================================
+# c_rast_losnaeth_1 - ruler 7 (Huurrela)
+# ============================================================
 tfw_lineoffc_huurrela_007 = {
 	name = tfw_lineoffc_huurrela_007_name
 	female = yes
@@ -347,7 +361,9 @@ tfw_lineoffc_huurrela_008 = {
 	}
 }
 
-### c_rast_losnaeth_2 - ruler 1 (Jaaniemi)
+# ============================================================
+# c_rast_losnaeth_2 - ruler 1 (Jaaniemi)
+# ============================================================
 tfw_lineoffc_jaaniemi_001 = {
 	name = tfw_lineoffc_jaaniemi_001_name
 	dynasty = dynasty_fc_jaaniemi
@@ -394,7 +410,9 @@ tfw_lineoffc_jaaniemi_002 = {
 	}
 }
 
-### c_rast_losnaeth_2 - ruler 2 (Jaaniemi)
+# ============================================================
+# c_rast_losnaeth_2 - ruler 2 (Jaaniemi)
+# ============================================================
 tfw_lineoffc_jaaniemi_003 = {
 	name = tfw_lineoffc_jaaniemi_003_name
 	dynasty = dynasty_fc_jaaniemi
@@ -444,7 +462,9 @@ tfw_lineoffc_jaaniemi_004 = {
 	}
 }
 
-### c_rast_losnaeth_2 - ruler 3 (Jaaniemi)
+# ============================================================
+# c_rast_losnaeth_2 - ruler 3 (Jaaniemi)
+# ============================================================
 tfw_lineoffc_jaaniemi_005 = {
 	name = tfw_lineoffc_jaaniemi_005_name
 	female = yes
@@ -494,7 +514,9 @@ tfw_lineoffc_jaaniemi_006 = {
 	}
 }
 
-### c_rast_losnaeth_2 - ruler 4 (Jaaniemi)
+# ============================================================
+# c_rast_losnaeth_2 - ruler 4 (Jaaniemi)
+# ============================================================
 tfw_lineoffc_jaaniemi_007 = {
 	name = tfw_lineoffc_jaaniemi_007_name
 	dynasty = dynasty_fc_jaaniemi
@@ -544,7 +566,9 @@ tfw_lineoffc_jaaniemi_008 = {
 	}
 }
 
-### c_rast_losnaeth_2 - ruler 5 (Sumikka)
+# ============================================================
+# c_rast_losnaeth_2 - ruler 5 (Sumikka)
+# ============================================================
 tfw_lineoffc_sumikka_001 = {
 	name = tfw_lineoffc_sumikka_001_name
 	dynasty = dynasty_fc_sumikka
@@ -591,7 +615,9 @@ tfw_lineoffc_sumikka_002 = {
 	}
 }
 
-### c_rast_losnaeth_2 - ruler 6 (Sumikka)
+# ============================================================
+# c_rast_losnaeth_2 - ruler 6 (Sumikka)
+# ============================================================
 tfw_lineoffc_sumikka_003 = {
 	name = tfw_lineoffc_sumikka_003_name
 	dynasty = dynasty_fc_sumikka
@@ -641,7 +667,9 @@ tfw_lineoffc_sumikka_004 = {
 	}
 }
 
-### c_rast_losnaeth_2 - ruler 7 (Sumikka)
+# ============================================================
+# c_rast_losnaeth_2 - ruler 7 (Sumikka)
+# ============================================================
 tfw_lineoffc_sumikka_005 = {
 	name = tfw_lineoffc_sumikka_005_name
 	female = yes
@@ -691,7 +719,9 @@ tfw_lineoffc_sumikka_006 = {
 	}
 }
 
-### c_rast_losnaeth_2 - ruler 8 (Sumikka)
+# ============================================================
+# c_rast_losnaeth_2 - ruler 8 (Sumikka)
+# ============================================================
 tfw_lineoffc_sumikka_007 = {
 	name = tfw_lineoffc_sumikka_007_name
 	dynasty = dynasty_fc_sumikka
@@ -741,7 +771,9 @@ tfw_lineoffc_sumikka_008 = {
 	}
 }
 
-### c_rast_losnaeth_3 - ruler 1 (Riekkola)
+# ============================================================
+# c_rast_losnaeth_3 - ruler 1 (Riekkola)
+# ============================================================
 tfw_lineoffc_riekkola_001 = {
 	name = tfw_lineoffc_riekkola_001_name
 	female = yes
@@ -788,7 +820,9 @@ tfw_lineoffc_riekkola_002 = {
 	}
 }
 
-### c_rast_losnaeth_3 - ruler 2 (Riekkola)
+# ============================================================
+# c_rast_losnaeth_3 - ruler 2 (Riekkola)
+# ============================================================
 tfw_lineoffc_riekkola_003 = {
 	name = tfw_lineoffc_riekkola_003_name
 	female = yes
@@ -838,7 +872,9 @@ tfw_lineoffc_riekkola_004 = {
 	}
 }
 
-### c_rast_losnaeth_3 - ruler 3 (Riekkola)
+# ============================================================
+# c_rast_losnaeth_3 - ruler 3 (Riekkola)
+# ============================================================
 tfw_lineoffc_riekkola_005 = {
 	name = tfw_lineoffc_riekkola_005_name
 	dynasty = dynasty_fc_riekkola
@@ -888,7 +924,9 @@ tfw_lineoffc_riekkola_006 = {
 	}
 }
 
-### c_rast_losnaeth_3 - ruler 4 (Vaskela)
+# ============================================================
+# c_rast_losnaeth_3 - ruler 4 (Vaskela)
+# ============================================================
 tfw_lineoffc_vaskela_001 = {
 	name = tfw_lineoffc_vaskela_001_name
 	dynasty = dynasty_fc_vaskela
@@ -935,7 +973,9 @@ tfw_lineoffc_vaskela_002 = {
 	}
 }
 
-### c_rast_losnaeth_3 - ruler 5 (Vaskela)
+# ============================================================
+# c_rast_losnaeth_3 - ruler 5 (Vaskela)
+# ============================================================
 tfw_lineoffc_vaskela_003 = {
 	name = tfw_lineoffc_vaskela_003_name
 	dynasty = dynasty_fc_vaskela
@@ -985,7 +1025,9 @@ tfw_lineoffc_vaskela_004 = {
 	}
 }
 
-### c_rast_losnaeth_3 - ruler 6 (Vaskela)
+# ============================================================
+# c_rast_losnaeth_3 - ruler 6 (Vaskela)
+# ============================================================
 tfw_lineoffc_vaskela_005 = {
 	name = tfw_lineoffc_vaskela_005_name
 	dynasty = dynasty_fc_vaskela
@@ -1035,7 +1077,9 @@ tfw_lineoffc_vaskela_006 = {
 	}
 }
 
-### c_rast_losnaeth_3 - ruler 7 (Vaskela)
+# ============================================================
+# c_rast_losnaeth_3 - ruler 7 (Vaskela)
+# ============================================================
 tfw_lineoffc_vaskela_007 = {
 	name = tfw_lineoffc_vaskela_007_name
 	dynasty = dynasty_fc_vaskela
@@ -1085,7 +1129,9 @@ tfw_lineoffc_vaskela_008 = {
 	}
 }
 
-### c_rast_losnaeth_4 - ruler 1 (Kivela)
+# ============================================================
+# c_rast_losnaeth_4 - ruler 1 (Kivela)
+# ============================================================
 tfw_lineoffc_kivela_001 = {
 	name = tfw_lineoffc_kivela_001_name
 	dynasty = dynasty_fc_kivela
@@ -1132,7 +1178,9 @@ tfw_lineoffc_kivela_002 = {
 	}
 }
 
-### c_rast_losnaeth_4 - ruler 2 (Kivela)
+# ============================================================
+# c_rast_losnaeth_4 - ruler 2 (Kivela)
+# ============================================================
 tfw_lineoffc_kivela_003 = {
 	name = tfw_lineoffc_kivela_003_name
 	female = yes
@@ -1182,7 +1230,9 @@ tfw_lineoffc_kivela_004 = {
 	}
 }
 
-### c_rast_losnaeth_4 - ruler 3 (Kivela)
+# ============================================================
+# c_rast_losnaeth_4 - ruler 3 (Kivela)
+# ============================================================
 tfw_lineoffc_kivela_005 = {
 	name = tfw_lineoffc_kivela_005_name
 	female = yes
@@ -1231,7 +1281,9 @@ tfw_lineoffc_kivela_006 = {
 	}
 }
 
-### c_rast_losnaeth_4 - ruler 4 (Kivela)
+# ============================================================
+# c_rast_losnaeth_4 - ruler 4 (Kivela)
+# ============================================================
 tfw_lineoffc_kivela_007 = {
 	name = tfw_lineoffc_kivela_007_name
 	dynasty = dynasty_fc_kivela
@@ -1281,7 +1333,9 @@ tfw_lineoffc_kivela_008 = {
 	}
 }
 
-### c_rast_losnaeth_4 - ruler 5 (Tuiskula)
+# ============================================================
+# c_rast_losnaeth_4 - ruler 5 (Tuiskula)
+# ============================================================
 tfw_lineoffc_tuiskula_001 = {
 	name = tfw_lineoffc_tuiskula_001_name
 	dynasty = dynasty_fc_tuiskula
@@ -1327,7 +1381,9 @@ trait = education_intrigue_2
 	}
 }
 
-### c_rast_losnaeth_4 - ruler 6 (Tuiskula)
+# ============================================================
+# c_rast_losnaeth_4 - ruler 6 (Tuiskula)
+# ============================================================
 tfw_lineoffc_tuiskula_003 = {
 	name = tfw_lineoffc_tuiskula_003_name
 	dynasty = dynasty_fc_tuiskula
@@ -1377,7 +1433,9 @@ tfw_lineoffc_tuiskula_004 = {
 	}
 }
 
-### c_rast_losnaeth_4 - ruler 7 (Tuiskula)
+# ============================================================
+# c_rast_losnaeth_4 - ruler 7 (Tuiskula)
+# ============================================================
 tfw_lineoffc_tuiskula_005 = {
 	name = tfw_lineoffc_tuiskula_005_name
 	dynasty = dynasty_fc_tuiskula
@@ -1427,7 +1485,9 @@ tfw_lineoffc_tuiskula_006 = {
 	}
 }
 
-### c_rast_losnaeth_4 - ruler 8 (Tuiskula)
+# ============================================================
+# c_rast_losnaeth_4 - ruler 8 (Tuiskula)
+# ============================================================
 tfw_lineoffc_tuiskula_007 = {
 	name = tfw_lineoffc_tuiskula_007_name
 	dynasty = dynasty_fc_tuiskula
@@ -1476,7 +1536,9 @@ tfw_lineoffc_tuiskula_008 = {
 	}
 }
 
-### c_rast_losnaeth_5 - ruler 1 (Hallava)
+# ============================================================
+# c_rast_losnaeth_5 - ruler 1 (Hallava)
+# ============================================================
 tfw_lineoffc_hallava_001 = {
 	name = tfw_lineoffc_hallava_001_name
 	dynasty = dynasty_fc_hallava
@@ -1523,7 +1585,9 @@ tfw_lineoffc_hallava_002 = {
 	}
 }
 
-### c_rast_losnaeth_5 - ruler 2 (Hallava)
+# ============================================================
+# c_rast_losnaeth_5 - ruler 2 (Hallava)
+# ============================================================
 tfw_lineoffc_hallava_003 = {
 	name = tfw_lineoffc_hallava_003_name
 	female = yes
@@ -1573,7 +1637,9 @@ tfw_lineoffc_hallava_004 = {
 	}
 }
 
-### c_rast_losnaeth_5 - ruler 3 (Hallava)
+# ============================================================
+# c_rast_losnaeth_5 - ruler 3 (Hallava)
+# ============================================================
 tfw_lineoffc_hallava_005 = {
 	name = tfw_lineoffc_hallava_005_name
 	dynasty = dynasty_fc_hallava
@@ -1623,7 +1689,9 @@ tfw_lineoffc_hallava_006 = {
 	}
 }
 
-### c_rast_losnaeth_5 - ruler 4 (Merituuli)
+# ============================================================
+# c_rast_losnaeth_5 - ruler 4 (Merituuli)
+# ============================================================
 tfw_lineoffc_merituuli_001 = {
 	name = tfw_lineoffc_merituuli_001_name
 	dynasty = dynasty_fc_merituuli
@@ -1670,7 +1738,9 @@ tfw_lineoffc_merituuli_002 = {
 	}
 }
 
-### c_rast_losnaeth_5 - ruler 5 (Merituuli)
+# ============================================================
+# c_rast_losnaeth_5 - ruler 5 (Merituuli)
+# ============================================================
 tfw_lineoffc_merituuli_003 = {
 	name = tfw_lineoffc_merituuli_003_name
 	dynasty = dynasty_fc_merituuli
@@ -1720,7 +1790,9 @@ tfw_lineoffc_merituuli_004 = {
 	}
 }
 
-### c_rast_losnaeth_5 - ruler 6 (Merituuli)
+# ============================================================
+# c_rast_losnaeth_5 - ruler 6 (Merituuli)
+# ============================================================
 tfw_lineoffc_merituuli_005 = {
 	name = tfw_lineoffc_merituuli_005_name
 	female = yes
@@ -1770,7 +1842,9 @@ tfw_lineoffc_merituuli_006 = {
 	}
 }
 
-### c_rast_losnaeth_5 - ruler 7 (Merituuli)
+# ============================================================
+# c_rast_losnaeth_5 - ruler 7 (Merituuli)
+# ============================================================
 tfw_lineoffc_merituuli_007 = {
 	name = tfw_lineoffc_merituuli_007_name
 	dynasty = dynasty_fc_merituuli
@@ -1820,7 +1894,9 @@ tfw_lineoffc_merituuli_008 = {
 	}
 }
 
-### c_rast_losnaeth_6 - ruler 1 (Routala)
+# ============================================================
+# c_rast_losnaeth_6 - ruler 1 (Routala)
+# ============================================================
 tfw_lineoffc_routala_001 = {
 	name = tfw_lineoffc_routala_001_name
 	dynasty = dynasty_fc_routala
@@ -1867,7 +1943,9 @@ tfw_lineoffc_routala_002 = {
 	}
 }
 
-### c_rast_losnaeth_6 - ruler 2 (Routala)
+# ============================================================
+# c_rast_losnaeth_6 - ruler 2 (Routala)
+# ============================================================
 tfw_lineoffc_routala_003 = {
 	name = tfw_lineoffc_routala_003_name
 	dynasty = dynasty_fc_routala
@@ -1917,7 +1995,9 @@ tfw_lineoffc_routala_004 = {
 	}
 }
 
-### c_rast_losnaeth_6 - ruler 3 (Routala)
+# ============================================================
+# c_rast_losnaeth_6 - ruler 3 (Routala)
+# ============================================================
 tfw_lineoffc_routala_005 = {
 	name = tfw_lineoffc_routala_005_name
 	female = yes
@@ -1966,7 +2046,9 @@ tfw_lineoffc_routala_006 = {
 	}
 }
 
-### c_rast_losnaeth_6 - ruler 4 (Routala)
+# ============================================================
+# c_rast_losnaeth_6 - ruler 4 (Routala)
+# ============================================================
 tfw_lineoffc_routala_007 = {
 	name = tfw_lineoffc_routala_007_name
 	dynasty = dynasty_fc_routala
@@ -2016,7 +2098,9 @@ tfw_lineoffc_routala_008 = {
 	}
 }
 
-### c_rast_losnaeth_6 - ruler 5 (Saarikko)
+# ============================================================
+# c_rast_losnaeth_6 - ruler 5 (Saarikko)
+# ============================================================
 tfw_lineoffc_saarikko_001 = {
 	name = tfw_lineoffc_saarikko_001_name
 	female = yes
@@ -2063,7 +2147,9 @@ tfw_lineoffc_saarikko_002 = {
 	}
 }
 
-### c_rast_losnaeth_6 - ruler 6 (Saarikko)
+# ============================================================
+# c_rast_losnaeth_6 - ruler 6 (Saarikko)
+# ============================================================
 tfw_lineoffc_saarikko_003 = {
 	name = tfw_lineoffc_saarikko_003_name
 	dynasty = dynasty_fc_saarikko
@@ -2113,7 +2199,9 @@ tfw_lineoffc_saarikko_004 = {
 	}
 }
 
-### c_rast_losnaeth_6 - ruler 7 (Saarikko)
+# ============================================================
+# c_rast_losnaeth_6 - ruler 7 (Saarikko)
+# ============================================================
 tfw_lineoffc_saarikko_005 = {
 	name = tfw_lineoffc_saarikko_005_name
 	female = yes
@@ -2163,7 +2251,9 @@ tfw_lineoffc_saarikko_006 = {
 	}
 }
 
-### c_rast_losnaeth_6 - ruler 8 (Saarikko)
+# ============================================================
+# c_rast_losnaeth_6 - ruler 8 (Saarikko)
+# ============================================================
 tfw_lineoffc_saarikko_007 = {
 	name = tfw_lineoffc_saarikko_007_name
 	dynasty = dynasty_fc_saarikko
@@ -2213,7 +2303,9 @@ tfw_lineoffc_saarikko_008 = {
 	}
 }
 
-### c_ailindalf_12 - ruler 1 (Lumivaara)
+# ============================================================
+# c_ailindalf_12 - ruler 1 (Lumivaara)
+# ============================================================
 tfw_lineoffc_lumivaara_001 = {
 	name = tfw_lineoffc_lumivaara_001_name
 	dynasty = dynasty_fc_lumivaara
@@ -2260,7 +2352,9 @@ tfw_lineoffc_lumivaara_002 = {
 	}
 }
 
-### c_ailindalf_12 - ruler 2 (Lumivaara)
+# ============================================================
+# c_ailindalf_12 - ruler 2 (Lumivaara)
+# ============================================================
 tfw_lineoffc_lumivaara_003 = {
 	name = tfw_lineoffc_lumivaara_003_name
 	dynasty = dynasty_fc_lumivaara
@@ -2309,7 +2403,9 @@ tfw_lineoffc_lumivaara_004 = {
 	}
 }
 
-### c_ailindalf_12 - ruler 3 (Lumivaara)
+# ============================================================
+# c_ailindalf_12 - ruler 3 (Lumivaara)
+# ============================================================
 tfw_lineoffc_lumivaara_005 = {
 	name = tfw_lineoffc_lumivaara_005_name
 	dynasty = dynasty_fc_lumivaara
@@ -2358,7 +2454,9 @@ tfw_lineoffc_lumivaara_006 = {
 	}
 }
 
-### c_ailindalf_12 - ruler 4 (Pakkala)
+# ============================================================
+# c_ailindalf_12 - ruler 4 (Pakkala)
+# ============================================================
 tfw_lineoffc_pakkala_001 = {
 	name = tfw_lineoffc_pakkala_001_name
 	dynasty = dynasty_fc_pakkala
@@ -2405,7 +2503,9 @@ tfw_lineoffc_pakkala_002 = {
 	}
 }
 
-### c_ailindalf_12 - ruler 5 (Pakkala)
+# ============================================================
+# c_ailindalf_12 - ruler 5 (Pakkala)
+# ============================================================
 tfw_lineoffc_pakkala_003 = {
 	name = tfw_lineoffc_pakkala_003_name
 	dynasty = dynasty_fc_pakkala
@@ -2455,7 +2555,9 @@ tfw_lineoffc_pakkala_004 = {
 	}
 }
 
-### c_ailindalf_12 - ruler 6 (Pakkala)
+# ============================================================
+# c_ailindalf_12 - ruler 6 (Pakkala)
+# ============================================================
 tfw_lineoffc_pakkala_005 = {
 	name = tfw_lineoffc_pakkala_005_name
 	female = yes
@@ -2505,7 +2607,9 @@ tfw_lineoffc_pakkala_006 = {
 	}
 }
 
-### c_ailindalf_12 - ruler 7 (Pakkala)
+# ============================================================
+# c_ailindalf_12 - ruler 7 (Pakkala)
+# ============================================================
 tfw_lineoffc_pakkala_007 = {
 	name = tfw_lineoffc_pakkala_007_name
 	dynasty = dynasty_fc_pakkala
@@ -2555,7 +2659,9 @@ tfw_lineoffc_pakkala_008 = {
 	}
 }
 
-### c_ailindalf_13 - ruler 1 (Jokela)
+# ============================================================
+# c_ailindalf_13 - ruler 1 (Jokela)
+# ============================================================
 tfw_lineoffc_jokela_001 = {
 	name = tfw_lineoffc_jokela_001_name
 	dynasty = dynasty_fc_jokela
@@ -2602,7 +2708,9 @@ tfw_lineoffc_jokela_002 = {
 	}
 }
 
-### c_ailindalf_13 - ruler 2 (Jokela)
+# ============================================================
+# c_ailindalf_13 - ruler 2 (Jokela)
+# ============================================================
 tfw_lineoffc_jokela_003 = {
 	name = tfw_lineoffc_jokela_003_name
 	dynasty = dynasty_fc_jokela
@@ -2652,7 +2760,9 @@ tfw_lineoffc_jokela_004 = {
 	}
 }
 
-### c_ailindalf_13 - ruler 3 (Jokela)
+# ============================================================
+# c_ailindalf_13 - ruler 3 (Jokela)
+# ============================================================
 tfw_lineoffc_jokela_005 = {
 	name = tfw_lineoffc_jokela_005_name
 	dynasty = dynasty_fc_jokela
@@ -2702,7 +2812,9 @@ tfw_lineoffc_jokela_006 = {
 	}
 }
 
-### c_ailindalf_13 - ruler 4 (Jokela)
+# ============================================================
+# c_ailindalf_13 - ruler 4 (Jokela)
+# ============================================================
 tfw_lineoffc_jokela_007 = {
 	name = tfw_lineoffc_jokela_007_name
 	dynasty = dynasty_fc_jokela
@@ -2752,7 +2864,9 @@ tfw_lineoffc_jokela_008 = {
 	}
 }
 
-### c_ailindalf_13 - ruler 5 (Naskali)
+# ============================================================
+# c_ailindalf_13 - ruler 5 (Naskali)
+# ============================================================
 tfw_lineoffc_naskali_001 = {
 	name = tfw_lineoffc_naskali_001_name
 	female = yes
@@ -2798,7 +2912,9 @@ tfw_lineoffc_naskali_002 = {
 	}
 }
 
-### c_ailindalf_13 - ruler 6 (Naskali)
+# ============================================================
+# c_ailindalf_13 - ruler 6 (Naskali)
+# ============================================================
 tfw_lineoffc_naskali_003 = {
 	name = tfw_lineoffc_naskali_003_name
 	female = yes
@@ -2848,7 +2964,9 @@ tfw_lineoffc_naskali_004 = {
 	}
 }
 
-### c_ailindalf_13 - ruler 7 (Naskali)
+# ============================================================
+# c_ailindalf_13 - ruler 7 (Naskali)
+# ============================================================
 tfw_lineoffc_naskali_005 = {
 	name = tfw_lineoffc_naskali_005_name
 	female = yes
@@ -2898,7 +3016,9 @@ tfw_lineoffc_naskali_006 = {
 	}
 }
 
-### c_ailindalf_13 - ruler 8 (Naskali)
+# ============================================================
+# c_ailindalf_13 - ruler 8 (Naskali)
+# ============================================================
 tfw_lineoffc_naskali_007 = {
 	name = tfw_lineoffc_naskali_007_name
 	dynasty = dynasty_fc_naskali
@@ -2947,7 +3067,9 @@ tfw_lineoffc_naskali_008 = {
 	}
 }
 
-### c_ailindalf_14 - ruler 1 (Ketola)
+# ============================================================
+# c_ailindalf_14 - ruler 1 (Ketola)
+# ============================================================
 tfw_lineoffc_ketola_001 = {
 	name = tfw_lineoffc_ketola_001_name
 	dynasty = dynasty_fc_ketola
@@ -2994,7 +3116,9 @@ tfw_lineoffc_ketola_002 = {
 	}
 }
 
-### c_ailindalf_14 - ruler 2 (Ketola)
+# ============================================================
+# c_ailindalf_14 - ruler 2 (Ketola)
+# ============================================================
 tfw_lineoffc_ketola_003 = {
 	name = tfw_lineoffc_ketola_003_name
 	female = yes
@@ -3044,7 +3168,9 @@ tfw_lineoffc_ketola_004 = {
 	}
 }
 
-### c_ailindalf_14 - ruler 3 (Ketola)
+# ============================================================
+# c_ailindalf_14 - ruler 3 (Ketola)
+# ============================================================
 tfw_lineoffc_ketola_005 = {
 	name = tfw_lineoffc_ketola_005_name
 	female = yes
@@ -3094,7 +3220,9 @@ tfw_lineoffc_ketola_006 = {
 	}
 }
 
-### c_ailindalf_14 - ruler 4 (Talas)
+# ============================================================
+# c_ailindalf_14 - ruler 4 (Talas)
+# ============================================================
 tfw_lineoffc_talas_001 = {
 	name = tfw_lineoffc_talas_001_name
 	dynasty = dynasty_fc_talas
@@ -3141,7 +3269,9 @@ tfw_lineoffc_talas_002 = {
 	}
 }
 
-### c_ailindalf_14 - ruler 5 (Talas)
+# ============================================================
+# c_ailindalf_14 - ruler 5 (Talas)
+# ============================================================
 tfw_lineoffc_talas_003 = {
 	name = tfw_lineoffc_talas_003_name
 	dynasty = dynasty_fc_talas
@@ -3191,7 +3321,9 @@ tfw_lineoffc_talas_004 = {
 	}
 }
 
-### c_ailindalf_14 - ruler 6 (Talas)
+# ============================================================
+# c_ailindalf_14 - ruler 6 (Talas)
+# ============================================================
 tfw_lineoffc_talas_005 = {
 	name = tfw_lineoffc_talas_005_name
 	dynasty = dynasty_fc_talas
@@ -3241,7 +3373,9 @@ tfw_lineoffc_talas_006 = {
 	}
 }
 
-### c_ailindalf_14 - ruler 7 (Talas)
+# ============================================================
+# c_ailindalf_14 - ruler 7 (Talas)
+# ============================================================
 tfw_lineoffc_talas_007 = {
 	name = tfw_lineoffc_talas_007_name
 	dynasty = dynasty_fc_talas
@@ -3291,7 +3425,9 @@ tfw_lineoffc_talas_008 = {
 	}
 }
 
-### c_ailindalf_15 - ruler 1 (Aarnio)
+# ============================================================
+# c_ailindalf_15 - ruler 1 (Aarnio)
+# ============================================================
 tfw_lineoffc_aarnio_001 = {
 	name = tfw_lineoffc_aarnio_001_name
 	dynasty = dynasty_fc_aarnio
@@ -3338,7 +3474,9 @@ tfw_lineoffc_aarnio_002 = {
 	}
 }
 
-### c_ailindalf_15 - ruler 2 (Aarnio)
+# ============================================================
+# c_ailindalf_15 - ruler 2 (Aarnio)
+# ============================================================
 tfw_lineoffc_aarnio_003 = {
 	name = tfw_lineoffc_aarnio_003_name
 	dynasty = dynasty_fc_aarnio
@@ -3388,7 +3526,9 @@ tfw_lineoffc_aarnio_004 = {
 	}
 }
 
-### c_ailindalf_15 - ruler 3 (Aarnio)
+# ============================================================
+# c_ailindalf_15 - ruler 3 (Aarnio)
+# ============================================================
 tfw_lineoffc_aarnio_005 = {
 	name = tfw_lineoffc_aarnio_005_name
 	dynasty = dynasty_fc_aarnio
@@ -3437,7 +3577,9 @@ tfw_lineoffc_aarnio_006 = {
 	}
 }
 
-### c_ailindalf_15 - ruler 4 (Aarnio)
+# ============================================================
+# c_ailindalf_15 - ruler 4 (Aarnio)
+# ============================================================
 tfw_lineoffc_aarnio_007 = {
 	name = tfw_lineoffc_aarnio_007_name
 	dynasty = dynasty_fc_aarnio
@@ -3487,7 +3629,9 @@ tfw_lineoffc_aarnio_008 = {
 	}
 }
 
-### c_ailindalf_15 - ruler 5 (Kuurala)
+# ============================================================
+# c_ailindalf_15 - ruler 5 (Kuurala)
+# ============================================================
 tfw_lineoffc_kuurala_001 = {
 	name = tfw_lineoffc_kuurala_001_name
 	dynasty = dynasty_fc_kuurala
@@ -3533,7 +3677,9 @@ tfw_lineoffc_kuurala_002 = {
 	}
 }
 
-### c_ailindalf_15 - ruler 6 (Kuurala)
+# ============================================================
+# c_ailindalf_15 - ruler 6 (Kuurala)
+# ============================================================
 tfw_lineoffc_kuurala_003 = {
 	name = tfw_lineoffc_kuurala_003_name
 	dynasty = dynasty_fc_kuurala
@@ -3583,7 +3729,9 @@ tfw_lineoffc_kuurala_004 = {
 	}
 }
 
-### c_ailindalf_15 - ruler 7 (Kuurala)
+# ============================================================
+# c_ailindalf_15 - ruler 7 (Kuurala)
+# ============================================================
 tfw_lineoffc_kuurala_005 = {
 	name = tfw_lineoffc_kuurala_005_name
 	dynasty = dynasty_fc_kuurala
@@ -3633,7 +3781,9 @@ tfw_lineoffc_kuurala_006 = {
 	}
 }
 
-### c_ailindalf_15 - ruler 8 (Kuurala)
+# ============================================================
+# c_ailindalf_15 - ruler 8 (Kuurala)
+# ============================================================
 tfw_lineoffc_kuurala_007 = {
 	name = tfw_lineoffc_kuurala_007_name
 	dynasty = dynasty_fc_kuurala
@@ -3683,7 +3833,9 @@ tfw_lineoffc_kuurala_008 = {
 	}
 }
 
-### c_everdalf_4 - ruler 1 (Kaarnio)
+# ============================================================
+# c_everdalf_4 - ruler 1 (Kaarnio)
+# ============================================================
 tfw_lineoffc_kaarnio_001 = {
 	name = tfw_lineoffc_kaarnio_001_name
 	female = yes
@@ -3729,7 +3881,9 @@ tfw_lineoffc_kaarnio_002 = {
 	}
 }
 
-### c_everdalf_4 - ruler 2 (Kaarnio)
+# ============================================================
+# c_everdalf_4 - ruler 2 (Kaarnio)
+# ============================================================
 tfw_lineoffc_kaarnio_003 = {
 	name = tfw_lineoffc_kaarnio_003_name
 	dynasty = dynasty_fc_kaarnio
@@ -3779,7 +3933,9 @@ tfw_lineoffc_kaarnio_004 = {
 	}
 }
 
-### c_everdalf_4 - ruler 3 (Kaarnio)
+# ============================================================
+# c_everdalf_4 - ruler 3 (Kaarnio)
+# ============================================================
 tfw_lineoffc_kaarnio_005 = {
 	name = tfw_lineoffc_kaarnio_005_name
 	dynasty = dynasty_fc_kaarnio
@@ -3829,7 +3985,9 @@ tfw_lineoffc_kaarnio_006 = {
 	}
 }
 
-### c_everdalf_4 - ruler 4 (Siniharju)
+# ============================================================
+# c_everdalf_4 - ruler 4 (Siniharju)
+# ============================================================
 tfw_lineoffc_siniharju_001 = {
 	name = tfw_lineoffc_siniharju_001_name
 	dynasty = dynasty_fc_siniharju
@@ -3876,7 +4034,9 @@ tfw_lineoffc_siniharju_002 = {
 	}
 }
 
-### c_everdalf_4 - ruler 5 (Siniharju)
+# ============================================================
+# c_everdalf_4 - ruler 5 (Siniharju)
+# ============================================================
 tfw_lineoffc_siniharju_003 = {
 	name = tfw_lineoffc_siniharju_003_name
 	dynasty = dynasty_fc_siniharju
@@ -3926,7 +4086,9 @@ tfw_lineoffc_siniharju_004 = {
 	}
 }
 
-### c_everdalf_4 - ruler 6 (Siniharju)
+# ============================================================
+# c_everdalf_4 - ruler 6 (Siniharju)
+# ============================================================
 tfw_lineoffc_siniharju_005 = {
 	name = tfw_lineoffc_siniharju_005_name
 	dynasty = dynasty_fc_siniharju
@@ -3975,7 +4137,9 @@ tfw_lineoffc_siniharju_006 = {
 	}
 }
 
-### c_everdalf_4 - ruler 7 (Siniharju)
+# ============================================================
+# c_everdalf_4 - ruler 7 (Siniharju)
+# ============================================================
 tfw_lineoffc_siniharju_007 = {
 	name = tfw_lineoffc_siniharju_007_name
 	dynasty = dynasty_fc_siniharju
@@ -4024,7 +4188,9 @@ tfw_lineoffc_siniharju_008 = {
 	}
 }
 
-### c_everdalf_5 - ruler 1 (Otava)
+# ============================================================
+# c_everdalf_5 - ruler 1 (Otava)
+# ============================================================
 tfw_lineoffc_otava_001 = {
 	name = tfw_lineoffc_otava_001_name
 	dynasty = dynasty_fc_otava
@@ -4071,7 +4237,9 @@ tfw_lineoffc_otava_002 = {
 	}
 }
 
-### c_everdalf_5 - ruler 2 (Otava)
+# ============================================================
+# c_everdalf_5 - ruler 2 (Otava)
+# ============================================================
 tfw_lineoffc_otava_003 = {
 	name = tfw_lineoffc_otava_003_name
 	dynasty = dynasty_fc_otava
@@ -4121,7 +4289,9 @@ tfw_lineoffc_otava_004 = {
 	}
 }
 
-### c_everdalf_5 - ruler 3 (Otava)
+# ============================================================
+# c_everdalf_5 - ruler 3 (Otava)
+# ============================================================
 tfw_lineoffc_otava_005 = {
 	name = tfw_lineoffc_otava_005_name
 	dynasty = dynasty_fc_otava
@@ -4171,7 +4341,9 @@ tfw_lineoffc_otava_006 = {
 	}
 }
 
-### c_everdalf_5 - ruler 4 (Otava)
+# ============================================================
+# c_everdalf_5 - ruler 4 (Otava)
+# ============================================================
 tfw_lineoffc_otava_007 = {
 	name = tfw_lineoffc_otava_007_name
 	dynasty = dynasty_fc_otava
@@ -4221,7 +4393,9 @@ tfw_lineoffc_otava_008 = {
 	}
 }
 
-### c_everdalf_5 - ruler 5 (Vainio)
+# ============================================================
+# c_everdalf_5 - ruler 5 (Vainio)
+# ============================================================
 tfw_lineoffc_vainio_001 = {
 	name = tfw_lineoffc_vainio_001_name
 	female = yes
@@ -4268,7 +4442,9 @@ tfw_lineoffc_vainio_002 = {
 	}
 }
 
-### c_everdalf_5 - ruler 6 (Vainio)
+# ============================================================
+# c_everdalf_5 - ruler 6 (Vainio)
+# ============================================================
 tfw_lineoffc_vainio_003 = {
 	name = tfw_lineoffc_vainio_003_name
 	dynasty = dynasty_fc_vainio
@@ -4318,7 +4494,9 @@ tfw_lineoffc_vainio_004 = {
 	}
 }
 
-### c_everdalf_5 - ruler 7 (Vainio)
+# ============================================================
+# c_everdalf_5 - ruler 7 (Vainio)
+# ============================================================
 tfw_lineoffc_vainio_005 = {
 	name = tfw_lineoffc_vainio_005_name
 	dynasty = dynasty_fc_vainio
@@ -4368,7 +4546,9 @@ tfw_lineoffc_vainio_006 = {
 	}
 }
 
-### c_everdalf_5 - ruler 8 (Vainio)
+# ============================================================
+# c_everdalf_5 - ruler 8 (Vainio)
+# ============================================================
 tfw_lineoffc_vainio_007 = {
 	name = tfw_lineoffc_vainio_007_name
 	dynasty = dynasty_fc_vainio
@@ -4418,7 +4598,9 @@ tfw_lineoffc_vainio_008 = {
 	}
 }
 
-### c_everdalf_6 - ruler 1 (Nivala)
+# ============================================================
+# c_everdalf_6 - ruler 1 (Nivala)
+# ============================================================
 tfw_lineoffc_nivala_001 = {
 	name = tfw_lineoffc_nivala_001_name
 	female = yes
@@ -4463,7 +4645,9 @@ trait = education_martial_2
 	}
 }
 
-### c_everdalf_6 - ruler 2 (Nivala)
+# ============================================================
+# c_everdalf_6 - ruler 2 (Nivala)
+# ============================================================
 tfw_lineoffc_nivala_003 = {
 	name = tfw_lineoffc_nivala_003_name
 	female = yes
@@ -4513,7 +4697,9 @@ tfw_lineoffc_nivala_004 = {
 	}
 }
 
-### c_everdalf_6 - ruler 3 (Nivala)
+# ============================================================
+# c_everdalf_6 - ruler 3 (Nivala)
+# ============================================================
 tfw_lineoffc_nivala_005 = {
 	name = tfw_lineoffc_nivala_005_name
 	dynasty = dynasty_fc_nivala
@@ -4563,7 +4749,9 @@ tfw_lineoffc_nivala_006 = {
 	}
 }
 
-### c_everdalf_6 - ruler 4 (Sampola)
+# ============================================================
+# c_everdalf_6 - ruler 4 (Sampola)
+# ============================================================
 tfw_lineoffc_sampola_001 = {
 	name = tfw_lineoffc_sampola_001_name
 	female = yes
@@ -4610,7 +4798,9 @@ tfw_lineoffc_sampola_002 = {
 	}
 }
 
-### c_everdalf_6 - ruler 5 (Sampola)
+# ============================================================
+# c_everdalf_6 - ruler 5 (Sampola)
+# ============================================================
 tfw_lineoffc_sampola_003 = {
 	name = tfw_lineoffc_sampola_003_name
 	dynasty = dynasty_fc_sampola
@@ -4660,7 +4850,9 @@ tfw_lineoffc_sampola_004 = {
 	}
 }
 
-### c_everdalf_6 - ruler 6 (Sampola)
+# ============================================================
+# c_everdalf_6 - ruler 6 (Sampola)
+# ============================================================
 tfw_lineoffc_sampola_005 = {
 	name = tfw_lineoffc_sampola_005_name
 	dynasty = dynasty_fc_sampola
@@ -4710,7 +4902,9 @@ tfw_lineoffc_sampola_006 = {
 	}
 }
 
-### c_everdalf_6 - ruler 7 (Sampola)
+# ============================================================
+# c_everdalf_6 - ruler 7 (Sampola)
+# ============================================================
 tfw_lineoffc_sampola_007 = {
 	name = tfw_lineoffc_sampola_007_name
 	dynasty = dynasty_fc_sampola
@@ -4759,7 +4953,9 @@ tfw_lineoffc_sampola_008 = {
 	}
 }
 
-### c_everdalf_7 - ruler 1 (Kairala)
+# ============================================================
+# c_everdalf_7 - ruler 1 (Kairala)
+# ============================================================
 tfw_lineoffc_kairala_001 = {
 	name = tfw_lineoffc_kairala_001_name
 	dynasty = dynasty_fc_kairala
@@ -4806,7 +5002,9 @@ tfw_lineoffc_kairala_002 = {
 	}
 }
 
-### c_everdalf_7 - ruler 2 (Kairala)
+# ============================================================
+# c_everdalf_7 - ruler 2 (Kairala)
+# ============================================================
 tfw_lineoffc_kairala_003 = {
 	name = tfw_lineoffc_kairala_003_name
 	dynasty = dynasty_fc_kairala
@@ -4856,7 +5054,9 @@ tfw_lineoffc_kairala_004 = {
 	}
 }
 
-### c_everdalf_7 - ruler 3 (Kairala)
+# ============================================================
+# c_everdalf_7 - ruler 3 (Kairala)
+# ============================================================
 tfw_lineoffc_kairala_005 = {
 	name = tfw_lineoffc_kairala_005_name
 	dynasty = dynasty_fc_kairala
@@ -4906,7 +5106,9 @@ tfw_lineoffc_kairala_006 = {
 	}
 }
 
-### c_everdalf_7 - ruler 4 (Kairala)
+# ============================================================
+# c_everdalf_7 - ruler 4 (Kairala)
+# ============================================================
 tfw_lineoffc_kairala_007 = {
 	name = tfw_lineoffc_kairala_007_name
 	female = yes
@@ -4956,7 +5158,9 @@ tfw_lineoffc_kairala_008 = {
 	}
 }
 
-### c_everdalf_7 - ruler 5 (Niemela)
+# ============================================================
+# c_everdalf_7 - ruler 5 (Niemela)
+# ============================================================
 tfw_lineoffc_niemela_001 = {
 	name = tfw_lineoffc_niemela_001_name
 	female = yes
@@ -5003,7 +5207,9 @@ tfw_lineoffc_niemela_002 = {
 	}
 }
 
-### c_everdalf_7 - ruler 6 (Niemela)
+# ============================================================
+# c_everdalf_7 - ruler 6 (Niemela)
+# ============================================================
 tfw_lineoffc_niemela_003 = {
 	name = tfw_lineoffc_niemela_003_name
 	dynasty = dynasty_fc_niemela
@@ -5052,7 +5258,9 @@ tfw_lineoffc_niemela_004 = {
 	}
 }
 
-### c_everdalf_7 - ruler 7 (Niemela)
+# ============================================================
+# c_everdalf_7 - ruler 7 (Niemela)
+# ============================================================
 tfw_lineoffc_niemela_005 = {
 	name = tfw_lineoffc_niemela_005_name
 	female = yes
@@ -5101,7 +5309,9 @@ tfw_lineoffc_niemela_006 = {
 	}
 }
 
-### c_everdalf_7 - ruler 8 (Niemela)
+# ============================================================
+# c_everdalf_7 - ruler 8 (Niemela)
+# ============================================================
 tfw_lineoffc_niemela_007 = {
 	name = tfw_lineoffc_niemela_007_name
 	dynasty = dynasty_fc_niemela
@@ -5151,7 +5361,9 @@ tfw_lineoffc_niemela_008 = {
 	}
 }
 
-### c_ailindalf_1 - ruler 1 (Pohjola)
+# ============================================================
+# c_ailindalf_1 - ruler 1 (Pohjola)
+# ============================================================
 tfw_lineoffc_pohjola_001 = {
 	name = tfw_lineoffc_pohjola_001_name
 	dynasty = dynasty_fc_pohjola
@@ -5198,7 +5410,9 @@ tfw_lineoffc_pohjola_002 = {
 	}
 }
 
-### c_ailindalf_1 - ruler 2 (Pohjola)
+# ============================================================
+# c_ailindalf_1 - ruler 2 (Pohjola)
+# ============================================================
 tfw_lineoffc_pohjola_003 = {
 	name = tfw_lineoffc_pohjola_003_name
 	female = yes
@@ -5248,7 +5462,9 @@ tfw_lineoffc_pohjola_004 = {
 	}
 }
 
-### c_ailindalf_1 - ruler 3 (Pohjola)
+# ============================================================
+# c_ailindalf_1 - ruler 3 (Pohjola)
+# ============================================================
 tfw_lineoffc_pohjola_005 = {
 	name = tfw_lineoffc_pohjola_005_name
 	dynasty = dynasty_fc_pohjola
@@ -5298,7 +5514,9 @@ tfw_lineoffc_pohjola_006 = {
 	}
 }
 
-### c_ailindalf_1 - ruler 4 (Honkala)
+# ============================================================
+# c_ailindalf_1 - ruler 4 (Honkala)
+# ============================================================
 tfw_lineoffc_honkala_001 = {
 	name = tfw_lineoffc_honkala_001_name
 	dynasty = dynasty_fc_honkala
@@ -5345,7 +5563,9 @@ tfw_lineoffc_honkala_002 = {
 	}
 }
 
-### c_ailindalf_1 - ruler 5 (Honkala)
+# ============================================================
+# c_ailindalf_1 - ruler 5 (Honkala)
+# ============================================================
 tfw_lineoffc_honkala_003 = {
 	name = tfw_lineoffc_honkala_003_name
 	dynasty = dynasty_fc_honkala
@@ -5395,7 +5615,9 @@ tfw_lineoffc_honkala_004 = {
 	}
 }
 
-### c_ailindalf_1 - ruler 6 (Honkala)
+# ============================================================
+# c_ailindalf_1 - ruler 6 (Honkala)
+# ============================================================
 tfw_lineoffc_honkala_005 = {
 	name = tfw_lineoffc_honkala_005_name
 	dynasty = dynasty_fc_honkala
@@ -5445,7 +5667,9 @@ tfw_lineoffc_honkala_006 = {
 	}
 }
 
-### c_ailindalf_1 - ruler 7 (Honkala)
+# ============================================================
+# c_ailindalf_1 - ruler 7 (Honkala)
+# ============================================================
 tfw_lineoffc_honkala_007 = {
 	name = tfw_lineoffc_honkala_007_name
 	dynasty = dynasty_fc_honkala
@@ -5495,7 +5719,9 @@ tfw_lineoffc_honkala_008 = {
 	}
 }
 
-### c_ailindalf_2 - ruler 1 (Korvela)
+# ============================================================
+# c_ailindalf_2 - ruler 1 (Korvela)
+# ============================================================
 tfw_lineoffc_korvela_001 = {
 	name = tfw_lineoffc_korvela_001_name
 	dynasty = dynasty_fc_korvela
@@ -5542,7 +5768,9 @@ tfw_lineoffc_korvela_002 = {
 	}
 }
 
-### c_ailindalf_2 - ruler 2 (Korvela)
+# ============================================================
+# c_ailindalf_2 - ruler 2 (Korvela)
+# ============================================================
 tfw_lineoffc_korvela_003 = {
 	name = tfw_lineoffc_korvela_003_name
 	female = yes
@@ -5592,7 +5820,9 @@ tfw_lineoffc_korvela_004 = {
 	}
 }
 
-### c_ailindalf_2 - ruler 3 (Korvela)
+# ============================================================
+# c_ailindalf_2 - ruler 3 (Korvela)
+# ============================================================
 tfw_lineoffc_korvela_005 = {
 	name = tfw_lineoffc_korvela_005_name
 	dynasty = dynasty_fc_korvela
@@ -5642,7 +5872,9 @@ tfw_lineoffc_korvela_006 = {
 	}
 }
 
-### c_ailindalf_2 - ruler 4 (Korvela)
+# ============================================================
+# c_ailindalf_2 - ruler 4 (Korvela)
+# ============================================================
 tfw_lineoffc_korvela_007 = {
 	name = tfw_lineoffc_korvela_007_name
 	female = yes
@@ -5692,7 +5924,9 @@ tfw_lineoffc_korvela_008 = {
 	}
 }
 
-### c_ailindalf_2 - ruler 5 (Joutsi)
+# ============================================================
+# c_ailindalf_2 - ruler 5 (Joutsi)
+# ============================================================
 tfw_lineoffc_joutsi_001 = {
 	name = tfw_lineoffc_joutsi_001_name
 	dynasty = dynasty_fc_joutsi
@@ -5739,7 +5973,9 @@ tfw_lineoffc_joutsi_002 = {
 	}
 }
 
-### c_ailindalf_2 - ruler 6 (Joutsi)
+# ============================================================
+# c_ailindalf_2 - ruler 6 (Joutsi)
+# ============================================================
 tfw_lineoffc_joutsi_003 = {
 	name = tfw_lineoffc_joutsi_003_name
 	female = yes
@@ -5789,7 +6025,9 @@ tfw_lineoffc_joutsi_004 = {
 	}
 }
 
-### c_ailindalf_2 - ruler 7 (Joutsi)
+# ============================================================
+# c_ailindalf_2 - ruler 7 (Joutsi)
+# ============================================================
 tfw_lineoffc_joutsi_005 = {
 	name = tfw_lineoffc_joutsi_005_name
 	dynasty = dynasty_fc_joutsi
@@ -5839,7 +6077,9 @@ tfw_lineoffc_joutsi_006 = {
 	}
 }
 
-### c_ailindalf_2 - ruler 8 (Joutsi)
+# ============================================================
+# c_ailindalf_2 - ruler 8 (Joutsi)
+# ============================================================
 tfw_lineoffc_joutsi_007 = {
 	name = tfw_lineoffc_joutsi_007_name
 	dynasty = dynasty_fc_joutsi
@@ -5888,7 +6128,9 @@ trait = education_intrigue_2
 	}
 }
 
-### c_ailindalf_3 - ruler 1 (Varpula)
+# ============================================================
+# c_ailindalf_3 - ruler 1 (Varpula)
+# ============================================================
 tfw_lineoffc_varpula_001 = {
 	name = tfw_lineoffc_varpula_001_name
 	dynasty = dynasty_fc_varpula
@@ -5935,7 +6177,9 @@ tfw_lineoffc_varpula_002 = {
 	}
 }
 
-### c_ailindalf_3 - ruler 2 (Varpula)
+# ============================================================
+# c_ailindalf_3 - ruler 2 (Varpula)
+# ============================================================
 tfw_lineoffc_varpula_003 = {
 	name = tfw_lineoffc_varpula_003_name
 	dynasty = dynasty_fc_varpula
@@ -5985,7 +6229,9 @@ tfw_lineoffc_varpula_004 = {
 	}
 }
 
-### c_ailindalf_3 - ruler 3 (Varpula)
+# ============================================================
+# c_ailindalf_3 - ruler 3 (Varpula)
+# ============================================================
 tfw_lineoffc_varpula_005 = {
 	name = tfw_lineoffc_varpula_005_name
 	dynasty = dynasty_fc_varpula
@@ -6035,7 +6281,9 @@ tfw_lineoffc_varpula_006 = {
 	}
 }
 
-### c_ailindalf_3 - ruler 4 (Suvanto)
+# ============================================================
+# c_ailindalf_3 - ruler 4 (Suvanto)
+# ============================================================
 tfw_lineoffc_suvanto_001 = {
 	name = tfw_lineoffc_suvanto_001_name
 	dynasty = dynasty_fc_suvanto
@@ -6081,7 +6329,9 @@ tfw_lineoffc_suvanto_002 = {
 	}
 }
 
-### c_ailindalf_3 - ruler 5 (Suvanto)
+# ============================================================
+# c_ailindalf_3 - ruler 5 (Suvanto)
+# ============================================================
 tfw_lineoffc_suvanto_003 = {
 	name = tfw_lineoffc_suvanto_003_name
 	dynasty = dynasty_fc_suvanto
@@ -6131,7 +6381,9 @@ tfw_lineoffc_suvanto_004 = {
 	}
 }
 
-### c_ailindalf_3 - ruler 6 (Suvanto)
+# ============================================================
+# c_ailindalf_3 - ruler 6 (Suvanto)
+# ============================================================
 tfw_lineoffc_suvanto_005 = {
 	name = tfw_lineoffc_suvanto_005_name
 	dynasty = dynasty_fc_suvanto
@@ -6180,7 +6432,9 @@ tfw_lineoffc_suvanto_006 = {
 	}
 }
 
-### c_ailindalf_3 - ruler 7 (Suvanto)
+# ============================================================
+# c_ailindalf_3 - ruler 7 (Suvanto)
+# ============================================================
 tfw_lineoffc_suvanto_007 = {
 	name = tfw_lineoffc_suvanto_007_name
 	dynasty = dynasty_fc_suvanto
@@ -6230,7 +6484,9 @@ tfw_lineoffc_suvanto_008 = {
 	}
 }
 
-### c_ailindalf_5 - ruler 1 (Hankala)
+# ============================================================
+# c_ailindalf_5 - ruler 1 (Hankala)
+# ============================================================
 tfw_lineoffc_hankala_001 = {
 	name = tfw_lineoffc_hankala_001_name
 	female = yes
@@ -6277,7 +6533,9 @@ tfw_lineoffc_hankala_002 = {
 	}
 }
 
-### c_ailindalf_5 - ruler 2 (Hankala)
+# ============================================================
+# c_ailindalf_5 - ruler 2 (Hankala)
+# ============================================================
 tfw_lineoffc_hankala_003 = {
 	name = tfw_lineoffc_hankala_003_name
 	dynasty = dynasty_fc_hankala
@@ -6327,7 +6585,9 @@ tfw_lineoffc_hankala_004 = {
 	}
 }
 
-### c_ailindalf_5 - ruler 3 (Hankala)
+# ============================================================
+# c_ailindalf_5 - ruler 3 (Hankala)
+# ============================================================
 tfw_lineoffc_hankala_005 = {
 	name = tfw_lineoffc_hankala_005_name
 	dynasty = dynasty_fc_hankala
@@ -6377,7 +6637,9 @@ tfw_lineoffc_hankala_006 = {
 	}
 }
 
-### c_ailindalf_5 - ruler 4 (Hankala)
+# ============================================================
+# c_ailindalf_5 - ruler 4 (Hankala)
+# ============================================================
 tfw_lineoffc_hankala_007 = {
 	name = tfw_lineoffc_hankala_007_name
 	dynasty = dynasty_fc_hankala
@@ -6427,7 +6689,9 @@ tfw_lineoffc_hankala_008 = {
 	}
 }
 
-### c_ailindalf_5 - ruler 5 (Jarvi)
+# ============================================================
+# c_ailindalf_5 - ruler 5 (Jarvi)
+# ============================================================
 tfw_lineoffc_jarvi_001 = {
 	name = tfw_lineoffc_jarvi_001_name
 	dynasty = dynasty_fc_jarvi
@@ -6474,7 +6738,9 @@ tfw_lineoffc_jarvi_002 = {
 	}
 }
 
-### c_ailindalf_5 - ruler 6 (Jarvi)
+# ============================================================
+# c_ailindalf_5 - ruler 6 (Jarvi)
+# ============================================================
 tfw_lineoffc_jarvi_003 = {
 	name = tfw_lineoffc_jarvi_003_name
 	female = yes
@@ -6524,7 +6790,9 @@ tfw_lineoffc_jarvi_004 = {
 	}
 }
 
-### c_ailindalf_5 - ruler 7 (Jarvi)
+# ============================================================
+# c_ailindalf_5 - ruler 7 (Jarvi)
+# ============================================================
 tfw_lineoffc_jarvi_005 = {
 	name = tfw_lineoffc_jarvi_005_name
 	dynasty = dynasty_fc_jarvi
@@ -6574,7 +6842,9 @@ tfw_lineoffc_jarvi_006 = {
 	}
 }
 
-### c_ailindalf_5 - ruler 8 (Jarvi)
+# ============================================================
+# c_ailindalf_5 - ruler 8 (Jarvi)
+# ============================================================
 tfw_lineoffc_jarvi_007 = {
 	name = tfw_lineoffc_jarvi_007_name
 	dynasty = dynasty_fc_jarvi
@@ -6624,7 +6894,9 @@ tfw_lineoffc_jarvi_008 = {
 	}
 }
 
-### c_ailindalf_8 - ruler 1 (Laakso)
+# ============================================================
+# c_ailindalf_8 - ruler 1 (Laakso)
+# ============================================================
 tfw_lineoffc_laakso_001 = {
 	name = tfw_lineoffc_laakso_001_name
 	dynasty = dynasty_fc_laakso
@@ -6671,7 +6943,9 @@ tfw_lineoffc_laakso_002 = {
 	}
 }
 
-### c_ailindalf_8 - ruler 2 (Laakso)
+# ============================================================
+# c_ailindalf_8 - ruler 2 (Laakso)
+# ============================================================
 tfw_lineoffc_laakso_003 = {
 	name = tfw_lineoffc_laakso_003_name
 	dynasty = dynasty_fc_laakso
@@ -6721,7 +6995,9 @@ tfw_lineoffc_laakso_004 = {
 	}
 }
 
-### c_ailindalf_8 - ruler 3 (Laakso)
+# ============================================================
+# c_ailindalf_8 - ruler 3 (Laakso)
+# ============================================================
 tfw_lineoffc_laakso_005 = {
 	name = tfw_lineoffc_laakso_005_name
 	dynasty = dynasty_fc_laakso
@@ -6771,7 +7047,9 @@ tfw_lineoffc_laakso_006 = {
 	}
 }
 
-### c_ailindalf_8 - ruler 4 (Korpela)
+# ============================================================
+# c_ailindalf_8 - ruler 4 (Korpela)
+# ============================================================
 tfw_lineoffc_korpela_001 = {
 	name = tfw_lineoffc_korpela_001_name
 	dynasty = dynasty_fc_korpela
@@ -6818,7 +7096,9 @@ tfw_lineoffc_korpela_002 = {
 	}
 }
 
-### c_ailindalf_8 - ruler 5 (Korpela)
+# ============================================================
+# c_ailindalf_8 - ruler 5 (Korpela)
+# ============================================================
 tfw_lineoffc_korpela_003 = {
 	name = tfw_lineoffc_korpela_003_name
 	dynasty = dynasty_fc_korpela
@@ -6868,7 +7148,9 @@ tfw_lineoffc_korpela_004 = {
 	}
 }
 
-### c_ailindalf_8 - ruler 6 (Korpela)
+# ============================================================
+# c_ailindalf_8 - ruler 6 (Korpela)
+# ============================================================
 tfw_lineoffc_korpela_005 = {
 	name = tfw_lineoffc_korpela_005_name
 	dynasty = dynasty_fc_korpela
@@ -6918,7 +7200,9 @@ tfw_lineoffc_korpela_006 = {
 	}
 }
 
-### c_ailindalf_8 - ruler 7 (Korpela)
+# ============================================================
+# c_ailindalf_8 - ruler 7 (Korpela)
+# ============================================================
 tfw_lineoffc_korpela_007 = {
 	name = tfw_lineoffc_korpela_007_name
 	dynasty = dynasty_fc_korpela
@@ -6968,7 +7252,9 @@ tfw_lineoffc_korpela_008 = {
 	}
 }
 
-### c_ailindalf_9 - ruler 1 (Revontuli)
+# ============================================================
+# c_ailindalf_9 - ruler 1 (Revontuli)
+# ============================================================
 tfw_lineoffc_revontuli_001 = {
 	name = tfw_lineoffc_revontuli_001_name
 	dynasty = dynasty_fc_revontuli
@@ -7015,7 +7301,9 @@ tfw_lineoffc_revontuli_002 = {
 	}
 }
 
-### c_ailindalf_9 - ruler 2 (Revontuli)
+# ============================================================
+# c_ailindalf_9 - ruler 2 (Revontuli)
+# ============================================================
 tfw_lineoffc_revontuli_003 = {
 	name = tfw_lineoffc_revontuli_003_name
 	dynasty = dynasty_fc_revontuli
@@ -7065,7 +7353,9 @@ tfw_lineoffc_revontuli_004 = {
 	}
 }
 
-### c_ailindalf_9 - ruler 3 (Revontuli)
+# ============================================================
+# c_ailindalf_9 - ruler 3 (Revontuli)
+# ============================================================
 tfw_lineoffc_revontuli_005 = {
 	name = tfw_lineoffc_revontuli_005_name
 	dynasty = dynasty_fc_revontuli
@@ -7115,7 +7405,9 @@ tfw_lineoffc_revontuli_006 = {
 	}
 }
 
-### c_ailindalf_9 - ruler 4 (Revontuli)
+# ============================================================
+# c_ailindalf_9 - ruler 4 (Revontuli)
+# ============================================================
 tfw_lineoffc_revontuli_007 = {
 	name = tfw_lineoffc_revontuli_007_name
 	dynasty = dynasty_fc_revontuli
@@ -7165,7 +7457,9 @@ tfw_lineoffc_revontuli_008 = {
 	}
 }
 
-### c_ailindalf_9 - ruler 5 (Sarkela)
+# ============================================================
+# c_ailindalf_9 - ruler 5 (Sarkela)
+# ============================================================
 tfw_lineoffc_sarkela_001 = {
 	name = tfw_lineoffc_sarkela_001_name
 	dynasty = dynasty_fc_sarkela
@@ -7212,7 +7506,9 @@ tfw_lineoffc_sarkela_002 = {
 	}
 }
 
-### c_ailindalf_9 - ruler 6 (Sarkela)
+# ============================================================
+# c_ailindalf_9 - ruler 6 (Sarkela)
+# ============================================================
 tfw_lineoffc_sarkela_003 = {
 	name = tfw_lineoffc_sarkela_003_name
 	female = yes
@@ -7261,7 +7557,9 @@ trait = education_martial_2
 	}
 }
 
-### c_ailindalf_9 - ruler 7 (Sarkela)
+# ============================================================
+# c_ailindalf_9 - ruler 7 (Sarkela)
+# ============================================================
 tfw_lineoffc_sarkela_005 = {
 	name = tfw_lineoffc_sarkela_005_name
 	dynasty = dynasty_fc_sarkela
@@ -7311,7 +7609,9 @@ tfw_lineoffc_sarkela_006 = {
 	}
 }
 
-### c_ailindalf_9 - ruler 8 (Sarkela)
+# ============================================================
+# c_ailindalf_9 - ruler 8 (Sarkela)
+# ============================================================
 tfw_lineoffc_sarkela_007 = {
 	name = tfw_lineoffc_sarkela_007_name
 	dynasty = dynasty_fc_sarkela
@@ -7361,7 +7661,9 @@ tfw_lineoffc_sarkela_008 = {
 	}
 }
 
-### c_ailindalf_10 - ruler 1 (Tunturila)
+# ============================================================
+# c_ailindalf_10 - ruler 1 (Tunturila)
+# ============================================================
 tfw_lineoffc_tunturila_001 = {
 	name = tfw_lineoffc_tunturila_001_name
 	dynasty = dynasty_fc_tunturila
@@ -7408,7 +7710,9 @@ tfw_lineoffc_tunturila_002 = {
 	}
 }
 
-### c_ailindalf_10 - ruler 2 (Tunturila)
+# ============================================================
+# c_ailindalf_10 - ruler 2 (Tunturila)
+# ============================================================
 tfw_lineoffc_tunturila_003 = {
 	name = tfw_lineoffc_tunturila_003_name
 	dynasty = dynasty_fc_tunturila
@@ -7458,7 +7762,9 @@ tfw_lineoffc_tunturila_004 = {
 	}
 }
 
-### c_ailindalf_10 - ruler 3 (Tunturila)
+# ============================================================
+# c_ailindalf_10 - ruler 3 (Tunturila)
+# ============================================================
 tfw_lineoffc_tunturila_005 = {
 	name = tfw_lineoffc_tunturila_005_name
 	dynasty = dynasty_fc_tunturila
@@ -7508,7 +7814,9 @@ tfw_lineoffc_tunturila_006 = {
 	}
 }
 
-### c_ailindalf_10 - ruler 4 (Ulvila)
+# ============================================================
+# c_ailindalf_10 - ruler 4 (Ulvila)
+# ============================================================
 tfw_lineoffc_ulvila_001 = {
 	name = tfw_lineoffc_ulvila_001_name
 	female = yes
@@ -7555,7 +7863,9 @@ tfw_lineoffc_ulvila_002 = {
 	}
 }
 
-### c_ailindalf_10 - ruler 5 (Ulvila)
+# ============================================================
+# c_ailindalf_10 - ruler 5 (Ulvila)
+# ============================================================
 tfw_lineoffc_ulvila_003 = {
 	name = tfw_lineoffc_ulvila_003_name
 	dynasty = dynasty_fc_ulvila
@@ -7605,7 +7915,9 @@ tfw_lineoffc_ulvila_004 = {
 	}
 }
 
-### c_ailindalf_10 - ruler 6 (Ulvila)
+# ============================================================
+# c_ailindalf_10 - ruler 6 (Ulvila)
+# ============================================================
 tfw_lineoffc_ulvila_005 = {
 	name = tfw_lineoffc_ulvila_005_name
 	female = yes
@@ -7655,7 +7967,9 @@ tfw_lineoffc_ulvila_006 = {
 	}
 }
 
-### c_ailindalf_10 - ruler 7 (Ulvila)
+# ============================================================
+# c_ailindalf_10 - ruler 7 (Ulvila)
+# ============================================================
 tfw_lineoffc_ulvila_007 = {
 	name = tfw_lineoffc_ulvila_007_name
 	dynasty = dynasty_fc_ulvila
@@ -7705,7 +8019,9 @@ tfw_lineoffc_ulvila_008 = {
 	}
 }
 
-### c_lindalf_1 - ruler 1 (Vesala)
+# ============================================================
+# c_lindalf_1 - ruler 1 (Vesala)
+# ============================================================
 tfw_lineoffc_vesala_001 = {
 	name = tfw_lineoffc_vesala_001_name
 	dynasty = dynasty_fc_vesala
@@ -7752,7 +8068,9 @@ tfw_lineoffc_vesala_002 = {
 	}
 }
 
-### c_lindalf_1 - ruler 2 (Vesala)
+# ============================================================
+# c_lindalf_1 - ruler 2 (Vesala)
+# ============================================================
 tfw_lineoffc_vesala_003 = {
 	name = tfw_lineoffc_vesala_003_name
 	dynasty = dynasty_fc_vesala
@@ -7802,7 +8120,9 @@ tfw_lineoffc_vesala_004 = {
 	}
 }
 
-### c_lindalf_1 - ruler 3 (Vesala)
+# ============================================================
+# c_lindalf_1 - ruler 3 (Vesala)
+# ============================================================
 tfw_lineoffc_vesala_005 = {
 	name = tfw_lineoffc_vesala_005_name
 	dynasty = dynasty_fc_vesala
@@ -7852,7 +8172,9 @@ tfw_lineoffc_vesala_006 = {
 	}
 }
 
-### c_lindalf_1 - ruler 4 (Vesala)
+# ============================================================
+# c_lindalf_1 - ruler 4 (Vesala)
+# ============================================================
 tfw_lineoffc_vesala_007 = {
 	name = tfw_lineoffc_vesala_007_name
 	dynasty = dynasty_fc_vesala
@@ -7902,7 +8224,9 @@ tfw_lineoffc_vesala_008 = {
 	}
 }
 
-### c_lindalf_1 - ruler 5 (Ahmala)
+# ============================================================
+# c_lindalf_1 - ruler 5 (Ahmala)
+# ============================================================
 tfw_lineoffc_ahmala_001 = {
 	name = tfw_lineoffc_ahmala_001_name
 	dynasty = dynasty_fc_ahmala
@@ -7949,7 +8273,9 @@ tfw_lineoffc_ahmala_002 = {
 	}
 }
 
-### c_lindalf_1 - ruler 6 (Ahmala)
+# ============================================================
+# c_lindalf_1 - ruler 6 (Ahmala)
+# ============================================================
 tfw_lineoffc_ahmala_003 = {
 	name = tfw_lineoffc_ahmala_003_name
 	dynasty = dynasty_fc_ahmala
@@ -7999,7 +8325,9 @@ tfw_lineoffc_ahmala_004 = {
 	}
 }
 
-### c_lindalf_1 - ruler 7 (Ahmala)
+# ============================================================
+# c_lindalf_1 - ruler 7 (Ahmala)
+# ============================================================
 tfw_lineoffc_ahmala_005 = {
 	name = tfw_lineoffc_ahmala_005_name
 	dynasty = dynasty_fc_ahmala
@@ -8049,7 +8377,9 @@ tfw_lineoffc_ahmala_006 = {
 	}
 }
 
-### c_lindalf_1 - ruler 8 (Ahmala)
+# ============================================================
+# c_lindalf_1 - ruler 8 (Ahmala)
+# ============================================================
 tfw_lineoffc_ahmala_007 = {
 	name = tfw_lineoffc_ahmala_007_name
 	dynasty = dynasty_fc_ahmala
@@ -8099,7 +8429,9 @@ tfw_lineoffc_ahmala_008 = {
 	}
 }
 
-### c_calendalf_17 - ruler 1 (Peurala)
+# ============================================================
+# c_calendalf_17 - ruler 1 (Peurala)
+# ============================================================
 tfw_lineoffc_peurala_001 = {
 	name = tfw_lineoffc_peurala_001_name
 	dynasty = dynasty_fc_peurala
@@ -8146,7 +8478,9 @@ tfw_lineoffc_peurala_002 = {
 	}
 }
 
-### c_calendalf_17 - ruler 2 (Peurala)
+# ============================================================
+# c_calendalf_17 - ruler 2 (Peurala)
+# ============================================================
 tfw_lineoffc_peurala_003 = {
 	name = tfw_lineoffc_peurala_003_name
 	dynasty = dynasty_fc_peurala
@@ -8195,7 +8529,9 @@ tfw_lineoffc_peurala_004 = {
 	}
 }
 
-### c_calendalf_17 - ruler 3 (Peurala)
+# ============================================================
+# c_calendalf_17 - ruler 3 (Peurala)
+# ============================================================
 tfw_lineoffc_peurala_005 = {
 	name = tfw_lineoffc_peurala_005_name
 	dynasty = dynasty_fc_peurala
@@ -8245,7 +8581,9 @@ tfw_lineoffc_peurala_006 = {
 	}
 }
 
-### c_calendalf_17 - ruler 4 (Karpalo)
+# ============================================================
+# c_calendalf_17 - ruler 4 (Karpalo)
+# ============================================================
 tfw_lineoffc_karpalo_001 = {
 	name = tfw_lineoffc_karpalo_001_name
 	dynasty = dynasty_fc_karpalo
@@ -8292,7 +8630,9 @@ tfw_lineoffc_karpalo_002 = {
 	}
 }
 
-### c_calendalf_17 - ruler 5 (Karpalo)
+# ============================================================
+# c_calendalf_17 - ruler 5 (Karpalo)
+# ============================================================
 tfw_lineoffc_karpalo_003 = {
 	name = tfw_lineoffc_karpalo_003_name
 	dynasty = dynasty_fc_karpalo
@@ -8341,7 +8681,9 @@ tfw_lineoffc_karpalo_004 = {
 	}
 }
 
-### c_calendalf_17 - ruler 6 (Karpalo)
+# ============================================================
+# c_calendalf_17 - ruler 6 (Karpalo)
+# ============================================================
 tfw_lineoffc_karpalo_005 = {
 	name = tfw_lineoffc_karpalo_005_name
 	female = yes
@@ -8391,7 +8733,9 @@ tfw_lineoffc_karpalo_006 = {
 	}
 }
 
-### c_calendalf_17 - ruler 7 (Karpalo)
+# ============================================================
+# c_calendalf_17 - ruler 7 (Karpalo)
+# ============================================================
 tfw_lineoffc_karpalo_007 = {
 	name = tfw_lineoffc_karpalo_007_name
 	dynasty = dynasty_fc_karpalo
@@ -8441,7 +8785,9 @@ tfw_lineoffc_karpalo_008 = {
 	}
 }
 
-### c_calendalf_15 - ruler 1 (Naavala)
+# ============================================================
+# c_calendalf_15 - ruler 1 (Naavala)
+# ============================================================
 tfw_lineoffc_naavala_001 = {
 	name = tfw_lineoffc_naavala_001_name
 	dynasty = dynasty_fc_naavala
@@ -8488,7 +8834,9 @@ tfw_lineoffc_naavala_002 = {
 	}
 }
 
-### c_calendalf_15 - ruler 2 (Naavala)
+# ============================================================
+# c_calendalf_15 - ruler 2 (Naavala)
+# ============================================================
 tfw_lineoffc_naavala_003 = {
 	name = tfw_lineoffc_naavala_003_name
 	dynasty = dynasty_fc_naavala
@@ -8538,7 +8886,9 @@ tfw_lineoffc_naavala_004 = {
 	}
 }
 
-### c_calendalf_15 - ruler 3 (Naavala)
+# ============================================================
+# c_calendalf_15 - ruler 3 (Naavala)
+# ============================================================
 tfw_lineoffc_naavala_005 = {
 	name = tfw_lineoffc_naavala_005_name
 	female = yes
@@ -8588,7 +8938,9 @@ tfw_lineoffc_naavala_006 = {
 	}
 }
 
-### c_calendalf_15 - ruler 4 (Naavala)
+# ============================================================
+# c_calendalf_15 - ruler 4 (Naavala)
+# ============================================================
 tfw_lineoffc_naavala_007 = {
 	name = tfw_lineoffc_naavala_007_name
 	female = yes
@@ -8638,7 +8990,9 @@ tfw_lineoffc_naavala_008 = {
 	}
 }
 
-### c_calendalf_15 - ruler 5 (Rannikko)
+# ============================================================
+# c_calendalf_15 - ruler 5 (Rannikko)
+# ============================================================
 tfw_lineoffc_rannikko_001 = {
 	name = tfw_lineoffc_rannikko_001_name
 	female = yes
@@ -8685,7 +9039,9 @@ tfw_lineoffc_rannikko_002 = {
 	}
 }
 
-### c_calendalf_15 - ruler 6 (Rannikko)
+# ============================================================
+# c_calendalf_15 - ruler 6 (Rannikko)
+# ============================================================
 tfw_lineoffc_rannikko_003 = {
 	name = tfw_lineoffc_rannikko_003_name
 	dynasty = dynasty_fc_rannikko
@@ -8735,7 +9091,9 @@ tfw_lineoffc_rannikko_004 = {
 	}
 }
 
-### c_calendalf_15 - ruler 7 (Rannikko)
+# ============================================================
+# c_calendalf_15 - ruler 7 (Rannikko)
+# ============================================================
 tfw_lineoffc_rannikko_005 = {
 	name = tfw_lineoffc_rannikko_005_name
 	female = yes
@@ -8785,7 +9143,9 @@ tfw_lineoffc_rannikko_006 = {
 	}
 }
 
-### c_calendalf_15 - ruler 8 (Rannikko)
+# ============================================================
+# c_calendalf_15 - ruler 8 (Rannikko)
+# ============================================================
 tfw_lineoffc_rannikko_007 = {
 	name = tfw_lineoffc_rannikko_007_name
 	dynasty = dynasty_fc_rannikko
@@ -8835,7 +9195,9 @@ tfw_lineoffc_rannikko_008 = {
 	}
 }
 
-### c_everdalf_8 - ruler 1 (Kallio)
+# ============================================================
+# c_everdalf_8 - ruler 1 (Kallio)
+# ============================================================
 tfw_lineoffc_kallio_001 = {
 	name = tfw_lineoffc_kallio_001_name
 	dynasty = dynasty_fc_kallio
@@ -8882,7 +9244,9 @@ tfw_lineoffc_kallio_002 = {
 	}
 }
 
-### c_everdalf_8 - ruler 2 (Kallio)
+# ============================================================
+# c_everdalf_8 - ruler 2 (Kallio)
+# ============================================================
 tfw_lineoffc_kallio_003 = {
 	name = tfw_lineoffc_kallio_003_name
 	female = yes
@@ -8931,7 +9295,9 @@ trait = education_intrigue_2
 	}
 }
 
-### c_everdalf_8 - ruler 3 (Kallio)
+# ============================================================
+# c_everdalf_8 - ruler 3 (Kallio)
+# ============================================================
 tfw_lineoffc_kallio_005 = {
 	name = tfw_lineoffc_kallio_005_name
 	dynasty = dynasty_fc_kallio
@@ -8980,7 +9346,9 @@ tfw_lineoffc_kallio_006 = {
 	}
 }
 
-### c_everdalf_8 - ruler 4 (Myrskyla)
+# ============================================================
+# c_everdalf_8 - ruler 4 (Myrskyla)
+# ============================================================
 tfw_lineoffc_myrskyla_001 = {
 	name = tfw_lineoffc_myrskyla_001_name
 	female = yes
@@ -9027,7 +9395,9 @@ tfw_lineoffc_myrskyla_002 = {
 	}
 }
 
-### c_everdalf_8 - ruler 5 (Myrskyla)
+# ============================================================
+# c_everdalf_8 - ruler 5 (Myrskyla)
+# ============================================================
 tfw_lineoffc_myrskyla_003 = {
 	name = tfw_lineoffc_myrskyla_003_name
 	dynasty = dynasty_fc_myrskyla
@@ -9077,7 +9447,9 @@ tfw_lineoffc_myrskyla_004 = {
 	}
 }
 
-### c_everdalf_8 - ruler 6 (Myrskyla)
+# ============================================================
+# c_everdalf_8 - ruler 6 (Myrskyla)
+# ============================================================
 tfw_lineoffc_myrskyla_005 = {
 	name = tfw_lineoffc_myrskyla_005_name
 	female = yes
@@ -9126,7 +9498,9 @@ trait = education_intrigue_2
 	}
 }
 
-### c_everdalf_8 - ruler 7 (Myrskyla)
+# ============================================================
+# c_everdalf_8 - ruler 7 (Myrskyla)
+# ============================================================
 tfw_lineoffc_myrskyla_007 = {
 	name = tfw_lineoffc_myrskyla_007_name
 	dynasty = dynasty_fc_myrskyla
@@ -9175,7 +9549,9 @@ tfw_lineoffc_myrskyla_008 = {
 	}
 }
 
-### c_everdalf_9 - ruler 1 (Aallokko)
+# ============================================================
+# c_everdalf_9 - ruler 1 (Aallokko)
+# ============================================================
 tfw_lineoffc_aallokko_001 = {
 	name = tfw_lineoffc_aallokko_001_name
 	dynasty = dynasty_fc_aallokko
@@ -9222,7 +9598,9 @@ tfw_lineoffc_aallokko_002 = {
 	}
 }
 
-### c_everdalf_9 - ruler 2 (Aallokko)
+# ============================================================
+# c_everdalf_9 - ruler 2 (Aallokko)
+# ============================================================
 tfw_lineoffc_aallokko_003 = {
 	name = tfw_lineoffc_aallokko_003_name
 	dynasty = dynasty_fc_aallokko
@@ -9272,7 +9650,9 @@ tfw_lineoffc_aallokko_004 = {
 	}
 }
 
-### c_everdalf_9 - ruler 3 (Aallokko)
+# ============================================================
+# c_everdalf_9 - ruler 3 (Aallokko)
+# ============================================================
 tfw_lineoffc_aallokko_005 = {
 	name = tfw_lineoffc_aallokko_005_name
 	dynasty = dynasty_fc_aallokko
@@ -9322,7 +9702,9 @@ tfw_lineoffc_aallokko_006 = {
 	}
 }
 
-### c_everdalf_9 - ruler 4 (Aallokko)
+# ============================================================
+# c_everdalf_9 - ruler 4 (Aallokko)
+# ============================================================
 tfw_lineoffc_aallokko_007 = {
 	name = tfw_lineoffc_aallokko_007_name
 	dynasty = dynasty_fc_aallokko
@@ -9372,7 +9754,9 @@ tfw_lineoffc_aallokko_008 = {
 	}
 }
 
-### c_everdalf_9 - ruler 5 (Pihlaja)
+# ============================================================
+# c_everdalf_9 - ruler 5 (Pihlaja)
+# ============================================================
 tfw_lineoffc_pihlaja_001 = {
 	name = tfw_lineoffc_pihlaja_001_name
 	dynasty = dynasty_fc_pihlaja
@@ -9419,7 +9803,9 @@ tfw_lineoffc_pihlaja_002 = {
 	}
 }
 
-### c_everdalf_9 - ruler 6 (Pihlaja)
+# ============================================================
+# c_everdalf_9 - ruler 6 (Pihlaja)
+# ============================================================
 tfw_lineoffc_pihlaja_003 = {
 	name = tfw_lineoffc_pihlaja_003_name
 	female = yes
@@ -9469,7 +9855,9 @@ tfw_lineoffc_pihlaja_004 = {
 	}
 }
 
-### c_everdalf_9 - ruler 7 (Pihlaja)
+# ============================================================
+# c_everdalf_9 - ruler 7 (Pihlaja)
+# ============================================================
 tfw_lineoffc_pihlaja_005 = {
 	name = tfw_lineoffc_pihlaja_005_name
 	dynasty = dynasty_fc_pihlaja
@@ -9519,7 +9907,9 @@ tfw_lineoffc_pihlaja_006 = {
 	}
 }
 
-### c_everdalf_9 - ruler 8 (Pihlaja)
+# ============================================================
+# c_everdalf_9 - ruler 8 (Pihlaja)
+# ============================================================
 tfw_lineoffc_pihlaja_007 = {
 	name = tfw_lineoffc_pihlaja_007_name
 	dynasty = dynasty_fc_pihlaja
@@ -9569,7 +9959,9 @@ tfw_lineoffc_pihlaja_008 = {
 	}
 }
 
-### c_everdalf_1 - ruler 1 (Routio)
+# ============================================================
+# c_everdalf_1 - ruler 1 (Routio)
+# ============================================================
 tfw_lineoffc_routio_001 = {
 	name = tfw_lineoffc_routio_001_name
 	female = yes
@@ -9616,7 +10008,9 @@ tfw_lineoffc_routio_002 = {
 	}
 }
 
-### c_everdalf_1 - ruler 2 (Routio)
+# ============================================================
+# c_everdalf_1 - ruler 2 (Routio)
+# ============================================================
 tfw_lineoffc_routio_003 = {
 	name = tfw_lineoffc_routio_003_name
 	dynasty = dynasty_fc_routio
@@ -9666,7 +10060,9 @@ tfw_lineoffc_routio_004 = {
 	}
 }
 
-### c_everdalf_1 - ruler 3 (Routio)
+# ============================================================
+# c_everdalf_1 - ruler 3 (Routio)
+# ============================================================
 tfw_lineoffc_routio_005 = {
 	name = tfw_lineoffc_routio_005_name
 	dynasty = dynasty_fc_routio
@@ -9716,7 +10112,9 @@ tfw_lineoffc_routio_006 = {
 	}
 }
 
-### c_everdalf_1 - ruler 4 (Kuurto)
+# ============================================================
+# c_everdalf_1 - ruler 4 (Kuurto)
+# ============================================================
 tfw_lineoffc_kuurto_001 = {
 	name = tfw_lineoffc_kuurto_001_name
 	female = yes
@@ -9763,7 +10161,9 @@ tfw_lineoffc_kuurto_002 = {
 	}
 }
 
-### c_everdalf_1 - ruler 5 (Kuurto)
+# ============================================================
+# c_everdalf_1 - ruler 5 (Kuurto)
+# ============================================================
 tfw_lineoffc_kuurto_003 = {
 	name = tfw_lineoffc_kuurto_003_name
 	female = yes
@@ -9813,7 +10213,9 @@ tfw_lineoffc_kuurto_004 = {
 	}
 }
 
-### c_everdalf_1 - ruler 6 (Kuurto)
+# ============================================================
+# c_everdalf_1 - ruler 6 (Kuurto)
+# ============================================================
 tfw_lineoffc_kuurto_005 = {
 	name = tfw_lineoffc_kuurto_005_name
 	female = yes
@@ -9863,7 +10265,9 @@ tfw_lineoffc_kuurto_006 = {
 	}
 }
 
-### c_everdalf_1 - ruler 7 (Kuurto)
+# ============================================================
+# c_everdalf_1 - ruler 7 (Kuurto)
+# ============================================================
 tfw_lineoffc_kuurto_007 = {
 	name = tfw_lineoffc_kuurto_007_name
 	dynasty = dynasty_fc_kuurto

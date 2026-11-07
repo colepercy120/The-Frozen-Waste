@@ -1,16 +1,15 @@
-﻿###############################
-### IRONFISTS OF NIDAVELLIR ###
-###############################
+﻿# ============================================================
+# IRONFISTS OF NIDAVELLIR
+# ============================================================
 # Separate history file.
 # Royal line: dynasty_sindri.
 # Every non-royal landed line uses a new Nidavellir-specific dynasty.
 # Families include parents/siblings, spouses, collateral children, and heir children.
 
 
-################################
-### Royal branch: Line of Sindri
-################################
-
+# ============================================================
+# Royal branch: Line of Sindri
+# ============================================================
 
 
 tfw_lineofsindri_001 = { # younger sister of Eitri
@@ -339,7 +338,7 @@ tfw_lineofsindri_006 = { # grandson of Eitri; base stats total 55
 	prowess = 11
 
 	trait = education_martial_4
-	
+
 
 	6891.12.4 = {
 		birth = yes
@@ -630,9 +629,9 @@ tfw_lineofnidavellir_kharum_001 = { # parent generation of the western marches h
 }
 
 
-################################
-### Western marches: Kharum
-################################
+# ============================================================
+# Western marches: Kharum
+# ============================================================
 
 tfw_lineofnidavellir_barukhan_002 = {
 	name = tfw_lineofnidavellir_barukhan_002_name
@@ -690,7 +689,7 @@ tfw_lineofnidavellir_kharum_002 = { # landed ruler of the western marches
 	prowess = 9
 
 	trait = education_martial_3
-	
+
 
 	6751.8.9 = {
 		birth = yes
@@ -795,7 +794,7 @@ tfw_lineofnidavellir_kharum_004 = { # successor in the western marches
 	prowess = 7
 
 	trait = education_stewardship_4
-	
+
 
 	6876.3.14 = {
 		birth = yes
@@ -1058,9 +1057,9 @@ tfw_lineofnidavellir_zharakh_002 = { # parent generation of the second hall hous
 }
 
 
-################################
-### Second Hall: Zharakh
-################################
+# ============================================================
+# Second Hall: Zharakh
+# ============================================================
 
 tfw_lineofnidavellir_kharum_010 = {
 	name = tfw_lineofnidavellir_kharum_010_name
@@ -1115,7 +1114,6 @@ tfw_lineofnidavellir_zharakh_003 = { # landed ruler of the second hall
 	learning = 5
 	prowess = 9
 
-	
 
 	6780.5.2 = {
 		birth = yes
@@ -1231,7 +1229,7 @@ tfw_lineofnidavellir_zharakh_005 = { # successor in the second hall
 	prowess = 7
 
 	trait = education_stewardship_4
-	
+
 
 	6901.9.20 = {
 		birth = yes
@@ -1486,9 +1484,9 @@ tfw_lineofnidavellir_tharim_003 = { # parent generation of the deep-road wardens
 }
 
 
-################################
-### Deep-road wardens: Tharim
-################################
+# ============================================================
+# Deep-road wardens: Tharim
+# ============================================================
 
 tfw_lineofnidavellir_zharakh_011 = {
 	name = tfw_lineofnidavellir_zharakh_011_name
@@ -1546,7 +1544,7 @@ tfw_lineofnidavellir_tharim_004 = { # landed ruler of the deep-road wardens
 	prowess = 7
 
 	trait = education_stewardship_3
-	
+
 
 	6825.1.17 = {
 		birth = yes
@@ -1649,7 +1647,7 @@ tfw_lineofnidavellir_tharim_006 = { # successor in the deep-road wardens
 	prowess = 8
 
 	trait = education_martial_3
-	
+
 
 	6952.11.6 = {
 		birth = yes
@@ -1904,9 +1902,9 @@ tfw_lineofnidavellir_gabilan_002 = { # parent generation of the eastern gate hou
 }
 
 
-################################
-### Eastern gate: Gabilan
-################################
+# ============================================================
+# Eastern gate: Gabilan
+# ============================================================
 
 tfw_lineofnidavellir_tharim_012 = {
 	name = tfw_lineofnidavellir_tharim_012_name
@@ -1962,7 +1960,7 @@ tfw_lineofnidavellir_gabilan_003 = { # landed ruler of the eastern gate
 	prowess = 10
 
 	trait = education_martial_4
-	
+
 
 	6871.6.12 = {
 		birth = yes
@@ -2064,7 +2062,6 @@ tfw_lineofnidavellir_gabilan_005 = { # successor in the eastern gate
 	learning = 8
 	prowess = 7
 
-	
 
 	6992.2.23 = {
 		birth = yes
@@ -2330,9 +2327,9 @@ diplomacy = 7
 }
 
 
-################################
-### Third Hall: Kheledan
-################################
+# ============================================================
+# Third Hall: Kheledan
+# ============================================================
 
 tfw_lineofnidavellir_gabilan_011 = {
 	name = tfw_lineofnidavellir_gabilan_011_name
@@ -2395,7 +2392,7 @@ tfw_lineofnidavellir_kheledan_005 = { # landed ruler of the third hall
 	prowess = 8
 
 	trait = education_stewardship_4
-	
+
 
 	6890.10.3 = {
 		birth = yes
@@ -2500,7 +2497,7 @@ tfw_lineofnidavellir_kheledan_007 = { # successor in the third hall
 	prowess = 8
 
 	trait = education_martial_3
-	
+
 
 	7012.5.29 = {
 		birth = yes
@@ -2758,9 +2755,9 @@ tfw_lineofnidavellir_barukhan_005 = { # parent generation of the far eastern del
 }
 
 
-################################
-### Far eastern delvers: Barukhan
-################################
+# ============================================================
+# Far eastern delvers: Barukhan
+# ============================================================
 
 tfw_lineofnidavellir_kheledan_013 = {
 	name = tfw_lineofnidavellir_kheledan_013_name
@@ -2818,7 +2815,7 @@ tfw_lineofnidavellir_barukhan_006 = { # landed ruler of the far eastern delvers
 	prowess = 9
 
 	trait = education_martial_3
-	
+
 
 	6938.4.15 = {
 		birth = yes
@@ -2923,7 +2920,7 @@ tfw_lineofnidavellir_barukhan_008 = { # successor in the far eastern delvers
 	prowess = 8
 
 	trait = education_stewardship_3
-	
+
 
 	7061.7.8 = {
 		birth = yes

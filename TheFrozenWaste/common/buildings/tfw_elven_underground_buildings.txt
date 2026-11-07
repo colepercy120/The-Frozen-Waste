@@ -1,6 +1,8 @@
 @holding_illustration_underground_elven = "gfx/interface/illustrations/holding_types/underground/delving.dds"
 
-### ELVEN UNDERGROUND HALL HOLDINGS ###
+# ============================================================
+# ELVEN UNDERGROUND HALL HOLDINGS
+# ============================================================
 # Underground counterpart to elven_settlement_01 through elven_settlement_07.
 # Gameplay values intentionally match the corresponding elven settlement tier.
 # Underground restriction uses the existing LOTR subterranean terrain requirement.
@@ -10,8 +12,10 @@ elven_hall_01 = {
 	construction_time = extremely_slow_construction_time
 
 	type_icon = "icon_building_range.dds"
-	
-	### UNDERGROUND ELVEN HALL MODEL ###
+
+	# ============================================================
+	# UNDERGROUND ELVEN HALL MODEL
+	# ============================================================
 	asset = {
 		type = pdxmesh
 		name = "dwarven_holding_01_mesh"
@@ -25,13 +29,13 @@ elven_hall_01 = {
 			building_requirement_elven = yes
 			scope:holder = { is_valinor_maiar_character = yes }
 		}
-		NOT = { #LotR: Preserve the normal elven colony restriction
+		NOT = { # LotR: Preserve the normal elven colony restriction
 			county = {
 				any_county_province = { has_holding_type = settlement_holding }
 			}
 		}
 	}
-	
+
 	can_construct_potential = {
 		lotr_dwarven_underground_buildings_requirement_terrain = yes
 		building_requirement_tribal = no
@@ -41,34 +45,34 @@ elven_hall_01 = {
 			is_wastelands = no
 		}
 	}
-	
-	can_construct = {	
+
+	can_construct = {
 		scope:holder = { is_elf = yes }
 		OR = {
 			scope:holder = {
 				has_medium_hope_or_higher = yes
 			}
-			scope:holder.top_liege = {	
-				has_medium_hope_or_higher = yes 
+			scope:holder.top_liege = {
+				has_medium_hope_or_higher = yes
 			}
 			scope:holder.top_liege = {
 				is_elf = no
 			}
 		}
 	}
-	
+
 	can_construct_showing_failures_only = {
 		building_requirement_tribal_holding_in_county = yes
 		county_is_elven = yes
 	}
-	
+
 	on_complete = {
 		county.holder = { add_elven_hope_effect = { VALUE = major_elven_hope_gain HOPE_EFFECT = effect_elven_hope_elven_refuge_built } }
 	}
-	
+
 	cost_gold = extremely_expensive_building_tier_3_cost
 	next_building = elven_hall_02
-	
+
 	levy = elven_building_levy_tier_1
 	max_garrison = elven_building_max_garrison_tier_1
 	garrison_reinforcement_factor = building_garrison_reinforcement_factor_tier_2
@@ -102,7 +106,7 @@ elven_hall_01 = {
 		terrain = jungle
 		additional_fort_level = castle_holding_fort_level_in_jungle_bonus_value
 	}
-	
+
 	province_terrain_modifier = {
 		parameter = elven_holding_fort_level_in_deep_forest_bonus
 		terrain = deep_forest
@@ -120,7 +124,7 @@ elven_hall_01 = {
 	}
 
 	flag = elven_hall
-	
+
 	ai_value = {
 		base = 100
 		modifier = {
@@ -134,8 +138,10 @@ elven_hall_01 = {
 
 elven_hall_02 = {
 	construction_time = extremely_slow_construction_time
-	
-	### UNDERGROUND ELVEN HALL MODEL ###
+
+	# ============================================================
+	# UNDERGROUND ELVEN HALL MODEL
+	# ============================================================
 	asset = {
 		type = pdxmesh
 		name = "dwarven_holding_01_mesh"
@@ -153,26 +159,26 @@ elven_hall_02 = {
 			is_wastelands = no
 		}
 	}
-	
+
 	is_enabled = {
 		OR = {
 			building_requirement_elven = yes
 			scope:holder = { is_valinor_maiar_character = yes }
 		}
 	}
-	
-	can_construct = {	
+
+	can_construct = {
 		scope:holder = { is_elf = yes }
 	}
-	
+
 	can_construct_showing_failures_only = {
 		building_requirement_tribal_holding_in_county = yes
 		county_is_elven = yes
 	}
-	
+
 	cost_gold = extremely_expensive_building_tier_3_cost
 	next_building = elven_hall_03
-	
+
 	levy = elven_building_levy_tier_2
 	max_garrison = elven_building_max_garrison_tier_2
 	garrison_reinforcement_factor = building_garrison_reinforcement_factor_tier_2
@@ -209,7 +215,7 @@ elven_hall_02 = {
 		terrain = jungle
 		additional_fort_level = castle_holding_fort_level_in_jungle_bonus_value
 	}
-	
+
 	province_terrain_modifier = {
 		parameter = elven_holding_fort_level_in_deep_forest_bonus
 		terrain = deep_forest
@@ -227,7 +233,7 @@ elven_hall_02 = {
 	}
 
 	flag = elven_hall
-	
+
 	ai_value = {
 		base = 9 # Significantly higher than normal, they're just that good
 		ai_tier_1_building_modifier = yes
@@ -268,8 +274,10 @@ elven_hall_02 = {
 
 elven_hall_03 = {
 	construction_time = extremely_slow_construction_time
-	
-	### UNDERGROUND ELVEN HALL MODEL ###
+
+	# ============================================================
+	# UNDERGROUND ELVEN HALL MODEL
+	# ============================================================
 	asset = {
 		type = pdxmesh
 		name = "dwarven_holding_02_mesh"
@@ -287,15 +295,15 @@ elven_hall_03 = {
 			is_wastelands = no
 		}
 	}
-	
+
 	is_enabled = {
 		OR = {
 			building_requirement_elven = yes
 			scope:holder = { is_valinor_maiar_character = yes }
 		}
 	}
-	
-	can_construct = {	
+
+	can_construct = {
 		scope:holder = { is_elf = yes }
 		OR = {
 			scope:holder = { has_low_hope_or_higher = yes }
@@ -307,15 +315,15 @@ elven_hall_03 = {
 			}
 		}
 	}
-	
+
 	can_construct_showing_failures_only = {
 		building_requirement_tribal_holding_in_county = yes
 		county_is_elven = yes
 	}
-	
+
 	cost_gold = extremely_expensive_building_tier_5_cost
 	next_building = elven_hall_04
-	
+
 	levy = elven_building_levy_tier_3
 	max_garrison = elven_building_max_garrison_tier_3
 	garrison_reinforcement_factor = building_garrison_reinforcement_factor_tier_4
@@ -352,7 +360,7 @@ elven_hall_03 = {
 		terrain = jungle
 		additional_fort_level = castle_holding_fort_level_in_jungle_bonus_value
 	}
-	
+
 	province_terrain_modifier = {
 		parameter = elven_holding_fort_level_in_deep_forest_bonus
 		terrain = deep_forest
@@ -370,8 +378,8 @@ elven_hall_03 = {
 	}
 
 	flag = elven_hall
-	#flag = elven_stronghold_upgrade_tier
-	
+	# flag = elven_stronghold_upgrade_tier
+
 	ai_value = {
 		base = 8 # Significantly higher than normal, they're just that good
 		ai_tier_1_building_modifier = yes
@@ -418,8 +426,10 @@ elven_hall_03 = {
 
 elven_hall_04 = {
 	construction_time = extremely_slow_construction_time
-	
-	### UNDERGROUND ELVEN HALL MODEL ###
+
+	# ============================================================
+	# UNDERGROUND ELVEN HALL MODEL
+	# ============================================================
 	asset = {
 		type = pdxmesh
 		name = "dwarven_holding_02_mesh"
@@ -434,7 +444,7 @@ elven_hall_04 = {
 			scope:holder = { is_valinor_maiar_character = yes }
 		}
 	}
-	
+
 	can_construct_potential = {
 		lotr_dwarven_underground_buildings_requirement_terrain = yes
 		building_requirement_tribal = no
@@ -444,8 +454,8 @@ elven_hall_04 = {
 			is_wastelands = no
 		}
 	}
-	
-	can_construct = {	
+
+	can_construct = {
 		scope:holder = { is_elf = yes }
 		OR = {
 			scope:holder = { has_low_hope_or_higher = yes }
@@ -457,7 +467,7 @@ elven_hall_04 = {
 			}
 		}
 	}
-	
+
 	can_construct_showing_failures_only = {
 		building_requirement_tribal_holding_in_county = yes
 		county_is_elven = yes
@@ -468,10 +478,10 @@ elven_hall_04 = {
 			# }
 		# }
 	}
-	
+
 	cost_gold = extremely_expensive_building_tier_5_cost
 	next_building = elven_hall_05
-	
+
 	levy = elven_building_levy_tier_4
 	max_garrison = elven_building_max_garrison_tier_4
 	garrison_reinforcement_factor = building_garrison_reinforcement_factor_tier_4
@@ -508,7 +518,7 @@ elven_hall_04 = {
 		terrain = jungle
 		additional_fort_level = castle_holding_fort_level_in_jungle_bonus_value
 	}
-	
+
 	province_terrain_modifier = {
 		parameter = elven_holding_fort_level_in_deep_forest_bonus
 		terrain = deep_forest
@@ -526,8 +536,8 @@ elven_hall_04 = {
 	}
 
 	flag = elven_hall
-	#flag = elven_stronghold_upgrade_tier
-	
+	# flag = elven_stronghold_upgrade_tier
+
 	ai_value = {
 		base = 7 # Significantly higher than normal, they're just that good
 		ai_tier_1_building_modifier = yes
@@ -568,8 +578,10 @@ elven_hall_04 = {
 
 elven_hall_05 = {
 	construction_time = extremely_slow_construction_time
-	
-	### UNDERGROUND ELVEN HALL MODEL ###
+
+	# ============================================================
+	# UNDERGROUND ELVEN HALL MODEL
+	# ============================================================
 	asset = {
 		type = pdxmesh
 		name = "dwarven_holding_03_mesh"
@@ -584,7 +596,7 @@ elven_hall_05 = {
 			scope:holder = { is_valinor_maiar_character = yes }
 		}
 	}
-	
+
 	can_construct_potential = {
 		lotr_dwarven_underground_buildings_requirement_terrain = yes
 		building_requirement_tribal = no
@@ -594,8 +606,8 @@ elven_hall_05 = {
 			is_wastelands = no
 		}
 	}
-	
-	can_construct = {	
+
+	can_construct = {
 		scope:holder = { is_elf = yes }
 		OR = {
 			scope:holder = { has_medium_hope_or_higher = yes }
@@ -607,7 +619,7 @@ elven_hall_05 = {
 			}
 		}
 	}
-	
+
 	can_construct_showing_failures_only = {
 		building_requirement_tribal_holding_in_county = yes
 		county_is_elven = yes
@@ -618,10 +630,10 @@ elven_hall_05 = {
 			# }
 		# }
 	}
-	
+
 	cost_gold = extremely_expensive_building_tier_5_cost
 	next_building = elven_hall_06
-	
+
 	levy = elven_building_levy_tier_5
 	max_garrison = elven_building_max_garrison_tier_5
 	garrison_reinforcement_factor = building_garrison_reinforcement_factor_tier_4
@@ -658,7 +670,7 @@ elven_hall_05 = {
 		terrain = jungle
 		additional_fort_level = castle_holding_fort_level_in_jungle_bonus_value
 	}
-	
+
 	province_terrain_modifier = {
 		parameter = elven_holding_fort_level_in_deep_forest_bonus
 		terrain = deep_forest
@@ -676,8 +688,8 @@ elven_hall_05 = {
 	}
 
 	flag = elven_hall
-	#flag = elven_stronghold_upgrade_tier
-	
+	# flag = elven_stronghold_upgrade_tier
+
 	ai_value = {
 		base = 6
 		ai_tier_1_building_modifier = yes
@@ -717,9 +729,11 @@ elven_hall_05 = {
 }
 
 elven_hall_06 = {
-	construction_time = elven_slow_construction_time #elven_slow_construction_time
-	
-	### UNDERGROUND ELVEN HALL MODEL ###
+	construction_time = elven_slow_construction_time # elven_slow_construction_time
+
+	# ============================================================
+	# UNDERGROUND ELVEN HALL MODEL
+	# ============================================================
 	asset = {
 		type = pdxmesh
 		name = "dwarven_holding_03_mesh"
@@ -737,15 +751,15 @@ elven_hall_06 = {
 			is_wastelands = no
 		}
 	}
-	
+
 	is_enabled = {
 		OR = {
 			building_requirement_elven = yes
 			scope:holder = { is_valinor_maiar_character = yes }
 		}
 	}
-	
-	can_construct = {	
+
+	can_construct = {
 		scope:holder = { is_elf = yes }
 		OR = {
 			scope:holder = { has_high_hope_or_higher = yes }
@@ -757,7 +771,7 @@ elven_hall_06 = {
 			}
 		}
 	}
-	
+
 	can_construct_showing_failures_only = {
 		building_requirement_tribal_holding_in_county = yes
 		county_is_elven = yes
@@ -767,17 +781,17 @@ elven_hall_06 = {
 				# NOT = { any_directly_owned_province = { has_construction_with_flag = elven_city_upgrade_tier } }
 			# }
 		# }
-		# scope:holder.top_liege = { 
-		# 	custom_tooltip = {
-		# 		text = elven_city_limit_tooltip
-		# 		has_capacity_for_elven_city = yes
-		# 	}
+		# scope:holder.top_liege = {
+		# custom_tooltip = {
+		# text = elven_city_limit_tooltip
+		# has_capacity_for_elven_city = yes
+		# }
 		# }
 	}
-	
+
 	cost_gold = extremely_expensive_building_tier_7_cost
 	next_building = elven_hall_07
-	
+
 	levy = elven_building_levy_tier_6
 	max_garrison = elven_building_max_garrison_tier_6
 	garrison_reinforcement_factor = building_garrison_reinforcement_factor_tier_6
@@ -815,7 +829,7 @@ elven_hall_06 = {
 		terrain = jungle
 		additional_fort_level = castle_holding_fort_level_in_jungle_bonus_value
 	}
-	
+
 	province_terrain_modifier = {
 		parameter = elven_holding_fort_level_in_deep_forest_bonus
 		terrain = deep_forest
@@ -833,8 +847,8 @@ elven_hall_06 = {
 	}
 
 	flag = elven_hall
-	#flag = elven_city_upgrade_tier
-	
+	# flag = elven_city_upgrade_tier
+
 	ai_value = {
 		base = 5
 		ai_tier_1_building_modifier = yes
@@ -874,9 +888,11 @@ elven_hall_06 = {
 }
 
 elven_hall_07 = {
-	construction_time = elven_slow_construction_time #elven_slow_construction_time
-	
-	### UNDERGROUND ELVEN HALL MODEL ###
+	construction_time = elven_slow_construction_time # elven_slow_construction_time
+
+	# ============================================================
+	# UNDERGROUND ELVEN HALL MODEL
+	# ============================================================
 	asset = {
 		type = pdxmesh
 		name = "dwarven_holding_04_mesh"
@@ -891,7 +907,7 @@ elven_hall_07 = {
 			scope:holder = { is_valinor_maiar_character = yes }
 		}
 	}
-	
+
 	can_construct_potential = {
 		lotr_dwarven_underground_buildings_requirement_terrain = yes
 		building_requirement_tribal = no
@@ -901,8 +917,8 @@ elven_hall_07 = {
 			is_wastelands = no
 		}
 	}
-	
-	can_construct = {	
+
+	can_construct = {
 		scope:holder = { is_elf = yes }
 		OR = {
 			scope:holder = { has_high_hope_or_higher = yes }
@@ -914,7 +930,7 @@ elven_hall_07 = {
 			}
 		}
 	}
-	
+
 	can_construct_showing_failures_only = {
 		building_requirement_tribal_holding_in_county = yes
 		county_is_elven = yes
@@ -925,9 +941,9 @@ elven_hall_07 = {
 			# }
 		# }
 	}
-	
+
 	cost_gold = extremely_expensive_building_tier_7_cost
-	
+
 	levy = elven_building_levy_tier_7
 	max_garrison = elven_building_max_garrison_tier_7
 	garrison_reinforcement_factor = building_garrison_reinforcement_factor_tier_6
@@ -965,7 +981,7 @@ elven_hall_07 = {
 		terrain = jungle
 		additional_fort_level = castle_holding_fort_level_in_jungle_bonus_value
 	}
-	
+
 	province_terrain_modifier = {
 		parameter = elven_holding_fort_level_in_deep_forest_bonus
 		terrain = deep_forest
@@ -983,8 +999,8 @@ elven_hall_07 = {
 	}
 
 	flag = elven_hall
-	#flag = elven_city_upgrade_tier
-	
+	# flag = elven_city_upgrade_tier
+
 	ai_value = {
 		base = 10
 		ai_tier_1_building_modifier = yes
@@ -1024,11 +1040,15 @@ elven_hall_07 = {
 }
 
 
-### ELVEN UNDERGROUND BUILDINGS ###
+# ============================================================
+# ELVEN UNDERGROUND BUILDINGS
+# ============================================================
 # Seven-tier underground variants following the normal elven building progression.
 # Each tier requires the matching elven_settlement tier and underground terrain.
 
-### Cavern Gardens ###
+# ============================================================
+# Cavern Gardens
+# ============================================================
 elven_cavern_gardens_01 = {
 	construction_time = very_slow_construction_time
 	effect_desc = longhouses_effect_desc
@@ -1340,7 +1360,9 @@ elven_cavern_gardens_07 = {
 }
 
 
-### Crystal Delvings ###
+# ============================================================
+# Crystal Delvings
+# ============================================================
 elven_crystal_delvings_01 = {
 	construction_time = very_slow_construction_time
 	effect_desc = longhouses_effect_desc
@@ -1632,7 +1654,9 @@ elven_crystal_delvings_07 = {
 }
 
 
-### Deep Markets ###
+# ============================================================
+# Deep Markets
+# ============================================================
 elven_deep_markets_01 = {
 	construction_time = very_slow_construction_time
 	effect_desc = longhouses_effect_desc
@@ -1945,7 +1969,9 @@ elven_deep_markets_07 = {
 }
 
 
-### Deep Forges ###
+# ============================================================
+# Deep Forges
+# ============================================================
 elven_deep_forges_01 = {
 	construction_time = very_slow_construction_time
 	effect_desc = longhouses_effect_desc
@@ -2244,7 +2270,9 @@ elven_deep_forges_07 = {
 }
 
 
-### Echoing Halls ###
+# ============================================================
+# Echoing Halls
+# ============================================================
 elven_echoing_halls_01 = {
 	construction_time = very_slow_construction_time
 	effect_desc = longhouses_effect_desc
@@ -2557,7 +2585,9 @@ elven_echoing_halls_07 = {
 }
 
 
-### Subterranean Barracks ###
+# ============================================================
+# Subterranean Barracks
+# ============================================================
 elven_subterranean_barracks_01 = {
 	construction_time = very_slow_construction_time
 	effect_desc = longhouses_effect_desc
@@ -2843,7 +2873,9 @@ elven_subterranean_barracks_07 = {
 }
 
 
-### Warded Passages ###
+# ============================================================
+# Warded Passages
+# ============================================================
 elven_warded_passages_01 = {
 	construction_time = very_slow_construction_time
 	effect_desc = longhouses_effect_desc
@@ -3129,7 +3161,9 @@ elven_warded_passages_07 = {
 }
 
 
-### Cavern Fletchers ###
+# ============================================================
+# Cavern Fletchers
+# ============================================================
 elven_cavern_fletchers_01 = {
 	construction_time = very_slow_construction_time
 	effect_desc = longhouses_effect_desc
@@ -3415,7 +3449,9 @@ elven_cavern_fletchers_07 = {
 }
 
 
-### ELVEN UNDERGROUND FORTIFICATIONS ###
+# ============================================================
+# ELVEN UNDERGROUND FORTIFICATIONS
+# ============================================================
 # Seven-level defensive line for elven_hall holdings.
 # Built around guarded passages, sealed gates, warded chambers, and defensible chokepoints.
 

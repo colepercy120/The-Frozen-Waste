@@ -1,6 +1,6 @@
-﻿############################################################
-##### UMLI CHARACTER LINES - 6700 TO 7200 ###################
-############################################################
+﻿# ============================================================
+# UMLI CHARACTER LINES - 6700 TO 7200
+# ============================================================
 # Culture: umli
 # Faith: faith_khazad
 # Base-stat total (diplomacy + martial + stewardship +
@@ -9,23 +9,23 @@
 # - most characters use trait = dwarf for stature
 # - lifespans are generated on ordinary human scales
 # - no long-lived/dwarven lifespan treatment is used
-#
+# ============================================================
 # Five principal dynastic lines:
 # 1. House Motsognir   - ROYAL LINE
 # 2. House Dvalin
 # 3. House Brokkr
 # 4. House Andvari
 # 5. House Nori
-#
+# ============================================================
 # Main-line couples have 2-4 children.
 # Most spouses are lowborn Umli; a small number of marriages
 # intentionally intermingle the five houses.
-############################################################
+# ============================================================
 
 
-############################################################
-##### HOUSE MOTSOGNIR - ROYAL LINE #####
-############################################################
+# ============================================================
+# HOUSE MOTSOGNIR - ROYAL LINE
+# ============================================================
 
 tfw_lineofumli_motsognir_001 = { # Founder; ROYAL LINE
 	name = tfw_lineofumli_motsognir_001_name
@@ -92,7 +92,9 @@ tfw_lineoflowborn_umli_001 = { # Lowborn spouse of Sindri
 }
 
 
-### Generation 1 ###
+# ============================================================
+# Generation 1
+# ============================================================
 
 tfw_lineofumli_motsognir_002 = { # Generation 1 continuation
 	name = tfw_lineofumli_motsognir_002_name
@@ -229,8 +231,9 @@ tfw_lineofumli_motsognir_004 = { # Generation 1 sibling
 }
 
 
-
-### Generation 2 ###
+# ============================================================
+# Generation 2
+# ============================================================
 
 tfw_lineofumli_motsognir_005 = { # Generation 2 continuation
 	name = tfw_lineofumli_motsognir_005_name
@@ -367,8 +370,9 @@ tfw_lineofumli_motsognir_007 = { # Generation 2 sibling
 }
 
 
-
-### Generation 3 ###
+# ============================================================
+# Generation 3
+# ============================================================
 
 tfw_lineofumli_motsognir_008 = { # Generation 3 continuation
 	name = tfw_lineofumli_motsognir_008_name
@@ -537,8 +541,9 @@ tfw_lineofumli_motsognir_011 = { # Generation 3 sibling
 }
 
 
-
-### Generation 4 ###
+# ============================================================
+# Generation 4
+# ============================================================
 
 tfw_lineofumli_motsognir_012 = { # Generation 4 continuation
 	name = tfw_lineofumli_motsognir_012_name
@@ -611,8 +616,9 @@ tfw_lineofumli_motsognir_013 = { # Generation 4 sibling
 }
 
 
-
-### Generation 5 ###
+# ============================================================
+# Generation 5
+# ============================================================
 
 tfw_lineofumli_motsognir_014 = { # Generation 5 continuation
 	name = tfw_lineofumli_motsognir_014_name
@@ -782,8 +788,9 @@ tfw_lineofumli_motsognir_017 = { # Generation 5 sibling
 }
 
 
-
-### Generation 6 ###
+# ============================================================
+# Generation 6
+# ============================================================
 
 tfw_lineofumli_motsognir_018 = { # Generation 6 continuation
 	name = tfw_lineofumli_motsognir_018_name
@@ -886,8 +893,9 @@ tfw_lineofumli_motsognir_019 = { # Generation 6 sibling
 }
 
 
-
-### Generation 7 ###
+# ============================================================
+# Generation 7
+# ============================================================
 
 tfw_lineofumli_motsognir_020 = { # Generation 7 continuation
 	name = tfw_lineofumli_motsognir_020_name
@@ -1058,8 +1066,9 @@ tfw_lineofumli_motsognir_023 = { # Generation 7 sibling
 }
 
 
-
-### Generation 8 ###
+# ============================================================
+# Generation 8
+# ============================================================
 
 tfw_lineofumli_motsognir_024 = { # Generation 8 continuation
 	name = tfw_lineofumli_motsognir_024_name
@@ -1162,8 +1171,9 @@ tfw_lineofumli_motsognir_025 = { # Generation 8 sibling; spouse into House Nori
 }
 
 
-
-### Generation 9 ###
+# ============================================================
+# Generation 9
+# ============================================================
 
 tfw_lineofumli_motsognir_026 = { # Generation 9 continuation
 	name = tfw_lineofumli_motsognir_026_name
@@ -1299,8 +1309,9 @@ tfw_lineofumli_motsognir_028 = { # Generation 9 sibling
 }
 
 
-
-### Generation 10 ###
+# ============================================================
+# Generation 10
+# ============================================================
 
 tfw_lineofumli_motsognir_029 = { # Generation 10 continuation
 	name = tfw_lineofumli_motsognir_029_name
@@ -1436,8 +1447,9 @@ tfw_lineofumli_motsognir_031 = { # Generation 10 sibling
 }
 
 
-
-### Generation 11 ###
+# ============================================================
+# Generation 11
+# ============================================================
 
 tfw_lineofumli_motsognir_032 = { # Generation 11 continuation
 	name = tfw_lineofumli_motsognir_032_name
@@ -1574,8 +1586,9 @@ tfw_lineofumli_motsognir_034 = { # Generation 11 sibling
 }
 
 
-
-### Generation 12 ###
+# ============================================================
+# Generation 12
+# ============================================================
 
 tfw_lineofumli_motsognir_035 = { # Generation 12 continuation
 	name = tfw_lineofumli_motsognir_035_name
@@ -1710,8 +1723,9 @@ tfw_lineofumli_motsognir_037 = { # Generation 12 sibling
 }
 
 
-
-### Generation 13 ###
+# ============================================================
+# Generation 13
+# ============================================================
 
 tfw_lineofumli_motsognir_038 = { # Generation 13 continuation
 	name = tfw_lineofumli_motsognir_038_name
@@ -1880,8 +1894,9 @@ tfw_lineofumli_motsognir_041 = { # Generation 13 sibling
 }
 
 
-
-### Generation 14 ###
+# ============================================================
+# Generation 14
+# ============================================================
 
 tfw_lineofumli_motsognir_042 = { # Generation 14 continuation
 	name = tfw_lineofumli_motsognir_042_name
@@ -1954,8 +1969,9 @@ tfw_lineofumli_motsognir_043 = { # Generation 14 sibling
 }
 
 
-
-### Generation 15 ###
+# ============================================================
+# Generation 15
+# ============================================================
 
 tfw_lineofumli_motsognir_044 = { # Generation 15 continuation
 	name = tfw_lineofumli_motsognir_044_name
@@ -2051,8 +2067,9 @@ tfw_lineofumli_motsognir_045 = { # Generation 15 sibling
 }
 
 
-
-### Generation 16 ###
+# ============================================================
+# Generation 16
+# ============================================================
 
 tfw_lineofumli_motsognir_046 = { # Generation 16 continuation
 	name = tfw_lineofumli_motsognir_046_name
@@ -2173,8 +2190,9 @@ tfw_lineofumli_motsognir_048 = { # Generation 16 sibling
 }
 
 
-
-### Generation 17 ###
+# ============================================================
+# Generation 17
+# ============================================================
 
 tfw_lineofumli_motsognir_049 = { # Generation 17 continuation
 	name = tfw_lineofumli_motsognir_049_name
@@ -2294,9 +2312,9 @@ tfw_lineofumli_motsognir_052 = { # Generation 17 sibling
 }
 
 
-############################################################
-##### HOUSE DVALIN #####
-############################################################
+# ============================================================
+# HOUSE DVALIN
+# ============================================================
 
 tfw_lineofumli_dvalin_001 = { # Founder
 	name = tfw_lineofumli_dvalin_001_name
@@ -2363,7 +2381,9 @@ tfw_lineoflowborn_umli_016 = { # Lowborn spouse of Dvalin
 }
 
 
-### Generation 1 ###
+# ============================================================
+# Generation 1
+# ============================================================
 
 tfw_lineofumli_dvalin_002 = { # Generation 1 continuation
 	name = tfw_lineofumli_dvalin_002_name
@@ -2466,8 +2486,9 @@ tfw_lineofumli_dvalin_003 = { # Generation 1 sibling
 }
 
 
-
-### Generation 2 ###
+# ============================================================
+# Generation 2
+# ============================================================
 
 tfw_lineofumli_dvalin_004 = { # Generation 2 continuation
 	name = tfw_lineofumli_dvalin_004_name
@@ -2571,8 +2592,9 @@ tfw_lineofumli_dvalin_005 = { # Generation 2 sibling
 }
 
 
-
-### Generation 3 ###
+# ============================================================
+# Generation 3
+# ============================================================
 
 tfw_lineofumli_dvalin_006 = { # Generation 3 continuation
 	name = tfw_lineofumli_dvalin_006_name
@@ -2708,8 +2730,9 @@ tfw_lineofumli_dvalin_008 = { # Generation 3 sibling
 }
 
 
-
-### Generation 4 ###
+# ============================================================
+# Generation 4
+# ============================================================
 
 tfw_lineofumli_dvalin_009 = { # Generation 4 continuation
 	name = tfw_lineofumli_dvalin_009_name
@@ -2813,8 +2836,9 @@ tfw_lineofumli_dvalin_010 = { # Generation 4 sibling; spouse into House Motsogni
 }
 
 
-
-### Generation 5 ###
+# ============================================================
+# Generation 5
+# ============================================================
 
 tfw_lineofumli_dvalin_011 = { # Generation 5 continuation
 	name = tfw_lineofumli_dvalin_011_name
@@ -2983,8 +3007,9 @@ tfw_lineofumli_dvalin_014 = { # Generation 5 sibling
 }
 
 
-
-### Generation 6 ###
+# ============================================================
+# Generation 6
+# ============================================================
 
 tfw_lineofumli_dvalin_015 = { # Generation 6 continuation
 	name = tfw_lineofumli_dvalin_015_name
@@ -3121,8 +3146,9 @@ tfw_lineofumli_dvalin_017 = { # Generation 6 sibling
 }
 
 
-
-### Generation 7 ###
+# ============================================================
+# Generation 7
+# ============================================================
 
 tfw_lineofumli_dvalin_018 = { # Generation 7 continuation
 	name = tfw_lineofumli_dvalin_018_name
@@ -3293,8 +3319,9 @@ tfw_lineofumli_dvalin_021 = { # Generation 7 sibling
 }
 
 
-
-### Generation 8 ###
+# ============================================================
+# Generation 8
+# ============================================================
 
 tfw_lineofumli_dvalin_022 = { # Generation 8 continuation
 	name = tfw_lineofumli_dvalin_022_name
@@ -3430,8 +3457,9 @@ tfw_lineofumli_dvalin_024 = { # Generation 8 sibling
 }
 
 
-
-### Generation 9 ###
+# ============================================================
+# Generation 9
+# ============================================================
 
 tfw_lineofumli_dvalin_025 = { # Generation 9 continuation
 	name = tfw_lineofumli_dvalin_025_name
@@ -3568,8 +3596,9 @@ tfw_lineofumli_dvalin_027 = { # Generation 9 sibling
 }
 
 
-
-### Generation 10 ###
+# ============================================================
+# Generation 10
+# ============================================================
 
 tfw_lineofumli_dvalin_028 = { # Generation 10 continuation
 	name = tfw_lineofumli_dvalin_028_name
@@ -3642,8 +3671,9 @@ tfw_lineofumli_dvalin_029 = { # Generation 10 sibling
 }
 
 
-
-### Generation 11 ###
+# ============================================================
+# Generation 11
+# ============================================================
 
 tfw_lineofumli_dvalin_030 = { # Generation 11 continuation
 	name = tfw_lineofumli_dvalin_030_name
@@ -3779,8 +3809,9 @@ tfw_lineofumli_dvalin_032 = { # Generation 11 sibling
 }
 
 
-
-### Generation 12 ###
+# ============================================================
+# Generation 12
+# ============================================================
 
 tfw_lineofumli_dvalin_033 = { # Generation 12 continuation
 	name = tfw_lineofumli_dvalin_033_name
@@ -3918,8 +3949,9 @@ tfw_lineofumli_dvalin_035 = { # Generation 12 sibling
 }
 
 
-
-### Generation 13 ###
+# ============================================================
+# Generation 13
+# ============================================================
 
 tfw_lineofumli_dvalin_036 = { # Generation 13 continuation
 	name = tfw_lineofumli_dvalin_036_name
@@ -4055,8 +4087,9 @@ tfw_lineofumli_dvalin_038 = { # Generation 13 sibling
 }
 
 
-
-### Generation 14 ###
+# ============================================================
+# Generation 14
+# ============================================================
 
 tfw_lineofumli_dvalin_039 = { # Generation 14 continuation
 	name = tfw_lineofumli_dvalin_039_name
@@ -4192,8 +4225,9 @@ tfw_lineofumli_dvalin_041 = { # Generation 14 sibling
 }
 
 
-
-### Generation 15 ###
+# ============================================================
+# Generation 15
+# ============================================================
 
 tfw_lineofumli_dvalin_042 = { # Generation 15 continuation
 	name = tfw_lineofumli_dvalin_042_name
@@ -4289,8 +4323,9 @@ tfw_lineofumli_dvalin_043 = { # Generation 15 sibling
 }
 
 
-
-### Generation 16 ###
+# ============================================================
+# Generation 16
+# ============================================================
 
 tfw_lineofumli_dvalin_044 = { # Generation 16 continuation
 	name = tfw_lineofumli_dvalin_044_name
@@ -4410,8 +4445,9 @@ tfw_lineofumli_dvalin_046 = { # Generation 16 sibling
 }
 
 
-
-### Generation 17 ###
+# ============================================================
+# Generation 17
+# ============================================================
 
 tfw_lineofumli_dvalin_047 = { # Generation 17 continuation
 	name = tfw_lineofumli_dvalin_047_name
@@ -4531,9 +4567,9 @@ tfw_lineofumli_dvalin_050 = { # Generation 17 sibling
 }
 
 
-############################################################
-##### HOUSE BROKKR #####
-############################################################
+# ============================================================
+# HOUSE BROKKR
+# ============================================================
 
 tfw_lineofumli_brokkr_001 = { # Founder
 	name = tfw_lineofumli_brokkr_001_name
@@ -4600,7 +4636,9 @@ tfw_lineoflowborn_umli_032 = { # Lowborn spouse of Brokkr
 }
 
 
-### Generation 1 ###
+# ============================================================
+# Generation 1
+# ============================================================
 
 tfw_lineofumli_brokkr_002 = { # Generation 1 continuation
 	name = tfw_lineofumli_brokkr_002_name
@@ -4734,8 +4772,9 @@ tfw_lineofumli_brokkr_004 = { # Generation 1 sibling
 }
 
 
-
-### Generation 2 ###
+# ============================================================
+# Generation 2
+# ============================================================
 
 tfw_lineofumli_brokkr_005 = { # Generation 2 continuation
 	name = tfw_lineofumli_brokkr_005_name
@@ -4871,8 +4910,9 @@ tfw_lineofumli_brokkr_007 = { # Generation 2 sibling
 }
 
 
-
-### Generation 3 ###
+# ============================================================
+# Generation 3
+# ============================================================
 
 tfw_lineofumli_brokkr_008 = { # Generation 3 continuation
 	name = tfw_lineofumli_brokkr_008_name
@@ -5009,8 +5049,9 @@ tfw_lineofumli_brokkr_010 = { # Generation 3 sibling
 }
 
 
-
-### Generation 4 ###
+# ============================================================
+# Generation 4
+# ============================================================
 
 tfw_lineofumli_brokkr_011 = { # Generation 4 continuation
 	name = tfw_lineofumli_brokkr_011_name
@@ -5146,8 +5187,9 @@ tfw_lineofumli_brokkr_013 = { # Generation 4 sibling
 }
 
 
-
-### Generation 5 ###
+# ============================================================
+# Generation 5
+# ============================================================
 
 tfw_lineofumli_brokkr_014 = { # Generation 5 continuation
 	name = tfw_lineofumli_brokkr_014_name
@@ -5289,8 +5331,9 @@ tfw_lineofumli_brokkr_017 = { # Generation 5 sibling
 }
 
 
-
-### Generation 6 ###
+# ============================================================
+# Generation 6
+# ============================================================
 
 tfw_lineofumli_brokkr_018 = { # Generation 6 continuation
 	name = tfw_lineofumli_brokkr_018_name
@@ -5460,8 +5503,9 @@ tfw_lineofumli_brokkr_021 = { # Generation 6 sibling
 }
 
 
-
-### Generation 7 ###
+# ============================================================
+# Generation 7
+# ============================================================
 
 tfw_lineofumli_brokkr_022 = { # Generation 7 continuation
 	name = tfw_lineofumli_brokkr_022_name
@@ -5597,8 +5641,9 @@ tfw_lineofumli_brokkr_024 = { # Generation 7 sibling
 }
 
 
-
-### Generation 8 ###
+# ============================================================
+# Generation 8
+# ============================================================
 
 tfw_lineofumli_brokkr_025 = { # Generation 8 continuation
 	name = tfw_lineofumli_brokkr_025_name
@@ -5701,8 +5746,9 @@ tfw_lineofumli_brokkr_026 = { # Generation 8 sibling
 }
 
 
-
-### Generation 9 ###
+# ============================================================
+# Generation 9
+# ============================================================
 
 tfw_lineofumli_brokkr_027 = { # Generation 9 continuation
 	name = tfw_lineofumli_brokkr_027_name
@@ -5839,8 +5885,9 @@ tfw_lineofumli_brokkr_029 = { # Generation 9 sibling
 }
 
 
-
-### Generation 10 ###
+# ============================================================
+# Generation 10
+# ============================================================
 
 tfw_lineofumli_brokkr_030 = { # Generation 10 continuation
 	name = tfw_lineofumli_brokkr_030_name
@@ -5976,8 +6023,9 @@ tfw_lineofumli_brokkr_032 = { # Generation 10 sibling
 }
 
 
-
-### Generation 11 ###
+# ============================================================
+# Generation 11
+# ============================================================
 
 tfw_lineofumli_brokkr_033 = { # Generation 11 continuation
 	name = tfw_lineofumli_brokkr_033_name
@@ -6080,8 +6128,9 @@ tfw_lineofumli_brokkr_034 = { # Generation 11 sibling
 }
 
 
-
-### Generation 12 ###
+# ============================================================
+# Generation 12
+# ============================================================
 
 tfw_lineofumli_brokkr_035 = { # Generation 12 continuation
 	name = tfw_lineofumli_brokkr_035_name
@@ -6185,8 +6234,9 @@ tfw_lineofumli_brokkr_036 = { # Generation 12 sibling
 }
 
 
-
-### Generation 13 ###
+# ============================================================
+# Generation 13
+# ============================================================
 
 tfw_lineofumli_brokkr_037 = { # Generation 13 continuation
 	name = tfw_lineofumli_brokkr_037_name
@@ -6356,8 +6406,9 @@ tfw_lineofumli_brokkr_040 = { # Generation 13 sibling
 }
 
 
-
-### Generation 14 ###
+# ============================================================
+# Generation 14
+# ============================================================
 
 tfw_lineofumli_brokkr_041 = { # Generation 14 continuation
 	name = tfw_lineofumli_brokkr_041_name
@@ -6495,8 +6546,9 @@ tfw_lineofumli_brokkr_043 = { # Generation 14 sibling
 }
 
 
-
-### Generation 15 ###
+# ============================================================
+# Generation 15
+# ============================================================
 
 tfw_lineofumli_brokkr_044 = { # Generation 15 continuation
 	name = tfw_lineofumli_brokkr_044_name
@@ -6629,8 +6681,9 @@ tfw_lineofumli_brokkr_046 = { # Generation 15 sibling
 }
 
 
-
-### Generation 16 ###
+# ============================================================
+# Generation 16
+# ============================================================
 
 tfw_lineofumli_brokkr_047 = { # Generation 16 continuation
 	name = tfw_lineofumli_brokkr_047_name
@@ -6751,8 +6804,9 @@ tfw_lineofumli_brokkr_049 = { # Generation 16 sibling
 }
 
 
-
-### Generation 17 ###
+# ============================================================
+# Generation 17
+# ============================================================
 
 tfw_lineofumli_brokkr_050 = { # Generation 17 continuation
 	name = tfw_lineofumli_brokkr_050_name
@@ -6843,9 +6897,9 @@ tfw_lineofumli_brokkr_052 = { # Generation 17 sibling
 }
 
 
-############################################################
-##### HOUSE ANDVARI #####
-############################################################
+# ============================================================
+# HOUSE ANDVARI
+# ============================================================
 
 tfw_lineofumli_andvari_001 = { # Founder
 	name = tfw_lineofumli_andvari_001_name
@@ -6912,7 +6966,9 @@ tfw_lineoflowborn_umli_048 = { # Lowborn spouse of Andvari
 }
 
 
-### Generation 1 ###
+# ============================================================
+# Generation 1
+# ============================================================
 
 tfw_lineofumli_andvari_002 = { # Generation 1 continuation
 	name = tfw_lineofumli_andvari_002_name
@@ -7049,8 +7105,9 @@ tfw_lineofumli_andvari_004 = { # Generation 1 sibling
 }
 
 
-
-### Generation 2 ###
+# ============================================================
+# Generation 2
+# ============================================================
 
 tfw_lineofumli_andvari_005 = { # Generation 2 continuation
 	name = tfw_lineofumli_andvari_005_name
@@ -7186,8 +7243,9 @@ tfw_lineofumli_andvari_007 = { # Generation 2 sibling
 }
 
 
-
-### Generation 3 ###
+# ============================================================
+# Generation 3
+# ============================================================
 
 tfw_lineofumli_andvari_008 = { # Generation 3 continuation
 	name = tfw_lineofumli_andvari_008_name
@@ -7323,8 +7381,9 @@ tfw_lineofumli_andvari_010 = { # Generation 3 sibling
 }
 
 
-
-### Generation 4 ###
+# ============================================================
+# Generation 4
+# ============================================================
 
 tfw_lineofumli_andvari_011 = { # Generation 4 continuation
 	name = tfw_lineofumli_andvari_011_name
@@ -7495,8 +7554,9 @@ tfw_lineofumli_andvari_014 = { # Generation 4 sibling
 }
 
 
-
-### Generation 5 ###
+# ============================================================
+# Generation 5
+# ============================================================
 
 tfw_lineofumli_andvari_015 = { # Generation 5 continuation
 	name = tfw_lineofumli_andvari_015_name
@@ -7634,8 +7694,9 @@ tfw_lineofumli_andvari_017 = { # Generation 5 sibling
 }
 
 
-
-### Generation 6 ###
+# ============================================================
+# Generation 6
+# ============================================================
 
 tfw_lineofumli_andvari_018 = { # Generation 6 continuation
 	name = tfw_lineofumli_andvari_018_name
@@ -7772,8 +7833,9 @@ tfw_lineofumli_andvari_020 = { # Generation 6 sibling
 }
 
 
-
-### Generation 7 ###
+# ============================================================
+# Generation 7
+# ============================================================
 
 tfw_lineofumli_andvari_021 = { # Generation 7 continuation
 	name = tfw_lineofumli_andvari_021_name
@@ -7877,8 +7939,9 @@ tfw_lineofumli_andvari_022 = { # Generation 7 sibling
 }
 
 
-
-### Generation 8 ###
+# ============================================================
+# Generation 8
+# ============================================================
 
 tfw_lineofumli_andvari_023 = { # Generation 8 continuation
 	name = tfw_lineofumli_andvari_023_name
@@ -8015,8 +8078,9 @@ tfw_lineofumli_andvari_025 = { # Generation 8 sibling
 }
 
 
-
-### Generation 9 ###
+# ============================================================
+# Generation 9
+# ============================================================
 
 tfw_lineofumli_andvari_026 = { # Generation 9 continuation
 	name = tfw_lineofumli_andvari_026_name
@@ -8150,8 +8214,9 @@ tfw_lineofumli_andvari_028 = { # Generation 9 sibling
 }
 
 
-
-### Generation 10 ###
+# ============================================================
+# Generation 10
+# ============================================================
 
 tfw_lineofumli_andvari_029 = { # Generation 10 continuation
 	name = tfw_lineofumli_andvari_029_name
@@ -8322,8 +8387,9 @@ tfw_lineofumli_andvari_032 = { # Generation 10 sibling
 }
 
 
-
-### Generation 11 ###
+# ============================================================
+# Generation 11
+# ============================================================
 
 tfw_lineofumli_andvari_033 = { # Generation 11 continuation
 	name = tfw_lineofumli_andvari_033_name
@@ -8460,8 +8526,9 @@ tfw_lineofumli_andvari_035 = { # Generation 11 sibling
 }
 
 
-
-### Generation 12 ###
+# ============================================================
+# Generation 12
+# ============================================================
 
 tfw_lineofumli_andvari_036 = { # Generation 12 continuation
 	name = tfw_lineofumli_andvari_036_name
@@ -8533,8 +8600,9 @@ tfw_lineofumli_andvari_037 = { # Generation 12 sibling
 }
 
 
-
-### Generation 13 ###
+# ============================================================
+# Generation 13
+# ============================================================
 
 tfw_lineofumli_andvari_038 = { # Generation 13 continuation
 	name = tfw_lineofumli_andvari_038_name
@@ -8671,8 +8739,9 @@ tfw_lineofumli_andvari_040 = { # Generation 13 sibling
 }
 
 
-
-### Generation 14 ###
+# ============================================================
+# Generation 14
+# ============================================================
 
 tfw_lineofumli_andvari_041 = { # Generation 14 continuation
 	name = tfw_lineofumli_andvari_041_name
@@ -8808,8 +8877,9 @@ tfw_lineofumli_andvari_043 = { # Generation 14 sibling
 }
 
 
-
-### Generation 15 ###
+# ============================================================
+# Generation 15
+# ============================================================
 
 tfw_lineofumli_andvari_044 = { # Generation 15 continuation
 	name = tfw_lineofumli_andvari_044_name
@@ -8943,8 +9013,9 @@ tfw_lineofumli_andvari_046 = { # Generation 15 sibling
 }
 
 
-
-### Generation 16 ###
+# ============================================================
+# Generation 16
+# ============================================================
 
 tfw_lineofumli_andvari_047 = { # Generation 16 continuation
 	name = tfw_lineofumli_andvari_047_name
@@ -9064,8 +9135,9 @@ tfw_lineofumli_andvari_049 = { # Generation 16 sibling
 }
 
 
-
-### Generation 17 ###
+# ============================================================
+# Generation 17
+# ============================================================
 
 tfw_lineofumli_andvari_050 = { # Generation 17 continuation
 	name = tfw_lineofumli_andvari_050_name
@@ -9186,9 +9258,9 @@ tfw_lineofumli_andvari_053 = { # Generation 17 sibling
 }
 
 
-############################################################
-##### HOUSE NORI #####
-############################################################
+# ============================================================
+# HOUSE NORI
+# ============================================================
 
 tfw_lineofumli_nori_001 = { # Founder
 	name = tfw_lineofumli_nori_001_name
@@ -9255,7 +9327,9 @@ tfw_lineoflowborn_umli_064 = { # Lowborn spouse of Nori
 }
 
 
-### Generation 1 ###
+# ============================================================
+# Generation 1
+# ============================================================
 
 tfw_lineofumli_nori_002 = { # Generation 1 continuation
 	name = tfw_lineofumli_nori_002_name
@@ -9424,8 +9498,9 @@ tfw_lineofumli_nori_005 = { # Generation 1 sibling
 }
 
 
-
-### Generation 2 ###
+# ============================================================
+# Generation 2
+# ============================================================
 
 tfw_lineofumli_nori_006 = { # Generation 2 continuation
 	name = tfw_lineofumli_nori_006_name
@@ -9596,8 +9671,9 @@ tfw_lineofumli_nori_009 = { # Generation 2 sibling
 }
 
 
-
-### Generation 3 ###
+# ============================================================
+# Generation 3
+# ============================================================
 
 tfw_lineofumli_nori_010 = { # Generation 3 continuation
 	name = tfw_lineofumli_nori_010_name
@@ -9734,8 +9810,9 @@ tfw_lineofumli_nori_012 = { # Generation 3 sibling
 }
 
 
-
-### Generation 4 ###
+# ============================================================
+# Generation 4
+# ============================================================
 
 tfw_lineofumli_nori_013 = { # Generation 4 continuation
 	name = tfw_lineofumli_nori_013_name
@@ -9871,8 +9948,9 @@ tfw_lineofumli_nori_015 = { # Generation 4 sibling
 }
 
 
-
-### Generation 5 ###
+# ============================================================
+# Generation 5
+# ============================================================
 
 tfw_lineofumli_nori_016 = { # Generation 5 continuation
 	name = tfw_lineofumli_nori_016_name
@@ -9975,8 +10053,9 @@ tfw_lineofumli_nori_017 = { # Generation 5 sibling
 }
 
 
-
-### Generation 6 ###
+# ============================================================
+# Generation 6
+# ============================================================
 
 tfw_lineofumli_nori_018 = { # Generation 6 continuation
 	name = tfw_lineofumli_nori_018_name
@@ -10112,8 +10191,9 @@ tfw_lineofumli_nori_020 = { # Generation 6 sibling
 }
 
 
-
-### Generation 7 ###
+# ============================================================
+# Generation 7
+# ============================================================
 
 tfw_lineofumli_nori_021 = { # Generation 7 continuation
 	name = tfw_lineofumli_nori_021_name
@@ -10215,8 +10295,9 @@ tfw_lineofumli_nori_022 = { # Generation 7 sibling
 }
 
 
-
-### Generation 8 ###
+# ============================================================
+# Generation 8
+# ============================================================
 
 tfw_lineofumli_nori_023 = { # Generation 8 continuation
 	name = tfw_lineofumli_nori_023_name
@@ -10290,8 +10371,9 @@ tfw_lineofumli_nori_024 = { # Generation 8 sibling
 }
 
 
-
-### Generation 9 ###
+# ============================================================
+# Generation 9
+# ============================================================
 
 tfw_lineofumli_nori_025 = { # Generation 9 continuation
 	name = tfw_lineofumli_nori_025_name
@@ -10428,8 +10510,9 @@ tfw_lineofumli_nori_027 = { # Generation 9 sibling
 }
 
 
-
-### Generation 10 ###
+# ============================================================
+# Generation 10
+# ============================================================
 
 tfw_lineofumli_nori_028 = { # Generation 10 continuation
 	name = tfw_lineofumli_nori_028_name
@@ -10564,8 +10647,9 @@ tfw_lineofumli_nori_030 = { # Generation 10 sibling
 }
 
 
-
-### Generation 11 ###
+# ============================================================
+# Generation 11
+# ============================================================
 
 tfw_lineofumli_nori_031 = { # Generation 11 continuation
 	name = tfw_lineofumli_nori_031_name
@@ -10668,8 +10752,9 @@ tfw_lineofumli_nori_032 = { # Generation 11 sibling
 }
 
 
-
-### Generation 12 ###
+# ============================================================
+# Generation 12
+# ============================================================
 
 tfw_lineofumli_nori_033 = { # Generation 12 continuation
 	name = tfw_lineofumli_nori_033_name
@@ -10806,8 +10891,9 @@ tfw_lineofumli_nori_035 = { # Generation 12 sibling
 }
 
 
-
-### Generation 13 ###
+# ============================================================
+# Generation 13
+# ============================================================
 
 tfw_lineofumli_nori_036 = { # Generation 13 continuation
 	name = tfw_lineofumli_nori_036_name
@@ -10944,8 +11030,9 @@ tfw_lineofumli_nori_038 = { # Generation 13 sibling
 }
 
 
-
-### Generation 14 ###
+# ============================================================
+# Generation 14
+# ============================================================
 
 tfw_lineofumli_nori_039 = { # Generation 14 continuation
 	name = tfw_lineofumli_nori_039_name
@@ -11081,8 +11168,9 @@ tfw_lineofumli_nori_041 = { # Generation 14 sibling
 }
 
 
-
-### Generation 15 ###
+# ============================================================
+# Generation 15
+# ============================================================
 
 tfw_lineofumli_nori_042 = { # Generation 15 continuation
 	name = tfw_lineofumli_nori_042_name
@@ -11241,8 +11329,9 @@ tfw_lineofumli_nori_045 = { # Generation 15 sibling
 }
 
 
-
-### Generation 16 ###
+# ============================================================
+# Generation 16
+# ============================================================
 
 tfw_lineofumli_nori_046 = { # Generation 16 continuation
 	name = tfw_lineofumli_nori_046_name
@@ -11363,8 +11452,9 @@ tfw_lineofumli_nori_048 = { # Generation 16 sibling
 }
 
 
-
-### Generation 17 ###
+# ============================================================
+# Generation 17
+# ============================================================
 
 tfw_lineofumli_nori_049 = { # Generation 17 continuation
 	name = tfw_lineofumli_nori_049_name

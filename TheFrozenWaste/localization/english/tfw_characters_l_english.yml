@@ -4,7 +4,9 @@
 # Unquoted source names are preserved through localization aliases (SOURCE_KEY).
 
 
-### tfw_adlantrim_characters.txt
+# ============================================================
+# tfw_adlantrim_characters.txt
+# ============================================================
  tfw_lineofadlantrim_mornaer_001_name: "Talanthir"
  tfw_lineofadlantrim_mornaer_002_name: "Lindissee"
  tfw_lineofadlantrim_mornaer_003_name: "Elulindo"
@@ -683,7 +685,9 @@
  tfw_lineofadlantrim_emelvar_012_name: "Ilinsor"
  tfw_lineofadlantrim_emelvar_013_name: "Tirneldor"
 
-### tfw_angmarrim_characters.txt
+# ============================================================
+# tfw_angmarrim_characters.txt
+# ============================================================
  tfw_lineofveikko_001_name: "Kotarikko"
  tfw_lineoflowborn_angmarrim_001_name: "Tuulikki"
  tfw_lineofveikko_002_name: "Leinikka"
@@ -1451,7 +1455,9 @@
  tfw_lineoferkki_199_name: "Ilmatar"
  tfw_lineoferkki_200_name: "Lauri"
 
-### tfw_dwarf_characters.txt
+# ============================================================
+# tfw_dwarf_characters.txt
+# ============================================================
  tfw_lineofsindri_001_name: "Thriis"
  tfw_lineofsindri_002_name: "Eitri"
  tfw_lineofnidavellir_zharakh_001_name: "Dholga"
@@ -1541,7 +1547,9 @@
  tfw_lineofnidavellir_barukhan_012_name: "Uvaril"
  tfw_lineofnidavellir_barukhan_013_name: "Gour"
 
-### tfw_elven_maiar_characters.txt
+# ============================================================
+# tfw_elven_maiar_characters.txt
+# ============================================================
  tfw_lineofnixni_001_name: "Nixní"
  tfw_lineoffeanor_001_name: "Vorwen"
  tfw_lineoffeanor_002_name: "Calion"
@@ -1789,7 +1797,9 @@
  tfw_lineofhwenti_lethwin_007_name: "Kwiwi"
  tfw_lineofhwenti_lethwin_008_name: "Kwieth"
 
-### tfw_forodain_characters.txt
+# ============================================================
+# tfw_forodain_characters.txt
+# ============================================================
  tfw_lineofnaethor_001_name: "Tervain"
  tfw_lineoflowborn_forodain_001_name: "Orvaeth"
  tfw_lineofnaethor_002_name: "Arweniel"
@@ -2056,7 +2066,9 @@
  tfw_lineofheorwulf_018_name: "Beorric"
  tfw_lineofheorwulf_019_name: "Hildric"
 
-### tfw_gauredain_characters.txt
+# ============================================================
+# tfw_gauredain_characters.txt
+# ============================================================
  tfw_lineofgauredain_waithor_001_name: "Dawor"
  tfw_lineofgauredain_waithor_002_name: "Innis"
  tfw_lineofgauredain_waithor_003_name: "Menthor"
@@ -2132,7 +2144,9 @@
  tfw_lineofgauredain_waithor_073_name: "Innis"
  tfw_lineofgauredain_waithor_074_name: "Anes"
 
-### tfw_lossoth_characters.txt
+# ============================================================
+# tfw_lossoth_characters.txt
+# ============================================================
  tfw_lineoffc_kuusivaara_001_name: "Suvi"
  tfw_lineoffc_kuusivaara_002_name: "Suvi"
  tfw_lineoffc_kuusivaara_003_name: "Arijoutsi"
@@ -2538,7 +2552,9 @@
  tfw_lineoffc_kuurto_007_name: "Kotarikko"
  tfw_lineoffc_kuurto_008_name: "Kukka"
 
-### tfw_snow_orc_characters.txt
+# ============================================================
+# tfw_snow_orc_characters.txt
+# ============================================================
  tfw_lineofsnoworc_ash_tusk_001_name: "Morgaoz"
  tfw_lineofsnoworc_ash_tusk_002_name: "Ghashrak"
  tfw_lineofsnoworc_ash_tusk_003_name: "Mazgaush"
@@ -3793,7 +3809,9 @@
  tfw_lineoflowborn_snow_orcs_1124_name: "Durbakh"
  tfw_lineoflowborn_snow_orcs_1125_name: "Morga799"
 
-### tfw_umli_characters.txt
+# ============================================================
+# tfw_umli_characters.txt
+# ============================================================
  tfw_lineofumli_motsognir_001_name: "Sindri"
  tfw_lineoflowborn_umli_001_name: "Ragnhild"
  tfw_lineofumli_motsognir_002_name: "Regin"
@@ -4132,9 +4150,11 @@
  tfw_lineofumli_nori_050_name: "Bofur"
  tfw_lineofumli_nori_051_name: "Hepti"
  tfw_lineofumli_nori_052_name: "Durin"
- 
- ### LLAMPS
- 
+
+ # ============================================================
+ # LLAMPS
+ # ============================================================
+
  tfw_landless_northern_wardens_001_name: "Aracáno"
  tfw_landless_santas_elves_001_name: "Hirilas"
  tfw_vanyar_vorondil_001_name: "Vorondil"

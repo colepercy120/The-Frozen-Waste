@@ -7,21 +7,21 @@
 
 	target_type = title
 	target_filter = actor_domain_titles
-	
+
 	auto_accept = yes
 
 	is_shown = {
 		scope:actor = {
 			this = scope:recipient
 			NOR = {
-				#government_has_flag = government_is_tribal
+				# government_has_flag = government_is_tribal
 				government_has_flag = government_is_elven
 				government_has_flag = government_is_hobbit
 			}
 
 		}
 	}
-	
+
 	can_be_picked_title = {
 		scope:target = {
 			holder = scope:actor
@@ -31,7 +31,7 @@
 				title_province = {
 					terrain = halls
 					OR = {
-						#has_holding_type = tribal_holding
+						# has_holding_type = tribal_holding
 						has_holding_type = elven_holding
 						has_holding_type = elven_hall_holding
 						has_holding_type = settlement_holding
@@ -44,12 +44,12 @@
 					always = no
 				}
 			}
-			#trigger_if = {
-			#	limit = {
-			#		title_province = { terrain = halls }
-			#	}
-			#	NOT = { is_dwarf = yes }
-			#}
+			# trigger_if = {
+			# limit = {
+			# title_province = { terrain = halls }
+			# }
+			# NOT = { is_dwarf = yes }
+			# }
 		}
 	}
 
@@ -72,11 +72,11 @@
 				}
 				custom_tooltip = {
 					text = blockers_remain_in_settlement
-					title_province = { 
-						has_building_with_flag = { 
-							flag = obstacle 
-							count = 0 
-						} 
+					title_province = {
+						has_building_with_flag = {
+							flag = obstacle
+							count = 0
+						}
 					}
 				}
 				development_level >= 3
@@ -87,24 +87,24 @@
 			}
 		}
 		# scope:target = {
-		# 	trigger_if = {
-		# 		limit = { 
-		# 			title_province = { has_holding_type = elven_holding }
-		# 		}
-		# 		custom_tooltip = {
-		# 			text = county_must_not_be_elven_culture_to_feudalize_to_castle
-		# 			title_province = {
-		# 				NOT = { is_elf = yes }
-		# 			}
-		# 		}
-		# 	}
+		# trigger_if = {
+		# limit = {
+		# title_province = { has_holding_type = elven_holding }
+		# }
+		# custom_tooltip = {
+		# text = county_must_not_be_elven_culture_to_feudalize_to_castle
+		# title_province = {
+		# NOT = { is_elf = yes }
+		# }
+		# }
+		# }
 		# }
 	}
 
 	cost = {
 		gold = {
 			value = 0
-			
+
 			if = {
 				limit = { scope:actor = { is_ai = no } }
 				add = feudalize_tribal_holding_interaction_cost
@@ -129,7 +129,7 @@
 			send_interface_toast = {
 				title = feudalize_into_castle_holding_interaction_notification
 
-				right_icon = scope:actor					
+				right_icon = scope:actor
 
 				if = {
 					limit = { exists = scope:target.title_province }
@@ -139,9 +139,9 @@
 					scope:target = { set_color_from_title = scope:target.de_jure_liege }
 				}
 			}
-			if = { 
-				limit = { 
-					has_variable = num_settled_wilderness 
+			if = {
+				limit = {
+					has_variable = num_settled_wilderness
 					var:num_settled_wilderness > 0
 				}
 				decrease_variable = {
@@ -168,7 +168,7 @@ settle_elven_holding_interaction = {
 
 	target_type = title
 	target_filter = actor_domain_titles
-	
+
 	auto_accept = yes
 
 	is_shown = {
@@ -177,7 +177,7 @@ settle_elven_holding_interaction = {
 			government_has_flag = government_is_elven
 		}
 	}
-	
+
 	can_be_picked_title = {
 		scope:target = {
 			holder = scope:actor
@@ -221,11 +221,11 @@ settle_elven_holding_interaction = {
 				}
 				custom_tooltip = {
 					text = blockers_remain_in_settlement
-					title_province = { 
-						has_building_with_flag = { 
-							flag = obstacle 
-							count = 0 
-						} 
+					title_province = {
+						has_building_with_flag = {
+							flag = obstacle
+							count = 0
+						}
 					}
 				}
 				development_level >= 3
@@ -236,32 +236,32 @@ settle_elven_holding_interaction = {
 			}
 		}
 		# scope:target = {
-		# 	trigger_if = {
-		# 		limit = { 
-		# 			title_province = { NOT = { has_holding_type = elven_holding } }
-		# 		}
-		# 		custom_tooltip = {
-		# 			text = county_must_be_elven_culture_to_convert_to_elven_refuge
-		# 			title_province = {
-		# 				is_elf = yes
-		# 			}
-		# 		}
-		# 	}
+		# trigger_if = {
+		# limit = {
+		# title_province = { NOT = { has_holding_type = elven_holding } }
+		# }
+		# custom_tooltip = {
+		# text = county_must_be_elven_culture_to_convert_to_elven_refuge
+		# title_province = {
+		# is_elf = yes
+		# }
+		# }
+		# }
 		# }
 	}
 
-	cost = { 
+	cost = {
 		gold = {
-			value = 0 
-			
+			value = 0
+
 			if = {
 				limit = { scope:actor = { is_ai = no }}
 				add = settle_settlement_holding_interaction_cost
 			}
-		} 
+		}
 		piety = {
 			value = 0
-			
+
 			if = {
 				limit = { scope:actor = { is_ai = no }}
 				add = settle_settlement_holding_interaction_cost
@@ -275,7 +275,7 @@ settle_elven_holding_interaction = {
 			send_interface_toast = {
 				title = settle_elven_holding_interaction_notification
 
-				right_icon = scope:actor					
+				right_icon = scope:actor
 
 				if = {
 					limit = { exists = scope:target.title_province }
@@ -299,7 +299,7 @@ settle_elven_holding_interaction = {
 			}
 		}
 		scope:actor = {
-			if = { 
+			if = {
 				limit = {
 					has_variable = num_settled_wilderness
 					var:num_settled_wilderness > 0
@@ -328,7 +328,7 @@ feudalize_into_castle_holding_interaction = {
 
 	target_type = title
 	target_filter = actor_domain_titles
-	
+
 	auto_accept = yes
 
 	is_shown = {
@@ -342,7 +342,7 @@ feudalize_into_castle_holding_interaction = {
 
 		}
 	}
-	
+
 	can_be_picked_title = {
 		scope:target = {
 			holder = scope:actor
@@ -351,7 +351,7 @@ feudalize_into_castle_holding_interaction = {
 				limit = { tier <= tier_county }
 				title_province = {
 					NOR = { terrain = halls }
-					#terrain = halls
+					# terrain = halls
 					OR = {
 						# has_holding_type = tribal_holding
 						has_holding_type = elven_holding
@@ -365,12 +365,12 @@ feudalize_into_castle_holding_interaction = {
 					always = no
 				}
 			}
-			#trigger_if = {
-			#	limit = {
-			#		title_province = { terrain = halls }
-			#	}
-			#	NOT = { is_dwarf = yes }
-			#}
+			# trigger_if = {
+			# limit = {
+			# title_province = { terrain = halls }
+			# }
+			# NOT = { is_dwarf = yes }
+			# }
 		}
 	}
 
@@ -402,11 +402,11 @@ feudalize_into_castle_holding_interaction = {
 				}
 				custom_tooltip = {
 					text = blockers_remain_in_settlement
-					title_province = { 
-						has_building_with_flag = { 
-							flag = obstacle 
-							count = 0 
-						} 
+					title_province = {
+						has_building_with_flag = {
+							flag = obstacle
+							count = 0
+						}
 					}
 				}
 				development_level >= 3
@@ -417,17 +417,17 @@ feudalize_into_castle_holding_interaction = {
 			}
 		}
 		# scope:target = {
-		# 	trigger_if = {
-		# 		limit = { 
-		# 			title_province = { has_holding_type = elven_holding }
-		# 		}
-		# 		custom_tooltip = {
-		# 			text = county_must_not_be_elven_culture_to_feudalize_to_castle
-		# 			title_province = {
-		# 				NOT = { is_elf = yes }
-		# 			}
-		# 		}
-		# 	}
+		# trigger_if = {
+		# limit = {
+		# title_province = { has_holding_type = elven_holding }
+		# }
+		# custom_tooltip = {
+		# text = county_must_not_be_elven_culture_to_feudalize_to_castle
+		# title_province = {
+		# NOT = { is_elf = yes }
+		# }
+		# }
+		# }
 		# }
 	}
 
@@ -446,7 +446,7 @@ feudalize_into_castle_holding_interaction = {
 		}
 		prestige = {
 			value = 0
-			
+
 			if = {
 				limit = { scope:actor = { is_ai = no is_orc = yes } }
 				add = feudalize_tribal_holding_interaction_cost
@@ -459,7 +459,7 @@ feudalize_into_castle_holding_interaction = {
 			send_interface_toast = {
 				title = feudalize_into_castle_holding_interaction_notification
 
-				right_icon = scope:actor					
+				right_icon = scope:actor
 
 				if = {
 					limit = { exists = scope:target.title_province }
@@ -469,9 +469,9 @@ feudalize_into_castle_holding_interaction = {
 					scope:target = { set_color_from_title = scope:target.de_jure_liege }
 				}
 			}
-			if = { 
-				limit = { 
-					has_variable = num_settled_wilderness 
+			if = {
+				limit = {
+					has_variable = num_settled_wilderness
 					var:num_settled_wilderness > 0
 				}
 				decrease_variable = {
@@ -498,7 +498,7 @@ feudalize_into_tribal_holding_interaction = {
 
 	target_type = title
 	target_filter = actor_domain_titles
-	
+
 	auto_accept = yes
 
 	is_shown = {
@@ -512,7 +512,7 @@ feudalize_into_tribal_holding_interaction = {
 
 		}
 	}
-	
+
 	can_be_picked_title = {
 		scope:target = {
 			holder = scope:actor
@@ -564,11 +564,11 @@ feudalize_into_tribal_holding_interaction = {
 				}
 				custom_tooltip = {
 					text = blockers_remain_in_settlement
-					title_province = { 
-						has_building_with_flag = { 
-							flag = obstacle 
-							count = 0 
-						} 
+					title_province = {
+						has_building_with_flag = {
+							flag = obstacle
+							count = 0
+						}
 					}
 				}
 				development_level >= 3
@@ -595,7 +595,7 @@ feudalize_into_tribal_holding_interaction = {
 		}
 		prestige = {
 			value = 0
-			
+
 			if = {
 				limit = { scope:actor = { is_ai = no is_orc = yes } }
 				add = feudalize_tribal_holding_interaction_cost
@@ -608,7 +608,7 @@ feudalize_into_tribal_holding_interaction = {
 			send_interface_toast = {
 				title = feudalize_into_tribal_holding_interaction_notification
 
-				right_icon = scope:actor					
+				right_icon = scope:actor
 
 				if = {
 					limit = { exists = scope:target.title_province }
@@ -618,9 +618,9 @@ feudalize_into_tribal_holding_interaction = {
 					scope:target = { set_color_from_title = scope:target.de_jure_liege }
 				}
 			}
-			if = { 
-				limit = { 
-					has_variable = num_settled_wilderness 
+			if = {
+				limit = {
+					has_variable = num_settled_wilderness
 					var:num_settled_wilderness > 0
 				}
 				decrease_variable = {
@@ -647,7 +647,7 @@ feudalize_into_city_holding_interaction = {
 
 	target_type = title
 	target_filter = actor_domain_titles
-	
+
 	auto_accept = yes
 
 	is_shown = {
@@ -660,11 +660,11 @@ feudalize_into_city_holding_interaction = {
 			}
 		}
 	}
-	
+
 	can_be_picked_title = {
 		scope:target = {
 			holder = scope:actor
-			#is_capital_barony = no # we'll use the county in that case
+			# is_capital_barony = no # we'll use the county in that case
 			trigger_if = {
 				limit = { tier <= tier_county }
 				title_province = {
@@ -682,7 +682,7 @@ feudalize_into_city_holding_interaction = {
 					always = no
 				}
 			}
-			
+
 			trigger_if = {
 				limit = {
 					title_province = { terrain = halls }
@@ -721,11 +721,11 @@ feudalize_into_city_holding_interaction = {
 				}
 				custom_tooltip = { # Blockers remain in the settlement
 					text = blockers_remain_in_settlement
-					title_province = { 
-						has_building_with_flag = { 
-							flag = obstacle 
-							count = 0 
-						} 
+					title_province = {
+						has_building_with_flag = {
+							flag = obstacle
+							count = 0
+						}
 					}
 				}
 				development_level >= 3 # Development needs to be at least >= 3
@@ -736,7 +736,7 @@ feudalize_into_city_holding_interaction = {
 			}
 		}
 	}
-	
+
 	cost = {
 		gold = {
 			value = 0
@@ -752,7 +752,7 @@ feudalize_into_city_holding_interaction = {
 		}
 		prestige = {
 			value = 0
-			
+
 			if = {
 				limit = { scope:actor = { is_ai = no is_orc = yes } }
 				add = feudalize_tribal_holding_interaction_cost
@@ -765,7 +765,7 @@ feudalize_into_city_holding_interaction = {
 			send_interface_toast = {
 				title = feudalize_tribal_holding_interaction_notification
 
-				right_icon = scope:actor					
+				right_icon = scope:actor
 
 				if = {
 					limit = { exists = scope:target.title_province }
@@ -775,9 +775,9 @@ feudalize_into_city_holding_interaction = {
 					scope:target = { set_color_from_title = scope:target.de_jure_liege }
 				}
 			}
-			if = { 
-				limit = { 
-					has_variable = num_settled_wilderness 
+			if = {
+				limit = {
+					has_variable = num_settled_wilderness
 					var:num_settled_wilderness > 0
 				}
 				decrease_variable = {
@@ -804,7 +804,7 @@ feudalize_into_temple_holding_interaction = {
 
 	target_type = title
 	target_filter = actor_domain_titles
-	
+
 	auto_accept = yes
 
 	is_shown = {
@@ -816,7 +816,7 @@ feudalize_into_temple_holding_interaction = {
 			}
 		}
 	}
-	
+
 	can_be_picked_title = {
 		scope:target = {
 			holder = scope:actor
@@ -880,11 +880,11 @@ feudalize_into_temple_holding_interaction = {
 				}
 				custom_tooltip = {
 					text = blockers_remain_in_settlement
-					title_province = { 
-						has_building_with_flag = { 
-							flag = obstacle 
-							count = 0 
-						} 
+					title_province = {
+						has_building_with_flag = {
+							flag = obstacle
+							count = 0
+						}
 					}
 				}
 				development_level >= 3
@@ -911,7 +911,7 @@ feudalize_into_temple_holding_interaction = {
 		}
 		prestige = {
 			value = 0
-			
+
 			if = {
 				limit = { scope:actor = { is_ai = no is_orc = yes } }
 				add = feudalize_tribal_holding_interaction_cost
@@ -924,7 +924,7 @@ feudalize_into_temple_holding_interaction = {
 			send_interface_toast = {
 				title = feudalize_into_temple_holding_interaction_notification
 
-				right_icon = scope:actor					
+				right_icon = scope:actor
 
 				if = {
 					limit = { exists = scope:target.title_province }
@@ -934,9 +934,9 @@ feudalize_into_temple_holding_interaction = {
 					scope:target = { set_color_from_title = scope:target.de_jure_liege }
 				}
 			}
-			if = { 
-				limit = { 
-					has_variable = num_settled_wilderness 
+			if = {
+				limit = {
+					has_variable = num_settled_wilderness
 					var:num_settled_wilderness > 0
 				}
 				decrease_variable = {
@@ -963,7 +963,7 @@ tribalize_elven_holding_interaction = {
 
 	target_type = title
 	target_filter = actor_domain_titles
-	
+
 	auto_accept = yes
 
 	is_shown = {
@@ -977,7 +977,7 @@ tribalize_elven_holding_interaction = {
 		gold = settle_settlement_holding_interaction_cost.bitshift
 		prestige = settle_settlement_holding_interaction_cost.mult2
 	}
-	
+
 	can_be_picked_title = {
 		scope:target = {
 			holder = scope:actor
@@ -1020,11 +1020,11 @@ tribalize_elven_holding_interaction = {
 				}
 				custom_tooltip = {
 					text = blockers_remain_in_settlement
-					title_province = { 
-						has_building_with_flag = { 
-							flag = obstacle 
-							count = 0 
-						} 
+					title_province = {
+						has_building_with_flag = {
+							flag = obstacle
+							count = 0
+						}
 					}
 				}
 				development_level >= 2
@@ -1042,10 +1042,10 @@ tribalize_elven_holding_interaction = {
 			send_interface_toast = {
 				title = tribalize_elven_holding_interaction_notification
 
-				right_icon = scope:actor					
+				right_icon = scope:actor
 
 				if = {
-					limit = { 
+					limit = {
 						exists = scope:target.title_province
 						scope:target.title_province = { has_holding_type = settlement_holding }
 					}
@@ -1061,7 +1061,7 @@ tribalize_elven_holding_interaction = {
 			}
 		}
 		scope:actor = {
-			if = { 
+			if = {
 				limit = {
 					has_variable = num_settled_wilderness
 					var:num_settled_wilderness > 0
@@ -1090,7 +1090,7 @@ destroy_holding_interaction = {
 
 	target_type = title
 	target_filter = actor_domain_titles
-	
+
 	auto_accept = yes
 
 	is_shown = {
@@ -1099,7 +1099,7 @@ destroy_holding_interaction = {
 			government_has_flag = government_is_elven
 		}
 	}
-	
+
 	can_be_picked_title = {
 		scope:target = {
 			holder = scope:actor
@@ -1148,7 +1148,7 @@ destroy_holding_interaction = {
 			send_interface_toast = {
 				title = destroy_holding_interaction_notification
 
-				right_icon = scope:actor					
+				right_icon = scope:actor
 
 				if = {
 					limit = { exists = scope:target.title_province }
@@ -1173,7 +1173,7 @@ reclaim_homeland_interaction = {
 	category = interaction_category_diplomacy
 	icon = grant_titles_interaction
 	desc = reclaim_homeland_interaction_desc
-	
+
 	auto_accept = yes
 
 	is_shown = {
@@ -1188,13 +1188,13 @@ reclaim_homeland_interaction = {
 				is_tributary_of = scope:actor
 			}
 			any_claim = {
-				exists = holder 
-				this.holder = { 
-					faith_is_good = no 
+				exists = holder
+				this.holder = {
+					faith_is_good = no
 					this != scope:actor
 				}
 			}
-		}	
+		}
 	}
 
 	on_accept = {
@@ -1226,7 +1226,7 @@ reclaim_homeland_interaction = {
 			}
 			custom_tooltip = {
 				text = elf_joins_the_new_war
-				#Add the claimant if they can join
+				# Add the claimant if they can join
 				if = {
 					limit = {
 						scope:recipient = { is_ruler = yes }
@@ -1302,7 +1302,7 @@ demand_good_faith_conversion = {
 
 	is_shown = {
 		scope:actor = {
-			is_good_undying = yes 
+			is_good_undying = yes
 		}
 		scope:recipient = {
 			is_good_undying = no
@@ -1377,7 +1377,7 @@ demand_good_faith_conversion = {
 		scope:actor = {
 			trigger_event = religious_interaction.2002
 		}
-		scope:recipient.capital_county = { 
+		scope:recipient.capital_county = {
 			generate_new_good_faith = yes
 		}
 		scope:new_faith ?= { save_scope_as = conversion_faith }
@@ -1407,7 +1407,7 @@ demand_good_faith_conversion = {
 			limit = { scope:recipient = { is_imprisoned_by = scope:actor } }
 			scope:recipient = { release_from_prison = yes }
 		}
-		#Negative opinions
+		# Negative opinions
 		scope:recipient = {
 			add_opinion = {
 				modifier = demanded_my_conversion_opinion
@@ -1415,7 +1415,7 @@ demand_good_faith_conversion = {
 				opinion = -10
 			}
 		}
-		
+
 		# Grab additional converters, and present them in the tooltip.
 		grab_spouses_and_family_to_convert_effect = yes
 		show_as_tooltip = {
@@ -1466,14 +1466,14 @@ demand_good_faith_conversion = {
 							factor = 0 # Heresiarchs never agree to convert
 							scope:recipient = {
 								has_trait = heresiarch
-								has_character_flag = became_corsair #LotR
+								has_character_flag = became_corsair # LotR
 							}
 						}
 						ai_value_modifier = {
 							ai_greed = 0.5
 						}
 						random_list = {
-							50 = { #They ask for gold
+							50 = { # They ask for gold
 								modifier = {
 									add = 50 # More likely to ask for gold if they're poor
 									scope:recipient.short_term_gold < medium_gold_value
@@ -1498,7 +1498,7 @@ demand_good_faith_conversion = {
 									}
 								}
 							}
-							500 = { #They ask for a favor
+							500 = { # They ask for a favor
 								trigger = {
 									exists = scope:recipient.capital_county
 									NOT = { has_hook = scope:actor }
@@ -1516,7 +1516,7 @@ demand_good_faith_conversion = {
 									this.liege = scope:actor
 									OR = {
 										government_has_flag = government_is_feudal
-										government_has_flag = government_is_elven #LotR
+										government_has_flag = government_is_elven # LotR
 									}
 								}
 								scope:actor = {
@@ -1551,7 +1551,7 @@ demand_good_faith_conversion = {
 			}
 			custom_tooltip = demand_conversion_vassal_ruler_does_not_convert
 			show_as_tooltip = {
-				#Negative opinions
+				# Negative opinions
 				add_opinion = {
 					modifier = demanded_my_conversion_opinion
 					target = scope:actor
@@ -1647,13 +1647,13 @@ demand_good_faith_conversion = {
 		}
 
 		# modifier = { #LotR
-		# 	factor = 0
-		# 	scope:recipient.demand_conversion_likelihood_calculation < 90
-		# 	scope:actor = {
-		# 		culture = {
-		# 			has_cultural_parameter = less_likely_to_force_conversion
-		# 		}
-		# 	}
+		# factor = 0
+		# scope:recipient.demand_conversion_likelihood_calculation < 90
+		# scope:actor = {
+		# culture = {
+		# has_cultural_parameter = less_likely_to_force_conversion
+		# }
+		# }
 		# }
 
 		modifier = { # Do not convert Righteous faith subjects, unless disturbingly zealous
@@ -1765,11 +1765,11 @@ demand_good_faith_conversion = {
 							}
 						}
 					}
-					OR = { #LotR
+					OR = { # LotR
 						is_maiar = yes
 						is_nazgul = yes
 					}
-					OR = { #LotR
+					OR = { # LotR
 						scope:recipient.faith = faith:faith_nurniag
 						scope:recipient.faith = faith:sons_of_sauron
 						scope:recipient.faith = faith:red_eye_cult
@@ -1798,14 +1798,14 @@ demand_good_faith_conversion = {
 			add = 50
 			desc = EDUCATE_CHILD_ACTOR_IS_MY_LIEGE
 		}
-		modifier = { #LotR
+		modifier = { # LotR
 			add = -100
 			scope:recipient.faith = { has_doctrine_parameter = lotr_harder_to_convert }
 			desc = LOTR_ASK_FOR_CONVERSION_HARDER_TO_CONVERT
 		}
 		religion_demand_conversion_default_modifier = yes
 
-		#LotR
+		# LotR
 		modifier = { # Thani-Hazad Struggle, less likely to accept vassalization
 			add = -100
 			desc = STRUGGLE_HARDER_TO_FAITH_CONVERT_VASSALS_DUE_TO_STRUGGLE_PHASE_MODIFIER
@@ -1826,9 +1826,9 @@ convince_evil_neighbor_interaction = {
 	category = interaction_category_religion
 	icon = attempt_elven_conversion
 	desc = convince_evil_neighbor_interaction_desc
-	
+
 	auto_accept = yes
-	
+
 	cooldown = { years = 5 }
 
 	is_shown = {
@@ -1841,7 +1841,7 @@ convince_evil_neighbor_interaction = {
 			OR = {
 				is_human = yes
 				is_hobbit = yes
-				is_druedain = yes 
+				is_druedain = yes
 			}
 			faith_is_good = no
 			is_landed = yes
@@ -1855,8 +1855,8 @@ convince_evil_neighbor_interaction = {
 		custom_tooltip = {
 			text = convince_evil_neighbor_interaction_neighbor
 			scope:recipient = {
-				any_realm_county = { 
-					is_neighbor_to_realm = scope:actor 
+				any_realm_county = {
+					is_neighbor_to_realm = scope:actor
 				}
 			}
 		}
@@ -1868,8 +1868,8 @@ convince_evil_neighbor_interaction = {
 			scope:actor = {
 				start_travel_plan = {
 					destination = scope:recipient.capital_province
-					#on_start_on_action = petition_liege_start
-					#on_travel_planner_cancel_on_action = petition_liege_travel_planner_exit 
+					# on_start_on_action = petition_liege_start
+					# on_travel_planner_cancel_on_action = petition_liege_travel_planner_exit
 					on_arrival_event = elven_racial.0320
 					on_arrival_destinations = all_but_last
 				}
@@ -1885,7 +1885,7 @@ convince_evil_neighbor_interaction = {
 		empire = 12
 		hegemony = 12
 	}
-	
+
 	ai_targets = {
 		ai_recipients = neighboring_rulers_including_tributary_borders
 		max = 5
@@ -1899,13 +1899,13 @@ convince_evil_neighbor_interaction = {
 
 	ai_will_do = {
 		base = 2
-		#MINOR MODIFIERS
+		# MINOR MODIFIERS
 		ai_military_threat_modifier_with_cbs = {
 			SENDER = scope:actor
 			RECEIVER = scope:recipient
 			MULTIPLIER = 1
 		}
-		#Zealous
+		# Zealous
 		modifier = {
 			scope:actor = { has_trait = zealous }
 			add = 50
@@ -1933,7 +1933,7 @@ convince_evil_neighbor_interaction = {
 		}
 
 		# Cultural Acceptance
-		modifier = { 
+		modifier = {
 			scope:actor = {
 				NOT = { # cultural condition below doesn't have to apply if both actor and recipient have nomadic_philosophy
 					has_trait = nomadic_philosophy
@@ -1954,7 +1954,7 @@ convince_evil_neighbor_interaction = {
 			desc = cultural_acceptance_interaction_reason
 		}
 		# Same language
-		modifier = { 
+		modifier = {
 			add = 10
 			desc = speaks_same_language_interaction_reason
 			trigger = {
@@ -1965,7 +1965,7 @@ convince_evil_neighbor_interaction = {
 		}
 
 		# I am higher rank than you
-		modifier = { 
+		modifier = {
 			desc = tributary_interaction_aibehavior_recipient_tier_tt
 			trigger = {
 				scope:actor = {
@@ -1974,14 +1974,14 @@ convince_evil_neighbor_interaction = {
 			}
 			add = {
 				value = scope:actor.highest_held_title_tier
-				subtract = scope:recipient.highest_held_title_tier 
+				subtract = scope:recipient.highest_held_title_tier
 				multiply = 20
 				multiply = -1
 			}
 		}
 
-		#Far away
-		modifier = { 
+		# Far away
+		modifier = {
 			desc = offer_vassalization_interaction_aibehavior_remoterealm_tt
 			trigger = {
 				scope:recipient = {
@@ -1991,20 +1991,20 @@ convince_evil_neighbor_interaction = {
 						}
 					}
 				}
-				trigger_if = { #Islands we can get farther away
+				trigger_if = { # Islands we can get farther away
 					limit = {
 						scope:actor.capital_county = { is_coastal_county = yes }
 						any_sub_realm_county = { is_coastal_county = yes }
 					}
 					scope:actor.capital_province = { squared_distance = { target = scope:recipient.capital_province value >= squared_distance_huge } }
 				}
-				trigger_else = { #Inland is harder
+				trigger_else = { # Inland is harder
 					scope:actor.capital_province = { squared_distance = { target = scope:recipient.capital_province value >= squared_distance_major } }
 				}
 			}
 			add = -50
 		}
-		#Legitimacy
+		# Legitimacy
 			modifier = {
 				desc = "LOW_LEGITIMACY_REASON"
 				add = -15
@@ -2061,6 +2061,6 @@ convince_evil_neighbor_interaction = {
 			opinion_target = scope:recipient
 			multiplier = 1
 		}
-	
+
 	}
 }

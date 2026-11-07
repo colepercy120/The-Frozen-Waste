@@ -3,12 +3,12 @@
 tfw.1 = { # integrate the southern provinces
 	hidden = yes
  	scope = none
-	
-	
+
+
 	immediate = {
-		
+
 		tfw_history_start = yes
-		
+
 		every_county_in_region = {
 			region = middleearth_forodwaith
 			limit = {
@@ -57,57 +57,56 @@ tfw.1 = { # integrate the southern provinces
 				}
 			}
 		}
-		every_county_in_region = {
-			region = middleearth_forodwaith
-			duchy = {
-				reset_or_generate_coa = yes
-			}
-		}
-		
-		#### Snow Orc set up
-		#every_county_in_region = {
-		#	region = middleearth_mountains_bleak_durnost
-		#	limit = {
-		#		title_province = {
-		#			has_holding_type = wastelands_holding
-		#			
-		#		}
-		#	}
-		#	save_scope_as = titlegrab
-		#	create_character = {
-		#		location = scope:titlegrab.title_province
-		#		template = orc_champion_character
-		#		gender_female_chance = 30
-		#		faith = faith:lidless_eye
-		#		culture = culture:snow_orcs
-		#		
-		#		save_scope_as = new_ruler
-		#	}
-		#	ai_colonisation_effect = { WASTELANDS = scope:titlegrab ROOT_SCOPE = scope:new_ruler }
-		#	scope:new_ruler = {
-		#		get_title = scope:titlegrab
-		#		create_title_and_vassal_change = {
-		#			type = swear_fealty
-		#			save_scope_as = change
-		#		}
-		#		becomes_independent = {
-		#			
-		#			change = scope:change
-		#		}
-		#		resolve_title_and_vassal_change = scope:change
-		#		change_government = orcish_government
-		#		add_gold = { 75 300 }
-		#	}
-		#	scope:titlegrab = {
-		#		change_development_level = { 5 9 }
-		#	}
-		#}
-		
+		# Authored duchy coats of arms are loaded from their definitions.
+
+		# ============================================================
+		# Snow Orc set up
+		# ============================================================
+		# every_county_in_region = {
+		# region = middleearth_mountains_bleak_durnost
+		# limit = {
+		# title_province = {
+		# has_holding_type = wastelands_holding
+		# ============================================================
+		# }
+		# }
+		# save_scope_as = titlegrab
+		# create_character = {
+		# location = scope:titlegrab.title_province
+		# template = orc_champion_character
+		# gender_female_chance = 30
+		# faith = faith:lidless_eye
+		# culture = culture:snow_orcs
+		# ============================================================
+		# save_scope_as = new_ruler
+		# }
+		# ai_colonisation_effect = { WASTELANDS = scope:titlegrab ROOT_SCOPE = scope:new_ruler }
+		# scope:new_ruler = {
+		# get_title = scope:titlegrab
+		# create_title_and_vassal_change = {
+		# type = swear_fealty
+		# save_scope_as = change
+		# }
+		# becomes_independent = {
+		# ============================================================
+		# change = scope:change
+		# }
+		# resolve_title_and_vassal_change = scope:change
+		# change_government = orcish_government
+		# add_gold = { 75 300 }
+		# }
+		# scope:titlegrab = {
+		# change_development_level = { 5 9 }
+		# }
+		# }
+
 		tfw_age_fixing = yes
 		tfw_war_of_wrath_handout = yes
 		tfw_add_palisor_veterans = yes
-		
-		### Buggy history fix
+
+		# ============================================================
+		# Buggy history fix
+		# ============================================================
 		every_county_in_region = {
 			region = middleearth_mountains_rhivamar
 			set_county_culture = holder.culture
@@ -121,13 +120,13 @@ tfw.1 = { # integrate the southern provinces
 			set_county_culture = holder.culture
 			set_county_faith = holder.faith
 		}
-		
+
 		tfw_special_building_start = yes
 		tfw_elven_homelands_start = yes
 		tfw_trigger_intro_events = yes
-		
+
 		start_situation = {
-			type = frozen_waste	
+			type = frozen_waste
 		}
 		# Start after Frozen Waste initializes the shared Angband-cleansed flag.
 		if = {
