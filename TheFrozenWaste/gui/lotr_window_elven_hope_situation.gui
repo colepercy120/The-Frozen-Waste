@@ -749,7 +749,7 @@ window = {
 		}
 	}
 
-	window_situation_participant_groups = {
+	tfw_elven_hope_participant_groups = {
 		datacontext = "[SituationWindow.AccessParticipantCharacterList]"
 		datacontext = "[SituationParticipantCharacterList.AccessCharacterList]"
 		visible = "[SituationParticipantCharacterList.IsVisible]"
@@ -1415,8 +1415,8 @@ types Situation
 		}
 	}
 
-	type window_situation_participant_groups = window  {
-		name = "window_situation_participant_groups"
+	type tfw_elven_hope_participant_groups = window  {
+		name = "tfw_elven_hope_participant_groups"
 		widgetanchor = right
 		position = { 30 100 }
 		size = { 740 82% }
