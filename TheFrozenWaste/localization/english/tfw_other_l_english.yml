@@ -294,23 +294,23 @@ l_english:
 
  bookmark_frozen_waste_nixni: "Nixní"
  bookmark_frozen_waste_nixni_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
- bookmark_frozen_waste_nixni_desc: "The Lady of Cold is the most powerful being left in the Frozen Waste. One of Morgoth's lieutenants in the Elder Days, she has established herself in the ruins of Angband, guarding his shattered realm until her master returns. Yet rumors suggest that she is preparing something within the broken halls, with none but the Dark Lord himself privy to her plans."
+ bookmark_frozen_waste_nixni_desc: "The [ladyofcold|e] is the most powerful being left in the Frozen Waste. One of [morgothcharacter|e]'s lieutenants in the [elderdays|e], she has established herself in the ruins of [angband|e], guarding his shattered realm until her master returns. Yet rumors suggest that she is preparing something within the broken halls, with none but the [darklord|e] himself privy to her plans."
 
  bookmark_frozen_waste_talanthir: "Talanthir"
  bookmark_frozen_waste_talanthir_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
- bookmark_frozen_waste_talanthir_desc: "Talanthir, High King of the Adlantrim, is one of the oldest beings still living in Middle-earth. The last of the original Orcs, he alone remembers the days before Melkor stole his people from Cuiviénen. He has fought to preserve his children's souls and worked for ages to heal what was broken. The Orcs, too, are children of Ilúvatar, even if the Elves and the Valar forget it."
+ bookmark_frozen_waste_talanthir_desc: "Talanthir, High King of the [adlantrim|e], is one of the oldest beings still living in [middleearth|e]. The last of the original [orcs|e], he alone remembers the days before [melkorcharacter|e] stole his people from [cuivienen|e]. He has fought to preserve his children's souls and worked for ages to heal what was broken. The Orcs, too, are children of [iluvatar|e], even if the [elves|e] and the [valar|e] forget it."
 
  bookmark_frozen_waste_graw: "Graw"
  bookmark_frozen_waste_graw_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
- bookmark_frozen_waste_graw_desc: "Graw is a foundling raised aboard the ships that ply the Forodain islands. He has always suspected that he was destined for greatness. Only when the great cold-drake Faron slew his adoptive parents and sank their ship did he discover his purpose: he would bring down the dragon, even if it cost him his life."
+ bookmark_frozen_waste_graw_desc: "Graw is a foundling raised aboard the ships that ply the [forodain|e] islands. He has always suspected that he was destined for greatness. Only when the great cold-[drake|e] Faron slew his adoptive parents and sank their ship did he discover his purpose: he would bring down the dragon, even if it cost him his life."
 
  bookmark_frozen_waste_evermist_queen: "Vorwen"
  bookmark_frozen_waste_evermist_queen_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
- bookmark_frozen_waste_evermist_queen_desc: "The daughter of Fëanor's fourth son, Vorwen spent the First Age fighting in her family's wars across Beleriand. When the war ended and the land itself lay ruined, she swore a different oath: not to reclaim her grandfather's jewels, but to remain in Middle-earth until the damage her family had helped cause was healed."
+ bookmark_frozen_waste_evermist_queen_desc: "The daughter of [feanor|e]'s fourth son, Vorwen spent the [firstage|e] fighting in her family's wars across [beleriand|e]. When the war ended and the land itself lay ruined, she swore a different oath: not to reclaim her grandfather's jewels, but to remain in [middleearth|e] until the damage her family had helped cause was healed."
 
  bookmark_frozen_waste_eitri: "Eitri"
  bookmark_frozen_waste_eitri_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
- bookmark_frozen_waste_eitri_desc: "The second son of the King of the Ironfists, Eitri sought more than a life within his family's ancient halls in the Red Mountains. Hearing of untold riches buried beneath the mountains of the Utter North, he organized an expedition to the Bleak Mountains to establish a new outpost, one that might someday rival the great holds of the Elder Days."
+ bookmark_frozen_waste_eitri_desc: "The second son of the King of the [ironfists|e], Eitri sought more than a life within his family's ancient halls in the Red Mountains. Hearing of untold riches buried beneath the mountains of the Utter North, he organized an expedition to the Bleak Mountains to establish a new outpost, one that might someday rival the great holds of the [elderdays|e]."
 
 
  # ============================================================
