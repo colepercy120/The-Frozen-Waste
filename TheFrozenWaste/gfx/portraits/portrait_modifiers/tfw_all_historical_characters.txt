@@ -1,4 +1,4 @@
-﻿wed_historical_characters_accessories = {
+﻿tfw_historical_characters_accessories = {
 	usage = game
 	selection_behavior = max
 	priority = 2
