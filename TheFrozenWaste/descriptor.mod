@@ -1,8 +1,9 @@
-version="0.1"
+version="1.0"
 tags={
-	"Utilities"
-	"Fixes"
+	"Total Conversion"
+	"Gameplay"
+	"Map"
 }
 name="Realms in Exile: The Frozen Waste"
 supported_version="1.19.*"
-remote_file_id="3805481638"
+remote_file_id="3835886069"
