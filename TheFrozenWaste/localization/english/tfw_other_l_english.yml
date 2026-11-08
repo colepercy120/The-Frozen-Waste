@@ -16,16 +16,16 @@ l_english:
  # Traits
  # ============================================================
  trait_orc_father: "Moriondor"
- trait_orc_father_desc: "This ancient progenitor is one of the original ancestors of the [Concept('orcs','Orcish')|E] peoples and has survived since the [elderdays|e]."
+ trait_orc_father_desc: "This ancient progenitor is one of the original ancestors of the [orcish|e] peoples and has survived since the [elderdays|e]."
  trait_veteran_of_war_of_wrath: "Veteran of the War of Wrath"
- trait_veteran_of_war_of_wrath_desc: "This character fought in the [warofwrath|E] against the forces of [morgothcharacter|E] at the end of the [elderdays|E]."
+ trait_veteran_of_war_of_wrath_desc: "This character fought in the [warofwrath|e] against the forces of [morgothcharacter|e] at the end of the [elderdays|e]."
 
  # ============================================================
  # Artifacts
  # ============================================================
 
  maegdaes_name: "Maegdaes"
- maegdaes_description: "Forged by the [noldorelves|E] of [gondolin|E] in the [elderdays|E], Maegdaes was looted from the ruined city by the [dragon|E] Faron. It lay in her hoard for ages before being found by [GetScriptedCharacterByHistoryID('tfw_lineofheorwulf_001').GetFirstName]."
+ maegdaes_description: "Forged by the [noldorelves|e] of [gondolin|e] in the [elderdays|e], Maegdaes was looted from the ruined city by the [dragon|e] Faron. It lay in her hoard for ages before being found by [GetScriptedCharacterByHistoryID('tfw_lineofheorwulf_001').GetFirstName]."
 
 
  # ============================================================
@@ -39,84 +39,84 @@ l_english:
 
  game_concept_frozen_waste: "The Frozen Waste"
  game_concept_the_frozen_waste: "The Frozen Waste"
- game_concept_frozen_waste_desc: "The far north of [middleearth|E] is more than merely cold. [forodwaith|E] still bears the scars of the [elderdays|E], when [morgothcharacter|E] ruled the North from his great fortresses. Though the First Dark Lord is gone, his works, ruins, and corruption continue to burden the land.\n\nFor millennia the region has remained unnaturally barren and hostile, its peoples living among the wreckage of older ages while the shadow of the North has never entirely faded. Some blame the lingering taint of Morgoth, others the later works of the [witchking|E] and [sauroncharacter|E], while many in the Utter North place the greatest blame upon the [ladyofcold|E]."
+ game_concept_frozen_waste_desc: "The far north of [middleearth|e] is more than merely cold. [forodwaith|e] still bears the scars of the [elderdays|e], when [morgothcharacter|e] ruled the North from his great fortresses. Though the First Dark Lord is gone, his works, ruins, and corruption continue to burden the land.\n\nFor millennia the region has remained unnaturally barren and hostile, its peoples living among the wreckage of older ages while the shadow of the North has never entirely faded. Some blame the lingering taint of Morgoth, others the later works of the [witchking|e] and [sauroncharacter|e], while many in the Utter North place the greatest blame upon the [ladyofcold|e]."
 
  game_concept_eternal_winter: "The Eternal Winter"
  game_concept_endless_winter: "The Eternal Winter"
- game_concept_eternal_winter_desc: "For thousands of years an unnatural winter has lain over [forodwaith|E], leaving much of the far North colder, darker, and more barren than it should be. The long frost is bound closely to the power of the [ladyofcold|E] and to the lingering wounds left upon the region by the struggles of the [elderdays|E].\n\nEnding the Eternal Winter requires more than defeating a single ruler. The ancient wounds of the North must be addressed: [angband|E] must be cleansed, [frostwood|E] healed, the Winter Queen driven from her hold over the North, and [helecthil|E] kept from evil hands. Only then can true spring return to the farthest reaches of [Concept('middleearth','Middle-earth')|E]."
+ game_concept_eternal_winter_desc: "For thousands of years an unnatural winter has lain over [forodwaith|e], leaving much of the far North colder, darker, and more barren than it should be. The long frost is bound closely to the power of the [ladyofcold|e] and to the lingering wounds left upon the region by the struggles of the [elderdays|e].\n\nEnding the Eternal Winter requires more than defeating a single ruler. The ancient wounds of the North must be addressed: [angband|e] must be cleansed, [frostwood|e] healed, the Winter Queen driven from her hold over the North, and [helecthil|e] kept from evil hands. Only then can true spring return to the farthest reaches of [middleearth|e]."
 
  game_concept_the_unbroken: "The Unbroken"
  game_concept_unbroken: "The Unbroken"
- game_concept_the_unbroken_desc: "The Unbroken is the central ideal of the [uracinar|E]: the conviction that no wound, ruin, or corruption is necessarily beyond healing. A shattered blade may be reforged, a ruined hall rebuilt, a wounded body tended, and even a people deliberately broken over ages may slowly make themselves whole again.\n\nThe Unbroken do not claim that restoration is easy or quick. Their creed instead treats patience, diligence, memory, and rebuilding as acts of defiance against despair and against the legacy of [morgothcharacter|E]."
+ game_concept_the_unbroken_desc: "The Unbroken is the central ideal of the [uracinar|e]: the conviction that no wound, ruin, or corruption is necessarily beyond healing. A shattered blade may be reforged, a ruined hall rebuilt, a wounded body tended, and even a people deliberately broken over ages may slowly make themselves whole again.\n\nThe Unbroken do not claim that restoration is easy or quick. Their creed instead treats patience, diligence, memory, and rebuilding as acts of defiance against despair and against the legacy of [morgothcharacter|e]."
 
  game_concept_gift_of_the_wolf: "Gift of the Wolf"
  game_concept_wolfs_gift: "Gift of the Wolf"
  game_concept_wolfgift: "Gift of the Wolf"
- game_concept_gift_of_the_wolf_desc: "After the ancestors of the [gauredain|E] were driven from [angmar|E] into the frozen North, [radagastcharacter|E] took pity upon them. Through his teaching, some among their people learned to assume the form of great wolves, gaining the strength, endurance, senses, and protection from the cold needed to survive in [forodwaith|E].\n\nTo the Gauredain this wolf-shape is not a curse or surrender to bestial nature, but a sacred covenant and means of survival. The gift became an inheritance guarded by their people and a symbol that exile and winter would not destroy them."
+ game_concept_gift_of_the_wolf_desc: "After the ancestors of the [gauredain|e] were driven from [angmar|e] into the frozen North, [radagastcharacter|e] took pity upon them. Through his teaching, some among their people learned to assume the form of great wolves, gaining the strength, endurance, senses, and protection from the cold needed to survive in [forodwaith|e].\n\nTo the Gauredain this wolf-shape is not a curse or surrender to bestial nature, but a sacred covenant and means of survival. The gift became an inheritance guarded by their people and a symbol that exile and winter would not destroy them."
 
  game_concept_ladyofcold: "The Lady of Cold"
  game_concept_winter_queen: "The Winter Queen"
  game_concept_snowqueen: "The Winter Queen"
  game_concept_nixni: "Nixní"
- game_concept_ladyofcold_desc: "Nixní, the Lady of Cold, is known across the North as the Winter Queen. In the [elderdays|E] she served as one of [morgothcharacter|E]'s chief lieutenants. Though lesser in power than [sauroncharacter|E], she became feared for her cold cruelty, her bargains, and her reputation for never speaking a direct lie.\n\nNorthern tradition holds that even her service to Morgoth was the result of a bargain. In later ages she endured as one of the last great powers of the old Shadow to remain active in the far North, haunting the icy reaches of [Concept('forochel','Forochel')|E] and becoming inseparably tied to the [eternal_winter|E]."
+ game_concept_ladyofcold_desc: "Nixní, the Lady of Cold, is known across the North as the Winter Queen. In the [elderdays|e] she served as one of [morgothcharacter|e]'s chief lieutenants. Though lesser in power than [sauroncharacter|e], she became feared for her cold cruelty, her bargains, and her reputation for never speaking a direct lie.\n\nNorthern tradition holds that even her service to Morgoth was the result of a bargain. In later ages she endured as one of the last great powers of the old Shadow to remain active in the far North, haunting the icy reaches of [forochel|e] and becoming inseparably tied to the [eternal_winter|e]."
 
  game_concept_tareg: "Tareg"
- game_concept_tareg_desc: "One of the great war leaders of the [avari|E] at the [battleofpalisor|E], Tareg later joined [ermon|E] on his westward journey at the head of a great [avarin|E] host. Seeking peace and safety, groups from the host settled along the route. Most remained in Eryn Rhûn, on the shores of the inland sea. The rest continued north into what is now [frostwood|E].\n\nThere they encountered the forces of [morgothcharacter|E], led by the [ladyofcold|E]. Tareg was struck down and entombed in a pillar of ice, an enduring reminder to the Avari of Frostwood of the fate awaiting those who resisted the darkness."
+ game_concept_tareg_desc: "One of the great war leaders of the [avari|e] at the [battleofpalisor|e], Tareg later joined [ermon|e] on his westward journey at the head of a great [avarin|e] host. Seeking peace and safety, groups from the host settled along the route. Most remained in Eryn Rhûn, on the shores of the inland sea. The rest continued north into what is now [frostwood|e].\n\nThere they encountered the forces of [morgothcharacter|e], led by the [ladyofcold|e]. Tareg was struck down and entombed in a pillar of ice, an enduring reminder to the Avari of Frostwood of the fate awaiting those who resisted the darkness."
 
  game_concept_giftlord: "The Giftlord"
  game_concept_giftbringer: "The Gift Bringer"
  game_concept_gift_bringer: "The Gift Bringer"
- game_concept_giftlord_desc: "The Giftlord is a mysterious [maiagod|E] said to dwell at the very top of the world. His followers know him above all as a bringer of gifts, aid, and joy to those in need, and honor him especially during the depths of midwinter.\n\nThe Anwantar who revere the Giftlord place generosity among the highest virtues. They travel widely, distribute gifts and wealth, support charitable works, and seek to bring hope to others during the darkest season of the year."
+ game_concept_giftlord_desc: "The Giftlord is a mysterious [maiagod|e] said to dwell at the very top of the world. His followers know him above all as a bringer of gifts, aid, and joy to those in need, and honor him especially during the depths of midwinter.\n\nThe Anwantar who revere the Giftlord place generosity among the highest virtues. They travel widely, distribute gifts and wealth, support charitable works, and seek to bring hope to others during the darkest season of the year."
 
  game_concept_forodain: "Forodain"
- game_concept_forodain_desc: "The Forodain are a people of the far North descended from [Concept('numenorean','Númenórean')|E] whalers who settled in [forodwaith|E] and mingled with [Concept('men','Men')|E] already living there, later receiving strong cultural influence from the [Concept('dunedain','Dúnedain')|E] of [arnor|E]. The fall of [Concept('numenor','Númenor')|E] and the dangers of the North left their communities scattered among the broken lands of the region.\n\nForodain tradition places great importance on endurance, courage, loyalty, genealogy, and the keeping of oaths. The histories of the [elderdays|E] are preserved not merely as distant legend, but as lessons and obligations carried forward through song and memory."
+ game_concept_forodain_desc: "The Forodain are a people of the far North descended from [numenorean|e] whalers who settled in [forodwaith|e] and mingled with [men|e] already living there, later receiving strong cultural influence from the [dunedain|e] of [arnor|e]. The fall of [numenor|e] and the dangers of the North left their communities scattered among the broken lands of the region.\n\nForodain tradition places great importance on endurance, courage, loyalty, genealogy, and the keeping of oaths. The histories of the [elderdays|e] are preserved not merely as distant legend, but as lessons and obligations carried forward through song and memory."
 
  game_concept_lossidil: "Lossidil"
- game_concept_lossidil_desc: "The Lossidil are northern [Concept('elves','Elves')|E] descended from Nandorin peoples who journeyed into the far North and later mingled with [Concept('sindarelves','Sindar')|E] fleeing the destruction of [Concept('beleriand','Beleriand')|E] after the [warofwrath|E]. They adapted to the long darkness and bitter cold of [forodwaith|E], creating enduring communities far from the great Elven realms of the South.\n\nTheir spiritual and cultural life is closely bound to [helecthil|E], whose light serves as a beacon of refuge and hope beneath the auroras of the northern sky."
+ game_concept_lossidil_desc: "The Lossidil are northern [elves|e] descended from Nandorin peoples who journeyed into the far North and later mingled with [sindarelves|e] fleeing the destruction of [beleriand|e] after the [warofwrath|e]. They adapted to the long darkness and bitter cold of [forodwaith|e], creating enduring communities far from the great Elven realms of the South.\n\nTheir spiritual and cultural life is closely bound to [helecthil|e], whose light serves as a beacon of refuge and hope beneath the auroras of the northern sky."
 
  game_concept_gauredain: "Gauredain"
  game_concept_wolfsworn_people: "Gauredain"
- game_concept_gauredain_desc: "The Gauredain descend from peoples who once lived in the dales and valleys of [angmar|E] before being driven north by the Angmarrim and the [witchking|E]. Exiled into [forodwaith|E], they survived in lands where cold, hunger, and isolation threatened to destroy them.\n\nTheir history changed when [radagastcharacter|E] granted their people the [gift_of_the_wolf|E], allowing chosen members of the community to take wolf-shape. The Gauredain remember Angmar as their lost homeland even as generations of exile have made the frozen wilderness their refuge."
+ game_concept_gauredain_desc: "The Gauredain descend from peoples who once lived in the dales and valleys of [angmar|e] before being driven north by the Angmarrim and the [witchking|e]. Exiled into [forodwaith|e], they survived in lands where cold, hunger, and isolation threatened to destroy them.\n\nTheir history changed when [radagastcharacter|e] granted their people the [gift_of_the_wolf|e], allowing chosen members of the community to take wolf-shape. The Gauredain remember Angmar as their lost homeland even as generations of exile have made the frozen wilderness their refuge."
 
  game_concept_uracinar: "Úrácinar"
  game_concept_unbowed_orcs: "The Unbowed"
  game_concept_adlantrim: "Adlantrim"
  game_concept_adalantrim: "Adlantrim"
- game_concept_uracinar_desc: "The Úrácinar are [orcs|E] who reject the claim that darkness owns their people. They believe their ancestors were broken and corrupted by [morgothcharacter|E], and that the damage inflicted upon Orc-kind does not create an eternal obligation to serve the Shadow.\n\nTheir communities value diligence, preservation, learning, and patient reconstruction. Old songs are pieced together from fragments, genealogies are preserved, tools and halls are repaired, and each generation is expected to leave its people stronger and freer than it found them. This philosophy is expressed most clearly in the teaching of [the_unbroken|E]."
+ game_concept_uracinar_desc: "The Úrácinar are [orcs|e] who reject the claim that darkness owns their people. They believe their ancestors were broken and corrupted by [morgothcharacter|e], and that the damage inflicted upon Orc-kind does not create an eternal obligation to serve the Shadow.\n\nTheir communities value diligence, preservation, learning, and patient reconstruction. Old songs are pieced together from fragments, genealogies are preserved, tools and halls are repaired, and each generation is expected to leave its people stronger and freer than it found them. This philosophy is expressed most clearly in the teaching of [the_unbroken|e]."
 
  game_concept_moriondor: "Moriondor"
  game_concept_orc_father: "Orc Father"
  game_concept_orc_mother: "Orc Mother"
- game_concept_moriondor_desc: "The original [orcs|E]: [elves|E] taken from the wilds by the [darklord|E] and tortured beyond recognition. Marred and twisted into Orcs, they were forced to serve their captor."
+ game_concept_moriondor_desc: "The original [orcs|e]: [elves|e] taken from the wilds by the [darklord|e] and tortured beyond recognition. Marred and twisted into Orcs, they were forced to serve their captor."
 
  game_concept_helecthil: "Helecthil"
  game_concept_beaconofhelecthil: "Beacon of Helecthil"
  game_concept_beacon_of_helecthil: "Beacon of Helecthil"
- game_concept_helecthil_desc: "After the [Concept('downfallofnumenor','Downfall of Númenor')|E], the Utter North was left ruined and cast into long periods of darkness, far beyond the light of either Sun or Moon for much of the year. Northern [Concept('elves','Elven')|E] tradition holds that [ulmocharacter|E], wishing to provide hope to those who remained, raised a shard of the [Concept('lampsofthevalar','ancient Lamps')|E] to become Helecthil.\n\nIts light became a beacon and sanctuary of the [lossidil|E], associated with guidance, endurance, the aurora, and refuge from the killing cold. Over time a settlement grew around the beacon, and Helecthil became one of the great spiritual centers of the northern Elves."
+ game_concept_helecthil_desc: "After the [downfallofnumenor|e], the Utter North was left ruined and cast into long periods of darkness, far beyond the light of either Sun or Moon for much of the year. Northern [elven|e] tradition holds that [ulmocharacter|e], wishing to provide hope to those who remained, raised a shard of the [lampsofthevalar|e] to become Helecthil.\n\nIts light became a beacon and sanctuary of the [lossidil|e], associated with guidance, endurance, the aurora, and refuge from the killing cold. Over time a settlement grew around the beacon, and Helecthil became one of the great spiritual centers of the northern Elves."
 
  game_concept_frostwood: "Frostwood"
- game_concept_frostwood_desc: "Frostwood is an ancient forest of the far North whose lands were scarred by the conflicts of the [elderdays|E] and by the power of the [ladyofcold|E]. The forest became home to communities of [avari|E], including the followers of [tareg|E], but its woods remained trapped beneath an unnatural and enduring frost.\n\nHealing Frostwood is one of the great works required to end the [eternal_winter|E]. When its ancient curse is finally broken, life can return to places long left barren, old groves can stir again, and the ice that has clung to its trees for ages can at last begin to melt."
+ game_concept_frostwood_desc: "Frostwood is an ancient forest of the far North whose lands were scarred by the conflicts of the [elderdays|e] and by the power of the [ladyofcold|e]. The forest became home to communities of [avari|e], including the followers of [tareg|e], but its woods remained trapped beneath an unnatural and enduring frost.\n\nHealing Frostwood is one of the great works required to end the [eternal_winter|e]. When its ancient curse is finally broken, life can return to places long left barren, old groves can stir again, and the ice that has clung to its trees for ages can at last begin to melt."
 
  game_concept_shatterwood: "Shatterwood"
  game_concept_frozen_numenorean_fleet: "The Frozen Númenórean Fleet"
- game_concept_shatterwood_desc: "Shatterwood is the name given to the broken remains of an ancient [Concept('numenorean','Númenórean')|E] fleet locked within the northern ice. Near the end of the [Concept('secondage','Second Age')|E], the ships were shattered by the [ladyofcold|E], leaving weathered hulls and timbers frozen together in a vast field of wreckage.\n\nThe survivors of the disaster later became an important influence upon the [forodain|E]. Their descendants remember the site with reverence, though unstable ice and treacherous ground make travel among the ancient ships dangerous."
+ game_concept_shatterwood_desc: "Shatterwood is the name given to the broken remains of an ancient [numenorean|e] fleet locked within the northern ice. Near the end of the [secondage|e], the ships were shattered by the [ladyofcold|e], leaving weathered hulls and timbers frozen together in a vast field of wreckage.\n\nThe survivors of the disaster later became an important influence upon the [forodain|e]. Their descendants remember the site with reverence, though unstable ice and treacherous ground make travel among the ancient ships dangerous."
 
  game_concept_morgoths_well: "Morgoth's Well"
  game_concept_morgothswell: "Morgoth's Well"
- game_concept_morgoths_well_desc: "Morgoth's Well was once a vast chasm reaching deep into the earth. Tradition identifies it as the place where [maedhros|E], tormented by the [Concept('silmaril','Silmaril')|E] he had reclaimed, cast himself and the jewel into the depths.\n\nThe later reshaping of the world transformed the ancient crevice. Magma forced its way upward and the site became a massive shield volcano, leaving one of the strangest surviving scars of the [elderdays|E] upon the geography of the North."
+ game_concept_morgoths_well_desc: "Morgoth's Well was once a vast chasm reaching deep into the earth. Tradition identifies it as the place where [maedhros|e], tormented by the [silmaril|e] he had reclaimed, cast himself and the jewel into the depths.\n\nThe later reshaping of the world transformed the ancient crevice. Magma forced its way upward and the site became a massive shield volcano, leaving one of the strangest surviving scars of the [elderdays|e] upon the geography of the North."
 
  game_concept_evermist: "Evermist"
- game_concept_evermist_desc: "Evermist was founded in the aftermath of the [warofwrath|E], when much of the far North had been devastated by the wars against [morgothcharacter|E]. Its founders did not come merely to survive among the ruins, but to heal them.\n\nOver the long centuries that followed, the [Concept('elves','Elves')|E] of Evermist worked to restore forests, cleanse poisoned lands, shelter surviving peoples, and slowly repair the wounds left across [forodwaith|E]. Their realm became both a refuge and a center of renewal, built around the belief that even lands scarred by the greatest evils of the [elderdays|E] could be made whole again.\n\nMuch of that work was catastrophically undone during the [roundingofworld|E], when the far North was shattered by the transformation of [Concept('arda','Arda')|E] and enormous volcanic upheavals devastated the region."
+ game_concept_evermist_desc: "Evermist was founded in the aftermath of the [warofwrath|e], when much of the far North had been devastated by the wars against [morgothcharacter|e]. Its founders did not come merely to survive among the ruins, but to heal them.\n\nOver the long centuries that followed, the [elves|e] of Evermist worked to restore forests, cleanse poisoned lands, shelter surviving peoples, and slowly repair the wounds left across [forodwaith|e]. Their realm became both a refuge and a center of renewal, built around the belief that even lands scarred by the greatest evils of the [elderdays|e] could be made whole again.\n\nMuch of that work was catastrophically undone during the [roundingofworld|e], when the far North was shattered by the transformation of [arda|e] and enormous volcanic upheavals devastated the region."
 
  game_concept_durnost: "Durnost"
- game_concept_durnost_desc: "Durnost was built by [sauroncharacter|E] during the wars of the [elderdays|E] as an outer defense for [utumno|E] and [angband|E]. More than a simple fortress, it served as Sauron's personal seat in the far North and as one of his principal command posts during [Concept('morgothcharacter','Morgoth')|E]'s wars against the Free Peoples.\n\nFrom Durnost, Sauron directed armies, guarded the approaches to his master's northern strongholds, and gathered wealth, relics, weapons, and other treasures for himself. Many of these hoards were never recovered after the collapse of Morgoth's power.\n\nDurnost remained a frequent haunt of Sauron during the early [secondage|E], but after he secured [mordor|E] as his own great stronghold in the South, he largely abandoned the fortress. Without its master, Durnost steadily declined and eventually fell into the hands of the Snow [Concept('orcs','Orcs')|E], who occupied its ruined halls and fortifications.\n\nBy the later ages Durnost is little more than a shattered remnant of its former strength. Even so, its buried chambers are still believed to contain ancient treasures, forgotten stores, and relics hoarded there by Sauron before he turned his ambitions southward."
+ game_concept_durnost_desc: "Durnost was built by [sauroncharacter|e] during the wars of the [elderdays|e] as an outer defense for [utumno|e] and [angband|e]. More than a simple fortress, it served as Sauron's personal seat in the far North and as one of his principal command posts during [morgothcharacter|e]'s wars against the Free Peoples.\n\nFrom Durnost, Sauron directed armies, guarded the approaches to his master's northern strongholds, and gathered wealth, relics, weapons, and other treasures for himself. Many of these hoards were never recovered after the collapse of Morgoth's power.\n\nDurnost remained a frequent haunt of Sauron during the early [secondage|e], but after he secured [mordor|e] as his own great stronghold in the South, he largely abandoned the fortress. Without its master, Durnost steadily declined and eventually fell into the hands of the Snow [orcs|e], who occupied its ruined halls and fortifications.\n\nBy the later ages Durnost is little more than a shattered remnant of its former strength. Even so, its buried chambers are still believed to contain ancient treasures, forgotten stores, and relics hoarded there by Sauron before he turned his ambitions southward."
 
  game_concept_nidavellir: "Nidavellir"
- game_concept_nidavellir_desc: "Nidavellir is a [Concept('dwarves','Dwarven')|E] realm of the northern mountains, centered upon halls and settlements carved into the stone of the far North. Its position places it among the isolated mountain powers of [forodwaith|E], where mineral wealth, fortified underground settlements, and control of difficult passes make Dwarven colonization possible even in lands that are hostile to most peoples.\n\nNidavellir is one of the principal centers of renewed Dwarven settlement in the North."
+ game_concept_nidavellir_desc: "Nidavellir is a [dwarven|e] realm of the northern mountains, centered upon halls and settlements carved into the stone of the far North. Its position places it among the isolated mountain powers of [forodwaith|e], where mineral wealth, fortified underground settlements, and control of difficult passes make Dwarven colonization possible even in lands that are hostile to most peoples.\n\nNidavellir is one of the principal centers of renewed Dwarven settlement in the North."
 
  game_concept_roundingofworld: "Rounding of the World"
  game_concept_forodwaithshattering: "Shattering of Forodwaith"
- game_concept_roundingofworld_desc: "During the [downfallofnumenor|E], the shape of the world itself was changed, and the once-flat world was bent into a sphere. In the more temperate lands nearer the equator, this transformation brought relatively little visible destruction. At the poles, however, the consequences were catastrophic.\n\nThe far North was nearly torn apart. Great stretches of the northern peninsula were shattered into islands, ancient coastlines vanished beneath the sea, and newly awakened volcanoes poured truly immense quantities of lava across the broken land. Mountains split, valleys collapsed, and entire regions were remade in a matter of days.\n\nFor [evermist|E], the catastrophe was especially devastating. Centuries of patient work spent healing the wounds left by [morgothcharacter|E] and restoring the North were undone almost at once. Forests, settlements, and reclaimed lands were buried beneath ash, fire, ice, and flood, leaving the peoples of [forodwaith|E] to begin the work of restoration all over again."
+ game_concept_roundingofworld_desc: "During the [downfallofnumenor|e], the shape of the world itself was changed, and the once-flat world was bent into a sphere. In the more temperate lands nearer the equator, this transformation brought relatively little visible destruction. At the poles, however, the consequences were catastrophic.\n\nThe far North was nearly torn apart. Great stretches of the northern peninsula were shattered into islands, ancient coastlines vanished beneath the sea, and newly awakened volcanoes poured truly immense quantities of lava across the broken land. Mountains split, valleys collapsed, and entire regions were remade in a matter of days.\n\nFor [evermist|e], the catastrophe was especially devastating. Centuries of patient work spent healing the wounds left by [morgothcharacter|e] and restoring the North were undone almost at once. Forests, settlements, and reclaimed lands were buried beneath ash, fire, ice, and flood, leaving the peoples of [forodwaith|e] to begin the work of restoration all over again."
 
  # ============================================================
  # Seas
@@ -175,12 +175,12 @@ l_english:
 
 
  nick_queen_air_dark: "The Lady of Cold"
- nick_queen_air_dark_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U], the [Concept('ladyofcold','Lady of Cold')|E], is known to the [Concept('lossoth','Lossoth')|E] as Yâdânaisëny, the Winter Queen. One of [melkorcharacter|E]'s chief lieutenants during the [elderdays|E], she was no match for [sauroncharacter|E] in power, but was feared for her cold cruelty and her inability to tell a direct lie.\n\nKnown for her bargains, she was said to serve the Shadow only because of a pact with [melkorcharacter|E]. In later ages, she remained one of the last rivals to [sauroncharacter|E], haunting the icy waters of [Concept('forochel','Forochel')|E]."
+ nick_queen_air_dark_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U], the [ladyofcold|e], is known to the [lossoth|e] as Yâdânaisëny, the Winter Queen. One of [melkorcharacter|e]'s chief lieutenants during the [elderdays|e], she was no match for [sauroncharacter|e] in power, but was feared for her cold cruelty and her inability to tell a direct lie.\n\nKnown for her bargains, she was said to serve the Shadow only because of a pact with [melkorcharacter|e]. In later ages, she remained one of the last rivals to [sauroncharacter|e], haunting the icy waters of [forochel|e]."
 
  nick_adar: "Adar"
  nick_adar_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] is one of the eldest surviving ancestors of the [orcs|e] in [middleearth|e] and is in a very real sense the father of his people."
  nick_tareg: "Rúnlion"
- nick_tareg_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] led a great host of [avari|E] westward after the [battleofpalisor|E], before being defeated by the forces of [morgothcharacter|E] and left entombed in ice."
+ nick_tareg_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] led a great host of [avari|e] westward after the [battleofpalisor|e], before being defeated by the forces of [morgothcharacter|e] and left entombed in ice."
 
  nick_beowulf: "The Dragonslayer"
  nick_beowulf_desc: "This character slew a great [dragon|e] in battle, saving his people from the dread wyrm."
@@ -202,26 +202,26 @@ l_english:
  angband_orcs: "Angband Orcs"
  angband_orcs_prefix: "Angband"
  angband_orcs_collective_noun: "Orcs"
- angband_orcs_history_loc: "[Concept('orcs','Orcs')|E] native to the dread realm of [angband|e]"
- angband_orcs_desc: "[Concept('orcs','Orcs')|E] native to the dread realm of [angband|e]."
+ angband_orcs_history_loc: "[orcs|e] native to the dread realm of [angband|e]"
+ angband_orcs_desc: "[orcs|e] native to the dread realm of [angband|e]."
 
  snow_orcs: "Hîsha"
  snow_orcs_prefix: "Hîsha"
  snow_orcs_collective_noun: "Hîsha"
- snow_orcs_history_loc: "[Concept('orcs','Orcs')|E] adapted to the icy cold of [forodwaith|e]"
- snow_orcs_desc: "[Concept('orcs','Orcs')|E] adapted to the icy cold of [forodwaith|e]."
+ snow_orcs_history_loc: "[orcs|e] adapted to the icy cold of [forodwaith|e]"
+ snow_orcs_desc: "[orcs|e] adapted to the icy cold of [forodwaith|e]."
 
  forodain: "Forodain"
  forodain_prefix: "Forodain"
  forodain_collective_noun: "Forodain"
- forodain_history_loc: "Descendants of [Concept('numenorean','Númenórean')|E] whalers who mingled with the [Concept('men','Men')|E] of the North and later received strong cultural influence from the [Concept('dunedain','Dúnedain')|E] of [Concept('arnor','Arnor')|E]."
- forodain_desc: "Descendants of [Concept('numenorean','Númenórean')|E] whalers who mingled with the [Concept('men','Men')|E] of the North and later received strong cultural influence from the [Concept('dunedain','Dúnedain')|E] of [Concept('arnor','Arnor')|E]."
+ forodain_history_loc: "Descendants of [numenorean|e] whalers who mingled with the [men|e] of the North and later received strong cultural influence from the [dunedain|e] of [arnor|e]."
+ forodain_desc: "Descendants of [numenorean|e] whalers who mingled with the [men|e] of the North and later received strong cultural influence from the [dunedain|e] of [arnor|e]."
 
  lossidil: "Lossidil"
  lossidil_prefix: "Lossidil"
  lossidil_collective_noun: "Lossidil"
- lossidil_history_loc: "Nandor who traveled into the far North and mingled with [Concept('sindarelves','Sindar')|E] fleeing the destruction of the [Concept('warofwrath','War of Wrath')|E]."
- lossidil_desc: "Nandor who traveled into the far North and mingled with [Concept('sindarelves','Sindar')|E] fleeing the destruction of the [Concept('warofwrath','War of Wrath')|E]."
+ lossidil_history_loc: "Nandor who traveled into the far North and mingled with [sindarelves|e] fleeing the destruction of the [warofwrath|e]."
+ lossidil_desc: "Nandor who traveled into the far North and mingled with [sindarelves|e] fleeing the destruction of the [warofwrath|e]."
 
  adlantrim: "Adlantrim"
  adlantrim_prefix: "Adlantrim"
@@ -232,15 +232,15 @@ l_english:
  umli: "Umli"
  umli_prefix: "Umli"
  umli_collective_noun: "Umli"
- umli_history_loc: "Northerners believed to descend from an ancient union of [Concept('men','Men')|E] and [Concept('dwarves','Dwarves')|E]."
+ umli_history_loc: "Northerners believed to descend from an ancient union of [men|e] and [dwarves|e]."
  umli_desc: "Northerners thought to be descendants of an ancient union of [men|e] and [dwarves|e]."
  heritage_umli_name: "Umli"
 
  gauredain: "Gauredain"
  gauredain_prefix: "Gauredain"
  gauredain_collective_noun: "Gauredain"
- gauredain_history_loc: "The original inhabitants of Angmar, driven into the wastes by the [Concept('witchking','Witch-king')|E]."
- gauredain_desc: "The original inhabitants of Angmar, driven into the wastes by the [Concept('witchking','Witch-king')|E]."
+ gauredain_history_loc: "The original inhabitants of Angmar, driven into the wastes by the [witchking|e]."
+ gauredain_desc: "The original inhabitants of Angmar, driven into the wastes by the [witchking|e]."
 
  tfw_restored_adlantrim: "Cýredhil"
  tfw_restored_adlantrim_prefix: "Cŷr"
@@ -251,19 +251,19 @@ l_english:
  # ============================================================
 
  elven_hope_situation_sub_region_forodwaith: "Forodwaith"
- elven_hope_situation_sub_region_forodwaith_desc: "$SITUATION_SUB_REGION_TOOLTIP_DESC$\n\n#weak The frozen North has sheltered [elves|E] since the [elderdays|E]. Though less grand than the realms of the South, its Elven kingdoms have endured. Unlike many of the [eldar|E], some have even thrived, far from the troubles of warmer lands.#!"
- DISPLAY_CURRENT_FORODWAITH_HOPE_VALUE: "$elven_hope_situation_sub_region_forodwaith$ (#high [Situation.GetSubRegionByKey( 'forodwaith' ).MakeScope.Var('forodwaith_hope_value').GetValue]#! [hope|E])"
+ elven_hope_situation_sub_region_forodwaith_desc: "$SITUATION_SUB_REGION_TOOLTIP_DESC$\n\n#weak The frozen North has sheltered [elves|e] since the [elderdays|e]. Though less grand than the realms of the South, its Elven kingdoms have endured. Unlike many of the [eldar|e], some have even thrived, far from the troubles of warmer lands.#!"
+ DISPLAY_CURRENT_FORODWAITH_HOPE_VALUE: "$elven_hope_situation_sub_region_forodwaith$ (#high [Situation.GetSubRegionByKey( 'forodwaith' ).MakeScope.Var('forodwaith_hope_value').GetValue]#! [hope|e])"
 
  situation_frozen_waste: "The Frozen Waste"
- situation_frozen_waste_desc: "The shattered lands of [forodwaith|E] once housed the great fortresses of [morgothcharacter|E], the first Dark Lord. Though he is gone, his taint still lies upon the land millennia later. The region has remained unnaturally cold and barren since the [warofwrath|E]. Some blame the lingering Shadow, others the [witchking|E] and [sauroncharacter|E], while still others whisper of the [ladyofcold|E]..."
- eternal_winter_desc: "- [GetScriptedCharacterByHistoryID('tfw_lineofnixni_001').GetFirstName] has been expelled from [GetTitleByKey('k_angband').GetName]\n- [Concept('angband','Angband')|E] has been cleansed\n- [Concept('frostwood','Frostwood')|E] has been healed\n- [Concept('helecthil','Helecthil')|E] is held by a good-aligned ruler"
+ situation_frozen_waste_desc: "The shattered lands of [forodwaith|e] once housed the great fortresses of [morgothcharacter|e], the first Dark Lord. Though he is gone, his taint still lies upon the land millennia later. The region has remained unnaturally cold and barren since the [warofwrath|e]. Some blame the lingering Shadow, others the [witchking|e] and [sauroncharacter|e], while still others whisper of the [ladyofcold|e]..."
+ eternal_winter_desc: "- [GetScriptedCharacterByHistoryID('tfw_lineofnixni_001').GetFirstName] has been expelled from [GetTitleByKey('k_angband').GetName]\n- [angband|e] has been cleansed\n- [frostwood|e] has been healed\n- [helecthil|e] is held by a good-aligned ruler"
  frozen_waste_eternal_winter_situation_phase: "Eternal Winter"
  eternal_winter_effects: "Eternal Winter Effects"
  eternal_winter_effects_concept: "Eternal Winter Effects"
  frozen_waste_participant_group_affected_ruler: "Affected Ruler"
  frozen_waste_participant_group_affected_ruler_desc: "Affected Ruler"
  frozen_waste_participant_group_winter_queen: "The Winter Queen"
- frozen_waste_participant_group_winter_queen_desc: "The [Concept('ladyofcold','Winter Queen')|E]"
+ frozen_waste_participant_group_winter_queen_desc: "The [winter_queen|e]"
  frozen_waste_affected_ruler: "Affected Ruler"
  frozen_waste_winter_queen: "Winter Queen"
 
@@ -271,13 +271,13 @@ l_english:
  JOURNAL_ENTRY_COMPLETION_REQUIREMENTS: "Completion Requirements"
 
  situation_tfw_orc_restoration: "The Great Healing"
- situation_tfw_orc_restoration_desc: "The [Concept('adlantrim','Adlantrim')|E], abandoned children of [Concept('eruiluvatar','Ilúvatar')|E], have endured untold suffering since [melkorcharacter|E] stole their ancestors from [cuivienen|E]. Yet they have not lost hope. They work tirelessly to cleanse themselves of the taint of the [darklord|E]."
+ situation_tfw_orc_restoration_desc: "The [adlantrim|e], abandoned children of [iluvatar|e], have endured untold suffering since [melkorcharacter|e] stole their ancestors from [cuivienen|e]. Yet they have not lost hope. They work tirelessly to cleanse themselves of the taint of the [darklord|e]."
  tfw_restoration_middleearth: "Middle-earth"
  tfw_orc_restoration_tfw_restoration_long_road_situation_phase: "The Long Road"
  tfw_restoration_long_road: "The Long Road"
- tfw_restoration_long_road_desc: "- [GetScriptedCharacterByHistoryID('lineofsauron').GetFirstName] has been defeated\n- [Concept('angband','Angband')|E] has been cleansed\n- The Beseech Higher Powers [great_project|E] has been completed\n- No independent, evil-aligned [orc|E] ruler holds [duke|E] [rank|E] or higher"
+ tfw_restoration_long_road_desc: "- [GetScriptedCharacterByHistoryID('lineofsauron').GetFirstName] has been defeated\n- [angband|e] has been cleansed\n- The Beseech Higher Powers [great_project|e] has been completed\n- No independent, evil-aligned [orc|e] ruler holds [duke|e] [rank|e] or higher"
  tfw_orc_restoration_participant_group_good_orcs: "Adlantrim"
- tfw_orc_restoration_participant_group_good_orcs_desc: "[Concept('orcs','Orcs')|E] who have turned toward the light and work to free themselves and the world from darkness."
+ tfw_orc_restoration_participant_group_good_orcs_desc: "[orcs|e] who have turned toward the light and work to free themselves and the world from darkness."
  tfw_orc_restoration_good_orcs: "Adlantrim"
  tfw_restoration_shared_purpose: "Glorious Purpose"
  tfw_restoration_shared_purpose_concept: "Glorious Purpose"
@@ -287,27 +287,27 @@ l_english:
  # ============================================================
 
  bm_2754_frozen_waste: "The Ruined Wastes"
- bm_2754_frozen_waste_desc: "[Concept('forodwaith','Forodwaith')|E] is a harsh, sparsely populated land still scarred by the [Concept('warofwrath','War of Wrath')|E]. [Concept('dragon','Dragons')|E] dominate its skies, spirits of air and darkness hold it in an eternal winter, and centers of civilization are few and far between. Yet hope is not lost.\n\nIn the uttermost North, the [Concept('lossidil','Lossidil')|E] have raised a great city around a shard of the [Concept('lampsofthevalar','Great Lamps')|E]. Volcanic hot springs shelter the valley of [Concept('evermist','Evermist')|E] from the worst of winter, while [Concept('dwarves','Dwarves')|E] carve a new realm into the Ered Muil.\n\nBut in the ruins of [Concept('angband','Angband')|E], Nixní, the [Concept('ladyofcold','Lady of Cold')|E], plots in service to the ancient darkness, holding the land in an endless frost."
+ bm_2754_frozen_waste_desc: "[forodwaith|e] is a harsh, sparsely populated land still scarred by the [warofwrath|e]. [dragons|e] dominate its skies, spirits of air and darkness hold it in an eternal winter, and centers of civilization are few and far between. Yet hope is not lost.\n\nIn the uttermost North, the [lossidil|e] have raised a great city around a shard of the [lampsofthevalar|e]. Volcanic hot springs shelter the valley of [evermist|e] from the worst of winter, while [dwarves|e] carve a new realm into the Ered Muil.\n\nBut in the ruins of [angband|e], Nixní, the [ladyofcold|e], plots in service to the ancient darkness, holding the land in an endless frost."
 
  bookmark_frozen_waste_nixni: "Nixní"
  bookmark_frozen_waste_nixni_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
- bookmark_frozen_waste_nixni_desc: "The [Concept('ladyofcold','Lady of Cold')|E] is the most powerful being left in the Frozen Waste. One of [Concept('morgothcharacter','Morgoth')|E]'s lieutenants in the [Concept('elderdays','Elder Days')|E], she has established herself in the ruins of [Concept('angband','Angband')|E], guarding his shattered realm until her master returns. Yet rumors suggest that she is preparing something within the broken halls, with none but the [Concept('darklord','Dark Lord')|E] himself privy to her plans."
+ bookmark_frozen_waste_nixni_desc: "The [ladyofcold|e] is the most powerful being left in the Frozen Waste. One of [morgothcharacter|e]'s lieutenants in the [elderdays|e], she has established herself in the ruins of [angband|e], guarding his shattered realm until her master returns. Yet rumors suggest that she is preparing something within the broken halls, with none but the [darklord|e] himself privy to her plans."
 
  bookmark_frozen_waste_talanthir: "Talanthir"
  bookmark_frozen_waste_talanthir_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
- bookmark_frozen_waste_talanthir_desc: "Talanthir, High King of the [Concept('adlantrim','Adlantrim')|E], is one of the oldest beings still living in [Concept('middleearth','Middle-earth')|E]. The last of the original [Concept('orcs','Orcs')|E], he alone remembers the days before [Concept('melkorcharacter','Melkor')|E] stole his people from [Concept('cuivienen','Cuiviénen')|E]. He has fought to preserve his children's souls and worked for ages to heal what was broken. The Orcs, too, are children of [Concept('eruiluvatar','Ilúvatar')|E], even if the [Concept('elves','Elves')|E] and the [Concept('valargods','Valar')|E] forget it."
+ bookmark_frozen_waste_talanthir_desc: "Talanthir, High King of the [adlantrim|e], is one of the oldest beings still living in [middleearth|e]. The last of the original [orcs|e], he alone remembers the days before [melkorcharacter|e] stole his people from [cuivienen|e]. He has fought to preserve his children's souls and worked for ages to heal what was broken. The Orcs, too, are children of [iluvatar|e], even if the [elves|e] and the [valar|e] forget it."
 
  bookmark_frozen_waste_graw: "Graw"
  bookmark_frozen_waste_graw_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
- bookmark_frozen_waste_graw_desc: "Graw is a foundling raised aboard the ships that ply the [Concept('forodain','Forodain')|E] islands. He has always suspected that he was destined for greatness. Only when the great cold-[Concept('drake','drake')|E] Faron slew his adoptive parents and sank their ship did he discover his purpose: he would bring down the dragon, even if it cost him his life."
+ bookmark_frozen_waste_graw_desc: "Graw is a foundling raised aboard the ships that ply the [forodain|e] islands. He has always suspected that he was destined for greatness. Only when the great cold-[drake|e] Faron slew his adoptive parents and sank their ship did he discover his purpose: he would bring down the dragon, even if it cost him his life."
 
  bookmark_frozen_waste_evermist_queen: "Vorwen"
  bookmark_frozen_waste_evermist_queen_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
- bookmark_frozen_waste_evermist_queen_desc: "The daughter of [Concept('feanor','Fëanor')|E]'s fourth son, Vorwen spent the [Concept('firstage','First Age')|E] fighting in her family's wars across [Concept('beleriand','Beleriand')|E]. When the war ended and the land itself lay ruined, she swore a different oath: not to reclaim her grandfather's jewels, but to remain in [Concept('middleearth','Middle-earth')|E] until the damage her family had helped cause was healed."
+ bookmark_frozen_waste_evermist_queen_desc: "The daughter of [feanor|e]'s fourth son, Vorwen spent the [firstage|e] fighting in her family's wars across [beleriand|e]. When the war ended and the land itself lay ruined, she swore a different oath: not to reclaim her grandfather's jewels, but to remain in [middleearth|e] until the damage her family had helped cause was healed."
 
  bookmark_frozen_waste_eitri: "Eitri"
  bookmark_frozen_waste_eitri_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
- bookmark_frozen_waste_eitri_desc: "The second son of the King of the [Concept('ironfists','Ironfists')|E], Eitri sought more than a life within his family's ancient halls in the Red Mountains. Hearing of untold riches buried beneath the mountains of the Utter North, he organized an expedition to the Bleak Mountains to establish a new outpost, one that might someday rival the great holds of the [Concept('elderdays','Elder Days')|E]."
+ bookmark_frozen_waste_eitri_desc: "The second son of the King of the [ironfists|e], Eitri sought more than a life within his family's ancient halls in the Red Mountains. Hearing of untold riches buried beneath the mountains of the Utter North, he organized an expedition to the Bleak Mountains to establish a new outpost, one that might someday rival the great holds of the [elderdays|e]."
 
 
  # ============================================================
@@ -315,7 +315,7 @@ l_english:
  # ============================================================
 
  great_project_type_angband_durnost_upgrade: "Restore Dread Fortress"
- great_project_type_angband_durnost_upgrade_desc: "The North is dotted with dread fortresses of the [elderdays|E]. With sufficient investment and effort, these strongholds can be restored to their ancient grandeur."
+ great_project_type_angband_durnost_upgrade_desc: "The North is dotted with dread fortresses of the [elderdays|e]. With sufficient investment and effort, these strongholds can be restored to their ancient grandeur."
  great_project_type_angband_durnost_upgrade_valid_location_tt: "This province must contain an upgradeable level of #high Angband#! or #high Durnost#!."
  great_project_type_angband_durnost_construct_building_tt: "The fortress will be expanded to its next level."
  great_project_type_angband_durnost_upgrade_stonework: "Massive Stoneworks"
@@ -330,7 +330,7 @@ l_english:
 # ============================================================
 
  great_project_type_tfw_restoration_mass_prayer: "Beseech Higher Powers"
- great_project_type_tfw_restoration_mass_prayer_desc: "For too long, we have been scorned by our brethren and spurned by the [valargods|E]. If we are to succeed, we must direct our prayers higher, to [eruiluvatar|E] himself. Only he can undo what [morgothcharacter|E] has done to us, and it will take a great act of devotion to gain his attention."
+ great_project_type_tfw_restoration_mass_prayer_desc: "For too long, we have been scorned by our brethren and spurned by the [valargods|e]. If we are to succeed, we must direct our prayers higher, to [eruiluvatar|e] himself. Only he can undo what [morgothcharacter|e] has done to us, and it will take a great act of devotion to gain his attention."
  great_project_type_tooltip_tfw_restoration_mass_prayer: "Beseech Higher Powers"
  great_project_name_tfw_restoration_mass_prayer: "Beseech Higher Powers"
  great_project_name_possessive_tfw_restoration_mass_prayer: "Beseech Higher Powers"

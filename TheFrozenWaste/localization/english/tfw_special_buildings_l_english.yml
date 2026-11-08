@@ -8,7 +8,7 @@
   building_type_wonder_taregs_corpse: "Tareg's Corpse"
   building_type_wonder_taregs_corpse_desc: "$building_wonder_taregs_corpse_desc$"
   building_wonder_taregs_corpse: "Tareg's Corpse"
-  building_wonder_taregs_corpse_desc: "Here the [Concept('avari','Avarin')|E] king [Concept('tareg','Tareg')|E] fell at the hands of the Ice Queen. His perfectly preserved body stands upright and defiant within a meter-thick prison of ice. To the Avari who remained in [Concept('frostwood','Frostwood')|E], this is both the site of their greatest defeat and a reminder of why they must remain vigilant."
+  building_wonder_taregs_corpse_desc: "Here the [avarin|e] king [tareg|e] fell at the hands of the Ice Queen. His perfectly preserved body stands upright and defiant within a meter-thick prison of ice. To the Avari who remained in [frostwood|e], this is both the site of their greatest defeat and a reminder of why they must remain vigilant."
 
   # The Ribs of Ancalagon
   building_type_wonder_ribs_of_ancalagon: "The Ribs of Ancalagon"
@@ -20,7 +20,7 @@
   building_type_wonder_frozen_numenorean_fleet: "Shatterwood"
   building_type_wonder_frozen_numenorean_fleet_desc: "$building_wonder_frozen_numenorean_fleet_desc$"
   building_wonder_frozen_numenorean_fleet: "Shatterwood"
-  building_wonder_frozen_numenorean_fleet_desc: "Locked within the ice are the broken timbers and weathered hulls of an ancient [Concept('numenorean','Númenórean')|E] fleet, shattered by the [Concept('ladyofcold','Lady of Cold')|E] near the end of the [Concept('secondage','Second Age')|E]. Its survivors later helped shape the [Concept('forodain','Forodain')|E], who regard the hulks with reverence. Shifting ice and treacherous ground make any journey among them dangerous."
+  building_wonder_frozen_numenorean_fleet_desc: "Locked within the ice are the broken timbers and weathered hulls of an ancient [numenorean|e] fleet, shattered by the [ladyofcold|e] near the end of the [secondage|e]. Its survivors later helped shape the [forodain|e], who regard the hulks with reverence. Shifting ice and treacherous ground make any journey among them dangerous."
 
   # Whitehaven
   building_type_wonder_whitehaven: "Whitehaven"
@@ -32,13 +32,13 @@
   building_type_wonder_forodain_whaling_city: "Achrond"
   building_type_wonder_forodain_whaling_city_desc: "$building_wonder_forodain_whaling_city_desc$"
   building_wonder_forodain_whaling_city: "Achrond"
-  building_wonder_forodain_whaling_city_desc: "Originally a [Concept('numenorean','Númenórean')|E] whaling port, the haven of Achrond grew into one of the main centers of [Concept('forodain','Forodain')|E] society after the fall of [Concept('numenor','Númenor')|E]."
+  building_wonder_forodain_whaling_city_desc: "Originally a [numenorean|e] whaling port, the haven of Achrond grew into one of the main centers of [forodain|e] society after the fall of [numenor|e]."
 
   # Morgoth's Well
   building_type_wonder_morgoths_well: "Morgoth's Well"
   building_type_wonder_morgoths_well_desc: "$building_wonder_morgoths_well_desc$"
   building_wonder_morgoths_well: "Morgoth's Well"
-  building_wonder_morgoths_well_desc: "In the [Concept('elderdays','Elder Days')|E], this was a vast chasm reaching deep into the earth. Here [Concept('maedhros','Maedhros')|E] cast himself and his [Concept('silmaril','Silmaril')|E] into the depths. But nothing is eternal. The [Concept('roundingofworld','Rounding of the World')|E] forced an immense eruption of magma through the crevice, transforming it into a mighty shield volcano."
+  building_wonder_morgoths_well_desc: "In the [elderdays|e], this was a vast chasm reaching deep into the earth. Here [maedhros|e] cast himself and his [silmaril|e] into the depths. But nothing is eternal. The [roundingofworld|e] forced an immense eruption of magma through the crevice, transforming it into a mighty shield volcano."
 
   # Wolfmere
   building_type_wonder_wolfmere: "Wolfmere"
@@ -50,33 +50,33 @@
   building_type_wonder_faron_dragon_site: "The Barrow of Faron"
   building_type_wonder_faron_dragon_site_desc: "$building_wonder_faron_dragon_site_desc$"
   building_wonder_faron_dragon_site: "The Barrow of Faron"
-  building_wonder_faron_dragon_site_desc: "Here, according to the songs of the [Concept('forodain','Forodain')|E], the hero Beowulf faced the [Concept('dragon','dragon')|E] Faron and slew the beast after a terrible struggle. Cairns and weathered memorial stones mark the battlefield, and warriors still come to honor the courage of the hero whose deed has echoed through generations."
+  building_wonder_faron_dragon_site_desc: "Here, according to the songs of the [forodain|e], the hero Beowulf faced the [dragon|e] Faron and slew the beast after a terrible struggle. Cairns and weathered memorial stones mark the battlefield, and warriors still come to honor the courage of the hero whose deed has echoed through generations."
 
   # Evermist
   building_type_wonder_evermist_01: "Evermist"
-  building_type_wonder_evermist_01_desc: "Hidden among mist-shrouded heights, [Concept('evermist','Evermist')|E] is an ancient [Concept('elves','Elven')|E] refuge where stone, water, and living wood have been shaped into a harmonious whole."
+  building_type_wonder_evermist_01_desc: "Hidden among mist-shrouded heights, [evermist|e] is an ancient [elven|e] refuge where stone, water, and living wood have been shaped into a harmonious whole."
   building_wonder_evermist_01: "Refuge of Evermist"
-  building_wonder_evermist_01_desc: "Veiled by perpetual mist, the first halls of [Concept('evermist','Evermist')|E] lie concealed among steep ridges, sheltered gardens, and clear-running streams. Its quiet beauty offers safety and restoration to those who dwell within, while the surrounding terrain makes the refuge exceedingly difficult for an enemy to approach."
+  building_wonder_evermist_01_desc: "Veiled by perpetual mist, the first halls of [evermist|e] lie concealed among steep ridges, sheltered gardens, and clear-running streams. Its quiet beauty offers safety and restoration to those who dwell within, while the surrounding terrain makes the refuge exceedingly difficult for an enemy to approach."
   building_wonder_evermist_02: "Stronghold of Evermist"
-  building_wonder_evermist_02_desc: "[Concept('evermist','Evermist')|E] has grown into a formidable hidden stronghold. Terraced halls, guarded paths, concealed storehouses, and carefully cultivated gardens blend so completely into the landscape that fortress and wilderness seem part of a single design."
+  building_wonder_evermist_02_desc: "[evermist|e] has grown into a formidable hidden stronghold. Terraced halls, guarded paths, concealed storehouses, and carefully cultivated gardens blend so completely into the landscape that fortress and wilderness seem part of a single design."
   building_wonder_evermist_03: "Sanctuary of Evermist"
-  building_wonder_evermist_03_desc: "At its height, [Concept('evermist','Evermist')|E] is both sanctuary and fortress, a place of learning, healing, contemplation, and unyielding defense. Its halls disappear into the mist and stone, while its gardens and waters seem untouched by the passing of years."
+  building_wonder_evermist_03_desc: "At its height, [evermist|e] is both sanctuary and fortress, a place of learning, healing, contemplation, and unyielding defense. Its halls disappear into the mist and stone, while its gardens and waters seem untouched by the passing of years."
 
   # Helecthil
   building_type_wonder_helecthil_01: "Helecthil"
-  building_type_wonder_helecthil_01_desc: "A beacon and sanctuary of the [Concept('lossidil','Lossidil')|E], [Concept('helecthil','Helecthil')|E] shines across the frozen north as a place of guidance, endurance, and spiritual refuge."
+  building_type_wonder_helecthil_01_desc: "A beacon and sanctuary of the [lossidil|e], [helecthil|e] shines across the frozen north as a place of guidance, endurance, and spiritual refuge."
   building_wonder_helecthil_01: "Beacon of Helecthil"
   building_wonder_helecthil_01_desc: "A bright beacon rises above the frozen landscape, guiding travelers through snow, darkness, and bitter wind. Around it stands a modest sanctuary where the weary may find warmth, rest, and a moment of peace beneath the northern sky."
   building_wonder_helecthil_02: "Sanctuary of Helecthil"
   building_wonder_helecthil_02_desc: "The beacon has become the heart of a flourishing sanctuary. Halls, storehouses, and sheltered dwellings cluster around its light, offering safety to travelers and sustaining settlement in lands that would otherwise resist habitation."
   building_wonder_helecthil_03: "Great Beacon of Helecthil"
-  building_wonder_helecthil_03_desc: "[Concept('helecthil','Helecthil')|E] now blazes like a star over the frozen wilderness. Its great beacon can be seen from afar, while the strong halls beneath it form a prosperous refuge whose warmth, faith, and ordered life stand in defiance of the killing cold."
+  building_wonder_helecthil_03_desc: "[helecthil|e] now blazes like a star over the frozen wilderness. Its great beacon can be seen from afar, while the strong halls beneath it form a prosperous refuge whose warmth, faith, and ordered life stand in defiance of the killing cold."
 
   # Evermist Falls
   building_type_wonder_evermist_falls: "Evermist Falls"
   building_type_wonder_evermist_falls_desc: "$building_wonder_evermist_falls_desc$"
   building_wonder_evermist_falls: "Evermist Falls"
-  building_wonder_evermist_falls_desc: "A broad silver cascade plunges from the misty heights near [Concept('evermist','Evermist')|E], filling the valley with cool spray and the constant murmur of falling water. The [Concept('elves','Elves')|E] have preserved the surrounding pools and gardens with great care, and the serenity of the falls makes the site prized for rest, contemplation, and healing."
+  building_wonder_evermist_falls_desc: "A broad silver cascade plunges from the misty heights near [evermist|e], filling the valley with cool spray and the constant murmur of falling water. The [elves|e] have preserved the surrounding pools and gardens with great care, and the serenity of the falls makes the site prized for rest, contemplation, and healing."
 
   # Boiling Lake
   building_type_wonder_boiling_lake: "Boiling Lake"
@@ -98,13 +98,13 @@
 
   # Carasthon
   building_type_wonder_carasthon_01: "Carasthon"
-  building_type_wonder_carasthon_01_desc: "Carasthon is an [Concept('elves','Elven')|E] settlement of terraces, towers, and halls, built to command the surrounding land while fostering trade, order, and prosperity."
+  building_type_wonder_carasthon_01_desc: "Carasthon is an [elven|e] settlement of terraces, towers, and halls, built to command the surrounding land while fostering trade, order, and prosperity."
   building_wonder_carasthon_01: "Young Carasthon"
   building_wonder_carasthon_01_desc: "The foundations of Carasthon have been firmly laid. Stone roads connect new halls, storehouses, and defensible towers, while craftsmen and merchants begin to gather beneath the protection of its growing walls."
   building_wonder_carasthon_02: "Flourishing Carasthon"
   building_wonder_carasthon_02_desc: "Carasthon has become a prosperous regional center. Its walls and garrison have expanded alongside broad markets, workshops, granaries, and ordered streets, allowing wealth and population to grow securely behind its defenses."
   building_wonder_carasthon_03: "Great City of Carasthon"
-  building_wonder_carasthon_03_desc: "Carasthon stands at its full splendor, a great [Concept('elves','Elven')|E] city of high towers, fortified terraces, busy markets, and elegant halls. Wealth flows through its gates, its people prosper, and its defenses ensure that the city can endure both war and winter."
+  building_wonder_carasthon_03_desc: "Carasthon stands at its full splendor, a great [elven|e] city of high towers, fortified terraces, busy markets, and elegant halls. Wealth flows through its gates, its people prosper, and its defenses ensure that the city can endure both war and winter."
 
   # Halls of Talanthir
   building_type_wonder_halls_of_talanthir_01: "Halls of Talanthir"
@@ -122,16 +122,16 @@
   # ============================================================
 
   building_type_wonder_bleak_diamond_01: "Menegmírrond"
-  building_type_wonder_bleak_diamond_01_desc: "Menegmírrond, the Vault of a Thousand Jewels, is an extraordinary cavern deep beneath the Bleak Mountains. Formed by the immense volcanic pressures unleashed during the [Concept('roundingofworld','Rounding of the World')|E], its walls contain a concentration of diamonds unlike almost any other in [Concept('middleearth','Middle-earth')|E]."
+  building_type_wonder_bleak_diamond_01_desc: "Menegmírrond, the Vault of a Thousand Jewels, is an extraordinary cavern deep beneath the Bleak Mountains. Formed by the immense volcanic pressures unleashed during the [roundingofworld|e], its walls contain a concentration of diamonds unlike almost any other in [middleearth|e]."
 
   building_wonder_bleak_diamond_01: "Menegmírrond"
-  building_wonder_bleak_diamond_01_desc: "During the [Concept('roundingofworld','Rounding of the World')|E], tremendous volcanic forces compressed the deep rock of the Bleak Mountains, forming an immense concentration of diamonds within a newly fractured cavern. Precious stones glitter in its exposed walls, and even without organized mining, the collection of loose gemstones provides a modest source of wealth."
+  building_wonder_bleak_diamond_01_desc: "During the [roundingofworld|e], tremendous volcanic forces compressed the deep rock of the Bleak Mountains, forming an immense concentration of diamonds within a newly fractured cavern. Precious stones glitter in its exposed walls, and even without organized mining, the collection of loose gemstones provides a modest source of wealth."
 
   building_wonder_bleak_diamond_02: "Workings of Menegmírrond"
   building_wonder_bleak_diamond_02_desc: "Miners have begun exploiting the extraordinary deposits of Menegmírrond. New galleries follow the richest concentrations of diamonds through the mountain, while workshops cut and polish the recovered stones. What was once a remarkable natural cavern is steadily becoming one of the most valuable mineral deposits of the Bleak Mountains."
 
   building_wonder_bleak_diamond_03: "Great Mines of Menegmírrond"
-  building_wonder_bleak_diamond_03_desc: "A vast network of excavations now surrounds the original cavern of Menegmírrond, following the unusually dense deposits created by the volcanic upheaval of the [Concept('roundingofworld','Rounding of the World')|E]. Skilled miners extract diamonds in astonishing quantities, while master gemcutters transform the finest stones into treasures coveted throughout [Concept('middleearth','Middle-earth')|E]. The wealth drawn from these depths rivals that of many celebrated mines."
+  building_wonder_bleak_diamond_03_desc: "A vast network of excavations now surrounds the original cavern of Menegmírrond, following the unusually dense deposits created by the volcanic upheaval of the [roundingofworld|e]. Skilled miners extract diamonds in astonishing quantities, while master gemcutters transform the finest stones into treasures coveted throughout [middleearth|e]. The wealth drawn from these depths rivals that of many celebrated mines."
 
 
   # ============================================================
@@ -139,38 +139,38 @@
   # ============================================================
 
   building_type_wonder_bleak_mithril_01: "Mithrilhaudh"
-  building_type_wonder_bleak_mithril_01_desc: "Mithrilhaudh, the Grave of Mithril, marks the buried remains of an ancient armory destroyed during the [Concept('roundingofworld','Rounding of the World')|E]. Immense heat and pressure melted its stores of precious metal and crushed the structure deep into the mountain, leaving behind an extraordinary deposit of mithril embedded within the stone."
+  building_type_wonder_bleak_mithril_01_desc: "Mithrilhaudh, the Grave of Mithril, marks the buried remains of an ancient armory destroyed during the [roundingofworld|e]. Immense heat and pressure melted its stores of precious metal and crushed the structure deep into the mountain, leaving behind an extraordinary deposit of mithril embedded within the stone."
 
   building_wonder_bleak_mithril_01: "Mithrilhaudh"
-  building_wonder_bleak_mithril_01_desc: "Before the [Concept('roundingofworld','Rounding of the World')|E], an ancient armory stood upon this site, filled with weapons, armor, and stores of precious mithril. During the cataclysm, volcanic heat melted its contents while immense geological forces crushed the structure beneath the mountain. Little remains of the original armory, but its mithril survives as rich metallic veins twisted through the surrounding rock."
+  building_wonder_bleak_mithril_01_desc: "Before the [roundingofworld|e], an ancient armory stood upon this site, filled with weapons, armor, and stores of precious mithril. During the cataclysm, volcanic heat melted its contents while immense geological forces crushed the structure beneath the mountain. Little remains of the original armory, but its mithril survives as rich metallic veins twisted through the surrounding rock."
 
   building_wonder_bleak_mithril_02: "Excavations of Mithrilhaudh"
   building_wonder_bleak_mithril_02_desc: "Miners have begun excavating the strange metallic deposits surrounding the crushed remains of Mithrilhaudh. Veins of mithril, formed when the ancient armory's treasures were melted and compressed into the mountain, yield quantities of the precious metal rarely encountered elsewhere. Carefully recovered and refined, this mithril provides both immense wealth and materials for exceptional arms and armor."
 
   building_wonder_bleak_mithril_03: "Great Mines of Mithrilhaudh"
-  building_wonder_bleak_mithril_03_desc: "Extensive galleries now follow the mithril deposits of Mithrilhaudh through layers of stone twisted and compressed during the [Concept('roundingofworld','Rounding of the World')|E]. The precious metal, once worked into the arms and armor of a forgotten age, is brought forth from the mountain to be forged anew. Great workshops refine the recovered mithril into extraordinary weapons, armor, and ornaments, transforming the destruction of an ancient armory into a source of tremendous wealth."
+  building_wonder_bleak_mithril_03_desc: "Extensive galleries now follow the mithril deposits of Mithrilhaudh through layers of stone twisted and compressed during the [roundingofworld|e]. The precious metal, once worked into the arms and armor of a forgotten age, is brought forth from the mountain to be forged anew. Great workshops refine the recovered mithril into extraordinary weapons, armor, and ornaments, transforming the destruction of an ancient armory into a source of tremendous wealth."
 
 # ============================================================
 # ANGBAND GREAT BUILDINGS
 # ============================================================
 
   building_type_wonder_angband_01: "Angband"
-  building_type_wonder_angband_01_desc: "The greatest fortress of the North, [Concept('angband','Angband')|E] is a vast subterranean stronghold of iron, fire, pits, forges, barracks, and uncounted chambers driven deep beneath the mountains."
+  building_type_wonder_angband_01_desc: "The greatest fortress of the North, [angband|e] is a vast subterranean stronghold of iron, fire, pits, forges, barracks, and uncounted chambers driven deep beneath the mountains."
 
   building_wonder_angband_01: "Ruined Gates of Angband"
-  building_wonder_angband_01_desc: "The outer works of [Concept('angband','Angband')|E] rise again from ruin. Black walls seal the approaches, furnaces burn beneath the earth, and deep galleries are cleared for soldiers, laborers, and stores. Even in this diminished state, the fortress is a grim and formidable place."
+  building_wonder_angband_01_desc: "The outer works of [angband|e] rise again from ruin. Black walls seal the approaches, furnaces burn beneath the earth, and deep galleries are cleared for soldiers, laborers, and stores. Even in this diminished state, the fortress is a grim and formidable place."
 
   building_wonder_angband_02: "Reawakened Angband"
-  building_wonder_angband_02_desc: "The first great halls and defenses of [Concept('angband','Angband')|E] have been restored. Vast gates, layered walls, underground mustering grounds, and fortified tunnels turn the mountain into a weapon in its own right, while renewed mines and forges feed an expanding war machine."
+  building_wonder_angband_02_desc: "The first great halls and defenses of [angband|e] have been restored. Vast gates, layered walls, underground mustering grounds, and fortified tunnels turn the mountain into a weapon in its own right, while renewed mines and forges feed an expanding war machine."
 
   building_wonder_angband_03: "Iron Hells of Angband"
-  building_wonder_angband_03_desc: "[Concept('angband','Angband')|E] has spread far beneath the mountains. Endless galleries house troops and stores, great furnaces illuminate cavernous halls, and successive lines of defenses make every approach murderous. The fortress now sustains armies on a scale few realms could hope to match."
+  building_wonder_angband_03_desc: "[angband|e] has spread far beneath the mountains. Endless galleries house troops and stores, great furnaces illuminate cavernous halls, and successive lines of defenses make every approach murderous. The fortress now sustains armies on a scale few realms could hope to match."
 
   building_wonder_angband_04: "Mighty Angband"
-  building_wonder_angband_04_desc: "The stronghold has become a realm beneath the earth. Towering gates guard labyrinthine passages, immense arsenals equip hosts without rest, and whole districts are given over to barracks, workshops, prisons, and engines of war. To assault [Concept('angband','Angband')|E] is to wage war against the mountain itself."
+  building_wonder_angband_04_desc: "The stronghold has become a realm beneath the earth. Towering gates guard labyrinthine passages, immense arsenals equip hosts without rest, and whole districts are given over to barracks, workshops, prisons, and engines of war. To assault [angband|e] is to wage war against the mountain itself."
 
   building_wonder_angband_05: "Angband Unconquered"
-  building_wonder_angband_05_desc: "[Concept('angband','Angband')|E] stands restored to terrible grandeur. Its fortifications are layered beyond counting, its halls can shelter vast hosts, and its forges burn without ceasing. From the deepest vaults to the black gates above, every part of the fortress is built for dominion, war, and endurance. Few strongholds in [Concept('arda','Arda')|E] could hope to rival it."
+  building_wonder_angband_05_desc: "[angband|e] stands restored to terrible grandeur. Its fortifications are layered beyond counting, its halls can shelter vast hosts, and its forges burn without ceasing. From the deepest vaults to the black gates above, every part of the fortress is built for dominion, war, and endurance. Few strongholds in [arda|e] could hope to rival it."
 
 
   # ============================================================
@@ -178,22 +178,22 @@
   # ============================================================
 
   building_type_wonder_durnost_01: "Durnost"
-  building_type_wonder_durnost_01_desc: "[Concept('durnost','Durnost')|E] is a great northern fortress, built to command the surrounding lands through strong walls, disciplined garrisons, and carefully maintained roads and storehouses."
+  building_type_wonder_durnost_01_desc: "[durnost|e] is a great northern fortress, built to command the surrounding lands through strong walls, disciplined garrisons, and carefully maintained roads and storehouses."
 
   building_wonder_durnost_01: "Fort of Durnost"
   building_wonder_durnost_01_desc: "A stout fortress anchors the surrounding region. Its walls, barracks, and storehouses provide security for nearby settlements and a reliable base from which patrols can control the neighboring roads and passes."
 
   building_wonder_durnost_02: "Stronghold of Durnost"
-  building_wonder_durnost_02_desc: "[Concept('durnost','Durnost')|E] has grown beyond a simple fort. Additional walls, expanded barracks, and improved supply depots allow the stronghold to support a larger permanent garrison and resist prolonged attack."
+  building_wonder_durnost_02_desc: "[durnost|e] has grown beyond a simple fort. Additional walls, expanded barracks, and improved supply depots allow the stronghold to support a larger permanent garrison and resist prolonged attack."
 
   building_wonder_durnost_03: "Citadel of Durnost"
   building_wonder_durnost_03_desc: "The fortress now dominates the surrounding countryside. Thick walls and towers protect workshops, granaries, and administrative halls, while its growing garrison keeps the nearby lands orderly and secure."
 
   building_wonder_durnost_04: "Great Citadel of Durnost"
-  building_wonder_durnost_04_desc: "[Concept('durnost','Durnost')|E] has become a major regional stronghold. Multiple defensive lines, deep stores, fortified gates, and well-drilled troops make it exceedingly difficult to besiege, while trade and settlement flourish beneath its protection."
+  building_wonder_durnost_04_desc: "[durnost|e] has become a major regional stronghold. Multiple defensive lines, deep stores, fortified gates, and well-drilled troops make it exceedingly difficult to besiege, while trade and settlement flourish beneath its protection."
 
   building_wonder_durnost_05: "High Fortress of Durnost"
-  building_wonder_durnost_05_desc: "At its height, [Concept('durnost','Durnost')|E] is both fortress and capital. Its imposing walls command the land for leagues around, its garrison can answer threats swiftly, and its halls oversee a prosperous and disciplined domain protected by one of the strongest citadels of the North."
+  building_wonder_durnost_05_desc: "At its height, [durnost|e] is both fortress and capital. Its imposing walls command the land for leagues around, its garrison can answer threats swiftly, and its halls oversee a prosperous and disciplined domain protected by one of the strongest citadels of the North."
 
 
   # ============================================================
@@ -201,22 +201,22 @@
   # ============================================================
 
   building_type_wonder_nidavillir_foundation: "Nidavellir"
-  building_type_wonder_nidavillir_foundation_desc: "[Concept('nidavellir','Nidavellir')|E] is the growing industrial heart of the [Concept('ironfists','Ironfists')|E], a new [Concept('dwarves','Dwarven')|E] city being carved from the untouched stone of the northern mountains. Through mining, craftsmanship, and trade, its settlers seek to transform a remote wilderness into a prosperous center of Dwarven industry."
+  building_type_wonder_nidavillir_foundation_desc: "[nidavellir|e] is the growing industrial heart of the [ironfists|e], a new [dwarven|e] city being carved from the untouched stone of the northern mountains. Through mining, craftsmanship, and trade, its settlers seek to transform a remote wilderness into a prosperous center of Dwarven industry."
 
   building_wonder_nidavillir_foundation: "Foundations of Nidavellir"
-  building_wonder_nidavillir_foundation_desc: "Where once there was only unbroken mountain rock, the first miners of the [Concept('ironfists','Ironfists')|E] have opened narrow tunnels and rough-hewn chambers. Promising veins of ore are explored, simple workshops take shape, and the steady labor of the settlers begins to transform the wilderness into a permanent home."
+  building_wonder_nidavillir_foundation_desc: "Where once there was only unbroken mountain rock, the first miners of the [ironfists|e] have opened narrow tunnels and rough-hewn chambers. Promising veins of ore are explored, simple workshops take shape, and the steady labor of the settlers begins to transform the wilderness into a permanent home."
 
   building_wonder_nidavillir_t2: "Mines of Nidavellir"
-  building_wonder_nidavillir_t2_desc: "The miners of [Concept('nidavellir','Nidavellir')|E] have pushed deeper into the mountain, uncovering rich deposits of iron, precious metals, and gemstones. New galleries connect the growing mines to furnaces, workshops, and storehouses, while an expanding network of stone roads carries the fruits of their labor throughout the young settlement."
+  building_wonder_nidavillir_t2_desc: "The miners of [nidavellir|e] have pushed deeper into the mountain, uncovering rich deposits of iron, precious metals, and gemstones. New galleries connect the growing mines to furnaces, workshops, and storehouses, while an expanding network of stone roads carries the fruits of their labor throughout the young settlement."
 
   building_wonder_nidavillir_t3: "Forges of Nidavellir"
-  building_wonder_nidavillir_t3_desc: "Great furnaces now illuminate halls that were solid stone only a generation ago. Skilled smiths transform the wealth of the mountain into tools, ornaments, and finely wrought metalwork, while merchants from distant lands begin to seek the products of [Concept('nidavellir','Nidavellir')|E]'s industrious craftsmen."
+  building_wonder_nidavillir_t3_desc: "Great furnaces now illuminate halls that were solid stone only a generation ago. Skilled smiths transform the wealth of the mountain into tools, ornaments, and finely wrought metalwork, while merchants from distant lands begin to seek the products of [nidavellir|e]'s industrious craftsmen."
 
   building_wonder_nidavillir_t4: "Great Foundries of Nidavellir"
-  building_wonder_nidavillir_t4_desc: "[Concept('nidavellir','Nidavellir')|E] has become a vast center of mining and manufacture, its foundries consuming a seemingly endless stream of ore from the mountain depths. Broad galleries, ingenious machinery, and prosperous merchant halls support an industry that continues to expand with every new excavation. The [Concept('ironfists','Ironfists')|E] have turned barren stone into extraordinary wealth."
+  building_wonder_nidavillir_t4_desc: "[nidavellir|e] has become a vast center of mining and manufacture, its foundries consuming a seemingly endless stream of ore from the mountain depths. Broad galleries, ingenious machinery, and prosperous merchant halls support an industry that continues to expand with every new excavation. The [ironfists|e] have turned barren stone into extraordinary wealth."
 
   building_wonder_nidavillir_t5: "Nidavellir, the Golden City"
-  building_wonder_nidavillir_t5_desc: "From mountains once untouched by pick or chisel, the [Concept('ironfists','Ironfists')|E] have raised a city of astonishing wealth and industry. Its deep mines yield precious metals and rare gems, its furnaces burn without rest, and its master artisans produce works sought throughout the world. [Concept('nidavellir','Nidavellir')|E] now stands among the great industrial wonders of the [Concept('dwarves','Dwarves')|E], a testament to what determination and generations of labor can accomplish."
+  building_wonder_nidavillir_t5_desc: "From mountains once untouched by pick or chisel, the [ironfists|e] have raised a city of astonishing wealth and industry. Its deep mines yield precious metals and rare gems, its furnaces burn without rest, and its master artisans produce works sought throughout the world. [nidavellir|e] now stands among the great industrial wonders of the [dwarves|e], a testament to what determination and generations of labor can accomplish."
 
 
   # ============================================================
@@ -224,22 +224,22 @@
   # ============================================================
 
   building_type_wonder_nidavillir_military_01: "Kallzahar"
-  building_type_wonder_nidavillir_military_01_desc: "Kallzahar, the Cold Home, is the growing military stronghold of the [Concept('ironfists','Ironfists')|E], hewn from the unbroken stone of the northern mountains. Its armories, barracks, and defensive galleries are being raised to protect the new [Concept('dwarves','Dwarven')|E] settlements and secure their future against the dangers of the frozen wilderness."
+  building_type_wonder_nidavillir_military_01_desc: "Kallzahar, the Cold Home, is the growing military stronghold of the [ironfists|e], hewn from the unbroken stone of the northern mountains. Its armories, barracks, and defensive galleries are being raised to protect the new [dwarven|e] settlements and secure their future against the dangers of the frozen wilderness."
 
   building_wonder_nidavillir_military_01: "Foundations of Kallzahar"
-  building_wonder_nidavillir_military_01_desc: "The first defensive tunnels of Kallzahar have been cut into the mountain, providing refuge for the settlers and a defensible position against hostile forces. Rough barracks, supply chambers, and narrow passages mark the beginnings of what the [Concept('ironfists','Ironfists')|E] intend to make a formidable stronghold."
+  building_wonder_nidavillir_military_01_desc: "The first defensive tunnels of Kallzahar have been cut into the mountain, providing refuge for the settlers and a defensible position against hostile forces. Rough barracks, supply chambers, and narrow passages mark the beginnings of what the [ironfists|e] intend to make a formidable stronghold."
 
   building_wonder_nidavillir_military_02: "Armories of Kallzahar"
-  building_wonder_nidavillir_military_02_desc: "The growing workshops of Kallzahar now supply the warriors of the [Concept('ironfists','Ironfists')|E] with sturdy weapons and finely fitted armor. Training grounds ring with the clash of steel, while reinforced gates and guarded galleries protect the settlement. Each new excavation strengthens the defenses of the young [Concept('dwarves','Dwarven')|E] kingdom."
+  building_wonder_nidavillir_military_02_desc: "The growing workshops of Kallzahar now supply the warriors of the [ironfists|e] with sturdy weapons and finely fitted armor. Training grounds ring with the clash of steel, while reinforced gates and guarded galleries protect the settlement. Each new excavation strengthens the defenses of the young [dwarven|e] kingdom."
 
   building_wonder_nidavillir_military_03: "Fortress of Kallzahar"
   building_wonder_nidavillir_military_03_desc: "Kallzahar has grown into a formidable mountain fortress, its defenses carefully planned as new chambers are carved from the living rock. Layered gates, fortified passages, and deep defensive galleries protect extensive barracks and arsenals, while disciplined companies of warriors stand ready to defend the homes their people have labored to create."
 
   building_wonder_nidavillir_military_04: "Great Citadel of Kallzahar"
-  building_wonder_nidavillir_military_04_desc: "The [Concept('ironfists','Ironfists')|E] have transformed the mountain into a vast military citadel. Immense armories equip companies of heavily armored warriors, while reinforced gates, murder holes, and carefully engineered defensive passages make every approach perilous to an invading host. What began as a refuge against the dangers of the north has become a stronghold capable of resisting mighty armies."
+  building_wonder_nidavillir_military_04_desc: "The [ironfists|e] have transformed the mountain into a vast military citadel. Immense armories equip companies of heavily armored warriors, while reinforced gates, murder holes, and carefully engineered defensive passages make every approach perilous to an invading host. What began as a refuge against the dangers of the north has become a stronghold capable of resisting mighty armies."
 
   building_wonder_nidavillir_military_05: "Kallzahar, the Unbreakable Hold"
-  building_wonder_nidavillir_military_05_desc: "Kallzahar stands as the unyielding shield of the [Concept('ironfists','Ironfists')|E], a fortress raised entirely through the labor and ingenuity of its people. Its great arsenals equip powerful armies, its halls shelter seasoned warriors, and its defenses descend through seemingly endless layers of fortified stone. Neither the bitter cold of the north nor the fury of invading hosts shall easily overcome this mighty work of [Concept('dwarves','Dwarven')|E] determination."
+  building_wonder_nidavillir_military_05_desc: "Kallzahar stands as the unyielding shield of the [ironfists|e], a fortress raised entirely through the labor and ingenuity of its people. Its great arsenals equip powerful armies, its halls shelter seasoned warriors, and its defenses descend through seemingly endless layers of fortified stone. Neither the bitter cold of the north nor the fury of invading hosts shall easily overcome this mighty work of [dwarven|e] determination."
 
 
   # ============================================================
@@ -247,24 +247,24 @@
   # ============================================================
 
   building_type_wonder_nidavillir_glory_01: "Aznân-dûm"
-  building_type_wonder_nidavillir_glory_01_desc: "Aznân-dûm is the emerging royal and ceremonial heart of the [Concept('ironfists','Ironfists')|E], a new [Concept('dwarves','Dwarven')|E] mansion being carved from untouched mountain stone. Its halls, monuments, council chambers, and shrines are intended to celebrate the achievements of the settlers, establish the authority of their rulers, and preserve the history of the kingdom they are founding."
+  building_type_wonder_nidavillir_glory_01_desc: "Aznân-dûm is the emerging royal and ceremonial heart of the [ironfists|e], a new [dwarven|e] mansion being carved from untouched mountain stone. Its halls, monuments, council chambers, and shrines are intended to celebrate the achievements of the settlers, establish the authority of their rulers, and preserve the history of the kingdom they are founding."
 
   building_wonder_nidavillir_glory_01: "Foundations of Aznân-dûm"
-  building_wonder_nidavillir_glory_01_desc: "The [Concept('ironfists','Ironfists')|E] have begun carving their first great gathering hall from the solid mountain. Though its pillars remain rough and its chambers modest, the new hall provides a place for their leaders to administer justice, settle disputes, and celebrate the founding of their northern home. Here the first chapters of a new [Concept('dwarves','Dwarven')|E] history are being written."
+  building_wonder_nidavillir_glory_01_desc: "The [ironfists|e] have begun carving their first great gathering hall from the solid mountain. Though its pillars remain rough and its chambers modest, the new hall provides a place for their leaders to administer justice, settle disputes, and celebrate the founding of their northern home. Here the first chapters of a new [dwarven|e] history are being written."
 
   building_wonder_nidavillir_glory_02: "Halls of Aznân-dûm"
-  building_wonder_nidavillir_glory_02_desc: "Aznân-dûm has grown into a center of [Concept('dwarves','Dwarven')|E] governance and ceremony. Broad council chambers welcome clan elders and visiting dignitaries, while newly carved pillars commemorate the founding of the Ironfist settlements and the hardships overcome by their people. The accomplishments of the young kingdom are already becoming worthy subjects for stonecarvers and storytellers."
+  building_wonder_nidavillir_glory_02_desc: "Aznân-dûm has grown into a center of [dwarven|e] governance and ceremony. Broad council chambers welcome clan elders and visiting dignitaries, while newly carved pillars commemorate the founding of the Ironfist settlements and the hardships overcome by their people. The accomplishments of the young kingdom are already becoming worthy subjects for stonecarvers and storytellers."
 
   building_wonder_nidavillir_glory_03: "Great Halls of Aznân-dûm"
-  building_wonder_nidavillir_glory_03_desc: "Magnificent halls now stretch beneath the mountain, adorned with intricate carvings, precious metals, and monuments celebrating the deeds of the [Concept('ironfists','Ironfists')|E]. Royal councils assemble beneath towering pillars, learned recordkeepers preserve the history of the settlement, and solemn ceremonies strengthen the bonds between the clans and their rulers. The rough chambers of the first settlers have become halls worthy of a rising [Concept('dwarves','Dwarven')|E] kingdom."
+  building_wonder_nidavillir_glory_03_desc: "Magnificent halls now stretch beneath the mountain, adorned with intricate carvings, precious metals, and monuments celebrating the deeds of the [ironfists|e]. Royal councils assemble beneath towering pillars, learned recordkeepers preserve the history of the settlement, and solemn ceremonies strengthen the bonds between the clans and their rulers. The rough chambers of the first settlers have become halls worthy of a rising [dwarven|e] kingdom."
 
   building_wonder_nidavillir_glory_04: "Royal Citadel of Aznân-dûm"
-  building_wonder_nidavillir_glory_04_desc: "Aznân-dûm has become a splendid royal seat, its grand chambers reflecting the growing power and dignity of the [Concept('ironfists','Ironfists')|E]. Monumental statues honor the founders of the kingdom, masterfully carved galleries recount its triumphs, and magnificent ceremonial halls welcome envoys from distant realms. The Ironfists are no longer merely settlers struggling to survive, but rulers of a flourishing [Concept('dwarves','Dwarven')|E] realm."
+  building_wonder_nidavillir_glory_04_desc: "Aznân-dûm has become a splendid royal seat, its grand chambers reflecting the growing power and dignity of the [ironfists|e]. Monumental statues honor the founders of the kingdom, masterfully carved galleries recount its triumphs, and magnificent ceremonial halls welcome envoys from distant realms. The Ironfists are no longer merely settlers struggling to survive, but rulers of a flourishing [dwarven|e] realm."
 
   building_wonder_nidavillir_glory_05: "Aznân-dûm, Hall of the Ironfist Kings"
-  building_wonder_nidavillir_glory_05_desc: "Aznân-dûm stands as a monument to the achievements and ambitions of the [Concept('ironfists','Ironfists')|E]. Beneath vaulted ceilings of extraordinary craftsmanship, the history of their kingdom is preserved in stone, gold, and song. Its throne hall receives the envoys of distant realms, its ceremonial chambers honor the founders and heroes of the realm, and its learned custodians safeguard the wisdom gathered since the first stone was cut. From untouched mountain rock, the Ironfists have raised a royal mansion worthy of the greatest [Concept('dwarves','Dwarven')|E] kings, ensuring that future generations shall remember the glory of those who built it."
+  building_wonder_nidavillir_glory_05_desc: "Aznân-dûm stands as a monument to the achievements and ambitions of the [ironfists|e]. Beneath vaulted ceilings of extraordinary craftsmanship, the history of their kingdom is preserved in stone, gold, and song. Its throne hall receives the envoys of distant realms, its ceremonial chambers honor the founders and heroes of the realm, and its learned custodians safeguard the wisdom gathered since the first stone was cut. From untouched mountain rock, the Ironfists have raised a royal mansion worthy of the greatest [dwarven|e] kings, ensuring that future generations shall remember the glory of those who built it."
 
  building_type_dragon_lair: "Dragon's Lair"
- building_type_dragon_lair_desc: "An ancient [Concept('dragon','dragon')|E] has made its lair here, casting a shadow over the surrounding lands."
+ building_type_dragon_lair_desc: "An ancient [dragon|e] has made its lair here, casting a shadow over the surrounding lands."
  building_dragon_lair: "Dragon's Lair"
  building_dragon_lair_desc: "$building_type_dragon_lair_desc$"
