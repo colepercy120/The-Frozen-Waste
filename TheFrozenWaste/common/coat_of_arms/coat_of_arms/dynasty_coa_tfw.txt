@@ -38,7 +38,6 @@ dynasty_nixni ={
 
 # dynasty_nestador # 
 dynasty_nestador={
-	custom=yes
 	pattern="pattern__solid_designer.dds"
 	color1=white
 	color2=white
@@ -637,7 +636,6 @@ dynasty_nidavellir_gabilan={
 # dynasty_lossidil_celethrim # Celethrim
 
 dynasty_lossidil_celethrim={
-	custom=yes
 	pattern="pattern_solid.dds"
 	color1=purple
 	color2=white
