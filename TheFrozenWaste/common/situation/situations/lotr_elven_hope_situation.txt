@@ -100,7 +100,7 @@
 		forodwaith = { # Eriador, Enedhwaith, and Angmar -> eriador
 			icon = gfx/interface/icons/faith/winter_queen_icon.dds
 			map_color = { 115 155 208 }
-			geographical_regions = { middleearth_forodwaith }
+			geographical_regions = { custom_greater_forodwaith }
 		}
 	}
 
