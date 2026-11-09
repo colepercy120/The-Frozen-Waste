@@ -544,6 +544,16 @@ middleearth_forodwaith = {
 	}
 }
 
+# Includes all of Forodwaith and both northern mountain chains for broad regional checks.
+# Do not use as a graphical region; mountains retain underground graphics.
+custom_greater_forodwaith = {
+	regions = {
+		middleearth_forodwaith
+		middleearth_mountains_bleak
+		middleearth_mountains_rhivamar
+	}
+}
+
 
 graphical_siberia = {
 	graphical = yes
