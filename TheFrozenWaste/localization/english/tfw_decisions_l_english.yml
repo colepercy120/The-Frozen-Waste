@@ -72,6 +72,7 @@ l_english:
  decision_form_northern_territories_desc: "The farthest reaches of the North remain divided between scattered realms, distant settlements, and lands only loosely bound to the greater powers of [forodwaith|e]. Though these territories have long stood apart, their isolation leaves them vulnerable and weakens the authority of any realm that would claim dominion over the North.\n\nThe time has come to bring these lands into a broader order. By extending our rule across the Utter North, we can bind its peoples and territories into the existing realm and ensure that no corner of Forodwaith stands beyond our reach."
  decision_form_northern_territories_tooltip: "Integrate the territories of the Utter North into your hegemony"
  decision_form_northern_territories_confirm: "Secure the Utter North"
+ secure_the_north_effect: "Kingdoms with capitals in Forodwaith become de jure vassals of the Northern Territories."
 
  decision_form_avari: "Unite the Avari"
  decision_form_avari_desc: "For too long, the [avari|e] have been scattered across [middleearth|e]. If we reunite the ancient houses of our people and proclaim a united realm, we need no longer fear the [darklord|e] or the abuses of [men|e] and [dwarves|e]. Even the [eldar|e] would have to respect our strength."
