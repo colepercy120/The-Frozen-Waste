@@ -622,8 +622,6 @@ custom_greater_forochel = {
 		middleearth_forodwaith_angband
 		middleearth_forodwaith_annuvorodwaith
 		middleearth_forodwaith_tol_engrin
-		middleearth_forodwaith_tol_faron
-		middleearth_forodwaith_frost_isles
 		middleearth_forodwaith_forochel
 	}
 	duchies = {
