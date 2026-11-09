@@ -925,7 +925,6 @@ d_rast_losnaeth_2={
 
 
 k_ruinfalas={
-	custom=yes
 	pattern="pattern_solid.dds"
 	color1=black
 	color2=white
@@ -8048,7 +8047,6 @@ d_anghoth={
 }
 
 h_avari ={
-	custom=yes
 	pattern="pattern_solid.dds"
 	color1=green
 	color2=white
@@ -8198,7 +8196,6 @@ h_avari ={
 }
 
 k_rast_losnath={
-	custom=yes
 	pattern="pattern_solid.dds"
 	color1=grey
 	color2=white
@@ -8229,7 +8226,6 @@ k_rast_losnath={
 }
 
 k_muilfalas={
-	custom=yes
 	pattern="pattern_solid.dds"
 	color1=rgb { 71 71 71 }
 	color2=yellow
@@ -8610,7 +8606,6 @@ e_forochel = {
 }
 
 e_lossoth={
-	custom=yes
 	pattern="pattern_solid.dds"
 	color1=rgb { 130 126 114 }
 	color2=white
@@ -8684,7 +8679,6 @@ e_lossoth={
 #}
 
 h_forodwaith={
-	custom=yes
 	pattern="pattern_solid.dds"
 	color1=black
 	color2=yellow
@@ -9147,7 +9141,6 @@ k_winterdeep={
 }
 
 c_aurora_isles_2={
-	custom=yes
 	pattern="pattern_solid.dds"
 	color1=rgb { 8 16 27 }
 	color2=yellow
