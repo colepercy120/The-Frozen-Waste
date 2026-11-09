@@ -524,13 +524,13 @@ middleearth_mountains = {
 		middleearth_mountains_white
 		middleearth_mountains_yellow
 		middleearth_mountains_red
+		middleearth_mountains_bleak
+		middleearth_mountains_rhivamar
 	}
 }
 
 middleearth_forodwaith = {
 	regions = {
-		middleearth_mountains_bleak
-		middleearth_mountains_rhivamar
 		middleearth_forodwaith_forochel
 		middleearth_forodwaith_angmar
 		middleearth_forodwaith_northernwastes
