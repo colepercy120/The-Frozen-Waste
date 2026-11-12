@@ -246,7 +246,7 @@ start_long_winter_decision = {
 }
 
 
-# Post-restoration path for newly good Orcs or characters missed by the main pulse.
+### Post-restoration path for newly good Orcs or characters missed by the main pulse.
 tfw_embrace_elven_restoration_decision = {
     picture = { reference = "gfx/interface/illustrations/decisions/decision_elves_dwarves_05.dds" }
     desc = tfw_embrace_elven_restoration_decision_desc

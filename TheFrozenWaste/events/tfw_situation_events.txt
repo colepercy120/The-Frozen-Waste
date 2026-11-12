@@ -290,12 +290,11 @@ tfw_situation.0007 = {
 }
 
 
-# ============================================================
-# Expel Nixni from Angband: declaration and victory
-# ============================================================
+### Expel Nixni from Angband: declaration and victory
 
-# Sent specifically to Nixni when a participant starts the war.
-# The saved attacker scope survives the direct trigger_event call.
+
+### Sent specifically to Nixni when a participant starts the war.
+### The saved attacker scope survives the direct trigger_event call.
 tfw_situation.0008 = {
     type = character_event
     title = tfw_situation.0008.t
@@ -318,7 +317,7 @@ tfw_situation.0008 = {
     }
 }
 
-# Announced to all Frozen Waste participants when Angband falls.
+### Announced to all Frozen Waste participants when Angband falls.
 tfw_situation.0009 = {
     type = character_event
     title = tfw_situation.0009.t
@@ -341,9 +340,9 @@ tfw_situation.0009 = {
     }
 }
 
-# ============================================================
-# Orc Restoration: Beseech Higher Powers completed
-# ============================================================
+
+### Orc Restoration: Beseech Higher Powers completed
+
 
 tfw_situation.0010 = {
     type = character_event

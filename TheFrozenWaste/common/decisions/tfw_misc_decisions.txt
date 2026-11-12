@@ -7,7 +7,7 @@ decision_form_rast_losnath = {
 		reference = "gfx/interface/illustrations/decisions/decision_angmar_03.dds"
 	}
 
-	# AI
+	### AI
 	ai_goal = yes
 	ai_potential = {
 		always = yes
@@ -16,7 +16,7 @@ decision_form_rast_losnath = {
 		base = 100
 	}
 
-	# IS SHOWN
+	### IS SHOWN
 	decision_group_type = realms_in_exile_major
 
 	is_shown = {
@@ -36,7 +36,7 @@ decision_form_rast_losnath = {
 		}
 	}
 
-	# IS VALID
+	### IS VALID
 	is_valid = {
 		prestige_level >= high_prestige_level
 
@@ -55,7 +55,7 @@ decision_form_rast_losnath = {
 		is_at_war = no
 	}
 
-	# EFFECT
+	### EFFECT
 	effect = {
 		get_title = title:k_rast_losnath
 		trigger_event = {
@@ -87,7 +87,7 @@ decision_form_muilfalas = {
 		reference = "gfx/interface/illustrations/decisions/decision_angmar_03.dds"
 	}
 
-	# AI
+	### AI
 	ai_goal = yes
 	ai_potential = {
 		always = yes
@@ -96,7 +96,7 @@ decision_form_muilfalas = {
 		base = 100
 	}
 
-	# IS SHOWN
+	### IS SHOWN
 	decision_group_type = realms_in_exile_major
 
 	is_shown = {
@@ -116,7 +116,7 @@ decision_form_muilfalas = {
 		}
 	}
 
-	# IS VALID
+	### IS VALID
 	is_valid = {
 		prestige_level >= high_prestige_level
 		completely_controls = title:d_muilfalas_1
@@ -135,7 +135,7 @@ decision_form_muilfalas = {
 		is_at_war = no
 	}
 
-	# EFFECT
+	### EFFECT
 	effect = {
 		get_title = title:k_muilfalas
 		trigger_event = {
@@ -167,7 +167,7 @@ decision_form_gaurmar = {
 		reference = "gfx/interface/illustrations/decisions/decision_angmar_03.dds"
 	}
 
-	# AI
+	### AI
 	ai_goal = yes
 	ai_potential = {
 		always = yes
@@ -176,7 +176,7 @@ decision_form_gaurmar = {
 		base = 100
 	}
 
-	# IS SHOWN
+	### IS SHOWN
 	decision_group_type = realms_in_exile_major
 
 	is_shown = {
@@ -193,11 +193,11 @@ decision_form_gaurmar = {
 		}
 	}
 
-	# IS VALID
+	### IS VALID
 	is_valid = {
 		prestige_level >= high_prestige_level
 
-		# Territorial requirement for this formation decision.
+		### Territorial requirement for this formation decision.
 		completely_controls = title:k_angmar
 
 	}
@@ -212,7 +212,7 @@ decision_form_gaurmar = {
 		is_at_war = no
 	}
 
-	# EFFECT
+	### EFFECT
 	effect = {
 		get_title = title:k_gaurmar
 		trigger_event = {
@@ -247,7 +247,7 @@ decision_form_fordor = {
 		reference = "gfx/interface/illustrations/decisions/decision_arnor_01.dds"
 	}
 
-	# AI
+	### AI
 	ai_goal = yes
 	ai_potential = {
 		always = yes
@@ -256,7 +256,7 @@ decision_form_fordor = {
 		base = 100
 	}
 
-	# IS SHOWN
+	### IS SHOWN
 	decision_group_type = realms_in_exile_major
 
 	is_shown = {
@@ -274,7 +274,7 @@ decision_form_fordor = {
 		capital_province = { geographical_region = middleearth_forodwaith }
 	}
 
-	# IS VALID
+	### IS VALID
 	is_valid = {
 		prestige_level >= high_prestige_level
 		OR = {
@@ -309,7 +309,7 @@ decision_form_fordor = {
 		is_at_war = no
 	}
 
-	# EFFECT
+	### EFFECT
 	effect = {
 		get_title = title:e_fordor
 		custom_tooltip = {
@@ -345,7 +345,7 @@ decision_form_lossoth = {
 		reference = "gfx/interface/illustrations/event_scenes/lotr_throneroom_forodwaith.dds"
 	}
 
-	# AI
+	### AI
 	ai_goal = yes
 	ai_potential = {
 		always = yes
@@ -354,7 +354,7 @@ decision_form_lossoth = {
 		base = 100
 	}
 
-	# IS SHOWN
+	### IS SHOWN
 	decision_group_type = realms_in_exile_major
 
 	is_shown = {
@@ -371,7 +371,7 @@ decision_form_lossoth = {
 		culture = { has_same_culture_heritage = culture:lossoth }
 	}
 
-	# IS VALID
+	### IS VALID
 	is_valid = {
 		prestige_level >= high_prestige_level
 
@@ -403,7 +403,7 @@ decision_form_lossoth = {
 		is_at_war = no
 	}
 
-	# EFFECT
+	### EFFECT
 	effect = {
 		get_title = title:e_lossoth
 		custom_tooltip = {
@@ -440,7 +440,7 @@ decision_form_forochel = {
 		reference = "gfx/interface/illustrations/event_scenes/lotr_throneroom_forodwaith.dds"
 	}
 
-	# AI
+	### AI
 	ai_goal = yes
 	ai_potential = {
 		always = yes
@@ -449,7 +449,7 @@ decision_form_forochel = {
 		base = 100
 	}
 
-	# IS SHOWN
+	### IS SHOWN
 	decision_group_type = realms_in_exile_major
 
 	is_shown = {
@@ -473,7 +473,7 @@ decision_form_forochel = {
 		}
 	}
 
-	# IS VALID
+	### IS VALID
 	is_valid = {
 		prestige_level >= high_prestige_level
 		completely_controls_region = custom_greater_forochel
@@ -491,7 +491,7 @@ decision_form_forochel = {
 		is_at_war = no
 	}
 
-	# EFFECT
+	### EFFECT
 	effect = {
 		get_title = title:e_forochel
 		custom_tooltip = {
@@ -529,7 +529,7 @@ decision_form_northern_territories = {
 		reference = "gfx/interface/illustrations/event_scenes/lotr_throneroom_forodwaith.dds"
 	}
 
-	# AI
+	### AI
 	ai_goal = yes
 	ai_potential = {
 		always = yes
@@ -538,7 +538,7 @@ decision_form_northern_territories = {
 		base = 100
 	}
 
-	# IS SHOWN
+	### IS SHOWN
 	decision_group_type = realms_in_exile_major
 
 	is_shown = {
@@ -556,11 +556,11 @@ decision_form_northern_territories = {
 		}
 	}
 
-	# IS VALID
+	### IS VALID
 	is_valid = {
 		prestige_level >= 5
 
-		# Territorial requirement for this formation decision.
+		### Territorial requirement for this formation decision.
 		completely_controls_region = middleearth_forodwaith
 	}
 
@@ -574,7 +574,7 @@ decision_form_northern_territories = {
 		is_at_war = no
 	}
 
-	# EFFECT
+	### EFFECT
 	effect = {
 		get_title = title:e_northern_territories
 
@@ -618,7 +618,7 @@ decision_form_avari = {
 		reference = "gfx/interface/illustrations/decisions/decision_elves_06.dds"
 	}
 
-	# AI
+	### AI
 	ai_goal = yes
 	ai_potential = {
 		always = yes
@@ -627,7 +627,7 @@ decision_form_avari = {
 		base = 100
 	}
 
-	# IS SHOWN
+	### IS SHOWN
 	decision_group_type = realms_in_exile_major
 
 	is_shown = {
@@ -644,7 +644,7 @@ decision_form_avari = {
 		culture = { has_same_culture_heritage = culture:avari }
 	}
 
-	# IS VALID
+	### IS VALID
 	is_valid = {
 		prestige_level >= 5
 		piety_level >= 5
@@ -671,7 +671,7 @@ decision_form_avari = {
 		is_at_war = no
 	}
 
-	# EFFECT
+	### EFFECT
 	effect = {
 		get_title = title:h_avari
 
@@ -724,7 +724,7 @@ decision_form_forodwaith = {
 		reference = "gfx/interface/illustrations/event_scenes/lotr_throneroom_forodwaith.dds"
 	}
 
-	# AI
+	### AI
 	ai_goal = yes
 	ai_potential = {
 		always = yes
@@ -733,7 +733,7 @@ decision_form_forodwaith = {
 		base = 100
 	}
 
-	# IS SHOWN
+	### IS SHOWN
 	decision_group_type = realms_in_exile_major
 
 	is_shown = {
@@ -750,12 +750,12 @@ decision_form_forodwaith = {
 		capital_province = { geographical_region = middleearth_forodwaith }
 	}
 
-	# IS VALID
+	### IS VALID
 	is_valid = {
 		prestige_level >= 5
 		piety_level >= 5
 
-		# Territorial requirement for this formation decision.
+		### Territorial requirement for this formation decision.
 		completely_controls_region = middleearth_forodwaith
 	}
 
@@ -770,7 +770,7 @@ decision_form_forodwaith = {
 		is_at_war = no
 	}
 
-	# EFFECT
+	### EFFECT
 	effect = {
 		get_title = title:h_forodwaith
 
@@ -807,7 +807,7 @@ decision_form_winter = {
 		reference = "gfx/interface/illustrations/decisions/decision_elves_dwarves_02.dds"
 	}
 
-	# AI
+	### AI
 	ai_goal = yes
 	ai_potential = {
 		always = yes
@@ -816,7 +816,7 @@ decision_form_winter = {
 		base = 100
 	}
 
-	# IS SHOWN
+	### IS SHOWN
 	decision_group_type = realms_in_exile_major
 
 	is_shown = {
@@ -833,11 +833,11 @@ decision_form_winter = {
 		always = no
 	}
 
-	# IS VALID
+	### IS VALID
 	is_valid = {
 		prestige_level >= high_prestige_level
 
-		# Territorial requirement for this formation decision.
+		### Territorial requirement for this formation decision.
 		realm_size >= 50
 	}
 
@@ -851,7 +851,7 @@ decision_form_winter = {
 		is_at_war = no
 	}
 
-	# EFFECT
+	### EFFECT
 	effect = {
 		get_title = title:h_winter
 		trigger_event = {
@@ -865,9 +865,9 @@ decision_form_winter = {
 	}
 }
 
-# ============================================================
-# Dwarf Decisions
-# ============================================================
+
+### Dwarf Decisions
+
 
 decision_build_nidavillir = {
 	title = decision_build_nidavillir
@@ -878,7 +878,7 @@ decision_build_nidavillir = {
 		reference = "gfx/interface/illustrations/decisions/decision_dwarves_02.dds"
 	}
 
-	# AI
+	### AI
 	ai_goal = yes
 	ai_potential = {
 		always = yes
@@ -887,7 +887,7 @@ decision_build_nidavillir = {
 		base = 100
 	}
 
-	# IS SHOWN
+	### IS SHOWN
 	decision_group_type = realms_in_exile_major
 
 	is_shown = {
@@ -905,7 +905,7 @@ decision_build_nidavillir = {
 		}
 	}
 
-	# IS VALID
+	### IS VALID
 	is_valid = {
 		prestige_level >= high_prestige_level
 		has_title = title:k_nidavellir
@@ -924,7 +924,7 @@ decision_build_nidavillir = {
 		is_at_war = no
 	}
 
-	# EFFECT
+	### EFFECT
 	effect = {
 
 		give_nickname = nick_the_builder
@@ -943,7 +943,7 @@ decision_build_nidavillir = {
 	}
 }
 
-# Fallback for redeemed Orc rulers who retain Orcish government.
+### Fallback for redeemed Orc rulers who retain Orcish government.
 tfw_adopt_feudal_government_decision = {
     picture = {
         reference = "gfx/interface/illustrations/decisions/decision_elves_dwarves_05.dds"
@@ -971,4 +971,62 @@ tfw_adopt_feudal_government_decision = {
 
     ai_potential = { always = yes }
     ai_will_do = { base = 100 }
+}
+
+### A direct war against the Winter Queen, open to good-aligned Frozen Waste participants.
+tfw_expel_nixni_from_angband_decision = {
+    picture = {
+        reference = "gfx/interface/illustrations/decisions/decision_blue_mountains_01.dds"
+    }
+    desc = tfw_expel_nixni_from_angband_decision_desc
+    selection_tooltip = tfw_expel_nixni_from_angband_decision_tooltip
+    confirm_text = tfw_expel_nixni_from_angband_decision_confirm
+    decision_group_type = realms_in_exile_major
+
+    is_shown = {
+        any_character_situation = {
+            situation_type = frozen_waste
+        }
+        faith_is_good = yes
+        character:tfw_lineofnixni_001 = {
+            is_alive = yes
+            is_landed = yes
+			completely_controls = title:k_angband
+        }
+       
+        NOT = { global_var:tfw_angband_cleansed = 1 }
+    }
+
+    is_valid = {
+        is_independent_ruler = yes
+        is_at_war = no
+        is_imprisoned = no
+        prestige_level >= 3
+        piety_level >= 3
+    }
+
+    effect = {
+        save_scope_as = tfw_expel_nixni_attacker
+        character:tfw_lineofnixni_001 = {
+            trigger_event = tfw_situation.0008
+        }
+        start_war = {
+            casus_belli = tfw_expel_nixni_angband_cb
+            target = character:tfw_lineofnixni_001
+            target_title = title:c_thangorodrim_3
+        }
+    }
+
+    cooldown = { years = 20 }
+
+    ai_potential = {
+        always = yes
+    }
+    ai_will_do = {
+        base = 100
+        modifier = { # AI will be less keen if Nixni is stronger than them
+            factor = 0.5
+            root.total_military_power < character:tfw_lineofnixni_001.total_military_power
+        }
+    }
 }

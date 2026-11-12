@@ -112,7 +112,7 @@
  unlock_frostwood_wardens:0 "Unlocks [GetMaA('frostwood_wardens').GetName]"
  unlock_frostwood_stalkers:0 "Unlocks [GetMaA('frostwood_stalkers').GetName]"
 
- # Restored Adlantrim cultural men-at-arms
+ ### Restored Adlantrim cultural men-at-arms
  innovation_cyredhil_warfare: "Cýredhil Warfare"
  innovation_cyredhil_warfare_desc: "The restored [adlantrim|e] have recovered the full discipline and skill of their ancient elven forebears, strengthening their traditional blades, bows, spears, and scouts."
  cyredhil_blades: "Cýredhil Blades"

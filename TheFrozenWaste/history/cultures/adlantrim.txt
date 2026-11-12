@@ -1,6 +1,6 @@
 ﻿592.1.1 = {
 	discover_innovation = innovation_adlantrim_warfare
-	# Starts in the Tribal Era
+	### Starts in the Tribal Era
 }
 
 4000.1.1 = {

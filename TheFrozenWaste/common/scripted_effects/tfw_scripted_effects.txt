@@ -938,7 +938,7 @@ tfw_orc_restoration_tick = {
 
 tfw_end_restoration = {
 	set_global_variable = { name = tfw_orc_restoration_completed value = yes }
-			culture:tfw_restored_adlantrim = {
+			culture:cyredhil = {
 				get_all_innovations_from = culture:adlantrim
 				reset_culture_creation_date = yes
 			}
@@ -963,14 +963,14 @@ tfw_restore_good_orcs_to_elves = {
     if = {
         limit = { tfw_restoration_good_orc = yes }
         culture = { save_scope_as = tfw_restoration_source_culture }
-        culture:tfw_restored_adlantrim = {
+        culture:cyredhil = {
             get_all_innovations_from = scope:tfw_restoration_source_culture
         }
-        set_culture = culture:tfw_restored_adlantrim
+        set_culture = culture:cyredhil
         set_ethnicity = sindar_ethnicity
         every_held_title = {
             limit = { tier = tier_county }
-            set_county_culture = culture:tfw_restored_adlantrim
+            set_county_culture = culture:cyredhil
         }
         every_held_title = {
             limit = { tier = tier_barony }

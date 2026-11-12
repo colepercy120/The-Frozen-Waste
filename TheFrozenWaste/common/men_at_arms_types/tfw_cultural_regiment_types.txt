@@ -1,5 +1,5 @@
-﻿# TFW Northern Cultural Men-at-Arms
-# Balance references: Arnor/Gondor, Vale/Woodmen, Grey Elves, and standard LOTR cultural MAA.
+﻿### TFW Northern Cultural Men-at-Arms
+### Balance references: Arnor/Gondor, Vale/Woodmen, Grey Elves, and standard LOTR cultural MAA.
 
 @cultural_maa_extra_ai_score = 60
 @provisions_cost_infantry_cheap = 3
@@ -10,9 +10,9 @@
 @provisions_cost_cavalry_expensive = 21
 @provisions_cost_special_moderate = 12
 
-# ============================================================
-# FORODAIN
-# ============================================================
+
+### FORODAIN
+
 
 forodain_huscarls = {
 	type = heavy_infantry
@@ -169,10 +169,10 @@ forodain_raiders = {
 	allowed_in_hired_troops = no
 }
 
-# ============================================================
-# NORTHERN ORCS
-# Shared by Angband Orcs and Snow Orcs
-# ============================================================
+
+### NORTHERN ORCS
+### Shared by Angband Orcs and Snow Orcs
+
 
 northern_orc_reavers = {
 	type = heavy_infantry
@@ -304,10 +304,10 @@ northern_orc_warg_riders = {
 	icon = arnorian_cavalry
 }
 
-# ============================================================
-# LOSSIDIL / SNOW ELVES
-# Full elven strength, 50-man stacks.
-# ============================================================
+
+### LOSSIDIL / SNOW ELVES
+### Full elven strength, 50-man stacks.
+
 
 lossidil_frostguard = {
 	type = heavy_infantry
@@ -430,9 +430,9 @@ lossidil_frost_riders = {
 	allowed_in_hired_troops = no
 }
 
-# ============================================================
-# UMLI
-# ============================================================
+
+### UMLI
+
 
 umli_ironwardens = {
 	type = heavy_infantry
@@ -550,9 +550,9 @@ umli_axe_scouts = {
 	allowed_in_hired_troops = no
 }
 
-# ============================================================
-# GAUREDAIN
-# ============================================================
+
+### GAUREDAIN
+
 
 gauredain_huntsmen = {
 	type = archers
@@ -683,10 +683,10 @@ gauredain_wolf_skinchangers = {
 	allowed_in_hired_troops = no
 }
 
-# ============================================================
-# ADLANTRIM
-# Elven-derived doctrine, but intentionally much weaker than true elves.
-# ============================================================
+
+### ADLANTRIM
+### Elven-derived doctrine, but intentionally much weaker than true elves.
+
 
 adlantrim_blades = {
 	type = heavy_infantry
@@ -805,9 +805,8 @@ adlantrim_scouts = {
 }
 
 
-# ============================================================
-# ICE SPIRIT
-# ============================================================
+### ICE SPIRIT
+
 
 frostbound_spirits = {
 	access_through_subject = { lotr_orc_can_recruit_from_subject = no }
@@ -865,14 +864,13 @@ frostbound_spirits = {
 	allowed_in_hired_troops = no
 	ai_quality = { value = @cultural_maa_extra_ai_score }
 
-	# Temporary reuse of an existing undead icon.
+	### Temporary reuse of an existing undead icon.
 	icon = unburied_wights
 }
 
 
-# ============================================================
-# ZOMBIES
-# ============================================================
+### ZOMBIES
+
 
 frozen_dead = {
 	access_through_subject = { lotr_orc_can_recruit_from_subject = no }
@@ -988,18 +986,17 @@ rime_wraiths = {
 	allowed_in_hired_troops = no
 	ai_quality = { value = @cultural_maa_extra_ai_score }
 
-	# Temporary reuse of an existing undead icon.
+	### Temporary reuse of an existing undead icon.
 	icon = unburied_wights
 }
 
-# Frostwood Avari Men-at-Arms
-# Shared by Windan and Hwenti.
-# Normal cultural troops: arctic terrain bonuses, no winter_bonus blocks.
+### Frostwood Avari Men-at-Arms
+### Shared by Windan and Hwenti.
+### Normal cultural troops: arctic terrain bonuses, no winter_bonus blocks.
 
 
-# ============================================================
-# FROSTWOOD RANGERS
-# ============================================================
+### FROSTWOOD RANGERS
+
 
 frostwood_rangers = {
 	type = archers
@@ -1058,9 +1055,8 @@ frostwood_rangers = {
 }
 
 
-# ============================================================
-# FROSTWOOD WARDENS
-# ============================================================
+### FROSTWOOD WARDENS
+
 
 frostwood_wardens = {
 	type = pikemen
@@ -1122,9 +1118,8 @@ frostwood_wardens = {
 }
 
 
-# ============================================================
-# FROSTWOOD STALKERS
-# ============================================================
+### FROSTWOOD STALKERS
+
 
 frostwood_stalkers = {
 	type = skirmishers
@@ -1182,10 +1177,10 @@ frostwood_stalkers = {
 	allowed_in_hired_troops = no
 }
 
-# ============================================================
-# CYREDHIL / RESTORED ADLANTRIM
-# Original Adlantrim formations restored to full Elven strength (50 per regiment).
-# ============================================================
+
+### CYREDHIL / RESTORED ADLANTRIM
+### Original Adlantrim formations restored to full Elven strength (50 per regiment).
+
 
 cyredhil_blades = {
 	type = heavy_infantry
