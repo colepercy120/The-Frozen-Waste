@@ -80,6 +80,11 @@ tfw_expel_nixni_angband_cb = {
                 REASON = flag:exile
                 FLAVOR_CHAR = scope:tfw_expel_nixni_victor
             }
+            # The adventurer-creation effect saves the new camp title as scope:new_title.
+            scope:new_title = {
+                set_title_name = tfw_nixni_winter_court_title
+                set_definitive_form = yes
+            }
         }
         add_truce_attacker_victory_effect = yes
     }

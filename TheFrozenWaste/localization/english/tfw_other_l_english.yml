@@ -377,6 +377,8 @@ l_english:
  great_project_type_tfw_nidavillir_upgrade_contribution_work_force_desc: "Supply the labor needed to excavate and furnish new halls."
 
  # Expel Nixni from Angband war
+ tfw_nixni_winter_court_title: "the Winter Court"
+ tfw_nixni_winter_court_title_adj: "Winter Court"
  tfw_expel_nixni_angband_cb: "Expel Nixni from Angband"
  tfw_expel_nixni_angband_cb_name: "Expel Nixni from Angband"
  tfw_expel_nixni_angband_cb_name_no_target: "Expel Nixni from Angband"
