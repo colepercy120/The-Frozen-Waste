@@ -392,6 +392,17 @@ tfw_restoration_mass_prayer = {
     on_complete = {
         set_global_variable = { name = tfw_restoration_prayer_completed value = yes }
         remove_global_variable = tfw_restoration_prayer_project
+
+        # All restoration participants hear that their prayers are complete.
+        # The actual divine intervention is handled by the situation separately.
+        scope:owner = {
+            every_character_situation = {
+                limit = { situation_type = tfw_orc_restoration }
+                every_situation_participant = {
+                    trigger_event = tfw_situation.0010
+                }
+            }
+        }
     }
     on_cancel = {
         if = {
