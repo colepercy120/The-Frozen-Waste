@@ -1,7 +1,7 @@
 # Special non-conquest war to empty and ruin Angband.
 # Launched by the Expel Nixni from Angband decision.
 tfw_expel_nixni_angband_cb = {
-    group = conquest
+    group = event
     combine_into_one = yes
     should_show_war_goal_subview = yes
     mutually_exclusive_titles = { always = yes }
