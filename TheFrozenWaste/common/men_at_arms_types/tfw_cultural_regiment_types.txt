@@ -1181,3 +1181,124 @@ frostwood_stalkers = {
 	icon = green_elven_skirmishers
 	allowed_in_hired_troops = no
 }
+
+# ============================================================
+# CYREDHIL / RESTORED ADLANTRIM
+# Original Adlantrim formations restored to full Elven strength (50 per regiment).
+# ============================================================
+
+cyredhil_blades = {
+	type = heavy_infantry
+	access_through_subject = { lotr_orc_can_recruit_from_subject = no }
+	can_recruit = { culture = { has_innovation = innovation_cyredhil_warfare } }
+	damage = 132
+	toughness = 118
+	pursuit = 15
+	screen = 32
+	counters = {
+		pikemen = 1
+		peasant_militia = 2
+	}
+	terrain_bonus = {
+		mountains = { damage = 24 toughness = 22 }
+		taiga = { damage = 22 toughness = 22 screen = 8 }
+
+		arctic = { damage = 22 toughness = 22 }
+	}
+	buy_cost = { gold = 275 }
+	low_maintenance_cost = { gold = 0.50 }
+	high_maintenance_cost = { gold = 1.50 }
+	provision_cost = @provisions_cost_infantry_expensive
+	stack = 50
+	ai_quality = { value = 200 }
+	icon = grey_elven_heavy_infantry
+	allowed_in_hired_troops = no
+}
+
+cyredhil_archers = {
+	type = archers
+	access_through_subject = { lotr_orc_can_recruit_from_subject = no }
+	can_recruit = { culture = { has_innovation = innovation_cyredhil_warfare } }
+	damage = 148
+	toughness = 70
+	pursuit = 24
+	screen = 12
+	counters = {
+		skirmishers = 1
+		heavy_infantry = 0.5
+	}
+	terrain_bonus = {
+		taiga = { damage = 32 toughness = 16 screen = 11 }
+		forest = { damage = 32 toughness = 16 screen = 11 }
+		hills = { damage = 22 toughness = 11 }
+
+		arctic = { damage = 24 toughness = 14 }
+	}
+	buy_cost = { gold = 245 }
+	low_maintenance_cost = { gold = 0.46 }
+	high_maintenance_cost = { gold = 1.38 }
+	provision_cost = @provisions_cost_infantry_moderate
+	stack = 50
+	ai_quality = { value = 200 }
+	icon = grey_elven_archers
+	allowed_in_hired_troops = no
+}
+
+cyredhil_spears = {
+	type = pikemen
+	access_through_subject = { lotr_orc_can_recruit_from_subject = no }
+	can_recruit = { culture = { has_innovation = innovation_cyredhil_warfare } }
+	damage = 110
+	toughness = 140
+	pursuit = 0
+	screen = 45
+	counters = {
+		light_cavalry = 1
+		heavy_cavalry = 1
+		camel_cavalry = 0.5
+	}
+	terrain_bonus = {
+		mountains = { damage = 19 toughness = 27 screen = 8 }
+		taiga = { damage = 16 toughness = 24 screen = 8 }
+		hills = { damage = 14 toughness = 19 screen = 5 }
+
+		arctic = { damage = 14 toughness = 24 screen = 8 }
+	}
+	buy_cost = { gold = 255 }
+	low_maintenance_cost = { gold = 0.48 }
+	high_maintenance_cost = { gold = 1.44 }
+	provision_cost = @provisions_cost_infantry_moderate
+	stack = 50
+	ai_quality = { value = 200 }
+	icon = grey_elven_pikemen
+	allowed_in_hired_troops = no
+}
+
+cyredhil_scouts = {
+	type = skirmishers
+	access_through_subject = { lotr_orc_can_recruit_from_subject = no }
+	can_recruit = { culture = { has_innovation = innovation_cyredhil_warfare } }
+	damage = 100
+	toughness = 82
+	pursuit = 80
+	screen = 65
+	counters = {
+		heavy_infantry = 1
+		archer_cavalry = 0.5
+	}
+	terrain_bonus = {
+		taiga = { damage = 22 toughness = 22 pursuit = 22 screen = 22 }
+		forest = { damage = 22 toughness = 22 pursuit = 22 screen = 22 }
+		mountains = { damage = 14 toughness = 14 pursuit = 14 screen = 14 }
+
+		arctic = { damage = 22 toughness = 22 pursuit = 22 screen = 22 }
+	}
+	buy_cost = { gold = 245 }
+	low_maintenance_cost = { gold = 0.46 }
+	high_maintenance_cost = { gold = 1.38 }
+	provision_cost = @provisions_cost_infantry_cheap
+	stack = 50
+	ai_quality = { value = 200 }
+	icon = grey_elven_skirmishers
+	allowed_in_hired_troops = no
+}

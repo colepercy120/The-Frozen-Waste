@@ -1,0 +1,3 @@
+﻿592.1.1 = {
+	discover_innovation = innovation_cyredhil_warfare
+}

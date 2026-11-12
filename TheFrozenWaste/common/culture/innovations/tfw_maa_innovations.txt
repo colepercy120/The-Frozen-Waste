@@ -134,3 +134,22 @@ innovation_frostwood_warfare = {
 
 	flag = global_maa
 }
+
+# Restored Adlantrim martial tradition, unlocked by the culture's history.
+innovation_cyredhil_warfare = {
+	skill = martial
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	icon = @special_maa_02
+	potential = {
+		OR = {
+			this = culture:tfw_restored_adlantrim
+			any_parent_culture_or_above = { this = culture:tfw_restored_adlantrim }
+		}
+	}
+	custom = unlock_cyredhil_blades
+	custom = unlock_cyredhil_archers
+	custom = unlock_cyredhil_spears
+	custom = unlock_cyredhil_scouts
+	flag = global_maa
+}
