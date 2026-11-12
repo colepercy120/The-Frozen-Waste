@@ -1,0 +1,51 @@
+# A direct war against the Winter Queen, open to good-aligned Frozen Waste participants.
+tfw_expel_nixni_from_angband_decision = {
+    picture = {
+        reference = "gfx/interface/illustrations/decisions/decision_blue_mountains_01.dds"
+    }
+    desc = tfw_expel_nixni_from_angband_decision_desc
+    selection_tooltip = tfw_expel_nixni_from_angband_decision_tooltip
+    confirm_text = tfw_expel_nixni_from_angband_decision_confirm
+    decision_group_type = realms_in_exile_major
+
+    is_shown = {
+        any_character_situation = {
+            situation_type = frozen_waste
+        }
+        faith_is_good = yes
+        highest_held_title_tier >= tier_kingdom
+        character:tfw_lineofnixni_001 = {
+            is_alive = yes
+            is_landed = yes
+        }
+        title:c_thangorodrim_3 = {
+            holder = {
+                target_is_liege_or_above = character:tfw_lineofnixni_001
+            }
+        }
+        NOT = { global_var:tfw_angband_cleansed = 1 }
+    }
+
+    is_valid = {
+        is_independent_ruler = yes
+        is_at_war = no
+        is_imprisoned = no
+        prestige_level >= 3
+        piety_level >= 3
+    }
+
+    effect = {
+        save_scope_as = tfw_expel_nixni_attacker
+        character:tfw_lineofnixni_001 = {
+            trigger_event = tfw_expel_nixni.0001
+        }
+        start_war = {
+            casus_belli = tfw_expel_nixni_angband_cb
+            target = character:tfw_lineofnixni_001
+            target_title = title:c_thangorodrim_3
+        }
+    }
+
+    ai_potential = { always = yes }
+    ai_will_do = { base = 25 }
+}
