@@ -6,7 +6,7 @@ tfw_expel_nixni.0001 = {
     type = character_event
     title = tfw_expel_nixni.0001.t
     desc = tfw_expel_nixni.0001.desc
-    theme = warfare
+    theme = war
 
     override_background = {
         reference = forodwaith
@@ -17,7 +17,7 @@ tfw_expel_nixni.0001 = {
     }
     right_portrait = {
         character = scope:tfw_expel_nixni_attacker
-        animation = war_attacker
+        animation = anger
     }
     option = {
         name = tfw_expel_nixni.0001.a
