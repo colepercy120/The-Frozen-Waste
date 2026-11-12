@@ -14,14 +14,12 @@ tenet_elven_preservation = {
 
 		# Multiplier for keeping same tenet
 		if = {
-			limit = { has_doctrine = tenet_preservation }
+			limit = { has_doctrine = tenet_elven_preservation }
 			multiply = faith_unchanged_doctrine_cost_mult
 		}
 	}
 
-	is_shown = {
-		religion = { is_in_family = rf_eruhini }
-	}
+	# Available in faith creation and reformation.
 
 	can_pick = {
 		custom_description = {
@@ -49,9 +47,7 @@ tenet_elven_preservation = {
 tenet_giftlord = {
 	icon = tenet_yuletide
 	name = tenet_giftlord_name
-	is_shown = {
-		religion = { is_in_family = rf_eruhini }
-	}
+	# Available in faith creation and reformation.
 
 	piety_cost = {
 		if = {
@@ -97,9 +93,7 @@ tenet_giftlord = {
 tenet_world_shapers = {
 	icon = tenet_worldshapers_icon
 	name = tenet_world_shapers_name
-	is_shown = {
-		religion = { is_in_family = rf_eruhini }
-	}
+	# Available in faith creation and reformation.
 
 	can_pick = {
 		always = yes
@@ -129,9 +123,7 @@ tenet_world_shapers = {
 
 tenet_helecthil = {
 	icon = tenet_light_of_helecthil_icon
-	is_shown = {
-		religion = { is_in_family = rf_eruhini }
-	}
+	# Available in faith creation and reformation.
 
 	can_pick = {
 		always = yes
@@ -163,9 +155,7 @@ tenet_helecthil = {
 
 tenet_winter_queen = {
 	icon = tenet_winter_queen
-	is_shown = {
-		religion = { NOT = { is_in_family = rf_eruhini } }
-	}
+	# Available in faith creation and reformation.
 
 	can_pick = {
 		always = yes
@@ -198,9 +188,7 @@ tenet_winter_queen = {
 
 tenet_silmirillion = {
 	icon = silmirllion_icon
-	is_shown = {
-		religion = { is_in_family = rf_eruhini }
-	}
+	# Available in faith creation and reformation.
 
 	can_pick = {
 		always = yes
@@ -232,13 +220,10 @@ tenet_silmirillion = {
 
 tenet_unbroken = {
 	icon = unbroken_icon
-	is_shown = {
-		religion = { is_in_family = rf_forcesofevil }
-	}
+	# Available in faith creation and reformation.
 
 	can_pick = {
 		always = yes
-		faith_is_good = yes
 	}
 
 	piety_cost = {
@@ -264,13 +249,10 @@ tenet_unbroken = {
 
 tenet_werewolves = {
 	icon = tenet_werewolves_icon
-	is_shown = {
-		religion = { is_in_family = rf_eruhini }
-	}
+	# Available in faith creation and reformation.
 
 	can_pick = {
 
-		faith_is_good = yes
 
 	}
 
