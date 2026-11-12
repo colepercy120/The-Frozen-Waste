@@ -28,19 +28,28 @@ percival_yearly_pulse = {
 }
 correct_alignment_modifier = {
 	effect = {
+		# Avoid two full character traversals every month.
 		every_living_character = {
 			limit = {
-				has_character_modifier = good_racial_hatred
-				faith_is_good = yes
+				OR = {
+					has_character_modifier = good_racial_hatred
+					has_character_modifier = evil_racial_hatred
+				}
 			}
-			remove_character_modifier = good_racial_hatred
-		}
-		every_living_character = {
-			limit = {
-				has_character_modifier = evil_racial_hatred
-				faith_is_evil = yes
+			if = {
+				limit = {
+					has_character_modifier = good_racial_hatred
+					faith_is_good = yes
+				}
+				remove_character_modifier = good_racial_hatred
 			}
-			remove_character_modifier = evil_racial_hatred
+			if = {
+				limit = {
+					has_character_modifier = evil_racial_hatred
+					faith_is_evil = yes
+				}
+				remove_character_modifier = evil_racial_hatred
+			}
 		}
 	}
 }

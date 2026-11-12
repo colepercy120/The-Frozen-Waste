@@ -227,7 +227,10 @@ update_X_region_phase_effect = {
 			}
 		}
 		every_situation_sub_region = {
-			limit = { situation_sub_region_has_county = $REGION_CAPITAL$ }
+			limit = {
+				situation_sub_region_has_county = $REGION_CAPITAL$
+				NOT = { sub_region_current_phase = situation_elven_fading }
+			}
 			change_phase = { phase = situation_elven_fading }
 		}
 	}
@@ -239,7 +242,10 @@ update_X_region_phase_effect = {
 			}
 		}
 		every_situation_sub_region = {
-			limit = { situation_sub_region_has_county = $REGION_CAPITAL$ }
+			limit = {
+				situation_sub_region_has_county = $REGION_CAPITAL$
+				NOT = { sub_region_current_phase = situation_elven_waning }
+			}
 			change_phase = { phase = situation_elven_waning }
 		}
 	}
@@ -251,7 +257,10 @@ update_X_region_phase_effect = {
 			}
 		}
 		every_situation_sub_region = {
-			limit = { situation_sub_region_has_county = $REGION_CAPITAL$ }
+			limit = {
+				situation_sub_region_has_county = $REGION_CAPITAL$
+				NOT = { sub_region_current_phase = situation_elven_enduring }
+			}
 			change_phase = { phase = situation_elven_enduring }
 		}
 	}
@@ -263,7 +272,10 @@ update_X_region_phase_effect = {
 			}
 		}
 		every_situation_sub_region = {
-			limit = { situation_sub_region_has_county = $REGION_CAPITAL$ }
+			limit = {
+				situation_sub_region_has_county = $REGION_CAPITAL$
+				NOT = { sub_region_current_phase = situation_elven_renewing }
+			}
 			change_phase = { phase = situation_elven_renewing }
 		}
 	}
@@ -275,7 +287,10 @@ update_X_region_phase_effect = {
 			}
 		}
 		every_situation_sub_region = {
-			limit = { situation_sub_region_has_county = $REGION_CAPITAL$ }
+			limit = {
+				situation_sub_region_has_county = $REGION_CAPITAL$
+				NOT = { sub_region_current_phase = situation_elven_thriving }
+			}
 			change_phase = { phase = situation_elven_thriving }
 		}
 	}
