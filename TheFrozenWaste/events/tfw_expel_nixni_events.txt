@@ -1,0 +1,25 @@
+namespace = tfw_expel_nixni
+
+# Sent specifically to Nixni when a participant starts the war.
+# The saved attacker scope survives the direct trigger_event call.
+tfw_expel_nixni.0001 = {
+    type = character_event
+    title = tfw_expel_nixni.0001.t
+    desc = tfw_expel_nixni.0001.desc
+    theme = warfare
+
+    override_background = {
+        reference = forodwaith
+    }
+    left_portrait = {
+        character = root
+        animation = anger
+    }
+    right_portrait = {
+        character = scope:tfw_expel_nixni_attacker
+        animation = war_attacker
+    }
+    option = {
+        name = tfw_expel_nixni.0001.a
+    }
+}
