@@ -116,3 +116,9 @@ l_english:
  tfw_expel_nixni_from_angband_decision_desc: "The Ice Queen has made the ancient fortress of [angband|e] the seat of her tyranny. We must gather our banners, break her dominion, and leave the halls of the Dark Enemy empty and desolate. Should we fail, our disgrace will cost us both fame and devotion."
  tfw_expel_nixni_from_angband_decision_tooltip: "Declare a special war against Nixni to leave Angband as [wilderness|e] and ruin its great building. Defeat costs one level of Fame and Devotion."
  tfw_expel_nixni_from_angband_decision_confirm: "March on Angband!"
+
+ # Redeemed Orc government fallback
+ tfw_adopt_feudal_government_decision: "Adopt Feudal Government"
+ tfw_adopt_feudal_government_decision_desc: "We have turned away from the darkness of our forebears, but our realm still follows the old ways of Orcish rule. If our people are to build a lasting future, we must establish a new order, founded upon laws and obligations rather than fear and strength alone."
+ tfw_adopt_feudal_government_decision_tooltip: "Replace [orcish_government|E] with [feudal_government|E]."
+ tfw_adopt_feudal_government_decision_confirm: "Establish Feudal Rule"

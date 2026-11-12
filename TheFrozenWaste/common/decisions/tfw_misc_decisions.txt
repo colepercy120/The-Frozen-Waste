@@ -942,3 +942,33 @@ decision_build_nidavillir = {
 		}
 	}
 }
+
+# Fallback for redeemed Orc rulers who retain Orcish government.
+tfw_adopt_feudal_government_decision = {
+    picture = {
+        reference = "gfx/interface/illustrations/decisions/decision_elves_dwarves_05.dds"
+    }
+    desc = tfw_adopt_feudal_government_decision_desc
+    selection_tooltip = tfw_adopt_feudal_government_decision_tooltip
+    confirm_text = tfw_adopt_feudal_government_decision_confirm
+    decision_group_type = realms_in_exile_major
+
+    is_shown = {
+        is_landed = yes
+        is_orc = yes
+        faith_is_good = yes
+        has_government = orcish_government
+    }
+
+    is_valid = {
+        is_imprisoned = no
+        is_at_war = no
+    }
+
+    effect = {
+        change_government = feudal_government
+    }
+
+    ai_potential = { always = yes }
+    ai_will_do = { base = 100 }
+}
