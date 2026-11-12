@@ -52,7 +52,7 @@ tfw_expel_nixni_angband_cb = {
             every_character_situation = {
                 limit = { situation_type = frozen_waste }
                 every_situation_participant = {
-                    trigger_event = tfw_expel_nixni.0002
+                    trigger_event = tfw_situation.0009
                 }
             }
         }
