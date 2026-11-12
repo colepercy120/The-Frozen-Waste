@@ -16,12 +16,9 @@ tfw_expel_nixni_from_angband_decision = {
         character:tfw_lineofnixni_001 = {
             is_alive = yes
             is_landed = yes
+			completely_controls = title:k_angband
         }
-        title:c_thangorodrim_3 = {
-            holder = {
-                target_is_liege_or_above = character:tfw_lineofnixni_001
-            }
-        }
+       
         NOT = { global_var:tfw_angband_cleansed = 1 }
     }
 
