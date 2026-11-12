@@ -12,3 +12,6 @@
  tfw_expel_nixni.0001.t: "Defiance at Angband"
  tfw_expel_nixni.0001.desc: "[scope:tfw_expel_nixni_attacker.GetTitledFirstName] has raised an army against you, proclaiming that Angband shall be emptied and its ancient fortress reduced to ruins. The challenge is no mere border raid: they intend to cast you from the stronghold itself."
  tfw_expel_nixni.0001.a: "Let them come. The ice will claim them."
+ tfw_expel_nixni.0002.t: "The Fall of Angband"
+ tfw_expel_nixni.0002.desc: "[scope:tfw_expel_nixni_victor.GetTitledFirstName] has defeated the Ice Queen! The great fortress of Angband has been ruined and its settlements abandoned to the wilderness. Nixni has been cast from her throne and now wanders the lands as a landless adventurer."
+ tfw_expel_nixni.0002.a: "At last, the shadow over Angband is broken."
