@@ -9,10 +9,8 @@ tfw_expel_nixni_from_angband_decision = {
     decision_group_type = realms_in_exile_major
 
     is_shown = {
-        # The Frozen Waste must be active, but the attacker need not be a situation participant.
-        # This flag is added to Nixni on situation start and removed on situation end.
-        character:tfw_lineofnixni_001 = {
-            has_character_flag = nixni_distracted_flag
+        any_character_situation = {
+            situation_type = frozen_waste
         }
         faith_is_good = yes
         highest_held_title_tier >= tier_kingdom
