@@ -49,6 +49,18 @@ tfw_expel_nixni_angband_cb = {
 
     on_victory_desc = { desc = tfw_expel_nixni_cb_victory_desc }
     on_victory = {
+        # Preserve the victorious ruler for the participant event.
+        scope:attacker = {
+            save_scope_as = tfw_expel_nixni_victor
+            # Send before Nixni becomes landless, since she is herself a participant.
+            every_character_situation = {
+                limit = { situation_type = frozen_waste }
+                every_situation_participant = {
+                    trigger_event = tfw_expel_nixni.0002
+                }
+            }
+        }
+
         # Ruin the actual Angband wonder before changing the surrounding settlements.
         province:8105 = {
             ruin_great_building = yes
@@ -57,6 +69,20 @@ tfw_expel_nixni_angband_cb = {
             every_de_jure_county = {
                 limit = { is_wasteland = no }
                 make_settlement_county_wilderness = { COUNTY = this }
+            }
+        }
+
+        # Standard CK3 deposition distributes any remaining landed titles
+        # (including land Nixni may have conquered outside Angband).
+        # Her adventurer title is created only after she is deposed.
+        scope:defender = {
+            if = {
+                limit = { is_landed = yes }
+                depose = yes
+            }
+            create_landless_adventurer_title_effect = {
+                REASON = flag:exile
+                FLAVOR_CHAR = scope:tfw_expel_nixni_victor
             }
         }
         add_truce_attacker_victory_effect = yes
