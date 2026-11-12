@@ -372,3 +372,11 @@ l_english:
  great_project_type_tfw_nidavillir_upgrade_contribution_fortifications_desc: "Strengthen gates, passages, and the defenses of the hold."
  great_project_type_tfw_nidavillir_upgrade_contribution_work_force: "Provide Workers"
  great_project_type_tfw_nidavillir_upgrade_contribution_work_force_desc: "Supply the labor needed to excavate and furnish new halls."
+
+ # Expel Nixni from Angband war
+ tfw_expel_nixni_angband_cb_name: "Expel Nixni from Angband"
+ tfw_expel_nixni_angband_war_name: "War to Expel Nixni from Angband"
+ tfw_expel_nixni_cb_victory_desc: "The great building in Angband is ruined and every settled county in Angband becomes wilderness. No titles are seized."
+ tfw_expel_nixni_cb_white_peace_desc: "Angband remains under the Ice Queen's control. Neither side gains territory."
+ tfw_expel_nixni_cb_defeat_desc: "The attacker loses one level of Fame and one level of Devotion."
+ tfw_expel_nixni_cb_invalidated_desc: "The war is invalidated because Nixni is no longer alive or Angband has already been cleansed."
