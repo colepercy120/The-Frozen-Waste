@@ -37,7 +37,7 @@ tfw_expel_nixni_from_angband_decision = {
     effect = {
         save_scope_as = tfw_expel_nixni_attacker
         character:tfw_lineofnixni_001 = {
-            trigger_event = tfw_expel_nixni.0001
+            trigger_event = tfw_situation.0008
         }
         start_war = {
             casus_belli = tfw_expel_nixni_angband_cb
