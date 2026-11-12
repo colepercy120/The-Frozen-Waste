@@ -320,14 +320,17 @@ l_english:
 
  great_project_type_angband_durnost_upgrade: "Restore Dread Fortress"
  great_project_type_angband_durnost_upgrade_desc: "The North is dotted with dread fortresses of the [elderdays|e]. With sufficient investment and effort, these strongholds can be restored to their ancient grandeur."
+ great_project_type_tooltip_angband_durnost_upgrade: "Restore Dread Fortress"
+ great_project_name_angband_durnost_upgrade: "Restoration of the Dread Fortress"
+ great_project_name_possessive_angband_durnost_upgrade: "Restoration of the Dread Fortress"
  great_project_type_angband_durnost_upgrade_valid_location_tt: "This province must contain an upgradeable level of #high Angband#! or #high Durnost#!."
  great_project_type_angband_durnost_construct_building_tt: "The fortress will be expanded to its next level."
- great_project_type_angband_durnost_upgrade_stonework: "Massive Stoneworks"
- great_project_type_angband_durnost_upgrade_stonework_desc: "Quarry, shape, and transport the immense quantities of stone required to enlarge the fortress."
- great_project_type_angband_durnost_upgrade_fortifications: "Strengthen the Fortifications"
- great_project_type_angband_durnost_upgrade_fortifications_desc: "Raise new walls, gates, towers, and defensive works around the growing stronghold."
- great_project_type_angband_durnost_upgrade_work_force: "Muster the Workforce"
- great_project_type_angband_durnost_upgrade_work_force_desc: "Gather the laborers, craftsmen, engineers, and overseers required for construction on this scale."
+ great_project_type_angband_durnost_upgrade_contribution_stonework: "Massive Stoneworks"
+ great_project_type_angband_durnost_upgrade_contribution_stonework_desc: "Quarry, shape, and transport the immense quantities of stone required to enlarge the fortress."
+ great_project_type_angband_durnost_upgrade_contribution_fortifications: "Strengthen the Fortifications"
+ great_project_type_angband_durnost_upgrade_contribution_fortifications_desc: "Raise new walls, gates, towers, and defensive works around the growing stronghold."
+ great_project_type_angband_durnost_upgrade_contribution_work_force: "Muster the Workforce"
+ great_project_type_angband_durnost_upgrade_contribution_work_force_desc: "Gather the laborers, craftsmen, engineers, and overseers required for construction on this scale."
 
 # ============================================================
 # Restoration
