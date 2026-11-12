@@ -238,7 +238,6 @@ tenet_unbroken = {
 
 	can_pick = {
 		always = yes
-		faith_is_good = yes
 	}
 
 	piety_cost = {
@@ -269,9 +268,7 @@ tenet_werewolves = {
 	}
 
 	can_pick = {
-
-		faith_is_good = yes
-
+		always = yes
 	}
 
 	piety_cost = {
