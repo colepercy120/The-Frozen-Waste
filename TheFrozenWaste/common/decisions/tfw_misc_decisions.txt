@@ -61,14 +61,15 @@ decision_form_rast_losnath = {
 		trigger_event = {
 			id = tfw_misc.001
 		}
+		### Preserve the existing regional empire before transferring the duchies.
+		title:k_rast_losnath = {
+			set_de_jure_liege_title = title:d_rast_losnaeth_1.empire
+		}
 		title:d_rast_losnaeth_1 = {
 			set_de_jure_liege_title = title:k_rast_losnath
 		}
 		title:d_rast_losnaeth_2 = {
 			set_de_jure_liege_title = title:k_rast_losnath
-		}
-		title:k_rast_losnath = {
-			set_de_jure_liege_title = title:d_rast_losnaeth_1.empire
 		}
 
 		add_to_global_variable_list = {
@@ -141,14 +142,15 @@ decision_form_muilfalas = {
 		trigger_event = {
 			id = tfw_misc.002
 		}
+		### Preserve the existing regional empire before transferring the duchies.
+		title:k_muilfalas = {
+			set_de_jure_liege_title = title:d_muilfalas_1.empire
+		}
 		title:d_muilfalas_1 = {
 			set_de_jure_liege_title = title:k_muilfalas
 		}
 		title:d_muilfalas_2 = {
 			set_de_jure_liege_title = title:k_muilfalas
-		}
-		title:k_muilfalas = {
-			set_de_jure_liege_title = title:d_muilfalas_1.empire
 		}
 
 		add_to_global_variable_list = {
