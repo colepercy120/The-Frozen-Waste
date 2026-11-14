@@ -1,0 +1,107 @@
+﻿namespace = underdeep_engine
+
+# Starts the run.
+underdeep_engine.0001 = {
+	hidden = yes
+	immediate = {
+		underdeep_intent_start_effect = yes
+		underdeep_delver_start_effect = yes
+		if = {
+			limit = { this = character:lineofgandalf }
+			trigger_event = { id = underdeep.8001 days = 1 }
+		}
+		else_if = {
+			limit = { this = character:lineofsaruman }
+			trigger_event = { id = underdeep.8101 days = 1 }
+		}
+		else = {
+			trigger_event = { id = underdeep.1001 days = 1 }
+		}
+	}
+}
+
+# Decides what comes next after every event.
+underdeep_engine.0010 = {
+	hidden = yes
+	immediate = {
+		involved_activity = { save_scope_as = ud_activity }
+		if = {
+			limit = { is_landless_adventurer = yes }
+			involved_activity = { set_variable = { name = underdeep_supplies value = root.domicile.provisions } }
+		}
+		if = {
+			limit = { is_landless_adventurer = yes domicile.provisions <= 0 }
+			trigger_event = { id = underdeep.7002 days = 1 }
+		}
+		else_if = {
+			limit = { stress_level >= 3 }
+			trigger_event = { id = underdeep.7003 days = 1 }
+		}
+		else_if = {
+			limit = { involved_activity = { var:underdeep_rooms_done >= underdeep_rooms_per_floor } }
+			# Enough rooms: the boss, then the end of the run.
+			trigger_event = { on_action = underdeep_bosses_f1 days = 1 }
+		}
+		else_if = {
+			limit = { involved_activity = { NOT = { has_variable = underdeep_floor_special_done } } }
+			involved_activity = { set_variable = { name = underdeep_floor_special_done value = yes } }
+			trigger_event = { on_action = underdeep_specials_f1 days = 1 }
+		}
+		else_if = {
+			limit = {
+				involved_activity = { var:underdeep_rooms_done >= 1 NOT = { has_variable = underdeep_intent_event_done } }
+				OR = {
+					has_activity_intent = murder_attendee_intent
+					has_activity_intent = woo_attendee_intent
+					has_activity_intent = befriend_attendee_intent
+				}
+				exists = intent_target
+				intent_target = { is_alive = yes location = root.location }
+			}
+			involved_activity = { set_variable = { name = underdeep_intent_event_done value = yes } }
+			if = {
+				limit = { has_activity_intent = murder_attendee_intent }
+				trigger_event = { id = underdeep.9001 days = 1 }
+			}
+			else_if = {
+				limit = { has_activity_intent = woo_attendee_intent }
+				trigger_event = { id = underdeep.9002 days = 1 }
+			}
+			else = {
+				trigger_event = { id = underdeep.9003 days = 1 }
+			}
+		}
+		else = {
+			random_list = {
+				4 = {
+					trigger = { involved_activity = { NOT = { has_variable = underdeep_fortune_seen } } }
+					involved_activity = { set_variable = { name = underdeep_fortune_seen value = yes } }
+					trigger_event = { id = underdeep.1260 days = 1 }
+				}
+				40 = {
+					trigger_event = { id = underdeep.1401 days = 1 }
+				}
+				25 = {
+					trigger_event = { id = underdeep.1402 days = 1 }
+				}
+				15 = {
+					trigger_event = { id = underdeep.1403 days = 1 }
+				}
+				20 = {
+					trigger_event = { on_action = underdeep_encounters_f1 days = 1 }
+				}
+				20 = {
+					trigger_event = { on_action = underdeep_party_events days = 1 }
+				}
+			}
+		}
+	}
+}
+
+# Ends the activity.
+underdeep_engine.0300 = {
+	hidden = yes
+	immediate = {
+		involved_activity = { progress_activity_phase_after = { days = 1 } }
+	}
+}

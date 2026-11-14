@@ -1,0 +1,155 @@
+﻿underdeep_bosses_f1 = {
+	random_events = {
+		100 = underdeep.6001
+		100 = underdeep.6002
+	}
+}
+
+underdeep_encounters_f1 = {
+	random_events = {
+		100 = underdeep.1201
+		100 = underdeep.1202
+		100 = underdeep.1203
+		100 = underdeep.1204
+		100 = underdeep.1205
+		100 = underdeep.1206
+		100 = underdeep.1207
+		100 = underdeep.1208
+		100 = underdeep.1209
+		100 = underdeep.1210
+		100 = underdeep.1211
+		100 = underdeep.1212
+		100 = underdeep.1213
+		400 = underdeep.1252
+		400 = underdeep.1253
+	}
+	fallback = underdeep_door_fallback
+}
+
+underdeep_party_events = {
+	random_events = {
+		100 = underdeep.5001
+		100 = underdeep.5002
+		100 = underdeep.5003
+		100 = underdeep.5004
+		100 = underdeep.5005
+		100 = underdeep.5006
+		100 = underdeep.5007
+		100 = underdeep.5008
+		100 = underdeep.5009
+		100 = underdeep.5010
+		100 = underdeep.5011
+		100 = underdeep.5012
+		100 = underdeep.5013
+		100 = underdeep.5014
+		100 = underdeep.5015
+		100 = underdeep.5016
+	}
+	fallback = underdeep_door_fallback
+}
+
+underdeep_rooms_f1_any = {
+	random_events = {
+		100 = underdeep.1101
+		100 = underdeep.1102
+		100 = underdeep.1103
+		100 = underdeep.1104
+		100 = underdeep.1105
+		100 = underdeep.1106
+		100 = underdeep.1107
+		100 = underdeep.1108
+		100 = underdeep.1109
+		100 = underdeep.1110
+		100 = underdeep.1112
+		100 = underdeep.1113
+		100 = underdeep.1114
+		100 = underdeep.1115
+		100 = underdeep.1116
+		100 = underdeep.1117
+		100 = underdeep.1118
+		100 = underdeep.1119
+		100 = underdeep.1120
+		100 = underdeep.1121
+		100 = underdeep.1122
+		100 = underdeep.1123
+		100 = underdeep.1124
+		100 = underdeep.1125
+		300 = underdeep.1126
+		300 = underdeep.1127
+		300 = underdeep.1128
+		300 = underdeep.1129
+		300 = underdeep.1130
+		300 = underdeep.1131
+		300 = underdeep.1132
+		300 = underdeep.1133
+	}
+	fallback = underdeep_door_fallback
+}
+
+underdeep_rooms_f1_danger = {
+	random_events = {
+		100 = underdeep.1103
+		100 = underdeep.1106
+		100 = underdeep.1109
+		100 = underdeep.1112
+		100 = underdeep.1119
+		100 = underdeep.1122
+		300 = underdeep.1127
+		300 = underdeep.1129
+		300 = underdeep.1133
+	}
+	fallback = underdeep_rooms_f1_any
+}
+
+underdeep_rooms_f1_rest = {
+	random_events = {
+		100 = underdeep.1105
+		100 = underdeep.1108
+		100 = underdeep.1115
+		100 = underdeep.1117
+		100 = underdeep.1121
+		100 = underdeep.1125
+		300 = underdeep.1128
+		300 = underdeep.1131
+	}
+	fallback = underdeep_rooms_f1_any
+}
+
+underdeep_rooms_f1_treasure = {
+	random_events = {
+		100 = underdeep.1102
+		100 = underdeep.1107
+		100 = underdeep.1110
+		100 = underdeep.1113
+		100 = underdeep.1118
+		100 = underdeep.1123
+		300 = underdeep.1126
+		300 = underdeep.1130
+		300 = underdeep.1132
+	}
+	fallback = underdeep_rooms_f1_any
+}
+
+underdeep_rooms_f1_whispers = {
+	random_events = {
+		100 = underdeep.1101
+		100 = underdeep.1104
+		100 = underdeep.1114
+		100 = underdeep.1116
+		100 = underdeep.1120
+		100 = underdeep.1124
+	}
+	fallback = underdeep_rooms_f1_any
+}
+
+underdeep_specials_f1 = {
+	random_events = {
+		100 = underdeep.8002
+		100 = underdeep.8102
+	}
+	fallback = underdeep_door_fallback
+}
+
+underdeep_door_fallback = {
+	events = { underdeep.1401 }
+}

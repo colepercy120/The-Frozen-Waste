@@ -1,0 +1,13 @@
+﻿underdeep_check_hard = {
+	value = underdeep_check_value
+	add = 6
+}
+
+underdeep_check_hard_lifestyle_hunter_is_troll = {
+	value = underdeep_check_value
+	add = 6
+	if = {
+		limit = { OR = { has_trait = lifestyle_hunter is_troll = yes } }
+		add = -6
+	}
+}

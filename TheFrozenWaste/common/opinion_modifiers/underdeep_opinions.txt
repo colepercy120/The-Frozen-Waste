@@ -1,0 +1,11 @@
+﻿underdeep_opinion_good = {
+	opinion = 15
+	decaying = yes
+	years = 10
+}
+
+underdeep_opinion_bad = {
+	opinion = -15
+	decaying = yes
+	years = 10
+}

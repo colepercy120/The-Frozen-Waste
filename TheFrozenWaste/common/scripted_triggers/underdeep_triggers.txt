@@ -1,0 +1,53 @@
+﻿underdeep_floor_is = {
+	involved_activity = { var:underdeep_floor = $F$ }
+}
+
+underdeep_not_seen = {
+	NOT = {
+		involved_activity = {
+			is_target_in_variable_list = { name = underdeep_seen target = flag:ud_$ID$ }
+		}
+	}
+}
+
+# Root is the province, scope:host is the character planning the delve.
+underdeep_entrance_in_reach = {
+	OR = {
+		county.holder ?= {
+			OR = {
+				this = scope:host
+				top_liege = scope:host
+			}
+		}
+		"scope:host.location.squared_distance(root)" <= squared_distance_massive
+	}
+}
+
+underdeep_conqueror_door_shown = {
+	underdeep_floor_is = { F = 1 }
+	underdeep_not_seen = { ID = 1111 }
+	involved_activity = { has_variable = underdeep_conqueror_door }
+}
+
+underdeep_pair_has_secret = {
+	OR = {
+		scope:delver = { any_secret = { NOT = { is_known_by = root } } }
+		scope:delver_two = { any_secret = { NOT = { is_known_by = root } } }
+	}
+}
+
+# Minds the dark beneath the North cannot break. Their bodies can still be hurt.
+underdeep_mind_warded = {
+	is_maiar = yes
+}
+
+# True if this room was met on an earlier delve. Such rooms come up far less often.
+underdeep_seen_before = {
+	has_variable_list = underdeep_seen_ever
+	is_target_in_variable_list = { name = underdeep_seen_ever target = flag:ud_$ID$ }
+}
+
+# True if the door of this KIND leads to room ID (set by underdeep_pick_rooms_effect).
+underdeep_room_picked = {
+	involved_activity = { var:underdeep_next_$KIND$ ?= flag:ud_$ID$ }
+}

@@ -1,0 +1,64 @@
+﻿delver = {
+	icon = adventurer.dds
+	category = lifestyle
+	ruler_designer_cost = 20
+
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_delver
+			}
+			triggered_desc = {
+				trigger = { has_trait_xp = { trait = delver value >= 100 } }
+				desc = trait_delver_3
+			}
+			triggered_desc = {
+				trigger = { has_trait_xp = { trait = delver value >= 50 } }
+				desc = trait_delver_2
+			}
+			desc = trait_delver
+		}
+	}
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_delver_desc
+			}
+			triggered_desc = {
+				trigger = { has_trait_xp = { trait = delver value >= 100 } }
+				desc = trait_delver_desc_3
+			}
+			triggered_desc = {
+				trigger = { has_trait_xp = { trait = delver value >= 50 } }
+				desc = trait_delver_desc_2
+			}
+			desc = trait_delver_desc
+		}
+	}
+
+	prowess = 1
+	health = 0.1
+	stress_gain_mult = -0.05
+	halls_advantage = 2
+	mountains_advantage = 1
+
+	track = {
+		50 = {
+			prowess = 2
+			health = 0.15
+			monthly_prestige = 0.25
+			halls_advantage = 4
+		}
+		100 = {
+			prowess = 2
+			learning = 2
+			health = 0.25
+			monthly_prestige = 0.5
+			stress_gain_mult = -0.1
+			halls_advantage = 6
+		}
+	}
+}

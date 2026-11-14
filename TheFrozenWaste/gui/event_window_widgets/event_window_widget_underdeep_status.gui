@@ -1,0 +1,17 @@
+﻿hbox = {
+	name = "event_window_widget_underdeep_status"
+	datacontext = "[EventWindowWidget.GetScope.GetRootScope.Char]"
+	datacontext = "[Character.GetInvolvedActivity]"
+	layoutpolicy_horizontal = expanding
+	spacing = 5
+
+	expand = {}
+
+	text_single = {
+		name = "underdeep_status"
+		text = "underdeep_status_line"
+		align = nobaseline
+	}
+
+	expand = {}
+}

@@ -1,0 +1,75 @@
+﻿# Dungeon Delving intents. Their effects are in common/scripted_effects/underdeep_effects.txt.
+
+underdeep_plunder_intent = {
+	icon = capital_intent
+	on_invalidated = { trigger_event = activity_system.0090 }
+	ai_will_do = { value = 10 }
+}
+
+underdeep_renown_intent = {
+	icon = intent_gain_renown
+	on_invalidated = { trigger_event = activity_system.0090 }
+	ai_will_do = { value = 10 }
+}
+
+underdeep_lore_intent = {
+	icon = intent_knowledge
+	on_invalidated = { trigger_event = activity_system.0090 }
+	ai_will_do = { value = 10 }
+}
+
+underdeep_home_intent = {
+	icon = altruism_intent
+	on_invalidated = { trigger_event = activity_system.0090 }
+	ai_will_do = { value = 10 }
+}
+
+underdeep_cleanse_intent = {
+	icon = bear_witness_intent
+	is_shown = { faith_is_good = yes }
+	on_invalidated = { trigger_event = activity_system.0090 }
+	ai_will_do = { value = 10 }
+}
+
+underdeep_commune_intent = {
+	icon = intent_mystic
+	is_shown = { faith_is_evil = yes }
+	on_invalidated = { trigger_event = activity_system.0090 }
+	ai_will_do = { value = 10 }
+}
+
+underdeep_spoils_intent = {
+	icon = capital_intent
+	on_invalidated = { trigger_event = activity_system.0090 }
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_trait = greedy }
+			add = 20
+		}
+	}
+}
+
+underdeep_prove_intent = {
+	icon = intent_impress
+	on_invalidated = { trigger_event = activity_system.0090 }
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_trait = ambitious }
+			add = 20
+		}
+	}
+}
+
+underdeep_watch_intent = {
+	icon = improve_relationship_with_host_intent
+	on_invalidated = { trigger_event = activity_system.0090 }
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_trait = loyal }
+			add = 20
+		}
+	}
+}

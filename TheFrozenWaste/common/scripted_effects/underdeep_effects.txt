@@ -1,0 +1,1078 @@
+﻿# Run state lives on the activity as variables: underdeep_floor, underdeep_rooms_done,
+# underdeep_gold_found, underdeep_boss_odds, underdeep_supplies (adventurers only).
+
+# Adventurers spend real provisions. Landed rulers pay in gold for costly choices instead.
+underdeep_supplies_effect = {
+	if = {
+		limit = { is_landless_adventurer = yes }
+		domicile ?= { change_provisions = $AMOUNT$ }
+	}
+	else = {
+		remove_short_term_gold = $GOLD$
+	}
+}
+
+underdeep_supplies_only_effect = {
+	if = {
+		limit = { is_landless_adventurer = yes }
+		domicile ?= { change_provisions = $AMOUNT$ }
+	}
+}
+
+# Every find is scaled by underdeep_loot_mult. The Two Cups uses underdeep_jackpot_effect instead.
+underdeep_loot_effect = {
+	save_temporary_scope_value_as = {
+		name = ud_loot
+		value = {
+			value = $AMOUNT$
+			multiply = underdeep_loot_mult
+		}
+	}
+	underdeep_add_found_gold_effect = { AMOUNT = scope:ud_loot }
+}
+
+underdeep_jackpot_effect = {
+	save_temporary_scope_value_as = { name = ud_loot value = $AMOUNT$ }
+	underdeep_add_found_gold_effect = { AMOUNT = scope:ud_loot }
+}
+
+underdeep_add_found_gold_effect = {
+	add_gold = $AMOUNT$
+	hidden_effect = {
+		involved_activity = {
+			if = {
+				limit = { NOT = { has_variable = underdeep_gold_found } }
+				set_variable = { name = underdeep_gold_found value = 0 }
+			}
+			change_variable = { name = underdeep_gold_found add = $AMOUNT$ }
+		}
+	}
+}
+
+# Keeps PERCENT of the gold found on this run and takes back the rest.
+underdeep_loot_keep_effect = {
+	custom_tooltip = $TT$
+	hidden_effect = {
+		if = {
+			limit = { involved_activity = { has_variable = underdeep_gold_found } }
+			save_scope_value_as = {
+				name = ud_gold_loss
+				value = {
+					value = involved_activity.var:underdeep_gold_found
+					multiply = { value = 100 subtract = $PERCENT$ divide = 100 }
+				}
+			}
+			remove_short_term_gold = scope:ud_gold_loss
+			involved_activity = {
+				change_variable = { name = underdeep_gold_found multiply = $PERCENT$ }
+				change_variable = { name = underdeep_gold_found divide = 100 }
+			}
+		}
+	}
+}
+
+underdeep_boss_odds_effect = {
+	custom_tooltip = underdeep_tt_boss_odds
+	hidden_effect = {
+		involved_activity = { change_variable = { name = underdeep_boss_odds add = $AMOUNT$ } }
+	}
+}
+
+underdeep_wound_effect = {
+	if = {
+		limit = {
+			this = root
+			involved_activity = {
+				any_attending_character = {
+					has_activity_intent = underdeep_watch_intent
+					NOT = { this = root }
+				}
+			}
+		}
+		random_list = {
+			50 = {
+				involved_activity = {
+					random_attending_character = {
+						limit = {
+							has_activity_intent = underdeep_watch_intent
+							NOT = { this = root }
+						}
+						increase_wounds_effect = { REASON = fight }
+						complete_activity_intent = yes
+						add_opinion = { target = root modifier = underdeep_opinion_good }
+					}
+				}
+			}
+			50 = {
+				increase_wounds_effect = { REASON = fight }
+			}
+		}
+	}
+	else = {
+		increase_wounds_effect = { REASON = fight }
+	}
+}
+
+underdeep_mark_seen_effect = {
+	involved_activity = {
+		add_to_variable_list = { name = underdeep_seen target = flag:ud_$ID$ }
+	}
+	add_to_variable_list = { name = underdeep_seen_ever target = flag:ud_$ID$ }
+}
+
+underdeep_next_effect = {
+	hidden_effect = {
+		involved_activity = { change_variable = { name = underdeep_rooms_done add = $COUNT$ } }
+		trigger_event = { id = underdeep_engine.0010 days = { 1 3 } }
+	}
+}
+
+underdeep_enter_room_effect = {
+	hidden_effect = {
+		if = {
+			limit = { underdeep_floor_is = { F = 1 } involved_activity = { has_variable = underdeep_next_$KIND$ } }
+			underdeep_enter_picked_room_effect = { KIND = $KIND$ }
+			# A pick is used once. The pit and later rooms pick afresh.
+			involved_activity = {
+				remove_variable = underdeep_next_treasure
+				remove_variable = underdeep_next_danger
+				remove_variable = underdeep_next_whispers
+				remove_variable = underdeep_next_rest
+			}
+		}
+		else = {
+			trigger_event = { on_action = underdeep_rooms_f1_$KIND$ days = 1 }
+		}
+	}
+}
+
+# Grants the rewards for the run, then moves on to any personal ending.
+underdeep_finish_effect = {
+	save_scope_value_as = { name = ud_xp value = underdeep_run_xp }
+	save_scope_value_as = { name = ud_prestige value = underdeep_total_prestige }
+	add_prestige = scope:ud_prestige
+	if = {
+		limit = { NOT = { has_trait_xp = { trait = delver value >= 100 } } }
+		hidden_effect = { involved_activity = { set_variable = { name = underdeep_delver_gained value = scope:ud_xp } } }
+	}
+	involved_activity = { set_variable = { name = underdeep_prestige_won value = scope:ud_prestige } }
+	underdeep_intent_finish_effect = yes
+	if = {
+		limit = { NOT = { has_trait = delver } }
+		add_trait = delver
+	}
+	if = {
+		limit = { NOT = { has_trait_xp = { trait = delver value >= 100 } } }
+		add_trait_xp = { trait = delver value = scope:ud_xp }
+	}
+	hidden_effect = {
+		if = {
+			limit = {
+				involved_activity = {
+					has_variable = underdeep_doppel
+					var:underdeep_doppel = { is_alive = yes }
+				}
+			}
+			involved_activity.var:underdeep_doppel = { save_scope_as = ud_doppel }
+			trigger_event = { id = underdeep.1255 days = 2 }
+		}
+		else = {
+			underdeep_finish_route_effect = yes
+		}
+	}
+}
+
+underdeep_finish_route_effect = {
+	hidden_effect = {
+		if = {
+			limit = { this = character:lineofgandalf }
+			trigger_event = { id = underdeep.8005 days = 2 }
+		}
+		else_if = {
+			limit = { this = character:lineofsaruman }
+			trigger_event = { id = underdeep.8105 days = 2 }
+		}
+		else = {
+			trigger_event = { id = underdeep_engine.0300 days = 1 }
+		}
+	}
+}
+
+# Turning back at the entrance: the cost of setting out is returned and the delve can be planned again at once.
+underdeep_turn_back_effect = {
+	if = {
+		limit = { involved_activity = { has_variable = underdeep_paid } }
+		add_gold = involved_activity.var:underdeep_paid
+	}
+	custom_tooltip = underdeep_tt_turn_back_cooldown
+	hidden_effect = { set_variable = { name = underdeep_cooldown_waived value = yes } }
+	underdeep_complete_effect = yes
+}
+
+underdeep_complete_effect = {
+	hidden_effect = { trigger_event = { id = underdeep_engine.0300 days = 1 } }
+}
+
+underdeep_end_with = {
+	hidden_effect = { trigger_event = { id = underdeep.$ENDING$ days = 1 } }
+}
+
+# ---- Intents ----
+
+# One line of gold. Plunder pays better but spends extra supplies searching.
+underdeep_treasure_loot_effect = {
+	if = {
+		limit = { has_activity_intent = underdeep_plunder_intent }
+		underdeep_loot_effect = { AMOUNT = $PLUNDER$ }
+		underdeep_supplies_only_effect = { AMOUNT = -50 }
+	}
+	else = {
+		underdeep_loot_effect = { AMOUNT = $AMOUNT$ }
+	}
+}
+
+underdeep_intent_start_effect = {
+	if = {
+		limit = { has_activity_intent = underdeep_cleanse_intent }
+		involved_activity = { change_variable = { name = underdeep_boss_odds add = 10 } }
+	}
+}
+
+# Scope is the party member who would die. Root is the host of the run.
+underdeep_party_death_effect = {
+	if = {
+		limit = { root = { has_activity_intent = underdeep_home_intent } }
+		random_list = {
+			50 = {
+				increase_wounds_effect = { REASON = fight }
+			}
+			50 = {
+				root = { involved_activity = { change_variable = { name = underdeep_party_deaths add = 1 } } }
+				death = { death_reason = death_vanished }
+			}
+		}
+	}
+	else = {
+		root = { involved_activity = { change_variable = { name = underdeep_party_deaths add = 1 } } }
+		death = { death_reason = death_vanished }
+	}
+}
+
+underdeep_intent_finish_effect = {
+	if = {
+		limit = { has_activity_intent = underdeep_plunder_intent }
+		complete_activity_intent = yes
+	}
+	else_if = {
+		limit = { has_activity_intent = underdeep_renown_intent }
+		if = {
+			limit = { involved_activity.var:underdeep_floor >= underdeep_max_floor }
+			complete_activity_intent = yes
+		}
+	}
+	else_if = {
+		limit = { has_activity_intent = underdeep_lore_intent }
+		add_learning_lifestyle_xp = 300
+		complete_activity_intent = yes
+	}
+	else_if = {
+		limit = { has_activity_intent = underdeep_home_intent }
+		if = {
+			limit = { involved_activity = { var:underdeep_party_deaths <= 0 } }
+			involved_activity = {
+				every_attending_character = {
+					limit = { NOT = { this = root } }
+					add_opinion = { target = root modifier = underdeep_opinion_good }
+				}
+			}
+			complete_activity_intent = yes
+		}
+	}
+	else_if = {
+		limit = { has_activity_intent = underdeep_cleanse_intent }
+		add_piety = 200
+		complete_activity_intent = yes
+	}
+	else_if = {
+		limit = { has_activity_intent = underdeep_commune_intent }
+		add_piety = 200
+		add_dread = 30
+		complete_activity_intent = yes
+	}
+	involved_activity = {
+		every_attending_character = {
+			limit = { has_activity_intent = underdeep_spoils_intent }
+			add_gold = 25
+			complete_activity_intent = yes
+		}
+		every_attending_character = {
+			limit = { has_activity_intent = underdeep_prove_intent }
+			add_prestige = 100
+			complete_activity_intent = yes
+		}
+	}
+}
+
+# ---- Delver experience ----
+
+underdeep_delver_start_effect = {
+	save_scope_value_as = { name = ud_level value = underdeep_delver_level }
+	involved_activity = {
+		set_variable = { name = underdeep_delver_level value = scope:ud_level }
+		change_variable = { name = underdeep_boss_odds add = { value = scope:ud_level multiply = 15 } }
+	}
+}
+
+underdeep_boss_wound_effect = {
+	if = {
+		limit = { has_trait_xp = { trait = delver value >= 50 } }
+		custom_tooltip = underdeep_tt_delver_survives
+	}
+	else = {
+		underdeep_wound_effect = yes
+	}
+}
+
+underdeep_setup_junction_effect = {
+	hidden_effect = {
+		involved_activity = {
+			remove_variable = underdeep_show_treasure
+			remove_variable = underdeep_show_danger
+			remove_variable = underdeep_show_whispers
+			remove_variable = underdeep_show_rest
+			random_list = {
+				5 = { set_variable = { name = underdeep_show_treasure value = yes } set_variable = { name = underdeep_show_danger value = yes } }
+				5 = { set_variable = { name = underdeep_show_treasure value = yes } set_variable = { name = underdeep_show_whispers value = yes } }
+				5 = { set_variable = { name = underdeep_show_treasure value = yes } set_variable = { name = underdeep_show_rest value = yes } }
+				5 = { set_variable = { name = underdeep_show_danger value = yes } set_variable = { name = underdeep_show_whispers value = yes } }
+				5 = { set_variable = { name = underdeep_show_danger value = yes } set_variable = { name = underdeep_show_rest value = yes } }
+				5 = { set_variable = { name = underdeep_show_whispers value = yes } set_variable = { name = underdeep_show_rest value = yes } }
+				11 = { set_variable = { name = underdeep_show_treasure value = yes } set_variable = { name = underdeep_show_danger value = yes } set_variable = { name = underdeep_show_whispers value = yes } }
+				11 = { set_variable = { name = underdeep_show_treasure value = yes } set_variable = { name = underdeep_show_danger value = yes } set_variable = { name = underdeep_show_rest value = yes } }
+				11 = { set_variable = { name = underdeep_show_treasure value = yes } set_variable = { name = underdeep_show_whispers value = yes } set_variable = { name = underdeep_show_rest value = yes } }
+				11 = { set_variable = { name = underdeep_show_danger value = yes } set_variable = { name = underdeep_show_whispers value = yes } set_variable = { name = underdeep_show_rest value = yes } }
+				25 = { set_variable = { name = underdeep_show_treasure value = yes } set_variable = { name = underdeep_show_danger value = yes } set_variable = { name = underdeep_show_whispers value = yes } set_variable = { name = underdeep_show_rest value = yes } }
+			}
+			random_list = {
+				10 = { set_variable = { name = underdeep_hint_treasure value = 1 } }
+				10 = { set_variable = { name = underdeep_hint_treasure value = 2 } }
+				10 = { set_variable = { name = underdeep_hint_treasure value = 3 } }
+				10 = { set_variable = { name = underdeep_hint_treasure value = 4 } }
+				10 = { set_variable = { name = underdeep_hint_treasure value = 5 } }
+				10 = { set_variable = { name = underdeep_hint_treasure value = 6 } }
+			}
+			random_list = {
+				10 = { set_variable = { name = underdeep_hint_danger value = 1 } }
+				10 = { set_variable = { name = underdeep_hint_danger value = 2 } }
+				10 = { set_variable = { name = underdeep_hint_danger value = 3 } }
+				10 = { set_variable = { name = underdeep_hint_danger value = 4 } }
+				10 = { set_variable = { name = underdeep_hint_danger value = 5 } }
+				10 = { set_variable = { name = underdeep_hint_danger value = 6 } }
+			}
+			random_list = {
+				10 = { set_variable = { name = underdeep_hint_whispers value = 1 } }
+				10 = { set_variable = { name = underdeep_hint_whispers value = 2 } }
+				10 = { set_variable = { name = underdeep_hint_whispers value = 3 } }
+				10 = { set_variable = { name = underdeep_hint_whispers value = 4 } }
+				10 = { set_variable = { name = underdeep_hint_whispers value = 5 } }
+				10 = { set_variable = { name = underdeep_hint_whispers value = 6 } }
+			}
+			random_list = {
+				10 = { set_variable = { name = underdeep_hint_rest value = 1 } }
+				10 = { set_variable = { name = underdeep_hint_rest value = 2 } }
+				10 = { set_variable = { name = underdeep_hint_rest value = 3 } }
+				10 = { set_variable = { name = underdeep_hint_rest value = 4 } }
+				10 = { set_variable = { name = underdeep_hint_rest value = 5 } }
+				10 = { set_variable = { name = underdeep_hint_rest value = 6 } }
+			}
+			remove_variable = underdeep_conqueror_door
+			random = {
+				chance = 25
+				set_variable = { name = underdeep_conqueror_door value = yes }
+			}
+		}
+	}
+}
+
+# A pit drops the company into a random room, more often a rich one.
+underdeep_pit_room_effect = {
+	hidden_effect = {
+		random_list = {
+			50 = { underdeep_enter_room_effect = { KIND = treasure } }
+			30 = { underdeep_enter_room_effect = { KIND = danger } }
+			20 = { underdeep_enter_room_effect = { KIND = whispers } }
+		}
+	}
+}
+
+# ---- Fear, courage and lasting harm ----
+
+# A fright the whole company shares. The others take about half.
+underdeep_company_stress_effect = {
+	add_stress = $AMOUNT$
+	custom_tooltip = underdeep_tt_company_stress
+	hidden_effect = {
+		involved_activity = {
+			every_attending_character = {
+				limit = { NOT = { this = root } }
+				add_stress = $HALF$
+			}
+		}
+	}
+}
+
+# Turning away costs the brave more and costs cowards nothing.
+underdeep_retreat_stress_effect = {
+	if = {
+		limit = { has_trait = craven }
+		custom_tooltip = underdeep_tt_craven_spared
+	}
+	else_if = {
+		limit = { has_trait = brave }
+		add_stress = $BRAVE$
+		custom_tooltip = underdeep_tt_brave_shamed
+	}
+	else = {
+		add_stress = $AMOUNT$
+	}
+	custom_tooltip = underdeep_tt_company_stress
+	hidden_effect = {
+		involved_activity = {
+			every_attending_character = {
+				limit = { NOT = { this = root } }
+				add_stress = $HALF$
+			}
+		}
+	}
+}
+
+underdeep_retreat_free_effect = {
+	if = {
+		limit = { has_trait = brave }
+		add_stress = $BRAVE$
+		custom_tooltip = underdeep_tt_brave_shamed
+	}
+}
+
+underdeep_company_opinion_effect = {
+	custom_tooltip = underdeep_tt_company_opinion_$MOD$
+	hidden_effect = {
+		involved_activity = {
+			every_attending_character = {
+				limit = { NOT = { this = root } }
+				add_opinion = { target = root modifier = underdeep_opinion_$MOD$ }
+			}
+		}
+	}
+}
+
+# One failed check in ten leaves a mark. The tooltip only hints at it.
+underdeep_crit_mind_effect = {
+	if = {
+		limit = { underdeep_mind_warded = yes }
+		custom_tooltip = underdeep_tt_crit_mind_warded
+	}
+	else = {
+		custom_tooltip = underdeep_tt_crit_mind
+		hidden_effect = {
+			random = {
+				chance = 10
+				random_list = {
+					60 = {
+						trigger = { NOT = { has_trait = lunatic_1 } NOT = { has_trait = lunatic_genetic } }
+						add_trait = lunatic_1
+					}
+					40 = {
+						trigger = { NOT = { has_trait = possessed_1 } NOT = { has_trait = possessed_genetic } }
+						add_trait = possessed_1
+					}
+				}
+				underdeep_chronicle_effect = { LINE = crit_mind }
+			}
+		}
+	}
+}
+
+underdeep_crit_body_effect = {
+	custom_tooltip = underdeep_tt_crit_body
+	hidden_effect = {
+		random = {
+			chance = 10
+			random_list = {
+				30 = {
+					trigger = { NOT = { has_trait = maimed } }
+					add_trait = maimed
+				}
+				30 = {
+					trigger = { NOT = { has_trait = one_eyed } NOT = { has_trait = blind } }
+					add_trait = one_eyed
+				}
+				20 = {
+					trigger = { NOT = { has_trait = one_legged } }
+					add_trait = one_legged
+				}
+				20 = {
+					trigger = { NOT = { has_trait = disfigured } }
+					add_trait = disfigured
+				}
+			}
+			underdeep_chronicle_effect = { LINE = crit_body }
+		}
+	}
+}
+
+# ---- Rewards ----
+
+# Extra Delver experience, paid at the end of the run. Not shown once the trait is at its maximum.
+underdeep_delver_xp_effect = {
+	if = {
+		limit = { NOT = { has_trait_xp = { trait = delver value >= 100 } } }
+		custom_tooltip = underdeep_tt_delver_xp
+		hidden_effect = {
+			involved_activity = {
+				if = {
+					limit = { NOT = { has_variable = underdeep_bonus_xp } }
+					set_variable = { name = underdeep_bonus_xp value = 0 }
+				}
+				change_variable = { name = underdeep_bonus_xp add = $AMOUNT$ }
+			}
+		}
+	}
+}
+
+# Adds to a running total shown on the conclusion screen.
+underdeep_tally_effect = {
+	hidden_effect = {
+		involved_activity = {
+			if = {
+				limit = { NOT = { has_variable = $NAME$ } }
+				set_variable = { name = $NAME$ value = 0 }
+			}
+			change_variable = { name = $NAME$ add = $AMOUNT$ }
+		}
+	}
+}
+
+# Trait experience. Nothing happens, and nothing is shown, once the trait is at its maximum.
+underdeep_trait_xp_effect = {
+	if = {
+		limit = { NOT = { has_trait_xp = { trait = $TRAIT$ value >= 100 } } }
+		add_trait_xp = { trait = $TRAIT$ value = $VALUE$ }
+		underdeep_tally_effect = { NAME = underdeep_xp_$TRAIT$ AMOUNT = $VALUE$ }
+	}
+}
+
+underdeep_trait_xp_track_effect = {
+	if = {
+		limit = { NOT = { has_trait_xp = { trait = $TRAIT$ track = $TRACK$ value >= 100 } } }
+		add_trait_xp = { trait = $TRAIT$ track = $TRACK$ value = $VALUE$ }
+		underdeep_tally_effect = { NAME = underdeep_xp_$TRAIT$ AMOUNT = $VALUE$ }
+	}
+}
+
+underdeep_lifestyle_xp_effect = {
+	add_$TREE$_lifestyle_xp = $AMOUNT$
+	underdeep_tally_effect = { NAME = underdeep_life_$TREE$ AMOUNT = $AMOUNT$ }
+}
+
+# A lifestyle trait found on a check: 25% chance to gain it, or its experience if already held.
+underdeep_trait_find_effect = {
+	if = {
+		limit = { has_trait = $TRAIT$ }
+		underdeep_trait_xp_effect = { TRAIT = $TRAIT$ VALUE = $VALUE$ }
+	}
+	else = {
+		random = {
+			chance = 25
+			add_trait = $TRAIT$
+			hidden_effect = { involved_activity = { set_variable = { name = underdeep_new_$TRAIT$ value = yes } } }
+		}
+	}
+}
+
+underdeep_trait_find_track_effect = {
+	if = {
+		limit = { has_trait = $TRAIT$ }
+		underdeep_trait_xp_track_effect = { TRAIT = $TRAIT$ TRACK = $TRACK$ VALUE = $VALUE$ }
+	}
+	else = {
+		random = {
+			chance = 25
+			add_trait = $TRAIT$
+			hidden_effect = { involved_activity = { set_variable = { name = underdeep_new_$TRAIT$ value = yes } } }
+		}
+	}
+}
+
+# Scopes are delver and delver_two.
+underdeep_learn_secret_effect = {
+	custom_tooltip = underdeep_tt_learn_secret
+	hidden_effect = {
+		if = {
+			limit = { scope:delver = { any_secret = { NOT = { is_known_by = root } } } }
+			scope:delver = { random_secret = { limit = { NOT = { is_known_by = root } } reveal_to = root } }
+		}
+		else_if = {
+			limit = { scope:delver_two = { any_secret = { NOT = { is_known_by = root } } } }
+			scope:delver_two = { random_secret = { limit = { NOT = { is_known_by = root } } reveal_to = root } }
+		}
+	}
+}
+
+underdeep_star_clasp_effect = {
+	save_scope_as = owner
+	set_artifact_rarity_$RARITY$ = yes
+	create_artifact = {
+		name = underdeep_star_clasp_name
+		description = underdeep_star_clasp_desc
+		type = brooch
+		visuals = brooch
+		wealth = scope:wealth
+		quality = scope:quality
+		modifier = $MOD$
+		history = {
+			type = discovered
+			actor = root
+			recipient = root
+			location = root.location
+		}
+		save_scope_as = newly_created_artifact
+	}
+}
+
+underdeep_give_metal_effect = {
+	create_metal_gem_artifact = { METAL = $METAL$ MODIFIER = $MOD$ }
+	set_metal_gem_variable = { METAL = $METAL$ }
+}
+
+underdeep_give_gem_effect = {
+	random_list = {
+		20 = { underdeep_give_metal_effect = { METAL = ruby MOD = artifact_monthly_minor_prestige_2_modifier } }
+		20 = { underdeep_give_metal_effect = { METAL = sapphire MOD = artifact_monthly_minor_prestige_2_modifier } }
+		20 = { underdeep_give_metal_effect = { METAL = emerald MOD = artifact_monthly_minor_prestige_2_modifier } }
+		15 = { underdeep_give_metal_effect = { METAL = diamond MOD = artifact_monthly_minor_prestige_3_modifier } }
+		15 = { underdeep_give_metal_effect = { METAL = amethyst MOD = artifact_monthly_minor_prestige_2_modifier } }
+		10 = { underdeep_give_metal_effect = { METAL = onyx MOD = artifact_monthly_minor_prestige_2_modifier } }
+	}
+}
+
+underdeep_magma_loot_effect = {
+	custom_tooltip = underdeep_tt_gems
+	hidden_effect = {
+		underdeep_give_gem_effect = yes
+		underdeep_give_gem_effect = yes
+		random_list = {
+			60 = { underdeep_give_metal_effect = { METAL = silver MOD = artifact_monthly_minor_prestige_2_modifier } }
+			40 = { underdeep_give_metal_effect = { METAL = gold MOD = artifact_monthly_minor_prestige_2_modifier } }
+		}
+		random = {
+			chance = 30
+			underdeep_give_metal_effect = { METAL = mithril MOD = artifact_monthly_minor_prestige_3_modifier }
+		}
+	}
+}
+
+underdeep_doppel_risk_effect = {
+	custom_tooltip = underdeep_tt_doppel_warning
+	hidden_effect = {
+		random = {
+			chance = 5
+			involved_activity = { set_variable = { name = underdeep_doppel value = scope:ud_copy } }
+		}
+	}
+}
+
+underdeep_glory_opinion_effect = {
+	custom_tooltip = underdeep_tt_stance_opinion
+	hidden_effect = {
+		involved_activity = {
+			every_attending_character = {
+				limit = {
+					NOT = { this = root }
+					has_vassal_stance = glory_hound
+				}
+				add_opinion = { target = root modifier = underdeep_opinion_good }
+			}
+		}
+	}
+}
+
+# ---- Scene: fills the portrait slots with the rest of the company ----
+
+underdeep_scene_cast_effect = {
+	involved_activity = {
+		random_attending_character = {
+			limit = { NOT = { this = root } location = root.location }
+			save_scope_as = ud_cast_1
+		}
+		random_attending_character = {
+			limit = {
+				exists = scope:ud_cast_1
+				NOT = { this = root } NOT = { this = scope:ud_cast_1 } location = root.location
+			}
+			save_scope_as = ud_cast_2
+		}
+		random_attending_character = {
+			limit = {
+				exists = scope:ud_cast_2
+				NOT = { this = root } NOT = { this = scope:ud_cast_1 } NOT = { this = scope:ud_cast_2 } location = root.location
+			}
+			save_scope_as = ud_cast_3
+		}
+		random_attending_character = {
+			limit = {
+				exists = scope:ud_cast_3
+				NOT = { this = root } NOT = { this = scope:ud_cast_1 } NOT = { this = scope:ud_cast_2 } NOT = { this = scope:ud_cast_3 } location = root.location
+			}
+			save_scope_as = ud_cast_4
+		}
+	}
+}
+
+underdeep_scene_cast_party_effect = {
+	involved_activity = {
+		random_attending_character = {
+			limit = { NOT = { this = root } NOT = { this = scope:delver } NOT = { this = scope:delver_two } location = root.location }
+			save_scope_as = ud_cast_2
+		}
+		random_attending_character = {
+			limit = {
+				exists = scope:ud_cast_2
+				NOT = { this = root } NOT = { this = scope:delver } NOT = { this = scope:delver_two } NOT = { this = scope:ud_cast_2 } location = root.location
+			}
+			save_scope_as = ud_cast_3
+		}
+		random_attending_character = {
+			limit = {
+				exists = scope:ud_cast_3
+				NOT = { this = root } NOT = { this = scope:delver } NOT = { this = scope:delver_two } NOT = { this = scope:ud_cast_2 } NOT = { this = scope:ud_cast_3 } location = root.location
+			}
+			save_scope_as = ud_cast_4
+		}
+	}
+}
+
+# ---- Record of the run. Keeps the first ten moments. ----
+
+underdeep_chronicle_effect = {
+	hidden_effect = {
+		involved_activity = {
+			if = {
+				limit = { NOT = { has_variable = underdeep_chron_n } }
+				set_variable = { name = underdeep_chron_n value = 0 }
+			}
+			change_variable = { name = underdeep_chron_n add = 1 }
+				if = {
+					limit = { var:underdeep_chron_n ?= 1 }
+					set_variable = { name = underdeep_chron_1 value = flag:ud_chr_$LINE$ }
+				}
+				else_if = {
+					limit = { var:underdeep_chron_n ?= 2 }
+					set_variable = { name = underdeep_chron_2 value = flag:ud_chr_$LINE$ }
+				}
+				else_if = {
+					limit = { var:underdeep_chron_n ?= 3 }
+					set_variable = { name = underdeep_chron_3 value = flag:ud_chr_$LINE$ }
+				}
+				else_if = {
+					limit = { var:underdeep_chron_n ?= 4 }
+					set_variable = { name = underdeep_chron_4 value = flag:ud_chr_$LINE$ }
+				}
+				else_if = {
+					limit = { var:underdeep_chron_n ?= 5 }
+					set_variable = { name = underdeep_chron_5 value = flag:ud_chr_$LINE$ }
+				}
+				else_if = {
+					limit = { var:underdeep_chron_n ?= 6 }
+					set_variable = { name = underdeep_chron_6 value = flag:ud_chr_$LINE$ }
+				}
+				else_if = {
+					limit = { var:underdeep_chron_n ?= 7 }
+					set_variable = { name = underdeep_chron_7 value = flag:ud_chr_$LINE$ }
+				}
+				else_if = {
+					limit = { var:underdeep_chron_n ?= 8 }
+					set_variable = { name = underdeep_chron_8 value = flag:ud_chr_$LINE$ }
+				}
+				else_if = {
+					limit = { var:underdeep_chron_n ?= 9 }
+					set_variable = { name = underdeep_chron_9 value = flag:ud_chr_$LINE$ }
+				}
+				else_if = {
+					limit = { var:underdeep_chron_n ?= 10 }
+					set_variable = { name = underdeep_chron_10 value = flag:ud_chr_$LINE$ }
+				}
+			add_activity_log_entry = {
+				key = underdeep_chr_$LINE$
+				tags = { good }
+				score = 25
+				character = root
+			}
+		}
+	}
+}
+
+underdeep_clean_blade_effect = {
+	set_artifact_rarity_masterwork = yes
+	create_artifact = {
+		name = underdeep_clean_blade_name
+		description = underdeep_clean_blade_desc
+		type = sword
+		visuals = sword
+		wealth = scope:wealth
+		quality = scope:quality
+		modifier = underdeep_clean_blade_modifier
+		history = {
+			type = discovered
+			actor = root
+			recipient = root
+			location = root.location
+		}
+		save_scope_as = newly_created_artifact
+	}
+}
+
+underdeep_heal_wound_effect = {
+	if = {
+		limit = { has_trait = wounded_3 }
+		remove_trait = wounded_3
+		add_trait = wounded_2
+	}
+	else_if = {
+		limit = { has_trait = wounded_2 }
+		remove_trait = wounded_2
+		add_trait = wounded_1
+	}
+	else_if = {
+		limit = { has_trait = wounded_1 }
+		remove_trait = wounded_1
+	}
+}
+
+underdeep_trait_or_prestige_effect = {
+	if = {
+		limit = { has_trait = $TRAIT$ }
+		add_prestige = 100
+	}
+	else = {
+		add_trait = $TRAIT$
+		hidden_effect = { involved_activity = { set_variable = { name = underdeep_new_$TRAIT$ value = yes } } }
+	}
+}
+
+underdeep_company_fear_effect = {
+	custom_tooltip = underdeep_tt_company_fear
+	hidden_effect = {
+		involved_activity = {
+			every_attending_character = {
+				limit = { NOT = { this = root } }
+				add_stress = $AMOUNT$
+			}
+		}
+	}
+}
+
+underdeep_random_member_wound_effect = {
+	custom_tooltip = underdeep_tt_member_wounded
+	hidden_effect = {
+		involved_activity = {
+			random_attending_character = {
+				limit = { NOT = { this = root } }
+				increase_wounds_effect = { REASON = fight }
+			}
+		}
+	}
+}
+
+# Two of the company fight it out. Not to the death.
+underdeep_party_duel_effect = {
+	custom_tooltip = underdeep_tt_party_duel
+	random_list = {
+		10 = {
+			modifier = { add = scope:delver.prowess }
+			desc = underdeep_party_duel_first
+			scope:delver = { add_prestige = 50 }
+			scope:delver_two = { increase_wounds_no_death_effect = { REASON = duel } }
+		}
+		10 = {
+			modifier = { add = scope:delver_two.prowess }
+			desc = underdeep_party_duel_second
+			scope:delver_two = { add_prestige = 50 }
+			scope:delver = { increase_wounds_no_death_effect = { REASON = duel } }
+		}
+	}
+	underdeep_chronicle_effect = { LINE = party_duel }
+	underdeep_feud_effect = { A = scope:delver B = scope:delver_two MAJOR = no }
+}
+
+# A and B grow closer. Friends if B already liked A or MAJOR, best friends if already friends and MAJOR.
+underdeep_bond_effect = {
+	$A$ = {
+		if = {
+			limit = {
+				always = $MAJOR$
+				has_relation_friend = $B$
+				can_set_relation_best_friend_trigger = { CHARACTER = $B$ }
+			}
+			set_relation_best_friend = { target = $B$ reason = underdeep_relation_bond }
+		}
+		else_if = {
+			limit = {
+				can_set_relation_friend_trigger = { CHARACTER = $B$ }
+				OR = {
+					always = $MAJOR$
+					$B$ = { opinion = { target = $A$ value >= 30 } }
+				}
+			}
+			set_relation_friend = { target = $B$ reason = underdeep_relation_bond }
+		}
+		else = {
+			add_opinion = { target = $B$ modifier = underdeep_opinion_good }
+			$B$ = { add_opinion = { target = $A$ modifier = underdeep_opinion_good } }
+		}
+	}
+}
+
+# A and B fall out. Rivals if B already disliked A or MAJOR, nemeses if already rivals and MAJOR.
+underdeep_feud_effect = {
+	$A$ = {
+		if = {
+			limit = {
+				always = $MAJOR$
+				has_relation_rival = $B$
+				can_set_relation_nemesis_trigger = { CHARACTER = $B$ }
+			}
+			set_relation_nemesis = { target = $B$ reason = underdeep_relation_feud }
+		}
+		else_if = {
+			limit = {
+				can_set_relation_rival_trigger = { CHARACTER = $B$ }
+				OR = {
+					always = $MAJOR$
+					$B$ = { opinion = { target = $A$ value <= -30 } }
+				}
+			}
+			set_relation_rival = { target = $B$ reason = underdeep_relation_feud }
+		}
+		else = {
+			add_opinion = { target = $B$ modifier = underdeep_opinion_bad }
+			$B$ = { add_opinion = { target = $A$ modifier = underdeep_opinion_bad } }
+		}
+	}
+}
+
+# An old rivalry is laid down. If there was none, they simply think better of each other.
+underdeep_end_feud_effect = {
+	$A$ = {
+		if = {
+			limit = { has_relation_rival = $B$ }
+			remove_relation_rival = $B$
+		}
+		else = {
+			add_opinion = { target = $B$ modifier = underdeep_opinion_good }
+			$B$ = { add_opinion = { target = $A$ modifier = underdeep_opinion_good } }
+		}
+	}
+}
+
+# The host fights the boss alone in a real single combat. Not to the death.
+# Win: the boss is dead and the run goes to the WIN event. Lose: wounded, and the company fights on (FIGHT event).
+# The boss's prowess is its own (underdeep_duel_value_*), lowered a little by the run's preparation.
+underdeep_boss_duel_effect = {
+	custom_tooltip = underdeep_tt_single_combat_$BOSS$
+	save_scope_value_as = { name = ud_duel_win value = event_id:underdeep.$WIN$ }
+	save_scope_value_as = { name = ud_duel_fight value = event_id:underdeep.$FIGHT$ }
+	save_scope_value_as = { name = ud_boss_prowess value = underdeep_duel_value_$BOSS$ }
+	hidden_effect = {
+		underdeep_boss_duelist_$BOSS$_effect = yes
+		scope:ud_boss = { add_prowess_skill = scope:ud_boss_prowess }
+		# The duel is set up in its own event: tooltips would otherwise check it before the boss exists.
+		trigger_event = underdeep.6403
+	}
+}
+
+# The Pit-Warlord: an orc of Angband, kept at his post since the First Age.
+underdeep_boss_duelist_6001_effect = {
+	create_character = {
+		name = "Ghashdur"
+		age = 45
+		gender_female_chance = 0
+		culture = culture:angband_orcs
+		faith = faith:dark_worship
+		dynasty = none
+		location = root.location
+		prowess = 0
+		martial = 12
+		trait = wrathful
+		trait = education_martial_3
+		save_scope_as = ud_boss
+	}
+}
+
+# The Ice-Troll: a snow troll grown into the cavern ice.
+underdeep_boss_duelist_6002_effect = {
+	create_character = {
+		name = "Hrothgrim"
+		age = 45
+		gender_female_chance = 0
+		culture = culture:snow_troll
+		faith = faith:dark_worship
+		dynasty = none
+		location = root.location
+		prowess = 0
+		martial = 6
+		trait = wrathful
+		save_scope_as = ud_boss
+	}
+}
+
+# The shapes in the ice follow the host home as Special Soldiers.
+# Frozen Dead and Rime Wraiths come from The Frozen Waste. Like the Army of the Dead, they stand down on succession and use no supply.
+underdeep_frozen_dead_effect = {
+	if = {
+		limit = { exists = capital_province }
+		capital_province = { save_scope_as = ud_dead_muster }
+	}
+	else = {
+		location = { save_scope_as = ud_dead_muster }
+	}
+	random_list = {
+		75 = {
+			desc = underdeep_dead_only
+			spawn_army = {
+				men_at_arms = { type = frozen_dead stacks = 2 }
+				location = scope:ud_dead_muster
+				inheritable = no
+				uses_supply = no
+				name = underdeep_army_frozen_dead
+			}
+		}
+		25 = {
+			desc = underdeep_dead_and_wraiths
+			spawn_army = {
+				men_at_arms = { type = frozen_dead stacks = 2 }
+				men_at_arms = { type = rime_wraiths stacks = 1 }
+				location = scope:ud_dead_muster
+				inheritable = no
+				uses_supply = no
+				name = underdeep_army_frozen_dead
+			}
+		}
+	}
+}
+
+# A trick at the boss worked. Rarely the boss falls at once; otherwise it is weaker when the host faces it alone.
+underdeep_boss_trick_effect = {
+	random_list = {
+		3 = {
+			desc = underdeep_trick_kill
+			hidden_effect = { trigger_event = { id = underdeep.$WIN$ days = 1 } }
+		}
+		97 = {
+			desc = underdeep_trick_weakens
+			custom_tooltip = underdeep_tt_trick_weakens
+			hidden_effect = { involved_activity = { set_variable = { name = underdeep_trick_bonus value = 4 } } }
+			underdeep_boss_duel_effect = { BOSS = $BOSS$ WIN = $WIN$ FIGHT = $FIGHT$ }
+		}
+	}
+}

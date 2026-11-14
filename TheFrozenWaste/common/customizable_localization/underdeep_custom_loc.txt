@@ -1,0 +1,36 @@
+﻿# What a character calls Morgoth.
+# Use in text as [ROOT.Char.Custom('underdeep_enemy_name')]
+underdeep_enemy_name = {
+	type = character
+
+	text = {
+		trigger = {
+			OR = {
+				is_orc = yes
+				is_troll = yes
+			}
+			NOT = { faith_is_good = yes }
+		}
+		localization_key = underdeep_enemy_first_master
+	}
+
+	text = {
+		trigger = { faith_is_evil = yes }
+		localization_key = underdeep_enemy_lord_of_the_dark
+	}
+
+	text = {
+		trigger = {
+			OR = {
+				is_elf = yes
+				is_dwarf = yes
+			}
+		}
+		localization_key = underdeep_enemy_morgoth
+	}
+
+	text = {
+		trigger = { always = yes }
+		localization_key = underdeep_enemy_dark_lord_of_old
+	}
+}

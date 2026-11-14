@@ -1,0 +1,244 @@
+﻿underdeep_rooms_per_floor = 3
+
+# The cost of setting out: 10% more than a mining expedition for the same ruler with average options.
+# Uses the mining expedition's own values: its base cost scaled by era, plus its two option menus
+# (surveyors and party size) at their average of poor, normal and good.
+# A bigger party costs more on top of this (see the party size options). Landless adventurers pay a quarter.
+underdeep_activity_cost = {
+	value = mining_activity_base_cost
+	multiply = activity_cost_scale_by_era
+	add = {
+		value = mining_poor_option_cost
+		add = mining_normal_option_cost
+		add = mining_good_option_cost
+		multiply = 2 # two option menus
+		divide = 3 # the average of the three levels
+	}
+	multiply = 1.1
+	if = {
+		limit = { is_landless_adventurer = yes }
+		multiply = 0.25
+	}
+}
+
+# Two years between delves, unless the last one turned back at the entrance.
+underdeep_cooldown_days = {
+	value = 730
+	if = {
+		limit = { has_variable = underdeep_cooldown_waived }
+		value = 1
+	}
+}
+
+# Every gold find in the delve is multiplied by this (not The Two Cups).
+underdeep_loot_mult = 3
+
+# Deepest floor the host can reach. The delve has one floor, the Upper Galleries.
+underdeep_max_floor = 1
+
+# How hard a skill check is: 10 plus 4 for each floor, so 14 in the Upper Galleries.
+underdeep_check_value = {
+	value = 10
+	add = {
+		value = involved_activity.var:underdeep_floor
+		multiply = 4
+	}
+}
+
+underdeep_run_xp = {
+	value = involved_activity.var:underdeep_floor
+	multiply = 8
+	add = 4
+	if = {
+		limit = { involved_activity = { has_variable = underdeep_bonus_xp } }
+		add = involved_activity.var:underdeep_bonus_xp
+	}
+}
+
+underdeep_run_prestige = {
+	value = involved_activity.var:underdeep_floor
+	multiply = 50
+}
+
+underdeep_delver_level = {
+	value = 0
+	if = {
+		limit = { has_trait = delver }
+		add = 1
+	}
+	if = {
+		limit = { has_trait_xp = { trait = delver value >= 50 } }
+		add = 1
+	}
+	if = {
+		limit = { has_trait_xp = { trait = delver value >= 100 } }
+		add = 1
+	}
+}
+
+# Prestige for the whole run, shown as one line at the end.
+underdeep_total_prestige = {
+	value = underdeep_run_prestige
+	if = {
+		limit = {
+			has_activity_intent = underdeep_renown_intent
+			involved_activity.var:underdeep_floor >= underdeep_max_floor
+		}
+		add = 200
+	}
+	if = {
+		limit = {
+			has_activity_intent = underdeep_home_intent
+			involved_activity = { var:underdeep_party_deaths <= 0 }
+		}
+		add = 100
+	}
+}
+
+# Crafting know-how shared by both ways of judging the star clasp. Higher means easier.
+underdeep_clasp_craft_bonus = {
+	value = 0
+	if = {
+		limit = { has_trait = lifestyle_artifact_crafting }
+		add = 2
+		if = {
+			limit = { has_trait_xp = { trait = lifestyle_artifact_crafting track = jewel_smith value >= 50 } }
+			add = 2
+		}
+		if = {
+			limit = { has_trait_xp = { trait = lifestyle_artifact_crafting track = jewel_smith value >= 100 } }
+			add = 2
+		}
+	}
+	if = {
+		limit = { has_trait = artificer }
+		add = 4
+	}
+}
+
+underdeep_clasp_keep_value = {
+	value = underdeep_check_value
+	subtract = underdeep_clasp_craft_bonus
+	if = {
+		limit = { OR = { is_elf = yes is_maiar = yes } }
+		add = -4
+	}
+}
+
+underdeep_clasp_sell_value = {
+	value = underdeep_check_value
+	subtract = underdeep_clasp_craft_bonus
+}
+
+# Spotting the wrong one in the file is harder with poor eyes or a poor mind.
+underdeep_count_value = {
+	value = underdeep_check_value
+	if = {
+		limit = { has_trait = blind }
+		add = 5
+	}
+	if = {
+		limit = { has_trait = infirm }
+		add = 3
+	}
+	if = {
+		limit = { has_trait = one_eyed }
+		add = 2
+	}
+	if = {
+		limit = { has_trait = incapable }
+		add = 8
+	}
+}
+
+# The copy is never stronger than the one facing it.
+underdeep_copy_value = {
+	value = prowess
+	if = {
+		limit = { involved_activity.var:underdeep_copy.prowess < prowess }
+		value = involved_activity.var:underdeep_copy.prowess
+	}
+}
+
+underdeep_walkway_value = {
+	value = underdeep_check_value
+	if = {
+		limit = { has_trait = athletic }
+		add = -5
+	}
+}
+
+# Starts at 2500 and grows with income, about five years of it.
+underdeep_fortune_gold = {
+	value = monthly_character_income
+	multiply = 60
+	min = 2500
+}
+
+# The fight with a boss. Every 5 points of boss odds lowers what must be beaten by 1.
+underdeep_fight_ease_total = {
+	value = involved_activity.var:underdeep_boss_odds
+	divide = 5
+}
+
+underdeep_fight_value = {
+	value = 18
+	subtract = underdeep_fight_ease_total
+	min = 4
+}
+
+underdeep_fight_ease_delver = {
+	value = 0
+	if = {
+		limit = { involved_activity = { has_variable = underdeep_delver_level } }
+		add = {
+			value = involved_activity.var:underdeep_delver_level
+			multiply = 3
+		}
+	}
+}
+
+underdeep_fight_ease_cleanse = {
+	value = 0
+	if = {
+		limit = { has_activity_intent = underdeep_cleanse_intent }
+		add = 2
+	}
+}
+
+underdeep_fight_ease_prep = {
+	value = underdeep_fight_ease_total
+	subtract = underdeep_fight_ease_delver
+	subtract = underdeep_fight_ease_cleanse
+}
+
+# A boss's own prowess when the host faces it alone. Only what the company did on the way lowers it, by up to 5.
+# Delver experience does not: it helps in the company fight instead.
+underdeep_duel_ease = {
+	value = underdeep_fight_ease_prep
+	min = 0
+	max = 5
+}
+
+# A trick at the boss that worked (underdeep_boss_trick_effect) weakens it further.
+underdeep_duel_trick = {
+	value = 0
+	if = {
+		limit = { involved_activity = { has_variable = underdeep_trick_bonus } }
+		add = involved_activity.var:underdeep_trick_bonus
+	}
+}
+
+# The Pit-Warlord
+underdeep_duel_value_6001 = {
+	value = 20
+	subtract = underdeep_duel_ease
+	subtract = underdeep_duel_trick
+}
+
+# The Ice-Troll
+underdeep_duel_value_6002 = {
+	value = 28
+	subtract = underdeep_duel_ease
+	subtract = underdeep_duel_trick
+}

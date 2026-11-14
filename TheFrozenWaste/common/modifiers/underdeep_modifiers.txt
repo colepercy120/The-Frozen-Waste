@@ -1,0 +1,18 @@
+﻿# Stats for the star clasp found in A Thing Out of Place.
+underdeep_star_clasp_green_modifier = {
+	diplomacy = 1
+	monthly_prestige = 0.1
+	icon = prestige_positive
+}
+
+underdeep_star_clasp_blue_modifier = {
+	diplomacy = 2
+	learning = 1
+	monthly_prestige = 0.25
+	icon = prestige_positive
+}
+
+underdeep_clean_blade_modifier = {
+	prowess = 2
+	icon = prowess_positive
+}

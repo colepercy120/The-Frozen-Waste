@@ -1,0 +1,421 @@
+﻿# Dungeon Delver. The run itself is driven by the events in events/activities/underdeep.
+activity_underdeep_delve = {
+	is_shown = {
+		is_ai = no # Player only for now
+		is_playable_character = yes
+		lotr_is_shown_basic_activity_trigger = yes
+	}
+
+	can_start_showing_failures_only = {
+		is_available_adult = yes
+		is_at_war = no
+	}
+
+	is_valid = {
+		scope:host = {
+			is_alive = yes
+			is_imprisoned = no
+			NOT = { is_incapable = yes }
+		}
+	}
+
+	on_invalidated = {
+		activity_location = { remove_variable = active_underdeep_delve }
+	}
+
+	on_host_death = {
+		activity_location = { remove_variable = active_underdeep_delve }
+		scope:host.player_heir ?= {
+			trigger_event = { id = underdeep.7005 days = 7 }
+		}
+	}
+
+	cooldown = { days = underdeep_cooldown_days }
+
+	cost = {
+		gold = {
+			add = {
+				value = underdeep_activity_cost
+				desc = underdeep_cost_setting_out
+			}
+		}
+	}
+
+	ui_predicted_cost = {
+		gold = {
+			value = underdeep_activity_cost
+			multiply = 1.12 # the average of the three party sizes (+0%, +10%, +25%)
+		}
+	}
+
+	host_description = { desc = activity_underdeep_delve_host_desc }
+	guest_description = { desc = activity_underdeep_delve_guest_desc }
+	conclusion_description = {
+		desc = activity_underdeep_delve_conclusion_floor_1
+		triggered_desc = {
+			trigger = { scope:activity = { has_variable = underdeep_chron_1 } }
+			desc = activity_underdeep_delve_conclusion_tale
+		}
+		triggered_desc = {
+			trigger = { scope:activity = { has_variable = underdeep_chron_1 } }
+			desc = activity_underdeep_delve_conclusion_chron_1
+		}
+		triggered_desc = {
+			trigger = { scope:activity = { has_variable = underdeep_chron_2 } }
+			desc = activity_underdeep_delve_conclusion_chron_2
+		}
+		triggered_desc = {
+			trigger = { scope:activity = { has_variable = underdeep_chron_3 } }
+			desc = activity_underdeep_delve_conclusion_chron_3
+		}
+		triggered_desc = {
+			trigger = { scope:activity = { has_variable = underdeep_chron_4 } }
+			desc = activity_underdeep_delve_conclusion_chron_4
+		}
+		triggered_desc = {
+			trigger = { scope:activity = { has_variable = underdeep_chron_5 } }
+			desc = activity_underdeep_delve_conclusion_chron_5
+		}
+		triggered_desc = {
+			trigger = { scope:activity = { has_variable = underdeep_chron_6 } }
+			desc = activity_underdeep_delve_conclusion_chron_6
+		}
+		triggered_desc = {
+			trigger = { scope:activity = { has_variable = underdeep_chron_7 } }
+			desc = activity_underdeep_delve_conclusion_chron_7
+		}
+		triggered_desc = {
+			trigger = { scope:activity = { has_variable = underdeep_chron_8 } }
+			desc = activity_underdeep_delve_conclusion_chron_8
+		}
+		triggered_desc = {
+			trigger = { scope:activity = { has_variable = underdeep_chron_9 } }
+			desc = activity_underdeep_delve_conclusion_chron_9
+		}
+		triggered_desc = {
+			trigger = { scope:activity = { has_variable = underdeep_chron_10 } }
+			desc = activity_underdeep_delve_conclusion_chron_10
+		}
+		desc = activity_underdeep_delve_conclusion_gains
+		# What the run gave, shown on the conclusion screen
+		triggered_desc = {
+			trigger = { scope:activity = { has_variable = underdeep_delver_gained } }
+			desc = activity_underdeep_delve_gain_delver_gained
+		}
+		triggered_desc = {
+			trigger = { scope:activity = { has_variable = underdeep_xp_lifestyle_archivist } }
+			desc = activity_underdeep_delve_gain_xp_lifestyle_archivist
+		}
+		triggered_desc = {
+			trigger = { scope:activity = { has_variable = underdeep_xp_lifestyle_artifact_crafting } }
+			desc = activity_underdeep_delve_gain_xp_lifestyle_artifact_crafting
+		}
+		triggered_desc = {
+			trigger = { scope:activity = { has_variable = underdeep_xp_lifestyle_blademaster } }
+			desc = activity_underdeep_delve_gain_xp_lifestyle_blademaster
+		}
+		triggered_desc = {
+			trigger = { scope:activity = { has_variable = underdeep_xp_lifestyle_hunter } }
+			desc = activity_underdeep_delve_gain_xp_lifestyle_hunter
+		}
+		triggered_desc = {
+			trigger = { scope:activity = { has_variable = underdeep_xp_lifestyle_mariner } }
+			desc = activity_underdeep_delve_gain_xp_lifestyle_mariner
+		}
+		triggered_desc = {
+			trigger = { scope:activity = { has_variable = underdeep_xp_lifestyle_miner } }
+			desc = activity_underdeep_delve_gain_xp_lifestyle_miner
+		}
+		triggered_desc = {
+			trigger = { scope:activity = { has_variable = underdeep_xp_lifestyle_mystic } }
+			desc = activity_underdeep_delve_gain_xp_lifestyle_mystic
+		}
+		triggered_desc = {
+			trigger = { scope:activity = { has_variable = underdeep_xp_lifestyle_physician } }
+			desc = activity_underdeep_delve_gain_xp_lifestyle_physician
+		}
+		triggered_desc = {
+			trigger = { scope:activity = { has_variable = underdeep_xp_lifestyle_poet } }
+			desc = activity_underdeep_delve_gain_xp_lifestyle_poet
+		}
+		triggered_desc = {
+			trigger = { scope:activity = { has_variable = underdeep_new_lifestyle_archivist } }
+			desc = activity_underdeep_delve_gain_new_lifestyle_archivist
+		}
+		triggered_desc = {
+			trigger = { scope:activity = { has_variable = underdeep_new_lifestyle_artifact_crafting } }
+			desc = activity_underdeep_delve_gain_new_lifestyle_artifact_crafting
+		}
+		triggered_desc = {
+			trigger = { scope:activity = { has_variable = underdeep_new_lifestyle_herbalist } }
+			desc = activity_underdeep_delve_gain_new_lifestyle_herbalist
+		}
+		triggered_desc = {
+			trigger = { scope:activity = { has_variable = underdeep_new_lifestyle_hunter } }
+			desc = activity_underdeep_delve_gain_new_lifestyle_hunter
+		}
+		triggered_desc = {
+			trigger = { scope:activity = { has_variable = underdeep_new_lifestyle_mariner } }
+			desc = activity_underdeep_delve_gain_new_lifestyle_mariner
+		}
+		triggered_desc = {
+			trigger = { scope:activity = { has_variable = underdeep_new_lifestyle_miner } }
+			desc = activity_underdeep_delve_gain_new_lifestyle_miner
+		}
+		triggered_desc = {
+			trigger = { scope:activity = { has_variable = underdeep_new_lifestyle_mystic } }
+			desc = activity_underdeep_delve_gain_new_lifestyle_mystic
+		}
+		triggered_desc = {
+			trigger = { scope:activity = { has_variable = underdeep_life_intrigue } }
+			desc = activity_underdeep_delve_gain_life_intrigue
+		}
+		triggered_desc = {
+			trigger = { scope:activity = { has_variable = underdeep_life_learning } }
+			desc = activity_underdeep_delve_gain_life_learning
+		}
+		first_valid = {
+			triggered_desc = {
+				trigger = { scope:activity.var:underdeep_party_deaths > 0 }
+				desc = activity_underdeep_delve_conclusion_losses
+			}
+			desc = activity_underdeep_delve_conclusion_no_losses
+		}
+	}
+
+	is_single_location = yes
+	province_filter = geographical_region
+	ai_province_filter = geographical_region
+	province_filter_target = underdeep_entrances
+
+	province_description = { desc = activity_underdeep_delve_province_desc }
+
+	is_location_valid = {
+		custom_tooltip = {
+			text = activity_underdeep_delve_location_busy
+			NOT = { has_variable = active_underdeep_delve }
+		}
+		custom_tooltip = {
+			text = activity_underdeep_delve_location_far
+			underdeep_entrance_in_reach = yes
+		}
+	}
+
+	province_score = {
+		value = 10
+	}
+
+	options = {
+		underdeep_option_party_size = {
+			underdeep_party_small = {
+				travel_entourage_selection = {
+					weight = { value = 10 }
+					max = 5
+					invite_rule_order = 2
+				}
+				ai_will_do = { value = 1 }
+			}
+			underdeep_party_normal = {
+				default = yes
+				travel_entourage_selection = {
+					weight = { value = 10 }
+					max = 8
+					invite_rule_order = 2
+				}
+				cost = {
+					gold = {
+						add = {
+							desc = underdeep_landed_haul
+							if = {
+								limit = { is_landless_adventurer = no }
+								add = { value = underdeep_activity_cost multiply = 0.1 }
+							}
+						}
+					}
+				}
+				ai_will_do = { value = 10 }
+			}
+			underdeep_party_large = {
+				travel_entourage_selection = {
+					weight = { value = 10 }
+					max = 15
+					invite_rule_order = 2
+				}
+				cost = {
+					gold = {
+						add = {
+							desc = underdeep_landed_haul
+							if = {
+								limit = { is_landless_adventurer = no }
+								add = { value = underdeep_activity_cost multiply = 0.25 }
+							}
+						}
+					}
+				}
+				ai_will_do = { value = 1 }
+			}
+		}
+	}
+
+	max_guest_arrival_delay_time = { months = 3 }
+
+	phases = {
+		underdeep_phase = {
+			is_predefined = yes
+
+			on_phase_active = {
+				if = {
+					limit = { this = scope:host }
+					scope:activity = { progress_activity_phase_after = { months = 12 } } # Safety net, the events end the run first
+					trigger_event = { id = underdeep_engine.0001 days = 2 }
+				}
+			}
+		}
+	}
+
+	ai_check_interval = 0
+
+	ai_will_do = {
+		value = 0
+	}
+
+	ai_will_select_province = {
+		value = 1
+	}
+
+	guest_invite_rules = {
+		rules = {
+			2 = activity_invite_rule_rivals
+			2 = activity_invite_rule_lovers
+			3 = activity_invite_rule_close_family
+			3 = activity_invite_rule_extended_family
+			3 = activity_invite_rule_knights
+			4 = activity_invite_rule_guests
+			6 = activity_invite_mp
+		}
+		defaults = {
+			1 = activity_invite_rule_friends
+			3 = activity_invite_rule_vassals
+			4 = activity_invite_rule_courtiers
+		}
+	}
+
+	max_guests = 10
+
+	can_be_activity_guest = {
+		is_lotr_adult = yes
+		NOT = { has_trait = incapable }
+		in_diplomatic_range = scope:host
+		lotr_can_be_activity_guest = yes
+	}
+
+	host_intents = {
+		intents = { underdeep_renown_intent underdeep_plunder_intent underdeep_lore_intent underdeep_home_intent underdeep_cleanse_intent underdeep_commune_intent murder_attendee_intent woo_attendee_intent befriend_attendee_intent }
+		default = underdeep_renown_intent
+		player_defaults = { underdeep_renown_intent }
+	}
+
+	guest_intents = {
+		intents = { underdeep_spoils_intent underdeep_prove_intent underdeep_watch_intent murder_attendee_intent woo_attendee_intent befriend_attendee_intent }
+		default = underdeep_spoils_intent
+		player_defaults = { underdeep_spoils_intent }
+	}
+
+	guest_join_chance = {
+		base = 10
+		base_activity_modifier = yes
+		activity_guest_shared_ai_accept_modifier = yes
+	}
+
+	pulse_actions = {
+		entries = { guest_friendship guest_insulted }
+		chance_of_no_event = 3
+	}
+
+	on_start = {
+		scope:host = { remove_variable = underdeep_cooldown_waived }
+		# What was paid to set out, refunded if the company turns back at the entrance.
+		scope:host = { save_scope_value_as = { name = ud_cost value = underdeep_activity_cost } }
+		set_variable = { name = underdeep_paid value = scope:ud_cost }
+		if = {
+			limit = { scope:host = { is_landless_adventurer = no } }
+			if = {
+				limit = { has_activity_option = { category = underdeep_option_party_size option = underdeep_party_normal } }
+				change_variable = { name = underdeep_paid multiply = 1.1 }
+			}
+			else_if = {
+				limit = { has_activity_option = { category = underdeep_option_party_size option = underdeep_party_large } }
+				change_variable = { name = underdeep_paid multiply = 1.25 }
+			}
+		}
+		set_variable = { name = underdeep_gold_found value = 0 }
+		set_variable = { name = underdeep_prestige_won value = 0 }
+		set_variable = { name = underdeep_floor value = 1 }
+		set_variable = { name = underdeep_rooms_done value = 0 }
+		set_variable = { name = underdeep_boss_odds value = 0 }
+		set_variable = { name = underdeep_party_deaths value = 0 }
+		set_variable = { name = underdeep_chron_n value = 0 }
+		activity_location = { set_variable = { name = active_underdeep_delve value = yes } }
+	}
+
+	allow_zero_guest_invites = yes
+
+	on_complete = {
+		scope:activity.activity_location = { remove_variable = active_underdeep_delve }
+	}
+
+	map_entity = "building_special_mines_entity"
+
+	background = {
+		texture = "gfx/interface/illustrations/activity_backgrounds/lotr_cave_interior.dds"
+		environment = "environment_event_alley"
+		ambience = "event:/SFX/Events/Backgrounds/city_alley_night"
+	}
+
+	window_characters = {
+		leader = {
+			camera = camera_body
+			effect = { scope:host = { add_to_list = characters } }
+			scripted_animation = { animation = lantern }
+		}
+		delver = {
+			camera = camera_body
+			effect = {
+				every_attending_character = {
+					limit = {
+						NOT = { this = scope:host }
+						location = scope:activity.activity_location
+					}
+					add_to_list = characters
+				}
+			}
+			scripted_animation = { animation = lantern }
+		}
+		delver = {
+			camera = camera_body
+			effect = {
+				every_attending_character = {
+					limit = {
+						NOT = { this = scope:host }
+						location = scope:activity.activity_location
+					}
+					add_to_list = characters
+				}
+			}
+			scripted_animation = { animation = lantern }
+		}
+		delver = {
+			camera = camera_body
+			effect = {
+				every_attending_character = {
+					limit = {
+						NOT = { this = scope:host }
+						location = scope:activity.activity_location
+					}
+					add_to_list = characters
+				}
+			}
+			scripted_animation = { animation = lantern }
+		}
+	}
+}
