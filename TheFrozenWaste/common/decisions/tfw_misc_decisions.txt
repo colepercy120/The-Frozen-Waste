@@ -808,7 +808,7 @@ decision_form_winter = {
 	confirm_text = decision_form_winter_confirm
 	selection_tooltip = decision_form_winter_tooltip
 	picture = {
-		reference = "gfx/interface/illustrations/decisions/decision_elves_dwarves_02.dds"
+		reference = "gfx/interface/illustrations/decisions/decision_blue_mountains_01.dds"
 	}
 
 	### AI
@@ -844,6 +844,10 @@ decision_form_winter = {
 
 		### Realm size requirement for this formation decision.
 		realm_size >= 300
+		any_held_title = {
+			count >= 5
+			title_tier = empire
+		}
 	}
 
 	cost = {
