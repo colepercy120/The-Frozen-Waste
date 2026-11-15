@@ -16722,6 +16722,13 @@ e_winter_court = {
 	}
 }
 
+### Separate religious-head title, retained independently of the Winter Court realm.
+k_winter_queen_faith = {
+	3912.1.1 = {
+		holder = tfw_lineofnixni_001
+	}
+}
+
 # ============================================================
 # TITLES NOT FOUND IN SUPPLIED LANDED-TITLE HIERARCHY
 # ============================================================
