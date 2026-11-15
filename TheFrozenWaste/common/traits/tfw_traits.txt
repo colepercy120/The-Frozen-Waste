@@ -28,4 +28,10 @@ orc_father = {
 	stress_gain_mult = 0.5
 	immortal = yes
 	flag = lower_chance_of_dying_in_combat
+	flag = is_immortal
+	flag = immortal_visuals
+	flag = immortal_fertility
+	flag = immortal_incapability
+	
+	no_prowess_loss_from_age = yes
 }
