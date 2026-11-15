@@ -835,7 +835,6 @@ decision_form_winter = {
 				target = flag:decision_form_winter
 			}
 		}
-		capital_province = { geographical_region = middleearth_forodwaith }
 	}
 
 	### IS VALID
@@ -843,8 +842,8 @@ decision_form_winter = {
 		prestige_level >= 5
 		piety_level >= 5
 
-		### Territorial requirement for this formation decision.
-		completely_controls_region = middleearth_forodwaith
+		### Realm size requirement for this formation decision.
+		realm_size >= 300
 	}
 
 	cost = {
@@ -861,6 +860,23 @@ decision_form_winter = {
 	### EFFECT
 	effect = {
 		get_title = title:h_winter
+
+		### Incorporate existing tributaries as direct vassals.
+		every_tributary = {
+			add_to_list = tributaries
+		}
+		create_title_and_vassal_change = {
+			type = swear_fealty
+			save_scope_as = vassal_change
+		}
+		every_in_list = {
+			list = tributaries
+			change_liege = {
+				liege = root
+				change = scope:vassal_change
+			}
+		}
+		resolve_title_and_vassal_change = scope:vassal_change
 		trigger_event = {
 			id = tfw_misc.010
 		}
