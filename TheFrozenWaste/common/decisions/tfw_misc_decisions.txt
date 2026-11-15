@@ -844,9 +844,12 @@ decision_form_winter = {
 
 		### Realm size requirement for this formation decision.
 		realm_size >= 300
-		any_held_title = {
-			count >= 5
-			title_tier = empire
+		custom_tooltip = {
+			text = decision_form_winter_five_empires
+			any_held_title = {
+				count >= 5
+				title_tier = empire
+			}
 		}
 	}
 
@@ -866,11 +869,14 @@ decision_form_winter = {
 		get_title = title:h_winter
 
 		### Incorporate only empires whose entire de jure territory is controlled by Nixni.
-		every_realm_de_jure_empire = {
-			limit = {
-				root = { completely_controls = prev }
+		custom_tooltip = {
+			text = decision_form_winter_de_jure_effect
+			every_realm_de_jure_empire = {
+				limit = {
+					root = { completely_controls = prev }
+				}
+				set_de_jure_liege_title = title:h_winter
 			}
-			set_de_jure_liege_title = title:h_winter
 		}
 
 		### Incorporate existing tributaries as direct vassals.
