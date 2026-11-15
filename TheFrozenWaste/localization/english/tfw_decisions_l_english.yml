@@ -84,10 +84,10 @@ l_english:
  decision_form_forodwaith_tooltip: "Unite Forodwaith"
  decision_form_forodwaith_confirm: "Unite Forodwaith"
 
- decision_form_winter: "Form the Hegemony of Winter"
- decision_form_winter_desc: "Our supremacy across the north can no longer be denied. We shall establish the Hegemony of Winter."
- decision_form_winter_tooltip: "Form the Hegemony of Winter."
- decision_form_winter_confirm: "Proclaim the Hegemony of Winter"
+ decision_form_winter: "Proclaim the Endless Winter"
+ decision_form_winter_desc: "Our dominion can no longer be denied. Let every kingdom and empire beneath our rule tremble before the coming of the Endless Winter."
+ decision_form_winter_tooltip: "Proclaim the Endless Winter."
+ decision_form_winter_confirm: "Proclaim the Endless Winter"
 
  decision_build_nidavillir: "Construct a Great Hold"
  decision_build_nidavillir_desc: "Our expedition to the Ered Muil has borne fruit. We have established ourselves in these halls, and now we must plan for the future. It is time to decide what shape our great hold will take, and what kind of people we will become."
