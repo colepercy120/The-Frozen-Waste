@@ -263,6 +263,7 @@ decision_form_fordor = {
 
 	is_shown = {
 		is_independent_ruler = yes
+		NOT = { this = character:tfw_lineofnixni_001 }
 		NOT = {
 			has_title = title:e_fordor
 		}
@@ -362,6 +363,7 @@ decision_form_lossoth = {
 
 	is_shown = {
 		is_independent_ruler = yes
+		NOT = { this = character:tfw_lineofnixni_001 }
 		NOT = {
 			has_title = title:e_lossoth
 		}
@@ -457,6 +459,7 @@ decision_form_forochel = {
 
 	is_shown = {
 		is_independent_ruler = yes
+		NOT = { this = character:tfw_lineofnixni_001 }
 		NOT = {
 			has_title = title:e_forochel
 			culture = { has_same_culture_heritage = culture:lossoth }
@@ -545,6 +548,7 @@ decision_form_northern_territories = {
 
 	is_shown = {
 		is_independent_ruler = yes
+		NOT = { this = character:tfw_lineofnixni_001 }
 		primary_title = { tier >= 6 }
 		NOT = { capital_province = { geographical_region = middleearth_forodwaith } }
 		NOT = {
@@ -632,6 +636,7 @@ decision_form_avari = {
 
 	is_shown = {
 		is_independent_ruler = yes
+		NOT = { this = character:tfw_lineofnixni_001 }
 		NOT = {
 			has_title = title:h_avari
 		}
@@ -738,6 +743,7 @@ decision_form_forodwaith = {
 
 	is_shown = {
 		is_independent_ruler = yes
+		NOT = { this = character:tfw_lineofnixni_001 }
 		NOT = {
 			has_title = title:h_forodwaith
 		}
