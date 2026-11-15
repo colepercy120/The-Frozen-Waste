@@ -169,11 +169,14 @@ tfw_misc.009 = { # Formation of Forodwaith
 	}
 }
 
-tfw_misc.010 = { # Formation of Winter
+tfw_misc.010 = { # Nixni proclaims the Eternal Winter
 	type = character_event
 	title = tfw_misc.010.t
 	desc = tfw_misc.010.desc
 	theme = stewardship_duty_focus
+	override_background = {
+		reference = forodwaith
+	}
 
 	left_portrait = {
 		character = root
