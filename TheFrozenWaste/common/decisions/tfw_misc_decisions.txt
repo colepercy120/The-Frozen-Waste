@@ -861,6 +861,14 @@ decision_form_winter = {
 	effect = {
 		get_title = title:h_winter
 
+		### Incorporate only empires whose entire de jure territory is controlled by Nixni.
+		every_realm_de_jure_empire = {
+			limit = {
+				root = { completely_controls = prev }
+			}
+			set_de_jure_liege_title = title:h_winter
+		}
+
 		### Incorporate existing tributaries as direct vassals.
 		every_tributary = {
 			add_to_list = tributaries
