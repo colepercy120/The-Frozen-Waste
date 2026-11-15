@@ -9390,3 +9390,50 @@ k_winter_queen_faith={
 		}
 	}
 }
+
+### Winter hegemony
+h_winter={
+	pattern="pattern__solid_designer.dds"
+	color1=rgb { 255 255 255 }
+	color2=white
+	color3=black
+	colored_emblem={
+		color1=rgb { 106 115 124 }
+		texture="ce_rhun_border_07.dds"
+		instance={
+			depth=1.010000
+		}
+	}
+	colored_emblem={
+		color1=rgb { 94 186 226 }
+		color2=rgb { 92 183 244 }
+		texture="ce_vanyar_green_02.dds"
+		instance={
+			scale={ 0.490000 0.490000 }
+		}
+	}
+	colored_emblem={
+		color1=rgb { 80 173 215 }
+		texture="ce_rhun_border_09.dds"
+		instance={
+			depth=4.010000
+		}
+	}
+	colored_emblem={
+		color1=rgb { 255 255 255 }
+		color2=rgb { 26 142 199 }
+		color3=blue_light
+		texture="ce_pattern_diamond_01.dds"
+		instance={
+			scale={ 0.580000 0.580000 }
+			depth=2.010000
+		}
+	}
+	colored_emblem={
+		color1=rgb { 76 141 202 }
+		texture="ce_rwby_weiss.dds"
+		instance={
+			depth=3.010000
+		}
+	}
+}
