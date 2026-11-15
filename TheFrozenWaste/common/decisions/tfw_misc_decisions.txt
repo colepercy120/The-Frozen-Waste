@@ -844,6 +844,10 @@ decision_form_winter = {
 
 		### Realm size requirement for this formation decision.
 		realm_size >= 300
+
+		### Required territories with confirmed title definitions.
+		completely_controls = title:k_angband
+		completely_controls = title:k_evermist
 		custom_tooltip = {
 			text = decision_form_winter_five_empires
 			any_held_title = {
