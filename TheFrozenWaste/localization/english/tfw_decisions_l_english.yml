@@ -122,3 +122,6 @@ l_english:
  tfw_adopt_feudal_government_decision_desc: "We have turned away from the darkness of our forebears, but our realm still follows the old ways of Orcish rule. If our people are to build a lasting future, we must establish a new order, founded upon laws and obligations rather than fear and strength alone."
  tfw_adopt_feudal_government_decision_tooltip: "Replace [orcish_government|E] with [feudal_government|E]."
  tfw_adopt_feudal_government_decision_confirm: "Establish Feudal Rule"
+
+ decision_form_winter_five_empires: "You must personally hold at least 5 [empire|e]-tier [title|e]s."
+ decision_form_winter_de_jure_effect: "Every [empire|e] you completely control becomes [de_jure|e] territory of [GetTitleByKey('h_winter').GetName]."
