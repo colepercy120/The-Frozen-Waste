@@ -834,7 +834,6 @@ decision_form_winter = {
 				target = flag:decision_form_winter
 			}
 		}
-		always = no
 	}
 
 	### IS VALID
