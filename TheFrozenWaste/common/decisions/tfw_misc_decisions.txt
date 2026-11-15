@@ -845,9 +845,16 @@ decision_form_winter = {
 		### Realm size requirement for this formation decision.
 		realm_size >= 300
 
-		### Required territories with confirmed title definitions.
+		### Required territories.
 		completely_controls = title:k_angband
+		completely_controls = title:c_carn_dum
+		completely_controls = title:c_aurora_isles_2
 		completely_controls = title:k_evermist
+
+		### Angband must be rebuilt to the same level required to unleash it.
+		province:8105 = {
+			has_building_or_higher = wonder_angband_03
+		}
 		custom_tooltip = {
 			text = decision_form_winter_five_empires
 			any_held_title = {
