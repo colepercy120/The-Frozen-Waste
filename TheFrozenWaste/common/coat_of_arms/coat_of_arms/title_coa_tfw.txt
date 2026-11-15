@@ -9343,3 +9343,50 @@ c_aurora_isles_2={
 	}
 
 }
+
+### The Frozen Throne - Cult of the Winter Queen head of faith
+k_winter_queen_faith={
+	pattern="pattern__solid_designer.dds"
+	color1=rgb { 81 69 92 }
+	color2=white
+	color3=black
+	colored_emblem={
+		color1=rgb { 106 115 124 }
+		texture="ce_rhun_border_07.dds"
+		instance={
+			depth=1.010000
+		}
+	}
+	colored_emblem={
+		color1=rgb { 255 255 255 }
+		texture="ce_rwby_weiss.dds"
+		instance={
+			depth=3.010000
+		}
+	}
+	colored_emblem={
+		color1=rgb { 255 255 255 }
+		color2=rgb { 255 255 255 }
+		texture="ce_vanyar_green_02.dds"
+		instance={
+			scale={ 0.490000 0.490000 }
+		}
+	}
+	colored_emblem={
+		color1=rgb { 101 111 131 }
+		color2=rgb { 255 255 255 }
+		color3=blue_light
+		texture="ce_pattern_diamond_01.dds"
+		instance={
+			scale={ 0.580000 0.580000 }
+			depth=2.010000
+		}
+	}
+	colored_emblem={
+		color1=rgb { 199 208 212 }
+		texture="ce_rhun_border_09.dds"
+		instance={
+			depth=4.010000
+		}
+	}
+}
