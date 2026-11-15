@@ -825,6 +825,7 @@ decision_form_winter = {
 
 	is_shown = {
 		is_independent_ruler = yes
+		this = character:tfw_lineofnixni_001
 		NOT = {
 			has_title = title:h_winter
 		}
@@ -834,18 +835,21 @@ decision_form_winter = {
 				target = flag:decision_form_winter
 			}
 		}
+		capital_province = { geographical_region = middleearth_forodwaith }
 	}
 
 	### IS VALID
 	is_valid = {
-		prestige_level >= high_prestige_level
+		prestige_level >= 5
+		piety_level >= 5
 
 		### Territorial requirement for this formation decision.
-		realm_size >= 50
+		completely_controls_region = middleearth_forodwaith
 	}
 
 	cost = {
-		prestige = major_prestige_value
+		prestige = 1000
+		piety = 1000
 	}
 
 	is_valid_showing_failures_only = {
