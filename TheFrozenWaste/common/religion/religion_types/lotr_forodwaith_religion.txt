@@ -792,7 +792,7 @@ forodwaith_religion = {
 			# color = { 22 17 59 }
 			color = { 214 234 240 }
 			icon = winter_queen_icon
-			religious_head = e_winter_court
+			religious_head = k_winter_queen_faith
 
 			# Holy Sites
 			holy_site = carn_dum
