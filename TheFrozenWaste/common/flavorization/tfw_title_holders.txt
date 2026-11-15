@@ -1,0 +1,13 @@
+### Nixni's personal ruler style, regardless of held title tier.
+tfw_nixni_winter_queen_flavor = {
+	type = character
+	gender = female
+	special = holder
+	flag = tfw_nixni_winter_queen_flavor
+	priority = 2000
+	flavourization_rules = {
+		top_liege = no
+		only_holder = yes
+		spouse_takes_title = no
+	}
+}
