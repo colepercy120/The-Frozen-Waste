@@ -1899,8 +1899,8 @@
  h_forodwaith: "Forodwaith"
  h_forodwaith_adj: "Forodwaith"
 
- h_winter: "Winter"
- h_winter_adj: "Winter"
+ h_winter: "The Endless Winter"
+ h_winter_adj: "Endless Winter"
 
  e_cuind: "Cuind"
  e_cuind_adj: "Cuindi"
@@ -1909,3 +1909,6 @@
  d_eitris_expedition_adj: "Eitri's"
 
 
+
+ k_winter_queen_faith: "The Frozen Throne"
+ k_winter_queen_faith_adj: "Winter Queen"

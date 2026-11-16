@@ -1,0 +1,49 @@
+# Isolated historical appearance donor for the frozen Numenorean salvage event.
+tfw_palantiri_ice_boy_dummy = {
+    name = Nimloth
+   
+
+    
+    religion = faith_edain
+    culture = dunedain_ranger
+	dna = tfw_palantiri_ice_boy_dna
+
+    
+
+    sexuality = heterosexual
+
+    trait = brave
+    trait = shy
+    trait = ambitious
+
+    trait = intellect_good_3
+	trait = fecund
+	trait = military_engineer
+	trait = holy_warrior
+	trait = logistician
+	trait = populist_leader
+	
+	
+
+    diplomacy = 15
+    martial = 15
+    stewardship = 15
+    intrigue = 15
+    learning = 15
+    prowess = 15
+
+    trait = education_martial_5
+
+    trait = blood_of_numenor_4
+
+    1.1.1 = {
+        birth = yes
+        	effect = {
+			learn_language = language_sindarin
+			learn_language = language_quenya
+			}
+    }
+    2.1.1 = {
+       death = { death_reason = death_natural_causes }
+    }
+}

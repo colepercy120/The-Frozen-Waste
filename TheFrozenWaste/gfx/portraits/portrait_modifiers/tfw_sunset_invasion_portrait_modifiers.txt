@@ -1,0 +1,72 @@
+### Annahir's accessories, separate from shared historical portraits.
+tfw_santa_historical_accessories = {
+	usage = game
+	selection_behavior = max
+	priority = 2
+
+	annahir_portrait = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = beards
+				template = dwarven_beards
+				accessory = male_beard_rtt_01
+				type = male
+			}
+			accessory = {
+				mode = add
+				gene = cloaks
+				template = barbershop_cloaks_lotr
+				accessory = male_furs_polar_03
+				type = male
+			}
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = barbershop_vanilla_hairstyles_base
+				accessory = male_hair_mena_04
+				type = male
+			}
+			accessory = {
+				mode = add
+				gene = legwear
+				template = barbershop_legwear_lotr
+				accessory = male_legwear_elven_war_galadhrim_01
+				type = male
+			}
+			accessory = {
+				mode = add
+				gene = clothes
+				template = elven_war_galadhrim_clothes
+				accessory = male_clothes_elven_war_galadhrim_01
+				type = male
+			}
+			accessory = {
+				mode = add
+				gene = headgear
+				template = eastern_dwarf_low_headgear
+				accessory = male_headgear_epe_eastern_dwarf_lo_nob_02
+				type = male
+			}
+			accessory = {
+				mode = add
+				gene = special_headgear_spectacles
+				template = eye_patch
+				accessory = male_headgear_special_eye_patch_01
+				type = male
+			}
+		}
+
+		weight = {
+			base = 0
+			modifier = {
+				add = 9999
+				exists = this
+				OR = {
+					this = character:tfw_santa_001
+					has_character_flag = tfw_santa_appearance
+				}
+			}
+		}
+	}
+}

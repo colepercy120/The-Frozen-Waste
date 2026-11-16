@@ -4,7 +4,7 @@ angband_orcs = { # The Northerners or Free Tribes of the North
 	created = 592.1.1
 	parents = { utumno_orcs }
 
-	# history overrriden by lotr_set_culture_form_dates in lotr_culture_effect
+	### history overrriden by lotr_set_culture_form_dates in lotr_culture_effect
 
 	history_loc_override = angband_orcs_history_loc
 
@@ -40,7 +40,7 @@ snow_orcs = { # The Northerners or Free Tribes of the North
 	created = 3451.1.1
 	parents = { angband_orcs }
 
-	# history overrriden by lotr_set_culture_form_dates in lotr_culture_effect
+	### history overrriden by lotr_set_culture_form_dates in lotr_culture_effect
 
 
 	ethos = ethos_bellicose
@@ -125,7 +125,7 @@ lossidil = {
 		tradition_fishermen
 		tradition_forest_folk
 		tradition_charitable
-		# tradition_sindar_maa
+		### tradition_sindar_maa
 	}
 	dlc_tradition = {
 		trait = tradition_music_theory
@@ -152,7 +152,7 @@ adlantrim = { # Orcs that remember they were elves
 	created = 2.8.2
 	parents = { utumno_orcs avari  }
 
-	# history overrriden by lotr_set_culture_form_dates in lotr_culture_effect
+	### history overrriden by lotr_set_culture_form_dates in lotr_culture_effect
 
 	history_loc_override = adlantrim_history_loc
 
@@ -253,8 +253,8 @@ gauredain = { # Hadorrim that remained in Eriador and came to live mostly in the
 	}
 }
 
-# Working name: Restored Adlantrim. Elven heritage is essential to is_elf.
-tfw_restored_adlantrim = {
+### Working name: Restored Adlantrim. Elven heritage is essential to is_elf.
+cyredhil = {
 	color = { 115 185 145 }
 	created = 2.8.2
 	parents = { adlantrim avari }

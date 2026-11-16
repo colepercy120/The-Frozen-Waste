@@ -43,6 +43,7 @@ tfw_lineofnixni_001 = {
 		birth = yes
 		effect = {
 			add_character_flag = has_scripted_appearance
+			add_character_flag = tfw_nixni_winter_queen_flavor
 			add_character_flag = ai_immune_to_mental_breaks
 			add_character_flag = immune_to_disease
 

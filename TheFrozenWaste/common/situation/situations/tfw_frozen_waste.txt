@@ -31,7 +31,10 @@
 	}
 
 	on_end = {
-
+		# Release the Winter Queen from the war restriction when the situation ends.
+		character:tfw_lineofnixni_001 = {
+			remove_character_flag = nixni_distracted_flag
+		}
 	}
 
 	on_monthly = {

@@ -1,0 +1,5 @@
+### Founding house of Annahir's invasion dynasty.
+house_tfw_santa = {
+	name = "dynn_tfw_santa"
+	dynasty = dynasty_tfw_santa
+}

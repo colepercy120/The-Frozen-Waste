@@ -1,0 +1,99 @@
+# TFW's independent Forochel salvage decision. Shares the original EE/WED unique-decision flag.
+tfw_palantiri_salvage = {
+	title = tfw_palantiri_salvage
+	desc = tfw_palantiri_salvage_desc
+	confirm_text = tfw_palantiri_salvage_confirm
+	selection_tooltip = tfw_palantiri_salvage_tooltip
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_mithlond_02.dds"
+	}
+	
+
+	# AI
+	ai_goal = yes
+	ai_potential = {
+		always = yes
+	}
+	ai_will_do = {
+		base = 100
+	}
+	
+	# IS SHOWN
+	decision_group_type = realms_in_exile_major
+	
+	is_shown = {
+		
+		is_independent_ruler = yes
+		NOT = {
+			AND = {
+				is_arnor = yes
+				exists = global_var:tfw_palantiri_external_system_present
+			}
+		}
+		NOT = { exists = global_var:tfw_palantiri_recovered }
+	
+		
+		
+		NOT = {
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:decision_palintir_fishing
+			}		
+		}
+	}
+	
+	cost = {
+		prestige = major_prestige_value
+		gold = 1500
+	}
+	
+	# IS VALID
+	is_valid = {
+		prestige_level >= high_prestige_level
+		completely_controls = title:k_forochel # Completely controls the old heartland of the Kingdom
+	}
+
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+		is_available_adult = yes
+		is_at_war = no
+	}
+
+	# EFFECT
+	effect = {
+
+		custom_tooltip = {
+			text = tfw_palantiri_salvage_effect
+		}
+
+		
+		add_to_global_variable_list = {
+			name = unavailable_unique_decisions
+			target = flag:decision_palintir_fishing
+		}
+		
+		hidden_effect = {
+			random_list = {
+				10 = {
+					trigger_event = {
+						id = tfw_palantiri.02
+						months = 6
+					}
+				}
+				5 = {
+					trigger_event = {
+						id = tfw_palantiri.05
+						months = 9
+					}
+				}
+				85 = {
+					trigger_event = {
+						id = tfw_palantiri.04
+						months = 6
+					}
+				}
+			}
+		}
+		
+	}
+}

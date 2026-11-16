@@ -1,5 +1,5 @@
-﻿# TFW Northern Cultural Men-at-Arms
-# Balance references: Arnor/Gondor, Vale/Woodmen, Grey Elves, and standard LOTR cultural MAA.
+﻿### TFW Northern Cultural Men-at-Arms
+### Balance references: Arnor/Gondor, Vale/Woodmen, Grey Elves, and standard LOTR cultural MAA.
 
 @cultural_maa_extra_ai_score = 60
 @provisions_cost_infantry_cheap = 3
@@ -10,9 +10,9 @@
 @provisions_cost_cavalry_expensive = 21
 @provisions_cost_special_moderate = 12
 
-# ============================================================
-# FORODAIN
-# ============================================================
+
+### FORODAIN
+
 
 forodain_huscarls = {
 	type = heavy_infantry
@@ -169,10 +169,10 @@ forodain_raiders = {
 	allowed_in_hired_troops = no
 }
 
-# ============================================================
-# NORTHERN ORCS
-# Shared by Angband Orcs and Snow Orcs
-# ============================================================
+
+### NORTHERN ORCS
+### Shared by Angband Orcs and Snow Orcs
+
 
 northern_orc_reavers = {
 	type = heavy_infantry
@@ -304,10 +304,10 @@ northern_orc_warg_riders = {
 	icon = arnorian_cavalry
 }
 
-# ============================================================
-# LOSSIDIL / SNOW ELVES
-# Full elven strength, 50-man stacks.
-# ============================================================
+
+### LOSSIDIL / SNOW ELVES
+### Full elven strength, 50-man stacks.
+
 
 lossidil_frostguard = {
 	type = heavy_infantry
@@ -430,9 +430,9 @@ lossidil_frost_riders = {
 	allowed_in_hired_troops = no
 }
 
-# ============================================================
-# UMLI
-# ============================================================
+
+### UMLI
+
 
 umli_ironwardens = {
 	type = heavy_infantry
@@ -550,9 +550,9 @@ umli_axe_scouts = {
 	allowed_in_hired_troops = no
 }
 
-# ============================================================
-# GAUREDAIN
-# ============================================================
+
+### GAUREDAIN
+
 
 gauredain_huntsmen = {
 	type = archers
@@ -683,10 +683,10 @@ gauredain_wolf_skinchangers = {
 	allowed_in_hired_troops = no
 }
 
-# ============================================================
-# ADLANTRIM
-# Elven-derived doctrine, but intentionally much weaker than true elves.
-# ============================================================
+
+### ADLANTRIM
+### Elven-derived doctrine, but intentionally much weaker than true elves.
+
 
 adlantrim_blades = {
 	type = heavy_infantry
@@ -805,9 +805,8 @@ adlantrim_scouts = {
 }
 
 
-# ============================================================
-# ICE SPIRIT
-# ============================================================
+### ICE SPIRIT
+
 
 frostbound_spirits = {
 	access_through_subject = { lotr_orc_can_recruit_from_subject = no }
@@ -865,14 +864,13 @@ frostbound_spirits = {
 	allowed_in_hired_troops = no
 	ai_quality = { value = @cultural_maa_extra_ai_score }
 
-	# Temporary reuse of an existing undead icon.
+	### Temporary reuse of an existing undead icon.
 	icon = unburied_wights
 }
 
 
-# ============================================================
-# ZOMBIES
-# ============================================================
+### ZOMBIES
+
 
 frozen_dead = {
 	access_through_subject = { lotr_orc_can_recruit_from_subject = no }
@@ -988,18 +986,17 @@ rime_wraiths = {
 	allowed_in_hired_troops = no
 	ai_quality = { value = @cultural_maa_extra_ai_score }
 
-	# Temporary reuse of an existing undead icon.
+	### Temporary reuse of an existing undead icon.
 	icon = unburied_wights
 }
 
-# Frostwood Avari Men-at-Arms
-# Shared by Windan and Hwenti.
-# Normal cultural troops: arctic terrain bonuses, no winter_bonus blocks.
+### Frostwood Avari Men-at-Arms
+### Shared by Windan and Hwenti.
+### Normal cultural troops: arctic terrain bonuses, no winter_bonus blocks.
 
 
-# ============================================================
-# FROSTWOOD RANGERS
-# ============================================================
+### FROSTWOOD RANGERS
+
 
 frostwood_rangers = {
 	type = archers
@@ -1058,9 +1055,8 @@ frostwood_rangers = {
 }
 
 
-# ============================================================
-# FROSTWOOD WARDENS
-# ============================================================
+### FROSTWOOD WARDENS
+
 
 frostwood_wardens = {
 	type = pikemen
@@ -1122,9 +1118,8 @@ frostwood_wardens = {
 }
 
 
-# ============================================================
-# FROSTWOOD STALKERS
-# ============================================================
+### FROSTWOOD STALKERS
+
 
 frostwood_stalkers = {
 	type = skirmishers
@@ -1179,5 +1174,126 @@ frostwood_stalkers = {
 	}
 
 	icon = green_elven_skirmishers
+	allowed_in_hired_troops = no
+}
+
+
+### CYREDHIL / RESTORED ADLANTRIM
+### Original Adlantrim formations restored to full Elven strength (50 per regiment).
+
+
+cyredhil_blades = {
+	type = heavy_infantry
+	access_through_subject = { lotr_orc_can_recruit_from_subject = no }
+	can_recruit = { culture = { has_innovation = innovation_cyredhil_warfare } }
+	damage = 132
+	toughness = 118
+	pursuit = 15
+	screen = 32
+	counters = {
+		pikemen = 1
+		peasant_militia = 2
+	}
+	terrain_bonus = {
+		mountains = { damage = 24 toughness = 22 }
+		taiga = { damage = 22 toughness = 22 screen = 8 }
+
+		arctic = { damage = 22 toughness = 22 }
+	}
+	buy_cost = { gold = 275 }
+	low_maintenance_cost = { gold = 0.50 }
+	high_maintenance_cost = { gold = 1.50 }
+	provision_cost = @provisions_cost_infantry_expensive
+	stack = 50
+	ai_quality = { value = 200 }
+	icon = grey_elven_heavy_infantry
+	allowed_in_hired_troops = no
+}
+
+cyredhil_archers = {
+	type = archers
+	access_through_subject = { lotr_orc_can_recruit_from_subject = no }
+	can_recruit = { culture = { has_innovation = innovation_cyredhil_warfare } }
+	damage = 148
+	toughness = 70
+	pursuit = 24
+	screen = 12
+	counters = {
+		skirmishers = 1
+		heavy_infantry = 0.5
+	}
+	terrain_bonus = {
+		taiga = { damage = 32 toughness = 16 screen = 11 }
+		forest = { damage = 32 toughness = 16 screen = 11 }
+		hills = { damage = 22 toughness = 11 }
+
+		arctic = { damage = 24 toughness = 14 }
+	}
+	buy_cost = { gold = 245 }
+	low_maintenance_cost = { gold = 0.46 }
+	high_maintenance_cost = { gold = 1.38 }
+	provision_cost = @provisions_cost_infantry_moderate
+	stack = 50
+	ai_quality = { value = 200 }
+	icon = grey_elven_archers
+	allowed_in_hired_troops = no
+}
+
+cyredhil_spears = {
+	type = pikemen
+	access_through_subject = { lotr_orc_can_recruit_from_subject = no }
+	can_recruit = { culture = { has_innovation = innovation_cyredhil_warfare } }
+	damage = 110
+	toughness = 140
+	pursuit = 0
+	screen = 45
+	counters = {
+		light_cavalry = 1
+		heavy_cavalry = 1
+		camel_cavalry = 0.5
+	}
+	terrain_bonus = {
+		mountains = { damage = 19 toughness = 27 screen = 8 }
+		taiga = { damage = 16 toughness = 24 screen = 8 }
+		hills = { damage = 14 toughness = 19 screen = 5 }
+
+		arctic = { damage = 14 toughness = 24 screen = 8 }
+	}
+	buy_cost = { gold = 255 }
+	low_maintenance_cost = { gold = 0.48 }
+	high_maintenance_cost = { gold = 1.44 }
+	provision_cost = @provisions_cost_infantry_moderate
+	stack = 50
+	ai_quality = { value = 200 }
+	icon = grey_elven_pikemen
+	allowed_in_hired_troops = no
+}
+
+cyredhil_scouts = {
+	type = skirmishers
+	access_through_subject = { lotr_orc_can_recruit_from_subject = no }
+	can_recruit = { culture = { has_innovation = innovation_cyredhil_warfare } }
+	damage = 100
+	toughness = 82
+	pursuit = 80
+	screen = 65
+	counters = {
+		heavy_infantry = 1
+		archer_cavalry = 0.5
+	}
+	terrain_bonus = {
+		taiga = { damage = 22 toughness = 22 pursuit = 22 screen = 22 }
+		forest = { damage = 22 toughness = 22 pursuit = 22 screen = 22 }
+		mountains = { damage = 14 toughness = 14 pursuit = 14 screen = 14 }
+
+		arctic = { damage = 22 toughness = 22 pursuit = 22 screen = 22 }
+	}
+	buy_cost = { gold = 245 }
+	low_maintenance_cost = { gold = 0.46 }
+	high_maintenance_cost = { gold = 1.38 }
+	provision_cost = @provisions_cost_infantry_cheap
+	stack = 50
+	ai_quality = { value = 200 }
+	icon = grey_elven_skirmishers
 	allowed_in_hired_troops = no
 }

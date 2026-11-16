@@ -1,0 +1,6 @@
+### Limit Annahir's invasion, war participation, and conquest to Forodwaith.
+tfw_santa_invasion_region = {
+	regions = {
+		middleearth_forodwaith
+	}
+}

@@ -1,0 +1,131 @@
+### Santa's opening war. Separate from all three original Sunset Invasion CBs.
+tfw_santa_invasion_cb = {
+	group = conquest
+	max_attacker_score_from_battles = 150
+	defender_ticking_warscore = 0.05
+	defender_ticking_warscore_delay = { months = 24 }
+	defender_score_from_occupation_scale = 20
+	attacker_score_from_battles_scale = 25
+	defender_score_from_battles_scale = 10
+	landless_attacker_needs_armies = yes
+	full_occupation_by_attacker_gives_victory = yes
+	full_occupation_by_defender_gives_victory = no
+	allow_hostages = no
+	white_peace_possible = no
+	combine_into_one = yes
+	should_show_war_goal_subview = yes
+	mutually_exclusive_titles = { always = no }
+	target_titles = all
+	target_title_tier = all
+	target_de_jure_regions_above = no
+	ignore_effect = change_title_holder
+	transfer_behavior = transfer
+	on_primary_attacker_death = inherit
+	on_primary_defender_death = inherit
+	attacker_allies_inherit = yes
+	defender_allies_inherit = yes
+	interface_priority = 100
+	use_de_jure_wargoal_only = yes
+	attacker_wargoal_percentage = 0.8
+
+	allowed_for_character = {
+		scope:attacker = {
+			has_variable = tfw_santa_invasion_character
+			has_variable = invasion_cb_unlock
+			NOT = { has_variable = lock_initial_invasion_cb }
+		}
+	}
+	war_name = "TFW_SANTA_HOST_LANDING_WAR_NAME"
+	war_name_base = "TFW_SANTA_HOST_LANDING_WAR_NAME"
+	cb_name = "TFW_SANTA_HOST_LANDING_CB_NAME"
+	valid_to_start = { }
+	should_invalidate = {
+		scope:attacker = { has_culture = culture:wastelands }
+		scope:defender = { has_culture = culture:wastelands }
+	}
+	on_invalidated_desc = msg_religious_war_invalidation_region_message
+	on_invalidated = { }
+	on_declaration = { on_declared_war = yes }
+	on_victory_desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { scope:attacker = { is_local_player = yes } }
+				desc = tfw_santa_invasion_victory_desc
+			}
+			desc = tfw_santa_invasion_victory_desc
+		}
+	}
+	on_victory = {
+		scope:attacker = { set_variable = lock_initial_invasion_cb }
+		every_county_in_region = {
+			region = tfw_santa_invasion_region
+			limit = {
+				OR = {
+					holder = scope:defender
+					holder.top_liege = scope:defender
+					holder.suzerain ?= scope:defender
+					holder.top_liege.suzerain ?= scope:defender
+				}
+				holder = { is_wastelands = no }
+				is_wastelands = no
+			}
+			add_to_list = initial_invasion_titles
+		}
+		sunset_invasion_opposite_alignment_vassal_transfer_effect = yes
+		sunset_invasion_same_alignment_vassal_transfer_effect = yes
+		sunset_invasion_neutral_faith_vassal_transfer_effect = yes
+		sunset_invasion_take_titles_held_by_defender_effect = yes
+		add_legitimacy_attacker_victory_effect = yes
+		scope:attacker = { show_pow_release_message_effect = yes }
+		save_scope_value_as = { name = cb_prestige_factor value = 1 }
+		modify_all_participants_fame_values = {
+			WINNER = scope:attacker
+			LOSER = scope:defender
+			FAME_BASE = scope:cb_prestige_factor
+			IS_RELIGIOUS_WAR = no
+			WINNER_FAME_SCALE = 10
+			LOSER_FAME_SCALE = -10
+			WINNER_ALLY_FAME_SCALE = 10
+			LOSER_ALLY_FAME_SCALE = 10
+		}
+		add_truce_attacker_victory_effect = yes
+		scope:attacker = { fp1_remember_recent_conquest_victory_effect = yes }
+		laamp_as_mercenary_payout_tooltip_effect = yes
+	}
+	on_white_peace_desc = { desc = WHITE_PEACE_DISABLED }
+	on_defeat_desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { scope:defender = { is_local_player = yes } }
+				desc = tfw_santa_invasion_defeat_desc
+			}
+			desc = tfw_santa_invasion_defeat_desc
+		}
+	}
+	on_defeat = {
+		add_legitimacy_attacker_defeat_effect = yes
+		scope:attacker = {
+			show_pow_release_message_effect = yes
+			pay_short_term_gold_reparations_effect = { GOLD_VALUE = 3 }
+			add_prestige = { value = major_prestige_value multiply = -1.0 }
+			hidden_effect = { destroy_title = title:h_tfw_santa_host }
+			remove_variable = tfw_santa_invasion_character
+		}
+		scope:defender = {
+			add_prestige_war_defender_effect = { PRESTIGE_VALUE = 2500 }
+		}
+		modify_allies_of_participants_fame_values = {
+			WINNER = scope:defender
+			FAME_BASE = 1250
+			IS_RELIGIOUS_WAR = no
+			WINNER_ALLY_FAME_SCALE = 1
+			LOSER_ALLY_FAME_SCALE = 1
+		}
+		add_truce_attacker_defeat_effect = yes
+		scope:attacker = { save_temporary_scope_as = loser }
+		on_lost_aggression_war_discontent_loss = yes
+		laamp_as_mercenary_payout_tooltip_effect = yes
+		sunset_invasion_defender_loses_initial_invasion_war_effect = yes
+		scope:attacker = { silent_disappearance_effect = yes }
+	}
+}
