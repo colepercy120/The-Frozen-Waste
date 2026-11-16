@@ -36,13 +36,13 @@ Do not add new on-actions or a parallel invasion scheduler. The source mod's exi
 
 The Santa implementation uses the same generic callbacks as the base invasions:
 
-- `tfw_santa_invasion_grab_landing_county`: save `c_aurora_isles_2` as `landing_county`.
+- `tfw_santa_invasion_grab_landing_county`: save `c_muilfalas_1` as `landing_county`.
 - `tfw_santa_invasion_spawn_character`: create the new Annahir and save him as `invader_char`.
 - `tfw_santa_invasion_landing_effect`: apply the generic landing setup to `h_tfw_santa_host` and spawn his army.
 - `tfw_santa_invasion_start_war`: declare `tfw_santa_invasion_cb` against `largest_realm_ruler`, using the generic participant effect.
 
 The extra custom prewar vassalization and replacement-target search are intentionally absent. Standard Sunset Invasion CB victory and subject-transfer effects apply.
 
-The invasion **references** but does not define `faith_santa` (in `lotr_elven_religion.txt`), the separate Giftlord tenet, `c_aurora_isles_2`, `maiar`, `lossidil`, `tfw_lineofnixni_001`, and the named men-at-arms. Preserve these dependencies or adapt them when porting.
+The invasion **references** but does not define `faith_santa` (in `lotr_elven_religion.txt`), the separate Giftlord tenet, `c_muilfalas_1`, `maiar`, `lossidil`, `tfw_lineofnixni_001`, and the named men-at-arms. Preserve these dependencies or adapt them when porting.
 
 No console-only test wrappers or additional diagnostic logging are included. Test the standard game-rule and random-intervention paths in a disposable save.

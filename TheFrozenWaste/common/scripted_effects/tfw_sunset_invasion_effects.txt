@@ -11,7 +11,7 @@ tfw_santa_invasion_effect = {
 }
 
 tfw_santa_invasion_grab_landing_county = {
-	title:c_aurora_isles_2 = { save_scope_as = landing_county }
+	title:c_muilfalas_1 = { save_scope_as = landing_county }
 }
 
 tfw_santa_invasion_spawn_character = {
@@ -21,7 +21,7 @@ tfw_santa_invasion_spawn_character = {
 		age = 100
 		gender = male
 		random_traits = no
-		location = title:c_aurora_isles_2.title_province
+		location = title:c_muilfalas_1.title_province
 		faith = faith:faith_santa
 		culture = culture:maiar
 		dynasty_house = house:house_tfw_santa
