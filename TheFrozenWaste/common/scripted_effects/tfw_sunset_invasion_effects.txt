@@ -56,8 +56,9 @@ tfw_santa_invasion_spawn_character = {
 		intrigue = 14
 		learning = 17
 		prowess = 10
-		save_scope_as = tfw_santa_spawned
 		after_creation = {
+			### Character is in scope here (create_character documentation).
+			save_scope_as = tfw_santa_spawned
 			copy_inheritable_appearance_from = scope:tfw_santa_template
 			### Nixni is another ancient Maia; use her current age, including TFW history corrections.
 			set_age = character:tfw_lineofnixni_001.age
@@ -113,6 +114,8 @@ tfw_santa_invasion_grant_initial_titles_effect = {
 				holder = scope:tfw_santa_spawned
 				change = scope:tfw_santa_initial_county_change
 				take_baronies = yes
+				### The original county holder supplies a valid landed government_base.
+				government_base = scope:landing_county.holder
 			}
 		}
 		resolve_title_and_vassal_change = scope:tfw_santa_initial_county_change
@@ -125,38 +128,14 @@ tfw_santa_invasion_grant_initial_titles_effect = {
 		debug_log = "TFW Sunset Invasion COUNTY GRANT FAIL: initial title transfer did not land Annahir."
 	}
 
-	### For an uncreated hegemony use a title-creation transfer rather than
-	### relying on the character-only get_title effect.
+	### get_title is the character effect used by the upstream landing helper.
+	### Grant the Jolly Host after the county, when Annahir is landed.
 	if = {
-		limit = { scope:tfw_santa_spawned = { NOT = { has_title = title:h_tfw_santa_host } } }
-		if = {
-			limit = { title:h_tfw_santa_host = { is_title_created = no } }
-			create_title_and_vassal_change = {
-				type = created
-				save_scope_as = tfw_santa_host_creation
-				add_claim_on_loss = no
-			}
-			title:h_tfw_santa_host = {
-				change_title_holder = {
-					holder = scope:tfw_santa_spawned
-					change = scope:tfw_santa_host_creation
-				}
-			}
-			resolve_title_and_vassal_change = scope:tfw_santa_host_creation
+		limit = {
+			title:c_aurora_isles_2 = { holder = scope:tfw_santa_spawned }
+			scope:tfw_santa_spawned = { NOT = { has_title = title:h_tfw_santa_host } }
 		}
-		else = {
-			create_title_and_vassal_change = {
-				type = usurped
-				save_scope_as = tfw_santa_host_usurpation
-			}
-			title:h_tfw_santa_host = {
-				change_title_holder = {
-					holder = scope:tfw_santa_spawned
-					change = scope:tfw_santa_host_usurpation
-				}
-			}
-			resolve_title_and_vassal_change = scope:tfw_santa_host_usurpation
-		}
+		scope:tfw_santa_spawned = { get_title = title:h_tfw_santa_host }
 	}
 	if = {
 		limit = { scope:tfw_santa_spawned = { has_title = title:h_tfw_santa_host } }
@@ -184,7 +163,8 @@ tfw_santa_invasion_landing_effect = {
 			NOT = { title:c_aurora_isles_2.holder = scope:tfw_santa_spawned }
 		}
 		create_title_and_vassal_change = {
-			type = returned
+			### conquest is explicitly listed among the valid transfer types in effects.log.
+			type = conquest
 			save_scope_as = tfw_santa_landing_change
 		}
 		title:c_aurora_isles_2 = {
@@ -192,6 +172,7 @@ tfw_santa_invasion_landing_effect = {
 				holder = scope:tfw_santa_spawned
 				change = scope:tfw_santa_landing_change
 				take_baronies = yes
+				government_base = scope:landing_county.holder
 			}
 		}
 		resolve_title_and_vassal_change = scope:tfw_santa_landing_change

@@ -408,6 +408,8 @@ sunset_invasion_general_landing_effect = {
 				holder = scope:invader_char
 				change = scope:change
 				take_baronies = yes
+				### Required when the invader begins unlanded (per effect documentation).
+				government_base = scope:landing_county.holder
 			}
 		}
 		resolve_title_and_vassal_change = scope:change
