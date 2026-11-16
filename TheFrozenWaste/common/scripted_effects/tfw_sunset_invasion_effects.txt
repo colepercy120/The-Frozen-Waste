@@ -3,17 +3,28 @@
 tfw_sunset_invasion_select_custom_invader_effect = {
 	if = {
 		limit = { geographical_region:$GEOGRAPHICAL_REGION$ = geographical_region:tfw_santa_invasion_region }
-		character:tfw_santa_001 = { save_scope_as = invader_char }
+		character:tfw_santa_001 = { save_scope_as = tfw_santa_template }
 	}
 }
 
+### Santa needs a newly created invader, not the dead character selected by the generic dispatcher.
+### Preserve the existing landing/war sub-effects but invoke them on the actual spawned character.
 tfw_santa_invasion_effect = {
-	sunset_invasion_general_effect = {
-		GEOGRAPHICAL_REGION = tfw_santa_invasion_region
-		GRAB_LANDING_COUNTY_EFFECT = tfw_santa_invasion_grab_landing_county
-		REVIVE_DEAD_CHARACTER_EFFECT = tfw_santa_invasion_spawn_character
-		INVASION_LANDING_EFFECT = tfw_santa_invasion_landing_effect
-		START_INVASION_WAR_EFFECT = tfw_santa_invasion_start_war
+	tfw_santa_invasion_grab_landing_county = yes
+	tfw_santa_invasion_spawn_character = yes
+	if = {
+		limit = {
+			exists = scope:tfw_santa_spawned
+			scope:tfw_santa_spawned = { is_alive = yes }
+		}
+		scope:tfw_santa_spawned = {
+			save_scope_as = invader_char
+			tfw_santa_invasion_landing_effect = yes
+			tfw_santa_invasion_start_war = yes
+		}
+	}
+	else = {
+		debug_log = "TFW Sunset Invasion ERROR: Annahir character creation returned no living invader."
 	}
 }
 
@@ -89,7 +100,42 @@ tfw_santa_invasion_landing_effect = {
 		PROVINCE_MODIFIER = tfw_santa_landing_modifier
 	}
 
-	scope:invader_char = {
+	### Assert that the new Annahir, rather than the historical dummy, owns the landing titles.
+	### Recover with explicit title transfer if the shared landing helper did not grant the county.
+	if = {
+		limit = {
+			NOT = { title:c_aurora_isles_2.holder = scope:tfw_santa_spawned }
+		}
+		create_title_and_vassal_change = {
+			type = returned
+			save_scope_as = tfw_santa_landing_change
+		}
+		title:c_aurora_isles_2 = {
+			change_title_holder = {
+				holder = scope:tfw_santa_spawned
+				change = scope:tfw_santa_landing_change
+				take_baronies = yes
+			}
+		}
+		resolve_title_and_vassal_change = scope:tfw_santa_landing_change
+	}
+	### The hegemony is titular; grant it directly once the county has been assigned.
+	if = {
+		limit = { scope:tfw_santa_spawned = { NOT = { has_title = title:h_tfw_santa_host } } }
+		scope:tfw_santa_spawned = { get_title = title:h_tfw_santa_host }
+	}
+	if = {
+		limit = {
+			title:c_aurora_isles_2.holder = scope:tfw_santa_spawned
+			scope:tfw_santa_spawned = { has_title = title:h_tfw_santa_host }
+		}
+		debug_log = "TFW Sunset Invasion LANDING PASS: new Annahir holds Aurora Isles 2 and the Jolly Host."
+	}
+	else = {
+		debug_log = "TFW Sunset Invasion LANDING FAIL: missing county or host title after explicit transfer."
+	}
+
+	scope:tfw_santa_spawned = {
 		set_variable = tfw_santa_invasion_character
 	}
 
@@ -293,12 +339,13 @@ tfw_test_santa_invasion_effect = {
 				is_alive = yes
 				NOT = { this = character:tfw_santa_001 }
 				has_title = title:h_tfw_santa_host
+				title:c_aurora_isles_2 = { holder = scope:tfw_santa_spawned }
 			}
 		}
-		debug_log = "TFW Sunset Invasion TEST PASS: a living Annahir was created and holds the Jolly Host."
+		debug_log = "TFW Sunset Invasion TEST PASS: new Annahir holds Aurora Isles 2 and the Jolly Host."
 	}
 	else = {
-		debug_log = "TFW Sunset Invasion TEST FAIL: Annahir was not saved as a living landed invader."
+		debug_log = "TFW Sunset Invasion TEST FAIL: new Annahir lacks Aurora Isles 2 or the Jolly Host."
 	}
 }
 
