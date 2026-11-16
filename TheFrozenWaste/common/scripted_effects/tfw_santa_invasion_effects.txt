@@ -55,6 +55,7 @@ tfw_santa_invasion_ensure_character = {
 			prowess = 10
 			save_scope_as = tfw_santa_reborn
 			after_creation = {
+				set_immortal_age = 100
 				add_character_flag = tfw_santa_appearance
 				add_trait_xp = { trait = winter_soldier value = 100 }
 				add_trait_xp = { trait = forest_fighter value = 100 }

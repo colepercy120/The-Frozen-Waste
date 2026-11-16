@@ -54,6 +54,9 @@ tfw_age_fixing = {
 		set_immortal_age = 20
 		change_age = 4312
 	}
+	character:tfw_santa_001 = {
+		set_immortal_age = 100
+	}
 	# Ancient elven age corrections
 
 	character:tfw_lineoffeanor_001 = { # Daughter of Caranthir, ~ -660
