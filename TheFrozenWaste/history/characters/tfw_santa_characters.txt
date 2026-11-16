@@ -1,5 +1,5 @@
 ### Annahir, Father Christmas, the Maiar Gift Lord.
-### Historical character isolated from the Kindly Host's existing founder.
+### Dead lowborn DNA, traits and skill template. Only the invasion creates the living Annahir.
 tfw_santa_001 = {
 	name = tfw_santa_001_name
 	religion = faith_santa
@@ -40,5 +40,8 @@ tfw_santa_001 = {
 			add_trait_xp = { trait = forest_fighter value = 100 }
 			add_trait_xp = { trait = lifestyle_mystic value = 100 }
 		}
+	}
+	2.2.2 = {
+		death = yes
 	}
 }

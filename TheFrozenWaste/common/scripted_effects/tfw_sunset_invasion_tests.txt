@@ -1,0 +1,102 @@
+### Choose the same largest independent realm as the normal five-year invasion event.
+tfw_test_invasions_select_target_effect = {
+	ordered_independent_ruler = {
+		limit = { is_wastelands = no }
+		order_by = {
+			value = 0
+			every_sub_realm_county = { add = 1 }
+			every_tributary = {
+				every_sub_realm_county = { add = 1 }
+				every_tributary = { every_sub_realm_county = { add = 1 } }
+			}
+		}
+		max = 1
+		save_scope_as = largest_realm_ruler
+	}
+}
+
+tfw_test_valinor_invasion_on_target_effect = {
+	sunset_invasion_general_effect = {
+		GEOGRAPHICAL_REGION = valinor_invasion_region
+		GRAB_LANDING_COUNTY_EFFECT = valinor_invasion_grab_landing_county
+		REVIVE_DEAD_CHARACTER_EFFECT = "#"
+		INVASION_LANDING_EFFECT = valinor_invasion_landing_effect
+		START_INVASION_WAR_EFFECT = valinor_invasion_start_invasion_war
+	}
+}
+
+tfw_test_pharazon_invasion_on_target_effect = {
+	sunset_invasion_general_effect = {
+		GEOGRAPHICAL_REGION = pharazon_invasion_region
+		GRAB_LANDING_COUNTY_EFFECT = pharazon_invasion_grab_landing_county
+		REVIVE_DEAD_CHARACTER_EFFECT = pharazon_invasion_revive_pharazon
+		INVASION_LANDING_EFFECT = pharazon_invasion_landing_effect
+		START_INVASION_WAR_EFFECT = pharazon_invasion_start_invasion_war
+	}
+}
+
+tfw_test_amav_invasion_on_target_effect = {
+	sunset_invasion_general_effect = {
+		GEOGRAPHICAL_REGION = amav_invasion_region
+		GRAB_LANDING_COUNTY_EFFECT = amav_invasion_grab_landing_county
+		REVIVE_DEAD_CHARACTER_EFFECT = amav_invasion_revive_amav
+		INVASION_LANDING_EFFECT = amav_invasion_landing_effect
+		START_INVASION_WAR_EFFECT = amav_invasion_start_invasion_war
+	}
+}
+
+tfw_test_santa_invasion_on_target_effect = {
+	tfw_santa_invasion_effect = yes
+}
+
+### Console: effect tfw_test_valinor_invasion_effect = yes
+tfw_test_valinor_invasion_effect = {
+	tfw_test_invasions_select_target_effect = yes
+	if = {
+		limit = { exists = scope:largest_realm_ruler }
+		scope:largest_realm_ruler = { tfw_test_valinor_invasion_on_target_effect = yes }
+	}
+}
+
+### Console: effect tfw_test_pharazon_invasion_effect = yes
+tfw_test_pharazon_invasion_effect = {
+	tfw_test_invasions_select_target_effect = yes
+	if = {
+		limit = { exists = scope:largest_realm_ruler }
+		scope:largest_realm_ruler = { tfw_test_pharazon_invasion_on_target_effect = yes }
+	}
+}
+
+### Console: effect tfw_test_amav_invasion_effect = yes
+tfw_test_amav_invasion_effect = {
+	tfw_test_invasions_select_target_effect = yes
+	if = {
+		limit = { exists = scope:largest_realm_ruler }
+		scope:largest_realm_ruler = { tfw_test_amav_invasion_on_target_effect = yes }
+	}
+}
+
+### Console: effect tfw_test_santa_invasion_effect = yes
+tfw_test_santa_invasion_effect = {
+	tfw_test_invasions_select_target_effect = yes
+	if = {
+		limit = { exists = scope:largest_realm_ruler }
+		scope:largest_realm_ruler = { tfw_test_santa_invasion_on_target_effect = yes }
+	}
+}
+
+### Console: effect tfw_test_all_sunset_invasions_effect = yes
+### Spawns all four invasions against one saved target regardless of game-rule thresholds.
+### Use the individual effects for isolated tests to avoid simultaneous wars over the same realm.
+tfw_test_all_sunset_invasions_effect = {
+	tfw_test_invasions_select_target_effect = yes
+	if = {
+		limit = { exists = scope:largest_realm_ruler }
+		scope:largest_realm_ruler = {
+			tfw_test_valinor_invasion_on_target_effect = yes
+			tfw_test_pharazon_invasion_on_target_effect = yes
+			tfw_test_amav_invasion_on_target_effect = yes
+			tfw_test_santa_invasion_on_target_effect = yes
+		}
+	}
+}

@@ -11,7 +11,7 @@ tfw_santa_invasion_effect = {
 	sunset_invasion_general_effect = {
 		GEOGRAPHICAL_REGION = tfw_santa_invasion_region
 		GRAB_LANDING_COUNTY_EFFECT = tfw_santa_invasion_grab_landing_county
-		REVIVE_DEAD_CHARACTER_EFFECT = tfw_santa_invasion_ensure_character
+		REVIVE_DEAD_CHARACTER_EFFECT = tfw_santa_invasion_spawn_character
 		INVASION_LANDING_EFFECT = tfw_santa_invasion_landing_effect
 		START_INVASION_WAR_EFFECT = tfw_santa_invasion_start_war
 	}
@@ -21,52 +21,47 @@ tfw_santa_invasion_grab_landing_county = {
 	title:c_frost_isles_8 = { save_scope_as = landing_county }
 }
 
-### Recreate Annahir when needed, retaining his personality, training and portrait.
-tfw_santa_invasion_ensure_character = {
-	if = {
-		limit = { character:tfw_santa_001 = { is_alive = no } }
-		create_character = {
-			age = 100
-			name = "Annahir"
-			gender_female_chance = 0
-			random_traits = no
-			location = title:c_frost_isles_8.title_province
-			dynasty = none
-			faith = faith:faith_santa
-			culture = culture:lossidil
-			trait = maiar
-			trait = gregarious
-			trait = generous
-			trait = eccentric
-			trait = deceitful
-			trait = education_learning_5
-			trait = intellect_good_3
-			trait = lifestyle_mystic
-			trait = schemer
-			trait = scholar
-			trait = twotreeslight
-			trait = winter_soldier
-			trait = forest_fighter
-			diplomacy = 10
-			martial = 9
-			stewardship = 9
-			intrigue = 14
-			learning = 17
-			prowess = 10
-			save_scope_as = tfw_santa_reborn
-			after_creation = {
-				copy_inheritable_appearance_from = character:tfw_santa_001
-				set_immortal_age = 100
-				add_character_flag = tfw_santa_appearance
-				add_trait_xp = { trait = winter_soldier value = 100 }
-				add_trait_xp = { trait = forest_fighter value = 100 }
-				add_trait_xp = { trait = lifestyle_mystic value = 100 }
+
+### Create a living Annahir from the dead historical appearance and trait template.
+tfw_santa_invasion_spawn_character = {
+	character:tfw_santa_001 = { save_scope_as = tfw_santa_template }
+	create_character = {
+		name = "Annahir"
+		age = 100
+		gender = male
+		random_traits = no
+		location = title:c_frost_isles_8.title_province
+		faith = faith:faith_santa
+		culture = culture:lossidil
+		dynasty_house = house:house_tfw_santa
+		trait = maiar
+		diplomacy = 10
+		martial = 9
+		stewardship = 9
+		intrigue = 14
+		learning = 17
+		prowess = 10
+		save_scope_as = tfw_santa_spawned
+		after_creation = {
+			copy_inheritable_appearance_from = scope:tfw_santa_template
+			copy_traits = scope:tfw_santa_template
+			### Retain WED's Legendary Mage rank if the startup event gave the dummy that trait.
+			if = {
+				limit = { has_trait = lifestyle_mage }
+				add_trait_xp = { trait = lifestyle_mage value = 101 }
 			}
+			set_immortal_age = 100
+			add_character_flag = tfw_santa_appearance
+			add_character_flag = do_not_generate_starting_family
+			add_character_flag = immune_to_disease
+			add_trait_xp = { trait = winter_soldier value = 100 }
+			add_trait_xp = { trait = forest_fighter value = 100 }
+			add_trait_xp = { trait = lifestyle_mystic value = 100 }
 		}
-		scope:tfw_santa_reborn = {
-			give_nickname = nick_tfw_father_christmas
-			save_scope_as = invader_char
-		}
+	}
+	scope:tfw_santa_spawned = {
+		give_nickname = nick_tfw_father_christmas
+		save_scope_as = invader_char
 	}
 }
 
