@@ -33,6 +33,7 @@ tfw_santa_001 = {
 	1.1.1 = {
 		birth = yes
 		effect = {
+			set_immortal_age = 100
 			add_character_flag = do_not_generate_starting_family
 			add_character_flag = immune_to_disease
 			add_character_flag = tfw_santa_appearance

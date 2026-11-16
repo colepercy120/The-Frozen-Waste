@@ -1,3 +1,5 @@
+### This file overrides the base game's complete sunset_invasions_rule.
+### Retain the zz_ prefix so it takes priority over other rule definitions.
 sunset_invasions_rule = {
 	default = valinor_intervention
 

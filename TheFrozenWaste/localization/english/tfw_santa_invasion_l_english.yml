@@ -19,3 +19,14 @@
  tfw_santa_invasion.0001.a: "A curious sort of generosity."
  dynn_tfw_santa: "Annahir"
  dynn_tfw_santa_motto: "Gifts to the Virtuous"
+
+  # Giftlord faith (previously in tfw_religion_l_english.yml)
+  faith_santa: "Anwantar"
+  faith_santa_adj: "Anwantar"
+  faith_santa_adherent: "Anwantarli"
+  faith_santa_adherent_plural: "Anwantarim"
+  faith_santa_desc: "An unusual sect devoted to a mysterious [maiargods|e] said to dwell at the North Pole. The Anwantar travel the world offering gifts to those in need. They value generosity above all else and seek to spread joy throughout [middleearth|e]."
+
+  # Giftlord tenet
+  tenet_giftlord_name: "Reverence for the Giftlord"
+  tenet_giftlord_desc: "This faith honors the [giftbringer|e], a mysterious [maiargods|e] said to dwell at the top of the world. Its followers celebrate midwinter with gifts and devote much of their wealth to charitable works."
