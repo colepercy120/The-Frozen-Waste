@@ -22,12 +22,12 @@ tfw_santa_001 = {
 	trait = winter_soldier
 	trait = forest_fighter
 
-	diplomacy = 10
-	martial = 9
-	stewardship = 9
-	intrigue = 14
-	learning = 17
-	prowess = 10
+	diplomacy = 8
+	martial = 7
+	stewardship = 7
+	intrigue = 11
+	learning = 14
+	prowess = 8
 	give_nickname = nick_tfw_father_christmas
 
 	1.1.1 = {
