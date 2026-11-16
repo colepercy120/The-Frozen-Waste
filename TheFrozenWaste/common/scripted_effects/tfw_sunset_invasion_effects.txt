@@ -1,6 +1,19 @@
 ### Annahir uses the base Sunset Invasion effect and its standard callbacks.
 ### The character-creation callback supplies invader_char for landing and war.
 tfw_santa_invasion_effect = {
+	ordered_independent_ruler = {
+            limit = { is_wastelands = no }
+            order_by = {
+                value = 0
+                every_sub_realm_county = { add = 1 }
+                every_tributary = {
+                    every_sub_realm_county = { add = 1 }
+                    every_tributary = { every_sub_realm_county = { add = 1 } } #In the event a tributary _gets_ a tributary
+                }
+            }
+            max = 1
+            save_scope_as = largest_realm_ruler
+        }
 	sunset_invasion_general_effect = {
 		GEOGRAPHICAL_REGION = tfw_santa_invasion_region
 		GRAB_LANDING_COUNTY_EFFECT = tfw_santa_invasion_grab_landing_county
