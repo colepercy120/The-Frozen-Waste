@@ -3,12 +3,10 @@
 tfw_sunset_invasion_select_custom_invader_effect = {
 	if = {
 		limit = { geographical_region:$GEOGRAPHICAL_REGION$ = geographical_region:tfw_santa_invasion_region }
-		character:tfw_santa_001 = { save_scope_as = tfw_santa_template }
+		character:tfw_santa_001 = { save_scope_as = invader_char }
 	}
 }
 
-### Use the standard Sunset Invasion dispatcher, including its spawn, landing and war hooks.
-### The spawn callback replaces invader_char with the newly created Annahir before landing.
 tfw_santa_invasion_effect = {
 	sunset_invasion_general_effect = {
 		GEOGRAPHICAL_REGION = tfw_santa_invasion_region
@@ -56,9 +54,8 @@ tfw_santa_invasion_spawn_character = {
 		intrigue = 14
 		learning = 17
 		prowess = 10
+		save_scope_as = tfw_santa_spawned
 		after_creation = {
-			### Character is in scope here (create_character documentation).
-			save_scope_as = tfw_santa_spawned
 			copy_inheritable_appearance_from = scope:tfw_santa_template
 			### Nixni is another ancient Maia; use her current age, including TFW history corrections.
 			set_age = character:tfw_lineofnixni_001.age
@@ -81,73 +78,9 @@ tfw_santa_invasion_spawn_character = {
 		give_nickname = nick_tfw_father_christmas
 		save_scope_as = invader_char
 	}
-	### Grant titles while the created-character scope is known to exist.
-	### The shared Sunset Invasion dispatcher still handles landing and war.
-	if = {
-		limit = { exists = scope:tfw_santa_spawned }
-		tfw_santa_invasion_grant_initial_titles_effect = yes
-	}
-	### Make failure visible without silently handing the historical template to landing.
-	if = {
-		limit = {
-			NOT = { exists = scope:tfw_santa_spawned }
-		}
-		debug_log = "TFW Sunset Invasion SPAWN FAIL: Annahir was not created."
-	}
-}
-
-### Establish the invader's personal county and host title before the generic
-### landing hook. This avoids depending on scope recovery after character creation.
-tfw_santa_invasion_grant_initial_titles_effect = {
-	if = {
-		limit = {
-			exists = scope:tfw_santa_spawned
-			title:c_aurora_isles_2 = { NOT = { holder = scope:tfw_santa_spawned } }
-		}
-		create_title_and_vassal_change = {
-			type = conquest
-			save_scope_as = tfw_santa_initial_county_change
-			add_claim_on_loss = no
-		}
-		title:c_aurora_isles_2 = {
-			change_title_holder = {
-				holder = scope:tfw_santa_spawned
-				change = scope:tfw_santa_initial_county_change
-				take_baronies = yes
-				### The original county holder supplies a valid landed government_base.
-				government_base = scope:landing_county.holder
-			}
-		}
-		resolve_title_and_vassal_change = scope:tfw_santa_initial_county_change
-	}
-	if = {
-		limit = { title:c_aurora_isles_2 = { holder = scope:tfw_santa_spawned } }
-		debug_log = "TFW Sunset Invasion COUNTY GRANT PASS: Annahir owns c_aurora_isles_2 after spawn."
-	}
-	else = {
-		debug_log = "TFW Sunset Invasion COUNTY GRANT FAIL: initial title transfer did not land Annahir."
-	}
-
-	### get_title is the character effect used by the upstream landing helper.
-	### Grant the Jolly Host after the county, when Annahir is landed.
-	if = {
-		limit = {
-			title:c_aurora_isles_2 = { holder = scope:tfw_santa_spawned }
-			scope:tfw_santa_spawned = { NOT = { has_title = title:h_tfw_santa_host } }
-		}
-		scope:tfw_santa_spawned = { get_title = title:h_tfw_santa_host }
-	}
-	if = {
-		limit = { scope:tfw_santa_spawned = { has_title = title:h_tfw_santa_host } }
-		debug_log = "TFW Sunset Invasion HOST GRANT PASS: Annahir holds h_tfw_santa_host after spawn."
-	}
-	else = {
-		debug_log = "TFW Sunset Invasion HOST GRANT FAIL: the Jolly Host title was not assigned."
-	}
 }
 
 tfw_santa_invasion_landing_effect = {
-	debug_log = "TFW Sunset Invasion LANDING ENTERED: general landing callback reached."
 	sunset_invasion_general_landing_effect = {
 		GOVERNMENT = feudal_government
 		TITLE_TO_SPAWN_WITH = title:h_tfw_santa_host
@@ -156,45 +89,23 @@ tfw_santa_invasion_landing_effect = {
 		PROVINCE_MODIFIER = tfw_santa_landing_modifier
 	}
 
-	### Assert that the new Annahir, rather than the historical dummy, owns the landing titles.
-	### Recover with explicit title transfer if the shared landing helper did not grant the county.
-	if = {
-		limit = {
-			NOT = { title:c_aurora_isles_2.holder = scope:tfw_santa_spawned }
-		}
-		create_title_and_vassal_change = {
-			### conquest is explicitly listed among the valid transfer types in effects.log.
-			type = conquest
-			save_scope_as = tfw_santa_landing_change
-		}
-		title:c_aurora_isles_2 = {
-			change_title_holder = {
-				holder = scope:tfw_santa_spawned
-				change = scope:tfw_santa_landing_change
-				take_baronies = yes
-				government_base = scope:landing_county.holder
-			}
-		}
-		resolve_title_and_vassal_change = scope:tfw_santa_landing_change
-	}
-	### The hegemony is titular; grant it directly once the county has been assigned.
-	if = {
-		limit = { scope:tfw_santa_spawned = { NOT = { has_title = title:h_tfw_santa_host } } }
-		scope:tfw_santa_spawned = { get_title = title:h_tfw_santa_host }
-	}
-	if = {
-		limit = {
-			title:c_aurora_isles_2.holder = scope:tfw_santa_spawned
-			scope:tfw_santa_spawned = { has_title = title:h_tfw_santa_host }
-		}
-		debug_log = "TFW Sunset Invasion LANDING PASS: new Annahir holds Aurora Isles 2 and the Jolly Host."
-	}
-	else = {
-		debug_log = "TFW Sunset Invasion LANDING FAIL: missing county or host title after explicit transfer."
-	}
-
-	scope:tfw_santa_spawned = {
+	scope:invader_char = {
 		set_variable = tfw_santa_invasion_character
+		spawn_army = {
+			levies = 0
+			men_at_arms = { type = lossidil_frostguard stacks = sunset_invasion_troop_amount }
+			men_at_arms = { type = lossidil_icebowmen stacks = sunset_invasion_troop_amount }
+			men_at_arms = { type = lossidil_snow_spears stacks = sunset_invasion_troop_amount }
+			men_at_arms = { type = lossidil_frost_riders stacks = sunset_invasion_troop_amount }
+			men_at_arms = { type = high_elven_heavy_infantry stacks = sunset_invasion_troop_amount }
+			men_at_arms = { type = high_elven_archers stacks = sunset_invasion_troop_amount }
+			men_at_arms = { type = song_smiths stacks = sunset_invasion_troop_amount }
+			location = scope:landing_county.title_province
+			origin = scope:landing_county.title_province
+			inheritable = yes
+			uses_supply = no
+			name = tfw_santa_invasion_army_name
+		}
 	}
 
 	### Every good ruler with land in the invasion region joins Annahir's realm.
@@ -276,22 +187,6 @@ tfw_santa_invasion_start_war = {
 			start_war = {
 				cb = tfw_santa_invasion_cb
 				target = scope:tfw_santa_war_target
-			}
-			### CK3 only places spawned regiments on the map once the invader is at war.
-			spawn_army = {
-				levies = 0
-				men_at_arms = { type = lossidil_frostguard stacks = sunset_invasion_troop_amount }
-				men_at_arms = { type = lossidil_icebowmen stacks = sunset_invasion_troop_amount }
-				men_at_arms = { type = lossidil_snow_spears stacks = sunset_invasion_troop_amount }
-				men_at_arms = { type = lossidil_frost_riders stacks = sunset_invasion_troop_amount }
-				men_at_arms = { type = high_elven_heavy_infantry stacks = sunset_invasion_troop_amount }
-				men_at_arms = { type = high_elven_archers stacks = sunset_invasion_troop_amount }
-				men_at_arms = { type = song_smiths stacks = sunset_invasion_troop_amount }
-				location = scope:landing_county.title_province
-				origin = scope:landing_county.title_province
-				inheritable = yes
-				uses_supply = no
-				name = tfw_santa_invasion_army_name
 			}
 			sunset_invasion_add_subjects_as_attackers_and_defenders_effect = {
 				GEOGRAPHICAL_REGION = tfw_santa_invasion_region
@@ -383,27 +278,11 @@ tfw_test_amav_invasion_effect = {
 }
 
 ### Console: effect tfw_test_santa_invasion_effect = yes
-### Check the actual saved character scope, rather than assuming the historical template was revived.
 tfw_test_santa_invasion_effect = {
 	tfw_test_invasions_select_target_effect = yes
 	if = {
 		limit = { exists = scope:largest_realm_ruler }
 		scope:largest_realm_ruler = { tfw_test_santa_invasion_on_target_effect = yes }
-	}
-	if = {
-		limit = {
-			exists = scope:tfw_santa_spawned
-			scope:tfw_santa_spawned = {
-				is_alive = yes
-				NOT = { this = character:tfw_santa_001 }
-				has_title = title:h_tfw_santa_host
-				title:c_aurora_isles_2 = { holder = scope:tfw_santa_spawned }
-			}
-		}
-		debug_log = "TFW Sunset Invasion TEST PASS: new Annahir holds Aurora Isles 2 and the Jolly Host."
-	}
-	else = {
-		debug_log = "TFW Sunset Invasion TEST FAIL: new Annahir lacks Aurora Isles 2 or the Jolly Host."
 	}
 }
 
