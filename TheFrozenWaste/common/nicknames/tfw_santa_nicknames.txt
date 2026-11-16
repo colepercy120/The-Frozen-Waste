@@ -1,1 +1,1 @@
-nick_tfw_gift_lord = {}
+nick_tfw_father_christmas = {}

@@ -21,13 +21,13 @@ tfw_santa_invasion_grab_landing_county = {
 	title:c_frost_isles_8 = { save_scope_as = landing_county }
 }
 
-### Preserve a playable invader even if the historical Santa was killed earlier.
+### Recreate Annahir when needed, retaining his personality, training and portrait.
 tfw_santa_invasion_ensure_character = {
 	if = {
 		limit = { character:tfw_santa_001 = { is_alive = no } }
 		create_character = {
 			age = 100
-			name = "Santa"
+			name = "Annahir"
 			gender_female_chance = 0
 			random_traits = no
 			location = title:c_frost_isles_8.title_province
@@ -35,21 +35,28 @@ tfw_santa_invasion_ensure_character = {
 			faith = faith:faith_santa
 			culture = culture:lossidil
 			trait = maiar
-			trait = generous
-			trait = compassionate
 			trait = gregarious
-			trait = just
-			trait = education_stewardship_5
-			diplomacy = 20
-			martial = 13
-			stewardship = 24
-			intrigue = 8
-			learning = 19
-			prowess = 12
+			trait = generous
+			trait = eccentric
+			trait = deceitful
+			trait = education_learning_5
+			trait = winter_soldier
+			trait = forest_fighter
+			diplomacy = 10
+			martial = 9
+			stewardship = 9
+			intrigue = 14
+			learning = 17
+			prowess = 10
 			save_scope_as = tfw_santa_reborn
+			after_creation = {
+				add_character_flag = tfw_santa_appearance
+				add_trait_xp = { trait = winter_soldier value = 100 }
+				add_trait_xp = { trait = forest_fighter value = 100 }
+			}
 		}
 		scope:tfw_santa_reborn = {
-			give_nickname = nick_tfw_gift_lord
+			give_nickname = nick_tfw_father_christmas
 			save_scope_as = invader_char
 		}
 	}

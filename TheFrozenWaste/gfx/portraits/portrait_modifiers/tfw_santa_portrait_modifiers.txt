@@ -1,0 +1,64 @@
+### Annahir's accessories, separate from shared historical portraits.
+tfw_santa_historical_accessories = {
+	usage = game
+	selection_behavior = max
+	priority = 2
+
+	annahir_portrait = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = special_headgear_spectacles
+				template = eye_bandage
+				accessory = male_headgear_special_eyepatch_bandage
+				type = male
+			}
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = barbershop_vanilla_hairstyles_base
+				accessory = male_hair_western_08
+				type = male
+			}
+			accessory = {
+				mode = add
+				gene = legwear
+				template = barbershop_legwear_base
+				accessory = male_legwear_secular_western_common_01
+				type = male
+			}
+			accessory = {
+				mode = add
+				gene = clothes
+				template = elven_low_clothes
+				accessory = male_clothes_secular_western_nobility_02_low
+				type = male
+			}
+			accessory = {
+				mode = add
+				gene = clothes_hoods
+				template = dunedain_war_headgear
+				accessory = male_hoods
+				type = male
+			}
+			accessory = {
+				mode = add
+				gene = beards
+				template = dwarven_beards
+				accessory = male_beard_fp1_05
+				type = male
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 9999
+				exists = this
+				OR = {
+					this = character:tfw_santa_001
+					has_character_flag = tfw_santa_appearance
+				}
+			}
+		}
+	}
+}

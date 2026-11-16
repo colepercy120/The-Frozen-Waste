@@ -288,7 +288,10 @@ lotr_war_events.0004 = {
                 }
             }
             tfw_santa_intervention = {
-                tfw_santa_invasion_effect = yes
+                if = {
+                    limit = { scope:largest_realm_ruler = { faith_is_evil = yes } }
+                    tfw_santa_invasion_effect = yes
+                }
             }
             random_intervention = {
                 random_list = {
@@ -312,7 +315,8 @@ lotr_war_events.0004 = {
                             START_INVASION_WAR_EFFECT = pharazon_invasion_start_invasion_war
                         }
                     }
-                    1 = { # Santa
+                    1 = { # Annahir, Father Christmas
+                        trigger = { scope:largest_realm_ruler = { faith_is_evil = yes } }
                         tfw_santa_invasion_effect = yes
                     }
                     1 = { #Amav
