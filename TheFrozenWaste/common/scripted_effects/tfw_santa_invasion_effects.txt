@@ -1,0 +1,103 @@
+### All custom invaders route through this extension hook.
+### Existing upstream Eonwe and Pharazon selection is not modified.
+tfw_sunset_invasion_select_custom_invader_effect = {
+	if = {
+		limit = { geographical_region:$GEOGRAPHICAL_REGION$ = geographical_region:tfw_santa_invasion_region }
+		character:tfw_santa_001 = { save_scope_as = invader_char }
+	}
+}
+
+tfw_santa_invasion_effect = {
+	sunset_invasion_general_effect = {
+		GEOGRAPHICAL_REGION = tfw_santa_invasion_region
+		GRAB_LANDING_COUNTY_EFFECT = tfw_santa_invasion_grab_landing_county
+		REVIVE_DEAD_CHARACTER_EFFECT = tfw_santa_invasion_ensure_character
+		INVASION_LANDING_EFFECT = tfw_santa_invasion_landing_effect
+		START_INVASION_WAR_EFFECT = tfw_santa_invasion_start_war
+	}
+}
+
+tfw_santa_invasion_grab_landing_county = {
+	title:c_frost_isles_8 = { save_scope_as = landing_county }
+}
+
+### Preserve a playable invader even if the historical Santa was killed earlier.
+tfw_santa_invasion_ensure_character = {
+	if = {
+		limit = { character:tfw_santa_001 = { is_alive = no } }
+		create_character = {
+			age = 100
+			name = "Santa"
+			gender_female_chance = 0
+			random_traits = no
+			location = title:c_frost_isles_8.title_province
+			dynasty = none
+			faith = faith:faith_santa
+			culture = culture:lossidil
+			trait = maiar
+			trait = generous
+			trait = compassionate
+			trait = gregarious
+			trait = just
+			trait = education_stewardship_5
+			diplomacy = 20
+			martial = 13
+			stewardship = 24
+			intrigue = 8
+			learning = 19
+			prowess = 12
+			save_scope_as = tfw_santa_reborn
+		}
+		scope:tfw_santa_reborn = {
+			give_nickname = nick_tfw_gift_lord
+			save_scope_as = invader_char
+		}
+	}
+}
+
+tfw_santa_invasion_landing_effect = {
+	sunset_invasion_general_landing_effect = {
+		GOVERNMENT = feudal_government
+		TITLE_TO_SPAWN_WITH = title:h_tfw_santa_host
+		LANDING_COUNTY_FAITH = faith:faith_santa
+		LANDING_COUNTY_CULTURE = culture:lossidil
+		PROVINCE_MODIFIER = tfw_santa_landing_modifier
+	}
+
+	scope:invader_char = {
+		set_variable = tfw_santa_invasion_character
+		spawn_army = {
+			levies = 0
+			men_at_arms = { type = lossidil_frostguard stacks = sunset_invasion_troop_amount }
+			men_at_arms = { type = lossidil_icebowmen stacks = sunset_invasion_troop_amount }
+			men_at_arms = { type = lossidil_snow_spears stacks = sunset_invasion_troop_amount }
+			men_at_arms = { type = lossidil_frost_riders stacks = sunset_invasion_troop_amount }
+			men_at_arms = { type = high_elven_heavy_infantry stacks = sunset_invasion_troop_amount }
+			men_at_arms = { type = high_elven_archers stacks = sunset_invasion_troop_amount }
+			men_at_arms = { type = song_smiths stacks = sunset_invasion_troop_amount }
+			location = scope:landing_county.title_province
+			origin = scope:landing_county.title_province
+			inheritable = yes
+			uses_supply = no
+			name = tfw_santa_invasion_army_name
+		}
+	}
+
+	if = {
+		limit = { NOT = { has_game_rule = no_news } }
+		every_player = { trigger_event = tfw_santa_invasion.0001 }
+	}
+	sunset_invasion_general_variables_effect = yes
+}
+
+tfw_santa_invasion_start_war = {
+	scope:invader_char = {
+		start_war = {
+			cb = tfw_santa_invasion_cb
+			target = scope:largest_realm_ruler
+		}
+		sunset_invasion_add_subjects_as_attackers_and_defenders_effect = {
+			GEOGRAPHICAL_REGION = tfw_santa_invasion_region
+		}
+	}
+}

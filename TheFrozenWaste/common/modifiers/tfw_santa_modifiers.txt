@@ -1,0 +1,4 @@
+tfw_santa_landing_modifier = {
+	icon = county_modifier_development_positive
+	development_growth = 1
+}

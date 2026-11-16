@@ -1,0 +1,1 @@
+nick_tfw_gift_lord = {}

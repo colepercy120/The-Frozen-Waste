@@ -1,0 +1,25 @@
+sunset_invasions_rule = {
+	default = valinor_intervention
+
+	categories = {
+		realms tweaks difficulty
+	}
+	
+	no_intervention = { flag = lotr_game_rule }
+
+	valinor_intervention = { flag = lotr_game_rule }
+
+	great_armament = { flag = lotr_game_rule }
+
+	# second_return_of_the_noldor = {
+	# }
+
+	# fleet_of_ciryatur = {
+	# }
+
+	second_coming_of_amav = { flag = lotr_game_rule }
+
+	tfw_santa_intervention = { flag = lotr_game_rule }
+	
+	random_intervention = { flag = lotr_game_rule }
+}

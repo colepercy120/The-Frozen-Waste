@@ -1,0 +1,29 @@
+### Santa, the Gift Lord. Separate from the Kindly Host's existing character history.
+tfw_santa_001 = {
+	name = tfw_santa_001_name
+	religion = faith_santa
+	culture = lossidil
+	sexuality = heterosexual
+	trait = maiar
+	trait = generous
+	trait = compassionate
+	trait = gregarious
+	trait = just
+	trait = education_stewardship_5
+	trait = winter_soldier
+	diplomacy = 20
+	martial = 13
+	stewardship = 24
+	intrigue = 8
+	learning = 19
+	prowess = 12
+	give_nickname = nick_tfw_gift_lord
+
+	1.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+			add_character_flag = immune_to_disease
+		}
+	}
+}

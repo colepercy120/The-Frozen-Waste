@@ -1,0 +1,8 @@
+### Santa arrives in Forodwaith, but challenges the realm dominating Middle-earth.
+### Include the main map as well as TFW's Northern counties so the defender always has a territorial war goal.
+tfw_santa_invasion_region = {
+	regions = {
+		middleearth
+		middleearth_forodwaith
+	}
+}
