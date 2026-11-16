@@ -80,6 +80,8 @@ tfw_santa_invasion_landing_effect = {
 	}
 
 	scope:invader_char = {
+		### The shared landing helper may leave a tribal landing ruler unchanged.
+		change_government = feudal_government
 		set_variable = tfw_santa_invasion_character
 		spawn_army = {
 			levies = 0
