@@ -80,6 +80,12 @@ tfw_santa_invasion_spawn_character = {
 		give_nickname = nick_tfw_father_christmas
 		save_scope_as = invader_char
 	}
+	### Grant titles while the created-character scope is known to exist.
+	### The shared Sunset Invasion dispatcher still handles landing and war.
+	if = {
+		limit = { exists = scope:tfw_santa_spawned }
+		tfw_santa_invasion_grant_initial_titles_effect = yes
+	}
 	### Make failure visible without silently handing the historical template to landing.
 	if = {
 		limit = {
@@ -89,7 +95,80 @@ tfw_santa_invasion_spawn_character = {
 	}
 }
 
+### Establish the invader's personal county and host title before the generic
+### landing hook. This avoids depending on scope recovery after character creation.
+tfw_santa_invasion_grant_initial_titles_effect = {
+	if = {
+		limit = {
+			exists = scope:tfw_santa_spawned
+			title:c_aurora_isles_2 = { NOT = { holder = scope:tfw_santa_spawned } }
+		}
+		create_title_and_vassal_change = {
+			type = conquest
+			save_scope_as = tfw_santa_initial_county_change
+			add_claim_on_loss = no
+		}
+		title:c_aurora_isles_2 = {
+			change_title_holder = {
+				holder = scope:tfw_santa_spawned
+				change = scope:tfw_santa_initial_county_change
+				take_baronies = yes
+			}
+		}
+		resolve_title_and_vassal_change = scope:tfw_santa_initial_county_change
+	}
+	if = {
+		limit = { title:c_aurora_isles_2 = { holder = scope:tfw_santa_spawned } }
+		debug_log = "TFW Sunset Invasion COUNTY GRANT PASS: Annahir owns c_aurora_isles_2 after spawn."
+	}
+	else = {
+		debug_log = "TFW Sunset Invasion COUNTY GRANT FAIL: initial title transfer did not land Annahir."
+	}
+
+	### For an uncreated hegemony use a title-creation transfer rather than
+	### relying on the character-only get_title effect.
+	if = {
+		limit = { scope:tfw_santa_spawned = { NOT = { has_title = title:h_tfw_santa_host } } }
+		if = {
+			limit = { title:h_tfw_santa_host = { is_title_created = no } }
+			create_title_and_vassal_change = {
+				type = created
+				save_scope_as = tfw_santa_host_creation
+				add_claim_on_loss = no
+			}
+			title:h_tfw_santa_host = {
+				change_title_holder = {
+					holder = scope:tfw_santa_spawned
+					change = scope:tfw_santa_host_creation
+				}
+			}
+			resolve_title_and_vassal_change = scope:tfw_santa_host_creation
+		}
+		else = {
+			create_title_and_vassal_change = {
+				type = usurped
+				save_scope_as = tfw_santa_host_usurpation
+			}
+			title:h_tfw_santa_host = {
+				change_title_holder = {
+					holder = scope:tfw_santa_spawned
+					change = scope:tfw_santa_host_usurpation
+				}
+			}
+			resolve_title_and_vassal_change = scope:tfw_santa_host_usurpation
+		}
+	}
+	if = {
+		limit = { scope:tfw_santa_spawned = { has_title = title:h_tfw_santa_host } }
+		debug_log = "TFW Sunset Invasion HOST GRANT PASS: Annahir holds h_tfw_santa_host after spawn."
+	}
+	else = {
+		debug_log = "TFW Sunset Invasion HOST GRANT FAIL: the Jolly Host title was not assigned."
+	}
+}
+
 tfw_santa_invasion_landing_effect = {
+	debug_log = "TFW Sunset Invasion LANDING ENTERED: general landing callback reached."
 	sunset_invasion_general_landing_effect = {
 		GOVERNMENT = feudal_government
 		TITLE_TO_SPAWN_WITH = title:h_tfw_santa_host
