@@ -7,24 +7,15 @@ tfw_sunset_invasion_select_custom_invader_effect = {
 	}
 }
 
-### Santa needs a newly created invader, not the dead character selected by the generic dispatcher.
-### Preserve the existing landing/war sub-effects but invoke them on the actual spawned character.
+### Use the standard Sunset Invasion dispatcher, including its spawn, landing and war hooks.
+### The spawn callback replaces invader_char with the newly created Annahir before landing.
 tfw_santa_invasion_effect = {
-	tfw_santa_invasion_grab_landing_county = yes
-	tfw_santa_invasion_spawn_character = yes
-	if = {
-		limit = {
-			exists = scope:tfw_santa_spawned
-			scope:tfw_santa_spawned = { is_alive = yes }
-		}
-		scope:tfw_santa_spawned = {
-			save_scope_as = invader_char
-			tfw_santa_invasion_landing_effect = yes
-			tfw_santa_invasion_start_war = yes
-		}
-	}
-	else = {
-		debug_log = "TFW Sunset Invasion ERROR: Annahir character creation returned no living invader."
+	sunset_invasion_general_effect = {
+		GEOGRAPHICAL_REGION = tfw_santa_invasion_region
+		GRAB_LANDING_COUNTY_EFFECT = tfw_santa_invasion_grab_landing_county
+		REVIVE_DEAD_CHARACTER_EFFECT = tfw_santa_invasion_spawn_character
+		INVASION_LANDING_EFFECT = tfw_santa_invasion_landing_effect
+		START_INVASION_WAR_EFFECT = tfw_santa_invasion_start_war
 	}
 }
 
@@ -88,6 +79,13 @@ tfw_santa_invasion_spawn_character = {
 	scope:tfw_santa_spawned = {
 		give_nickname = nick_tfw_father_christmas
 		save_scope_as = invader_char
+	}
+	### Make failure visible without silently handing the historical template to landing.
+	if = {
+		limit = {
+			NOT = { exists = scope:tfw_santa_spawned }
+		}
+		debug_log = "TFW Sunset Invasion SPAWN FAIL: Annahir was not created."
 	}
 }
 
