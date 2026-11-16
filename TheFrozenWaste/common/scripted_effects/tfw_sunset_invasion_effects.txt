@@ -91,21 +91,6 @@ tfw_santa_invasion_landing_effect = {
 
 	scope:invader_char = {
 		set_variable = tfw_santa_invasion_character
-		spawn_army = {
-			levies = 0
-			men_at_arms = { type = lossidil_frostguard stacks = sunset_invasion_troop_amount }
-			men_at_arms = { type = lossidil_icebowmen stacks = sunset_invasion_troop_amount }
-			men_at_arms = { type = lossidil_snow_spears stacks = sunset_invasion_troop_amount }
-			men_at_arms = { type = lossidil_frost_riders stacks = sunset_invasion_troop_amount }
-			men_at_arms = { type = high_elven_heavy_infantry stacks = sunset_invasion_troop_amount }
-			men_at_arms = { type = high_elven_archers stacks = sunset_invasion_troop_amount }
-			men_at_arms = { type = song_smiths stacks = sunset_invasion_troop_amount }
-			location = scope:landing_county.title_province
-			origin = scope:landing_county.title_province
-			inheritable = yes
-			uses_supply = no
-			name = tfw_santa_invasion_army_name
-		}
 	}
 
 	### Every good ruler with land in the invasion region joins Annahir's realm.
@@ -187,6 +172,22 @@ tfw_santa_invasion_start_war = {
 			start_war = {
 				cb = tfw_santa_invasion_cb
 				target = scope:tfw_santa_war_target
+			}
+			### CK3 only places spawned regiments on the map once the invader is at war.
+			spawn_army = {
+				levies = 0
+				men_at_arms = { type = lossidil_frostguard stacks = sunset_invasion_troop_amount }
+				men_at_arms = { type = lossidil_icebowmen stacks = sunset_invasion_troop_amount }
+				men_at_arms = { type = lossidil_snow_spears stacks = sunset_invasion_troop_amount }
+				men_at_arms = { type = lossidil_frost_riders stacks = sunset_invasion_troop_amount }
+				men_at_arms = { type = high_elven_heavy_infantry stacks = sunset_invasion_troop_amount }
+				men_at_arms = { type = high_elven_archers stacks = sunset_invasion_troop_amount }
+				men_at_arms = { type = song_smiths stacks = sunset_invasion_troop_amount }
+				location = scope:landing_county.title_province
+				origin = scope:landing_county.title_province
+				inheritable = yes
+				uses_supply = no
+				name = tfw_santa_invasion_army_name
 			}
 			sunset_invasion_add_subjects_as_attackers_and_defenders_effect = {
 				GEOGRAPHICAL_REGION = tfw_santa_invasion_region
@@ -278,11 +279,26 @@ tfw_test_amav_invasion_effect = {
 }
 
 ### Console: effect tfw_test_santa_invasion_effect = yes
+### Check the actual saved character scope, rather than assuming the historical template was revived.
 tfw_test_santa_invasion_effect = {
 	tfw_test_invasions_select_target_effect = yes
 	if = {
 		limit = { exists = scope:largest_realm_ruler }
 		scope:largest_realm_ruler = { tfw_test_santa_invasion_on_target_effect = yes }
+	}
+	if = {
+		limit = {
+			exists = scope:tfw_santa_spawned
+			scope:tfw_santa_spawned = {
+				is_alive = yes
+				NOT = { this = character:tfw_santa_001 }
+				has_title = title:h_tfw_santa_host
+			}
+		}
+		debug_log = "TFW Sunset Invasion TEST PASS: a living Annahir was created and holds the Jolly Host."
+	}
+	else = {
+		debug_log = "TFW Sunset Invasion TEST FAIL: Annahir was not saved as a living landed invader."
 	}
 }
 
