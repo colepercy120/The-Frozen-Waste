@@ -8,6 +8,13 @@ tfw_santa_historical_accessories = {
 		dna_modifiers = {
 			accessory = {
 				mode = add
+				gene = beards
+				template = dwarven_beards
+				accessory = male_beard_rtt_01
+				type = male
+			}
+			accessory = {
+				mode = add
 				gene = cloaks
 				template = barbershop_cloaks_lotr
 				accessory = male_furs_polar_03
@@ -23,36 +30,22 @@ tfw_santa_historical_accessories = {
 			accessory = {
 				mode = add
 				gene = legwear
-				template = barbershop_legwear_base
-				accessory = male_legwear_secular_western_common_01
+				template = barbershop_legwear_lotr
+				accessory = male_legwear_elven_war_galadhrim_01
 				type = male
 			}
 			accessory = {
 				mode = add
 				gene = clothes
-				template = vale_woodmen_war_clothes
-				accessory = male_clothes_secular_fp1_war_nobility_01
+				template = elven_war_galadhrim_clothes
+				accessory = male_clothes_elven_war_galadhrim_01
 				type = male
 			}
 			accessory = {
 				mode = add
 				gene = headgear
-				template = woodmen_high_headgear
-				accessory = male_headgear_secular_fp1_nobility_01
-				type = male
-			}
-			accessory = {
-				mode = add
-				gene = clothes_hoods
-				template = dunedain_war_headgear
-				accessory = male_hoods
-				type = male
-			}
-			accessory = {
-				mode = add
-				gene = beards
-				template = dwarven_beards
-				accessory = male_beard_rtt_01
+				template = eastern_dwarf_low_headgear
+				accessory = male_headgear_epe_eastern_dwarf_lo_nob_02
 				type = male
 			}
 			accessory = {
