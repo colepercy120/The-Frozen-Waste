@@ -9,6 +9,7 @@ tfw_santa_001 = {
 	disallow_random_traits = yes
 
 	trait = maiar
+	trait = one_eyed
 	trait = gregarious
 	trait = generous
 	trait = eccentric

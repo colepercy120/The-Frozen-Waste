@@ -39,6 +39,7 @@ tfw_santa_invasion_spawn_character = {
 		culture = culture:maiar
 		dynasty_house = house:house_tfw_santa
 		trait = maiar
+		trait = one_eyed
 		trait = gregarious
 		trait = generous
 		trait = eccentric
