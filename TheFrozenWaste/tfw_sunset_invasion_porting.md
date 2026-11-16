@@ -41,7 +41,7 @@ The Santa implementation uses the same generic callbacks as the base invasions:
 - `tfw_santa_invasion_landing_effect`: apply the generic landing setup to `h_tfw_santa_host` and spawn his army.
 - `tfw_santa_invasion_start_war`: declare `tfw_santa_invasion_cb` against `largest_realm_ruler`, using the generic participant effect.
 
-The extra custom prewar vassalization and replacement-target search are intentionally absent. Standard Sunset Invasion CB victory and subject-transfer effects apply.
+After the generic landing grants Annahir his host title, `tfw_santa_vassalize_independent_good_rulers_effect` transfers independent, good-aligned rulers with at least one county inside `middleearth_forodwaith` into his realm. It excludes existing vassals, Annahir himself, and rulers who cannot be vassalized under a hegemony. The global replacement-target search remains absent. Standard Sunset Invasion CB victory and subject-transfer effects apply within the restricted region.
 
 The invasion **references** but does not define `faith_santa` (in `lotr_elven_religion.txt`), the separate Giftlord tenet, `c_muilfalas_1`, `maiar`, `lossidil`, `tfw_lineofnixni_001`, and the named men-at-arms. Preserve these dependencies or adapt them when porting.
 
