@@ -1,6 +1,6 @@
 ### Titular host title used only for the Gift Lord invasion.
 h_tfw_santa_host = {
 	color = { 182 35 42 }
-	capital = c_frost_isles_8
+	capital = c_aurora_isles_2
 	always_follows_primary_heir = yes
 }

@@ -1,6 +1,6 @@
 ### Father Christmas's dynasty, founded by the spawned invader only.
 dynasty_tfw_santa = {
 	name = "dynn_tfw_santa"
-	culture = "lossidil"
+	culture = "maiar"
 	motto = dynn_tfw_santa_motto
 }

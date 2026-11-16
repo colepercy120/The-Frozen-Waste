@@ -29,10 +29,15 @@ tfw_santa_invasion_cb = {
 	attacker_wargoal_percentage = 0.8
 
 	allowed_for_character = {
-		scope:attacker = {
-			has_variable = tfw_santa_invasion_character
-			has_variable = invasion_cb_unlock
-			NOT = { has_variable = lock_initial_invasion_cb }
+		has_variable = tfw_santa_invasion_character
+		has_variable = invasion_cb_unlock
+		NOT = { has_variable = lock_initial_invasion_cb }
+	}
+	allowed_against_character = {
+		scope:defender = {
+			is_alive = yes
+			is_landed = yes
+			faith_is_evil = yes
 		}
 	}
 	war_name = "TFW_SANTA_HOST_LANDING_WAR_NAME"

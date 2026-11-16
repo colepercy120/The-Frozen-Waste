@@ -3,7 +3,7 @@
 tfw_santa_001 = {
 	name = tfw_santa_001_name
 	religion = faith_santa
-	culture = lossidil
+	culture = maiar
 	dna = tfw_santa_dna
 	sexuality = heterosexual
 	disallow_random_traits = yes
