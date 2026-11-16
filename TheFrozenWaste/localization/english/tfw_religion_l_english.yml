@@ -46,6 +46,13 @@ l_english:
   faith_eternal_vigil_adherent_plural: "Tirítli"
   faith_eternal_vigil_desc: "The [elves|e] of the Vigil, the Tirítli, remain watchful against the return of darkness, seeking to destroy the Shadow wherever it arises. Many survived the wars of the [elderdays|e] and spend much of their time near the ruins of [angband|e]."
 
+  # Santa / Giftlord Faith
+  faith_santa: "Anwantar"
+  faith_santa_adj: "Anwantar"
+  faith_santa_adherent: "Anwantarli"
+  faith_santa_adherent_plural: "Anwantarim"
+  faith_santa_desc: "An unusual sect devoted to a mysterious [maiargods|e] said to dwell at the North Pole. The Anwantar travel the world offering gifts to those in need. They value generosity above all else and seek to spread joy throughout [middleearth|e]."
+
   # ============================================================
   # Northern Elven Tenets
   # ============================================================
@@ -53,6 +60,10 @@ l_english:
   # Elven Preservation
   tenet_elven_preservation_name: "Elven Renewal"
   tenet_elven_preservation_desc: "The seasons change and the world grows old, but that does not diminish the value of building anew. Nothing, not even the [eldar|e], truly lasts forever. This faith holds creation, and especially restoration, in particular reverence."
+
+  # Giftlord
+  tenet_giftlord_name: "Reverence for the Giftlord"
+  tenet_giftlord_desc: "This faith honors the [giftbringer|e], a mysterious [maiargods|e] said to dwell at the top of the world. Its followers celebrate midwinter with gifts and devote much of their wealth to charitable works."
 
   # World Shapers
   tenet_world_shapers_name: "Primacy of the World Shapers"
