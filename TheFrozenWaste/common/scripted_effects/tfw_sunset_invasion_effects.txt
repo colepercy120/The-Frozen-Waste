@@ -1,12 +1,5 @@
-### All custom invaders route through this extension hook.
-### Existing upstream Eonwe and Pharazon selection is not modified.
-tfw_sunset_invasion_select_custom_invader_effect = {
-	if = {
-		limit = { geographical_region:$GEOGRAPHICAL_REGION$ = geographical_region:tfw_santa_invasion_region }
-		character:tfw_santa_001 = { save_scope_as = invader_char }
-	}
-}
-
+### Annahir uses the base Sunset Invasion effect and its standard callbacks.
+### The character-creation callback supplies invader_char for landing and war.
 tfw_santa_invasion_effect = {
 	sunset_invasion_general_effect = {
 		GEOGRAPHICAL_REGION = tfw_santa_invasion_region
@@ -21,9 +14,6 @@ tfw_santa_invasion_grab_landing_county = {
 	title:c_aurora_isles_2 = { save_scope_as = landing_county }
 }
 
-
-### Recreate Annahir using the dead historical character as his DNA template.
-### The trait list and base attributes mirror the dummy, following Pharazon's revival pattern.
 tfw_santa_invasion_spawn_character = {
 	character:tfw_santa_001 = { save_scope_as = tfw_santa_template }
 	create_character = {
@@ -108,9 +98,6 @@ tfw_santa_invasion_landing_effect = {
 		}
 	}
 
-	### Every good ruler with land in the invasion region joins Annahir's realm.
-	tfw_santa_vassalize_good_rulers_effect = yes
-
 	if = {
 		limit = { NOT = { has_game_rule = no_news } }
 		every_player = { trigger_event = tfw_santa_invasion.0001 }
@@ -118,186 +105,15 @@ tfw_santa_invasion_landing_effect = {
 	sunset_invasion_general_variables_effect = yes
 }
 
-### Transfer good regional rulers to the Gift Lord after he gains his host title.
-### Applies to independent rulers and good-aligned vassals of evil overlords.
-tfw_santa_vassalize_good_rulers_effect = {
-	every_ruler = {
-		limit = {
-			faith_is_good = yes
-			is_landed = yes
-			is_wastelands = no
-			highest_held_title_tier < tier_hegemony
-			NOT = { this = scope:invader_char }
-			NOT = { is_vassal_or_below_of = scope:invader_char }
-			any_sub_realm_county = { geographical_region = tfw_santa_invasion_region }
-		}
-		create_title_and_vassal_change = {
-			type = swear_fealty
-			save_scope_as = tfw_santa_fealty_change
-		}
-		change_liege = {
-			liege = scope:invader_char
-			change = scope:tfw_santa_fealty_change
-		}
-		resolve_title_and_vassal_change = scope:tfw_santa_fealty_change
-	}
-}
-
-### The normal event supplies an evil largest ruler; console tests may not.
-### Select a different evil realm when the original target is no longer eligible.
-tfw_santa_select_war_target_effect = {
-	if = {
-		limit = {
-			exists = scope:largest_realm_ruler
-			scope:largest_realm_ruler = {
-				is_alive = yes
-				is_independent_ruler = yes
-				is_landed = yes
-				faith_is_evil = yes
-			}
-		}
-		scope:largest_realm_ruler = { save_scope_as = tfw_santa_war_target }
-	}
-	else = {
-		ordered_independent_ruler = {
-			limit = {
-				is_wastelands = no
-				is_landed = yes
-				faith_is_evil = yes
-				any_sub_realm_county = { geographical_region = tfw_santa_invasion_region }
-			}
-			order_by = {
-				value = 0
-				every_sub_realm_county = { add = 1 }
-			}
-			max = 1
-			save_scope_as = tfw_santa_war_target
-		}
-	}
-}
-
-### Declare against the chosen evil ruler, matching the other Sunset Invasions.
 tfw_santa_invasion_start_war = {
-	tfw_santa_select_war_target_effect = yes
-	if = {
-		limit = { exists = scope:tfw_santa_war_target }
-		### The shared defender/attacker recruitment uses largest_realm_ruler.
-		scope:tfw_santa_war_target = { save_scope_as = largest_realm_ruler }
-		scope:invader_char = {
-			start_war = {
-				cb = tfw_santa_invasion_cb
-				target = scope:tfw_santa_war_target
-			}
-			sunset_invasion_add_subjects_as_attackers_and_defenders_effect = {
-				GEOGRAPHICAL_REGION = tfw_santa_invasion_region
-			}
-			create_story = story_conqueror
+	scope:invader_char = {
+		start_war = {
+			cb = tfw_santa_invasion_cb
+			target = scope:largest_realm_ruler
 		}
-	}
-}
-
-### Console testing helpers for all four Sunset Invasions.
-### Individual entry points and the combined test are kept here for portability.
-
-### Choose the same largest independent realm as the normal five-year invasion event.
-tfw_test_invasions_select_target_effect = {
-	ordered_independent_ruler = {
-		limit = { is_wastelands = no }
-		order_by = {
-			value = 0
-			every_sub_realm_county = { add = 1 }
-			every_tributary = {
-				every_sub_realm_county = { add = 1 }
-				every_tributary = { every_sub_realm_county = { add = 1 } }
-			}
+		sunset_invasion_add_subjects_as_attackers_and_defenders_effect = {
+			GEOGRAPHICAL_REGION = tfw_santa_invasion_region
 		}
-		max = 1
-		save_scope_as = largest_realm_ruler
-	}
-}
-
-tfw_test_valinor_invasion_on_target_effect = {
-	sunset_invasion_general_effect = {
-		GEOGRAPHICAL_REGION = valinor_invasion_region
-		GRAB_LANDING_COUNTY_EFFECT = valinor_invasion_grab_landing_county
-		REVIVE_DEAD_CHARACTER_EFFECT = "#"
-		INVASION_LANDING_EFFECT = valinor_invasion_landing_effect
-		START_INVASION_WAR_EFFECT = valinor_invasion_start_invasion_war
-	}
-}
-
-tfw_test_pharazon_invasion_on_target_effect = {
-	sunset_invasion_general_effect = {
-		GEOGRAPHICAL_REGION = pharazon_invasion_region
-		GRAB_LANDING_COUNTY_EFFECT = pharazon_invasion_grab_landing_county
-		REVIVE_DEAD_CHARACTER_EFFECT = pharazon_invasion_revive_pharazon
-		INVASION_LANDING_EFFECT = pharazon_invasion_landing_effect
-		START_INVASION_WAR_EFFECT = pharazon_invasion_start_invasion_war
-	}
-}
-
-tfw_test_amav_invasion_on_target_effect = {
-	sunset_invasion_general_effect = {
-		GEOGRAPHICAL_REGION = amav_invasion_region
-		GRAB_LANDING_COUNTY_EFFECT = amav_invasion_grab_landing_county
-		REVIVE_DEAD_CHARACTER_EFFECT = amav_invasion_revive_amav
-		INVASION_LANDING_EFFECT = amav_invasion_landing_effect
-		START_INVASION_WAR_EFFECT = amav_invasion_start_invasion_war
-	}
-}
-
-tfw_test_santa_invasion_on_target_effect = {
-	tfw_santa_invasion_effect = yes
-}
-
-### Console: effect tfw_test_valinor_invasion_effect = yes
-tfw_test_valinor_invasion_effect = {
-	tfw_test_invasions_select_target_effect = yes
-	if = {
-		limit = { exists = scope:largest_realm_ruler }
-		scope:largest_realm_ruler = { tfw_test_valinor_invasion_on_target_effect = yes }
-	}
-}
-
-### Console: effect tfw_test_pharazon_invasion_effect = yes
-tfw_test_pharazon_invasion_effect = {
-	tfw_test_invasions_select_target_effect = yes
-	if = {
-		limit = { exists = scope:largest_realm_ruler }
-		scope:largest_realm_ruler = { tfw_test_pharazon_invasion_on_target_effect = yes }
-	}
-}
-
-### Console: effect tfw_test_amav_invasion_effect = yes
-tfw_test_amav_invasion_effect = {
-	tfw_test_invasions_select_target_effect = yes
-	if = {
-		limit = { exists = scope:largest_realm_ruler }
-		scope:largest_realm_ruler = { tfw_test_amav_invasion_on_target_effect = yes }
-	}
-}
-
-### Console: effect tfw_test_santa_invasion_effect = yes
-tfw_test_santa_invasion_effect = {
-	tfw_test_invasions_select_target_effect = yes
-	if = {
-		limit = { exists = scope:largest_realm_ruler }
-		scope:largest_realm_ruler = { tfw_test_santa_invasion_on_target_effect = yes }
-	}
-}
-
-### Console: effect tfw_test_all_sunset_invasions_effect = yes
-### Spawns all four invasions against one saved target regardless of game-rule thresholds.
-### Use the individual effects for isolated tests to avoid simultaneous wars over the same realm.
-tfw_test_all_sunset_invasions_effect = {
-	tfw_test_invasions_select_target_effect = yes
-	if = {
-		limit = { exists = scope:largest_realm_ruler }
-		scope:largest_realm_ruler = {
-			tfw_test_valinor_invasion_on_target_effect = yes
-			tfw_test_pharazon_invasion_on_target_effect = yes
-			tfw_test_amav_invasion_on_target_effect = yes
-			tfw_test_santa_invasion_on_target_effect = yes
-		}
+		create_story = story_conqueror
 	}
 }

@@ -406,9 +406,5 @@ lotr_war_events.0007 = {
 				}
 			}
 		}
-        else_if = { # Santa
-            limit = { scope:sunset_invasion_santa = yes }
-            scope:largest_realm_ruler = { tfw_santa_invasion_effect = yes }
-        }
     }
 }

@@ -1,15 +1,16 @@
-# TFW Sunset Invasion: Porting and expansion guide
+# TFW Sunset Invasion: minimal base-system integration
 
-The portable unit is the **Sunset Invasion framework**, not the Santa faith or tenet. All package filenames use `tfw_sunset_invasion` (except the `zz_` load-order prefix on game rules). Existing `tfw_santa_` keys remain Santa-option-specific so more invasion options can coexist.
+This package adds Annahir (Father Christmas) as a new invasion option. It **uses the source mod's existing Sunset Invasion scripted effects** rather than copying or modifying them.
 
-## Copy these 15 files into the corresponding mod paths
+## Required files
+
+Keep these Annahir-specific files in their respective mod directories:
 
 - `common/casus_belli_types/tfw_sunset_invasion_cb.txt`
 - `common/coat_of_arms/coat_of_arms/tfw_sunset_invasion_title_coa.txt`
 - `common/dna_data/tfw_sunset_invasion_dna.txt`
 - `common/dynasties/tfw_sunset_invasion_dynasties.txt`
 - `common/dynasty_houses/tfw_sunset_invasion_houses.txt`
-- `common/game_rules/zz_tfw_sunset_invasion_game_rules.txt`
 - `common/landed_titles/tfw_sunset_invasion_titles.txt`
 - `common/modifiers/tfw_sunset_invasion_modifiers.txt`
 - `common/nicknames/tfw_sunset_invasion_nicknames.txt`
@@ -20,46 +21,28 @@ The portable unit is the **Sunset Invasion framework**, not the Santa faith or t
 - `localization/english/tfw_sunset_invasion_l_english.yml`
 - `map_data/geographical_regions/tfw_sunset_invasion_regions.txt`
 
-The coats of arms for both the Jolly Host title and Annahir's dynasty are in one file. The scripted effects file includes a shared custom-invader dispatcher, the Santa option, and individual/combined console invasion test effects. Add new invaders to these same category-specific files with their own unique scripted IDs.
+**Do not copy** `common/scripted_effects/lotr_effects/lotr_sunset_invasion_effects.txt` into TFW or other companion mods. The source mod supplies `sunset_invasion_general_effect`, `sunset_invasion_general_landing_effect`, `sunset_invasion_general_variables_effect`, and the war-participant effects. Annahir's spawn callback saves the new character as `invader_char` for those effects.
 
-## Shared `lotr_` integration (merge into destination overrides)
+## Two necessary integrations with source definitions
 
-- `common/scripted_effects/lotr_effects/lotr_sunset_invasion_effects.txt`: the common `sunset_invasion_general_effect` must call `tfw_sunset_invasion_select_custom_invader_effect` when choosing custom invaders; the common spawn/landing/start-war parameter hooks remain in use.
-- `events/lotr_events/lotr_war_events.txt`: intervention game-rule and random choices dispatch Santa to `tfw_santa_invasion_effect`, including the debug event.
+These cannot be extended by adding a separate, same-named definition. Keep them synchronized with the corresponding source-mod file when upgrading:
 
-The provided `common/game_rules/zz_tfw_sunset_invasion_game_rules.txt` declares the complete `sunset_invasions_rule` including the `tfw_santa_intervention` option. **Merge other projects' choices** into that definition instead of loading duplicate rule definitions.
+1. `common/game_rules/zz_tfw_sunset_invasion_game_rules.txt` extends the existing `sunset_invasions_rule` with `tfw_santa_intervention`. It must preserve all original options.
+2. `events/lotr_events/lotr_war_events.txt` adds `tfw_santa_invasion_effect = yes` to the `tfw_santa_intervention` case and adds Annahir to `random_intervention`. All existing events and invaders remain unchanged. The source mod's debug event needs no Santa-specific branch.
 
-To expand, add a unique option-specific effect to `tfw_sunset_invasion_effects.txt`, extend the shared invader selection hook where necessary, add its game rule choice, and wire its `lotr_war_events.txt` dispatch. Santa-specific character/CB/content IDs remain unchanged.
+Do not add new on-actions or a parallel invasion scheduler. The source mod's existing invasion trigger event continues to decide when to run.
 
-## Excluded: faith and tenet are separate content
+## Design and dependencies
 
-**Do not port the following as part of the invasion package:**
+The Santa implementation uses the same generic callbacks as the base invasions:
 
-- `tenet_giftlord`: stays in `common/religion/doctrine_types/tfw_tenets.txt`.
-- `faith_santa`: defined in the base-elven-religion override `common/religion/religion_types/lotr_elven_religion.txt`.
-- Faith and tenet localization `faith_santa*` and `tenet_giftlord_*`: stays in `localization/english/tfw_religion_l_english.yml`.
-- Faith icon `gfx/interface/icons/faith/giftlord.dds`: stays with religious content.
+- `tfw_santa_invasion_grab_landing_county`: save `c_aurora_isles_2` as `landing_county`.
+- `tfw_santa_invasion_spawn_character`: create the new Annahir and save him as `invader_char`.
+- `tfw_santa_invasion_landing_effect`: apply the generic landing setup to `h_tfw_santa_host` and spawn his army.
+- `tfw_santa_invasion_start_war`: declare `tfw_santa_invasion_cb` against `largest_realm_ruler`, using the generic participant effect.
 
-The invasion **references** the faith, so a destination project must supply it independently. No Giftlord tenet/faith code is included in this package.
+The extra custom prewar vassalization and replacement-target search are intentionally absent. Standard Sunset Invasion CB victory and subject-transfer effects apply.
 
-## External identifiers to verify in the destination
+The invasion **references** but does not define `faith_santa` (in `lotr_elven_religion.txt`), the separate Giftlord tenet, `c_aurora_isles_2`, `maiar`, `lossidil`, `tfw_lineofnixni_001`, and the named men-at-arms. Preserve these dependencies or adapt them when porting.
 
-- Landing and capital: `c_aurora_isles_2`. Package defines `h_tfw_santa_host` and `tfw_santa_invasion_region`.
-- Source regions: `middleearth` and `middleearth_forodwaith`.
-- Cultures: `maiar` for Annahir, `lossidil` for the landing county.
-- Reference character: `tfw_lineofnixni_001` (used to copy Annahir's chronological age; immortal age is 100).
-- Faith: `faith_santa`, provided separately from the invasion.
-- Invader troops: `lossidil_frostguard`, `lossidil_icebowmen`, `lossidil_snow_spears`, `lossidil_frost_riders`, `high_elven_heavy_infantry`, `high_elven_archers`, `song_smiths`.
-- Optional WED: the dead historical template `tfw_santa_001` may receive `lifestyle_mage` via WED's startup setup; its spawned counterpart gets XP if that trait exists.
-
-Other common base-mod traits, modifiers, script effects, and army definitions must exist or be adapted.
-
-## Console tests
-
-- Santa: `effect tfw_test_santa_invasion_effect = yes`
-- Valinor: `effect tfw_test_valinor_invasion_effect = yes`
-- Pharazôn: `effect tfw_test_pharazon_invasion_effect = yes`
-- Amav: `effect tfw_test_amav_invasion_effect = yes`
-- All four: `effect tfw_test_all_sunset_invasions_effect = yes`
-
-Use a disposable save for the all-four test. In-game validation of the dynasty, Jolly Host heraldry, initial war, age and good-ruler vassalization is still required.
+No console-only test wrappers or additional diagnostic logging are included. Test the standard game-rule and random-intervention paths in a disposable save.
