@@ -105,7 +105,7 @@ tfw_situation.0003 = {
 				add_legitimacy = 3000
 				set_relation_nemesis = character:tfw_lineofnixni_001
 				give_nickname = nick_tareg
-				tfw_grant_tareg_weapon = yes
+				create_artifact_tfw_tareg_weapon_effect = { OWNER = this }
 			}
 		}
 

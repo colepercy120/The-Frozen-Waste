@@ -1,17 +1,5 @@
-﻿
-
-percival_game_start = {
-	on_actions = { tfw_starting_regalia }
-
-
-
+﻿percival_game_start = {
 	events = {
 		tfw.1
 	}
-
-
-}
-
-tfw_starting_regalia = {
-	effect = { tfw_grant_starting_regalia = yes }
 }
