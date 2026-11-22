@@ -8,6 +8,7 @@ tfw.1 = { # integrate the southern provinces
 	immediate = {
 
 		tfw_history_start = yes
+		tfw_grant_starting_regalia = yes
 
 		every_county_in_region = {
 			region = middleearth_forodwaith

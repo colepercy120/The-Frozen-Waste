@@ -1,0 +1,677 @@
+create_artifact_tfw_e_winter_court_crown_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = tfw_e_winter_court_crown_name
+		description = tfw_e_winter_court_crown_description
+		creator = character:tfw_lineofnixni_001
+		type = helmet
+		visuals = tfw_nixni_crown
+		wealth = scope:wealth
+		quality = scope:quality
+		modifier = tfw_e_winter_court_crown_modifier
+		decaying = no
+		save_scope_as = newly_created_artifact
+	}
+	scope:newly_created_artifact ?= {
+		equip_artifact_to_owner_replace = yes
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = tfw_e_winter_court_crown
+		save_scope_as = epic
+	}
+}
+
+create_artifact_tfw_e_winter_court_weapon_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = tfw_e_winter_court_weapon_name
+		description = tfw_e_winter_court_weapon_description
+		creator = character:tfw_lineofnixni_001
+		type = sword
+		visuals = silver_sword
+		wealth = scope:wealth
+		quality = scope:quality
+		modifier = tfw_e_winter_court_weapon_modifier
+		decaying = no
+		save_scope_as = newly_created_artifact
+	}
+	scope:newly_created_artifact ?= {
+		equip_artifact_to_owner_replace = yes
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = tfw_e_winter_court_weapon
+		save_scope_as = epic
+	}
+}
+
+create_artifact_tfw_e_ered_rhivamar_crown_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = tfw_e_ered_rhivamar_crown_name
+		description = tfw_e_ered_rhivamar_crown_description
+		type = helmet
+		visuals = tfw_talanthir_crown
+		wealth = scope:wealth
+		quality = scope:quality
+		modifier = tfw_e_ered_rhivamar_crown_modifier
+		decaying = no
+		save_scope_as = newly_created_artifact
+	}
+	scope:newly_created_artifact ?= {
+		equip_artifact_to_owner_replace = yes
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = tfw_e_ered_rhivamar_crown
+		save_scope_as = epic
+	}
+}
+
+create_artifact_tfw_e_ered_rhivamar_weapon_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = tfw_e_ered_rhivamar_weapon_name
+		description = tfw_e_ered_rhivamar_weapon_description
+		type = sword
+		visuals = silver_sword
+		wealth = scope:wealth
+		quality = scope:quality
+		modifier = tfw_e_ered_rhivamar_weapon_modifier
+		decaying = no
+		save_scope_as = newly_created_artifact
+	}
+	scope:newly_created_artifact ?= {
+		equip_artifact_to_owner_replace = yes
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = tfw_e_ered_rhivamar_weapon
+		save_scope_as = epic
+	}
+}
+
+create_artifact_tfw_k_durnost_crown_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = tfw_k_durnost_crown_name
+		description = tfw_k_durnost_crown_description
+		type = helmet
+		visuals = goblin_crown
+		wealth = scope:wealth
+		quality = scope:quality
+		modifier = tfw_k_durnost_crown_modifier
+		decaying = no
+		save_scope_as = newly_created_artifact
+	}
+	scope:newly_created_artifact ?= {
+		equip_artifact_to_owner_replace = yes
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = tfw_k_durnost_crown
+		save_scope_as = epic
+	}
+}
+
+create_artifact_tfw_k_durnost_weapon_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = tfw_k_durnost_weapon_name
+		description = tfw_k_durnost_weapon_description
+		type = sword
+		visuals = orcish_sword
+		wealth = scope:wealth
+		quality = scope:quality
+		modifier = tfw_k_durnost_weapon_modifier
+		decaying = no
+		save_scope_as = newly_created_artifact
+	}
+	scope:newly_created_artifact ?= {
+		equip_artifact_to_owner_replace = yes
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = tfw_k_durnost_weapon
+		save_scope_as = epic
+	}
+}
+
+create_artifact_tfw_k_aurora_isles_crown_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = tfw_k_aurora_isles_crown_name
+		description = tfw_k_aurora_isles_crown_description
+		type = helmet
+		visuals = crown
+		wealth = scope:wealth
+		quality = scope:quality
+		modifier = tfw_k_aurora_isles_crown_modifier
+		decaying = no
+		save_scope_as = newly_created_artifact
+	}
+	scope:newly_created_artifact ?= {
+		equip_artifact_to_owner_replace = yes
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = tfw_k_aurora_isles_crown
+		save_scope_as = epic
+	}
+}
+
+create_artifact_tfw_k_aurora_isles_weapon_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = tfw_k_aurora_isles_weapon_name
+		description = tfw_k_aurora_isles_weapon_description
+		type = spear
+		visuals = spear_sealord
+		wealth = scope:wealth
+		quality = scope:quality
+		modifier = tfw_k_aurora_isles_weapon_modifier
+		decaying = no
+		save_scope_as = newly_created_artifact
+	}
+	scope:newly_created_artifact ?= {
+		equip_artifact_to_owner_replace = yes
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = tfw_k_aurora_isles_weapon
+		save_scope_as = epic
+	}
+}
+
+create_artifact_tfw_k_taurethon_crown_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = tfw_k_taurethon_crown_name
+		description = tfw_k_taurethon_crown_description
+		type = helmet
+		visuals = crown_woodland_realm
+		wealth = scope:wealth
+		quality = scope:quality
+		modifier = tfw_k_taurethon_crown_modifier
+		decaying = no
+		save_scope_as = newly_created_artifact
+	}
+	scope:newly_created_artifact ?= {
+		equip_artifact_to_owner_replace = yes
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = tfw_k_taurethon_crown
+		save_scope_as = epic
+	}
+}
+
+create_artifact_tfw_k_taurethon_weapon_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = tfw_k_taurethon_weapon_name
+		description = tfw_k_taurethon_weapon_description
+		type = spear
+		visuals = fram_spear
+		wealth = scope:wealth
+		quality = scope:quality
+		modifier = tfw_k_taurethon_weapon_modifier
+		decaying = no
+		save_scope_as = newly_created_artifact
+	}
+	scope:newly_created_artifact ?= {
+		equip_artifact_to_owner_replace = yes
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = tfw_k_taurethon_weapon
+		save_scope_as = epic
+	}
+}
+
+create_artifact_tfw_k_evermist_crown_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = tfw_k_evermist_crown_name
+		description = tfw_k_evermist_crown_description
+		creator = character:lineoffinwe3
+		type = helmet
+		visuals = crown
+		wealth = scope:wealth
+		quality = scope:quality
+		modifier = tfw_k_evermist_crown_modifier
+		decaying = no
+		save_scope_as = newly_created_artifact
+	}
+	scope:newly_created_artifact ?= {
+		equip_artifact_to_owner_replace = yes
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = tfw_k_evermist_crown
+		save_scope_as = epic
+	}
+}
+
+create_artifact_tfw_k_evermist_weapon_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = tfw_k_evermist_weapon_name
+		description = tfw_k_evermist_weapon_description
+		creator = character:lineoffinwe3
+		type = sword
+		visuals = silver_sword
+		wealth = scope:wealth
+		quality = scope:quality
+		modifier = tfw_k_evermist_weapon_modifier
+		decaying = no
+		save_scope_as = newly_created_artifact
+	}
+	scope:newly_created_artifact ?= {
+		equip_artifact_to_owner_replace = yes
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = tfw_k_evermist_weapon
+		save_scope_as = epic
+	}
+}
+
+create_artifact_tfw_k_northern_iron_mountains_crown_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = tfw_k_northern_iron_mountains_crown_name
+		description = tfw_k_northern_iron_mountains_crown_description
+		type = helmet
+		visuals = crown_bountig
+		wealth = scope:wealth
+		quality = scope:quality
+		modifier = tfw_k_northern_iron_mountains_crown_modifier
+		decaying = no
+		save_scope_as = newly_created_artifact
+	}
+	scope:newly_created_artifact ?= {
+		equip_artifact_to_owner_replace = yes
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = tfw_k_northern_iron_mountains_crown
+		save_scope_as = epic
+	}
+}
+
+create_artifact_tfw_k_northern_iron_mountains_weapon_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = tfw_k_northern_iron_mountains_weapon_name
+		description = tfw_k_northern_iron_mountains_weapon_description
+		type = spear
+		visuals = orcish_spear
+		wealth = scope:wealth
+		quality = scope:quality
+		modifier = tfw_k_northern_iron_mountains_weapon_modifier
+		decaying = no
+		save_scope_as = newly_created_artifact
+	}
+	scope:newly_created_artifact ?= {
+		equip_artifact_to_owner_replace = yes
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = tfw_k_northern_iron_mountains_weapon
+		save_scope_as = epic
+	}
+}
+
+create_artifact_tfw_k_angband_reach_crown_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = tfw_k_angband_reach_crown_name
+		description = tfw_k_angband_reach_crown_description
+		type = helmet
+		visuals = crown
+		wealth = scope:wealth
+		quality = scope:quality
+		modifier = tfw_k_angband_reach_crown_modifier
+		decaying = no
+		save_scope_as = newly_created_artifact
+	}
+	scope:newly_created_artifact ?= {
+		equip_artifact_to_owner_replace = yes
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = tfw_k_angband_reach_crown
+		save_scope_as = epic
+	}
+}
+
+create_artifact_tfw_k_angband_reach_weapon_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = tfw_k_angband_reach_weapon_name
+		description = tfw_k_angband_reach_weapon_description
+		type = sword
+		visuals = orcish_sword
+		wealth = scope:wealth
+		quality = scope:quality
+		modifier = tfw_k_angband_reach_weapon_modifier
+		decaying = no
+		save_scope_as = newly_created_artifact
+	}
+	scope:newly_created_artifact ?= {
+		equip_artifact_to_owner_replace = yes
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = tfw_k_angband_reach_weapon
+		save_scope_as = epic
+	}
+}
+
+create_artifact_tfw_k_komi_crown_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = tfw_k_komi_crown_name
+		description = tfw_k_komi_crown_description
+		type = helmet
+		visuals = crown_bountig
+		wealth = scope:wealth
+		quality = scope:quality
+		modifier = tfw_k_komi_crown_modifier
+		decaying = no
+		save_scope_as = newly_created_artifact
+	}
+	scope:newly_created_artifact ?= {
+		equip_artifact_to_owner_replace = yes
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = tfw_k_komi_crown
+		save_scope_as = epic
+	}
+}
+
+create_artifact_tfw_k_komi_weapon_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = tfw_k_komi_weapon_name
+		description = tfw_k_komi_weapon_description
+		type = axe
+		visuals = axe_faderda
+		wealth = scope:wealth
+		quality = scope:quality
+		modifier = tfw_k_komi_weapon_modifier
+		decaying = no
+		save_scope_as = newly_created_artifact
+	}
+	scope:newly_created_artifact ?= {
+		equip_artifact_to_owner_replace = yes
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = tfw_k_komi_weapon
+		save_scope_as = epic
+	}
+}
+
+create_artifact_tfw_k_west_frostwood_crown_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = tfw_k_west_frostwood_crown_name
+		description = tfw_k_west_frostwood_crown_description
+		type = helmet
+		visuals = crown_woodland_realm
+		wealth = scope:wealth
+		quality = scope:quality
+		modifier = tfw_k_west_frostwood_crown_modifier
+		decaying = no
+		save_scope_as = newly_created_artifact
+	}
+	scope:newly_created_artifact ?= {
+		equip_artifact_to_owner_replace = yes
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = tfw_k_west_frostwood_crown
+		save_scope_as = epic
+	}
+}
+
+create_artifact_tfw_k_west_frostwood_weapon_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = tfw_k_west_frostwood_weapon_name
+		description = tfw_k_west_frostwood_weapon_description
+		type = sword
+		visuals = silver_sword
+		wealth = scope:wealth
+		quality = scope:quality
+		modifier = tfw_k_west_frostwood_weapon_modifier
+		decaying = no
+		save_scope_as = newly_created_artifact
+	}
+	scope:newly_created_artifact ?= {
+		equip_artifact_to_owner_replace = yes
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = tfw_k_west_frostwood_weapon
+		save_scope_as = epic
+	}
+}
+
+create_artifact_tfw_k_east_frostwood_crown_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = tfw_k_east_frostwood_crown_name
+		description = tfw_k_east_frostwood_crown_description
+		type = helmet
+		visuals = crown_woodland_realm
+		wealth = scope:wealth
+		quality = scope:quality
+		modifier = tfw_k_east_frostwood_crown_modifier
+		decaying = no
+		save_scope_as = newly_created_artifact
+	}
+	scope:newly_created_artifact ?= {
+		equip_artifact_to_owner_replace = yes
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = tfw_k_east_frostwood_crown
+		save_scope_as = epic
+	}
+}
+
+create_artifact_tfw_k_east_frostwood_weapon_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_famed = yes
+	create_artifact = {
+		name = tfw_k_east_frostwood_weapon_name
+		description = tfw_k_east_frostwood_weapon_description
+		type = spear
+		visuals = fram_spear
+		wealth = scope:wealth
+		quality = scope:quality
+		modifier = tfw_k_east_frostwood_weapon_modifier
+		decaying = no
+		save_scope_as = newly_created_artifact
+	}
+	scope:newly_created_artifact ?= {
+		equip_artifact_to_owner_replace = yes
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = tfw_k_east_frostwood_weapon
+		save_scope_as = epic
+	}
+}
+
+create_artifact_tfw_tareg_weapon_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = tfw_tareg_weapon_name
+		description = tfw_tareg_weapon_description
+		type = sword
+		visuals = silver_sword
+		wealth = scope:wealth
+		quality = scope:quality
+		modifier = tfw_tareg_weapon_modifier
+		decaying = no
+		save_scope_as = newly_created_artifact
+	}
+	scope:newly_created_artifact ?= {
+		equip_artifact_to_owner_replace = yes
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = tfw_tareg_weapon
+		save_scope_as = epic
+	}
+}
+
+create_artifact_tfw_annahir_weapon_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = tfw_annahir_weapon_name
+		description = tfw_annahir_weapon_description
+		type = spear
+		visuals = fram_spear
+		wealth = scope:wealth
+		quality = scope:quality
+		modifier = tfw_annahir_weapon_modifier
+		decaying = no
+		save_scope_as = newly_created_artifact
+	}
+	scope:newly_created_artifact ?= {
+		equip_artifact_to_owner_replace = yes
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = tfw_annahir_weapon
+		save_scope_as = epic
+	}
+}
+
+tfw_grant_starting_regalia = {
+	if = {
+		limit = {
+			title:e_winter_court.holder ?= {
+				this = character:tfw_lineofnixni_001
+				NOT = { has_character_flag = tfw_received_starting_regalia }
+			}
+		}
+		title:e_winter_court.holder = {
+			create_artifact_tfw_e_winter_court_crown_effect = { OWNER = this }
+			create_artifact_tfw_e_winter_court_weapon_effect = { OWNER = this }
+			add_character_flag = tfw_received_starting_regalia
+		}
+	}
+	if = {
+		limit = {
+			title:e_ered_rhivamar.holder ?= {
+				this = character:tfw_lineofadlantrim_mornaer_001
+				NOT = { has_character_flag = tfw_received_starting_regalia }
+			}
+		}
+		title:e_ered_rhivamar.holder = {
+			create_artifact_tfw_e_ered_rhivamar_crown_effect = { OWNER = this }
+			create_artifact_tfw_e_ered_rhivamar_weapon_effect = { OWNER = this }
+			add_character_flag = tfw_received_starting_regalia
+		}
+	}
+	if = {
+		limit = {
+			title:k_durnost.holder ?= {
+				this = character:tfw_lineofsnoworc_black_fang_002
+				NOT = { has_character_flag = tfw_received_starting_regalia }
+			}
+		}
+		title:k_durnost.holder = {
+			create_artifact_tfw_k_durnost_crown_effect = { OWNER = this }
+			create_artifact_tfw_k_durnost_weapon_effect = { OWNER = this }
+			add_character_flag = tfw_received_starting_regalia
+		}
+	}
+	if = {
+		limit = {
+			title:k_aurora_isles.holder ?= {
+				this = character:tfw_lineoflossidil_celethrim_004
+				NOT = { has_character_flag = tfw_received_starting_regalia }
+			}
+		}
+		title:k_aurora_isles.holder = {
+			create_artifact_tfw_k_aurora_isles_crown_effect = { OWNER = this }
+			create_artifact_tfw_k_aurora_isles_weapon_effect = { OWNER = this }
+			add_character_flag = tfw_received_starting_regalia
+		}
+	}
+	if = {
+		limit = {
+			title:k_taurethon.holder ?= {
+				this = character:tfw_lineoflossidil_celethrim_003
+				NOT = { has_character_flag = tfw_received_starting_regalia }
+			}
+		}
+		title:k_taurethon.holder = {
+			create_artifact_tfw_k_taurethon_crown_effect = { OWNER = this }
+			create_artifact_tfw_k_taurethon_weapon_effect = { OWNER = this }
+			add_character_flag = tfw_received_starting_regalia
+		}
+	}
+	if = {
+		limit = {
+			title:k_evermist.holder ?= {
+				this = character:tfw_lineoffeanor_001
+				NOT = { has_character_flag = tfw_received_starting_regalia }
+			}
+		}
+		title:k_evermist.holder = {
+			create_artifact_tfw_k_evermist_crown_effect = { OWNER = this }
+			create_artifact_tfw_k_evermist_weapon_effect = { OWNER = this }
+			add_character_flag = tfw_received_starting_regalia
+		}
+	}
+	if = {
+		limit = {
+			title:k_northern_iron_mountains.holder ?= {
+				this = character:tfw_lineofadlantrim_macaglor_013
+				NOT = { has_character_flag = tfw_received_starting_regalia }
+			}
+		}
+		title:k_northern_iron_mountains.holder = {
+			create_artifact_tfw_k_northern_iron_mountains_crown_effect = { OWNER = this }
+			create_artifact_tfw_k_northern_iron_mountains_weapon_effect = { OWNER = this }
+			add_character_flag = tfw_received_starting_regalia
+		}
+	}
+	if = {
+		limit = {
+			title:k_angband_reach.holder ?= {
+				this = character:tfw_lineofadlantrim_saelrond_029
+				NOT = { has_character_flag = tfw_received_starting_regalia }
+			}
+		}
+		title:k_angband_reach.holder = {
+			create_artifact_tfw_k_angband_reach_crown_effect = { OWNER = this }
+			create_artifact_tfw_k_angband_reach_weapon_effect = { OWNER = this }
+			add_character_flag = tfw_received_starting_regalia
+		}
+	}
+	if = {
+		limit = {
+			title:k_komi.holder ?= {
+				this = character:tfw_lineofumli_motsognir_005
+				NOT = { has_character_flag = tfw_received_starting_regalia }
+			}
+		}
+		title:k_komi.holder = {
+			create_artifact_tfw_k_komi_crown_effect = { OWNER = this }
+			create_artifact_tfw_k_komi_weapon_effect = { OWNER = this }
+			add_character_flag = tfw_received_starting_regalia
+		}
+	}
+	if = {
+		limit = {
+			title:k_west_frostwood.holder ?= {
+				this = character:tfw_lineofwindan_sairavel_001
+				NOT = { has_character_flag = tfw_received_starting_regalia }
+			}
+		}
+		title:k_west_frostwood.holder = {
+			create_artifact_tfw_k_west_frostwood_crown_effect = { OWNER = this }
+			create_artifact_tfw_k_west_frostwood_weapon_effect = { OWNER = this }
+			add_character_flag = tfw_received_starting_regalia
+		}
+	}
+	if = {
+		limit = {
+			title:k_east_frostwood.holder ?= {
+				this = character:tfw_lineofhwenti_hwerin_001
+				NOT = { has_character_flag = tfw_received_starting_regalia }
+			}
+		}
+		title:k_east_frostwood.holder = {
+			create_artifact_tfw_k_east_frostwood_crown_effect = { OWNER = this }
+			create_artifact_tfw_k_east_frostwood_weapon_effect = { OWNER = this }
+			add_character_flag = tfw_received_starting_regalia
+		}
+	}
+}

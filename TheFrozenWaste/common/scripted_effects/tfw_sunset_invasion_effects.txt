@@ -80,6 +80,7 @@ tfw_santa_invasion_spawn_character = {
 	}
 	scope:tfw_santa_spawned = {
 		give_nickname = nick_tfw_father_christmas
+		create_artifact_tfw_annahir_weapon_effect = { OWNER = this }
 		save_scope_as = invader_char
 	}
 }
