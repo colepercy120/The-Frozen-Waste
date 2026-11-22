@@ -118,10 +118,37 @@ tfw_santa_invasion_landing_effect = {
 		limit = { NOT = { has_game_rule = no_news } }
 		every_player = { trigger_event = tfw_santa_invasion.0001 }
 	}
+	### Colonize only wilderness counties in Santa's separately editable landing region.
+	tfw_santa_autocolonize_landing_region = yes
+
 	### Only independent good rulers holding land in Forodwaith swear fealty.
 	tfw_santa_vassalize_independent_good_rulers_effect = yes
 
 	sunset_invasion_general_variables_effect = yes
+}
+
+### Settle only wilderness counties; leave existing rulers and holdings untouched.
+tfw_santa_autocolonize_landing_region = {
+	every_county_in_region = {
+		region = santas_landing_region
+		limit = { is_wastelands = yes }
+		save_temporary_scope_as = tfw_santa_colonization_county
+		ai_colonisation_effect = {
+			WASTELANDS = scope:tfw_santa_colonization_county
+			ROOT_SCOPE = scope:invader_char
+		}
+		### Match Santa's feudal government and handle underground halls like TFW colonization.
+		title_province = {
+			if = {
+				limit = { terrain = halls }
+				set_holding_type = dwarven_holding
+			}
+			else = { set_holding_type = castle_holding }
+		}
+		set_county_faith = faith:faith_santa
+		set_county_culture = culture:lossidil
+		generate_coa = yes
+	}
 }
 
 ### County-driven iteration avoids scanning every ruler in Middle-earth.

@@ -39,6 +39,7 @@ The Santa implementation uses the same generic callbacks as the base invasions:
 - `tfw_santa_invasion_grab_landing_county`: save `c_muilfalas_1` as `landing_county`.
 - `tfw_santa_invasion_spawn_character`: create the new Annahir and save him as `invader_char`.
 - `tfw_santa_invasion_landing_effect`: apply the generic landing setup to `h_tfw_santa_host` and spawn his army.
+- `tfw_santa_autocolonize_landing_region`: instantly settle wilderness counties in the separate `santas_landing_region`, currently all `middleearth_forodwaith`, for Annahir; do not alter existing settled counties.
 - `tfw_santa_invasion_start_war`: declare `tfw_santa_invasion_cb` against `largest_realm_ruler`, using the generic participant effect.
 
 After the generic landing grants Annahir his host title, `tfw_santa_vassalize_independent_good_rulers_effect` transfers independent, good-aligned rulers with at least one county inside `middleearth_forodwaith` into his realm. It excludes existing vassals, Annahir himself, and rulers who cannot be vassalized under a hegemony. The global replacement-target search remains absent. Standard Sunset Invasion CB victory and subject-transfer effects apply within the restricted region.
