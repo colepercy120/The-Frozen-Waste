@@ -148,6 +148,8 @@ tfw_santa_autocolonize_landing_region = {
 		set_county_faith = faith:faith_santa
 		set_county_culture = culture:lossidil
 		generate_coa = yes
+		### The shared colonization effect charges its normal cost; reimburse Santa per county.
+		scope:invader_char = { add_gold = colonise_cost_val }
 	}
 }
 

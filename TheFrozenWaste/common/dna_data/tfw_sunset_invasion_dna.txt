@@ -5,7 +5,8 @@ tfw_santa_dna = {
 	id = 0
 	random_seed = 65685
 	genes = {
-		hair_color={ 163 64 163 64 }
+		### Lightest inherited hair pigment; exact neutral grey remains in override.colors.hair.
+		hair_color={ 0 0 0 0 }
 		skin_color={ 200 13 200 13 }
 		eye_color={ 228 118 21 25 }
 		gene_chin_forward={ "chin_forward_neg" 115 "chin_forward_neg" 115 }
