@@ -1,4 +1,4 @@
-﻿# Dungeon Delving intents. Their effects are in common/scripted_effects/underdeep_effects.txt.
+﻿# Dungeon Delving intents. Their effects are in common/scripted_effects/tfw_underdeep_effects.txt.
 
 underdeep_plunder_intent = {
 	icon = capital_intent

@@ -1,4 +1,19 @@
-﻿underdeep_rooms_per_floor = 3
+﻿underdeep_check_hard = {
+	value = underdeep_check_value
+	add = 6
+}
+
+underdeep_check_hard_lifestyle_hunter_is_troll = {
+	value = underdeep_check_value
+	add = 6
+	if = {
+		limit = { OR = { has_trait = lifestyle_hunter is_troll = yes } }
+		add = -6
+	}
+}
+
+
+underdeep_rooms_per_floor = 3
 
 # The cost of setting out: 10% more than a mining expedition for the same ruler with average options.
 # Uses the mining expedition's own values: its base cost scaled by era, plus its two option menus

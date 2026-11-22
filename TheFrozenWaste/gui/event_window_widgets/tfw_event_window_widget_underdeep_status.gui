@@ -1,5 +1,5 @@
 ﻿hbox = {
-	name = "event_window_widget_underdeep_status"
+	name = "tfw_event_window_widget_underdeep_status"
 	datacontext = "[EventWindowWidget.GetScope.GetRootScope.Char]"
 	datacontext = "[Character.GetInvolvedActivity]"
 	layoutpolicy_horizontal = expanding

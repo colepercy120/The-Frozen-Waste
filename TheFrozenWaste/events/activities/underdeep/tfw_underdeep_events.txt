@@ -1,11 +1,11 @@
 ﻿namespace = underdeep
 
 # Dungeon Delving events.
-# The text for every event is in localization/english/underdeep_events_l_english.yml, under the same id.
+# The text for every event is in localization/english/tfw_underdeep_l_english.yml, under the same id.
 # 1001 entrance, 1101-1199 rooms, 1201-1269 encounters, 5001-5099 company events, 6001-6002 bosses
 # (6101 win, 6201 loss, 6301 company fight, 6401-6403 the single combat), 7001-7005 endings, 8001-8105 Gandalf and Saruman, 1255 and 1260 special,
 # 9001-9003 the murder, woo and befriend intents, 1401-1403 the junctions (doors, tunnels, the pit).
-# The hidden events that run the delve (start, what comes next, end) are in underdeep_engine.txt.
+# The hidden events that run the delve (start, what comes next, end) are in tfw_underdeep_engine.txt.
 
 # 1401: The Way Divides (doors)
 underdeep.1401 = {
@@ -18,7 +18,7 @@ underdeep.1401 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -160,7 +160,7 @@ underdeep.1402 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -292,7 +292,7 @@ underdeep.1403 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -413,7 +413,7 @@ underdeep.1001 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -473,7 +473,7 @@ underdeep.1101 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -662,7 +662,7 @@ underdeep.1102 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -911,7 +911,7 @@ underdeep.1103 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -1136,7 +1136,7 @@ underdeep.1104 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -1409,7 +1409,7 @@ underdeep.1105 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -1540,7 +1540,7 @@ underdeep.1106 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -1728,7 +1728,7 @@ underdeep.1107 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -1911,7 +1911,7 @@ underdeep.1108 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -2099,7 +2099,7 @@ underdeep.1109 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -2291,7 +2291,7 @@ underdeep.1111 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -2421,7 +2421,7 @@ underdeep.1112 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -2608,7 +2608,7 @@ underdeep.1113 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -2776,7 +2776,7 @@ underdeep.1114 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -3007,7 +3007,7 @@ underdeep.1115 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -3189,7 +3189,7 @@ underdeep.1116 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -3400,7 +3400,7 @@ underdeep.1117 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -3652,7 +3652,7 @@ underdeep.1118 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -3879,7 +3879,7 @@ underdeep.1119 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -4167,7 +4167,7 @@ underdeep.1120 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -4417,7 +4417,7 @@ underdeep.1121 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -4662,7 +4662,7 @@ underdeep.1122 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -4949,7 +4949,7 @@ underdeep.1123 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -5190,7 +5190,7 @@ underdeep.1124 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -5443,7 +5443,7 @@ underdeep.1125 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -5711,7 +5711,7 @@ underdeep.1126 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -5941,7 +5941,7 @@ underdeep.1127 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -6193,7 +6193,7 @@ underdeep.1128 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -6418,7 +6418,7 @@ underdeep.1129 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -6669,7 +6669,7 @@ underdeep.1130 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -6906,7 +6906,7 @@ underdeep.1131 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -7156,7 +7156,7 @@ underdeep.1132 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -7404,7 +7404,7 @@ underdeep.1133 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -7674,7 +7674,7 @@ underdeep.1201 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -7837,7 +7837,7 @@ underdeep.1203 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -7989,7 +7989,7 @@ underdeep.1205 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -8155,7 +8155,7 @@ underdeep.1206 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -8318,7 +8318,7 @@ underdeep.1207 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -8410,7 +8410,7 @@ underdeep.1208 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -8502,7 +8502,7 @@ underdeep.1209 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -8594,7 +8594,7 @@ underdeep.1210 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -8687,7 +8687,7 @@ underdeep.1211 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -8779,7 +8779,7 @@ underdeep.1212 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -8871,7 +8871,7 @@ underdeep.1213 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -9092,7 +9092,7 @@ underdeep.5001 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -9264,7 +9264,7 @@ underdeep.5002 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -9384,7 +9384,7 @@ underdeep.5003 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -9511,7 +9511,7 @@ underdeep.5004 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -9650,7 +9650,7 @@ underdeep.5005 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -9802,7 +9802,7 @@ underdeep.5006 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -9939,7 +9939,7 @@ underdeep.5007 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -10072,7 +10072,7 @@ underdeep.5008 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -10179,7 +10179,7 @@ underdeep.5009 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -10357,7 +10357,7 @@ underdeep.5010 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -10548,7 +10548,7 @@ underdeep.5011 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -10728,7 +10728,7 @@ underdeep.5012 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -10904,7 +10904,7 @@ underdeep.5013 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -11115,7 +11115,7 @@ underdeep.5014 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -11301,7 +11301,7 @@ underdeep.5015 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -11507,7 +11507,7 @@ underdeep.5016 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -11678,7 +11678,7 @@ underdeep.6001 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -11933,7 +11933,7 @@ underdeep.6101 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -11961,7 +11961,7 @@ underdeep.6201 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -12016,7 +12016,7 @@ underdeep.6301 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -12082,7 +12082,7 @@ underdeep.6002 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -12324,7 +12324,7 @@ underdeep.6102 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -12352,7 +12352,7 @@ underdeep.6202 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -12407,7 +12407,7 @@ underdeep.6302 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -12544,7 +12544,7 @@ underdeep.7001 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -12570,7 +12570,7 @@ underdeep.7002 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -12602,7 +12602,7 @@ underdeep.7003 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -12635,7 +12635,7 @@ underdeep.7004 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -12677,7 +12677,7 @@ underdeep.8001 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -12777,7 +12777,7 @@ underdeep.8002 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -12862,7 +12862,7 @@ underdeep.8005 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -12919,7 +12919,7 @@ underdeep.8101 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -13019,7 +13019,7 @@ underdeep.8102 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -13097,7 +13097,7 @@ underdeep.8105 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -13174,7 +13174,7 @@ underdeep.1110 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -13309,7 +13309,7 @@ underdeep.1202 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -13421,7 +13421,7 @@ underdeep.1204 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -13560,7 +13560,7 @@ underdeep.1250 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -13639,7 +13639,7 @@ underdeep.1251 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -13708,7 +13708,7 @@ underdeep.1252 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -13744,7 +13744,7 @@ underdeep.1253 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -13779,7 +13779,7 @@ underdeep.1254 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -13840,7 +13840,7 @@ underdeep.1255 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -13896,7 +13896,7 @@ underdeep.1260 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -13944,7 +13944,7 @@ underdeep.9001 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -13994,7 +13994,7 @@ underdeep.9002 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
@@ -14049,7 +14049,7 @@ underdeep.9003 = {
 	widgets = {
 		widget = {
 			is_shown = { is_landless_adventurer = yes }
-			gui = "event_window_widget_underdeep_status"
+			gui = "tfw_event_window_widget_underdeep_status"
 			container = "custom_widgets_container"
 		}
 	}
