@@ -28,6 +28,8 @@
  activity_underdeep_delve_province_desc: "An entrance to the ruins of [utumno|E]."
  activity_underdeep_delve_location_busy: "Another company is already below"
  activity_underdeep_delve_location_far: "This entrance is too far away"
+ activity_underdeep_delve_existing_chasm: "Has an Entrance to the Underdeeps
+ underdeep_no_entrances: "You don't have an entrance to the Underdeeps"
  activity_underdeep_delve_guest_help_text: "[activity_guests|E] go down with the company and may find themselves in the story."
  underdeep_phase: "Descent"
  underdeep_phase_desc: "The company goes down through the ruins, floor by floor, for as long as the torches and their nerve will last."

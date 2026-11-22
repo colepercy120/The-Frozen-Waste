@@ -1,5 +1,13 @@
 ﻿# Entrances to the ruins of Utumno. Province IDs come from The Frozen Waste map.
 # Thangorodrim, Morgoth's Well, Durnost, Grey Mountains (Vale of Drakes)
 underdeep_entrances = {
-	provinces = { 8105 8075 9191 5038 }
+	provinces = { 8105 8075 5038 }
+	regions = {
+		middleearth_mountains_blue
+		middleearth_mountains_misty
+		middleearth_mountains_iron
+		middleearth_mountains_white
+		middleearth_mountains_bleak
+		middleearth_mountains_rhivamar
+	}
 }

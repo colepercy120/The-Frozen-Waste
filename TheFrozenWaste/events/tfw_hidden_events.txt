@@ -124,6 +124,7 @@ tfw.1 = { # integrate the southern provinces
 		tfw_special_building_start = yes
 		tfw_elven_homelands_start = yes
 		tfw_trigger_intro_events = yes
+		apply_underdeep_entrance_modifiers_effect = yes
 
 		start_situation = {
 			type = frozen_waste

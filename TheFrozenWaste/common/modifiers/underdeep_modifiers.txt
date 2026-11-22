@@ -16,3 +16,6 @@ underdeep_clean_blade_modifier = {
 	prowess = 2
 	icon = prowess_positive
 }
+underdeep_entrance_modifier = {
+	icon = horse_dead_negative
+}

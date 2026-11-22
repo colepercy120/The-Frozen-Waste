@@ -4,11 +4,20 @@ activity_underdeep_delve = {
 		is_ai = no # Player only for now
 		is_playable_character = yes
 		lotr_is_shown_basic_activity_trigger = yes
+		
 	}
 
 	can_start_showing_failures_only = {
 		is_available_adult = yes
 		is_at_war = no
+		custom_tooltip = {
+			text = underdeep_no_entrances
+			any_sub_realm_county = {
+				any_county_province = {
+					has_province_modifier = underdeep_entrance_modifier
+				}
+			}
+		}
 	}
 
 	is_valid = {
@@ -16,6 +25,7 @@ activity_underdeep_delve = {
 			is_alive = yes
 			is_imprisoned = no
 			NOT = { is_incapable = yes }
+			
 		}
 	}
 
@@ -184,20 +194,21 @@ activity_underdeep_delve = {
 	}
 
 	is_single_location = yes
-	province_filter = geographical_region
-	ai_province_filter = geographical_region
-	province_filter_target = underdeep_entrances
+	province_filter = domicile_realm
+	ai_province_filter = domicile_domain
+
 
 	province_description = { desc = activity_underdeep_delve_province_desc }
 
 	is_location_valid = {
 		custom_tooltip = {
-			text = activity_underdeep_delve_location_busy
-			NOT = { has_variable = active_underdeep_delve }
+			text = activity_underdeep_delve_location_check
+			geographical_region = underdeep_entrances
 		}
+		
 		custom_tooltip = {
-			text = activity_underdeep_delve_location_far
-			underdeep_entrance_in_reach = yes
+			text = activity_underdeep_delve_existing_chasm
+			has_province_modifier = underdeep_entrance_modifier
 		}
 	}
 

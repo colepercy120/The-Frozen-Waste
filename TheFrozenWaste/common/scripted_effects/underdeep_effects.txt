@@ -1076,3 +1076,20 @@ underdeep_boss_trick_effect = {
 		}
 	}
 }
+
+
+### Apply Underdeep Entrance Modifiers
+apply_underdeep_entrance_modifiers_effect = {
+    province:8105 = {
+        add_province_modifier = underdeep_entrance_modifier
+    }
+    province:8075 = {
+        add_province_modifier = underdeep_entrance_modifier
+    }
+    province:9191 = {
+        add_province_modifier = underdeep_entrance_modifier
+    }
+    province:5038 = {
+        add_province_modifier = underdeep_entrance_modifier
+    }
+}
