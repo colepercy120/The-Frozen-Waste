@@ -23,28 +23,6 @@ tfw_e_ered_rhivamar_weapon_modifier = {
 	monthly_prestige = 0.5
 }
 
-tfw_k_angband_crown_modifier = {
-	dread_baseline_add = 10
-	controlled_province_advantage = 4
-}
-
-tfw_k_angband_weapon_modifier = {
-	prowess = 6
-	heavy_infantry_damage_mult = 0.08
-}
-
-tfw_k_winter_queen_faith_crown_modifier = {
-	learning = 2
-	monthly_piety = 0.5
-	zealot_opinion = 5
-}
-
-tfw_k_winter_queen_faith_weapon_modifier = {
-	prowess = 4
-	monthly_piety = 0.3
-	character_travel_safety = 5
-}
-
 tfw_k_durnost_crown_modifier = {
 	martial = 2
 	intimidated_vassal_levy_contribution_add = 0.08
@@ -53,16 +31,6 @@ tfw_k_durnost_crown_modifier = {
 tfw_k_durnost_weapon_modifier = {
 	prowess = 6
 	raid_speed = 0.12
-}
-
-tfw_k_nidavellir_crown_modifier = {
-	stewardship = 3
-	monthly_crafting_lifestyle_xp_gain_mult = 0.12
-}
-
-tfw_k_nidavellir_weapon_modifier = {
-	prowess = 5
-	heavy_infantry_toughness_mult = 0.12
 }
 
 tfw_k_aurora_isles_crown_modifier = {
@@ -102,27 +70,6 @@ tfw_k_evermist_weapon_modifier = {
 	knight_effectiveness_mult = 0.1
 	monthly_dynasty_prestige = 0.5
 	monthly_prestige = 0.5
-}
-
-tfw_k_tol_faron_crown_modifier = {
-	martial = 1
-	lifestyle_hunter_xp_gain_mult = 0.2
-	parochial_opinion = 4
-}
-
-tfw_k_tol_faron_weapon_modifier = {
-	prowess = 5
-	lifestyle_hunter_xp_gain_mult = 0.15
-}
-
-tfw_k_ered_rhivamar_crown_modifier = {
-	stewardship = 2
-	character_travel_safety = 8
-}
-
-tfw_k_ered_rhivamar_weapon_modifier = {
-	prowess = 6
-	character_travel_speed_mult = 0.1
 }
 
 tfw_k_northern_iron_mountains_crown_modifier = {
