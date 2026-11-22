@@ -12,14 +12,15 @@ tfw_e_winter_court_weapon_modifier = {
 
 tfw_e_ered_rhivamar_crown_modifier = {
 	diplomacy = 3
-	vassal_opinion = 8
+	vassal_opinion = 10
 	legitimacy_gain_mult = 0.1
+	monthly_prestige = 1
 }
 
 tfw_e_ered_rhivamar_weapon_modifier = {
-	prowess = 7
+	prowess_no_portrait = 15
 	controlled_province_advantage = 4
-	knight_effectiveness_mult = 0.08
+	monthly_prestige = 0.5
 }
 
 tfw_k_angband_crown_modifier = {
@@ -67,34 +68,40 @@ tfw_k_nidavellir_weapon_modifier = {
 tfw_k_aurora_isles_crown_modifier = {
 	diplomacy = 2
 	naval_movement_speed_mult = 0.12
+	monthly_prestige = 0.5
 }
 
 tfw_k_aurora_isles_weapon_modifier = {
-	prowess = 5
+	prowess_no_portrait = 12
 	embarkation_cost_mult = -0.15
 	character_travel_safety = 3
+	monthly_prestige = 0.3
 }
 
 tfw_k_taurethon_crown_modifier = {
 	intrigue = 2
 	forest_advantage = 3
+	monthly_prestige = 0.5
 }
 
 tfw_k_taurethon_weapon_modifier = {
-	prowess = 5
+	prowess_no_portrait = 12
 	forest_advantage = 5
+	monthly_prestige = 0.3
 }
 
 tfw_k_evermist_crown_modifier = {
 	learning = 3
-	monthly_dynasty_prestige = 0.4
+	monthly_dynasty_prestige = 0.5
+	monthly_prestige = 1
 	monthly_crafting_lifestyle_xp_gain_mult = 0.15
 }
 
 tfw_k_evermist_weapon_modifier = {
-	prowess = 8
-	knight_effectiveness_mult = 0.12
-	monthly_prestige = 0.25
+	prowess_no_portrait = 17
+	knight_effectiveness_mult = 0.1
+	monthly_dynasty_prestige = 0.5
+	monthly_prestige = 0.5
 }
 
 tfw_k_tol_faron_crown_modifier = {
@@ -151,21 +158,25 @@ tfw_k_komi_weapon_modifier = {
 tfw_k_west_frostwood_crown_modifier = {
 	diplomacy = 2
 	deep_forest_advantage = 3
+	monthly_prestige = 0.5
 }
 
 tfw_k_west_frostwood_weapon_modifier = {
-	prowess = 6
+	prowess_no_portrait = 12
 	skirmishers_toughness_mult = 0.09
+	monthly_prestige = 0.3
 }
 
 tfw_k_east_frostwood_crown_modifier = {
 	learning = 2
 	character_travel_speed_mult = 0.08
+	monthly_prestige = 0.5
 }
 
 tfw_k_east_frostwood_weapon_modifier = {
-	prowess = 5
+	prowess_no_portrait = 12
 	archers_damage_mult = 0.09
+	monthly_prestige = 0.3
 }
 
 tfw_tareg_weapon_modifier = {
