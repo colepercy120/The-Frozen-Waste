@@ -9,3 +9,11 @@ tfw_talanthir_crown = {
 	support_type = "tall_pillow"
 	asset = male_headgear_secular_ep1_crown_of_lombardy_artifact_entity
 }
+
+tfw_tear_of_yavanna = {
+	icon = "tfw_tear_of_yavanna.dds"
+}
+
+tfw_broken_chain = {
+	icon = "tfw_broken_chain.dds"
+}

@@ -137,3 +137,13 @@ tfw_annahir_weapon_modifier = {
 	pikemen_damage_mult = 0.15
 	child_opinion = 8
 }
+
+tfw_tear_of_yavanna_modifier = {
+	development_growth_factor = 0.05
+	monthly_piety = 0.25
+}
+
+tfw_broken_chain_modifier = {
+	monthly_piety = 0.5
+	same_culture_opinion = 8
+}
