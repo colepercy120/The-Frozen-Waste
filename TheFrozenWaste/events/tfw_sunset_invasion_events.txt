@@ -2,7 +2,13 @@ namespace = tfw_santa_invasion
 
 tfw_santa_invasion.0001 = {
 	type = character_event
+	window = fullscreen_event
 	title = tfw_santa_invasion.0001.t
 	desc = tfw_santa_invasion.0001.desc
 	option = { name = tfw_santa_invasion.0001.a }
+	theme = elven
+	
+	override_background = {
+		reference = helecthil
+	}
 }

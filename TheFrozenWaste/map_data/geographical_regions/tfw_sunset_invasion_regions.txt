@@ -8,6 +8,11 @@ tfw_santa_invasion_region = {
 ### Landing-only colonization footprint. Refine independently from the war region.
 santas_landing_region = {
 	regions = {
-		middleearth_forodwaith
+		middleearth_forodwaith_tol_engrin_gondalf
+		middleearth_forodwaith_tol_engrin_narthalf
+		middleearth_forodwaith_tol_engrin_helfalas
+		middleearth_forodwaith_annuvorodwaith_lindalf
+		middleearth_forodwaith_annuvorodwaith_ruinfalas
+		middleearth_forodwaith_enevorodwaith_mosha
 	}
 }
