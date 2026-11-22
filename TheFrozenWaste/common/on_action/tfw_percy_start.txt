@@ -1,6 +1,8 @@
 ﻿
 
 percival_game_start = {
+	on_actions = { tfw_starting_regalia }
+
 
 
 	events = {
@@ -8,4 +10,8 @@ percival_game_start = {
 	}
 
 
+}
+
+tfw_starting_regalia = {
+	effect = { tfw_grant_starting_regalia = yes }
 }

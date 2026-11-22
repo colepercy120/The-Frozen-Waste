@@ -1,0 +1,159 @@
+tfw_create_heirloom = {
+	save_scope_as = owner
+	set_artifact_rarity_$RARITY$ = yes
+	create_artifact = {
+		name = $ID$_name
+		description = $ID$_description
+		type = $TYPE$
+		visuals = $VISUAL$
+		wealth = scope:wealth
+		quality = scope:quality
+		modifier = $MODIFIER$
+		decaying = no
+		save_scope_as = newly_created_artifact
+	}
+	scope:newly_created_artifact = {
+		set_variable = $ID$
+		set_variable = { name = historical_unique_artifact value = yes }
+		equip_artifact_to_owner_replace = yes
+	}
+}
+
+tfw_grant_starting_regalia = {
+	title:e_winter_court.holder ?= {
+		if = {
+			limit = { NOT = { has_character_flag = tfw_received_starting_regalia } }
+			tfw_create_heirloom = { ID = tfw_e_winter_court_crown TYPE = helmet VISUAL = crown_of_the_grey_king_obsidian MODIFIER = tfw_royal_crown_modifier RARITY = famed }
+			tfw_create_heirloom = { ID = tfw_e_winter_court_weapon TYPE = sword VISUAL = silver_sword MODIFIER = tfw_royal_weapon_modifier RARITY = famed }
+			add_character_flag = tfw_received_starting_regalia
+		}
+	}
+	title:e_ered_rhivamar.holder ?= {
+		if = {
+			limit = { NOT = { has_character_flag = tfw_received_starting_regalia } }
+			tfw_create_heirloom = { ID = tfw_e_ered_rhivamar_crown TYPE = helmet VISUAL = crown MODIFIER = tfw_royal_crown_modifier RARITY = famed }
+			tfw_create_heirloom = { ID = tfw_e_ered_rhivamar_weapon TYPE = sword VISUAL = silver_sword MODIFIER = tfw_royal_weapon_modifier RARITY = famed }
+			add_character_flag = tfw_received_starting_regalia
+		}
+	}
+	title:k_angband.holder ?= {
+		if = {
+			limit = { NOT = { has_character_flag = tfw_received_starting_regalia } }
+			tfw_create_heirloom = { ID = tfw_k_angband_crown TYPE = helmet VISUAL = crown_of_the_grey_king_obsidian MODIFIER = tfw_royal_crown_modifier RARITY = famed }
+			tfw_create_heirloom = { ID = tfw_k_angband_weapon TYPE = axe VISUAL = axe_faderda MODIFIER = tfw_royal_weapon_modifier RARITY = famed }
+			add_character_flag = tfw_received_starting_regalia
+		}
+	}
+	title:k_winter_queen_faith.holder ?= {
+		if = {
+			limit = { NOT = { has_character_flag = tfw_received_starting_regalia } }
+			tfw_create_heirloom = { ID = tfw_k_winter_queen_faith_crown TYPE = helmet VISUAL = crown MODIFIER = tfw_royal_crown_modifier RARITY = famed }
+			tfw_create_heirloom = { ID = tfw_k_winter_queen_faith_weapon TYPE = spear VISUAL = fram_spear MODIFIER = tfw_royal_weapon_modifier RARITY = famed }
+			add_character_flag = tfw_received_starting_regalia
+		}
+	}
+	title:k_durnost.holder ?= {
+		if = {
+			limit = { NOT = { has_character_flag = tfw_received_starting_regalia } }
+			tfw_create_heirloom = { ID = tfw_k_durnost_crown TYPE = helmet VISUAL = goblin_crown MODIFIER = tfw_royal_crown_modifier RARITY = famed }
+			tfw_create_heirloom = { ID = tfw_k_durnost_weapon TYPE = sword VISUAL = orcish_sword MODIFIER = tfw_royal_weapon_modifier RARITY = famed }
+			add_character_flag = tfw_received_starting_regalia
+		}
+	}
+	title:k_nidavellir.holder ?= {
+		if = {
+			limit = { NOT = { has_character_flag = tfw_received_starting_regalia } }
+			tfw_create_heirloom = { ID = tfw_k_nidavellir_crown TYPE = helmet VISUAL = crown_bountig MODIFIER = tfw_royal_crown_modifier RARITY = famed }
+			tfw_create_heirloom = { ID = tfw_k_nidavellir_weapon TYPE = axe VISUAL = axe_faderda MODIFIER = tfw_royal_weapon_modifier RARITY = famed }
+			add_character_flag = tfw_received_starting_regalia
+		}
+	}
+	title:k_aurora_isles.holder ?= {
+		if = {
+			limit = { NOT = { has_character_flag = tfw_received_starting_regalia } }
+			tfw_create_heirloom = { ID = tfw_k_aurora_isles_crown TYPE = helmet VISUAL = crown MODIFIER = tfw_royal_crown_modifier RARITY = famed }
+			tfw_create_heirloom = { ID = tfw_k_aurora_isles_weapon TYPE = spear VISUAL = spear_sealord MODIFIER = tfw_royal_weapon_modifier RARITY = famed }
+			add_character_flag = tfw_received_starting_regalia
+		}
+	}
+	title:k_taurethon.holder ?= {
+		if = {
+			limit = { NOT = { has_character_flag = tfw_received_starting_regalia } }
+			tfw_create_heirloom = { ID = tfw_k_taurethon_crown TYPE = helmet VISUAL = crown_woodland_realm MODIFIER = tfw_royal_crown_modifier RARITY = famed }
+			tfw_create_heirloom = { ID = tfw_k_taurethon_weapon TYPE = spear VISUAL = fram_spear MODIFIER = tfw_royal_weapon_modifier RARITY = famed }
+			add_character_flag = tfw_received_starting_regalia
+		}
+	}
+	title:k_evermist.holder ?= {
+		if = {
+			limit = { NOT = { has_character_flag = tfw_received_starting_regalia } }
+			tfw_create_heirloom = { ID = tfw_k_evermist_crown TYPE = helmet VISUAL = crown MODIFIER = tfw_royal_crown_modifier RARITY = famed }
+			tfw_create_heirloom = { ID = tfw_k_evermist_weapon TYPE = sword VISUAL = silver_sword MODIFIER = tfw_royal_weapon_modifier RARITY = famed }
+			add_character_flag = tfw_received_starting_regalia
+		}
+	}
+	title:k_tol_faron.holder ?= {
+		if = {
+			limit = { NOT = { has_character_flag = tfw_received_starting_regalia } }
+			tfw_create_heirloom = { ID = tfw_k_tol_faron_crown TYPE = helmet VISUAL = crown_bountig MODIFIER = tfw_royal_crown_modifier RARITY = famed }
+			tfw_create_heirloom = { ID = tfw_k_tol_faron_weapon TYPE = spear VISUAL = fram_spear MODIFIER = tfw_royal_weapon_modifier RARITY = famed }
+			add_character_flag = tfw_received_starting_regalia
+		}
+	}
+	title:k_ered_rhivamar.holder ?= {
+		if = {
+			limit = { NOT = { has_character_flag = tfw_received_starting_regalia } }
+			tfw_create_heirloom = { ID = tfw_k_ered_rhivamar_crown TYPE = helmet VISUAL = crown MODIFIER = tfw_royal_crown_modifier RARITY = famed }
+			tfw_create_heirloom = { ID = tfw_k_ered_rhivamar_weapon TYPE = sword VISUAL = silver_sword MODIFIER = tfw_royal_weapon_modifier RARITY = famed }
+			add_character_flag = tfw_received_starting_regalia
+		}
+	}
+	title:k_northern_iron_mountains.holder ?= {
+		if = {
+			limit = { NOT = { has_character_flag = tfw_received_starting_regalia } }
+			tfw_create_heirloom = { ID = tfw_k_northern_iron_mountains_crown TYPE = helmet VISUAL = crown_bountig MODIFIER = tfw_royal_crown_modifier RARITY = famed }
+			tfw_create_heirloom = { ID = tfw_k_northern_iron_mountains_weapon TYPE = spear VISUAL = orcish_spear MODIFIER = tfw_royal_weapon_modifier RARITY = famed }
+			add_character_flag = tfw_received_starting_regalia
+		}
+	}
+	title:k_angband_reach.holder ?= {
+		if = {
+			limit = { NOT = { has_character_flag = tfw_received_starting_regalia } }
+			tfw_create_heirloom = { ID = tfw_k_angband_reach_crown TYPE = helmet VISUAL = crown MODIFIER = tfw_royal_crown_modifier RARITY = famed }
+			tfw_create_heirloom = { ID = tfw_k_angband_reach_weapon TYPE = sword VISUAL = orcish_sword MODIFIER = tfw_royal_weapon_modifier RARITY = famed }
+			add_character_flag = tfw_received_starting_regalia
+		}
+	}
+	title:k_komi.holder ?= {
+		if = {
+			limit = { NOT = { has_character_flag = tfw_received_starting_regalia } }
+			tfw_create_heirloom = { ID = tfw_k_komi_crown TYPE = helmet VISUAL = crown_bountig MODIFIER = tfw_royal_crown_modifier RARITY = famed }
+			tfw_create_heirloom = { ID = tfw_k_komi_weapon TYPE = axe VISUAL = axe_faderda MODIFIER = tfw_royal_weapon_modifier RARITY = famed }
+			add_character_flag = tfw_received_starting_regalia
+		}
+	}
+	title:k_west_frostwood.holder ?= {
+		if = {
+			limit = { NOT = { has_character_flag = tfw_received_starting_regalia } }
+			tfw_create_heirloom = { ID = tfw_k_west_frostwood_crown TYPE = helmet VISUAL = crown_woodland_realm MODIFIER = tfw_royal_crown_modifier RARITY = famed }
+			tfw_create_heirloom = { ID = tfw_k_west_frostwood_weapon TYPE = sword VISUAL = silver_sword MODIFIER = tfw_royal_weapon_modifier RARITY = famed }
+			add_character_flag = tfw_received_starting_regalia
+		}
+	}
+	title:k_east_frostwood.holder ?= {
+		if = {
+			limit = { NOT = { has_character_flag = tfw_received_starting_regalia } }
+			tfw_create_heirloom = { ID = tfw_k_east_frostwood_crown TYPE = helmet VISUAL = crown_woodland_realm MODIFIER = tfw_royal_crown_modifier RARITY = famed }
+			tfw_create_heirloom = { ID = tfw_k_east_frostwood_weapon TYPE = spear VISUAL = fram_spear MODIFIER = tfw_royal_weapon_modifier RARITY = famed }
+			add_character_flag = tfw_received_starting_regalia
+		}
+	}
+}
+
+tfw_grant_tareg_weapon = {
+	tfw_create_heirloom = { ID = tfw_tareg_weapon TYPE = sword VISUAL = silver_sword MODIFIER = tfw_legendary_weapon_modifier RARITY = illustrious }
+}
+
+tfw_grant_annahir_weapon = {
+	tfw_create_heirloom = { ID = tfw_annahir_weapon TYPE = spear VISUAL = fram_spear MODIFIER = tfw_legendary_weapon_modifier RARITY = illustrious }
+}

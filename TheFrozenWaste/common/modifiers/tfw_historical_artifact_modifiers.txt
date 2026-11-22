@@ -1,0 +1,14 @@
+tfw_royal_crown_modifier = {
+	diplomacy = 2
+	monthly_prestige = 0.3
+}
+
+tfw_royal_weapon_modifier = {
+	prowess = 5
+	martial = 1
+}
+
+tfw_legendary_weapon_modifier = {
+	prowess = 9
+	martial = 2
+}
