@@ -147,3 +147,18 @@ tfw_broken_chain_modifier = {
 	monthly_piety = 0.5
 	same_culture_opinion = 8
 }
+
+tfw_galgrins_hammer_modifier = {
+	stewardship = 3
+	monthly_crafting_lifestyle_xp_gain_mult = 0.25
+}
+
+tfw_crist_i_sulhoth_modifier = {
+	prowess_no_portrait = 7
+	martial = 2
+}
+
+tfw_runeknife_of_risinti_modifier = {
+	prowess_no_portrait = 5
+	learning = 3
+}

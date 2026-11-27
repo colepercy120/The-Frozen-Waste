@@ -574,6 +574,72 @@ create_artifact_tfw_broken_chain_effect = {
 	}
 }
 
+create_artifact_tfw_galgrins_hammer_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = tfw_galgrins_hammer_name
+		description = tfw_galgrins_hammer_description
+		type = crafting_tools
+		visuals = north_hammer
+		wealth = scope:wealth
+		quality = scope:quality
+		modifier = tfw_galgrins_hammer_modifier
+		decaying = no
+		save_scope_as = newly_created_artifact
+	}
+	scope:newly_created_artifact ?= {
+		equip_artifact_to_owner_replace = yes
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = tfw_galgrins_hammer
+		save_scope_as = epic
+	}
+}
+
+create_artifact_tfw_crist_i_sulhoth_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = tfw_crist_i_sulhoth_name
+		description = tfw_crist_i_sulhoth_description
+		type = dagger
+		visuals = dagger_westernesse
+		wealth = scope:wealth
+		quality = scope:quality
+		modifier = tfw_crist_i_sulhoth_modifier
+		decaying = no
+		save_scope_as = newly_created_artifact
+	}
+	scope:newly_created_artifact ?= {
+		equip_artifact_to_owner_replace = yes
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = tfw_crist_i_sulhoth
+		save_scope_as = epic
+	}
+}
+
+create_artifact_tfw_runeknife_of_risinti_effect = {
+	$OWNER$ = { save_scope_as = owner }
+	set_artifact_rarity_illustrious = yes
+	create_artifact = {
+		name = tfw_runeknife_of_risinti_name
+		description = tfw_runeknife_of_risinti_description
+		type = dagger
+		visuals = orcish_knife
+		wealth = scope:wealth
+		quality = scope:quality
+		modifier = tfw_runeknife_of_risinti_modifier
+		decaying = no
+		save_scope_as = newly_created_artifact
+	}
+	scope:newly_created_artifact ?= {
+		equip_artifact_to_owner_replace = yes
+		set_variable = { name = historical_unique_artifact value = yes }
+		set_variable = tfw_runeknife_of_risinti
+		save_scope_as = epic
+	}
+}
+
 tfw_grant_starting_regalia = {
 	if = {
 		limit = {

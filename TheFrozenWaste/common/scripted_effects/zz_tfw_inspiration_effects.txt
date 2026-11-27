@@ -2850,6 +2850,73 @@ inspiration_adventure_create_artifact_effect = {
 								}
 								create_artifact_anguirel_effect = { OWNER = root }
 							}
+							2 = { # Galgrin's Hammer
+								modifier = {
+									OR = {
+										scope:adventurer.adventure_inspiration_average_skill_value >= high_inspiration_skill
+										AND = {
+											exists = scope:inspiration_owner.var:artifact_quality
+											scope:inspiration_owner.var:artifact_quality > high_adventurer_epic_quality_level #Cumulative vent choices
+										}
+									}
+									add = 5
+								}
+								trigger = {
+									scope:location ?= { geographical_region = middleearth_forodwaith }
+									NOT = { any_artifact = { has_variable = tfw_galgrins_hammer } }
+								}
+								create_artifact_tfw_galgrins_hammer_effect = { OWNER = root }
+							}
+							2 = { # Crist-i-Sûlhoth
+								modifier = {
+									OR = {
+										scope:adventurer.adventure_inspiration_average_skill_value >= high_inspiration_skill
+										AND = {
+											exists = scope:inspiration_owner.var:artifact_quality
+											scope:inspiration_owner.var:artifact_quality > high_adventurer_epic_quality_level #Cumulative vent choices
+										}
+									}
+									add = 5
+								}
+								trigger = {
+									scope:location ?= { geographical_region = middleearth_forodwaith }
+									NOT = { any_artifact = { has_variable = tfw_crist_i_sulhoth } }
+								}
+								create_artifact_tfw_crist_i_sulhoth_effect = { OWNER = root }
+							}
+							2 = { # Runeknife of Risinti
+								modifier = {
+									OR = {
+										scope:adventurer.adventure_inspiration_average_skill_value >= high_inspiration_skill
+										AND = {
+											exists = scope:inspiration_owner.var:artifact_quality
+											scope:inspiration_owner.var:artifact_quality > high_adventurer_epic_quality_level #Cumulative vent choices
+										}
+									}
+									add = 5
+								}
+								trigger = {
+									scope:location ?= { geographical_region = middleearth_forodwaith }
+									NOT = { any_artifact = { has_variable = tfw_runeknife_of_risinti } }
+								}
+								create_artifact_tfw_runeknife_of_risinti_effect = { OWNER = root }
+							}
+							2 = { # Tear of Yavanna
+								modifier = {
+									OR = {
+										scope:adventurer.adventure_inspiration_average_skill_value >= high_inspiration_skill
+										AND = {
+											exists = scope:inspiration_owner.var:artifact_quality
+											scope:inspiration_owner.var:artifact_quality > high_adventurer_epic_quality_level #Cumulative vent choices
+										}
+									}
+									add = 5
+								}
+								trigger = {
+									scope:location ?= { geographical_region = middleearth_forodwaith }
+								}
+								create_artifact_tfw_tear_of_yavanna_effect = { OWNER = root }
+							}
 							2 = { # Martaryon (Fated Heir)
 								modifier = {
 									OR = {
